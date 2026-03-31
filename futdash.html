@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FutDash — Match Intelligence Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<style>
+:root {
+  --bg:         #0f1117;
+  --surface:    #161d27;
+  --surface2:   #1a2235;
+  --border:     #272b35;
+  --border2:    #323744;
+  --text:       #e2e8f0;
+  --muted:      #6e7891;
+  --muted2:     #4a5168;
+  --accent:     #4ade80;
+  --gold:       #fbbf24;
+  --blue:       #60a5fa;
+  --red:        #f87171;
+  --purple:     #a78bfa;
+  --teal:       #2dd4bf;
+  --orange:     #fb923c;
+  --mono:       'DM Mono', monospace;
+  --display:    'Syne', sans-serif;
+  --body:       'DM Sans', sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14px;line-height:1.6;min-height:100vh;overflow-x:hidden}
+
+/* ── SIDEBAR ────────────────────────────────────────────────── */
+.sidebar{
+  position:fixed;left:0;top:0;bottom:0;width:260px;
+  background:var(--surface);border-right:1px solid var(--border);
+  display:flex;flex-direction:column;z-index:100;
+  transition:transform 0.3s cubic-bezier(.4,0,.2,1);
+}
+.sidebar-header{
+  padding:1.5rem 1.25rem 1rem;
+  border-bottom:1px solid var(--border);
+  flex-shrink:0;
+}
+.sidebar-logo{
+  font-family:var(--display);font-size:1.4rem;font-weight:800;
+  color:#fff;letter-spacing:-0.03em;margin-bottom:0.25rem;
+  display:flex;align-items:center;gap:8px;
+}
+.sidebar-logo-dot{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--accent);display:inline-block;
+  box-shadow:0 0 8px var(--accent);
+}
+.sidebar-tagline{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+
+.sidebar-nav{padding:1rem 0;flex-shrink:0;border-bottom:1px solid var(--border)}
+.nav-item{
+  display:flex;align-items:center;gap:10px;padding:0.55rem 1.25rem;
+  cursor:pointer;transition:background 0.15s;color:var(--muted);font-size:13px;
+  font-family:var(--mono);letter-spacing:0.04em;text-transform:uppercase;font-size:11px;
+}
+.nav-item:hover{background:rgba(255,255,255,0.04);color:var(--text)}
+.nav-item.active{color:var(--accent);background:rgba(74,222,128,0.06)}
+.nav-item .nav-icon{font-size:14px;width:20px;text-align:center;flex-shrink:0}
+
+.sidebar-matches{flex:1;overflow-y:auto;padding:1rem 0}
+.sidebar-matches::-webkit-scrollbar{width:4px}
+.sidebar-matches::-webkit-scrollbar-track{background:transparent}
+.sidebar-matches::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+
+.match-section-label{
+  font-family:var(--mono);font-size:9px;text-transform:uppercase;letter-spacing:0.1em;
+  color:var(--muted2);padding:0.4rem 1.25rem 0.3rem;
+}
+.match-item{
+  padding:0.65rem 1.25rem;cursor:pointer;
+  border-left:3px solid transparent;transition:all 0.15s;
+  position:relative;
+}
+.match-item:hover{background:rgba(255,255,255,0.03)}
+.match-item.active{background:rgba(255,255,255,0.05)}
+.match-item-teams{
+  font-size:12px;font-weight:500;color:var(--text);
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:2px;
+}
+.match-item-score{
+  font-family:var(--mono);font-size:11px;font-weight:500;
+  background:var(--surface2);padding:1px 6px;border-radius:4px;
+}
+.match-item-meta{font-family:var(--mono);font-size:10px;color:var(--muted2)}
+
+/* ── MAIN ────────────────────────────────────────────────────── */
+.main{
+  margin-left:260px;min-height:100vh;
+  display:flex;flex-direction:column;
+}
+
+/* ── SCORE BANNER ────────────────────────────────────────────── */
+.score-banner{
+  position:sticky;top:0;z-index:50;
+  background:var(--surface2);border-bottom:1px solid var(--border);
+  padding:1rem 2rem;
+}
+.banner-comp{
+  font-family:var(--mono);font-size:10px;text-transform:uppercase;
+  letter-spacing:0.1em;color:var(--muted);text-align:center;margin-bottom:0.5rem;
+}
+.banner-score{
+  display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;
+  align-items:center;margin-bottom:0.75rem;
+}
+.banner-team{font-family:var(--display);font-size:1.1rem;font-weight:700}
+.banner-team.home{text-align:right}
+.banner-team.away{text-align:left}
+.banner-nums{
+  display:flex;align-items:center;gap:0.5rem;
+  font-family:var(--display);font-size:2.4rem;font-weight:800;color:#fff;
+}
+.banner-sep{color:var(--muted);font-size:1.8rem;font-weight:300}
+.banner-stats{
+  display:flex;justify-content:center;gap:2rem;
+  font-family:var(--mono);font-size:11px;color:var(--muted);
+}
+.banner-stat span{color:var(--text);margin-left:4px}
+.poss-bar{
+  height:3px;border-radius:2px;margin-top:0.6rem;
+  background:var(--border);overflow:hidden;
+  display:flex;
+}
+.poss-home,.poss-away{height:100%;transition:width 0.6s ease}
+
+/* ── TAB BAR ────────────────────────────────────────────────── */
+.tab-bar{
+  display:flex;padding:0 2rem;
+  border-bottom:1px solid var(--border);background:var(--surface);
+  gap:0;flex-shrink:0;
+}
+.tab{
+  padding:0.75rem 1.25rem;cursor:pointer;
+  font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;
+  color:var(--muted);border-bottom:2px solid transparent;
+  transition:all 0.15s;margin-bottom:-1px;
+}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--text);border-bottom-color:var(--accent)}
+
+/* ── CONTENT ────────────────────────────────────────────────── */
+.content{flex:1;padding:2rem;overflow-x:hidden}
+
+/* ── SECTION HEADER ─────────────────────────────────────────── */
+.section-header{
+  display:flex;align-items:baseline;gap:1rem;
+  padding-bottom:1rem;border-bottom:1px solid var(--border);
+  margin-bottom:1.5rem;
+}
+.section-num{
+  font-family:var(--display);font-size:3rem;font-weight:800;
+  opacity:0.08;line-height:1;flex-shrink:0;
+}
+.section-meta{}
+.section-title{font-family:var(--display);font-size:1.1rem;font-weight:700;color:#fff}
+.section-question{font-size:12px;color:var(--muted);font-style:italic;margin-top:2px}
+
+/* ── GRID LAYOUTS ────────────────────────────────────────────── */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem}
+.grid-1{margin-bottom:1.25rem}
+.panel{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:10px;overflow:hidden;
+}
+.panel-header{
+  padding:0.75rem 1rem;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+}
+.panel-title{
+  font-family:var(--display);font-size:12px;font-weight:700;color:#fff;
+}
+.panel-subtitle{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:2px}
+.panel-body{padding:1rem}
+.chart-container{height:340px;position:relative}
+.chart-container-lg{height:280px;position:relative}
+.chart-container-sm{height:220px;position:relative}
+
+/* ── SKELETON ────────────────────────────────────────────────── */
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:.8}}
+.skeleton{background:var(--border);border-radius:4px;animation:pulse 1.8s ease-in-out infinite}
+.skeleton-panel{height:340px;border-radius:10px}
+.skeleton-text{height:12px;width:60%;margin-bottom:8px}
+.skeleton-text.short{width:40%}
+
+/* ── INSIGHT STRIP ───────────────────────────────────────────── */
+.insight-strip{
+  background:var(--surface2);border:1px solid var(--border);
+  border-radius:8px;padding:1rem 1.25rem;margin-bottom:1.5rem;
+  display:flex;flex-direction:column;gap:6px;
+}
+.insight{font-size:12px;color:var(--muted);display:flex;align-items:flex-start;gap:8px}
+.insight:first-child{color:var(--gold)}
+.insight-arrow{color:var(--muted2);flex-shrink:0;font-size:10px;margin-top:2px}
+
+/* ── PREDICTION CARDS ────────────────────────────────────────── */
+.pred-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}
+.pred-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:10px;padding:1.25rem;
+}
+.pred-card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem}
+.pred-teams{font-family:var(--display);font-size:14px;font-weight:700;color:#fff}
+.pred-date{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:2px}
+.pred-badge{
+  font-family:var(--mono);font-size:9px;padding:3px 8px;border-radius:99px;
+  text-transform:uppercase;letter-spacing:0.06em;flex-shrink:0;
+}
+.pred-badge.upset{background:#3d1f0f;color:var(--orange)}
+.pred-badge.correct{background:#052e16;color:var(--accent)}
+.pred-badge.wrong{background:#3d0f0f;color:var(--red)}
+.pred-badge.future{background:#0c1f3a;color:var(--blue)}
+.pred-badge.confident{background:#1a1040;color:var(--purple)}
+
+.prob-bars{display:flex;flex-direction:column;gap:8px;margin-bottom:1rem}
+.prob-row{display:grid;grid-template-columns:60px 1fr 36px;gap:8px;align-items:center}
+.prob-label{font-family:var(--mono);font-size:10px;color:var(--muted)}
+.prob-track{height:6px;background:var(--border);border-radius:3px;overflow:hidden}
+.prob-fill{height:100%;border-radius:3px;transition:width 0.6s cubic-bezier(.4,0,.2,1)}
+.prob-val{font-family:var(--mono);font-size:10px;color:var(--text);text-align:right}
+
+.pred-result{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-top:0.75rem;border-top:1px solid var(--border);
+  font-family:var(--mono);font-size:11px;color:var(--muted);
+}
+.result-score{font-size:14px;font-weight:500;color:var(--text)}
+.view-match-btn{
+  font-family:var(--mono);font-size:10px;padding:4px 10px;
+  border-radius:6px;border:1px solid var(--border2);
+  background:transparent;color:var(--muted);cursor:pointer;
+  transition:all 0.15s;text-transform:uppercase;letter-spacing:0.05em;
+}
+.view-match-btn:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ── ACCURACY TRACKER ────────────────────────────────────────── */
+.accuracy-header{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;
+  display:flex;align-items:center;gap:2rem;
+}
+.acc-stat{display:flex;flex-direction:column;gap:4px}
+.acc-stat-val{font-family:var(--display);font-size:2rem;font-weight:700;color:#fff}
+.acc-stat-label{font-family:var(--mono);font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em}
+.acc-divider{width:1px;height:40px;background:var(--border);flex-shrink:0}
+
+/* ── FORECAST TAB ────────────────────────────────────────────── */
+.forecast-group{margin-bottom:2rem}
+.forecast-date-label{
+  font-family:var(--mono);font-size:10px;text-transform:uppercase;
+  letter-spacing:0.1em;color:var(--muted2);margin-bottom:0.75rem;
+  display:flex;align-items:center;gap:8px;
+}
+.forecast-date-label::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* ── SELECT CONTROLS ────────────────────────────────────────── */
+.control-row{display:flex;gap:8px;padding:0 1.25rem 1rem;flex-wrap:wrap}
+select{
+  background:var(--surface2);border:1px solid var(--border);
+  color:var(--text);font-family:var(--mono);font-size:11px;
+  padding:6px 10px;border-radius:6px;cursor:pointer;
+  outline:none;appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236e7891' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 8px center;
+  padding-right:24px;
+}
+select:focus{border-color:var(--border2)}
+
+/* ── EMPTY STATE ────────────────────────────────────────────── */
+.empty-state{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  height:100%;padding:3rem;text-align:center;color:var(--muted2);
+}
+.empty-icon{font-size:2.5rem;margin-bottom:1rem;opacity:0.4}
+.empty-title{font-family:var(--display);font-size:1rem;font-weight:700;color:var(--muted);margin-bottom:0.5rem}
+.empty-sub{font-size:12px;line-height:1.6}
+
+/* ── MOBILE TOGGLE ───────────────────────────────────────────── */
+.sidebar-toggle{
+  display:none;position:fixed;bottom:1.5rem;left:1.5rem;z-index:200;
+  background:var(--accent);color:var(--bg);border:none;
+  width:44px;height:44px;border-radius:50%;cursor:pointer;
+  font-size:18px;box-shadow:0 4px 20px rgba(74,222,128,0.4);
+  transition:transform 0.2s;
+}
+.sidebar-toggle:hover{transform:scale(1.08)}
+.sidebar-overlay{
+  display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);
+  z-index:99;backdrop-filter:blur(2px);
+}
+
+@media(max-width:768px){
+  .sidebar{transform:translateX(-100%)}
+  .sidebar.open{transform:translateX(0)}
+  .sidebar-toggle{display:flex;align-items:center;justify-content:center}
+  .sidebar-overlay.open{display:block}
+  .main{margin-left:0}
+  .grid-2{grid-template-columns:1fr}
+  .content{padding:1rem}
+  .score-banner{padding:0.75rem 1rem}
+  .banner-nums{font-size:1.8rem}
+  .banner-team{font-size:0.9rem}
+  .pred-grid{grid-template-columns:1fr}
+}
+
+/* ── PLOTLY OVERRIDES ────────────────────────────────────────── */
+.js-plotly-plot .plotly{background:transparent!important}
+.modebar{display:none!important}
+
+/* ── LOADING ANIMATION ───────────────────────────────────────── */
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.panel{animation:fadeIn 0.3s ease}
+
+/* ── SCROLLBAR ───────────────────────────────────────────────── */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+</style>
+</head>
+<body>
+
+<!-- ── SIDEBAR ────────────────────────────────────────────────── -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-logo"><span class="sidebar-logo-dot"></span>FutDash</div>
+    <div class="sidebar-tagline">Match Intelligence Hub</div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <div class="nav-item active" onclick="switchTab('match')">
+      <span class="nav-icon">⚽</span>Match Analysis
+    </div>
+    <div class="nav-item" onclick="switchTab('predict')">
+      <span class="nav-icon">📊</span>Predictions
+    </div>
+    <div class="nav-item" onclick="switchTab('forecast')">
+      <span class="nav-icon">🔭</span>Forecast
+    </div>
+  </nav>
+
+  <div style="padding:0.75rem 1.25rem 0.5rem">
+    <select id="comp-select" style="width:100%;margin-bottom:6px" onchange="filterMatches()">
+      <option value="">All Competitions</option>
+    </select>
+    <select id="season-select" style="width:100%" onchange="filterMatches()">
+      <option value="">All Seasons</option>
+    </select>
+  </div>
+
+  <div class="sidebar-matches" id="match-list"></div>
+</aside>
+
+<!-- ── MOBILE OVERLAY ─────────────────────────────────────────── -->
+<div class="sidebar-overlay" id="overlay" onclick="closeSidebar()"></div>
+<button class="sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+<!-- ── MAIN ──────────────────────────────────────────────────── -->
+<main class="main">
+  <!-- Score Banner -->
+  <div class="score-banner" id="score-banner" style="display:none">
+    <div class="banner-comp" id="banner-comp">Premier League · 2015/16</div>
+    <div class="banner-score">
+      <div class="banner-team home" id="banner-home-name">Home Team</div>
+      <div class="banner-nums">
+        <span id="banner-score-h">0</span>
+        <span class="banner-sep">–</span>
+        <span id="banner-score-a">0</span>
+      </div>
+      <div class="banner-team away" id="banner-away-name">Away Team</div>
+    </div>
+    <div class="banner-stats">
+      <div class="banner-stat">xG<span id="banner-xg">–</span></div>
+      <div class="banner-stat">Shots<span id="banner-shots">–</span></div>
+      <div class="banner-stat">Possession<span id="banner-poss">–</span></div>
+    </div>
+    <div class="poss-bar">
+      <div class="poss-home" id="poss-home" style="width:50%"></div>
+      <div class="poss-away" id="poss-away" style="width:50%"></div>
+    </div>
+  </div>
+
+  <!-- Tab Bar -->
+  <div class="tab-bar">
+    <div class="tab active" id="tab-match" onclick="switchTab('match')">Match Analysis</div>
+    <div class="tab" id="tab-predict" onclick="switchTab('predict')">Predictions</div>
+    <div class="tab" id="tab-forecast" onclick="switchTab('forecast')">Forecast</div>
+  </div>
+
+  <!-- Content Area -->
+  <div class="content" id="content-area">
+    <div style="display:flex;align-items:center;justify-content:center;height:60vh;flex-direction:column;gap:1rem;color:var(--muted2)">
+      <div style="font-size:3rem;opacity:0.3">⚽</div>
+      <div style="font-family:var(--display);font-size:1.2rem;font-weight:700;color:var(--muted)">Select a match to begin</div>
+      <div style="font-size:12px;max-width:280px;text-align:center;line-height:1.7">Choose a competition, season, and match from the left sidebar to load the full analytics dashboard.</div>
+    </div>
+  </div>
+</main>
+
+<script>
+// ─────────────────────────────────────────────────────────────────
+// DEMO DATA — Simulates what the Python pipeline outputs
+// In production, this comes from /data/index.json + /data/matches/{id}.json
+// ─────────────────────────────────────────────────────────────────
+const INDEX = {
+  competitions: [
+    {
+      id: 2, name: "Premier League", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      seasons: [
+        {
+          id: 27, name: "2015/16",
+          matches: [
+            { match_id: 3773369, home: "Manchester City", away: "Aston Villa", score_home: 4, score_away: 0, date: "2015-09-12", home_color: "#98c5e9", away_color: "#a0395e" },
+            { match_id: 3773370, home: "Arsenal", away: "Tottenham Hotspur", score_home: 2, score_away: 1, date: "2015-11-08", home_color: "#ef0107", away_color: "#6585d0" },
+            { match_id: 3773371, home: "Chelsea", away: "Liverpool", score_home: 1, score_away: 3, date: "2015-10-31", home_color: "#034694", away_color: "#00a398" },
+          ]
+        },
+        {
+          id: 26, name: "2014/15",
+          matches: [
+            { match_id: 3773372, home: "Manchester United", away: "Everton", score_home: 3, score_away: 1, date: "2014-10-05", home_color: "#da020e", away_color: "#274488" },
+            { match_id: 3773373, home: "Newcastle United", away: "Crystal Palace", score_home: 1, score_away: 2, date: "2014-12-13", home_color: "#4a90c8", away_color: "#1b458f" },
+          ]
+        }
+      ]
+    },
+    {
+      id: 11, name: "La Liga", flag: "🇪🇸",
+      seasons: [
+        {
+          id: 27, name: "2015/16",
+          matches: [
+            { match_id: 3773380, home: "Barcelona", away: "Real Madrid", score_home: 1, score_away: 2, date: "2015-11-21", home_color: "#a50044", away_color: "#f0c040" },
+            { match_id: 3773381, home: "Atletico Madrid", away: "Sevilla", score_home: 0, score_away: 0, date: "2015-10-17", home_color: "#cb3524", away_color: "#d4021d" },
+          ]
+        }
+      ]
+    },
+    {
+      id: 9, name: "Champions League", flag: "⭐",
+      seasons: [
+        {
+          id: 7, name: "2018/19",
+          matches: [
+            { match_id: 3773390, home: "Liverpool", away: "Barcelona", score_home: 4, score_away: 0, date: "2019-05-07", home_color: "#00a398", away_color: "#a50044" },
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+// Generate synthetic match data
+function generateMatchData(matchInfo) {
+  const { match_id, home, away, score_home, score_away, home_color, away_color, date } = matchInfo;
+  const rng = (seed) => { let x = Math.sin(seed) * 10000; return x - Math.floor(x); };
+  const s = match_id;
+
+  // xG flow
+  const minutes = Array.from({length:92},(_,i)=>i);
+  let cumH = 0, cumA = 0;
+  const cumHome = [], cumAway = [], pressH = [], pressA = [];
+  for (let m = 0; m < 92; m++) {
+    if (rng(s+m*7) < 0.08) cumH += rng(s+m*3) * 0.4 + 0.03;
+    if (rng(s+m*11) < 0.07) cumA += rng(s+m*5) * 0.35 + 0.03;
+    cumHome.push(parseFloat(cumH.toFixed(3)));
+    cumAway.push(parseFloat(cumA.toFixed(3)));
+    pressH.push(parseFloat((rng(s+m*13) * 0.8).toFixed(3)));
+    pressA.push(parseFloat((rng(s+m*17) * 0.7).toFixed(3)));
+  }
+
+  // shots
+  const shots = [];
+  const homeShots = 8 + Math.floor(rng(s) * 12);
+  const awayShots = 6 + Math.floor(rng(s+1) * 10);
+  for (let i = 0; i < homeShots; i++) {
+    const xg = parseFloat((rng(s+i*2+100)*0.5+0.03).toFixed(3));
+    const isGoal = i < score_home;
+    shots.push({ x: 90+rng(s+i)*25, y: 30+rng(s+i*3)*20, xg, goal: isGoal, team: "home",
+      player: ["Silva","De Bruyne","Agüero","Touré","Sterling","Milner"][i%6],
+      player_full: ["David Silva","Kevin De Bruyne","Sergio Agüero","Yaya Touré","Raheem Sterling","James Milner"][i%6],
+      minute: Math.floor(rng(s+i*5)*85)+1, technique: "Normal", body_part: "Right Foot" });
+  }
+  for (let i = 0; i < awayShots; i++) {
+    const xg = parseFloat((rng(s+i*4+200)*0.4+0.02).toFixed(3));
+    const isGoal = i < score_away;
+    shots.push({ x: 90+rng(s+i*6)*22, y: 28+rng(s+i*8)*24, xg, goal: isGoal, team: "away",
+      player: ["Hutton","Ayew","Gestede","Cleverley","Bacuna","Gil"][i%6],
+      player_full: ["Alan Hutton","Jordan Ayew","Rudy Gestede","Tom Cleverley","Leandro Bacuna","Ramón Traoré"][i%6],
+      minute: Math.floor(rng(s+i*9)*85)+1, technique: "Normal", body_part: "Left Foot" });
+  }
+
+  // network
+  const homePlayers = ["Caballero","Sagna","Kompany","Otamendi","Clichy","Fernando","Toure","Silva","De Bruyne","Sterling","Agüero"];
+  const awayPlayers = ["Guzan","Hutton","Vlaar","Richards","Cissokho","Westwood","Cleverley","Sanchez","Ayew","Gestede","Gil"];
+  const buildNet = (players, mirror) => {
+    const nodes = players.map((p,i) => ({
+      id: p, short: p.split(' ').pop().slice(0,11),
+      x: mirror ? 120-(20+Math.floor(i/3)*25+rng(s+i*7)*10) : (20+Math.floor(i/3)*25+rng(s+i*7)*10),
+      y: 8 + i*6.5 + rng(s+i*11)*5,
+      size: 80+rng(s+i*3)*300, is_playmaker: i===7||i===8,
+      betweenness: rng(s+i*5), eigenvector: rng(s+i*9)
+    }));
+    const edges = [];
+    for (let i=0; i<players.length; i++) {
+      for (let j=i+1; j<players.length; j++) {
+        if (rng(s+i*100+j) > 0.55) {
+          edges.push({ source: players[i], target: players[j], weight: Math.floor(rng(s+i*50+j)*20)+3,
+            direction: j>i+2 ? "forward" : "lateral" });
+        }
+      }
+    }
+    return { nodes, edges };
+  };
+
+  const ph = 50 + Math.floor(rng(s+999) * 30);
+  const xghFinal = cumHome[91];
+  const xgaFinal = cumAway[91];
+
+  const vaepRoles = ["Finisher","Progressor","Carrier","Presser","Defender","Contributor"];
+  const vaepHome = homePlayers.slice(1,6).map((p,i) => ({
+    player: p, short: p, vaep: parseFloat((1+rng(s+i*77)*6).toFixed(3)),
+    role: vaepRoles[i%6], n_actions: 20+Math.floor(rng(s+i*33)*80)
+  })).sort((a,b)=>b.vaep-a.vaep);
+  const vaepAway = awayPlayers.slice(1,6).map((p,i) => ({
+    player: p, short: p, vaep: parseFloat((0.5+rng(s+i*44)*4).toFixed(3)),
+    role: vaepRoles[(i+2)%6], n_actions: 15+Math.floor(rng(s+i*55)*60)
+  })).sort((a,b)=>b.vaep-a.vaep);
+
+  const insights = [];
+  const diff = Math.abs(xghFinal - xgaFinal);
+  const dom = xghFinal > xgaFinal ? home : away;
+  if (diff > 0.5) insights.push(`${dom} created ${diff.toFixed(2)} more xG — dominant territorial control`);
+  else insights.push(`Closely contested: ${home} ${xghFinal.toFixed(2)} xG vs ${away} ${xgaFinal.toFixed(2)} xG`);
+  if (ph > 58) insights.push(`${home} controlled possession (${ph}%) — structured build-up play`);
+  else if (ph < 42) insights.push(`${away} dominated possession (${100-ph}%) — ${home} sat deep`);
+  else insights.push("Even possession — contested midfield throughout");
+  const convH = score_home / Math.max(homeShots,1);
+  if (score_home > score_away && convH > 0.15) insights.push(`${home} clinical: ${score_home}G from ${homeShots} shots (${Math.round(convH*100)}%)`);
+
+  return {
+    meta: {
+      match_id, home, away, home_color, away_color,
+      score_home, score_away, xg_home: parseFloat(xghFinal.toFixed(2)),
+      xg_away: parseFloat(xgaFinal.toFixed(2)), shots_home: homeShots,
+      shots_away: awayShots, possession_home: ph,
+      competition: "Demo Competition", season: "2015/16", date
+    },
+    xg_flow: { minutes, home: cumHome, away: cumAway, pressure_home: pressH, pressure_away: pressA },
+    shots,
+    network_home: buildNet(homePlayers, false),
+    network_away: buildNet(awayPlayers, true),
+    vaep: { home: vaepHome, away: vaepAway },
+    game_state: {
+      goal_minute: score_home > 0 || score_away > 0 ? 37 : null,
+      home_before: { passes: 210, shots: 8, pressures: 42 },
+      home_after: { passes: 180, shots: 5, pressures: 65 },
+      away_before: { passes: 140, shots: 4, pressures: 28 },
+      away_after: { passes: 120, shots: 3, pressures: 35 }
+    },
+    insights
+  };
+}
+
+// Prediction data
+const PREDICTIONS = [
+  { match_id: "EPL-2024-001", date: "2024-01-15", home: "Arsenal", away: "Liverpool", home_color: "#ef0107", away_color: "#00a398", predicted: { home_win: 0.41, draw: 0.28, away_win: 0.31 }, actual: { home_goals: 1, away_goals: 0, outcome: "H" }, is_upset: false, has_statsbomb: true, statsbomb_match_id: 3773369 },
+  { match_id: "EPL-2024-002", date: "2024-01-20", home: "Chelsea", away: "Manchester City", home_color: "#034694", away_color: "#98c5e9", predicted: { home_win: 0.22, draw: 0.29, away_win: 0.49 }, actual: { home_goals: 1, away_goals: 1, outcome: "D" }, is_upset: true, has_statsbomb: false },
+  { match_id: "EPL-2024-003", date: "2024-01-27", home: "Manchester United", away: "Tottenham Hotspur", home_color: "#da020e", away_color: "#6585d0", predicted: { home_win: 0.35, draw: 0.32, away_win: 0.33 }, actual: { home_goals: 2, away_goals: 3, outcome: "A" }, is_upset: true, has_statsbomb: false },
+  { match_id: "EPL-2024-004", date: "2024-02-03", home: "Newcastle United", away: "Everton", home_color: "#4a90c8", away_color: "#274488", predicted: { home_win: 0.52, draw: 0.27, away_win: 0.21 }, actual: { home_goals: 3, away_goals: 1, outcome: "H" }, is_upset: false, has_statsbomb: false },
+  { match_id: "EPL-2024-005", date: "2024-02-10", home: "Brighton", away: "Fulham", home_color: "#0055a9", away_color: "#cc0000", predicted: { home_win: 0.44, draw: 0.30, away_win: 0.26 }, actual: { home_goals: 0, away_goals: 1, outcome: "A" }, is_upset: true, has_statsbomb: false },
+  { match_id: "EPL-2024-006", date: "2024-02-17", home: "Aston Villa", away: "West Ham United", home_color: "#a0395e", away_color: "#60223b", predicted: { home_win: 0.48, draw: 0.28, away_win: 0.24 }, actual: { home_goals: 3, away_goals: 2, outcome: "H" }, is_upset: false, has_statsbomb: false },
+];
+
+const FORECAST = [
+  { match_id: "EPL-2024-F01", date: "2024-03-30", home: "Arsenal", away: "Manchester City", home_color: "#ef0107", away_color: "#98c5e9", predicted: { home_win: 0.38, draw: 0.27, away_win: 0.35 }, actual: null, has_statsbomb: false },
+  { match_id: "EPL-2024-F02", date: "2024-03-30", home: "Liverpool", away: "Everton", home_color: "#00a398", away_color: "#274488", predicted: { home_win: 0.62, draw: 0.23, away_win: 0.15 }, actual: null, has_statsbomb: false },
+  { match_id: "EPL-2024-F03", date: "2024-03-30", home: "Chelsea", away: "Brentford", home_color: "#034694", away_color: "#e30613", predicted: { home_win: 0.44, draw: 0.29, away_win: 0.27 }, actual: null, has_statsbomb: false },
+  { match_id: "EPL-2024-F04", date: "2024-04-06", home: "Newcastle United", away: "Tottenham Hotspur", home_color: "#4a90c8", away_color: "#6585d0", predicted: { home_win: 0.42, draw: 0.30, away_win: 0.28 }, actual: null, has_statsbomb: false },
+  { match_id: "EPL-2024-F05", date: "2024-04-06", home: "Aston Villa", away: "Fulham", home_color: "#a0395e", away_color: "#cc0000", predicted: { home_win: 0.57, draw: 0.26, away_win: 0.17 }, actual: null, has_statsbomb: false },
+];
+
+// ─────────────────────────────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────────────────────────────
+let state = {
+  currentMatch: null,
+  activeTab: 'match',
+  isLoading: false,
+  selectedComp: '',
+  selectedSeason: ''
+};
+
+// ─────────────────────────────────────────────────────────────────
+// PLOTLY THEME
+// ─────────────────────────────────────────────────────────────────
+const PLOTLY_LAYOUT = {
+  paper_bgcolor: 'rgba(0,0,0,0)',
+  plot_bgcolor: '#161d27',
+  font: { family: "'DM Mono', monospace", color: '#e2e8f0', size: 11 },
+  margin: { t: 20, r: 20, b: 40, l: 50 },
+  xaxis: { gridcolor: '#272b35', gridwidth: 0.5, zerolinecolor: '#272b35', tickfont: { size: 10 } },
+  yaxis: { gridcolor: '#272b35', gridwidth: 0.5, zerolinecolor: '#272b35', tickfont: { size: 10 } },
+  legend: { bgcolor: 'rgba(22,29,39,0.85)', bordercolor: '#272b35', borderwidth: 1, font: { size: 11 } },
+  hovermode: 'closest',
+  hoverlabel: { bgcolor: '#1a2235', bordercolor: '#272b35', font: { family: "'DM Mono', monospace", size: 11 } }
+};
+const PLOTLY_CONFIG = { displayModeBar: false, responsive: true };
+
+// ─────────────────────────────────────────────────────────────────
+// PITCH SHAPES FOR PLOTLY
+// ─────────────────────────────────────────────────────────────────
+function pitchShapes(alpha = 0.4) {
+  const lc = `rgba(201,209,217,${alpha})`;
+  const shapes = [
+    // Outer boundary
+    { type: 'rect', x0: 0, y0: 0, x1: 120, y1: 80, line: { color: lc, width: 1.5 }, fillcolor: '#1c3a28' },
+    // Center line
+    { type: 'line', x0: 60, y0: 0, x1: 60, y1: 80, line: { color: lc, width: 1 } },
+    // Center circle (approximated as ellipse)
+    { type: 'circle', x0: 50, y0: 30, x1: 70, y1: 50, line: { color: lc, width: 1 }, fillcolor: 'rgba(0,0,0,0)' },
+    // Left penalty box
+    { type: 'rect', x0: 0, y0: 18, x1: 18, y1: 62, line: { color: lc, width: 1 }, fillcolor: 'rgba(0,0,0,0)' },
+    // Right penalty box
+    { type: 'rect', x0: 102, y0: 18, x1: 120, y1: 62, line: { color: lc, width: 1 }, fillcolor: 'rgba(0,0,0,0)' },
+    // Left six-yard box
+    { type: 'rect', x0: 0, y0: 30, x1: 6, y1: 50, line: { color: lc, width: 1 }, fillcolor: 'rgba(0,0,0,0)' },
+    // Right six-yard box
+    { type: 'rect', x0: 114, y0: 30, x1: 120, y1: 50, line: { color: lc, width: 1 }, fillcolor: 'rgba(0,0,0,0)' },
+  ];
+  return shapes;
+}
+
+function pitchLayout(title = '') {
+  return {
+    ...PLOTLY_LAYOUT,
+    plot_bgcolor: '#1c3a28',
+    xaxis: { range: [-3, 123], showgrid: false, zeroline: false, showticklabels: false, fixedrange: true },
+    yaxis: { range: [-3, 83], showgrid: false, zeroline: false, showticklabels: false, fixedrange: true, scaleanchor: 'x' },
+    shapes: pitchShapes(),
+    margin: { t: 30, r: 10, b: 10, l: 10 },
+    title: title ? { text: title, font: { size: 12, color: '#e2e8f0', family: "'Syne', sans-serif" }, x: 0.5 } : undefined,
+    showlegend: false,
+  };
+}
+
+// ─────────────────────────────────────────────────────────────────
+// SIDEBAR POPULATION
+// ─────────────────────────────────────────────────────────────────
+function populateSidebar() {
+  const compSel = document.getElementById('comp-select');
+  const seasonSel = document.getElementById('season-select');
+  const seasons = new Set();
+
+  INDEX.competitions.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c.id; opt.textContent = c.flag + ' ' + c.name;
+    compSel.appendChild(opt);
+    c.seasons.forEach(s => seasons.add(s.name));
+  });
+
+  [...seasons].sort().reverse().forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    seasonSel.appendChild(opt);
+  });
+
+  renderMatchList();
+}
+
+function filterMatches() {
+  state.selectedComp = document.getElementById('comp-select').value;
+  state.selectedSeason = document.getElementById('season-select').value;
+  renderMatchList();
+}
+
+function renderMatchList() {
+  const el = document.getElementById('match-list');
+  el.innerHTML = '';
+  INDEX.competitions.forEach(c => {
+    if (state.selectedComp && c.id != state.selectedComp) return;
+    c.seasons.forEach(s => {
+      if (state.selectedSeason && s.name !== state.selectedSeason) return;
+      const label = document.createElement('div');
+      label.className = 'match-section-label';
+      label.textContent = c.flag + ' ' + c.name + ' · ' + s.name;
+      el.appendChild(label);
+      s.matches.forEach(m => {
+        const item = document.createElement('div');
+        item.className = 'match-item' + (state.currentMatch?.meta?.match_id === m.match_id ? ' active' : '');
+        item.style.borderLeftColor = m.home_color;
+        item.innerHTML = `
+          <div class="match-item-teams">
+            <span>${m.home}</span>
+            <span class="match-item-score" style="color:${m.score_home > m.score_away ? m.home_color : (m.score_away > m.score_home ? m.away_color : '#e2e8f0')}">${m.score_home}–${m.score_away}</span>
+          </div>
+          <div class="match-item-teams" style="margin-top:1px"><span>${m.away}</span></div>
+          <div class="match-item-meta">${formatDate(m.date)}</div>
+        `;
+        item.onclick = () => loadMatch(m);
+        el.appendChild(item);
+      });
+    });
+  });
+}
+
+function formatDate(d) {
+  const dt = new Date(d);
+  return dt.toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// LOAD MATCH
+// ─────────────────────────────────────────────────────────────────
+function loadMatch(matchInfo) {
+  state.isLoading = true;
+  state.currentMatch = generateMatchData(matchInfo);
+
+  // Update sidebar active state
+  document.querySelectorAll('.match-item').forEach(el => el.classList.remove('active'));
+  event?.currentTarget?.classList.add('active');
+
+  updateBanner(state.currentMatch);
+  renderMatchDashboard(state.currentMatch);
+  if (window.innerWidth <= 768) closeSidebar();
+}
+
+// ─────────────────────────────────────────────────────────────────
+// SCORE BANNER
+// ─────────────────────────────────────────────────────────────────
+function updateBanner(d) {
+  const { meta } = d;
+  document.getElementById('score-banner').style.display = 'block';
+  document.getElementById('banner-comp').textContent = `${meta.competition} · ${meta.season}`;
+  document.getElementById('banner-home-name').textContent = meta.home;
+  document.getElementById('banner-home-name').style.color = meta.home_color;
+  document.getElementById('banner-away-name').textContent = meta.away;
+  document.getElementById('banner-away-name').style.color = meta.away_color;
+  document.getElementById('banner-score-h').textContent = meta.score_home;
+  document.getElementById('banner-score-a').textContent = meta.score_away;
+  document.getElementById('banner-xg').textContent = ` ${meta.xg_home?.toFixed(2)} – ${meta.xg_away?.toFixed(2)}`;
+  document.getElementById('banner-shots').textContent = ` ${meta.shots_home} – ${meta.shots_away}`;
+  document.getElementById('banner-poss').textContent = ` ${meta.possession_home}% – ${100-meta.possession_home}%`;
+  document.getElementById('poss-home').style.width = meta.possession_home + '%';
+  document.getElementById('poss-home').style.background = meta.home_color;
+  document.getElementById('poss-away').style.width = (100 - meta.possession_home) + '%';
+  document.getElementById('poss-away').style.background = meta.away_color;
+}
+
+// ─────────────────────────────────────────────────────────────────
+// MATCH DASHBOARD
+// ─────────────────────────────────────────────────────────────────
+function renderMatchDashboard(d) {
+  const { meta, xg_flow, shots, network_home, network_away, vaep, game_state, insights } = d;
+  const hc = meta.home_color, ac = meta.away_color;
+
+  const html = `
+    <!-- Insights -->
+    <div class="insight-strip">
+      ${insights.map((ins,i) => `<div class="insight"><span class="insight-arrow">▸</span>${ins}</div>`).join('')}
+    </div>
+
+    <!-- Section 1: Tactical Structure -->
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <div class="section-meta">
+        <div class="section-title">Tactical Structure</div>
+        <div class="section-question">How did both teams build play?</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title" style="color:${hc}">${meta.home}</div>
+            <div class="panel-subtitle">Pass Network · Click node to highlight</div>
+          </div>
+        </div>
+        <div class="chart-container" id="net-home"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title" style="color:${ac}">${meta.away}</div>
+            <div class="panel-subtitle">Pass Network · Mirror view</div>
+          </div>
+        </div>
+        <div class="chart-container" id="net-away"></div>
+      </div>
+    </div>
+
+    <div class="grid-1">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">xG Flow — How Did Chances Build?</div>
+            <div class="panel-subtitle">Steeper slope = burst of danger · Faint area = final-third pressure</div>
+          </div>
+        </div>
+        <div class="chart-container-lg" id="xg-flow"></div>
+      </div>
+    </div>
+
+    <!-- Section 2: Chance Creation -->
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <div class="section-meta">
+        <div class="section-title">Chance Creation</div>
+        <div class="section-question">Where did danger come from?</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Possession Origins → Shots</div>
+        </div>
+        <div class="chart-container" id="poss-arrows"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Shot Map — Both Teams</div>
+            <div class="panel-subtitle">Both teams attack right · Gold star = goal · Size = xG</div>
+          </div>
+        </div>
+        <div class="chart-container" id="shot-map"></div>
+      </div>
+    </div>
+
+    <!-- Section 3: Individual Impact -->
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <div class="section-meta">
+        <div class="section-title">Individual Impact</div>
+        <div class="section-question">Who made the difference?</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title" style="color:${hc}">${meta.home} — VAEP</div>
+            <div class="panel-subtitle">Value Added by Expected Possession</div>
+          </div>
+        </div>
+        <div class="chart-container-sm" id="vaep-home"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title" style="color:${ac}">${meta.away} — VAEP</div>
+            <div class="panel-subtitle">Value Added by Expected Possession</div>
+          </div>
+        </div>
+        <div class="chart-container-sm" id="vaep-away"></div>
+      </div>
+    </div>
+
+    <!-- Section 4: Game State -->
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <div class="section-meta">
+        <div class="section-title">Game State Effects</div>
+        <div class="section-question">Did the match change after goals?</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Counterattack Timeline</div>
+        </div>
+        <div class="chart-container-sm" id="ca-timeline"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Before vs After Goal</div>
+            <div class="panel-subtitle">${game_state.goal_minute ? `First goal at ${game_state.goal_minute}'` : 'No goals scored'}</div>
+          </div>
+        </div>
+        <div style="padding:1rem" id="game-state-table"></div>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('content-area').innerHTML = html;
+
+  // Render all charts
+  setTimeout(() => {
+    renderPassNetwork('net-home', network_home, hc, meta.home);
+    renderPassNetwork('net-away', network_away, ac, meta.away);
+    renderXgFlow('xg-flow', xg_flow, meta.home, meta.away, hc, ac, shots);
+    renderShotMap('poss-arrows', shots, meta.home, meta.away, hc, ac, true);
+    renderShotMap('shot-map', shots, meta.home, meta.away, hc, ac, false);
+    renderVaep('vaep-home', vaep.home, hc);
+    renderVaep('vaep-away', vaep.away, ac);
+    renderCaTimeline('ca-timeline', meta.home, meta.away, hc, ac);
+    renderGameStateTable('game-state-table', game_state, meta.home, meta.away, hc, ac);
+  }, 50);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// PASS NETWORK
+// ─────────────────────────────────────────────────────────────────
+function renderPassNetwork(containerId, network, teamColor, teamName) {
+  const { nodes, edges } = network;
+  const maxW = Math.max(...edges.map(e => e.weight), 1);
+
+  const edgeTraces = edges.map(e => {
+    const src = nodes.find(n => n.id === e.source);
+    const tgt = nodes.find(n => n.id === e.target);
+    if (!src || !tgt) return null;
+    const alpha = 0.15 + 0.6 * (e.weight / maxW);
+    const col = e.direction === 'forward' ? teamColor :
+                e.direction === 'backward' ? '#484f58' : '#3fb950';
+    return {
+      type: 'scatter', mode: 'lines',
+      x: [src.x, tgt.x, null], y: [src.y, tgt.y, null],
+      line: { color: col, width: 0.8 + 3 * (e.weight / maxW) },
+      opacity: alpha,
+      hoverinfo: 'none', showlegend: false
+    };
+  }).filter(Boolean);
+
+  const glowTrace = {
+    type: 'scatter', mode: 'markers',
+    x: nodes.map(n => n.x), y: nodes.map(n => n.y),
+    marker: {
+      size: nodes.map(n => Math.sqrt(n.size) * 0.8 + 4),
+      color: 'rgba(255,255,255,0)',
+      line: { color: 'rgba(255,255,255,0.12)', width: 6 }
+    },
+    hoverinfo: 'none', showlegend: false
+  };
+
+  const nodeTrace = {
+    type: 'scatter', mode: 'markers+text',
+    x: nodes.map(n => n.x), y: nodes.map(n => n.y),
+    marker: {
+      size: nodes.map(n => Math.sqrt(n.size) * 0.8),
+      color: nodes.map(n => n.is_playmaker ? '#fbbf24' : teamColor),
+      line: {
+        color: nodes.map(n => n.is_playmaker ? '#fbbf24' : 'rgba(255,255,255,0.7)'),
+        width: nodes.map(n => n.is_playmaker ? 2.5 : 1.5)
+      },
+      opacity: 0.9
+    },
+    text: nodes.map(n => n.short),
+    textposition: 'top center',
+    textfont: { size: 9, color: '#e2e8f0', family: "'DM Mono', monospace" },
+    hovertemplate: '<b>%{customdata.id}</b><br>btw: %{customdata.btw:.2f}<extra></extra>',
+    customdata: nodes.map(n => ({ id: n.id, btw: n.betweenness })),
+    showlegend: false
+  };
+
+  const layout = {
+    ...pitchLayout(),
+    annotations: nodes.filter(n => n.is_playmaker).map(n => ({
+      x: n.x, y: n.y + 5, xref: 'x', yref: 'y',
+      text: `★ Playmaker`,
+      font: { color: '#fbbf24', size: 8, family: "'DM Mono', monospace" },
+      showarrow: false, bgcolor: 'rgba(22,29,39,0.8)', bordercolor: '#fbbf24',
+      borderwidth: 0.5, borderpad: 2
+    }))
+  };
+
+  Plotly.newPlot(containerId, [...edgeTraces, glowTrace, nodeTrace], layout, PLOTLY_CONFIG);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// xG FLOW
+// ─────────────────────────────────────────────────────────────────
+function renderXgFlow(containerId, xg_flow, home, away, hc, ac, shots) {
+  const { minutes, home: cumH, away: cumA, pressure_home, pressure_away } = xg_flow;
+  const yMax = Math.max(...cumH, ...cumA) * 1.15;
+
+  const goalMinutes = shots.filter(s => s.goal).map(s => ({
+    minute: s.minute,
+    color: s.team === 'home' ? hc : ac,
+    label: `⚽ ${s.player} ${s.minute}'`
+  }));
+
+  const traces = [
+    // Pressure index home
+    { type: 'scatter', mode: 'none', fill: 'tozeroy',
+      x: minutes, y: pressure_home.map(v => v * yMax),
+      fillcolor: `${hc}0a`, line: { color: 'transparent' },
+      hoverinfo: 'none', showlegend: false, name: 'Pressure H' },
+    // Pressure index away
+    { type: 'scatter', mode: 'none', fill: 'tozeroy',
+      x: minutes, y: pressure_away.map(v => v * yMax),
+      fillcolor: `${ac}0a`, line: { color: 'transparent' },
+      hoverinfo: 'none', showlegend: false, name: 'Pressure A' },
+    // Home xG
+    { type: 'scatter', mode: 'lines', fill: 'tozeroy',
+      x: minutes, y: cumH, name: home,
+      line: { color: hc, width: 2.5 },
+      fillcolor: `${hc}10`,
+      hovertemplate: `${home}<br>Min: %{x}'<br>xG: %{y:.3f}<extra></extra>` },
+    // Away xG
+    { type: 'scatter', mode: 'lines', fill: 'tozeroy',
+      x: minutes, y: cumA, name: away,
+      line: { color: ac, width: 2.5 },
+      fillcolor: `${ac}10`,
+      hovertemplate: `${away}<br>Min: %{x}'<br>xG: %{y:.3f}<extra></extra>` },
+  ];
+
+  const annotations = [
+    { x: 45, y: yMax * 0.92, text: 'HT', font: { size: 9, color: '#6e7891' }, showarrow: false },
+    { x: 92, y: cumH[91], text: cumH[91].toFixed(2), font: { size: 10, color: hc }, showarrow: false, xanchor: 'left' },
+    { x: 92, y: cumA[91], text: cumA[91].toFixed(2), font: { size: 10, color: ac }, showarrow: false, xanchor: 'left' },
+  ];
+
+  const shapes = [
+    { type: 'rect', x0: 44, x1: 46, y0: 0, y1: yMax, fillcolor: 'rgba(139,148,158,0.06)', line: { width: 0 } },
+    { type: 'line', x0: 45, x1: 45, y0: 0, y1: yMax, line: { color: 'rgba(139,148,158,0.3)', width: 1, dash: 'dot' } },
+    ...goalMinutes.map(g => ({
+      type: 'line', x0: g.minute, x1: g.minute, y0: 0, y1: yMax,
+      line: { color: g.color, width: 1.5, dash: 'dash' }
+    }))
+  ];
+
+  const layout = {
+    ...PLOTLY_LAYOUT,
+    shapes,
+    annotations,
+    xaxis: { ...PLOTLY_LAYOUT.xaxis, title: { text: 'Match Minute', font: { size: 10 } }, range: [0, 95] },
+    yaxis: { ...PLOTLY_LAYOUT.yaxis, title: { text: 'Cumulative xG', font: { size: 10 } } },
+    legend: { ...PLOTLY_LAYOUT.legend, x: 0.02, y: 0.98, xanchor: 'left', yanchor: 'top' },
+  };
+
+  Plotly.newPlot(containerId, traces, layout, PLOTLY_CONFIG);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// SHOT MAP / POSSESSION ARROWS
+// ─────────────────────────────────────────────────────────────────
+function renderShotMap(containerId, shots, home, away, hc, ac, arrowMode) {
+  const homeShots = shots.filter(s => s.team === 'home');
+  const awayShots = shots.filter(s => s.team === 'away').map(s => ({
+    ...s, x: 120 - s.x, y: 80 - s.y
+  }));
+  const allShots = [...homeShots, ...awayShots];
+
+  const nonGoals = allShots.filter(s => !s.goal);
+  const goals = allShots.filter(s => s.goal);
+
+  const traces = [
+    {
+      type: 'scatter', mode: 'markers',
+      x: nonGoals.map(s => s.x), y: nonGoals.map(s => s.y),
+      marker: {
+        size: nonGoals.map(s => Math.max(s.xg * 28, 6)),
+        color: nonGoals.map(s => s.team === 'home' ? hc : ac),
+        opacity: 0.65, line: { width: 0 }
+      },
+      text: nonGoals.map(s => `${s.player_full}<br>${s.minute}'  xG: ${s.xg.toFixed(3)}<br>${s.technique} · ${s.body_part}`),
+      hoverinfo: 'text', name: 'Shot', showlegend: false
+    },
+    {
+      type: 'scatter', mode: 'markers',
+      x: goals.map(s => s.x), y: goals.map(s => s.y),
+      marker: {
+        symbol: 'star', size: 18, color: '#fbbf24',
+        line: { color: 'white', width: 1 }
+      },
+      text: goals.map(s => `⚽ GOAL<br>${s.player_full}<br>${s.minute}'  xG: ${s.xg.toFixed(3)}`),
+      hoverinfo: 'text', name: 'Goal', showlegend: false
+    }
+  ];
+
+  // Arrows for possession origins mode
+  let annotations = [];
+  if (arrowMode) {
+    // Top 8 highest xG shots per team get arrows from estimated possession origin
+    const topH = homeShots.sort((a,b)=>b.xg-a.xg).slice(0,6);
+    const topA = awayShots.sort((a,b)=>b.xg-a.xg).slice(0,6);
+    [...topH, ...topA].forEach(s => {
+      const originX = s.team === 'home' ? Math.max(s.x - 20 - Math.random()*15, 5) : s.x - 15 + Math.random()*10;
+      const originY = s.y + (Math.random()-0.5) * 12;
+      annotations.push({
+        x: s.x, y: s.y, ax: originX, ay: originY,
+        xref: 'x', yref: 'y', axref: 'x', ayref: 'y',
+        showarrow: true,
+        arrowhead: 2, arrowsize: 0.8,
+        arrowcolor: (s.team === 'home' ? hc : ac) + 'aa',
+        arrowwidth: 1.2,
+      });
+    });
+  }
+
+  const layout = {
+    ...pitchLayout(arrowMode ? 'Possession Origins → Shots' : 'Shot Map — Both Teams'),
+    annotations,
+  };
+
+  Plotly.newPlot(containerId, traces, layout, PLOTLY_CONFIG);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// VAEP BARS
+// ─────────────────────────────────────────────────────────────────
+const ROLE_COLORS = {
+  Finisher: '#f85149', Progressor: '#3fb950', Carrier: '#fbbf24',
+  Presser: '#60a5fa', Defender: '#8b949e', Contributor: '#484f58'
+};
+const ROLE_BADGES = {
+  Finisher: '🎯', Progressor: '↑', Carrier: '⚡',
+  Presser: '⚔', Defender: '🛡', Contributor: '·'
+};
+
+function renderVaep(containerId, players, teamColor) {
+  if (!players?.length) {
+    document.getElementById(containerId).innerHTML = '<div class="empty-state"><div class="empty-icon">📊</div><div>No VAEP data</div></div>';
+    return;
+  }
+
+  const names = players.map(p => `${ROLE_BADGES[p.role] || '·'} ${p.short}`);
+  const vals = players.map(p => p.vaep);
+  const avg = vals.reduce((a,b)=>a+b,0)/vals.length;
+
+  const traces = [
+    {
+      type: 'bar', orientation: 'h',
+      x: vals, y: names,
+      marker: {
+        color: vals.map((_,i) => `${teamColor}${Math.round((0.55 + 0.4*(1-i/vals.length))*255).toString(16).padStart(2,'0')}`),
+        line: { width: 0 }
+      },
+      text: vals.map(v => v.toFixed(3)),
+      textposition: 'inside',
+      textfont: { color: 'white', size: 10 },
+      hovertemplate: '<b>%{y}</b><br>VAEP: %{x:.4f}<extra></extra>',
+      name: 'VAEP'
+    },
+    {
+      type: 'scatter', mode: 'lines',
+      x: [avg, avg], y: [names[0], names[names.length-1]],
+      line: { color: 'rgba(255,255,255,0.3)', width: 1.5, dash: 'dash' },
+      hovertemplate: `Avg: ${avg.toFixed(3)}<extra></extra>`,
+      showlegend: false, name: 'Average'
+    }
+  ];
+
+  const layout = {
+    ...PLOTLY_LAYOUT,
+    xaxis: { ...PLOTLY_LAYOUT.xaxis, title: { text: 'VAEP (ΔxG)', font: { size: 10 } } },
+    yaxis: { ...PLOTLY_LAYOUT.yaxis, autorange: 'reversed', tickfont: { size: 10 } },
+    margin: { t: 10, r: 80, b: 40, l: 80 },
+    showlegend: false,
+  };
+
+  Plotly.newPlot(containerId, traces, layout, PLOTLY_CONFIG);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// COUNTERATTACK TIMELINE
+// ─────────────────────────────────────────────────────────────────
+function renderCaTimeline(containerId, home, away, hc, ac) {
+  // Synthetic counterattack events
+  const events = [];
+  for (let i = 0; i < 22; i++) {
+    const minute = Math.floor(Math.random()*90);
+    const team = Math.random() > 0.45 ? 'home' : 'away';
+    const ledToShot = Math.random() > 0.6;
+    const xg = ledToShot ? parseFloat((Math.random()*0.5+0.03).toFixed(3)) : 0;
+    const goal = ledToShot && xg > 0.35 && Math.random() > 0.7;
+    events.push({ minute, team, ledToShot, xg, goal });
+  }
+  events.sort((a,b) => a.minute - b.minute);
+
+  const shotsEv = events.filter(e => e.ledToShot);
+  const noShotEv = events.filter(e => !e.ledToShot).slice(0, 8);
+
+  const markerTrace = {
+    type: 'scatter', mode: 'markers',
+    x: shotsEv.map(e => e.minute),
+    y: shotsEv.map(() => 0),
+    marker: {
+      symbol: shotsEv.map(e => e.goal ? 'star' : 'diamond'),
+      size: shotsEv.map(e => 8 + e.xg * 30),
+      color: shotsEv.map(e => e.goal ? '#fbbf24' : (e.team === 'home' ? hc : ac)),
+      line: { color: shotsEv.map(e => e.goal ? 'white' : 'transparent'), width: 1 }
+    },
+    text: shotsEv.map(e => `${e.team === 'home' ? home : away} ${e.minute}'<br>xG: ${e.xg.toFixed(3)}${e.goal ? ' ⚽ GOAL' : ''}`),
+    hoverinfo: 'text', showlegend: false
+  };
+
+  const noShotTrace = {
+    type: 'scatter', mode: 'markers',
+    x: noShotEv.map(e => e.minute),
+    y: noShotEv.map(() => 0),
+    marker: {
+      symbol: 'circle-open', size: 8,
+      color: noShotEv.map(e => e.team === 'home' ? hc : ac),
+      line: { width: 1.2 }, opacity: 0.5
+    },
+    text: noShotEv.map(e => `${e.team === 'home' ? home : away} ${e.minute}' — turnover, no shot`),
+    hoverinfo: 'text', showlegend: false
+  };
+
+  const tickTrace = {
+    type: 'scatter', mode: 'lines+text',
+    x: [0,15,30,45,60,75,90], y: [0,0,0,0,0,0,0],
+    line: { width: 0 },
+    mode: 'text',
+    text: ["0'","15'","30'","HT","60'","75'","90'"],
+    textposition: 'bottom center',
+    textfont: { size: 9, color: '#6e7891' },
+    showlegend: false, hoverinfo: 'none'
+  };
+
+  const layout = {
+    ...PLOTLY_LAYOUT,
+    xaxis: { range: [-3, 95], showgrid: false, zeroline: false, showticklabels: false, fixedrange: true },
+    yaxis: { range: [-0.5, 1.5], showgrid: false, zeroline: false, showticklabels: false, fixedrange: true },
+    shapes: [
+      { type: 'line', x0: 0, x1: 90, y0: 0, y1: 0, line: { color: '#30363d', width: 2.5 } },
+      ...([0,15,30,45,60,75,90].map(m => ({ type: 'line', x0: m, x1: m, y0: -0.08, y1: 0.08, line: { color: '#484f58', width: 0.8 } })))
+    ],
+    margin: { t: 10, r: 20, b: 30, l: 20 },
+  };
+
+  Plotly.newPlot(containerId, [markerTrace, noShotTrace, tickTrace], layout, PLOTLY_CONFIG);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// GAME STATE TABLE
+// ─────────────────────────────────────────────────────────────────
+function renderGameStateTable(containerId, gs, home, away, hc, ac) {
+  if (!gs.goal_minute) {
+    document.getElementById(containerId).innerHTML = '<div style="color:var(--muted);font-size:12px;padding:1rem 0;text-align:center">No goals scored — comparison not applicable</div>';
+    return;
+  }
+
+  const stats = [
+    { label: 'Passes', hb: gs.home_before.passes, ha: gs.home_after.passes, ab: gs.away_before.passes, aa: gs.away_after.passes },
+    { label: 'Shots', hb: gs.home_before.shots, ha: gs.home_after.shots, ab: gs.away_before.shots, aa: gs.away_after.shots },
+    { label: 'Pressures', hb: gs.home_before.pressures, ha: gs.home_after.pressures, ab: gs.away_before.pressures, aa: gs.away_after.pressures },
+  ];
+
+  const rows = stats.map(s => {
+    const dh = s.ha - s.hb;
+    const da = s.aa - s.ab;
+    const dhc = dh > 0 ? '#3fb950' : dh < 0 ? '#f85149' : '#6e7891';
+    const dac = da > 0 ? '#3fb950' : da < 0 ? '#f85149' : '#6e7891';
+    return `
+      <div style="display:grid;grid-template-columns:70px 1fr 1fr;gap:0.5rem;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--border)">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em">${s.label}</div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span style="color:${hc};font-weight:600;font-family:var(--mono);font-size:13px">${s.hb}</span>
+          <span style="color:var(--muted2)">→</span>
+          <span style="color:#fff;font-weight:700;font-family:var(--mono);font-size:13px">${s.ha}</span>
+          <span style="color:${dhc};font-size:10px;font-family:var(--mono)">${dh>0?'+':''}${dh}</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span style="color:${ac};font-weight:600;font-family:var(--mono);font-size:13px">${s.ab}</span>
+          <span style="color:var(--muted2)">→</span>
+          <span style="color:#fff;font-weight:700;font-family:var(--mono);font-size:13px">${s.aa}</span>
+          <span style="color:${dac};font-size:10px;font-family:var(--mono)">${da>0?'+':''}${da}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById(containerId).innerHTML = `
+    <div style="display:grid;grid-template-columns:70px 1fr 1fr;gap:0.5rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border)">
+      <div></div>
+      <div style="font-family:var(--mono);font-size:10px;color:${hc};text-transform:uppercase">${home.split(' ').pop()}</div>
+      <div style="font-family:var(--mono);font-size:10px;color:${ac};text-transform:uppercase">${away.split(' ').pop()}</div>
+    </div>
+    ${rows}
+    <div style="font-size:10px;color:var(--muted2);margin-top:0.75rem;font-style:italic">Before → after first goal at ${gs.goal_minute}'  ·  Green = increase  ·  Red = decrease</div>
+  `;
+}
+
+// ─────────────────────────────────────────────────────────────────
+// PREDICTIONS VIEW
+// ─────────────────────────────────────────────────────────────────
+function renderPredictionsView() {
+  const correct = PREDICTIONS.filter(p => {
+    if (!p.actual) return false;
+    const top = Object.entries(p.predicted).sort((a,b)=>b[1]-a[1])[0][0];
+    const actual = p.actual.outcome === 'H' ? 'home_win' : p.actual.outcome === 'D' ? 'draw' : 'away_win';
+    return top === actual;
+  }).length;
+
+  const html = `
+    <div class="accuracy-header">
+      <div class="acc-stat">
+        <div class="acc-stat-val">${correct}/${PREDICTIONS.length}</div>
+        <div class="acc-stat-label">Correct Predictions</div>
+      </div>
+      <div class="acc-divider"></div>
+      <div class="acc-stat">
+        <div class="acc-stat-val" style="color:var(--accent)">${Math.round(correct/PREDICTIONS.length*100)}%</div>
+        <div class="acc-stat-label">Accuracy Rate</div>
+      </div>
+      <div class="acc-divider"></div>
+      <div class="acc-stat">
+        <div class="acc-stat-val" style="color:var(--orange)">${PREDICTIONS.filter(p=>p.is_upset).length}</div>
+        <div class="acc-stat-label">Upsets Detected</div>
+      </div>
+      <div class="acc-divider"></div>
+      <div class="acc-stat">
+        <div class="acc-stat-val" style="color:var(--blue)">${PREDICTIONS.length}</div>
+        <div class="acc-stat-label">Matches Analysed</div>
+      </div>
+    </div>
+    <div class="pred-grid">
+      ${PREDICTIONS.map(p => renderPredCard(p)).join('')}
+    </div>
+  `;
+  document.getElementById('content-area').innerHTML = html;
+  // animate bars after render
+  setTimeout(() => {
+    document.querySelectorAll('.prob-fill').forEach(el => {
+      const w = el.dataset.target;
+      el.style.width = w + '%';
+    });
+  }, 80);
+}
+
+function renderPredCard(p) {
+  let badge = '';
+  if (p.actual) {
+    const topKey = Object.entries(p.predicted).sort((a,b)=>b[1]-a[1])[0][0];
+    const actualKey = p.actual.outcome === 'H' ? 'home_win' : p.actual.outcome === 'D' ? 'draw' : 'away_win';
+    const isCorrect = topKey === actualKey;
+    if (p.is_upset) badge = '<span class="pred-badge upset">⚡ Upset</span>';
+    else if (isCorrect) badge = '<span class="pred-badge correct">✓ Correct</span>';
+    else badge = '<span class="pred-badge wrong">✗ Wrong</span>';
+  } else {
+    const maxProb = Math.max(...Object.values(p.predicted));
+    badge = maxProb > 0.55 ? '<span class="pred-badge confident">High Confidence</span>' : '<span class="pred-badge future">Predicted</span>';
+  }
+
+  const bars = [
+    { label: 'Home Win', val: p.predicted.home_win, color: p.home_color },
+    { label: 'Draw',     val: p.predicted.draw,     color: '#6e7891' },
+    { label: 'Away Win', val: p.predicted.away_win,  color: p.away_color },
+  ];
+
+  const resultHtml = p.actual ? `
+    <div class="pred-result">
+      <span>Result: <span class="result-score">${p.actual.home_goals}–${p.actual.away_goals}</span></span>
+      ${p.has_statsbomb ? `<button class="view-match-btn" onclick="loadMatchById(${p.statsbomb_match_id})">View Analysis →</button>` : ''}
+    </div>
+  ` : `<div class="pred-result"><span style="color:var(--blue);font-family:var(--mono);font-size:10px">Upcoming fixture</span></div>`;
+
+  return `
+    <div class="pred-card">
+      <div class="pred-card-header">
+        <div>
+          <div class="pred-teams" style="color:${p.home_color}">${p.home} <span style="color:var(--muted)">vs</span> <span style="color:${p.away_color}">${p.away}</span></div>
+          <div class="pred-date">${formatDate(p.date)}</div>
+        </div>
+        ${badge}
+      </div>
+      <div class="prob-bars">
+        ${bars.map(b => `
+          <div class="prob-row">
+            <div class="prob-label">${b.label}</div>
+            <div class="prob-track"><div class="prob-fill" style="width:0%;background:${b.color}" data-target="${Math.round(b.val*100)}"></div></div>
+            <div class="prob-val">${Math.round(b.val*100)}%</div>
+          </div>
+        `).join('')}
+      </div>
+      ${resultHtml}
+    </div>
+  `;
+}
+
+// ─────────────────────────────────────────────────────────────────
+// FORECAST VIEW
+// ─────────────────────────────────────────────────────────────────
+function renderForecastView() {
+  // Group by date
+  const byDate = {};
+  FORECAST.forEach(m => {
+    if (!byDate[m.date]) byDate[m.date] = [];
+    byDate[m.date].push(m);
+  });
+
+  const groups = Object.entries(byDate).sort(([a],[b]) => a.localeCompare(b));
+
+  const html = `
+    <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem">
+      <div style="font-family:var(--mono);font-size:11px;color:var(--muted)">League:</div>
+      <select onchange="void(0)" style="min-width:160px">
+        <option>🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League</option>
+        <option>🇪🇸 La Liga</option>
+        <option>🇩🇪 Bundesliga</option>
+      </select>
+      <div style="margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--muted2)">Model refreshes weekly · Next update: Monday 06:00 UTC</div>
+    </div>
+    ${groups.map(([date, matches]) => `
+      <div class="forecast-group">
+        <div class="forecast-date-label">${formatDate(date)} — Gameweek</div>
+        <div class="pred-grid">
+          ${matches.map(m => renderPredCard(m)).join('')}
+        </div>
+      </div>
+    `).join('')}
+  `;
+
+  document.getElementById('content-area').innerHTML = html;
+  setTimeout(() => {
+    document.querySelectorAll('.prob-fill').forEach(el => {
+      el.style.width = el.dataset.target + '%';
+    });
+  }, 80);
+}
+
+// ─────────────────────────────────────────────────────────────────
+// TAB SWITCHING
+// ─────────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  state.activeTab = tab;
+
+  // Update sidebar nav
+  document.querySelectorAll('.nav-item').forEach((el, i) => {
+    el.classList.toggle('active', ['match','predict','forecast'][i] === tab);
+  });
+
+  // Update tab bar
+  ['match','predict','forecast'].forEach(t => {
+    document.getElementById(`tab-${t}`)?.classList.toggle('active', t === tab);
+  });
+
+  // Show/hide banner
+  const showBanner = tab === 'match' && state.currentMatch;
+  document.getElementById('score-banner').style.display = showBanner ? 'block' : 'none';
+
+  if (tab === 'match') {
+    if (state.currentMatch) {
+      renderMatchDashboard(state.currentMatch);
+    } else {
+      document.getElementById('content-area').innerHTML = `
+        <div style="display:flex;align-items:center;justify-content:center;height:60vh;flex-direction:column;gap:1rem;color:var(--muted2)">
+          <div style="font-size:3rem;opacity:0.3">⚽</div>
+          <div style="font-family:var(--display);font-size:1.2rem;font-weight:700;color:var(--muted)">Select a match to begin</div>
+          <div style="font-size:12px;max-width:280px;text-align:center;line-height:1.7">Choose a competition and match from the sidebar to load the full analytics dashboard.</div>
+        </div>
+      `;
+    }
+  } else if (tab === 'predict') {
+    renderPredictionsView();
+  } else if (tab === 'forecast') {
+    renderForecastView();
+  }
+}
+
+// Navigate to match from predictions
+function loadMatchById(matchId) {
+  switchTab('match');
+  INDEX.competitions.forEach(c => {
+    c.seasons.forEach(s => {
+      s.matches.forEach(m => {
+        if (m.match_id === matchId) {
+          state.currentMatch = generateMatchData(m);
+          updateBanner(state.currentMatch);
+          renderMatchDashboard(state.currentMatch);
+        }
+      });
+    });
+  });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// MOBILE SIDEBAR
+// ─────────────────────────────────────────────────────────────────
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('overlay').classList.toggle('open');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('overlay').classList.remove('open');
+}
+
+// ─────────────────────────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────────────────────────
+populateSidebar();
+
+// Auto-load first match as a demo
+setTimeout(() => {
+  const firstMatch = INDEX.competitions[0].seasons[0].matches[0];
+  state.currentMatch = generateMatchData(firstMatch);
+  updateBanner(state.currentMatch);
+  renderMatchDashboard(state.currentMatch);
+  // Mark first match item active
+  const items = document.querySelectorAll('.match-item');
+  if (items[0]) items[0].classList.add('active');
+}, 200);
+</script>
+</body>
+</html>
