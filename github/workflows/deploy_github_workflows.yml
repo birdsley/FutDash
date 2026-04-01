@@ -1,0 +1,186 @@
+name: Build and Deploy FutDash
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday 06:00 UTC — pulls fresh fixture data
+  workflow_dispatch:
+
+jobs:
+  # ── Step 1: Generate all JSON data from Python scripts ──────────
+  generate-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive   # checks out open-data and xgabora-data submodules
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+
+      - name: Install Python dependencies
+        run: |
+          pip install pandas numpy scikit-learn networkx matplotlib lightgbm joblib requests
+
+      - name: Generate all match JSON files + index
+        run: |
+          python scripts/statsbomb_v9.py \
+            --base-path ./open-data/data \
+            --export-json \
+            --json-dir ./web/public/data/matches
+
+      - name: Generate StatsBomb index.json catalog
+        run: |
+          python - <<'PYEOF'
+          import os, json, glob
+
+          base   = "./open-data/data"
+          out    = "./web/public/data/index.json"
+          os.makedirs(os.path.dirname(out), exist_ok=True)
+
+          with open(os.path.join(base, "competitions.json"), encoding="utf-8") as f:
+              comps = json.load(f)
+
+          index = {"competitions": []}
+          seen  = {}
+
+          for c in comps:
+              cid  = c["competition_id"]
+              sid  = c["season_id"]
+              cname = c.get("competition_name", "")
+              sname = c.get("season_name", "")
+
+              m_path = os.path.join(base, "matches", str(cid), f"{sid}.json")
+              if not os.path.exists(m_path):
+                  continue
+              with open(m_path, encoding="utf-8") as f:
+                  matches = json.load(f)
+
+              match_list = []
+              for m in matches:
+                  jfile = f"./web/public/data/matches/{m['match_id']}.json"
+                  if not os.path.exists(jfile):
+                      continue
+                  with open(jfile, encoding="utf-8") as f2:
+                      md = json.load(f2)
+                  meta = md.get("meta", {})
+                  match_list.append({
+                      "match_id":   meta.get("match_id"),
+                      "home":       meta.get("home", ""),
+                      "away":       meta.get("away", ""),
+                      "score_home": meta.get("score_home", 0),
+                      "score_away": meta.get("score_away", 0),
+                      "date":       meta.get("date", ""),
+                      "home_color": meta.get("home_color", "#6e7891"),
+                      "away_color": meta.get("away_color", "#6e7891"),
+                  })
+
+              if not match_list:
+                  continue
+
+              if cid not in seen:
+                  seen[cid] = {"id": cid, "name": cname, "seasons": []}
+                  index["competitions"].append(seen[cid])
+
+              seen[cid]["seasons"].append({
+                  "id": sid, "name": sname, "matches": match_list
+              })
+
+          with open(out, "w", encoding="utf-8") as f:
+              json.dump(index, f, ensure_ascii=False, indent=2)
+          print(f"index.json written → {len(index['competitions'])} competitions")
+          PYEOF
+
+      # Run prediction pipeline only if xgabora data is present
+      - name: Feature engineering (xgabora)
+        if: hashFiles('xgabora-data/*.csv') != ''
+        run: |
+          python scripts/feature_engineering.py \
+            --data-dir ./xgabora-data \
+            --output-dir ./scripts/features
+
+      - name: Train model
+        if: hashFiles('scripts/features/features_all.csv') != ''
+        run: |
+          python scripts/train_model.py \
+            --features ./scripts/features/features_all.csv \
+            --output-dir ./scripts
+
+      - name: Generate predictions JSON
+        if: hashFiles('scripts/model.joblib') != ''
+        run: |
+          python scripts/generate_predictions.py \
+            --features-dir ./scripts/features \
+            --model ./scripts/model.joblib \
+            --output-dir ./web/public/data/predictions \
+            --statsbomb-base ./open-data
+
+      - name: Fetch upcoming fixtures
+        if: env.FOOTBALL_DATA_API_KEY != ''
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: |
+          python scripts/fetch_fixtures.py \
+            --api-key "$FOOTBALL_DATA_API_KEY" \
+            --output-dir ./web/public/data/predictions \
+            --features-dir ./scripts/features \
+            --model ./scripts/model.joblib \
+            --days-ahead 14
+
+      # Upload generated data so the build job can use it
+      - name: Upload generated data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-data
+          path: web/public/data/
+          retention-days: 1
+
+  # ── Step 2: Build React app and deploy to GitHub Pages ──────────
+  build-deploy:
+    needs: generate-data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed for peaceiris/actions-gh-pages
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Download generated data
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-data
+          path: web/public/data/
+
+      - name: Install npm dependencies
+        working-directory: ./web
+        run: npm ci
+
+      - name: TypeScript type check
+        working-directory: ./web
+        run: npx tsc --noEmit
+
+      - name: Build Vite app
+        working-directory: ./web
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web/dist
+          # Uncomment and set if you have a custom domain:
+          # cname: futdash.app
