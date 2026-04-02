@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
-import { PredictionCard, type PredictionMatch } from "../prediction/PredictionCard";
-import { AccuracyTracker } from "../prediction/AccuracyTracker";
+import { PredictionCard, type PredictionMatch } from "../components/prediction/PredictionCard";
+import { AccuracyTracker } from "../components/prediction/AccuracyTracker";
 
 interface ForecastViewProps {
   /**
