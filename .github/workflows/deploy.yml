@@ -10,7 +10,7 @@ on:
 jobs:
   # ── Step 1: Generate all JSON data from Python scripts ──────────
   generate-data:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
         with:
@@ -146,7 +146,7 @@ jobs:
   # ── Step 2: Build React app and deploy to GitHub Pages ──────────
   build-deploy:
     needs: generate-data
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       contents: write   # needed for peaceiris/actions-gh-pages
 
