@@ -4,19 +4,18 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 6 * * 1'  # Every Monday 06:00 UTC — pulls fresh fixture data
+    - cron: '0 6 * * 1'   # Every Monday 06:00 UTC
   workflow_dispatch:
 
 jobs:
-  # ── Step 1: Generate all JSON data from Python scripts ──────────
+  # ── Step 1: Python data pipeline ────────────────────────────────
   generate-data:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: recursive   # checks out open-data and xgabora-data submodules
+          submodules: recursive
 
-      # Use system Python (assumes Python 3.11 is installed)
       - name: Check Python version
         run: python3 --version
 
@@ -46,7 +45,7 @@ jobs:
       - name: Generate index.json catalog
         run: |
           python3 - <<'PYEOF'
-          import os, json, glob
+          import os, json
 
           base = "./open-data/data"
           out  = "./web/public/data/index.json"
@@ -94,11 +93,11 @@ jobs:
               if not match_list:
                   continue
               if cid not in seen:
-                  seen[cid] = {"id": cid, "name": c.get("competition_name",""),
+                  seen[cid] = {"id": cid, "name": c.get("competition_name", ""),
                                "seasons": []}
                   index["competitions"].append(seen[cid])
               seen[cid]["seasons"].append({
-                  "id": sid, "name": c.get("season_name",""),
+                  "id": sid, "name": c.get("season_name", ""),
                   "matches": match_list
               })
 
@@ -106,17 +105,15 @@ jobs:
               json.dump(index, f, ensure_ascii=False, indent=2)
           total = sum(len(s["matches"]) for c in index["competitions"]
                       for s in c["seasons"])
-          print(f"index.json → {len(index['competitions'])} competitions, {total} matches")
+          print(f"index.json -> {len(index['competitions'])} competitions, {total} matches")
           PYEOF
 
       # ── xgabora: feature engineering ──────────────────────────
-      # Uses the rewritten feature_engineering.py which handles
-      # xgabora's native Matches.csv + EloRatings.csv schema.
       - name: Feature engineering (xgabora)
         run: |
           python3 scripts/feature_engineering.py \
-            --matches  ./xgabora-data/Matches.csv \
-            --elo      ./xgabora-data/EloRatings.csv \
+            --matches    ./xgabora-data/Matches.csv \
+            --elo        ./xgabora-data/EloRatings.csv \
             --output-dir ./scripts/features
 
       # ── Train LightGBM model ───────────────────────────────────
@@ -132,26 +129,32 @@ jobs:
         if: hashFiles('scripts/model.joblib') != ''
         run: |
           python3 scripts/generate_predictions.py \
-            --features-dir  ./scripts/features \
-            --model         ./scripts/model.joblib \
-            --output-dir    ./web/public/data/predictions \
+            --features-dir   ./scripts/features \
+            --model          ./scripts/model.joblib \
+            --output-dir     ./web/public/data/predictions \
             --statsbomb-base ./open-data
 
-      # ── Fetch upcoming fixtures (optional — needs API key) ─────
+      # ── Fetch upcoming fixtures ────────────────────────────────
+      # NOTE: 'secrets' context is NOT valid inside if: expressions.
+      # The correct pattern is to pass the secret as an env var and
+      # check it with a shell conditional inside the run: block.
       - name: Fetch upcoming fixtures
-        if: ${{ secrets.FOOTBALL_DATA_API_KEY != '' }}
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: |
-          python3 scripts/fetch_fixtures.py \
-            --api-key      "$FOOTBALL_DATA_API_KEY" \
-            --output-dir   ./web/public/data/predictions \
-            --features-dir ./scripts/features \
-            --model        ./scripts/model.joblib \
-            --days-ahead   14
-        continue-on-error: true    # don't fail the whole build if API key missing
+          if [ -n "$FOOTBALL_DATA_API_KEY" ]; then
+            python3 scripts/fetch_fixtures.py \
+              --api-key      "$FOOTBALL_DATA_API_KEY" \
+              --output-dir   ./web/public/data/predictions \
+              --features-dir ./scripts/features \
+              --model        ./scripts/model.joblib \
+              --days-ahead   14
+          else
+            echo "FOOTBALL_DATA_API_KEY not set — skipping fixture fetch"
+          fi
+        continue-on-error: true
 
-      # ── Upload all generated data as artifact ─────────────────
+      # ── Upload generated data as artifact ─────────────────────
       - name: Upload data artifact
         uses: actions/upload-artifact@v4
         with:
@@ -198,4 +201,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./web/dist
-          # cname: futdash.app   ← uncomment if you have a custom domain
+          # cname: futdash.app
