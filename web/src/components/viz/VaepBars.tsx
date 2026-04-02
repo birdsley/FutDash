@@ -50,12 +50,12 @@ export function VaepBars({ players, teamColor, teamName }: VaepBarsProps) {
       text: vals.map(v => v.toFixed(3)),
       textposition: 'inside' as const,
       textfont: { color: 'white', size: 10 },
-      customdata: sorted.map(p => ({ role: p.role, n: p.n_actions })),
+      customdata: sorted.map(p => [p.role, p.n_actions]),
       hovertemplate:
         '<b>%{y}</b><br>' +
         'VAEP: %{x:.4f}<br>' +
-        'Role: %{customdata.role}<br>' +
-        'Actions: %{customdata.n}<extra></extra>',
+        'Role: %{customdata[0]}<br>' +
+        'Actions: %{customdata[1]}<extra></extra>',
       name: 'VAEP',
     },
     // Team average line
