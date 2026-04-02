@@ -16,11 +16,12 @@ jobs:
         with:
           submodules: recursive   # checks out open-data and xgabora-data submodules
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          check-latest: false
-          cache: 'false'
+      # Use system Python (assumes Python 3.11 is installed)
+      - name: Check Python version
+        run: python3 --version
+
+      - name: Check pip version
+        run: pip3 --version
 
       - name: Cache pip packages
         uses: actions/cache@v4
@@ -30,18 +31,19 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install pandas numpy scikit-learn networkx matplotlib lightgbm joblib requests
+          pip3 install --upgrade pip
+          pip3 install pandas numpy scikit-learn networkx matplotlib lightgbm joblib requests
 
       - name: Generate all match JSON files + index
         run: |
-          python scripts/statsbomb_v9.py \
+          python3 scripts/statsbomb_v9.py \
             --base-path ./open-data/data \
             --export-json \
             --json-dir ./web/public/data/matches
 
       - name: Generate StatsBomb index.json catalog
         run: |
-          python - <<'PYEOF'
+          python3 - <<'PYEOF'
           import os, json, glob
 
           base   = "./open-data/data"
@@ -105,21 +107,21 @@ jobs:
       - name: Feature engineering (xgabora)
         if: hashFiles('xgabora-data/*.csv') != ''
         run: |
-          python scripts/feature_engineering.py \
+          python3 scripts/feature_engineering.py \
             --data-dir ./xgabora-data \
             --output-dir ./scripts/features
 
       - name: Train model
         if: hashFiles('scripts/features/features_all.csv') != ''
         run: |
-          python scripts/train_model.py \
+          python3 scripts/train_model.py \
             --features ./scripts/features/features_all.csv \
             --output-dir ./scripts
 
       - name: Generate predictions JSON
         if: hashFiles('scripts/model.joblib') != ''
         run: |
-          python scripts/generate_predictions.py \
+          python3 scripts/generate_predictions.py \
             --features-dir ./scripts/features \
             --model ./scripts/model.joblib \
             --output-dir ./web/public/data/predictions \
@@ -130,7 +132,7 @@ jobs:
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: |
-          python scripts/fetch_fixtures.py \
+          python3 scripts/fetch_fixtures.py \
             --api-key "$FOOTBALL_DATA_API_KEY" \
             --output-dir ./web/public/data/predictions \
             --features-dir ./scripts/features \
@@ -184,5 +186,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./web/dist
-          # Uncomment and set if you have a custom domain:
-          # cname: futdash.app
