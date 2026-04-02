@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          check-latest: false
+          cache: 'false'
 
       - name: Cache pip packages
         uses: actions/cache@v4
