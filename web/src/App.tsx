@@ -4,7 +4,7 @@ import { useMatchStore } from './store/matchStore'
 import Sidebar from './components/Sidebar'
 import ScoreBanner from './components/ScoreBanner'
 import TabBar from './components/TabBar'
-import MatchDashboard from './views/MatchDashboard'
+import MatchDashboard from "./components/viz/MatchDashboard";
 import { PredictionsView } from './views/PredictionsView'
 import { ForecastView } from './views/ForecastView'
 
