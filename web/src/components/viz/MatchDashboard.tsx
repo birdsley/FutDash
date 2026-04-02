@@ -1,11 +1,12 @@
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useMatchStore } from '../../store/matchStore';
-import PassNetwork from './PassNetwork';
-import XgFlowChart from './XgFlowChart';
-import ShotMap from './ShotMap';
-import VaepBars from './VaepBars';
-import GameStateTable from './GameStateTable';
+import { PassNetwork } from "./PassNetwork"      // ✅ CORRECT
+import { XgFlowChart } from "./XgFlowChart"      // ✅ CORRECT
+import { ShotMap } from "./ShotMap"              // ✅ CORRECT
+import { VaepBars } from "./VaepBars"            // ✅ CORRECT
+import { GameStateTable } from "./GameStateTable" // ✅ CORRECT
+
 
 // ── Design tokens ─────────────────────────────────────────────────
 const panel: React.CSSProperties = {
