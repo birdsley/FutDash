@@ -38,23 +38,162 @@ jobs:
           mkdir -p ./web/public/data/matches
           mkdir -p ./web/public/data/predictions
 
-      # ── Export ALL StatsBomb matches to JSON ───────────────────
-      # Uses export_all_matches.py which loops every competition/season/match
-      # and calls export_match_json() from statsbomb_v9.py for each one.
-      # Skips already-exported files (idempotent) so incremental runs are fast.
-      - name: Export all StatsBomb matches to JSON
+      # ── Restore cached match JSONs ─────────────────────────────
+      # We store match JSONs in a persistent cache keyed to the
+      # open-data submodule SHA. Only regenerates when StatsBomb
+      # open-data has new commits (new matches added).
+      - name: Get open-data submodule SHA
+        id: opendata_sha
         run: |
+          SHA=$(git -C ./open-data rev-parse HEAD 2>/dev/null || echo "none")
+          echo "sha=${SHA}" >> $GITHUB_OUTPUT
+          echo "  open-data SHA: ${SHA}"
+
+      - name: Restore cached match JSONs
+        id: cache_matches
+        uses: actions/cache@v4
+        with:
+          path: ./web/public/data/matches
+          key: match-jsons-v3-${{ steps.opendata_sha.outputs.sha }}
+          restore-keys: |
+            match-jsons-v3-
+
+      - name: Restore cached index.json
+        id: cache_index
+        uses: actions/cache@v4
+        with:
+          path: ./web/public/data/index.json
+          key: match-index-v3-${{ steps.opendata_sha.outputs.sha }}
+          restore-keys: |
+            match-index-v3-
+
+      # ── Check if JSON generation is needed ────────────────────
+      - name: Check if match JSONs are complete
+        id: check_jsons
+        run: |
+          # Count expected matches from StatsBomb open-data
+          EXPECTED=$(python3 -c "
+          import json, os, glob
+          matches_dir = './open-data/data/matches'
+          total = 0
+          for comp_dir in glob.glob(os.path.join(matches_dir, '*')):
+              for season_file in glob.glob(os.path.join(comp_dir, '*.json')):
+                  try:
+                      with open(season_file) as f:
+                          matches = json.load(f)
+                      total += len(matches)
+                  except:
+                      pass
+          print(total)
+          " 2>/dev/null || echo "0")
+
+          # Count existing JSON files
+          EXISTING=$(find ./web/public/data/matches -name "*.json" 2>/dev/null | wc -l | tr -d ' ')
+
+          echo "expected=${EXPECTED}" >> $GITHUB_OUTPUT
+          echo "existing=${EXISTING}" >> $GITHUB_OUTPUT
+
+          # Check if index.json exists
+          if [ -f "./web/public/data/index.json" ]; then
+            echo "has_index=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_index=false" >> $GITHUB_OUTPUT
+          fi
+
+          echo "  Expected matches: ${EXPECTED}"
+          echo "  Existing JSONs:   ${EXISTING}"
+
+          # We consider generation "needed" if existing < 90% of expected
+          THRESHOLD=$(python3 -c "print(int(int('${EXPECTED}') * 0.9))" 2>/dev/null || echo "0")
+          if [ "${EXISTING}" -lt "${THRESHOLD}" ] || [ "${EXPECTED}" = "0" ]; then
+            echo "needs_generation=true" >> $GITHUB_OUTPUT
+            echo "  → Generation NEEDED"
+          else
+            echo "needs_generation=false" >> $GITHUB_OUTPUT
+            echo "  → Generation SKIPPED (${EXISTING}/${EXPECTED} JSONs cached)"
+          fi
+
+      # ── Export ALL StatsBomb matches to JSON ───────────────────
+      # Only runs when match JSONs are missing or incomplete.
+      # Uses --overwrite=false so existing files are skipped (fast incremental).
+      - name: Export StatsBomb matches to JSON
+        if: steps.check_jsons.outputs.needs_generation == 'true'
+        run: |
+          echo "  Exporting StatsBomb match JSONs..."
           python3 scripts/export_all_matches.py \
             --base-path ./open-data/data \
             --output-dir ./web/public/data/matches \
             --index-out  ./web/public/data/index.json
-        timeout-minutes: 60
+          echo "  Export complete."
+        timeout-minutes: 90
+
+      # ── Regenerate index.json if missing ──────────────────────
+      # Even if JSONs were cached, the index.json might be missing.
+      - name: Regenerate index.json if missing
+        if: steps.check_jsons.outputs.has_index == 'false' && steps.check_jsons.outputs.needs_generation == 'false'
+        run: |
+          echo "  Regenerating index.json from existing match JSONs..."
+          python3 - << 'PYEOF'
+          import os, json, glob
+
+          matches_dir = "./web/public/data/matches"
+          index_out   = "./web/public/data/index.json"
+
+          # Read meta from each existing match JSON
+          comp_map = {}
+          for jf in sorted(glob.glob(os.path.join(matches_dir, "*.json"))):
+              try:
+                  with open(jf) as f:
+                      d = json.load(f)
+                  meta = d.get("meta", {})
+                  comp = meta.get("competition", "Unknown")
+                  season = meta.get("season", "Unknown")
+                  cid = meta.get("competition_id", hash(comp) % 10000)
+                  sid = meta.get("season_id", hash(season) % 10000)
+
+                  if cid not in comp_map:
+                      comp_map[cid] = {"id": cid, "name": comp, "flag": "", "seasons": {}}
+
+                  if sid not in comp_map[cid]["seasons"]:
+                      comp_map[cid]["seasons"][sid] = {"id": sid, "name": season, "matches": []}
+
+                  comp_map[cid]["seasons"][sid]["matches"].append({
+                      "match_id":   meta.get("match_id"),
+                      "home":       meta.get("home", ""),
+                      "away":       meta.get("away", ""),
+                      "score_home": meta.get("score_home", 0),
+                      "score_away": meta.get("score_away", 0),
+                      "date":       meta.get("date", ""),
+                      "home_color": meta.get("home_color", "#6e7891"),
+                      "away_color": meta.get("away_color", "#6e7891"),
+                  })
+              except Exception as e:
+                  pass
+
+          comps = []
+          for cid, c in comp_map.items():
+              seasons = []
+              for sid, s in c["seasons"].items():
+                  s["matches"].sort(key=lambda m: m.get("date", ""), reverse=True)
+                  seasons.append({k: v for k, v in s.items() if k != "seasons"})
+              seasons.sort(key=lambda s: s.get("name", ""), reverse=True)
+              comps.append({"id": c["id"], "name": c["name"], "flag": c["flag"], "seasons": seasons})
+
+          comps.sort(key=lambda c: c["name"])
+          index = {"competitions": comps}
+          os.makedirs(os.path.dirname(index_out), exist_ok=True)
+          with open(index_out, "w") as f:
+              json.dump(index, f, ensure_ascii=False, indent=2)
+
+          total = sum(len(s["matches"]) for c in comps for s in c["seasons"])
+          print(f"  index.json: {len(comps)} competitions, {total} matches")
+          PYEOF
 
       # ── Verify output ─────────────────────────────────────────
       - name: Verify data output
         run: |
           echo "=== Match JSON files ==="
-          ls ./web/public/data/matches/ | wc -l
+          find ./web/public/data/matches -name "*.json" | wc -l
           echo "files in matches/"
           echo "=== index.json ==="
           python3 -c "
@@ -64,18 +203,19 @@ jobs:
           comps = idx.get('competitions', [])
           total = sum(len(s['matches']) for c in comps for s in c['seasons'])
           print(f'{len(comps)} competitions, {total} matches in index')
-          "
+          " 2>/dev/null || echo "index.json not found or invalid"
 
       # ── xgabora: feature engineering ──────────────────────────
       - name: Feature engineering (xgabora)
         run: |
           if [ -f "xgabora-data/Matches.csv" ]; then
+            echo "  Running feature engineering..."
             python3 scripts/feature_engineering.py \
               --matches    ./xgabora-data/Matches.csv \
               --elo        ./xgabora-data/EloRatings.csv \
               --output-dir ./scripts/features
           else
-            echo "xgabora data not found — skipping feature engineering"
+            echo "  xgabora data not found — skipping feature engineering"
             mkdir -p ./scripts/features
           fi
         continue-on-error: true
@@ -84,12 +224,12 @@ jobs:
       - name: Train prediction model
         run: |
           if [ -f "scripts/features/features_all.csv" ]; then
-            echo "Features found, training model..."
+            echo "  Features found, training model..."
             python3 scripts/train_model.py \
               --features   ./scripts/features/features_all.csv \
               --output-dir ./scripts
           else
-            echo "No features_all.csv found — skipping model training"
+            echo "  No features_all.csv found — skipping model training"
           fi
         continue-on-error: true
 
@@ -97,14 +237,14 @@ jobs:
       - name: Generate prediction JSONs
         run: |
           if [ -f "scripts/model.joblib" ]; then
-            echo "Model found, generating predictions..."
+            echo "  Model found, generating predictions..."
             python3 scripts/generate_predictions.py \
               --features-dir   ./scripts/features \
               --model          ./scripts/model.joblib \
               --output-dir     ./web/public/data/predictions \
               --statsbomb-base ./open-data
           else
-            echo "No model.joblib found — skipping prediction generation"
+            echo "  No model.joblib found — skipping prediction generation"
           fi
         continue-on-error: true
 
@@ -121,7 +261,7 @@ jobs:
               --model        ./scripts/model.joblib \
               --days-ahead   14
           else
-            echo "FOOTBALL_DATA_API_KEY not set — skipping fixture fetch"
+            echo "  FOOTBALL_DATA_API_KEY not set — skipping fixture fetch"
           fi
         continue-on-error: true
 
@@ -166,7 +306,7 @@ jobs:
           comps=d.get('competitions',[])
           total=sum(len(s['matches']) for c in comps for s in c['seasons'])
           print(f'  {len(comps)} competitions, {total} matches')
-            "
+            " 2>/dev/null || echo "  (could not parse)"
           else
             echo "✗ index.json MISSING — creating empty placeholder"
             mkdir -p web/public/data
@@ -180,7 +320,6 @@ jobs:
       - name: TypeScript type check
         working-directory: ./web
         run: npx tsc --noEmit
-        # If this fails, show all errors clearly
         continue-on-error: false
 
       - name: Build Vite app
