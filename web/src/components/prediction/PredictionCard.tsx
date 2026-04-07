@@ -1,9 +1,6 @@
 import React from "react";
-import type { PredictionMatch } from "../../types";
+import type { PredictionMatch, ProbabilitySet } from "../../types";
 import { ProbabilityBars } from "./ProbabilityBars";
-
-// Re-export the type so existing imports from this file keep working
-export type { PredictionMatch };
 
 interface PredictionCardProps {
   match: PredictionMatch;
@@ -23,8 +20,6 @@ function formatDate(d: string): string {
     return d;
   }
 }
-
-type ProbabilitySet = PredictionMatch["predicted"];
 
 function topPrediction(predicted: ProbabilitySet): keyof ProbabilitySet {
   return (Object.entries(predicted) as [keyof ProbabilitySet, number][])
@@ -77,9 +72,9 @@ function Badge({ variant, label }: { variant: BadgeVariant; label: string }) {
 
 function getBadge(match: PredictionMatch): React.ReactElement {
   if (match.actual) {
-    if (match.is_upset)           return <Badge variant="upset"   label="⚡ Upset" />;
-    if (isCorrect(match))         return <Badge variant="correct" label="✓ Correct" />;
-    return                               <Badge variant="wrong"   label="✗ Wrong" />;
+    if (match.is_upset)           return <Badge variant="upset"   label="Upset" />;
+    if (isCorrect(match))         return <Badge variant="correct" label="Correct" />;
+    return                               <Badge variant="wrong"   label="Wrong" />;
   }
   const mp = maxProb(match.predicted);
   if (mp > 0.55)  return <Badge variant="confident" label="High Confidence" />;
@@ -103,13 +98,14 @@ export function PredictionCard({
     : "1px solid #272b35";
 
   return (
-    <div style={{
-      background: "#161d27",
-      border: cardBorder,
-      borderRadius: 10,
-      padding: "1.25rem",
-      transition: "transform 0.15s, box-shadow 0.15s",
-    }}
+    <div
+      style={{
+        background: "#161d27",
+        border: cardBorder,
+        borderRadius: 10,
+        padding: "1.25rem",
+        transition: "transform 0.15s, box-shadow 0.15s",
+      }}
       onMouseEnter={e => {
         (e.currentTarget as HTMLDivElement).style.transform = "translateY(-2px)";
         (e.currentTarget as HTMLDivElement).style.boxShadow = "0 8px 24px rgba(0,0,0,0.3)";
@@ -184,7 +180,7 @@ export function PredictionCard({
                 {match.actual.home_goals}–{match.actual.away_goals}
               </span>
             </span>
-            {match.has_statsbomb && match.statsbomb_match_id && onViewMatch && (
+            {match.has_statsbomb && match.statsbomb_match_id != null && onViewMatch && (
               <button
                 onClick={() => onViewMatch(match.statsbomb_match_id!)}
                 style={{
