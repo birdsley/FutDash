@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { PredictionCard, type PredictionMatch } from "../components/prediction/PredictionCard";
+import type { PredictionMatch } from "../types";
+import { PredictionCard } from "../components/prediction/PredictionCard";
 import { AccuracyTracker } from "../components/prediction/AccuracyTracker";
 
 interface PredictionsViewProps {
@@ -25,7 +26,6 @@ export function PredictionsView({ predictions, onViewMatch }: PredictionsViewPro
   const [filterOutcome, setFilterOutcome] = useState<FilterOutcome>("all");
   const [sortBy, setSortBy] = useState<SortBy>("date_desc");
 
-  // Only resolved matches for this view
   const resolved = useMemo(
     () => predictions.filter(m => m.actual !== null),
     [predictions]
@@ -48,7 +48,7 @@ export function PredictionsView({ predictions, onViewMatch }: PredictionsViewPro
           Math.max(b.predicted.home_win, b.predicted.draw, b.predicted.away_win) -
           Math.max(a.predicted.home_win, a.predicted.draw, a.predicted.away_win)
         ); break;
-      default: // date_desc
+      default:
         result.sort((a, b) => b.date.localeCompare(a.date)); break;
     }
 
@@ -60,10 +60,8 @@ export function PredictionsView({ predictions, onViewMatch }: PredictionsViewPro
 
   return (
     <div>
-      {/* Accuracy header */}
       <AccuracyTracker predictions={predictions} windowSize={20} />
 
-      {/* Filter + sort controls */}
       <div style={{
         display: "flex",
         alignItems: "center",
@@ -71,7 +69,6 @@ export function PredictionsView({ predictions, onViewMatch }: PredictionsViewPro
         marginBottom: "1.5rem",
         flexWrap: "wrap",
       }}>
-        {/* Outcome filter pills */}
         {(
           [
             { value: "all",     label: `All (${resolved.length})` },
@@ -102,13 +99,8 @@ export function PredictionsView({ predictions, onViewMatch }: PredictionsViewPro
           </button>
         ))}
 
-        {/* Sort control */}
         <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 8 }}>
-          <span style={{
-            fontFamily: "'DM Mono', monospace",
-            fontSize: 10,
-            color: "#4a5168",
-          }}>
+          <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: "#4a5168" }}>
             Sort:
           </span>
           <select
@@ -133,7 +125,6 @@ export function PredictionsView({ predictions, onViewMatch }: PredictionsViewPro
         </div>
       </div>
 
-      {/* Empty state */}
       {filtered.length === 0 && (
         <div style={{
           display: "flex",
@@ -158,7 +149,6 @@ export function PredictionsView({ predictions, onViewMatch }: PredictionsViewPro
         </div>
       )}
 
-      {/* Prediction card grid */}
       <div style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
