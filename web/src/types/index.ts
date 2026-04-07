@@ -133,6 +133,10 @@ export interface MatchIndex {
 
 // ── Prediction types ──────────────────────────────────────────────
 
+/**
+ * The three outcome probabilities for a match prediction.
+ * Exported here so all components reference the same canonical type.
+ */
 export interface ProbabilitySet {
   home_win: number;
   draw: number;
@@ -159,4 +163,6 @@ export interface PredictionMatch {
   statsbomb_match_id: number | null;
   confidence?: string;
   matchday?: number | null;
+  venue?: string | null;
+  status?: string;
 }
