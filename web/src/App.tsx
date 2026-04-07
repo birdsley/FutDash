@@ -9,13 +9,17 @@ import { PredictionsView } from './views/PredictionsView'
 import { ForecastView } from './views/ForecastView'
 
 export default function App() {
-  const { loadIndex, activeTab, currentMatch } = useMatchStore()
+  const { loadIndex, activeTab, currentMatch, predictions, forecasts, loadMatch } = useMatchStore()
 
   useEffect(() => {
     loadIndex()
   }, [loadIndex])
 
   const showBanner = activeTab === 'match' && currentMatch !== null
+
+  function handleViewMatch(matchId: number) {
+    loadMatch(matchId)
+  }
 
   return (
     <div style={{ display: 'flex', minHeight: '100vh', background: 'var(--bg)' }}>
@@ -39,8 +43,24 @@ export default function App() {
             <Route path="/" element={<Navigate to="/match" replace />} />
             <Route path="/match" element={<MatchDashboard />} />
             <Route path="/match/:id" element={<MatchDashboard />} />
-            <Route path="/predict" element={<PredictionsView predictions={[]} />} />
-            <Route path="/forecast" element={<ForecastView />} />
+            <Route
+              path="/predict"
+              element={
+                <PredictionsView
+                  predictions={predictions}
+                  onViewMatch={handleViewMatch}
+                />
+              }
+            />
+            <Route
+              path="/forecast"
+              element={
+                <ForecastView
+                  allPredictions={[...predictions, ...forecasts]}
+                  onViewMatch={handleViewMatch}
+                />
+              }
+            />
             <Route path="*" element={<Navigate to="/match" replace />} />
           </Routes>
         </div>
