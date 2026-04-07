@@ -1,22 +1,17 @@
 import { useEffect, useRef, useState } from "react";
-
-export interface ProbabilitySet {
-  home_win: number;
-  draw: number;
-  away_win: number;
-}
+import type { ProbabilitySet } from "../../types";
 
 interface ProbabilityBarsProps {
   predicted: ProbabilitySet;
   homeColor: string;
   awayColor: string;
   actualOutcome?: "H" | "D" | "A" | null;
-  animationDelay?: number; // ms before animation starts
+  animationDelay?: number;
 }
 
 interface BarRowProps {
   label: string;
-  value: number;          // 0–1
+  value: number;
   color: string;
   isActual: boolean;
   animateToWidth: boolean;
@@ -40,7 +35,6 @@ function BarRow({ label, value, color, isActual, animateToWidth, delay }: BarRow
       gap: "8px",
       alignItems: "center",
     }}>
-      {/* Label */}
       <div style={{
         fontFamily: "'DM Mono', monospace",
         fontSize: "10px",
@@ -54,7 +48,6 @@ function BarRow({ label, value, color, isActual, animateToWidth, delay }: BarRow
         )}
       </div>
 
-      {/* Track + fill */}
       <div style={{
         height: 6,
         background: "#272b35",
@@ -73,7 +66,6 @@ function BarRow({ label, value, color, isActual, animateToWidth, delay }: BarRow
         }} />
       </div>
 
-      {/* Value */}
       <div style={{
         fontFamily: "'DM Mono', monospace",
         fontSize: "10px",
@@ -97,7 +89,6 @@ export function ProbabilityBars({
   const [mounted, setMounted] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
-  // Trigger animation when component becomes visible
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
