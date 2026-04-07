@@ -7,7 +7,8 @@ interface AccuracyTrackerProps {
 }
 
 function topPrediction(predicted: PredictionMatch["predicted"]): string {
-  return Object.entries(predicted).sort(([, a], [, b]) => b - a)[0][0];
+  return (Object.entries(predicted) as [string, number][])
+    .sort(([, a], [, b]) => b - a)[0][0];
 }
 
 function isMatchCorrect(match: PredictionMatch): boolean {
