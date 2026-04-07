@@ -1,20 +1,13 @@
-import { useState, useEffect, useMemo } from "react";
-import { PredictionCard, type PredictionMatch } from "../components/prediction/PredictionCard";
+import { useState, useMemo } from "react";
+import type { PredictionMatch } from "../types";
+import { PredictionCard } from "../components/prediction/PredictionCard";
 import { AccuracyTracker } from "../components/prediction/AccuracyTracker";
 
 interface ForecastViewProps {
-  /**
-   * In production: fetch from /data/predictions/_index.json to discover
-   * available leagues, then fetch /data/predictions/{league_slug}/{season_slug}.json
-   * for the selected league's current season.
-   *
-   * For demo: pass pre-loaded data directly.
-   */
   allPredictions?: PredictionMatch[];
   onViewMatch?: (matchId: number) => void;
 }
 
-// ── Helpers ───────────────────────────────────────────────────────
 function formatGroupDate(d: string): string {
   try {
     return new Date(d).toLocaleDateString("en-GB", {
@@ -38,13 +31,12 @@ function confidenceLabel(p: PredictionMatch["predicted"]): {
   bg: string;
 } {
   const mp = maxProb(p);
-  if (mp > 0.60) return { text: "Strong",     color: "#4ade80", bg: "#052e16" };
-  if (mp > 0.55) return { text: "High",        color: "#a78bfa", bg: "#1a1040" };
-  if (mp > 0.45) return { text: "Moderate",    color: "#fbbf24", bg: "#261f0a" };
-  return              { text: "Contested",  color: "#60a5fa", bg: "#0c1f3a" };
+  if (mp > 0.60) return { text: "Strong",    color: "#4ade80", bg: "#052e16" };
+  if (mp > 0.55) return { text: "High",       color: "#a78bfa", bg: "#1a1040" };
+  if (mp > 0.45) return { text: "Moderate",   color: "#fbbf24", bg: "#261f0a" };
+  return              { text: "Contested", color: "#60a5fa", bg: "#0c1f3a" };
 }
 
-// ── League select ─────────────────────────────────────────────────
 const LEAGUE_OPTIONS = [
   { value: "all",            label: "🌍 All Leagues" },
   { value: "Premier League", label: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League" },
@@ -54,7 +46,6 @@ const LEAGUE_OPTIONS = [
   { value: "Ligue 1",        label: "🇫🇷 Ligue 1" },
 ];
 
-// ── Loading skeleton ──────────────────────────────────────────────
 function ForecastSkeleton() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
@@ -88,29 +79,22 @@ function ForecastSkeleton() {
   );
 }
 
-// ── Main view ─────────────────────────────────────────────────────
 export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewProps) {
   const [selectedLeague, setSelectedLeague] = useState("all");
-  const [isLoading, setIsLoading] = useState(false);
+  const isLoading = false;
 
-  // Upcoming = no actual result
   const upcoming = useMemo(
     () => allPredictions.filter(m => m.actual === null),
     [allPredictions]
   );
 
-  // Filter by league
   const filtered = useMemo(() => {
     if (selectedLeague === "all") return upcoming;
-    // Match league name against home/away team patterns — in production
-    // each match object would carry a league_name field.
-    // Here we filter by a league_slug field if present, else show all.
     return upcoming.filter(m =>
-      (m as any).league_name === selectedLeague
+      (m as PredictionMatch & { league_name?: string }).league_name === selectedLeague
     );
   }, [upcoming, selectedLeague]);
 
-  // Group by date
   const grouped = useMemo(() => {
     const map = new Map<string, PredictionMatch[]>();
     for (const m of filtered) {
@@ -121,7 +105,6 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
     return Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b));
   }, [filtered]);
 
-  // Next refresh info
   const nextMonday = useMemo(() => {
     const d = new Date();
     const day = d.getDay();
@@ -137,12 +120,10 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
 
   return (
     <div>
-      {/* Accuracy tracker for all resolved predictions */}
       {allPredictions.filter(m => m.actual !== null).length > 0 && (
         <AccuracyTracker predictions={allPredictions} windowSize={20} />
       )}
 
-      {/* Controls row */}
       <div style={{
         display: "flex",
         alignItems: "center",
@@ -150,11 +131,7 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
         marginBottom: "1.5rem",
         flexWrap: "wrap",
       }}>
-        <div style={{
-          fontFamily: "'DM Mono', monospace",
-          fontSize: 11,
-          color: "#6e7891",
-        }}>
+        <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#6e7891" }}>
           League:
         </div>
 
@@ -179,7 +156,6 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
           ))}
         </select>
 
-        {/* Fixture count badge */}
         <div style={{
           fontFamily: "'DM Mono', monospace",
           fontSize: 10,
@@ -191,7 +167,6 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
           {filtered.length} fixture{filtered.length !== 1 ? "s" : ""}
         </div>
 
-        {/* Refresh info */}
         <div style={{
           marginLeft: "auto",
           fontFamily: "'DM Mono', monospace",
@@ -212,7 +187,6 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
         </div>
       </div>
 
-      {/* Empty state */}
       {grouped.length === 0 && (
         <div style={{
           display: "flex",
@@ -240,10 +214,8 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
         </div>
       )}
 
-      {/* Grouped fixture cards */}
       {grouped.map(([date, matches], groupIdx) => (
         <div key={date} style={{ marginBottom: "2rem" }}>
-          {/* Date label */}
           <div style={{
             fontFamily: "'DM Mono', monospace",
             fontSize: 10,
@@ -260,7 +232,6 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
             <span style={{ color: "#323744" }}>{matches.length} match{matches.length !== 1 ? "es" : ""}</span>
           </div>
 
-          {/* Match cards */}
           <div style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
@@ -270,7 +241,6 @@ export function ForecastView({ allPredictions = [], onViewMatch }: ForecastViewP
               const conf = confidenceLabel(m.predicted);
               return (
                 <div key={m.match_id} style={{ position: "relative" }}>
-                  {/* Confidence badge overlay */}
                   <div style={{
                     position: "absolute",
                     top: -8,
