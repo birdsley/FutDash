@@ -61,7 +61,7 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
       const res = await fetch(dataPath(`matches/${matchId}.json`))
       if (!res.ok) throw new Error(`Match ${matchId} not found (${res.status})`)
       const data: MatchData = await res.json()
-      set({ currentMatch: data, isLoading: false })
+      set({ currentMatch: data, isLoading: false, activeTab: 'match' })
     } catch (err) {
       set({
         isLoading: false,
