@@ -1,9 +1,8 @@
 import { useMemo } from "react";
-import type { PredictionMatch } from "./PredictionCard";
+import type { PredictionMatch } from "../../types";
 
 interface AccuracyTrackerProps {
   predictions: PredictionMatch[];
-  /** How many recent resolved matches to use for the rolling accuracy window */
   windowSize?: number;
 }
 
@@ -67,20 +66,14 @@ export function AccuracyTracker({
   windowSize = 20,
 }: AccuracyTrackerProps) {
   const stats = useMemo(() => {
-    // Only resolved matches (have actual result)
     const resolved = predictions.filter(m => m.actual !== null);
-
-    // Rolling window: most recent N
     const window = resolved.slice(-windowSize);
-
     const correct     = window.filter(isMatchCorrect).length;
     const total       = window.length;
     const accuracyPct = total > 0 ? Math.round((correct / total) * 100) : 0;
-
     const upsets      = resolved.filter(m => m.is_upset).length;
     const upcoming    = predictions.filter(m => m.actual === null).length;
 
-    // Average confidence of top prediction on unresolved matches
     const confValues  = predictions
       .filter(m => m.actual === null)
       .map(m => Math.max(m.predicted.home_win, m.predicted.draw, m.predicted.away_win));
@@ -91,7 +84,6 @@ export function AccuracyTracker({
     return { correct, total, accuracyPct, upsets, upcoming, avgConf };
   }, [predictions, windowSize]);
 
-  // Colour the accuracy value
   const accColor =
     stats.accuracyPct >= 55 ? "#4ade80"
     : stats.accuracyPct >= 45 ? "#fbbf24"
@@ -109,40 +101,20 @@ export function AccuracyTracker({
       gap: "2rem",
       flexWrap: "wrap",
     }}>
-      <StatBlock
-        value={`${stats.correct}/${stats.total}`}
-        label={`Last ${stats.total} Predictions`}
-      />
+      <StatBlock value={`${stats.correct}/${stats.total}`} label={`Last ${stats.total} Predictions`} />
       <Divider />
-      <StatBlock
-        value={`${stats.accuracyPct}%`}
-        label="Accuracy Rate"
-        color={accColor}
-      />
+      <StatBlock value={`${stats.accuracyPct}%`} label="Accuracy Rate" color={accColor} />
       <Divider />
-      <StatBlock
-        value={`${stats.upsets}`}
-        label="Upsets Found"
-        color="#fb923c"
-      />
+      <StatBlock value={`${stats.upsets}`} label="Upsets Found" color="#fb923c" />
       <Divider />
-      <StatBlock
-        value={`${stats.upcoming}`}
-        label="Upcoming Fixtures"
-        color="#60a5fa"
-      />
+      <StatBlock value={`${stats.upcoming}`} label="Upcoming Fixtures" color="#60a5fa" />
       {stats.avgConf !== null && (
         <>
           <Divider />
-          <StatBlock
-            value={`${stats.avgConf}%`}
-            label="Avg Confidence"
-            color="#a78bfa"
-          />
+          <StatBlock value={`${stats.avgConf}%`} label="Avg Confidence" color="#a78bfa" />
         </>
       )}
 
-      {/* Mini accuracy bar */}
       <div style={{ marginLeft: "auto", minWidth: 140 }}>
         <div style={{
           fontFamily: "'DM Mono', monospace",
@@ -155,12 +127,7 @@ export function AccuracyTracker({
         }}>
           Rolling Window
         </div>
-        <div style={{
-          height: 4,
-          background: "#272b35",
-          borderRadius: 2,
-          overflow: "hidden",
-        }}>
+        <div style={{ height: 4, background: "#272b35", borderRadius: 2, overflow: "hidden" }}>
           <div style={{
             height: "100%",
             background: accColor,
