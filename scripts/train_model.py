@@ -16,7 +16,6 @@ Outputs:
 
 import os
 import sys
-import json
 import argparse
 import warnings
 from datetime import datetime
@@ -25,8 +24,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-# Optional: LightGBM (gracefully falls back to GradientBoosting for environments
-# where lightgbm is not installed)
+# Optional: LightGBM (gracefully falls back to GradientBoosting)
 try:
     import lightgbm as lgb
     LGBM_AVAILABLE = True
@@ -43,10 +41,14 @@ from sklearn.preprocessing import label_binarize
 warnings.filterwarnings("ignore")
 
 # ── Model feature columns ─────────────────────────────────────────
+# Must match FINAL_FEATURES in feature_engineering.py
 MODEL_FEATURES = [
+    # ELO (from xgabora embedded or EloRatings.csv)
     "elo_home",
     "elo_away",
     "elo_diff",
+    "elo_advantage",
+    # Rolling form (computed by feature_engineering.py)
     "home_goals_scored_5",
     "home_goals_conceded_5",
     "home_win_pct_5",
@@ -55,11 +57,42 @@ MODEL_FEATURES = [
     "away_goals_conceded_5",
     "away_win_pct_5",
     "away_form_streak",
+    "home_shots_pg_5",
+    "home_sot_pg_5",
+    "away_shots_pg_5",
+    "away_sot_pg_5",
+    # xgabora built-in form points
+    "Form3Home",
+    "Form5Home",
+    "Form3Away",
+    "Form5Away",
+    "form3_diff",
+    "form5_diff",
+    "form_momentum_home",
+    "form_momentum_away",
+    # Head-to-head
     "h2h_win_rate",
+    # Context
     "is_home",
     "home_days_rest",
     "away_days_rest",
     "league_position_diff",
+    # Bookmaker implied probabilities (normalised — no margin leakage)
+    "b365_implied_home",
+    "b365_implied_draw",
+    "b365_implied_away",
+    "b365_margin",
+    "max_implied_home",
+    "max_implied_draw",
+    "max_implied_away",
+    "max_margin",
+    # xgabora cluster features
+    "C_LTH",
+    "C_LTA",
+    "C_VHD",
+    "C_VAD",
+    "C_HTB",
+    "C_PHB",
 ]
 
 TARGET = "outcome"   # 2=H, 1=D, 0=A
@@ -92,16 +125,22 @@ def split_data(df: pd.DataFrame):
     return train, val
 
 
-def get_X_y(df: pd.DataFrame):
-    available = [c for c in MODEL_FEATURES if c in df.columns]
-    missing   = [c for c in MODEL_FEATURES if c not in df.columns]
+def get_X_y(df: pd.DataFrame, features: list):
+    available = [c for c in features if c in df.columns]
+    missing   = [c for c in features if c not in df.columns]
     if missing:
-        print(f"  ⚠️  Missing feature columns (will be skipped): {missing}")
+        print(f"  ⚠️  Missing feature columns (filled with 0): {missing}")
     X = df[available].copy()
+    for col in missing:
+        X[col] = 0.0
+    # Reorder to match full feature list
+    X = X.reindex(columns=features, fill_value=0.0)
     # Impute remaining NaNs with column medians
-    X = X.fillna(X.median())
+    for col in X.columns:
+        med = X[col].median()
+        X[col] = X[col].fillna(med if not np.isnan(med) else 0.0)
     y = df[TARGET].values
-    return X, y, available
+    return X, y
 
 
 def build_model():
@@ -124,6 +163,8 @@ def build_model():
         )
         model_name = "LightGBM"
     else:
+        # sklearn MultiOutputClassifier workaround for 3-class
+        from sklearn.ensemble import GradientBoostingClassifier
         model = GradientBoostingClassifier(
             n_estimators=200,
             learning_rate=0.05,
@@ -154,12 +195,24 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
     df = load_features(features_path)
     train_df, val_df = split_data(df)
 
-    X_train, y_train, used_features = get_X_y(train_df)
-    X_val,   y_val,   _             = get_X_y(val_df)
+    # Use only features actually present; fill missing with 0
+    used_features = MODEL_FEATURES  # train_model always uses the full list
+
+    X_train, y_train = get_X_y(train_df, used_features)
+    X_val,   y_val   = get_X_y(val_df,   used_features)
+
+    # Drop columns that are all-zero or all-NaN (unhelpful)
+    non_trivial = [c for c in X_train.columns
+                   if X_train[c].std() > 0 and X_train[c].notna().any()]
+    if len(non_trivial) < len(used_features):
+        print(f"  Dropping {len(used_features)-len(non_trivial)} trivial features")
+        used_features = non_trivial
+        X_train = X_train[used_features]
+        X_val   = X_val[used_features]
 
     model, model_name = build_model()
     print(f"\n  Model: {model_name}")
-    print(f"  Training on {len(X_train):,} samples × {len(used_features)} features …")
+    print(f"  Training on {len(X_train):,} samples × {len(used_features)} features ...")
 
     if LGBM_AVAILABLE:
         model.fit(
@@ -196,31 +249,30 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
     print(f"  Model improvement: +{(acc - baseline_acc)*100:.1f} pp")
 
     # ── Feature importance ────────────────────────────────────────
+    fi = {}
     if LGBM_AVAILABLE:
-        fi = dict(zip(used_features,
-                      model.feature_importances_.tolist()))
+        fi = dict(zip(used_features, model.feature_importances_.tolist()))
         fi_sorted = sorted(fi.items(), key=lambda x: -x[1])
         print(f"\n  Top-10 Feature Importances:")
+        max_fi = max(fi.values()) if fi else 1
         for feat, imp in fi_sorted[:10]:
-            bar = "█" * int(imp / max(fi.values()) * 20)
-            print(f"  {feat:<35} {bar} {imp:.0f}")
-    else:
-        fi = {}
+            bar = "█" * int(imp / max_fi * 20)
+            print(f"  {feat:<40} {bar} {imp:.0f}")
 
     # ── Save model bundle ─────────────────────────────────────────
     model_path = os.path.join(output_dir, "model.joblib")
     bundle = {
-        "model":         model,
-        "model_name":    model_name,
-        "features":      used_features,
-        "classes":       CLASSES,
-        "class_names":   CLASS_NAMES,
-        "train_cutoff":  TRAIN_CUTOFF.isoformat(),
-        "val_cutoff":    VALIDATE_CUTOFF.isoformat(),
-        "val_accuracy":  acc,
-        "val_brier":     brier,
+        "model":          model,
+        "model_name":     model_name,
+        "features":       used_features,
+        "classes":        CLASSES,
+        "class_names":    CLASS_NAMES,
+        "train_cutoff":   TRAIN_CUTOFF.isoformat(),
+        "val_cutoff":     VALIDATE_CUTOFF.isoformat(),
+        "val_accuracy":   acc,
+        "val_brier":      brier,
         "feature_importance": fi,
-        "trained_at":    datetime.utcnow().isoformat() + "Z",
+        "trained_at":     datetime.utcnow().isoformat() + "Z",
     }
     joblib.dump(bundle, model_path)
     print(f"\n  ✅ Model bundle saved → {model_path}")
@@ -239,9 +291,10 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
         f.write(f"Brier Score   : {brier:.4f}\n")
         f.write(f"Baseline      : {baseline_acc:.4f}\n")
         f.write(f"Improvement   : +{(acc-baseline_acc)*100:.1f} pp\n\n")
-        f.write(f"Features used:\n")
+        f.write(f"Features used ({len(used_features)}):\n")
         for feat in used_features:
-            f.write(f"  - {feat}\n")
+            imp_str = f"  importance={fi[feat]:.0f}" if feat in fi else ""
+            f.write(f"  - {feat}{imp_str}\n")
         f.write(f"\n{report}\n")
         f.write(f"\nConfusion Matrix (rows=actual, cols=predicted):\n")
         f.write(f"Labels: [Away=0, Draw=1, Home=2]\n")
