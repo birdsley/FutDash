@@ -1,12 +1,11 @@
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { useMatchStore } from '../../store/matchStore';
-import { PassNetwork } from "./PassNetwork"      // ✅ CORRECT
-import { XgFlowChart } from "./XgFlowChart"      // ✅ CORRECT
-import { ShotMap } from "./ShotMap"              // ✅ CORRECT
-import { VaepBars } from "./VaepBars"            // ✅ CORRECT
-import { GameStateTable } from "./GameStateTable" // ✅ CORRECT
-
+import { useMatchStore } from '../../store/matchStore'
+import { PassNetwork }   from './PassNetwork'
+import { XgFlowChart }   from './XgFlowChart'
+import { ShotMap }       from './ShotMap'
+import { VaepBars }      from './VaepBars'
+import { GameStateTable } from './GameStateTable'
 
 // ── Design tokens ─────────────────────────────────────────────────
 const panel: React.CSSProperties = {
@@ -40,9 +39,9 @@ const panelSub: React.CSSProperties = {
   margin: 0,
 }
 
-const chartH    = { height: 340 }
-const chartHlg  = { height: 280 }
-const chartHsm  = { height: 220 }
+const chartH   = { height: 340 }
+const chartHlg = { height: 280 }
+const chartHsm = { height: 220 }
 
 const grid2: React.CSSProperties = {
   display: 'grid',
@@ -55,7 +54,7 @@ const grid1: React.CSSProperties = {
   marginBottom: '1.25rem',
 }
 
-// ── Section header ────────────────────────────────────────────────
+// ── Section header — no emojis, clean numbers ─────────────────────
 function SectionHeader({ num, title, question }: { num: number; title: string; question: string }) {
   return (
     <div style={{
@@ -81,7 +80,7 @@ function SectionHeader({ num, title, question }: { num: number; title: string; q
   )
 }
 
-// ── Insight strip ─────────────────────────────────────────────────
+// ── Insight strip — professional, no emojis ───────────────────────
 function InsightStrip({ insights }: { insights: string[] }) {
   return (
     <div style={{
@@ -91,7 +90,7 @@ function InsightStrip({ insights }: { insights: string[] }) {
     }}>
       {insights.map((ins, i) => (
         <div key={i} style={{ fontSize: 12, color: i === 0 ? 'var(--gold)' : 'var(--muted)', display: 'flex', gap: 8 }}>
-          <span style={{ color: 'var(--muted2)', fontSize: 10, flexShrink: 0, marginTop: 2 }}>▸</span>
+          <span style={{ color: 'var(--muted2)', fontSize: 10, flexShrink: 0, marginTop: 2 }}>—</span>
           {ins}
         </div>
       ))}
@@ -109,14 +108,24 @@ function Skeleton({ height }: { height: number }) {
   )
 }
 
-// ── Empty / error states ──────────────────────────────────────────
+// ── Empty / error states — no emojis ─────────────────────────────
 function EmptyState() {
   return (
     <div style={{
       display: 'flex', flexDirection: 'column', alignItems: 'center',
       justifyContent: 'center', height: '60vh', gap: '1rem', color: 'var(--muted2)',
     }}>
-      <div style={{ fontSize: '3rem', opacity: 0.3 }}>⚽</div>
+      <div style={{
+        width: 48, height: 48, borderRadius: '50%',
+        background: 'var(--surface2)', border: '1px solid var(--border)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        opacity: 0.4,
+      }}>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 8v4M12 16h.01"/>
+        </svg>
+      </div>
       <div style={{ fontFamily: "'Syne', sans-serif", fontSize: '1.2rem', fontWeight: 700, color: 'var(--muted)' }}>
         Select a match to begin
       </div>
@@ -129,10 +138,9 @@ function EmptyState() {
 
 // ── Main dashboard ────────────────────────────────────────────────
 export default function MatchDashboard() {
-  const { id }                             = useParams<{ id?: string }>()
+  const { id } = useParams<{ id?: string }>()
   const { currentMatch, isLoading, error, loadMatch } = useMatchStore()
 
-  // If navigated to /match/:id directly, load that match
   useEffect(() => {
     if (id && !currentMatch) {
       loadMatch(parseInt(id, 10))
@@ -159,7 +167,7 @@ export default function MatchDashboard() {
   if (error) {
     return (
       <div style={{ color: 'var(--red)', fontFamily: "'DM Mono', monospace", fontSize: 12, padding: '2rem' }}>
-        ✗ {error}
+        Error: {error}
       </div>
     )
   }
@@ -172,7 +180,8 @@ export default function MatchDashboard() {
 
   return (
     <div style={{ animation: 'fadeInUp 0.3s ease both' }}>
-      {/* Insights */}
+
+      {/* Key insights */}
       {insights.length > 0 && <InsightStrip insights={insights} />}
 
       {/* ── Section 1: Tactical Structure ── */}
@@ -183,7 +192,7 @@ export default function MatchDashboard() {
         <div style={panel}>
           <div style={panelHeader}>
             <p style={{ ...panelTitle, color: hc }}>{meta.home}</p>
-            <p style={panelSub}>Pass Network · Click node to highlight edges</p>
+            <p style={panelSub}>Pass network — node size = pass involvement, gold = playmaker</p>
           </div>
           <div style={chartH}>
             <PassNetwork network={network_home} teamColor={hc} teamName={meta.home} />
@@ -194,7 +203,7 @@ export default function MatchDashboard() {
         <div style={panel}>
           <div style={panelHeader}>
             <p style={{ ...panelTitle, color: ac }}>{meta.away}</p>
-            <p style={panelSub}>Pass Network · Mirror view</p>
+            <p style={panelSub}>Pass network — mirror view, attacking left to right</p>
           </div>
           <div style={chartH}>
             <PassNetwork network={network_away} teamColor={ac} teamName={meta.away} />
@@ -206,8 +215,8 @@ export default function MatchDashboard() {
       <div style={grid1}>
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={panelTitle}>xG Flow — How Did Chances Build?</p>
-            <p style={panelSub}>Steeper slope = burst of danger · Dashed lines = goals · Faint area = final-third pressure</p>
+            <p style={panelTitle}>xG Flow — Cumulative Chance Quality Over Time</p>
+            <p style={panelSub}>Each step up = a shot taken. Dashed verticals = goals scored.</p>
           </div>
           <div style={chartHlg}>
             <XgFlowChart
@@ -221,32 +230,35 @@ export default function MatchDashboard() {
       </div>
 
       {/* ── Section 2: Chance Creation ── */}
-      <SectionHeader num={2} title="Chance Creation" question="Where did danger come from?" />
+      <SectionHeader num={2} title="Chance Creation" question="Where did shots come from?" />
 
       <div style={grid2}>
-        {/* Possession origins */}
+        {/* Shot map — home team */}
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={panelTitle}>Possession Origins → Shots</p>
-            <p style={panelSub}>Arrow = possession start → shot endpoint</p>
+            <p style={panelTitle}>Shot Map — Home Team</p>
+            <p style={panelSub}>Both teams attack right for comparison. Star = goal. Size = xG.</p>
           </div>
           <div style={chartH}>
+            {/* No arrowMode — plain shot dots only */}
             <ShotMap
-              shots={shots} home={meta.home} away={meta.away}
-              homeColor={hc} awayColor={ac} arrowMode
+              shots={shots.filter(s => s.team === 'home')}
+              home={meta.home} away={meta.away}
+              homeColor={hc} awayColor={ac}
             />
           </div>
         </div>
 
-        {/* Shot map */}
+        {/* Shot map — away team */}
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={panelTitle}>Shot Map — Both Teams</p>
-            <p style={panelSub}>Both teams attack right · Gold star = goal · Size = xG</p>
+            <p style={panelTitle}>Shot Map — Away Team</p>
+            <p style={panelSub}>Both teams attack right for comparison. Star = goal. Size = xG.</p>
           </div>
           <div style={chartH}>
             <ShotMap
-              shots={shots} home={meta.home} away={meta.away}
+              shots={shots.filter(s => s.team === 'away')}
+              home={meta.home} away={meta.away}
               homeColor={hc} awayColor={ac}
             />
           </div>
@@ -260,8 +272,8 @@ export default function MatchDashboard() {
         {/* Home VAEP */}
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={{ ...panelTitle, color: hc }}>{meta.home} — VAEP</p>
-            <p style={panelSub}>Value Added by Expected Possession · role badge shown</p>
+            <p style={{ ...panelTitle, color: hc }}>{meta.home} — Player Value</p>
+            <p style={panelSub}>VAEP: value added by each action relative to expected possession chain xG</p>
           </div>
           <div style={chartHsm}>
             <VaepBars players={vaep.home} teamColor={hc} teamName={meta.home} />
@@ -271,8 +283,8 @@ export default function MatchDashboard() {
         {/* Away VAEP */}
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={{ ...panelTitle, color: ac }}>{meta.away} — VAEP</p>
-            <p style={panelSub}>Value Added by Expected Possession · role badge shown</p>
+            <p style={{ ...panelTitle, color: ac }}>{meta.away} — Player Value</p>
+            <p style={panelSub}>VAEP: value added by each action relative to expected possession chain xG</p>
           </div>
           <div style={chartHsm}>
             <VaepBars players={vaep.away} teamColor={ac} teamName={meta.away} />
@@ -281,17 +293,17 @@ export default function MatchDashboard() {
       </div>
 
       {/* ── Section 4: Game State ── */}
-      <SectionHeader num={4} title="Game State Effects" question="Did the match change after goals?" />
+      <SectionHeader num={4} title="Game State Effects" question="Did the match change after the first goal?" />
 
       <div style={grid2}>
         {/* Game state table */}
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={panelTitle}>Before vs After Goal</p>
+            <p style={panelTitle}>Before vs After First Goal</p>
             <p style={panelSub}>
               {game_state.goal_minute
-                ? `First goal at ${game_state.goal_minute}'`
-                : 'No goals scored'}
+                ? `Comparison split at minute ${game_state.goal_minute}`
+                : 'No goals scored in this match'}
             </p>
           </div>
           <div style={{ padding: '1rem' }}>
@@ -303,7 +315,7 @@ export default function MatchDashboard() {
           </div>
         </div>
 
-        {/* Summary stats panel */}
+        {/* Match summary */}
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>Match Summary</p>
@@ -311,10 +323,10 @@ export default function MatchDashboard() {
           </div>
           <div style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: 12 }}>
             {[
-              { label: 'Goals',      h: meta.score_home,                    a: meta.score_away },
-              { label: 'xG',        h: (meta.xg_home ?? 0).toFixed(2),    a: (meta.xg_away ?? 0).toFixed(2) },
-              { label: 'Shots',      h: meta.shots_home,                    a: meta.shots_away },
-              { label: 'Possession', h: `${meta.possession_home}%`,        a: `${100 - meta.possession_home}%` },
+              { label: 'Goals',      h: meta.score_home,                  a: meta.score_away },
+              { label: 'xG',         h: (meta.xg_home ?? 0).toFixed(2),  a: (meta.xg_away ?? 0).toFixed(2) },
+              { label: 'Shots',      h: meta.shots_home,                  a: meta.shots_away },
+              { label: 'Possession', h: `${meta.possession_home}%`,       a: `${100 - meta.possession_home}%` },
             ].map(({ label, h, a }) => (
               <div key={label} style={{ display: 'grid', gridTemplateColumns: '1fr 80px 1fr', alignItems: 'center', gap: 8 }}>
                 <div style={{ textAlign: 'right', fontFamily: "'Syne', sans-serif", fontSize: 15, fontWeight: 700, color: hc }}>
@@ -332,7 +344,6 @@ export default function MatchDashboard() {
         </div>
       </div>
 
-      {/* Mobile responsive override */}
       <style>{`
         @media (max-width: 768px) {
           .match-grid-2 { grid-template-columns: 1fr !important; }
