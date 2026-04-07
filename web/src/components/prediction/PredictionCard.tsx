@@ -1,23 +1,9 @@
-import { ProbabilityBars, type ProbabilitySet } from "./ProbabilityBars";
+import React from "react";
+import type { PredictionMatch } from "../../types";
+import { ProbabilityBars } from "./ProbabilityBars";
 
-// ── Types ─────────────────────────────────────────────────────────
-export interface PredictionMatch {
-  match_id: string;
-  date: string;                 // "YYYY-MM-DD"
-  home: string;
-  away: string;
-  home_color: string;
-  away_color: string;
-  predicted: ProbabilitySet;
-  actual: {
-    home_goals: number;
-    away_goals: number;
-    outcome: "H" | "D" | "A";
-  } | null;
-  is_upset: boolean;
-  has_statsbomb: boolean;
-  statsbomb_match_id: number | null;
-}
+// Re-export the type so existing imports from this file keep working
+export type { PredictionMatch };
 
 interface PredictionCardProps {
   match: PredictionMatch;
@@ -37,6 +23,8 @@ function formatDate(d: string): string {
     return d;
   }
 }
+
+type ProbabilitySet = PredictionMatch["predicted"];
 
 function topPrediction(predicted: ProbabilitySet): keyof ProbabilitySet {
   return (Object.entries(predicted) as [keyof ProbabilitySet, number][])
@@ -140,7 +128,6 @@ export function PredictionCard({
         gap: 8,
       }}>
         <div style={{ minWidth: 0 }}>
-          {/* Team names */}
           <div style={{
             fontFamily: "'Syne', sans-serif",
             fontSize: 14,
@@ -154,7 +141,6 @@ export function PredictionCard({
             <span style={{ color: "#4a5168", fontSize: 12 }}>vs</span>
             <span style={{ color: match.away_color }}>{match.away}</span>
           </div>
-          {/* Date */}
           <div style={{
             fontFamily: "'DM Mono', monospace",
             fontSize: 10,
@@ -178,7 +164,7 @@ export function PredictionCard({
         />
       </div>
 
-      {/* Footer: result or upcoming */}
+      {/* Footer */}
       <div style={{
         display: "flex",
         alignItems: "center",
