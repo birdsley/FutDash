@@ -42,69 +42,127 @@ jobs:
             --json-dir ./web/public/data/matches
 
       # ── Build index.json from generated match files ────────────
+      # Fixed: previous version only showed one competition because it
+      # relied on meta.home_color which could be missing. Now reads
+      # directly from competitions.json + matches directories.
       - name: Generate index.json catalog
         run: |
           python3 - <<'PYEOF'
-          import os, json
+          import os, json, glob
 
-          base = "./open-data/data"
-          out  = "./web/public/data/index.json"
+          base         = "./open-data/data"
+          matches_base = "./web/public/data/matches"
+          out          = "./web/public/data/index.json"
           os.makedirs(os.path.dirname(out), exist_ok=True)
 
           comp_file = os.path.join(base, "competitions.json")
           if not os.path.exists(comp_file):
               print("[WARN] competitions.json not found — writing empty index")
-              json.dump({"competitions": []}, open(out, "w"))
+              with open(out, "w") as f:
+                  json.dump({"competitions": []}, f)
               raise SystemExit(0)
 
           with open(comp_file, encoding="utf-8") as f:
               comps = json.load(f)
 
+          # Flag mapping for known competitions
+          COMP_FLAGS = {
+              "Premier League":           "ENG",
+              "La Liga":                  "ESP",
+              "Bundesliga":               "GER",
+              "Serie A":                  "ITA",
+              "Ligue 1":                  "FRA",
+              "Champions League":         "UCL",
+              "FA Women's Super League":  "ENG",
+              "FIFA World Cup":           "WC",
+              "UEFA Euro":                "EUR",
+          }
+
           index = {"competitions": []}
           seen  = {}
 
           for c in comps:
-              cid, sid = c["competition_id"], c["season_id"]
+              cid = c["competition_id"]
+              sid = c["season_id"]
+              comp_name = c.get("competition_name", "")
+              season_name = c.get("season_name", "")
+
               m_path = os.path.join(base, "matches", str(cid), f"{sid}.json")
               if not os.path.exists(m_path):
                   continue
+
               with open(m_path, encoding="utf-8") as f:
                   matches = json.load(f)
 
               match_list = []
               for m in matches:
-                  jfile = f"./web/public/data/matches/{m['match_id']}.json"
+                  mid = m["match_id"]
+                  jfile = os.path.join(matches_base, f"{mid}.json")
                   if not os.path.exists(jfile):
                       continue
-                  with open(jfile, encoding="utf-8") as f2:
-                      md = json.load(f2)
+                  try:
+                      with open(jfile, encoding="utf-8") as f2:
+                          md = json.load(f2)
+                  except Exception:
+                      continue
+
                   meta = md.get("meta", {})
+
+                  # Fall back to raw StatsBomb data if meta is sparse
+                  home = (meta.get("home")
+                          or m.get("home_team", {}).get("home_team_name", ""))
+                  away = (meta.get("away")
+                          or m.get("away_team", {}).get("away_team_name", ""))
+                  date = (meta.get("date")
+                          or m.get("match_date", ""))
+                  score_home = meta.get("score_home", m.get("home_score", 0) or 0)
+                  score_away = meta.get("score_away", m.get("away_score", 0) or 0)
+                  home_color = meta.get("home_color", "#6e7891")
+                  away_color = meta.get("away_color", "#6e7891")
+
+                  if not home or not away:
+                      continue
+
                   match_list.append({
-                      "match_id":   meta.get("match_id"),
-                      "home":       meta.get("home", ""),
-                      "away":       meta.get("away", ""),
-                      "score_home": meta.get("score_home", 0),
-                      "score_away": meta.get("score_away", 0),
-                      "date":       meta.get("date", ""),
-                      "home_color": meta.get("home_color", "#6e7891"),
-                      "away_color": meta.get("away_color", "#6e7891"),
+                      "match_id":   mid,
+                      "home":       home,
+                      "away":       away,
+                      "score_home": int(score_home),
+                      "score_away": int(score_away),
+                      "date":       date,
+                      "home_color": home_color,
+                      "away_color": away_color,
                   })
 
               if not match_list:
                   continue
+
               if cid not in seen:
-                  seen[cid] = {"id": cid, "name": c.get("competition_name", ""),
-                               "seasons": []}
+                  seen[cid] = {
+                      "id":      cid,
+                      "name":    comp_name,
+                      "flag":    COMP_FLAGS.get(comp_name, ""),
+                      "seasons": [],
+                  }
                   index["competitions"].append(seen[cid])
+
               seen[cid]["seasons"].append({
-                  "id": sid, "name": c.get("season_name", ""),
-                  "matches": match_list
+                  "id":      sid,
+                  "name":    season_name,
+                  "matches": sorted(match_list, key=lambda x: x["date"], reverse=True),
               })
+
+          # Sort competitions alphabetically
+          index["competitions"].sort(key=lambda x: x["name"])
 
           with open(out, "w", encoding="utf-8") as f:
               json.dump(index, f, ensure_ascii=False, indent=2)
-          total = sum(len(s["matches"]) for c in index["competitions"]
-                      for s in c["seasons"])
+
+          total = sum(
+              len(s["matches"])
+              for c in index["competitions"]
+              for s in c["seasons"]
+          )
           print(f"index.json -> {len(index['competitions'])} competitions, {total} matches")
           PYEOF
 
@@ -117,27 +175,35 @@ jobs:
             --output-dir ./scripts/features
 
       # ── Train LightGBM model ───────────────────────────────────
+      # Fixed: hashFiles() only works on files present at workflow START,
+      # not files generated during the run. Use a shell -f check instead.
       - name: Train prediction model
-        if: hashFiles('scripts/features/features_all.csv') != ''
         run: |
-          python3 scripts/train_model.py \
-            --features   ./scripts/features/features_all.csv \
-            --output-dir ./scripts
+          if [ -f "scripts/features/features_all.csv" ]; then
+            echo "Features found, training model..."
+            python3 scripts/train_model.py \
+              --features   ./scripts/features/features_all.csv \
+              --output-dir ./scripts
+          else
+            echo "No features_all.csv found — skipping model training"
+          fi
 
       # ── Generate prediction JSONs ──────────────────────────────
+      # Fixed: same hashFiles() issue. Use shell check instead.
       - name: Generate prediction JSONs
-        if: hashFiles('scripts/model.joblib') != ''
         run: |
-          python3 scripts/generate_predictions.py \
-            --features-dir   ./scripts/features \
-            --model          ./scripts/model.joblib \
-            --output-dir     ./web/public/data/predictions \
-            --statsbomb-base ./open-data
+          if [ -f "scripts/model.joblib" ]; then
+            echo "Model found, generating predictions..."
+            python3 scripts/generate_predictions.py \
+              --features-dir   ./scripts/features \
+              --model          ./scripts/model.joblib \
+              --output-dir     ./web/public/data/predictions \
+              --statsbomb-base ./open-data
+          else
+            echo "No model.joblib found — skipping prediction generation"
+          fi
 
       # ── Fetch upcoming fixtures ────────────────────────────────
-      # NOTE: 'secrets' context is NOT valid inside if: expressions.
-      # The correct pattern is to pass the secret as an env var and
-      # check it with a shell conditional inside the run: block.
       - name: Fetch upcoming fixtures
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
