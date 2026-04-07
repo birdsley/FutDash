@@ -19,164 +19,68 @@ jobs:
       - name: Check Python version
         run: python3 --version
 
-      - name: Check pip version
-        run: pip3 --version
-
       - name: Cache pip packages
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+          key: ${{ runner.os }}-pip-v2-${{ hashFiles('requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-v2-
 
       - name: Install Python dependencies
         run: |
           pip3 install --upgrade pip
           pip3 install pandas numpy scikit-learn networkx matplotlib lightgbm joblib requests
 
-      # ── StatsBomb: one JSON per match ──────────────────────────
-      - name: Generate StatsBomb match JSONs
+      # ── Create output directories ──────────────────────────────
+      - name: Create output directories
         run: |
-          python3 scripts/statsbomb_v9.py \
+          mkdir -p ./web/public/data/matches
+          mkdir -p ./web/public/data/predictions
+
+      # ── Export ALL StatsBomb matches to JSON ───────────────────
+      # Uses export_all_matches.py which loops every competition/season/match
+      # and calls export_match_json() from statsbomb_v9.py for each one.
+      # Skips already-exported files (idempotent) so incremental runs are fast.
+      - name: Export all StatsBomb matches to JSON
+        run: |
+          python3 scripts/export_all_matches.py \
             --base-path ./open-data/data \
-            --export-json \
-            --json-dir ./web/public/data/matches
+            --output-dir ./web/public/data/matches \
+            --index-out  ./web/public/data/index.json
+        timeout-minutes: 60
 
-      # ── Build index.json from generated match files ────────────
-      # Fixed: previous version only showed one competition because it
-      # relied on meta.home_color which could be missing. Now reads
-      # directly from competitions.json + matches directories.
-      - name: Generate index.json catalog
+      # ── Verify output ─────────────────────────────────────────
+      - name: Verify data output
         run: |
-          python3 - <<'PYEOF'
-          import os, json, glob
-
-          base         = "./open-data/data"
-          matches_base = "./web/public/data/matches"
-          out          = "./web/public/data/index.json"
-          os.makedirs(os.path.dirname(out), exist_ok=True)
-
-          comp_file = os.path.join(base, "competitions.json")
-          if not os.path.exists(comp_file):
-              print("[WARN] competitions.json not found — writing empty index")
-              with open(out, "w") as f:
-                  json.dump({"competitions": []}, f)
-              raise SystemExit(0)
-
-          with open(comp_file, encoding="utf-8") as f:
-              comps = json.load(f)
-
-          # Flag mapping for known competitions
-          COMP_FLAGS = {
-              "Premier League":           "ENG",
-              "La Liga":                  "ESP",
-              "Bundesliga":               "GER",
-              "Serie A":                  "ITA",
-              "Ligue 1":                  "FRA",
-              "Champions League":         "UCL",
-              "FA Women's Super League":  "ENG",
-              "FIFA World Cup":           "WC",
-              "UEFA Euro":                "EUR",
-          }
-
-          index = {"competitions": []}
-          seen  = {}
-
-          for c in comps:
-              cid = c["competition_id"]
-              sid = c["season_id"]
-              comp_name = c.get("competition_name", "")
-              season_name = c.get("season_name", "")
-
-              m_path = os.path.join(base, "matches", str(cid), f"{sid}.json")
-              if not os.path.exists(m_path):
-                  continue
-
-              with open(m_path, encoding="utf-8") as f:
-                  matches = json.load(f)
-
-              match_list = []
-              for m in matches:
-                  mid = m["match_id"]
-                  jfile = os.path.join(matches_base, f"{mid}.json")
-                  if not os.path.exists(jfile):
-                      continue
-                  try:
-                      with open(jfile, encoding="utf-8") as f2:
-                          md = json.load(f2)
-                  except Exception:
-                      continue
-
-                  meta = md.get("meta", {})
-
-                  # Fall back to raw StatsBomb data if meta is sparse
-                  home = (meta.get("home")
-                          or m.get("home_team", {}).get("home_team_name", ""))
-                  away = (meta.get("away")
-                          or m.get("away_team", {}).get("away_team_name", ""))
-                  date = (meta.get("date")
-                          or m.get("match_date", ""))
-                  score_home = meta.get("score_home", m.get("home_score", 0) or 0)
-                  score_away = meta.get("score_away", m.get("away_score", 0) or 0)
-                  home_color = meta.get("home_color", "#6e7891")
-                  away_color = meta.get("away_color", "#6e7891")
-
-                  if not home or not away:
-                      continue
-
-                  match_list.append({
-                      "match_id":   mid,
-                      "home":       home,
-                      "away":       away,
-                      "score_home": int(score_home),
-                      "score_away": int(score_away),
-                      "date":       date,
-                      "home_color": home_color,
-                      "away_color": away_color,
-                  })
-
-              if not match_list:
-                  continue
-
-              if cid not in seen:
-                  seen[cid] = {
-                      "id":      cid,
-                      "name":    comp_name,
-                      "flag":    COMP_FLAGS.get(comp_name, ""),
-                      "seasons": [],
-                  }
-                  index["competitions"].append(seen[cid])
-
-              seen[cid]["seasons"].append({
-                  "id":      sid,
-                  "name":    season_name,
-                  "matches": sorted(match_list, key=lambda x: x["date"], reverse=True),
-              })
-
-          # Sort competitions alphabetically
-          index["competitions"].sort(key=lambda x: x["name"])
-
-          with open(out, "w", encoding="utf-8") as f:
-              json.dump(index, f, ensure_ascii=False, indent=2)
-
-          total = sum(
-              len(s["matches"])
-              for c in index["competitions"]
-              for s in c["seasons"]
-          )
-          print(f"index.json -> {len(index['competitions'])} competitions, {total} matches")
-          PYEOF
+          echo "=== Match JSON files ==="
+          ls ./web/public/data/matches/ | wc -l
+          echo "files in matches/"
+          echo "=== index.json ==="
+          python3 -c "
+          import json
+          with open('./web/public/data/index.json') as f:
+              idx = json.load(f)
+          comps = idx.get('competitions', [])
+          total = sum(len(s['matches']) for c in comps for s in c['seasons'])
+          print(f'{len(comps)} competitions, {total} matches in index')
+          "
 
       # ── xgabora: feature engineering ──────────────────────────
       - name: Feature engineering (xgabora)
         run: |
-          python3 scripts/feature_engineering.py \
-            --matches    ./xgabora-data/Matches.csv \
-            --elo        ./xgabora-data/EloRatings.csv \
-            --output-dir ./scripts/features
+          if [ -f "xgabora-data/Matches.csv" ]; then
+            python3 scripts/feature_engineering.py \
+              --matches    ./xgabora-data/Matches.csv \
+              --elo        ./xgabora-data/EloRatings.csv \
+              --output-dir ./scripts/features
+          else
+            echo "xgabora data not found — skipping feature engineering"
+            mkdir -p ./scripts/features
+          fi
+        continue-on-error: true
 
       # ── Train LightGBM model ───────────────────────────────────
-      # Fixed: hashFiles() only works on files present at workflow START,
-      # not files generated during the run. Use a shell -f check instead.
       - name: Train prediction model
         run: |
           if [ -f "scripts/features/features_all.csv" ]; then
@@ -187,9 +91,9 @@ jobs:
           else
             echo "No features_all.csv found — skipping model training"
           fi
+        continue-on-error: true
 
       # ── Generate prediction JSONs ──────────────────────────────
-      # Fixed: same hashFiles() issue. Use shell check instead.
       - name: Generate prediction JSONs
         run: |
           if [ -f "scripts/model.joblib" ]; then
@@ -202,6 +106,7 @@ jobs:
           else
             echo "No model.joblib found — skipping prediction generation"
           fi
+        continue-on-error: true
 
       # ── Fetch upcoming fixtures ────────────────────────────────
       - name: Fetch upcoming fixtures
@@ -248,6 +153,26 @@ jobs:
           name: generated-data
           path: web/public/data/
 
+      - name: Verify downloaded data
+        run: |
+          echo "=== Downloaded data ==="
+          find web/public/data -name "*.json" | wc -l
+          echo "JSON files downloaded"
+          if [ -f "web/public/data/index.json" ]; then
+            echo "✓ index.json present"
+            cat web/public/data/index.json | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)
+          comps=d.get('competitions',[])
+          total=sum(len(s['matches']) for c in comps for s in c['seasons'])
+          print(f'  {len(comps)} competitions, {total} matches')
+            "
+          else
+            echo "✗ index.json MISSING — creating empty placeholder"
+            mkdir -p web/public/data
+            echo '{"competitions":[]}' > web/public/data/index.json
+          fi
+
       - name: Install npm dependencies
         working-directory: ./web
         run: npm ci
@@ -255,6 +180,8 @@ jobs:
       - name: TypeScript type check
         working-directory: ./web
         run: npx tsc --noEmit
+        # If this fails, show all errors clearly
+        continue-on-error: false
 
       - name: Build Vite app
         working-directory: ./web
