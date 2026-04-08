@@ -31,15 +31,15 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
     const alpha = isHighlighted ? baseAlpha : baseAlpha * 0.12
 
     const edgeColor =
-      e.direction === 'forward'  ? teamColor  :
-      e.direction === 'backward' ? '#484f58'  :
+      e.direction === 'forward'  ? teamColor :
+      e.direction === 'backward' ? '#484f58' :
       '#2dd4bf'
 
     return {
       type: 'scatter' as const,
       mode: 'lines' as const,
-      x: [src.x, tgt.x, null],
-      y: [src.y, tgt.y, null],
+      x: [src.x, tgt.x],
+      y: [src.y, tgt.y],
       line: {
         color: edgeColor,
         width: 0.8 + 3.5 * (e.weight / maxWeight),
@@ -57,7 +57,7 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
     x: nodes.map(n => n.x),
     y: nodes.map(n => n.y),
     marker: {
-      size: nodes.map(n => Math.sqrt(Math.max(n.size, 55)) * 0.9 + 6),
+      size: nodes.map(n => Math.max(Math.sqrt(Math.max(n.size, 55)) * 0.9, 8)),
       color: 'rgba(255,255,255,0)',
       line: { color: 'rgba(255,255,255,0.18)', width: 7 },
     },
@@ -117,11 +117,6 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
         borderwidth: 0.8,
         borderpad: 3,
       })),
-    title: {
-      text: teamName,
-      font: { size: 12, color: teamColor, family: "'Syne', sans-serif" },
-      x: 0.5,
-    },
     // Fix: white text in hover tooltip
     hoverlabel: {
       bgcolor: '#0f1117',
