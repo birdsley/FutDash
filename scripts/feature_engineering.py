@@ -195,14 +195,39 @@ def load_elo(path: str, verbose: bool = True) -> pd.DataFrame:
         return pd.DataFrame()
 
     df = pd.read_csv(path, low_memory=False)
-    df = normalise_columns(df)
 
-    for dcol in ("Date", "date"):
+    # Normalize column names to title case to handle mixed-case CSV headers
+    df.columns = [c.strip() for c in df.columns]
+
+    # Build case-insensitive rename map
+    col_lower = {c.lower(): c for c in df.columns}
+    rename_map = {}
+    for target in ["Date", "Club", "Country", "Elo"]:
+        src = col_lower.get(target.lower())
+        if src and src != target:
+            rename_map[src] = target
+    if rename_map:
+        df = df.rename(columns=rename_map)
+
+    # Parse date
+    for dcol in ("Date", "MatchDate", "date", "matchdate"):
         if dcol in df.columns:
             df["Date"] = pd.to_datetime(df[dcol], errors="coerce", dayfirst=True)
+            if dcol != "Date":
+                df = df.drop(columns=[dcol], errors="ignore")
             break
 
+    # Drop rows missing key fields
+    missing_cols = [c for c in ["Date", "Club", "Elo"] if c not in df.columns]
+    if missing_cols:
+        if verbose:
+            print(f"  ⚠️  EloRatings.csv missing expected columns: {missing_cols}")
+            print(f"  Available columns: {list(df.columns)}")
+        return pd.DataFrame()
+
     df = df.dropna(subset=["Date", "Club", "Elo"]).copy()
+    df["Elo"] = pd.to_numeric(df["Elo"], errors="coerce")
+    df = df.sort_values("Date")
     df["Elo"] = pd.to_numeric(df["Elo"], errors="coerce")
     df = df.sort_values("Date")
 
