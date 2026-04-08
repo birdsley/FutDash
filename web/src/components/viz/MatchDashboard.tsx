@@ -232,32 +232,17 @@ export default function MatchDashboard() {
       {/* ── Section 2: Chance Creation ── */}
       <SectionHeader num={2} title="Chance Creation" question="Where did shots come from?" />
 
-      <div style={grid2}>
-        {/* Shot map — home team */}
+      <div style={grid1}>
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={panelTitle}>Shot Map — Home Team</p>
-            <p style={panelSub}>Both teams attack right for comparison. Star = goal. Size = xG.</p>
+            <p style={panelTitle}>Shot Map — Both Teams</p>
+            <p style={panelSub}>
+              Home attacks right · Away attacks left · Star = goal · Size = xG
+            </p>
           </div>
-          <div style={chartH}>
-            {/* No arrowMode — plain shot dots only */}
+          <div style={{ height: 360 }}>
             <ShotMap
-              shots={shots.filter(s => s.team === 'home')}
-              home={meta.home} away={meta.away}
-              homeColor={hc} awayColor={ac}
-            />
-          </div>
-        </div>
-
-        {/* Shot map — away team */}
-        <div style={panel}>
-          <div style={panelHeader}>
-            <p style={panelTitle}>Shot Map — Away Team</p>
-            <p style={panelSub}>Both teams attack right for comparison. Star = goal. Size = xG.</p>
-          </div>
-          <div style={chartH}>
-            <ShotMap
-              shots={shots.filter(s => s.team === 'away')}
+              shots={shots}
               home={meta.home} away={meta.away}
               homeColor={hc} awayColor={ac}
             />
