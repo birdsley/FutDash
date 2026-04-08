@@ -30,7 +30,8 @@ export function VaepBars({ players, teamColor, teamName }: VaepBarsProps) {
 
   const labels = sorted.map(p => {
     const role = ROLE_LABEL[p.role] ?? p.role
-    return `${p.short}  [${role}]`
+    const shortName = (p.short || '').slice(0, 12)
+    return `${shortName}  [${role}]`
   })
   const vals = sorted.map(p => p.vaep)
 
@@ -88,15 +89,11 @@ export function VaepBars({ players, teamColor, teamName }: VaepBarsProps) {
     yaxis: {
       ...CHART_LAYOUT.yaxis,
       autorange: 'reversed' as const,
-      tickfont: { size: 10 },
+      tickfont: { size: 9 },
+      automargin: true,
     },
-    margin: { t: 14, r: 80, b: 44, l: 130 },
+    margin: { t: 14, r: 60, b: 44, l: 160 },
     showlegend: false,
-    title: {
-      text: teamName,
-      font: { size: 12, color: teamColor, family: "'Syne', sans-serif" },
-      x: 0.5,
-    },
     // Fix: readable hover text
     hoverlabel: {
       bgcolor: '#0f1117',
