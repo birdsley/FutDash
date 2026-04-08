@@ -94,7 +94,7 @@ export function ShotMap({ shots, home, away, homeColor, awayColor }: ShotMapProp
   const awayGoals = goals.filter(s => s.team === 'away').length
 
   const layout = useMemo(() => ({
-    ...pitchLayout('Shot Map — Both Teams'),
+    ...pitchLayout(undefined),
     annotations: [
       // Home stats box (right side — home attacks right)
       {
