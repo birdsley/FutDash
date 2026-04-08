@@ -47,7 +47,7 @@ export function ShotMap({ shots, home, away, homeColor, awayColor }: ShotMapProp
         technique: s.technique || '—',
         body_part: s.body_part || '—',
         team: s.team === 'home' ? home : away,
-      })),
+      })) as any[],
       hovertemplate:
         '<b>%{customdata.player}</b><br>' +
         'Team: %{customdata.team}<br>' +
@@ -75,7 +75,7 @@ export function ShotMap({ shots, home, away, homeColor, awayColor }: ShotMapProp
         minute: s.minute ?? '—',
         xg: (s.xg ?? 0).toFixed(3),
         team: s.team === 'home' ? home : away,
-      })),
+      })) as any[],
       hovertemplate:
         '<b>GOAL — %{customdata.player}</b><br>' +
         'Team: %{customdata.team}<br>' +
