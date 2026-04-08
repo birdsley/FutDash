@@ -57,7 +57,7 @@ export function VaepBars({ players, teamColor, teamName }: VaepBarsProps) {
         role: ROLE_LABEL[p.role] ?? p.role,
         vaep: p.vaep.toFixed(4),
         n: p.n_actions,
-      })),
+      })) as any[],
       hovertemplate:
         '<b>%{customdata.player}</b><br>' +
         'VAEP: %{customdata.vaep}<br>' +
