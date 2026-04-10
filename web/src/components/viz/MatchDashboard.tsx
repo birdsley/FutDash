@@ -39,9 +39,19 @@ const panelSub: React.CSSProperties = {
   margin: 0,
 }
 
-const chartH   = { height: 340 }
-const chartHlg = { height: 280 }
-const chartHsm = { height: 220 }
+// Pitch panels: use aspect-ratio to preserve 120:80 = 3:2 ratio
+// This ensures the pitch is not distorted regardless of container width
+const pitchContainer: React.CSSProperties = {
+  width: '100%',
+  // 80/120 = 0.667 → padding-top trick for aspect ratio
+  position: 'relative',
+  paddingTop: '66.7%', // 80/120 * 100%
+}
+
+const pitchInner: React.CSSProperties = {
+  position: 'absolute',
+  top: 0, left: 0, right: 0, bottom: 0,
+}
 
 const grid2: React.CSSProperties = {
   display: 'grid',
@@ -54,7 +64,10 @@ const grid1: React.CSSProperties = {
   marginBottom: '1.25rem',
 }
 
-// ── Section header — no emojis, clean numbers ─────────────────────
+const chartH: React.CSSProperties = { height: 280 }
+const chartHsm: React.CSSProperties = { height: 220 }
+
+// ── Section header ────────────────────────────────────────────────
 function SectionHeader({ num, title, question }: { num: number; title: string; question: string }) {
   return (
     <div style={{
@@ -80,7 +93,7 @@ function SectionHeader({ num, title, question }: { num: number; title: string; q
   )
 }
 
-// ── Insight strip — professional, no emojis ───────────────────────
+// ── Insight strip ─────────────────────────────────────────────────
 function InsightStrip({ insights }: { insights: string[] }) {
   return (
     <div style={{
@@ -99,7 +112,7 @@ function InsightStrip({ insights }: { insights: string[] }) {
 }
 
 // ── Skeleton placeholder ──────────────────────────────────────────
-function Skeleton({ height }: { height: number }) {
+function Skeleton({ height }: { height: number | string }) {
   return (
     <div
       className="skeleton"
@@ -108,7 +121,7 @@ function Skeleton({ height }: { height: number }) {
   )
 }
 
-// ── Empty / error states — no emojis ─────────────────────────────
+// ── Empty state ───────────────────────────────────────────────────
 function EmptyState() {
   return (
     <div style={{
@@ -152,13 +165,13 @@ export default function MatchDashboard() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
         <Skeleton height={60} />
         <div style={grid2}>
-          <Skeleton height={340} />
-          <Skeleton height={340} />
+          <Skeleton height={300} />
+          <Skeleton height={300} />
         </div>
         <Skeleton height={280} />
         <div style={grid2}>
-          <Skeleton height={340} />
-          <Skeleton height={340} />
+          <Skeleton height={300} />
+          <Skeleton height={300} />
         </div>
       </div>
     )
@@ -181,32 +194,35 @@ export default function MatchDashboard() {
   return (
     <div style={{ animation: 'fadeInUp 0.3s ease both' }}>
 
-      {/* Key insights */}
       {insights.length > 0 && <InsightStrip insights={insights} />}
 
       {/* ── Section 1: Tactical Structure ── */}
       <SectionHeader num={1} title="Tactical Structure" question="How did both teams build play?" />
 
+      {/* Pass networks with proper pitch aspect ratio */}
       <div style={grid2}>
-        {/* Home pass network */}
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={{ ...panelTitle, color: hc }}>{meta.home}</p>
-            <p style={panelSub}>Pass network — node size = pass involvement, gold = playmaker</p>
+            <p style={{ ...panelTitle, color: hc }}>{meta.home} — Pass Network</p>
+            <p style={panelSub}>Node size = pass involvement · Gold = playmaker · Click node to highlight connections</p>
           </div>
-          <div style={chartH}>
-            <PassNetwork network={network_home} teamColor={hc} teamName={meta.home} />
+          {/* Pitch container with preserved aspect ratio */}
+          <div style={pitchContainer}>
+            <div style={pitchInner}>
+              <PassNetwork network={network_home} teamColor={hc} teamName={meta.home} />
+            </div>
           </div>
         </div>
 
-        {/* Away pass network */}
         <div style={panel}>
           <div style={panelHeader}>
-            <p style={{ ...panelTitle, color: ac }}>{meta.away}</p>
-            <p style={panelSub}>Pass network — mirror view, attacking left to right</p>
+            <p style={{ ...panelTitle, color: ac }}>{meta.away} — Pass Network</p>
+            <p style={panelSub}>Mirror view · Node size = pass involvement · Gold = playmaker</p>
           </div>
-          <div style={chartH}>
-            <PassNetwork network={network_away} teamColor={ac} teamName={meta.away} />
+          <div style={pitchContainer}>
+            <div style={pitchInner}>
+              <PassNetwork network={network_away} teamColor={ac} teamName={meta.away} />
+            </div>
           </div>
         </div>
       </div>
@@ -216,9 +232,9 @@ export default function MatchDashboard() {
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>xG Flow — Cumulative Chance Quality Over Time</p>
-            <p style={panelSub}>Each step up = a shot taken. Dashed verticals = goals scored.</p>
+            <p style={panelSub}>Each step up = a shot taken · Dashed verticals = goals scored</p>
           </div>
-          <div style={chartHlg}>
+          <div style={chartH}>
             <XgFlowChart
               xgFlow={xg_flow}
               home={meta.home} away={meta.away}
@@ -232,20 +248,23 @@ export default function MatchDashboard() {
       {/* ── Section 2: Chance Creation ── */}
       <SectionHeader num={2} title="Chance Creation" question="Where did shots come from?" />
 
+      {/* Shot map with pitch aspect ratio */}
       <div style={grid1}>
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>Shot Map — Both Teams</p>
             <p style={panelSub}>
-              Home attacks right · Away attacks left · Star = goal · Size = xG
+              Home attacks right · Away attacks left · Star = goal · Size = xG value
             </p>
           </div>
-          <div style={{ height: 360 }}>
-            <ShotMap
-              shots={shots}
-              home={meta.home} away={meta.away}
-              homeColor={hc} awayColor={ac}
-            />
+          <div style={pitchContainer}>
+            <div style={pitchInner}>
+              <ShotMap
+                shots={shots}
+                home={meta.home} away={meta.away}
+                homeColor={hc} awayColor={ac}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -254,7 +273,6 @@ export default function MatchDashboard() {
       <SectionHeader num={3} title="Individual Impact" question="Who made the difference?" />
 
       <div style={grid2}>
-        {/* Home VAEP */}
         <div style={panel}>
           <div style={panelHeader}>
             <p style={{ ...panelTitle, color: hc }}>{meta.home} — Player Value</p>
@@ -265,7 +283,6 @@ export default function MatchDashboard() {
           </div>
         </div>
 
-        {/* Away VAEP */}
         <div style={panel}>
           <div style={panelHeader}>
             <p style={{ ...panelTitle, color: ac }}>{meta.away} — Player Value</p>
@@ -281,7 +298,6 @@ export default function MatchDashboard() {
       <SectionHeader num={4} title="Game State Effects" question="Did the match change after the first goal?" />
 
       <div style={grid2}>
-        {/* Game state table */}
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>Before vs After First Goal</p>
@@ -306,7 +322,7 @@ export default function MatchDashboard() {
             <p style={panelTitle}>Match Summary</p>
             <p style={panelSub}>Key metrics at a glance</p>
           </div>
-          <div style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: 12 }}>
+          <div style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: 14 }}>
             {[
               { label: 'Goals',      h: meta.score_home,                  a: meta.score_away },
               { label: 'xG',         h: (meta.xg_home ?? 0).toFixed(2),  a: (meta.xg_away ?? 0).toFixed(2) },
@@ -314,13 +330,13 @@ export default function MatchDashboard() {
               { label: 'Possession', h: `${meta.possession_home}%`,       a: `${100 - meta.possession_home}%` },
             ].map(({ label, h, a }) => (
               <div key={label} style={{ display: 'grid', gridTemplateColumns: '1fr 80px 1fr', alignItems: 'center', gap: 8 }}>
-                <div style={{ textAlign: 'right', fontFamily: "'Syne', sans-serif", fontSize: 15, fontWeight: 700, color: hc }}>
+                <div style={{ textAlign: 'right', fontFamily: "'Syne', sans-serif", fontSize: 17, fontWeight: 700, color: hc }}>
                   {h}
                 </div>
                 <div style={{ textAlign: 'center', fontFamily: "'DM Mono', monospace", fontSize: 10, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                   {label}
                 </div>
-                <div style={{ textAlign: 'left', fontFamily: "'Syne', sans-serif", fontSize: 15, fontWeight: 700, color: ac }}>
+                <div style={{ textAlign: 'left', fontFamily: "'Syne', sans-serif", fontSize: 17, fontWeight: 700, color: ac }}>
                   {a}
                 </div>
               </div>
@@ -330,7 +346,11 @@ export default function MatchDashboard() {
       </div>
 
       <style>{`
-        @media (max-width: 768px) {
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(8px); }
+          to { opacity: 1; transform: none; }
+        }
+        @media (max-width: 900px) {
           .match-grid-2 { grid-template-columns: 1fr !important; }
         }
       `}</style>
