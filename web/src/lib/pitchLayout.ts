@@ -7,11 +7,11 @@
 import type { Layout, Shape } from 'plotly.js'
 
 const PITCH_GREEN = '#1c3a28'
-const LINE_COLOR  = 'rgba(201,209,217,0.45)'
+const LINE_ALPHA  = 0.55
 const LINE_WIDTH  = 1.2
 
 /** All pitch line shapes for a 120×80 StatsBomb pitch */
-export function pitchShapes(alpha = 0.45): Partial<Shape>[] {
+export function pitchShapes(alpha = LINE_ALPHA): Partial<Shape>[] {
   const lc = `rgba(201,209,217,${alpha})`
   const lw = LINE_WIDTH
 
@@ -113,7 +113,7 @@ export function pitchLayout(title?: string): Partial<Layout> {
       zeroline: false,
       showticklabels: false,
       fixedrange: true,
-      scaleanchor: 'y',
+      // NO scaleanchor here — it causes distortion in flex containers
     },
     yaxis: {
       range: [-4, 84],
@@ -121,6 +121,7 @@ export function pitchLayout(title?: string): Partial<Layout> {
       zeroline: false,
       showticklabels: false,
       fixedrange: true,
+      // NO scaleanchor — pitch proportions handled by container CSS aspect-ratio
     },
     shapes: pitchShapes() as Shape[],
     margin: { t: title ? 30 : 8, r: 8, b: 8, l: 8 },
@@ -138,9 +139,9 @@ export function pitchLayout(title?: string): Partial<Layout> {
     showlegend: false,
     font: { family: "'DM Mono', monospace", color: '#e2e8f0' },
     hoverlabel: {
-      bgcolor: '#1a2235',
-      bordercolor: '#272b35',
-      font: { family: "'DM Mono', monospace", size: 11 },
+      bgcolor: '#0f1117',
+      bordercolor: '#4a5168',
+      font: { family: "'DM Mono', monospace", size: 11, color: '#e2e8f0' },
     },
   }
 }
@@ -173,9 +174,9 @@ export const CHART_LAYOUT: Partial<Layout> = {
   },
   hovermode: 'closest',
   hoverlabel: {
-    bgcolor: '#1a2235',
-    bordercolor: '#272b35',
-    font: { family: "'DM Mono', monospace", size: 11 },
+    bgcolor: '#0f1117',
+    bordercolor: '#4a5168',
+    font: { family: "'DM Mono', monospace", size: 11, color: '#e2e8f0' },
   },
 }
 
