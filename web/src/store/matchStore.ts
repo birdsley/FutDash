@@ -11,13 +11,14 @@ interface MatchStore {
   forecasts: PredictionMatch[]
   isLoading: boolean
   isIndexLoading: boolean
+  isPredictionsLoading: boolean
   error: string | null
   activeTab: ActiveTab
 
   // Actions
   loadIndex: () => Promise<void>
   loadMatch: (matchId: number) => Promise<void>
-  loadPredictions: (leagueSlug: string, seasonSlug: string) => Promise<void>
+  loadPredictions: (leagueSlug?: string, seasonSlug?: string) => Promise<void>
   loadForecasts: (leagueSlug: string) => Promise<void>
   setTab: (tab: ActiveTab) => void
   clearError: () => void
@@ -26,7 +27,20 @@ interface MatchStore {
 /** Resolve the correct public base path for data files */
 function dataPath(path: string): string {
   const base = import.meta.env.BASE_URL ?? '/FutDash/'
-  return `${base}data/${path}`
+  // Ensure base ends with /
+  const b = base.endsWith('/') ? base : base + '/'
+  return `${b}data/${path}`
+}
+
+/** Try fetching a URL, return null on error */
+async function tryFetch(url: string): Promise<any | null> {
+  try {
+    const res = await fetch(url)
+    if (!res.ok) return null
+    return await res.json()
+  } catch {
+    return null
+  }
 }
 
 export const useMatchStore = create<MatchStore>((set, get) => ({
@@ -36,6 +50,7 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
   forecasts: [],
   isLoading: false,
   isIndexLoading: false,
+  isPredictionsLoading: false,
   error: null,
   activeTab: 'match',
 
@@ -70,34 +85,111 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
     }
   },
 
-  loadPredictions: async (leagueSlug: string, seasonSlug: string) => {
-    set({ isLoading: true, error: null })
-    try {
-      const res = await fetch(dataPath(`predictions/${leagueSlug}/${seasonSlug}.json`))
-      if (!res.ok) throw new Error(`Predictions not found for ${leagueSlug}/${seasonSlug}`)
-      const data: PredictionMatch[] = await res.json()
-      set({ predictions: data, isLoading: false })
-    } catch (err) {
-      set({
-        isLoading: false,
-        error: err instanceof Error ? err.message : 'Failed to load predictions',
+  loadPredictions: async (leagueSlug?: string, seasonSlug?: string) => {
+    set({ isPredictionsLoading: true })
+
+    // If specific league/season requested
+    if (leagueSlug && seasonSlug) {
+      const data = await tryFetch(dataPath(`predictions/${leagueSlug}/${seasonSlug}.json`))
+      if (data) {
+        const existing = get().predictions
+        const newPreds = [...existing, ...data].filter(
+          (m, i, arr) => arr.findIndex(x => x.match_id === m.match_id) === i
+        )
+        set({ predictions: newPreds, isPredictionsLoading: false })
+        return
+      }
+      set({ isPredictionsLoading: false })
+      return
+    }
+
+    // Auto-load: try the predictions index first, then fall back to known leagues
+    const predIndex = await tryFetch(dataPath('predictions/_index.json'))
+
+    const allPredictions: PredictionMatch[] = []
+
+    if (predIndex?.leagues) {
+      // Load the most recent season for the top leagues (to keep load fast)
+      const TOP_LEAGUES = [
+        { slug: 'premier_league', code: 'E0' },
+        { slug: 'la_liga', code: 'SP1' },
+        { slug: 'bundesliga', code: 'D1' },
+        { slug: 'serie_a', code: 'I1' },
+        { slug: 'ligue_1', code: 'F1' },
+        { slug: 'championship', code: 'E1' },
+      ]
+
+      // Find matching league entries in the index
+      const toLoad: { slug: string; season: string }[] = []
+
+      for (const league of predIndex.leagues) {
+        const slug = league.league_slug as string
+        const seasons = (league.seasons as string[]) || []
+        if (!seasons.length) continue
+
+        // Check if it's a top league or if there are few leagues total
+        const isTop = TOP_LEAGUES.some(t => t.slug === slug || slug.includes(t.code.toLowerCase()))
+        if (isTop || predIndex.leagues.length <= 8) {
+          // Load last 2 seasons
+          const recent = [...seasons].sort().reverse().slice(0, 2)
+          for (const s of recent) {
+            toLoad.push({ slug, season: s })
+          }
+        }
+      }
+
+      // Fetch in parallel (cap at 12 requests)
+      const fetches = toLoad.slice(0, 12).map(({ slug, season }) =>
+        tryFetch(dataPath(`predictions/${slug}/${season}.json`))
+      )
+      const results = await Promise.all(fetches)
+      results.forEach(r => {
+        if (Array.isArray(r)) allPredictions.push(...r)
+      })
+    } else {
+      // Fallback: try common league slugs directly
+      const FALLBACK_LEAGUES = [
+        { slug: 'premier_league', seasons: ['2024-25', '2023-24', '2022-23'] },
+        { slug: 'la_liga',        seasons: ['2024-25', '2023-24'] },
+        { slug: 'bundesliga',     seasons: ['2024-25', '2023-24'] },
+      ]
+
+      const fetches = FALLBACK_LEAGUES.flatMap(({ slug, seasons }) =>
+        seasons.map(s => tryFetch(dataPath(`predictions/${slug}/${s}.json`)))
+      )
+      const results = await Promise.all(fetches)
+      results.forEach(r => {
+        if (Array.isArray(r)) allPredictions.push(...r)
       })
     }
+
+    // Deduplicate
+    const unique = allPredictions.filter(
+      (m, i, arr) => arr.findIndex(x => x.match_id === m.match_id) === i
+    )
+
+    // Sort by date descending
+    unique.sort((a, b) => b.date.localeCompare(a.date))
+
+    set({
+      predictions: unique.filter(m => m.actual !== null),
+      forecasts: unique.filter(m => m.actual === null),
+      isPredictionsLoading: false,
+    })
   },
 
   loadForecasts: async (leagueSlug: string) => {
-    set({ isLoading: true, error: null })
     try {
-      const res = await fetch(dataPath(`predictions/${leagueSlug}/upcoming.json`))
-      if (!res.ok) {
-        // Gracefully handle missing upcoming file — not a hard error
-        set({ forecasts: [], isLoading: false })
-        return
+      const data = await tryFetch(dataPath(`predictions/${leagueSlug}/upcoming.json`))
+      if (data && Array.isArray(data)) {
+        set(state => ({
+          forecasts: [...state.forecasts, ...data].filter(
+            (m, i, arr) => arr.findIndex(x => x.match_id === m.match_id) === i
+          )
+        }))
       }
-      const data: PredictionMatch[] = await res.json()
-      set({ forecasts: data, isLoading: false })
     } catch {
-      set({ forecasts: [], isLoading: false })
+      // graceful no-op
     }
   },
 
