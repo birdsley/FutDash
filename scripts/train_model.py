@@ -311,7 +311,25 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
     # Uses 'isotonic' (non-parametric) which works better than Platt
     # for larger datasets. cv='prefit' means we calibrate on val set.
     print("  Calibrating probabilities (isotonic) ...")
-    model = CalibratedClassifierCV(model_raw, method='isotonic', cv='prefit')
+    from sklearn.calibration import CalibratedClassifierCV
+    from sklearn.utils.validation import check_is_fitted
+    from sklearn.calibration import _CalibratedClassifier
+    from sklearn.base import BaseEstimator
+    
+    class PrefitWrapper(BaseEstimator):
+        def __init__(self, model):
+            self.model = model
+    
+        def fit(self, X, y=None):
+            return self  # already fitted
+    
+        def predict_proba(self, X):
+            return self.model.predict_proba(X)
+    
+    # Wrap your trained model
+    prefit_model = PrefitWrapper(model_raw)
+    
+    model = CalibratedClassifierCV(prefit_model, method='isotonic', cv=5)
     model.fit(X_val, y_val)
 
     # ── Evaluate calibrated model ─────────────────────────────────
