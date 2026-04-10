@@ -314,17 +314,21 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
     from sklearn.calibration import CalibratedClassifierCV
     from sklearn.utils.validation import check_is_fitted
     from sklearn.calibration import _CalibratedClassifier
-    from sklearn.base import BaseEstimator
+    from sklearn.base import BaseEstimator, ClassifierMixin
     
-    class PrefitWrapper(BaseEstimator):
+    class PrefitWrapper(BaseEstimator, ClassifierMixin):
         def __init__(self, model):
             self.model = model
+            self.classes_ = model.classes_  # 👈 CRITICAL
     
         def fit(self, X, y=None):
             return self  # already fitted
     
         def predict_proba(self, X):
             return self.model.predict_proba(X)
+    
+        def predict(self, X):
+            return self.model.predict(X)
     
     # Wrap your trained model
     prefit_model = PrefitWrapper(model_raw)
