@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { useParams } from 'react-router-dom'
 import { useMatchStore } from '../../store/matchStore'
 import { PassNetwork }   from './PassNetwork'
@@ -39,18 +39,14 @@ const panelSub: React.CSSProperties = {
   margin: 0,
 }
 
-// Pitch panels: use aspect-ratio to preserve 120:80 = 3:2 ratio
-// This ensures the pitch is not distorted regardless of container width
+// FIXED: Use explicit height containers instead of padding-top trick.
+// Plotly's useResizeHandler needs a concrete pixel height to render correctly.
+// The padding-top percentage trick creates a zero-height inner div that
+// Plotly cannot measure, causing blank charts.
 const pitchContainer: React.CSSProperties = {
   width: '100%',
-  // 80/120 = 0.667 → padding-top trick for aspect ratio
+  height: 340,           // explicit height — Plotly can read this
   position: 'relative',
-  paddingTop: '66.7%', // 80/120 * 100%
-}
-
-const pitchInner: React.CSSProperties = {
-  position: 'absolute',
-  top: 0, left: 0, right: 0, bottom: 0,
 }
 
 const grid2: React.CSSProperties = {
@@ -64,7 +60,7 @@ const grid1: React.CSSProperties = {
   marginBottom: '1.25rem',
 }
 
-const chartH: React.CSSProperties = { height: 280 }
+const chartH: React.CSSProperties   = { height: 280 }
 const chartHsm: React.CSSProperties = { height: 220 }
 
 // ── Section header ────────────────────────────────────────────────
@@ -165,13 +161,13 @@ export default function MatchDashboard() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
         <Skeleton height={60} />
         <div style={grid2}>
-          <Skeleton height={300} />
-          <Skeleton height={300} />
+          <Skeleton height={380} />
+          <Skeleton height={380} />
         </div>
         <Skeleton height={280} />
         <div style={grid2}>
-          <Skeleton height={300} />
-          <Skeleton height={300} />
+          <Skeleton height={340} />
+          <Skeleton height={340} />
         </div>
       </div>
     )
@@ -199,18 +195,16 @@ export default function MatchDashboard() {
       {/* ── Section 1: Tactical Structure ── */}
       <SectionHeader num={1} title="Tactical Structure" question="How did both teams build play?" />
 
-      {/* Pass networks with proper pitch aspect ratio */}
+      {/* Pass networks — explicit 340px height so Plotly can measure */}
       <div style={grid2}>
         <div style={panel}>
           <div style={panelHeader}>
             <p style={{ ...panelTitle, color: hc }}>{meta.home} — Pass Network</p>
             <p style={panelSub}>Node size = pass involvement · Gold = playmaker · Click node to highlight connections</p>
           </div>
-          {/* Pitch container with preserved aspect ratio */}
+          {/* FIXED: explicit height container */}
           <div style={pitchContainer}>
-            <div style={pitchInner}>
-              <PassNetwork network={network_home} teamColor={hc} teamName={meta.home} />
-            </div>
+            <PassNetwork network={network_home} teamColor={hc} teamName={meta.home} />
           </div>
         </div>
 
@@ -220,9 +214,7 @@ export default function MatchDashboard() {
             <p style={panelSub}>Mirror view · Node size = pass involvement · Gold = playmaker</p>
           </div>
           <div style={pitchContainer}>
-            <div style={pitchInner}>
-              <PassNetwork network={network_away} teamColor={ac} teamName={meta.away} />
-            </div>
+            <PassNetwork network={network_away} teamColor={ac} teamName={meta.away} />
           </div>
         </div>
       </div>
@@ -248,7 +240,7 @@ export default function MatchDashboard() {
       {/* ── Section 2: Chance Creation ── */}
       <SectionHeader num={2} title="Chance Creation" question="Where did shots come from?" />
 
-      {/* Shot map with pitch aspect ratio */}
+      {/* FIXED: explicit height for shot map */}
       <div style={grid1}>
         <div style={panel}>
           <div style={panelHeader}>
@@ -258,13 +250,11 @@ export default function MatchDashboard() {
             </p>
           </div>
           <div style={pitchContainer}>
-            <div style={pitchInner}>
-              <ShotMap
-                shots={shots}
-                home={meta.home} away={meta.away}
-                homeColor={hc} awayColor={ac}
-              />
-            </div>
+            <ShotMap
+              shots={shots}
+              home={meta.home} away={meta.away}
+              homeColor={hc} awayColor={ac}
+            />
           </div>
         </div>
       </div>
