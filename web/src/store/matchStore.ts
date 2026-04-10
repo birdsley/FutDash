@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import type { MatchData, MatchIndex, PredictionMatch } from '../types'
+import { resolveTeamColors } from '../lib/colorUtils'
 
 type ActiveTab = 'match' | 'predict' | 'forecast'
 
@@ -27,7 +28,6 @@ interface MatchStore {
 /** Resolve the correct public base path for data files */
 function dataPath(path: string): string {
   const base = import.meta.env.BASE_URL ?? '/FutDash/'
-  // Ensure base ends with /
   const b = base.endsWith('/') ? base : base + '/'
   return `${b}data/${path}`
 }
@@ -43,6 +43,26 @@ async function tryFetch(url: string): Promise<any | null> {
   }
 }
 
+/**
+ * Apply color conflict resolution to a loaded MatchData object.
+ * Overwrites meta.home_color and meta.away_color with the resolved values
+ * so all downstream components automatically get the correct colors.
+ */
+function applyColorResolution(data: MatchData): MatchData {
+  const { homeColor, awayColor } = resolveTeamColors(
+    data.meta.home_color,
+    data.meta.away_color
+  )
+  return {
+    ...data,
+    meta: {
+      ...data.meta,
+      home_color: homeColor,
+      away_color: awayColor,
+    },
+  }
+}
+
 export const useMatchStore = create<MatchStore>((set, get) => ({
   currentMatch: null,
   matchIndex: null,
@@ -55,7 +75,7 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
   activeTab: 'match',
 
   loadIndex: async () => {
-    if (get().matchIndex) return  // already loaded
+    if (get().matchIndex) return
     set({ isIndexLoading: true, error: null })
     try {
       const res = await fetch(dataPath('index.json'))
@@ -75,7 +95,9 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
     try {
       const res = await fetch(dataPath(`matches/${matchId}.json`))
       if (!res.ok) throw new Error(`Match ${matchId} not found (${res.status})`)
-      const data: MatchData = await res.json()
+      const raw: MatchData = await res.json()
+      // Apply color conflict resolution before storing
+      const data = applyColorResolution(raw)
       set({ currentMatch: data, isLoading: false, activeTab: 'match' })
     } catch (err) {
       set({
@@ -88,7 +110,6 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
   loadPredictions: async (leagueSlug?: string, seasonSlug?: string) => {
     set({ isPredictionsLoading: true })
 
-    // If specific league/season requested
     if (leagueSlug && seasonSlug) {
       const data = await tryFetch(dataPath(`predictions/${leagueSlug}/${seasonSlug}.json`))
       if (data) {
@@ -103,13 +124,10 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
       return
     }
 
-    // Auto-load: try the predictions index first, then fall back to known leagues
     const predIndex = await tryFetch(dataPath('predictions/_index.json'))
-
     const allPredictions: PredictionMatch[] = []
 
     if (predIndex?.leagues) {
-      // Load the most recent season for the top leagues (to keep load fast)
       const TOP_LEAGUES = [
         { slug: 'premier_league', code: 'E0' },
         { slug: 'la_liga', code: 'SP1' },
@@ -119,7 +137,6 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
         { slug: 'championship', code: 'E1' },
       ]
 
-      // Find matching league entries in the index
       const toLoad: { slug: string; season: string }[] = []
 
       for (const league of predIndex.leagues) {
@@ -127,10 +144,8 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
         const seasons = (league.seasons as string[]) || []
         if (!seasons.length) continue
 
-        // Check if it's a top league or if there are few leagues total
         const isTop = TOP_LEAGUES.some(t => t.slug === slug || slug.includes(t.code.toLowerCase()))
         if (isTop || predIndex.leagues.length <= 8) {
-          // Load last 2 seasons
           const recent = [...seasons].sort().reverse().slice(0, 2)
           for (const s of recent) {
             toLoad.push({ slug, season: s })
@@ -138,7 +153,6 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
         }
       }
 
-      // Fetch in parallel (cap at 12 requests)
       const fetches = toLoad.slice(0, 12).map(({ slug, season }) =>
         tryFetch(dataPath(`predictions/${slug}/${season}.json`))
       )
@@ -147,7 +161,6 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
         if (Array.isArray(r)) allPredictions.push(...r)
       })
     } else {
-      // Fallback: try common league slugs directly
       const FALLBACK_LEAGUES = [
         { slug: 'premier_league', seasons: ['2024-25', '2023-24', '2022-23'] },
         { slug: 'la_liga',        seasons: ['2024-25', '2023-24'] },
@@ -163,12 +176,10 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
       })
     }
 
-    // Deduplicate
     const unique = allPredictions.filter(
       (m, i, arr) => arr.findIndex(x => x.match_id === m.match_id) === i
     )
 
-    // Sort by date descending
     unique.sort((a, b) => b.date.localeCompare(a.date))
 
     set({
