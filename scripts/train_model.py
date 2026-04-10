@@ -359,7 +359,7 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
             eval_set=[(X_val, y_val)],
             verbose=False,
         )
-        xgb_cal = CalibratedClassifierCV(xgb_raw, method='isotonic', cv='prefit')
+        xgb_cal = CalibratedClassifierCV(xgb_raw, method='isotonic', cv=5)
         xgb_cal.fit(X_val, y_val)
 
         xgb_prob = xgb_cal.predict_proba(X_val)
