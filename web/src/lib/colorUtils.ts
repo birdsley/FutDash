@@ -2,6 +2,10 @@
  * colorUtils.ts
  * Mirrors the Python get_effective_color() logic from statsbomb_v9.py.
  * Ensures team colors remain visible on the dark #0f1117 background.
+ *
+ * v2: Added color similarity detection — when home and away colors are too
+ * visually close, the away color is replaced with white (#e2e8f0) so the
+ * two teams remain distinguishable. Threshold is perceptual (WCAG-derived).
  */
 
 function hexToRgb(hex: string): [number, number, number] {
@@ -100,6 +104,103 @@ export function getEffectiveColor(
   } catch {
     return [hex, false]
   }
+}
+
+/**
+ * Compute the perceptual color distance between two hex colors.
+ *
+ * Uses a simplified CIELAB-approximation based on RGB differences
+ * weighted by human luminance sensitivity. Returns a value in [0, 1]
+ * where 0 = identical and 1 = maximally different.
+ *
+ * The distance is computed as:
+ *   sqrt( (2 + r̄/256) · ΔR² + 4·ΔG² + (2 + (255-r̄)/256)·ΔB² ) / 764.83
+ *
+ * This is the "redmean" approximation, which is perceptually better than
+ * plain Euclidean RGB distance.
+ */
+export function colorDistance(hexA: string, hexB: string): number {
+  try {
+    const [r1, g1, b1] = hexToRgb(hexA).map(v => v * 255)
+    const [r2, g2, b2] = hexToRgb(hexB).map(v => v * 255)
+    const rBar = (r1 + r2) / 2
+    const dR = r1 - r2
+    const dG = g1 - g2
+    const dB = b1 - b2
+    const raw = Math.sqrt(
+      (2 + rBar / 256) * dR * dR +
+      4 * dG * dG +
+      (2 + (255 - rBar) / 256) * dB * dB
+    )
+    // Maximum possible raw value ≈ 764.83 (pure red vs pure cyan)
+    return Math.min(raw / 764.83, 1)
+  } catch {
+    return 1
+  }
+}
+
+/**
+ * Hue distance in [0, 1] — how far apart are the colors on the color wheel?
+ * 0 = same hue, 1 = opposite hue (180°).
+ */
+function hueDistance(hexA: string, hexB: string): number {
+  try {
+    const [rA, gA, bA] = hexToRgb(hexA)
+    const [rB, gB, bB] = hexToRgb(hexB)
+    const [hA] = rgbToHls(rA, gA, bA)
+    const [hB] = rgbToHls(rB, gB, bB)
+    const d = Math.abs(hA - hB)
+    return Math.min(d, 1 - d) * 2  // normalize to [0,1] where 1 = 180° apart
+  } catch {
+    return 1
+  }
+}
+
+/**
+ * AWAY_WHITE: the color used when teams are too similar.
+ * Slightly off-white for better readability on the dark background.
+ */
+export const AWAY_WHITE = '#e2e8f0'
+
+/**
+ * Determine the final colors to display for home and away teams.
+ *
+ * Steps:
+ *  1. Apply luminance correction to both raw colors.
+ *  2. Check perceptual distance between the two corrected colors.
+ *  3. If distance < SIMILARITY_THRESHOLD (or hues are too close),
+ *     override the away color with white.
+ *
+ * Returns { homeColor, awayColor, awayIsOverridden }.
+ */
+export function resolveTeamColors(
+  rawHome: string,
+  rawAway: string,
+): {
+  homeColor: string
+  awayColor: string
+  awayIsOverridden: boolean
+} {
+  const [homeColor] = getEffectiveColor(rawHome)
+  const [awayColorEffective] = getEffectiveColor(rawAway)
+
+  // Perceptual distance threshold — values below this are "too similar"
+  const SIMILARITY_THRESHOLD = 0.22
+
+  const dist = colorDistance(homeColor, awayColorEffective)
+  const hueDist = hueDistance(homeColor, awayColorEffective)
+
+  // Colors are too close if either:
+  //   - Raw perceptual distance is below threshold, OR
+  //   - Hue difference is small AND brightness difference is small
+  const tooDark = relativeLuminance(homeColor) < 0.15 && relativeLuminance(awayColorEffective) < 0.15
+  const tooSimilar = dist < SIMILARITY_THRESHOLD || tooDark || hueDist < 0.12
+
+  if (tooSimilar) {
+    return { homeColor, awayColor: AWAY_WHITE, awayIsOverridden: true }
+  }
+
+  return { homeColor, awayColor: awayColorEffective, awayIsOverridden: false }
 }
 
 /**
