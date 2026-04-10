@@ -36,8 +36,8 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
         e.source === highlightedNode ||
         e.target === highlightedNode
 
-      const baseAlpha = 0.15 + 0.60 * (e.weight / maxWeight)
-      const alpha = isHighlighted ? baseAlpha : 0.06
+      const baseAlpha = 0.18 + 0.60 * (e.weight / maxWeight)
+      const alpha = isHighlighted ? baseAlpha : 0.05
 
       const edgeColor =
         e.direction === 'forward'  ? teamColor :
@@ -60,7 +60,7 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
     }).filter(Boolean)
   }, [edges, posMap, maxWeight, highlightedNode, teamColor])
 
-  // White glow ring trace (one point per node)
+  // White glow ring trace (one point per node) — drawn behind nodes for visibility
   const glowTrace = useMemo(() => ({
     type: 'scatter' as const,
     mode: 'markers' as const,
@@ -69,17 +69,17 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
     marker: {
       size: nodes.map(n => {
         const s = typeof n.size === 'number' && n.size > 0 ? n.size : 100
-        return Math.max(Math.sqrt(s) * 1.1 + 4, 14)
+        return Math.max(Math.sqrt(s) * 1.15 + 5, 16)
       }),
       color: 'rgba(0,0,0,0)',
-      line: { color: 'rgba(255,255,255,0.18)', width: 8 },
+      line: { color: 'rgba(255,255,255,0.22)', width: 9 },
     },
     hoverinfo: 'none' as const,
     showlegend: false,
     name: '__glow__',
   }), [nodes])
 
-  // Main node trace
+  // Main node trace — visible filled circles with team color
   const nodeTrace = useMemo(() => ({
     type: 'scatter' as const,
     mode: 'markers+text' as const,
@@ -88,8 +88,10 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
     marker: {
       size: nodes.map(n => {
         const s = typeof n.size === 'number' && n.size > 0 ? n.size : 100
-        return Math.max(Math.sqrt(s) * 1.0, 10)
+        return Math.max(Math.sqrt(s) * 1.0, 12)
       }),
+      // CRITICAL FIX: use explicit hex color string, not variable.
+      // Plotly requires a concrete color value in the data, not a reference.
       color: nodes.map(n =>
         n.is_playmaker ? '#fbbf24' : teamColor
       ),
@@ -97,7 +99,7 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
         color: nodes.map(n =>
           n.is_playmaker ? '#fbbf24' :
           highlightedNode === n.id ? '#ffffff' :
-          'rgba(255,255,255,0.75)'
+          'rgba(255,255,255,0.80)'
         ),
         width: nodes.map(n => n.is_playmaker ? 2.5 : 1.8),
       },
@@ -131,6 +133,8 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
 
   const layout = useMemo(() => ({
     ...pitchLayout(),
+    // CRITICAL FIX: do NOT set autosize:false — let Plotly respond to container.
+    // The container now has an explicit pixel height so Plotly will measure it correctly.
     annotations: playmasters.map(n => ({
       x: n.x,
       y: Math.min(n.y + 8, 76),
@@ -154,7 +158,6 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
   const handleClick = useCallback((data: any) => {
     if (!data?.points?.length) return
     const pt = data.points[0]
-    // Only respond to clicks on the node trace (last trace)
     const totalTraces = edgeTraces.length + 2 // edges + glow + nodes
     if (pt.curveNumber !== totalTraces - 1) return
     const idx = pt.pointIndex
@@ -176,13 +179,17 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
   }
 
   return (
-    <Plot
-      data={[...(edgeTraces as any[]), glowTrace, nodeTrace]}
-      layout={layout as any}
-      config={PLOTLY_CONFIG}
-      style={{ width: '100%', height: '100%' }}
-      onClick={handleClick}
-      useResizeHandler
-    />
+    // CRITICAL FIX: fill 100% of parent — parent now has explicit 340px height
+    <div style={{ width: '100%', height: '100%' }}>
+      <Plot
+        data={[...(edgeTraces as any[]), glowTrace, nodeTrace]}
+        layout={layout as any}
+        config={PLOTLY_CONFIG}
+        // CRITICAL FIX: style must use 100% to fill the explicit-height parent
+        style={{ width: '100%', height: '100%' }}
+        onClick={handleClick}
+        useResizeHandler
+      />
+    </div>
   )
 }
