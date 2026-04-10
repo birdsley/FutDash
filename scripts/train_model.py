@@ -315,26 +315,13 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
     from sklearn.utils.validation import check_is_fitted
     from sklearn.calibration import _CalibratedClassifier
     from sklearn.base import BaseEstimator, ClassifierMixin
+    model = CalibratedClassifierCV(
+      model_raw,
+      method='isotonic',
+      cv=5
+    )
     
-    class PrefitWrapper(BaseEstimator, ClassifierMixin):
-        def __init__(self, model):
-            self.model = model
-            self.classes_ = model.classes_  # 👈 CRITICAL
-    
-        def fit(self, X, y=None):
-            return self  # already fitted
-    
-        def predict_proba(self, X):
-            return self.model.predict_proba(X)
-    
-        def predict(self, X):
-            return self.model.predict(X)
-    
-    # Wrap your trained model
-    prefit_model = PrefitWrapper(model_raw)
-    
-    model = CalibratedClassifierCV(prefit_model, method='isotonic', cv=5)
-    model.fit(X_val, y_val)
+    model.fit(X_train, y_train)
 
     # ── Evaluate calibrated model ─────────────────────────────────
     y_pred  = model.predict(X_val)
@@ -378,8 +365,6 @@ def train(features_path: str, output_dir: str, verbose: bool = True):
         xgb_prob = xgb_cal.predict_proba(X_val)
         # Average ensemble probabilities (equal weight)
         ens_prob = (y_prob + xgb_prob) / 2
-        ens_pred = CLASSES[np.argmax(ens_prob, axis=1).__class__(
-            np.argmax(ens_prob, axis=1).tolist())]
         ens_pred = np.array([CLASSES[i] for i in np.argmax(ens_prob, axis=1)])
         ensemble_acc = accuracy_score(y_val, ens_pred)
         ens_brier = multiclass_brier(y_val, ens_prob)
