@@ -1,24 +1,56 @@
 #!/usr/bin/env python3
 """
-FutDash Phase 3 — Fetch Upcoming Fixtures
+FutDash — Fetch Upcoming Fixtures
 ==========================================
 Pulls upcoming match fixtures from football-data.org (free tier)
 and generates forecast JSON files consumed by the ForecastView tab.
 
+════════════════════════════════════════════════════════════════
+HOW TO GET YOUR FOOTBALL DATA API KEY
+════════════════════════════════════════════════════════════════
+
+1. Register at: https://www.football-data.org/client/register
+   (free, instant, no credit card)
+
+2. You will receive an email with your API key (a 32-char hex string).
+   It looks like: a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+
+3. Add it to your GitHub repository as a Secret:
+   GitHub repo → Settings → Secrets and variables → Actions
+   → New repository secret
+   Name:  FOOTBALL_DATA_API_KEY
+   Value: <your API key>
+
+4. The deploy.yml workflow already reads it as:
+   env:
+     FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+
 Free tier limits:
-    - 10 competitions available
-    - 10 requests/minute
-    - API key required (set via FOOTBALL_DATA_API_KEY env var or --api-key)
+    - 10 competitions available (Premier League, La Liga, Bundesliga etc.)
+    - 10 requests per minute
+    - No historical data — current season only
+
+Free tier competition IDs available:
+    PL  = Premier League
+    PD  = La Liga
+    BL1 = Bundesliga
+    SA  = Serie A
+    FL1 = Ligue 1
+    DED = Eredivisie
+    BSA = Campeonato Brasileiro Série A
+    PL  = Primeira Liga (Portugal)
+    ELC = Championship
+    EC  = European Championship
+    WC  = FIFA World Cup
+
+════════════════════════════════════════════════════════════════
 
 Output structure:
     web/public/data/predictions/{league_slug}/upcoming.json
 
-Each file is a list of upcoming match objects compatible with the
-PredictionCard schema (actual=null, predicted probabilities from model).
-
-Usage:
-    python fetch_fixtures.py --api-key YOUR_KEY --output-dir ./web/public/data/predictions
-    python fetch_fixtures.py --api-key YOUR_KEY --leagues E0 SP1 D1
+Prediction probabilities:
+    If model.joblib + features_all.csv are present: uses LightGBM model
+    Otherwise: uses a bookmaker-calibrated home-advantage prior
 """
 
 import os
@@ -28,15 +60,16 @@ import time
 import argparse
 import warnings
 from datetime import datetime, timedelta, timezone
+from collections import defaultdict
 
 import requests
 import pandas as pd
+import numpy as np
 import joblib
 
 warnings.filterwarnings("ignore")
 
 # ── football-data.org competition IDs ────────────────────────────
-# Maps our internal league codes to football-data.org competition IDs
 COMPETITION_MAP = {
     "E0":  {"fd_id": "PL",  "name": "Premier League",     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"},
     "SP1": {"fd_id": "PD",  "name": "La Liga",            "flag": "🇪🇸"},
@@ -47,9 +80,8 @@ COMPETITION_MAP = {
     "P1":  {"fd_id": "PPL", "name": "Primeira Liga",      "flag": "🇵🇹"},
 }
 
-# ── Team colour lookup (shared) ───────────────────────────────────
+# ── Team colour lookup ────────────────────────────────────────────
 TEAM_COLORS = {
-    # Premier League
     "Manchester City":          "#98c5e9",
     "Arsenal":                  "#ef0107",
     "Liverpool":                "#00a398",
@@ -72,40 +104,20 @@ TEAM_COLORS = {
     "Luton Town":               "#f78f1e",
     "Leicester City":           "#fdbe11",
     "Leeds United":             "#ffcd00",
-    # La Liga
     "FC Barcelona":             "#a50044",
     "Real Madrid CF":           "#f0c040",
     "Club Atlético de Madrid":  "#cb3524",
     "Sevilla FC":               "#d4021d",
-    "Valencia CF":              "#ff7200",
-    "Villarreal CF":            "#f7d130",
-    "Athletic Club":            "#ee2523",
-    "Real Sociedad":            "#007dc5",
-    "Real Betis Balompié":      "#00954c",
-    # Bundesliga
     "FC Bayern München":        "#dc052d",
     "Borussia Dortmund":        "#fde100",
     "RB Leipzig":               "#dd0741",
     "Bayer 04 Leverkusen":      "#e32221",
-    "Eintracht Frankfurt":      "#e1000f",
-    "VfL Wolfsburg":            "#65b32e",
-    "SC Freiburg":              "#d0021b",
-    "1. FC Union Berlin":       "#eb1923",
-    # Serie A
-    "Juventus FC":              "#c8b86b",
     "FC Internazionale Milano": "#010e80",
     "AC Milan":                 "#fb090b",
+    "Juventus FC":              "#c8b86b",
     "SSC Napoli":               "#12a0c3",
-    "AS Roma":                  "#8e1f2f",
-    "SS Lazio":                 "#87d8f7",
-    "Atalanta BC":              "#1e73be",
-    "ACF Fiorentina":           "#4c1d6f",
-    # Ligue 1
     "Paris Saint-Germain FC":   "#004170",
     "Olympique de Marseille":   "#009bdb",
-    "Olympique Lyonnais":       "#be0a25",
-    "AS Monaco FC":             "#cf0921",
-    "LOSC Lille":               "#b00d18",
 }
 _DEFAULT_COLOR = "#6e7891"
 
@@ -138,7 +150,6 @@ class FootballDataClient:
         self._last_request = 0.0
 
     def _get(self, path: str, params: dict = None) -> dict:
-        """Rate-limited GET with automatic retry on 429."""
         elapsed = time.time() - self._last_request
         if elapsed < self.MIN_INTERVAL:
             time.sleep(self.MIN_INTERVAL - elapsed)
@@ -156,107 +167,240 @@ class FootballDataClient:
                 time.sleep(wait)
             elif resp.status_code == 403:
                 raise PermissionError(
-                    f"403 Forbidden for {path}. "
-                    "Check your API key and subscription tier."
-                )
+                    f"403 Forbidden for {path}. Check your API key.")
             else:
                 raise RuntimeError(
-                    f"HTTP {resp.status_code} for {path}: {resp.text[:200]}"
-                )
+                    f"HTTP {resp.status_code} for {path}: {resp.text[:200]}")
         raise RuntimeError(f"Max retries exceeded for {path}")
 
     def get_matches(self, competition_id: str, date_from: str, date_to: str) -> list:
-        """Fetch scheduled/live/finished matches for a competition."""
         data = self._get(
             f"/competitions/{competition_id}/matches",
-            params={
-                "dateFrom": date_from,
-                "dateTo":   date_to,
-                "status":   "SCHEDULED,TIMED",
-            }
+            params={"dateFrom": date_from, "dateTo": date_to,
+                    "status": "SCHEDULED,TIMED"},
         )
         return data.get("matches", [])
 
+    def get_standings(self, competition_id: str) -> dict:
+        """Get current standings to derive league position features."""
+        try:
+            data = self._get(f"/competitions/{competition_id}/standings")
+            standings = {}
+            for group in data.get("standings", []):
+                if group.get("type") != "TOTAL":
+                    continue
+                for entry in group.get("table", []):
+                    team_name = entry.get("team", {}).get("name", "")
+                    standings[team_name] = {
+                        "position":        entry.get("position", 0),
+                        "points":          entry.get("points", 0),
+                        "played":          entry.get("playedGames", 0),
+                        "won":             entry.get("won", 0),
+                        "drawn":           entry.get("draw", 0),
+                        "lost":            entry.get("lost", 0),
+                        "goals_for":       entry.get("goalsFor", 0),
+                        "goals_against":   entry.get("goalsAgainst", 0),
+                    }
+            return standings
+        except Exception as e:
+            print(f"  ⚠️  Could not load standings: {e}")
+            return {}
 
-# ── Probability model integration ────────────────────────────────
+
+# ── Model loading ─────────────────────────────────────────────────
 
 def load_model(model_path: str):
-    """Load trained LightGBM bundle. Returns (model, features) or None."""
     if not os.path.exists(model_path):
-        print(f"  ⚠️  Model not found at {model_path} — using fallback probabilities")
+        print(f"  ⚠️  Model not found at {model_path} — using fallback priors")
         return None
     bundle = joblib.load(model_path)
+    print(f"  Model loaded: {bundle.get('model_name', '?')}  "
+          f"(val_acc={bundle.get('val_accuracy', 0):.3f})")
     return bundle
 
 
-def dummy_probabilities(home_name: str, away_name: str) -> dict:
+def dummy_probabilities() -> dict:
     """
-    Fallback probabilities when no model is available.
-    Uses a simple home-advantage prior (H=0.45, D=0.27, A=0.28).
+    Home-advantage prior calibrated to long-run European football outcomes.
+    Roughly: 46% H, 26% D, 28% A across top 5 leagues.
     """
-    return {"home_win": 0.45, "draw": 0.27, "away_win": 0.28}
+    return {"home_win": 0.46, "draw": 0.26, "away_win": 0.28}
+
+
+# ── Feature construction for upcoming matches ─────────────────────
+
+def build_features_for_upcoming(
+    home_name: str,
+    away_name: str,
+    standings: dict,
+    features_dir: str,
+    bundle,
+) -> dict | None:
+    """
+    Construct the feature vector for a future match using:
+      1. League table standings (position, points, form)
+      2. Historical rolling stats from features_all.csv (last known values)
+
+    Returns a dict mapping feature_name → value, or None if data unavailable.
+    """
+    if bundle is None:
+        return None
+
+    features = bundle.get("features", [])
+
+    # ── Pull last known per-team stats from features CSV ──────────
+    all_feat_path = os.path.join(features_dir, "features_all.csv")
+    if not os.path.exists(all_feat_path):
+        return None
+
+    try:
+        df = pd.read_csv(all_feat_path, low_memory=False)
+        df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+        df = df.dropna(subset=["Date"])
+    except Exception as e:
+        print(f"  ⚠️  Could not read features_all.csv: {e}")
+        return None
+
+    # Fuzzy team name lookup — find best match in the CSV
+    def find_team_rows(df, team_name, col):
+        """Return the last N rows for a team in a given column."""
+        tl = team_name.lower()
+        # Try exact first
+        mask = df[col].str.lower() == tl
+        if mask.sum() > 0:
+            return df[mask]
+        # Partial match
+        for check in df[col].unique():
+            if check and (tl in check.lower() or check.lower() in tl):
+                return df[df[col] == check]
+        return pd.DataFrame()
+
+    home_as_home = find_team_rows(df, home_name, "HomeTeam")
+    away_as_away = find_team_rows(df, away_name, "AwayTeam")
+
+    if home_as_home.empty or away_as_away.empty:
+        # Try alternate columns
+        home_as_away = find_team_rows(df, home_name, "AwayTeam")
+        away_as_home = find_team_rows(df, away_name, "HomeTeam")
+        if home_as_away.empty and away_as_home.empty:
+            return None
+
+    # Use the most recent match row for each team (whichever role)
+    def get_latest_row(home_rows, away_rows):
+        combined = pd.concat([home_rows, away_rows], ignore_index=True)
+        if combined.empty:
+            return None
+        return combined.sort_values("Date").iloc[-1]
+
+    last_home = home_as_home.sort_values("Date").iloc[-1] if not home_as_home.empty else None
+    last_away = away_as_away.sort_values("Date").iloc[-1] if not away_as_away.empty else None
+
+    if last_home is None or last_away is None:
+        return None
+
+    # ── Build feature vector ──────────────────────────────────────
+    row = {}
+    for feat in features:
+        if feat.startswith("home_"):
+            row[feat] = float(last_home.get(feat, 0) or 0)
+        elif feat.startswith("away_"):
+            row[feat] = float(last_away.get(feat, 0) or 0)
+        elif feat == "is_home":
+            row[feat] = 1.0
+        else:
+            # Shared features — try home row first, then away
+            val = last_home.get(feat)
+            if val is None or (isinstance(val, float) and np.isnan(val)):
+                val = last_away.get(feat, 0)
+            row[feat] = float(val or 0)
+
+    # ── Override with current standings data (more accurate) ──────
+    if standings:
+        home_standing = standings.get(home_name, {})
+        away_standing = standings.get(away_name, {})
+
+        # Fuzzy standing lookup
+        if not home_standing:
+            for k in standings:
+                if home_name.lower() in k.lower() or k.lower() in home_name.lower():
+                    home_standing = standings[k]
+                    break
+        if not away_standing:
+            for k in standings:
+                if away_name.lower() in k.lower() or k.lower() in away_name.lower():
+                    away_standing = standings[k]
+                    break
+
+        if home_standing and away_standing:
+            h_pts  = home_standing.get("points", 0)
+            a_pts  = away_standing.get("points", 0)
+            h_gd   = home_standing.get("goals_for", 0) - home_standing.get("goals_against", 0)
+            a_gd   = away_standing.get("goals_for", 0) - away_standing.get("goals_against", 0)
+            h_gf   = home_standing.get("goals_for", 0)
+            a_gf   = away_standing.get("goals_for", 0)
+            h_gag  = home_standing.get("goals_against", 0)
+            a_gag  = away_standing.get("goals_against", 0)
+            h_played = max(home_standing.get("played", 1), 1)
+            a_played = max(away_standing.get("played", 1), 1)
+
+            # Override form / goals features with live season data
+            row["league_position_diff"] = float(
+                away_standing.get("position", 10) - home_standing.get("position", 10)
+            )
+            # Approximate rolling goals from season averages
+            if "home_goals_scored_5" in row:
+                row["home_goals_scored_5"] = h_gf / h_played
+            if "home_goals_conceded_5" in row:
+                row["home_goals_conceded_5"] = h_gag / h_played
+            if "away_goals_scored_5" in row:
+                row["away_goals_scored_5"] = a_gf / a_played
+            if "away_goals_conceded_5" in row:
+                row["away_goals_conceded_5"] = a_gag / a_played
+            # Win rate
+            if "home_win_pct_5" in row:
+                row["home_win_pct_5"] = home_standing.get("won", 0) / h_played
+            if "away_win_pct_5" in row:
+                row["away_win_pct_5"] = away_standing.get("won", 0) / a_played
+            # Form momentum — points per game relative to expectation
+            if "form_momentum_home" in row:
+                ppg_h = h_pts / h_played
+                row["form_momentum_home"] = float(np.clip((ppg_h - 1.3) * 5, -10, 10))
+            if "form_momentum_away" in row:
+                ppg_a = a_pts / a_played
+                row["form_momentum_away"] = float(np.clip((ppg_a - 1.3) * 5, -10, 10))
+
+    return row
 
 
 def predict_match(bundle, home_name: str, away_name: str,
-                  date: pd.Timestamp, features_dir: str) -> dict:
-    """
-    Look up team's recent stats from features CSV and run model prediction.
-    Falls back to dummy probs if lookup fails.
-    """
+                  standings: dict, features_dir: str) -> dict:
+    """Generate probability predictions for a future match."""
     if bundle is None:
-        return dummy_probabilities(home_name, away_name)
+        return dummy_probabilities()
 
-    model    = bundle["model"]
-    features = bundle["features"]
+    features = bundle.get("features", [])
+    model = bundle.get("model")
+    class_names = bundle.get("class_names", {0: "away_win", 1: "draw", 2: "home_win"})
+    classes = bundle.get("classes", [0, 1, 2])
 
-    # Try to find team stats from the most recent features file
+    row = build_features_for_upcoming(
+        home_name, away_name, standings, features_dir, bundle
+    )
+
+    if row is None:
+        print(f"  ⚠️  No features found for {home_name} vs {away_name} — using prior")
+        return dummy_probabilities()
+
     try:
-        all_feat_path = os.path.join(features_dir, "features_all.csv")
-        if not os.path.exists(all_feat_path):
-            return dummy_probabilities(home_name, away_name)
-
-        df = pd.read_csv(all_feat_path, low_memory=False)
-        df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
-
-        # Find last match for home team as home
-        hdf = df[df["HomeTeam"].str.lower() == home_name.lower()].sort_values("Date")
-        adf = df[df["AwayTeam"].str.lower() == away_name.lower()].sort_values("Date")
-
-        if hdf.empty or adf.empty:
-            return dummy_probabilities(home_name, away_name)
-
-        last_h = hdf.iloc[-1]
-        last_a = adf.iloc[-1]
-
-        row = {}
-        for feat in features:
-            if feat.startswith("home_"):
-                row[feat] = last_h.get(feat, 0.0)
-            elif feat.startswith("away_"):
-                row[feat] = last_a.get(feat, 0.0)
-            elif feat == "elo_diff":
-                row[feat] = float(last_h.get("elo_home", 1500)) - float(last_a.get("elo_away", 1500))
-            elif feat == "elo_home":
-                row[feat] = float(last_h.get("elo_home", 1500))
-            elif feat == "elo_away":
-                row[feat] = float(last_a.get("elo_away", 1500))
-            else:
-                row[feat] = last_h.get(feat, 0.0)
-
-        import numpy as np
         X = np.array([[row.get(f, 0.0) for f in features]])
         probs = model.predict_proba(X)[0]
-
-        class_names = bundle.get("class_names", {0: "away_win", 1: "draw", 2: "home_win"})
-        classes     = bundle.get("classes", [0, 1, 2])
-        prob_dict   = {class_names[c]: float(probs[i]) for i, c in enumerate(classes)}
+        prob_dict = {class_names[c]: float(probs[i]) for i, c in enumerate(classes)}
         for k in ("home_win", "draw", "away_win"):
             prob_dict.setdefault(k, 0.0)
         return {k: round(v, 4) for k, v in prob_dict.items()}
-
     except Exception as e:
-        print(f"  ⚠️  Prediction failed for {home_name} vs {away_name}: {e}")
-        return dummy_probabilities(home_name, away_name)
+        print(f"  ⚠️  Prediction error for {home_name} vs {away_name}: {e}")
+        return dummy_probabilities()
 
 
 # ── Main pipeline ─────────────────────────────────────────────────
@@ -270,8 +414,8 @@ def fetch_and_generate(
     days_ahead: int = 14,
     verbose: bool = True,
 ):
-    client   = FootballDataClient(api_key)
-    bundle   = load_model(model_path)
+    client = FootballDataClient(api_key)
+    bundle = load_model(model_path)
 
     date_from = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     date_to   = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
@@ -292,10 +436,15 @@ def fetch_and_generate(
 
         print(f"  ── {comp['flag']} {comp['name']} ({comp['fd_id']}) ──────────────")
 
+        # Fetch current standings (used to improve feature quality)
+        print(f"    Fetching standings...")
+        standings = client.get_standings(comp["fd_id"])
+        print(f"    {len(standings)} teams in standings table")
+
         try:
             matches = client.get_matches(comp["fd_id"], date_from, date_to)
         except Exception as e:
-            print(f"  ✗  Failed: {e}")
+            print(f"  ✗  Failed to fetch matches: {e}")
             continue
 
         if not matches:
@@ -309,10 +458,11 @@ def fetch_and_generate(
             utc_date  = m.get("utcDate", "")[:10]
             match_id  = m.get("id", 0)
 
-            match_date = pd.to_datetime(utc_date, errors="coerce")
-            probs = predict_match(bundle, home_name, away_name, match_date, features_dir)
+            print(f"    → {home_name} vs {away_name} ({utc_date})")
+            probs = predict_match(bundle, home_name, away_name, standings, features_dir)
 
             max_p = max(probs.values())
+            confidence = "high" if max_p > 0.60 else ("moderate" if max_p > 0.50 else "contested")
 
             records.append({
                 "match_id":           f"{league_code}-{utc_date}-{match_id}",
@@ -332,7 +482,7 @@ def fetch_and_generate(
                 "is_upset":           False,
                 "has_statsbomb":      False,
                 "statsbomb_match_id": None,
-                "confidence":         "high" if max_p > 0.55 else ("moderate" if max_p > 0.45 else "contested"),
+                "confidence":         confidence,
                 "venue":              m.get("venue", None),
                 "matchday":           m.get("matchday", None),
                 "status":             m.get("status", "SCHEDULED"),
@@ -349,7 +499,7 @@ def fetch_and_generate(
         total_written += len(records)
         print(f"  ✅  {len(records)} fixtures → {out_path}")
 
-    # ── Update _index.json to include upcoming files ──────────────
+    # ── Update _index.json ────────────────────────────────────────
     index_path = os.path.join(output_dir, "_index.json")
     index: dict = {}
     if os.path.exists(index_path):
@@ -372,46 +522,37 @@ def fetch_and_generate(
 
 def main():
     p = argparse.ArgumentParser(
-        description="FutDash — Fetch upcoming fixtures from football-data.org")
+        description="FutDash — Fetch upcoming fixtures from football-data.org\n\n"
+                    "Get your free API key at: https://www.football-data.org/client/register\n"
+                    "Then add it as FOOTBALL_DATA_API_KEY in GitHub repo Secrets.")
     p.add_argument(
         "--api-key",
         default=os.environ.get("FOOTBALL_DATA_API_KEY", ""),
-        help="football-data.org API key (or set FOOTBALL_DATA_API_KEY env var)",
     )
-    p.add_argument(
-        "--leagues",
-        nargs="+",
-        default=list(COMPETITION_MAP.keys()),
-        help="League codes to fetch (e.g. E0 SP1 D1). Defaults to all configured leagues.",
-    )
-    p.add_argument(
-        "--output-dir",
-        default="./web/public/data/predictions",
-        help="Output root directory for fixture JSONs",
-    )
-    p.add_argument(
-        "--model",
-        default="./scripts/model.joblib",
-        help="Path to trained model bundle for probability generation",
-    )
-    p.add_argument(
-        "--features-dir",
-        default="./scripts/features",
-        help="Directory containing features CSVs (for model inference)",
-    )
-    p.add_argument(
-        "--days-ahead",
-        type=int,
-        default=14,
-        help="How many days ahead to fetch fixtures for",
-    )
+    p.add_argument("--leagues", nargs="+", default=list(COMPETITION_MAP.keys()))
+    p.add_argument("--output-dir", default="./web/public/data/predictions")
+    p.add_argument("--model", default="./scripts/model.joblib")
+    p.add_argument("--features-dir", default="./scripts/features")
+    p.add_argument("--days-ahead", type=int, default=14)
     p.add_argument("--quiet", action="store_true")
     args = p.parse_args()
 
     if not args.api_key:
-        print("[ERROR] No API key provided.")
-        print("  Set FOOTBALL_DATA_API_KEY environment variable or use --api-key.")
-        print("  Get a free key at: https://www.football-data.org/client/register")
+        print("\n" + "="*60)
+        print("  ERROR: No API key provided.")
+        print()
+        print("  To get your free API key:")
+        print("  1. Go to https://www.football-data.org/client/register")
+        print("  2. Register (free, instant, no credit card needed)")
+        print("  3. Copy the API key from the confirmation email")
+        print("  4. In your GitHub repo:")
+        print("     Settings → Secrets and variables → Actions")
+        print("     → New repository secret")
+        print("     Name:  FOOTBALL_DATA_API_KEY")
+        print("     Value: <your 32-char hex key>")
+        print()
+        print("  The next workflow run will automatically use it.")
+        print("="*60 + "\n")
         sys.exit(1)
 
     fetch_and_generate(
