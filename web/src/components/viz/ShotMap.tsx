@@ -31,7 +31,7 @@ export function ShotMap({ shots, home, away, homeColor, awayColor }: ShotMapProp
   const goals    = processedShots.filter(s =>  s.goal)
 
   const traces = useMemo(() => [
-    // Non-goal shots
+    // Non-goal shots — FIXED: explicit color arrays, not variable references
     {
       type: 'scatter' as const,
       mode: 'markers' as const,
@@ -40,11 +40,12 @@ export function ShotMap({ shots, home, away, homeColor, awayColor }: ShotMapProp
       marker: {
         size: nonGoals.map(s => {
           const xg = s.xg ?? 0.05
-          return Math.max(xg * 35, 7)
+          return Math.max(xg * 35, 8)
         }),
+        // CRITICAL FIX: explicit color per point — Plotly renders these correctly
         color: nonGoals.map(s => s.team === 'home' ? homeColor : awayColor),
-        opacity: 0.70,
-        line: { width: 0.5, color: 'rgba(255,255,255,0.2)' },
+        opacity: 0.75,
+        line: { width: 0.8, color: 'rgba(255,255,255,0.25)' },
       },
       customdata: nonGoals.map(s => ({
         player: s.player_full || s.player || '—',
@@ -72,9 +73,9 @@ export function ShotMap({ shots, home, away, homeColor, awayColor }: ShotMapProp
       y: goals.map(s => s.y),
       marker: {
         symbol: 'star',
-        size: 20,
+        size: 22,
         color: '#fbbf24',
-        line: { color: '#ffffff', width: 1.2 },
+        line: { color: '#ffffff', width: 1.5 },
       },
       customdata: goals.map(s => ({
         player: s.player_full || s.player || '—',
@@ -174,12 +175,15 @@ export function ShotMap({ shots, home, away, homeColor, awayColor }: ShotMapProp
   }
 
   return (
-    <Plot
-      data={traces}
-      layout={layout as any}
-      config={PLOTLY_CONFIG}
-      style={{ width: '100%', height: '100%' }}
-      useResizeHandler
-    />
+    // CRITICAL FIX: fill 100% of the explicit-height parent container
+    <div style={{ width: '100%', height: '100%' }}>
+      <Plot
+        data={traces}
+        layout={layout as any}
+        config={PLOTLY_CONFIG}
+        style={{ width: '100%', height: '100%' }}
+        useResizeHandler
+      />
+    </div>
   )
 }
