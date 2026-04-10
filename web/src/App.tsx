@@ -9,11 +9,13 @@ import { PredictionsView } from './views/PredictionsView'
 import { ForecastView } from './views/ForecastView'
 
 export default function App() {
-  const { loadIndex, activeTab, currentMatch, predictions, forecasts, loadMatch } = useMatchStore()
+  const { loadIndex, loadPredictions, activeTab, currentMatch, predictions, forecasts, loadMatch } = useMatchStore()
 
   useEffect(() => {
     loadIndex()
-  }, [loadIndex])
+    // Auto-load predictions on mount so the tab is populated
+    loadPredictions()
+  }, [loadIndex, loadPredictions])
 
   const showBanner = activeTab === 'match' && currentMatch !== null
 
