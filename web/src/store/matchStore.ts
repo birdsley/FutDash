@@ -5,7 +5,6 @@ import { resolveTeamColors } from '../lib/colorUtils'
 type ActiveTab = 'match' | 'predict' | 'forecast'
 
 interface MatchStore {
-  // State
   currentMatch: MatchData | null
   matchIndex: MatchIndex | null
   predictions: PredictionMatch[]
@@ -16,7 +15,6 @@ interface MatchStore {
   error: string | null
   activeTab: ActiveTab
 
-  // Actions
   loadIndex: () => Promise<void>
   loadMatch: (matchId: number) => Promise<void>
   loadPredictions: (leagueSlug?: string, seasonSlug?: string) => Promise<void>
@@ -25,14 +23,12 @@ interface MatchStore {
   clearError: () => void
 }
 
-/** Resolve the correct public base path for data files */
 function dataPath(path: string): string {
   const base = import.meta.env.BASE_URL ?? '/FutDash/'
   const b = base.endsWith('/') ? base : base + '/'
   return `${b}data/${path}`
 }
 
-/** Try fetching a URL, return null on error */
 async function tryFetch(url: string): Promise<any | null> {
   try {
     const res = await fetch(url)
@@ -43,11 +39,6 @@ async function tryFetch(url: string): Promise<any | null> {
   }
 }
 
-/**
- * Apply color conflict resolution to a loaded MatchData object.
- * Overwrites meta.home_color and meta.away_color with the resolved values
- * so all downstream components automatically get the correct colors.
- */
 function applyColorResolution(data: MatchData): MatchData {
   const { homeColor, awayColor } = resolveTeamColors(
     data.meta.home_color,
@@ -55,13 +46,21 @@ function applyColorResolution(data: MatchData): MatchData {
   )
   return {
     ...data,
-    meta: {
-      ...data.meta,
-      home_color: homeColor,
-      away_color: awayColor,
-    },
+    meta: { ...data.meta, home_color: homeColor, away_color: awayColor },
   }
 }
+
+// All leagues that fetch_fixtures.py writes upcoming.json for.
+// These match the slugs produced by _slugify() in fetch_fixtures.py.
+const FORECAST_LEAGUE_SLUGS = [
+  'premier_league',
+  'la_liga',
+  'bundesliga',
+  'serie_a',
+  'ligue_1',
+  'eredivisie',
+  'primeira_liga',
+]
 
 export const useMatchStore = create<MatchStore>((set, get) => ({
   currentMatch: null,
@@ -96,7 +95,6 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
       const res = await fetch(dataPath(`matches/${matchId}.json`))
       if (!res.ok) throw new Error(`Match ${matchId} not found (${res.status})`)
       const raw: MatchData = await res.json()
-      // Apply color conflict resolution before storing
       const data = applyColorResolution(raw)
       set({ currentMatch: data, isLoading: false, activeTab: 'match' })
     } catch (err) {
@@ -110,6 +108,7 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
   loadPredictions: async (leagueSlug?: string, seasonSlug?: string) => {
     set({ isPredictionsLoading: true })
 
+    // ── Single league/season load (called from sidebar filter) ────
     if (leagueSlug && seasonSlug) {
       const data = await tryFetch(dataPath(`predictions/${leagueSlug}/${seasonSlug}.json`))
       if (data) {
@@ -124,32 +123,24 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
       return
     }
 
-    const predIndex = await tryFetch(dataPath('predictions/_index.json'))
+    // ── Bulk load: historical predictions + upcoming fixtures ─────
     const allPredictions: PredictionMatch[] = []
 
-    if (predIndex?.leagues) {
-      const TOP_LEAGUES = [
-        { slug: 'premier_league', code: 'E0' },
-        { slug: 'la_liga', code: 'SP1' },
-        { slug: 'bundesliga', code: 'D1' },
-        { slug: 'serie_a', code: 'I1' },
-        { slug: 'ligue_1', code: 'F1' },
-        { slug: 'championship', code: 'E1' },
-      ]
+    // Step 1: try _index.json to discover available leagues/seasons
+    const predIndex = await tryFetch(dataPath('predictions/_index.json'))
 
+    if (predIndex?.leagues) {
+      const TOP_LEAGUES = ['premier_league', 'la_liga', 'bundesliga', 'serie_a', 'ligue_1']
       const toLoad: { slug: string; season: string }[] = []
 
       for (const league of predIndex.leagues) {
         const slug = league.league_slug as string
         const seasons = (league.seasons as string[]) || []
         if (!seasons.length) continue
-
-        const isTop = TOP_LEAGUES.some(t => t.slug === slug || slug.includes(t.code.toLowerCase()))
+        const isTop = TOP_LEAGUES.some(t => slug === t)
         if (isTop || predIndex.leagues.length <= 8) {
           const recent = [...seasons].sort().reverse().slice(0, 2)
-          for (const s of recent) {
-            toLoad.push({ slug, season: s })
-          }
+          for (const s of recent) toLoad.push({ slug, season: s })
         }
       }
 
@@ -157,34 +148,41 @@ export const useMatchStore = create<MatchStore>((set, get) => ({
         tryFetch(dataPath(`predictions/${slug}/${season}.json`))
       )
       const results = await Promise.all(fetches)
-      results.forEach(r => {
-        if (Array.isArray(r)) allPredictions.push(...r)
-      })
+      results.forEach(r => { if (Array.isArray(r)) allPredictions.push(...r) })
     } else {
-      const FALLBACK_LEAGUES = [
+      // Fallback if no _index.json
+      const FALLBACK = [
         { slug: 'premier_league', seasons: ['2024-25', '2023-24', '2022-23'] },
         { slug: 'la_liga',        seasons: ['2024-25', '2023-24'] },
         { slug: 'bundesliga',     seasons: ['2024-25', '2023-24'] },
       ]
-
-      const fetches = FALLBACK_LEAGUES.flatMap(({ slug, seasons }) =>
+      const fetches = FALLBACK.flatMap(({ slug, seasons }) =>
         seasons.map(s => tryFetch(dataPath(`predictions/${slug}/${s}.json`)))
       )
       const results = await Promise.all(fetches)
-      results.forEach(r => {
-        if (Array.isArray(r)) allPredictions.push(...r)
-      })
+      results.forEach(r => { if (Array.isArray(r)) allPredictions.push(...r) })
     }
 
+    // Step 2: load upcoming.json from every known forecast league.
+    // fetch_fixtures.py writes these; they have actual:null.
+    // We fetch all in parallel — missing files return null and are skipped.
+    const upcomingFetches = FORECAST_LEAGUE_SLUGS.map(slug =>
+      tryFetch(dataPath(`predictions/${slug}/upcoming.json`))
+    )
+    const upcomingResults = await Promise.all(upcomingFetches)
+    upcomingResults.forEach(r => {
+      if (Array.isArray(r)) allPredictions.push(...r)
+    })
+
+    // De-duplicate by match_id
     const unique = allPredictions.filter(
       (m, i, arr) => arr.findIndex(x => x.match_id === m.match_id) === i
     )
-
     unique.sort((a, b) => b.date.localeCompare(a.date))
 
     set({
       predictions: unique.filter(m => m.actual !== null),
-      forecasts: unique.filter(m => m.actual === null),
+      forecasts:   unique.filter(m => m.actual === null),
       isPredictionsLoading: false,
     })
   },
