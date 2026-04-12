@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useMatchStore } from '../../store/matchStore'
 import { PassNetwork }   from './PassNetwork'
@@ -39,25 +39,12 @@ const panelSub: React.CSSProperties = {
   margin: 0,
 }
 
-// FIXED: Use explicit height containers instead of padding-top trick.
-// Plotly's useResizeHandler needs a concrete pixel height to render correctly.
-// The padding-top percentage trick creates a zero-height inner div that
-// Plotly cannot measure, causing blank charts.
+// Pitch containers use explicit pixel heights so SVG can fill them.
+// The SVG components use viewBox + preserveAspectRatio so they scale perfectly.
 const pitchContainer: React.CSSProperties = {
   width: '100%',
-  height: 340,           // explicit height — Plotly can read this
+  height: 340,
   position: 'relative',
-}
-
-const grid2: React.CSSProperties = {
-  display: 'grid',
-  gridTemplateColumns: '1fr 1fr',
-  gap: '1.25rem',
-  marginBottom: '1.25rem',
-}
-
-const grid1: React.CSSProperties = {
-  marginBottom: '1.25rem',
 }
 
 const chartH: React.CSSProperties   = { height: 280 }
@@ -89,7 +76,6 @@ function SectionHeader({ num, title, question }: { num: number; title: string; q
   )
 }
 
-// ── Insight strip ─────────────────────────────────────────────────
 function InsightStrip({ insights }: { insights: string[] }) {
   return (
     <div style={{
@@ -107,17 +93,12 @@ function InsightStrip({ insights }: { insights: string[] }) {
   )
 }
 
-// ── Skeleton placeholder ──────────────────────────────────────────
 function Skeleton({ height }: { height: number | string }) {
   return (
-    <div
-      className="skeleton"
-      style={{ height, borderRadius: 10, background: 'var(--border)' }}
-    />
+    <div className="skeleton" style={{ height, borderRadius: 10, background: 'var(--border)' }} />
   )
 }
 
-// ── Empty state ───────────────────────────────────────────────────
 function EmptyState() {
   return (
     <div style={{
@@ -160,12 +141,12 @@ export default function MatchDashboard() {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
         <Skeleton height={60} />
-        <div style={grid2}>
+        <div className="dash-grid-2">
           <Skeleton height={380} />
           <Skeleton height={380} />
         </div>
         <Skeleton height={280} />
-        <div style={grid2}>
+        <div className="dash-grid-2">
           <Skeleton height={340} />
           <Skeleton height={340} />
         </div>
@@ -189,20 +170,44 @@ export default function MatchDashboard() {
 
   return (
     <div style={{ animation: 'fadeInUp 0.3s ease both' }}>
+      {/*
+        Responsive styles injected here because we can't easily edit index.css.
+        .dash-grid-2: two columns on desktop, one column on mobile.
+        .dash-pitch-container: the 340px explicit-height box for SVG charts.
+      */}
+      <style>{`
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(8px); }
+          to   { opacity: 1; transform: none; }
+        }
+        .dash-grid-2 {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1.25rem;
+          margin-bottom: 1.25rem;
+        }
+        .dash-grid-1 {
+          margin-bottom: 1.25rem;
+        }
+        @media (max-width: 768px) {
+          .dash-grid-2 {
+            grid-template-columns: 1fr;
+          }
+        }
+      `}</style>
 
       {insights.length > 0 && <InsightStrip insights={insights} />}
 
       {/* ── Section 1: Tactical Structure ── */}
       <SectionHeader num={1} title="Tactical Structure" question="How did both teams build play?" />
 
-      {/* Pass networks — explicit 340px height so Plotly can measure */}
-      <div style={grid2}>
+      <div className="dash-grid-2">
         <div style={panel}>
           <div style={panelHeader}>
             <p style={{ ...panelTitle, color: hc }}>{meta.home} — Pass Network</p>
-            <p style={panelSub}>Node size = pass involvement · Gold = playmaker · Click node to highlight connections</p>
+            <p style={panelSub}>Node size = pass involvement · Gold = playmaker · Click node to highlight</p>
           </div>
-          {/* FIXED: explicit height container */}
+          {/* pitchContainer gives the SVG a concrete pixel height to fill */}
           <div style={pitchContainer}>
             <PassNetwork network={network_home} teamColor={hc} teamName={meta.home} />
           </div>
@@ -220,7 +225,7 @@ export default function MatchDashboard() {
       </div>
 
       {/* xG flow — full width */}
-      <div style={grid1}>
+      <div className="dash-grid-1">
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>xG Flow — Cumulative Chance Quality Over Time</p>
@@ -240,8 +245,7 @@ export default function MatchDashboard() {
       {/* ── Section 2: Chance Creation ── */}
       <SectionHeader num={2} title="Chance Creation" question="Where did shots come from?" />
 
-      {/* FIXED: explicit height for shot map */}
-      <div style={grid1}>
+      <div className="dash-grid-1">
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>Shot Map — Both Teams</p>
@@ -262,7 +266,7 @@ export default function MatchDashboard() {
       {/* ── Section 3: Individual Impact ── */}
       <SectionHeader num={3} title="Individual Impact" question="Who made the difference?" />
 
-      <div style={grid2}>
+      <div className="dash-grid-2">
         <div style={panel}>
           <div style={panelHeader}>
             <p style={{ ...panelTitle, color: hc }}>{meta.home} — Player Value</p>
@@ -287,7 +291,7 @@ export default function MatchDashboard() {
       {/* ── Section 4: Game State ── */}
       <SectionHeader num={4} title="Game State Effects" question="Did the match change after the first goal?" />
 
-      <div style={grid2}>
+      <div className="dash-grid-2">
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>Before vs After First Goal</p>
@@ -306,7 +310,6 @@ export default function MatchDashboard() {
           </div>
         </div>
 
-        {/* Match summary */}
         <div style={panel}>
           <div style={panelHeader}>
             <p style={panelTitle}>Match Summary</p>
@@ -334,16 +337,6 @@ export default function MatchDashboard() {
           </div>
         </div>
       </div>
-
-      <style>{`
-        @keyframes fadeInUp {
-          from { opacity: 0; transform: translateY(8px); }
-          to { opacity: 1; transform: none; }
-        }
-        @media (max-width: 900px) {
-          .match-grid-2 { grid-template-columns: 1fr !important; }
-        }
-      `}</style>
     </div>
   )
 }
