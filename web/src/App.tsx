@@ -4,18 +4,48 @@ import { useMatchStore } from './store/matchStore'
 import Sidebar from './components/Sidebar'
 import ScoreBanner from './components/ScoreBanner'
 import TabBar from './components/TabBar'
-import MatchDashboard from "./components/viz/MatchDashboard";
+import MatchDashboard from './components/viz/MatchDashboard'
 import { PredictionsView } from './views/PredictionsView'
 import { ForecastView } from './views/ForecastView'
 
+// Leagues that fetch_fixtures.py writes upcoming.json for.
+// These are loaded on app mount so the Forecast tab is pre-populated.
+const FORECAST_LEAGUES = [
+  'premier_league',
+  'la_liga',
+  'bundesliga',
+  'serie_a',
+  'ligue_1',
+  'eredivisie',
+  'primeira_liga',
+]
+
 export default function App() {
-  const { loadIndex, loadPredictions, activeTab, currentMatch, predictions, forecasts, loadMatch } = useMatchStore()
+  const {
+    loadIndex,
+    loadPredictions,
+    loadForecasts,
+    activeTab,
+    currentMatch,
+    predictions,
+    forecasts,
+    loadMatch,
+  } = useMatchStore()
 
   useEffect(() => {
+    // Load match index (sidebar)
     loadIndex()
-    // Auto-load predictions on mount so the tab is populated
+
+    // Load historical predictions AND upcoming fixtures.
+    // loadPredictions now internally fetches upcoming.json for every
+    // FORECAST_LEAGUES entry, so a single call populates both tabs.
     loadPredictions()
-  }, [loadIndex, loadPredictions])
+
+    // Also call loadForecasts individually for each league as a belt-and-
+    // suspenders approach — this handles the case where loadPredictions
+    // runs before the upcoming.json files are available (slow networks, etc.)
+    FORECAST_LEAGUES.forEach(slug => loadForecasts(slug))
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const showBanner = activeTab === 'match' && currentMatch !== null
 
@@ -28,6 +58,7 @@ export default function App() {
       <Sidebar />
 
       <div
+        className="main-content"
         style={{
           marginLeft: 260,
           flex: 1,
@@ -35,7 +66,6 @@ export default function App() {
           flexDirection: 'column',
           minHeight: '100vh',
         }}
-        className="main-content"
       >
         {showBanner && <ScoreBanner />}
         <TabBar />
@@ -68,7 +98,6 @@ export default function App() {
         </div>
       </div>
 
-      {/* Mobile styles */}
       <style>{`
         @media (max-width: 768px) {
           .main-content { margin-left: 0 !important; }
