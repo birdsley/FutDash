@@ -10,6 +10,12 @@ export interface MatchMeta {
   away_color: string;
   score_home: number;
   score_away: number;
+  // Penalty shootout (if applicable)
+  penalty_home?: number | null;
+  penalty_away?: number | null;
+  has_extra_time?: boolean;
+  has_penalties?: boolean;
+  max_minute?: number;  // for games with extra time
   xg_home: number | null;
   xg_away: number | null;
   shots_home: number;
@@ -39,6 +45,8 @@ export interface Shot {
   minute: number | null;
   technique: string;
   body_part: string;
+  period?: number;  // 1-2=regular, 3-4=ET, 5=shootout
+  is_penalty_shootout?: boolean;
 }
 
 export interface NetworkNode {
