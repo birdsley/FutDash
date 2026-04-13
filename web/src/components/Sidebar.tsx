@@ -16,9 +16,25 @@ export default function Sidebar() {
   const [selectedSeason, setSelectedSeason] = useState('')
   const [mobileOpen, setMobileOpen] = useState(false)
 
-  const allSeasons = Array.from(new Set(
-    (matchIndex?.competitions ?? []).flatMap(c => c.seasons.map(s => s.name))
+  // Get seasons available for the selected competition (or all if none selected)
+  const availableSeasons = Array.from(new Set(
+    (matchIndex?.competitions ?? [])
+      .filter(c => !selectedComp || String(c.id) === selectedComp)
+      .flatMap(c => c.seasons.map(s => s.name))
   )).sort().reverse()
+
+  // Reset season selection if it's not valid for the selected competition
+  const handleCompChange = (compId: string) => {
+    setSelectedComp(compId)
+    // Check if current season is valid for new competition
+    if (compId) {
+      const comp = matchIndex?.competitions.find(c => String(c.id) === compId)
+      const validSeasons = comp?.seasons.map(s => s.name) ?? []
+      if (selectedSeason && !validSeasons.includes(selectedSeason)) {
+        setSelectedSeason('')
+      }
+    }
+  }
 
   async function handleMatchClick(m: MatchSummary) {
     setTab('match')
@@ -77,7 +93,7 @@ export default function Sidebar() {
 
       {/* Filters */}
       <div style={{ padding: '0.75rem 1.25rem 0.5rem' }}>
-        <select value={selectedComp} onChange={e => setSelectedComp(e.target.value)} style={{ width: '100%', marginBottom: 6 }}>
+        <select value={selectedComp} onChange={e => handleCompChange(e.target.value)} style={{ width: '100%', marginBottom: 6 }}>
           <option value="">All Competitions</option>
           {(matchIndex?.competitions ?? []).map(c => (
             <option key={c.id} value={String(c.id)}>{c.flag ?? ''} {c.name}</option>
@@ -85,8 +101,13 @@ export default function Sidebar() {
         </select>
         <select value={selectedSeason} onChange={e => setSelectedSeason(e.target.value)} style={{ width: '100%' }}>
           <option value="">All Seasons</option>
-          {allSeasons.map(s => <option key={s} value={s}>{s}</option>)}
+          {availableSeasons.map(s => <option key={s} value={s}>{s}</option>)}
         </select>
+        {selectedComp && availableSeasons.length === 0 && (
+          <div style={{ fontSize: 10, color: 'var(--muted)', marginTop: 4, fontStyle: 'italic' }}>
+            No seasons available for this competition
+          </div>
+        )}
       </div>
 
       {/* Match list */}
