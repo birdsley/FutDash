@@ -132,6 +132,7 @@ def process_one_match(
     me["match_id"] = match_id
     me["home_team"] = home
     me["away_team"] = away
+    me._base_path = base_path
 
     # Attach home/away team name as per event team col
     # StatsBomb events already have team.name from json_normalize
