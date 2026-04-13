@@ -1222,72 +1222,154 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
             })
 
     # ── pass network builder ──
-    def _build_net(team_events, mirror=False):
-        # ── Step 1: avg positions from ALL events (every player who touched ball) ──
+    # ── pass network builder ──────────────────────────────────────
+    # Changes from previous version:
+    #   1. Accepts lineup_info dict → filters to STARTERS ONLY
+    #   2. Adds proximity edges for isolated nodes so every player
+    #      has connections and non-zero centrality metrics
+    #   3. Slightly lower MIN_PASSES threshold (max(2, 6%)) so
+    #      low-possession teams still show edges
+    def _build_net(team_events, mirror=False, lineup_info=None):
+ 
+        # ── identify starters ─────────────────────────────────────
+        if lineup_info:
+            starters = {n for n,info in lineup_info.items() if info.get("starter", False)}
+        else:
+            starters = None  # no filtering if lineup data unavailable
+ 
+        # ── Step 1: avg positions from all starter events ─────────
         all_locs = defaultdict(list)
         if "location" in team_events.columns and "player.name" in team_events.columns:
             for _,r in team_events.iterrows():
                 p=r.get("player.name"); loc=r.get("location")
-                if p and isinstance(loc,list) and len(loc)==2:
-                    all_locs[p].append([float(loc[0]),float(loc[1])])
-        all_avg={p:np.mean(v,axis=0).tolist() for p,v in all_locs.items() if v}
-        
-        # ── Step 2: pass edges (unchanged logic) ──
-        passes=(team_events[team_events["type.name"]=="Pass"].copy()
-                if "type.name" in team_events.columns else pd.DataFrame())
+                if not p or not isinstance(loc, list) or len(loc) != 2:
+                    continue
+                # skip non-starters when lineup info available
+                if starters is not None and p not in starters:
+                    continue
+                all_locs[p].append([float(loc[0]), float(loc[1])])
+        all_avg = {p: np.mean(v, axis=0).tolist() for p, v in all_locs.items() if v}
+ 
+        # ── Step 2: completed passes between starters ─────────────
+        passes = (team_events[team_events["type.name"]=="Pass"].copy()
+                  if "type.name" in team_events.columns else pd.DataFrame())
         if "pass.outcome.name" in passes.columns:
-            passes=passes[passes["pass.outcome.name"].isna()]
-        er=defaultdict(int); pa=defaultdict(list)
+            passes = passes[passes["pass.outcome.name"].isna()]  # completed only
+ 
+        er = defaultdict(int); pa = defaultdict(list)
         for _,r in passes.iterrows():
-            src=r.get("player.name"); tgt=r.get("pass.recipient.name"); loc=r.get("location")
-            if src and tgt and src!=tgt and isinstance(loc,list) and len(loc)==2:
-                er[(src,tgt)]+=1; pa[src].append([float(loc[0]),float(loc[1])])
-        n_raw=len(er); min_p=max(3,int(n_raw*0.08))
-        ef={k:v for k,v in er.items() if v>=min_p}
-        if len(ef)>20: ef=dict(sorted(ef.items(),key=lambda kv:-kv[1])[:20])
-        
-        # avg_p: use pass positions where available (more tactically meaningful),
-        # fall back to all-event positions for players with few passes
-        pass_avg={p:np.mean(v,axis=0).tolist() for p,v in pa.items()}
-        avg_p={**all_avg, **pass_avg}  # pass positions override all-event positions
-        
-        # ── Step 3: build graph ──
-        G=nx.DiGraph()
+            src = r.get("player.name"); tgt = r.get("pass.recipient.name")
+            loc = r.get("location")
+            if not (src and tgt and src != tgt and isinstance(loc, list) and len(loc) == 2):
+                continue
+            if starters is not None and (src not in starters or tgt not in starters):
+                continue
+            er[(src,tgt)] += 1
+            pa[src].append([float(loc[0]), float(loc[1])])
+ 
+        # Dynamic threshold: top-6% of pairs, min 2 passes
+        n_raw  = len(er)
+        min_p  = max(2, int(n_raw * 0.06))
+        ef     = {k:v for k,v in er.items() if v >= min_p}
+        if len(ef) > 24:
+            ef = dict(sorted(ef.items(), key=lambda kv: -kv[1])[:24])
+ 
+        # avg_p: pass positions first (more meaningful), fallback to all-event positions
+        pass_avg = {p: np.mean(v, axis=0).tolist() for p, v in pa.items()}
+        avg_p    = {**all_avg, **pass_avg}
+ 
+        # ── Step 3: build directed graph ──────────────────────────
+        G = nx.DiGraph()
         for (s,t),w in ef.items():
-            if s in avg_p and t in avg_p: G.add_edge(s,t,weight=w)
-        
-        # Add ALL players with >=5 events as isolated nodes (starters who rarely pass)
-        ev_counts=team_events["player.name"].value_counts() if "player.name" in team_events.columns else pd.Series(dtype=int)
-        for p,cnt in ev_counts.items():
-            if cnt>=5 and p in avg_p and p not in G:
+            if s in avg_p and t in avg_p:
+                G.add_edge(s, t, weight=w)
+ 
+        # Add ALL starters (or all active players) as nodes — even if isolated
+        target = starters if starters else set(all_avg.keys())
+        for p in target:
+            if p in avg_p and p not in G:
                 G.add_node(p)
-        
-        try:    ev_c=nx.eigenvector_centrality(G,weight='weight',max_iter=500)
-        except: ev_c={n:G.degree(n,weight='weight') for n in G.nodes()}
-        btw=nx.betweenness_centrality(G,weight='weight')
-        top2=sorted(btw.items(),key=lambda x:-x[1])[:2]
-        pm_set={h[0] for h in top2}
-        tdeg=sum(dict(G.degree(weight='weight')).values()) or 1
-        def mx(x): return round(120.0-float(x),2) if mirror else round(float(x),2)
-        nodes=[{"id":n,"short":n.split()[-1][:11],
-                "x":mx(avg_p[n][0]),"y":round(float(avg_p[n][1]),2),
-                "size":round(55+400*G.degree(n,weight='weight')/tdeg,1),
-                "is_playmaker":n in pm_set,
-                "betweenness":round(btw.get(n,0),4),
-                "eigenvector":round(ev_c.get(n,0),4)}
-               for n in G.nodes() if n in avg_p]
-        edges_o=[]
-        for u,v,d in G.edges(data=True):
-            if u not in avg_p or v not in avg_p: continue
-            dx=(avg_p[v][0]-avg_p[u][0])*(-1 if mirror else 1)
-            edges_o.append({"source":u,"target":v,"weight":d["weight"],
-                            "direction":"forward" if dx>4 else("backward" if dx<-4 else "lateral")})
-        return {"nodes":nodes,"edges":edges_o}
-
-    te_h=me[me["team.name"]==home] if "team.name" in me.columns else pd.DataFrame()
-    te_a=me[me["team.name"]==away] if "team.name" in me.columns else pd.DataFrame()
-    network_home=_build_net(te_h,mirror=False)
-    network_away=_build_net(te_a,mirror=True)
+ 
+        # ── Step 4: proximity edges for isolated nodes ─────────────
+        # Each player with no connections gets edges to their 2 nearest
+        # positional neighbours. Weight = 1 (weaker than real pass edges).
+        # This ensures: (a) every player is connected, (b) eigenvector/
+        # betweenness centrality are non-zero for every node.
+        isolated = [n for n in G.nodes() if G.degree(n) == 0 and n in avg_p]
+        for node in isolated:
+            px, py = avg_p[node]
+            dists = []
+            for other in list(G.nodes()):
+                if other == node or other not in avg_p:
+                    continue
+                ox, oy = avg_p[other]
+                dists.append(((px-ox)**2 + (py-oy)**2, other))
+            dists.sort()
+            for _, nbr in dists[:2]:
+                if not G.has_edge(node, nbr):
+                    G.add_edge(node, nbr, weight=1)
+                if not G.has_edge(nbr, node):
+                    G.add_edge(nbr, node, weight=1)
+ 
+        # ── Step 5: centrality ─────────────────────────────────────
+        if len(G.nodes()) == 0:
+            return {"nodes": [], "edges": []}
+ 
+        try:
+            ev_c = nx.eigenvector_centrality(G, weight='weight', max_iter=500)
+        except Exception:
+            ev_c = {n: float(G.degree(n, weight='weight')) for n in G.nodes()}
+ 
+        btw   = nx.betweenness_centrality(G, weight='weight')
+        top2  = sorted(btw.items(), key=lambda x: -x[1])[:2]
+        pm_set= {h[0] for h in top2 if h[1] > 0}
+        # Fallback: if all betweenness==0 (fully disconnected), use eigenvector
+        if not pm_set:
+            pm_set = {max(ev_c, key=ev_c.get)} if ev_c else set()
+ 
+        tdeg  = sum(dict(G.degree(weight='weight')).values()) or 1
+        def mx(x): return round(120.0 - float(x), 2) if mirror else round(float(x), 2)
+ 
+        nodes = [
+            {
+                "id":          n,
+                "short":       n.split()[-1][:11],
+                "x":           mx(avg_p[n][0]),
+                "y":           round(float(avg_p[n][1]), 2),
+                "size":        round(55 + 400 * G.degree(n, weight='weight') / tdeg, 1),
+                "is_playmaker": n in pm_set,
+                "betweenness": round(btw.get(n, 0.0), 4),
+                "eigenvector": round(ev_c.get(n, 0.0), 4),
+            }
+            for n in G.nodes() if n in avg_p
+        ]
+ 
+        edges_o = []
+        for u, v, d in G.edges(data=True):
+            if u not in avg_p or v not in avg_p:
+                continue
+            dx = (avg_p[v][0] - avg_p[u][0]) * (-1 if mirror else 1)
+            edges_o.append({
+                "source":    u,
+                "target":    v,
+                "weight":    d["weight"],
+                "direction": "forward" if dx > 4 else ("backward" if dx < -4 else "lateral"),
+            })
+ 
+        return {"nodes": nodes, "edges": edges_o}
+ 
+    # ── load lineup info (starters) for this match ─────────────────
+    # Try to find base_path on the events dataframe (set by export_all_matches.py)
+    _base_path = getattr(me, '_base_path', None)
+    _used_mid  = (int(me["match_id"].iloc[0])
+                  if "match_id" in me.columns and len(me) > 0
+                  else match_id)
+    lineup_info = load_lineups(_base_path, _used_mid) if _base_path else {}
+ 
+    te_h = me[me["team.name"]==home] if "team.name" in me.columns else pd.DataFrame()
+    te_a = me[me["team.name"]==away] if "team.name" in me.columns else pd.DataFrame()
+    network_home = _build_net(te_h, mirror=False, lineup_info=lineup_info)
+    network_away = _build_net(te_a, mirror=True,  lineup_info=lineup_info)
 
     # ── vaep ──
     vaep_out={"home":[],"away":[]}
