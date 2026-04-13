@@ -1155,16 +1155,54 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
         except: return None
 
     # ── meta ──
+    # StatsBomb periods: 1=1st half, 2=2nd half, 3=ET 1st, 4=ET 2nd, 5=Penalty shootout
     sh=sa=nsh=nsa=0; xgh=xga=None; ph=50.0
+    pen_h=pen_a=None; has_et=False; has_pens=False; max_minute=92
+    
     if "type.name" in me.columns and "team.name" in me.columns:
-        shots=me[me["type.name"]=="Shot"]
-        if "shot.outcome.name" in shots.columns:
-            sh=int((shots[shots["team.name"]==home]["shot.outcome.name"]=="Goal").sum())
-            sa=int((shots[shots["team.name"]==away]["shot.outcome.name"]=="Goal").sum())
-        if "shot.statsbomb_xg" in shots.columns:
-            xgh=_sf(shots[shots["team.name"]==home]["shot.statsbomb_xg"].sum(),3)
-            xga=_sf(shots[shots["team.name"]==away]["shot.statsbomb_xg"].sum(),3)
-        nsh=int((shots["team.name"]==home).sum()); nsa=int((shots["team.name"]==away).sum())
+        all_shots=me[me["type.name"]=="Shot"].copy()
+        
+        # Detect extra time and penalties based on periods
+        if "period" in me.columns:
+            periods_present = set(me["period"].dropna().astype(int).unique())
+            has_et = bool(periods_present & {3, 4})  # Extra time periods
+            has_pens = 5 in periods_present  # Penalty shootout
+            
+            # Calculate max minute from the data
+            if "minute" in me.columns:
+                max_min_data = int(me["minute"].max()) if me["minute"].notna().any() else 90
+                if has_et:
+                    max_minute = max(max_min_data + 2, 122)  # At least 120 + buffer
+                else:
+                    max_minute = 92
+        
+        # Filter shots: regular play (periods 1-4) vs penalty shootout (period 5)
+        if "period" in all_shots.columns:
+            regular_shots = all_shots[all_shots["period"].fillna(1).astype(int) <= 4]
+            pen_shots = all_shots[all_shots["period"].fillna(1).astype(int) == 5]
+        else:
+            regular_shots = all_shots
+            pen_shots = pd.DataFrame()
+        
+        # Count regular goals (NOT penalty shootout)
+        if "shot.outcome.name" in regular_shots.columns:
+            sh=int((regular_shots[regular_shots["team.name"]==home]["shot.outcome.name"]=="Goal").sum())
+            sa=int((regular_shots[regular_shots["team.name"]==away]["shot.outcome.name"]=="Goal").sum())
+        
+        # Count penalty shootout goals separately
+        if has_pens and len(pen_shots) > 0 and "shot.outcome.name" in pen_shots.columns:
+            pen_h=int((pen_shots[pen_shots["team.name"]==home]["shot.outcome.name"]=="Goal").sum())
+            pen_a=int((pen_shots[pen_shots["team.name"]==away]["shot.outcome.name"]=="Goal").sum())
+        
+        # xG from all shots (regular play only, not shootout)
+        if "shot.statsbomb_xg" in regular_shots.columns:
+            xgh=_sf(regular_shots[regular_shots["team.name"]==home]["shot.statsbomb_xg"].sum(),3)
+            xga=_sf(regular_shots[regular_shots["team.name"]==away]["shot.statsbomb_xg"].sum(),3)
+        
+        # Shot counts (regular play only)
+        nsh=int((regular_shots["team.name"]==home).sum())
+        nsa=int((regular_shots["team.name"]==away).sum())
+    
     eh=int((me["team.name"]==home).sum()) if "team.name" in me.columns else 0
     ea=int((me["team.name"]==away).sum()) if "team.name" in me.columns else 0
     if (eh+ea)>0: ph=round(eh/(eh+ea)*100,1)
@@ -1176,27 +1214,40 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
           "home_color_raw":raw_a,"home_color":eff_a,
           "away_color_raw":raw_b,"away_color":eff_b,
           "score_home":sh,"score_away":sa,
+          "penalty_home":pen_h,"penalty_away":pen_a,
+          "has_extra_time":has_et,"has_penalties":has_pens,
+          "max_minute":max_minute,
           "xg_home":xgh,"xg_away":xga,
           "shots_home":nsh,"shots_away":nsa,
           "possession_home":ph,
           "competition":comp_name,"season":season_name,"date":date_str}
 
     # ── xg_flow + pressure index ──
-    cum_h=[0.0]*92; cum_a=[0.0]*92
+    # Extend arrays for extra time games
+    n_minutes = max_minute
+    cum_h=[0.0]*n_minutes; cum_a=[0.0]*n_minutes
     if "type.name" in me.columns and "minute" in me.columns:
+        # Filter to regular play (not penalty shootout)
         sdf=me[me["type.name"]=="Shot"].copy()
+        if "period" in sdf.columns:
+            sdf = sdf[sdf["period"].fillna(1).astype(int) <= 4]  # Exclude shootout
         sdf["minute"]=sdf["minute"].fillna(0).astype(int)
         sdf["_xg"]=(sdf["shot.statsbomb_xg"].fillna(0.05)
                     if "shot.statsbomb_xg" in sdf.columns else 0.05)
         for _,r in sdf.iterrows():
-            m=min(int(r["minute"]),91); x=float(r["_xg"])
+            m=min(int(r["minute"]),n_minutes-1); x=float(r["_xg"])
             if r.get("team.name","")==home:
-                for j in range(m,92): cum_h[j]=round(cum_h[j]+x,4)
+                for j in range(m,n_minutes): cum_h[j]=round(cum_h[j]+x,4)
             else:
-                for j in range(m,92): cum_a[j]=round(cum_a[j]+x,4)
-    pi_h=[round(v,4) for v in _compute_pressure_index(me,home,is_home=True).tolist()]
-    pi_a=[round(v,4) for v in _compute_pressure_index(me,away,is_home=False).tolist()]
-    xg_flow={"minutes":list(range(92)),"home":cum_h,"away":cum_a,
+                for j in range(m,n_minutes): cum_a[j]=round(cum_a[j]+x,4)
+    
+    # Pressure index - compute for full game duration
+    pi_h=_compute_pressure_index(me,home,is_home=True,n_minutes=n_minutes)
+    pi_a=_compute_pressure_index(me,away,is_home=False,n_minutes=n_minutes)
+    pi_h=[round(v,4) for v in pi_h.tolist()]
+    pi_a=[round(v,4) for v in pi_a.tolist()]
+    
+    xg_flow={"minutes":list(range(n_minutes)),"home":cum_h,"away":cum_a,
               "pressure_home":pi_h,"pressure_away":pi_a}
 
     # ── shots ──
@@ -1209,6 +1260,8 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
             sdf["loc_y"]=sdf["location"].apply(
                 lambda l:float(l[1]) if isinstance(l,list) and len(l)>=2 else np.nan)
         for _,r in sdf.iterrows():
+            period = int(r.get("period", 1)) if pd.notna(r.get("period")) else 1
+            is_shootout = period == 5
             shots_out.append({
                 "x":_sf(r.get("loc_x"),2),"y":_sf(r.get("loc_y"),2),
                 "xg":_sf(r.get("shot.statsbomb_xg",0.05),4),
@@ -1219,6 +1272,8 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
                 "minute":_si(r.get("minute",0)),
                 "technique":str(r.get("shot.technique.name","")),
                 "body_part":str(r.get("shot.body_part.name","")),
+                "period":period,
+                "is_penalty_shootout":is_shootout,
             })
 
     # ── pass network builder ──
@@ -1369,7 +1424,7 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
     te_h = me[me["team.name"]==home] if "team.name" in me.columns else pd.DataFrame()
     te_a = me[me["team.name"]==away] if "team.name" in me.columns else pd.DataFrame()
     network_home = _build_net(te_h, mirror=False, lineup_info=lineup_info)
-    network_away = _build_net(te_a, mirror=True,  lineup_info=lineup_info)
+    network_away = _build_net(te_a, mirror=False, lineup_info=lineup_info)  # mirror=False: React handles positioning
 
     # ── vaep ──
     vaep_out={"home":[],"away":[]}
