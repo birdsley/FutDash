@@ -72,6 +72,19 @@ jobs:
             match-index-v4-${{ steps.opendata_sha.outputs.sha }}-
             match-index-v4-
 
+      # ── Clear stale files when cache key changed ───────────────
+      # Self-hosted runners keep the workspace between runs. When the
+      # statsbomb_v9.py hash changes (new cache key), the old JSONs from
+      # the previous run are still on disk and fool the file-count check
+      # into skipping regeneration. Clearing them forces a fresh export.
+      - name: Clear stale match JSONs on cache miss
+        if: steps.cache_matches.outputs.cache-hit != 'true'
+        run: |
+          echo "Cache miss detected — clearing stale match JSONs"
+          rm -rf ./web/public/data/matches
+          rm -f  ./web/public/data/index.json
+          mkdir -p ./web/public/data/matches
+          echo "Cleared. Fresh export will run."
       # ── Check if JSON generation is needed ────────────────────
       - name: Check if match JSONs are complete
         id: check_jsons
