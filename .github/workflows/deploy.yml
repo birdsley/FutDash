@@ -48,23 +48,29 @@ jobs:
           echo "sha=${SHA}" >> $GITHUB_OUTPUT
           echo "  open-data SHA: ${SHA}"
 
+      # CACHE KEY CHANGE: v4 + include statsbomb_v9.py hash so ANY change to the
+      # processing script automatically invalidates the cache and forces regeneration
+      # of all match JSONs. Previously v3 only keyed on the submodule SHA, so script
+      # changes were silently ignored and old cached files were always used.
       - name: Restore cached match JSONs
         id: cache_matches
         uses: actions/cache@v4
         with:
           path: ./web/public/data/matches
-          key: match-jsons-v3-${{ steps.opendata_sha.outputs.sha }}
+          key: match-jsons-v4-${{ steps.opendata_sha.outputs.sha }}-${{ hashFiles('scripts/statsbomb_v9.py') }}
           restore-keys: |
-            match-jsons-v3-
+            match-jsons-v4-${{ steps.opendata_sha.outputs.sha }}-
+            match-jsons-v4-
 
       - name: Restore cached index.json
         id: cache_index
         uses: actions/cache@v4
         with:
           path: ./web/public/data/index.json
-          key: match-index-v3-${{ steps.opendata_sha.outputs.sha }}
+          key: match-index-v4-${{ steps.opendata_sha.outputs.sha }}-${{ hashFiles('scripts/statsbomb_v9.py') }}
           restore-keys: |
-            match-index-v3-
+            match-index-v4-${{ steps.opendata_sha.outputs.sha }}-
+            match-index-v4-
 
       # ── Check if JSON generation is needed ────────────────────
       - name: Check if match JSONs are complete
