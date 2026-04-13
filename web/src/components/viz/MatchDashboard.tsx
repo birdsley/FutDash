@@ -255,6 +255,7 @@ export default function MatchDashboard() {
             home={meta.home} away={meta.away}
             homeColor={hc}  awayColor={ac}
             shots={shots}
+            meta={meta}
           />
         </div>
       </div>
