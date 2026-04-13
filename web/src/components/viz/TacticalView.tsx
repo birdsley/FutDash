@@ -3,12 +3,13 @@
  *
  * COORDINATE SYSTEM:
  *   StatsBomb stores each team's events in a "attacking right" frame.
- *   _build_net() mirrors the away team's x (120-x) so the JSON stores
- *   both teams with GK at low-x and striker at high-x.
+ *   _build_net() does NOT mirror either team — both have GK at low-x (~5)
+ *   and strikers at high-x (~110) in the JSON.
  *
  *   We remap to a single combined pitch:
  *     Home → left half:   displayX = rawX * 0.5         maps [0,120] → [0,60]
  *     Away → right half:  displayX = 60 + (120-rawX)*0.5 maps [0,120] → [60,120]
+ *       (this inverts away team so their GK is on the right edge)
  *
  *   Critically, ALL coordinate math is done inline (no posMap lookup) to
  *   eliminate any possibility of a lookup mismatch causing wrong positions.
