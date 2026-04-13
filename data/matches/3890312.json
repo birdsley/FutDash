@@ -773,59 +773,59 @@
       {
         "id": "Wendell Nascimento Borges",
         "short": "Borges",
-        "x": 65.61,
-        "y": 11.06,
-        "size": 125.6,
+        "x": 65.17,
+        "y": 11.12,
+        "size": 122.7,
         "is_playmaker": false,
-        "betweenness": 0.0758,
-        "eigenvector": 0.5585
+        "betweenness": 0.1,
+        "eigenvector": 0.5013
       },
       {
         "id": "Hakan Çalhanoğlu",
         "short": "Çalhanoğlu",
-        "x": 80.69,
-        "y": 25.69,
-        "size": 114.7,
+        "x": 81.63,
+        "y": 26.09,
+        "size": 114.0,
         "is_playmaker": false,
-        "betweenness": 0.1136,
-        "eigenvector": 0.5825
+        "betweenness": 0.1278,
+        "eigenvector": 0.605
       },
       {
         "id": "André Ramalho Silva",
         "short": "Silva",
         "x": 40.67,
         "y": 23.02,
-        "size": 127.4,
+        "size": 118.7,
         "is_playmaker": true,
-        "betweenness": 0.1894,
-        "eigenvector": 0.2079
+        "betweenness": 0.2944,
+        "eigenvector": 0.1794
       },
       {
         "id": "Jonathan Tah",
         "short": "Tah",
         "x": 44.47,
         "y": 57.19,
-        "size": 84.0,
+        "size": 80.5,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.1004
+        "betweenness": 0.0889,
+        "eigenvector": 0.0816
       },
       {
         "id": "Christoph Kramer",
         "short": "Kramer",
-        "x": 63.43,
-        "y": 36.77,
-        "size": 111.1,
-        "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.5061
+        "x": 61.61,
+        "y": 36.5,
+        "size": 104.4,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.4603
       },
       {
         "id": "Bernd Leno",
         "short": "Leno",
-        "x": 12.22,
-        "y": 40.63,
-        "size": 65.9,
+        "x": 11.95,
+        "y": 40.56,
+        "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -835,70 +835,50 @@
         "short": "Bellarabi",
         "x": 95.05,
         "y": 61.27,
-        "size": 73.1,
+        "size": 89.3,
         "is_playmaker": false,
-        "betweenness": 0.0758,
-        "eigenvector": 0.0463
+        "betweenness": 0.0611,
+        "eigenvector": 0.3263
       },
       {
         "id": "Lars Bender",
         "short": "Bender",
         "x": 65.18,
         "y": 44.44,
-        "size": 65.9,
+        "size": 70.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0556,
+        "eigenvector": 0.0162
       },
       {
         "id": "Kevin Kampl",
         "short": "Kampl",
-        "x": 87.91,
-        "y": 64.38,
-        "size": 87.6,
+        "x": 87.49,
+        "y": 64.05,
+        "size": 83.7,
         "is_playmaker": false,
-        "betweenness": 0.1591,
-        "eigenvector": 0.168
+        "betweenness": 0.1389,
+        "eigenvector": 0.1405
       },
       {
         "id": "Giulio Donati",
         "short": "Donati",
-        "x": 70.89,
-        "y": 72.17,
-        "size": 87.6,
-        "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.0914
+        "x": 70.62,
+        "y": 72.07,
+        "size": 95.6,
+        "is_playmaker": true,
+        "betweenness": 0.2389,
+        "eigenvector": 0.0714
       },
       {
         "id": "Javier Hernández Balcázar",
         "short": "Balcázar",
         "x": 72.53,
         "y": 47.33,
-        "size": 62.2,
+        "size": 61.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0252
-      },
-      {
-        "id": "Stefan Kießling",
-        "short": "Kießling",
-        "x": 84.17,
-        "y": 67.49,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Admir Mehmedi",
-        "short": "Mehmedi",
-        "x": 99.68,
-        "y": 26.98,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0186
       }
     ],
     "edges": [
@@ -921,6 +901,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Wendell Nascimento Borges",
+        "target": "Karim Bellarabi",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Hakan Çalhanoğlu",
         "target": "Christoph Kramer",
         "weight": 13,
@@ -931,6 +917,12 @@
         "target": "Wendell Nascimento Borges",
         "weight": 11,
         "direction": "backward"
+      },
+      {
+        "source": "Hakan Çalhanoğlu",
+        "target": "Karim Bellarabi",
+        "weight": 8,
+        "direction": "forward"
       },
       {
         "source": "André Ramalho Silva",
@@ -1021,6 +1013,18 @@
         "target": "Javier Hernández Balcázar",
         "weight": 8,
         "direction": "lateral"
+      },
+      {
+        "source": "Giulio Donati",
+        "target": "Karim Bellarabi",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Giulio Donati",
+        "target": "Lars Bender",
+        "weight": 7,
+        "direction": "backward"
       }
     ]
   },
@@ -1029,142 +1033,112 @@
       {
         "id": "Yunus Mallı",
         "short": "Mallı",
-        "x": 48.41,
-        "y": 39.17,
-        "size": 155.0,
-        "is_playmaker": true,
+        "x": 47.38,
+        "y": 39.23,
+        "size": 87.5,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
         "id": "Yoshinori Muto",
         "short": "Muto",
         "x": 46.83,
         "y": 42.53,
-        "size": 155.0,
-        "is_playmaker": true,
+        "size": 87.5,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.7071
+        "eigenvector": 0.0
       },
       {
         "id": "Julian Baumgartlinger",
         "short": "Baumgartlin",
-        "x": 71.82,
-        "y": 37.9,
-        "size": 155.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "x": 70.11,
+        "y": 38.15,
+        "size": 117.5,
+        "is_playmaker": true,
+        "betweenness": 0.1111,
+        "eigenvector": 0.3557
       },
       {
         "id": "Stefan Bell",
         "short": "Bell",
-        "x": 82.02,
-        "y": 23.21,
-        "size": 155.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
+        "x": 81.28,
+        "y": 24.14,
+        "size": 160.0,
+        "is_playmaker": true,
+        "betweenness": 0.1778,
+        "eigenvector": 0.5997
       },
       {
         "id": "Pierre Bengtsson",
         "short": "Bengtsson",
-        "x": 58.8,
-        "y": 8.88,
-        "size": 55.0,
+        "x": 56.61,
+        "y": 7.45,
+        "size": 115.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.0889,
+        "eigenvector": 0.444
       },
       {
-        "id": "Christian Clemens",
-        "short": "Clemens",
-        "x": 50.76,
-        "y": 59.03,
-        "size": 55.0,
+        "id": "Pablo Ezequiel De Blasis",
+        "short": "Blasis",
+        "x": 59.7,
+        "y": 17.31,
+        "size": 65.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.157
       },
       {
         "id": "Niko Bungert",
         "short": "Bungert",
-        "x": 79.61,
-        "y": 54.12,
-        "size": 55.0,
+        "x": 79.75,
+        "y": 54.22,
+        "size": 90.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.3182
       },
       {
         "id": "Daniel Brosinski",
         "short": "Brosinski",
         "x": 71.61,
         "y": 74.85,
-        "size": 55.0,
+        "size": 87.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.3247
+      },
+      {
+        "id": "Christian Clemens",
+        "short": "Clemens",
+        "x": 50.76,
+        "y": 59.03,
+        "size": 65.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1258
       },
       {
         "id": "Christoph Moritz",
         "short": "Moritz",
         "x": 67.03,
         "y": 29.38,
-        "size": 55.0,
+        "size": 65.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Pablo Ezequiel De Blasis",
-        "short": "Blasis",
-        "x": 62.12,
-        "y": 15.91,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.157
       },
       {
         "id": "Loris Karius",
         "short": "Karius",
         "x": 103.14,
         "y": 36.94,
-        "size": 55.0,
+        "size": 65.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Danny Latza",
-        "short": "Latza",
-        "x": 69.77,
-        "y": 29.28,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Jairo Samperio Bustara",
-        "short": "Bustara",
-        "x": 67.2,
-        "y": 14.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Jhon Andrés Córdoba Copete",
-        "short": "Copete",
-        "x": 44.63,
-        "y": 19.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.2121
       }
     ],
     "edges": [
@@ -1175,10 +1149,94 @@
         "direction": "lateral"
       },
       {
+        "source": "Yoshinori Muto",
+        "target": "Yunus Mallı",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
         "source": "Julian Baumgartlinger",
         "target": "Stefan Bell",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Julian Baumgartlinger",
+        "target": "Christian Clemens",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Julian Baumgartlinger",
+        "target": "Pierre Bengtsson",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Bell",
+        "target": "Niko Bungert",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Stefan Bell",
+        "target": "Pierre Bengtsson",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Bell",
+        "target": "Julian Baumgartlinger",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Bell",
+        "target": "Daniel Brosinski",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Bell",
+        "target": "Loris Karius",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierre Bengtsson",
+        "target": "Pablo Ezequiel De Blasis",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pierre Bengtsson",
+        "target": "Stefan Bell",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierre Bengtsson",
+        "target": "Christoph Moritz",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Niko Bungert",
+        "target": "Daniel Brosinski",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Niko Bungert",
+        "target": "Stefan Bell",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Daniel Brosinski",
+        "target": "Julian Baumgartlinger",
+        "weight": 5,
+        "direction": "lateral"
       }
     ]
   },

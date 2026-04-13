@@ -907,130 +907,110 @@
         "short": "Badstuber",
         "x": 68.5,
         "y": 9.08,
-        "size": 104.8,
+        "size": 98.4,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.3173
+        "betweenness": 0.0333,
+        "eigenvector": 0.3061
       },
       {
         "id": "Bastian Schweinsteiger",
         "short": "Schweinstei",
-        "x": 66.17,
-        "y": 28.08,
-        "size": 157.3,
+        "x": 65.46,
+        "y": 28.39,
+        "size": 161.9,
         "is_playmaker": true,
-        "betweenness": 0.2348,
-        "eigenvector": 0.4692
+        "betweenness": 0.5667,
+        "eigenvector": 0.552
       },
       {
         "id": "Mark van Bommel",
         "short": "Bommel",
-        "x": 64.83,
-        "y": 47.67,
-        "size": 106.1,
+        "x": 64.97,
+        "y": 47.48,
+        "size": 104.1,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4072
+        "betweenness": 0.0333,
+        "eigenvector": 0.3861
       },
       {
         "id": "Philipp Lahm",
         "short": "Lahm",
-        "x": 63.44,
-        "y": 68.59,
-        "size": 133.0,
-        "is_playmaker": true,
-        "betweenness": 0.2273,
-        "eigenvector": 0.4989
+        "x": 63.53,
+        "y": 68.45,
+        "size": 128.1,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.4347
       },
       {
         "id": "Arjen Robben",
         "short": "Robben",
-        "x": 86.86,
-        "y": 66.37,
-        "size": 89.1,
+        "x": 86.21,
+        "y": 66.19,
+        "size": 96.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3989
+        "eigenvector": 0.4261
       },
       {
         "id": "Daniel Van Buyten",
         "short": "Buyten",
         "x": 45.37,
         "y": 57.69,
-        "size": 76.0,
+        "size": 74.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1689
+        "betweenness": 0.0222,
+        "eigenvector": 0.1273
       },
       {
         "id": "Martín Gastón Demichelis",
         "short": "Demichelis",
         "x": 43.28,
         "y": 33.3,
-        "size": 81.9,
-        "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.1327
+        "size": 84.1,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.1
       },
       {
         "id": "Hamit Altıntop",
         "short": "Altıntop",
         "x": 73.3,
         "y": 15.7,
-        "size": 76.6,
+        "size": 73.9,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.2016
+        "betweenness": 0.1,
+        "eigenvector": 0.1908
       },
       {
         "id": "Thomas Müller",
         "short": "Müller",
-        "x": 80.0,
-        "y": 36.27,
-        "size": 70.1,
+        "x": 80.17,
+        "y": 36.96,
+        "size": 69.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1362
-      },
-      {
-        "id": "Ivica Olić",
-        "short": "Olić",
-        "x": 81.57,
-        "y": 34.14,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1387
       },
       {
         "id": "Hans-Jörg Butt",
         "short": "Butt",
         "x": 12.67,
         "y": 39.2,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0047
       },
       {
-        "id": "Miroslav Klose",
-        "short": "Klose",
-        "x": 66.67,
-        "y": 54.0,
-        "size": 55.0,
+        "id": "Ivica Olić",
+        "short": "Olić",
+        "x": 81.57,
+        "y": 34.14,
+        "size": 57.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mario Gómez García",
-        "short": "García",
-        "x": 55.0,
-        "y": 58.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0144
       }
     ],
     "edges": [
@@ -1077,6 +1057,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Bastian Schweinsteiger",
+        "target": "Arjen Robben",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Bastian Schweinsteiger",
+        "target": "Ivica Olić",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Mark van Bommel",
         "target": "Philipp Lahm",
         "weight": 16,
@@ -1119,9 +1111,21 @@
         "direction": "backward"
       },
       {
+        "source": "Philipp Lahm",
+        "target": "Bastian Schweinsteiger",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
         "source": "Arjen Robben",
         "target": "Philipp Lahm",
         "weight": 16,
+        "direction": "backward"
+      },
+      {
+        "source": "Arjen Robben",
+        "target": "Bastian Schweinsteiger",
+        "weight": 10,
         "direction": "backward"
       },
       {
@@ -1129,6 +1133,12 @@
         "target": "Philipp Lahm",
         "weight": 18,
         "direction": "forward"
+      },
+      {
+        "source": "Daniel Van Buyten",
+        "target": "Hans-Jörg Butt",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Martín Gastón Demichelis",
@@ -1143,6 +1153,18 @@
         "direction": "forward"
       },
       {
+        "source": "Martín Gastón Demichelis",
+        "target": "Mark van Bommel",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Martín Gastón Demichelis",
+        "target": "Hans-Jörg Butt",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Hamit Altıntop",
         "target": "Bastian Schweinsteiger",
         "weight": 12,
@@ -1152,6 +1174,36 @@
         "source": "Thomas Müller",
         "target": "Bastian Schweinsteiger",
         "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Thomas Müller",
+        "target": "Ivica Olić",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hans-Jörg Butt",
+        "target": "Martín Gastón Demichelis",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hans-Jörg Butt",
+        "target": "Daniel Van Buyten",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ivica Olić",
+        "target": "Thomas Müller",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ivica Olić",
+        "target": "Bastian Schweinsteiger",
+        "weight": 1,
         "direction": "backward"
       }
     ]
@@ -1163,67 +1215,87 @@
         "short": "Sneijder",
         "x": 56.11,
         "y": 37.04,
-        "size": 132.6,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.5221
+        "size": 132.7,
+        "is_playmaker": true,
+        "betweenness": 0.1944,
+        "eigenvector": 0.5341
       },
       {
         "id": "Esteban Matías Cambiasso Delau",
         "short": "Delau",
-        "x": 72.93,
-        "y": 24.96,
-        "size": 147.5,
-        "is_playmaker": true,
-        "betweenness": 0.0379,
-        "eigenvector": 0.566
+        "x": 71.4,
+        "y": 25.24,
+        "size": 112.9,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.4244
       },
       {
-        "id": "Goran Pandev",
-        "short": "Pandev",
-        "x": 60.67,
-        "y": 18.2,
-        "size": 132.6,
-        "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.566
+        "id": "Lucimar da Silva Ferreira",
+        "short": "Ferreira",
+        "x": 87.5,
+        "y": 51.42,
+        "size": 61.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
       },
       {
         "id": "Maicon Douglas Sisenando",
         "short": "Sisenando",
         "x": 41.73,
         "y": 72.73,
-        "size": 99.8,
+        "size": 107.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.3122
+      },
+      {
+        "id": "Diego Alberto Milito",
+        "short": "Milito",
+        "x": 31.26,
+        "y": 34.37,
+        "size": 111.2,
+        "is_playmaker": true,
+        "betweenness": 0.1222,
+        "eigenvector": 0.3242
       },
       {
         "id": "Samuel Eto''o Fils",
         "short": "Fils",
         "x": 40.12,
         "y": 54.31,
-        "size": 99.8,
+        "size": 94.7,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.3067
+      },
+      {
+        "id": "Walter Adrián Samuel Luján",
+        "short": "Luján",
+        "x": 71.57,
+        "y": 26.71,
+        "size": 68.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Diego Alberto Milito",
-        "short": "Milito",
-        "x": 35.43,
-        "y": 32.43,
-        "size": 93.8,
+        "id": "Goran Pandev",
+        "short": "Pandev",
+        "x": 60.67,
+        "y": 18.2,
+        "size": 111.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2944
+        "betweenness": 0.0333,
+        "eigenvector": 0.4878
       },
       {
-        "id": "Júlio César Soares de Espíndola",
-        "short": "Espíndola",
-        "x": 108.77,
-        "y": 36.92,
-        "size": 78.9,
+        "id": "Cristian Eugen Chivu",
+        "short": "Chivu",
+        "x": 57.56,
+        "y": 6.31,
+        "size": 68.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1231,59 +1303,19 @@
       {
         "id": "Javier Aldemar Zanetti",
         "short": "Zanetti",
-        "x": 73.5,
-        "y": 40.07,
-        "size": 55.0,
+        "x": 68.09,
+        "y": 47.73,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Lucimar da Silva Ferreira",
-        "short": "Ferreira",
-        "x": 87.5,
-        "y": 51.42,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Cristian Eugen Chivu",
-        "short": "Chivu",
-        "x": 57.56,
-        "y": 6.31,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Walter Adrián Samuel Luján",
-        "short": "Luján",
-        "x": 71.57,
-        "y": 26.71,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sulley Ali Muntari",
-        "short": "Muntari",
-        "x": 85.6,
-        "y": 15.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dejan Stanković",
-        "short": "Stanković",
-        "x": 94.67,
-        "y": 60.0,
-        "size": 55.0,
+        "id": "Júlio César Soares de Espíndola",
+        "short": "Espíndola",
+        "x": 108.77,
+        "y": 36.92,
+        "size": 74.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1298,9 +1330,21 @@
       },
       {
         "source": "Wesley Sneijder",
+        "target": "Maicon Douglas Sisenando",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Wesley Sneijder",
         "target": "Goran Pandev",
         "weight": 6,
         "direction": "forward"
+      },
+      {
+        "source": "Wesley Sneijder",
+        "target": "Diego Alberto Milito",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "Esteban Matías Cambiasso Delau",
@@ -1321,10 +1365,10 @@
         "direction": "backward"
       },
       {
-        "source": "Goran Pandev",
-        "target": "Esteban Matías Cambiasso Delau",
-        "weight": 6,
-        "direction": "forward"
+        "source": "Lucimar da Silva Ferreira",
+        "target": "Maicon Douglas Sisenando",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "Maicon Douglas Sisenando",
@@ -1333,10 +1377,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Samuel Eto''o Fils",
-        "target": "Maicon Douglas Sisenando",
-        "weight": 6,
-        "direction": "lateral"
+        "source": "Maicon Douglas Sisenando",
+        "target": "Wesley Sneijder",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Diego Alberto Milito",
+        "target": "Samuel Eto''o Fils",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Diego Alberto Milito",
@@ -1345,9 +1395,69 @@
         "direction": "forward"
       },
       {
+        "source": "Diego Alberto Milito",
+        "target": "Goran Pandev",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Samuel Eto''o Fils",
+        "target": "Maicon Douglas Sisenando",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Samuel Eto''o Fils",
+        "target": "Wesley Sneijder",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Walter Adrián Samuel Luján",
+        "target": "Goran Pandev",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Walter Adrián Samuel Luján",
+        "target": "Diego Alberto Milito",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Goran Pandev",
+        "target": "Esteban Matías Cambiasso Delau",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Cristian Eugen Chivu",
+        "target": "Esteban Matías Cambiasso Delau",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Cristian Eugen Chivu",
+        "target": "Wesley Sneijder",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Javier Aldemar Zanetti",
+        "target": "Maicon Douglas Sisenando",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Júlio César Soares de Espíndola",
         "target": "Goran Pandev",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Júlio César Soares de Espíndola",
+        "target": "Diego Alberto Milito",
+        "weight": 4,
         "direction": "backward"
       }
     ]

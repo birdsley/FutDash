@@ -905,99 +905,99 @@
       {
         "id": "Federico Peluso",
         "short": "Peluso",
-        "x": 67.04,
-        "y": 5.36,
-        "size": 96.6,
+        "x": 66.01,
+        "y": 5.43,
+        "size": 98.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2987
+        "eigenvector": 0.285
       },
       {
         "id": "Nicola Sansone",
         "short": "Sansone",
-        "x": 81.93,
-        "y": 19.54,
-        "size": 88.5,
+        "x": 83.54,
+        "y": 19.18,
+        "size": 90.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4052
+        "betweenness": 0.0889,
+        "eigenvector": 0.3883
       },
       {
         "id": "Andrea Consigli",
         "short": "Consigli",
-        "x": 11.56,
-        "y": 38.31,
-        "size": 82.4,
+        "x": 11.71,
+        "y": 38.39,
+        "size": 79.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1428
+        "eigenvector": 0.1151
       },
       {
         "id": "Francesco Acerbi",
         "short": "Acerbi",
         "x": 42.5,
         "y": 22.63,
-        "size": 116.9,
-        "is_playmaker": true,
-        "betweenness": 0.1026,
-        "eigenvector": 0.2819
+        "size": 110.0,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.243
       },
       {
         "id": "Šime Vrsaljko",
         "short": "Vrsaljko",
-        "x": 63.86,
-        "y": 70.19,
+        "x": 65.85,
+        "y": 71.42,
         "size": 102.7,
         "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.1915
+        "betweenness": 0.1889,
+        "eigenvector": 0.226
       },
       {
         "id": "Francesco Magnanelli",
         "short": "Magnanelli",
-        "x": 58.95,
-        "y": 35.13,
-        "size": 140.3,
+        "x": 58.0,
+        "y": 35.82,
+        "size": 130.7,
         "is_playmaker": true,
-        "betweenness": 0.2051,
-        "eigenvector": 0.5043
+        "betweenness": 0.4889,
+        "eigenvector": 0.4917
       },
       {
         "id": "Simone Missiroli",
         "short": "Missiroli",
-        "x": 75.29,
-        "y": 21.43,
-        "size": 114.9,
-        "is_playmaker": false,
-        "betweenness": 0.0769,
-        "eigenvector": 0.4822
+        "x": 74.99,
+        "y": 21.95,
+        "size": 119.9,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.5273
       },
       {
         "id": "Gregoire Defrel",
         "short": "Defrel",
-        "x": 74.16,
-        "y": 64.67,
-        "size": 74.3,
+        "x": 76.58,
+        "y": 64.51,
+        "size": 72.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2724
+        "eigenvector": 0.264
       },
       {
         "id": "Karim Laribi",
         "short": "Laribi",
         "x": 71.36,
         "y": 56.11,
-        "size": 71.2,
+        "size": 74.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2217
+        "eigenvector": 0.2162
       },
       {
         "id": "Paolo Cannavaro",
         "short": "Cannavaro",
         "x": 47.89,
         "y": 52.11,
-        "size": 62.1,
+        "size": 61.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1007,40 +1007,10 @@
         "short": "Floccari",
         "x": 92.07,
         "y": 33.28,
-        "size": 55.0,
+        "size": 65.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Antonio Floro Flores",
-        "short": "Flores",
-        "x": 68.8,
-        "y": 16.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Davide Biondini",
-        "short": "Biondini",
-        "x": 80.2,
-        "y": 60.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Matteo Politano",
-        "short": "Politano",
-        "x": 52.47,
-        "y": 60.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.092
       }
     ],
     "edges": [
@@ -1057,10 +1027,22 @@
         "direction": "backward"
       },
       {
+        "source": "Federico Peluso",
+        "target": "Simone Missiroli",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Nicola Sansone",
         "target": "Simone Missiroli",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Nicola Sansone",
+        "target": "Sergio Floccari",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Andrea Consigli",
@@ -1159,10 +1141,22 @@
         "direction": "forward"
       },
       {
+        "source": "Karim Laribi",
+        "target": "Šime Vrsaljko",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Paolo Cannavaro",
         "target": "Šime Vrsaljko",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Sergio Floccari",
+        "target": "Simone Missiroli",
+        "weight": 6,
+        "direction": "backward"
       }
     ]
   },
@@ -1171,142 +1165,112 @@
       {
         "id": "Manuel Pasqual",
         "short": "Pasqual",
-        "x": 59.07,
-        "y": 11.45,
-        "size": 124.2,
-        "is_playmaker": true,
+        "x": 58.59,
+        "y": 11.88,
+        "size": 88.0,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.6086
+        "eigenvector": 0.2375
       },
       {
         "id": "Borja Valero Iglesias",
         "short": "Iglesias",
-        "x": 48.77,
-        "y": 31.1,
-        "size": 147.3,
+        "x": 48.67,
+        "y": 29.41,
+        "size": 133.0,
         "is_playmaker": true,
-        "betweenness": 0.0064,
-        "eigenvector": 0.7935
-      },
-      {
-        "id": "Matías Vecino Falero",
-        "short": "Falero",
-        "x": 63.05,
-        "y": 37.0,
-        "size": 78.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Josip Iličić",
-        "short": "Iličić",
-        "x": 40.24,
-        "y": 50.16,
-        "size": 78.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2889,
+        "eigenvector": 0.4375
       },
       {
         "id": "Federico Bernardeschi",
         "short": "Bernardesch",
-        "x": 47.11,
-        "y": 66.73,
-        "size": 116.5,
+        "x": 46.92,
+        "y": 67.12,
+        "size": 120.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0001
+        "betweenness": 0.2556,
+        "eigenvector": 0.5858
       },
       {
         "id": "Facundo Sebastián Roncaglia",
         "short": "Roncaglia",
-        "x": 72.54,
-        "y": 68.2,
-        "size": 116.5,
+        "x": 73.77,
+        "y": 67.93,
+        "size": 86.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0001
+        "betweenness": 0.1222,
+        "eigenvector": 0.3334
+      },
+      {
+        "id": "Matías Vecino Falero",
+        "short": "Falero",
+        "x": 63.7,
+        "y": 38.23,
+        "size": 99.0,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.1802
+      },
+      {
+        "id": "Josip Iličić",
+        "short": "Iličić",
+        "x": 39.24,
+        "y": 50.08,
+        "size": 95.0,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.4666
       },
       {
         "id": "Davide Astori",
         "short": "Astori",
-        "x": 84.08,
-        "y": 26.43,
-        "size": 101.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 84.21,
+        "y": 26.78,
+        "size": 107.0,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.1051
       },
       {
         "id": "Gonzalo Javier Rodríguez",
         "short": "Rodríguez",
         "x": 79.53,
         "y": 45.01,
-        "size": 78.1,
+        "size": 79.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0449
       },
       {
         "id": "Milan Badelj",
         "short": "Badelj",
         "x": 57.48,
         "y": 38.5,
-        "size": 55.0,
+        "size": 70.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.1467
       },
       {
         "id": "Anton Ciprian Tătărușanu",
         "short": "Tătărușanu",
         "x": 110.89,
         "y": 39.4,
-        "size": 55.0,
+        "size": 69.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0778,
+        "eigenvector": 0.1107
       },
       {
         "id": "Giuseppe Rossi",
         "short": "Rossi",
         "x": 47.28,
         "y": 41.81,
-        "size": 55.0,
+        "size": 59.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Joan Verdú Fernández",
-        "short": "Fernández",
-        "x": 36.67,
-        "y": 33.66,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nikola Kalinić",
-        "short": "Kalinić",
-        "x": 34.43,
-        "y": 42.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marcos Alonso Mendoza",
-        "short": "Mendoza",
-        "x": 54.17,
-        "y": 12.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.0291
       }
     ],
     "edges": [
@@ -1323,10 +1287,28 @@
         "direction": "forward"
       },
       {
-        "source": "Matías Vecino Falero",
+        "source": "Borja Valero Iglesias",
         "target": "Josip Iličić",
-        "weight": 9,
+        "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Borja Valero Iglesias",
+        "target": "Milan Badelj",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Borja Valero Iglesias",
+        "target": "Matías Vecino Falero",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Borja Valero Iglesias",
+        "target": "Federico Bernardeschi",
+        "weight": 6,
+        "direction": "lateral"
       },
       {
         "source": "Federico Bernardeschi",
@@ -1335,10 +1317,64 @@
         "direction": "forward"
       },
       {
+        "source": "Federico Bernardeschi",
+        "target": "Josip Iličić",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Facundo Sebastián Roncaglia",
         "target": "Federico Bernardeschi",
         "weight": 12,
         "direction": "backward"
+      },
+      {
+        "source": "Facundo Sebastián Roncaglia",
+        "target": "Anton Ciprian Tătărușanu",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Matías Vecino Falero",
+        "target": "Josip Iličić",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Matías Vecino Falero",
+        "target": "Borja Valero Iglesias",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Matías Vecino Falero",
+        "target": "Federico Bernardeschi",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Matías Vecino Falero",
+        "target": "Davide Astori",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Josip Iličić",
+        "target": "Federico Bernardeschi",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Josip Iličić",
+        "target": "Borja Valero Iglesias",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Josip Iličić",
+        "target": "Giuseppe Rossi",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Davide Astori",
@@ -1350,6 +1386,60 @@
         "source": "Davide Astori",
         "target": "Borja Valero Iglesias",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Davide Astori",
+        "target": "Matías Vecino Falero",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Davide Astori",
+        "target": "Manuel Pasqual",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Gonzalo Javier Rodríguez",
+        "target": "Davide Astori",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Gonzalo Javier Rodríguez",
+        "target": "Federico Bernardeschi",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Milan Badelj",
+        "target": "Federico Bernardeschi",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Milan Badelj",
+        "target": "Giuseppe Rossi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Anton Ciprian Tătărușanu",
+        "target": "Davide Astori",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Giuseppe Rossi",
+        "target": "Milan Badelj",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Giuseppe Rossi",
+        "target": "Josip Iličić",
+        "weight": 1,
         "direction": "backward"
       }
     ]

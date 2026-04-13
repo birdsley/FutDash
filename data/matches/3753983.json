@@ -737,89 +737,89 @@
       {
         "id": "Neil Taylor",
         "short": "Taylor",
-        "x": 58.79,
-        "y": 8.86,
-        "size": 90.9,
+        "x": 57.95,
+        "y": 9.03,
+        "size": 86.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3121
+        "eigenvector": 0.2829
       },
       {
         "id": "Ashley Williams",
         "short": "Williams",
         "x": 41.88,
         "y": 25.63,
-        "size": 148.0,
+        "size": 138.7,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.525
+        "betweenness": 0.1222,
+        "eigenvector": 0.4947
       },
       {
         "id": "Kyle Naughton",
         "short": "Naughton",
-        "x": 62.96,
-        "y": 72.67,
-        "size": 119.8,
+        "x": 63.11,
+        "y": 72.66,
+        "size": 112.4,
         "is_playmaker": false,
-        "betweenness": 0.0449,
-        "eigenvector": 0.3582
+        "betweenness": 0.0778,
+        "eigenvector": 0.3372
       },
       {
         "id": "Jonjo Shelvey",
         "short": "Shelvey",
-        "x": 59.25,
-        "y": 44.36,
-        "size": 119.1,
-        "is_playmaker": true,
-        "betweenness": 0.0577,
-        "eigenvector": 0.4015
+        "x": 58.13,
+        "y": 44.16,
+        "size": 122.1,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.4334
       },
       {
         "id": "Federico Fernández",
         "short": "Fernández",
-        "x": 40.18,
-        "y": 56.34,
-        "size": 116.7,
-        "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.4513
+        "x": 40.71,
+        "y": 55.91,
+        "size": 120.7,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.4598
       },
       {
         "id": "Sung-Yeung Ki",
         "short": "Ki",
         "x": 53.94,
         "y": 40.4,
-        "size": 104.2,
-        "is_playmaker": true,
-        "betweenness": 0.0577,
-        "eigenvector": 0.3117
+        "size": 109.0,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.3593
       },
       {
         "id": "André Ayew Pelé",
         "short": "Pelé",
         "x": 66.99,
         "y": 56.08,
-        "size": 80.0,
+        "size": 77.1,
         "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.173
+        "betweenness": 0.0111,
+        "eigenvector": 0.1613
       },
       {
         "id": "Bafétimbi Gomis",
         "short": "Gomis",
         "x": 73.93,
         "y": 45.44,
-        "size": 61.2,
+        "size": 60.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0818
+        "eigenvector": 0.0808
       },
       {
         "id": "Gylfi Þór Sigurðsson",
         "short": "Sigurðsson",
-        "x": 71.24,
-        "y": 37.26,
-        "size": 55.0,
+        "x": 72.11,
+        "y": 35.11,
+        "size": 59.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -829,7 +829,7 @@
         "short": "Vite",
         "x": 91.28,
         "y": 12.61,
-        "size": 55.0,
+        "size": 59.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -839,40 +839,10 @@
         "short": "Fabiański",
         "x": 11.3,
         "y": 41.92,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Modou Barrow",
-        "short": "Barrow",
-        "x": 52.15,
-        "y": 60.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Leon Britton",
-        "short": "Britton",
-        "x": 52.06,
-        "y": 44.96,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Éderzito António Macedo Lopes",
-        "short": "Lopes",
-        "x": 85.5,
-        "y": 39.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 57.8,
+        "is_playmaker": true,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0222
       }
     ],
     "edges": [
@@ -907,10 +877,16 @@
         "direction": "forward"
       },
       {
+        "source": "Ashley Williams",
+        "target": "Łukasz Fabiański",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Kyle Naughton",
         "target": "Jonjo Shelvey",
         "weight": 18,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Kyle Naughton",
@@ -922,7 +898,7 @@
         "source": "Kyle Naughton",
         "target": "André Ayew Pelé",
         "weight": 12,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Jonjo Shelvey",
@@ -934,7 +910,7 @@
         "source": "Jonjo Shelvey",
         "target": "Kyle Naughton",
         "weight": 13,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Jonjo Shelvey",
@@ -947,6 +923,12 @@
         "target": "Bafétimbi Gomis",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Jonjo Shelvey",
+        "target": "Sung-Yeung Ki",
+        "weight": 8,
+        "direction": "backward"
       },
       {
         "source": "Federico Fernández",
@@ -965,6 +947,18 @@
         "target": "Ashley Williams",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Federico Fernández",
+        "target": "Jonjo Shelvey",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Federico Fernández",
+        "target": "Łukasz Fabiański",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Sung-Yeung Ki",
@@ -991,111 +985,125 @@
         "direction": "forward"
       },
       {
+        "source": "Sung-Yeung Ki",
+        "target": "Federico Fernández",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "André Ayew Pelé",
         "target": "Kyle Naughton",
         "weight": 12,
-        "direction": "backward"
+        "direction": "lateral"
+      },
+      {
+        "source": "Gylfi Þór Sigurðsson",
+        "target": "Jefferson Antonio Montero Vite",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Łukasz Fabiański",
+        "target": "Federico Fernández",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Łukasz Fabiański",
+        "target": "Ashley Williams",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Héctor Bellerín Moruno",
-        "short": "Moruno",
-        "x": 57.05,
-        "y": 71.07,
-        "size": 90.8,
-        "is_playmaker": true,
-        "betweenness": 0.0641,
-        "eigenvector": 0.2043
-      },
-      {
-        "id": "Per Mertesacker",
-        "short": "Mertesacker",
-        "x": 75.61,
-        "y": 54.68,
-        "size": 83.4,
-        "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.0669
-      },
-      {
         "id": "Mesut Özil",
         "short": "Özil",
         "x": 45.46,
         "y": 37.14,
-        "size": 132.6,
+        "size": 123.3,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.3988
+        "betweenness": 0.0333,
+        "eigenvector": 0.4825
       },
       {
         "id": "Santiago Cazorla González",
         "short": "González",
-        "x": 53.59,
-        "y": 41.23,
-        "size": 175.9,
+        "x": 54.44,
+        "y": 40.31,
+        "size": 150.2,
         "is_playmaker": true,
-        "betweenness": 0.1282,
-        "eigenvector": 0.6241
+        "betweenness": 0.4222,
+        "eigenvector": 0.586
+      },
+      {
+        "id": "Alexis Alejandro Sánchez Sánchez",
+        "short": "Sánchez",
+        "x": 48.88,
+        "y": 23.05,
+        "size": 122.3,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.5806
       },
       {
         "id": "Francis Joseph Coquelin",
         "short": "Coquelin",
         "x": 66.73,
         "y": 40.43,
-        "size": 83.4,
+        "size": 84.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2043
+        "betweenness": 0.0111,
+        "eigenvector": 0.1657
+      },
+      {
+        "id": "Per Mertesacker",
+        "short": "Mertesacker",
+        "x": 77.26,
+        "y": 53.43,
+        "size": 90.6,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.0485
       },
       {
         "id": "Laurent Koscielny",
         "short": "Koscielny",
-        "x": 72.13,
-        "y": 25.29,
-        "size": 71.4,
+        "x": 71.5,
+        "y": 25.23,
+        "size": 83.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0301
+        "betweenness": 0.0222,
+        "eigenvector": 0.0184
       },
       {
         "id": "Ignacio Monreal Eraso",
         "short": "Eraso",
-        "x": 59.26,
-        "y": 9.74,
-        "size": 71.4,
+        "x": 60.43,
+        "y": 9.61,
+        "size": 83.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.1248
       },
       {
-        "id": "Alexis Alejandro Sánchez Sánchez",
-        "short": "Sánchez",
-        "x": 48.45,
-        "y": 23.42,
-        "size": 131.1,
+        "id": "Héctor Bellerín Moruno",
+        "short": "Moruno",
+        "x": 57.7,
+        "y": 70.36,
+        "size": 78.1,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.6022
+        "betweenness": 0.2,
+        "eigenvector": 0.1619
       },
       {
         "id": "Olivier Giroud",
         "short": "Giroud",
         "x": 43.28,
         "y": 27.94,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Joel Nathaniel Campbell Samuels",
-        "short": "Samuels",
-        "x": 44.53,
-        "y": 62.31,
-        "size": 55.0,
+        "size": 66.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1103,63 +1111,25 @@
       {
         "id": "Petr Čech",
         "short": "Čech",
-        "x": 107.03,
-        "y": 35.88,
-        "size": 55.0,
+        "x": 106.44,
+        "y": 36.38,
+        "size": 60.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0101
       },
       {
-        "id": "Calum Chambers",
-        "short": "Chambers",
-        "x": 53.99,
-        "y": 68.64,
-        "size": 55.0,
+        "id": "Joel Nathaniel Campbell Samuels",
+        "short": "Samuels",
+        "x": 44.53,
+        "y": 62.31,
+        "size": 60.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kieran Gibbs",
-        "short": "Gibbs",
-        "x": 35.7,
-        "y": 16.9,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Alex Iwobi",
-        "short": "Iwobi",
-        "x": 22.15,
-        "y": 76.8,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1214
       }
     ],
     "edges": [
-      {
-        "source": "Héctor Bellerín Moruno",
-        "target": "Per Mertesacker",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Héctor Bellerín Moruno",
-        "target": "Mesut Özil",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Per Mertesacker",
-        "target": "Laurent Koscielny",
-        "weight": 11,
-        "direction": "lateral"
-      },
       {
         "source": "Mesut Özil",
         "target": "Santiago Cazorla González",
@@ -1171,6 +1141,18 @@
         "target": "Alexis Alejandro Sánchez Sánchez",
         "weight": 15,
         "direction": "lateral"
+      },
+      {
+        "source": "Santiago Cazorla González",
+        "target": "Alexis Alejandro Sánchez Sánchez",
+        "weight": 14,
+        "direction": "backward"
+      },
+      {
+        "source": "Santiago Cazorla González",
+        "target": "Mesut Özil",
+        "weight": 13,
+        "direction": "backward"
       },
       {
         "source": "Santiago Cazorla González",
@@ -1186,20 +1168,74 @@
       },
       {
         "source": "Santiago Cazorla González",
-        "target": "Mesut Özil",
-        "weight": 13,
+        "target": "Joel Nathaniel Campbell Samuels",
+        "weight": 6,
         "direction": "backward"
       },
       {
-        "source": "Santiago Cazorla González",
-        "target": "Alexis Alejandro Sánchez Sánchez",
-        "weight": 14,
-        "direction": "backward"
+        "source": "Alexis Alejandro Sánchez Sánchez",
+        "target": "Santiago Cazorla González",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexis Alejandro Sánchez Sánchez",
+        "target": "Mesut Özil",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alexis Alejandro Sánchez Sánchez",
+        "target": "Ignacio Monreal Eraso",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Francis Joseph Coquelin",
         "target": "Santiago Cazorla González",
         "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Francis Joseph Coquelin",
+        "target": "Mesut Özil",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Per Mertesacker",
+        "target": "Laurent Koscielny",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Per Mertesacker",
+        "target": "Petr Čech",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Per Mertesacker",
+        "target": "Santiago Cazorla González",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Laurent Koscielny",
+        "target": "Ignacio Monreal Eraso",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Laurent Koscielny",
+        "target": "Per Mertesacker",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Laurent Koscielny",
+        "target": "Francis Joseph Coquelin",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1209,9 +1245,33 @@
         "direction": "backward"
       },
       {
-        "source": "Alexis Alejandro Sánchez Sánchez",
+        "source": "Ignacio Monreal Eraso",
         "target": "Santiago Cazorla González",
-        "weight": 11,
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Héctor Bellerín Moruno",
+        "target": "Per Mertesacker",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Héctor Bellerín Moruno",
+        "target": "Mesut Özil",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Olivier Giroud",
+        "target": "Mesut Özil",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Olivier Giroud",
+        "target": "Alexis Alejandro Sánchez Sánchez",
+        "weight": 6,
         "direction": "forward"
       }
     ]

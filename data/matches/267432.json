@@ -811,127 +811,107 @@
         "short": "Ramos",
         "x": 66.5,
         "y": 11.23,
-        "size": 102.5,
+        "size": 102.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3243
+        "eigenvector": 0.3308
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
-        "x": 89.63,
-        "y": 11.52,
-        "size": 114.6,
+        "x": 88.41,
+        "y": 11.29,
+        "size": 108.7,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.5639
+        "betweenness": 0.0667,
+        "eigenvector": 0.568
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
         "x": 56.91,
         "y": 39.39,
-        "size": 82.9,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0968
+        "size": 95.1,
+        "is_playmaker": true,
+        "betweenness": 0.1278,
+        "eigenvector": 0.1274
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
         "x": 77.21,
         "y": 47.98,
-        "size": 76.9,
+        "size": 79.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2478
+        "eigenvector": 0.2887
       },
       {
         "id": "Marlon Santos da Silva Barbosa",
         "short": "Barbosa",
-        "x": 37.86,
-        "y": 54.85,
-        "size": 144.8,
+        "x": 38.83,
+        "y": 54.51,
+        "size": 136.0,
         "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.3422
+        "betweenness": 0.2,
+        "eigenvector": 0.3097
       },
       {
         "id": "Samuel Yves Umtiti",
         "short": "Umtiti",
         "x": 44.98,
         "y": 21.99,
-        "size": 106.3,
-        "is_playmaker": true,
-        "betweenness": 0.0985,
-        "eigenvector": 0.2914
+        "size": 101.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2573
       },
       {
         "id": "Marc-André ter Stegen",
         "short": "Stegen",
-        "x": 11.5,
-        "y": 41.13,
-        "size": 85.9,
+        "x": 11.82,
+        "y": 41.07,
+        "size": 87.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1935
+        "eigenvector": 0.1716
       },
       {
         "id": "Sergi Roberto Carnicer",
         "short": "Carnicer",
         "x": 58.49,
         "y": 69.89,
-        "size": 73.1,
+        "size": 76.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1089
+        "betweenness": 0.0222,
+        "eigenvector": 0.0965
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 67.86,
-        "y": 26.51,
-        "size": 92.0,
+        "x": 68.0,
+        "y": 25.98,
+        "size": 93.8,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.4797
+        "betweenness": 0.0667,
+        "eigenvector": 0.498
       },
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
-        "x": 57.31,
-        "y": 61.15,
-        "size": 64.8,
+        "x": 58.77,
+        "y": 60.89,
+        "size": 63.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1572
+        "eigenvector": 0.1394
       },
       {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Díaz",
         "x": 80.27,
         "y": 39.0,
-        "size": 61.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "André Filipe Tavares Gomes",
-        "short": "Gomes",
-        "x": 64.57,
-        "y": 71.33,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Francisco Alcácer García",
-        "short": "García",
-        "x": 78.75,
-        "y": 63.25,
-        "size": 55.0,
+        "size": 60.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -979,6 +959,18 @@
         "target": "Marlon Santos da Silva Barbosa",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Andrés Iniesta Luján",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Jordi Alba Ramos",
+        "weight": 7,
+        "direction": "forward"
       },
       {
         "source": "Marlon Santos da Silva Barbosa",
@@ -1041,10 +1033,22 @@
         "direction": "forward"
       },
       {
+        "source": "Marc-André ter Stegen",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Sergi Roberto Carnicer",
         "target": "Marlon Santos da Silva Barbosa",
         "weight": 15,
         "direction": "backward"
+      },
+      {
+        "source": "Sergi Roberto Carnicer",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 7,
+        "direction": "forward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1063,152 +1067,188 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Daniel García Carrillo",
-        "short": "Carrillo",
-        "x": 63.05,
-        "y": 35.83,
-        "size": 105.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Takashi Inui",
-        "short": "Inui",
-        "x": 54.43,
-        "y": 19.97,
-        "size": 105.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.5
-      },
-      {
-        "id": "Yoel Rodríguez Oterino",
-        "short": "Oterino",
-        "x": 107.94,
-        "y": 37.76,
-        "size": 155.0,
+        "id": "Ander Capa Rodríguez",
+        "short": "Rodríguez",
+        "x": 62.07,
+        "y": 74.54,
+        "size": 68.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
         "id": "Sergio Enrich Ametller",
         "short": "Ametller",
         "x": 46.78,
         "y": 42.4,
-        "size": 105.0,
+        "size": 111.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5
-      },
-      {
-        "id": "Enrique García Martínez",
-        "short": "Martínez",
-        "x": 44.58,
-        "y": 42.93,
-        "size": 105.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5
-      },
-      {
-        "id": "David Juncà Reñé",
-        "short": "Reñé",
-        "x": 56.9,
-        "y": 9.74,
-        "size": 105.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1,
+        "eigenvector": 0.0663
       },
       {
         "id": "Florian Grégoire Claude Lejeune",
         "short": "Lejeune",
-        "x": 75.22,
-        "y": 25.88,
-        "size": 105.0,
+        "x": 77.74,
+        "y": 27.22,
+        "size": 82.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5
+        "eigenvector": 0.4385
       },
       {
-        "id": "Gonzalo Escalante",
-        "short": "Escalante",
-        "x": 66.81,
-        "y": 45.07,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "id": "David Juncà Reñé",
+        "short": "Reñé",
+        "x": 56.2,
+        "y": 10.01,
+        "size": 130.7,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.6038
       },
       {
-        "id": "Ander Capa Rodríguez",
-        "short": "Rodríguez",
-        "x": 62.07,
-        "y": 74.54,
-        "size": 55.0,
+        "id": "Takashi Inui",
+        "short": "Inui",
+        "x": 54.43,
+        "y": 19.97,
+        "size": 109.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1222,
+        "eigenvector": 0.4989
+      },
+      {
+        "id": "Daniel García Carrillo",
+        "short": "Carrillo",
+        "x": 61.33,
+        "y": 35.43,
+        "size": 98.2,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.2513
+      },
+      {
+        "id": "Yoel Rodríguez Oterino",
+        "short": "Oterino",
+        "x": 110.05,
+        "y": 38.38,
+        "size": 95.5,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0913
+      },
+      {
+        "id": "Enrique García Martínez",
+        "short": "Martínez",
+        "x": 44.15,
+        "y": 42.92,
+        "size": 117.2,
+        "is_playmaker": true,
+        "betweenness": 0.2111,
+        "eigenvector": 0.3096
       },
       {
         "id": "Rubén Peña Jiménez",
         "short": "Jiménez",
         "x": 39.09,
         "y": 55.47,
-        "size": 55.0,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
         "id": "Anaitz Arbilla Zabala",
         "short": "Zabala",
-        "x": 59.18,
-        "y": 62.03,
-        "size": 55.0,
+        "x": 61.7,
+        "y": 59.07,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
-        "id": "Christian Rivera Hernández",
-        "short": "Hernández",
-        "x": 61.93,
-        "y": 60.0,
-        "size": 55.0,
+        "id": "Gonzalo Escalante",
+        "short": "Escalante",
+        "x": 66.81,
+        "y": 45.07,
+        "size": 65.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Pedro León Sánchez Gil",
-        "short": "Gil",
-        "x": 68.5,
-        "y": 57.85,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Alejandro Gálvez Jimena",
-        "short": "Jimena",
-        "x": 91.87,
-        "y": 51.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.1499
       }
     ],
     "edges": [
+      {
+        "source": "Ander Capa Rodríguez",
+        "target": "Sergio Enrich Ametller",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Enrich Ametller",
+        "target": "Daniel García Carrillo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Enrich Ametller",
+        "target": "Takashi Inui",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Enrich Ametller",
+        "target": "Enrique García Martínez",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Florian Grégoire Claude Lejeune",
+        "target": "David Juncà Reñé",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "David Juncà Reñé",
+        "target": "Takashi Inui",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "David Juncà Reñé",
+        "target": "Daniel García Carrillo",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "David Juncà Reñé",
+        "target": "Enrique García Martínez",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "David Juncà Reñé",
+        "target": "Florian Grégoire Claude Lejeune",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Takashi Inui",
+        "target": "David Juncà Reñé",
+        "weight": 4,
+        "direction": "lateral"
+      },
       {
         "source": "Daniel García Carrillo",
         "target": "Takashi Inui",
         "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Daniel García Carrillo",
+        "target": "Yoel Rodríguez Oterino",
+        "weight": 3,
+        "direction": "forward"
       },
       {
         "source": "Yoel Rodríguez Oterino",
@@ -1223,10 +1263,28 @@
         "direction": "backward"
       },
       {
-        "source": "David Juncà Reñé",
-        "target": "Florian Grégoire Claude Lejeune",
-        "weight": 6,
+        "source": "Enrique García Martínez",
+        "target": "David Juncà Reñé",
+        "weight": 4,
         "direction": "forward"
+      },
+      {
+        "source": "Enrique García Martínez",
+        "target": "Gonzalo Escalante",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Rubén Peña Jiménez",
+        "target": "Enrique García Martínez",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Anaitz Arbilla Zabala",
+        "target": "Takashi Inui",
+        "weight": 3,
+        "direction": "backward"
       }
     ]
   },

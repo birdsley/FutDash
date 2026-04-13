@@ -785,69 +785,69 @@
       {
         "id": "Lilian Thuram",
         "short": "Thuram",
-        "x": 40.12,
-        "y": 55.58,
-        "size": 140.6,
-        "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.5338
+        "x": 40.6,
+        "y": 56.32,
+        "size": 141.9,
+        "is_playmaker": true,
+        "betweenness": 0.1667,
+        "eigenvector": 0.5485
       },
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
         "x": 39.53,
         "y": 28.06,
-        "size": 116.3,
+        "size": 114.8,
         "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.4299
+        "betweenness": 0.0667,
+        "eigenvector": 0.3858
       },
       {
         "id": "Gianluca Zambrotta",
         "short": "Zambrotta",
         "x": 54.84,
         "y": 55.72,
-        "size": 85.6,
+        "size": 87.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.1117
       },
       {
         "id": "Anderson Luís de Souza",
         "short": "Souza",
-        "x": 62.32,
-        "y": 37.78,
-        "size": 107.3,
+        "x": 62.01,
+        "y": 38.1,
+        "size": 101.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4042
+        "eigenvector": 0.412
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
         "x": 51.52,
         "y": 34.47,
-        "size": 114.5,
-        "is_playmaker": true,
-        "betweenness": 0.1,
-        "eigenvector": 0.494
+        "size": 114.0,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.5017
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 60.0,
-        "y": 48.15,
-        "size": 109.1,
+        "x": 59.63,
+        "y": 47.1,
+        "size": 114.8,
         "is_playmaker": true,
-        "betweenness": 0.1273,
-        "eigenvector": 0.319
+        "betweenness": 0.2,
+        "eigenvector": 0.3084
       },
       {
         "id": "Samuel Eto''o Fils",
         "short": "Fils",
         "x": 83.92,
         "y": 33.1,
-        "size": 64.0,
+        "size": 63.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -857,27 +857,27 @@
         "short": "Moreira",
         "x": 74.32,
         "y": 36.25,
-        "size": 80.2,
+        "size": 77.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1187
+        "eigenvector": 0.0995
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 80.46,
-        "y": 61.57,
-        "size": 70.3,
+        "x": 80.94,
+        "y": 60.92,
+        "size": 68.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0836
+        "eigenvector": 0.0718
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
         "x": 13.5,
         "y": 41.9,
-        "size": 62.2,
+        "size": 61.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -887,20 +887,10 @@
         "short": "Bronckhorst",
         "x": 54.6,
         "y": 8.76,
-        "size": 55.0,
+        "size": 60.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Oleguer Presas Renom",
-        "short": "Renom",
-        "x": 62.23,
-        "y": 68.67,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0785
       }
     ],
     "edges": [
@@ -923,6 +913,12 @@
         "direction": "forward"
       },
       {
+        "source": "Lilian Thuram",
+        "target": "Gianluca Zambrotta",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Carles Puyol i Saforcada",
         "target": "Lilian Thuram",
         "weight": 17,
@@ -938,6 +934,12 @@
         "source": "Carles Puyol i Saforcada",
         "target": "Xavier Hernández Creus",
         "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Carles Puyol i Saforcada",
+        "target": "Giovanni van Bronckhorst",
+        "weight": 7,
         "direction": "forward"
       },
       {
@@ -1007,6 +1009,18 @@
         "direction": "forward"
       },
       {
+        "source": "Xavier Hernández Creus",
+        "target": "Andrés Iniesta Luján",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Xavier Hernández Creus",
+        "target": "Lilian Thuram",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Samuel Eto''o Fils",
         "target": "Ronaldo de Assis Moreira",
         "weight": 10,
@@ -1029,151 +1043,241 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Iñaki Descarga Retegi",
-        "short": "Retegi",
-        "x": 62.4,
-        "y": 71.9,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Rahamat Riga Mustapha",
-        "short": "Mustapha",
-        "x": 50.49,
-        "y": 55.33,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Narcisse-Olivier Kapo Obou",
-        "short": "Obou",
-        "x": 47.06,
-        "y": 19.31,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Salvador Ballesta Vialcho",
-        "short": "Vialcho",
-        "x": 47.85,
-        "y": 36.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
         "id": "Diego Camacho Quesada",
         "short": "Quesada",
         "x": 60.9,
         "y": 44.94,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "size": 110.2,
+        "is_playmaker": true,
+        "betweenness": 0.3722,
+        "eigenvector": 0.3025
       },
       {
-        "id": "José Alejandro Suárez Martín",
-        "short": "Martín",
-        "x": 77.08,
-        "y": 26.72,
-        "size": 55.0,
+        "id": "Iñaki Descarga Retegi",
+        "short": "Retegi",
+        "x": 63.96,
+        "y": 70.88,
+        "size": 113.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.2577
+      },
+      {
+        "id": "José Francisco Molina Jiménez",
+        "short": "Jiménez",
+        "x": 109.78,
+        "y": 40.52,
+        "size": 72.2,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Salvador Ballesta Vialcho",
+        "short": "Vialcho",
+        "x": 47.52,
+        "y": 34.6,
+        "size": 120.5,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.2577
       },
       {
         "id": "Luis Manuel Rubiales Béjar",
         "short": "Béjar",
-        "x": 59.48,
-        "y": 6.14,
-        "size": 55.0,
+        "x": 59.27,
+        "y": 6.28,
+        "size": 89.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Narcisse-Olivier Kapo Obou",
+        "short": "Obou",
+        "x": 46.38,
+        "y": 17.7,
+        "size": 96.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3293
+      },
+      {
+        "id": "Rahamat Riga Mustapha",
+        "short": "Mustapha",
+        "x": 55.87,
+        "y": 54.35,
+        "size": 106.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.5319
       },
       {
         "id": "Damiano Tommasi",
         "short": "Tommasi",
         "x": 62.25,
         "y": 33.61,
-        "size": 55.0,
+        "size": 82.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.5319
       },
       {
         "id": "Mathieu Berson",
         "short": "Berson",
-        "x": 63.53,
-        "y": 33.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "x": 61.73,
+        "y": 31.87,
+        "size": 75.7,
+        "is_playmaker": true,
+        "betweenness": 0.2167,
+        "eigenvector": 0.2115
       },
       {
         "id": "Álvaro Luiz Maior de Aquino",
         "short": "Aquino",
-        "x": 74.68,
-        "y": 53.34,
-        "size": 55.0,
+        "x": 75.94,
+        "y": 50.72,
+        "size": 68.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1278,
+        "eigenvector": 0.1777
       },
       {
-        "id": "José Francisco Molina Jiménez",
-        "short": "Jiménez",
-        "x": 110.03,
-        "y": 40.35,
-        "size": 55.0,
+        "id": "José Alejandro Suárez Martín",
+        "short": "Martín",
+        "x": 79.49,
+        "y": 29.59,
+        "size": 68.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Felix Dja Ettien Yohou",
-        "short": "Yohou",
-        "x": 53.05,
-        "y": 68.53,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Gustavo Enrique Reggi",
-        "short": "Reggi",
-        "x": 50.9,
-        "y": 64.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Sylvain N''Diayé",
-        "short": "N''Diayé",
-        "x": 65.78,
-        "y": 29.48,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.1583
       }
     ],
     "edges": [
       {
+        "source": "Diego Camacho Quesada",
+        "target": "Iñaki Descarga Retegi",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Diego Camacho Quesada",
+        "target": "Salvador Ballesta Vialcho",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Camacho Quesada",
+        "target": "Mathieu Berson",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Diego Camacho Quesada",
+        "target": "Álvaro Luiz Maior de Aquino",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Iñaki Descarga Retegi",
         "target": "Rahamat Riga Mustapha",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Iñaki Descarga Retegi",
+        "target": "Diego Camacho Quesada",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Francisco Molina Jiménez",
+        "target": "Salvador Ballesta Vialcho",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Salvador Ballesta Vialcho",
+        "target": "Narcisse-Olivier Kapo Obou",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Luis Manuel Rubiales Béjar",
+        "target": "Salvador Ballesta Vialcho",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Manuel Rubiales Béjar",
+        "target": "Narcisse-Olivier Kapo Obou",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Rahamat Riga Mustapha",
+        "target": "Damiano Tommasi",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Rahamat Riga Mustapha",
+        "target": "Álvaro Luiz Maior de Aquino",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Damiano Tommasi",
+        "target": "Mathieu Berson",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Damiano Tommasi",
+        "target": "José Alejandro Suárez Martín",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mathieu Berson",
+        "target": "Damiano Tommasi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mathieu Berson",
+        "target": "Diego Camacho Quesada",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mathieu Berson",
+        "target": "José Alejandro Suárez Martín",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Álvaro Luiz Maior de Aquino",
+        "target": "Diego Camacho Quesada",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Álvaro Luiz Maior de Aquino",
+        "target": "Rahamat Riga Mustapha",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Alejandro Suárez Martín",
+        "target": "Damiano Tommasi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Alejandro Suárez Martín",
+        "target": "Mathieu Berson",
+        "weight": 1,
         "direction": "backward"
       }
     ]

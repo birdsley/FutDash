@@ -991,87 +991,87 @@
         "short": "Silva",
         "x": 48.69,
         "y": 10.98,
-        "size": 107.5,
+        "size": 106.0,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.1175
+        "betweenness": 0.0778,
+        "eigenvector": 0.1725
       },
       {
         "id": "Roberto Rivelino",
         "short": "Rivelino",
         "x": 65.49,
         "y": 24.65,
-        "size": 122.3,
-        "is_playmaker": true,
-        "betweenness": 0.2111,
-        "eigenvector": 0.3617
+        "size": 114.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3494
       },
       {
         "id": "Carlos Alberto Torres",
         "short": "Torres",
         "x": 54.89,
         "y": 66.85,
-        "size": 135.2,
+        "size": 127.1,
         "is_playmaker": true,
-        "betweenness": 0.2111,
-        "eigenvector": 0.523
+        "betweenness": 0.2556,
+        "eigenvector": 0.4927
       },
       {
         "id": "Clodoaldo Tavares de Santana",
         "short": "Santana",
         "x": 57.77,
         "y": 47.94,
-        "size": 141.6,
-        "is_playmaker": false,
-        "betweenness": 0.1111,
-        "eigenvector": 0.5807
+        "size": 137.6,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.5249
       },
       {
         "id": "Jair Ventura Filho",
         "short": "Filho",
         "x": 76.09,
         "y": 63.42,
-        "size": 78.0,
+        "size": 91.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2901
+        "betweenness": 0.0778,
+        "eigenvector": 0.4256
       },
       {
         "id": "Gérson de Oliveira Nunes",
         "short": "Nunes",
         "x": 56.44,
         "y": 37.83,
-        "size": 90.9,
+        "size": 97.1,
         "is_playmaker": false,
-        "betweenness": 0.1667,
-        "eigenvector": 0.3847
+        "betweenness": 0.1111,
+        "eigenvector": 0.3319
       },
       {
         "id": "Wilson da Silva Piazza",
         "short": "Piazza",
         "x": 37.52,
         "y": 27.87,
-        "size": 79.9,
+        "size": 76.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0345
+        "eigenvector": 0.0477
       },
       {
         "id": "Édson Arantes do Nascimento",
         "short": "Nascimento",
         "x": 75.69,
         "y": 48.46,
-        "size": 69.7,
+        "size": 73.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1062
+        "eigenvector": 0.1882
       },
       {
         "id": "Félix Miéli Venerando",
         "short": "Venerando",
         "x": 8.08,
         "y": 40.4,
-        "size": 63.3,
+        "size": 62.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1081,7 +1081,7 @@
         "short": "Andrade",
         "x": 71.48,
         "y": 39.84,
-        "size": 61.5,
+        "size": 60.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1091,10 +1091,10 @@
         "short": "Ruas",
         "x": 33.07,
         "y": 57.64,
-        "size": 55.0,
+        "size": 58.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2222,
+        "eigenvector": 0.0313
       }
     ],
     "edges": [
@@ -1159,6 +1159,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Carlos Alberto Torres",
+        "target": "Hercules Brito Ruas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Clodoaldo Tavares de Santana",
         "target": "Carlos Alberto Torres",
         "weight": 18,
@@ -1177,10 +1183,28 @@
         "direction": "forward"
       },
       {
+        "source": "Clodoaldo Tavares de Santana",
+        "target": "Jair Ventura Filho",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Clodoaldo Tavares de Santana",
+        "target": "Hercules Brito Ruas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jair Ventura Filho",
         "target": "Carlos Alberto Torres",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Jair Ventura Filho",
+        "target": "Édson Arantes do Nascimento",
+        "weight": 7,
+        "direction": "lateral"
       },
       {
         "source": "Gérson de Oliveira Nunes",
@@ -1193,6 +1217,18 @@
         "target": "Roberto Rivelino",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Gérson de Oliveira Nunes",
+        "target": "Jair Ventura Filho",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Gérson de Oliveira Nunes",
+        "target": "Everaldo Marques da Silva",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Wilson da Silva Piazza",
@@ -1217,6 +1253,18 @@
         "target": "Édson Arantes do Nascimento",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Hercules Brito Ruas",
+        "target": "Carlos Alberto Torres",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hercules Brito Ruas",
+        "target": "Clodoaldo Tavares de Santana",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1227,89 +1275,59 @@
         "short": "Weigel",
         "x": 82.19,
         "y": 57.05,
-        "size": 79.6,
-        "is_playmaker": true,
+        "size": 75.9,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2293
       },
       {
         "id": "Ignacio Luis Ubiña",
         "short": "Ubiña",
-        "x": 65.91,
-        "y": 70.62,
-        "size": 227.3,
+        "x": 65.96,
+        "y": 70.47,
+        "size": 164.0,
         "is_playmaker": true,
-        "betweenness": 0.0455,
-        "eigenvector": 0.5799
+        "betweenness": 0.3056,
+        "eigenvector": 0.579
       },
       {
         "id": "Luis Alberto Cubilla Almeida",
         "short": "Almeida",
         "x": 47.15,
         "y": 30.2,
-        "size": 125.8,
+        "size": 105.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.6629
-      },
-      {
-        "id": "Dagoberto Fontes",
-        "short": "Fontes",
-        "x": 61.45,
-        "y": 57.9,
-        "size": 131.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4735
-      },
-      {
-        "id": "Juan Martin Mujica",
-        "short": "Mujica",
-        "x": 62.43,
-        "y": 8.23,
-        "size": 82.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ladislao Mazurkiewicz Iglesias",
-        "short": "Iglesias",
-        "x": 110.37,
-        "y": 38.14,
-        "size": 82.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ildo Enrique Maneiro Ghezzi",
-        "short": "Ghezzi",
-        "x": 64.53,
-        "y": 36.16,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Julio César Morales Araújo",
-        "short": "Araújo",
-        "x": 51.49,
-        "y": 22.84,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.6305
       },
       {
         "id": "Julio Walter Montero Castillo",
         "short": "Castillo",
         "x": 69.0,
         "y": 28.17,
-        "size": 55.0,
+        "size": 72.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0833,
+        "eigenvector": 0.0327
+      },
+      {
+        "id": "Ildo Enrique Maneiro Ghezzi",
+        "short": "Ghezzi",
+        "x": 64.53,
+        "y": 36.16,
+        "size": 107.2,
+        "is_playmaker": true,
+        "betweenness": 0.3944,
+        "eigenvector": 0.2413
+      },
+      {
+        "id": "Juan Martin Mujica",
+        "short": "Mujica",
+        "x": 62.43,
+        "y": 8.23,
+        "size": 92.3,
+        "is_playmaker": false,
+        "betweenness": 0.05,
         "eigenvector": 0.0
       },
       {
@@ -1317,7 +1335,37 @@
         "short": "Lagos",
         "x": 62.43,
         "y": 33.79,
-        "size": 55.0,
+        "size": 78.9,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Dagoberto Fontes",
+        "short": "Fontes",
+        "x": 61.45,
+        "y": 57.9,
+        "size": 92.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3821
+      },
+      {
+        "id": "Julio César Morales Araújo",
+        "short": "Araújo",
+        "x": 51.49,
+        "y": 22.84,
+        "size": 78.9,
+        "is_playmaker": false,
+        "betweenness": 0.0389,
+        "eigenvector": 0.0955
+      },
+      {
+        "id": "Ladislao Mazurkiewicz Iglesias",
+        "short": "Iglesias",
+        "x": 110.37,
+        "y": 38.14,
+        "size": 75.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1327,20 +1375,10 @@
         "short": "Matosas",
         "x": 84.16,
         "y": 30.15,
-        "size": 55.0,
+        "size": 61.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Víctor Rodolfo Espárrago Videla",
-        "short": "Videla",
-        "x": 60.0,
-        "y": 40.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0181
       }
     ],
     "edges": [
@@ -1363,10 +1401,64 @@
         "direction": "backward"
       },
       {
-        "source": "Dagoberto Fontes",
-        "target": "Ignacio Luis Ubiña",
-        "weight": 15,
+        "source": "Ignacio Luis Ubiña",
+        "target": "Atilio Genaro Ancheta Weigel",
+        "weight": 6,
         "direction": "forward"
+      },
+      {
+        "source": "Ignacio Luis Ubiña",
+        "target": "Ildo Enrique Maneiro Ghezzi",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Julio Walter Montero Castillo",
+        "target": "Ildo Enrique Maneiro Ghezzi",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Julio Walter Montero Castillo",
+        "target": "Roberto Matosas",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ildo Enrique Maneiro Ghezzi",
+        "target": "Luis Alberto Cubilla Almeida",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Ildo Enrique Maneiro Ghezzi",
+        "target": "Julio César Morales Araújo",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Ildo Enrique Maneiro Ghezzi",
+        "target": "Ignacio Luis Ubiña",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ildo Enrique Maneiro Ghezzi",
+        "target": "Roberto Matosas",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Juan Martin Mujica",
+        "target": "Julio César Cortés Lagos",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Juan Martin Mujica",
+        "target": "Julio César Morales Araújo",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Juan Martin Mujica",
@@ -1375,9 +1467,51 @@
         "direction": "backward"
       },
       {
+        "source": "Julio César Cortés Lagos",
+        "target": "Luis Alberto Cubilla Almeida",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Julio César Cortés Lagos",
+        "target": "Ildo Enrique Maneiro Ghezzi",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Dagoberto Fontes",
+        "target": "Ignacio Luis Ubiña",
+        "weight": 15,
+        "direction": "forward"
+      },
+      {
+        "source": "Julio César Morales Araújo",
+        "target": "Julio Walter Montero Castillo",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Ladislao Mazurkiewicz Iglesias",
+        "target": "Juan Martin Mujica",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Ladislao Mazurkiewicz Iglesias",
         "target": "Ignacio Luis Ubiña",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Matosas",
+        "target": "Julio Walter Montero Castillo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Matosas",
+        "target": "Ildo Enrique Maneiro Ghezzi",
+        "weight": 1,
         "direction": "backward"
       }
     ]

@@ -783,122 +783,146 @@
   "network_home": {
     "nodes": [
       {
-        "id": "Dagný Brynjarsdóttir",
-        "short": "Brynjarsdót",
-        "x": 78.31,
-        "y": 31.94,
-        "size": 112.1,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
         "id": "Kenza Dali",
         "short": "Dali",
         "x": 75.34,
         "y": 38.15,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "size": 166.9,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.7106
       },
       {
         "id": "Gilly Louise Scarlett Flaherty",
         "short": "Flaherty",
         "x": 66.88,
         "y": 69.34,
-        "size": 131.2,
+        "size": 107.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "betweenness": 0.2333,
+        "eigenvector": 0.2655
       },
       {
-        "id": "Mayumi Pacheco",
-        "short": "Pacheco",
-        "x": 51.85,
-        "y": 10.47,
-        "size": 121.7,
+        "id": "Dagný Brynjarsdóttir",
+        "short": "Brynjarsdót",
+        "x": 78.31,
+        "y": 31.94,
+        "size": 90.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Martha Thomas",
-        "short": "Thomas",
-        "x": 77.59,
-        "y": 35.79,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "betweenness": 0.1,
+        "eigenvector": 0.2605
       },
       {
         "id": "Kate Longhurst",
         "short": "Longhurst",
         "x": 55.38,
         "y": 30.62,
-        "size": 55.0,
+        "size": 76.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Mayumi Pacheco",
+        "short": "Pacheco",
+        "x": 51.85,
+        "y": 10.47,
+        "size": 105.0,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.1193
       },
       {
         "id": "Hawa Cissoko",
         "short": "Cissoko",
         "x": 49.08,
         "y": 17.7,
-        "size": 55.0,
+        "size": 81.2,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.0442
+      },
+      {
+        "id": "Martha Thomas",
+        "short": "Thomas",
+        "x": 77.59,
+        "y": 35.79,
+        "size": 97.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "eigenvector": 0.4776
       },
       {
         "id": "Emily Louise van Egmond",
         "short": "Egmond",
         "x": 67.61,
         "y": 44.16,
-        "size": 55.0,
+        "size": 81.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Courtney Brosnan",
-        "short": "Brosnan",
-        "x": 12.68,
-        "y": 41.62,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "betweenness": 0.2,
+        "eigenvector": 0.3306
       },
       {
         "id": "Cecilie Redisch Kvamme",
         "short": "Kvamme",
         "x": 53.62,
         "y": 62.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "size": 69.3,
+        "is_playmaker": true,
+        "betweenness": 0.4778,
+        "eigenvector": 0.0551
       },
       {
         "id": "Grace Fisk",
         "short": "Fisk",
         "x": 35.55,
         "y": 47.3,
-        "size": 55.0,
+        "size": 64.5,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0055
+      },
+      {
+        "id": "Courtney Brosnan",
+        "short": "Brosnan",
+        "x": 12.68,
+        "y": 41.62,
+        "size": 64.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "betweenness": 0.2111,
+        "eigenvector": 0.0045
       }
     ],
     "edges": [
       {
-        "source": "Dagný Brynjarsdóttir",
-        "target": "Kenza Dali",
-        "weight": 6,
+        "source": "Kenza Dali",
+        "target": "Gilly Louise Scarlett Flaherty",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Kenza Dali",
+        "target": "Martha Thomas",
+        "weight": 5,
         "direction": "lateral"
+      },
+      {
+        "source": "Kenza Dali",
+        "target": "Dagný Brynjarsdóttir",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kenza Dali",
+        "target": "Emily Louise van Egmond",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Martha Thomas",
+        "weight": 4,
+        "direction": "forward"
       },
       {
         "source": "Gilly Louise Scarlett Flaherty",
@@ -907,9 +931,117 @@
         "direction": "forward"
       },
       {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Cecilie Redisch Kvamme",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Dagný Brynjarsdóttir",
+        "target": "Kenza Dali",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Dagný Brynjarsdóttir",
+        "target": "Mayumi Pacheco",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Gilly Louise Scarlett Flaherty",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Hawa Cissoko",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Hawa Cissoko",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
         "source": "Mayumi Pacheco",
         "target": "Kenza Dali",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Martha Thomas",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Hawa Cissoko",
+        "target": "Courtney Brosnan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Martha Thomas",
+        "target": "Kenza Dali",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emily Louise van Egmond",
+        "target": "Kenza Dali",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Emily Louise van Egmond",
+        "target": "Cecilie Redisch Kvamme",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Cecilie Redisch Kvamme",
+        "target": "Gilly Louise Scarlett Flaherty",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Cecilie Redisch Kvamme",
+        "target": "Emily Louise van Egmond",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Cecilie Redisch Kvamme",
+        "target": "Grace Fisk",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Grace Fisk",
+        "target": "Courtney Brosnan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Grace Fisk",
+        "target": "Cecilie Redisch Kvamme",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Courtney Brosnan",
+        "target": "Grace Fisk",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Courtney Brosnan",
+        "target": "Hawa Cissoko",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -917,154 +1049,152 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Poppy Pattinson",
-        "short": "Pattinson",
-        "x": 62.15,
-        "y": 14.9,
-        "size": 93.4,
+        "id": "Isobel Mary Christiansen",
+        "short": "Christianse",
+        "x": 62.36,
+        "y": 43.25,
+        "size": 130.6,
+        "is_playmaker": true,
+        "betweenness": 0.5667,
+        "eigenvector": 0.3888
+      },
+      {
+        "id": "Jill Scott",
+        "short": "Scott",
+        "x": 48.25,
+        "y": 55.71,
+        "size": 108.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.4995
+      },
+      {
+        "id": "Ingrid Moe Wold",
+        "short": "Wold",
+        "x": 50.81,
+        "y": 73.44,
+        "size": 136.1,
+        "is_playmaker": true,
+        "betweenness": 0.1778,
+        "eigenvector": 0.5473
+      },
+      {
+        "id": "Nicoline Sørensen",
+        "short": "Sørensen",
+        "x": 41.23,
+        "y": 65.43,
+        "size": 100.6,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.4831
+      },
+      {
+        "id": "Poppy Pattinson",
+        "short": "Pattinson",
+        "x": 63.51,
+        "y": 15.8,
+        "size": 93.9,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.0307
+      },
+      {
+        "id": "Claire Emslie",
+        "short": "Emslie",
+        "x": 46.66,
+        "y": 25.52,
+        "size": 83.9,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.1098
       },
       {
         "id": "Rikke Læntver Sevecke",
         "short": "Sevecke",
         "x": 80.43,
         "y": 32.47,
-        "size": 73.2,
+        "size": 83.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Claire Emslie",
-        "short": "Emslie",
-        "x": 46.93,
-        "y": 24.92,
-        "size": 75.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Isobel Mary Christiansen",
-        "short": "Christianse",
-        "x": 62.6,
-        "y": 42.99,
-        "size": 105.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3001
-      },
-      {
-        "id": "Jill Scott",
-        "short": "Scott",
-        "x": 45.85,
-        "y": 57.16,
-        "size": 152.0,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.5287
-      },
-      {
-        "id": "Nicoline Sørensen",
-        "short": "Sørensen",
-        "x": 41.62,
-        "y": 65.21,
-        "size": 117.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5535
-      },
-      {
-        "id": "Ingrid Moe Wold",
-        "short": "Wold",
-        "x": 50.62,
-        "y": 73.58,
-        "size": 168.1,
-        "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.5693
-      },
-      {
-        "id": "Abbey-Leigh Stringer",
-        "short": "Stringer",
-        "x": 56.65,
-        "y": 40.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.0317
       },
       {
         "id": "Alexandra MacIver",
         "short": "MacIver",
         "x": 106.99,
         "y": 44.19,
-        "size": 55.0,
+        "size": 67.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0556,
+        "eigenvector": 0.0808
       },
       {
         "id": "Valérie Gauvin",
         "short": "Gauvin",
         "x": 51.1,
         "y": 42.88,
-        "size": 55.0,
+        "size": 61.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1366
+      },
+      {
+        "id": "Abbey-Leigh Stringer",
+        "short": "Stringer",
+        "x": 56.65,
+        "y": 40.4,
+        "size": 78.3,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.1199
       },
       {
         "id": "Megan Finnigan",
         "short": "Finnigan",
-        "x": 79.32,
-        "y": 54.34,
-        "size": 55.0,
+        "x": 79.76,
+        "y": 55.42,
+        "size": 60.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Hayley Emma Raso",
-        "short": "Raso",
-        "x": 49.5,
-        "y": 70.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Simone Magill",
-        "short": "Magill",
-        "x": 24.63,
-        "y": 38.01,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1138
       }
     ],
     "edges": [
-      {
-        "source": "Poppy Pattinson",
-        "target": "Rikke Læntver Sevecke",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Poppy Pattinson",
-        "target": "Claire Emslie",
-        "weight": 10,
-        "direction": "backward"
-      },
       {
         "source": "Isobel Mary Christiansen",
         "target": "Jill Scott",
         "weight": 14,
         "direction": "backward"
+      },
+      {
+        "source": "Isobel Mary Christiansen",
+        "target": "Claire Emslie",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Isobel Mary Christiansen",
+        "target": "Ingrid Moe Wold",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Isobel Mary Christiansen",
+        "target": "Abbey-Leigh Stringer",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Isobel Mary Christiansen",
+        "target": "Alexandra MacIver",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jill Scott",
+        "target": "Ingrid Moe Wold",
+        "weight": 12,
+        "direction": "lateral"
       },
       {
         "source": "Jill Scott",
@@ -1073,22 +1203,10 @@
         "direction": "backward"
       },
       {
-        "source": "Jill Scott",
-        "target": "Ingrid Moe Wold",
-        "weight": 12,
-        "direction": "forward"
-      },
-      {
-        "source": "Nicoline Sørensen",
-        "target": "Ingrid Moe Wold",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
         "source": "Ingrid Moe Wold",
         "target": "Jill Scott",
         "weight": 12,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Ingrid Moe Wold",
@@ -1100,6 +1218,90 @@
         "source": "Ingrid Moe Wold",
         "target": "Nicoline Sørensen",
         "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Ingrid Moe Wold",
+        "target": "Valérie Gauvin",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ingrid Moe Wold",
+        "target": "Megan Finnigan",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Nicoline Sørensen",
+        "target": "Ingrid Moe Wold",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Nicoline Sørensen",
+        "target": "Isobel Mary Christiansen",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Poppy Pattinson",
+        "target": "Claire Emslie",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Poppy Pattinson",
+        "target": "Rikke Læntver Sevecke",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Poppy Pattinson",
+        "target": "Isobel Mary Christiansen",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Claire Emslie",
+        "target": "Abbey-Leigh Stringer",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Claire Emslie",
+        "target": "Poppy Pattinson",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Rikke Læntver Sevecke",
+        "target": "Poppy Pattinson",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Rikke Læntver Sevecke",
+        "target": "Isobel Mary Christiansen",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Alexandra MacIver",
+        "target": "Rikke Læntver Sevecke",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Abbey-Leigh Stringer",
+        "target": "Isobel Mary Christiansen",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Abbey-Leigh Stringer",
+        "target": "Nicoline Sørensen",
+        "weight": 5,
         "direction": "backward"
       }
     ]

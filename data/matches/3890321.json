@@ -725,132 +725,112 @@
       {
         "id": "İlkay Gündoğan",
         "short": "Gündoğan",
-        "x": 70.75,
-        "y": 54.67,
-        "size": 154.7,
+        "x": 70.77,
+        "y": 54.7,
+        "size": 148.9,
         "is_playmaker": true,
-        "betweenness": 0.1364,
-        "eigenvector": 0.4696
+        "betweenness": 0.4333,
+        "eigenvector": 0.4845
       },
       {
         "id": "Julian Weigl",
         "short": "Weigl",
-        "x": 64.7,
-        "y": 39.61,
-        "size": 151.2,
+        "x": 64.61,
+        "y": 39.54,
+        "size": 140.4,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.5618
+        "betweenness": 0.0,
+        "eigenvector": 0.5596
       },
       {
         "id": "Shinji Kagawa",
         "short": "Kagawa",
         "x": 74.87,
         "y": 23.69,
-        "size": 123.9,
-        "is_playmaker": true,
-        "betweenness": 0.0606,
-        "eigenvector": 0.5099
+        "size": 116.1,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.4817
       },
       {
         "id": "Sokratis Papastathopoulos",
         "short": "Papastathop",
-        "x": 48.35,
-        "y": 54.88,
-        "size": 83.9,
+        "x": 48.0,
+        "y": 54.78,
+        "size": 95.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0251
+        "betweenness": 0.1222,
+        "eigenvector": 0.1513
       },
       {
         "id": "Mats Hummels",
         "short": "Hummels",
         "x": 56.41,
         "y": 28.45,
-        "size": 102.6,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.3347
+        "size": 112.5,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.3433
       },
       {
         "id": "Matthias Ginter",
         "short": "Ginter",
-        "x": 69.39,
-        "y": 72.29,
-        "size": 84.9,
+        "x": 68.36,
+        "y": 71.99,
+        "size": 81.5,
         "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.1124
+        "betweenness": 0.0,
+        "eigenvector": 0.1084
       },
       {
         "id": "Henrikh Mkhitaryan",
         "short": "Mkhitaryan",
-        "x": 87.68,
-        "y": 31.44,
-        "size": 70.7,
+        "x": 88.54,
+        "y": 32.18,
+        "size": 68.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2406
+        "eigenvector": 0.2234
       },
       {
         "id": "Marcel Schmelzer",
         "short": "Schmelzer",
         "x": 64.47,
         "y": 8.49,
-        "size": 61.6,
+        "size": 65.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1058
+        "eigenvector": 0.0934
       },
       {
         "id": "Marco Reus",
         "short": "Reus",
         "x": 80.08,
         "y": 49.89,
-        "size": 61.6,
+        "size": 61.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0974
+        "eigenvector": 0.094
       },
       {
         "id": "Pierre-Emerick Aubameyang",
         "short": "Aubameyang",
-        "x": 78.65,
-        "y": 51.33,
-        "size": 55.0,
+        "x": 80.35,
+        "y": 53.06,
+        "size": 56.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0086
       },
       {
         "id": "Roman Bürki",
         "short": "Bürki",
         "x": 12.01,
         "y": 42.36,
-        "size": 55.0,
+        "size": 56.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adnan Januzaj",
-        "short": "Januzaj",
-        "x": 84.93,
-        "y": 49.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gustavo Adrián Ramos Vásquez",
-        "short": "Vásquez",
-        "x": 82.7,
-        "y": 28.9,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2222,
+        "eigenvector": 0.0074
       }
     ],
     "edges": [
@@ -882,6 +862,18 @@
         "source": "İlkay Gündoğan",
         "target": "Marco Reus",
         "weight": 13,
+        "direction": "forward"
+      },
+      {
+        "source": "İlkay Gündoğan",
+        "target": "Sokratis Papastathopoulos",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "İlkay Gündoğan",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -939,6 +931,18 @@
         "direction": "forward"
       },
       {
+        "source": "Sokratis Papastathopoulos",
+        "target": "Mats Hummels",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Sokratis Papastathopoulos",
+        "target": "Roman Bürki",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Mats Hummels",
         "target": "Shinji Kagawa",
         "weight": 21,
@@ -957,6 +961,18 @@
         "direction": "forward"
       },
       {
+        "source": "Mats Hummels",
+        "target": "Sokratis Papastathopoulos",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Mats Hummels",
+        "target": "Roman Bürki",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Matthias Ginter",
         "target": "İlkay Gündoğan",
         "weight": 19,
@@ -972,78 +988,124 @@
         "source": "Matthias Ginter",
         "target": "Julian Weigl",
         "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Marcel Schmelzer",
+        "target": "Mats Hummels",
+        "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Marco Reus",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Marco Reus",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "İlkay Gündoğan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Roman Bürki",
+        "target": "Sokratis Papastathopoulos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Roman Bürki",
+        "target": "Mats Hummels",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Júnior Enrique Díaz Campbell",
-        "short": "Campbell",
-        "x": 65.44,
-        "y": 8.17,
-        "size": 121.7,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Jan Rosenthal",
+        "short": "Rosenthal",
+        "x": 63.5,
+        "y": 49.72,
+        "size": 100.1,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.2319
       },
       {
         "id": "Sandro Wagner",
         "short": "Wagner",
-        "x": 53.98,
-        "y": 29.12,
-        "size": 197.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Jérôme Gondorf",
-        "short": "Gondorf",
-        "x": 58.66,
-        "y": 29.83,
-        "size": 188.3,
+        "x": 54.38,
+        "y": 27.82,
+        "size": 156.4,
         "is_playmaker": true,
-        "betweenness": 0.0064,
-        "eigenvector": 0.0018
+        "betweenness": 0.2667,
+        "eigenvector": 0.6657
       },
       {
         "id": "Konstantin Rausch",
         "short": "Rausch",
         "x": 69.33,
         "y": 13.32,
-        "size": 112.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jan Rosenthal",
-        "short": "Rosenthal",
-        "x": 63.5,
-        "y": 49.72,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marcel Heller",
-        "short": "Heller",
-        "x": 51.84,
-        "y": 72.77,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 119.8,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.5674
       },
       {
         "id": "György Garics",
         "short": "Garics",
-        "x": 70.24,
-        "y": 68.51,
-        "size": 55.0,
+        "x": 69.73,
+        "y": 68.98,
+        "size": 94.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Júnior Enrique Díaz Campbell",
+        "short": "Campbell",
+        "x": 64.4,
+        "y": 7.96,
+        "size": 74.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Jérôme Gondorf",
+        "short": "Gondorf",
+        "x": 60.35,
+        "y": 27.41,
+        "size": 108.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.4009
+      },
+      {
+        "id": "Peter Niemeyer",
+        "short": "Niemeyer",
+        "x": 64.96,
+        "y": 35.85,
+        "size": 80.4,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.0834
+      },
+      {
+        "id": "Marcel Heller",
+        "short": "Heller",
+        "x": 62.83,
+        "y": 70.9,
+        "size": 66.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1053,37 +1115,7 @@
         "short": "Mathenia",
         "x": 107.45,
         "y": 35.86,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Peter Niemeyer",
-        "short": "Niemeyer",
-        "x": 64.96,
-        "y": 35.85,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Florian Jungwirth",
-        "short": "Jungwirth",
-        "x": 61.66,
-        "y": 47.43,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Luca Caldirola",
-        "short": "Caldirola",
-        "x": 70.64,
-        "y": 25.04,
-        "size": 55.0,
+        "size": 71.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1093,33 +1125,95 @@
         "short": "Sulu",
         "x": 81.49,
         "y": 48.53,
-        "size": 55.0,
+        "size": 66.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.036
       },
       {
-        "id": "Tobias Kempe",
-        "short": "Kempe",
-        "x": 54.05,
-        "y": 23.03,
-        "size": 55.0,
+        "id": "Luca Caldirola",
+        "short": "Caldirola",
+        "x": 68.27,
+        "y": 21.68,
+        "size": 66.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dominik Stroh-Engel",
-        "short": "Stroh-Engel",
-        "x": 18.3,
-        "y": 71.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.1104
       }
     ],
     "edges": [
+      {
+        "source": "Jan Rosenthal",
+        "target": "Sandro Wagner",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jan Rosenthal",
+        "target": "Peter Niemeyer",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jan Rosenthal",
+        "target": "Aytac Sulu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sandro Wagner",
+        "target": "Konstantin Rausch",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Sandro Wagner",
+        "target": "Jan Rosenthal",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Konstantin Rausch",
+        "target": "Jérôme Gondorf",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Konstantin Rausch",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Konstantin Rausch",
+        "target": "Luca Caldirola",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "György Garics",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "György Garics",
+        "target": "Jan Rosenthal",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "György Garics",
+        "target": "Marcel Heller",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "György Garics",
+        "target": "Christian Mathenia",
+        "weight": 3,
+        "direction": "forward"
+      },
       {
         "source": "Júnior Enrique Díaz Campbell",
         "target": "Sandro Wagner",
@@ -1133,9 +1227,57 @@
         "direction": "backward"
       },
       {
-        "source": "Konstantin Rausch",
+        "source": "Jérôme Gondorf",
+        "target": "Konstantin Rausch",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Jérôme Gondorf",
+        "target": "Luca Caldirola",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Peter Niemeyer",
+        "target": "Konstantin Rausch",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Peter Niemeyer",
+        "target": "Aytac Sulu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Christian Mathenia",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Jan Rosenthal",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Peter Niemeyer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luca Caldirola",
+        "target": "Konstantin Rausch",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Luca Caldirola",
         "target": "Jérôme Gondorf",
-        "weight": 6,
+        "weight": 1,
         "direction": "backward"
       }
     ]

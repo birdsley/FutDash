@@ -835,150 +835,110 @@
         "short": "Palacios",
         "x": 67.08,
         "y": 42.15,
-        "size": 135.1,
-        "is_playmaker": true,
-        "betweenness": 0.0549,
-        "eigenvector": 0.4724
+        "size": 140.2,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.4976
       },
       {
         "id": "Granit Xhaka",
         "short": "Xhaka",
         "x": 64.75,
         "y": 34.92,
-        "size": 123.6,
+        "size": 115.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4984
+        "eigenvector": 0.4895
       },
       {
         "id": "Edmond Fayçal Tapsoba",
         "short": "Tapsoba",
         "x": 60.55,
         "y": 25.07,
-        "size": 146.1,
+        "size": 141.2,
         "is_playmaker": true,
-        "betweenness": 0.0824,
-        "eigenvector": 0.4591
+        "betweenness": 0.3444,
+        "eigenvector": 0.4536
       },
       {
         "id": "Jonathan Tah",
         "short": "Tah",
         "x": 58.24,
         "y": 48.91,
-        "size": 136.8,
+        "size": 128.5,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.4879
+        "betweenness": 0.2296,
+        "eigenvector": 0.4759
       },
       {
         "id": "Odilon Kossonou",
         "short": "Kossonou",
-        "x": 63.26,
-        "y": 66.75,
-        "size": 91.3,
+        "x": 63.2,
+        "y": 66.56,
+        "size": 92.2,
         "is_playmaker": false,
-        "betweenness": 0.033,
-        "eigenvector": 0.2377
+        "betweenness": 0.1,
+        "eigenvector": 0.2327
       },
       {
         "id": "Jeremie Frimpong",
         "short": "Frimpong",
         "x": 80.71,
         "y": 70.52,
-        "size": 66.5,
+        "size": 65.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0783
+        "eigenvector": 0.0744
       },
       {
         "id": "Alejandro Grimaldo García",
         "short": "García",
         "x": 78.59,
         "y": 9.37,
-        "size": 74.0,
+        "size": 72.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1058
+        "eigenvector": 0.1016
       },
       {
         "id": "Florian Wirtz",
         "short": "Wirtz",
         "x": 78.12,
         "y": 29.34,
-        "size": 66.5,
-        "is_playmaker": false,
-        "betweenness": 0.0165,
-        "eigenvector": 0.0756
+        "size": 70.8,
+        "is_playmaker": true,
+        "betweenness": 0.3407,
+        "eigenvector": 0.0726
       },
       {
         "id": "Jonas Hofmann",
         "short": "Hofmann",
         "x": 82.8,
         "y": 51.39,
-        "size": 55.0,
+        "size": 64.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0716
       },
       {
         "id": "Victor Okoh Boniface",
         "short": "Boniface",
         "x": 87.08,
         "y": 27.69,
-        "size": 55.0,
+        "size": 57.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0028
       },
       {
         "id": "Lukáš Hrádecký",
         "short": "Hrádecký",
-        "x": 14.77,
-        "y": 40.44,
-        "size": 55.0,
+        "x": 15.87,
+        "y": 40.5,
+        "size": 57.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Amine Adli",
-        "short": "Adli",
-        "x": 55.82,
-        "y": 35.22,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Patrik Schick",
-        "short": "Schick",
-        "x": 88.7,
-        "y": 36.83,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nathan Tella",
-        "short": "Tella",
-        "x": 66.6,
-        "y": 71.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adam Hložek",
-        "short": "Hložek",
-        "x": 87.8,
-        "y": 68.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2296,
+        "eigenvector": 0.0149
       }
     ],
     "edges": [
@@ -1005,6 +965,12 @@
         "target": "Edmond Fayçal Tapsoba",
         "weight": 13,
         "direction": "backward"
+      },
+      {
+        "source": "Exequiel Alejandro Palacios",
+        "target": "Jonas Hofmann",
+        "weight": 9,
+        "direction": "forward"
       },
       {
         "source": "Granit Xhaka",
@@ -1055,6 +1021,12 @@
         "direction": "forward"
       },
       {
+        "source": "Edmond Fayçal Tapsoba",
+        "target": "Lukáš Hrádecký",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jonathan Tah",
         "target": "Edmond Fayçal Tapsoba",
         "weight": 20,
@@ -1079,6 +1051,12 @@
         "direction": "forward"
       },
       {
+        "source": "Jonathan Tah",
+        "target": "Lukáš Hrádecký",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Odilon Kossonou",
         "target": "Jeremie Frimpong",
         "weight": 20,
@@ -1091,67 +1069,141 @@
         "direction": "backward"
       },
       {
+        "source": "Odilon Kossonou",
+        "target": "Exequiel Alejandro Palacios",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
         "source": "Alejandro Grimaldo García",
         "target": "Edmond Fayçal Tapsoba",
         "weight": 19,
         "direction": "backward"
       },
       {
+        "source": "Alejandro Grimaldo García",
+        "target": "Victor Okoh Boniface",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Florian Wirtz",
         "target": "Exequiel Alejandro Palacios",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Florian Wirtz",
+        "target": "Edmond Fayçal Tapsoba",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Florian Wirtz",
+        "target": "Victor Okoh Boniface",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonas Hofmann",
+        "target": "Exequiel Alejandro Palacios",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Victor Okoh Boniface",
+        "target": "Florian Wirtz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Victor Okoh Boniface",
+        "target": "Alejandro Grimaldo García",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lukáš Hrádecký",
+        "target": "Jonathan Tah",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lukáš Hrádecký",
+        "target": "Edmond Fayçal Tapsoba",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Kiliann Sildillia",
-        "short": "Sildillia",
-        "x": 63.08,
-        "y": 70.55,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0055,
-        "eigenvector": 0.6049
-      },
-      {
-        "id": "Matthias Ginter",
-        "short": "Ginter",
-        "x": 74.51,
-        "y": 62.37,
-        "size": 201.7,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.6626
-      },
-      {
-        "id": "Ritsu Doan",
-        "short": "Doan",
-        "x": 45.41,
-        "y": 65.27,
-        "size": 108.3,
+        "id": "Noah Atubolu",
+        "short": "Atubolu",
+        "x": 110.06,
+        "y": 44.76,
+        "size": 123.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4417
+        "betweenness": 0.1611,
+        "eigenvector": 0.2424
       },
       {
         "id": "Lucas Höler",
         "short": "Höler",
-        "x": 47.28,
-        "y": 52.84,
-        "size": 55.0,
+        "x": 46.96,
+        "y": 51.33,
+        "size": 95.4,
+        "is_playmaker": false,
+        "betweenness": 0.0278,
+        "eigenvector": 0.4607
+      },
+      {
+        "id": "Kiliann Sildillia",
+        "short": "Sildillia",
+        "x": 63.71,
+        "y": 70.86,
+        "size": 160.1,
+        "is_playmaker": true,
+        "betweenness": 0.2056,
+        "eigenvector": 0.5504
+      },
+      {
+        "id": "Matthias Ginter",
+        "short": "Ginter",
+        "x": 75.67,
+        "y": 63.21,
+        "size": 131.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.5498
+      },
+      {
+        "id": "Philipp Lienhart",
+        "short": "Lienhart",
+        "x": 90.46,
+        "y": 28.45,
+        "size": 93.4,
+        "is_playmaker": true,
+        "betweenness": 0.1833,
+        "eigenvector": 0.1302
       },
       {
         "id": "Nicolas Höfler",
         "short": "Höfler",
-        "x": 73.83,
-        "y": 42.35,
-        "size": 55.0,
+        "x": 74.14,
+        "y": 41.29,
+        "size": 77.2,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.147
+      },
+      {
+        "id": "Maximilian Eggestein",
+        "short": "Eggestein",
+        "x": 76.22,
+        "y": 60.33,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1159,39 +1211,9 @@
       {
         "id": "Lukas Kübler",
         "short": "Kübler",
-        "x": 64.26,
-        "y": 14.08,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Noah Atubolu",
-        "short": "Atubolu",
-        "x": 109.67,
-        "y": 44.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Merlin Röhl",
-        "short": "Röhl",
-        "x": 74.83,
-        "y": 36.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Maximilian Eggestein",
-        "short": "Eggestein",
-        "x": 76.22,
-        "y": 60.33,
-        "size": 55.0,
+        "x": 72.67,
+        "y": 16.82,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1199,65 +1221,65 @@
       {
         "id": "Vincenzo Grifo",
         "short": "Grifo",
-        "x": 55.95,
-        "y": 21.7,
-        "size": 55.0,
+        "x": 60.45,
+        "y": 22.77,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Philipp Lienhart",
-        "short": "Lienhart",
-        "x": 90.46,
-        "y": 28.45,
-        "size": 55.0,
+        "id": "Ritsu Doan",
+        "short": "Doan",
+        "x": 49.54,
+        "y": 71.19,
+        "size": 71.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2916
       },
       {
-        "id": "Manuel Gulde",
-        "short": "Gulde",
-        "x": 70.16,
-        "y": 34.14,
-        "size": 55.0,
+        "id": "Merlin Röhl",
+        "short": "Röhl",
+        "x": 74.83,
+        "y": 36.97,
+        "size": 63.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Michael Gregoritsch",
-        "short": "Gregoritsch",
-        "x": 45.3,
-        "y": 67.8,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Noah Weißhaupt",
-        "short": "Weißhaupt",
-        "x": 40.38,
-        "y": 17.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Junior Chukwubuike Adamu",
-        "short": "Adamu",
-        "x": 25.4,
-        "y": 53.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1611,
+        "eigenvector": 0.0184
       }
     ],
     "edges": [
+      {
+        "source": "Noah Atubolu",
+        "target": "Lucas Höler",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Noah Atubolu",
+        "target": "Matthias Ginter",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Noah Atubolu",
+        "target": "Philipp Lienhart",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Noah Atubolu",
+        "target": "Kiliann Sildillia",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Lucas Höler",
+        "target": "Kiliann Sildillia",
+        "weight": 4,
+        "direction": "forward"
+      },
       {
         "source": "Kiliann Sildillia",
         "target": "Matthias Ginter",
@@ -1266,15 +1288,87 @@
       },
       {
         "source": "Kiliann Sildillia",
+        "target": "Lucas Höler",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Kiliann Sildillia",
         "target": "Ritsu Doan",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Kiliann Sildillia",
+        "target": "Nicolas Höfler",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Matthias Ginter",
+        "target": "Noah Atubolu",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Matthias Ginter",
         "target": "Kiliann Sildillia",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Matthias Ginter",
+        "target": "Lucas Höler",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Philipp Lienhart",
+        "target": "Noah Atubolu",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Philipp Lienhart",
+        "target": "Merlin Röhl",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolas Höfler",
+        "target": "Philipp Lienhart",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Nicolas Höfler",
+        "target": "Merlin Röhl",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Maximilian Eggestein",
+        "target": "Kiliann Sildillia",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Lukas Kübler",
+        "target": "Vincenzo Grifo",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Merlin Röhl",
+        "target": "Nicolas Höfler",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Merlin Röhl",
+        "target": "Philipp Lienhart",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

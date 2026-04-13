@@ -783,84 +783,44 @@
   "network_home": {
     "nodes": [
       {
+        "id": "Mario Vrančić",
+        "short": "Vrančić",
+        "x": 82.63,
+        "y": 44.73,
+        "size": 116.1,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.5253
+      },
+      {
         "id": "Sandro Wagner",
         "short": "Wagner",
         "x": 76.04,
         "y": 34.7,
-        "size": 205.0,
+        "size": 196.7,
         "is_playmaker": true,
-        "betweenness": 0.1556,
-        "eigenvector": 36
+        "betweenness": 0.4444,
+        "eigenvector": 0.5728
       },
       {
         "id": "Marcel Heller",
         "short": "Heller",
         "x": 68.03,
         "y": 60.3,
-        "size": 75.8,
+        "size": 68.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 5
-      },
-      {
-        "id": "Mario Vrančić",
-        "short": "Vrančić",
-        "x": 82.63,
-        "y": 44.73,
-        "size": 109.2,
-        "is_playmaker": true,
-        "betweenness": 0.0556,
-        "eigenvector": 13
+        "eigenvector": 0.3437
       },
       {
         "id": "Peter Niemeyer",
         "short": "Niemeyer",
         "x": 63.63,
         "y": 39.33,
-        "size": 71.7,
+        "size": 82.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 4
-      },
-      {
-        "id": "Jérôme Gondorf",
-        "short": "Gondorf",
-        "x": 58.93,
-        "y": 38.25,
-        "size": 71.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 4
-      },
-      {
-        "id": "Luca Caldirola",
-        "short": "Caldirola",
-        "x": 72.51,
-        "y": 8.21,
-        "size": 92.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 9
-      },
-      {
-        "id": "Florian Jungwirth",
-        "short": "Jungwirth",
-        "x": 49.5,
-        "y": 71.55,
-        "size": 88.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 8
-      },
-      {
-        "id": "Christian Mathenia",
-        "short": "Mathenia",
-        "x": 14.81,
-        "y": 40.03,
-        "size": 100.8,
-        "is_playmaker": false,
-        "betweenness": 0.0333,
-        "eigenvector": 11
+        "eigenvector": 0.2522
       },
       {
         "id": "Konstantin Rausch",
@@ -870,30 +830,88 @@
         "size": 80.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 6
+        "eigenvector": 0.4125
       },
       {
-        "id": "Slobodan Rajković",
-        "short": "Rajković",
-        "x": 37.29,
-        "y": 33.55,
-        "size": 55.0,
+        "id": "Jérôme Gondorf",
+        "short": "Gondorf",
+        "x": 58.93,
+        "y": 38.25,
+        "size": 66.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0
+        "eigenvector": 0.0
       },
       {
         "id": "Aytac Sulu",
         "short": "Sulu",
         "x": 45.49,
         "y": 48.04,
-        "size": 55.0,
+        "size": 71.7,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Luca Caldirola",
+        "short": "Caldirola",
+        "x": 70.16,
+        "y": 8.71,
+        "size": 80.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Florian Jungwirth",
+        "short": "Jungwirth",
+        "x": 49.5,
+        "y": 71.55,
+        "size": 93.9,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.1891
+      },
+      {
+        "id": "Christian Mathenia",
+        "short": "Mathenia",
+        "x": 14.81,
+        "y": 40.03,
+        "size": 85.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0908
+      },
+      {
+        "id": "Slobodan Rajković",
+        "short": "Rajković",
+        "x": 37.29,
+        "y": 33.55,
+        "size": 63.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
       }
     ],
     "edges": [
+      {
+        "source": "Mario Vrančić",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Vrančić",
+        "target": "Peter Niemeyer",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Vrančić",
+        "target": "Florian Jungwirth",
+        "weight": 3,
+        "direction": "backward"
+      },
       {
         "source": "Sandro Wagner",
         "target": "Marcel Heller",
@@ -913,10 +931,22 @@
         "direction": "backward"
       },
       {
-        "source": "Mario Vrančić",
-        "target": "Peter Niemeyer",
-        "weight": 4,
-        "direction": "backward"
+        "source": "Peter Niemeyer",
+        "target": "Mario Vrančić",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Peter Niemeyer",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Konstantin Rausch",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "forward"
       },
       {
         "source": "Jérôme Gondorf",
@@ -925,10 +955,16 @@
         "direction": "forward"
       },
       {
+        "source": "Aytac Sulu",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
         "source": "Luca Caldirola",
         "target": "Sandro Wagner",
         "weight": 9,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Florian Jungwirth",
@@ -943,9 +979,21 @@
         "direction": "forward"
       },
       {
+        "source": "Florian Jungwirth",
+        "target": "Sandro Wagner",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
         "source": "Christian Mathenia",
         "target": "Sandro Wagner",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Slobodan Rajković",
+        "target": "Aytac Sulu",
+        "weight": 3,
         "direction": "forward"
       }
     ]
@@ -953,147 +1001,189 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Daniel Didavi",
-        "short": "Didavi",
-        "x": 53.02,
-        "y": 28.42,
-        "size": 84.5,
+        "id": "Przemysław Tytoń",
+        "short": "Tytoń",
+        "x": 109.06,
+        "y": 40.3,
+        "size": 85.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1483
       },
       {
-        "id": "Filip Kostić",
-        "short": "Kostić",
-        "x": 46.12,
-        "y": 15.61,
-        "size": 133.7,
+        "id": "Daniel Schwaab",
+        "short": "Schwaab",
+        "x": 74.39,
+        "y": 64.7,
+        "size": 110.2,
         "is_playmaker": true,
-        "betweenness": 0.0641,
-        "eigenvector": 0.0
+        "betweenness": 0.2593,
+        "eigenvector": 0.1897
       },
       {
         "id": "Sereso Geoffroy Gonzaroua Dié",
         "short": "Dié",
         "x": 70.06,
         "y": 39.08,
-        "size": 117.3,
-        "is_playmaker": true,
-        "betweenness": 0.0577,
-        "eigenvector": 0.0
+        "size": 121.2,
+        "is_playmaker": false,
+        "betweenness": 0.1648,
+        "eigenvector": 0.4064
+      },
+      {
+        "id": "Daniel Didavi",
+        "short": "Didavi",
+        "x": 53.02,
+        "y": 28.42,
+        "size": 79.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2444
+      },
+      {
+        "id": "Filip Kostić",
+        "short": "Kostić",
+        "x": 48.32,
+        "y": 12.54,
+        "size": 101.9,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.5177
       },
       {
         "id": "Emiliano Adrián Insúa Zapata",
         "short": "Zapata",
-        "x": 56.11,
-        "y": 10.06,
-        "size": 104.2,
+        "x": 55.68,
+        "y": 10.29,
+        "size": 88.1,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.0032
+        "betweenness": 0.0444,
+        "eigenvector": 0.3127
       },
       {
         "id": "Christian Gentner",
         "short": "Gentner",
-        "x": 63.94,
-        "y": 35.73,
-        "size": 81.2,
+        "x": 63.23,
+        "y": 32.14,
+        "size": 110.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "betweenness": 0.2241,
+        "eigenvector": 0.4632
       },
       {
         "id": "Timo Baumgartl",
         "short": "Baumgartl",
         "x": 77.79,
         "y": 23.67,
-        "size": 78.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Przemysław Tytoń",
-        "short": "Tytoń",
-        "x": 109.16,
-        "y": 41.63,
-        "size": 114.0,
-        "is_playmaker": false,
-        "betweenness": 0.0321,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Daniel Schwaab",
-        "short": "Schwaab",
-        "x": 74.41,
-        "y": 64.69,
-        "size": 127.1,
-        "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.0
+        "size": 110.2,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.3368
       },
       {
         "id": "Artem Kravets",
         "short": "Kravets",
-        "x": 44.43,
-        "y": 46.14,
-        "size": 55.0,
+        "x": 45.02,
+        "y": 44.59,
+        "size": 68.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0333,
+        "eigenvector": 0.1165
       },
       {
         "id": "Lukas Rupp",
         "short": "Rupp",
-        "x": 54.36,
-        "y": 47.05,
-        "size": 55.0,
+        "x": 58.54,
+        "y": 42.7,
+        "size": 68.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Florian Klein",
-        "short": "Klein",
-        "x": 61.17,
-        "y": 68.59,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Martin Harnik",
-        "short": "Harnik",
-        "x": 62.45,
-        "y": 59.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0917
       },
       {
         "id": "Toni Šunjić",
         "short": "Šunjić",
         "x": 82.8,
         "y": 60.1,
-        "size": 55.0,
+        "size": 60.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Timo Werner",
-        "short": "Werner",
-        "x": 43.0,
-        "y": 59.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1463,
+        "eigenvector": 0.0375
       }
     ],
     "edges": [
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Daniel Schwaab",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Timo Baumgartl",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Sereso Geoffroy Gonzaroua Dié",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Lukas Rupp",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Christian Gentner",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Timo Baumgartl",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Toni Šunjić",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Filip Kostić",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Timo Baumgartl",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Daniel Didavi",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Christian Gentner",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Toni Šunjić",
+        "weight": 1,
+        "direction": "forward"
+      },
       {
         "source": "Daniel Didavi",
         "target": "Filip Kostić",
@@ -1107,10 +1197,10 @@
         "direction": "forward"
       },
       {
-        "source": "Sereso Geoffroy Gonzaroua Dié",
-        "target": "Filip Kostić",
-        "weight": 8,
-        "direction": "backward"
+        "source": "Filip Kostić",
+        "target": "Christian Gentner",
+        "weight": 4,
+        "direction": "forward"
       },
       {
         "source": "Emiliano Adrián Insúa Zapata",
@@ -1119,21 +1209,75 @@
         "direction": "forward"
       },
       {
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Timo Baumgartl",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Christian Gentner",
+        "target": "Filip Kostić",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Christian Gentner",
+        "target": "Sereso Geoffroy Gonzaroua Dié",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Christian Gentner",
+        "target": "Daniel Didavi",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Christian Gentner",
+        "target": "Artem Kravets",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Timo Baumgartl",
         "target": "Przemysław Tytoń",
         "weight": 7,
         "direction": "forward"
       },
       {
-        "source": "Przemysław Tytoń",
-        "target": "Daniel Schwaab",
-        "weight": 11,
+        "source": "Timo Baumgartl",
+        "target": "Sereso Geoffroy Gonzaroua Dié",
+        "weight": 6,
         "direction": "backward"
       },
       {
-        "source": "Daniel Schwaab",
+        "source": "Timo Baumgartl",
+        "target": "Emiliano Adrián Insúa Zapata",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Timo Baumgartl",
+        "target": "Daniel Schwaab",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Artem Kravets",
+        "target": "Lukas Rupp",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Šunjić",
+        "target": "Daniel Schwaab",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Toni Šunjić",
         "target": "Sereso Geoffroy Gonzaroua Dié",
-        "weight": 11,
+        "weight": 1,
         "direction": "backward"
       }
     ]

@@ -727,9 +727,9 @@
         "short": "Moreno",
         "x": 12.9,
         "y": 40.89,
-        "size": 96.9,
+        "size": 96.5,
         "is_playmaker": false,
-        "betweenness": 0.0182,
+        "betweenness": 0.1667,
         "eigenvector": 0.0
       },
       {
@@ -737,57 +737,57 @@
         "short": "Torres",
         "x": 69.52,
         "y": 36.22,
-        "size": 74.0,
+        "size": 78.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.2,
         "eigenvector": 0.0
-      },
-      {
-        "id": "Markel Susaeta Laskurain",
-        "short": "Laskurain",
-        "x": 76.92,
-        "y": 17.34,
-        "size": 133.1,
-        "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.6303
       },
       {
         "id": "Jon Aurtenetxe Borde",
         "short": "Borde",
         "x": 61.38,
         "y": 12.52,
-        "size": 106.4,
+        "size": 111.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6855
+        "betweenness": 0.2222,
+        "eigenvector": 0.5789
+      },
+      {
+        "id": "Markel Susaeta Laskurain",
+        "short": "Laskurain",
+        "x": 76.92,
+        "y": 17.34,
+        "size": 118.1,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.5372
       },
       {
         "id": "Andoni Iraola Sagarna",
         "short": "Sagarna",
         "x": 56.54,
         "y": 68.39,
-        "size": 95.0,
-        "is_playmaker": true,
-        "betweenness": 0.0545,
-        "eigenvector": 0.0
+        "size": 87.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.103
       },
       {
         "id": "Iker Muniain Goñi",
         "short": "Goñi",
         "x": 68.49,
         "y": 67.69,
-        "size": 108.3,
-        "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0
+        "size": 113.5,
+        "is_playmaker": true,
+        "betweenness": 0.2333,
+        "eigenvector": 0.2472
       },
       {
         "id": "Fernando Amorebieta Mardaras",
         "short": "Mardaras",
         "x": 34.26,
         "y": 22.64,
-        "size": 66.4,
+        "size": 71.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -797,17 +797,17 @@
         "short": "Agüera",
         "x": 63.92,
         "y": 34.48,
-        "size": 110.2,
+        "size": 122.7,
         "is_playmaker": true,
-        "betweenness": 0.0545,
-        "eigenvector": 0.3644
+        "betweenness": 0.3,
+        "eigenvector": 0.5447
       },
       {
         "id": "Javier Martínez Aginaga",
         "short": "Aginaga",
         "x": 38.96,
         "y": 47.15,
-        "size": 66.4,
+        "size": 64.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -817,27 +817,17 @@
         "short": "Arana",
         "x": 60.34,
         "y": 53.52,
-        "size": 81.7,
+        "size": 76.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0883
       },
       {
         "id": "Ander Iturraspe Derteano",
         "short": "Derteano",
         "x": 51.25,
         "y": 34.1,
-        "size": 66.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Iñigo Pérez Soto",
-        "short": "Soto",
-        "x": 29.0,
-        "y": 17.48,
-        "size": 55.0,
+        "size": 64.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -851,6 +841,30 @@
         "direction": "forward"
       },
       {
+        "source": "Gorka Iraizoz Moreno",
+        "target": "Fernando Amorebieta Mardaras",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Fernando Llorente Torres",
+        "target": "Jon Aurtenetxe Borde",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jon Aurtenetxe Borde",
+        "target": "Markel Susaeta Laskurain",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Jon Aurtenetxe Borde",
+        "target": "Ander Herrera Agüera",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
         "source": "Markel Susaeta Laskurain",
         "target": "Jon Aurtenetxe Borde",
         "weight": 11,
@@ -861,12 +875,6 @@
         "target": "Ander Herrera Agüera",
         "weight": 8,
         "direction": "backward"
-      },
-      {
-        "source": "Jon Aurtenetxe Borde",
-        "target": "Markel Susaeta Laskurain",
-        "weight": 9,
-        "direction": "forward"
       },
       {
         "source": "Andoni Iraola Sagarna",
@@ -888,6 +896,12 @@
       },
       {
         "source": "Iker Muniain Goñi",
+        "target": "Ander Herrera Agüera",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Iker Muniain Goñi",
         "target": "Andoni Iraola Sagarna",
         "weight": 7,
         "direction": "backward"
@@ -902,6 +916,12 @@
         "source": "Ander Herrera Agüera",
         "target": "Markel Susaeta Laskurain",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Ander Herrera Agüera",
+        "target": "Iker Muniain Goñi",
+        "weight": 5,
         "direction": "forward"
       },
       {
@@ -933,169 +953,121 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Gerard Piqué Bernabéu",
-        "short": "Bernabéu",
-        "x": 76.06,
-        "y": 33.06,
-        "size": 105.7,
-        "is_playmaker": false,
-        "betweenness": 0.0321,
-        "eigenvector": 0.2926
-      },
-      {
-        "id": "Eric-Sylvain Bilal Abidal",
-        "short": "Abidal",
-        "x": 69.81,
-        "y": 13.44,
-        "size": 67.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1331
-      },
-      {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
-        "x": 52.04,
-        "y": 69.52,
-        "size": 160.6,
-        "is_playmaker": true,
-        "betweenness": 0.1346,
-        "eigenvector": 0.5215
+        "x": 50.32,
+        "y": 69.99,
+        "size": 137.0,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.5656
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 40.03,
-        "y": 51.69,
-        "size": 81.8,
+        "x": 40.91,
+        "y": 54.31,
+        "size": 90.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5007
+        "eigenvector": 0.4571
+      },
+      {
+        "id": "Gerard Piqué Bernabéu",
+        "short": "Bernabéu",
+        "x": 76.06,
+        "y": 33.06,
+        "size": 103.5,
+        "is_playmaker": false,
+        "betweenness": 0.3778,
+        "eigenvector": 0.1323
+      },
+      {
+        "id": "Javier Alejandro Mascherano",
+        "short": "Mascherano",
+        "x": 69.29,
+        "y": 60.81,
+        "size": 120.3,
+        "is_playmaker": true,
+        "betweenness": 0.5111,
+        "eigenvector": 0.3271
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 53.47,
-        "y": 42.46,
-        "size": 95.8,
-        "is_playmaker": false,
-        "betweenness": 0.0577,
-        "eigenvector": 0.1255
+        "x": 53.72,
+        "y": 42.1,
+        "size": 108.6,
+        "is_playmaker": true,
+        "betweenness": 0.4444,
+        "eigenvector": 0.4296
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
         "x": 49.99,
         "y": 48.87,
-        "size": 101.5,
+        "size": 95.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0698
-      },
-      {
-        "id": "Javier Alejandro Mascherano",
-        "short": "Mascherano",
-        "x": 68.84,
-        "y": 60.29,
-        "size": 131.1,
-        "is_playmaker": true,
-        "betweenness": 0.0833,
-        "eigenvector": 0.5265
+        "betweenness": 0.1778,
+        "eigenvector": 0.2264
       },
       {
         "id": "Francesc Fàbregas i Soler",
         "short": "Soler",
-        "x": 47.37,
-        "y": 48.73,
-        "size": 95.8,
+        "x": 47.81,
+        "y": 48.39,
+        "size": 97.7,
         "is_playmaker": false,
-        "betweenness": 0.0449,
-        "eigenvector": 0.276
+        "betweenness": 0.1,
+        "eigenvector": 0.3287
       },
       {
-        "id": "Andrés Iniesta Luján",
-        "short": "Luján",
-        "x": 53.59,
-        "y": 29.77,
-        "size": 55.0,
+        "id": "Eric-Sylvain Bilal Abidal",
+        "short": "Abidal",
+        "x": 69.81,
+        "y": 13.44,
+        "size": 68.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adriano Correia Claro",
-        "short": "Claro",
-        "x": 42.1,
-        "y": 25.79,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0384
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
         "x": 106.63,
         "y": 44.68,
-        "size": 55.0,
+        "size": 67.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0299
       },
       {
-        "id": "Alexis Alejandro Sánchez Sánchez",
-        "short": "Sánchez",
-        "x": 41.53,
-        "y": 57.2,
-        "size": 55.0,
+        "id": "Andrés Iniesta Luján",
+        "short": "Luján",
+        "x": 57.05,
+        "y": 31.87,
+        "size": 58.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0143
       },
       {
-        "id": "Thiago Alcântara do Nascimento",
-        "short": "Nascimento",
-        "x": 45.51,
-        "y": 36.0,
-        "size": 55.0,
+        "id": "Adriano Correia Claro",
+        "short": "Claro",
+        "x": 43.25,
+        "y": 25.22,
+        "size": 58.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "David Villa Sánchez",
-        "short": "Sánchez",
-        "x": 39.83,
-        "y": 30.57,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0143
       }
     ],
     "edges": [
       {
-        "source": "Gerard Piqué Bernabéu",
-        "target": "Eric-Sylvain Bilal Abidal",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Gerard Piqué Bernabéu",
-        "target": "Javier Alejandro Mascherano",
-        "weight": 16,
-        "direction": "backward"
-      },
-      {
         "source": "Daniel Alves da Silva",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 19,
-        "direction": "backward"
-      },
-      {
-        "source": "Daniel Alves da Silva",
-        "target": "Francesc Fàbregas i Soler",
-        "weight": 9,
         "direction": "backward"
       },
       {
@@ -1105,28 +1077,46 @@
         "direction": "forward"
       },
       {
-        "source": "Sergio Busquets i Burgos",
-        "target": "Xavier Hernández Creus",
-        "weight": 11,
-        "direction": "lateral"
-      },
-      {
-        "source": "Sergio Busquets i Burgos",
-        "target": "Daniel Alves da Silva",
+        "source": "Daniel Alves da Silva",
+        "target": "Francesc Fàbregas i Soler",
         "weight": 9,
         "direction": "lateral"
       },
       {
-        "source": "Xavier Hernández Creus",
-        "target": "Daniel Alves da Silva",
-        "weight": 11,
+        "source": "Daniel Alves da Silva",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 8,
         "direction": "lateral"
       },
       {
-        "source": "Xavier Hernández Creus",
-        "target": "Francesc Fàbregas i Soler",
-        "weight": 11,
-        "direction": "lateral"
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Daniel Alves da Silva",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 16,
+        "direction": "backward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Eric-Sylvain Bilal Abidal",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Víctor Valdés Arribas",
+        "weight": 7,
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
@@ -1141,9 +1131,117 @@
         "direction": "forward"
       },
       {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Francesc Fàbregas i Soler",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Xavier Hernández Creus",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Daniel Alves da Silva",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Andrés Iniesta Luján",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Adriano Correia Claro",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Xavier Hernández Creus",
+        "target": "Daniel Alves da Silva",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Xavier Hernández Creus",
+        "target": "Francesc Fàbregas i Soler",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Xavier Hernández Creus",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
         "source": "Francesc Fàbregas i Soler",
         "target": "Sergio Busquets i Burgos",
         "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Francesc Fàbregas i Soler",
+        "target": "Xavier Hernández Creus",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Francesc Fàbregas i Soler",
+        "target": "Daniel Alves da Silva",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Eric-Sylvain Bilal Abidal",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrés Iniesta Luján",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Andrés Iniesta Luján",
+        "target": "Adriano Correia Claro",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Adriano Correia Claro",
+        "target": "Andrés Iniesta Luján",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Adriano Correia Claro",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 1,
         "direction": "forward"
       }
     ]

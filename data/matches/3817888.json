@@ -1025,132 +1025,112 @@
       {
         "id": "Subhasish Bose",
         "short": "Bose",
-        "x": 59.46,
-        "y": 12.75,
-        "size": 107.9,
+        "x": 60.09,
+        "y": 12.63,
+        "size": 101.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3869
+        "eigenvector": 0.3702
       },
       {
         "id": "Liston Colaco",
         "short": "Colaco",
-        "x": 80.47,
-        "y": 12.97,
-        "size": 121.9,
+        "x": 80.35,
+        "y": 13.09,
+        "size": 113.7,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.647
+        "betweenness": 0.0333,
+        "eigenvector": 0.6171
       },
       {
         "id": "Hugo Adnan Boumous",
         "short": "Boumous",
-        "x": 70.57,
-        "y": 39.19,
-        "size": 121.9,
+        "x": 70.11,
+        "y": 39.51,
+        "size": 120.9,
         "is_playmaker": true,
-        "betweenness": 0.1742,
-        "eigenvector": 0.5337
+        "betweenness": 0.4556,
+        "eigenvector": 0.5191
       },
       {
         "id": "Prabir Das",
         "short": "Das",
         "x": 67.03,
         "y": 71.6,
-        "size": 119.5,
+        "size": 116.6,
         "is_playmaker": true,
-        "betweenness": 0.1894,
-        "eigenvector": 0.2813
+        "betweenness": 0.3333,
+        "eigenvector": 0.2912
       },
       {
         "id": "Pritam Kotal",
         "short": "Kotal",
-        "x": 35.85,
-        "y": 59.19,
-        "size": 97.1,
+        "x": 36.24,
+        "y": 59.38,
+        "size": 102.8,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.1851
+        "betweenness": 0.2,
+        "eigenvector": 0.2113
       },
       {
         "id": "José Luis Espinosa Arroyo",
         "short": "Arroyo",
-        "x": 35.86,
-        "y": 27.35,
-        "size": 107.1,
+        "x": 35.27,
+        "y": 27.36,
+        "size": 105.7,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.0785
+        "betweenness": 0.0778,
+        "eigenvector": 0.1029
       },
       {
         "id": "Carl Gerard McHugh",
         "short": "McHugh",
-        "x": 52.01,
-        "y": 37.85,
-        "size": 87.2,
+        "x": 51.53,
+        "y": 38.09,
+        "size": 83.3,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.1173
+        "betweenness": 0.0,
+        "eigenvector": 0.1255
       },
       {
         "id": "Manvir Singh",
         "short": "Singh",
         "x": 76.2,
         "y": 70.0,
-        "size": 62.4,
+        "size": 67.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0826
+        "eigenvector": 0.2157
       },
       {
         "id": "Amrinder Singh",
         "short": "Singh",
-        "x": 10.2,
-        "y": 40.02,
-        "size": 62.4,
+        "x": 10.28,
+        "y": 40.3,
+        "size": 72.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0538
       },
       {
         "id": "David Joel Williams",
         "short": "Williams",
         "x": 74.1,
         "y": 41.19,
-        "size": 62.4,
+        "size": 63.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0826
+        "betweenness": 0.0333,
+        "eigenvector": 0.0841
       },
       {
         "id": "Deepak Tangri",
         "short": "Tangri",
         "x": 62.7,
         "y": 48.88,
-        "size": 55.0,
+        "size": 57.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kiyan Nassiri Giri",
-        "short": "Giri",
-        "x": 71.5,
-        "y": 27.39,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lenny Rodrigues",
-        "short": "Rodrigues",
-        "x": 40.7,
-        "y": 16.07,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0192
       }
     ],
     "edges": [
@@ -1189,6 +1169,18 @@
         "target": "Prabir Das",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Hugo Adnan Boumous",
+        "target": "Manvir Singh",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Hugo Adnan Boumous",
+        "target": "Deepak Tangri",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Prabir Das",
@@ -1233,6 +1225,12 @@
         "direction": "forward"
       },
       {
+        "source": "Pritam Kotal",
+        "target": "Amrinder Singh",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "José Luis Espinosa Arroyo",
         "target": "Subhasish Bose",
         "weight": 11,
@@ -1257,6 +1255,12 @@
         "direction": "forward"
       },
       {
+        "source": "José Luis Espinosa Arroyo",
+        "target": "Pritam Kotal",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
         "source": "Carl Gerard McHugh",
         "target": "Pritam Kotal",
         "weight": 10,
@@ -1273,163 +1277,177 @@
         "target": "José Luis Espinosa Arroyo",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Amrinder Singh",
+        "target": "Prabir Das",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "David Joel Williams",
+        "target": "Deepak Tangri",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Deepak Tangri",
+        "target": "Hugo Adnan Boumous",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Deepak Tangri",
+        "target": "David Joel Williams",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Arindam Bhattacharja",
-        "short": "Bhattacharj",
-        "x": 110.61,
-        "y": 43.97,
-        "size": 162.7,
+        "id": "Antonio Perošević",
+        "short": "Perošević",
+        "x": 41.9,
+        "y": 34.72,
+        "size": 101.6,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.2778,
+        "eigenvector": 0.1766
+      },
+      {
+        "id": "Naorem Mahesh Singh",
+        "short": "Singh",
+        "x": 54.58,
+        "y": 33.07,
+        "size": 96.1,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.2386
       },
       {
         "id": "Marcelo Ribeiro dos Santos",
         "short": "Santos",
         "x": 52.75,
         "y": 23.42,
-        "size": 162.7,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.7592
-      },
-      {
-        "id": "Wahengbam Angousana Luwang",
-        "short": "Luwang",
-        "x": 59.35,
-        "y": 31.64,
-        "size": 147.3,
+        "size": 87.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.14
       },
       {
-        "id": "Sourav Das",
-        "short": "Das",
-        "x": 66.67,
-        "y": 26.61,
-        "size": 147.3,
+        "id": "Arindam Bhattacharja",
+        "short": "Bhattacharj",
+        "x": 110.44,
+        "y": 43.96,
+        "size": 93.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6508
-      },
-      {
-        "id": "Antonio Perošević",
-        "short": "Perošević",
-        "x": 38.33,
-        "y": 31.02,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Naorem Mahesh Singh",
-        "short": "Singh",
-        "x": 57.14,
-        "y": 34.81,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Amarjit Singh Kiyam Singh",
-        "short": "Singh",
-        "x": 78.24,
-        "y": 72.76,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Hira Mondal",
-        "short": "Mondal",
-        "x": 71.34,
-        "y": 5.76,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1778,
+        "eigenvector": 0.0022
       },
       {
         "id": "Darren Sidoel",
         "short": "Sidoel",
-        "x": 77.57,
-        "y": 57.04,
-        "size": 55.0,
+        "x": 73.32,
+        "y": 57.08,
+        "size": 63.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Adil Khan",
-        "short": "Khan",
-        "x": 85.23,
-        "y": 48.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.0613
       },
       {
         "id": "Franjo Prce",
         "short": "Prce",
         "x": 83.89,
         "y": 18.89,
-        "size": 55.0,
+        "size": 101.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1667,
+        "eigenvector": 0.4694
       },
       {
-        "id": "Mohammed Rafique",
-        "short": "Rafique",
-        "x": 53.95,
-        "y": 53.95,
-        "size": 55.0,
+        "id": "Adil Khan",
+        "short": "Khan",
+        "x": 88.45,
+        "y": 46.72,
+        "size": 68.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1333,
+        "eigenvector": 0.1653
       },
       {
-        "id": "Lalrinliana Hnamte",
-        "short": "Hnamte",
-        "x": 46.3,
-        "y": 23.8,
-        "size": 55.0,
+        "id": "Hira Mondal",
+        "short": "Mondal",
+        "x": 71.67,
+        "y": 6.51,
+        "size": 112.5,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.5045
+      },
+      {
+        "id": "Wahengbam Angousana Luwang",
+        "short": "Luwang",
+        "x": 61.88,
+        "y": 30.29,
+        "size": 131.7,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.5102
+      },
+      {
+        "id": "Sourav Das",
+        "short": "Das",
+        "x": 65.88,
+        "y": 23.18,
+        "size": 82.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.3545
       },
       {
         "id": "Ankit Mukherjee",
         "short": "Mukherjee",
         "x": 96.4,
         "y": 47.6,
-        "size": 55.0,
+        "size": 66.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Subha Ghosh",
-        "short": "Ghosh",
-        "x": 33.33,
-        "y": 36.11,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1778,
+        "eigenvector": 0.0194
       }
     ],
     "edges": [
+      {
+        "source": "Antonio Perošević",
+        "target": "Naorem Mahesh Singh",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Antonio Perošević",
+        "target": "Darren Sidoel",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Antonio Perošević",
+        "target": "Wahengbam Angousana Luwang",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Naorem Mahesh Singh",
+        "target": "Marcelo Ribeiro dos Santos",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Naorem Mahesh Singh",
+        "target": "Wahengbam Angousana Luwang",
+        "weight": 4,
+        "direction": "forward"
+      },
       {
         "source": "Arindam Bhattacharja",
         "target": "Marcelo Ribeiro dos Santos",
@@ -1437,9 +1455,99 @@
         "direction": "backward"
       },
       {
+        "source": "Arindam Bhattacharja",
+        "target": "Antonio Perošević",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Arindam Bhattacharja",
+        "target": "Ankit Mukherjee",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Franjo Prce",
+        "target": "Adil Khan",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Franjo Prce",
+        "target": "Wahengbam Angousana Luwang",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Franjo Prce",
+        "target": "Hira Mondal",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Adil Khan",
+        "target": "Ankit Mukherjee",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hira Mondal",
+        "target": "Franjo Prce",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Hira Mondal",
+        "target": "Antonio Perošević",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Hira Mondal",
+        "target": "Wahengbam Angousana Luwang",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
         "source": "Wahengbam Angousana Luwang",
         "target": "Sourav Das",
         "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Wahengbam Angousana Luwang",
+        "target": "Naorem Mahesh Singh",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Wahengbam Angousana Luwang",
+        "target": "Franjo Prce",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Wahengbam Angousana Luwang",
+        "target": "Hira Mondal",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Sourav Das",
+        "target": "Hira Mondal",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Ankit Mukherjee",
+        "target": "Adil Khan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ankit Mukherjee",
+        "target": "Arindam Bhattacharja",
+        "weight": 1,
         "direction": "forward"
       }
     ]

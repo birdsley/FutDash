@@ -727,120 +727,110 @@
         "short": "Zinsberger",
         "x": 12.78,
         "y": 38.89,
-        "size": 126.4,
+        "size": 114.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4092
+        "eigenvector": 0.3914
       },
       {
         "id": "Leah Williamson",
         "short": "Williamson",
         "x": 36.03,
         "y": 54.94,
-        "size": 157.3,
+        "size": 149.5,
         "is_playmaker": true,
-        "betweenness": 0.1455,
-        "eigenvector": 0.6144
+        "betweenness": 0.3222,
+        "eigenvector": 0.5871
       },
       {
         "id": "Lisa Evans",
         "short": "Evans",
         "x": 58.52,
         "y": 72.77,
-        "size": 90.7,
+        "size": 93.3,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.1796
+        "betweenness": 0.1611,
+        "eigenvector": 0.1685
       },
       {
         "id": "Jill Roord",
         "short": "Roord",
-        "x": 62.25,
-        "y": 43.4,
-        "size": 64.4,
+        "x": 61.66,
+        "y": 44.67,
+        "size": 74.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0404
+        "betweenness": 0.1167,
+        "eigenvector": 0.1052
       },
       {
-        "id": "Carlotte Wubben-Moy",
-        "short": "Wubben-Moy",
-        "x": 34.39,
-        "y": 21.02,
-        "size": 181.8,
-        "is_playmaker": true,
-        "betweenness": 0.1636,
-        "eigenvector": 0.6006
+        "id": "Lia Wälti",
+        "short": "Wälti",
+        "x": 54.81,
+        "y": 41.12,
+        "size": 80.8,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.1613
       },
       {
         "id": "Katie McCabe",
         "short": "McCabe",
         "x": 52.33,
         "y": 7.32,
-        "size": 80.4,
+        "size": 84.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2026
+        "betweenness": 0.0944,
+        "eigenvector": 0.2745
       },
       {
-        "id": "Lia Wälti",
-        "short": "Wälti",
-        "x": 54.89,
-        "y": 40.53,
-        "size": 76.6,
+        "id": "Caitlin Jade Foord",
+        "short": "Foord",
+        "x": 72.31,
+        "y": 14.99,
+        "size": 58.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1351
+        "eigenvector": 0.0303
+      },
+      {
+        "id": "Carlotte Wubben-Moy",
+        "short": "Wubben-Moy",
+        "x": 34.12,
+        "y": 20.87,
+        "size": 164.4,
+        "is_playmaker": true,
+        "betweenness": 0.3833,
+        "eigenvector": 0.5941
       },
       {
         "id": "Bethany Mead",
         "short": "Mead",
         "x": 75.53,
         "y": 66.21,
-        "size": 62.5,
+        "size": 61.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0323
+        "eigenvector": 0.0297
       },
       {
         "id": "Danielle van de Donk",
         "short": "Donk",
-        "x": 55.67,
-        "y": 38.99,
-        "size": 55.0,
+        "x": 53.43,
+        "y": 41.3,
+        "size": 59.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Caitlin Jade Foord",
-        "short": "Foord",
-        "x": 72.39,
-        "y": 13.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0778
       },
       {
         "id": "Vivianne Miedema",
         "short": "Miedema",
         "x": 76.91,
         "y": 41.75,
-        "size": 55.0,
+        "size": 63.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Noelle Maritz",
-        "short": "Maritz",
-        "x": 62.59,
-        "y": 5.46,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0223
       }
     ],
     "edges": [
@@ -864,6 +854,12 @@
       },
       {
         "source": "Leah Williamson",
+        "target": "Katie McCabe",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Leah Williamson",
         "target": "Manuela Zinsberger",
         "weight": 13,
         "direction": "backward"
@@ -875,9 +871,21 @@
         "direction": "lateral"
       },
       {
+        "source": "Leah Williamson",
+        "target": "Danielle van de Donk",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Lisa Evans",
         "target": "Jill Roord",
         "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lisa Evans",
+        "target": "Lia Wälti",
+        "weight": 5,
         "direction": "lateral"
       },
       {
@@ -890,6 +898,36 @@
         "source": "Lisa Evans",
         "target": "Leah Williamson",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Lisa Evans",
+        "target": "Vivianne Miedema",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Jill Roord",
+        "target": "Lia Wälti",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Lia Wälti",
+        "target": "Carlotte Wubben-Moy",
+        "weight": 13,
+        "direction": "backward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Caitlin Jade Foord",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Carlotte Wubben-Moy",
+        "weight": 12,
         "direction": "backward"
       },
       {
@@ -906,6 +944,12 @@
       },
       {
         "source": "Carlotte Wubben-Moy",
+        "target": "Jill Roord",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlotte Wubben-Moy",
         "target": "Manuela Zinsberger",
         "weight": 17,
         "direction": "backward"
@@ -917,15 +961,9 @@
         "direction": "lateral"
       },
       {
-        "source": "Katie McCabe",
-        "target": "Carlotte Wubben-Moy",
-        "weight": 12,
-        "direction": "backward"
-      },
-      {
-        "source": "Lia Wälti",
-        "target": "Carlotte Wubben-Moy",
-        "weight": 13,
+        "source": "Vivianne Miedema",
+        "target": "Jill Roord",
+        "weight": 5,
         "direction": "backward"
       }
     ]
@@ -937,130 +975,110 @@
         "short": "Dahlkemper",
         "x": 78.16,
         "y": 23.73,
-        "size": 125.2,
+        "size": 117.9,
         "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.3707
+        "betweenness": 0.3667,
+        "eigenvector": 0.3715
       },
       {
         "id": "Alex Greenwood",
         "short": "Greenwood",
         "x": 61.81,
         "y": 11.72,
-        "size": 134.6,
+        "size": 126.4,
         "is_playmaker": false,
-        "betweenness": 0.0492,
-        "eigenvector": 0.6016
+        "betweenness": 0.0611,
+        "eigenvector": 0.5981
       },
       {
         "id": "Lucy Bronze",
         "short": "Bronze",
         "x": 60.4,
         "y": 69.94,
-        "size": 101.1,
+        "size": 111.3,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0
+        "betweenness": 0.3667,
+        "eigenvector": 0.0448
       },
       {
         "id": "Georgia Stanway",
         "short": "Stanway",
         "x": 56.45,
         "y": 54.15,
-        "size": 80.1,
+        "size": 77.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0232
       },
       {
         "id": "Lauren Hemp",
         "short": "Hemp",
         "x": 42.71,
         "y": 12.55,
-        "size": 99.0,
-        "is_playmaker": true,
-        "betweenness": 0.0682,
-        "eigenvector": 0.5329
+        "size": 94.4,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.5288
       },
       {
         "id": "Ellie Roebuck",
         "short": "Roebuck",
         "x": 108.6,
         "y": 40.14,
-        "size": 81.2,
+        "size": 78.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.041
+        "eigenvector": 0.044
       },
       {
         "id": "Caroline Weir",
         "short": "Weir",
         "x": 58.99,
         "y": 27.99,
-        "size": 103.2,
+        "size": 98.2,
         "is_playmaker": false,
-        "betweenness": 0.0114,
-        "eigenvector": 0.3894
+        "betweenness": 0.0389,
+        "eigenvector": 0.3859
       },
       {
         "id": "Chloe Kelly",
         "short": "Kelly",
         "x": 31.28,
         "y": 64.77,
-        "size": 75.9,
+        "size": 73.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0178
       },
       {
         "id": "Ellen White",
         "short": "White",
         "x": 49.26,
         "y": 41.77,
-        "size": 64.4,
+        "size": 69.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2163
+        "eigenvector": 0.2253
       },
       {
         "id": "Stephanie Houghton",
         "short": "Houghton",
         "x": 83.14,
         "y": 53.89,
-        "size": 85.4,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.1283
+        "size": 97.3,
+        "is_playmaker": true,
+        "betweenness": 0.4889,
+        "eigenvector": 0.1379
       },
       {
         "id": "Keira Walsh",
         "short": "Walsh",
         "x": 69.54,
         "y": 43.4,
-        "size": 55.0,
+        "size": 60.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rosemary Kathleen Lavelle",
-        "short": "Lavelle",
-        "x": 59.79,
-        "y": 67.54,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Janine Elizabeth Beckie",
-        "short": "Beckie",
-        "x": 63.12,
-        "y": 44.24,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.033
       }
     ],
     "edges": [
@@ -1117,6 +1135,18 @@
         "target": "Chloe Kelly",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Lucy Bronze",
+        "target": "Ellen White",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Lucy Bronze",
+        "target": "Stephanie Houghton",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Georgia Stanway",
@@ -1182,6 +1212,18 @@
         "source": "Stephanie Houghton",
         "target": "Abby Dahlkemper",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Stephanie Houghton",
+        "target": "Keira Walsh",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Stephanie Houghton",
+        "target": "Lucy Bronze",
+        "weight": 5,
         "direction": "backward"
       }
     ]

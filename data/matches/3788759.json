@@ -739,130 +739,110 @@
         "short": "Stones",
         "x": 42.96,
         "y": 57.38,
-        "size": 126.0,
+        "size": 125.6,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.5332
+        "betweenness": 0.1778,
+        "eigenvector": 0.5343
       },
       {
         "id": "Reece James",
         "short": "James",
-        "x": 63.23,
-        "y": 70.78,
-        "size": 149.2,
+        "x": 63.15,
+        "y": 70.77,
+        "size": 139.4,
         "is_playmaker": true,
-        "betweenness": 0.197,
-        "eigenvector": 0.5644
+        "betweenness": 0.2444,
+        "eigenvector": 0.5332
       },
       {
         "id": "Tyrone Mings",
         "short": "Mings",
-        "x": 42.0,
-        "y": 28.79,
-        "size": 101.3,
+        "x": 40.97,
+        "y": 29.36,
+        "size": 97.9,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.3136
+        "betweenness": 0.1333,
+        "eigenvector": 0.3175
       },
       {
         "id": "Luke Shaw",
         "short": "Shaw",
-        "x": 65.57,
-        "y": 8.01,
-        "size": 109.8,
-        "is_playmaker": false,
-        "betweenness": 0.1515,
-        "eigenvector": 0.2235
+        "x": 64.05,
+        "y": 8.39,
+        "size": 116.6,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.2764
       },
       {
         "id": "Kalvin Phillips",
         "short": "Phillips",
-        "x": 63.28,
-        "y": 49.19,
-        "size": 74.3,
+        "x": 62.37,
+        "y": 49.38,
+        "size": 83.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2324
+        "eigenvector": 0.2075
       },
       {
         "id": "Mason Mount",
         "short": "Mount",
         "x": 74.39,
         "y": 22.77,
-        "size": 73.5,
+        "size": 76.5,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.0863
+        "betweenness": 0.0,
+        "eigenvector": 0.1008
       },
       {
         "id": "Philip Foden",
         "short": "Foden",
         "x": 76.44,
         "y": 60.87,
-        "size": 72.8,
+        "size": 70.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2033
+        "eigenvector": 0.1815
       },
       {
         "id": "Declan Rice",
         "short": "Rice",
-        "x": 57.81,
-        "y": 41.37,
-        "size": 116.8,
-        "is_playmaker": true,
-        "betweenness": 0.25,
-        "eigenvector": 0.3726
-      },
-      {
-        "id": "Jack Grealish",
-        "short": "Grealish",
-        "x": 74.15,
-        "y": 14.08,
-        "size": 63.5,
+        "x": 58.06,
+        "y": 41.8,
+        "size": 115.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0633
+        "betweenness": 0.2222,
+        "eigenvector": 0.4003
       },
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
-        "x": 80.17,
-        "y": 30.78,
-        "size": 62.7,
+        "x": 79.19,
+        "y": 29.61,
+        "size": 61.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0575
-      },
-      {
-        "id": "Jordan Pickford",
-        "short": "Pickford",
-        "x": 13.07,
-        "y": 38.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0672
       },
       {
         "id": "Harry Kane",
         "short": "Kane",
         "x": 84.65,
         "y": 16.44,
-        "size": 55.0,
+        "size": 59.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0403
       },
       {
-        "id": "Marcus Rashford",
-        "short": "Rashford",
-        "x": 88.55,
-        "y": 16.52,
-        "size": 55.0,
+        "id": "Jordan Pickford",
+        "short": "Pickford",
+        "x": 13.07,
+        "y": 38.15,
+        "size": 57.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0207
       }
     ],
     "edges": [
@@ -883,6 +863,12 @@
         "target": "Tyrone Mings",
         "weight": 10,
         "direction": "lateral"
+      },
+      {
+        "source": "John Stones",
+        "target": "Jordan Pickford",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Reece James",
@@ -921,15 +907,15 @@
         "direction": "lateral"
       },
       {
-        "source": "Luke Shaw",
-        "target": "Mason Mount",
-        "weight": 15,
-        "direction": "forward"
+        "source": "Tyrone Mings",
+        "target": "Jordan Pickford",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Luke Shaw",
-        "target": "Jack Grealish",
-        "weight": 11,
+        "target": "Mason Mount",
+        "weight": 15,
         "direction": "forward"
       },
       {
@@ -945,15 +931,45 @@
         "direction": "backward"
       },
       {
+        "source": "Luke Shaw",
+        "target": "Declan Rice",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Luke Shaw",
+        "target": "Harry Kane",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Kalvin Phillips",
         "target": "Reece James",
         "weight": 9,
         "direction": "lateral"
       },
       {
+        "source": "Kalvin Phillips",
+        "target": "John Stones",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Kalvin Phillips",
+        "target": "Luke Shaw",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Mason Mount",
         "target": "Declan Rice",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Mason Mount",
+        "target": "Luke Shaw",
+        "weight": 7,
         "direction": "backward"
       },
       {
@@ -985,6 +1001,18 @@
         "target": "Luke Shaw",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Jordan Pickford",
+        "target": "Tyrone Mings",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jordan Pickford",
+        "target": "John Stones",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -993,132 +1021,112 @@
       {
         "id": "Scott McTominay",
         "short": "McTominay",
-        "x": 71.04,
-        "y": 59.83,
-        "size": 123.2,
+        "x": 70.39,
+        "y": 59.79,
+        "size": 115.0,
         "is_playmaker": true,
-        "betweenness": 0.0379,
-        "eigenvector": 0.0024
+        "betweenness": 0.1889,
+        "eigenvector": 0.4301
       },
       {
         "id": "Stephen O''Donnell",
         "short": "O''Donnell",
-        "x": 58.41,
-        "y": 72.17,
-        "size": 80.9,
+        "x": 57.66,
+        "y": 71.7,
+        "size": 79.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.2923
       },
       {
         "id": "David Marshall",
         "short": "Marshall",
         "x": 107.06,
         "y": 43.06,
-        "size": 76.2,
+        "size": 76.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.0848
       },
       {
         "id": "Lyndon Dykes",
         "short": "Dykes",
         "x": 46.42,
         "y": 33.13,
-        "size": 76.2,
+        "size": 68.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Callum McGregor",
-        "short": "McGregor",
-        "x": 56.46,
-        "y": 30.39,
-        "size": 97.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Andrew Robertson",
-        "short": "Robertson",
-        "x": 48.28,
-        "y": 17.32,
-        "size": 92.6,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0
+        "eigenvector": 0.0471
       },
       {
         "id": "Billy Gilmour",
         "short": "Gilmour",
         "x": 57.28,
         "y": 42.24,
-        "size": 123.2,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kieran Tierney",
-        "short": "Tierney",
-        "x": 66.62,
-        "y": 20.63,
-        "size": 123.2,
+        "size": 124.2,
         "is_playmaker": true,
-        "betweenness": 0.0379,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Grant Campbell Hanley",
-        "short": "Hanley",
-        "x": 83.5,
-        "y": 41.55,
-        "size": 102.1,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Che Adams",
-        "short": "Adams",
-        "x": 43.47,
-        "y": 31.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.4992
       },
       {
         "id": "John McGinn",
         "short": "McGinn",
         "x": 51.99,
         "y": 47.65,
-        "size": 55.0,
+        "size": 64.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.185
       },
       {
-        "id": "Stuart Armstrong",
-        "short": "Armstrong",
-        "x": 39.73,
-        "y": 21.11,
-        "size": 55.0,
+        "id": "Che Adams",
+        "short": "Adams",
+        "x": 45.18,
+        "y": 29.38,
+        "size": 62.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0903
       },
       {
-        "id": "Kevin Nisbet",
-        "short": "Nisbet",
-        "x": 75.8,
-        "y": 68.25,
-        "size": 55.0,
+        "id": "Kieran Tierney",
+        "short": "Tierney",
+        "x": 66.94,
+        "y": 20.52,
+        "size": 118.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.4039
+      },
+      {
+        "id": "Callum McGregor",
+        "short": "McGregor",
+        "x": 55.57,
+        "y": 30.48,
+        "size": 111.9,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.391
+      },
+      {
+        "id": "Andrew Robertson",
+        "short": "Robertson",
+        "x": 49.42,
+        "y": 17.2,
+        "size": 90.4,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.1933
+      },
+      {
+        "id": "Grant Campbell Hanley",
+        "short": "Hanley",
+        "x": 83.5,
+        "y": 41.55,
+        "size": 93.5,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.2744
       }
     ],
     "edges": [
@@ -1129,10 +1137,64 @@
         "direction": "backward"
       },
       {
+        "source": "Scott McTominay",
+        "target": "Callum McGregor",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Scott McTominay",
+        "target": "Billy Gilmour",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Stephen O''Donnell",
+        "target": "Che Adams",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "David Marshall",
         "target": "Lyndon Dykes",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Billy Gilmour",
+        "target": "John McGinn",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Billy Gilmour",
+        "target": "Kieran Tierney",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Billy Gilmour",
+        "target": "Scott McTominay",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Kieran Tierney",
+        "target": "Callum McGregor",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Kieran Tierney",
+        "target": "Billy Gilmour",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Kieran Tierney",
+        "target": "Grant Campbell Hanley",
+        "weight": 11,
+        "direction": "forward"
       },
       {
         "source": "Callum McGregor",
@@ -1153,21 +1215,9 @@
         "direction": "forward"
       },
       {
-        "source": "Billy Gilmour",
-        "target": "Kieran Tierney",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Billy Gilmour",
-        "target": "Scott McTominay",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Kieran Tierney",
-        "target": "Grant Campbell Hanley",
-        "weight": 11,
+        "source": "Andrew Robertson",
+        "target": "Callum McGregor",
+        "weight": 7,
         "direction": "forward"
       },
       {
@@ -1175,6 +1225,12 @@
         "target": "Scott McTominay",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Grant Campbell Hanley",
+        "target": "David Marshall",
+        "weight": 5,
+        "direction": "forward"
       }
     ]
   },

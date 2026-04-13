@@ -991,77 +991,77 @@
         "short": "Torres",
         "x": 53.18,
         "y": 69.97,
-        "size": 154.6,
-        "is_playmaker": true,
-        "betweenness": 0.1182,
-        "eigenvector": 0.529
+        "size": 141.8,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.4854
       },
       {
         "id": "Jair Ventura Filho",
         "short": "Filho",
         "x": 74.4,
         "y": 68.91,
-        "size": 106.1,
+        "size": 110.8,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4691
+        "betweenness": 0.0889,
+        "eigenvector": 0.5285
       },
       {
         "id": "Clodoaldo Tavares de Santana",
         "short": "Santana",
-        "x": 54.48,
-        "y": 45.43,
-        "size": 125.1,
+        "x": 53.96,
+        "y": 46.32,
+        "size": 116.1,
         "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.5031
+        "betweenness": 0.1111,
+        "eigenvector": 0.4611
       },
       {
         "id": "Roberto Rivelino",
         "short": "Rivelino",
         "x": 59.7,
         "y": 43.6,
-        "size": 121.7,
+        "size": 123.7,
         "is_playmaker": true,
-        "betweenness": 0.1545,
-        "eigenvector": 0.456
+        "betweenness": 0.4222,
+        "eigenvector": 0.3941
       },
       {
         "id": "Félix Miéli Venerando",
         "short": "Venerando",
         "x": 8.44,
         "y": 39.68,
-        "size": 75.8,
+        "size": 74.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.0001
       },
       {
         "id": "Everaldo Marques da Silva",
         "short": "Silva",
-        "x": 44.27,
-        "y": 13.74,
-        "size": 101.8,
-        "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.1324
+        "x": 43.42,
+        "y": 14.08,
+        "size": 97.3,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.1092
       },
       {
         "id": "Paulo Cézar Lima",
         "short": "Lima",
         "x": 65.62,
         "y": 10.07,
-        "size": 75.8,
+        "size": 73.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0499
+        "eigenvector": 0.0393
       },
       {
         "id": "Hercules Brito Ruas",
         "short": "Ruas",
         "x": 31.81,
         "y": 55.39,
-        "size": 64.5,
+        "size": 63.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1069,42 +1069,32 @@
       {
         "id": "Édson Arantes do Nascimento",
         "short": "Nascimento",
-        "x": 66.56,
-        "y": 44.45,
-        "size": 69.7,
+        "x": 67.08,
+        "y": 44.91,
+        "size": 85.2,
         "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.1382
+        "betweenness": 0.1222,
+        "eigenvector": 0.3144
       },
       {
         "id": "Eduardo Gonçalves de Andrade",
         "short": "Andrade",
         "x": 77.29,
         "y": 35.59,
-        "size": 55.0,
+        "size": 61.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0697
       },
       {
         "id": "Wilson da Silva Piazza",
         "short": "Piazza",
         "x": 26.47,
         "y": 26.79,
-        "size": 55.0,
+        "size": 58.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Roberto Lopes de Miranda",
-        "short": "Miranda",
-        "x": 86.16,
-        "y": 17.92,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.003
       }
     ],
     "edges": [
@@ -1145,6 +1135,12 @@
         "direction": "backward"
       },
       {
+        "source": "Jair Ventura Filho",
+        "target": "Édson Arantes do Nascimento",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Clodoaldo Tavares de Santana",
         "target": "Carlos Alberto Torres",
         "weight": 16,
@@ -1181,6 +1177,18 @@
         "direction": "backward"
       },
       {
+        "source": "Roberto Rivelino",
+        "target": "Édson Arantes do Nascimento",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Roberto Rivelino",
+        "target": "Jair Ventura Filho",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Félix Miéli Venerando",
         "target": "Everaldo Marques da Silva",
         "weight": 13,
@@ -1190,6 +1198,12 @@
         "source": "Félix Miéli Venerando",
         "target": "Carlos Alberto Torres",
         "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Félix Miéli Venerando",
+        "target": "Wilson da Silva Piazza",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1211,6 +1225,12 @@
         "direction": "forward"
       },
       {
+        "source": "Everaldo Marques da Silva",
+        "target": "Wilson da Silva Piazza",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Paulo Cézar Lima",
         "target": "Roberto Rivelino",
         "weight": 11,
@@ -1227,107 +1247,125 @@
         "target": "Jair Ventura Filho",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Édson Arantes do Nascimento",
+        "target": "Eduardo Gonçalves de Andrade",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Wilson da Silva Piazza",
+        "target": "Everaldo Marques da Silva",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wilson da Silva Piazza",
+        "target": "Félix Miéli Venerando",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
+        "id": "Terence Cooper",
+        "short": "Cooper",
+        "x": 66.83,
+        "y": 10.74,
+        "size": 112.9,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.4253
+      },
+      {
+        "id": "Martin Stanford Peters",
+        "short": "Peters",
+        "x": 58.53,
+        "y": 19.55,
+        "size": 79.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2354
+      },
+      {
         "id": "Tommy Wright",
         "short": "Wright",
-        "x": 59.85,
-        "y": 66.41,
-        "size": 150.5,
+        "x": 61.08,
+        "y": 66.55,
+        "size": 131.1,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.4096
+      },
+      {
+        "id": "Alan Patrick Mullery",
+        "short": "Mullery",
+        "x": 62.79,
+        "y": 38.98,
+        "size": 133.2,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0001
+        "betweenness": 0.1722,
+        "eigenvector": 0.4859
       },
       {
         "id": "Bobby Charlton",
         "short": "Charlton",
         "x": 55.81,
         "y": 46.22,
-        "size": 81.9,
+        "size": 98.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0001
-      },
-      {
-        "id": "Alan Patrick Mullery",
-        "short": "Mullery",
-        "x": 61.67,
-        "y": 39.03,
-        "size": 156.5,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0001
-      },
-      {
-        "id": "Terence Cooper",
-        "short": "Cooper",
-        "x": 64.78,
-        "y": 11.19,
-        "size": 159.5,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.6455
-      },
-      {
-        "id": "Martin Stanford Peters",
-        "short": "Peters",
-        "x": 58.13,
-        "y": 19.29,
-        "size": 126.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7637
+        "betweenness": 0.0333,
+        "eigenvector": 0.3454
       },
       {
         "id": "Bobby Moore",
         "short": "Moore",
-        "x": 78.52,
-        "y": 27.51,
-        "size": 55.0,
+        "x": 80.28,
+        "y": 26.02,
+        "size": 108.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.3824
       },
       {
         "id": "Alan James Ball",
         "short": "Ball",
         "x": 59.13,
         "y": 54.28,
-        "size": 55.0,
+        "size": 83.4,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.1937
+      },
+      {
+        "id": "Geoffrey Charles Hurst",
+        "short": "Hurst",
+        "x": 37.93,
+        "y": 39.24,
+        "size": 62.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1345
       },
       {
         "id": "Francis Henry Lee",
         "short": "Lee",
         "x": 39.88,
         "y": 53.58,
-        "size": 55.0,
+        "size": 68.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Geoffrey Charles Hurst",
-        "short": "Hurst",
-        "x": 35.29,
-        "y": 35.33,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1953
       },
       {
         "id": "Gordon Banks",
         "short": "Banks",
         "x": 110.31,
         "y": 41.6,
-        "size": 55.0,
+        "size": 68.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1335,40 +1373,38 @@
       {
         "id": "Brian Leslie Labone",
         "short": "Labone",
-        "x": 77.15,
-        "y": 53.74,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Colin Bell",
-        "short": "Bell",
-        "x": 46.85,
-        "y": 43.23,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jeffrey Astle",
-        "short": "Astle",
-        "x": 16.42,
-        "y": 30.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 78.11,
+        "y": 54.41,
+        "size": 59.1,
+        "is_playmaker": true,
+        "betweenness": 0.1833,
+        "eigenvector": 0.0238
       }
     ],
     "edges": [
       {
-        "source": "Tommy Wright",
-        "target": "Bobby Charlton",
-        "weight": 9,
+        "source": "Terence Cooper",
+        "target": "Martin Stanford Peters",
+        "weight": 14,
         "direction": "backward"
+      },
+      {
+        "source": "Terence Cooper",
+        "target": "Bobby Moore",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Terence Cooper",
+        "target": "Alan Patrick Mullery",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Martin Stanford Peters",
+        "target": "Terence Cooper",
+        "weight": 10,
+        "direction": "forward"
       },
       {
         "source": "Tommy Wright",
@@ -1377,10 +1413,40 @@
         "direction": "lateral"
       },
       {
+        "source": "Tommy Wright",
+        "target": "Bobby Charlton",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Tommy Wright",
+        "target": "Francis Henry Lee",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Tommy Wright",
+        "target": "Bobby Moore",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Tommy Wright",
+        "target": "Alan James Ball",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Tommy Wright",
+        "target": "Brian Leslie Labone",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Alan Patrick Mullery",
         "target": "Terence Cooper",
         "weight": 11,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Alan Patrick Mullery",
@@ -1389,16 +1455,100 @@
         "direction": "lateral"
       },
       {
-        "source": "Terence Cooper",
-        "target": "Martin Stanford Peters",
-        "weight": 14,
+        "source": "Alan Patrick Mullery",
+        "target": "Bobby Charlton",
+        "weight": 8,
         "direction": "backward"
       },
       {
-        "source": "Martin Stanford Peters",
-        "target": "Terence Cooper",
-        "weight": 10,
+        "source": "Alan Patrick Mullery",
+        "target": "Geoffrey Charles Hurst",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Alan Patrick Mullery",
+        "target": "Bobby Moore",
+        "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Bobby Charlton",
+        "target": "Alan James Ball",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Bobby Charlton",
+        "target": "Tommy Wright",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Bobby Charlton",
+        "target": "Francis Henry Lee",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Bobby Moore",
+        "target": "Tommy Wright",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Bobby Moore",
+        "target": "Terence Cooper",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Bobby Moore",
+        "target": "Alan Patrick Mullery",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Alan James Ball",
+        "target": "Alan Patrick Mullery",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alan James Ball",
+        "target": "Bobby Charlton",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alan James Ball",
+        "target": "Brian Leslie Labone",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gordon Banks",
+        "target": "Bobby Moore",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Gordon Banks",
+        "target": "Tommy Wright",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Brian Leslie Labone",
+        "target": "Alan James Ball",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Brian Leslie Labone",
+        "target": "Tommy Wright",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

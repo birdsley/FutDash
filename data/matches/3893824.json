@@ -691,87 +691,87 @@
         "short": "Littlejohn",
         "x": 48.2,
         "y": 24.31,
-        "size": 111.3,
+        "size": 104.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5102
+        "eigenvector": 0.4667
       },
       {
         "id": "Katie McCabe",
         "short": "McCabe",
         "x": 55.97,
         "y": 15.48,
-        "size": 109.8,
+        "size": 107.8,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.6246
+        "betweenness": 0.0667,
+        "eigenvector": 0.5705
       },
       {
         "id": "Megan Connolly",
         "short": "Connolly",
         "x": 42.56,
         "y": 17.89,
-        "size": 140.9,
-        "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.509
+        "size": 136.6,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.5484
       },
       {
         "id": "Sinead Farrelly",
         "short": "Farrelly",
         "x": 65.41,
         "y": 18.78,
-        "size": 87.7,
+        "size": 89.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2629
+        "eigenvector": 0.2609
       },
       {
         "id": "Louise Quinn",
         "short": "Quinn",
-        "x": 38.0,
-        "y": 40.18,
-        "size": 83.9,
-        "is_playmaker": false,
-        "betweenness": 0.1212,
-        "eigenvector": 0.1461
+        "x": 38.3,
+        "y": 39.98,
+        "size": 90.5,
+        "is_playmaker": true,
+        "betweenness": 0.4444,
+        "eigenvector": 0.2791
       },
       {
         "id": "Niamh Fahey",
         "short": "Fahey",
-        "x": 49.17,
-        "y": 63.85,
-        "size": 118.1,
+        "x": 46.7,
+        "y": 63.42,
+        "size": 115.9,
         "is_playmaker": true,
-        "betweenness": 0.1515,
-        "eigenvector": 0.0
+        "betweenness": 0.4889,
+        "eigenvector": 0.0832
       },
       {
         "id": "Heather Payne",
         "short": "Payne",
         "x": 63.59,
         "y": 75.07,
-        "size": 83.9,
+        "size": 85.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0411
       },
       {
         "id": "Denise O'Sullivan",
         "short": "O'Sullivan",
-        "x": 68.83,
-        "y": 59.07,
-        "size": 80.9,
+        "x": 69.65,
+        "y": 59.1,
+        "size": 84.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0384
       },
       {
         "id": "Courtney Brosnan",
         "short": "Brosnan",
         "x": 10.28,
         "y": 40.68,
-        "size": 71.0,
+        "size": 69.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -781,9 +781,9 @@
         "short": "Agg",
         "x": 51.45,
         "y": 48.79,
-        "size": 62.6,
+        "size": 63.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0667,
         "eigenvector": 0.0
       },
       {
@@ -791,30 +791,10 @@
         "short": "Carusa",
         "x": 82.71,
         "y": 48.32,
-        "size": 55.0,
+        "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marissa Maeve Sheva",
-        "short": "Sheva",
-        "x": 73.29,
-        "y": 77.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Abbie Larkin",
-        "short": "Larkin",
-        "x": 62.75,
-        "y": 66.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.001
       }
     ],
     "edges": [
@@ -840,6 +820,12 @@
         "source": "Katie McCabe",
         "target": "Megan Connolly",
         "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Louise Quinn",
+        "weight": 7,
         "direction": "backward"
       },
       {
@@ -879,9 +865,21 @@
         "direction": "backward"
       },
       {
+        "source": "Sinead Farrelly",
+        "target": "Megan Connolly",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
         "source": "Louise Quinn",
         "target": "Megan Connolly",
         "weight": 15,
+        "direction": "forward"
+      },
+      {
+        "source": "Louise Quinn",
+        "target": "Niamh Fahey",
+        "weight": 8,
         "direction": "forward"
       },
       {
@@ -921,6 +919,18 @@
         "direction": "backward"
       },
       {
+        "source": "Denise O'Sullivan",
+        "target": "Heather Payne",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Denise O'Sullivan",
+        "target": "Kyra Carusa",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Courtney Brosnan",
         "target": "Megan Connolly",
         "weight": 11,
@@ -936,159 +946,201 @@
         "source": "Lily Agg",
         "target": "Niamh Fahey",
         "weight": 10,
-        "direction": "lateral"
+        "direction": "backward"
+      },
+      {
+        "source": "Lily Agg",
+        "target": "Kyra Carusa",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kyra Carusa",
+        "target": "Denise O'Sullivan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Kyra Carusa",
+        "target": "Lily Agg",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
+        "id": "Oluwatosin Blessing Demehin",
+        "short": "Demehin",
+        "x": 81.94,
+        "y": 24.25,
+        "size": 107.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.4107
+      },
+      {
+        "id": "Osinachi Marvis Ohale",
+        "short": "Ohale",
+        "x": 78.86,
+        "y": 52.45,
+        "size": 124.8,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.5268
+      },
+      {
+        "id": "Ashleigh Plumptre",
+        "short": "Plumptre",
+        "x": 64.22,
+        "y": 9.45,
+        "size": 112.3,
+        "is_playmaker": true,
+        "betweenness": 0.1667,
+        "eigenvector": 0.2179
+      },
+      {
         "id": "Michelle Alozie",
         "short": "Alozie",
-        "x": 63.47,
-        "y": 70.59,
-        "size": 146.9,
-        "is_playmaker": true,
-        "betweenness": 0.0897,
-        "eigenvector": 0.462
+        "x": 64.77,
+        "y": 70.16,
+        "size": 120.6,
+        "is_playmaker": false,
+        "betweenness": 0.0278,
+        "eigenvector": 0.4532
+      },
+      {
+        "id": "Christy Onyenaturuchi Ucheibe",
+        "short": "Ucheibe",
+        "x": 66.54,
+        "y": 46.85,
+        "size": 101.9,
+        "is_playmaker": false,
+        "betweenness": 0.1389,
+        "eigenvector": 0.359
       },
       {
         "id": "Rasheedat Busayo Ajibade",
         "short": "Ajibade",
         "x": 50.08,
         "y": 34.62,
-        "size": 85.6,
+        "size": 76.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2976
-      },
-      {
-        "id": "Christy Onyenaturuchi Ucheibe",
-        "short": "Ucheibe",
-        "x": 67.38,
-        "y": 47.58,
-        "size": 87.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2651
-      },
-      {
-        "id": "Osinachi Marvis Ohale",
-        "short": "Ohale",
-        "x": 79.5,
-        "y": 52.78,
-        "size": 145.3,
-        "is_playmaker": true,
-        "betweenness": 0.0897,
-        "eigenvector": 0.565
+        "betweenness": 0.05,
+        "eigenvector": 0.2661
       },
       {
         "id": "Halimatu Ibrahim Ayinde",
         "short": "Ayinde",
-        "x": 63.6,
-        "y": 35.69,
-        "size": 77.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1892
-      },
-      {
-        "id": "Ashleigh Plumptre",
-        "short": "Plumptre",
-        "x": 64.85,
-        "y": 9.6,
-        "size": 106.6,
-        "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.2064
-      },
-      {
-        "id": "Oluwatosin Blessing Demehin",
-        "short": "Demehin",
-        "x": 81.88,
-        "y": 24.46,
-        "size": 135.6,
-        "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.4796
-      },
-      {
-        "id": "Antionette Oyedupe Payne",
-        "short": "Payne",
-        "x": 50.79,
-        "y": 46.66,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 66.04,
+        "y": 36.72,
+        "size": 102.9,
+        "is_playmaker": true,
+        "betweenness": 0.2389,
+        "eigenvector": 0.288
       },
       {
         "id": "Uchenna Kanu",
         "short": "Kanu",
         "x": 52.36,
         "y": 18.0,
-        "size": 55.0,
+        "size": 66.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Asisat Lamina Oshoala",
-        "short": "Oshoala",
-        "x": 42.9,
-        "y": 36.08,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gift Nyakno Monday",
-        "short": "Monday",
-        "x": 40.9,
-        "y": 68.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ifeoma Onumonu",
-        "short": "Onumonu",
-        "x": 44.7,
-        "y": 36.7,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0554
       },
       {
         "id": "Chiamaka Cynthia Nnadozie",
         "short": "Nnadozie",
         "x": 111.46,
         "y": 42.29,
-        "size": 55.0,
+        "size": 66.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Onome Ebi",
-        "short": "Ebi",
-        "x": 97.3,
-        "y": 27.5,
-        "size": 55.0,
+        "id": "Antionette Oyedupe Payne",
+        "short": "Payne",
+        "x": 50.79,
+        "y": 46.66,
+        "size": 66.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.1227
+      },
+      {
+        "id": "Asisat Lamina Oshoala",
+        "short": "Oshoala",
+        "x": 42.9,
+        "y": 36.08,
+        "size": 59.2,
+        "is_playmaker": false,
+        "betweenness": 0.0833,
+        "eigenvector": 0.0165
       }
     ],
     "edges": [
       {
-        "source": "Michelle Alozie",
-        "target": "Rasheedat Busayo Ajibade",
+        "source": "Oluwatosin Blessing Demehin",
+        "target": "Osinachi Marvis Ohale",
+        "weight": 15,
+        "direction": "lateral"
+      },
+      {
+        "source": "Oluwatosin Blessing Demehin",
+        "target": "Ashleigh Plumptre",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Osinachi Marvis Ohale",
+        "target": "Oluwatosin Blessing Demehin",
+        "weight": 13,
+        "direction": "lateral"
+      },
+      {
+        "source": "Osinachi Marvis Ohale",
+        "target": "Michelle Alozie",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Osinachi Marvis Ohale",
+        "target": "Halimatu Ibrahim Ayinde",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ashleigh Plumptre",
+        "target": "Oluwatosin Blessing Demehin",
+        "weight": 13,
+        "direction": "forward"
+      },
+      {
+        "source": "Ashleigh Plumptre",
+        "target": "Rasheedat Busayo Ajibade",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Ashleigh Plumptre",
+        "target": "Uchenna Kanu",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Ashleigh Plumptre",
+        "target": "Halimatu Ibrahim Ayinde",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ashleigh Plumptre",
+        "target": "Christy Onyenaturuchi Ucheibe",
+        "weight": 6,
+        "direction": "lateral"
       },
       {
         "source": "Michelle Alozie",
@@ -1103,28 +1155,34 @@
         "direction": "forward"
       },
       {
+        "source": "Michelle Alozie",
+        "target": "Rasheedat Busayo Ajibade",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
         "source": "Christy Onyenaturuchi Ucheibe",
         "target": "Michelle Alozie",
         "weight": 8,
         "direction": "lateral"
       },
       {
-        "source": "Osinachi Marvis Ohale",
+        "source": "Christy Onyenaturuchi Ucheibe",
         "target": "Halimatu Ibrahim Ayinde",
-        "weight": 7,
-        "direction": "backward"
-      },
-      {
-        "source": "Osinachi Marvis Ohale",
-        "target": "Michelle Alozie",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Osinachi Marvis Ohale",
-        "target": "Oluwatosin Blessing Demehin",
-        "weight": 13,
+        "weight": 5,
         "direction": "lateral"
+      },
+      {
+        "source": "Christy Onyenaturuchi Ucheibe",
+        "target": "Antionette Oyedupe Payne",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Rasheedat Busayo Ajibade",
+        "target": "Asisat Lamina Oshoala",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Halimatu Ibrahim Ayinde",
@@ -1133,28 +1191,64 @@
         "direction": "lateral"
       },
       {
-        "source": "Ashleigh Plumptre",
-        "target": "Oluwatosin Blessing Demehin",
-        "weight": 13,
+        "source": "Halimatu Ibrahim Ayinde",
+        "target": "Osinachi Marvis Ohale",
+        "weight": 6,
         "direction": "forward"
       },
       {
-        "source": "Ashleigh Plumptre",
-        "target": "Rasheedat Busayo Ajibade",
-        "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Oluwatosin Blessing Demehin",
-        "target": "Osinachi Marvis Ohale",
-        "weight": 15,
+        "source": "Halimatu Ibrahim Ayinde",
+        "target": "Christy Onyenaturuchi Ucheibe",
+        "weight": 5,
         "direction": "lateral"
       },
       {
-        "source": "Oluwatosin Blessing Demehin",
+        "source": "Halimatu Ibrahim Ayinde",
         "target": "Ashleigh Plumptre",
-        "weight": 9,
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Halimatu Ibrahim Ayinde",
+        "target": "Antionette Oyedupe Payne",
+        "weight": 5,
         "direction": "backward"
+      },
+      {
+        "source": "Uchenna Kanu",
+        "target": "Christy Onyenaturuchi Ucheibe",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Chiamaka Cynthia Nnadozie",
+        "target": "Michelle Alozie",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Chiamaka Cynthia Nnadozie",
+        "target": "Osinachi Marvis Ohale",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Antionette Oyedupe Payne",
+        "target": "Asisat Lamina Oshoala",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Asisat Lamina Oshoala",
+        "target": "Rasheedat Busayo Ajibade",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Asisat Lamina Oshoala",
+        "target": "Antionette Oyedupe Payne",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

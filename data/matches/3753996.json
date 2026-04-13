@@ -797,142 +797,112 @@
       {
         "id": "Francesc Fàbregas i Soler",
         "short": "Soler",
-        "x": 68.42,
-        "y": 37.97,
-        "size": 162.9,
+        "x": 68.18,
+        "y": 37.85,
+        "size": 149.5,
         "is_playmaker": true,
-        "betweenness": 0.1346,
-        "eigenvector": 0.5161
+        "betweenness": 0.4778,
+        "eigenvector": 0.5073
       },
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
         "x": 76.22,
         "y": 19.27,
-        "size": 87.2,
+        "size": 88.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2459
+        "eigenvector": 0.3363
       },
       {
         "id": "Eden Hazard",
         "short": "Hazard",
         "x": 87.55,
         "y": 27.7,
-        "size": 126.9,
+        "size": 128.8,
         "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.5231
+        "betweenness": 0.1444,
+        "eigenvector": 0.5438
       },
       {
         "id": "Branislav Ivanović",
         "short": "Ivanović",
         "x": 69.64,
         "y": 70.33,
-        "size": 91.7,
+        "size": 97.7,
         "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.286
+        "betweenness": 0.0667,
+        "eigenvector": 0.2436
       },
       {
         "id": "Willian Borges da Silva",
         "short": "Silva",
         "x": 82.55,
         "y": 47.16,
-        "size": 102.2,
+        "size": 95.8,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.5124
+        "betweenness": 0.0111,
+        "eigenvector": 0.4526
       },
       {
         "id": "Nemanja Matić",
         "short": "Matić",
-        "x": 68.4,
-        "y": 32.58,
-        "size": 104.4,
-        "is_playmaker": true,
-        "betweenness": 0.0577,
-        "eigenvector": 0.1762
+        "x": 68.61,
+        "y": 32.39,
+        "size": 108.1,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.209
       },
       {
         "id": "Robert Kenedy Nunes do Nascimento",
         "short": "Nascimento",
         "x": 66.99,
         "y": 12.22,
-        "size": 94.7,
+        "size": 89.3,
         "is_playmaker": false,
-        "betweenness": 0.0449,
-        "eigenvector": 0.07
+        "betweenness": 0.0,
+        "eigenvector": 0.0848
       },
       {
         "id": "John Terry",
         "short": "Terry",
         "x": 44.15,
         "y": 27.42,
-        "size": 62.5,
+        "size": 69.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.0404
       },
       {
         "id": "Diego da Silva Costa",
         "short": "Costa",
-        "x": 87.58,
-        "y": 31.13,
-        "size": 62.5,
+        "x": 88.49,
+        "y": 31.91,
+        "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1385
-      },
-      {
-        "id": "Kurt Happy Zouma",
-        "short": "Zouma",
-        "x": 44.52,
-        "y": 51.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1304
       },
       {
         "id": "Asmir Begović",
         "short": "Begović",
         "x": 12.9,
         "y": 41.3,
-        "size": 55.0,
+        "size": 57.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0013
       },
       {
-        "id": "Oscar dos Santos Emboaba Júnior",
-        "short": "Júnior",
-        "x": 73.12,
-        "y": 20.88,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ramires Santos do Nascimento",
-        "short": "Nascimento",
-        "x": 75.4,
-        "y": 24.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "César Azpilicueta Tanco",
-        "short": "Tanco",
-        "x": 37.6,
-        "y": 15.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Kurt Happy Zouma",
+        "short": "Zouma",
+        "x": 44.52,
+        "y": 51.64,
+        "size": 58.9,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0132
       }
     ],
     "edges": [
@@ -967,6 +937,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Francesc Fàbregas i Soler",
+        "target": "Kurt Happy Zouma",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Francesc Fàbregas i Soler",
         "weight": 14,
@@ -997,6 +973,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Eden Hazard",
+        "target": "Pedro Eliezer Rodríguez Ledesma",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
         "source": "Branislav Ivanović",
         "target": "Willian Borges da Silva",
         "weight": 15,
@@ -1006,6 +988,18 @@
         "source": "Branislav Ivanović",
         "target": "Francesc Fàbregas i Soler",
         "weight": 13,
+        "direction": "lateral"
+      },
+      {
+        "source": "Branislav Ivanović",
+        "target": "Eden Hazard",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Branislav Ivanović",
+        "target": "Nemanja Matić",
+        "weight": 8,
         "direction": "lateral"
       },
       {
@@ -1039,6 +1033,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Nemanja Matić",
+        "target": "John Terry",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Robert Kenedy Nunes do Nascimento",
         "target": "Francesc Fàbregas i Soler",
         "weight": 14,
@@ -1055,6 +1055,48 @@
         "target": "Robert Kenedy Nunes do Nascimento",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "John Terry",
+        "target": "Asmir Begović",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "John Terry",
+        "target": "Kurt Happy Zouma",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Asmir Begović",
+        "target": "Kurt Happy Zouma",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Asmir Begović",
+        "target": "John Terry",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kurt Happy Zouma",
+        "target": "Asmir Begović",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Kurt Happy Zouma",
+        "target": "John Terry",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kurt Happy Zouma",
+        "target": "Francesc Fàbregas i Soler",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1063,142 +1105,112 @@
       {
         "id": "Martin Olsson",
         "short": "Olsson",
-        "x": 42.45,
-        "y": 5.87,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "x": 42.86,
+        "y": 6.2,
+        "size": 95.0,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.1828
       },
       {
         "id": "Robert Brady",
         "short": "Brady",
-        "x": 43.32,
-        "y": 13.7,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "x": 43.83,
+        "y": 14.26,
+        "size": 106.2,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.5734
       },
       {
         "id": "Nathan Redmond",
         "short": "Redmond",
-        "x": 45.54,
-        "y": 34.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Gary O''Neil",
-        "short": "O''Neil",
-        "x": 57.25,
-        "y": 42.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Youssouf Chafiq Mulumbu Ngangu",
-        "short": "Ngangu",
-        "x": 61.97,
-        "y": 35.21,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Dieumerci Mbokani Bezua",
-        "short": "Bezua",
-        "x": 41.84,
-        "y": 28.22,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "x": 44.32,
+        "y": 32.48,
+        "size": 117.4,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.6109
       },
       {
         "id": "Sébastien Aymar Bassong Nguena",
         "short": "Nguena",
-        "x": 75.77,
-        "y": 20.13,
-        "size": 55.0,
+        "x": 76.78,
+        "y": 20.71,
+        "size": 80.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1333,
+        "eigenvector": 0.0874
       },
       {
-        "id": "Andre Wisdom",
-        "short": "Wisdom",
-        "x": 63.38,
-        "y": 66.02,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "id": "Gary O''Neil",
+        "short": "O''Neil",
+        "x": 57.46,
+        "y": 42.14,
+        "size": 131.8,
+        "is_playmaker": true,
+        "betweenness": 0.7,
+        "eigenvector": 0.3822
       },
       {
         "id": "Jonathan Howson",
         "short": "Howson",
         "x": 69.06,
         "y": 52.84,
-        "size": 55.0,
+        "size": 87.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "John Ruddy",
-        "short": "Ruddy",
-        "x": 107.19,
-        "y": 36.47,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1,
+        "eigenvector": 0.1717
       },
       {
         "id": "Ryan Bennett",
         "short": "Bennett",
         "x": 76.9,
         "y": 56.23,
-        "size": 55.0,
+        "size": 79.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.2,
+        "eigenvector": 0.1524
       },
       {
-        "id": "Wes Hoolahan",
-        "short": "Hoolahan",
-        "x": 43.43,
-        "y": 32.13,
-        "size": 55.0,
+        "id": "John Ruddy",
+        "short": "Ruddy",
+        "x": 107.19,
+        "y": 36.47,
+        "size": 79.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.0222,
+        "eigenvector": 0.0729
       },
       {
-        "id": "Graham Dorrans",
-        "short": "Dorrans",
-        "x": 57.3,
-        "y": 23.64,
-        "size": 55.0,
+        "id": "Youssouf Chafiq Mulumbu Ngangu",
+        "short": "Ngangu",
+        "x": 61.97,
+        "y": 35.21,
+        "size": 77.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.0778,
+        "eigenvector": 0.0548
       },
       {
-        "id": "Cameron Jerome",
-        "short": "Jerome",
-        "x": 35.03,
-        "y": 61.3,
-        "size": 55.0,
+        "id": "Andre Wisdom",
+        "short": "Wisdom",
+        "x": 64.48,
+        "y": 65.42,
+        "size": 77.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.0667,
+        "eigenvector": 0.0486
+      },
+      {
+        "id": "Dieumerci Mbokani Bezua",
+        "short": "Bezua",
+        "x": 41.84,
+        "y": 28.22,
+        "size": 74.2,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.2181
       }
     ],
     "edges": [
@@ -1206,6 +1218,144 @@
         "source": "Martin Olsson",
         "target": "Robert Brady",
         "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Martin Olsson",
+        "target": "Nathan Redmond",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Martin Olsson",
+        "target": "Sébastien Aymar Bassong Nguena",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Brady",
+        "target": "Nathan Redmond",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nathan Redmond",
+        "target": "Gary O''Neil",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Nathan Redmond",
+        "target": "Robert Brady",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nathan Redmond",
+        "target": "Dieumerci Mbokani Bezua",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sébastien Aymar Bassong Nguena",
+        "target": "Gary O''Neil",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Martin Olsson",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Jonathan Howson",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Ryan Bennett",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Nathan Redmond",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Robert Brady",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Howson",
+        "target": "Nathan Redmond",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Howson",
+        "target": "Youssouf Chafiq Mulumbu Ngangu",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "John Ruddy",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "Andre Wisdom",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "John Ruddy",
+        "target": "Sébastien Aymar Bassong Nguena",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "John Ruddy",
+        "target": "Dieumerci Mbokani Bezua",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Youssouf Chafiq Mulumbu Ngangu",
+        "target": "Robert Brady",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Youssouf Chafiq Mulumbu Ngangu",
+        "target": "Gary O''Neil",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Andre Wisdom",
+        "target": "Jonathan Howson",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Andre Wisdom",
+        "target": "Gary O''Neil",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Dieumerci Mbokani Bezua",
+        "target": "Robert Brady",
+        "weight": 4,
         "direction": "lateral"
       }
     ]

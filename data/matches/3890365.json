@@ -775,110 +775,110 @@
         "short": "Papastathop",
         "x": 49.27,
         "y": 53.55,
-        "size": 124.5,
+        "size": 121.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4274
+        "betweenness": 0.2333,
+        "eigenvector": 0.3968
       },
       {
         "id": "İlkay Gündoğan",
         "short": "Gündoğan",
-        "x": 63.85,
-        "y": 56.77,
-        "size": 124.5,
-        "is_playmaker": true,
-        "betweenness": 0.1222,
-        "eigenvector": 0.4605
+        "x": 64.08,
+        "y": 57.38,
+        "size": 120.7,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.4154
       },
       {
         "id": "Mats Hummels",
         "short": "Hummels",
         "x": 52.41,
         "y": 24.5,
-        "size": 139.4,
+        "size": 129.8,
         "is_playmaker": false,
-        "betweenness": 0.1111,
-        "eigenvector": 0.4842
+        "betweenness": 0.1333,
+        "eigenvector": 0.4771
       },
       {
         "id": "Shinji Kagawa",
         "short": "Kagawa",
         "x": 73.55,
         "y": 22.55,
-        "size": 116.0,
-        "is_playmaker": false,
-        "betweenness": 0.1222,
-        "eigenvector": 0.383
+        "size": 123.6,
+        "is_playmaker": true,
+        "betweenness": 0.5556,
+        "eigenvector": 0.445
       },
       {
         "id": "Julian Weigl",
         "short": "Weigl",
         "x": 61.76,
         "y": 31.78,
-        "size": 128.4,
-        "is_playmaker": true,
-        "betweenness": 0.1333,
-        "eigenvector": 0.425
+        "size": 124.1,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.4478
       },
       {
         "id": "Henrikh Mkhitaryan",
         "short": "Mkhitaryan",
         "x": 87.4,
         "y": 31.71,
-        "size": 62.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0906
+        "size": 69.2,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0982
       },
       {
         "id": "Marcel Schmelzer",
         "short": "Schmelzer",
         "x": 84.34,
         "y": 6.31,
-        "size": 75.1,
+        "size": 72.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1592
+        "eigenvector": 0.1641
       },
       {
         "id": "Matthias Ginter",
         "short": "Ginter",
         "x": 80.27,
         "y": 71.37,
-        "size": 69.3,
+        "size": 72.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0998
+        "betweenness": 0.0333,
+        "eigenvector": 0.084
       },
       {
         "id": "Gonzalo Castro Randon",
         "short": "Randon",
         "x": 87.65,
         "y": 47.14,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0018
       },
       {
         "id": "Pierre-Emerick Aubameyang",
         "short": "Aubameyang",
         "x": 85.89,
         "y": 42.58,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0018
       },
       {
         "id": "Roman Bürki",
         "short": "Bürki",
         "x": 14.04,
         "y": 40.03,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0161
       }
     ],
     "edges": [
@@ -901,6 +901,12 @@
         "direction": "forward"
       },
       {
+        "source": "Sokratis Papastathopoulos",
+        "target": "Roman Bürki",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "İlkay Gündoğan",
         "target": "Sokratis Papastathopoulos",
         "weight": 20,
@@ -916,6 +922,12 @@
         "source": "İlkay Gündoğan",
         "target": "Matthias Ginter",
         "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "İlkay Gündoğan",
+        "target": "Shinji Kagawa",
+        "weight": 9,
         "direction": "forward"
       },
       {
@@ -943,6 +955,12 @@
         "direction": "forward"
       },
       {
+        "source": "Mats Hummels",
+        "target": "Roman Bürki",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Shinji Kagawa",
         "target": "Mats Hummels",
         "weight": 23,
@@ -959,6 +977,12 @@
         "target": "Marcel Schmelzer",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Shinji Kagawa",
+        "target": "Julian Weigl",
+        "weight": 9,
+        "direction": "backward"
       },
       {
         "source": "Julian Weigl",
@@ -991,6 +1015,24 @@
         "direction": "forward"
       },
       {
+        "source": "Henrikh Mkhitaryan",
+        "target": "Shinji Kagawa",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Henrikh Mkhitaryan",
+        "target": "Gonzalo Castro Randon",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Henrikh Mkhitaryan",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Marcel Schmelzer",
         "target": "Shinji Kagawa",
         "weight": 11,
@@ -1001,6 +1043,48 @@
         "target": "İlkay Gündoğan",
         "weight": 11,
         "direction": "backward"
+      },
+      {
+        "source": "Matthias Ginter",
+        "target": "Sokratis Papastathopoulos",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Gonzalo Castro Randon",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gonzalo Castro Randon",
+        "target": "Henrikh Mkhitaryan",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Gonzalo Castro Randon",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Henrikh Mkhitaryan",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roman Bürki",
+        "target": "Sokratis Papastathopoulos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Roman Bürki",
+        "target": "Mats Hummels",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1011,140 +1095,110 @@
         "short": "Neustädter",
         "x": 87.62,
         "y": 55.01,
-        "size": 87.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 107.2,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.2684
       },
       {
         "id": "Uilson de Souza Paula Júnior",
         "short": "Júnior",
-        "x": 68.98,
-        "y": 74.95,
-        "size": 196.0,
-        "is_playmaker": true,
-        "betweenness": 0.0321,
-        "eigenvector": 0.6032
+        "x": 69.18,
+        "y": 74.7,
+        "size": 130.2,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.4841
       },
       {
         "id": "Leon Goretzka",
         "short": "Goretzka",
-        "x": 69.14,
-        "y": 50.57,
-        "size": 166.5,
-        "is_playmaker": true,
-        "betweenness": 0.0256,
-        "eigenvector": 0.6558
+        "x": 68.99,
+        "y": 50.15,
+        "size": 121.2,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.5087
       },
       {
         "id": "Sead Kolašinac",
         "short": "Kolašinac",
-        "x": 74.02,
-        "y": 32.31,
-        "size": 81.2,
+        "x": 73.35,
+        "y": 33.67,
+        "size": 93.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.3293
       },
       {
         "id": "Dennis Aogo",
         "short": "Aogo",
-        "x": 65.64,
-        "y": 9.23,
-        "size": 114.0,
+        "x": 64.59,
+        "y": 9.63,
+        "size": 125.1,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.3586
       },
       {
         "id": "Franco Matías Di Santo",
         "short": "Santo",
-        "x": 56.72,
-        "y": 64.56,
-        "size": 84.5,
+        "x": 58.1,
+        "y": 65.91,
+        "size": 72.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.454
+        "eigenvector": 0.2243
       },
       {
         "id": "Leroy Sané",
         "short": "Sané",
-        "x": 41.31,
-        "y": 36.77,
-        "size": 55.0,
+        "x": 38.89,
+        "y": 45.9,
+        "size": 69.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2419
       },
       {
         "id": "Joël Andre Job Matip",
         "short": "Matip",
-        "x": 77.48,
-        "y": 27.82,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 78.11,
+        "y": 29.45,
+        "size": 86.8,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.1785
       },
       {
         "id": "Klaas-Jan Huntelaar",
         "short": "Huntelaar",
-        "x": 55.27,
-        "y": 36.41,
-        "size": 55.0,
+        "x": 58.1,
+        "y": 40.45,
+        "size": 67.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2169
       },
       {
         "id": "Ralf Fährmann",
         "short": "Fährmann",
-        "x": 108.5,
-        "y": 40.4,
-        "size": 55.0,
+        "x": 109.52,
+        "y": 41.1,
+        "size": 71.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0967
       },
       {
         "id": "Max Meyer",
         "short": "Meyer",
         "x": 72.88,
         "y": 14.88,
-        "size": 55.0,
+        "size": 60.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pierre-Emile Højbjerg",
-        "short": "Højbjerg",
-        "x": 66.51,
-        "y": 21.57,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jean-Eric Maxim Choupo-Moting",
-        "short": "Choupo-Moti",
-        "x": 69.0,
-        "y": 4.98,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Felix Platte",
-        "short": "Platte",
-        "x": 70.99,
-        "y": 61.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.0277
       }
     ],
     "edges": [
@@ -1153,6 +1207,18 @@
         "target": "Uilson de Souza Paula Júnior",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Roman Neustädter",
+        "target": "Sead Kolašinac",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Roman Neustädter",
+        "target": "Ralf Fährmann",
+        "weight": 7,
+        "direction": "forward"
       },
       {
         "source": "Uilson de Souza Paula Júnior",
@@ -1167,10 +1233,40 @@
         "direction": "backward"
       },
       {
+        "source": "Uilson de Souza Paula Júnior",
+        "target": "Klaas-Jan Huntelaar",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Uilson de Souza Paula Júnior",
+        "target": "Leroy Sané",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Leon Goretzka",
+        "target": "Roman Neustädter",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Leon Goretzka",
         "target": "Uilson de Souza Paula Júnior",
         "weight": 11,
         "direction": "lateral"
+      },
+      {
+        "source": "Leon Goretzka",
+        "target": "Dennis Aogo",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Leon Goretzka",
+        "target": "Sead Kolašinac",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Sead Kolašinac",
@@ -1179,10 +1275,88 @@
         "direction": "backward"
       },
       {
+        "source": "Sead Kolašinac",
+        "target": "Joël Andre Job Matip",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Dennis Aogo",
+        "target": "Sead Kolašinac",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Dennis Aogo",
+        "target": "Leroy Sané",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Dennis Aogo",
         "target": "Leon Goretzka",
         "weight": 10,
-        "direction": "lateral"
+        "direction": "forward"
+      },
+      {
+        "source": "Dennis Aogo",
+        "target": "Joël Andre Job Matip",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Dennis Aogo",
+        "target": "Klaas-Jan Huntelaar",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Dennis Aogo",
+        "target": "Max Meyer",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Franco Matías Di Santo",
+        "target": "Uilson de Souza Paula Júnior",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Joël Andre Job Matip",
+        "target": "Dennis Aogo",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Joël Andre Job Matip",
+        "target": "Roman Neustädter",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Joël Andre Job Matip",
+        "target": "Max Meyer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ralf Fährmann",
+        "target": "Roman Neustädter",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Max Meyer",
+        "target": "Dennis Aogo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Max Meyer",
+        "target": "Joël Andre Job Matip",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

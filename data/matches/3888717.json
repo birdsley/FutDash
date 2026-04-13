@@ -751,67 +751,67 @@
         "short": "Krol",
         "x": 63.33,
         "y": 12.1,
-        "size": 121.0,
+        "size": 117.7,
         "is_playmaker": false,
-        "betweenness": 0.0889,
-        "eigenvector": 0.453
+        "betweenness": 0.0944,
+        "eigenvector": 0.4283
       },
       {
         "id": "Rob Rensenbrink",
         "short": "Rensenbrink",
         "x": 76.61,
         "y": 16.63,
-        "size": 117.8,
+        "size": 108.6,
         "is_playmaker": false,
-        "betweenness": 0.0222,
-        "eigenvector": 0.5649
+        "betweenness": 0.0,
+        "eigenvector": 0.4918
       },
       {
         "id": "Willem van Hanegem",
         "short": "Hanegem",
         "x": 71.71,
         "y": 28.22,
-        "size": 103.9,
-        "is_playmaker": true,
-        "betweenness": 0.1056,
-        "eigenvector": 0.4788
+        "size": 109.5,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.4411
       },
       {
         "id": "Johan Neeskens",
         "short": "Neeskens",
         "x": 77.11,
         "y": 45.47,
-        "size": 119.9,
-        "is_playmaker": true,
-        "betweenness": 0.2,
-        "eigenvector": 0.2769
+        "size": 110.5,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.3064
       },
       {
         "id": "Johnny Rep",
         "short": "Rep",
         "x": 77.57,
         "y": 69.41,
-        "size": 86.9,
+        "size": 82.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1783
+        "eigenvector": 0.1811
       },
       {
         "id": "Wim Jansen",
         "short": "Jansen",
         "x": 70.03,
         "y": 41.54,
-        "size": 81.6,
+        "size": 90.5,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.1463
+        "betweenness": 0.1667,
+        "eigenvector": 0.1501
       },
       {
         "id": "Jan Jongbloed",
         "short": "Jongbloed",
         "x": 11.88,
         "y": 36.62,
-        "size": 64.6,
+        "size": 63.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -821,40 +821,40 @@
         "short": "Haan",
         "x": 40.13,
         "y": 36.13,
-        "size": 82.7,
+        "size": 86.8,
         "is_playmaker": false,
-        "betweenness": 0.0889,
-        "eigenvector": 0.0
+        "betweenness": 0.2944,
+        "eigenvector": 0.122
       },
       {
         "id": "Johan Cruyff",
         "short": "Cruyff",
         "x": 69.66,
         "y": 42.43,
-        "size": 92.2,
+        "size": 93.2,
         "is_playmaker": false,
-        "betweenness": 0.1,
-        "eigenvector": 0.3307
+        "betweenness": 0.0111,
+        "eigenvector": 0.4564
       },
       {
         "id": "Wim Suurbier",
         "short": "Suurbier",
         "x": 60.16,
         "y": 58.57,
-        "size": 79.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0846
+        "size": 84.1,
+        "is_playmaker": true,
+        "betweenness": 0.4278,
+        "eigenvector": 0.0874
       },
       {
         "id": "Wim Rijsbergen",
         "short": "Rijsbergen",
         "x": 48.75,
         "y": 46.84,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 58.6,
+        "is_playmaker": true,
+        "betweenness": 0.3167,
+        "eigenvector": 0.0085
       }
     ],
     "edges": [
@@ -869,6 +869,12 @@
         "target": "Willem van Hanegem",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Ruud Krol",
+        "target": "Arie Haan",
+        "weight": 7,
+        "direction": "backward"
       },
       {
         "source": "Rob Rensenbrink",
@@ -903,6 +909,12 @@
       {
         "source": "Willem van Hanegem",
         "target": "Wim Jansen",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Willem van Hanegem",
+        "target": "Johan Cruyff",
         "weight": 7,
         "direction": "lateral"
       },
@@ -943,6 +955,12 @@
         "direction": "forward"
       },
       {
+        "source": "Wim Jansen",
+        "target": "Willem van Hanegem",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
         "source": "Jan Jongbloed",
         "target": "Arie Haan",
         "weight": 9,
@@ -958,6 +976,12 @@
         "source": "Arie Haan",
         "target": "Johan Cruyff",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Arie Haan",
+        "target": "Wim Rijsbergen",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -977,17 +1001,81 @@
         "target": "Johan Neeskens",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Wim Suurbier",
+        "target": "Wim Jansen",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Wim Suurbier",
+        "target": "Wim Rijsbergen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Wim Rijsbergen",
+        "target": "Arie Haan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Wim Rijsbergen",
+        "target": "Wim Suurbier",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
+        "id": "Roberto Marcelo Telch",
+        "short": "Telch",
+        "x": 75.95,
+        "y": 36.87,
+        "size": 113.6,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.6206
+      },
+      {
+        "id": "Carlos Vicente Squeo",
+        "short": "Squeo",
+        "x": 82.72,
+        "y": 25.13,
+        "size": 79.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3668
+      },
+      {
+        "id": "Francisco Pedro Manuel Sá",
+        "short": "Sá",
+        "x": 86.12,
+        "y": 19.14,
+        "size": 124.0,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Rubén Hugo Ayala",
+        "short": "Ayala",
+        "x": 52.99,
+        "y": 38.98,
+        "size": 63.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Daniel Alberto Carnevali",
         "short": "Carnevali",
-        "x": 109.56,
-        "y": 40.84,
-        "size": 85.5,
+        "x": 109.44,
+        "y": 40.26,
+        "size": 99.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -995,147 +1083,93 @@
       {
         "id": "Roberto Perfumo",
         "short": "Perfumo",
-        "x": 89.18,
-        "y": 45.04,
-        "size": 129.6,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
+        "x": 88.71,
+        "y": 44.05,
+        "size": 113.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
         "id": "Ramón Armando Heredia Ruarte",
         "short": "Ruarte",
-        "x": 75.91,
-        "y": 42.13,
-        "size": 197.4,
+        "x": 76.72,
+        "y": 41.17,
+        "size": 151.6,
         "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.6708
-      },
-      {
-        "id": "Roberto Marcelo Telch",
-        "short": "Telch",
-        "x": 75.07,
-        "y": 40.14,
-        "size": 122.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7416
-      },
-      {
-        "id": "Francisco Pedro Manuel Sá",
-        "short": "Sá",
-        "x": 86.12,
-        "y": 19.14,
-        "size": 112.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Carlos Vicente Squeo",
-        "short": "Squeo",
-        "x": 82.72,
-        "y": 25.13,
-        "size": 82.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Augustin Alberto Balbuena",
-        "short": "Balbuena",
-        "x": 72.53,
-        "y": 62.47,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rubén Hugo Ayala",
-        "short": "Ayala",
-        "x": 54.89,
-        "y": 40.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.5619
       },
       {
         "id": "Héctor Casimiro Yazalde",
         "short": "Yazalde",
         "x": 58.68,
         "y": 45.91,
-        "size": 55.0,
+        "size": 67.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3875
       },
       {
-        "id": "Rubén Oscar Glariá",
-        "short": "Glariá",
-        "x": 75.13,
-        "y": 69.78,
-        "size": 55.0,
+        "id": "Augustin Alberto Balbuena",
+        "short": "Balbuena",
+        "x": 71.88,
+        "y": 62.14,
+        "size": 61.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.013
       },
       {
         "id": "Enrique Ernesto Wolff Dos Santos",
         "short": "Santos",
         "x": 73.8,
         "y": 63.63,
-        "size": 55.0,
+        "size": 61.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.013
       },
       {
         "id": "René Orlando Houseman",
         "short": "Houseman",
         "x": 72.46,
         "y": 45.76,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mario Alberto Kempes Chiodi",
-        "short": "Chiodi",
-        "x": 53.5,
-        "y": 48.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 68.8,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.119
       }
     ],
     "edges": [
       {
-        "source": "Daniel Alberto Carnevali",
-        "target": "Roberto Perfumo",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Roberto Perfumo",
-        "target": "Ramón Armando Heredia Ruarte",
-        "weight": 13,
-        "direction": "backward"
-      },
-      {
-        "source": "Ramón Armando Heredia Ruarte",
-        "target": "Roberto Marcelo Telch",
-        "weight": 11,
-        "direction": "lateral"
+        "source": "Roberto Marcelo Telch",
+        "target": "Carlos Vicente Squeo",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Roberto Marcelo Telch",
         "target": "Ramón Armando Heredia Ruarte",
         "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roberto Marcelo Telch",
+        "target": "René Orlando Houseman",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Francisco Pedro Manuel Sá",
+        "target": "Rubén Hugo Ayala",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Francisco Pedro Manuel Sá",
+        "target": "Roberto Perfumo",
+        "weight": 7,
         "direction": "lateral"
       },
       {
@@ -1149,6 +1183,108 @@
         "target": "Ramón Armando Heredia Ruarte",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Carnevali",
+        "target": "Roberto Perfumo",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Carnevali",
+        "target": "Roberto Marcelo Telch",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Carnevali",
+        "target": "Francisco Pedro Manuel Sá",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Carnevali",
+        "target": "Ramón Armando Heredia Ruarte",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Perfumo",
+        "target": "Francisco Pedro Manuel Sá",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roberto Perfumo",
+        "target": "Ramón Armando Heredia Ruarte",
+        "weight": 13,
+        "direction": "backward"
+      },
+      {
+        "source": "Ramón Armando Heredia Ruarte",
+        "target": "Héctor Casimiro Yazalde",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ramón Armando Heredia Ruarte",
+        "target": "Roberto Marcelo Telch",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ramón Armando Heredia Ruarte",
+        "target": "René Orlando Houseman",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Augustin Alberto Balbuena",
+        "target": "Enrique Ernesto Wolff Dos Santos",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Augustin Alberto Balbuena",
+        "target": "René Orlando Houseman",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Enrique Ernesto Wolff Dos Santos",
+        "target": "Augustin Alberto Balbuena",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Enrique Ernesto Wolff Dos Santos",
+        "target": "René Orlando Houseman",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "René Orlando Houseman",
+        "target": "Augustin Alberto Balbuena",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "René Orlando Houseman",
+        "target": "Enrique Ernesto Wolff Dos Santos",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "René Orlando Houseman",
+        "target": "Ramón Armando Heredia Ruarte",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "René Orlando Houseman",
+        "target": "Roberto Marcelo Telch",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

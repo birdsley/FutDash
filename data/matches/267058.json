@@ -691,130 +691,110 @@
         "short": "Umtiti",
         "x": 51.92,
         "y": 29.65,
-        "size": 152.6,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.5658
+        "size": 143.2,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.5429
       },
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 54.45,
-        "y": 59.35,
-        "size": 155.3,
+        "x": 54.58,
+        "y": 59.5,
+        "size": 154.0,
         "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.54
+        "betweenness": 0.4185,
+        "eigenvector": 0.5426
       },
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
-        "x": 63.59,
-        "y": 30.39,
-        "size": 115.2,
-        "is_playmaker": false,
-        "betweenness": 0.0682,
-        "eigenvector": 0.4489
+        "x": 63.79,
+        "y": 30.85,
+        "size": 118.2,
+        "is_playmaker": true,
+        "betweenness": 0.2296,
+        "eigenvector": 0.4606
       },
       {
         "id": "Sergi Roberto Carnicer",
         "short": "Carnicer",
-        "x": 72.43,
-        "y": 71.51,
-        "size": 93.5,
+        "x": 72.2,
+        "y": 71.29,
+        "size": 94.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1655
+        "betweenness": 0.037,
+        "eigenvector": 0.2239
       },
       {
         "id": "Lucas Digne",
         "short": "Digne",
-        "x": 73.77,
-        "y": 8.97,
-        "size": 98.4,
+        "x": 72.57,
+        "y": 8.93,
+        "size": 98.6,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.3078
+        "betweenness": 0.0333,
+        "eigenvector": 0.2887
       },
       {
         "id": "Rafael Alcântara do Nascimento",
         "short": "Nascimento",
         "x": 74.96,
         "y": 27.81,
-        "size": 69.1,
+        "size": 73.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0795
+        "betweenness": 0.1759,
+        "eigenvector": 0.0716
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 80.58,
-        "y": 60.81,
-        "size": 70.2,
+        "x": 79.98,
+        "y": 61.5,
+        "size": 68.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1473
+        "eigenvector": 0.1564
       },
       {
         "id": "Denis Suárez Fernández",
         "short": "Fernández",
         "x": 76.6,
         "y": 61.93,
-        "size": 73.4,
+        "size": 71.7,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.1286
+        "betweenness": 0.0778,
+        "eigenvector": 0.1321
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
-        "x": 94.15,
-        "y": 23.0,
-        "size": 67.5,
+        "x": 94.17,
+        "y": 23.25,
+        "size": 67.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1415
-      },
-      {
-        "id": "Luis Alberto Suárez Díaz",
-        "short": "Díaz",
-        "x": 95.86,
-        "y": 33.54,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "André Filipe Tavares Gomes",
-        "short": "Gomes",
-        "x": 74.82,
-        "y": 32.18,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1759,
+        "eigenvector": 0.1349
       },
       {
         "id": "Marc-André ter Stegen",
         "short": "Stegen",
         "x": 16.42,
         "y": 42.87,
-        "size": 55.0,
+        "size": 58.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Francisco Alcácer García",
-        "short": "García",
-        "x": 82.1,
-        "y": 39.67,
-        "size": 55.0,
+        "id": "Luis Alberto Suárez Díaz",
+        "short": "Díaz",
+        "x": 94.43,
+        "y": 34.31,
+        "size": 57.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1981,
+        "eigenvector": 0.0032
       }
     ],
     "edges": [
@@ -891,6 +871,12 @@
         "direction": "forward"
       },
       {
+        "source": "Ivan Rakitić",
+        "target": "Sergi Roberto Carnicer",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
         "source": "Sergi Roberto Carnicer",
         "target": "Javier Alejandro Mascherano",
         "weight": 27,
@@ -927,15 +913,57 @@
         "direction": "forward"
       },
       {
+        "source": "Lucas Digne",
+        "target": "Ivan Rakitić",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
         "source": "Rafael Alcântara do Nascimento",
         "target": "Samuel Yves Umtiti",
         "weight": 10,
         "direction": "backward"
       },
       {
+        "source": "Rafael Alcântara do Nascimento",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Rafael Alcântara do Nascimento",
+        "target": "Luis Alberto Suárez Díaz",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Denis Suárez Fernández",
         "target": "Javier Alejandro Mascherano",
         "weight": 13,
+        "direction": "backward"
+      },
+      {
+        "source": "Neymar da Silva Santos Junior",
+        "target": "Luis Alberto Suárez Díaz",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Neymar da Silva Santos Junior",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Rafael Alcântara do Nascimento",
+        "weight": 1,
         "direction": "backward"
       }
     ]
@@ -943,91 +971,91 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Juan Isaac Cuenca López",
-        "short": "López",
-        "x": 62.56,
-        "y": 71.41,
-        "size": 148.3,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Uche Henry Agbo",
-        "short": "Agbo",
-        "x": 64.85,
-        "y": 40.89,
-        "size": 101.7,
+        "id": "Artem Kravets",
+        "short": "Kravets",
+        "x": 61.41,
+        "y": 31.8,
+        "size": 72.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.001
-      },
-      {
-        "id": "Gabriel Moisés Antunes da Silva",
-        "short": "Silva",
-        "x": 70.46,
-        "y": 10.32,
-        "size": 161.7,
-        "is_playmaker": true,
-        "betweenness": 0.0064,
-        "eigenvector": 0.0011
-      },
-      {
-        "id": "Andreas Hoelgebaum Pereira",
-        "short": "Pereira",
-        "x": 62.65,
-        "y": 12.4,
-        "size": 108.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Mehdi Carcela-González",
-        "short": "Carcela-Gon",
-        "x": 61.03,
-        "y": 59.18,
-        "size": 101.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.001
+        "eigenvector": 0.1586
       },
       {
         "id": "Jon Miquel Toral Harper",
         "short": "Harper",
         "x": 64.03,
         "y": 24.95,
-        "size": 108.3,
+        "size": 117.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.4409
       },
       {
-        "id": "Artem Kravets",
-        "short": "Kravets",
-        "x": 61.41,
-        "y": 31.8,
-        "size": 55.0,
+        "id": "Uche Henry Agbo",
+        "short": "Agbo",
+        "x": 63.76,
+        "y": 40.37,
+        "size": 139.4,
+        "is_playmaker": true,
+        "betweenness": 0.5,
+        "eigenvector": 0.372
+      },
+      {
+        "id": "Juan Isaac Cuenca López",
+        "short": "López",
+        "x": 62.66,
+        "y": 71.45,
+        "size": 108.3,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.1685
+      },
+      {
+        "id": "Gabriel Moisés Antunes da Silva",
+        "short": "Silva",
+        "x": 64.57,
+        "y": 8.96,
+        "size": 101.7,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.524
+      },
+      {
+        "id": "Andreas Hoelgebaum Pereira",
+        "short": "Pereira",
+        "x": 62.65,
+        "y": 12.4,
+        "size": 92.8,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.4078
+      },
+      {
+        "id": "Mehdi Carcela-González",
+        "short": "Carcela-Gon",
+        "x": 63.5,
+        "y": 59.39,
+        "size": 81.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2957
+      },
+      {
+        "id": "Rúben Miguel Nunes Vezo",
+        "short": "Vezo",
+        "x": 89.7,
+        "y": 58.72,
+        "size": 99.4,
+        "is_playmaker": true,
+        "betweenness": 0.3778,
+        "eigenvector": 0.2887
       },
       {
         "id": "Matthieu Saunier",
         "short": "Saunier",
         "x": 83.68,
         "y": 24.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rúben Miguel Nunes Vezo",
-        "short": "Vezo",
-        "x": 88.94,
-        "y": 59.92,
-        "size": 55.0,
+        "size": 63.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1035,55 +1063,67 @@
       {
         "id": "David Rodríguez Lombán",
         "short": "Lombán",
-        "x": 92.67,
-        "y": 43.11,
-        "size": 55.0,
+        "x": 95.09,
+        "y": 42.54,
+        "size": 63.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0311
       },
       {
         "id": "Francisco Guillermo Ochoa Magaña",
         "short": "Magaña",
         "x": 108.85,
         "y": 42.08,
-        "size": 55.0,
+        "size": 63.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "David Barral Torres",
-        "short": "Torres",
-        "x": 53.15,
-        "y": 40.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jeremie Boga",
-        "short": "Boga",
-        "x": 74.84,
-        "y": 16.88,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sergi Samper Montaña",
-        "short": "Montaña",
-        "x": 48.23,
-        "y": 35.32,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0311
       }
     ],
     "edges": [
+      {
+        "source": "Artem Kravets",
+        "target": "Jon Miquel Toral Harper",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jon Miquel Toral Harper",
+        "target": "Uche Henry Agbo",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jon Miquel Toral Harper",
+        "target": "Gabriel Moisés Antunes da Silva",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Uche Henry Agbo",
+        "target": "Gabriel Moisés Antunes da Silva",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Uche Henry Agbo",
+        "target": "Jon Miquel Toral Harper",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Uche Henry Agbo",
+        "target": "Rúben Miguel Nunes Vezo",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Uche Henry Agbo",
+        "target": "Mehdi Carcela-González",
+        "weight": 5,
+        "direction": "lateral"
+      },
       {
         "source": "Juan Isaac Cuenca López",
         "target": "Uche Henry Agbo",
@@ -1097,16 +1137,76 @@
         "direction": "lateral"
       },
       {
+        "source": "Juan Isaac Cuenca López",
+        "target": "Rúben Miguel Nunes Vezo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Gabriel Moisés Antunes da Silva",
         "target": "Andreas Hoelgebaum Pereira",
         "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Andreas Hoelgebaum Pereira",
+        "target": "Jon Miquel Toral Harper",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Andreas Hoelgebaum Pereira",
+        "target": "Artem Kravets",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rúben Miguel Nunes Vezo",
+        "target": "Juan Isaac Cuenca López",
+        "weight": 6,
         "direction": "backward"
       },
       {
-        "source": "Jon Miquel Toral Harper",
-        "target": "Gabriel Moisés Antunes da Silva",
-        "weight": 8,
+        "source": "Rúben Miguel Nunes Vezo",
+        "target": "David Rodríguez Lombán",
+        "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Rúben Miguel Nunes Vezo",
+        "target": "Francisco Guillermo Ochoa Magaña",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Matthieu Saunier",
+        "target": "Uche Henry Agbo",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "David Rodríguez Lombán",
+        "target": "Francisco Guillermo Ochoa Magaña",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "David Rodríguez Lombán",
+        "target": "Rúben Miguel Nunes Vezo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Francisco Guillermo Ochoa Magaña",
+        "target": "David Rodríguez Lombán",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Francisco Guillermo Ochoa Magaña",
+        "target": "Rúben Miguel Nunes Vezo",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

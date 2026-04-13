@@ -785,99 +785,99 @@
       {
         "id": "Adriano Correia Claro",
         "short": "Claro",
-        "x": 67.13,
-        "y": 11.24,
-        "size": 116.4,
+        "x": 66.21,
+        "y": 11.26,
+        "size": 115.2,
         "is_playmaker": false,
-        "betweenness": 0.1515,
-        "eigenvector": 0.5047
+        "betweenness": 0.1778,
+        "eigenvector": 0.5191
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
         "x": 86.44,
         "y": 16.55,
-        "size": 85.7,
+        "size": 93.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.339
+        "betweenness": 0.0444,
+        "eigenvector": 0.4397
       },
       {
         "id": "Martín Montoya Torralbo",
         "short": "Torralbo",
-        "x": 69.83,
-        "y": 70.32,
-        "size": 104.5,
+        "x": 69.47,
+        "y": 70.24,
+        "size": 99.0,
         "is_playmaker": false,
-        "betweenness": 0.1288,
-        "eigenvector": 0.1406
+        "betweenness": 0.2111,
+        "eigenvector": 0.1476
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 80.26,
-        "y": 60.62,
-        "size": 87.0,
+        "x": 80.31,
+        "y": 59.57,
+        "size": 89.0,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.1894
+        "betweenness": 0.0667,
+        "eigenvector": 0.2721
       },
       {
         "id": "Marc Bartra Aregall",
         "short": "Aregall",
         "x": 52.23,
         "y": 55.39,
-        "size": 87.0,
+        "size": 83.4,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.1845
+        "betweenness": 0.0333,
+        "eigenvector": 0.1465
       },
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
         "x": 49.12,
-        "y": 29.51,
-        "size": 132.1,
+        "y": 29.54,
+        "size": 129.1,
         "is_playmaker": true,
-        "betweenness": 0.2955,
-        "eigenvector": 0.4578
+        "betweenness": 0.2778,
+        "eigenvector": 0.3879
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 58.31,
-        "y": 40.93,
-        "size": 103.9,
+        "x": 58.22,
+        "y": 41.19,
+        "size": 104.0,
         "is_playmaker": true,
-        "betweenness": 0.2273,
-        "eigenvector": 0.2724
+        "betweenness": 0.3,
+        "eigenvector": 0.2151
       },
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
         "x": 69.48,
         "y": 56.04,
-        "size": 83.8,
+        "size": 80.6,
         "is_playmaker": false,
-        "betweenness": 0.1364,
-        "eigenvector": 0.1814
+        "betweenness": 0.2,
+        "eigenvector": 0.1499
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 71.69,
-        "y": 28.16,
-        "size": 87.6,
+        "x": 71.76,
+        "y": 28.35,
+        "size": 89.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4733
+        "betweenness": 0.1111,
+        "eigenvector": 0.448
       },
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
         "x": 78.64,
         "y": 43.24,
-        "size": 61.9,
+        "size": 61.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -887,27 +887,7 @@
         "short": "Muñoz",
         "x": 14.64,
         "y": 39.84,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sergi Roberto Carnicer",
-        "short": "Carnicer",
-        "x": 72.04,
-        "y": 53.09,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Luis Alberto Suárez Díaz",
-        "short": "Díaz",
-        "x": 84.15,
-        "y": 33.58,
-        "size": 55.0,
+        "size": 60.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -942,6 +922,12 @@
         "source": "Neymar da Silva Santos Junior",
         "target": "Xavier Hernández Creus",
         "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Neymar da Silva Santos Junior",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 10,
         "direction": "backward"
       },
       {
@@ -1017,6 +1003,12 @@
         "direction": "forward"
       },
       {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Adriano Correia Claro",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
         "source": "Ivan Rakitić",
         "target": "Sergio Busquets i Burgos",
         "weight": 13,
@@ -1029,157 +1021,272 @@
         "direction": "backward"
       },
       {
+        "source": "Xavier Hernández Creus",
+        "target": "Neymar da Silva Santos Junior",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Martín Montoya Torralbo",
         "weight": 11,
         "direction": "backward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 10,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "David Barral Torres",
-        "short": "Torres",
-        "x": 56.93,
-        "y": 33.93,
-        "size": 55.0,
+        "id": "Iván Ramis Barrios",
+        "short": "Barrios",
+        "x": 73.57,
+        "y": 29.97,
+        "size": 137.1,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
-      },
-      {
-        "id": "Simão Mate",
-        "short": "Mate",
-        "x": 58.03,
-        "y": 35.98,
-        "size": 55.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "betweenness": 0.3333,
+        "eigenvector": 0.4744
       },
       {
         "id": "Jordi Xumetra Feliu",
         "short": "Feliu",
         "x": 46.87,
         "y": 56.77,
-        "size": 55.0,
+        "size": 101.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
-      },
-      {
-        "id": "Antonio García Aranda",
-        "short": "Aranda",
-        "x": 76.25,
-        "y": 7.96,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
-      },
-      {
-        "id": "José Luis Morales Nogales",
-        "short": "Nogales",
-        "x": 55.37,
-        "y": 51.66,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
-      },
-      {
-        "id": "Iván Ramis Barrios",
-        "short": "Barrios",
-        "x": 74.33,
-        "y": 29.95,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
-      },
-      {
-        "id": "Diego Mariño Villar",
-        "short": "Villar",
-        "x": 109.32,
-        "y": 37.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "betweenness": 0.1,
+        "eigenvector": 0.6295
       },
       {
         "id": "Iván López Mendoza",
         "short": "Mendoza",
         "x": 70.84,
         "y": 70.11,
-        "size": 55.0,
+        "size": 87.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "eigenvector": 0.4044
       },
       {
         "id": "David Navarro Pedrós",
         "short": "Pedrós",
-        "x": 76.69,
-        "y": 56.71,
-        "size": 55.0,
+        "x": 77.1,
+        "y": 53.29,
+        "size": 90.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "eigenvector": 0.3254
       },
       {
-        "id": "Papa Kouly Diop",
-        "short": "Diop",
-        "x": 70.61,
-        "y": 44.42,
-        "size": 55.0,
+        "id": "Diego Mariño Villar",
+        "short": "Villar",
+        "x": 109.32,
+        "y": 37.17,
+        "size": 90.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "eigenvector": 0.0
+      },
+      {
+        "id": "David Barral Torres",
+        "short": "Torres",
+        "x": 56.98,
+        "y": 35.98,
+        "size": 101.4,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Antonio García Aranda",
+        "short": "Aranda",
+        "x": 76.54,
+        "y": 7.67,
+        "size": 101.4,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.3047
       },
       {
         "id": "Kalu Uche",
         "short": "Uche",
         "x": 55.43,
         "y": 37.91,
-        "size": 55.0,
+        "size": 87.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "betweenness": 0.0222,
+        "eigenvector": 0.0
       },
       {
-        "id": "David Remeseiro Salgueiro",
-        "short": "Salgueiro",
-        "x": 63.58,
-        "y": 50.23,
-        "size": 55.0,
+        "id": "José Luis Morales Nogales",
+        "short": "Nogales",
+        "x": 53.97,
+        "y": 43.76,
+        "size": 69.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "betweenness": 0.0444,
+        "eigenvector": 0.0
       },
       {
-        "id": "Víctor Casadesús Castaño",
-        "short": "Castaño",
-        "x": 63.01,
-        "y": 48.83,
-        "size": 55.0,
+        "id": "Simão Mate",
+        "short": "Mate",
+        "x": 59.12,
+        "y": 34.6,
+        "size": 69.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "betweenness": 0.0444,
+        "eigenvector": 0.0
       },
       {
-        "id": "José María Martín-Bejarano Serrano",
-        "short": "Serrano",
-        "x": 58.17,
-        "y": 25.57,
-        "size": 55.0,
+        "id": "Papa Kouly Diop",
+        "short": "Diop",
+        "x": 70.61,
+        "y": 44.42,
+        "size": 69.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2673
+        "betweenness": 0.1222,
+        "eigenvector": 0.1284
       }
     ],
-    "edges": []
+    "edges": [
+      {
+        "source": "Iván Ramis Barrios",
+        "target": "Jordi Xumetra Feliu",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Iván Ramis Barrios",
+        "target": "David Navarro Pedrós",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Iván Ramis Barrios",
+        "target": "Antonio García Aranda",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Iván Ramis Barrios",
+        "target": "Papa Kouly Diop",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jordi Xumetra Feliu",
+        "target": "Iván López Mendoza",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Iván López Mendoza",
+        "target": "Jordi Xumetra Feliu",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "David Navarro Pedrós",
+        "target": "Iván Ramis Barrios",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "David Navarro Pedrós",
+        "target": "Papa Kouly Diop",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Mariño Villar",
+        "target": "David Barral Torres",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Mariño Villar",
+        "target": "Kalu Uche",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "David Barral Torres",
+        "target": "Antonio García Aranda",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "David Barral Torres",
+        "target": "José Luis Morales Nogales",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "David Barral Torres",
+        "target": "Simão Mate",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Antonio García Aranda",
+        "target": "Iván Ramis Barrios",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kalu Uche",
+        "target": "José Luis Morales Nogales",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kalu Uche",
+        "target": "Simão Mate",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Luis Morales Nogales",
+        "target": "Kalu Uche",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Luis Morales Nogales",
+        "target": "David Barral Torres",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Simão Mate",
+        "target": "David Barral Torres",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Simão Mate",
+        "target": "Kalu Uche",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Papa Kouly Diop",
+        "target": "David Navarro Pedrós",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Papa Kouly Diop",
+        "target": "Iván Ramis Barrios",
+        "weight": 1,
+        "direction": "lateral"
+      }
+    ]
   },
   "vaep": {
     "home": [

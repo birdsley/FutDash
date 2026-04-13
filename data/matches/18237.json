@@ -1205,132 +1205,112 @@
       {
         "id": "Philipp Lahm",
         "short": "Lahm",
-        "x": 66.39,
-        "y": 67.24,
-        "size": 133.0,
-        "is_playmaker": true,
-        "betweenness": 0.0379,
-        "eigenvector": 0.4935
+        "x": 66.88,
+        "y": 67.11,
+        "size": 122.5,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.4677
       },
       {
         "id": "Arjen Robben",
         "short": "Robben",
-        "x": 88.02,
-        "y": 58.19,
-        "size": 101.2,
+        "x": 88.04,
+        "y": 58.56,
+        "size": 95.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4606
+        "eigenvector": 0.4282
       },
       {
         "id": "Bastian Schweinsteiger",
         "short": "Schweinstei",
-        "x": 63.52,
-        "y": 36.05,
-        "size": 105.8,
+        "x": 62.86,
+        "y": 37.33,
+        "size": 105.5,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.2933
+        "betweenness": 0.3556,
+        "eigenvector": 0.3498
       },
       {
         "id": "Toni Kroos",
         "short": "Kroos",
-        "x": 64.9,
-        "y": 31.62,
-        "size": 149.7,
+        "x": 64.83,
+        "y": 32.4,
+        "size": 144.2,
         "is_playmaker": true,
-        "betweenness": 0.1629,
-        "eigenvector": 0.5235
+        "betweenness": 0.4667,
+        "eigenvector": 0.5244
       },
       {
         "id": "Anatoliy Tymoshchuk",
         "short": "Tymoshchuk",
         "x": 53.74,
         "y": 53.32,
-        "size": 98.2,
+        "size": 109.4,
         "is_playmaker": false,
-        "betweenness": 0.0038,
-        "eigenvector": 0.2744
+        "betweenness": 0.3111,
+        "eigenvector": 0.2866
       },
       {
         "id": "Diego Armando Valentin Contento",
         "short": "Contento",
-        "x": 62.12,
-        "y": 14.47,
-        "size": 90.6,
+        "x": 62.22,
+        "y": 14.61,
+        "size": 85.8,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.1229
+        "betweenness": 0.0,
+        "eigenvector": 0.1311
       },
       {
         "id": "Franck Bilal Ribéry",
         "short": "Ribéry",
         "x": 82.53,
         "y": 20.7,
-        "size": 91.4,
+        "size": 86.5,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.3062
+        "betweenness": 0.0444,
+        "eigenvector": 0.2886
       },
       {
         "id": "Jérôme Boateng",
         "short": "Boateng",
         "x": 46.34,
         "y": 30.43,
-        "size": 70.2,
+        "size": 79.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.0576
       },
       {
         "id": "Thomas Müller",
         "short": "Müller",
         "x": 90.88,
         "y": 58.58,
-        "size": 55.0,
+        "size": 60.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1181
       },
       {
         "id": "Mario Gómez García",
         "short": "García",
         "x": 72.18,
         "y": 42.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 57.6,
+        "is_playmaker": true,
+        "betweenness": 0.3778,
+        "eigenvector": 0.0219
       },
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
         "x": 12.52,
         "y": 43.38,
-        "size": 55.0,
+        "size": 57.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ivica Olić",
-        "short": "Olić",
-        "x": 88.67,
-        "y": 12.44,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Daniel Van Buyten",
-        "short": "Buyten",
-        "x": 34.44,
-        "y": 56.44,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0086
       }
     ],
     "edges": [
@@ -1356,7 +1336,7 @@
         "source": "Philipp Lahm",
         "target": "Bastian Schweinsteiger",
         "weight": 9,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Arjen Robben",
@@ -1381,6 +1361,12 @@
         "target": "Anatoliy Tymoshchuk",
         "weight": 14,
         "direction": "backward"
+      },
+      {
+        "source": "Bastian Schweinsteiger",
+        "target": "Mario Gómez García",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Toni Kroos",
@@ -1413,6 +1399,18 @@
         "direction": "forward"
       },
       {
+        "source": "Toni Kroos",
+        "target": "Thomas Müller",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Mario Gómez García",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Anatoliy Tymoshchuk",
         "target": "Philipp Lahm",
         "weight": 19,
@@ -1423,6 +1421,24 @@
         "target": "Toni Kroos",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Anatoliy Tymoshchuk",
+        "target": "Jérôme Boateng",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Anatoliy Tymoshchuk",
+        "target": "Bastian Schweinsteiger",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Anatoliy Tymoshchuk",
+        "target": "Manuel Neuer",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Diego Armando Valentin Contento",
@@ -1453,160 +1469,212 @@
         "target": "Diego Armando Valentin Contento",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Jérôme Boateng",
+        "target": "Anatoliy Tymoshchuk",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Jérôme Boateng",
+        "target": "Manuel Neuer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Gómez García",
+        "target": "Bastian Schweinsteiger",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Gómez García",
+        "target": "Toni Kroos",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Manuel Neuer",
+        "target": "Jérôme Boateng",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Manuel Neuer",
+        "target": "Anatoliy Tymoshchuk",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Petr Čech",
-        "short": "Čech",
-        "x": 106.72,
-        "y": 37.75,
-        "size": 70.9,
+        "id": "John Michael Nchekwube Obinna",
+        "short": "Obinna",
+        "x": 68.59,
+        "y": 45.81,
+        "size": 116.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.4468
       },
       {
-        "id": "Didier Yves Drogba Tébily",
-        "short": "Tébily",
-        "x": 47.94,
-        "y": 40.31,
-        "size": 70.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ashley Cole",
-        "short": "Cole",
-        "x": 66.21,
-        "y": 12.77,
-        "size": 91.4,
-        "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.1066
+        "id": "Juan Manuel Mata García",
+        "short": "García",
+        "x": 54.29,
+        "y": 45.6,
+        "size": 118.8,
+        "is_playmaker": true,
+        "betweenness": 0.2778,
+        "eigenvector": 0.5004
       },
       {
         "id": "Frank Lampard",
         "short": "Lampard",
-        "x": 64.75,
-        "y": 34.9,
-        "size": 136.8,
+        "x": 64.95,
+        "y": 35.09,
+        "size": 129.1,
         "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.5645
+        "betweenness": 0.5056,
+        "eigenvector": 0.4794
+      },
+      {
+        "id": "Petr Čech",
+        "short": "Čech",
+        "x": 107.1,
+        "y": 37.52,
+        "size": 78.3,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.0699
+      },
+      {
+        "id": "Didier Yves Drogba Tébily",
+        "short": "Tébily",
+        "x": 48.13,
+        "y": 39.33,
+        "size": 77.4,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.142
+      },
+      {
+        "id": "Ashley Cole",
+        "short": "Cole",
+        "x": 67.35,
+        "y": 13.28,
+        "size": 84.3,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.106
+      },
+      {
+        "id": "Gary Cahill",
+        "short": "Cahill",
+        "x": 81.33,
+        "y": 55.88,
+        "size": 101.6,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.3264
+      },
+      {
+        "id": "David Luiz Moreira Marinho",
+        "short": "Marinho",
+        "x": 79.6,
+        "y": 23.2,
+        "size": 94.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2952
+      },
+      {
+        "id": "José Bosingwa da Silva",
+        "short": "Silva",
+        "x": 63.15,
+        "y": 69.03,
+        "size": 77.4,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.2722
       },
       {
         "id": "Salomon Armand Magloire Kalou",
         "short": "Kalou",
         "x": 54.48,
         "y": 58.87,
-        "size": 65.2,
+        "size": 68.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Juan Manuel Mata García",
-        "short": "García",
-        "x": 54.37,
-        "y": 45.54,
-        "size": 124.3,
-        "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.5775
-      },
-      {
-        "id": "José Bosingwa da Silva",
-        "short": "Silva",
-        "x": 62.0,
-        "y": 69.44,
-        "size": 76.6,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.2117
-      },
-      {
-        "id": "John Michael Nchekwube Obinna",
-        "short": "Obinna",
-        "x": 68.97,
-        "y": 45.76,
-        "size": 119.8,
-        "is_playmaker": false,
-        "betweenness": 0.0758,
-        "eigenvector": 0.4625
-      },
-      {
-        "id": "Gary Cahill",
-        "short": "Cahill",
-        "x": 81.07,
-        "y": 55.89,
-        "size": 86.8,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.096
-      },
-      {
-        "id": "David Luiz Moreira Marinho",
-        "short": "Marinho",
-        "x": 79.69,
-        "y": 22.83,
-        "size": 107.3,
-        "is_playmaker": true,
-        "betweenness": 0.0985,
-        "eigenvector": 0.2618
+        "eigenvector": 0.125
       },
       {
         "id": "Ryan Bertrand",
         "short": "Bertrand",
         "x": 52.19,
         "y": 14.5,
-        "size": 55.0,
+        "size": 58.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Fernando José Torres Sanz",
-        "short": "Sanz",
-        "x": 45.17,
-        "y": 65.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Florent Malouda",
-        "short": "Malouda",
-        "x": 46.25,
-        "y": 21.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.0209
       }
     ],
     "edges": [
       {
-        "source": "Petr Čech",
-        "target": "Didier Yves Drogba Tébily",
-        "weight": 14,
+        "source": "John Michael Nchekwube Obinna",
+        "target": "Juan Manuel Mata García",
+        "weight": 16,
         "direction": "backward"
       },
       {
-        "source": "Ashley Cole",
+        "source": "John Michael Nchekwube Obinna",
         "target": "Frank Lampard",
-        "weight": 14,
+        "weight": 8,
         "direction": "lateral"
       },
       {
-        "source": "Ashley Cole",
-        "target": "David Luiz Moreira Marinho",
-        "weight": 8,
+        "source": "John Michael Nchekwube Obinna",
+        "target": "José Bosingwa da Silva",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "John Michael Nchekwube Obinna",
+        "target": "Gary Cahill",
+        "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Juan Manuel Mata García",
+        "target": "Frank Lampard",
+        "weight": 15,
+        "direction": "forward"
+      },
+      {
+        "source": "Juan Manuel Mata García",
+        "target": "José Bosingwa da Silva",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Juan Manuel Mata García",
+        "target": "Salomon Armand Magloire Kalou",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Juan Manuel Mata García",
+        "target": "Didier Yves Drogba Tébily",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Frank Lampard",
+        "target": "John Michael Nchekwube Obinna",
+        "weight": 15,
+        "direction": "lateral"
       },
       {
         "source": "Frank Lampard",
@@ -1622,50 +1690,50 @@
       },
       {
         "source": "Frank Lampard",
-        "target": "John Michael Nchekwube Obinna",
-        "weight": 15,
+        "target": "Gary Cahill",
+        "weight": 6,
         "direction": "forward"
       },
       {
-        "source": "Salomon Armand Magloire Kalou",
-        "target": "Juan Manuel Mata García",
-        "weight": 9,
+        "source": "Frank Lampard",
+        "target": "Ryan Bertrand",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Petr Čech",
+        "target": "Didier Yves Drogba Tébily",
+        "weight": 14,
+        "direction": "backward"
+      },
+      {
+        "source": "Petr Čech",
+        "target": "Gary Cahill",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Didier Yves Drogba Tébily",
+        "target": "Frank Lampard",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Ashley Cole",
+        "target": "Frank Lampard",
+        "weight": 14,
         "direction": "lateral"
       },
       {
-        "source": "Juan Manuel Mata García",
-        "target": "José Bosingwa da Silva",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Juan Manuel Mata García",
-        "target": "Frank Lampard",
-        "weight": 15,
-        "direction": "forward"
-      },
-      {
-        "source": "José Bosingwa da Silva",
-        "target": "John Michael Nchekwube Obinna",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "John Michael Nchekwube Obinna",
-        "target": "Juan Manuel Mata García",
-        "weight": 16,
-        "direction": "backward"
-      },
-      {
-        "source": "John Michael Nchekwube Obinna",
-        "target": "Frank Lampard",
+        "source": "Ashley Cole",
+        "target": "David Luiz Moreira Marinho",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Gary Cahill",
-        "target": "John Michael Nchekwube Obinna",
-        "weight": 8,
+        "source": "Ashley Cole",
+        "target": "Ryan Bertrand",
+        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1675,16 +1743,52 @@
         "direction": "lateral"
       },
       {
-        "source": "David Luiz Moreira Marinho",
-        "target": "Gary Cahill",
-        "weight": 9,
-        "direction": "lateral"
+        "source": "Gary Cahill",
+        "target": "John Michael Nchekwube Obinna",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary Cahill",
+        "target": "Petr Čech",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "David Luiz Moreira Marinho",
         "target": "Ashley Cole",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "David Luiz Moreira Marinho",
+        "target": "Gary Cahill",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Bosingwa da Silva",
+        "target": "John Michael Nchekwube Obinna",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Salomon Armand Magloire Kalou",
+        "target": "Juan Manuel Mata García",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ryan Bertrand",
+        "target": "Ashley Cole",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ryan Bertrand",
+        "target": "Frank Lampard",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

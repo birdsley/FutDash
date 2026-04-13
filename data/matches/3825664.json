@@ -821,132 +821,112 @@
       {
         "id": "Yuri Berchiche Izeta",
         "short": "Izeta",
-        "x": 59.57,
-        "y": 8.07,
-        "size": 115.4,
+        "x": 58.52,
+        "y": 8.2,
+        "size": 112.8,
         "is_playmaker": false,
-        "betweenness": 0.1439,
-        "eigenvector": 0.1183
+        "betweenness": 0.2389,
+        "eigenvector": 0.143
       },
       {
         "id": "Sergio Canales Madrazo",
         "short": "Madrazo",
         "x": 72.63,
         "y": 25.74,
-        "size": 78.1,
+        "size": 80.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1498
+        "eigenvector": 0.1497
       },
       {
         "id": "Aritz Elustondo Irribaria",
         "short": "Irribaria",
-        "x": 65.44,
-        "y": 70.73,
-        "size": 135.2,
+        "x": 65.04,
+        "y": 70.91,
+        "size": 129.9,
         "is_playmaker": true,
-        "betweenness": 0.2045,
-        "eigenvector": 0.4969
+        "betweenness": 0.3833,
+        "eigenvector": 0.5444
       },
       {
         "id": "Xabier Prieto Argarate",
         "short": "Argarate",
-        "x": 80.78,
-        "y": 57.94,
-        "size": 124.2,
+        "x": 80.83,
+        "y": 57.2,
+        "size": 114.7,
         "is_playmaker": false,
-        "betweenness": 0.1515,
-        "eigenvector": 0.6174
+        "betweenness": 0.1667,
+        "eigenvector": 0.5874
       },
       {
         "id": "Rubén Pardo Gutiérrez",
         "short": "Gutiérrez",
         "x": 70.47,
         "y": 38.86,
-        "size": 113.2,
-        "is_playmaker": true,
-        "betweenness": 0.1591,
-        "eigenvector": 0.2491
+        "size": 105.2,
+        "is_playmaker": false,
+        "betweenness": 0.2278,
+        "eigenvector": 0.2517
       },
       {
         "id": "Armindo Tué Na Bangna",
         "short": "Bangna",
         "x": 89.96,
         "y": 68.38,
-        "size": 83.6,
+        "size": 85.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4636
+        "eigenvector": 0.4267
       },
       {
         "id": "Mikel González de Martín Martínez",
         "short": "Martínez",
         "x": 47.15,
         "y": 50.93,
-        "size": 92.4,
-        "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.2189
+        "size": 94.8,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.2374
       },
       {
         "id": "Íñigo Martínez Berridi",
         "short": "Berridi",
-        "x": 48.15,
-        "y": 21.57,
-        "size": 73.7,
+        "x": 48.04,
+        "y": 21.44,
+        "size": 85.3,
         "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.0868
+        "betweenness": 0.1167,
+        "eigenvector": 0.0855
       },
       {
         "id": "Asier Illarramendi Andonegi",
         "short": "Andonegi",
         "x": 62.67,
         "y": 44.9,
-        "size": 71.5,
+        "size": 75.9,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.0417
+        "betweenness": 0.0444,
+        "eigenvector": 0.0693
       },
       {
         "id": "Imanol Agirretxe Arruti",
         "short": "Arruti",
         "x": 75.47,
         "y": 50.19,
-        "size": 62.7,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0365
+        "eigenvector": 0.0398
       },
       {
         "id": "Gerónimo Rulli",
         "short": "Rulli",
         "x": 13.32,
         "y": 40.26,
-        "size": 55.0,
+        "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mikel Oyarzabal Ugarte",
-        "short": "Ugarte",
-        "x": 81.72,
-        "y": 48.72,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Markel Bergara Larrañaga",
-        "short": "Larrañaga",
-        "x": 79.5,
-        "y": 49.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2056,
+        "eigenvector": 0.0128
       }
     ],
     "edges": [
@@ -966,13 +946,19 @@
         "source": "Yuri Berchiche Izeta",
         "target": "Asier Illarramendi Andonegi",
         "weight": 8,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Yuri Berchiche Izeta",
         "target": "Imanol Agirretxe Arruti",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Sergio Canales Madrazo",
+        "target": "Yuri Berchiche Izeta",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Aritz Elustondo Irribaria",
@@ -1041,6 +1027,12 @@
         "direction": "backward"
       },
       {
+        "source": "Armindo Tué Na Bangna",
+        "target": "Aritz Elustondo Irribaria",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Mikel González de Martín Martínez",
         "target": "Íñigo Martínez Berridi",
         "weight": 9,
@@ -1059,15 +1051,51 @@
         "direction": "forward"
       },
       {
+        "source": "Mikel González de Martín Martínez",
+        "target": "Gerónimo Rulli",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Íñigo Martínez Berridi",
         "target": "Yuri Berchiche Izeta",
         "weight": 8,
         "direction": "forward"
       },
       {
+        "source": "Íñigo Martínez Berridi",
+        "target": "Asier Illarramendi Andonegi",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Íñigo Martínez Berridi",
+        "target": "Mikel González de Martín Martínez",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Íñigo Martínez Berridi",
+        "target": "Gerónimo Rulli",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Asier Illarramendi Andonegi",
         "target": "Xabier Prieto Argarate",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Gerónimo Rulli",
+        "target": "Mikel González de Martín Martínez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gerónimo Rulli",
+        "target": "Íñigo Martínez Berridi",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1077,89 +1105,89 @@
       {
         "id": "Benoît Trémoulinas",
         "short": "Trémoulinas",
-        "x": 56.94,
-        "y": 5.03,
-        "size": 121.7,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 51.46,
+        "y": 3.82,
+        "size": 108.0,
+        "is_playmaker": false,
+        "betweenness": 0.0944,
+        "eigenvector": 0.1631
       },
       {
         "id": "Vicente Iborra De La Fuente",
         "short": "Fuente",
-        "x": 45.54,
-        "y": 35.14,
-        "size": 121.7,
-        "is_playmaker": true,
+        "x": 44.75,
+        "y": 34.85,
+        "size": 91.1,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.4131
       },
       {
         "id": "Mariano Ferreira Filho",
         "short": "Filho",
-        "x": 52.42,
-        "y": 69.37,
-        "size": 188.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7454
-      },
-      {
-        "id": "Grzegorz Krychowiak",
-        "short": "Krychowiak",
-        "x": 62.75,
-        "y": 44.11,
-        "size": 188.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6667
-      },
-      {
-        "id": "Víctor Machín Pérez",
-        "short": "Pérez",
-        "x": 43.61,
-        "y": 60.63,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "José Antonio Reyes Calderón",
-        "short": "Calderón",
-        "x": 42.57,
-        "y": 15.84,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adil Rami",
-        "short": "Rami",
-        "x": 81.06,
-        "y": 52.63,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 52.06,
+        "y": 70.77,
+        "size": 173.1,
+        "is_playmaker": true,
+        "betweenness": 0.3389,
+        "eigenvector": 0.5673
       },
       {
         "id": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "short": "Nzonzi",
-        "x": 58.66,
-        "y": 50.86,
-        "size": 55.0,
+        "x": 57.64,
+        "y": 51.9,
+        "size": 67.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2405
       },
       {
-        "id": "Timothée Kolodziejczak",
-        "short": "Kolodziejcz",
-        "x": 85.4,
-        "y": 22.33,
-        "size": 55.0,
+        "id": "Grzegorz Krychowiak",
+        "short": "Krychowiak",
+        "x": 61.74,
+        "y": 48.62,
+        "size": 120.1,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.3848
+      },
+      {
+        "id": "Adil Rami",
+        "short": "Rami",
+        "x": 81.62,
+        "y": 51.47,
+        "size": 93.6,
+        "is_playmaker": true,
+        "betweenness": 0.2222,
+        "eigenvector": 0.2914
+      },
+      {
+        "id": "Sergio Rico González",
+        "short": "González",
+        "x": 110.31,
+        "y": 44.28,
+        "size": 69.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1017
+      },
+      {
+        "id": "Víctor Machín Pérez",
+        "short": "Pérez",
+        "x": 42.95,
+        "y": 63.54,
+        "size": 88.7,
+        "is_playmaker": false,
+        "betweenness": 0.0611,
+        "eigenvector": 0.4191
+      },
+      {
+        "id": "José Antonio Reyes Calderón",
+        "short": "Calderón",
+        "x": 39.65,
+        "y": 12.89,
+        "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1167,52 +1195,22 @@
       {
         "id": "Ciro Immobile",
         "short": "Immobile",
-        "x": 50.05,
-        "y": 14.58,
-        "size": 55.0,
+        "x": 59.12,
+        "y": 17.48,
+        "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sergio Rico González",
-        "short": "González",
-        "x": 110.22,
-        "y": 42.66,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Yevhen Konoplyanka",
-        "short": "Konoplyanka",
-        "x": 18.83,
-        "y": 8.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kevin Gameiro",
-        "short": "Gameiro",
-        "x": 42.3,
-        "y": 42.7,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0553
       },
       {
         "id": "Marco Andreolli",
         "short": "Andreolli",
         "x": 86.77,
         "y": 34.6,
-        "size": 55.0,
+        "size": 64.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1333,
+        "eigenvector": 0.0333
       }
     ],
     "edges": [
@@ -1223,9 +1221,39 @@
         "direction": "backward"
       },
       {
+        "source": "Benoît Trémoulinas",
+        "target": "Ciro Immobile",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Mariano Ferreira Filho",
+        "target": "Steven N''Kemboanza Mike Christopher Nzonzi",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mariano Ferreira Filho",
+        "target": "Vicente Iborra De La Fuente",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Mariano Ferreira Filho",
         "target": "Grzegorz Krychowiak",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Mariano Ferreira Filho",
+        "target": "Víctor Machín Pérez",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Mariano Ferreira Filho",
+        "target": "Adil Rami",
+        "weight": 6,
         "direction": "forward"
       },
       {
@@ -1233,6 +1261,66 @@
         "target": "Mariano Ferreira Filho",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Grzegorz Krychowiak",
+        "target": "Víctor Machín Pérez",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Grzegorz Krychowiak",
+        "target": "Benoît Trémoulinas",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Adil Rami",
+        "target": "Sergio Rico González",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Adil Rami",
+        "target": "Mariano Ferreira Filho",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Adil Rami",
+        "target": "Marco Andreolli",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Rico González",
+        "target": "Marco Andreolli",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Machín Pérez",
+        "target": "Mariano Ferreira Filho",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "José Antonio Reyes Calderón",
+        "target": "Benoît Trémoulinas",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Marco Andreolli",
+        "target": "Adil Rami",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Marco Andreolli",
+        "target": "Sergio Rico González",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

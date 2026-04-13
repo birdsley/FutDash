@@ -799,10 +799,10 @@
         "short": "Ramos",
         "x": 63.34,
         "y": 10.06,
-        "size": 147.8,
-        "is_playmaker": true,
-        "betweenness": 0.1515,
-        "eigenvector": 0.5031
+        "size": 136.0,
+        "is_playmaker": false,
+        "betweenness": 0.1815,
+        "eigenvector": 0.4955
       },
       {
         "id": "Neymar da Silva Santos Junior",
@@ -811,118 +811,98 @@
         "y": 25.59,
         "size": 101.4,
         "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.4809
+        "betweenness": 0.0889,
+        "eigenvector": 0.4483
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 72.74,
-        "y": 30.95,
-        "size": 105.5,
+        "x": 72.81,
+        "y": 31.13,
+        "size": 105.0,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.3738
+        "betweenness": 0.1,
+        "eigenvector": 0.4395
       },
       {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
-        "x": 69.38,
-        "y": 68.47,
-        "size": 108.9,
+        "x": 69.64,
+        "y": 68.39,
+        "size": 108.0,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.3046
+        "betweenness": 0.1778,
+        "eigenvector": 0.2556
       },
       {
         "id": "Sergi Roberto Carnicer",
         "short": "Carnicer",
-        "x": 71.66,
-        "y": 55.4,
-        "size": 86.4,
+        "x": 71.7,
+        "y": 54.82,
+        "size": 82.4,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.2997
+        "betweenness": 0.0,
+        "eigenvector": 0.24
       },
       {
         "id": "Jérémy Mathieu",
         "short": "Mathieu",
-        "x": 50.08,
-        "y": 25.42,
-        "size": 74.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1465
+        "x": 50.85,
+        "y": 24.8,
+        "size": 84.8,
+        "is_playmaker": true,
+        "betweenness": 0.2241,
+        "eigenvector": 0.2387
       },
       {
         "id": "Munir El Haddadi Mohamed",
         "short": "Mohamed",
         "x": 79.93,
         "y": 69.68,
-        "size": 65.9,
+        "size": 64.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.129
+        "eigenvector": 0.0952
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
         "x": 60.08,
         "y": 36.88,
-        "size": 117.1,
+        "size": 121.1,
         "is_playmaker": true,
-        "betweenness": 0.0833,
-        "eigenvector": 0.3509
+        "betweenness": 0.2519,
+        "eigenvector": 0.3829
       },
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
         "x": 39.36,
         "y": 54.95,
-        "size": 79.6,
+        "size": 83.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1115
+        "betweenness": 0.1111,
+        "eigenvector": 0.1072
       },
       {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Díaz",
         "x": 80.07,
         "y": 35.4,
-        "size": 62.5,
+        "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.14
+        "eigenvector": 0.1148
       },
       {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Muñoz",
         "x": 9.78,
         "y": 39.58,
-        "size": 55.0,
+        "size": 57.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marc Bartra Aregall",
-        "short": "Aregall",
-        "x": 45.75,
-        "y": 58.28,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sandro Ramírez Castillo",
-        "short": "Castillo",
-        "x": 67.65,
-        "y": 73.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1796,
+        "eigenvector": 0.0081
       }
     ],
     "edges": [
@@ -969,6 +949,12 @@
         "direction": "backward"
       },
       {
+        "source": "Neymar da Silva Santos Junior",
+        "target": "Andrés Iniesta Luján",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
         "source": "Andrés Iniesta Luján",
         "target": "Neymar da Silva Santos Junior",
         "weight": 19,
@@ -999,6 +985,12 @@
         "direction": "forward"
       },
       {
+        "source": "Daniel Alves da Silva",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
         "source": "Sergi Roberto Carnicer",
         "target": "Daniel Alves da Silva",
         "weight": 16,
@@ -1009,6 +1001,12 @@
         "target": "Jordi Alba Ramos",
         "weight": 18,
         "direction": "forward"
+      },
+      {
+        "source": "Jérémy Mathieu",
+        "target": "Claudio Andrés Bravo Muñoz",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
@@ -1035,6 +1033,12 @@
         "direction": "backward"
       },
       {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Jérémy Mathieu",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
         "source": "Gerard Piqué Bernabéu",
         "target": "Daniel Alves da Silva",
         "weight": 13,
@@ -1045,87 +1049,131 @@
         "target": "Sergio Busquets i Burgos",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Jérémy Mathieu",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Claudio Andrés Bravo Muñoz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Jérémy Mathieu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Bruno Soriano Llido",
-        "short": "Llido",
-        "x": 64.58,
-        "y": 38.26,
-        "size": 146.2,
-        "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.5362
-      },
-      {
-        "id": "Daniele Bonera",
-        "short": "Bonera",
-        "x": 88.86,
-        "y": 57.37,
-        "size": 99.1,
-        "is_playmaker": true,
-        "betweenness": 0.0303,
-        "eigenvector": 0.3139
-      },
-      {
-        "id": "Mario Gaspar Pérez Martínez",
-        "short": "Martínez",
-        "x": 63.23,
-        "y": 70.17,
-        "size": 110.9,
-        "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.21
-      },
-      {
         "id": "Jonathan dos Santos Ramírez",
         "short": "Ramírez",
-        "x": 61.99,
-        "y": 40.21,
-        "size": 178.5,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.4933
+        "x": 62.63,
+        "y": 39.97,
+        "size": 133.1,
+        "is_playmaker": true,
+        "betweenness": 0.4056,
+        "eigenvector": 0.5047
+      },
+      {
+        "id": "Bruno Soriano Llido",
+        "short": "Llido",
+        "x": 64.26,
+        "y": 38.04,
+        "size": 135.8,
+        "is_playmaker": true,
+        "betweenness": 0.35,
+        "eigenvector": 0.4424
       },
       {
         "id": "Denis Suárez Fernández",
         "short": "Fernández",
-        "x": 54.22,
-        "y": 15.98,
-        "size": 87.4,
+        "x": 56.57,
+        "y": 16.76,
+        "size": 84.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4537
+        "betweenness": 0.1,
+        "eigenvector": 0.2977
+      },
+      {
+        "id": "Mario Gaspar Pérez Martínez",
+        "short": "Martínez",
+        "x": 61.41,
+        "y": 70.64,
+        "size": 101.4,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.3489
       },
       {
         "id": "Samuel Castillejo Azuaga",
         "short": "Azuaga",
         "x": 48.98,
         "y": 68.35,
-        "size": 87.4,
+        "size": 93.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1932
+        "betweenness": 0.2111,
+        "eigenvector": 0.2705
+      },
+      {
+        "id": "Daniele Bonera",
+        "short": "Bonera",
+        "x": 87.9,
+        "y": 57.92,
+        "size": 97.4,
+        "is_playmaker": false,
+        "betweenness": 0.1833,
+        "eigenvector": 0.1661
       },
       {
         "id": "Roberto Soldado Rillo",
         "short": "Rillo",
-        "x": 51.1,
-        "y": 41.48,
-        "size": 75.6,
+        "x": 52.45,
+        "y": 40.64,
+        "size": 90.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2887
+        "betweenness": 0.3333,
+        "eigenvector": 0.4597
+      },
+      {
+        "id": "Jaume Vicent Costa Jordá",
+        "short": "Jordá",
+        "x": 60.12,
+        "y": 9.05,
+        "size": 69.6,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.0798
       },
       {
         "id": "Tomás Pina Isla",
         "short": "Isla",
         "x": 64.27,
         "y": 58.16,
-        "size": 55.0,
+        "size": 73.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1082
+      },
+      {
+        "id": "Alphonse Areola",
+        "short": "Areola",
+        "x": 111.89,
+        "y": 41.9,
+        "size": 60.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1133,79 +1181,15 @@
       {
         "id": "Víctor Ruíz Torre",
         "short": "Torre",
-        "x": 83.84,
-        "y": 30.0,
-        "size": 55.0,
+        "x": 85.16,
+        "y": 30.33,
+        "size": 65.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jaume Vicent Costa Jordá",
-        "short": "Jordá",
-        "x": 61.24,
-        "y": 8.79,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Alphonse Areola",
-        "short": "Areola",
-        "x": 112.03,
-        "y": 42.04,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Samuel García Sánchez",
-        "short": "Sánchez",
-        "x": 53.5,
-        "y": 58.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Cédric Bakambu",
-        "short": "Bakambu",
-        "x": 48.37,
-        "y": 47.13,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0949
       }
     ],
     "edges": [
-      {
-        "source": "Bruno Soriano Llido",
-        "target": "Daniele Bonera",
-        "weight": 7,
-        "direction": "forward"
-      },
-      {
-        "source": "Bruno Soriano Llido",
-        "target": "Jonathan dos Santos Ramírez",
-        "weight": 11,
-        "direction": "lateral"
-      },
-      {
-        "source": "Daniele Bonera",
-        "target": "Mario Gaspar Pérez Martínez",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Mario Gaspar Pérez Martínez",
-        "target": "Samuel Castillejo Azuaga",
-        "weight": 11,
-        "direction": "backward"
-      },
       {
         "source": "Jonathan dos Santos Ramírez",
         "target": "Bruno Soriano Llido",
@@ -1222,6 +1206,132 @@
         "source": "Jonathan dos Santos Ramírez",
         "target": "Roberto Soldado Rillo",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan dos Santos Ramírez",
+        "target": "Mario Gaspar Pérez Martínez",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Bruno Soriano Llido",
+        "target": "Jonathan dos Santos Ramírez",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Bruno Soriano Llido",
+        "target": "Daniele Bonera",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Bruno Soriano Llido",
+        "target": "Mario Gaspar Pérez Martínez",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Bruno Soriano Llido",
+        "target": "Roberto Soldado Rillo",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Bruno Soriano Llido",
+        "target": "Víctor Ruíz Torre",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Denis Suárez Fernández",
+        "target": "Jonathan dos Santos Ramírez",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Denis Suárez Fernández",
+        "target": "Jaume Vicent Costa Jordá",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mario Gaspar Pérez Martínez",
+        "target": "Samuel Castillejo Azuaga",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Gaspar Pérez Martínez",
+        "target": "Roberto Soldado Rillo",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Samuel Castillejo Azuaga",
+        "target": "Tomás Pina Isla",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Samuel Castillejo Azuaga",
+        "target": "Roberto Soldado Rillo",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Daniele Bonera",
+        "target": "Mario Gaspar Pérez Martínez",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniele Bonera",
+        "target": "Bruno Soriano Llido",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniele Bonera",
+        "target": "Samuel Castillejo Azuaga",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniele Bonera",
+        "target": "Tomás Pina Isla",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Soldado Rillo",
+        "target": "Jonathan dos Santos Ramírez",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Jaume Vicent Costa Jordá",
+        "target": "Bruno Soriano Llido",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Tomás Pina Isla",
+        "target": "Samuel Castillejo Azuaga",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Alphonse Areola",
+        "target": "Daniele Bonera",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Ruíz Torre",
+        "target": "Bruno Soriano Llido",
+        "weight": 4,
         "direction": "backward"
       }
     ]

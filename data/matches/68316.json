@@ -809,79 +809,79 @@
       {
         "id": "Anderson Luís de Souza",
         "short": "Souza",
-        "x": 71.86,
-        "y": 43.7,
-        "size": 164.1,
+        "x": 72.22,
+        "y": 44.56,
+        "size": 156.1,
         "is_playmaker": true,
-        "betweenness": 0.2879,
-        "eigenvector": 0.6358
+        "betweenness": 0.2944,
+        "eigenvector": 0.5855
       },
       {
         "id": "Juliano Haus Belletti",
         "short": "Belletti",
-        "x": 64.7,
-        "y": 69.83,
-        "size": 126.9,
+        "x": 64.69,
+        "y": 69.96,
+        "size": 123.6,
         "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.3929
+        "betweenness": 0.0111,
+        "eigenvector": 0.4286
       },
       {
         "id": "Rafael Márquez Álvarez",
         "short": "Álvarez",
         "x": 63.06,
         "y": 38.95,
-        "size": 110.4,
+        "size": 120.7,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.4371
+        "betweenness": 0.15,
+        "eigenvector": 0.4277
       },
       {
         "id": "Ludovic Giuly",
         "short": "Giuly",
         "x": 83.02,
         "y": 66.82,
-        "size": 65.7,
+        "size": 70.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1403
+        "eigenvector": 0.2602
       },
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
-        "x": 47.45,
-        "y": 48.99,
-        "size": 99.6,
-        "is_playmaker": true,
-        "betweenness": 0.1439,
-        "eigenvector": 0.1714
+        "x": 47.41,
+        "y": 50.79,
+        "size": 95.4,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.1804
       },
       {
         "id": "Ronaldo de Assis Moreira",
         "short": "Moreira",
-        "x": 83.03,
-        "y": 40.49,
-        "size": 98.0,
+        "x": 83.4,
+        "y": 41.11,
+        "size": 92.5,
         "is_playmaker": false,
-        "betweenness": 0.0682,
-        "eigenvector": 0.3959
+        "betweenness": 0.1,
+        "eigenvector": 0.3618
       },
       {
         "id": "Oleguer Presas Renom",
         "short": "Renom",
-        "x": 41.72,
-        "y": 30.48,
-        "size": 80.6,
+        "x": 42.48,
+        "y": 30.53,
+        "size": 89.7,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.0471
+        "betweenness": 0.1611,
+        "eigenvector": 0.1667
       },
       {
         "id": "Samuel Eto''o Fils",
         "short": "Fils",
-        "x": 78.18,
-        "y": 31.01,
-        "size": 63.3,
+        "x": 78.15,
+        "y": 31.08,
+        "size": 62.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -889,52 +889,32 @@
       {
         "id": "Giovanni van Bronckhorst",
         "short": "Bronckhorst",
-        "x": 64.99,
-        "y": 11.13,
-        "size": 70.7,
+        "x": 64.75,
+        "y": 11.03,
+        "size": 75.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1746
-      },
-      {
-        "id": "Thiago Motta",
-        "short": "Motta",
-        "x": 62.41,
-        "y": 42.74,
-        "size": 63.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0129
+        "eigenvector": 0.1485
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 63.67,
-        "y": 39.68,
-        "size": 62.4,
+        "x": 62.7,
+        "y": 38.34,
+        "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.108
+        "eigenvector": 0.0977
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
         "x": 13.63,
         "y": 42.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lionel Andrés Messi Cuccittini",
-        "short": "Cuccittini",
-        "x": 105.1,
-        "y": 53.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 57.9,
+        "is_playmaker": true,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0088
       }
     ],
     "edges": [
@@ -967,6 +947,12 @@
         "target": "Carles Puyol i Saforcada",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Anderson Luís de Souza",
+        "target": "Ludovic Giuly",
+        "weight": 8,
+        "direction": "forward"
       },
       {
         "source": "Juliano Haus Belletti",
@@ -1011,6 +997,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Rafael Márquez Álvarez",
+        "target": "Oleguer Presas Renom",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Rafael Márquez Álvarez",
+        "target": "Juliano Haus Belletti",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Carles Puyol i Saforcada",
         "target": "Juliano Haus Belletti",
         "weight": 13,
@@ -1029,6 +1027,12 @@
         "direction": "backward"
       },
       {
+        "source": "Carles Puyol i Saforcada",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ronaldo de Assis Moreira",
         "target": "Anderson Luís de Souza",
         "weight": 12,
@@ -1042,9 +1046,15 @@
       },
       {
         "source": "Oleguer Presas Renom",
-        "target": "Thiago Motta",
-        "weight": 10,
+        "target": "Rafael Márquez Álvarez",
+        "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Oleguer Presas Renom",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Samuel Eto''o Fils",
@@ -1057,153 +1067,147 @@
         "target": "Anderson Luís de Souza",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Giovanni van Bronckhorst",
+        "target": "Oleguer Presas Renom",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Oleguer Presas Renom",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Carles Puyol i Saforcada",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
+        "id": "Antonio Pacheco D\"Agosti",
+        "short": "D\"Agosti",
+        "x": 62.37,
+        "y": 60.58,
+        "size": 122.5,
+        "is_playmaker": true,
+        "betweenness": 0.1889,
+        "eigenvector": 0.7647
+      },
+      {
         "id": "Santiago Denia Sánchez",
         "short": "Sánchez",
-        "x": 69.37,
-        "y": 71.26,
-        "size": 255.0,
+        "x": 70.96,
+        "y": 71.56,
+        "size": 127.3,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1778,
+        "eigenvector": 0.4181
       },
       {
         "id": "Francisco Javier Rodríguez Vílchez",
         "short": "Vílchez",
         "x": 62.53,
         "y": 60.39,
-        "size": 142.5,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.614
-      },
-      {
-        "id": "Antonio Pacheco D\"Agosti",
-        "short": "D\"Agosti",
-        "x": 62.49,
-        "y": 63.88,
-        "size": 167.5,
+        "size": 83.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.7893
+        "eigenvector": 0.32
       },
       {
         "id": "Mark Dennis González Hoffmann",
         "short": "Hoffmann",
-        "x": 53.18,
-        "y": 40.98,
-        "size": 55.0,
+        "x": 54.11,
+        "y": 39.18,
+        "size": 134.5,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.326
+      },
+      {
+        "id": "Laurent Viaud",
+        "short": "Viaud",
+        "x": 72.9,
+        "y": 39.25,
+        "size": 79.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
         "id": "Jaime Sánchez Fernández",
         "short": "Fernández",
         "x": 72.79,
         "y": 33.42,
-        "size": 55.0,
+        "size": 108.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Francisco Peña Romero",
-        "short": "Romero",
-        "x": 68.52,
-        "y": 16.09,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Laurent Viaud",
-        "short": "Viaud",
-        "x": 73.33,
-        "y": 40.46,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1111,
+        "eigenvector": 0.0
       },
       {
         "id": "Raúl Valbuena Cano",
         "short": "Cano",
-        "x": 107.69,
-        "y": 40.43,
-        "size": 55.0,
+        "x": 107.98,
+        "y": 39.69,
+        "size": 67.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Francisco Peña Romero",
+        "short": "Romero",
+        "x": 67.67,
+        "y": 16.87,
+        "size": 88.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1783
       },
       {
         "id": "Gaspar Gálvez Burgos",
         "short": "Burgos",
         "x": 78.9,
         "y": 51.55,
-        "size": 55.0,
+        "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
         "id": "Carles Domingo Pladevall",
         "short": "Pladevall",
         "x": 81.77,
         "y": 13.25,
-        "size": 55.0,
+        "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
         "id": "Agustín García Iñiguez",
         "short": "Iñiguez",
         "x": 82.14,
         "y": 38.22,
-        "size": 55.0,
+        "size": 64.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Iván Díaz Ruiz",
-        "short": "Ruiz",
-        "x": 54.53,
-        "y": 72.67,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Rubén Castro Martín",
-        "short": "Martín",
-        "x": 61.8,
-        "y": 22.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Walter Horacio Peralta Saracho",
-        "short": "Saracho",
-        "x": 69.64,
-        "y": 6.32,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.0778,
+        "eigenvector": 0.0
       }
     ],
     "edges": [
+      {
+        "source": "Antonio Pacheco D\"Agosti",
+        "target": "Santiago Denia Sánchez",
+        "weight": 5,
+        "direction": "forward"
+      },
       {
         "source": "Santiago Denia Sánchez",
         "target": "Francisco Javier Rodríguez Vílchez",
@@ -1212,8 +1216,110 @@
       },
       {
         "source": "Santiago Denia Sánchez",
+        "target": "Mark Dennis González Hoffmann",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Santiago Denia Sánchez",
         "target": "Antonio Pacheco D\"Agosti",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Francisco Javier Rodríguez Vílchez",
+        "target": "Antonio Pacheco D\"Agosti",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mark Dennis González Hoffmann",
+        "target": "Antonio Pacheco D\"Agosti",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mark Dennis González Hoffmann",
+        "target": "Francisco Peña Romero",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Laurent Viaud",
+        "target": "Jaime Sánchez Fernández",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Laurent Viaud",
+        "target": "Agustín García Iñiguez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jaime Sánchez Fernández",
+        "target": "Mark Dennis González Hoffmann",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jaime Sánchez Fernández",
+        "target": "Laurent Viaud",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jaime Sánchez Fernández",
+        "target": "Francisco Peña Romero",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jaime Sánchez Fernández",
+        "target": "Antonio Pacheco D\"Agosti",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jaime Sánchez Fernández",
+        "target": "Agustín García Iñiguez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Raúl Valbuena Cano",
+        "target": "Mark Dennis González Hoffmann",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Francisco Peña Romero",
+        "target": "Mark Dennis González Hoffmann",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Gaspar Gálvez Burgos",
+        "target": "Santiago Denia Sánchez",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Carles Domingo Pladevall",
+        "target": "Mark Dennis González Hoffmann",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Agustín García Iñiguez",
+        "target": "Laurent Viaud",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Agustín García Iñiguez",
+        "target": "Jaime Sánchez Fernández",
+        "weight": 1,
         "direction": "backward"
       }
     ]

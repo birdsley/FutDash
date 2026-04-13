@@ -869,142 +869,112 @@
       {
         "id": "Alex Nicolao Telles",
         "short": "Telles",
-        "x": 67.04,
-        "y": 8.57,
-        "size": 97.0,
+        "x": 66.3,
+        "y": 8.93,
+        "size": 96.9,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.2911
+        "betweenness": 0.1,
+        "eigenvector": 0.3555
       },
       {
         "id": "Eder Citadin Martins",
         "short": "Martins",
         "x": 78.95,
         "y": 23.41,
-        "size": 72.4,
+        "size": 69.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1725
+        "eigenvector": 0.1971
       },
       {
         "id": "Gary Alexis Medel Soto",
         "short": "Soto",
         "x": 56.27,
-        "y": 40.27,
-        "size": 145.4,
-        "is_playmaker": true,
-        "betweenness": 0.0962,
-        "eigenvector": 0.4897
+        "y": 41.02,
+        "size": 137.9,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.4554
       },
       {
         "id": "Marcelo Brozović",
         "short": "Brozović",
         "x": 72.91,
         "y": 47.7,
-        "size": 127.1,
+        "size": 117.8,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.5144
+        "betweenness": 0.1611,
+        "eigenvector": 0.4724
       },
       {
         "id": "Yuto Nagatomo",
         "short": "Nagatomo",
-        "x": 64.36,
-        "y": 70.05,
-        "size": 125.3,
+        "x": 65.38,
+        "y": 70.06,
+        "size": 127.1,
         "is_playmaker": true,
-        "betweenness": 0.0641,
-        "eigenvector": 0.4312
+        "betweenness": 0.3,
+        "eigenvector": 0.4858
       },
       {
         "id": "Geoffrey Kondogbia",
         "short": "Kondogbia",
         "x": 65.76,
         "y": 36.42,
-        "size": 103.4,
+        "size": 103.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3743
+        "betweenness": 0.0889,
+        "eigenvector": 0.3245
       },
       {
         "id": "Rodrigo Sebastián Palacio",
         "short": "Palacio",
         "x": 87.94,
         "y": 52.4,
-        "size": 64.1,
+        "size": 69.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1345
+        "eigenvector": 0.1417
       },
       {
         "id": "João Miranda de Souza Filho",
         "short": "Filho",
         "x": 41.02,
         "y": 55.2,
-        "size": 80.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1345
+        "size": 83.7,
+        "is_playmaker": true,
+        "betweenness": 0.1722,
+        "eigenvector": 0.142
       },
       {
         "id": "Jeison Fabián Murillo Cerón",
         "short": "Cerón",
         "x": 36.52,
         "y": 27.62,
-        "size": 79.7,
+        "size": 82.9,
         "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.1375
+        "betweenness": 0.0889,
+        "eigenvector": 0.1488
       },
       {
         "id": "Mauro Emanuel Icardi Rivero",
         "short": "Rivero",
         "x": 73.44,
         "y": 44.72,
-        "size": 55.0,
+        "size": 58.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1167,
+        "eigenvector": 0.0233
       },
       {
         "id": "Samir Handanovič",
         "short": "Handanovič",
-        "x": 11.53,
-        "y": 41.31,
-        "size": 55.0,
+        "x": 11.93,
+        "y": 41.69,
+        "size": 58.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adem Ljajić",
-        "short": "Ljajić",
-        "x": 73.23,
-        "y": 17.47,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Juan Guilherme Nunes Jesus",
-        "short": "Jesus",
-        "x": 32.6,
-        "y": 17.62,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Felipe Melo de Carvalho",
-        "short": "Carvalho",
-        "x": 33.68,
-        "y": 63.42,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1278,
+        "eigenvector": 0.0085
       }
     ],
     "edges": [
@@ -1039,6 +1009,12 @@
         "direction": "backward"
       },
       {
+        "source": "Gary Alexis Medel Soto",
+        "target": "Alex Nicolao Telles",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
         "source": "Marcelo Brozović",
         "target": "Yuto Nagatomo",
         "weight": 15,
@@ -1061,6 +1037,12 @@
         "target": "Alex Nicolao Telles",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Marcelo Brozović",
+        "target": "Mauro Emanuel Icardi Rivero",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Yuto Nagatomo",
@@ -1105,6 +1087,24 @@
         "direction": "forward"
       },
       {
+        "source": "Geoffrey Kondogbia",
+        "target": "Yuto Nagatomo",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Geoffrey Kondogbia",
+        "target": "Mauro Emanuel Icardi Rivero",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rodrigo Sebastián Palacio",
+        "target": "Yuto Nagatomo",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "João Miranda de Souza Filho",
         "target": "Yuto Nagatomo",
         "weight": 9,
@@ -1117,6 +1117,18 @@
         "direction": "forward"
       },
       {
+        "source": "João Miranda de Souza Filho",
+        "target": "Jeison Fabián Murillo Cerón",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "João Miranda de Souza Filho",
+        "target": "Samir Handanovič",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jeison Fabián Murillo Cerón",
         "target": "Gary Alexis Medel Soto",
         "weight": 10,
@@ -1127,57 +1139,47 @@
         "target": "Alex Nicolao Telles",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Jeison Fabián Murillo Cerón",
+        "target": "Samir Handanovič",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Marcelo Brozović",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Geoffrey Kondogbia",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Samir Handanovič",
+        "target": "Jeison Fabián Murillo Cerón",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Samir Handanovič",
+        "target": "João Miranda de Souza Filho",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Nicolas Sebastian Frey",
-        "short": "Frey",
-        "x": 56.15,
-        "y": 70.16,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
-      },
-      {
-        "id": "Ivan Radovanović",
-        "short": "Radovanović",
-        "x": 65.64,
-        "y": 49.57,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
-      },
-      {
-        "id": "Sergio Pellissier",
-        "short": "Pellissier",
-        "x": 45.48,
-        "y": 27.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Massimo Gobbi",
-        "short": "Gobbi",
-        "x": 52.45,
-        "y": 10.21,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Roberto Inglese",
-        "short": "Inglese",
-        "x": 42.13,
-        "y": 40.33,
-        "size": 55.0,
+        "id": "Boštjan Cesar",
+        "short": "Cesar",
+        "x": 79.51,
+        "y": 22.75,
+        "size": 89.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1185,61 +1187,91 @@
       {
         "id": "Nicola Rigoni",
         "short": "Rigoni",
-        "x": 62.35,
-        "y": 35.41,
-        "size": 55.0,
+        "x": 62.53,
+        "y": 31.48,
+        "size": 87.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0556,
+        "eigenvector": 0.0228
       },
       {
-        "id": "Nicolás Federico Spolli",
-        "short": "Spolli",
-        "x": 78.32,
-        "y": 47.85,
-        "size": 55.0,
+        "id": "Roberto Inglese",
+        "short": "Inglese",
+        "x": 43.74,
+        "y": 41.58,
+        "size": 78.1,
+        "is_playmaker": false,
+        "betweenness": 0.1167,
+        "eigenvector": 0.0026
+      },
+      {
+        "id": "Sergio Pellissier",
+        "short": "Pellissier",
+        "x": 44.08,
+        "y": 29.45,
+        "size": 70.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0067
+      },
+      {
+        "id": "Massimo Gobbi",
+        "short": "Gobbi",
+        "x": 58.4,
+        "y": 11.79,
+        "size": 106.9,
+        "is_playmaker": true,
+        "betweenness": 0.2611,
+        "eigenvector": 0.069
+      },
+      {
+        "id": "Ivan Radovanović",
+        "short": "Radovanović",
+        "x": 62.36,
+        "y": 49.63,
+        "size": 126.2,
+        "is_playmaker": true,
+        "betweenness": 0.35,
+        "eigenvector": 0.5959
+      },
+      {
+        "id": "Nicolas Sebastian Frey",
+        "short": "Frey",
+        "x": 60.67,
+        "y": 69.81,
+        "size": 135.8,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.6627
       },
       {
         "id": "Valter Birsa",
         "short": "Birsa",
-        "x": 43.37,
-        "y": 19.12,
-        "size": 55.0,
+        "x": 42.04,
+        "y": 20.22,
+        "size": 80.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.2377
+      },
+      {
+        "id": "Nicolás Federico Spolli",
+        "short": "Spolli",
+        "x": 78.48,
+        "y": 47.76,
+        "size": 93.5,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.3772
       },
       {
         "id": "Andrea Seculin",
         "short": "Seculin",
         "x": 104.98,
         "y": 39.63,
-        "size": 55.0,
+        "size": 74.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Boštjan Cesar",
-        "short": "Cesar",
-        "x": 79.58,
-        "y": 22.92,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lucas Nahuel Castro",
-        "short": "Castro",
-        "x": 56.84,
-        "y": 56.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0167,
         "eigenvector": 0.0
       },
       {
@@ -1247,43 +1279,143 @@
         "short": "Pinzi",
         "x": 59.25,
         "y": 49.84,
-        "size": 55.0,
+        "size": 62.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Paul-José M''Poku Ebunge",
-        "short": "Ebunge",
-        "x": 39.96,
-        "y": 32.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Filippo Costa",
-        "short": "Costa",
-        "x": 37.43,
-        "y": 23.12,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.0396
       }
     ],
     "edges": [
       {
-        "source": "Nicolas Sebastian Frey",
-        "target": "Ivan Radovanović",
-        "weight": 13,
+        "source": "Boštjan Cesar",
+        "target": "Nicola Rigoni",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Boštjan Cesar",
+        "target": "Nicolás Federico Spolli",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Boštjan Cesar",
+        "target": "Massimo Gobbi",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Boštjan Cesar",
+        "target": "Andrea Seculin",
+        "weight": 4,
         "direction": "forward"
+      },
+      {
+        "source": "Nicola Rigoni",
+        "target": "Massimo Gobbi",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicola Rigoni",
+        "target": "Sergio Pellissier",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Inglese",
+        "target": "Sergio Pellissier",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roberto Inglese",
+        "target": "Giampiero Pinzi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Massimo Gobbi",
+        "target": "Ivan Radovanović",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Massimo Gobbi",
+        "target": "Nicola Rigoni",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Massimo Gobbi",
+        "target": "Valter Birsa",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "Ivan Radovanović",
         "target": "Nicolas Sebastian Frey",
         "weight": 13,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ivan Radovanović",
+        "target": "Nicolás Federico Spolli",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Ivan Radovanović",
+        "target": "Giampiero Pinzi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nicolas Sebastian Frey",
+        "target": "Valter Birsa",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolas Sebastian Frey",
+        "target": "Ivan Radovanović",
+        "weight": 13,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nicolas Sebastian Frey",
+        "target": "Nicolás Federico Spolli",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Valter Birsa",
+        "target": "Massimo Gobbi",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Nicolás Federico Spolli",
+        "target": "Nicolas Sebastian Frey",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrea Seculin",
+        "target": "Roberto Inglese",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Giampiero Pinzi",
+        "target": "Ivan Radovanović",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Giampiero Pinzi",
+        "target": "Roberto Inglese",
+        "weight": 1,
         "direction": "backward"
       }
     ]

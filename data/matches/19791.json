@@ -787,57 +787,27 @@
         "short": "Potter",
         "x": 42.63,
         "y": 26.63,
-        "size": 163.2,
+        "size": 150.1,
         "is_playmaker": true,
-        "betweenness": 0.0985,
-        "eigenvector": 0.547
+        "betweenness": 0.2611,
+        "eigenvector": 0.5402
       },
       {
         "id": "Molly Bartrip",
         "short": "Bartrip",
-        "x": 39.08,
-        "y": 54.46,
-        "size": 120.9,
+        "x": 38.56,
+        "y": 54.42,
+        "size": 117.2,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4875
-      },
-      {
-        "id": "Jade Moore",
-        "short": "Moore",
-        "x": 57.76,
-        "y": 54.24,
-        "size": 73.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3476
-      },
-      {
-        "id": "Remi Allen",
-        "short": "Allen",
-        "x": 55.38,
-        "y": 22.97,
-        "size": 146.8,
-        "is_playmaker": true,
-        "betweenness": 0.0758,
-        "eigenvector": 0.4387
-      },
-      {
-        "id": "Rachel Furness",
-        "short": "Furness",
-        "x": 49.25,
-        "y": 41.81,
-        "size": 90.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2737
+        "betweenness": 0.0444,
+        "eigenvector": 0.4732
       },
       {
         "id": "Grace Moloney",
         "short": "Moloney",
         "x": 11.8,
         "y": 40.76,
-        "size": 78.5,
+        "size": 80.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -847,70 +817,80 @@
         "short": "Harding",
         "x": 60.21,
         "y": 70.68,
-        "size": 78.5,
+        "size": 94.0,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.324
+      },
+      {
+        "id": "Remi Allen",
+        "short": "Allen",
+        "x": 54.17,
+        "y": 22.78,
+        "size": 102.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2936
+      },
+      {
+        "id": "Jade Moore",
+        "short": "Moore",
+        "x": 57.76,
+        "y": 54.24,
+        "size": 77.0,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.3552
+      },
+      {
+        "id": "Rachel Furness",
+        "short": "Furness",
+        "x": 49.25,
+        "y": 41.81,
+        "size": 97.7,
+        "is_playmaker": true,
+        "betweenness": 0.1111,
+        "eigenvector": 0.2604
       },
       {
         "id": "Fara Williams",
         "short": "Williams",
         "x": 68.91,
         "y": 38.18,
-        "size": 71.5,
+        "size": 79.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2737
+        "betweenness": 0.1056,
+        "eigenvector": 0.2668
       },
       {
         "id": "Mayumi Pacheco",
         "short": "Pacheco",
-        "x": 57.9,
-        "y": 9.83,
-        "size": 71.5,
+        "x": 60.52,
+        "y": 10.44,
+        "size": 83.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.05,
+        "eigenvector": 0.0713
       },
       {
         "id": "Lauren Bruton",
         "short": "Bruton",
         "x": 72.67,
         "y": 37.56,
-        "size": 55.0,
+        "size": 63.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.1492
       },
       {
         "id": "Brooke Chaplen",
         "short": "Chaplen",
         "x": 75.62,
         "y": 40.38,
-        "size": 55.0,
+        "size": 59.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rakel Hönnudóttir",
-        "short": "Hönnudóttir",
-        "x": 74.54,
-        "y": 57.38,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jade Bailey",
-        "short": "Bailey",
-        "x": 44.33,
-        "y": 12.67,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1056,
+        "eigenvector": 0.0228
       }
     ],
     "edges": [
@@ -918,7 +898,7 @@
         "source": "Josanne Potter",
         "target": "Molly Bartrip",
         "weight": 10,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Josanne Potter",
@@ -927,10 +907,82 @@
         "direction": "forward"
       },
       {
+        "source": "Josanne Potter",
+        "target": "Lauren Bruton",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Josanne Potter",
+        "target": "Jade Moore",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Josanne Potter",
+        "target": "Rachel Furness",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Molly Bartrip",
         "target": "Jade Moore",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Molly Bartrip",
+        "target": "Josanne Potter",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Molly Bartrip",
+        "target": "Natasha Harding",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Molly Bartrip",
+        "target": "Fara Williams",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Grace Moloney",
+        "target": "Josanne Potter",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Grace Moloney",
+        "target": "Molly Bartrip",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Grace Moloney",
+        "target": "Rachel Furness",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Natasha Harding",
+        "target": "Molly Bartrip",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Natasha Harding",
+        "target": "Josanne Potter",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Remi Allen",
+        "target": "Josanne Potter",
+        "weight": 9,
+        "direction": "backward"
       },
       {
         "source": "Remi Allen",
@@ -945,10 +997,10 @@
         "direction": "forward"
       },
       {
-        "source": "Remi Allen",
-        "target": "Josanne Potter",
-        "weight": 9,
-        "direction": "backward"
+        "source": "Jade Moore",
+        "target": "Natasha Harding",
+        "weight": 5,
+        "direction": "lateral"
       },
       {
         "source": "Rachel Furness",
@@ -957,22 +1009,58 @@
         "direction": "backward"
       },
       {
-        "source": "Grace Moloney",
-        "target": "Josanne Potter",
-        "weight": 10,
+        "source": "Rachel Furness",
+        "target": "Natasha Harding",
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Natasha Harding",
-        "target": "Molly Bartrip",
-        "weight": 10,
-        "direction": "backward"
+        "source": "Rachel Furness",
+        "target": "Mayumi Pacheco",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Fara Williams",
+        "target": "Brooke Chaplen",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Mayumi Pacheco",
         "target": "Remi Allen",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Fara Williams",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Josanne Potter",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Lauren Bruton",
+        "target": "Brooke Chaplen",
+        "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Brooke Chaplen",
+        "target": "Lauren Bruton",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Brooke Chaplen",
+        "target": "Fara Williams",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -983,7 +1071,7 @@
         "short": "Magnin",
         "x": 106.32,
         "y": 35.76,
-        "size": 95.0,
+        "size": 81.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -991,69 +1079,79 @@
       {
         "id": "Leah Williamson",
         "short": "Williamson",
-        "x": 68.98,
-        "y": 68.58,
-        "size": 198.3,
-        "is_playmaker": true,
-        "betweenness": 0.0455,
-        "eigenvector": 0.5094
+        "x": 69.85,
+        "y": 68.8,
+        "size": 160.5,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.3289
       },
       {
-        "id": "Bethany Mead",
-        "short": "Mead",
-        "x": 23.94,
-        "y": 41.62,
-        "size": 91.7,
+        "id": "Ava Kuyken",
+        "short": "Kuyken",
+        "x": 51.75,
+        "y": 53.62,
+        "size": 66.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5631
-      },
-      {
-        "id": "Kim Little",
-        "short": "Little",
-        "x": 61.83,
-        "y": 49.83,
-        "size": 145.0,
-        "is_playmaker": true,
-        "betweenness": 0.0364,
-        "eigenvector": 0.4607
+        "eigenvector": 0.1653
       },
       {
         "id": "Emma Mukandi",
         "short": "Mukandi",
-        "x": 76.03,
-        "y": 15.0,
-        "size": 111.7,
+        "x": 75.14,
+        "y": 14.91,
+        "size": 125.3,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.4331
+      },
+      {
+        "id": "Bethany Mead",
+        "short": "Mead",
+        "x": 22.29,
+        "y": 44.64,
+        "size": 90.2,
         "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.3241
+        "betweenness": 0.0,
+        "eigenvector": 0.5813
+      },
+      {
+        "id": "Kim Little",
+        "short": "Little",
+        "x": 61.04,
+        "y": 49.43,
+        "size": 125.3,
+        "is_playmaker": true,
+        "betweenness": 0.2,
+        "eigenvector": 0.2975
       },
       {
         "id": "Katie McCabe",
         "short": "McCabe",
         "x": 58.45,
         "y": 36.85,
-        "size": 88.3,
+        "size": 96.8,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.4452
+      },
+      {
+        "id": "Louise Quinn",
+        "short": "Quinn",
+        "x": 81.89,
+        "y": 37.84,
+        "size": 66.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3258
+        "eigenvector": 0.2176
       },
       {
         "id": "Dominique Johanna Anna Petrone Janssen",
         "short": "Janssen",
         "x": 66.65,
         "y": 41.38,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Vivianne Miedema",
-        "short": "Miedema",
-        "x": 37.58,
-        "y": 33.58,
-        "size": 55.0,
+        "size": 66.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1061,42 +1159,22 @@
       {
         "id": "Katrine Veje",
         "short": "Veje",
-        "x": 46.82,
-        "y": 15.0,
-        "size": 55.0,
+        "x": 49.25,
+        "y": 15.88,
+        "size": 63.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0497
       },
       {
-        "id": "Ava Kuyken",
-        "short": "Kuyken",
-        "x": 51.75,
-        "y": 53.62,
-        "size": 55.0,
+        "id": "Vivianne Miedema",
+        "short": "Miedema",
+        "x": 41.6,
+        "y": 28.6,
+        "size": 63.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Danielle van de Donk",
-        "short": "Donk",
-        "x": 55.38,
-        "y": 44.88,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Louise Quinn",
-        "short": "Quinn",
-        "x": 82.05,
-        "y": 39.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0497
       }
     ],
     "edges": [
@@ -1104,6 +1182,12 @@
         "source": "Pauline Peyraud Magnin",
         "target": "Leah Williamson",
         "weight": 12,
+        "direction": "backward"
+      },
+      {
+        "source": "Leah Williamson",
+        "target": "Ava Kuyken",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1119,6 +1203,24 @@
         "direction": "backward"
       },
       {
+        "source": "Emma Mukandi",
+        "target": "Bethany Mead",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Emma Mukandi",
+        "target": "Katie McCabe",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Emma Mukandi",
+        "target": "Louise Quinn",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Kim Little",
         "target": "Leah Williamson",
         "weight": 11,
@@ -1131,10 +1233,52 @@
         "direction": "forward"
       },
       {
-        "source": "Emma Mukandi",
-        "target": "Katie McCabe",
-        "weight": 10,
+        "source": "Katie McCabe",
+        "target": "Emma Mukandi",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Katrine Veje",
+        "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Vivianne Miedema",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Dominique Johanna Anna Petrone Janssen",
+        "target": "Kim Little",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Katrine Veje",
+        "target": "Vivianne Miedema",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Katrine Veje",
+        "target": "Katie McCabe",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vivianne Miedema",
+        "target": "Katrine Veje",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vivianne Miedema",
+        "target": "Katie McCabe",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

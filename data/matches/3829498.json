@@ -689,101 +689,101 @@
       {
         "id": "Vincent Le Goff",
         "short": "Goff",
-        "x": 58.79,
-        "y": 7.75,
-        "size": 174.6,
+        "x": 59.52,
+        "y": 7.09,
+        "size": 137.7,
         "is_playmaker": true,
-        "betweenness": 0.1026,
-        "eigenvector": 0.4372
+        "betweenness": 0.1556,
+        "eigenvector": 0.3852
       },
       {
         "id": "Maxime Barthelmé",
         "short": "Barthelmé",
         "x": 67.58,
         "y": 9.23,
-        "size": 81.8,
+        "size": 90.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5059
+        "betweenness": 0.0556,
+        "eigenvector": 0.3879
       },
       {
         "id": "Lamine Gassama",
         "short": "Gassama",
-        "x": 59.18,
-        "y": 68.59,
-        "size": 121.1,
+        "x": 57.79,
+        "y": 68.78,
+        "size": 101.9,
         "is_playmaker": false,
-        "betweenness": 0.0449,
-        "eigenvector": 0.1932
+        "betweenness": 0.0,
+        "eigenvector": 0.2682
       },
       {
         "id": "Yann Jouffre",
         "short": "Jouffre",
-        "x": 63.86,
-        "y": 55.13,
-        "size": 87.1,
+        "x": 64.74,
+        "y": 54.37,
+        "size": 96.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1193
+        "betweenness": 0.0111,
+        "eigenvector": 0.3316
       },
       {
         "id": "Didier Ndong Ibrahim",
         "short": "Ibrahim",
-        "x": 52.93,
-        "y": 54.87,
-        "size": 103.2,
+        "x": 52.51,
+        "y": 54.21,
+        "size": 98.6,
         "is_playmaker": false,
-        "betweenness": 0.0641,
-        "eigenvector": 0.164
+        "betweenness": 0.0778,
+        "eigenvector": 0.2705
       },
       {
         "id": "Wesley Lautoa",
         "short": "Lautoa",
         "x": 36.67,
         "y": 25.04,
-        "size": 69.3,
+        "size": 71.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0667,
         "eigenvector": 0.0
+      },
+      {
+        "id": "François Bellugou",
+        "short": "Bellugou",
+        "x": 55.89,
+        "y": 33.51,
+        "size": 127.6,
+        "is_playmaker": true,
+        "betweenness": 0.3778,
+        "eigenvector": 0.4296
       },
       {
         "id": "Benjamin Moukandjo Bilé",
         "short": "Bilé",
         "x": 82.54,
         "y": 24.31,
-        "size": 74.6,
+        "size": 90.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.371
-      },
-      {
-        "id": "François Bellugou",
-        "short": "Bellugou",
-        "x": 55.99,
-        "y": 32.87,
-        "size": 110.4,
-        "is_playmaker": true,
-        "betweenness": 0.0769,
-        "eigenvector": 0.4722
+        "betweenness": 0.1,
+        "eigenvector": 0.4755
       },
       {
         "id": "Abdul Majeed Waris",
         "short": "Waris",
         "x": 78.61,
         "y": 30.86,
-        "size": 72.9,
+        "size": 66.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3373
+        "eigenvector": 0.1885
       },
       {
         "id": "Zargo Touré",
         "short": "Touré",
-        "x": 33.83,
-        "y": 30.62,
-        "size": 55.0,
+        "x": 35.24,
+        "y": 32.66,
+        "size": 63.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1111,
         "eigenvector": 0.0
       },
       {
@@ -791,39 +791,9 @@
         "short": "Lecomte",
         "x": 12.67,
         "y": 35.2,
-        "size": 55.0,
+        "size": 59.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Walid Mesloub",
-        "short": "Mesloub",
-        "x": 60.35,
-        "y": 37.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lamine Koné",
-        "short": "Koné",
-        "x": 51.14,
-        "y": 55.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Romain Philippoteaux",
-        "short": "Philippotea",
-        "x": 57.0,
-        "y": 13.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1111,
         "eigenvector": 0.0
       }
     ],
@@ -853,6 +823,12 @@
         "direction": "forward"
       },
       {
+        "source": "Maxime Barthelmé",
+        "target": "Vincent Le Goff",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Lamine Gassama",
         "target": "Yann Jouffre",
         "weight": 8,
@@ -865,10 +841,22 @@
         "direction": "backward"
       },
       {
+        "source": "Lamine Gassama",
+        "target": "Benjamin Moukandjo Bilé",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Yann Jouffre",
         "target": "Lamine Gassama",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Yann Jouffre",
+        "target": "Benjamin Moukandjo Bilé",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Didier Ndong Ibrahim",
@@ -883,9 +871,39 @@
         "direction": "lateral"
       },
       {
+        "source": "Didier Ndong Ibrahim",
+        "target": "Yann Jouffre",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Wesley Lautoa",
+        "target": "Maxime Barthelmé",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Wesley Lautoa",
         "target": "Vincent Le Goff",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Wesley Lautoa",
+        "target": "Benjamin Lecomte",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "François Bellugou",
+        "target": "Yann Jouffre",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "François Bellugou",
+        "target": "Benjamin Moukandjo Bilé",
+        "weight": 5,
         "direction": "forward"
       },
       {
@@ -893,6 +911,48 @@
         "target": "Vincent Le Goff",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "François Bellugou",
+        "target": "Didier Ndong Ibrahim",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "François Bellugou",
+        "target": "Maxime Barthelmé",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Benjamin Moukandjo Bilé",
+        "target": "François Bellugou",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Zargo Touré",
+        "target": "François Bellugou",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Zargo Touré",
+        "target": "Benjamin Lecomte",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Benjamin Lecomte",
+        "target": "Zargo Touré",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Benjamin Lecomte",
+        "target": "Wesley Lautoa",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -903,87 +963,97 @@
         "short": "Castro",
         "x": 77.95,
         "y": 46.73,
-        "size": 95.8,
+        "size": 95.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2401
       },
       {
         "id": "Nicolas Pallois",
         "short": "Pallois",
-        "x": 79.91,
-        "y": 27.23,
-        "size": 177.4,
+        "x": 80.4,
+        "y": 27.71,
+        "size": 139.9,
         "is_playmaker": true,
-        "betweenness": 0.0128,
-        "eigenvector": 0.5966
-      },
-      {
-        "id": "Maxime Poundjé",
-        "short": "Poundjé",
-        "x": 58.98,
-        "y": 9.22,
-        "size": 173.4,
-        "is_playmaker": true,
-        "betweenness": 0.0128,
-        "eigenvector": 0.5965
-      },
-      {
-        "id": "Wahbi Khazri",
-        "short": "Khazri",
-        "x": 47.65,
-        "y": 31.79,
-        "size": 132.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5369
+        "betweenness": 0.3185,
+        "eigenvector": 0.4329
       },
       {
         "id": "Jaroslav Plašil",
         "short": "Plašil",
-        "x": 55.73,
-        "y": 34.09,
-        "size": 95.8,
+        "x": 56.46,
+        "y": 34.94,
+        "size": 113.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2185,
+        "eigenvector": 0.4329
       },
       {
-        "id": "André Biyogo Poko",
-        "short": "Poko",
-        "x": 61.66,
-        "y": 37.12,
-        "size": 55.0,
+        "id": "Wahbi Khazri",
+        "short": "Khazri",
+        "x": 48.28,
+        "y": 31.81,
+        "size": 85.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2463,
+        "eigenvector": 0.3559
+      },
+      {
+        "id": "Maxime Poundjé",
+        "short": "Poundjé",
+        "x": 60.82,
+        "y": 9.41,
+        "size": 120.9,
+        "is_playmaker": false,
+        "betweenness": 0.087,
+        "eigenvector": 0.3637
       },
       {
         "id": "Henri Saivet",
         "short": "Saivet",
         "x": 60.83,
         "y": 44.76,
-        "size": 55.0,
+        "size": 90.8,
+        "is_playmaker": false,
+        "betweenness": 0.1167,
+        "eigenvector": 0.3387
+      },
+      {
+        "id": "André Biyogo Poko",
+        "short": "Poko",
+        "x": 61.9,
+        "y": 36.02,
+        "size": 77.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2571
+      },
+      {
+        "id": "Milan Gajić",
+        "short": "Gajić",
+        "x": 60.1,
+        "y": 73.39,
+        "size": 96.3,
+        "is_playmaker": true,
+        "betweenness": 0.2481,
+        "eigenvector": 0.336
       },
       {
         "id": "Diego Alejandro Rolan Silva",
         "short": "Silva",
         "x": 53.81,
         "y": 32.3,
-        "size": 55.0,
+        "size": 65.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.037,
+        "eigenvector": 0.1199
       },
       {
-        "id": "Milan Gajić",
-        "short": "Gajić",
-        "x": 58.95,
-        "y": 73.58,
-        "size": 55.0,
+        "id": "Cédric Carrasso",
+        "short": "Carrasso",
+        "x": 108.28,
+        "y": 39.78,
+        "size": 61.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -991,52 +1061,12 @@
       {
         "id": "Isaac Kiese Thelin",
         "short": "Thelin",
-        "x": 48.83,
-        "y": 39.47,
-        "size": 55.0,
+        "x": 46.97,
+        "y": 39.38,
+        "size": 59.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Cédric Carrasso",
-        "short": "Carrasso",
-        "x": 108.28,
-        "y": 39.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adam Ounas",
-        "short": "Ounas",
-        "x": 49.49,
-        "y": 51.43,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nicolas Maurice-Belay",
-        "short": "Maurice-Bel",
-        "x": 41.29,
-        "y": 24.32,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jussiê Ferreira Vieira",
-        "short": "Vieira",
-        "x": 29.33,
-        "y": 40.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1389,
+        "eigenvector": 0.0222
       }
     ],
     "edges": [
@@ -1047,10 +1077,82 @@
         "direction": "lateral"
       },
       {
+        "source": "Pablo Nascimento Castro",
+        "target": "Jaroslav Plašil",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Pablo Nascimento Castro",
+        "target": "Henri Saivet",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Nicolas Pallois",
         "target": "Maxime Poundjé",
         "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Nicolas Pallois",
+        "target": "Henri Saivet",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolas Pallois",
+        "target": "Pablo Nascimento Castro",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nicolas Pallois",
+        "target": "Jaroslav Plašil",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolas Pallois",
+        "target": "André Biyogo Poko",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jaroslav Plašil",
+        "target": "Wahbi Khazri",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Jaroslav Plašil",
+        "target": "Maxime Poundjé",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Jaroslav Plašil",
+        "target": "Milan Gajić",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Wahbi Khazri",
+        "target": "Milan Gajić",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Wahbi Khazri",
+        "target": "Isaac Kiese Thelin",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Maxime Poundjé",
+        "target": "Nicolas Pallois",
+        "weight": 10,
+        "direction": "forward"
       },
       {
         "source": "Maxime Poundjé",
@@ -1060,15 +1162,81 @@
       },
       {
         "source": "Maxime Poundjé",
+        "target": "André Biyogo Poko",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Maxime Poundjé",
+        "target": "Diego Alejandro Rolan Silva",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Maxime Poundjé",
+        "target": "Jaroslav Plašil",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Henri Saivet",
+        "target": "Milan Gajić",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Henri Saivet",
         "target": "Nicolas Pallois",
-        "weight": 10,
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Jaroslav Plašil",
-        "target": "Wahbi Khazri",
-        "weight": 10,
+        "source": "André Biyogo Poko",
+        "target": "Nicolas Pallois",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Milan Gajić",
+        "target": "Henri Saivet",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Milan Gajić",
+        "target": "Jaroslav Plašil",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Milan Gajić",
+        "target": "Pablo Nascimento Castro",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Diego Alejandro Rolan Silva",
+        "target": "Isaac Kiese Thelin",
+        "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Cédric Carrasso",
+        "target": "Nicolas Pallois",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Isaac Kiese Thelin",
+        "target": "Wahbi Khazri",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Isaac Kiese Thelin",
+        "target": "Diego Alejandro Rolan Silva",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

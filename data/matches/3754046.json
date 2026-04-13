@@ -895,97 +895,97 @@
         "short": "Cleverley",
         "x": 68.1,
         "y": 53.99,
-        "size": 98.6,
+        "size": 105.0,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.1718
+        "betweenness": 0.0556,
+        "eigenvector": 0.3312
       },
       {
         "id": "Gerard Deulofeu Lázaro",
         "short": "Lázaro",
         "x": 87.66,
         "y": 56.68,
-        "size": 100.5,
+        "size": 94.1,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.4063
+        "betweenness": 0.0222,
+        "eigenvector": 0.4837
       },
       {
         "id": "Séamus Coleman",
         "short": "Coleman",
         "x": 63.5,
         "y": 66.41,
-        "size": 95.9,
+        "size": 102.7,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.1187
+        "betweenness": 0.0778,
+        "eigenvector": 0.296
       },
       {
         "id": "Gareth Barry",
         "short": "Barry",
-        "x": 61.9,
-        "y": 43.46,
-        "size": 133.2,
-        "is_playmaker": true,
-        "betweenness": 0.1591,
-        "eigenvector": 0.2953
+        "x": 62.26,
+        "y": 43.51,
+        "size": 122.2,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.3279
       },
       {
         "id": "José Ramiro Funes Mori",
         "short": "Mori",
-        "x": 45.76,
-        "y": 26.83,
-        "size": 83.2,
+        "x": 45.96,
+        "y": 26.66,
+        "size": 80.8,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0
+        "betweenness": 0.15,
+        "eigenvector": 0.0005
       },
       {
         "id": "Ross Barkley",
         "short": "Barkley",
-        "x": 71.1,
-        "y": 29.38,
-        "size": 136.8,
+        "x": 70.87,
+        "y": 30.02,
+        "size": 133.1,
         "is_playmaker": true,
-        "betweenness": 0.1682,
-        "eigenvector": 0.459
+        "betweenness": 0.3778,
+        "eigenvector": 0.391
       },
       {
         "id": "John Stones",
         "short": "Stones",
-        "x": 46.61,
-        "y": 54.21,
-        "size": 72.3,
+        "x": 47.08,
+        "y": 54.5,
+        "size": 76.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1,
         "eigenvector": 0.0
       },
       {
         "id": "Arouna Koné",
         "short": "Koné",
-        "x": 79.5,
-        "y": 37.13,
-        "size": 83.2,
+        "x": 80.22,
+        "y": 37.88,
+        "size": 85.5,
         "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.4444
+        "betweenness": 0.1444,
+        "eigenvector": 0.3096
       },
       {
         "id": "Romelu Lukaku Menama",
         "short": "Menama",
-        "x": 79.49,
-        "y": 49.02,
-        "size": 91.4,
+        "x": 79.05,
+        "y": 49.9,
+        "size": 86.2,
         "is_playmaker": false,
-        "betweenness": 0.0773,
-        "eigenvector": 0.544
+        "betweenness": 0.1,
+        "eigenvector": 0.4607
       },
       {
         "id": "Tim Howard",
         "short": "Howard",
         "x": 12.13,
         "y": 41.14,
-        "size": 55.0,
+        "size": 61.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -995,20 +995,10 @@
         "short": "Galloway",
         "x": 58.87,
         "y": 16.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Leighton Baines",
-        "short": "Baines",
-        "x": 67.7,
-        "y": 8.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 58.1,
+        "is_playmaker": true,
+        "betweenness": 0.25,
+        "eigenvector": 0.0143
       }
     ],
     "edges": [
@@ -1023,6 +1013,12 @@
         "target": "Ross Barkley",
         "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "Tom Cleverley",
+        "target": "Séamus Coleman",
+        "weight": 8,
+        "direction": "backward"
       },
       {
         "source": "Gerard Deulofeu Lázaro",
@@ -1085,6 +1081,12 @@
         "direction": "forward"
       },
       {
+        "source": "José Ramiro Funes Mori",
+        "target": "Brendan Joel Zibusiso Galloway",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Ross Barkley",
         "target": "Arouna Koné",
         "weight": 11,
@@ -1109,6 +1111,18 @@
         "direction": "forward"
       },
       {
+        "source": "Ross Barkley",
+        "target": "Tom Cleverley",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ross Barkley",
+        "target": "Brendan Joel Zibusiso Galloway",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "John Stones",
         "target": "Gareth Barry",
         "weight": 11,
@@ -1127,10 +1141,34 @@
         "direction": "backward"
       },
       {
+        "source": "Arouna Koné",
+        "target": "Séamus Coleman",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Romelu Lukaku Menama",
         "target": "Arouna Koné",
         "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "Tim Howard",
+        "target": "John Stones",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Brendan Joel Zibusiso Galloway",
+        "target": "José Ramiro Funes Mori",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Brendan Joel Zibusiso Galloway",
+        "target": "Ross Barkley",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1139,135 +1177,260 @@
       {
         "id": "James McArthur",
         "short": "McArthur",
-        "x": 60.66,
-        "y": 39.41,
-        "size": 55.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Jason Puncheon",
-        "short": "Puncheon",
-        "x": 56.08,
-        "y": 48.32,
-        "size": 55.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "x": 58.53,
+        "y": 42.05,
+        "size": 112.4,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3595
       },
       {
         "id": "Yannick Bolasie Yala",
         "short": "Yala",
-        "x": 52.07,
-        "y": 41.62,
-        "size": 55.0,
+        "x": 51.49,
+        "y": 41.75,
+        "size": 102.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Yohan Cabaye",
-        "short": "Cabaye",
-        "x": 55.3,
-        "y": 32.53,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Mile Jedinak",
-        "short": "Jedinak",
-        "x": 65.23,
-        "y": 41.26,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.6085
       },
       {
         "id": "Connor Wickham",
         "short": "Wickham",
         "x": 46.27,
         "y": 36.97,
-        "size": 55.0,
+        "size": 100.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "betweenness": 0.1111,
+        "eigenvector": 0.351
       },
       {
-        "id": "Pape N''Diaye Souaré",
-        "short": "Souaré",
-        "x": 57.98,
-        "y": 5.71,
-        "size": 55.0,
+        "id": "Jason Puncheon",
+        "short": "Puncheon",
+        "x": 55.46,
+        "y": 47.78,
+        "size": 112.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "betweenness": 0.0944,
+        "eigenvector": 0.2259
       },
       {
-        "id": "Damien Delaney",
-        "short": "Delaney",
-        "x": 78.89,
-        "y": 20.57,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "id": "Yohan Cabaye",
+        "short": "Cabaye",
+        "x": 55.3,
+        "y": 32.53,
+        "size": 110.7,
+        "is_playmaker": true,
+        "betweenness": 0.1833,
+        "eigenvector": 0.4267
+      },
+      {
+        "id": "Mile Jedinak",
+        "short": "Jedinak",
+        "x": 64.14,
+        "y": 41.68,
+        "size": 119.3,
+        "is_playmaker": true,
+        "betweenness": 0.35,
+        "eigenvector": 0.3338
       },
       {
         "id": "Joel Ward",
         "short": "Ward",
         "x": 58.39,
         "y": 69.64,
-        "size": 55.0,
+        "size": 67.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.0
       },
       {
         "id": "Scott Dann",
         "short": "Dann",
         "x": 80.23,
         "y": 51.59,
-        "size": 55.0,
+        "size": 74.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.1788
+      },
+      {
+        "id": "Pape N''Diaye Souaré",
+        "short": "Souaré",
+        "x": 57.84,
+        "y": 5.95,
+        "size": 79.3,
+        "is_playmaker": false,
+        "betweenness": 0.0611,
+        "eigenvector": 0.0027
       },
       {
         "id": "Wayne Hennessey",
         "short": "Hennessey",
         "x": 104.48,
         "y": 45.3,
-        "size": 55.0,
+        "size": 65.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.0
       },
       {
-        "id": "Jordon Mutch",
-        "short": "Mutch",
-        "x": 38.0,
-        "y": 30.57,
-        "size": 55.0,
+        "id": "Damien Delaney",
+        "short": "Delaney",
+        "x": 78.89,
+        "y": 20.57,
+        "size": 62.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Dwight Gayle",
-        "short": "Gayle",
-        "x": 34.0,
-        "y": 7.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "betweenness": 0.1778,
+        "eigenvector": 0.03
       }
     ],
-    "edges": []
+    "edges": [
+      {
+        "source": "James McArthur",
+        "target": "Yannick Bolasie Yala",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "James McArthur",
+        "target": "Connor Wickham",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "James McArthur",
+        "target": "Jason Puncheon",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Connor Wickham",
+        "target": "Yannick Bolasie Yala",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Connor Wickham",
+        "target": "Yohan Cabaye",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jason Puncheon",
+        "target": "Yohan Cabaye",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jason Puncheon",
+        "target": "Mile Jedinak",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jason Puncheon",
+        "target": "Yannick Bolasie Yala",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jason Puncheon",
+        "target": "James McArthur",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Yohan Cabaye",
+        "target": "Connor Wickham",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Yohan Cabaye",
+        "target": "Mile Jedinak",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Yohan Cabaye",
+        "target": "Yannick Bolasie Yala",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mile Jedinak",
+        "target": "James McArthur",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Mile Jedinak",
+        "target": "Yohan Cabaye",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Mile Jedinak",
+        "target": "Scott Dann",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Mile Jedinak",
+        "target": "Damien Delaney",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joel Ward",
+        "target": "Yannick Bolasie Yala",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "James McArthur",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Pape N''Diaye Souaré",
+        "target": "Jason Puncheon",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pape N''Diaye Souaré",
+        "target": "Mile Jedinak",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Pape N''Diaye Souaré",
+        "target": "Damien Delaney",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wayne Hennessey",
+        "target": "Connor Wickham",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Damien Delaney",
+        "target": "Pape N''Diaye Souaré",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Damien Delaney",
+        "target": "Mile Jedinak",
+        "weight": 1,
+        "direction": "backward"
+      }
+    ]
   },
   "vaep": {
     "home": [

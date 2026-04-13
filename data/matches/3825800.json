@@ -701,72 +701,72 @@
       {
         "id": "Sergi Gómez Solà",
         "short": "Solà",
-        "x": 46.94,
-        "y": 20.05,
-        "size": 113.7,
+        "x": 46.36,
+        "y": 20.24,
+        "size": 107.3,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.4226
+        "betweenness": 0.2278,
+        "eigenvector": 0.3314
       },
       {
         "id": "Jonathan Castro Otto",
         "short": "Otto",
-        "x": 68.17,
-        "y": 11.48,
-        "size": 133.0,
-        "is_playmaker": true,
-        "betweenness": 0.1288,
-        "eigenvector": 0.5206
+        "x": 67.86,
+        "y": 11.53,
+        "size": 128.3,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.459
       },
       {
         "id": "Gustavo Daniel Cabral Cáceres",
         "short": "Cáceres",
-        "x": 43.02,
-        "y": 44.53,
-        "size": 104.3,
+        "x": 43.21,
+        "y": 44.59,
+        "size": 99.2,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.3435
+        "betweenness": 0.1167,
+        "eigenvector": 0.2904
       },
       {
         "id": "Manuel Agudo Durán",
         "short": "Durán",
         "x": 85.36,
         "y": 11.59,
-        "size": 77.7,
+        "size": 74.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2708
+        "eigenvector": 0.2153
       },
       {
         "id": "Hugo Mallo Novegil",
         "short": "Novegil",
-        "x": 62.07,
-        "y": 65.24,
-        "size": 105.0,
+        "x": 62.7,
+        "y": 65.33,
+        "size": 103.8,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.2643
+        "betweenness": 0.1333,
+        "eigenvector": 0.3188
       },
       {
         "id": "Fabián Ariel Orellana Valenzuela",
         "short": "Valenzuela",
-        "x": 74.42,
-        "y": 35.26,
-        "size": 107.0,
-        "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.3518
+        "x": 74.16,
+        "y": 34.89,
+        "size": 105.6,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.394
       },
       {
         "id": "Daniel Wass",
         "short": "Wass",
         "x": 68.82,
         "y": 55.31,
-        "size": 96.3,
-        "is_playmaker": false,
-        "betweenness": 0.0985,
-        "eigenvector": 0.2798
+        "size": 97.4,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.3197
       },
       {
         "id": "Iago Aspas Juncal",
@@ -776,57 +776,37 @@
         "size": 64.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0002
       },
       {
         "id": "Marcelo Alfonso Díaz Rojas",
         "short": "Rojas",
-        "x": 65.02,
-        "y": 38.22,
-        "size": 93.7,
-        "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.2953
+        "x": 64.82,
+        "y": 37.97,
+        "size": 109.7,
+        "is_playmaker": true,
+        "betweenness": 0.3611,
+        "eigenvector": 0.4352
       },
       {
         "id": "John Guidetti",
         "short": "Guidetti",
         "x": 93.73,
         "y": 51.29,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0075
       },
       {
         "id": "Sergio Álvarez Conde",
         "short": "Conde",
         "x": 15.8,
         "y": 40.43,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Théo Bongonda Mbul''Ofeko Batombo",
-        "short": "Batombo",
-        "x": 77.12,
-        "y": 66.53,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nemanja Radoja",
-        "short": "Radoja",
-        "x": 67.22,
-        "y": 44.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0146
       }
     ],
     "edges": [
@@ -849,6 +829,12 @@
         "direction": "forward"
       },
       {
+        "source": "Sergi Gómez Solà",
+        "target": "Sergio Álvarez Conde",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jonathan Castro Otto",
         "target": "Sergi Gómez Solà",
         "weight": 20,
@@ -867,6 +853,12 @@
         "direction": "forward"
       },
       {
+        "source": "Jonathan Castro Otto",
+        "target": "Marcelo Alfonso Díaz Rojas",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
         "source": "Gustavo Daniel Cabral Cáceres",
         "target": "Hugo Mallo Novegil",
         "weight": 19,
@@ -877,6 +869,12 @@
         "target": "Sergi Gómez Solà",
         "weight": 17,
         "direction": "lateral"
+      },
+      {
+        "source": "Gustavo Daniel Cabral Cáceres",
+        "target": "Sergio Álvarez Conde",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Manuel Agudo Durán",
@@ -933,10 +931,28 @@
         "direction": "forward"
       },
       {
+        "source": "Daniel Wass",
+        "target": "Marcelo Alfonso Díaz Rojas",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Wass",
+        "target": "John Guidetti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Iago Aspas Juncal",
         "target": "Fabián Ariel Orellana Valenzuela",
         "weight": 14,
         "direction": "backward"
+      },
+      {
+        "source": "Iago Aspas Juncal",
+        "target": "John Guidetti",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Marcelo Alfonso Díaz Rojas",
@@ -948,7 +964,43 @@
         "source": "Marcelo Alfonso Díaz Rojas",
         "target": "Daniel Wass",
         "weight": 12,
+        "direction": "forward"
+      },
+      {
+        "source": "Marcelo Alfonso Díaz Rojas",
+        "target": "Fabián Ariel Orellana Valenzuela",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Marcelo Alfonso Díaz Rojas",
+        "target": "Hugo Mallo Novegil",
+        "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "John Guidetti",
+        "target": "Iago Aspas Juncal",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "John Guidetti",
+        "target": "Daniel Wass",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Álvarez Conde",
+        "target": "Gustavo Daniel Cabral Cáceres",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Álvarez Conde",
+        "target": "Sergi Gómez Solà",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -959,39 +1011,39 @@
         "short": "Baptistão",
         "x": 54.77,
         "y": 46.77,
-        "size": 93.9,
+        "size": 106.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.4856
       },
       {
         "id": "Cédric Bakambu",
         "short": "Bakambu",
-        "x": 54.4,
-        "y": 51.82,
-        "size": 177.2,
-        "is_playmaker": true,
-        "betweenness": 0.0192,
-        "eigenvector": 0.0023
+        "x": 52.79,
+        "y": 55.87,
+        "size": 114.6,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.4357
       },
       {
-        "id": "Manuel Trigueros Muñoz",
-        "short": "Muñoz",
-        "x": 67.64,
-        "y": 49.77,
-        "size": 132.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "id": "Tomás Pina Isla",
+        "short": "Isla",
+        "x": 65.98,
+        "y": 37.26,
+        "size": 70.4,
+        "is_playmaker": true,
+        "betweenness": 0.1556,
         "eigenvector": 0.0
       },
       {
         "id": "Eric Bertrand Bailly",
         "short": "Bailly",
-        "x": 75.4,
-        "y": 56.93,
-        "size": 93.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "x": 75.92,
+        "y": 57.86,
+        "size": 93.5,
+        "is_playmaker": true,
+        "betweenness": 0.2,
         "eigenvector": 0.0
       },
       {
@@ -999,49 +1051,39 @@
         "short": "Esquivel",
         "x": 54.56,
         "y": 61.34,
-        "size": 99.4,
+        "size": 99.2,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.7579
+      },
+      {
+        "id": "Alphonse Areola",
+        "short": "Areola",
+        "x": 111.17,
+        "y": 38.75,
+        "size": 62.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 1.0
+        "eigenvector": 0.0
       },
       {
         "id": "Mario Gaspar Pérez Martínez",
         "short": "Martínez",
-        "x": 67.04,
-        "y": 70.74,
-        "size": 132.8,
-        "is_playmaker": true,
-        "betweenness": 0.0128,
+        "x": 66.17,
+        "y": 71.1,
+        "size": 112.7,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
         "eigenvector": 0.0
       },
       {
-        "id": "Tomás Pina Isla",
-        "short": "Isla",
-        "x": 67.67,
-        "y": 38.01,
-        "size": 55.0,
+        "id": "Manuel Trigueros Muñoz",
+        "short": "Muñoz",
+        "x": 67.24,
+        "y": 49.24,
+        "size": 108.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Denis Suárez Fernández",
-        "short": "Fernández",
-        "x": 44.99,
-        "y": 23.73,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Víctor Ruíz Torre",
-        "short": "Torre",
-        "x": 71.88,
-        "y": 27.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0556,
         "eigenvector": 0.0
       },
       {
@@ -1049,49 +1091,29 @@
         "short": "Rukavina",
         "x": 69.47,
         "y": 10.94,
-        "size": 55.0,
+        "size": 78.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1556,
         "eigenvector": 0.0
       },
       {
-        "id": "Alphonse Areola",
-        "short": "Areola",
-        "x": 111.17,
-        "y": 38.75,
-        "size": 55.0,
+        "id": "Denis Suárez Fernández",
+        "short": "Fernández",
+        "x": 46.02,
+        "y": 18.35,
+        "size": 78.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1444,
         "eigenvector": 0.0
       },
       {
-        "id": "Samuel Castillejo Azuaga",
-        "short": "Azuaga",
-        "x": 64.58,
-        "y": 45.48,
-        "size": 55.0,
+        "id": "Víctor Ruíz Torre",
+        "short": "Torre",
+        "x": 70.19,
+        "y": 27.52,
+        "size": 80.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adrián López Álvarez",
-        "short": "Álvarez",
-        "x": 69.24,
-        "y": 43.88,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Bruno Soriano Llido",
-        "short": "Llido",
-        "x": 74.82,
-        "y": 34.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1222,
         "eigenvector": 0.0
       }
     ],
@@ -1103,10 +1125,70 @@
         "direction": "lateral"
       },
       {
+        "source": "Leonardo Carrilho Baptistão",
+        "target": "Matías Nahuel Leiva Esquivel",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
         "source": "Cédric Bakambu",
         "target": "Matías Nahuel Leiva Esquivel",
         "weight": 8,
         "direction": "lateral"
+      },
+      {
+        "source": "Tomás Pina Isla",
+        "target": "Eric Bertrand Bailly",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Eric Bertrand Bailly",
+        "target": "Leonardo Carrilho Baptistão",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Eric Bertrand Bailly",
+        "target": "Víctor Ruíz Torre",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Matías Nahuel Leiva Esquivel",
+        "target": "Leonardo Carrilho Baptistão",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alphonse Areola",
+        "target": "Cédric Bakambu",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Gaspar Pérez Martínez",
+        "target": "Manuel Trigueros Muñoz",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mario Gaspar Pérez Martínez",
+        "target": "Matías Nahuel Leiva Esquivel",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Gaspar Pérez Martínez",
+        "target": "Leonardo Carrilho Baptistão",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Gaspar Pérez Martínez",
+        "target": "Cédric Bakambu",
+        "weight": 7,
+        "direction": "backward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
@@ -1116,14 +1198,44 @@
       },
       {
         "source": "Manuel Trigueros Muñoz",
+        "target": "Cédric Bakambu",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Manuel Trigueros Muñoz",
+        "target": "Víctor Ruíz Torre",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Manuel Trigueros Muñoz",
         "target": "Mario Gaspar Pérez Martínez",
         "weight": 7,
         "direction": "lateral"
       },
       {
-        "source": "Mario Gaspar Pérez Martínez",
-        "target": "Cédric Bakambu",
-        "weight": 7,
+        "source": "Antonio Rukavina",
+        "target": "Denis Suárez Fernández",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Rukavina",
+        "target": "Tomás Pina Isla",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Denis Suárez Fernández",
+        "target": "Antonio Rukavina",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Ruíz Torre",
+        "target": "Denis Suárez Fernández",
+        "weight": 4,
         "direction": "backward"
       }
     ]

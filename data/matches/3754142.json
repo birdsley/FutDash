@@ -845,109 +845,99 @@
       {
         "id": "Bacary Sagna",
         "short": "Sagna",
-        "x": 79.19,
-        "y": 70.09,
-        "size": 155.4,
+        "x": 79.04,
+        "y": 69.98,
+        "size": 147.8,
         "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.5149
+        "betweenness": 0.0278,
+        "eigenvector": 0.5014
       },
       {
         "id": "Jesús Navas González",
         "short": "González",
-        "x": 91.13,
-        "y": 66.03,
-        "size": 122.2,
+        "x": 90.1,
+        "y": 66.36,
+        "size": 113.6,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.5529
+        "betweenness": 0.0889,
+        "eigenvector": 0.5305
       },
       {
         "id": "Fernando Francisco Reges",
         "short": "Reges",
-        "x": 67.02,
-        "y": 41.75,
-        "size": 95.2,
+        "x": 66.72,
+        "y": 41.83,
+        "size": 90.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2848
+        "eigenvector": 0.2677
       },
       {
         "id": "Gnégnéri Yaya Touré",
         "short": "Touré",
-        "x": 71.41,
-        "y": 37.61,
-        "size": 134.5,
+        "x": 72.04,
+        "y": 36.81,
+        "size": 141.7,
         "is_playmaker": true,
-        "betweenness": 0.2545,
-        "eigenvector": 0.4055
+        "betweenness": 0.5056,
+        "eigenvector": 0.4011
       },
       {
         "id": "Kevin De Bruyne",
         "short": "Bruyne",
         "x": 86.65,
         "y": 44.66,
-        "size": 89.1,
+        "size": 90.7,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.3704
+        "betweenness": 0.1,
+        "eigenvector": 0.4293
       },
       {
         "id": "Gaël Clichy",
         "short": "Clichy",
-        "x": 70.53,
-        "y": 12.11,
-        "size": 86.4,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.1419
+        "x": 69.83,
+        "y": 12.16,
+        "size": 88.5,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.1334
       },
       {
         "id": "Martín Gastón Demichelis",
         "short": "Demichelis",
         "x": 55.59,
         "y": 25.55,
-        "size": 77.7,
-        "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.1245
+        "size": 76.3,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.1166
       },
       {
         "id": "Nicolás Hernán Otamendi",
         "short": "Otamendi",
         "x": 53.46,
         "y": 49.26,
-        "size": 63.7,
+        "size": 69.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0833,
+        "eigenvector": 0.0958
       },
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
-        "x": 85.35,
-        "y": 31.06,
-        "size": 70.7,
+        "x": 84.85,
+        "y": 30.46,
+        "size": 68.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1038
+        "eigenvector": 0.0983
       },
       {
         "id": "Sergio Leonel Agüero del Castillo",
         "short": "Castillo",
-        "x": 87.78,
-        "y": 34.53,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "David Josué Jiménez Silva",
-        "short": "Silva",
-        "x": 85.36,
-        "y": 42.04,
-        "size": 55.0,
+        "x": 88.26,
+        "y": 33.91,
+        "size": 60.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -957,10 +947,10 @@
         "short": "Hart",
         "x": 11.25,
         "y": 38.21,
-        "size": 55.0,
+        "size": 58.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2056,
+        "eigenvector": 0.0058
       }
     ],
     "edges": [
@@ -989,6 +979,12 @@
         "direction": "backward"
       },
       {
+        "source": "Bacary Sagna",
+        "target": "Nicolás Hernán Otamendi",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Jesús Navas González",
         "target": "Bacary Sagna",
         "weight": 16,
@@ -998,7 +994,7 @@
         "source": "Jesús Navas González",
         "target": "Kevin De Bruyne",
         "weight": 11,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Jesús Navas González",
@@ -1049,10 +1045,16 @@
         "direction": "backward"
       },
       {
+        "source": "Gnégnéri Yaya Touré",
+        "target": "Kevin De Bruyne",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
         "source": "Kevin De Bruyne",
         "target": "Jesús Navas González",
         "weight": 8,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Gaël Clichy",
@@ -1067,10 +1069,22 @@
         "direction": "backward"
       },
       {
+        "source": "Gaël Clichy",
+        "target": "Gnégnéri Yaya Touré",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Martín Gastón Demichelis",
         "target": "Gnégnéri Yaya Touré",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Martín Gastón Demichelis",
+        "target": "Joe Hart",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Nicolás Hernán Otamendi",
@@ -1079,205 +1093,161 @@
         "direction": "forward"
       },
       {
+        "source": "Nicolás Hernán Otamendi",
+        "target": "Joe Hart",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Raheem Sterling",
         "target": "Gaël Clichy",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Sergio Leonel Agüero del Castillo",
+        "target": "Gnégnéri Yaya Touré",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Joe Hart",
+        "target": "Nicolás Hernán Otamendi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joe Hart",
+        "target": "Martín Gastón Demichelis",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Leon Osman",
-        "short": "Osman",
-        "x": 50.94,
-        "y": 24.77,
-        "size": 97.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gareth Barry",
-        "short": "Barry",
-        "x": 63.01,
-        "y": 31.33,
-        "size": 103.8,
+        "id": "Muhamed Bešić",
+        "short": "Bešić",
+        "x": 57.39,
+        "y": 47.09,
+        "size": 150.7,
         "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.0
+        "betweenness": 0.4444,
+        "eigenvector": 0.5262
       },
       {
-        "id": "Leighton Baines",
-        "short": "Baines",
-        "x": 56.63,
-        "y": 8.39,
-        "size": 119.6,
-        "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "José Ramiro Funes Mori",
-        "short": "Mori",
-        "x": 77.87,
-        "y": 26.29,
-        "size": 78.2,
+        "id": "John Stones",
+        "short": "Stones",
+        "x": 61.16,
+        "y": 64.69,
+        "size": 95.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3076
       },
       {
         "id": "Ross Barkley",
         "short": "Barkley",
         "x": 54.77,
         "y": 36.38,
-        "size": 106.2,
+        "size": 104.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.549
+        "betweenness": 0.1778,
+        "eigenvector": 0.4553
       },
       {
-        "id": "Muhamed Bešić",
-        "short": "Bešić",
-        "x": 57.41,
-        "y": 46.96,
-        "size": 156.2,
+        "id": "Leon Osman",
+        "short": "Osman",
+        "x": 50.94,
+        "y": 24.77,
+        "size": 91.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2373
+      },
+      {
+        "id": "Leighton Baines",
+        "short": "Baines",
+        "x": 54.57,
+        "y": 7.84,
+        "size": 113.3,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.3471
+      },
+      {
+        "id": "Gareth Barry",
+        "short": "Barry",
+        "x": 63.11,
+        "y": 30.85,
+        "size": 117.6,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.4487
+      },
+      {
+        "id": "José Ramiro Funes Mori",
+        "short": "Mori",
+        "x": 77.92,
+        "y": 26.52,
+        "size": 84.6,
         "is_playmaker": true,
-        "betweenness": 0.0985,
-        "eigenvector": 0.6371
-      },
-      {
-        "id": "John Stones",
-        "short": "Stones",
-        "x": 60.59,
-        "y": 64.75,
-        "size": 103.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4945
+        "betweenness": 0.2556,
+        "eigenvector": 0.113
       },
       {
         "id": "Phil Jagielka",
         "short": "Jagielka",
         "x": 81.72,
         "y": 57.17,
-        "size": 74.5,
+        "size": 70.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2198
-      },
-      {
-        "id": "Romelu Lukaku Menama",
-        "short": "Menama",
-        "x": 42.18,
-        "y": 41.66,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.137
       },
       {
         "id": "Gerard Deulofeu Lázaro",
         "short": "Lázaro",
         "x": 50.53,
         "y": 68.01,
-        "size": 55.0,
+        "size": 60.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1025
       },
       {
         "id": "Tim Howard",
         "short": "Howard",
-        "x": 111.0,
-        "y": 41.29,
-        "size": 55.0,
+        "x": 110.85,
+        "y": 41.15,
+        "size": 58.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.0081
       },
       {
-        "id": "Steven Pienaar",
-        "short": "Pienaar",
-        "x": 45.36,
-        "y": 25.66,
-        "size": 55.0,
+        "id": "Romelu Lukaku Menama",
+        "short": "Menama",
+        "x": 42.18,
+        "y": 41.66,
+        "size": 58.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Arouna Koné",
-        "short": "Koné",
-        "x": 47.5,
-        "y": 38.84,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2222,
+        "eigenvector": 0.0319
       }
     ],
     "edges": [
       {
-        "source": "Leon Osman",
-        "target": "Gareth Barry",
-        "weight": 11,
-        "direction": "forward"
-      },
-      {
-        "source": "Leon Osman",
-        "target": "Leighton Baines",
-        "weight": 12,
-        "direction": "forward"
-      },
-      {
-        "source": "Gareth Barry",
-        "target": "Ross Barkley",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Gareth Barry",
-        "target": "Muhamed Bešić",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Leighton Baines",
-        "target": "José Ramiro Funes Mori",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Leighton Baines",
-        "target": "Leon Osman",
-        "weight": 12,
-        "direction": "backward"
-      },
-      {
-        "source": "Leighton Baines",
-        "target": "Gareth Barry",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "José Ramiro Funes Mori",
-        "target": "Leighton Baines",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Ross Barkley",
-        "target": "Muhamed Bešić",
-        "weight": 12,
+        "source": "Muhamed Bešić",
+        "target": "John Stones",
+        "weight": 18,
         "direction": "lateral"
       },
       {
         "source": "Muhamed Bešić",
-        "target": "John Stones",
-        "weight": 18,
+        "target": "Ross Barkley",
+        "weight": 13,
         "direction": "lateral"
       },
       {
@@ -1288,9 +1258,27 @@
       },
       {
         "source": "Muhamed Bešić",
-        "target": "Ross Barkley",
-        "weight": 13,
+        "target": "Leighton Baines",
+        "weight": 7,
         "direction": "lateral"
+      },
+      {
+        "source": "Muhamed Bešić",
+        "target": "Gerard Deulofeu Lázaro",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Muhamed Bešić",
+        "target": "Gareth Barry",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Muhamed Bešić",
+        "target": "Romelu Lukaku Menama",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "John Stones",
@@ -1305,10 +1293,142 @@
         "direction": "backward"
       },
       {
+        "source": "John Stones",
+        "target": "Gareth Barry",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ross Barkley",
+        "target": "Muhamed Bešić",
+        "weight": 12,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ross Barkley",
+        "target": "Gareth Barry",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Ross Barkley",
+        "target": "Romelu Lukaku Menama",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Leon Osman",
+        "target": "Leighton Baines",
+        "weight": 12,
+        "direction": "lateral"
+      },
+      {
+        "source": "Leon Osman",
+        "target": "Gareth Barry",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Leighton Baines",
+        "target": "Leon Osman",
+        "weight": 12,
+        "direction": "lateral"
+      },
+      {
+        "source": "Leighton Baines",
+        "target": "José Ramiro Funes Mori",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Leighton Baines",
+        "target": "Gareth Barry",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Gareth Barry",
+        "target": "Muhamed Bešić",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Gareth Barry",
+        "target": "Ross Barkley",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Gareth Barry",
+        "target": "Leon Osman",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Gareth Barry",
+        "target": "Leighton Baines",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "José Ramiro Funes Mori",
+        "target": "Leighton Baines",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "José Ramiro Funes Mori",
+        "target": "Ross Barkley",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "José Ramiro Funes Mori",
+        "target": "Muhamed Bešić",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "José Ramiro Funes Mori",
+        "target": "Tim Howard",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Phil Jagielka",
         "target": "Muhamed Bešić",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Phil Jagielka",
+        "target": "Tim Howard",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Tim Howard",
+        "target": "Phil Jagielka",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Tim Howard",
+        "target": "José Ramiro Funes Mori",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Romelu Lukaku Menama",
+        "target": "Ross Barkley",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Romelu Lukaku Menama",
+        "target": "Muhamed Bešić",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

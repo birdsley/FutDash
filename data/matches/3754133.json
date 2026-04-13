@@ -775,120 +775,110 @@
         "short": "Brady",
         "x": 73.78,
         "y": 10.31,
-        "size": 131.2,
-        "is_playmaker": true,
-        "betweenness": 0.1364,
-        "eigenvector": 0.6108
+        "size": 122.5,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.5782
       },
       {
         "id": "Matt Jarvis",
         "short": "Jarvis",
         "x": 89.68,
         "y": 12.56,
-        "size": 82.6,
+        "size": 84.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.559
+        "eigenvector": 0.5772
       },
       {
         "id": "Sébastien Aymar Bassong Nguena",
         "short": "Nguena",
-        "x": 45.99,
-        "y": 22.43,
-        "size": 93.1,
+        "x": 45.9,
+        "y": 22.35,
+        "size": 88.8,
         "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.118
+        "betweenness": 0.1,
+        "eigenvector": 0.1081
       },
       {
         "id": "Alexander Banor Tettey",
         "short": "Tettey",
         "x": 57.73,
         "y": 47.0,
-        "size": 103.6,
-        "is_playmaker": false,
-        "betweenness": 0.1091,
-        "eigenvector": 0.1997
+        "size": 109.9,
+        "is_playmaker": true,
+        "betweenness": 0.1889,
+        "eigenvector": 0.1899
       },
       {
         "id": "Russell Martin",
         "short": "Martin",
         "x": 59.12,
         "y": 70.6,
-        "size": 126.4,
+        "size": 124.2,
         "is_playmaker": true,
-        "betweenness": 0.1545,
-        "eigenvector": 0.2815
+        "betweenness": 0.2,
+        "eigenvector": 0.2879
       },
       {
         "id": "Nathan Redmond",
         "short": "Redmond",
-        "x": 82.18,
-        "y": 52.5,
-        "size": 78.8,
+        "x": 82.14,
+        "y": 51.7,
+        "size": 82.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1675
+        "eigenvector": 0.2214
       },
       {
         "id": "Jonathan Howson",
         "short": "Howson",
         "x": 71.08,
         "y": 27.61,
-        "size": 92.1,
+        "size": 93.0,
         "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.3058
+        "betweenness": 0.1111,
+        "eigenvector": 0.2765
       },
       {
         "id": "Wes Hoolahan",
         "short": "Hoolahan",
         "x": 73.67,
         "y": 35.92,
-        "size": 72.1,
+        "size": 76.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1399
+        "eigenvector": 0.1787
       },
       {
         "id": "Ryan Bennett",
         "short": "Bennett",
-        "x": 39.49,
-        "y": 56.44,
-        "size": 97.9,
+        "x": 39.86,
+        "y": 56.28,
+        "size": 93.0,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.172
+        "betweenness": 0.1222,
+        "eigenvector": 0.1634
       },
       {
         "id": "John Ruddy",
         "short": "Ruddy",
         "x": 13.43,
         "y": 42.93,
-        "size": 72.1,
+        "size": 70.2,
         "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.1031
+        "betweenness": 0.0333,
+        "eigenvector": 0.1005
       },
       {
         "id": "Dieumerci Mbokani Bezua",
         "short": "Bezua",
         "x": 78.89,
         "y": 43.35,
-        "size": 55.0,
+        "size": 60.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Cameron Jerome",
-        "short": "Jerome",
-        "x": 103.1,
-        "y": 52.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.088
       }
     ],
     "edges": [
@@ -941,6 +931,18 @@
         "direction": "forward"
       },
       {
+        "source": "Alexander Banor Tettey",
+        "target": "Wes Hoolahan",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexander Banor Tettey",
+        "target": "Nathan Redmond",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Russell Martin",
         "target": "Nathan Redmond",
         "weight": 13,
@@ -965,6 +967,12 @@
         "direction": "backward"
       },
       {
+        "source": "Russell Martin",
+        "target": "Dieumerci Mbokani Bezua",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Nathan Redmond",
         "target": "Russell Martin",
         "weight": 12,
@@ -981,6 +989,12 @@
         "target": "Wes Hoolahan",
         "weight": 10,
         "direction": "lateral"
+      },
+      {
+        "source": "Jonathan Howson",
+        "target": "Matt Jarvis",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Wes Hoolahan",
@@ -1017,137 +1031,135 @@
   "network_away": {
     "nodes": [
       {
+        "id": "Darren Fletcher",
+        "short": "Fletcher",
+        "x": 59.18,
+        "y": 45.47,
+        "size": 106.9,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.2612
+      },
+      {
         "id": "Saido Berahino",
         "short": "Berahino",
         "x": 49.24,
         "y": 40.44,
-        "size": 82.3,
-        "is_playmaker": true,
+        "size": 83.8,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.169
       },
       {
         "id": "Stéphane Sessègnon",
         "short": "Sessègnon",
-        "x": 56.22,
-        "y": 56.05,
-        "size": 173.2,
+        "x": 56.73,
+        "y": 55.4,
+        "size": 131.9,
         "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.0
+        "betweenness": 0.25,
+        "eigenvector": 0.2987
       },
       {
         "id": "Craig Dawson",
         "short": "Dawson",
-        "x": 73.33,
-        "y": 69.4,
-        "size": 86.8,
+        "x": 70.5,
+        "y": 69.38,
+        "size": 68.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1828
       },
       {
         "id": "Claudio Ariel Yacob",
         "short": "Yacob",
-        "x": 62.22,
-        "y": 40.06,
-        "size": 114.1,
+        "x": 61.68,
+        "y": 39.71,
+        "size": 103.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "James McClean",
-        "short": "McClean",
-        "x": 46.79,
-        "y": 17.74,
-        "size": 136.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6667
-      },
-      {
-        "id": "Chris Brunt",
-        "short": "Brunt",
-        "x": 50.98,
-        "y": 10.3,
-        "size": 136.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7454
-      },
-      {
-        "id": "Darren Fletcher",
-        "short": "Fletcher",
-        "x": 58.83,
-        "y": 46.06,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "José Salomón Rondón Giménez",
-        "short": "Giménez",
-        "x": 48.35,
-        "y": 27.67,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jonathan Grant Evans",
-        "short": "Evans",
-        "x": 73.87,
-        "y": 26.12,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0722,
+        "eigenvector": 0.1567
       },
       {
         "id": "Gareth McAuley",
         "short": "McAuley",
         "x": 76.7,
         "y": 47.53,
-        "size": 55.0,
+        "size": 85.8,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.1672
+      },
+      {
+        "id": "José Salomón Rondón Giménez",
+        "short": "Giménez",
+        "x": 48.35,
+        "y": 27.67,
+        "size": 62.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0585
+      },
+      {
+        "id": "James McClean",
+        "short": "McClean",
+        "x": 42.22,
+        "y": 19.75,
+        "size": 97.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.5382
+      },
+      {
+        "id": "Chris Brunt",
+        "short": "Brunt",
+        "x": 50.98,
+        "y": 10.3,
+        "size": 114.6,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.6201
+      },
+      {
+        "id": "Jonathan Grant Evans",
+        "short": "Evans",
+        "x": 73.87,
+        "y": 26.12,
+        "size": 87.7,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.2169
       },
       {
         "id": "Glyn Oliver Myhill",
         "short": "Myhill",
         "x": 109.88,
         "y": 43.44,
-        "size": 55.0,
+        "size": 62.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rickie Lambert",
-        "short": "Lambert",
-        "x": 45.32,
-        "y": 31.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Craig Gardner",
-        "short": "Gardner",
-        "x": 62.47,
-        "y": 22.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0585
       }
     ],
     "edges": [
+      {
+        "source": "Darren Fletcher",
+        "target": "Saido Berahino",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Darren Fletcher",
+        "target": "Gareth McAuley",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Darren Fletcher",
+        "target": "Stéphane Sessègnon",
+        "weight": 5,
+        "direction": "lateral"
+      },
       {
         "source": "Saido Berahino",
         "target": "Stéphane Sessègnon",
@@ -1167,10 +1179,52 @@
         "direction": "forward"
       },
       {
+        "source": "Stéphane Sessègnon",
+        "target": "James McClean",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Stéphane Sessègnon",
+        "target": "Darren Fletcher",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Claudio Ariel Yacob",
+        "target": "Saido Berahino",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Claudio Ariel Yacob",
         "target": "Stéphane Sessègnon",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Claudio Ariel Yacob",
+        "target": "Darren Fletcher",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Claudio Ariel Yacob",
+        "target": "Chris Brunt",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Gareth McAuley",
+        "target": "José Salomón Rondón Giménez",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Gareth McAuley",
+        "target": "Glyn Oliver Myhill",
+        "weight": 4,
+        "direction": "forward"
       },
       {
         "source": "James McClean",
@@ -1183,6 +1237,30 @@
         "target": "James McClean",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Chris Brunt",
+        "target": "Jonathan Grant Evans",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Grant Evans",
+        "target": "Chris Brunt",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Grant Evans",
+        "target": "Darren Fletcher",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Grant Evans",
+        "target": "Gareth McAuley",
+        "weight": 4,
+        "direction": "lateral"
       }
     ]
   },

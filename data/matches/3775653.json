@@ -665,89 +665,99 @@
       {
         "id": "Hannah Hampton",
         "short": "Hampton",
-        "x": 15.37,
-        "y": 39.91,
-        "size": 157.3,
-        "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.5672
+        "x": 16.52,
+        "y": 40.31,
+        "size": 103.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.4318
       },
       {
         "id": "Harriet Scott",
         "short": "Scott",
         "x": 35.95,
         "y": 51.1,
-        "size": 148.0,
+        "size": 118.6,
         "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.668
-      },
-      {
-        "id": "Ruby Mace",
-        "short": "Mace",
-        "x": 33.04,
-        "y": 25.61,
-        "size": 120.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4817
+        "betweenness": 0.2981,
+        "eigenvector": 0.4983
       },
       {
         "id": "Sarah Emma Mayling",
         "short": "Mayling",
-        "x": 66.05,
-        "y": 76.16,
-        "size": 124.8,
+        "x": 68.19,
+        "y": 76.38,
+        "size": 127.9,
+        "is_playmaker": true,
+        "betweenness": 0.3278,
+        "eigenvector": 0.4079
+      },
+      {
+        "id": "Ruby Mace",
+        "short": "Mace",
+        "x": 33.83,
+        "y": 25.53,
+        "size": 112.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2944,
+        "eigenvector": 0.4091
       },
       {
         "id": "Ruesha Littlejohn",
         "short": "Littlejohn",
-        "x": 65.59,
-        "y": 47.57,
-        "size": 92.2,
+        "x": 62.55,
+        "y": 46.15,
+        "size": 101.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2574,
+        "eigenvector": 0.2929
       },
       {
         "id": "Mollie Green",
         "short": "Green",
         "x": 66.08,
         "y": 50.63,
-        "size": 87.6,
+        "size": 81.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2868
+      },
+      {
+        "id": "Rebecca Holloway",
+        "short": "Holloway",
+        "x": 50.95,
+        "y": 14.22,
+        "size": 75.6,
+        "is_playmaker": false,
+        "betweenness": 0.0574,
+        "eigenvector": 0.0943
       },
       {
         "id": "Christie Murray",
         "short": "Murray",
         "x": 53.63,
         "y": 40.98,
-        "size": 55.0,
+        "size": 79.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2352,
+        "eigenvector": 0.1882
       },
       {
         "id": "Claudia Walker",
         "short": "Walker",
         "x": 67.78,
         "y": 22.55,
-        "size": 55.0,
+        "size": 73.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.0578
       },
       {
-        "id": "Rebecca Holloway",
-        "short": "Holloway",
-        "x": 53.34,
-        "y": 12.72,
-        "size": 55.0,
+        "id": "Emma Rose Kelly",
+        "short": "Kelly",
+        "x": 50.98,
+        "y": 13.4,
+        "size": 60.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -755,42 +765,12 @@
       {
         "id": "Jamie-Lee Napier",
         "short": "Napier",
-        "x": 76.1,
-        "y": 49.76,
-        "size": 55.0,
+        "x": 77.04,
+        "y": 53.49,
+        "size": 70.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lucy Whipp",
-        "short": "Whipp",
-        "x": 52.52,
-        "y": 37.76,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Emily Murphy",
-        "short": "Murphy",
-        "x": 54.77,
-        "y": 69.47,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Emma Rose Kelly",
-        "short": "Kelly",
-        "x": 50.98,
-        "y": 13.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1253
       }
     ],
     "edges": [
@@ -808,8 +788,44 @@
       },
       {
         "source": "Harriet Scott",
+        "target": "Sarah Emma Mayling",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Harriet Scott",
         "target": "Hannah Hampton",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Harriet Scott",
+        "target": "Ruby Mace",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sarah Emma Mayling",
+        "target": "Ruesha Littlejohn",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Sarah Emma Mayling",
+        "target": "Mollie Green",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sarah Emma Mayling",
+        "target": "Jamie-Lee Napier",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sarah Emma Mayling",
+        "target": "Christie Murray",
+        "weight": 3,
         "direction": "backward"
       },
       {
@@ -819,219 +835,205 @@
         "direction": "lateral"
       },
       {
-        "source": "Sarah Emma Mayling",
-        "target": "Ruesha Littlejohn",
-        "weight": 8,
+        "source": "Ruby Mace",
+        "target": "Hannah Hampton",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Ruby Mace",
+        "target": "Christie Murray",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Ruby Mace",
+        "target": "Rebecca Holloway",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Ruesha Littlejohn",
+        "target": "Sarah Emma Mayling",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Ruesha Littlejohn",
+        "target": "Harriet Scott",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Ruesha Littlejohn",
+        "target": "Mollie Green",
+        "weight": 3,
         "direction": "lateral"
       },
       {
-        "source": "Sarah Emma Mayling",
-        "target": "Mollie Green",
-        "weight": 7,
+        "source": "Mollie Green",
+        "target": "Sarah Emma Mayling",
+        "weight": 4,
         "direction": "lateral"
+      },
+      {
+        "source": "Rebecca Holloway",
+        "target": "Ruesha Littlejohn",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Rebecca Holloway",
+        "target": "Ruby Mace",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Christie Murray",
+        "target": "Harriet Scott",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Christie Murray",
+        "target": "Claudia Walker",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Claudia Walker",
+        "target": "Ruesha Littlejohn",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Emma Rose Kelly",
+        "target": "Claudia Walker",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Jamie-Lee Napier",
+        "target": "Sarah Emma Mayling",
+        "weight": 4,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Tinja-Riikka Tellervo Korpela",
-        "short": "Korpela",
-        "x": 102.07,
-        "y": 43.8,
-        "size": 111.8,
+        "id": "Rikke Læntver Sevecke",
+        "short": "Sevecke",
+        "x": 81.77,
+        "y": 23.03,
+        "size": 134.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3104
+        "betweenness": 0.3,
+        "eigenvector": 0.4407
       },
       {
         "id": "Megan Finnigan",
         "short": "Finnigan",
-        "x": 79.53,
-        "y": 62.06,
-        "size": 151.9,
+        "x": 78.08,
+        "y": 61.44,
+        "size": 137.7,
         "is_playmaker": true,
-        "betweenness": 0.1048,
-        "eigenvector": 0.5526
-      },
-      {
-        "id": "Rikke Læntver Sevecke",
-        "short": "Sevecke",
-        "x": 83.21,
-        "y": 22.6,
-        "size": 152.5,
-        "is_playmaker": true,
-        "betweenness": 0.0905,
-        "eigenvector": 0.553
+        "betweenness": 0.3889,
+        "eigenvector": 0.5103
       },
       {
         "id": "Hayley Emma Raso",
         "short": "Raso",
-        "x": 63.49,
-        "y": 70.79,
-        "size": 90.2,
+        "x": 60.28,
+        "y": 72.22,
+        "size": 99.0,
         "is_playmaker": false,
-        "betweenness": 0.0333,
-        "eigenvector": 0.2439
+        "betweenness": 0.1,
+        "eigenvector": 0.3494
       },
       {
         "id": "Poppy Pattinson",
         "short": "Pattinson",
-        "x": 62.07,
-        "y": 9.21,
-        "size": 89.0,
+        "x": 59.04,
+        "y": 7.48,
+        "size": 97.7,
         "is_playmaker": false,
-        "betweenness": 0.0619,
-        "eigenvector": 0.2757
+        "betweenness": 0.0,
+        "eigenvector": 0.2984
       },
       {
         "id": "Maéva Clemaron",
         "short": "Clemaron",
-        "x": 64.18,
-        "y": 39.51,
-        "size": 85.9,
+        "x": 61.19,
+        "y": 39.37,
+        "size": 101.0,
         "is_playmaker": false,
-        "betweenness": 0.0429,
-        "eigenvector": 0.3216
+        "betweenness": 0.2333,
+        "eigenvector": 0.3822
       },
       {
         "id": "Isobel Mary Christiansen",
         "short": "Christianse",
-        "x": 54.37,
-        "y": 23.32,
-        "size": 75.4,
-        "is_playmaker": false,
-        "betweenness": 0.0381,
-        "eigenvector": 0.2133
+        "x": 53.48,
+        "y": 23.22,
+        "size": 93.0,
+        "is_playmaker": true,
+        "betweenness": 0.4111,
+        "eigenvector": 0.2997
       },
       {
         "id": "Alisha Lehmann",
         "short": "Lehmann",
-        "x": 46.6,
-        "y": 10.46,
-        "size": 63.0,
+        "x": 43.72,
+        "y": 9.62,
+        "size": 69.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0719
+        "eigenvector": 0.1458
       },
       {
         "id": "Jill Scott",
         "short": "Scott",
-        "x": 55.43,
-        "y": 61.35,
-        "size": 68.6,
+        "x": 53.16,
+        "y": 58.99,
+        "size": 90.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2778,
+        "eigenvector": 0.2602
       },
       {
         "id": "Claire Emslie",
         "short": "Emslie",
         "x": 34.91,
         "y": 68.27,
-        "size": 61.8,
+        "size": 67.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0538
+        "eigenvector": 0.0936
       },
       {
         "id": "Valérie Gauvin",
         "short": "Gauvin",
         "x": 40.01,
         "y": 25.53,
-        "size": 55.0,
+        "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Simone Magill",
-        "short": "Magill",
-        "x": 56.97,
-        "y": 33.46,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lucy Hope",
-        "short": "Hope",
-        "x": 57.92,
-        "y": 21.44,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Abbey-Leigh Stringer",
-        "short": "Stringer",
-        "x": 72.66,
-        "y": 41.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nicoline Sørensen",
-        "short": "Sørensen",
-        "x": 65.88,
-        "y": 72.89,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0108
       },
       {
         "id": "Alexandra MacIver",
         "short": "MacIver",
         "x": 103.85,
         "y": 42.0,
-        "size": 55.0,
+        "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3667,
+        "eigenvector": 0.0232
       }
     ],
     "edges": [
-      {
-        "source": "Tinja-Riikka Tellervo Korpela",
-        "target": "Megan Finnigan",
-        "weight": 33,
-        "direction": "backward"
-      },
-      {
-        "source": "Tinja-Riikka Tellervo Korpela",
-        "target": "Rikke Læntver Sevecke",
-        "weight": 31,
-        "direction": "backward"
-      },
-      {
-        "source": "Megan Finnigan",
-        "target": "Hayley Emma Raso",
-        "weight": 22,
-        "direction": "backward"
-      },
-      {
-        "source": "Megan Finnigan",
-        "target": "Rikke Læntver Sevecke",
-        "weight": 20,
-        "direction": "lateral"
-      },
-      {
-        "source": "Megan Finnigan",
-        "target": "Tinja-Riikka Tellervo Korpela",
-        "weight": 18,
-        "direction": "forward"
-      },
-      {
-        "source": "Megan Finnigan",
-        "target": "Maéva Clemaron",
-        "weight": 16,
-        "direction": "backward"
-      },
       {
         "source": "Rikke Læntver Sevecke",
         "target": "Megan Finnigan",
@@ -1058,8 +1060,38 @@
       },
       {
         "source": "Rikke Læntver Sevecke",
-        "target": "Tinja-Riikka Tellervo Korpela",
-        "weight": 10,
+        "target": "Alexandra MacIver",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Megan Finnigan",
+        "target": "Hayley Emma Raso",
+        "weight": 22,
+        "direction": "backward"
+      },
+      {
+        "source": "Megan Finnigan",
+        "target": "Rikke Læntver Sevecke",
+        "weight": 20,
+        "direction": "lateral"
+      },
+      {
+        "source": "Megan Finnigan",
+        "target": "Maéva Clemaron",
+        "weight": 16,
+        "direction": "backward"
+      },
+      {
+        "source": "Megan Finnigan",
+        "target": "Jill Scott",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Megan Finnigan",
+        "target": "Alexandra MacIver",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1075,6 +1107,12 @@
         "direction": "backward"
       },
       {
+        "source": "Hayley Emma Raso",
+        "target": "Jill Scott",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
         "source": "Poppy Pattinson",
         "target": "Alisha Lehmann",
         "weight": 13,
@@ -1085,6 +1123,12 @@
         "target": "Rikke Læntver Sevecke",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Poppy Pattinson",
+        "target": "Isobel Mary Christiansen",
+        "weight": 9,
+        "direction": "backward"
       },
       {
         "source": "Maéva Clemaron",
@@ -1099,10 +1143,46 @@
         "direction": "backward"
       },
       {
+        "source": "Maéva Clemaron",
+        "target": "Megan Finnigan",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Maéva Clemaron",
+        "target": "Jill Scott",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Isobel Mary Christiansen",
         "target": "Poppy Pattinson",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Isobel Mary Christiansen",
+        "target": "Alisha Lehmann",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Isobel Mary Christiansen",
+        "target": "Maéva Clemaron",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Isobel Mary Christiansen",
+        "target": "Valérie Gauvin",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Alisha Lehmann",
+        "target": "Valérie Gauvin",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Jill Scott",
@@ -1115,6 +1195,36 @@
         "target": "Megan Finnigan",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Claire Emslie",
+        "target": "Jill Scott",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Valérie Gauvin",
+        "target": "Isobel Mary Christiansen",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Valérie Gauvin",
+        "target": "Alisha Lehmann",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alexandra MacIver",
+        "target": "Rikke Læntver Sevecke",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Alexandra MacIver",
+        "target": "Megan Finnigan",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

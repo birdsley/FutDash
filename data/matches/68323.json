@@ -713,79 +713,79 @@
       {
         "id": "Sylvio Mendes Campos Junior",
         "short": "Junior",
-        "x": 59.96,
-        "y": 7.58,
-        "size": 147.4,
+        "x": 59.59,
+        "y": 7.57,
+        "size": 146.7,
         "is_playmaker": true,
-        "betweenness": 0.0833,
-        "eigenvector": 0.4391
+        "betweenness": 0.2444,
+        "eigenvector": 0.5116
       },
       {
         "id": "Ronaldo de Assis Moreira",
         "short": "Moreira",
         "x": 79.7,
         "y": 20.99,
-        "size": 122.6,
+        "size": 114.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.6705
+        "eigenvector": 0.6064
       },
       {
         "id": "Anderson Luís de Souza",
         "short": "Souza",
-        "x": 63.82,
-        "y": 32.05,
-        "size": 106.4,
+        "x": 63.21,
+        "y": 31.99,
+        "size": 105.0,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.4577
+        "betweenness": 0.0333,
+        "eigenvector": 0.4012
       },
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
         "x": 41.79,
         "y": 34.58,
-        "size": 80.7,
+        "size": 90.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.1644
       },
       {
         "id": "Rafael Márquez Álvarez",
         "short": "Álvarez",
         "x": 42.72,
         "y": 46.69,
-        "size": 96.9,
+        "size": 104.2,
         "is_playmaker": true,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.2066
       },
       {
         "id": "Oleguer Presas Renom",
         "short": "Renom",
-        "x": 56.09,
-        "y": 70.87,
+        "x": 56.24,
+        "y": 70.96,
         "size": 95.0,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.1392
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
         "x": 75.26,
         "y": 56.92,
-        "size": 63.6,
+        "size": 62.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0409
       },
       {
         "id": "José Edmílson Gomes de Moraes",
         "short": "Moraes",
-        "x": 53.43,
-        "y": 41.32,
-        "size": 76.9,
+        "x": 53.7,
+        "y": 41.47,
+        "size": 74.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -795,50 +795,30 @@
         "short": "Luján",
         "x": 61.41,
         "y": 43.1,
-        "size": 91.2,
+        "size": 86.7,
         "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.3213
+        "betweenness": 0.0333,
+        "eigenvector": 0.2862
       },
       {
         "id": "Samuel Eto''o Fils",
         "short": "Fils",
-        "x": 69.25,
-        "y": 36.15,
-        "size": 69.3,
+        "x": 66.77,
+        "y": 33.45,
+        "size": 67.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2117
+        "eigenvector": 0.1915
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
         "x": 12.76,
         "y": 41.0,
-        "size": 55.0,
+        "size": 58.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ludovic Giuly",
-        "short": "Giuly",
-        "x": 89.2,
-        "y": 66.95,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Thiago Motta",
-        "short": "Motta",
-        "x": 67.87,
-        "y": 23.92,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.0121
       }
     ],
     "edges": [
@@ -859,6 +839,18 @@
         "target": "Samuel Eto''o Fils",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Sylvio Mendes Campos Junior",
+        "target": "Carles Puyol i Saforcada",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Sylvio Mendes Campos Junior",
+        "target": "Rafael Márquez Álvarez",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Ronaldo de Assis Moreira",
@@ -897,6 +889,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Anderson Luís de Souza",
+        "target": "Oleguer Presas Renom",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Carles Puyol i Saforcada",
         "target": "Sylvio Mendes Campos Junior",
         "weight": 14,
@@ -909,6 +907,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Carles Puyol i Saforcada",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Rafael Márquez Álvarez",
         "target": "Sylvio Mendes Campos Junior",
         "weight": 14,
@@ -919,6 +923,18 @@
         "target": "Oleguer Presas Renom",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Rafael Márquez Álvarez",
+        "target": "Carles Puyol i Saforcada",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rafael Márquez Álvarez",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Oleguer Presas Renom",
@@ -961,166 +977,146 @@
         "target": "Samuel Eto''o Fils",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Carles Puyol i Saforcada",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Rafael Márquez Álvarez",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "João Fernando Nelo",
-        "short": "Nelo",
-        "x": 50.7,
-        "y": 41.36,
-        "size": 90.1,
+        "id": "Diego Rodolfo Placente",
+        "short": "Placente",
+        "x": 67.4,
+        "y": 10.57,
+        "size": 118.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5895
+        "eigenvector": 0.1706
+      },
+      {
+        "id": "David Josué Jiménez Silva",
+        "short": "Silva",
+        "x": 57.75,
+        "y": 28.7,
+        "size": 120.9,
+        "is_playmaker": false,
+        "betweenness": 0.1056,
+        "eigenvector": 0.347
       },
       {
         "id": "Néstor Fabián Canobbio Bentaberry",
         "short": "Bentaberry",
         "x": 55.33,
         "y": 41.05,
-        "size": 135.4,
+        "size": 112.6,
         "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.7073
+        "betweenness": 0.15,
+        "eigenvector": 0.5711
+      },
+      {
+        "id": "João Fernando Nelo",
+        "short": "Nelo",
+        "x": 50.79,
+        "y": 42.18,
+        "size": 92.6,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.5133
       },
       {
         "id": "Borja Oubiña Meléndez",
         "short": "Meléndez",
-        "x": 63.2,
-        "y": 35.34,
-        "size": 90.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1547
-      },
-      {
-        "id": "Diego Rodolfo Placente",
-        "short": "Placente",
-        "x": 68.12,
-        "y": 10.7,
-        "size": 156.0,
+        "x": 64.72,
+        "y": 35.78,
+        "size": 113.8,
         "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.1856
-      },
-      {
-        "id": "David Josué Jiménez Silva",
-        "short": "Silva",
-        "x": 58.31,
-        "y": 30.67,
-        "size": 137.5,
-        "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.2475
-      },
-      {
-        "id": "Matías Emanuel Lequi",
-        "short": "Lequi",
-        "x": 75.3,
-        "y": 23.54,
-        "size": 69.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1083
-      },
-      {
-        "id": "Iriney Santos Da Silva",
-        "short": "Silva",
-        "x": 63.93,
-        "y": 50.16,
-        "size": 88.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1444
+        "betweenness": 0.2389,
+        "eigenvector": 0.4132
       },
       {
         "id": "Ángel Domingo López Ruano",
         "short": "Ruano",
-        "x": 70.27,
-        "y": 72.78,
-        "size": 73.6,
+        "x": 70.96,
+        "y": 72.26,
+        "size": 78.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1056,
+        "eigenvector": 0.0423
+      },
+      {
+        "id": "Iriney Santos Da Silva",
+        "short": "Silva",
+        "x": 65.27,
+        "y": 49.15,
+        "size": 98.5,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.1535
+      },
+      {
+        "id": "Matías Emanuel Lequi",
+        "short": "Lequi",
+        "x": 73.47,
+        "y": 24.19,
+        "size": 72.6,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.2013
+      },
+      {
+        "id": "Sergio Fernández González",
+        "short": "González",
+        "x": 82.53,
+        "y": 56.09,
+        "size": 64.4,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.0145
       },
       {
         "id": "Antonio Núñez Tena",
         "short": "Tena",
         "x": 63.01,
         "y": 68.03,
-        "size": 55.0,
+        "size": 72.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sergio Fernández González",
-        "short": "González",
-        "x": 80.68,
-        "y": 56.19,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Francisco Javier García Guerrero",
-        "short": "Guerrero",
-        "x": 48.31,
-        "y": 32.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0722,
+        "eigenvector": 0.1548
       },
       {
         "id": "Esteban Andrés Suárez",
         "short": "Suárez",
         "x": 110.03,
         "y": 37.23,
-        "size": 55.0,
+        "size": 59.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jorge Larena Avellaneda Roig",
-        "short": "Roig",
-        "x": 55.1,
-        "y": 61.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.0118
       }
     ],
     "edges": [
-      {
-        "source": "João Fernando Nelo",
-        "target": "Néstor Fabián Canobbio Bentaberry",
-        "weight": 7,
-        "direction": "forward"
-      },
-      {
-        "source": "Néstor Fabián Canobbio Bentaberry",
-        "target": "João Fernando Nelo",
-        "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Borja Oubiña Meléndez",
-        "target": "Néstor Fabián Canobbio Bentaberry",
-        "weight": 7,
-        "direction": "backward"
-      },
       {
         "source": "Diego Rodolfo Placente",
         "target": "David Josué Jiménez Silva",
         "weight": 16,
         "direction": "backward"
+      },
+      {
+        "source": "Diego Rodolfo Placente",
+        "target": "Borja Oubiña Meléndez",
+        "weight": 10,
+        "direction": "lateral"
       },
       {
         "source": "Diego Rodolfo Placente",
@@ -1136,8 +1132,8 @@
       },
       {
         "source": "Diego Rodolfo Placente",
-        "target": "Borja Oubiña Meléndez",
-        "weight": 10,
+        "target": "João Fernando Nelo",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1148,20 +1144,134 @@
       },
       {
         "source": "David Josué Jiménez Silva",
+        "target": "Néstor Fabián Canobbio Bentaberry",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "David Josué Jiménez Silva",
         "target": "Iriney Santos Da Silva",
         "weight": 7,
         "direction": "forward"
       },
       {
         "source": "David Josué Jiménez Silva",
-        "target": "Néstor Fabián Canobbio Bentaberry",
-        "weight": 8,
+        "target": "Borja Oubiña Meléndez",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Néstor Fabián Canobbio Bentaberry",
+        "target": "João Fernando Nelo",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Néstor Fabián Canobbio Bentaberry",
+        "target": "Borja Oubiña Meléndez",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Néstor Fabián Canobbio Bentaberry",
+        "target": "David Josué Jiménez Silva",
+        "weight": 5,
         "direction": "lateral"
+      },
+      {
+        "source": "João Fernando Nelo",
+        "target": "Néstor Fabián Canobbio Bentaberry",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Borja Oubiña Meléndez",
+        "target": "Néstor Fabián Canobbio Bentaberry",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Borja Oubiña Meléndez",
+        "target": "Matías Emanuel Lequi",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Borja Oubiña Meléndez",
+        "target": "Antonio Núñez Tena",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Borja Oubiña Meléndez",
+        "target": "João Fernando Nelo",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Ángel Domingo López Ruano",
         "target": "Iriney Santos Da Silva",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Ángel Domingo López Ruano",
+        "target": "Sergio Fernández González",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Iriney Santos Da Silva",
+        "target": "Borja Oubiña Meléndez",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Iriney Santos Da Silva",
+        "target": "Antonio Núñez Tena",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Iriney Santos Da Silva",
+        "target": "David Josué Jiménez Silva",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Iriney Santos Da Silva",
+        "target": "João Fernando Nelo",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Matías Emanuel Lequi",
+        "target": "Esteban Andrés Suárez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Fernández González",
+        "target": "Esteban Andrés Suárez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Antonio Núñez Tena",
+        "target": "Ángel Domingo López Ruano",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Esteban Andrés Suárez",
+        "target": "Sergio Fernández González",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Esteban Andrés Suárez",
+        "target": "Matías Emanuel Lequi",
+        "weight": 1,
         "direction": "backward"
       }
     ]

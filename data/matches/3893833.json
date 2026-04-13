@@ -701,39 +701,59 @@
       {
         "id": "Seo-Yeon Shim",
         "short": "Shim",
-        "x": 42.54,
-        "y": 26.84,
-        "size": 96.7,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 42.77,
+        "y": 26.55,
+        "size": 95.4,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.1251
       },
       {
         "id": "So-Yun Ji",
         "short": "Ji",
-        "x": 64.62,
-        "y": 26.11,
-        "size": 125.8,
+        "x": 65.11,
+        "y": 26.29,
+        "size": 151.6,
+        "is_playmaker": true,
+        "betweenness": 0.2778,
+        "eigenvector": 0.5082
+      },
+      {
+        "id": "So-Hyun Cho",
+        "short": "Cho",
+        "x": 53.37,
+        "y": 36.37,
+        "size": 75.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4264
+        "betweenness": 0.1389,
+        "eigenvector": 0.0012
       },
       {
         "id": "Sel-Gi Jang",
         "short": "Jang",
         "x": 55.69,
         "y": 8.45,
-        "size": 184.2,
-        "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.6396
+        "size": 124.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.5404
+      },
+      {
+        "id": "Casey Yu-Jin Phair",
+        "short": "Phair",
+        "x": 54.74,
+        "y": 31.32,
+        "size": 64.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1655
       },
       {
         "id": "Hyo-Joo Choo",
         "short": "Choo",
         "x": 67.21,
         "y": 73.48,
-        "size": 105.0,
+        "size": 82.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -743,20 +763,20 @@
         "short": "Chun",
         "x": 77.94,
         "y": 59.95,
-        "size": 75.8,
+        "size": 75.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1655
       },
       {
         "id": "Yu-Ri Choe",
         "short": "Choe",
-        "x": 51.78,
-        "y": 21.11,
-        "size": 113.3,
+        "x": 50.46,
+        "y": 24.28,
+        "size": 120.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.6396
+        "eigenvector": 0.5925
       },
       {
         "id": "Young-Ju Lee",
@@ -765,68 +785,28 @@
         "y": 34.01,
         "size": 84.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Casey Yu-Jin Phair",
-        "short": "Phair",
-        "x": 54.74,
-        "y": 31.32,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "So-Hyun Cho",
-        "short": "Cho",
-        "x": 53.37,
-        "y": 36.37,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jung-Mi Kim",
-        "short": "Kim",
-        "x": 9.17,
-        "y": 43.77,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.1667
       },
       {
         "id": "Hye-Ri Kim",
         "short": "Kim",
         "x": 40.54,
         "y": 45.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 68.5,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0146
       },
       {
-        "id": "Mi-Ra Moon",
-        "short": "Moon",
-        "x": 78.92,
-        "y": 22.1,
-        "size": 55.0,
+        "id": "Jung-Mi Kim",
+        "short": "Kim",
+        "x": 10.25,
+        "y": 47.6,
+        "size": 64.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Eun-Sun Park",
-        "short": "Park",
-        "x": 44.8,
-        "y": 30.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1722,
+        "eigenvector": 0.0114
       }
     ],
     "edges": [
@@ -843,16 +823,76 @@
         "direction": "forward"
       },
       {
+        "source": "Seo-Yeon Shim",
+        "target": "Yu-Ri Choe",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Seo-Yeon Shim",
+        "target": "Jung-Mi Kim",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Seo-Yeon Shim",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Casey Yu-Jin Phair",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Yu-Ri Choe",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Young-Ju Lee",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Ga-Ram Chun",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "So-Yun Ji",
         "target": "Sel-Gi Jang",
         "weight": 6,
         "direction": "backward"
       },
       {
+        "source": "So-Hyun Cho",
+        "target": "So-Yun Ji",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "So-Hyun Cho",
+        "target": "Yu-Ri Choe",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "So-Hyun Cho",
+        "target": "Hye-Ri Kim",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Sel-Gi Jang",
         "target": "Yu-Ri Choe",
         "weight": 9,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Sel-Gi Jang",
@@ -874,178 +914,178 @@
       },
       {
         "source": "Yu-Ri Choe",
+        "target": "So-Yun Ji",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Yu-Ri Choe",
         "target": "Sel-Gi Jang",
         "weight": 5,
-        "direction": "lateral"
+        "direction": "forward"
+      },
+      {
+        "source": "Young-Ju Lee",
+        "target": "Hye-Ri Kim",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hye-Ri Kim",
+        "target": "Young-Ju Lee",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hye-Ri Kim",
+        "target": "So-Hyun Cho",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hye-Ri Kim",
+        "target": "Jung-Mi Kim",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jung-Mi Kim",
+        "target": "Hye-Ri Kim",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jung-Mi Kim",
+        "target": "Seo-Yeon Shim",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Chantal Hagel",
-        "short": "Hagel",
-        "x": 63.24,
-        "y": 18.62,
-        "size": 141.5,
+        "id": "Svenja Huth",
+        "short": "Huth",
+        "x": 57.35,
+        "y": 73.53,
+        "size": 92.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1924
+      },
+      {
+        "id": "Kathrin Julia Hendrich",
+        "short": "Hendrich",
+        "x": 68.57,
+        "y": 59.96,
+        "size": 150.1,
         "is_playmaker": true,
-        "betweenness": 0.0705,
-        "eigenvector": 0.4771
+        "betweenness": 0.3778,
+        "eigenvector": 0.524
       },
       {
         "id": "Marina Hegering",
         "short": "Hegering",
         "x": 74.76,
         "y": 43.07,
-        "size": 146.7,
+        "size": 130.5,
         "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.5416
+        "betweenness": 0.1111,
+        "eigenvector": 0.5204
       },
       {
-        "id": "Kathrin Julia Hendrich",
-        "short": "Hendrich",
-        "x": 68.45,
-        "y": 60.03,
-        "size": 168.5,
+        "id": "Chantal Hagel",
+        "short": "Hagel",
+        "x": 62.84,
+        "y": 18.58,
+        "size": 134.7,
         "is_playmaker": true,
-        "betweenness": 0.0705,
-        "eigenvector": 0.5615
-      },
-      {
-        "id": "Svenja Huth",
-        "short": "Huth",
-        "x": 57.88,
-        "y": 73.02,
-        "size": 102.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2378
+        "betweenness": 0.4222,
+        "eigenvector": 0.5044
       },
       {
         "id": "Klara Bühl",
         "short": "Bühl",
         "x": 46.43,
         "y": 15.43,
-        "size": 88.3,
+        "size": 86.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2399
+        "betweenness": 0.0667,
+        "eigenvector": 0.2366
       },
       {
         "id": "Lena Oberdorf",
         "short": "Oberdorf",
-        "x": 58.62,
-        "y": 43.47,
-        "size": 82.1,
+        "x": 60.24,
+        "y": 43.99,
+        "size": 85.8,
         "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.2229
-      },
-      {
-        "id": "Alexandra Popp",
-        "short": "Popp",
-        "x": 46.45,
-        "y": 43.53,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jule Brand",
-        "short": "Brand",
-        "x": 48.06,
-        "y": 52.24,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lea Schüller",
-        "short": "Schüller",
-        "x": 39.75,
-        "y": 39.61,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sara Däbritz",
-        "short": "Däbritz",
-        "x": 63.39,
-        "y": 29.58,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2778,
+        "eigenvector": 0.2499
       },
       {
         "id": "Merle Frohms",
         "short": "Frohms",
         "x": 106.39,
         "y": 46.0,
-        "size": 55.0,
+        "size": 69.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.1438
       },
       {
-        "id": "Sydney Lohmann",
-        "short": "Lohmann",
-        "x": 45.35,
-        "y": 44.55,
-        "size": 55.0,
+        "id": "Sara Däbritz",
+        "short": "Däbritz",
+        "x": 63.39,
+        "y": 29.58,
+        "size": 71.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2667,
+        "eigenvector": 0.1039
       },
       {
-        "id": "Lena Lattwein",
-        "short": "Lattwein",
-        "x": 40.02,
-        "y": 46.24,
-        "size": 55.0,
+        "id": "Jule Brand",
+        "short": "Brand",
+        "x": 49.68,
+        "y": 52.99,
+        "size": 66.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.1152
       },
       {
-        "id": "Nicole Anyomi",
-        "short": "Anyomi",
-        "x": 27.93,
-        "y": 1.53,
-        "size": 55.0,
+        "id": "Alexandra Popp",
+        "short": "Popp",
+        "x": 48.21,
+        "y": 44.99,
+        "size": 60.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.0001
+      },
+      {
+        "id": "Lea Schüller",
+        "short": "Schüller",
+        "x": 40.39,
+        "y": 41.09,
+        "size": 57.8,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0026
       }
     ],
     "edges": [
       {
-        "source": "Chantal Hagel",
-        "target": "Marina Hegering",
-        "weight": 17,
+        "source": "Svenja Huth",
+        "target": "Kathrin Julia Hendrich",
+        "weight": 30,
         "direction": "forward"
       },
       {
-        "source": "Chantal Hagel",
-        "target": "Klara Bühl",
-        "weight": 19,
-        "direction": "backward"
-      },
-      {
-        "source": "Marina Hegering",
-        "target": "Kathrin Julia Hendrich",
-        "weight": 26,
-        "direction": "backward"
-      },
-      {
-        "source": "Marina Hegering",
-        "target": "Chantal Hagel",
-        "weight": 23,
+        "source": "Svenja Huth",
+        "target": "Jule Brand",
+        "weight": 7,
         "direction": "backward"
       },
       {
@@ -1067,10 +1107,70 @@
         "direction": "backward"
       },
       {
-        "source": "Svenja Huth",
-        "target": "Kathrin Julia Hendrich",
-        "weight": 30,
+        "source": "Kathrin Julia Hendrich",
+        "target": "Chantal Hagel",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Kathrin Julia Hendrich",
+        "target": "Jule Brand",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Kathrin Julia Hendrich",
+        "target": "Merle Frohms",
+        "weight": 6,
         "direction": "forward"
+      },
+      {
+        "source": "Marina Hegering",
+        "target": "Kathrin Julia Hendrich",
+        "weight": 26,
+        "direction": "backward"
+      },
+      {
+        "source": "Marina Hegering",
+        "target": "Chantal Hagel",
+        "weight": 23,
+        "direction": "backward"
+      },
+      {
+        "source": "Marina Hegering",
+        "target": "Merle Frohms",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Chantal Hagel",
+        "target": "Klara Bühl",
+        "weight": 19,
+        "direction": "backward"
+      },
+      {
+        "source": "Chantal Hagel",
+        "target": "Marina Hegering",
+        "weight": 17,
+        "direction": "forward"
+      },
+      {
+        "source": "Chantal Hagel",
+        "target": "Kathrin Julia Hendrich",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Chantal Hagel",
+        "target": "Sara Däbritz",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Chantal Hagel",
+        "target": "Lena Oberdorf",
+        "weight": 6,
+        "direction": "lateral"
       },
       {
         "source": "Klara Bühl",
@@ -1079,9 +1179,69 @@
         "direction": "forward"
       },
       {
+        "source": "Klara Bühl",
+        "target": "Marina Hegering",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Lena Oberdorf",
         "target": "Chantal Hagel",
         "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lena Oberdorf",
+        "target": "Sara Däbritz",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Merle Frohms",
+        "target": "Marina Hegering",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Sara Däbritz",
+        "target": "Klara Bühl",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Sara Däbritz",
+        "target": "Chantal Hagel",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jule Brand",
+        "target": "Lea Schüller",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Alexandra Popp",
+        "target": "Lena Oberdorf",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexandra Popp",
+        "target": "Lea Schüller",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lea Schüller",
+        "target": "Alexandra Popp",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lea Schüller",
+        "target": "Jule Brand",
+        "weight": 1,
         "direction": "forward"
       }
     ]

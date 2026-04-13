@@ -703,110 +703,110 @@
         "short": "McCabe",
         "x": 59.16,
         "y": 10.3,
-        "size": 148.3,
+        "size": 138.9,
         "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.5825
+        "betweenness": 0.2,
+        "eigenvector": 0.568
       },
       {
         "id": "Jennifer Patricia Beattie",
         "short": "Beattie",
         "x": 45.1,
         "y": 25.35,
-        "size": 170.8,
+        "size": 163.5,
         "is_playmaker": true,
-        "betweenness": 0.3111,
-        "eigenvector": 0.6576
+        "betweenness": 0.5556,
+        "eigenvector": 0.6673
       },
       {
         "id": "Leah Williamson",
         "short": "Williamson",
         "x": 40.58,
         "y": 51.96,
-        "size": 80.3,
+        "size": 86.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1914
+        "betweenness": 0.1,
+        "eigenvector": 0.2135
       },
       {
         "id": "Bethany Mead",
         "short": "Mead",
         "x": 76.82,
         "y": 24.28,
-        "size": 76.8,
+        "size": 74.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2301
+        "eigenvector": 0.218
       },
       {
         "id": "Lisa Evans",
         "short": "Evans",
         "x": 61.41,
         "y": 70.66,
-        "size": 85.2,
+        "size": 86.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.0264
       },
       {
         "id": "Danielle van de Donk",
         "short": "Donk",
         "x": 72.71,
         "y": 55.1,
-        "size": 79.6,
+        "size": 78.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.0075
       },
       {
         "id": "Kim Little",
         "short": "Little",
         "x": 63.79,
         "y": 33.91,
-        "size": 95.0,
+        "size": 91.0,
         "is_playmaker": true,
-        "betweenness": 0.2889,
-        "eigenvector": 0.2973
+        "betweenness": 0.4444,
+        "eigenvector": 0.2946
       },
       {
         "id": "Lia Wälti",
         "short": "Wälti",
         "x": 53.54,
         "y": 36.44,
-        "size": 70.4,
+        "size": 82.1,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.1777
+        "betweenness": 0.1333,
+        "eigenvector": 0.1752
       },
       {
         "id": "Manuela Zinsberger",
         "short": "Zinsberger",
         "x": 12.21,
         "y": 39.81,
-        "size": 62.7,
+        "size": 66.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.0302
       },
       {
         "id": "Jordan Nobbs",
         "short": "Nobbs",
         "x": 68.4,
         "y": 41.71,
-        "size": 81.0,
+        "size": 79.6,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.1367
+        "betweenness": 0.3333,
+        "eigenvector": 0.1412
       },
       {
         "id": "Vivianne Miedema",
         "short": "Miedema",
         "x": 81.28,
         "y": 46.07,
-        "size": 55.0,
+        "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.003
       }
     ],
     "edges": [
@@ -865,6 +865,12 @@
         "direction": "forward"
       },
       {
+        "source": "Leah Williamson",
+        "target": "Manuela Zinsberger",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Bethany Mead",
         "target": "Katie McCabe",
         "weight": 12,
@@ -901,6 +907,12 @@
         "direction": "backward"
       },
       {
+        "source": "Danielle van de Donk",
+        "target": "Vivianne Miedema",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Kim Little",
         "target": "Katie McCabe",
         "weight": 11,
@@ -919,6 +931,24 @@
         "direction": "forward"
       },
       {
+        "source": "Lia Wälti",
+        "target": "Jennifer Patricia Beattie",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Lia Wälti",
+        "target": "Lisa Evans",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Lia Wälti",
+        "target": "Leah Williamson",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Manuela Zinsberger",
         "target": "Jennifer Patricia Beattie",
         "weight": 11,
@@ -929,6 +959,24 @@
         "target": "Kim Little",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Jordan Nobbs",
+        "target": "Vivianne Miedema",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vivianne Miedema",
+        "target": "Danielle van de Donk",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Vivianne Miedema",
+        "target": "Jordan Nobbs",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -937,142 +985,112 @@
       {
         "id": "Ellie Roebuck",
         "short": "Roebuck",
-        "x": 108.53,
-        "y": 39.9,
-        "size": 95.5,
+        "x": 108.76,
+        "y": 39.82,
+        "size": 86.3,
         "is_playmaker": false,
-        "betweenness": 0.0577,
-        "eigenvector": 0.2075
+        "betweenness": 0.0222,
+        "eigenvector": 0.1714
       },
       {
         "id": "Gemma Bonner",
         "short": "Bonner",
         "x": 84.16,
         "y": 24.32,
-        "size": 175.2,
-        "is_playmaker": true,
-        "betweenness": 0.1154,
-        "eigenvector": 0.6161
-      },
-      {
-        "id": "Caroline Weir",
-        "short": "Weir",
-        "x": 68.43,
-        "y": 30.71,
-        "size": 99.0,
+        "size": 148.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2075
-      },
-      {
-        "id": "Demi Stokes",
-        "short": "Stokes",
-        "x": 67.4,
-        "y": 7.77,
-        "size": 116.9,
-        "is_playmaker": false,
-        "betweenness": 0.0641,
-        "eigenvector": 0.4101
+        "betweenness": 0.0889,
+        "eigenvector": 0.5728
       },
       {
         "id": "Stephanie Houghton",
         "short": "Houghton",
-        "x": 83.39,
-        "y": 55.66,
-        "size": 118.1,
+        "x": 83.93,
+        "y": 55.47,
+        "size": 119.5,
         "is_playmaker": true,
-        "betweenness": 0.0897,
-        "eigenvector": 0.5315
+        "betweenness": 0.2833,
+        "eigenvector": 0.537
       },
       {
-        "id": "Matilde Mota Veiga Santiago Fidalgo",
-        "short": "Fidalgo",
-        "x": 70.57,
-        "y": 74.14,
-        "size": 84.8,
-        "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.2158
+        "id": "Demi Stokes",
+        "short": "Stokes",
+        "x": 67.36,
+        "y": 7.62,
+        "size": 114.0,
+        "is_playmaker": true,
+        "betweenness": 0.35,
+        "eigenvector": 0.3768
       },
       {
         "id": "Lauren Hemp",
         "short": "Hemp",
         "x": 54.09,
         "y": 19.04,
-        "size": 77.6,
+        "size": 74.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1842
+        "betweenness": 0.2389,
+        "eigenvector": 0.1506
+      },
+      {
+        "id": "Caroline Weir",
+        "short": "Weir",
+        "x": 68.38,
+        "y": 30.71,
+        "size": 104.8,
+        "is_playmaker": false,
+        "betweenness": 0.2722,
+        "eigenvector": 0.3538
+      },
+      {
+        "id": "Matilde Mota Veiga Santiago Fidalgo",
+        "short": "Fidalgo",
+        "x": 70.57,
+        "y": 74.14,
+        "size": 88.2,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.2117
       },
       {
         "id": "Jill Scott",
         "short": "Scott",
-        "x": 64.59,
-        "y": 50.12,
-        "size": 72.9,
+        "x": 63.35,
+        "y": 49.51,
+        "size": 84.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0565
-      },
-      {
-        "id": "Georgia Stanway",
-        "short": "Stanway",
-        "x": 50.34,
-        "y": 45.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Janine Elizabeth Beckie",
-        "short": "Beckie",
-        "x": 38.1,
-        "y": 37.98,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1167,
+        "eigenvector": 0.1245
       },
       {
         "id": "Tessa Wullaert",
         "short": "Wullaert",
         "x": 60.24,
         "y": 65.96,
-        "size": 55.0,
+        "size": 65.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0629
       },
       {
-        "id": "Megan Campbell",
-        "short": "Campbell",
-        "x": 81.81,
-        "y": 60.38,
-        "size": 55.0,
+        "id": "Georgia Stanway",
+        "short": "Stanway",
+        "x": 54.35,
+        "y": 42.41,
+        "size": 61.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0778,
+        "eigenvector": 0.0002
       },
       {
-        "id": "Ellen White",
-        "short": "White",
-        "x": 35.32,
-        "y": 37.83,
-        "size": 55.0,
+        "id": "Janine Elizabeth Beckie",
+        "short": "Beckie",
+        "x": 38.1,
+        "y": 37.98,
+        "size": 58.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pauline Bremer",
-        "short": "Bremer",
-        "x": 41.37,
-        "y": 31.8,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1722,
+        "eigenvector": 0.005
       }
     ],
     "edges": [
@@ -1090,6 +1108,18 @@
       },
       {
         "source": "Gemma Bonner",
+        "target": "Stephanie Houghton",
+        "weight": 18,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gemma Bonner",
+        "target": "Demi Stokes",
+        "weight": 13,
+        "direction": "backward"
+      },
+      {
+        "source": "Gemma Bonner",
         "target": "Caroline Weir",
         "weight": 9,
         "direction": "backward"
@@ -1101,34 +1131,22 @@
         "direction": "forward"
       },
       {
-        "source": "Gemma Bonner",
-        "target": "Demi Stokes",
-        "weight": 13,
+        "source": "Stephanie Houghton",
+        "target": "Matilde Mota Veiga Santiago Fidalgo",
+        "weight": 10,
         "direction": "backward"
       },
       {
-        "source": "Gemma Bonner",
-        "target": "Stephanie Houghton",
-        "weight": 18,
-        "direction": "lateral"
-      },
-      {
-        "source": "Caroline Weir",
-        "target": "Demi Stokes",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "Caroline Weir",
-        "target": "Stephanie Houghton",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Caroline Weir",
+        "source": "Stephanie Houghton",
         "target": "Gemma Bonner",
-        "weight": 12,
-        "direction": "forward"
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Stephanie Houghton",
+        "target": "Caroline Weir",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Demi Stokes",
@@ -1143,21 +1161,15 @@
         "direction": "backward"
       },
       {
-        "source": "Stephanie Houghton",
-        "target": "Matilde Mota Veiga Santiago Fidalgo",
-        "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Stephanie Houghton",
-        "target": "Gemma Bonner",
-        "weight": 10,
+        "source": "Demi Stokes",
+        "target": "Caroline Weir",
+        "weight": 6,
         "direction": "lateral"
       },
       {
-        "source": "Matilde Mota Veiga Santiago Fidalgo",
+        "source": "Demi Stokes",
         "target": "Jill Scott",
-        "weight": 7,
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1167,9 +1179,87 @@
         "direction": "forward"
       },
       {
+        "source": "Lauren Hemp",
+        "target": "Janine Elizabeth Beckie",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Caroline Weir",
+        "target": "Gemma Bonner",
+        "weight": 12,
+        "direction": "forward"
+      },
+      {
+        "source": "Caroline Weir",
+        "target": "Demi Stokes",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Caroline Weir",
+        "target": "Stephanie Houghton",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Matilde Mota Veiga Santiago Fidalgo",
+        "target": "Jill Scott",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Matilde Mota Veiga Santiago Fidalgo",
+        "target": "Tessa Wullaert",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Matilde Mota Veiga Santiago Fidalgo",
+        "target": "Stephanie Houghton",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Jill Scott",
         "target": "Matilde Mota Veiga Santiago Fidalgo",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Jill Scott",
+        "target": "Stephanie Houghton",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Jill Scott",
+        "target": "Tessa Wullaert",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Georgia Stanway",
+        "target": "Caroline Weir",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Georgia Stanway",
+        "target": "Janine Elizabeth Beckie",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Janine Elizabeth Beckie",
+        "target": "Georgia Stanway",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Janine Elizabeth Beckie",
+        "target": "Lauren Hemp",
+        "weight": 1,
         "direction": "forward"
       }
     ]

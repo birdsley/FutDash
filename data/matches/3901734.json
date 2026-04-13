@@ -799,120 +799,110 @@
         "short": "Minami",
         "x": 58.13,
         "y": 22.1,
-        "size": 144.4,
+        "size": 136.5,
         "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.5372
+        "betweenness": 0.3556,
+        "eigenvector": 0.5311
       },
       {
         "id": "Jun Endo",
         "short": "Endo",
-        "x": 77.0,
-        "y": 9.8,
-        "size": 126.4,
+        "x": 77.61,
+        "y": 9.86,
+        "size": 123.8,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.5417
+        "betweenness": 0.1,
+        "eigenvector": 0.5117
       },
       {
         "id": "Hinata Miyazawa",
         "short": "Miyazawa",
-        "x": 81.01,
-        "y": 18.54,
-        "size": 98.1,
+        "x": 80.65,
+        "y": 18.81,
+        "size": 93.7,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.3295
+        "betweenness": 0.0778,
+        "eigenvector": 0.3055
       },
       {
         "id": "Saki Kumagai",
         "short": "Kumagai",
         "x": 48.39,
         "y": 42.22,
-        "size": 110.3,
+        "size": 105.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3288
+        "betweenness": 0.2667,
+        "eigenvector": 0.3427
       },
       {
         "id": "Hana Takahashi",
         "short": "Takahashi",
         "x": 61.65,
         "y": 61.15,
-        "size": 114.2,
+        "size": 117.4,
         "is_playmaker": false,
-        "betweenness": 0.1455,
-        "eigenvector": 0.2941
+        "betweenness": 0.3111,
+        "eigenvector": 0.356
       },
       {
         "id": "Fuka Nagano",
         "short": "Nagano",
-        "x": 68.74,
-        "y": 31.78,
-        "size": 101.9,
-        "is_playmaker": true,
-        "betweenness": 0.2,
-        "eigenvector": 0.3198
+        "x": 68.71,
+        "y": 31.45,
+        "size": 101.8,
+        "is_playmaker": false,
+        "betweenness": 0.3222,
+        "eigenvector": 0.3068
       },
       {
         "id": "Risa Shimizu",
         "short": "Shimizu",
-        "x": 70.99,
-        "y": 73.03,
-        "size": 78.2,
+        "x": 71.48,
+        "y": 73.17,
+        "size": 79.9,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.0919
+        "betweenness": 0.0889,
+        "eigenvector": 0.1164
       },
       {
         "id": "Yui Hasegawa",
         "short": "Hasegawa",
-        "x": 71.68,
-        "y": 46.89,
-        "size": 60.8,
+        "x": 69.91,
+        "y": 46.91,
+        "size": 68.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0617
+        "betweenness": 0.0667,
+        "eigenvector": 0.0559
       },
       {
         "id": "Aoba Fujino",
         "short": "Fujino",
-        "x": 75.79,
-        "y": 48.99,
-        "size": 60.8,
+        "x": 76.81,
+        "y": 49.09,
+        "size": 60.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0172
+        "eigenvector": 0.0213
       },
       {
         "id": "Mina Tanaka",
         "short": "Tanaka",
         "x": 76.02,
         "y": 35.59,
-        "size": 55.0,
+        "size": 59.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Riko Ueki",
-        "short": "Ueki",
-        "x": 91.11,
-        "y": 38.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0832
       },
       {
         "id": "Ayaka Yamashita",
         "short": "Yamashita",
-        "x": 15.5,
-        "y": 38.85,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 16.15,
+        "y": 39.06,
+        "size": 57.3,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0177
       }
     ],
     "edges": [
@@ -941,6 +931,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Moeka Minami",
+        "target": "Ayaka Yamashita",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jun Endo",
         "target": "Moeka Minami",
         "weight": 22,
@@ -950,7 +946,7 @@
         "source": "Jun Endo",
         "target": "Hinata Miyazawa",
         "weight": 18,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Jun Endo",
@@ -959,10 +955,16 @@
         "direction": "backward"
       },
       {
+        "source": "Jun Endo",
+        "target": "Mina Tanaka",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Hinata Miyazawa",
         "target": "Jun Endo",
         "weight": 21,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Hinata Miyazawa",
@@ -987,6 +989,12 @@
         "target": "Fuka Nagano",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Saki Kumagai",
+        "target": "Ayaka Yamashita",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Hana Takahashi",
@@ -1025,6 +1033,12 @@
         "direction": "backward"
       },
       {
+        "source": "Fuka Nagano",
+        "target": "Hana Takahashi",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Risa Shimizu",
         "target": "Hana Takahashi",
         "weight": 12,
@@ -1035,173 +1049,163 @@
         "target": "Aoba Fujino",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Yui Hasegawa",
+        "target": "Hana Takahashi",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Yui Hasegawa",
+        "target": "Risa Shimizu",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ayaka Yamashita",
+        "target": "Saki Kumagai",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ayaka Yamashita",
+        "target": "Moeka Minami",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Aurora Watten Mikalsen",
-        "short": "Mikalsen",
-        "x": 107.37,
-        "y": 38.2,
-        "size": 73.5,
+        "id": "Mathilde Hauge Harviken",
+        "short": "Harviken",
+        "x": 76.09,
+        "y": 22.74,
+        "size": 145.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sophie Roman Haug",
-        "short": "Haug",
-        "x": 46.82,
-        "y": 36.12,
-        "size": 73.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2148,
+        "eigenvector": 0.5896
       },
       {
         "id": "Maren Nævdal Mjelde",
         "short": "Mjelde",
-        "x": 80.41,
-        "y": 51.73,
-        "size": 218.0,
-        "is_playmaker": true,
-        "betweenness": 0.044,
-        "eigenvector": 0.7466
+        "x": 80.19,
+        "y": 51.99,
+        "size": 172.9,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.6743
+      },
+      {
+        "id": "Aurora Watten Mikalsen",
+        "short": "Mikalsen",
+        "x": 107.37,
+        "y": 38.2,
+        "size": 81.4,
+        "is_playmaker": false,
+        "betweenness": 0.0185,
+        "eigenvector": 0.0939
+      },
+      {
+        "id": "Sophie Roman Haug",
+        "short": "Haug",
+        "x": 49.69,
+        "y": 36.77,
+        "size": 78.6,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.1561
       },
       {
         "id": "Ingrid Syrstad Engen",
         "short": "Engen",
-        "x": 63.96,
-        "y": 36.61,
-        "size": 90.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2295
-      },
-      {
-        "id": "Mathilde Hauge Harviken",
-        "short": "Harviken",
-        "x": 75.74,
-        "y": 22.27,
-        "size": 174.3,
+        "x": 64.55,
+        "y": 37.31,
+        "size": 98.4,
         "is_playmaker": true,
-        "betweenness": 0.0165,
-        "eigenvector": 0.5968
-      },
-      {
-        "id": "Thea Bjelde",
-        "short": "Bjelde",
-        "x": 70.21,
-        "y": 68.99,
-        "size": 81.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1836
+        "betweenness": 0.4519,
+        "eigenvector": 0.205
       },
       {
         "id": "Tuva Hansen",
         "short": "Hansen",
         "x": 57.98,
         "y": 7.13,
-        "size": 73.5,
+        "size": 81.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2556,
+        "eigenvector": 0.1221
+      },
+      {
+        "id": "Thea Bjelde",
+        "short": "Bjelde",
+        "x": 69.73,
+        "y": 69.73,
+        "size": 74.8,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.1686
       },
       {
         "id": "Guro Reiten",
         "short": "Reiten",
-        "x": 50.08,
-        "y": 15.67,
-        "size": 55.0,
+        "x": 50.91,
+        "y": 18.13,
+        "size": 82.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Caroline Graham Hansen",
-        "short": "Hansen",
-        "x": 55.13,
-        "y": 56.23,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1519,
+        "eigenvector": 0.2474
       },
       {
         "id": "Vilde Bøe Risa",
         "short": "Risa",
         "x": 66.25,
         "y": 57.73,
-        "size": 55.0,
+        "size": 72.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2296,
+        "eigenvector": 0.1317
       },
       {
         "id": "Emilie Haavi",
         "short": "Haavi",
         "x": 63.64,
         "y": 13.1,
-        "size": 55.0,
+        "size": 58.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0228
       },
       {
-        "id": "Karina Sævik",
-        "short": "Sævik",
-        "x": 54.07,
-        "y": 54.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Frida Maanum",
-        "short": "Maanum",
-        "x": 51.17,
-        "y": 29.04,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ada Stolsmo Hegerberg",
-        "short": "Hegerberg",
-        "x": 27.7,
-        "y": 46.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sara Iren Lindbak Hørte",
-        "short": "Hørte",
-        "x": 49.0,
-        "y": 40.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Caroline Graham Hansen",
+        "short": "Hansen",
+        "x": 65.47,
+        "y": 51.23,
+        "size": 58.8,
+        "is_playmaker": true,
+        "betweenness": 0.2741,
+        "eigenvector": 0.0094
       }
     ],
     "edges": [
       {
-        "source": "Aurora Watten Mikalsen",
-        "target": "Sophie Roman Haug",
-        "weight": 11,
+        "source": "Mathilde Hauge Harviken",
+        "target": "Maren Nævdal Mjelde",
+        "weight": 34,
+        "direction": "forward"
+      },
+      {
+        "source": "Mathilde Hauge Harviken",
+        "target": "Guro Reiten",
+        "weight": 7,
         "direction": "backward"
       },
       {
-        "source": "Maren Nævdal Mjelde",
-        "target": "Ingrid Syrstad Engen",
-        "weight": 10,
+        "source": "Mathilde Hauge Harviken",
+        "target": "Tuva Hansen",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1212,9 +1216,63 @@
       },
       {
         "source": "Maren Nævdal Mjelde",
+        "target": "Ingrid Syrstad Engen",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Maren Nævdal Mjelde",
         "target": "Thea Bjelde",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Maren Nævdal Mjelde",
+        "target": "Vilde Bøe Risa",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Maren Nævdal Mjelde",
+        "target": "Sophie Roman Haug",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Maren Nævdal Mjelde",
+        "target": "Aurora Watten Mikalsen",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Maren Nævdal Mjelde",
+        "target": "Guro Reiten",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Aurora Watten Mikalsen",
+        "target": "Sophie Roman Haug",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Aurora Watten Mikalsen",
+        "target": "Maren Nævdal Mjelde",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Aurora Watten Mikalsen",
+        "target": "Mathilde Hauge Harviken",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Sophie Roman Haug",
+        "target": "Guro Reiten",
+        "weight": 4,
+        "direction": "lateral"
       },
       {
         "source": "Ingrid Syrstad Engen",
@@ -1223,9 +1281,39 @@
         "direction": "forward"
       },
       {
-        "source": "Mathilde Hauge Harviken",
-        "target": "Maren Nævdal Mjelde",
-        "weight": 34,
+        "source": "Ingrid Syrstad Engen",
+        "target": "Tuva Hansen",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ingrid Syrstad Engen",
+        "target": "Guro Reiten",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ingrid Syrstad Engen",
+        "target": "Emilie Haavi",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ingrid Syrstad Engen",
+        "target": "Caroline Graham Hansen",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Tuva Hansen",
+        "target": "Mathilde Hauge Harviken",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Tuva Hansen",
+        "target": "Ingrid Syrstad Engen",
+        "weight": 5,
         "direction": "forward"
       },
       {
@@ -1235,10 +1323,40 @@
         "direction": "forward"
       },
       {
-        "source": "Tuva Hansen",
+        "source": "Guro Reiten",
         "target": "Mathilde Hauge Harviken",
-        "weight": 11,
+        "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Vilde Bøe Risa",
+        "target": "Thea Bjelde",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Vilde Bøe Risa",
+        "target": "Sophie Roman Haug",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Vilde Bøe Risa",
+        "target": "Caroline Graham Hansen",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Caroline Graham Hansen",
+        "target": "Vilde Bøe Risa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Caroline Graham Hansen",
+        "target": "Ingrid Syrstad Engen",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

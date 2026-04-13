@@ -701,111 +701,91 @@
       {
         "id": "Emiliano Moretti",
         "short": "Moretti",
-        "x": 51.7,
-        "y": 16.6,
-        "size": 165.0,
-        "is_playmaker": true,
-        "betweenness": 0.2182,
-        "eigenvector": 0.6005
+        "x": 51.62,
+        "y": 16.56,
+        "size": 156.1,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.5964
       },
       {
         "id": "Kamil Glik",
         "short": "Glik",
         "x": 40.08,
         "y": 40.77,
-        "size": 141.0,
+        "size": 135.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5597
+        "betweenness": 0.3333,
+        "eigenvector": 0.554
       },
       {
         "id": "Cesare Bovo",
         "short": "Bovo",
-        "x": 44.83,
-        "y": 59.66,
-        "size": 132.9,
-        "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.4294
+        "x": 45.01,
+        "y": 59.45,
+        "size": 130.8,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.4306
       },
       {
         "id": "Bruno da Silva Peres",
         "short": "Peres",
-        "x": 59.56,
-        "y": 70.1,
-        "size": 94.0,
+        "x": 58.98,
+        "y": 69.86,
+        "size": 93.9,
         "is_playmaker": false,
-        "betweenness": 0.1091,
-        "eigenvector": 0.1968
+        "betweenness": 0.0444,
+        "eigenvector": 0.211
       },
       {
         "id": "Cristian Molinaro",
         "short": "Molinaro",
-        "x": 75.06,
-        "y": 7.24,
-        "size": 87.7,
+        "x": 74.51,
+        "y": 7.39,
+        "size": 88.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2579
+        "eigenvector": 0.2572
       },
       {
         "id": "Giuseppe Vives",
         "short": "Vives",
-        "x": 58.09,
-        "y": 42.24,
-        "size": 80.2,
-        "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.1553
+        "x": 58.3,
+        "y": 41.99,
+        "size": 81.3,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.153
       },
       {
         "id": "Afriyie Acquah",
         "short": "Acquah",
         "x": 70.2,
         "y": 69.07,
-        "size": 68.8,
+        "size": 73.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0373
+        "betweenness": 0.1778,
+        "eigenvector": 0.0397
       },
       {
         "id": "Daniele Baselli",
         "short": "Baselli",
-        "x": 79.98,
-        "y": 24.03,
-        "size": 70.5,
-        "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.1043
-      },
-      {
-        "id": "Andrea Belotti",
-        "short": "Belotti",
-        "x": 80.51,
-        "y": 38.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 81.43,
+        "y": 22.73,
+        "size": 73.4,
+        "is_playmaker": true,
+        "betweenness": 0.4111,
+        "eigenvector": 0.1271
       },
       {
         "id": "Fabio Quagliarella",
         "short": "Quagliarell",
         "x": 65.52,
         "y": 43.63,
-        "size": 55.0,
+        "size": 58.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Maximiliano Gastón López",
-        "short": "López",
-        "x": 58.35,
-        "y": 54.58,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1778,
         "eigenvector": 0.0
       },
       {
@@ -813,10 +793,20 @@
         "short": "Padelli",
         "x": 8.88,
         "y": 39.95,
-        "size": 55.0,
+        "size": 57.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3333,
+        "eigenvector": 0.0154
+      },
+      {
+        "id": "Andrea Belotti",
+        "short": "Belotti",
+        "x": 80.51,
+        "y": 38.55,
+        "size": 57.1,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.002
       }
     ],
     "edges": [
@@ -869,6 +859,12 @@
         "direction": "forward"
       },
       {
+        "source": "Kamil Glik",
+        "target": "Daniele Padelli",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Cesare Bovo",
         "target": "Bruno da Silva Peres",
         "weight": 28,
@@ -885,6 +881,12 @@
         "target": "Emiliano Moretti",
         "weight": 19,
         "direction": "forward"
+      },
+      {
+        "source": "Cesare Bovo",
+        "target": "Daniele Padelli",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Bruno da Silva Peres",
@@ -905,6 +907,12 @@
         "direction": "backward"
       },
       {
+        "source": "Cristian Molinaro",
+        "target": "Daniele Baselli",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Giuseppe Vives",
         "target": "Cesare Bovo",
         "weight": 12,
@@ -923,9 +931,21 @@
         "direction": "backward"
       },
       {
+        "source": "Giuseppe Vives",
+        "target": "Bruno da Silva Peres",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
         "source": "Afriyie Acquah",
         "target": "Bruno da Silva Peres",
         "weight": 12,
+        "direction": "backward"
+      },
+      {
+        "source": "Afriyie Acquah",
+        "target": "Cesare Bovo",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -939,6 +959,48 @@
         "target": "Cristian Molinaro",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Daniele Baselli",
+        "target": "Andrea Belotti",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fabio Quagliarella",
+        "target": "Afriyie Acquah",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Fabio Quagliarella",
+        "target": "Andrea Belotti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniele Padelli",
+        "target": "Kamil Glik",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniele Padelli",
+        "target": "Cesare Bovo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Andrea Belotti",
+        "target": "Fabio Quagliarella",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrea Belotti",
+        "target": "Daniele Baselli",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -949,140 +1011,110 @@
         "short": "Gastaldello",
         "x": 77.47,
         "y": 48.85,
-        "size": 177.1,
+        "size": 128.5,
         "is_playmaker": true,
-        "betweenness": 0.0385,
-        "eigenvector": 0.6151
+        "betweenness": 0.2778,
+        "eigenvector": 0.5355
       },
       {
         "id": "Luca Rossettini",
         "short": "Rossettini",
-        "x": 69.0,
-        "y": 72.2,
-        "size": 161.5,
+        "x": 69.87,
+        "y": 71.98,
+        "size": 136.9,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.4868
-      },
-      {
-        "id": "Domenico Maietta",
-        "short": "Maietta",
-        "x": 76.31,
-        "y": 18.51,
-        "size": 148.5,
-        "is_playmaker": true,
-        "betweenness": 0.0321,
-        "eigenvector": 0.4516
-      },
-      {
-        "id": "Adam Masina",
-        "short": "Masina",
-        "x": 66.23,
-        "y": 6.53,
-        "size": 99.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2298
+        "betweenness": 0.15,
+        "eigenvector": 0.5162
       },
       {
         "id": "Matteo Brighi",
         "short": "Brighi",
-        "x": 50.32,
-        "y": 52.31,
-        "size": 88.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3578
+        "x": 51.11,
+        "y": 53.07,
+        "size": 99.6,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.3268
       },
       {
-        "id": "Amadou Diawara",
-        "short": "Diawara",
-        "x": 67.68,
-        "y": 33.95,
-        "size": 55.0,
+        "id": "Domenico Maietta",
+        "short": "Maietta",
+        "x": 76.47,
+        "y": 18.58,
+        "size": 114.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.3748
+      },
+      {
+        "id": "Adam Masina",
+        "short": "Masina",
+        "x": 68.32,
+        "y": 7.5,
+        "size": 104.4,
+        "is_playmaker": false,
+        "betweenness": 0.1278,
+        "eigenvector": 0.3087
       },
       {
         "id": "Luca Rizzo",
         "short": "Rizzo",
-        "x": 53.57,
-        "y": 63.72,
-        "size": 55.0,
+        "x": 55.53,
+        "y": 64.57,
+        "size": 80.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Godfred Donsah",
-        "short": "Donsah",
-        "x": 72.49,
-        "y": 25.12,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2583
       },
       {
         "id": "Emanuele Giaccherini",
         "short": "Giaccherini",
         "x": 55.61,
         "y": 21.51,
-        "size": 55.0,
+        "size": 64.6,
+        "is_playmaker": false,
+        "betweenness": 0.0944,
+        "eigenvector": 0.0819
+      },
+      {
+        "id": "Amadou Diawara",
+        "short": "Diawara",
+        "x": 69.0,
+        "y": 33.93,
+        "size": 87.5,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.1478
+      },
+      {
+        "id": "Godfred Donsah",
+        "short": "Donsah",
+        "x": 72.64,
+        "y": 24.51,
+        "size": 59.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0656
+      },
+      {
+        "id": "Antonio Mirante",
+        "short": "Mirante",
+        "x": 107.95,
+        "y": 37.34,
+        "size": 69.5,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0656
       },
       {
         "id": "Matteo Mancosu",
         "short": "Mancosu",
         "x": 49.58,
         "y": 35.45,
-        "size": 55.0,
+        "size": 59.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Antonio Mirante",
-        "short": "Mirante",
-        "x": 107.91,
-        "y": 36.33,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Franco Brienza",
-        "short": "Brienza",
-        "x": 49.11,
-        "y": 22.49,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Robert Acquafresca",
-        "short": "Acquafresca",
-        "x": 44.38,
-        "y": 63.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Anthony Mounier",
-        "short": "Mounier",
-        "x": 21.6,
-        "y": 17.7,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.0179
       }
     ],
     "edges": [
@@ -1099,6 +1131,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Daniele Gastaldello",
+        "target": "Adam Masina",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniele Gastaldello",
+        "target": "Amadou Diawara",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Luca Rossettini",
         "target": "Daniele Gastaldello",
         "weight": 14,
@@ -1109,6 +1153,36 @@
         "target": "Matteo Brighi",
         "weight": 13,
         "direction": "backward"
+      },
+      {
+        "source": "Luca Rossettini",
+        "target": "Luca Rizzo",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Matteo Brighi",
+        "target": "Luca Rizzo",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Matteo Brighi",
+        "target": "Luca Rossettini",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Matteo Brighi",
+        "target": "Daniele Gastaldello",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Matteo Brighi",
+        "target": "Matteo Mancosu",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Domenico Maietta",
@@ -1123,10 +1197,94 @@
         "direction": "backward"
       },
       {
+        "source": "Domenico Maietta",
+        "target": "Godfred Donsah",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Domenico Maietta",
+        "target": "Antonio Mirante",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Adam Masina",
         "target": "Domenico Maietta",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Adam Masina",
+        "target": "Emanuele Giaccherini",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Adam Masina",
+        "target": "Amadou Diawara",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Luca Rizzo",
+        "target": "Luca Rossettini",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Emanuele Giaccherini",
+        "target": "Matteo Mancosu",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Amadou Diawara",
+        "target": "Adam Masina",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Amadou Diawara",
+        "target": "Domenico Maietta",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Amadou Diawara",
+        "target": "Matteo Brighi",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Amadou Diawara",
+        "target": "Luca Rossettini",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Antonio Mirante",
+        "target": "Luca Rossettini",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Mirante",
+        "target": "Adam Masina",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Matteo Mancosu",
+        "target": "Emanuele Giaccherini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Matteo Mancosu",
+        "target": "Matteo Brighi",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

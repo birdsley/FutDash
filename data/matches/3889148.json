@@ -963,81 +963,81 @@
   "network_home": {
     "nodes": [
       {
-        "id": "Jorge Alberto Francisco Valdano Castellano",
-        "short": "Castellano",
-        "x": 68.9,
-        "y": 36.43,
-        "size": 92.2,
+        "id": "Jorge Luis Burruchaga",
+        "short": "Burruchaga",
+        "x": 70.87,
+        "y": 38.8,
+        "size": 119.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3392
+        "betweenness": 0.2,
+        "eigenvector": 0.5523
       },
       {
         "id": "Diego Armando Maradona",
         "short": "Maradona",
-        "x": 74.33,
-        "y": 40.36,
-        "size": 165.3,
-        "is_playmaker": true,
-        "betweenness": 0.1727,
-        "eigenvector": 0.7158
-      },
-      {
-        "id": "Héctor Adolfo Enrique",
-        "short": "Enrique",
-        "x": 60.97,
-        "y": 44.86,
-        "size": 106.0,
+        "x": 73.84,
+        "y": 41.41,
+        "size": 140.6,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.264
+        "betweenness": 0.0111,
+        "eigenvector": 0.6933
       },
       {
         "id": "Ricardo Omar Giusti",
         "short": "Giusti",
         "x": 61.27,
         "y": 60.52,
-        "size": 100.5,
+        "size": 98.8,
         "is_playmaker": false,
-        "betweenness": 0.0364,
-        "eigenvector": 0.1251
+        "betweenness": 0.0222,
+        "eigenvector": 0.093
       },
       {
-        "id": "Jorge Luis Burruchaga",
-        "short": "Burruchaga",
-        "x": 70.87,
-        "y": 38.8,
-        "size": 121.2,
+        "id": "Héctor Adolfo Enrique",
+        "short": "Enrique",
+        "x": 60.97,
+        "y": 44.86,
+        "size": 114.7,
         "is_playmaker": true,
-        "betweenness": 0.1091,
-        "eigenvector": 0.5087
+        "betweenness": 0.4056,
+        "eigenvector": 0.2348
+      },
+      {
+        "id": "Jorge Alberto Francisco Valdano Castellano",
+        "short": "Castellano",
+        "x": 68.9,
+        "y": 36.43,
+        "size": 93.8,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.346
       },
       {
         "id": "Sergio Daniel Batista",
         "short": "Batista",
-        "x": 54.98,
-        "y": 37.16,
-        "size": 96.4,
-        "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.0
+        "x": 54.85,
+        "y": 37.5,
+        "size": 98.8,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.0559
       },
       {
         "id": "Julio Jorge Olarticoechea",
         "short": "Olarticoech",
         "x": 53.97,
         "y": 18.21,
-        "size": 74.3,
+        "size": 80.9,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.1687
+        "betweenness": 0.0389,
+        "eigenvector": 0.1664
       },
       {
         "id": "Neri Alberto Pumpido Barrinat",
         "short": "Barrinat",
         "x": 8.6,
         "y": 38.0,
-        "size": 64.7,
+        "size": 62.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1047,9 +1047,9 @@
         "short": "Zocola",
         "x": 47.26,
         "y": 58.29,
-        "size": 64.7,
+        "size": 72.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1,
         "eigenvector": 0.0
       },
       {
@@ -1057,43 +1057,39 @@
         "short": "Brown",
         "x": 36.65,
         "y": 34.86,
-        "size": 64.7,
+        "size": 64.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0001
       },
       {
         "id": "José Luis Cuciuffo",
         "short": "Cuciuffo",
         "x": 42.71,
         "y": 37.9,
-        "size": 55.0,
+        "size": 59.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ricardo Enrique Bochini",
-        "short": "Bochini",
-        "x": 71.5,
-        "y": 25.22,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0022
       }
     ],
     "edges": [
       {
-        "source": "Jorge Alberto Francisco Valdano Castellano",
+        "source": "Jorge Luis Burruchaga",
         "target": "Diego Armando Maradona",
-        "weight": 10,
-        "direction": "forward"
+        "weight": 18,
+        "direction": "lateral"
       },
       {
-        "source": "Diego Armando Maradona",
-        "target": "Jorge Alberto Francisco Valdano Castellano",
-        "weight": 10,
+        "source": "Jorge Luis Burruchaga",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Jorge Luis Burruchaga",
+        "target": "Julio Jorge Olarticoechea",
+        "weight": 7,
         "direction": "backward"
       },
       {
@@ -1103,10 +1099,10 @@
         "direction": "lateral"
       },
       {
-        "source": "Héctor Adolfo Enrique",
-        "target": "Ricardo Omar Giusti",
+        "source": "Diego Armando Maradona",
+        "target": "Jorge Alberto Francisco Valdano Castellano",
         "weight": 10,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Ricardo Omar Giusti",
@@ -1121,22 +1117,46 @@
         "direction": "forward"
       },
       {
-        "source": "Jorge Luis Burruchaga",
-        "target": "Héctor Adolfo Enrique",
-        "weight": 8,
-        "direction": "backward"
+        "source": "Ricardo Omar Giusti",
+        "target": "Jorge Luis Burruchaga",
+        "weight": 5,
+        "direction": "forward"
       },
       {
-        "source": "Jorge Luis Burruchaga",
-        "target": "Diego Armando Maradona",
-        "weight": 18,
+        "source": "Héctor Adolfo Enrique",
+        "target": "Ricardo Omar Giusti",
+        "weight": 10,
         "direction": "lateral"
       },
       {
-        "source": "Jorge Luis Burruchaga",
-        "target": "Julio Jorge Olarticoechea",
-        "weight": 7,
+        "source": "Héctor Adolfo Enrique",
+        "target": "Sergio Daniel Batista",
+        "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Héctor Adolfo Enrique",
+        "target": "Diego Armando Maradona",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Héctor Adolfo Enrique",
+        "target": "Jorge Alberto Francisco Valdano Castellano",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Jorge Alberto Francisco Valdano Castellano",
+        "target": "Diego Armando Maradona",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Jorge Alberto Francisco Valdano Castellano",
+        "target": "Jorge Luis Burruchaga",
+        "weight": 6,
+        "direction": "lateral"
       },
       {
         "source": "Sergio Daniel Batista",
@@ -1157,9 +1177,27 @@
         "direction": "forward"
       },
       {
+        "source": "Sergio Daniel Batista",
+        "target": "Julio Jorge Olarticoechea",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "José Luis Cuciuffo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Julio Jorge Olarticoechea",
         "target": "Diego Armando Maradona",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Julio Jorge Olarticoechea",
+        "target": "Jorge Luis Burruchaga",
+        "weight": 6,
         "direction": "forward"
       },
       {
@@ -1169,9 +1207,39 @@
         "direction": "forward"
       },
       {
+        "source": "Óscar Alfredo Ruggeri Zocola",
+        "target": "Ricardo Omar Giusti",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Óscar Alfredo Ruggeri Zocola",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "José Luis Brown",
         "target": "Sergio Daniel Batista",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "José Luis Brown",
+        "target": "José Luis Cuciuffo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Luis Cuciuffo",
+        "target": "José Luis Brown",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Luis Cuciuffo",
+        "target": "Sergio Daniel Batista",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1183,120 +1251,110 @@
         "short": "Gerets",
         "x": 77.88,
         "y": 52.46,
-        "size": 108.7,
-        "is_playmaker": true,
-        "betweenness": 0.0364,
-        "eigenvector": 0.0
+        "size": 98.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3564
       },
       {
         "id": "Georges Grün",
         "short": "Grün",
-        "x": 64.87,
-        "y": 48.33,
-        "size": 114.7,
-        "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.0015
-      },
-      {
-        "id": "Patrick Vervoort",
-        "short": "Vervoort",
-        "x": 70.73,
-        "y": 17.85,
-        "size": 123.7,
-        "is_playmaker": false,
-        "betweenness": 0.0364,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nico Claesen",
-        "short": "Claesen",
-        "x": 48.04,
-        "y": 23.68,
-        "size": 78.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0011
-      },
-      {
-        "id": "Stéphane Demol",
-        "short": "Demol",
-        "x": 78.32,
-        "y": 34.15,
-        "size": 75.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 64.92,
+        "y": 48.28,
+        "size": 120.8,
+        "is_playmaker": true,
+        "betweenness": 0.4833,
+        "eigenvector": 0.5282
       },
       {
         "id": "Jean-Marie Pfaff",
         "short": "Pfaff",
         "x": 110.81,
         "y": 38.73,
-        "size": 147.5,
-        "is_playmaker": true,
-        "betweenness": 0.0636,
-        "eigenvector": 0.0
+        "size": 102.7,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.1394
       },
       {
         "id": "Michel Renquin",
         "short": "Renquin",
         "x": 87.49,
         "y": 44.79,
-        "size": 84.9,
+        "size": 97.6,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.0947
+      },
+      {
+        "id": "Enzo Scifo",
+        "short": "Scifo",
+        "x": 56.8,
+        "y": 59.97,
+        "size": 89.8,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.41
+      },
+      {
+        "id": "Patrick Vervoort",
+        "short": "Vervoort",
+        "x": 71.71,
+        "y": 16.89,
+        "size": 104.0,
+        "is_playmaker": false,
+        "betweenness": 0.2722,
+        "eigenvector": 0.3178
+      },
+      {
+        "id": "Nico Claesen",
+        "short": "Claesen",
+        "x": 50.9,
+        "y": 24.2,
+        "size": 71.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1728
       },
       {
         "id": "Franky Vercauteren",
         "short": "Vercauteren",
         "x": 49.48,
         "y": 19.97,
-        "size": 78.9,
+        "size": 86.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0011
+        "betweenness": 0.1,
+        "eigenvector": 0.3987
       },
       {
-        "id": "Enzo Scifo",
-        "short": "Scifo",
-        "x": 52.61,
-        "y": 60.79,
-        "size": 81.9,
+        "id": "Stéphane Demol",
+        "short": "Demol",
+        "x": 78.59,
+        "y": 34.31,
+        "size": 89.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "betweenness": 0.2278,
+        "eigenvector": 0.2117
       },
       {
         "id": "Jan Ceulemans",
         "short": "Ceulemans",
         "x": 53.99,
         "y": 39.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 83.4,
+        "is_playmaker": true,
+        "betweenness": 0.3667,
+        "eigenvector": 0.2465
       },
       {
         "id": "Daniel Veyt",
         "short": "Veyt",
-        "x": 44.42,
-        "y": 47.71,
-        "size": 55.0,
+        "x": 47.2,
+        "y": 47.98,
+        "size": 60.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Philippe Desmet",
-        "short": "Desmet",
-        "x": 27.39,
-        "y": 62.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.0446
       }
     ],
     "edges": [
@@ -1313,21 +1371,21 @@
         "direction": "backward"
       },
       {
-        "source": "Patrick Vervoort",
-        "target": "Nico Claesen",
-        "weight": 8,
-        "direction": "backward"
+        "source": "Georges Grün",
+        "target": "Eric Gerets",
+        "weight": 5,
+        "direction": "forward"
       },
       {
-        "source": "Patrick Vervoort",
-        "target": "Franky Vercauteren",
-        "weight": 8,
-        "direction": "backward"
+        "source": "Georges Grün",
+        "target": "Patrick Vervoort",
+        "weight": 5,
+        "direction": "forward"
       },
       {
-        "source": "Stéphane Demol",
-        "target": "Jean-Marie Pfaff",
-        "weight": 7,
+        "source": "Georges Grün",
+        "target": "Stéphane Demol",
+        "weight": 5,
         "direction": "forward"
       },
       {
@@ -1347,6 +1405,126 @@
         "target": "Patrick Vervoort",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Michel Renquin",
+        "target": "Georges Grün",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Michel Renquin",
+        "target": "Eric Gerets",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Michel Renquin",
+        "target": "Jean-Marie Pfaff",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Michel Renquin",
+        "target": "Stéphane Demol",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Enzo Scifo",
+        "target": "Franky Vercauteren",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Enzo Scifo",
+        "target": "Georges Grün",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Enzo Scifo",
+        "target": "Daniel Veyt",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Patrick Vervoort",
+        "target": "Nico Claesen",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Patrick Vervoort",
+        "target": "Franky Vercauteren",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Patrick Vervoort",
+        "target": "Jan Ceulemans",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Nico Claesen",
+        "target": "Franky Vercauteren",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Franky Vercauteren",
+        "target": "Jan Ceulemans",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Stéphane Demol",
+        "target": "Jean-Marie Pfaff",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Stéphane Demol",
+        "target": "Patrick Vervoort",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Stéphane Demol",
+        "target": "Eric Gerets",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jan Ceulemans",
+        "target": "Enzo Scifo",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jan Ceulemans",
+        "target": "Georges Grün",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jan Ceulemans",
+        "target": "Daniel Veyt",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Veyt",
+        "target": "Jan Ceulemans",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Veyt",
+        "target": "Enzo Scifo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

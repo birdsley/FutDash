@@ -691,99 +691,99 @@
         "short": "Mings",
         "x": 41.99,
         "y": 23.43,
-        "size": 120.1,
-        "is_playmaker": false,
-        "betweenness": 0.1212,
-        "eigenvector": 0.4565
+        "size": 128.5,
+        "is_playmaker": true,
+        "betweenness": 0.2778,
+        "eigenvector": 0.4522
       },
       {
         "id": "Kieran Trippier",
         "short": "Trippier",
         "x": 57.66,
         "y": 8.75,
-        "size": 148.0,
-        "is_playmaker": true,
-        "betweenness": 0.2273,
-        "eigenvector": 0.5957
+        "size": 136.6,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.5645
       },
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
         "x": 75.5,
         "y": 11.75,
-        "size": 93.1,
+        "size": 94.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3874
+        "betweenness": 0.1556,
+        "eigenvector": 0.4293
       },
       {
         "id": "John Stones",
         "short": "Stones",
         "x": 44.75,
         "y": 56.81,
-        "size": 122.9,
+        "size": 119.5,
         "is_playmaker": true,
-        "betweenness": 0.2197,
-        "eigenvector": 0.3459
+        "betweenness": 0.5889,
+        "eigenvector": 0.3285
       },
       {
         "id": "Declan Rice",
         "short": "Rice",
         "x": 51.86,
         "y": 25.32,
-        "size": 86.6,
+        "size": 93.4,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.2558
+        "betweenness": 0.2,
+        "eigenvector": 0.3174
       },
       {
         "id": "Kyle Walker",
         "short": "Walker",
         "x": 59.79,
         "y": 71.12,
-        "size": 87.6,
+        "size": 83.6,
         "is_playmaker": false,
-        "betweenness": 0.1136,
-        "eigenvector": 0.1257
+        "betweenness": 0.2333,
+        "eigenvector": 0.1092
       },
       {
         "id": "Mason Mount",
         "short": "Mount",
         "x": 80.23,
         "y": 13.05,
-        "size": 89.4,
+        "size": 85.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2794
+        "eigenvector": 0.2573
       },
       {
         "id": "Jordan Pickford",
         "short": "Pickford",
-        "x": 11.97,
-        "y": 40.22,
-        "size": 77.3,
+        "x": 12.37,
+        "y": 41.37,
+        "size": 74.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.08
+        "eigenvector": 0.0695
       },
       {
         "id": "Philip Foden",
         "short": "Foden",
         "x": 75.05,
         "y": 58.14,
-        "size": 63.4,
+        "size": 64.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0373
+        "betweenness": 0.1778,
+        "eigenvector": 0.0297
       },
       {
         "id": "Kalvin Phillips",
         "short": "Phillips",
         "x": 65.26,
         "y": 42.94,
-        "size": 61.5,
+        "size": 67.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1778,
         "eigenvector": 0.0
       },
       {
@@ -791,30 +791,10 @@
         "short": "Kane",
         "x": 77.12,
         "y": 36.95,
-        "size": 55.0,
+        "size": 58.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jude Bellingham",
-        "short": "Bellingham",
-        "x": 68.6,
-        "y": 6.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marcus Rashford",
-        "short": "Rashford",
-        "x": 32.8,
-        "y": 46.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0009
       }
     ],
     "edges": [
@@ -829,6 +809,18 @@
         "target": "John Stones",
         "weight": 13,
         "direction": "lateral"
+      },
+      {
+        "source": "Tyrone Mings",
+        "target": "Declan Rice",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Tyrone Mings",
+        "target": "Raheem Sterling",
+        "weight": 7,
+        "direction": "forward"
       },
       {
         "source": "Kieran Trippier",
@@ -897,6 +889,12 @@
         "direction": "forward"
       },
       {
+        "source": "Declan Rice",
+        "target": "Tyrone Mings",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Kyle Walker",
         "target": "Philip Foden",
         "weight": 9,
@@ -933,121 +931,141 @@
         "direction": "forward"
       },
       {
+        "source": "Philip Foden",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Kalvin Phillips",
         "target": "Kyle Walker",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Kalvin Phillips",
+        "target": "John Stones",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Kalvin Phillips",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Kalvin Phillips",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Philip Foden",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Šime Vrsaljko",
-        "short": "Vrsaljko",
-        "x": 56.89,
-        "y": 75.0,
-        "size": 92.8,
+        "id": "Mateo Kovačić",
+        "short": "Kovačić",
+        "x": 56.85,
+        "y": 29.67,
+        "size": 115.5,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.3518
+        "betweenness": 0.05,
+        "eigenvector": 0.4479
       },
       {
         "id": "Luka Modrić",
         "short": "Modrić",
-        "x": 61.29,
-        "y": 50.12,
-        "size": 150.6,
+        "x": 60.67,
+        "y": 50.19,
+        "size": 141.5,
         "is_playmaker": true,
-        "betweenness": 0.1264,
-        "eigenvector": 0.639
+        "betweenness": 0.4667,
+        "eigenvector": 0.5995
       },
       {
-        "id": "Andrej Kramarić",
-        "short": "Kramarić",
-        "x": 58.09,
-        "y": 56.19,
-        "size": 66.1,
+        "id": "Šime Vrsaljko",
+        "short": "Vrsaljko",
+        "x": 61.15,
+        "y": 74.68,
+        "size": 90.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2706
-      },
-      {
-        "id": "Duje Ćaleta-Car",
-        "short": "Ćaleta-Car",
-        "x": 82.7,
-        "y": 33.87,
-        "size": 115.0,
-        "is_playmaker": true,
-        "betweenness": 0.0659,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Domagoj Vida",
-        "short": "Vida",
-        "x": 77.54,
-        "y": 56.54,
-        "size": 86.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3782
       },
       {
         "id": "Marcelo Brozović",
         "short": "Brozović",
         "x": 65.58,
         "y": 49.63,
-        "size": 119.4,
+        "size": 114.5,
         "is_playmaker": false,
-        "betweenness": 0.0055,
-        "eigenvector": 0.4228
+        "betweenness": 0.0111,
+        "eigenvector": 0.4167
       },
       {
-        "id": "Mateo Kovačić",
-        "short": "Kovačić",
-        "x": 56.11,
-        "y": 30.51,
-        "size": 115.0,
+        "id": "Duje Ćaleta-Car",
+        "short": "Ćaleta-Car",
+        "x": 82.6,
+        "y": 33.97,
+        "size": 115.5,
+        "is_playmaker": true,
+        "betweenness": 0.4111,
+        "eigenvector": 0.1617
+      },
+      {
+        "id": "Domagoj Vida",
+        "short": "Vida",
+        "x": 79.22,
+        "y": 55.74,
+        "size": 87.6,
         "is_playmaker": false,
-        "betweenness": 0.0275,
-        "eigenvector": 0.4492
+        "betweenness": 0.0222,
+        "eigenvector": 0.0698
       },
       {
         "id": "Joško Gvardiol",
         "short": "Gvardiol",
-        "x": 50.15,
-        "y": 8.66,
-        "size": 67.2,
+        "x": 48.39,
+        "y": 8.82,
+        "size": 84.8,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.2044
+      },
+      {
+        "id": "Andrej Kramarić",
+        "short": "Kramarić",
+        "x": 58.09,
+        "y": 56.19,
+        "size": 66.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2166
       },
       {
         "id": "Dominik Livaković",
         "short": "Livaković",
         "x": 110.26,
         "y": 41.64,
-        "size": 73.9,
+        "size": 70.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Josip Brekalo",
-        "short": "Brekalo",
-        "x": 48.72,
-        "y": 68.24,
-        "size": 63.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1192
+        "eigenvector": 0.0523
       },
       {
         "id": "Ivan Perišić",
         "short": "Perišić",
-        "x": 43.69,
-        "y": 14.07,
-        "size": 55.0,
+        "x": 45.75,
+        "y": 13.85,
+        "size": 59.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1055,56 +1073,44 @@
       {
         "id": "Ante Rebić",
         "short": "Rebić",
-        "x": 47.0,
-        "y": 46.14,
-        "size": 55.0,
+        "x": 50.39,
+        "y": 44.49,
+        "size": 58.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nikola Vlašić",
-        "short": "Vlašić",
-        "x": 42.38,
-        "y": 55.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Bruno Petković",
-        "short": "Petković",
-        "x": 57.8,
-        "y": 25.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mario Pašalić",
-        "short": "Pašalić",
-        "x": 66.78,
-        "y": 20.32,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0293
       }
     ],
     "edges": [
       {
-        "source": "Šime Vrsaljko",
+        "source": "Mateo Kovačić",
         "target": "Luka Modrić",
-        "weight": 13,
+        "weight": 14,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mateo Kovačić",
+        "target": "Marcelo Brozović",
+        "weight": 8,
         "direction": "forward"
       },
       {
-        "source": "Šime Vrsaljko",
-        "target": "Josip Brekalo",
-        "weight": 8,
+        "source": "Mateo Kovačić",
+        "target": "Joško Gvardiol",
+        "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Mateo Kovačić",
+        "target": "Šime Vrsaljko",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Luka Modrić",
+        "target": "Šime Vrsaljko",
+        "weight": 13,
+        "direction": "lateral"
       },
       {
         "source": "Luka Modrić",
@@ -1114,27 +1120,57 @@
       },
       {
         "source": "Luka Modrić",
+        "target": "Marcelo Brozović",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Luka Modrić",
         "target": "Mateo Kovačić",
         "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Luka Modrić",
+        "target": "Joško Gvardiol",
+        "weight": 5,
         "direction": "backward"
       },
       {
         "source": "Luka Modrić",
-        "target": "Šime Vrsaljko",
+        "target": "Ante Rebić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Šime Vrsaljko",
+        "target": "Luka Modrić",
+        "weight": 13,
+        "direction": "lateral"
+      },
+      {
+        "source": "Marcelo Brozović",
+        "target": "Mateo Kovačić",
         "weight": 13,
         "direction": "backward"
       },
       {
-        "source": "Luka Modrić",
-        "target": "Marcelo Brozović",
+        "source": "Marcelo Brozović",
+        "target": "Luka Modrić",
         "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcelo Brozović",
+        "target": "Duje Ćaleta-Car",
+        "weight": 6,
         "direction": "forward"
       },
       {
         "source": "Duje Ćaleta-Car",
         "target": "Domagoj Vida",
         "weight": 12,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Duje Ćaleta-Car",
@@ -1158,7 +1194,7 @@
         "source": "Domagoj Vida",
         "target": "Duje Ćaleta-Car",
         "weight": 8,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Domagoj Vida",
@@ -1167,28 +1203,10 @@
         "direction": "backward"
       },
       {
-        "source": "Marcelo Brozović",
-        "target": "Mateo Kovačić",
-        "weight": 13,
+        "source": "Domagoj Vida",
+        "target": "Šime Vrsaljko",
+        "weight": 7,
         "direction": "backward"
-      },
-      {
-        "source": "Marcelo Brozović",
-        "target": "Luka Modrić",
-        "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Mateo Kovačić",
-        "target": "Luka Modrić",
-        "weight": 14,
-        "direction": "forward"
-      },
-      {
-        "source": "Mateo Kovačić",
-        "target": "Marcelo Brozović",
-        "weight": 8,
-        "direction": "forward"
       },
       {
         "source": "Joško Gvardiol",
@@ -1197,10 +1215,40 @@
         "direction": "forward"
       },
       {
+        "source": "Joško Gvardiol",
+        "target": "Duje Ćaleta-Car",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Andrej Kramarić",
+        "target": "Ante Rebić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Dominik Livaković",
         "target": "Duje Ćaleta-Car",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Ivan Perišić",
+        "target": "Joško Gvardiol",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ante Rebić",
+        "target": "Luka Modrić",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ante Rebić",
+        "target": "Andrej Kramarić",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

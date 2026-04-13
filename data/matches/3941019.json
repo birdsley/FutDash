@@ -785,122 +785,112 @@
       {
         "id": "Theo Bernard François Hernández",
         "short": "Hernández",
-        "x": 71.45,
-        "y": 8.46,
-        "size": 133.4,
+        "x": 71.27,
+        "y": 8.56,
+        "size": 123.3,
         "is_playmaker": false,
-        "betweenness": 0.0773,
-        "eigenvector": 0.5326
+        "betweenness": 0.0778,
+        "eigenvector": 0.5033
       },
       {
         "id": "Kylian Mbappé Lottin",
         "short": "Lottin",
-        "x": 81.3,
-        "y": 17.3,
-        "size": 101.2,
+        "x": 82.18,
+        "y": 17.59,
+        "size": 95.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5066
+        "eigenvector": 0.4442
       },
       {
         "id": "Aurélien Djani Tchouaméni",
         "short": "Tchouaméni",
         "x": 63.15,
         "y": 35.28,
-        "size": 134.6,
+        "size": 135.4,
         "is_playmaker": true,
-        "betweenness": 0.3091,
-        "eigenvector": 0.4348
+        "betweenness": 0.5,
+        "eigenvector": 0.5038
       },
       {
         "id": "William Saliba",
         "short": "Saliba",
-        "x": 49.35,
-        "y": 31.28,
-        "size": 88.4,
+        "x": 49.01,
+        "y": 31.4,
+        "size": 90.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2089
+        "betweenness": 0.0667,
+        "eigenvector": 0.198
       },
       {
         "id": "Adrien Rabiot",
         "short": "Rabiot",
-        "x": 72.77,
-        "y": 26.71,
-        "size": 92.7,
+        "x": 72.37,
+        "y": 26.55,
+        "size": 93.1,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.3881
+        "betweenness": 0.1,
+        "eigenvector": 0.3767
       },
       {
         "id": "Jules Koundé",
         "short": "Koundé",
         "x": 73.01,
         "y": 71.66,
-        "size": 100.0,
-        "is_playmaker": true,
-        "betweenness": 0.1955,
-        "eigenvector": 0.1691
+        "size": 99.4,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.2185
       },
       {
         "id": "N'Golo Kanté",
         "short": "Kanté",
-        "x": 67.88,
+        "x": 67.73,
         "y": 54.27,
-        "size": 82.4,
-        "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.1726
+        "size": 91.0,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.1925
       },
       {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
         "x": 81.54,
         "y": 58.09,
-        "size": 83.6,
+        "size": 80.9,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.1233
+        "betweenness": 0.0167,
+        "eigenvector": 0.1363
       },
       {
         "id": "Dayotchanculle Upamecano",
         "short": "Upamecano",
-        "x": 52.29,
-        "y": 59.42,
-        "size": 78.7,
+        "x": 52.45,
+        "y": 59.53,
+        "size": 82.0,
         "is_playmaker": false,
-        "betweenness": 0.1409,
-        "eigenvector": 0.0533
+        "betweenness": 0.3333,
+        "eigenvector": 0.1048
       },
       {
         "id": "Marcus Thuram",
         "short": "Thuram",
         "x": 78.42,
         "y": 52.85,
-        "size": 55.0,
+        "size": 57.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Randal Kolo Muani",
-        "short": "Muani",
-        "x": 95.48,
-        "y": 43.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1944,
+        "eigenvector": 0.0068
       },
       {
         "id": "Mike Maignan",
         "short": "Maignan",
         "x": 10.74,
         "y": 43.78,
-        "size": 55.0,
+        "size": 57.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0063
       }
     ],
     "edges": [
@@ -971,6 +961,18 @@
         "direction": "forward"
       },
       {
+        "source": "William Saliba",
+        "target": "Dayotchanculle Upamecano",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "William Saliba",
+        "target": "Mike Maignan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Adrien Rabiot",
         "target": "Kylian Mbappé Lottin",
         "weight": 14,
@@ -981,6 +983,12 @@
         "target": "Theo Bernard François Hernández",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Adrien Rabiot",
+        "target": "Aurélien Djani Tchouaméni",
+        "weight": 10,
+        "direction": "backward"
       },
       {
         "source": "Jules Koundé",
@@ -1007,10 +1015,34 @@
         "direction": "forward"
       },
       {
+        "source": "N'Golo Kanté",
+        "target": "Aurélien Djani Tchouaméni",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "N'Golo Kanté",
+        "target": "Jules Koundé",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "N'Golo Kanté",
+        "target": "Marcus Thuram",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Antoine Griezmann",
         "target": "Jules Koundé",
         "weight": 15,
         "direction": "backward"
+      },
+      {
+        "source": "Antoine Griezmann",
+        "target": "Marcus Thuram",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Dayotchanculle Upamecano",
@@ -1023,6 +1055,36 @@
         "target": "Aurélien Djani Tchouaméni",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Dayotchanculle Upamecano",
+        "target": "Mike Maignan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcus Thuram",
+        "target": "Antoine Griezmann",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Marcus Thuram",
+        "target": "N'Golo Kanté",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mike Maignan",
+        "target": "William Saliba",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mike Maignan",
+        "target": "Dayotchanculle Upamecano",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1031,49 +1093,49 @@
       {
         "id": "Jan Vertonghen",
         "short": "Vertonghen",
-        "x": 87.97,
-        "y": 30.32,
-        "size": 170.1,
-        "is_playmaker": true,
-        "betweenness": 0.1364,
-        "eigenvector": 0.6273
+        "x": 87.63,
+        "y": 30.51,
+        "size": 160.4,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.6255
       },
       {
         "id": "Arthur Theate",
         "short": "Theate",
-        "x": 72.94,
-        "y": 12.27,
-        "size": 120.1,
-        "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.4685
+        "x": 74.79,
+        "y": 12.53,
+        "size": 112.4,
+        "is_playmaker": true,
+        "betweenness": 0.2333,
+        "eigenvector": 0.4568
       },
       {
         "id": "Wout Faes",
         "short": "Faes",
-        "x": 80.94,
-        "y": 54.95,
-        "size": 134.5,
+        "x": 81.94,
+        "y": 55.22,
+        "size": 131.3,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.481
+        "betweenness": 0.0778,
+        "eigenvector": 0.4705
       },
       {
         "id": "Amadou Onana",
         "short": "Onana",
-        "x": 66.48,
-        "y": 50.78,
-        "size": 109.1,
-        "is_playmaker": true,
-        "betweenness": 0.1515,
-        "eigenvector": 0.3183
+        "x": 66.23,
+        "y": 51.14,
+        "size": 104.8,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3099
       },
       {
         "id": "Koen Casteels",
         "short": "Casteels",
         "x": 109.33,
         "y": 39.32,
-        "size": 72.1,
+        "size": 70.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1081,82 +1143,62 @@
       {
         "id": "Kevin De Bruyne",
         "short": "Bruyne",
-        "x": 61.07,
-        "y": 41.0,
-        "size": 74.9,
-        "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0698
+        "x": 63.22,
+        "y": 40.24,
+        "size": 89.1,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.1916
       },
       {
         "id": "Timothy Castagne",
         "short": "Castagne",
         "x": 64.8,
         "y": 73.48,
-        "size": 84.5,
+        "size": 94.1,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.17
+        "betweenness": 0.1889,
+        "eigenvector": 0.1892
       },
       {
         "id": "Jeremy Doku",
         "short": "Doku",
-        "x": 55.39,
-        "y": 8.09,
-        "size": 62.5,
+        "x": 55.99,
+        "y": 8.24,
+        "size": 64.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1027
-      },
-      {
-        "id": "Orel Mangala",
-        "short": "Mangala",
-        "x": 60.34,
-        "y": 17.55,
-        "size": 67.3,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.1
+        "betweenness": 0.1778,
+        "eigenvector": 0.0981
       },
       {
         "id": "Yannick Ferreira Carrasco",
         "short": "Carrasco",
         "x": 46.33,
         "y": 64.67,
-        "size": 55.0,
+        "size": 62.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Romelu Lukaku Menama",
-        "short": "Menama",
-        "x": 28.82,
-        "y": 30.36,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0221
       },
       {
         "id": "Ikoma Loïs Openda",
         "short": "Openda",
         "x": 31.55,
         "y": 28.75,
-        "size": 55.0,
+        "size": 57.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.002
       },
       {
-        "id": "Dodi Lukebakio",
-        "short": "Lukebakio",
-        "x": 39.05,
-        "y": 70.42,
-        "size": 55.0,
+        "id": "Romelu Lukaku Menama",
+        "short": "Menama",
+        "x": 28.82,
+        "y": 30.36,
+        "size": 57.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.002
       }
     ],
     "edges": [
@@ -1179,12 +1221,6 @@
         "direction": "backward"
       },
       {
-        "source": "Jan Vertonghen",
-        "target": "Orel Mangala",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
         "source": "Arthur Theate",
         "target": "Jan Vertonghen",
         "weight": 31,
@@ -1194,6 +1230,12 @@
         "source": "Arthur Theate",
         "target": "Jeremy Doku",
         "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Arthur Theate",
+        "target": "Kevin De Bruyne",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1215,6 +1257,12 @@
         "direction": "backward"
       },
       {
+        "source": "Wout Faes",
+        "target": "Kevin De Bruyne",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Amadou Onana",
         "target": "Jan Vertonghen",
         "weight": 14,
@@ -1224,7 +1272,7 @@
         "source": "Amadou Onana",
         "target": "Kevin De Bruyne",
         "weight": 11,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Amadou Onana",
@@ -1260,6 +1308,12 @@
         "source": "Kevin De Bruyne",
         "target": "Arthur Theate",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Kevin De Bruyne",
+        "target": "Jan Vertonghen",
+        "weight": 7,
         "direction": "forward"
       },
       {
@@ -1275,9 +1329,57 @@
         "direction": "forward"
       },
       {
-        "source": "Orel Mangala",
-        "target": "Arthur Theate",
-        "weight": 10,
+        "source": "Timothy Castagne",
+        "target": "Kevin De Bruyne",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Timothy Castagne",
+        "target": "Yannick Ferreira Carrasco",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jeremy Doku",
+        "target": "Ikoma Loïs Openda",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jeremy Doku",
+        "target": "Romelu Lukaku Menama",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Yannick Ferreira Carrasco",
+        "target": "Timothy Castagne",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Ikoma Loïs Openda",
+        "target": "Romelu Lukaku Menama",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ikoma Loïs Openda",
+        "target": "Jeremy Doku",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Romelu Lukaku Menama",
+        "target": "Ikoma Loïs Openda",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Romelu Lukaku Menama",
+        "target": "Jeremy Doku",
+        "weight": 1,
         "direction": "forward"
       }
     ]

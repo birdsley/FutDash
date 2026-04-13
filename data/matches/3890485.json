@@ -939,71 +939,91 @@
   "network_home": {
     "nodes": [
       {
-        "id": "Marvin Matip",
-        "short": "Matip",
-        "x": 42.02,
-        "y": 51.31,
-        "size": 95.5,
-        "is_playmaker": true,
-        "betweenness": 0.0273,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Max Christiansen",
-        "short": "Christianse",
-        "x": 72.87,
-        "y": 52.78,
-        "size": 168.9,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.5842
-      },
-      {
-        "id": "Ramazan Özcan",
-        "short": "Özcan",
-        "x": 15.98,
-        "y": 34.55,
-        "size": 100.6,
-        "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Mathew Leckie",
         "short": "Leckie",
         "x": 76.33,
         "y": 48.58,
-        "size": 110.7,
+        "size": 109.1,
         "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.3797
+        "betweenness": 0.0778,
+        "eigenvector": 0.3268
       },
       {
         "id": "Dario Lezcano",
         "short": "Lezcano",
         "x": 73.9,
         "y": 43.27,
-        "size": 105.6,
+        "size": 116.3,
+        "is_playmaker": true,
+        "betweenness": 0.5,
+        "eigenvector": 0.6318
+      },
+      {
+        "id": "Roger de Oliveira Bernardo",
+        "short": "Bernardo",
+        "x": 46.28,
+        "y": 42.06,
+        "size": 76.6,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.1964
+      },
+      {
+        "id": "Marvin Matip",
+        "short": "Matip",
+        "x": 42.02,
+        "y": 51.31,
+        "size": 98.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6393
+        "betweenness": 0.1056,
+        "eigenvector": 0.0848
+      },
+      {
+        "id": "Max Christiansen",
+        "short": "Christianse",
+        "x": 72.87,
+        "y": 52.78,
+        "size": 139.7,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.5375
+      },
+      {
+        "id": "Ramazan Özcan",
+        "short": "Özcan",
+        "x": 15.98,
+        "y": 34.55,
+        "size": 87.4,
+        "is_playmaker": false,
+        "betweenness": 0.0167,
+        "eigenvector": 0.0633
       },
       {
         "id": "Danny Vieira da Costa",
         "short": "Costa",
         "x": 61.06,
         "y": 74.82,
-        "size": 108.2,
+        "size": 107.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3254
+        "eigenvector": 0.3786
       },
       {
         "id": "Benjamin Hübner",
         "short": "Hübner",
         "x": 40.93,
         "y": 30.19,
-        "size": 80.3,
+        "size": 80.2,
+        "is_playmaker": false,
+        "betweenness": 0.0944,
+        "eigenvector": 0.0611
+      },
+      {
+        "id": "Robert Bauer",
+        "short": "Bauer",
+        "x": 63.4,
+        "y": 7.54,
+        "size": 62.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1013,7 +1033,7 @@
         "short": "Hartmann",
         "x": 69.23,
         "y": 30.31,
-        "size": 70.2,
+        "size": 65.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1023,43 +1043,55 @@
         "short": "Cohen",
         "x": 63.66,
         "y": 50.58,
-        "size": 55.0,
+        "size": 62.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Roger de Oliveira Bernardo",
-        "short": "Bernardo",
-        "x": 44.58,
-        "y": 40.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Robert Bauer",
-        "short": "Bauer",
-        "x": 63.4,
-        "y": 7.54,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Konstantin Engel",
-        "short": "Engel",
-        "x": 52.7,
-        "y": 40.43,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2667,
+        "eigenvector": 0.0909
       }
     ],
     "edges": [
+      {
+        "source": "Mathew Leckie",
+        "target": "Dario Lezcano",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mathew Leckie",
+        "target": "Max Christiansen",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mathew Leckie",
+        "target": "Danny Vieira da Costa",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Dario Lezcano",
+        "target": "Roger de Oliveira Bernardo",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Dario Lezcano",
+        "target": "Almog Cohen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Roger de Oliveira Bernardo",
+        "target": "Benjamin Hübner",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Roger de Oliveira Bernardo",
+        "target": "Marvin Matip",
+        "weight": 4,
+        "direction": "backward"
+      },
       {
         "source": "Marvin Matip",
         "target": "Max Christiansen",
@@ -1071,6 +1103,12 @@
         "target": "Ramazan Özcan",
         "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Marvin Matip",
+        "target": "Danny Vieira da Costa",
+        "weight": 4,
+        "direction": "forward"
       },
       {
         "source": "Max Christiansen",
@@ -1091,16 +1129,16 @@
         "direction": "lateral"
       },
       {
+        "source": "Max Christiansen",
+        "target": "Almog Cohen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ramazan Özcan",
         "target": "Mathew Leckie",
         "weight": 7,
         "direction": "forward"
-      },
-      {
-        "source": "Mathew Leckie",
-        "target": "Max Christiansen",
-        "weight": 8,
-        "direction": "lateral"
       },
       {
         "source": "Danny Vieira da Costa",
@@ -1127,9 +1165,27 @@
         "direction": "backward"
       },
       {
+        "source": "Robert Bauer",
+        "target": "Dario Lezcano",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Moritz Hartmann",
         "target": "Dario Lezcano",
         "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Almog Cohen",
+        "target": "Max Christiansen",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Almog Cohen",
+        "target": "Dario Lezcano",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1139,149 +1195,173 @@
       {
         "id": "Kevin Großkreutz",
         "short": "Großkreutz",
-        "x": 60.65,
-        "y": 72.77,
-        "size": 113.1,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Lukas Rupp",
-        "short": "Rupp",
-        "x": 56.55,
-        "y": 60.36,
-        "size": 113.1,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.3787
-      },
-      {
-        "id": "Daniel Didavi",
-        "short": "Didavi",
-        "x": 44.45,
-        "y": 34.2,
-        "size": 106.6,
+        "x": 60.02,
+        "y": 73.34,
+        "size": 119.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Filip Kostić",
-        "short": "Kostić",
-        "x": 38.67,
-        "y": 17.22,
-        "size": 196.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.9255
-      },
-      {
-        "id": "Emiliano Adrián Insúa Zapata",
-        "short": "Zapata",
-        "x": 62.18,
-        "y": 7.65,
-        "size": 145.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Christian Gentner",
-        "short": "Gentner",
-        "x": 66.95,
-        "y": 38.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "betweenness": 0.2667,
+        "eigenvector": 0.0347
       },
       {
         "id": "Timo Werner",
         "short": "Werner",
         "x": 41.95,
         "y": 39.99,
-        "size": 55.0,
+        "size": 83.0,
+        "is_playmaker": false,
+        "betweenness": 0.2389,
+        "eigenvector": 0.1488
+      },
+      {
+        "id": "Lukas Rupp",
+        "short": "Rupp",
+        "x": 59.98,
+        "y": 59.13,
+        "size": 95.9,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0725
+      },
+      {
+        "id": "Emiliano Adrián Insúa Zapata",
+        "short": "Zapata",
+        "x": 59.49,
+        "y": 7.77,
+        "size": 130.3,
+        "is_playmaker": false,
+        "betweenness": 0.3556,
+        "eigenvector": 0.4227
+      },
+      {
+        "id": "Daniel Didavi",
+        "short": "Didavi",
+        "x": 44.61,
+        "y": 33.39,
+        "size": 93.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "eigenvector": 0.444
+      },
+      {
+        "id": "Filip Kostić",
+        "short": "Kostić",
+        "x": 38.31,
+        "y": 12.84,
+        "size": 134.6,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.7563
+      },
+      {
+        "id": "Christian Gentner",
+        "short": "Gentner",
+        "x": 68.22,
+        "y": 34.89,
+        "size": 80.8,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.1526
       },
       {
         "id": "Daniel Schwaab",
         "short": "Schwaab",
-        "x": 78.78,
-        "y": 55.91,
-        "size": 55.0,
+        "x": 78.56,
+        "y": 58.74,
+        "size": 63.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "eigenvector": 0.0111
       },
       {
         "id": "Sereso Geoffroy Gonzaroua Dié",
         "short": "Dié",
         "x": 78.46,
         "y": 46.19,
-        "size": 55.0,
+        "size": 72.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Przemysław Tytoń",
-        "short": "Tytoń",
-        "x": 107.56,
-        "y": 42.23,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Toni Šunjić",
-        "short": "Šunjić",
-        "x": 78.68,
-        "y": 30.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Artem Kravets",
-        "short": "Kravets",
-        "x": 57.02,
-        "y": 49.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "betweenness": 0.3444,
+        "eigenvector": 0.0011
       },
       {
         "id": "Georg Niedermeier",
         "short": "Niedermeier",
         "x": 82.2,
         "y": 41.61,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "size": 67.9,
+        "is_playmaker": true,
+        "betweenness": 0.3667,
+        "eigenvector": 0.0124
       },
       {
-        "id": "Borys Tashchy",
-        "short": "Tashchy",
-        "x": 46.7,
-        "y": 55.12,
-        "size": 55.0,
+        "id": "Przemysław Tytoń",
+        "short": "Tytoń",
+        "x": 108.07,
+        "y": 42.91,
+        "size": 63.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0002
+        "eigenvector": 0.0011
       }
     ],
     "edges": [
       {
         "source": "Kevin Großkreutz",
+        "target": "Timo Werner",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Kevin Großkreutz",
         "target": "Lukas Rupp",
         "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kevin Großkreutz",
+        "target": "Christian Gentner",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Kevin Großkreutz",
+        "target": "Daniel Schwaab",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Timo Werner",
+        "target": "Lukas Rupp",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Lukas Rupp",
+        "target": "Kevin Großkreutz",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Timo Werner",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Daniel Didavi",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Christian Gentner",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Filip Kostić",
+        "weight": 14,
         "direction": "backward"
       },
       {
@@ -1291,9 +1371,69 @@
         "direction": "backward"
       },
       {
-        "source": "Emiliano Adrián Insúa Zapata",
+        "source": "Filip Kostić",
+        "target": "Daniel Didavi",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Filip Kostić",
+        "target": "Emiliano Adrián Insúa Zapata",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Christian Gentner",
+        "target": "Georg Niedermeier",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
         "target": "Filip Kostić",
-        "weight": 14,
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Georg Niedermeier",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Przemysław Tytoń",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Georg Niedermeier",
+        "target": "Sereso Geoffroy Gonzaroua Dié",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Georg Niedermeier",
+        "target": "Christian Gentner",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Georg Niedermeier",
+        "target": "Przemysław Tytoń",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Georg Niedermeier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Sereso Geoffroy Gonzaroua Dié",
+        "weight": 1,
         "direction": "backward"
       }
     ]

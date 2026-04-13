@@ -871,87 +871,87 @@
         "short": "Silva",
         "x": 69.9,
         "y": 70.7,
-        "size": 155.9,
+        "size": 145.7,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.5734
+        "betweenness": 0.1333,
+        "eigenvector": 0.5418
       },
       {
         "id": "Munir El Haddadi Mohamed",
         "short": "Mohamed",
         "x": 81.03,
         "y": 69.52,
-        "size": 89.3,
+        "size": 90.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3942
+        "eigenvector": 0.3672
       },
       {
         "id": "Adriano Correia Claro",
         "short": "Claro",
-        "x": 72.88,
-        "y": 9.75,
-        "size": 91.1,
+        "x": 72.24,
+        "y": 9.73,
+        "size": 92.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0579
+        "betweenness": 0.1778,
+        "eigenvector": 0.145
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
         "x": 82.95,
         "y": 23.81,
-        "size": 86.2,
+        "size": 84.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1389
+        "betweenness": 0.0222,
+        "eigenvector": 0.2067
       },
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
-        "x": 66.25,
-        "y": 56.18,
-        "size": 111.3,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.4399
+        "x": 65.55,
+        "y": 56.25,
+        "size": 105.5,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.4161
       },
       {
         "id": "Marc Bartra Aregall",
         "short": "Aregall",
-        "x": 49.62,
-        "y": 56.72,
-        "size": 99.0,
+        "x": 49.19,
+        "y": 56.84,
+        "size": 94.6,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.3814
+        "betweenness": 0.0222,
+        "eigenvector": 0.3609
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 80.12,
-        "y": 45.32,
-        "size": 86.2,
-        "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.3572
+        "x": 80.96,
+        "y": 44.87,
+        "size": 97.9,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.4139
       },
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 49.0,
-        "y": 29.64,
-        "size": 113.7,
+        "x": 49.43,
+        "y": 29.66,
+        "size": 112.1,
         "is_playmaker": true,
-        "betweenness": 0.1545,
-        "eigenvector": 0.1631
+        "betweenness": 0.3333,
+        "eigenvector": 0.1817
       },
       {
         "id": "Marc-André ter Stegen",
         "short": "Stegen",
         "x": 11.26,
         "y": 40.49,
-        "size": 62.3,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -961,7 +961,7 @@
         "short": "Burgos",
         "x": 68.75,
         "y": 33.69,
-        "size": 55.0,
+        "size": 63.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -971,20 +971,10 @@
         "short": "Castillo",
         "x": 85.94,
         "y": 42.44,
-        "size": 55.0,
+        "size": 57.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gerard Gumbau Garriga",
-        "short": "Garriga",
-        "x": 68.65,
-        "y": 35.53,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0136
       }
     ],
     "edges": [
@@ -998,7 +988,7 @@
         "source": "Daniel Alves da Silva",
         "target": "Ivan Rakitić",
         "weight": 25,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Daniel Alves da Silva",
@@ -1025,6 +1015,12 @@
         "direction": "backward"
       },
       {
+        "source": "Munir El Haddadi Mohamed",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Adriano Correia Claro",
         "target": "Neymar da Silva Santos Junior",
         "weight": 28,
@@ -1043,10 +1039,16 @@
         "direction": "lateral"
       },
       {
+        "source": "Neymar da Silva Santos Junior",
+        "target": "Sandro Ramírez Castillo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Ivan Rakitić",
         "target": "Daniel Alves da Silva",
         "weight": 25,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Ivan Rakitić",
@@ -1079,6 +1081,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Adriano Correia Claro",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Sandro Ramírez Castillo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Javier Alejandro Mascherano",
         "target": "Adriano Correia Claro",
         "weight": 16,
@@ -1107,158 +1121,224 @@
         "target": "Javier Alejandro Mascherano",
         "weight": 12,
         "direction": "forward"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Sandro Ramírez Castillo",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sandro Ramírez Castillo",
+        "target": "Neymar da Silva Santos Junior",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Antonio García Aranda",
-        "short": "Aranda",
-        "x": 63.05,
-        "y": 4.24,
-        "size": 119.3,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "José Antonio García Rabasco",
-        "short": "Rabasco",
-        "x": 68.26,
-        "y": 33.98,
-        "size": 119.3,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Iván López Mendoza",
-        "short": "Mendoza",
-        "x": 63.0,
-        "y": 72.22,
-        "size": 190.7,
+        "id": "Nabil Ghilas",
+        "short": "Ghilas",
+        "x": 60.95,
+        "y": 32.26,
+        "size": 81.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6882
-      },
-      {
-        "id": "Víctor Camarasa Ferrando",
-        "short": "Ferrando",
-        "x": 66.83,
-        "y": 56.7,
-        "size": 190.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7255
-      },
-      {
-        "id": "Jefferson Andrés Lerma Solís",
-        "short": "Solís",
-        "x": 71.47,
-        "y": 25.61,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Juan Francisco García García",
-        "short": "García",
-        "x": 82.02,
-        "y": 19.34,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.1591
       },
       {
         "id": "Roger Martí Salvador",
         "short": "Salvador",
         "x": 57.19,
         "y": 38.81,
-        "size": 55.0,
+        "size": 70.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2418
       },
       {
-        "id": "Nabil Ghilas",
-        "short": "Ghilas",
-        "x": 60.95,
-        "y": 32.26,
-        "size": 55.0,
+        "id": "Antonio García Aranda",
+        "short": "Aranda",
+        "x": 66.17,
+        "y": 3.76,
+        "size": 102.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3336
+      },
+      {
+        "id": "Juan Francisco García García",
+        "short": "García",
+        "x": 81.51,
+        "y": 20.05,
+        "size": 100.6,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.3336
+      },
+      {
+        "id": "José Antonio García Rabasco",
+        "short": "Rabasco",
+        "x": 68.76,
+        "y": 34.49,
+        "size": 146.2,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.4463
       },
       {
         "id": "Zouhair Feddal",
         "short": "Feddal",
-        "x": 80.7,
-        "y": 30.95,
-        "size": 55.0,
+        "x": 80.17,
+        "y": 30.53,
+        "size": 69.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1273
       },
       {
         "id": "Rubén Iván Martínez Andrade",
         "short": "Andrade",
-        "x": 111.7,
-        "y": 38.46,
-        "size": 55.0,
+        "x": 111.75,
+        "y": 38.68,
+        "size": 65.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
+      },
+      {
+        "id": "Iván López Mendoza",
+        "short": "Mendoza",
+        "x": 64.91,
+        "y": 71.88,
+        "size": 88.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3536
+      },
+      {
+        "id": "Víctor Camarasa Ferrando",
+        "short": "Ferrando",
+        "x": 66.83,
+        "y": 56.7,
+        "size": 133.9,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.5511
+      },
+      {
+        "id": "Jefferson Andrés Lerma Solís",
+        "short": "Solís",
+        "x": 71.47,
+        "y": 25.61,
+        "size": 77.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1572
       },
       {
         "id": "Ángel Trujillo Canorea",
         "short": "Canorea",
-        "x": 81.84,
-        "y": 54.98,
-        "size": 55.0,
+        "x": 79.9,
+        "y": 56.3,
+        "size": 69.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Víctor Casadesús Castaño",
-        "short": "Castaño",
-        "x": 48.03,
-        "y": 40.31,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Deyverson Brum Silva Acosta",
-        "short": "Acosta",
-        "x": 64.45,
-        "y": 29.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rubén García Santos",
-        "short": "Santos",
-        "x": 50.05,
-        "y": 15.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.1572
       }
     ],
     "edges": [
       {
+        "source": "Nabil Ghilas",
+        "target": "Roger Martí Salvador",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Antonio García Aranda",
+        "target": "Juan Francisco García García",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Antonio García Aranda",
         "target": "José Antonio García Rabasco",
         "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Juan Francisco García García",
+        "target": "José Antonio García Rabasco",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Juan Francisco García García",
+        "target": "Antonio García Aranda",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Juan Francisco García García",
+        "target": "Víctor Camarasa Ferrando",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "José Antonio García Rabasco",
+        "target": "Zouhair Feddal",
+        "weight": 4,
         "direction": "forward"
+      },
+      {
+        "source": "José Antonio García Rabasco",
+        "target": "Juan Francisco García García",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "José Antonio García Rabasco",
+        "target": "Nabil Ghilas",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "José Antonio García Rabasco",
+        "target": "Víctor Camarasa Ferrando",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Antonio García Rabasco",
+        "target": "Antonio García Aranda",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Zouhair Feddal",
+        "target": "José Antonio García Rabasco",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Rubén Iván Martínez Andrade",
+        "target": "Nabil Ghilas",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Iván López Mendoza",
@@ -1268,9 +1348,45 @@
       },
       {
         "source": "Víctor Camarasa Ferrando",
+        "target": "Roger Martí Salvador",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Camarasa Ferrando",
+        "target": "Jefferson Andrés Lerma Solís",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Camarasa Ferrando",
         "target": "Iván López Mendoza",
         "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "Víctor Camarasa Ferrando",
+        "target": "Ángel Trujillo Canorea",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jefferson Andrés Lerma Solís",
+        "target": "Víctor Camarasa Ferrando",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jefferson Andrés Lerma Solís",
+        "target": "José Antonio García Rabasco",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ángel Trujillo Canorea",
+        "target": "José Antonio García Rabasco",
+        "weight": 4,
+        "direction": "backward"
       }
     ]
   },

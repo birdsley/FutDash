@@ -811,130 +811,110 @@
         "short": "Houghton",
         "x": 36.65,
         "y": 59.97,
-        "size": 139.7,
-        "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.5068
+        "size": 139.0,
+        "is_playmaker": false,
+        "betweenness": 0.1185,
+        "eigenvector": 0.5127
       },
       {
         "id": "Janine Elizabeth Beckie",
         "short": "Beckie",
-        "x": 65.03,
-        "y": 70.39,
-        "size": 108.4,
+        "x": 65.85,
+        "y": 70.41,
+        "size": 103.3,
         "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.3689
+        "betweenness": 0.0,
+        "eigenvector": 0.3871
       },
       {
         "id": "Ellie Roebuck",
         "short": "Roebuck",
         "x": 17.39,
         "y": 42.16,
-        "size": 87.0,
+        "size": 87.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2776
+        "betweenness": 0.0111,
+        "eigenvector": 0.244
       },
       {
         "id": "Gemma Bonner",
         "short": "Bonner",
         "x": 32.59,
         "y": 29.65,
-        "size": 125.5,
+        "size": 121.5,
         "is_playmaker": false,
-        "betweenness": 0.0758,
-        "eigenvector": 0.4693
+        "betweenness": 0.1111,
+        "eigenvector": 0.4495
       },
       {
         "id": "Demi Stokes",
         "short": "Stokes",
-        "x": 54.01,
-        "y": 10.7,
-        "size": 102.7,
+        "x": 53.77,
+        "y": 10.56,
+        "size": 97.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3142
+        "eigenvector": 0.2988
       },
       {
         "id": "Caroline Weir",
         "short": "Weir",
-        "x": 60.31,
-        "y": 29.91,
-        "size": 120.5,
+        "x": 60.24,
+        "y": 29.74,
+        "size": 122.7,
         "is_playmaker": true,
-        "betweenness": 0.1364,
-        "eigenvector": 0.4227
+        "betweenness": 0.3926,
+        "eigenvector": 0.3988
       },
       {
         "id": "Keira Walsh",
         "short": "Walsh",
-        "x": 62.42,
-        "y": 45.23,
-        "size": 87.0,
-        "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.1012
+        "x": 63.26,
+        "y": 45.5,
+        "size": 95.1,
+        "is_playmaker": true,
+        "betweenness": 0.5704,
+        "eigenvector": 0.2474
       },
       {
         "id": "Tessa Wullaert",
         "short": "Wullaert",
-        "x": 89.05,
-        "y": 26.82,
-        "size": 62.1,
+        "x": 88.51,
+        "y": 28.64,
+        "size": 62.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1054
+        "eigenvector": 0.0894
       },
       {
         "id": "Lauren Hemp",
         "short": "Hemp",
-        "x": 76.98,
-        "y": 12.33,
-        "size": 62.1,
+        "x": 76.94,
+        "y": 12.11,
+        "size": 61.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1054
+        "eigenvector": 0.0892
       },
       {
         "id": "Laura Coombs",
         "short": "Coombs",
         "x": 69.56,
         "y": 59.81,
-        "size": 55.0,
+        "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0142
       },
       {
         "id": "Ellen White",
         "short": "White",
         "x": 82.51,
         "y": 38.21,
-        "size": 55.0,
+        "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jill Scott",
-        "short": "Scott",
-        "x": 72.81,
-        "y": 55.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Georgia Stanway",
-        "short": "Stanway",
-        "x": 86.51,
-        "y": 28.91,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1704,
+        "eigenvector": 0.0075
       }
     ],
     "edges": [
@@ -963,6 +943,12 @@
         "direction": "backward"
       },
       {
+        "source": "Stephanie Houghton",
+        "target": "Keira Walsh",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Janine Elizabeth Beckie",
         "target": "Stephanie Houghton",
         "weight": 22,
@@ -975,9 +961,21 @@
         "direction": "lateral"
       },
       {
+        "source": "Janine Elizabeth Beckie",
+        "target": "Laura Coombs",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Ellie Roebuck",
         "target": "Stephanie Houghton",
         "weight": 22,
+        "direction": "forward"
+      },
+      {
+        "source": "Ellie Roebuck",
+        "target": "Gemma Bonner",
+        "weight": 7,
         "direction": "forward"
       },
       {
@@ -1041,6 +1039,18 @@
         "direction": "forward"
       },
       {
+        "source": "Caroline Weir",
+        "target": "Stephanie Houghton",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Caroline Weir",
+        "target": "Keira Walsh",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Keira Walsh",
         "target": "Janine Elizabeth Beckie",
         "weight": 16,
@@ -1057,173 +1067,165 @@
         "target": "Caroline Weir",
         "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "Keira Walsh",
+        "target": "Laura Coombs",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Keira Walsh",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Tessa Wullaert",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Laura Coombs",
+        "target": "Janine Elizabeth Beckie",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Laura Coombs",
+        "target": "Keira Walsh",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Tessa Wullaert",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Keira Walsh",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Leigh-Anne Robe",
-        "short": "Robe",
-        "x": 70.92,
-        "y": 8.61,
-        "size": 138.3,
-        "is_playmaker": true,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Niamh Charles",
-        "short": "Charles",
-        "x": 52.27,
-        "y": 21.41,
-        "size": 81.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0002
-      },
-      {
-        "id": "Rhiannon Roberts",
-        "short": "Roberts",
-        "x": 71.76,
-        "y": 46.2,
-        "size": 74.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Melissa Lawley",
-        "short": "Lawley",
-        "x": 60.49,
-        "y": 59.73,
-        "size": 121.7,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.7059
-      },
-      {
         "id": "Rebecca Jane",
         "short": "Jane",
         "x": 71.74,
         "y": 66.46,
-        "size": 119.3,
+        "size": 100.0,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.5764
+        "betweenness": 0.2444,
+        "eigenvector": 0.3691
       },
       {
-        "id": "Sophie Elizabeth Bradley-Auckland",
-        "short": "Bradley-Auc",
-        "x": 79.39,
-        "y": 51.44,
-        "size": 71.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4118
+        "id": "Melissa Lawley",
+        "short": "Lawley",
+        "x": 62.02,
+        "y": 60.34,
+        "size": 106.2,
+        "is_playmaker": true,
+        "betweenness": 0.3889,
+        "eigenvector": 0.5053
       },
       {
-        "id": "Kirsty Linnett",
-        "short": "Linnett",
-        "x": 58.42,
-        "y": 40.35,
-        "size": 90.7,
+        "id": "Leigh-Anne Robe",
+        "short": "Robe",
+        "x": 72.0,
+        "y": 8.64,
+        "size": 118.8,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0001
+        "betweenness": 0.0889,
+        "eigenvector": 0.2082
+      },
+      {
+        "id": "Niamh Charles",
+        "short": "Charles",
+        "x": 53.29,
+        "y": 21.69,
+        "size": 90.0,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.2792
       },
       {
         "id": "Niamh Fahey",
         "short": "Fahey",
         "x": 84.31,
         "y": 27.01,
-        "size": 109.8,
-        "is_playmaker": true,
-        "betweenness": 0.0379,
-        "eigenvector": 0.0002
+        "size": 91.2,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.2757
+      },
+      {
+        "id": "Rhiannon Roberts",
+        "short": "Roberts",
+        "x": 71.76,
+        "y": 46.2,
+        "size": 82.5,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.1953
+      },
+      {
+        "id": "Kirsty Linnett",
+        "short": "Linnett",
+        "x": 58.42,
+        "y": 40.35,
+        "size": 98.8,
+        "is_playmaker": false,
+        "betweenness": 0.3222,
+        "eigenvector": 0.4072
+      },
+      {
+        "id": "Sophie Elizabeth Bradley-Auckland",
+        "short": "Bradley-Auc",
+        "x": 83.93,
+        "y": 52.61,
+        "size": 76.2,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.2146
       },
       {
         "id": "Jade Bailey",
         "short": "Bailey",
-        "x": 61.4,
-        "y": 32.66,
-        "size": 88.3,
-        "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.0001
+        "x": 61.83,
+        "y": 33.34,
+        "size": 106.2,
+        "is_playmaker": true,
+        "betweenness": 0.4444,
+        "eigenvector": 0.3615
       },
       {
         "id": "Anke Preuß",
         "short": "Preuß",
         "x": 110.92,
         "y": 38.06,
-        "size": 55.0,
+        "size": 75.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.1688
       },
       {
         "id": "Courtney Sweetman-Kirk",
         "short": "Sweetman-Ki",
         "x": 63.61,
         "y": 50.34,
-        "size": 55.0,
+        "size": 60.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Christie Murray",
-        "short": "Murray",
-        "x": 41.04,
-        "y": 28.9,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ashley Hodson",
-        "short": "Hodson",
-        "x": 31.73,
-        "y": 47.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0439
       }
     ],
     "edges": [
-      {
-        "source": "Leigh-Anne Robe",
-        "target": "Niamh Charles",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Leigh-Anne Robe",
-        "target": "Kirsty Linnett",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Leigh-Anne Robe",
-        "target": "Niamh Fahey",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Rhiannon Roberts",
-        "target": "Melissa Lawley",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Melissa Lawley",
-        "target": "Rebecca Jane",
-        "weight": 8,
-        "direction": "forward"
-      },
       {
         "source": "Rebecca Jane",
         "target": "Melissa Lawley",
@@ -1237,10 +1239,64 @@
         "direction": "forward"
       },
       {
-        "source": "Kirsty Linnett",
-        "target": "Jade Bailey",
-        "weight": 7,
+        "source": "Melissa Lawley",
+        "target": "Rebecca Jane",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Melissa Lawley",
+        "target": "Kirsty Linnett",
+        "weight": 6,
         "direction": "lateral"
+      },
+      {
+        "source": "Melissa Lawley",
+        "target": "Courtney Sweetman-Kirk",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Leigh-Anne Robe",
+        "target": "Niamh Charles",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Leigh-Anne Robe",
+        "target": "Niamh Fahey",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Leigh-Anne Robe",
+        "target": "Kirsty Linnett",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Leigh-Anne Robe",
+        "target": "Jade Bailey",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Leigh-Anne Robe",
+        "target": "Anke Preuß",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Niamh Charles",
+        "target": "Jade Bailey",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Niamh Charles",
+        "target": "Leigh-Anne Robe",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Niamh Fahey",
@@ -1249,10 +1305,94 @@
         "direction": "backward"
       },
       {
+        "source": "Niamh Fahey",
+        "target": "Anke Preuß",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Rhiannon Roberts",
+        "target": "Melissa Lawley",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Rhiannon Roberts",
+        "target": "Rebecca Jane",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rhiannon Roberts",
+        "target": "Courtney Sweetman-Kirk",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Kirsty Linnett",
+        "target": "Jade Bailey",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kirsty Linnett",
+        "target": "Melissa Lawley",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kirsty Linnett",
+        "target": "Rhiannon Roberts",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Rebecca Jane",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Jade Bailey",
         "target": "Niamh Fahey",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Jade Bailey",
+        "target": "Niamh Charles",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jade Bailey",
+        "target": "Kirsty Linnett",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jade Bailey",
+        "target": "Rhiannon Roberts",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Anke Preuß",
+        "target": "Sophie Elizabeth Bradley-Auckland",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Courtney Sweetman-Kirk",
+        "target": "Rhiannon Roberts",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Courtney Sweetman-Kirk",
+        "target": "Melissa Lawley",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

@@ -775,120 +775,110 @@
         "short": "Filho",
         "x": 80.38,
         "y": 47.87,
-        "size": 118.2,
-        "is_playmaker": true,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0
+        "size": 99.6,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.4806
       },
       {
         "id": "Diego Armando Maradona",
         "short": "Maradona",
         "x": 78.9,
         "y": 50.45,
-        "size": 139.2,
+        "size": 117.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0611,
+        "eigenvector": 0.6305
       },
       {
         "id": "Fernando De Napoli",
         "short": "Napoli",
-        "x": 64.14,
-        "y": 66.24,
-        "size": 163.8,
-        "is_playmaker": true,
-        "betweenness": 0.0273,
-        "eigenvector": 0.0
+        "x": 63.83,
+        "y": 65.87,
+        "size": 121.1,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.2339
       },
       {
         "id": "Alessandro Renica",
         "short": "Renica",
         "x": 33.69,
         "y": 40.54,
-        "size": 76.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 102.9,
+        "is_playmaker": true,
+        "betweenness": 0.5167,
+        "eigenvector": 0.2293
       },
       {
         "id": "Ricardo Rogério de Brito",
         "short": "Brito",
-        "x": 58.48,
-        "y": 39.65,
-        "size": 104.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6547
+        "x": 58.64,
+        "y": 39.69,
+        "size": 117.8,
+        "is_playmaker": true,
+        "betweenness": 0.4389,
+        "eigenvector": 0.3275
       },
       {
         "id": "Andrea Carnevale",
         "short": "Carnevale",
         "x": 64.89,
         "y": 30.69,
-        "size": 104.1,
+        "size": 102.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7559
-      },
-      {
-        "id": "Luca Fusi",
-        "short": "Fusi",
-        "x": 43.28,
-        "y": 52.11,
-        "size": 79.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dieter Stinka",
-        "short": "Stinka",
-        "x": 12.52,
-        "y": 36.98,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2667,
+        "eigenvector": 0.3832
       },
       {
         "id": "Giovanni Francini",
         "short": "Francini",
         "x": 54.86,
         "y": 13.76,
-        "size": 55.0,
+        "size": 71.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.0314
+      },
+      {
+        "id": "Luca Fusi",
+        "short": "Fusi",
+        "x": 43.28,
+        "y": 52.11,
+        "size": 76.5,
+        "is_playmaker": false,
+        "betweenness": 0.0278,
+        "eigenvector": 0.0013
+      },
+      {
+        "id": "Dieter Stinka",
+        "short": "Stinka",
+        "x": 12.52,
+        "y": 36.98,
+        "size": 71.5,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0848
       },
       {
         "id": "Giancarlo Corradini",
         "short": "Corradini",
         "x": 39.87,
         "y": 58.92,
-        "size": 55.0,
+        "size": 61.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0171
       },
       {
         "id": "Ciro Ferrara",
         "short": "Ferrara",
         "x": 40.42,
         "y": 31.2,
-        "size": 55.0,
+        "size": 61.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Antonio Carannante",
-        "short": "Carannante",
-        "x": 92.3,
-        "y": 44.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.4111,
+        "eigenvector": 0.0412
       }
     ],
     "edges": [
@@ -897,6 +887,18 @@
         "target": "Diego Armando Maradona",
         "weight": 6,
         "direction": "lateral"
+      },
+      {
+        "source": "Antônio de Oliveira Filho",
+        "target": "Andrea Carnevale",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Armando Maradona",
+        "target": "Fernando De Napoli",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Diego Armando Maradona",
@@ -923,10 +925,64 @@
         "direction": "forward"
       },
       {
+        "source": "Fernando De Napoli",
+        "target": "Ricardo Rogério de Brito",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Alessandro Renica",
+        "target": "Ricardo Rogério de Brito",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Alessandro Renica",
+        "target": "Diego Armando Maradona",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Alessandro Renica",
+        "target": "Dieter Stinka",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Alessandro Renica",
+        "target": "Giancarlo Corradini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alessandro Renica",
+        "target": "Ciro Ferrara",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Ricardo Rogério de Brito",
         "target": "Andrea Carnevale",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Ricardo Rogério de Brito",
+        "target": "Alessandro Renica",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ricardo Rogério de Brito",
+        "target": "Antônio de Oliveira Filho",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Ricardo Rogério de Brito",
+        "target": "Ciro Ferrara",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Andrea Carnevale",
@@ -935,9 +991,63 @@
         "direction": "backward"
       },
       {
+        "source": "Andrea Carnevale",
+        "target": "Diego Armando Maradona",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Giovanni Francini",
+        "target": "Andrea Carnevale",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Luca Fusi",
         "target": "Fernando De Napoli",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Luca Fusi",
+        "target": "Ricardo Rogério de Brito",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Luca Fusi",
+        "target": "Giancarlo Corradini",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Dieter Stinka",
+        "target": "Giovanni Francini",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Giancarlo Corradini",
+        "target": "Luca Fusi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Giancarlo Corradini",
+        "target": "Alessandro Renica",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ciro Ferrara",
+        "target": "Alessandro Renica",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ciro Ferrara",
+        "target": "Ricardo Rogério de Brito",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -945,172 +1055,134 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Hans Dorfner",
-        "short": "Dorfner",
-        "x": 53.33,
-        "y": 34.31,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.5688
-      },
-      {
-        "id": "Hansi Flick",
-        "short": "Flick",
-        "x": 55.95,
-        "y": 47.12,
-        "size": 96.5,
+        "id": "Stefan Reuter",
+        "short": "Reuter",
+        "x": 63.09,
+        "y": 28.64,
+        "size": 97.9,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.3531
+        "betweenness": 0.0,
+        "eigenvector": 0.2887
       },
       {
         "id": "Klaus Augenthaler",
         "short": "Augenthaler",
-        "x": 69.99,
-        "y": 38.47,
-        "size": 143.3,
+        "x": 69.82,
+        "y": 38.13,
+        "size": 137.4,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.5141
+        "betweenness": 0.2222,
+        "eigenvector": 0.485
       },
       {
-        "id": "Stefan Reuter",
-        "short": "Reuter",
-        "x": 62.38,
-        "y": 28.23,
-        "size": 102.9,
+        "id": "Hans Dorfner",
+        "short": "Dorfner",
+        "x": 53.68,
+        "y": 34.17,
+        "size": 139.0,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.3155
+        "betweenness": 0.1111,
+        "eigenvector": 0.536
       },
       {
         "id": "Ludwig Kögl",
         "short": "Kögl",
         "x": 44.2,
         "y": 13.7,
-        "size": 66.7,
+        "size": 75.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1727
       },
       {
-        "id": "Olaf Thon",
-        "short": "Thon",
-        "x": 50.9,
-        "y": 40.8,
-        "size": 82.7,
+        "id": "Hansi Flick",
+        "short": "Flick",
+        "x": 55.95,
+        "y": 47.12,
+        "size": 94.5,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.2708
+        "betweenness": 0.2222,
+        "eigenvector": 0.2961
       },
       {
         "id": "Norbert Nachtweih",
         "short": "Nachtweih",
         "x": 61.57,
         "y": 62.73,
-        "size": 116.7,
-        "is_playmaker": true,
-        "betweenness": 0.0379,
-        "eigenvector": 0.3386
+        "size": 108.8,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.3695
       },
       {
         "id": "Erland Johnsen",
         "short": "Johnsen",
         "x": 74.48,
         "y": 48.68,
-        "size": 76.3,
+        "size": 83.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.1445
       },
       {
-        "id": "Raimond Aumann",
-        "short": "Aumann",
-        "x": 106.94,
-        "y": 41.14,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Johnny Ekström",
-        "short": "Ekström",
-        "x": 37.86,
-        "y": 37.59,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Olaf Thon",
+        "short": "Thon",
+        "x": 51.08,
+        "y": 40.83,
+        "size": 92.0,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.344
       },
       {
         "id": "Roland Wohlfarth",
         "short": "Wohlfarth",
         "x": 49.46,
         "y": 45.44,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 60.0,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.02
       },
       {
-        "id": "Roland Grahammer",
-        "short": "Grahammer",
-        "x": 51.47,
-        "y": 35.6,
-        "size": 55.0,
+        "id": "Johnny Ekström",
+        "short": "Ekström",
+        "x": 37.86,
+        "y": 37.59,
+        "size": 58.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0112
       },
       {
-        "id": "Armin Eck",
-        "short": "Eck",
-        "x": 24.6,
-        "y": 53.3,
-        "size": 55.0,
+        "id": "Raimond Aumann",
+        "short": "Aumann",
+        "x": 107.92,
+        "y": 40.16,
+        "size": 58.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0193
       }
     ],
     "edges": [
       {
-        "source": "Hans Dorfner",
-        "target": "Hansi Flick",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "Hans Dorfner",
-        "target": "Olaf Thon",
-        "weight": 9,
-        "direction": "lateral"
-      },
-      {
-        "source": "Hans Dorfner",
+        "source": "Stefan Reuter",
         "target": "Klaus Augenthaler",
-        "weight": 13,
+        "weight": 14,
         "direction": "forward"
       },
       {
-        "source": "Hans Dorfner",
-        "target": "Norbert Nachtweih",
-        "weight": 11,
-        "direction": "forward"
-      },
-      {
-        "source": "Hansi Flick",
+        "source": "Stefan Reuter",
         "target": "Hans Dorfner",
-        "weight": 10,
-        "direction": "lateral"
+        "weight": 9,
+        "direction": "backward"
       },
       {
-        "source": "Hansi Flick",
+        "source": "Stefan Reuter",
         "target": "Norbert Nachtweih",
-        "weight": 10,
-        "direction": "forward"
+        "weight": 6,
+        "direction": "lateral"
       },
       {
         "source": "Klaus Augenthaler",
@@ -1131,21 +1203,117 @@
         "direction": "backward"
       },
       {
-        "source": "Stefan Reuter",
-        "target": "Hans Dorfner",
-        "weight": 9,
+        "source": "Klaus Augenthaler",
+        "target": "Olaf Thon",
+        "weight": 7,
         "direction": "backward"
       },
       {
-        "source": "Stefan Reuter",
-        "target": "Klaus Augenthaler",
-        "weight": 14,
+        "source": "Klaus Augenthaler",
+        "target": "Erland Johnsen",
+        "weight": 6,
         "direction": "forward"
+      },
+      {
+        "source": "Klaus Augenthaler",
+        "target": "Raimond Aumann",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hans Dorfner",
+        "target": "Klaus Augenthaler",
+        "weight": 13,
+        "direction": "forward"
+      },
+      {
+        "source": "Hans Dorfner",
+        "target": "Norbert Nachtweih",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Hans Dorfner",
+        "target": "Olaf Thon",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hans Dorfner",
+        "target": "Hansi Flick",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hans Dorfner",
+        "target": "Ludwig Kögl",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Ludwig Kögl",
         "target": "Hans Dorfner",
         "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Hansi Flick",
+        "target": "Hans Dorfner",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hansi Flick",
+        "target": "Norbert Nachtweih",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Hansi Flick",
+        "target": "Erland Johnsen",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Hansi Flick",
+        "target": "Roland Wohlfarth",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Norbert Nachtweih",
+        "target": "Hans Dorfner",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Norbert Nachtweih",
+        "target": "Klaus Augenthaler",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Norbert Nachtweih",
+        "target": "Olaf Thon",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Erland Johnsen",
+        "target": "Klaus Augenthaler",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Erland Johnsen",
+        "target": "Norbert Nachtweih",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Erland Johnsen",
+        "target": "Raimond Aumann",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1155,33 +1323,63 @@
         "direction": "forward"
       },
       {
-        "source": "Norbert Nachtweih",
-        "target": "Hans Dorfner",
-        "weight": 10,
+        "source": "Olaf Thon",
+        "target": "Ludwig Kögl",
+        "weight": 7,
         "direction": "backward"
       },
       {
-        "source": "Norbert Nachtweih",
-        "target": "Klaus Augenthaler",
-        "weight": 9,
+        "source": "Olaf Thon",
+        "target": "Roland Wohlfarth",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Olaf Thon",
+        "target": "Johnny Ekström",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Roland Wohlfarth",
+        "target": "Olaf Thon",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roland Wohlfarth",
+        "target": "Hansi Flick",
+        "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Norbert Nachtweih",
+        "source": "Roland Wohlfarth",
+        "target": "Johnny Ekström",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Johnny Ekström",
         "target": "Olaf Thon",
-        "weight": 8,
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Johnny Ekström",
+        "target": "Roland Wohlfarth",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Raimond Aumann",
+        "target": "Erland Johnsen",
+        "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Erland Johnsen",
+        "source": "Raimond Aumann",
         "target": "Klaus Augenthaler",
-        "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Erland Johnsen",
-        "target": "Norbert Nachtweih",
-        "weight": 10,
+        "weight": 1,
         "direction": "backward"
       }
     ]

@@ -701,122 +701,112 @@
       {
         "id": "Ashley Young",
         "short": "Young",
-        "x": 70.25,
-        "y": 71.22,
-        "size": 147.0,
-        "is_playmaker": true,
-        "betweenness": 0.1636,
-        "eigenvector": 0.5102
+        "x": 70.07,
+        "y": 71.08,
+        "size": 134.2,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.5015
       },
       {
         "id": "Juan Manuel Mata García",
         "short": "García",
-        "x": 72.05,
-        "y": 54.32,
-        "size": 114.0,
+        "x": 70.38,
+        "y": 52.14,
+        "size": 106.2,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.5966
+        "betweenness": 0.2444,
+        "eigenvector": 0.4736
       },
       {
         "id": "Chris Smalling",
         "short": "Smalling",
-        "x": 47.12,
-        "y": 31.07,
-        "size": 82.6,
+        "x": 47.63,
+        "y": 31.48,
+        "size": 92.5,
         "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.0
+        "betweenness": 0.2889,
+        "eigenvector": 0.1372
       },
       {
         "id": "Daley Blind",
         "short": "Blind",
-        "x": 68.74,
-        "y": 11.92,
-        "size": 106.3,
-        "is_playmaker": true,
-        "betweenness": 0.0818,
-        "eigenvector": 0.1712
+        "x": 68.62,
+        "y": 11.94,
+        "size": 117.8,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.3657
       },
       {
         "id": "Phil Jones",
         "short": "Jones",
-        "x": 49.25,
-        "y": 55.19,
-        "size": 81.8,
+        "x": 48.78,
+        "y": 54.79,
+        "size": 86.4,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.1638
       },
       {
         "id": "Michael Carrick",
         "short": "Carrick",
-        "x": 66.11,
-        "y": 45.69,
-        "size": 101.0,
-        "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.2396
+        "x": 66.17,
+        "y": 46.39,
+        "size": 113.0,
+        "is_playmaker": true,
+        "betweenness": 0.4222,
+        "eigenvector": 0.3615
       },
       {
         "id": "Marouane Fellaini-Bakkioui",
         "short": "Fellaini-Ba",
         "x": 67.2,
         "y": 18.73,
-        "size": 73.4,
+        "size": 71.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0804
+        "eigenvector": 0.1423
       },
       {
         "id": "Anthony Martial",
         "short": "Martial",
         "x": 81.79,
         "y": 64.58,
-        "size": 74.9,
+        "size": 77.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4798
+        "eigenvector": 0.3531
       },
       {
         "id": "Memphis Depay",
         "short": "Depay",
-        "x": 82.79,
-        "y": 19.18,
-        "size": 90.2,
+        "x": 83.97,
+        "y": 19.14,
+        "size": 90.5,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.1763
-      },
-      {
-        "id": "Ander Herrera Agüera",
-        "short": "Agüera",
-        "x": 74.03,
-        "y": 56.24,
-        "size": 78.8,
-        "is_playmaker": false,
-        "betweenness": 0.0273,
-        "eigenvector": 0.1712
+        "betweenness": 0.1,
+        "eigenvector": 0.262
       },
       {
         "id": "Wayne Mark Rooney",
         "short": "Rooney",
-        "x": 83.15,
-        "y": 38.53,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 82.4,
+        "y": 38.04,
+        "size": 57.7,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0232
       },
       {
         "id": "David de Gea Quintana",
         "short": "Quintana",
-        "x": 13.74,
-        "y": 40.77,
-        "size": 55.0,
+        "x": 11.82,
+        "y": 43.46,
+        "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0084
       }
     ],
     "edges": [
@@ -830,7 +820,7 @@
         "source": "Ashley Young",
         "target": "Michael Carrick",
         "weight": 14,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Ashley Young",
@@ -840,9 +830,9 @@
       },
       {
         "source": "Ashley Young",
-        "target": "Ander Herrera Agüera",
-        "weight": 10,
-        "direction": "lateral"
+        "target": "Phil Jones",
+        "weight": 9,
+        "direction": "backward"
       },
       {
         "source": "Juan Manuel Mata García",
@@ -854,6 +844,18 @@
         "source": "Juan Manuel Mata García",
         "target": "Anthony Martial",
         "weight": 12,
+        "direction": "forward"
+      },
+      {
+        "source": "Juan Manuel Mata García",
+        "target": "Daley Blind",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Juan Manuel Mata García",
+        "target": "Wayne Mark Rooney",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -869,6 +871,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Chris Smalling",
+        "target": "Michael Carrick",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Chris Smalling",
+        "target": "David de Gea Quintana",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Daley Blind",
         "target": "Marouane Fellaini-Bakkioui",
         "weight": 14,
@@ -879,6 +893,18 @@
         "target": "Memphis Depay",
         "weight": 12,
         "direction": "forward"
+      },
+      {
+        "source": "Daley Blind",
+        "target": "Chris Smalling",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Daley Blind",
+        "target": "Michael Carrick",
+        "weight": 9,
+        "direction": "lateral"
       },
       {
         "source": "Phil Jones",
@@ -893,10 +919,16 @@
         "direction": "lateral"
       },
       {
+        "source": "Phil Jones",
+        "target": "David de Gea Quintana",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Michael Carrick",
         "target": "Ashley Young",
         "weight": 14,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Michael Carrick",
@@ -914,6 +946,12 @@
         "source": "Michael Carrick",
         "target": "Memphis Depay",
         "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Michael Carrick",
+        "target": "Wayne Mark Rooney",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -923,22 +961,46 @@
         "direction": "forward"
       },
       {
+        "source": "Anthony Martial",
+        "target": "Ashley Young",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Memphis Depay",
         "target": "Daley Blind",
         "weight": 14,
         "direction": "backward"
       },
       {
-        "source": "Ander Herrera Agüera",
-        "target": "Juan Manuel Mata García",
-        "weight": 11,
-        "direction": "lateral"
+        "source": "Memphis Depay",
+        "target": "Michael Carrick",
+        "weight": 6,
+        "direction": "backward"
       },
       {
-        "source": "Ander Herrera Agüera",
-        "target": "Ashley Young",
-        "weight": 10,
-        "direction": "lateral"
+        "source": "Wayne Mark Rooney",
+        "target": "Michael Carrick",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Wayne Mark Rooney",
+        "target": "Juan Manuel Mata García",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "David de Gea Quintana",
+        "target": "Chris Smalling",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "David de Gea Quintana",
+        "target": "Phil Jones",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -949,27 +1011,37 @@
         "short": "Hoolahan",
         "x": 63.94,
         "y": 43.28,
-        "size": 255.0,
-        "is_playmaker": true,
+        "size": 146.7,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.583
+      },
+      {
+        "id": "Nathan Redmond",
+        "short": "Redmond",
+        "x": 53.58,
+        "y": 54.12,
+        "size": 95.0,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.3082
       },
       {
         "id": "Gary O''Neil",
         "short": "O''Neil",
-        "x": 61.55,
-        "y": 34.84,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "x": 64.38,
+        "y": 34.66,
+        "size": 123.3,
+        "is_playmaker": false,
+        "betweenness": 0.1389,
+        "eigenvector": 0.4982
       },
       {
-        "id": "Robert Brady",
-        "short": "Brady",
-        "x": 56.36,
-        "y": 35.51,
-        "size": 55.0,
+        "id": "Sébastien Aymar Bassong Nguena",
+        "short": "Nguena",
+        "x": 83.42,
+        "y": 20.96,
+        "size": 66.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0004
@@ -977,120 +1049,260 @@
       {
         "id": "Alexander Banor Tettey",
         "short": "Tettey",
-        "x": 61.36,
-        "y": 39.59,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "x": 60.99,
+        "y": 39.0,
+        "size": 130.0,
+        "is_playmaker": true,
+        "betweenness": 0.5833,
+        "eigenvector": 0.4212
       },
       {
-        "id": "Nathan Redmond",
-        "short": "Redmond",
-        "x": 53.82,
-        "y": 50.82,
-        "size": 55.0,
+        "id": "Robert Brady",
+        "short": "Brady",
+        "x": 55.19,
+        "y": 22.13,
+        "size": 91.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Martin Olsson",
-        "short": "Olsson",
-        "x": 60.34,
-        "y": 5.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Russell Martin",
-        "short": "Martin",
-        "x": 68.75,
-        "y": 70.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Cameron Jerome",
-        "short": "Jerome",
-        "x": 48.17,
-        "y": 28.52,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Declan Rudd",
-        "short": "Rudd",
-        "x": 110.69,
-        "y": 40.85,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Sébastien Aymar Bassong Nguena",
-        "short": "Nguena",
-        "x": 83.42,
-        "y": 20.96,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Jonathan Howson",
-        "short": "Howson",
-        "x": 40.5,
-        "y": 59.94,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.0167,
+        "eigenvector": 0.276
       },
       {
         "id": "Ryan Bennett",
         "short": "Bennett",
         "x": 78.47,
         "y": 56.82,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "size": 78.3,
+        "is_playmaker": true,
+        "betweenness": 0.3056,
+        "eigenvector": 0.1005
       },
       {
-        "id": "Dieumerci Mbokani Bezua",
-        "short": "Bezua",
-        "x": 37.9,
-        "y": 49.6,
-        "size": 55.0,
+        "id": "Martin Olsson",
+        "short": "Olsson",
+        "x": 61.39,
+        "y": 5.65,
+        "size": 70.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.1481
       },
       {
-        "id": "Youssouf Chafiq Mulumbu Ngangu",
-        "short": "Ngangu",
-        "x": 73.22,
-        "y": 30.18,
-        "size": 55.0,
+        "id": "Russell Martin",
+        "short": "Martin",
+        "x": 68.75,
+        "y": 70.35,
+        "size": 80.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.172
+      },
+      {
+        "id": "Declan Rudd",
+        "short": "Rudd",
+        "x": 110.69,
+        "y": 40.85,
+        "size": 61.7,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.006
+      },
+      {
+        "id": "Cameron Jerome",
+        "short": "Jerome",
+        "x": 44.88,
+        "y": 31.94,
+        "size": 61.7,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0415
       }
     ],
     "edges": [
       {
         "source": "Wes Hoolahan",
+        "target": "Nathan Redmond",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Wes Hoolahan",
+        "target": "Robert Brady",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Wes Hoolahan",
         "target": "Gary O''Neil",
         "weight": 7,
         "direction": "lateral"
+      },
+      {
+        "source": "Wes Hoolahan",
+        "target": "Alexander Banor Tettey",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nathan Redmond",
+        "target": "Gary O''Neil",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Nathan Redmond",
+        "target": "Wes Hoolahan",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Nathan Redmond",
+        "target": "Alexander Banor Tettey",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Alexander Banor Tettey",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Wes Hoolahan",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Russell Martin",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Gary O''Neil",
+        "target": "Martin Olsson",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sébastien Aymar Bassong Nguena",
+        "target": "Alexander Banor Tettey",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sébastien Aymar Bassong Nguena",
+        "target": "Declan Rudd",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexander Banor Tettey",
+        "target": "Wes Hoolahan",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alexander Banor Tettey",
+        "target": "Nathan Redmond",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Alexander Banor Tettey",
+        "target": "Gary O''Neil",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alexander Banor Tettey",
+        "target": "Robert Brady",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Alexander Banor Tettey",
+        "target": "Ryan Bennett",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexander Banor Tettey",
+        "target": "Cameron Jerome",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Brady",
+        "target": "Wes Hoolahan",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Brady",
+        "target": "Gary O''Neil",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Brady",
+        "target": "Cameron Jerome",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "Alexander Banor Tettey",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "Russell Martin",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "Declan Rudd",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Martin Olsson",
+        "target": "Wes Hoolahan",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Russell Martin",
+        "target": "Wes Hoolahan",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Declan Rudd",
+        "target": "Sébastien Aymar Bassong Nguena",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Declan Rudd",
+        "target": "Ryan Bennett",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Cameron Jerome",
+        "target": "Robert Brady",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Cameron Jerome",
+        "target": "Alexander Banor Tettey",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

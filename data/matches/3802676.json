@@ -809,39 +809,39 @@
       {
         "id": "Marco Verratti",
         "short": "Verratti",
-        "x": 68.02,
-        "y": 31.79,
-        "size": 143.4,
-        "is_playmaker": true,
-        "betweenness": 0.2121,
-        "eigenvector": 0.5172
+        "x": 67.75,
+        "y": 31.63,
+        "size": 131.4,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.4912
       },
       {
         "id": "Kylian Mbappé Lottin",
         "short": "Lottin",
-        "x": 86.93,
-        "y": 32.64,
-        "size": 103.8,
+        "x": 86.86,
+        "y": 32.26,
+        "size": 103.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5072
+        "eigenvector": 0.5456
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
         "x": 75.87,
         "y": 23.78,
-        "size": 125.6,
+        "size": 122.2,
         "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.5272
+        "betweenness": 0.2222,
+        "eigenvector": 0.4929
       },
       {
         "id": "Nuno Mendes",
         "short": "Mendes",
         "x": 67.41,
         "y": 6.67,
-        "size": 66.2,
+        "size": 64.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -849,92 +849,72 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 76.33,
-        "y": 49.73,
-        "size": 97.2,
+        "x": 76.15,
+        "y": 49.36,
+        "size": 104.0,
         "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.3987
+        "betweenness": 0.1667,
+        "eigenvector": 0.3786
       },
       {
         "id": "Achraf Hakimi Mouh",
         "short": "Mouh",
         "x": 66.08,
         "y": 70.85,
-        "size": 74.1,
+        "size": 71.5,
         "is_playmaker": false,
-        "betweenness": 0.1515,
-        "eigenvector": 0.0613
+        "betweenness": 0.2667,
+        "eigenvector": 0.0814
       },
       {
         "id": "Marcos Aoás Corrêa",
         "short": "Corrêa",
-        "x": 49.74,
-        "y": 57.9,
-        "size": 72.8,
+        "x": 49.65,
+        "y": 57.31,
+        "size": 77.8,
         "is_playmaker": false,
-        "betweenness": 0.1439,
-        "eigenvector": 0.0218
+        "betweenness": 0.2889,
+        "eigenvector": 0.0296
       },
       {
         "id": "Idrissa Gana Gueye",
         "short": "Gueye",
-        "x": 63.18,
-        "y": 40.94,
-        "size": 90.6,
+        "x": 63.14,
+        "y": 40.39,
+        "size": 92.0,
         "is_playmaker": true,
-        "betweenness": 0.2197,
-        "eigenvector": 0.1847
+        "betweenness": 0.3222,
+        "eigenvector": 0.2594
       },
       {
         "id": "Presnel Kimpembe",
         "short": "Kimpembe",
         "x": 50.79,
         "y": 18.96,
-        "size": 93.3,
+        "size": 94.3,
         "is_playmaker": false,
-        "betweenness": 0.1364,
-        "eigenvector": 0.0025
+        "betweenness": 0.2556,
+        "eigenvector": 0.003
       },
       {
         "id": "Sergio Ramos García",
         "short": "García",
-        "x": 44.33,
-        "y": 41.63,
-        "size": 82.7,
+        "x": 43.87,
+        "y": 41.87,
+        "size": 86.3,
         "is_playmaker": false,
-        "betweenness": 0.1439,
-        "eigenvector": 0.0071
+        "betweenness": 0.3111,
+        "eigenvector": 0.009
       },
       {
         "id": "Keylor Navas Gamboa",
         "short": "Gamboa",
         "x": 11.61,
         "y": 39.63,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ángel Fabián Di María Hernández",
-        "short": "Hernández",
-        "x": 73.26,
-        "y": 75.23,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Danilo Luís Hélio Pereira",
-        "short": "Pereira",
-        "x": 67.66,
-        "y": 51.79,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 57.3,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0009
       }
     ],
     "edges": [
@@ -1011,6 +991,18 @@
         "direction": "backward"
       },
       {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Idrissa Gana Gueye",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Kylian Mbappé Lottin",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
         "source": "Achraf Hakimi Mouh",
         "target": "Marcos Aoás Corrêa",
         "weight": 15,
@@ -1020,6 +1012,12 @@
         "source": "Marcos Aoás Corrêa",
         "target": "Sergio Ramos García",
         "weight": 12,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcos Aoás Corrêa",
+        "target": "Keylor Navas Gamboa",
+        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1053,9 +1051,39 @@
         "direction": "forward"
       },
       {
+        "source": "Presnel Kimpembe",
+        "target": "Neymar da Silva Santos Junior",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
         "source": "Sergio Ramos García",
         "target": "Presnel Kimpembe",
         "weight": 15,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Ramos García",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Ramos García",
+        "target": "Keylor Navas Gamboa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Sergio Ramos García",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1063,167 +1091,177 @@
   "network_away": {
     "nodes": [
       {
-        "id": "David Pereira da Costa",
-        "short": "Costa",
-        "x": 43.42,
-        "y": 26.82,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Seko Fofana",
-        "short": "Fofana",
-        "x": 52.43,
-        "y": 30.04,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
-      },
-      {
-        "id": "Florian Sotoca",
-        "short": "Sotoca",
-        "x": 56.59,
-        "y": 52.81,
-        "size": 155.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
         "id": "Cheick Oumar Doucoure",
         "short": "Doucoure",
-        "x": 63.04,
-        "y": 42.03,
-        "size": 155.0,
+        "x": 62.22,
+        "y": 44.38,
+        "size": 116.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
-      },
-      {
-        "id": "Christopher Wooh",
-        "short": "Wooh",
-        "x": 76.17,
-        "y": 26.37,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Przemysław Frankowski",
-        "short": "Frankowski",
-        "x": 54.53,
-        "y": 15.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.0222,
+        "eigenvector": 0.3513
       },
       {
         "id": "Jonathan Gradit",
         "short": "Gradit",
-        "x": 75.65,
-        "y": 59.81,
-        "size": 55.0,
+        "x": 76.27,
+        "y": 59.14,
+        "size": 86.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.0889,
+        "eigenvector": 0.1508
       },
       {
-        "id": "Jonathan Clauss",
-        "short": "Clauss",
-        "x": 52.92,
-        "y": 67.26,
-        "size": 55.0,
+        "id": "Christopher Wooh",
+        "short": "Wooh",
+        "x": 77.18,
+        "y": 25.59,
+        "size": 97.5,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.2305
+      },
+      {
+        "id": "David Pereira da Costa",
+        "short": "Costa",
+        "x": 43.42,
+        "y": 26.82,
+        "size": 101.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.431
+      },
+      {
+        "id": "Seko Fofana",
+        "short": "Fofana",
+        "x": 53.04,
+        "y": 27.57,
+        "size": 145.4,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.6152
+      },
+      {
+        "id": "Przemysław Frankowski",
+        "short": "Frankowski",
+        "x": 54.55,
+        "y": 15.12,
+        "size": 105.7,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.4057
       },
       {
         "id": "Arnaud Kalimuendo Muinga",
         "short": "Muinga",
         "x": 46.72,
         "y": 23.1,
-        "size": 55.0,
+        "size": 61.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.1639
+      },
+      {
+        "id": "Florian Sotoca",
+        "short": "Sotoca",
+        "x": 56.59,
+        "y": 52.81,
+        "size": 82.4,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.1081
+      },
+      {
+        "id": "Jonathan Clauss",
+        "short": "Clauss",
+        "x": 52.92,
+        "y": 67.26,
+        "size": 83.8,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.1813
       },
       {
         "id": "Jean-Louis Leca",
         "short": "Leca",
-        "x": 109.82,
-        "y": 40.54,
-        "size": 55.0,
+        "x": 109.57,
+        "y": 40.34,
+        "size": 63.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
         "id": "Kevin Danso",
         "short": "Danso",
         "x": 84.5,
         "y": 38.96,
-        "size": 55.0,
+        "size": 60.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Massadio Haïdara",
-        "short": "Haïdara",
-        "x": 79.05,
-        "y": 19.38,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Deiver Andrés Machado Mena",
-        "short": "Mena",
-        "x": 47.43,
-        "y": 8.22,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Ignatius Kpene Ganago",
-        "short": "Ganago",
-        "x": 72.05,
-        "y": 34.8,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Wesley Saïd",
-        "short": "Saïd",
-        "x": 46.78,
-        "y": 15.62,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Corentin Jean",
-        "short": "Jean",
-        "x": 51.25,
-        "y": 60.81,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1889,
+        "eigenvector": 0.0203
       }
     ],
     "edges": [
+      {
+        "source": "Cheick Oumar Doucoure",
+        "target": "Jonathan Gradit",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Cheick Oumar Doucoure",
+        "target": "Jonathan Clauss",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Cheick Oumar Doucoure",
+        "target": "Seko Fofana",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Gradit",
+        "target": "Jonathan Clauss",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Gradit",
+        "target": "Cheick Oumar Doucoure",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Gradit",
+        "target": "Kevin Danso",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Christopher Wooh",
+        "target": "David Pereira da Costa",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Christopher Wooh",
+        "target": "Seko Fofana",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Christopher Wooh",
+        "target": "Przemysław Frankowski",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Christopher Wooh",
+        "target": "Kevin Danso",
+        "weight": 1,
+        "direction": "forward"
+      },
       {
         "source": "David Pereira da Costa",
         "target": "Seko Fofana",
@@ -1231,10 +1269,94 @@
         "direction": "forward"
       },
       {
+        "source": "David Pereira da Costa",
+        "target": "Przemysław Frankowski",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Seko Fofana",
+        "target": "Cheick Oumar Doucoure",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Seko Fofana",
+        "target": "Przemysław Frankowski",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Seko Fofana",
+        "target": "Arnaud Kalimuendo Muinga",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Seko Fofana",
+        "target": "Christopher Wooh",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Seko Fofana",
+        "target": "David Pereira da Costa",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Przemysław Frankowski",
+        "target": "Florian Sotoca",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Przemysław Frankowski",
+        "target": "Seko Fofana",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Przemysław Frankowski",
+        "target": "David Pereira da Costa",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Florian Sotoca",
+        "target": "Jonathan Clauss",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
         "source": "Florian Sotoca",
         "target": "Cheick Oumar Doucoure",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Jonathan Clauss",
+        "target": "Seko Fofana",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jean-Louis Leca",
+        "target": "Christopher Wooh",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Kevin Danso",
+        "target": "Christopher Wooh",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Kevin Danso",
+        "target": "Jonathan Gradit",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

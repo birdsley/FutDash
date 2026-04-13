@@ -751,8 +751,8 @@
         "short": "Barton",
         "x": 53.01,
         "y": 75.01,
-        "size": 114.6,
-        "is_playmaker": true,
+        "size": 85.4,
+        "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
@@ -761,29 +761,49 @@
         "short": "Whelan",
         "x": 50.06,
         "y": 70.4,
-        "size": 93.3,
+        "size": 102.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0011
+        "betweenness": 0.0778,
+        "eigenvector": 0.258
       },
       {
         "id": "Kayleigh Green",
         "short": "Green",
         "x": 76.39,
         "y": 39.66,
-        "size": 76.3,
+        "size": 122.4,
+        "is_playmaker": true,
+        "betweenness": 0.3889,
+        "eigenvector": 0.6502
+      },
+      {
+        "id": "Léa Le Garrec",
+        "short": "Garrec",
+        "x": 62.15,
+        "y": 34.3,
+        "size": 94.1,
+        "is_playmaker": true,
+        "betweenness": 0.1333,
+        "eigenvector": 0.4889
+      },
+      {
+        "id": "Danielle Buet",
+        "short": "Buet",
+        "x": 51.18,
+        "y": 40.41,
+        "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0006
+        "eigenvector": 0.0
       },
       {
         "id": "Megan Walsh",
         "short": "Walsh",
         "x": 10.95,
         "y": 44.17,
-        "size": 118.8,
+        "size": 96.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0111,
         "eigenvector": 0.0
       },
       {
@@ -791,29 +811,19 @@
         "short": "Kerkdijk",
         "x": 35.35,
         "y": 58.48,
-        "size": 110.3,
-        "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.001
+        "size": 89.8,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.1024
       },
       {
         "id": "Maya Le Tissier",
         "short": "Tissier",
         "x": 48.81,
         "y": 39.65,
-        "size": 84.8,
+        "size": 85.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0009
-      },
-      {
-        "id": "Felicity Gibbons",
-        "short": "Gibbons",
-        "x": 55.13,
-        "y": 15.4,
-        "size": 110.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0333,
         "eigenvector": 0.0
       },
       {
@@ -821,60 +831,30 @@
         "short": "Natkiel",
         "x": 58.09,
         "y": 13.99,
-        "size": 84.8,
+        "size": 92.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0009
+        "betweenness": 0.0778,
+        "eigenvector": 0.4079
       },
       {
-        "id": "Léa Le Garrec",
-        "short": "Garrec",
-        "x": 62.15,
-        "y": 34.3,
-        "size": 80.5,
+        "id": "Felicity Gibbons",
+        "short": "Gibbons",
+        "x": 56.68,
+        "y": 16.22,
+        "size": 96.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0007
+        "betweenness": 0.0778,
+        "eigenvector": 0.1619
       },
       {
         "id": "Emily Simpkins",
         "short": "Simpkins",
-        "x": 64.98,
-        "y": 46.46,
-        "size": 76.3,
+        "x": 64.99,
+        "y": 49.16,
+        "size": 78.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Danielle Buet",
-        "short": "Buet",
-        "x": 51.18,
-        "y": 40.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Megan Connolly",
-        "short": "Connolly",
-        "x": 69.12,
-        "y": 59.72,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Iniabasi Anefiok Umotong",
-        "short": "Umotong",
-        "x": 77.35,
-        "y": 18.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0778,
+        "eigenvector": 0.2617
       }
     ],
     "edges": [
@@ -888,6 +868,60 @@
         "source": "Kirsty Barton",
         "target": "Kayleigh Green",
         "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Léa Le Garrec",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Danique Kerkdijk",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Kayleigh Green",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Kayleigh Green",
+        "target": "Kate Natkiel",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Kayleigh Green",
+        "target": "Léa Le Garrec",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Kayleigh Green",
+        "target": "Aileen Whelan",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Léa Le Garrec",
+        "target": "Kayleigh Green",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Léa Le Garrec",
+        "target": "Emily Simpkins",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Danielle Buet",
+        "target": "Kayleigh Green",
+        "weight": 3,
         "direction": "forward"
       },
       {
@@ -909,6 +943,30 @@
         "direction": "forward"
       },
       {
+        "source": "Maya Le Tissier",
+        "target": "Megan Walsh",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Maya Le Tissier",
+        "target": "Felicity Gibbons",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Kate Natkiel",
+        "target": "Felicity Gibbons",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kate Natkiel",
+        "target": "Kayleigh Green",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Felicity Gibbons",
         "target": "Kate Natkiel",
         "weight": 7,
@@ -918,6 +976,12 @@
         "source": "Felicity Gibbons",
         "target": "Léa Le Garrec",
         "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Emily Simpkins",
+        "target": "Kayleigh Green",
+        "weight": 3,
         "direction": "forward"
       }
     ]
@@ -929,123 +993,119 @@
         "short": "Bailey",
         "x": 63.83,
         "y": 42.49,
-        "size": 110.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2878
+        "size": 121.0,
+        "is_playmaker": true,
+        "betweenness": 0.1889,
+        "eigenvector": 0.3691
+      },
+      {
+        "id": "Sophie Elizabeth Bradley-Auckland",
+        "short": "Bradley-Auc",
+        "x": 86.31,
+        "y": 58.72,
+        "size": 145.1,
+        "is_playmaker": true,
+        "betweenness": 0.1556,
+        "eigenvector": 0.6272
       },
       {
         "id": "Rebecca Jane",
         "short": "Jane",
-        "x": 53.18,
-        "y": 73.74,
-        "size": 131.7,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.4066
+        "x": 54.01,
+        "y": 73.33,
+        "size": 118.9,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.3769
       },
       {
         "id": "Niamh Fahey",
         "short": "Fahey",
-        "x": 79.76,
-        "y": 27.31,
-        "size": 115.2,
+        "x": 80.83,
+        "y": 27.56,
+        "size": 108.4,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.374
+        "betweenness": 0.1,
+        "eigenvector": 0.4305
       },
       {
         "id": "Leigh-Anne Robe",
         "short": "Robe",
         "x": 61.05,
         "y": 6.33,
-        "size": 83.6,
+        "size": 91.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1917
-      },
-      {
-        "id": "Kirsty Linnett",
-        "short": "Linnett",
-        "x": 42.14,
-        "y": 36.35,
-        "size": 67.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.139
-      },
-      {
-        "id": "Sophie Elizabeth Bradley-Auckland",
-        "short": "Bradley-Auc",
-        "x": 85.52,
-        "y": 59.09,
-        "size": 184.3,
-        "is_playmaker": true,
-        "betweenness": 0.2091,
-        "eigenvector": 0.6736
+        "betweenness": 0.0556,
+        "eigenvector": 0.1933
       },
       {
         "id": "Frances Kitching",
         "short": "Kitching",
         "x": 110.11,
         "y": 41.78,
-        "size": 80.6,
+        "size": 79.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2878
+        "eigenvector": 0.2347
+      },
+      {
+        "id": "Kirsty Linnett",
+        "short": "Linnett",
+        "x": 42.14,
+        "y": 36.35,
+        "size": 63.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1128
       },
       {
         "id": "Rachel Furness",
         "short": "Furness",
-        "x": 46.3,
-        "y": 44.1,
-        "size": 67.0,
+        "x": 44.31,
+        "y": 43.76,
+        "size": 69.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.139
+        "eigenvector": 0.1334
       },
       {
         "id": "Niamh Charles",
         "short": "Charles",
-        "x": 39.53,
-        "y": 35.9,
-        "size": 55.0,
+        "x": 38.61,
+        "y": 34.43,
+        "size": 82.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.0914
       },
       {
         "id": "Rinsola Babajide",
         "short": "Babajide",
-        "x": 39.44,
-        "y": 23.8,
-        "size": 55.0,
+        "x": 42.7,
+        "y": 19.02,
+        "size": 60.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0171
       },
       {
         "id": "Melissa Lawley",
         "short": "Lawley",
-        "x": 31.13,
-        "y": 47.19,
-        "size": 55.0,
+        "x": 33.04,
+        "y": 47.23,
+        "size": 65.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rhiannon Roberts",
-        "short": "Roberts",
-        "x": 54.84,
-        "y": 54.34,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1067
       }
     ],
     "edges": [
+      {
+        "source": "Jade Bailey",
+        "target": "Sophie Elizabeth Bradley-Auckland",
+        "weight": 15,
+        "direction": "forward"
+      },
       {
         "source": "Jade Bailey",
         "target": "Rebecca Jane",
@@ -1054,14 +1114,38 @@
       },
       {
         "source": "Jade Bailey",
-        "target": "Sophie Elizabeth Bradley-Auckland",
-        "weight": 15,
+        "target": "Niamh Fahey",
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Rebecca Jane",
-        "target": "Kirsty Linnett",
-        "weight": 8,
+        "source": "Jade Bailey",
+        "target": "Niamh Charles",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Niamh Fahey",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Frances Kitching",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Jade Bailey",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Rebecca Jane",
+        "weight": 9,
         "direction": "backward"
       },
       {
@@ -1072,8 +1156,26 @@
       },
       {
         "source": "Rebecca Jane",
+        "target": "Kirsty Linnett",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Rebecca Jane",
         "target": "Rachel Furness",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Rebecca Jane",
+        "target": "Jade Bailey",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Rebecca Jane",
+        "target": "Melissa Lawley",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1095,27 +1197,21 @@
         "direction": "forward"
       },
       {
-        "source": "Sophie Elizabeth Bradley-Auckland",
-        "target": "Frances Kitching",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Sophie Elizabeth Bradley-Auckland",
+        "source": "Leigh-Anne Robe",
         "target": "Jade Bailey",
-        "weight": 10,
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Leigh-Anne Robe",
+        "target": "Niamh Charles",
+        "weight": 5,
         "direction": "backward"
       },
       {
-        "source": "Sophie Elizabeth Bradley-Auckland",
-        "target": "Niamh Fahey",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Sophie Elizabeth Bradley-Auckland",
-        "target": "Rebecca Jane",
-        "weight": 9,
+        "source": "Leigh-Anne Robe",
+        "target": "Melissa Lawley",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1123,6 +1219,30 @@
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Frances Kitching",
+        "target": "Niamh Fahey",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Niamh Charles",
+        "target": "Rachel Furness",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Niamh Charles",
+        "target": "Jade Bailey",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Niamh Charles",
+        "target": "Rinsola Babajide",
+        "weight": 5,
+        "direction": "forward"
       }
     ]
   },

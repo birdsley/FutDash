@@ -797,89 +797,89 @@
       {
         "id": "Kalidou Koulibaly",
         "short": "Koulibaly",
-        "x": 45.15,
-        "y": 23.09,
-        "size": 166.9,
+        "x": 45.07,
+        "y": 23.19,
+        "size": 153.4,
         "is_playmaker": true,
-        "betweenness": 0.0833,
-        "eigenvector": 0.5535
+        "betweenness": 0.2556,
+        "eigenvector": 0.5246
       },
       {
         "id": "Marek Hamšík",
         "short": "Hamšík",
         "x": 60.64,
         "y": 22.64,
-        "size": 109.8,
+        "size": 115.6,
         "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.417
+        "betweenness": 0.0111,
+        "eigenvector": 0.4568
       },
       {
         "id": "Jorge Luiz Frello Filho",
         "short": "Filho",
-        "x": 57.76,
-        "y": 30.8,
-        "size": 138.0,
+        "x": 56.96,
+        "y": 32.41,
+        "size": 128.0,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.4887
+        "betweenness": 0.0667,
+        "eigenvector": 0.4668
       },
       {
         "id": "Faouzi Ghoulam",
         "short": "Ghoulam",
-        "x": 58.43,
-        "y": 7.06,
-        "size": 92.8,
+        "x": 56.66,
+        "y": 7.07,
+        "size": 100.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3425
+        "eigenvector": 0.3939
       },
       {
         "id": "Raúl Albiol i Tortajada",
         "short": "Tortajada",
-        "x": 43.94,
-        "y": 48.91,
-        "size": 110.6,
+        "x": 43.93,
+        "y": 48.77,
+        "size": 109.7,
         "is_playmaker": true,
-        "betweenness": 0.0705,
-        "eigenvector": 0.3119
+        "betweenness": 0.3667,
+        "eigenvector": 0.2825
       },
       {
         "id": "Dries Mertens",
         "short": "Mertens",
-        "x": 75.29,
-        "y": 22.34,
-        "size": 72.0,
+        "x": 73.77,
+        "y": 18.38,
+        "size": 70.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2457
+        "eigenvector": 0.2365
       },
       {
         "id": "Elseid Hysaj",
         "short": "Hysaj",
         "x": 44.98,
         "y": 71.46,
-        "size": 70.6,
+        "size": 74.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0125
       },
       {
         "id": "José María Callejón Bueno",
         "short": "Bueno",
         "x": 64.1,
         "y": 56.97,
-        "size": 63.1,
+        "size": 62.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0029
       },
       {
         "id": "José Manuel Reina Páez",
         "short": "Páez",
         "x": 10.62,
         "y": 41.3,
-        "size": 63.1,
+        "size": 62.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -887,52 +887,22 @@
       {
         "id": "Allan Marques Loureiro",
         "short": "Loureiro",
-        "x": 63.61,
-        "y": 44.74,
-        "size": 63.1,
+        "x": 62.81,
+        "y": 45.82,
+        "size": 68.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0769
+        "betweenness": 0.1333,
+        "eigenvector": 0.0657
       },
       {
         "id": "Manolo Gabbiadini",
         "short": "Gabbiadini",
         "x": 69.68,
         "y": 43.05,
-        "size": 55.0,
+        "size": 60.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lorenzo Insigne",
-        "short": "Insigne",
-        "x": 77.11,
-        "y": 14.62,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "David López Silva",
-        "short": "Silva",
-        "x": 72.17,
-        "y": 17.18,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Omar El Kaddouri",
-        "short": "Kaddouri",
-        "x": 79.1,
-        "y": 50.46,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0538
       }
     ],
     "edges": [
@@ -985,6 +955,12 @@
         "direction": "backward"
       },
       {
+        "source": "Marek Hamšík",
+        "target": "Faouzi Ghoulam",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
         "source": "Jorge Luiz Frello Filho",
         "target": "Kalidou Koulibaly",
         "weight": 21,
@@ -1021,6 +997,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Faouzi Ghoulam",
+        "target": "Marek Hamšík",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
         "source": "Raúl Albiol i Tortajada",
         "target": "Kalidou Koulibaly",
         "weight": 17,
@@ -1036,6 +1018,12 @@
         "source": "Raúl Albiol i Tortajada",
         "target": "Jorge Luiz Frello Filho",
         "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Raúl Albiol i Tortajada",
+        "target": "Manolo Gabbiadini",
+        "weight": 9,
         "direction": "forward"
       },
       {
@@ -1055,163 +1043,175 @@
         "target": "Kalidou Koulibaly",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Allan Marques Loureiro",
+        "target": "Elseid Hysaj",
+        "weight": 9,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Amadou Diawara",
-        "short": "Diawara",
-        "x": 67.17,
-        "y": 40.79,
-        "size": 105.0,
-        "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Saphir Sliti Taïder",
-        "short": "Taïder",
-        "x": 64.43,
-        "y": 26.76,
-        "size": 86.5,
+        "id": "Luca Rossettini",
+        "short": "Rossettini",
+        "x": 84.49,
+        "y": 24.65,
+        "size": 107.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4377
-      },
-      {
-        "id": "Marios Oikonomou",
-        "short": "Oikonomou",
-        "x": 80.38,
-        "y": 58.92,
-        "size": 158.7,
-        "is_playmaker": true,
-        "betweenness": 0.0513,
-        "eigenvector": 0.0
+        "eigenvector": 0.5554
       },
       {
         "id": "Kévin Constant",
         "short": "Constant",
-        "x": 69.66,
-        "y": 6.4,
-        "size": 119.8,
+        "x": 70.37,
+        "y": 6.6,
+        "size": 106.5,
         "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.7134
-      },
-      {
-        "id": "Luca Rossettini",
-        "short": "Rossettini",
-        "x": 83.69,
-        "y": 24.67,
-        "size": 130.9,
-        "is_playmaker": true,
-        "betweenness": 0.0192,
-        "eigenvector": 0.5472
+        "betweenness": 0.2778,
+        "eigenvector": 0.4589
       },
       {
         "id": "Ibrahima Mbaye",
         "short": "Mbaye",
-        "x": 63.21,
-        "y": 71.55,
-        "size": 99.4,
+        "x": 64.17,
+        "y": 71.1,
+        "size": 111.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3041
+      },
+      {
+        "id": "Marios Oikonomou",
+        "short": "Oikonomou",
+        "x": 79.9,
+        "y": 58.71,
+        "size": 128.8,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.412
+      },
+      {
+        "id": "Amadou Diawara",
+        "short": "Diawara",
+        "x": 66.95,
+        "y": 40.12,
+        "size": 113.3,
+        "is_playmaker": true,
+        "betweenness": 0.4889,
+        "eigenvector": 0.3452
+      },
+      {
+        "id": "Saphir Sliti Taïder",
+        "short": "Taïder",
+        "x": 65.54,
+        "y": 26.32,
+        "size": 105.5,
+        "is_playmaker": true,
+        "betweenness": 0.4222,
+        "eigenvector": 0.2642
       },
       {
         "id": "Antonio Mirante",
         "short": "Mirante",
-        "x": 108.37,
-        "y": 40.88,
-        "size": 69.8,
+        "x": 108.15,
+        "y": 40.76,
+        "size": 74.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.1282
       },
       {
         "id": "Matteo Brighi",
         "short": "Brighi",
-        "x": 60.12,
-        "y": 46.33,
-        "size": 69.8,
+        "x": 62.24,
+        "y": 43.55,
+        "size": 77.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0056,
+        "eigenvector": 0.0953
       },
       {
         "id": "Emanuele Giaccherini",
         "short": "Giaccherini",
         "x": 64.3,
         "y": 18.14,
-        "size": 55.0,
+        "size": 62.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Juan Camilo Zúñiga Mosquera",
-        "short": "Mosquera",
-        "x": 58.86,
-        "y": 47.79,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0622
       },
       {
         "id": "Robert Acquafresca",
         "short": "Acquafresca",
         "x": 58.72,
         "y": 24.16,
-        "size": 55.0,
+        "size": 58.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0127
       },
       {
-        "id": "Anthony Mounier",
-        "short": "Mounier",
-        "x": 54.41,
-        "y": 65.05,
-        "size": 55.0,
+        "id": "Juan Camilo Zúñiga Mosquera",
+        "short": "Mosquera",
+        "x": 59.44,
+        "y": 50.47,
+        "size": 58.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sergio Floccari",
-        "short": "Floccari",
-        "x": 49.28,
-        "y": 38.02,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Godfred Donsah",
-        "short": "Donsah",
-        "x": 68.07,
-        "y": 57.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1833,
+        "eigenvector": 0.0171
       }
     ],
     "edges": [
       {
-        "source": "Amadou Diawara",
+        "source": "Luca Rossettini",
+        "target": "Kévin Constant",
+        "weight": 17,
+        "direction": "backward"
+      },
+      {
+        "source": "Kévin Constant",
+        "target": "Luca Rossettini",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Kévin Constant",
         "target": "Saphir Sliti Taïder",
-        "weight": 9,
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Kévin Constant",
+        "target": "Amadou Diawara",
+        "weight": 6,
         "direction": "lateral"
       },
       {
-        "source": "Amadou Diawara",
+        "source": "Ibrahima Mbaye",
         "target": "Marios Oikonomou",
-        "weight": 9,
+        "weight": 16,
+        "direction": "forward"
+      },
+      {
+        "source": "Ibrahima Mbaye",
+        "target": "Matteo Brighi",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ibrahima Mbaye",
+        "target": "Amadou Diawara",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Marios Oikonomou",
+        "target": "Luca Rossettini",
+        "weight": 14,
         "direction": "forward"
       },
       {
@@ -1228,39 +1228,135 @@
       },
       {
         "source": "Marios Oikonomou",
-        "target": "Luca Rossettini",
-        "weight": 14,
-        "direction": "lateral"
+        "target": "Ibrahima Mbaye",
+        "weight": 7,
+        "direction": "backward"
       },
       {
-        "source": "Kévin Constant",
-        "target": "Luca Rossettini",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Kévin Constant",
+        "source": "Amadou Diawara",
         "target": "Saphir Sliti Taïder",
-        "weight": 8,
-        "direction": "backward"
+        "weight": 9,
+        "direction": "lateral"
       },
       {
-        "source": "Luca Rossettini",
-        "target": "Kévin Constant",
-        "weight": 17,
-        "direction": "backward"
-      },
-      {
-        "source": "Ibrahima Mbaye",
+        "source": "Amadou Diawara",
         "target": "Marios Oikonomou",
-        "weight": 16,
+        "weight": 9,
         "direction": "forward"
       },
       {
-        "source": "Ibrahima Mbaye",
-        "target": "Matteo Brighi",
-        "weight": 8,
+        "source": "Amadou Diawara",
+        "target": "Ibrahima Mbaye",
+        "weight": 7,
         "direction": "lateral"
+      },
+      {
+        "source": "Amadou Diawara",
+        "target": "Luca Rossettini",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Amadou Diawara",
+        "target": "Juan Camilo Zúñiga Mosquera",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Saphir Sliti Taïder",
+        "target": "Luca Rossettini",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Saphir Sliti Taïder",
+        "target": "Marios Oikonomou",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Saphir Sliti Taïder",
+        "target": "Ibrahima Mbaye",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Saphir Sliti Taïder",
+        "target": "Emanuele Giaccherini",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Saphir Sliti Taïder",
+        "target": "Kévin Constant",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Saphir Sliti Taïder",
+        "target": "Robert Acquafresca",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Mirante",
+        "target": "Kévin Constant",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Mirante",
+        "target": "Marios Oikonomou",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Matteo Brighi",
+        "target": "Ibrahima Mbaye",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Matteo Brighi",
+        "target": "Amadou Diawara",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Matteo Brighi",
+        "target": "Juan Camilo Zúñiga Mosquera",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emanuele Giaccherini",
+        "target": "Robert Acquafresca",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Acquafresca",
+        "target": "Saphir Sliti Taïder",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Acquafresca",
+        "target": "Emanuele Giaccherini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Juan Camilo Zúñiga Mosquera",
+        "target": "Matteo Brighi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Juan Camilo Zúñiga Mosquera",
+        "target": "Amadou Diawara",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

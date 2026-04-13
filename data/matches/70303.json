@@ -751,120 +751,110 @@
         "short": "Silva",
         "x": 67.78,
         "y": 66.75,
-        "size": 113.5,
+        "size": 111.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4694
+        "eigenvector": 0.4434
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
         "x": 81.04,
         "y": 63.0,
-        "size": 107.8,
+        "size": 108.6,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.5665
+        "betweenness": 0.1944,
+        "eigenvector": 0.5233
       },
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
         "x": 63.87,
         "y": 8.6,
-        "size": 104.3,
+        "size": 103.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2046
+        "betweenness": 0.1,
+        "eigenvector": 0.25
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
-        "x": 80.71,
-        "y": 16.93,
-        "size": 80.4,
+        "x": 79.7,
+        "y": 17.39,
+        "size": 82.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.244
+        "betweenness": 0.0111,
+        "eigenvector": 0.2639
       },
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
         "x": 47.61,
         "y": 22.41,
-        "size": 124.7,
+        "size": 116.7,
         "is_playmaker": true,
-        "betweenness": 0.2455,
-        "eigenvector": 0.3429
+        "betweenness": 0.4,
+        "eigenvector": 0.3452
       },
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
         "x": 39.96,
         "y": 50.89,
-        "size": 88.1,
+        "size": 84.3,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.2704
+        "betweenness": 0.0111,
+        "eigenvector": 0.2433
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
         "x": 58.34,
         "y": 42.05,
-        "size": 104.3,
+        "size": 108.6,
         "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.2557
+        "betweenness": 0.5833,
+        "eigenvector": 0.3335
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
         "x": 63.54,
         "y": 27.3,
-        "size": 97.3,
+        "size": 92.4,
         "is_playmaker": false,
-        "betweenness": 0.1636,
-        "eigenvector": 0.2671
+        "betweenness": 0.3667,
+        "eigenvector": 0.2899
       },
       {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Muñoz",
         "x": 13.15,
         "y": 37.8,
-        "size": 74.7,
+        "size": 72.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1728
+        "eigenvector": 0.1536
       },
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
         "x": 68.07,
         "y": 55.14,
-        "size": 55.0,
+        "size": 66.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0778,
+        "eigenvector": 0.0004
       },
       {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Díaz",
-        "x": 83.34,
-        "y": 41.33,
-        "size": 55.0,
+        "x": 83.11,
+        "y": 40.96,
+        "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rafael Alcântara do Nascimento",
-        "short": "Nascimento",
-        "x": 90.15,
-        "y": 20.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1167,
+        "eigenvector": 0.0145
       }
     ],
     "edges": [
@@ -881,6 +871,12 @@
         "direction": "backward"
       },
       {
+        "source": "Daniel Alves da Silva",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Daniel Alves da Silva",
         "weight": 21,
@@ -891,6 +887,12 @@
         "target": "Sergio Busquets i Burgos",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Luis Alberto Suárez Díaz",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Jordi Alba Ramos",
@@ -909,6 +911,12 @@
         "target": "Andrés Iniesta Luján",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Neymar da Silva Santos Junior",
+        "target": "Jordi Alba Ramos",
+        "weight": 8,
+        "direction": "backward"
       },
       {
         "source": "Javier Alejandro Mascherano",
@@ -987,6 +995,36 @@
         "target": "Javier Alejandro Mascherano",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Ivan Rakitić",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Ivan Rakitić",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Ivan Rakitić",
+        "target": "Luis Alberto Suárez Díaz",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Ivan Rakitić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -995,59 +1033,39 @@
       {
         "id": "Tiago Cardoso Mendes",
         "short": "Mendes",
-        "x": 60.62,
-        "y": 35.61,
-        "size": 98.2,
-        "is_playmaker": true,
+        "x": 59.42,
+        "y": 35.41,
+        "size": 93.1,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3154
       },
       {
         "id": "Jorge Resurrección Merodio",
         "short": "Merodio",
-        "x": 50.3,
-        "y": 31.13,
-        "size": 179.3,
+        "x": 50.0,
+        "y": 28.48,
+        "size": 152.6,
         "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0018
+        "betweenness": 0.2111,
+        "eigenvector": 0.5596
       },
       {
         "id": "Arda Turan",
         "short": "Turan",
-        "x": 45.18,
-        "y": 38.71,
-        "size": 173.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "x": 46.84,
+        "y": 39.7,
+        "size": 143.1,
+        "is_playmaker": true,
+        "betweenness": 0.1778,
+        "eigenvector": 0.5824
       },
       {
         "id": "Jesús Gámez Duarte",
         "short": "Duarte",
-        "x": 45.55,
-        "y": 4.7,
-        "size": 130.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Juan Francisco Torres Belén",
-        "short": "Belén",
-        "x": 48.33,
-        "y": 70.23,
-        "size": 92.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mario Mandžukić",
-        "short": "Mandžukić",
-        "x": 49.01,
-        "y": 42.06,
-        "size": 55.0,
+        "x": 45.89,
+        "y": 3.71,
+        "size": 97.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1055,19 +1073,9 @@
       {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
-        "x": 52.6,
-        "y": 40.48,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Diego Roberto Godín Leal",
-        "short": "Leal",
-        "x": 74.09,
-        "y": 25.08,
-        "size": 55.0,
+        "x": 56.42,
+        "y": 46.72,
+        "size": 64.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1077,7 +1085,37 @@
         "short": "Arenas",
         "x": 62.42,
         "y": 59.77,
-        "size": 55.0,
+        "size": 76.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3364
+      },
+      {
+        "id": "Juan Francisco Torres Belén",
+        "short": "Belén",
+        "x": 49.99,
+        "y": 69.65,
+        "size": 107.4,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.2672
+      },
+      {
+        "id": "Mario Mandžukić",
+        "short": "Mandžukić",
+        "x": 50.14,
+        "y": 39.93,
+        "size": 76.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1226
+      },
+      {
+        "id": "Miguel Ángel Moyà Rumbo",
+        "short": "Rumbo",
+        "x": 107.87,
+        "y": 40.48,
+        "size": 64.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1085,42 +1123,22 @@
       {
         "id": "José María Giménez de Vargas",
         "short": "Vargas",
-        "x": 75.47,
-        "y": 59.95,
-        "size": 55.0,
+        "x": 76.34,
+        "y": 61.42,
+        "size": 64.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2054
       },
       {
-        "id": "Miguel Ángel Moyà Rumbo",
-        "short": "Rumbo",
-        "x": 107.91,
-        "y": 41.42,
-        "size": 55.0,
+        "id": "Diego Roberto Godín Leal",
+        "short": "Leal",
+        "x": 74.09,
+        "y": 25.08,
+        "size": 64.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Fernando José Torres Sanz",
-        "short": "Sanz",
-        "x": 42.72,
-        "y": 35.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Raúl García Escudero",
-        "short": "Escudero",
-        "x": 56.38,
-        "y": 62.94,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.0803
       }
     ],
     "edges": [
@@ -1131,10 +1149,58 @@
         "direction": "backward"
       },
       {
+        "source": "Tiago Cardoso Mendes",
+        "target": "Diego Roberto Godín Leal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Jorge Resurrección Merodio",
         "target": "Arda Turan",
         "weight": 8,
-        "direction": "backward"
+        "direction": "lateral"
+      },
+      {
+        "source": "Jorge Resurrección Merodio",
+        "target": "Tiago Cardoso Mendes",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Jorge Resurrección Merodio",
+        "target": "José María Giménez de Vargas",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jorge Resurrección Merodio",
+        "target": "Diego Roberto Godín Leal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Arda Turan",
+        "target": "Gabriel Fernández Arenas",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Arda Turan",
+        "target": "Juan Francisco Torres Belén",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Arda Turan",
+        "target": "Jorge Resurrección Merodio",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jesús Gámez Duarte",
+        "target": "Antoine Griezmann",
+        "weight": 4,
+        "direction": "forward"
       },
       {
         "source": "Jesús Gámez Duarte",
@@ -1153,6 +1219,36 @@
         "target": "Arda Turan",
         "weight": 7,
         "direction": "lateral"
+      },
+      {
+        "source": "Juan Francisco Torres Belén",
+        "target": "Gabriel Fernández Arenas",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Juan Francisco Torres Belén",
+        "target": "Mario Mandžukić",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Miguel Ángel Moyà Rumbo",
+        "target": "Mario Mandžukić",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
+        "target": "Tiago Cardoso Mendes",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
+        "target": "Jorge Resurrección Merodio",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

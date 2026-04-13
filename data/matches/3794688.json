@@ -667,129 +667,113 @@
         "short": "Walker",
         "x": 55.14,
         "y": 59.55,
-        "size": 125.1,
+        "size": 130.8,
         "is_playmaker": true,
-        "betweenness": 0.1636,
-        "eigenvector": 0.4904
-      },
-      {
-        "id": "John Stones",
-        "short": "Stones",
-        "x": 40.71,
-        "y": 44.99,
-        "size": 128.4,
-        "is_playmaker": true,
-        "betweenness": 0.2091,
-        "eigenvector": 0.446
-      },
-      {
-        "id": "Harry Maguire",
-        "short": "Maguire",
-        "x": 48.77,
-        "y": 20.06,
-        "size": 102.5,
-        "is_playmaker": false,
-        "betweenness": 0.1,
-        "eigenvector": 0.279
+        "betweenness": 0.3667,
+        "eigenvector": 0.4875
       },
       {
         "id": "Kalvin Phillips",
         "short": "Phillips",
         "x": 59.81,
         "y": 51.79,
-        "size": 121.7,
+        "size": 116.6,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.4821
+        "betweenness": 0.0667,
+        "eigenvector": 0.4871
       },
       {
-        "id": "Luke Shaw",
-        "short": "Shaw",
-        "x": 65.76,
-        "y": 10.69,
-        "size": 87.8,
+        "id": "John Stones",
+        "short": "Stones",
+        "x": 40.71,
+        "y": 44.99,
+        "size": 122.3,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.188
+        "betweenness": 0.3111,
+        "eigenvector": 0.3868
+      },
+      {
+        "id": "Harry Maguire",
+        "short": "Maguire",
+        "x": 48.82,
+        "y": 20.34,
+        "size": 94.8,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.2264
       },
       {
         "id": "Kieran Trippier",
         "short": "Trippier",
         "x": 70.47,
         "y": 74.43,
-        "size": 99.1,
+        "size": 97.7,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.3598
-      },
-      {
-        "id": "Declan Rice",
-        "short": "Rice",
-        "x": 60.93,
-        "y": 29.19,
-        "size": 92.3,
-        "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.1982
+        "betweenness": 0.0,
+        "eigenvector": 0.3298
       },
       {
         "id": "Bukayo Saka",
         "short": "Saka",
         "x": 74.1,
         "y": 64.19,
-        "size": 67.4,
+        "size": 71.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1627
+        "eigenvector": 0.2463
+      },
+      {
+        "id": "Luke Shaw",
+        "short": "Shaw",
+        "x": 63.76,
+        "y": 10.16,
+        "size": 82.5,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.1768
+      },
+      {
+        "id": "Declan Rice",
+        "short": "Rice",
+        "x": 60.93,
+        "y": 29.19,
+        "size": 93.9,
+        "is_playmaker": true,
+        "betweenness": 0.3889,
+        "eigenvector": 0.2709
       },
       {
         "id": "Jordan Pickford",
         "short": "Pickford",
-        "x": 13.7,
-        "y": 38.7,
-        "size": 62.9,
+        "x": 13.95,
+        "y": 39.24,
+        "size": 73.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1284
+        "eigenvector": 0.2117
       },
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
         "x": 74.56,
         "y": 29.21,
-        "size": 62.9,
+        "size": 63.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.057
+        "eigenvector": 0.0718
       },
       {
         "id": "Harry Kane",
         "short": "Kane",
-        "x": 77.87,
-        "y": 31.93,
-        "size": 55.0,
+        "x": 78.26,
+        "y": 30.79,
+        "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jack Grealish",
-        "short": "Grealish",
-        "x": 79.6,
-        "y": 17.18,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0129
       }
     ],
     "edges": [
-      {
-        "source": "Kyle Walker",
-        "target": "John Stones",
-        "weight": 8,
-        "direction": "backward"
-      },
       {
         "source": "Kyle Walker",
         "target": "Kalvin Phillips",
@@ -800,6 +784,54 @@
         "source": "Kyle Walker",
         "target": "Kieran Trippier",
         "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Kyle Walker",
+        "target": "John Stones",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Kyle Walker",
+        "target": "Jordan Pickford",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Kyle Walker",
+        "target": "Bukayo Saka",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Kalvin Phillips",
+        "target": "Declan Rice",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kalvin Phillips",
+        "target": "Kieran Trippier",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Kalvin Phillips",
+        "target": "John Stones",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Kalvin Phillips",
+        "target": "Kyle Walker",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "John Stones",
+        "target": "Kalvin Phillips",
+        "weight": 12,
         "direction": "forward"
       },
       {
@@ -822,14 +854,8 @@
       },
       {
         "source": "John Stones",
-        "target": "Kalvin Phillips",
-        "weight": 12,
-        "direction": "forward"
-      },
-      {
-        "source": "Harry Maguire",
-        "target": "Luke Shaw",
-        "weight": 10,
+        "target": "Declan Rice",
+        "weight": 6,
         "direction": "forward"
       },
       {
@@ -839,40 +865,10 @@
         "direction": "backward"
       },
       {
-        "source": "Kalvin Phillips",
-        "target": "Kyle Walker",
-        "weight": 7,
-        "direction": "backward"
-      },
-      {
-        "source": "Kalvin Phillips",
-        "target": "John Stones",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Kalvin Phillips",
-        "target": "Kieran Trippier",
-        "weight": 9,
+        "source": "Harry Maguire",
+        "target": "Luke Shaw",
+        "weight": 10,
         "direction": "forward"
-      },
-      {
-        "source": "Kalvin Phillips",
-        "target": "Declan Rice",
-        "weight": 10,
-        "direction": "lateral"
-      },
-      {
-        "source": "Luke Shaw",
-        "target": "Harry Maguire",
-        "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Kieran Trippier",
-        "target": "Kyle Walker",
-        "weight": 10,
-        "direction": "backward"
       },
       {
         "source": "Kieran Trippier",
@@ -881,6 +877,30 @@
         "direction": "lateral"
       },
       {
+        "source": "Kieran Trippier",
+        "target": "Kyle Walker",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Kieran Trippier",
+        "target": "Kalvin Phillips",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Luke Shaw",
+        "target": "Harry Maguire",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Declan Rice",
+        "target": "Luke Shaw",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
         "source": "Declan Rice",
         "target": "Kyle Walker",
         "weight": 7,
@@ -888,203 +908,161 @@
       },
       {
         "source": "Declan Rice",
-        "target": "Luke Shaw",
-        "weight": 9,
+        "target": "Raheem Sterling",
+        "weight": 7,
         "direction": "forward"
       },
       {
         "source": "Declan Rice",
-        "target": "Raheem Sterling",
-        "weight": 7,
+        "target": "Harry Kane",
+        "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Jordan Pickford",
+        "target": "Kyle Walker",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Raheem Sterling",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Raheem Sterling",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Declan Rice",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Toni Kroos",
-        "short": "Kroos",
-        "x": 64.06,
-        "y": 34.04,
-        "size": 139.1,
-        "is_playmaker": true,
-        "betweenness": 0.1731,
-        "eigenvector": 0.4179
-      },
-      {
-        "id": "Leon Goretzka",
-        "short": "Goretzka",
-        "x": 64.61,
-        "y": 49.67,
-        "size": 71.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1367
-      },
-      {
         "id": "Mats Hummels",
         "short": "Hummels",
-        "x": 76.08,
-        "y": 43.96,
-        "size": 149.7,
-        "is_playmaker": true,
-        "betweenness": 0.1218,
-        "eigenvector": 0.5806
-      },
-      {
-        "id": "Joshua Kimmich",
-        "short": "Kimmich",
-        "x": 66.32,
-        "y": 69.8,
-        "size": 77.1,
+        "x": 76.02,
+        "y": 44.02,
+        "size": 137.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1165
+        "betweenness": 0.1444,
+        "eigenvector": 0.5511
       },
       {
         "id": "Matthias Ginter",
         "short": "Ginter",
         "x": 79.58,
         "y": 65.71,
-        "size": 108.1,
+        "size": 106.9,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.4896
+        "betweenness": 0.1333,
+        "eigenvector": 0.4522
       },
       {
-        "id": "Manuel Neuer",
-        "short": "Neuer",
-        "x": 105.62,
-        "y": 44.99,
-        "size": 71.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1369
+        "id": "Toni Kroos",
+        "short": "Kroos",
+        "x": 64.3,
+        "y": 34.31,
+        "size": 130.2,
+        "is_playmaker": true,
+        "betweenness": 0.5333,
+        "eigenvector": 0.4193
       },
       {
         "id": "Antonio Rüdiger",
         "short": "Rüdiger",
-        "x": 80.86,
-        "y": 20.25,
-        "size": 130.2,
-        "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.4185
+        "x": 80.92,
+        "y": 19.85,
+        "size": 126.3,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.4442
       },
       {
         "id": "Robin Gosens",
         "short": "Gosens",
         "x": 69.94,
         "y": 6.44,
-        "size": 77.1,
+        "size": 79.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0881
+      },
+      {
+        "id": "Leon Goretzka",
+        "short": "Goretzka",
+        "x": 65.79,
+        "y": 49.77,
+        "size": 75.2,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1307
+      },
+      {
+        "id": "Manuel Neuer",
+        "short": "Neuer",
+        "x": 105.62,
+        "y": 43.81,
+        "size": 75.2,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.2282
+      },
+      {
+        "id": "Thomas Müller",
+        "short": "Müller",
+        "x": 43.72,
+        "y": 35.24,
+        "size": 69.0,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.1074
+      },
+      {
+        "id": "Joshua Kimmich",
+        "short": "Kimmich",
+        "x": 67.54,
+        "y": 69.74,
+        "size": 79.8,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.1284
       },
       {
         "id": "Kai Havertz",
         "short": "Havertz",
         "x": 46.87,
         "y": 45.23,
-        "size": 62.1,
+        "size": 66.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0994
-      },
-      {
-        "id": "Thomas Müller",
-        "short": "Müller",
-        "x": 44.63,
-        "y": 34.97,
-        "size": 63.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1118
+        "eigenvector": 0.1164
       },
       {
         "id": "Timo Werner",
         "short": "Werner",
         "x": 53.23,
         "y": 33.81,
-        "size": 55.0,
+        "size": 58.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Serge Gnabry",
-        "short": "Gnabry",
-        "x": 29.28,
-        "y": 65.22,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Emre Can",
-        "short": "Can",
-        "x": 60.38,
-        "y": 56.99,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Leroy Sané",
-        "short": "Sané",
-        "x": 55.25,
-        "y": 22.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0149
       }
     ],
     "edges": [
       {
-        "source": "Toni Kroos",
-        "target": "Leon Goretzka",
-        "weight": 11,
-        "direction": "lateral"
-      },
-      {
-        "source": "Toni Kroos",
-        "target": "Antonio Rüdiger",
-        "weight": 13,
-        "direction": "forward"
-      },
-      {
-        "source": "Toni Kroos",
-        "target": "Kai Havertz",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Toni Kroos",
-        "target": "Thomas Müller",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Toni Kroos",
+        "source": "Mats Hummels",
         "target": "Matthias Ginter",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Toni Kroos",
-        "target": "Mats Hummels",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Leon Goretzka",
-        "target": "Mats Hummels",
-        "weight": 8,
-        "direction": "forward"
+        "weight": 21,
+        "direction": "lateral"
       },
       {
         "source": "Mats Hummels",
@@ -1094,27 +1072,15 @@
       },
       {
         "source": "Mats Hummels",
-        "target": "Matthias Ginter",
-        "weight": 21,
-        "direction": "lateral"
-      },
-      {
-        "source": "Mats Hummels",
         "target": "Antonio Rüdiger",
         "weight": 13,
         "direction": "forward"
       },
       {
-        "source": "Joshua Kimmich",
-        "target": "Matthias Ginter",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Joshua Kimmich",
+        "source": "Matthias Ginter",
         "target": "Mats Hummels",
-        "weight": 9,
-        "direction": "forward"
+        "weight": 15,
+        "direction": "lateral"
       },
       {
         "source": "Matthias Ginter",
@@ -1124,20 +1090,50 @@
       },
       {
         "source": "Matthias Ginter",
-        "target": "Mats Hummels",
-        "weight": 15,
+        "target": "Manuel Neuer",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Antonio Rüdiger",
+        "weight": 13,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Leon Goretzka",
+        "weight": 11,
         "direction": "lateral"
       },
       {
-        "source": "Manuel Neuer",
-        "target": "Antonio Rüdiger",
+        "source": "Toni Kroos",
+        "target": "Thomas Müller",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Kai Havertz",
         "weight": 8,
         "direction": "backward"
       },
       {
-        "source": "Antonio Rüdiger",
-        "target": "Toni Kroos",
-        "weight": 10,
+        "source": "Toni Kroos",
+        "target": "Matthias Ginter",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Mats Hummels",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Timo Werner",
+        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1153,15 +1149,81 @@
         "direction": "forward"
       },
       {
-        "source": "Robin Gosens",
+        "source": "Antonio Rüdiger",
         "target": "Toni Kroos",
-        "weight": 11,
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Rüdiger",
+        "target": "Robin Gosens",
+        "weight": 7,
         "direction": "backward"
       },
       {
         "source": "Robin Gosens",
         "target": "Antonio Rüdiger",
         "weight": 14,
+        "direction": "forward"
+      },
+      {
+        "source": "Robin Gosens",
+        "target": "Toni Kroos",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Leon Goretzka",
+        "target": "Mats Hummels",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Leon Goretzka",
+        "target": "Joshua Kimmich",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Manuel Neuer",
+        "target": "Antonio Rüdiger",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Thomas Müller",
+        "target": "Kai Havertz",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Thomas Müller",
+        "target": "Timo Werner",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joshua Kimmich",
+        "target": "Mats Hummels",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Joshua Kimmich",
+        "target": "Matthias Ginter",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Timo Werner",
+        "target": "Thomas Müller",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Timo Werner",
+        "target": "Toni Kroos",
+        "weight": 1,
         "direction": "forward"
       }
     ]

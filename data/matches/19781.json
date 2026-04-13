@@ -787,110 +787,110 @@
         "short": "Spencer",
         "x": 10.22,
         "y": 44.7,
-        "size": 117.1,
-        "is_playmaker": true,
-        "betweenness": 0.0222,
-        "eigenvector": 0.3715
+        "size": 106.5,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.307
       },
       {
         "id": "Gilly Louise Scarlett Flaherty",
         "short": "Flaherty",
         "x": 25.52,
         "y": 55.0,
-        "size": 92.9,
+        "size": 94.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5148
+        "betweenness": 0.0056,
+        "eigenvector": 0.2606
       },
       {
         "id": "Kate Longhurst",
         "short": "Longhurst",
         "x": 51.0,
         "y": 51.85,
-        "size": 110.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3715
+        "size": 118.4,
+        "is_playmaker": true,
+        "betweenness": 0.5667,
+        "eigenvector": 0.4869
       },
       {
         "id": "Ria Percival",
         "short": "Percival",
         "x": 42.64,
         "y": 69.67,
-        "size": 168.8,
+        "size": 136.2,
         "is_playmaker": true,
-        "betweenness": 0.0333,
-        "eigenvector": 0.4212
-      },
-      {
-        "id": "Vyan Sampson",
-        "short": "Sampson",
-        "x": 51.38,
-        "y": 42.48,
-        "size": 75.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Claire Lauren Rafferty",
-        "short": "Rafferty",
-        "x": 56.14,
-        "y": 6.62,
-        "size": 103.3,
-        "is_playmaker": false,
-        "betweenness": 0.0111,
-        "eigenvector": 0.0
+        "betweenness": 0.4944,
+        "eigenvector": 0.5683
       },
       {
         "id": "Jane Ross",
         "short": "Ross",
         "x": 63.18,
         "y": 36.71,
-        "size": 82.6,
+        "size": 92.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.1982
       },
       {
-        "id": "Alisha Lehmann",
-        "short": "Lehmann",
-        "x": 64.91,
-        "y": 59.64,
-        "size": 89.5,
+        "id": "Vyan Sampson",
+        "short": "Sampson",
+        "x": 51.38,
+        "y": 42.48,
+        "size": 74.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5307
+        "betweenness": 0.4278,
+        "eigenvector": 0.0041
       },
       {
-        "id": "Brianna Visalli",
-        "short": "Visalli",
-        "x": 66.73,
-        "y": 30.45,
-        "size": 55.0,
+        "id": "Claire Lauren Rafferty",
+        "short": "Rafferty",
+        "x": 56.14,
+        "y": 6.62,
+        "size": 100.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lucienne Reichardt",
-        "short": "Reichardt",
-        "x": 46.91,
-        "y": 43.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.1888
       },
       {
         "id": "Brooke Hendrix",
         "short": "Hendrix",
         "x": 33.22,
         "y": 26.11,
-        "size": 55.0,
+        "size": 72.8,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.0948
+      },
+      {
+        "id": "Alisha Lehmann",
+        "short": "Lehmann",
+        "x": 64.91,
+        "y": 59.64,
+        "size": 82.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.4385
+      },
+      {
+        "id": "Brianna Visalli",
+        "short": "Visalli",
+        "x": 66.73,
+        "y": 30.45,
+        "size": 62.9,
+        "is_playmaker": false,
+        "betweenness": 0.3389,
+        "eigenvector": 0.0156
+      },
+      {
+        "id": "Lucienne Reichardt",
+        "short": "Reichardt",
+        "x": 46.91,
+        "y": 43.45,
+        "size": 62.9,
+        "is_playmaker": false,
+        "betweenness": 0.4667,
+        "eigenvector": 0.0379
       }
     ],
     "edges": [
@@ -901,9 +901,45 @@
         "direction": "forward"
       },
       {
+        "source": "Rebecca Leigh Spencer",
+        "target": "Brooke Hendrix",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Rebecca Leigh Spencer",
+        "target": "Ria Percival",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Kate Longhurst",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Jane Ross",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Kate Longhurst",
         "target": "Ria Percival",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Claire Lauren Rafferty",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Lucienne Reichardt",
+        "weight": 1,
         "direction": "backward"
       },
       {
@@ -925,15 +961,75 @@
         "direction": "backward"
       },
       {
+        "source": "Jane Ross",
+        "target": "Kate Longhurst",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jane Ross",
+        "target": "Brianna Visalli",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Vyan Sampson",
         "target": "Claire Lauren Rafferty",
         "weight": 6,
         "direction": "forward"
       },
       {
+        "source": "Vyan Sampson",
+        "target": "Brianna Visalli",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vyan Sampson",
+        "target": "Lucienne Reichardt",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Claire Lauren Rafferty",
         "target": "Jane Ross",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Brooke Hendrix",
+        "target": "Claire Lauren Rafferty",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Alisha Lehmann",
+        "target": "Ria Percival",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Brianna Visalli",
+        "target": "Jane Ross",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Brianna Visalli",
+        "target": "Vyan Sampson",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lucienne Reichardt",
+        "target": "Vyan Sampson",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lucienne Reichardt",
+        "target": "Kate Longhurst",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -941,127 +1037,219 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Kim Little",
-        "short": "Little",
-        "x": 52.71,
-        "y": 45.93,
-        "size": 95.8,
+        "id": "Janni Arnth-Jensen",
+        "short": "Arnth-Jense",
+        "x": 80.82,
+        "y": 26.92,
+        "size": 128.9,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.2469
-      },
-      {
-        "id": "Lia Wälti",
-        "short": "Wälti",
-        "x": 62.61,
-        "y": 33.67,
-        "size": 74.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2675
-      },
-      {
-        "id": "Katie McCabe",
-        "short": "McCabe",
-        "x": 56.02,
-        "y": 11.04,
-        "size": 88.0,
-        "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.2354
-      },
-      {
-        "id": "Dominique Johanna Anna Petrone Janssen",
-        "short": "Janssen",
-        "x": 61.54,
-        "y": 46.98,
-        "size": 98.7,
-        "is_playmaker": true,
-        "betweenness": 0.1909,
-        "eigenvector": 0.338
-      },
-      {
-        "id": "Danielle van de Donk",
-        "short": "Donk",
-        "x": 40.69,
-        "y": 49.47,
-        "size": 76.4,
-        "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.0878
+        "betweenness": 0.0556,
+        "eigenvector": 0.4385
       },
       {
         "id": "Leah Williamson",
         "short": "Williamson",
         "x": 81.05,
         "y": 55.07,
-        "size": 131.7,
-        "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.5714
-      },
-      {
-        "id": "Janni Arnth-Jensen",
-        "short": "Arnth-Jense",
-        "x": 80.82,
-        "y": 26.92,
-        "size": 137.5,
+        "size": 128.9,
         "is_playmaker": true,
-        "betweenness": 0.1136,
-        "eigenvector": 0.453
+        "betweenness": 0.1444,
+        "eigenvector": 0.553
       },
       {
         "id": "Lisa Evans",
         "short": "Evans",
         "x": 62.48,
         "y": 68.9,
-        "size": 105.5,
+        "size": 105.4,
         "is_playmaker": false,
-        "betweenness": 0.0045,
-        "eigenvector": 0.3606
+        "betweenness": 0.0111,
+        "eigenvector": 0.349
+      },
+      {
+        "id": "Katie McCabe",
+        "short": "McCabe",
+        "x": 56.02,
+        "y": 11.04,
+        "size": 95.0,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.2279
+      },
+      {
+        "id": "Lia Wälti",
+        "short": "Wälti",
+        "x": 62.83,
+        "y": 33.09,
+        "size": 72.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2758
       },
       {
         "id": "Pauline Peyraud Magnin",
         "short": "Magnin",
-        "x": 106.18,
-        "y": 42.91,
-        "size": 65.7,
+        "x": 106.24,
+        "y": 41.81,
+        "size": 69.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Vivianne Miedema",
-        "short": "Miedema",
-        "x": 34.52,
-        "y": 38.14,
-        "size": 61.8,
+        "id": "Kim Little",
+        "short": "Little",
+        "x": 52.9,
+        "y": 45.9,
+        "size": 96.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0228
+        "betweenness": 0.1111,
+        "eigenvector": 0.2897
+      },
+      {
+        "id": "Dominique Johanna Anna Petrone Janssen",
+        "short": "Janssen",
+        "x": 61.11,
+        "y": 46.59,
+        "size": 94.1,
+        "is_playmaker": true,
+        "betweenness": 0.1444,
+        "eigenvector": 0.3271
       },
       {
         "id": "Bethany Mead",
         "short": "Mead",
         "x": 38.54,
         "y": 48.6,
-        "size": 69.6,
+        "size": 68.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.167
+        "eigenvector": 0.1767
       },
       {
-        "id": "Louise Quinn",
-        "short": "Quinn",
-        "x": 60.0,
-        "y": 63.75,
-        "size": 55.0,
+        "id": "Danielle van de Donk",
+        "short": "Donk",
+        "x": 40.67,
+        "y": 49.77,
+        "size": 74.1,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.085
+      },
+      {
+        "id": "Vivianne Miedema",
+        "short": "Miedema",
+        "x": 34.52,
+        "y": 38.14,
+        "size": 71.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1506
       }
     ],
     "edges": [
+      {
+        "source": "Janni Arnth-Jensen",
+        "target": "Leah Williamson",
+        "weight": 20,
+        "direction": "lateral"
+      },
+      {
+        "source": "Janni Arnth-Jensen",
+        "target": "Katie McCabe",
+        "weight": 14,
+        "direction": "backward"
+      },
+      {
+        "source": "Janni Arnth-Jensen",
+        "target": "Lia Wälti",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Leah Williamson",
+        "target": "Lisa Evans",
+        "weight": 17,
+        "direction": "backward"
+      },
+      {
+        "source": "Leah Williamson",
+        "target": "Janni Arnth-Jensen",
+        "weight": 16,
+        "direction": "lateral"
+      },
+      {
+        "source": "Leah Williamson",
+        "target": "Dominique Johanna Anna Petrone Janssen",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Lisa Evans",
+        "target": "Leah Williamson",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Lisa Evans",
+        "target": "Kim Little",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Lisa Evans",
+        "target": "Dominique Johanna Anna Petrone Janssen",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lisa Evans",
+        "target": "Bethany Mead",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Lisa Evans",
+        "target": "Vivianne Miedema",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Janni Arnth-Jensen",
+        "weight": 13,
+        "direction": "forward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Dominique Johanna Anna Petrone Janssen",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Kim Little",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Katie McCabe",
+        "target": "Vivianne Miedema",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Pauline Peyraud Magnin",
+        "target": "Janni Arnth-Jensen",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Pauline Peyraud Magnin",
+        "target": "Leah Williamson",
+        "weight": 6,
+        "direction": "backward"
+      },
       {
         "source": "Kim Little",
         "target": "Lia Wälti",
@@ -1075,16 +1263,10 @@
         "direction": "backward"
       },
       {
-        "source": "Katie McCabe",
-        "target": "Dominique Johanna Anna Petrone Janssen",
-        "weight": 7,
-        "direction": "forward"
-      },
-      {
-        "source": "Katie McCabe",
-        "target": "Janni Arnth-Jensen",
-        "weight": 13,
-        "direction": "forward"
+        "source": "Dominique Johanna Anna Petrone Janssen",
+        "target": "Kim Little",
+        "weight": 8,
+        "direction": "backward"
       },
       {
         "source": "Dominique Johanna Anna Petrone Janssen",
@@ -1099,87 +1281,15 @@
         "direction": "forward"
       },
       {
-        "source": "Dominique Johanna Anna Petrone Janssen",
+        "source": "Danielle van de Donk",
         "target": "Kim Little",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danielle van de Donk",
         "target": "Vivianne Miedema",
         "weight": 7,
-        "direction": "backward"
-      },
-      {
-        "source": "Danielle van de Donk",
-        "target": "Kim Little",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Leah Williamson",
-        "target": "Janni Arnth-Jensen",
-        "weight": 16,
-        "direction": "lateral"
-      },
-      {
-        "source": "Leah Williamson",
-        "target": "Lisa Evans",
-        "weight": 17,
-        "direction": "backward"
-      },
-      {
-        "source": "Leah Williamson",
-        "target": "Dominique Johanna Anna Petrone Janssen",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Janni Arnth-Jensen",
-        "target": "Lia Wälti",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Janni Arnth-Jensen",
-        "target": "Leah Williamson",
-        "weight": 20,
-        "direction": "lateral"
-      },
-      {
-        "source": "Janni Arnth-Jensen",
-        "target": "Katie McCabe",
-        "weight": 14,
-        "direction": "backward"
-      },
-      {
-        "source": "Lisa Evans",
-        "target": "Dominique Johanna Anna Petrone Janssen",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "Lisa Evans",
-        "target": "Kim Little",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Lisa Evans",
-        "target": "Leah Williamson",
-        "weight": 11,
-        "direction": "forward"
-      },
-      {
-        "source": "Lisa Evans",
-        "target": "Bethany Mead",
-        "weight": 7,
-        "direction": "backward"
-      },
-      {
-        "source": "Pauline Peyraud Magnin",
-        "target": "Janni Arnth-Jensen",
-        "weight": 11,
         "direction": "backward"
       }
     ]

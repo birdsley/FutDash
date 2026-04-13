@@ -797,71 +797,71 @@
       {
         "id": "Gilberto Aparecido da Silva",
         "short": "Silva",
-        "x": 60.09,
-        "y": 46.31,
-        "size": 150.1,
+        "x": 60.26,
+        "y": 46.3,
+        "size": 144.4,
         "is_playmaker": true,
-        "betweenness": 0.1282,
-        "eigenvector": 0.4397
+        "betweenness": 0.2222,
+        "eigenvector": 0.3932
       },
       {
         "id": "Patrick Vieira",
         "short": "Vieira",
-        "x": 63.49,
-        "y": 32.71,
-        "size": 163.5,
+        "x": 64.35,
+        "y": 32.62,
+        "size": 150.7,
         "is_playmaker": true,
-        "betweenness": 0.1346,
-        "eigenvector": 0.6208
+        "betweenness": 0.1,
+        "eigenvector": 0.5898
       },
       {
         "id": "Dennis Bergkamp",
         "short": "Bergkamp",
         "x": 80.65,
         "y": 42.17,
-        "size": 87.4,
+        "size": 94.1,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.4781
+        "betweenness": 0.0333,
+        "eigenvector": 0.4704
       },
       {
         "id": "Laureano Bisan-Etame Mayer",
         "short": "Mayer",
-        "x": 69.25,
-        "y": 68.86,
-        "size": 105.7,
+        "x": 69.86,
+        "y": 68.81,
+        "size": 104.7,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.2055
+        "betweenness": 0.0333,
+        "eigenvector": 0.1773
       },
       {
         "id": "Robert Pirès",
         "short": "Pirès",
         "x": 70.57,
         "y": 24.43,
-        "size": 83.2,
+        "size": 90.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2018
+        "betweenness": 0.0556,
+        "eigenvector": 0.273
       },
       {
         "id": "Thierry Henry",
         "short": "Henry",
-        "x": 79.44,
-        "y": 36.0,
-        "size": 72.6,
+        "x": 79.2,
+        "y": 36.99,
+        "size": 76.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2834
+        "eigenvector": 0.3852
       },
       {
         "id": "Ashley Cole",
         "short": "Cole",
-        "x": 52.1,
+        "x": 52.92,
         "y": 12.92,
-        "size": 77.5,
+        "size": 79.8,
         "is_playmaker": false,
-        "betweenness": 0.0449,
+        "betweenness": 0.0889,
         "eigenvector": 0.0
       },
       {
@@ -869,19 +869,19 @@
         "short": "Ljungberg",
         "x": 77.62,
         "y": 62.99,
-        "size": 86.7,
+        "size": 83.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1716
+        "eigenvector": 0.1476
       },
       {
         "id": "Kolo Habib Touré",
         "short": "Touré",
         "x": 47.47,
         "y": 52.02,
-        "size": 62.0,
+        "size": 62.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0889,
         "eigenvector": 0.0
       },
       {
@@ -889,49 +889,19 @@
         "short": "Campbell",
         "x": 36.08,
         "y": 24.78,
-        "size": 61.3,
+        "size": 61.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Eduardo César Daude Gaspar",
-        "short": "Gaspar",
-        "x": 64.74,
-        "y": 26.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0778,
         "eigenvector": 0.0
       },
       {
         "id": "Jens Lehmann",
         "short": "Lehmann",
-        "x": 12.16,
-        "y": 38.39,
-        "size": 55.0,
+        "x": 11.42,
+        "y": 36.58,
+        "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "José Antonio Reyes Calderón",
-        "short": "Calderón",
-        "x": 81.43,
-        "y": 38.56,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Martin Keown",
-        "short": "Keown",
-        "x": 41.3,
-        "y": 58.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1,
         "eigenvector": 0.0
       }
     ],
@@ -940,7 +910,7 @@
         "source": "Gilberto Aparecido da Silva",
         "target": "Patrick Vieira",
         "weight": 30,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Gilberto Aparecido da Silva",
@@ -961,6 +931,12 @@
         "direction": "forward"
       },
       {
+        "source": "Gilberto Aparecido da Silva",
+        "target": "Robert Pirès",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
         "source": "Patrick Vieira",
         "target": "Dennis Bergkamp",
         "weight": 23,
@@ -970,7 +946,7 @@
         "source": "Patrick Vieira",
         "target": "Gilberto Aparecido da Silva",
         "weight": 18,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Patrick Vieira",
@@ -991,6 +967,12 @@
         "direction": "backward"
       },
       {
+        "source": "Dennis Bergkamp",
+        "target": "Thierry Henry",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
         "source": "Laureano Bisan-Etame Mayer",
         "target": "Gilberto Aparecido da Silva",
         "weight": 22,
@@ -1006,6 +988,12 @@
         "source": "Laureano Bisan-Etame Mayer",
         "target": "Fredrik Ljungberg",
         "weight": 12,
+        "direction": "forward"
+      },
+      {
+        "source": "Laureano Bisan-Etame Mayer",
+        "target": "Dennis Bergkamp",
+        "weight": 8,
         "direction": "forward"
       },
       {
@@ -1033,6 +1021,12 @@
         "direction": "forward"
       },
       {
+        "source": "Ashley Cole",
+        "target": "Robert Pirès",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
         "source": "Fredrik Ljungberg",
         "target": "Laureano Bisan-Etame Mayer",
         "weight": 12,
@@ -1051,9 +1045,33 @@
         "direction": "forward"
       },
       {
+        "source": "Kolo Habib Touré",
+        "target": "Jens Lehmann",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Sulzeer Jeremiah ''Sol' Campbell",
         "target": "Ashley Cole",
         "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Sulzeer Jeremiah ''Sol' Campbell",
+        "target": "Jens Lehmann",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Sulzeer Jeremiah ''Sol' Campbell",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Kolo Habib Touré",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1065,97 +1083,97 @@
         "short": "Bent",
         "x": 58.39,
         "y": 49.98,
-        "size": 170.8,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0
+        "size": 120.5,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.0172
       },
       {
         "id": "Billy McKinlay",
         "short": "McKinlay",
         "x": 70.97,
         "y": 41.22,
-        "size": 91.8,
+        "size": 110.5,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3389,
+        "eigenvector": 0.0182
       },
       {
         "id": "Jordan Stewart",
         "short": "Stewart",
-        "x": 66.88,
-        "y": 13.1,
-        "size": 139.2,
+        "x": 65.52,
+        "y": 13.66,
+        "size": 112.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.75
-      },
-      {
-        "id": "Lilian Nalis",
-        "short": "Nalis",
-        "x": 63.11,
-        "y": 25.99,
-        "size": 139.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6614
-      },
-      {
-        "id": "Frank Mohammed Sinclair",
-        "short": "Sinclair",
-        "x": 64.98,
-        "y": 68.95,
-        "size": 97.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ian Walker",
-        "short": "Walker",
-        "x": 105.75,
-        "y": 44.57,
-        "size": 91.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Paul Dickov",
-        "short": "Dickov",
-        "x": 51.33,
-        "y": 37.24,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "James Scowcroft",
-        "short": "Scowcroft",
-        "x": 47.2,
-        "y": 30.83,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0333,
+        "eigenvector": 0.6187
       },
       {
         "id": "Steffen Freund",
         "short": "Freund",
         "x": 73.08,
         "y": 54.71,
-        "size": 55.0,
+        "size": 75.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.007
+      },
+      {
+        "id": "Lilian Nalis",
+        "short": "Nalis",
+        "x": 63.74,
+        "y": 26.18,
+        "size": 107.1,
+        "is_playmaker": false,
+        "betweenness": 0.2611,
+        "eigenvector": 0.5833
+      },
+      {
+        "id": "James Scowcroft",
+        "short": "Scowcroft",
+        "x": 47.2,
+        "y": 30.83,
+        "size": 100.4,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.4756
+      },
+      {
+        "id": "Frank Mohammed Sinclair",
+        "short": "Sinclair",
+        "x": 65.83,
+        "y": 68.67,
+        "size": 113.8,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0137
       },
       {
         "id": "Nikos Dabizas",
         "short": "Dabizas",
         "x": 77.63,
         "y": 54.08,
-        "size": 55.0,
+        "size": 68.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0047
+      },
+      {
+        "id": "Paul Dickov",
+        "short": "Dickov",
+        "x": 51.33,
+        "y": 37.24,
+        "size": 68.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2173
+      },
+      {
+        "id": "Ian Walker",
+        "short": "Walker",
+        "x": 105.75,
+        "y": 44.57,
+        "size": 66.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1165,30 +1183,10 @@
         "short": "Heath",
         "x": 69.63,
         "y": 30.62,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Danny Coyne",
-        "short": "Coyne",
-        "x": 108.73,
-        "y": 43.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Paul Brooker",
-        "short": "Brooker",
-        "x": 50.6,
-        "y": 50.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 61.7,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.0514
       }
     ],
     "edges": [
@@ -1199,9 +1197,75 @@
         "direction": "forward"
       },
       {
+        "source": "Marcus Bent",
+        "target": "Frank Mohammed Sinclair",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Marcus Bent",
+        "target": "Paul Dickov",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcus Bent",
+        "target": "Lilian Nalis",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Billy McKinlay",
+        "target": "Jordan Stewart",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Billy McKinlay",
+        "target": "James Scowcroft",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Billy McKinlay",
+        "target": "Frank Mohammed Sinclair",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Billy McKinlay",
+        "target": "Marcus Bent",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Billy McKinlay",
+        "target": "Matt Heath",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Jordan Stewart",
         "target": "Lilian Nalis",
         "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jordan Stewart",
+        "target": "James Scowcroft",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jordan Stewart",
+        "target": "Paul Dickov",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Steffen Freund",
+        "target": "Billy McKinlay",
+        "weight": 6,
         "direction": "lateral"
       },
       {
@@ -1211,9 +1275,57 @@
         "direction": "lateral"
       },
       {
+        "source": "Lilian Nalis",
+        "target": "James Scowcroft",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Lilian Nalis",
+        "target": "Matt Heath",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "James Scowcroft",
+        "target": "Jordan Stewart",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "James Scowcroft",
+        "target": "Lilian Nalis",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Frank Mohammed Sinclair",
+        "target": "Steffen Freund",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Frank Mohammed Sinclair",
         "target": "Marcus Bent",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Frank Mohammed Sinclair",
+        "target": "Nikos Dabizas",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Frank Mohammed Sinclair",
+        "target": "James Scowcroft",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Nikos Dabizas",
+        "target": "Frank Mohammed Sinclair",
+        "weight": 4,
         "direction": "backward"
       },
       {
@@ -1221,6 +1333,18 @@
         "target": "Marcus Bent",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Matt Heath",
+        "target": "Lilian Nalis",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Matt Heath",
+        "target": "Billy McKinlay",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

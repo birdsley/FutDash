@@ -763,110 +763,110 @@
         "short": "Williamson",
         "x": 31.76,
         "y": 56.28,
-        "size": 137.7,
+        "size": 129.4,
         "is_playmaker": false,
         "betweenness": 0.1667,
-        "eigenvector": 0.4942
+        "eigenvector": 0.4713
       },
       {
         "id": "Carlotte Wubben-Moy",
         "short": "Wubben-Moy",
         "x": 33.14,
         "y": 19.82,
-        "size": 152.8,
-        "is_playmaker": true,
-        "betweenness": 0.2778,
-        "eigenvector": 0.6267
+        "size": 147.0,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.6132
       },
       {
         "id": "Manuela Zinsberger",
         "short": "Zinsberger",
         "x": 12.08,
         "y": 38.33,
-        "size": 111.9,
+        "size": 110.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4568
+        "betweenness": 0.0889,
+        "eigenvector": 0.432
       },
       {
         "id": "Katie McCabe",
         "short": "McCabe",
         "x": 54.57,
         "y": 13.23,
-        "size": 100.3,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.339
+        "size": 99.8,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.3824
       },
       {
         "id": "Leonie Maier",
         "short": "Maier",
         "x": 58.59,
         "y": 74.19,
-        "size": 102.1,
-        "is_playmaker": true,
-        "betweenness": 0.2778,
-        "eigenvector": 0.1042
+        "size": 97.4,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.1151
       },
       {
         "id": "Bethany Mead",
         "short": "Mead",
         "x": 82.06,
         "y": 62.1,
-        "size": 74.6,
+        "size": 77.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0399
+        "eigenvector": 0.0429
       },
       {
         "id": "Lia Wälti",
         "short": "Wälti",
         "x": 49.46,
         "y": 36.59,
-        "size": 69.2,
+        "size": 71.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1199
+        "betweenness": 0.0556,
+        "eigenvector": 0.1362
       },
       {
         "id": "Caitlin Jade Foord",
         "short": "Foord",
         "x": 66.71,
         "y": 19.64,
-        "size": 68.3,
+        "size": 67.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0834
+        "eigenvector": 0.0917
       },
       {
         "id": "Jill Roord",
         "short": "Roord",
         "x": 62.22,
         "y": 39.47,
-        "size": 78.1,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0755
+        "size": 85.4,
+        "is_playmaker": true,
+        "betweenness": 0.5556,
+        "eigenvector": 0.1643
       },
       {
         "id": "Kim Little",
         "short": "Little",
         "x": 55.1,
         "y": 45.36,
-        "size": 55.0,
+        "size": 61.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.0001
       },
       {
         "id": "Vivianne Miedema",
         "short": "Miedema",
         "x": 65.35,
         "y": 37.57,
-        "size": 55.0,
+        "size": 58.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2444,
+        "eigenvector": 0.0044
       }
     ],
     "edges": [
@@ -913,6 +913,12 @@
         "direction": "forward"
       },
       {
+        "source": "Carlotte Wubben-Moy",
+        "target": "Jill Roord",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Manuela Zinsberger",
         "target": "Leah Williamson",
         "weight": 21,
@@ -922,6 +928,12 @@
         "source": "Manuela Zinsberger",
         "target": "Carlotte Wubben-Moy",
         "weight": 14,
+        "direction": "forward"
+      },
+      {
+        "source": "Manuela Zinsberger",
+        "target": "Katie McCabe",
+        "weight": 5,
         "direction": "forward"
       },
       {
@@ -989,6 +1001,42 @@
         "target": "Carlotte Wubben-Moy",
         "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Jill Roord",
+        "target": "Lia Wälti",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jill Roord",
+        "target": "Vivianne Miedema",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kim Little",
+        "target": "Bethany Mead",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Kim Little",
+        "target": "Vivianne Miedema",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vivianne Miedema",
+        "target": "Jill Roord",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Vivianne Miedema",
+        "target": "Kim Little",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -997,152 +1045,112 @@
       {
         "id": "Maren Nævdal Mjelde",
         "short": "Mjelde",
-        "x": 59.92,
-        "y": 74.04,
-        "size": 112.5,
+        "x": 59.08,
+        "y": 73.55,
+        "size": 105.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.2917
       },
       {
         "id": "Millie Bright",
         "short": "Bright",
-        "x": 75.26,
-        "y": 59.45,
-        "size": 156.4,
+        "x": 74.65,
+        "y": 58.54,
+        "size": 142.7,
         "is_playmaker": true,
-        "betweenness": 0.011,
-        "eigenvector": 0.5425
+        "betweenness": 0.2222,
+        "eigenvector": 0.5944
       },
       {
         "id": "Magdalena Lilly Eriksson",
         "short": "Eriksson",
-        "x": 75.11,
-        "y": 25.58,
-        "size": 175.5,
-        "is_playmaker": true,
-        "betweenness": 0.022,
-        "eigenvector": 0.7047
+        "x": 74.04,
+        "y": 26.77,
+        "size": 124.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.555
       },
       {
         "id": "Jonna Ann-Charlotte Andersson",
         "short": "Andersson",
-        "x": 52.06,
+        "x": 52.16,
         "y": 3.81,
-        "size": 131.7,
+        "size": 102.7,
         "is_playmaker": false,
-        "betweenness": 0.011,
-        "eigenvector": 0.4069
+        "betweenness": 0.0889,
+        "eigenvector": 0.2984
       },
       {
         "id": "So-Yun Ji",
         "short": "Ji",
-        "x": 52.61,
-        "y": 42.69,
-        "size": 98.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2088
-      },
-      {
-        "id": "Pernille Mosegaard Harder",
-        "short": "Harder",
-        "x": 47.07,
-        "y": 36.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Erin Cuthbert",
-        "short": "Cuthbert",
-        "x": 49.94,
-        "y": 53.32,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 53.78,
+        "y": 42.82,
+        "size": 126.0,
+        "is_playmaker": true,
+        "betweenness": 0.5,
+        "eigenvector": 0.3418
       },
       {
         "id": "Ann-Katrin Berger",
         "short": "Berger",
-        "x": 109.53,
-        "y": 44.88,
-        "size": 55.0,
+        "x": 109.93,
+        "y": 45.61,
+        "size": 71.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Samantha May Kerr",
-        "short": "Kerr",
-        "x": 49.2,
-        "y": 39.21,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sophie Louise Ingle",
-        "short": "Ingle",
-        "x": 56.81,
-        "y": 43.72,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Bethany England",
-        "short": "England",
-        "x": 42.4,
-        "y": 46.21,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.1323
       },
       {
         "id": "Melanie Leupolz",
         "short": "Leupolz",
         "x": 55.24,
         "y": 67.17,
-        "size": 55.0,
+        "size": 73.1,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.1323
+      },
+      {
+        "id": "Sophie Louise Ingle",
+        "short": "Ingle",
+        "x": 57.67,
+        "y": 44.62,
+        "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Guro Reiten",
-        "short": "Reiten",
-        "x": 36.3,
-        "y": 30.6,
-        "size": 55.0,
+        "id": "Pernille Mosegaard Harder",
+        "short": "Harder",
+        "x": 45.41,
+        "y": 47.14,
+        "size": 71.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1389,
+        "eigenvector": 0.052
       },
       {
-        "id": "Niamh Charles",
-        "short": "Charles",
-        "x": 58.4,
-        "y": 65.4,
-        "size": 55.0,
+        "id": "Bethany England",
+        "short": "England",
+        "x": 42.4,
+        "y": 46.21,
+        "size": 60.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0531
       },
       {
-        "id": "Jessie Alexandra Fleming",
-        "short": "Fleming",
-        "x": 66.87,
-        "y": 48.37,
-        "size": 55.0,
+        "id": "Erin Cuthbert",
+        "short": "Cuthbert",
+        "x": 51.11,
+        "y": 52.84,
+        "size": 65.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0844
       }
     ],
     "edges": [
@@ -1159,10 +1167,34 @@
         "direction": "backward"
       },
       {
+        "source": "Maren Nævdal Mjelde",
+        "target": "Pernille Mosegaard Harder",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Millie Bright",
         "target": "Magdalena Lilly Eriksson",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Millie Bright",
+        "target": "Maren Nævdal Mjelde",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Millie Bright",
+        "target": "Ann-Katrin Berger",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Millie Bright",
+        "target": "Melanie Leupolz",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Magdalena Lilly Eriksson",
@@ -1177,6 +1209,12 @@
         "direction": "backward"
       },
       {
+        "source": "Magdalena Lilly Eriksson",
+        "target": "So-Yun Ji",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Jonna Ann-Charlotte Andersson",
         "target": "Magdalena Lilly Eriksson",
         "weight": 11,
@@ -1187,6 +1225,78 @@
         "target": "So-Yun Ji",
         "weight": 8,
         "direction": "lateral"
+      },
+      {
+        "source": "Jonna Ann-Charlotte Andersson",
+        "target": "Bethany England",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Maren Nævdal Mjelde",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Magdalena Lilly Eriksson",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Jonna Ann-Charlotte Andersson",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Millie Bright",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Erin Cuthbert",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ann-Katrin Berger",
+        "target": "Millie Bright",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Ann-Katrin Berger",
+        "target": "Erin Cuthbert",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Melanie Leupolz",
+        "target": "Millie Bright",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Melanie Leupolz",
+        "target": "So-Yun Ji",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sophie Louise Ingle",
+        "target": "Pernille Mosegaard Harder",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Pernille Mosegaard Harder",
+        "target": "So-Yun Ji",
+        "weight": 4,
+        "direction": "forward"
       }
     ]
   },

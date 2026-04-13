@@ -835,130 +835,110 @@
         "short": "Digne",
         "x": 64.72,
         "y": 9.47,
-        "size": 132.8,
+        "size": 128.6,
         "is_playmaker": true,
-        "betweenness": 0.2121,
-        "eigenvector": 0.3851
+        "betweenness": 0.4056,
+        "eigenvector": 0.3772
       },
       {
         "id": "Radja Nainggolan",
         "short": "Nainggolan",
-        "x": 69.73,
-        "y": 30.87,
-        "size": 90.7,
+        "x": 70.37,
+        "y": 30.98,
+        "size": 97.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3524
+        "betweenness": 0.0222,
+        "eigenvector": 0.3037
       },
       {
         "id": "Alessandro Florenzi",
         "short": "Florenzi",
         "x": 65.71,
         "y": 70.78,
-        "size": 133.6,
-        "is_playmaker": true,
-        "betweenness": 0.2273,
-        "eigenvector": 0.4473
+        "size": 129.3,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.4847
       },
       {
         "id": "Mohamed Salah",
         "short": "Salah",
         "x": 77.8,
         "y": 58.32,
-        "size": 78.0,
+        "size": 86.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2833
+        "betweenness": 0.0056,
+        "eigenvector": 0.3454
       },
       {
         "id": "Konstantinos Manolas",
         "short": "Manolas",
         "x": 46.86,
         "y": 55.77,
-        "size": 90.7,
+        "size": 93.2,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.2204
+        "betweenness": 0.0889,
+        "eigenvector": 0.275
       },
       {
         "id": "Iago Falqué Silva",
         "short": "Silva",
         "x": 79.74,
         "y": 18.7,
-        "size": 85.2,
+        "size": 81.4,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.299
+        "betweenness": 0.0,
+        "eigenvector": 0.2436
       },
       {
         "id": "Daniele De Rossi",
         "short": "Rossi",
         "x": 41.32,
         "y": 27.27,
-        "size": 102.6,
-        "is_playmaker": false,
-        "betweenness": 0.1212,
-        "eigenvector": 0.2712
+        "size": 103.6,
+        "is_playmaker": true,
+        "betweenness": 0.2833,
+        "eigenvector": 0.2599
       },
       {
         "id": "Seydou Kéita",
         "short": "Kéita",
         "x": 61.3,
         "y": 37.78,
-        "size": 86.0,
+        "size": 82.1,
         "is_playmaker": false,
-        "betweenness": 0.1591,
-        "eigenvector": 0.2653
+        "betweenness": 0.1778,
+        "eigenvector": 0.2445
       },
       {
         "id": "Miralem Pjanić",
         "short": "Pjanić",
-        "x": 72.93,
-        "y": 47.42,
-        "size": 88.3,
+        "x": 72.83,
+        "y": 47.27,
+        "size": 84.2,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.3879
+        "betweenness": 0.0,
+        "eigenvector": 0.3712
       },
       {
         "id": "Edin Džeko",
         "short": "Džeko",
-        "x": 73.98,
-        "y": 35.58,
-        "size": 62.1,
+        "x": 73.53,
+        "y": 32.72,
+        "size": 61.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.122
+        "eigenvector": 0.1051
       },
       {
         "id": "Wojciech Szczęsny",
         "short": "Szczęsny",
-        "x": 10.36,
-        "y": 39.94,
-        "size": 55.0,
+        "x": 10.62,
+        "y": 39.7,
+        "size": 57.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Juan Manuel Iturbe Arévalo",
-        "short": "Arévalo",
-        "x": 78.5,
-        "y": 69.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Adem Ljajić",
-        "short": "Ljajić",
-        "x": 84.4,
-        "y": 29.24,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1611,
+        "eigenvector": 0.0166
       }
     ],
     "edges": [
@@ -999,6 +979,18 @@
         "direction": "backward"
       },
       {
+        "source": "Radja Nainggolan",
+        "target": "Mohamed Salah",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Radja Nainggolan",
+        "target": "Lucas Digne",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Alessandro Florenzi",
         "target": "Mohamed Salah",
         "weight": 18,
@@ -1029,6 +1021,12 @@
         "direction": "backward"
       },
       {
+        "source": "Mohamed Salah",
+        "target": "Alessandro Florenzi",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Konstantinos Manolas",
         "target": "Alessandro Florenzi",
         "weight": 17,
@@ -1038,6 +1036,12 @@
         "source": "Konstantinos Manolas",
         "target": "Daniele De Rossi",
         "weight": 14,
+        "direction": "backward"
+      },
+      {
+        "source": "Konstantinos Manolas",
+        "target": "Wojciech Szczęsny",
+        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1065,6 +1069,18 @@
         "direction": "forward"
       },
       {
+        "source": "Daniele De Rossi",
+        "target": "Konstantinos Manolas",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniele De Rossi",
+        "target": "Wojciech Szczęsny",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Seydou Kéita",
         "target": "Alessandro Florenzi",
         "weight": 10,
@@ -1081,67 +1097,79 @@
         "target": "Alessandro Florenzi",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Wojciech Szczęsny",
+        "target": "Daniele De Rossi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wojciech Szczęsny",
+        "target": "Konstantinos Manolas",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Giorgio Chiellini",
-        "short": "Chiellini",
-        "x": 74.62,
-        "y": 21.69,
-        "size": 183.3,
-        "is_playmaker": true,
-        "betweenness": 0.0128,
-        "eigenvector": 0.4989
-      },
-      {
-        "id": "Leonardo Bonucci",
-        "short": "Bonucci",
-        "x": 79.88,
-        "y": 44.72,
-        "size": 221.0,
-        "is_playmaker": true,
-        "betweenness": 0.0192,
-        "eigenvector": 0.7084
-      },
-      {
-        "id": "José Martín Cáceres Silva",
-        "short": "Silva",
-        "x": 73.57,
-        "y": 61.72,
-        "size": 126.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4082
-      },
-      {
         "id": "Patrice Evra",
         "short": "Evra",
         "x": 59.98,
         "y": 8.01,
-        "size": 89.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2874
+        "size": 125.5,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.4817
       },
       {
-        "id": "Paul Pogba",
-        "short": "Pogba",
-        "x": 53.8,
-        "y": 28.07,
-        "size": 55.0,
+        "id": "Simone Padoin",
+        "short": "Padoin",
+        "x": 64.73,
+        "y": 34.05,
+        "size": 82.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1333,
+        "eigenvector": 0.1538
       },
       {
-        "id": "Paulo Bruno Exequiel Dybala",
-        "short": "Dybala",
-        "x": 35.35,
-        "y": 40.96,
-        "size": 55.0,
+        "id": "Giorgio Chiellini",
+        "short": "Chiellini",
+        "x": 76.33,
+        "y": 22.19,
+        "size": 140.2,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.5056
+      },
+      {
+        "id": "Leonardo Bonucci",
+        "short": "Bonucci",
+        "x": 81.26,
+        "y": 44.22,
+        "size": 141.9,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.5606
+      },
+      {
+        "id": "José Martín Cáceres Silva",
+        "short": "Silva",
+        "x": 77.38,
+        "y": 61.09,
+        "size": 100.9,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.2685
+      },
+      {
+        "id": "Gianluigi Buffon",
+        "short": "Buffon",
+        "x": 104.66,
+        "y": 42.9,
+        "size": 63.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1149,85 +1177,91 @@
       {
         "id": "Stefano Sturaro",
         "short": "Sturaro",
-        "x": 54.84,
-        "y": 37.1,
-        "size": 55.0,
+        "x": 57.88,
+        "y": 40.56,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0572
       },
       {
-        "id": "Simone Padoin",
-        "short": "Padoin",
-        "x": 63.55,
-        "y": 33.86,
-        "size": 55.0,
+        "id": "Paul Pogba",
+        "short": "Pogba",
+        "x": 56.56,
+        "y": 27.08,
+        "size": 89.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Stephan Lichtsteiner",
-        "short": "Lichtsteine",
-        "x": 65.44,
-        "y": 76.46,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Roberto Maximiliano Pereyra",
-        "short": "Pereyra",
-        "x": 49.39,
-        "y": 43.84,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.2909
       },
       {
         "id": "Mario Mandžukić",
         "short": "Mandžukić",
         "x": 52.13,
         "y": 20.97,
-        "size": 55.0,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0619
       },
       {
-        "id": "Gianluigi Buffon",
-        "short": "Buffon",
-        "x": 105.24,
-        "y": 42.78,
-        "size": 55.0,
+        "id": "Paulo Bruno Exequiel Dybala",
+        "short": "Dybala",
+        "x": 33.41,
+        "y": 39.7,
+        "size": 76.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.1026
       },
       {
-        "id": "Juan Guillermo Cuadrado Bello",
-        "short": "Bello",
-        "x": 52.21,
-        "y": 68.93,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Álvaro Borja Morata Martín",
-        "short": "Martín",
-        "x": 32.54,
-        "y": 32.68,
-        "size": 55.0,
+        "id": "Stephan Lichtsteiner",
+        "short": "Lichtsteine",
+        "x": 65.44,
+        "y": 76.46,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       }
     ],
     "edges": [
+      {
+        "source": "Patrice Evra",
+        "target": "Simone Padoin",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Patrice Evra",
+        "target": "Giorgio Chiellini",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Patrice Evra",
+        "target": "Paulo Bruno Exequiel Dybala",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Patrice Evra",
+        "target": "Paul Pogba",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Simone Padoin",
+        "target": "Giorgio Chiellini",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Simone Padoin",
+        "target": "Leonardo Bonucci",
+        "weight": 5,
+        "direction": "forward"
+      },
       {
         "source": "Giorgio Chiellini",
         "target": "Leonardo Bonucci",
@@ -1241,10 +1275,16 @@
         "direction": "backward"
       },
       {
+        "source": "Giorgio Chiellini",
+        "target": "Paul Pogba",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Leonardo Bonucci",
         "target": "José Martín Cáceres Silva",
         "weight": 9,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Leonardo Bonucci",
@@ -1253,10 +1293,52 @@
         "direction": "backward"
       },
       {
+        "source": "Leonardo Bonucci",
+        "target": "Patrice Evra",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "José Martín Cáceres Silva",
         "target": "Leonardo Bonucci",
         "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Martín Cáceres Silva",
+        "target": "Stefano Sturaro",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Gianluigi Buffon",
+        "target": "José Martín Cáceres Silva",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Paul Pogba",
+        "target": "Mario Mandžukić",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Paul Pogba",
+        "target": "Patrice Evra",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Paulo Bruno Exequiel Dybala",
+        "target": "Patrice Evra",
+        "weight": 5,
         "direction": "forward"
+      },
+      {
+        "source": "Stephan Lichtsteiner",
+        "target": "Paulo Bruno Exequiel Dybala",
+        "weight": 4,
+        "direction": "backward"
       }
     ]
   },

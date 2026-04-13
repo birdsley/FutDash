@@ -1171,97 +1171,77 @@
         "short": "Nascimento",
         "x": 79.65,
         "y": 35.74,
-        "size": 151.4,
-        "is_playmaker": true,
-        "betweenness": 0.0889,
-        "eigenvector": 0.6379
+        "size": 147.6,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.6164
       },
       {
         "id": "Edvaldo Izidio Neto",
         "short": "Neto",
         "x": 80.23,
         "y": 34.65,
-        "size": 134.0,
-        "is_playmaker": true,
-        "betweenness": 0.1778,
-        "eigenvector": 0.563
+        "size": 122.2,
+        "is_playmaker": false,
+        "betweenness": 0.0722,
+        "eigenvector": 0.524
       },
       {
         "id": "Waldyr Pereira",
         "short": "Pereira",
         "x": 66.65,
         "y": 35.19,
-        "size": 112.4,
+        "size": 109.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3078
+        "betweenness": 0.0056,
+        "eigenvector": 0.3863
       },
       {
         "id": "José Ely de Miranda",
         "short": "Miranda",
         "x": 70.92,
         "y": 51.32,
-        "size": 113.5,
+        "size": 117.0,
         "is_playmaker": false,
-        "betweenness": 0.0778,
-        "eigenvector": 0.252
+        "betweenness": 0.1556,
+        "eigenvector": 0.2639
       },
       {
         "id": "Mário Jorge Lobo Zagallo",
         "short": "Zagallo",
         "x": 75.08,
         "y": 14.99,
-        "size": 100.1,
+        "size": 99.5,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.3253
+        "betweenness": 0.2667,
+        "eigenvector": 0.3399
       },
       {
         "id": "Nilton dos Reis Santos",
         "short": "Santos",
         "x": 59.85,
         "y": 14.73,
-        "size": 87.8,
-        "is_playmaker": false,
-        "betweenness": 0.0222,
-        "eigenvector": 0.0869
+        "size": 84.7,
+        "is_playmaker": true,
+        "betweenness": 0.4444,
+        "eigenvector": 0.0832
       },
       {
         "id": "Manoel Francisco dos Santos",
         "short": "Santos",
         "x": 89.82,
         "y": 60.98,
-        "size": 78.6,
+        "size": 81.2,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.0673
+        "betweenness": 0.0111,
+        "eigenvector": 0.0646
       },
       {
         "id": "Nilton de Sordi",
         "short": "Sordi",
         "x": 66.96,
         "y": 68.99,
-        "size": 62.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Orlando Peçanha de Carvalho",
-        "short": "Carvalho",
-        "x": 41.67,
-        "y": 30.74,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Hideraldo Luis Bellini",
-        "short": "Bellini",
-        "x": 35.88,
-        "y": 38.77,
-        "size": 55.0,
+        "size": 66.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1271,10 +1251,30 @@
         "short": "Neves",
         "x": 11.66,
         "y": 34.62,
-        "size": 55.0,
+        "size": 58.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0001
+      },
+      {
+        "id": "Orlando Peçanha de Carvalho",
+        "short": "Carvalho",
+        "x": 41.67,
+        "y": 30.74,
+        "size": 60.2,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0026
+      },
+      {
+        "id": "Hideraldo Luis Bellini",
+        "short": "Bellini",
+        "x": 35.88,
+        "y": 38.77,
+        "size": 58.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0001
       }
     ],
     "edges": [
@@ -1294,6 +1294,12 @@
         "source": "Édson Arantes do Nascimento",
         "target": "José Ely de Miranda",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Édson Arantes do Nascimento",
+        "target": "Waldyr Pereira",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1357,6 +1363,12 @@
         "direction": "forward"
       },
       {
+        "source": "José Ely de Miranda",
+        "target": "Mário Jorge Lobo Zagallo",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Mário Jorge Lobo Zagallo",
         "target": "Édson Arantes do Nascimento",
         "weight": 13,
@@ -1387,9 +1399,21 @@
         "direction": "forward"
       },
       {
+        "source": "Nilton dos Reis Santos",
+        "target": "Orlando Peçanha de Carvalho",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Manoel Francisco dos Santos",
         "target": "Edvaldo Izidio Neto",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Manoel Francisco dos Santos",
+        "target": "José Ely de Miranda",
+        "weight": 7,
         "direction": "backward"
       },
       {
@@ -1397,87 +1421,135 @@
         "target": "Manoel Francisco dos Santos",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Nilton de Sordi",
+        "target": "Édson Arantes do Nascimento",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Gylmar dos Santos Neves",
+        "target": "Hideraldo Luis Bellini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gylmar dos Santos Neves",
+        "target": "Orlando Peçanha de Carvalho",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Orlando Peçanha de Carvalho",
+        "target": "Gylmar dos Santos Neves",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Orlando Peçanha de Carvalho",
+        "target": "Hideraldo Luis Bellini",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Orlando Peçanha de Carvalho",
+        "target": "Nilton dos Reis Santos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hideraldo Luis Bellini",
+        "target": "Gylmar dos Santos Neves",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hideraldo Luis Bellini",
+        "target": "Orlando Peçanha de Carvalho",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Just Louis Fontaine",
-        "short": "Fontaine",
-        "x": 52.43,
-        "y": 37.08,
-        "size": 130.4,
-        "is_playmaker": false,
-        "betweenness": 0.0222,
-        "eigenvector": 0.5245
-      },
-      {
-        "id": "Raymond Kopaszewski Wlodarczyck",
-        "short": "Wlodarczyck",
-        "x": 51.1,
-        "y": 36.08,
-        "size": 133.3,
-        "is_playmaker": true,
-        "betweenness": 0.1,
-        "eigenvector": 0.5584
-      },
-      {
         "id": "Maryan Wisnieski",
         "short": "Wisnieski",
         "x": 49.54,
         "y": 68.51,
-        "size": 137.6,
+        "size": 131.5,
         "is_playmaker": true,
-        "betweenness": 0.1444,
-        "eigenvector": 0.3293
+        "betweenness": 0.1889,
+        "eigenvector": 0.2884
       },
       {
         "id": "Armand Penverne",
         "short": "Penverne",
         "x": 75.92,
         "y": 55.32,
-        "size": 110.1,
+        "size": 104.4,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.21
+        "betweenness": 0.0,
+        "eigenvector": 0.1598
       },
       {
-        "id": "Claude Abbes",
-        "short": "Abbes",
-        "x": 109.76,
-        "y": 40.89,
-        "size": 79.6,
+        "id": "Raymond Kopaszewski Wlodarczyck",
+        "short": "Wlodarczyck",
+        "x": 51.1,
+        "y": 36.08,
+        "size": 130.3,
+        "is_playmaker": true,
+        "betweenness": 0.2389,
+        "eigenvector": 0.5527
+      },
+      {
+        "id": "Just Louis Fontaine",
+        "short": "Fontaine",
+        "x": 52.43,
+        "y": 37.08,
+        "size": 123.2,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.5611
       },
       {
         "id": "Jean Vincent",
         "short": "Vincent",
         "x": 61.61,
         "y": 41.3,
-        "size": 94.1,
+        "size": 96.2,
         "is_playmaker": false,
-        "betweenness": 0.0111,
-        "eigenvector": 0.067
+        "betweenness": 0.0,
+        "eigenvector": 0.1464
       },
       {
         "id": "Roger Piantoni",
         "short": "Piantoni",
         "x": 56.24,
         "y": 41.33,
-        "size": 92.7,
+        "size": 99.7,
         "is_playmaker": false,
-        "betweenness": 0.0111,
-        "eigenvector": 0.5061
+        "betweenness": 0.0222,
+        "eigenvector": 0.4969
+      },
+      {
+        "id": "Claude Abbes",
+        "short": "Abbes",
+        "x": 109.76,
+        "y": 40.89,
+        "size": 77.4,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0
       },
       {
         "id": "Jean-Jacques Marcel",
         "short": "Marcel",
         "x": 93.17,
         "y": 41.21,
-        "size": 62.2,
+        "size": 63.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1487,17 +1559,7 @@
         "short": "Kaelbel",
         "x": 87.76,
         "y": 55.62,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Andre Lerond",
-        "short": "Lerond",
-        "x": 90.83,
-        "y": 14.31,
-        "size": 55.0,
+        "size": 59.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1507,43 +1569,23 @@
         "short": "Jonquet",
         "x": 58.28,
         "y": 21.47,
-        "size": 55.0,
+        "size": 59.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1833,
+        "eigenvector": 0.0514
+      },
+      {
+        "id": "Andre Lerond",
+        "short": "Lerond",
+        "x": 90.83,
+        "y": 14.31,
+        "size": 59.7,
+        "is_playmaker": false,
+        "betweenness": 0.1,
         "eigenvector": 0.0
       }
     ],
     "edges": [
-      {
-        "source": "Just Louis Fontaine",
-        "target": "Raymond Kopaszewski Wlodarczyck",
-        "weight": 10,
-        "direction": "lateral"
-      },
-      {
-        "source": "Just Louis Fontaine",
-        "target": "Roger Piantoni",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "Raymond Kopaszewski Wlodarczyck",
-        "target": "Maryan Wisnieski",
-        "weight": 6,
-        "direction": "lateral"
-      },
-      {
-        "source": "Raymond Kopaszewski Wlodarczyck",
-        "target": "Just Louis Fontaine",
-        "weight": 12,
-        "direction": "lateral"
-      },
-      {
-        "source": "Raymond Kopaszewski Wlodarczyck",
-        "target": "Roger Piantoni",
-        "weight": 6,
-        "direction": "forward"
-      },
       {
         "source": "Maryan Wisnieski",
         "target": "Armand Penverne",
@@ -1552,15 +1594,27 @@
       },
       {
         "source": "Maryan Wisnieski",
+        "target": "Just Louis Fontaine",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Maryan Wisnieski",
         "target": "Roger Piantoni",
         "weight": 6,
         "direction": "forward"
       },
       {
         "source": "Maryan Wisnieski",
-        "target": "Just Louis Fontaine",
-        "weight": 8,
+        "target": "Raymond Kopaszewski Wlodarczyck",
+        "weight": 4,
         "direction": "lateral"
+      },
+      {
+        "source": "Armand Penverne",
+        "target": "Maryan Wisnieski",
+        "weight": 11,
+        "direction": "backward"
       },
       {
         "source": "Armand Penverne",
@@ -1576,20 +1630,68 @@
       },
       {
         "source": "Armand Penverne",
-        "target": "Maryan Wisnieski",
-        "weight": 11,
+        "target": "Roger Piantoni",
+        "weight": 4,
         "direction": "backward"
       },
       {
-        "source": "Claude Abbes",
+        "source": "Raymond Kopaszewski Wlodarczyck",
         "target": "Just Louis Fontaine",
+        "weight": 12,
+        "direction": "lateral"
+      },
+      {
+        "source": "Raymond Kopaszewski Wlodarczyck",
+        "target": "Maryan Wisnieski",
         "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Raymond Kopaszewski Wlodarczyck",
+        "target": "Roger Piantoni",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Raymond Kopaszewski Wlodarczyck",
+        "target": "Jean Vincent",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Raymond Kopaszewski Wlodarczyck",
+        "target": "Robert Jonquet",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Just Louis Fontaine",
+        "target": "Raymond Kopaszewski Wlodarczyck",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Just Louis Fontaine",
+        "target": "Roger Piantoni",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Just Louis Fontaine",
+        "target": "Robert Jonquet",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jean Vincent",
+        "target": "Maryan Wisnieski",
+        "weight": 8,
         "direction": "backward"
       },
       {
-        "source": "Claude Abbes",
-        "target": "Maryan Wisnieski",
-        "weight": 6,
+        "source": "Jean Vincent",
+        "target": "Just Louis Fontaine",
+        "weight": 8,
         "direction": "backward"
       },
       {
@@ -1600,14 +1702,8 @@
       },
       {
         "source": "Jean Vincent",
-        "target": "Maryan Wisnieski",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Jean Vincent",
-        "target": "Just Louis Fontaine",
-        "weight": 8,
+        "target": "Roger Piantoni",
+        "weight": 4,
         "direction": "backward"
       },
       {
@@ -1617,9 +1713,69 @@
         "direction": "backward"
       },
       {
+        "source": "Roger Piantoni",
+        "target": "Just Louis Fontaine",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Claude Abbes",
+        "target": "Just Louis Fontaine",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Claude Abbes",
+        "target": "Maryan Wisnieski",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Claude Abbes",
+        "target": "Andre Lerond",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jean-Jacques Marcel",
         "target": "Claude Abbes",
         "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jean-Jacques Marcel",
+        "target": "Andre Lerond",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Raymond Kaelbel",
+        "target": "Maryan Wisnieski",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Jonquet",
+        "target": "Raymond Kopaszewski Wlodarczyck",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Jonquet",
+        "target": "Just Louis Fontaine",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Andre Lerond",
+        "target": "Jean-Jacques Marcel",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Andre Lerond",
+        "target": "Claude Abbes",
+        "weight": 1,
         "direction": "forward"
       }
     ]

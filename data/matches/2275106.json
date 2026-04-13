@@ -737,122 +737,112 @@
       {
         "id": "Stephanie Houghton",
         "short": "Houghton",
-        "x": 40.43,
-        "y": 56.72,
-        "size": 118.5,
+        "x": 40.57,
+        "y": 56.46,
+        "size": 116.4,
         "is_playmaker": true,
-        "betweenness": 0.1545,
-        "eigenvector": 0.4383
+        "betweenness": 0.3111,
+        "eigenvector": 0.4236
       },
       {
         "id": "Georgia Stanway",
         "short": "Stanway",
         "x": 64.26,
         "y": 71.97,
-        "size": 81.3,
+        "size": 95.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2588
+        "betweenness": 0.2111,
+        "eigenvector": 0.2683
       },
       {
         "id": "Demi Stokes",
         "short": "Stokes",
         "x": 53.43,
         "y": 8.75,
-        "size": 128.0,
+        "size": 118.3,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.4442
+        "betweenness": 0.0111,
+        "eigenvector": 0.4265
       },
       {
         "id": "Gemma Bonner",
         "short": "Bonner",
-        "x": 35.96,
-        "y": 23.74,
-        "size": 133.8,
-        "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.5116
+        "x": 36.27,
+        "y": 24.02,
+        "size": 123.4,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.4994
       },
       {
         "id": "Caroline Weir",
         "short": "Weir",
         "x": 67.03,
         "y": 32.97,
-        "size": 133.8,
-        "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.3978
+        "size": 124.6,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.3989
       },
       {
         "id": "Keira Walsh",
         "short": "Walsh",
         "x": 62.2,
         "y": 37.46,
-        "size": 93.0,
+        "size": 93.6,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.2463
+        "betweenness": 0.1444,
+        "eigenvector": 0.2943
       },
       {
         "id": "Lauren Hemp",
         "short": "Hemp",
         "x": 78.45,
         "y": 9.95,
-        "size": 79.8,
+        "size": 77.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2169
+        "betweenness": 0.0611,
+        "eigenvector": 0.208
       },
       {
         "id": "Ellie Roebuck",
         "short": "Roebuck",
         "x": 11.22,
         "y": 39.95,
-        "size": 71.8,
+        "size": 69.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1259
-      },
-      {
-        "id": "Tessa Wullaert",
-        "short": "Wullaert",
-        "x": 86.86,
-        "y": 43.28,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1198
       },
       {
         "id": "Jill Scott",
         "short": "Scott",
         "x": 82.67,
         "y": 57.8,
-        "size": 55.0,
+        "size": 67.7,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.1016
+      },
+      {
+        "id": "Tessa Wullaert",
+        "short": "Wullaert",
+        "x": 86.86,
+        "y": 43.28,
+        "size": 60.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0579
       },
       {
         "id": "Ellen White",
         "short": "White",
         "x": 77.97,
         "y": 24.82,
-        "size": 55.0,
+        "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pauline Bremer",
-        "short": "Bremer",
-        "x": 37.4,
-        "y": 9.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2056,
+        "eigenvector": 0.0146
       }
     ],
     "edges": [
@@ -869,10 +859,28 @@
         "direction": "backward"
       },
       {
+        "source": "Stephanie Houghton",
+        "target": "Jill Scott",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
         "source": "Georgia Stanway",
         "target": "Stephanie Houghton",
         "weight": 12,
         "direction": "backward"
+      },
+      {
+        "source": "Georgia Stanway",
+        "target": "Keira Walsh",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Georgia Stanway",
+        "target": "Tessa Wullaert",
+        "weight": 9,
+        "direction": "forward"
       },
       {
         "source": "Demi Stokes",
@@ -953,6 +961,12 @@
         "direction": "backward"
       },
       {
+        "source": "Caroline Weir",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Keira Walsh",
         "target": "Caroline Weir",
         "weight": 17,
@@ -971,159 +985,151 @@
         "direction": "backward"
       },
       {
+        "source": "Lauren Hemp",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Ellie Roebuck",
         "target": "Stephanie Houghton",
         "weight": 13,
         "direction": "forward"
+      },
+      {
+        "source": "Jill Scott",
+        "target": "Georgia Stanway",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Caroline Weir",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Lauren Hemp",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Gemma Evans",
-        "short": "Evans",
-        "x": 86.4,
-        "y": 17.88,
-        "size": 114.1,
-        "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.4375
-      },
-      {
         "id": "Sophie Baggaley",
         "short": "Baggaley",
         "x": 108.31,
         "y": 38.25,
-        "size": 127.5,
+        "size": 107.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4119
-      },
-      {
-        "id": "Faye Bryson",
-        "short": "Bryson",
-        "x": 66.73,
-        "y": 68.64,
-        "size": 116.7,
-        "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.3652
-      },
-      {
-        "id": "Frankie Brown",
-        "short": "Brown",
-        "x": 76.34,
-        "y": 46.67,
-        "size": 80.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1131
-      },
-      {
-        "id": "Yana Daniëls",
-        "short": "Daniëls",
-        "x": 54.31,
-        "y": 43.1,
-        "size": 76.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1272
+        "eigenvector": 0.386
       },
       {
         "id": "Jasmine Matthews",
         "short": "Matthews",
-        "x": 86.05,
-        "y": 61.48,
-        "size": 175.8,
+        "x": 86.78,
+        "y": 61.11,
+        "size": 142.0,
         "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.5698
+        "betweenness": 0.3444,
+        "eigenvector": 0.5467
+      },
+      {
+        "id": "Gemma Evans",
+        "short": "Evans",
+        "x": 88.16,
+        "y": 17.8,
+        "size": 108.1,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.463
+      },
+      {
+        "id": "Faye Bryson",
+        "short": "Bryson",
+        "x": 67.6,
+        "y": 68.23,
+        "size": 104.3,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.3256
+      },
+      {
+        "id": "Frankie Brown",
+        "short": "Brown",
+        "x": 76.27,
+        "y": 48.11,
+        "size": 79.2,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.1952
       },
       {
         "id": "Olivia Chance",
         "short": "Chance",
-        "x": 77.91,
-        "y": 36.51,
-        "size": 93.9,
+        "x": 77.82,
+        "y": 36.62,
+        "size": 109.1,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.3898
+        "betweenness": 0.2556,
+        "eigenvector": 0.4108
+      },
+      {
+        "id": "Yana Daniëls",
+        "short": "Daniëls",
+        "x": 54.24,
+        "y": 43.77,
+        "size": 88.8,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.1109
       },
       {
         "id": "Charlie Wellings",
         "short": "Wellings",
-        "x": 67.83,
-        "y": 38.7,
-        "size": 55.0,
+        "x": 70.41,
+        "y": 40.45,
+        "size": 70.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0931
       },
       {
         "id": "Poppy Pattinson",
         "short": "Pattinson",
         "x": 69.87,
         "y": 11.08,
-        "size": 55.0,
+        "size": 75.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ga-Eul Jeon",
-        "short": "Jeon",
-        "x": 52.32,
-        "y": 38.22,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.0201
       },
       {
         "id": "Katie Robinson",
         "short": "Robinson",
         "x": 37.09,
         "y": 41.46,
-        "size": 55.0,
+        "size": 61.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2556,
+        "eigenvector": 0.0593
       },
       {
-        "id": "Ebony Salmon",
-        "short": "Salmon",
-        "x": 84.25,
-        "y": 9.2,
-        "size": 55.0,
+        "id": "Ga-Eul Jeon",
+        "short": "Jeon",
+        "x": 52.32,
+        "y": 38.22,
+        "size": 58.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Megan Wynne",
-        "short": "Wynne",
-        "x": 30.9,
-        "y": 80.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3,
+        "eigenvector": 0.0062
       }
     ],
     "edges": [
-      {
-        "source": "Gemma Evans",
-        "target": "Sophie Baggaley",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Gemma Evans",
-        "target": "Olivia Chance",
-        "weight": 10,
-        "direction": "backward"
-      },
       {
         "source": "Sophie Baggaley",
         "target": "Jasmine Matthews",
@@ -1137,45 +1143,9 @@
         "direction": "backward"
       },
       {
-        "source": "Faye Bryson",
-        "target": "Frankie Brown",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Faye Bryson",
-        "target": "Yana Daniëls",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Faye Bryson",
-        "target": "Jasmine Matthews",
-        "weight": 7,
-        "direction": "forward"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Jasmine Matthews",
-        "weight": 11,
-        "direction": "forward"
-      },
-      {
-        "source": "Yana Daniëls",
+        "source": "Jasmine Matthews",
         "target": "Faye Bryson",
-        "weight": 7,
-        "direction": "forward"
-      },
-      {
-        "source": "Jasmine Matthews",
-        "target": "Gemma Evans",
-        "weight": 9,
-        "direction": "lateral"
-      },
-      {
-        "source": "Jasmine Matthews",
-        "target": "Olivia Chance",
-        "weight": 10,
+        "weight": 15,
         "direction": "backward"
       },
       {
@@ -1186,15 +1156,147 @@
       },
       {
         "source": "Jasmine Matthews",
-        "target": "Faye Bryson",
-        "weight": 15,
+        "target": "Olivia Chance",
+        "weight": 10,
         "direction": "backward"
+      },
+      {
+        "source": "Jasmine Matthews",
+        "target": "Gemma Evans",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gemma Evans",
+        "target": "Sophie Baggaley",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Gemma Evans",
+        "target": "Olivia Chance",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Gemma Evans",
+        "target": "Frankie Brown",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Faye Bryson",
+        "target": "Yana Daniëls",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Faye Bryson",
+        "target": "Frankie Brown",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Faye Bryson",
+        "target": "Jasmine Matthews",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Faye Bryson",
+        "target": "Katie Robinson",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Jasmine Matthews",
+        "weight": 11,
+        "direction": "forward"
       },
       {
         "source": "Olivia Chance",
         "target": "Jasmine Matthews",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Olivia Chance",
+        "target": "Charlie Wellings",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Olivia Chance",
+        "target": "Gemma Evans",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Yana Daniëls",
+        "target": "Faye Bryson",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Yana Daniëls",
+        "target": "Olivia Chance",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Yana Daniëls",
+        "target": "Poppy Pattinson",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Yana Daniëls",
+        "target": "Ga-Eul Jeon",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Charlie Wellings",
+        "target": "Olivia Chance",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Poppy Pattinson",
+        "target": "Yana Daniëls",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Poppy Pattinson",
+        "target": "Charlie Wellings",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Poppy Pattinson",
+        "target": "Olivia Chance",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Katie Robinson",
+        "target": "Ga-Eul Jeon",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ga-Eul Jeon",
+        "target": "Yana Daniëls",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ga-Eul Jeon",
+        "target": "Katie Robinson",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

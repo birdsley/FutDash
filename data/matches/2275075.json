@@ -893,79 +893,99 @@
       {
         "id": "Grace Moloney",
         "short": "Moloney",
-        "x": 12.62,
-        "y": 39.75,
-        "size": 160.9,
-        "is_playmaker": true,
-        "betweenness": 0.0182,
-        "eigenvector": 0.0
+        "x": 11.23,
+        "y": 40.65,
+        "size": 89.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2193
       },
       {
         "id": "Josanne Potter",
         "short": "Potter",
-        "x": 46.03,
-        "y": 33.78,
-        "size": 149.1,
-        "is_playmaker": true,
-        "betweenness": 0.0182,
-        "eigenvector": 0.0022
+        "x": 46.81,
+        "y": 33.06,
+        "size": 93.8,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.2968
       },
       {
         "id": "Kristine Leine",
         "short": "Leine",
-        "x": 56.81,
-        "y": 66.67,
-        "size": 160.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 56.71,
+        "y": 67.11,
+        "size": 126.6,
+        "is_playmaker": true,
+        "betweenness": 0.1833,
+        "eigenvector": 0.2748
       },
       {
         "id": "Jade Moore",
         "short": "Moore",
         "x": 60.82,
         "y": 48.33,
-        "size": 107.9,
+        "size": 92.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.05,
+        "eigenvector": 0.3316
       },
       {
         "id": "Sophie Howard",
         "short": "Howard",
         "x": 42.16,
         "y": 52.49,
-        "size": 96.2,
+        "size": 77.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.1842
+      },
+      {
+        "id": "Brooke Chaplen",
+        "short": "Chaplen",
+        "x": 88.58,
+        "y": 49.02,
+        "size": 95.3,
+        "is_playmaker": true,
+        "betweenness": 0.1,
+        "eigenvector": 0.3226
       },
       {
         "id": "Fara Williams",
         "short": "Williams",
-        "x": 84.2,
-        "y": 40.06,
-        "size": 55.0,
+        "x": 82.19,
+        "y": 36.89,
+        "size": 101.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.5623
       },
       {
         "id": "Angharad James",
         "short": "James",
-        "x": 76.24,
-        "y": 62.65,
-        "size": 55.0,
+        "x": 75.03,
+        "y": 62.89,
+        "size": 84.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0556,
+        "eigenvector": 0.2534
       },
       {
         "id": "Remi Allen",
         "short": "Allen",
         "x": 70.73,
         "y": 28.57,
-        "size": 55.0,
+        "size": 83.4,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.2083
+      },
+      {
+        "id": "Mayumi Pacheco",
+        "short": "Pacheco",
+        "x": 70.52,
+        "y": 12.38,
+        "size": 75.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -973,42 +993,12 @@
       {
         "id": "Amalie Vevle Eikeland",
         "short": "Eikeland",
-        "x": 83.81,
-        "y": 51.32,
-        "size": 55.0,
+        "x": 82.42,
+        "y": 49.69,
+        "size": 84.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Brooke Chaplen",
-        "short": "Chaplen",
-        "x": 89.23,
-        "y": 49.08,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mayumi Pacheco",
-        "short": "Pacheco",
-        "x": 70.52,
-        "y": 12.38,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rachel Rowe",
-        "short": "Rowe",
-        "x": 68.82,
-        "y": 67.7,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3416
       }
     ],
     "edges": [
@@ -1019,10 +1009,22 @@
         "direction": "forward"
       },
       {
+        "source": "Grace Moloney",
+        "target": "Kristine Leine",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Josanne Potter",
         "target": "Sophie Howard",
         "weight": 7,
-        "direction": "lateral"
+        "direction": "backward"
+      },
+      {
+        "source": "Josanne Potter",
+        "target": "Angharad James",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Kristine Leine",
@@ -1035,6 +1037,114 @@
         "target": "Grace Moloney",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Kristine Leine",
+        "target": "Brooke Chaplen",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Kristine Leine",
+        "target": "Josanne Potter",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Kristine Leine",
+        "target": "Angharad James",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jade Moore",
+        "target": "Brooke Chaplen",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Jade Moore",
+        "target": "Fara Williams",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Sophie Howard",
+        "target": "Remi Allen",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sophie Howard",
+        "target": "Kristine Leine",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Brooke Chaplen",
+        "target": "Fara Williams",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Brooke Chaplen",
+        "target": "Remi Allen",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Fara Williams",
+        "target": "Amalie Vevle Eikeland",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Angharad James",
+        "target": "Kristine Leine",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Angharad James",
+        "target": "Jade Moore",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Remi Allen",
+        "target": "Fara Williams",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Remi Allen",
+        "target": "Amalie Vevle Eikeland",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Amalie Vevle Eikeland",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Fara Williams",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Brooke Chaplen",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Amalie Vevle Eikeland",
+        "target": "Fara Williams",
+        "weight": 5,
+        "direction": "lateral"
       }
     ]
   },
@@ -1045,130 +1155,110 @@
         "short": "Worm",
         "x": 70.9,
         "y": 11.54,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "size": 120.7,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0146
       },
       {
         "id": "Gemma Suzanne Davison",
         "short": "Davison",
         "x": 45.86,
         "y": 30.27,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Kit Graham",
-        "short": "Graham",
-        "x": 43.22,
-        "y": 56.07,
-        "size": 55.0,
+        "size": 80.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Ria Percival",
-        "short": "Percival",
-        "x": 55.77,
-        "y": 44.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0235
       },
       {
         "id": "Josie Green",
         "short": "Green",
         "x": 58.12,
         "y": 39.51,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Ashleigh Neville",
-        "short": "Neville",
-        "x": 63.92,
-        "y": 70.16,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "size": 112.1,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.3709
       },
       {
         "id": "Chloe Peplow",
         "short": "Peplow",
         "x": 62.9,
         "y": 46.36,
-        "size": 55.0,
+        "size": 115.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Rianna Dean",
-        "short": "Dean",
-        "x": 54.88,
-        "y": 37.69,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.0778,
+        "eigenvector": 0.3318
       },
       {
         "id": "Hannah Godfrey",
         "short": "Godfrey",
         "x": 79.59,
         "y": 52.19,
-        "size": 55.0,
+        "size": 92.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.0556,
+        "eigenvector": 0.3093
       },
       {
-        "id": "Anna Filbey",
-        "short": "Filbey",
-        "x": 78.04,
-        "y": 27.36,
-        "size": 55.0,
+        "id": "Kit Graham",
+        "short": "Graham",
+        "x": 43.96,
+        "y": 57.18,
+        "size": 103.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.6329
+      },
+      {
+        "id": "Ria Percival",
+        "short": "Percival",
+        "x": 55.77,
+        "y": 44.64,
+        "size": 89.3,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.3189
+      },
+      {
+        "id": "Ashleigh Neville",
+        "short": "Neville",
+        "x": 62.82,
+        "y": 70.48,
+        "size": 86.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3562
+      },
+      {
+        "id": "Rianna Dean",
+        "short": "Dean",
+        "x": 54.88,
+        "y": 37.69,
+        "size": 66.4,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.1234
       },
       {
         "id": "Rebecca Leigh Spencer",
         "short": "Spencer",
         "x": 111.36,
         "y": 43.03,
-        "size": 55.0,
+        "size": 66.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1889,
+        "eigenvector": 0.0699
       },
       {
-        "id": "Chloe Morgan",
-        "short": "Morgan",
-        "x": 112.85,
-        "y": 47.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Lucy Quinn",
-        "short": "Quinn",
-        "x": 2.6,
-        "y": 60.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "id": "Anna Filbey",
+        "short": "Filbey",
+        "x": 78.04,
+        "y": 27.36,
+        "size": 72.1,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.0815
       }
     ],
     "edges": [
@@ -1176,6 +1266,132 @@
         "source": "Siri Worm",
         "target": "Gemma Suzanne Davison",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Siri Worm",
+        "target": "Josie Green",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Siri Worm",
+        "target": "Kit Graham",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Siri Worm",
+        "target": "Anna Filbey",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Josie Green",
+        "target": "Chloe Peplow",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Josie Green",
+        "target": "Rianna Dean",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Josie Green",
+        "target": "Anna Filbey",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Chloe Peplow",
+        "target": "Hannah Godfrey",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Chloe Peplow",
+        "target": "Ria Percival",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Chloe Peplow",
+        "target": "Ashleigh Neville",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hannah Godfrey",
+        "target": "Kit Graham",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Hannah Godfrey",
+        "target": "Rebecca Leigh Spencer",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ria Percival",
+        "target": "Kit Graham",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ria Percival",
+        "target": "Rianna Dean",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ashleigh Neville",
+        "target": "Josie Green",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Rianna Dean",
+        "target": "Josie Green",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rianna Dean",
+        "target": "Ria Percival",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rebecca Leigh Spencer",
+        "target": "Hannah Godfrey",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Rebecca Leigh Spencer",
+        "target": "Anna Filbey",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Anna Filbey",
+        "target": "Rebecca Leigh Spencer",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Anna Filbey",
+        "target": "Siri Worm",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Anna Filbey",
+        "target": "Josie Green",
+        "weight": 1,
         "direction": "backward"
       }
     ]

@@ -711,23 +711,33 @@
   "network_home": {
     "nodes": [
       {
-        "id": "Heurelho da Silva Gomes",
-        "short": "Gomes",
-        "x": 10.08,
-        "y": 41.82,
-        "size": 89.3,
+        "id": "Odion Jude Ighalo",
+        "short": "Ighalo",
+        "x": 70.83,
+        "y": 40.16,
+        "size": 94.5,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.4839
       },
       {
         "id": "Troy Deeney",
         "short": "Deeney",
-        "x": 69.35,
-        "y": 27.64,
-        "size": 89.3,
+        "x": 66.49,
+        "y": 29.0,
+        "size": 110.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1389,
+        "eigenvector": 0.4214
+      },
+      {
+        "id": "Heurelho da Silva Gomes",
+        "short": "Gomes",
+        "x": 10.53,
+        "y": 41.58,
+        "size": 73.6,
+        "is_playmaker": false,
+        "betweenness": 0.0722,
         "eigenvector": 0.0
       },
       {
@@ -735,79 +745,69 @@
         "short": "Nyom",
         "x": 71.68,
         "y": 72.18,
-        "size": 146.4,
+        "size": 110.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6708
+        "betweenness": 0.0222,
+        "eigenvector": 0.4908
       },
       {
         "id": "Etienne Capoue",
         "short": "Capoue",
-        "x": 65.91,
-        "y": 53.36,
-        "size": 180.7,
+        "x": 66.25,
+        "y": 56.74,
+        "size": 141.0,
         "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.5916
+        "betweenness": 0.1833,
+        "eigenvector": 0.4685
       },
       {
         "id": "José Manuel Jurado Marín",
         "short": "Marín",
         "x": 66.76,
         "y": 18.89,
-        "size": 95.0,
+        "size": 87.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.1959
       },
       {
         "id": "Nathan Aké",
         "short": "Aké",
         "x": 61.36,
         "y": 8.83,
-        "size": 95.0,
+        "size": 87.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Odion Jude Ighalo",
-        "short": "Ighalo",
-        "x": 70.83,
-        "y": 40.16,
-        "size": 89.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4472
+        "betweenness": 0.0222,
+        "eigenvector": 0.1349
       },
       {
         "id": "Ben Watson",
         "short": "Watson",
-        "x": 65.81,
-        "y": 35.61,
-        "size": 55.0,
+        "x": 63.96,
+        "y": 39.7,
+        "size": 78.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1844
       },
       {
         "id": "Almen Abdi",
         "short": "Abdi",
         "x": 75.14,
         "y": 61.95,
-        "size": 55.0,
+        "size": 89.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1167,
+        "eigenvector": 0.1932
       },
       {
         "id": "Miguel Ángel Britos Cabrera",
         "short": "Cabrera",
         "x": 44.46,
         "y": 28.52,
-        "size": 55.0,
+        "size": 66.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0889,
         "eigenvector": 0.0
       },
       {
@@ -815,33 +815,31 @@
         "short": "Cathcart",
         "x": 32.8,
         "y": 43.82,
-        "size": 55.0,
+        "size": 64.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ikechi Anya",
-        "short": "Anya",
-        "x": 89.95,
-        "y": 2.37,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Valon Behrami",
-        "short": "Behrami",
-        "x": 48.77,
-        "y": 44.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0944,
         "eigenvector": 0.0
       }
     ],
     "edges": [
+      {
+        "source": "Odion Jude Ighalo",
+        "target": "Troy Deeney",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Odion Jude Ighalo",
+        "target": "José Manuel Jurado Marín",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Troy Deeney",
+        "target": "Odion Jude Ighalo",
+        "weight": 5,
+        "direction": "forward"
+      },
       {
         "source": "Heurelho da Silva Gomes",
         "target": "Troy Deeney",
@@ -849,10 +847,22 @@
         "direction": "forward"
       },
       {
+        "source": "Heurelho da Silva Gomes",
+        "target": "Craig Cathcart",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Allan Romeo Nyom",
         "target": "Etienne Capoue",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Allan Romeo Nyom",
+        "target": "Almen Abdi",
+        "weight": 4,
+        "direction": "lateral"
       },
       {
         "source": "Etienne Capoue",
@@ -867,9 +877,81 @@
         "direction": "forward"
       },
       {
+        "source": "Etienne Capoue",
+        "target": "Troy Deeney",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Etienne Capoue",
+        "target": "Ben Watson",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
         "source": "José Manuel Jurado Marín",
         "target": "Nathan Aké",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Nathan Aké",
+        "target": "José Manuel Jurado Marín",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Nathan Aké",
+        "target": "Troy Deeney",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Ben Watson",
+        "target": "Etienne Capoue",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ben Watson",
+        "target": "Troy Deeney",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Almen Abdi",
+        "target": "Allan Romeo Nyom",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Almen Abdi",
+        "target": "Etienne Capoue",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Miguel Ángel Britos Cabrera",
+        "target": "Almen Abdi",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Miguel Ángel Britos Cabrera",
+        "target": "Craig Cathcart",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Craig Cathcart",
+        "target": "Miguel Ángel Britos Cabrera",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Craig Cathcart",
+        "target": "Heurelho da Silva Gomes",
+        "weight": 1,
         "direction": "backward"
       }
     ]
@@ -877,152 +959,158 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Alberto Moreno Pérez",
-        "short": "Pérez",
-        "x": 59.91,
-        "y": 10.87,
-        "size": 146.9,
-        "is_playmaker": true,
-        "betweenness": 0.0192,
-        "eigenvector": 0.5316
-      },
-      {
-        "id": "Philippe Coutinho Correia",
-        "short": "Correia",
-        "x": 61.38,
-        "y": 21.47,
-        "size": 72.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2496
-      },
-      {
-        "id": "Mamadou Sakho",
-        "short": "Sakho",
-        "x": 77.51,
-        "y": 23.08,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.0321,
-        "eigenvector": 0.5529
-      },
-      {
-        "id": "Lucas Pezzini Leiva",
-        "short": "Leiva",
-        "x": 70.06,
-        "y": 44.81,
-        "size": 90.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2596
-      },
-      {
-        "id": "Emre Can",
-        "short": "Can",
-        "x": 62.9,
-        "y": 32.1,
-        "size": 126.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.531
-      },
-      {
         "id": "Nathaniel Edwin Clyne",
         "short": "Clyne",
-        "x": 60.67,
-        "y": 69.88,
-        "size": 96.9,
+        "x": 60.5,
+        "y": 69.84,
+        "size": 105.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0778,
+        "eigenvector": 0.1564
       },
       {
         "id": "Jordan Brian Henderson",
         "short": "Henderson",
-        "x": 51.67,
-        "y": 59.2,
-        "size": 96.9,
+        "x": 53.11,
+        "y": 57.83,
+        "size": 101.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1667,
+        "eigenvector": 0.2395
+      },
+      {
+        "id": "Alberto Moreno Pérez",
+        "short": "Pérez",
+        "x": 62.33,
+        "y": 10.43,
+        "size": 120.7,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.509
+      },
+      {
+        "id": "Emre Can",
+        "short": "Can",
+        "x": 62.48,
+        "y": 31.37,
+        "size": 120.7,
+        "is_playmaker": true,
+        "betweenness": 0.2056,
+        "eigenvector": 0.5036
+      },
+      {
+        "id": "Philippe Coutinho Correia",
+        "short": "Correia",
+        "x": 61.14,
+        "y": 22.18,
+        "size": 82.1,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3161
+      },
+      {
+        "id": "Mamadou Sakho",
+        "short": "Sakho",
+        "x": 77.31,
+        "y": 22.77,
+        "size": 124.6,
+        "is_playmaker": true,
+        "betweenness": 0.3722,
+        "eigenvector": 0.4599
+      },
+      {
+        "id": "Lucas Pezzini Leiva",
+        "short": "Leiva",
+        "x": 70.1,
+        "y": 44.86,
+        "size": 100.4,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.2638
       },
       {
         "id": "Adam David Lallana",
         "short": "Lallana",
-        "x": 58.01,
-        "y": 37.65,
-        "size": 55.0,
+        "x": 56.22,
+        "y": 38.65,
+        "size": 62.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1349
       },
       {
         "id": "Roberto Firmino Barbosa de Oliveira",
         "short": "Oliveira",
         "x": 57.41,
         "y": 36.58,
-        "size": 55.0,
+        "size": 65.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.0695
       },
       {
         "id": "Martin Škrtel",
         "short": "Škrtel",
         "x": 79.3,
         "y": 59.16,
-        "size": 55.0,
+        "size": 62.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Divock Okoth Origi",
-        "short": "Origi",
-        "x": 38.19,
-        "y": 32.87,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.0351
       },
       {
         "id": "Ádám Bogdán",
         "short": "Bogdán",
-        "x": 110.15,
-        "y": 40.25,
-        "size": 55.0,
+        "x": 109.03,
+        "y": 40.32,
+        "size": 58.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jordon Ibe",
-        "short": "Ibe",
-        "x": 55.95,
-        "y": 65.76,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Christian Benteke Liolo",
-        "short": "Liolo",
-        "x": 41.93,
-        "y": 45.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0181
       }
     ],
     "edges": [
       {
-        "source": "Alberto Moreno Pérez",
-        "target": "Philippe Coutinho Correia",
-        "weight": 11,
+        "source": "Nathaniel Edwin Clyne",
+        "target": "Jordan Brian Henderson",
+        "weight": 17,
+        "direction": "backward"
+      },
+      {
+        "source": "Nathaniel Edwin Clyne",
+        "target": "Martin Škrtel",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Nathaniel Edwin Clyne",
+        "target": "Lucas Pezzini Leiva",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Nathaniel Edwin Clyne",
+        "target": "Emre Can",
+        "weight": 6,
         "direction": "lateral"
+      },
+      {
+        "source": "Jordan Brian Henderson",
+        "target": "Nathaniel Edwin Clyne",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Jordan Brian Henderson",
+        "target": "Lucas Pezzini Leiva",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jordan Brian Henderson",
+        "target": "Alberto Moreno Pérez",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Alberto Moreno Pérez",
@@ -1032,13 +1120,61 @@
       },
       {
         "source": "Alberto Moreno Pérez",
+        "target": "Philippe Coutinho Correia",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alberto Moreno Pérez",
         "target": "Mamadou Sakho",
         "weight": 10,
         "direction": "forward"
       },
       {
+        "source": "Emre Can",
+        "target": "Alberto Moreno Pérez",
+        "weight": 12,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emre Can",
+        "target": "Mamadou Sakho",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Emre Can",
+        "target": "Jordan Brian Henderson",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Emre Can",
+        "target": "Philippe Coutinho Correia",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Philippe Coutinho Correia",
+        "target": "Roberto Firmino Barbosa de Oliveira",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Philippe Coutinho Correia",
+        "target": "Emre Can",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
         "source": "Mamadou Sakho",
         "target": "Lucas Pezzini Leiva",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Mamadou Sakho",
+        "target": "Alberto Moreno Pérez",
         "weight": 11,
         "direction": "backward"
       },
@@ -1050,9 +1186,15 @@
       },
       {
         "source": "Mamadou Sakho",
-        "target": "Alberto Moreno Pérez",
-        "weight": 11,
+        "target": "Adam David Lallana",
+        "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Mamadou Sakho",
+        "target": "Ádám Bogdán",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Lucas Pezzini Leiva",
@@ -1061,28 +1203,40 @@
         "direction": "forward"
       },
       {
-        "source": "Emre Can",
-        "target": "Mamadou Sakho",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Emre Can",
-        "target": "Alberto Moreno Pérez",
-        "weight": 12,
-        "direction": "lateral"
-      },
-      {
-        "source": "Nathaniel Edwin Clyne",
-        "target": "Jordan Brian Henderson",
-        "weight": 17,
+        "source": "Lucas Pezzini Leiva",
+        "target": "Nathaniel Edwin Clyne",
+        "weight": 8,
         "direction": "backward"
       },
       {
-        "source": "Jordan Brian Henderson",
-        "target": "Nathaniel Edwin Clyne",
-        "weight": 9,
+        "source": "Lucas Pezzini Leiva",
+        "target": "Alberto Moreno Pérez",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Firmino Barbosa de Oliveira",
+        "target": "Jordan Brian Henderson",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Martin Škrtel",
+        "target": "Ádám Bogdán",
+        "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Ádám Bogdán",
+        "target": "Martin Škrtel",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ádám Bogdán",
+        "target": "Mamadou Sakho",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

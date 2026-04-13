@@ -787,69 +787,69 @@
         "short": "Marco",
         "x": 63.66,
         "y": 39.72,
-        "size": 185.0,
+        "size": 153.0,
         "is_playmaker": true,
-        "betweenness": 0.0318,
-        "eigenvector": 0.5017
+        "betweenness": 0.4,
+        "eigenvector": 0.5785
       },
       {
         "id": "Diego Armando Maradona",
         "short": "Maradona",
-        "x": 65.39,
-        "y": 46.86,
-        "size": 102.5,
+        "x": 63.81,
+        "y": 43.51,
+        "size": 107.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7218
+        "betweenness": 0.0611,
+        "eigenvector": 0.5377
+      },
+      {
+        "id": "Jorge Benítez",
+        "short": "Benítez",
+        "x": 55.42,
+        "y": 25.54,
+        "size": 128.8,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.4966
       },
       {
         "id": "Vicente Alberto Pernía",
         "short": "Pernía",
         "x": 37.8,
         "y": 66.38,
-        "size": 77.5,
+        "size": 85.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Carlos Córdoba",
-        "short": "Córdoba",
-        "x": 51.32,
-        "y": 14.38,
-        "size": 87.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jorge Benítez",
-        "short": "Benítez",
-        "x": 55.63,
-        "y": 25.84,
-        "size": 170.0,
-        "is_playmaker": true,
-        "betweenness": 0.0409,
-        "eigenvector": 0.4285
+        "betweenness": 0.0278,
+        "eigenvector": 0.0593
       },
       {
         "id": "Ariel Krasouski",
         "short": "Krasouski",
         "x": 52.73,
         "y": 42.64,
-        "size": 107.5,
+        "size": 102.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2091
+        "betweenness": 0.1,
+        "eigenvector": 0.3025
+      },
+      {
+        "id": "Carlos Córdoba",
+        "short": "Córdoba",
+        "x": 50.54,
+        "y": 14.38,
+        "size": 91.2,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.1419
       },
       {
         "id": "Roberto Mouzo",
         "short": "Mouzo",
         "x": 30.94,
         "y": 40.14,
-        "size": 55.0,
+        "size": 73.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0611,
         "eigenvector": 0.0
       },
       {
@@ -857,19 +857,9 @@
         "short": "Zocola",
         "x": 32.27,
         "y": 32.12,
-        "size": 55.0,
+        "size": 72.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Hugo Perotti",
-        "short": "Perotti",
-        "x": 73.9,
-        "y": 25.33,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0556,
         "eigenvector": 0.0
       },
       {
@@ -877,7 +867,7 @@
         "short": "Rodríguez",
         "x": 12.35,
         "y": 41.55,
-        "size": 55.0,
+        "size": 67.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -887,20 +877,20 @@
         "short": "Escudero",
         "x": 68.67,
         "y": 34.37,
-        "size": 55.0,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1152
       },
       {
-        "id": "Carlos Manuel Morete Markov",
-        "short": "Markov",
-        "x": 71.15,
-        "y": 27.42,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Hugo Perotti",
+        "short": "Perotti",
+        "x": 73.9,
+        "y": 25.33,
+        "size": 60.4,
+        "is_playmaker": true,
+        "betweenness": 0.1667,
+        "eigenvector": 0.034
       }
     ],
     "edges": [
@@ -917,10 +907,88 @@
         "direction": "backward"
       },
       {
+        "source": "Miguel Ángel Brindisi de Marco",
+        "target": "Carlos Córdoba",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Miguel Ángel Brindisi de Marco",
+        "target": "Ariel Krasouski",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Miguel Ángel Brindisi de Marco",
+        "target": "Osvaldo Salvador Escudero",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Miguel Ángel Brindisi de Marco",
+        "target": "Hugo Perotti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Diego Armando Maradona",
+        "target": "Jorge Benítez",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Armando Maradona",
+        "target": "Miguel Ángel Brindisi de Marco",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jorge Benítez",
+        "target": "Miguel Ángel Brindisi de Marco",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Jorge Benítez",
+        "target": "Diego Armando Maradona",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Jorge Benítez",
+        "target": "Ariel Krasouski",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
         "source": "Vicente Alberto Pernía",
         "target": "Miguel Ángel Brindisi de Marco",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Vicente Alberto Pernía",
+        "target": "Ariel Krasouski",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Ariel Krasouski",
+        "target": "Miguel Ángel Brindisi de Marco",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Ariel Krasouski",
+        "target": "Jorge Benítez",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ariel Krasouski",
+        "target": "Vicente Alberto Pernía",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "Carlos Córdoba",
@@ -935,155 +1003,165 @@
         "direction": "forward"
       },
       {
-        "source": "Jorge Benítez",
+        "source": "Carlos Córdoba",
         "target": "Diego Armando Maradona",
-        "weight": 9,
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Jorge Benítez",
-        "target": "Miguel Ángel Brindisi de Marco",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Jorge Benítez",
-        "target": "Ariel Krasouski",
-        "weight": 6,
+        "source": "Roberto Mouzo",
+        "target": "Óscar Alfredo Ruggeri Zocola",
+        "weight": 5,
         "direction": "lateral"
       },
       {
-        "source": "Ariel Krasouski",
-        "target": "Miguel Ángel Brindisi de Marco",
-        "weight": 9,
+        "source": "Roberto Mouzo",
+        "target": "Diego Armando Maradona",
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Ariel Krasouski",
+        "source": "Óscar Alfredo Ruggeri Zocola",
+        "target": "Carlos Córdoba",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Óscar Alfredo Ruggeri Zocola",
         "target": "Jorge Benítez",
-        "weight": 6,
-        "direction": "lateral"
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Alberto Rodríguez",
+        "target": "Vicente Alberto Pernía",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Alberto Rodríguez",
+        "target": "Roberto Mouzo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Osvaldo Salvador Escudero",
+        "target": "Hugo Perotti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hugo Perotti",
+        "target": "Osvaldo Salvador Escudero",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hugo Perotti",
+        "target": "Miguel Ángel Brindisi de Marco",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Emilio Nicolás Commisso",
-        "short": "Commisso",
-        "x": 47.99,
-        "y": 16.93,
-        "size": 97.7,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.2948
+        "id": "Daniel Alberto Passarella",
+        "short": "Passarella",
+        "x": 73.33,
+        "y": 30.96,
+        "size": 152.3,
+        "is_playmaker": true,
+        "betweenness": 0.5389,
+        "eigenvector": 0.4022
       },
       {
-        "id": "Mario Alberto Kempes Chiodi",
-        "short": "Chiodi",
-        "x": 52.72,
-        "y": 34.86,
-        "size": 76.3,
+        "id": "José Luis Pavoni",
+        "short": "Pavoni",
+        "x": 78.33,
+        "y": 52.18,
+        "size": 86.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1965
+        "betweenness": 0.1556,
+        "eigenvector": 0.2117
       },
       {
         "id": "Alberto César Tarantini",
         "short": "Tarantini",
         "x": 61.49,
         "y": 9.55,
-        "size": 124.3,
-        "is_playmaker": true,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4422
-      },
-      {
-        "id": "Daniel Alberto Passarella",
-        "short": "Passarella",
-        "x": 73.33,
-        "y": 30.95,
-        "size": 164.3,
-        "is_playmaker": true,
-        "betweenness": 0.0758,
-        "eigenvector": 0.5896
-      },
-      {
-        "id": "José Luis Pavoni",
-        "short": "Pavoni",
-        "x": 77.42,
-        "y": 52.19,
-        "size": 124.3,
+        "size": 107.7,
         "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.4422
+        "betweenness": 0.0389,
+        "eigenvector": 0.2557
+      },
+      {
+        "id": "Emilio Nicolás Commisso",
+        "short": "Commisso",
+        "x": 45.92,
+        "y": 17.79,
+        "size": 91.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2594
+      },
+      {
+        "id": "Mario Alberto Kempes Chiodi",
+        "short": "Chiodi",
+        "x": 52.03,
+        "y": 35.13,
+        "size": 87.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.276
       },
       {
         "id": "Juan José López",
         "short": "López",
-        "x": 58.27,
-        "y": 34.98,
-        "size": 76.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 57.43,
+        "y": 34.18,
+        "size": 105.0,
+        "is_playmaker": true,
+        "betweenness": 0.3667,
+        "eigenvector": 0.5109
       },
       {
         "id": "Norberto Osvaldo Alonso",
         "short": "Alonso",
-        "x": 45.49,
-        "y": 31.79,
-        "size": 76.3,
+        "x": 45.08,
+        "y": 29.52,
+        "size": 106.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.534
       },
       {
         "id": "Ubaldo Matildo Fillol",
         "short": "Fillol",
-        "x": 107.78,
-        "y": 41.45,
-        "size": 73.7,
+        "x": 107.55,
+        "y": 41.82,
+        "size": 83.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Héctor López",
-        "short": "López",
-        "x": 66.06,
-        "y": 63.74,
-        "size": 81.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3685
-      },
-      {
-        "id": "Pedro Alexis González",
-        "short": "González",
-        "x": 47.17,
-        "y": 55.46,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.1552
       },
       {
         "id": "Reinaldo Carlos Merlo",
         "short": "Merlo",
         "x": 66.74,
         "y": 36.42,
-        "size": 55.0,
+        "size": 64.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.1181
       },
       {
-        "id": "Ramón Ángel Díaz",
-        "short": "Díaz",
-        "x": 36.53,
-        "y": 59.51,
-        "size": 55.0,
+        "id": "Pedro Alexis González",
+        "short": "González",
+        "x": 47.17,
+        "y": 55.46,
+        "size": 60.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1093,31 +1171,13 @@
         "short": "Saporiti",
         "x": 78.54,
         "y": 54.35,
-        "size": 55.0,
+        "size": 60.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0192
       }
     ],
     "edges": [
-      {
-        "source": "Emilio Nicolás Commisso",
-        "target": "Mario Alberto Kempes Chiodi",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Alberto César Tarantini",
-        "target": "Emilio Nicolás Commisso",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Alberto César Tarantini",
-        "target": "Daniel Alberto Passarella",
-        "weight": 9,
-        "direction": "forward"
-      },
       {
         "source": "Daniel Alberto Passarella",
         "target": "José Luis Pavoni",
@@ -1131,6 +1191,36 @@
         "direction": "backward"
       },
       {
+        "source": "Daniel Alberto Passarella",
+        "target": "Emilio Nicolás Commisso",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Passarella",
+        "target": "Juan José López",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Passarella",
+        "target": "Norberto Osvaldo Alonso",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Passarella",
+        "target": "Reinaldo Carlos Merlo",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alberto Passarella",
+        "target": "Ubaldo Matildo Fillol",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "José Luis Pavoni",
         "target": "Daniel Alberto Passarella",
         "weight": 7,
@@ -1138,9 +1228,63 @@
       },
       {
         "source": "José Luis Pavoni",
-        "target": "Héctor López",
-        "weight": 10,
+        "target": "Ubaldo Matildo Fillol",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "José Luis Pavoni",
+        "target": "Eduardo Omar Saporiti",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alberto César Tarantini",
+        "target": "Daniel Alberto Passarella",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Alberto César Tarantini",
+        "target": "Emilio Nicolás Commisso",
+        "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Alberto César Tarantini",
+        "target": "Norberto Osvaldo Alonso",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Alberto César Tarantini",
+        "target": "Juan José López",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Emilio Nicolás Commisso",
+        "target": "Mario Alberto Kempes Chiodi",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Emilio Nicolás Commisso",
+        "target": "Juan José López",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mario Alberto Kempes Chiodi",
+        "target": "Norberto Osvaldo Alonso",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Alberto Kempes Chiodi",
+        "target": "Juan José López",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Juan José López",
@@ -1149,9 +1293,57 @@
         "direction": "backward"
       },
       {
+        "source": "Juan José López",
+        "target": "Daniel Alberto Passarella",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Norberto Osvaldo Alonso",
+        "target": "Mario Alberto Kempes Chiodi",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Norberto Osvaldo Alonso",
+        "target": "Juan José López",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Ubaldo Matildo Fillol",
         "target": "Daniel Alberto Passarella",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ubaldo Matildo Fillol",
+        "target": "Alberto César Tarantini",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Reinaldo Carlos Merlo",
+        "target": "Eduardo Omar Saporiti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Pedro Alexis González",
+        "target": "Norberto Osvaldo Alonso",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Eduardo Omar Saporiti",
+        "target": "José Luis Pavoni",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Eduardo Omar Saporiti",
+        "target": "Reinaldo Carlos Merlo",
+        "weight": 1,
         "direction": "backward"
       }
     ]

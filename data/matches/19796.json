@@ -739,8 +739,8 @@
         "short": "Gibbons",
         "x": 56.42,
         "y": 12.21,
-        "size": 184.4,
-        "is_playmaker": true,
+        "size": 132.2,
+        "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
@@ -749,77 +749,57 @@
         "short": "Whelan",
         "x": 71.62,
         "y": 23.54,
-        "size": 119.7,
-        "is_playmaker": true,
-        "betweenness": 0.0,
+        "size": 107.6,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
         "eigenvector": 0.0
       },
       {
         "id": "Victoria Williams",
         "short": "Williams",
-        "x": 51.43,
-        "y": 71.22,
-        "size": 125.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
+        "x": 53.38,
+        "y": 72.9,
+        "size": 128.7,
+        "is_playmaker": true,
+        "betweenness": 0.0333,
+        "eigenvector": 0.638
       },
       {
         "id": "Ellie Brazil",
         "short": "Brazil",
-        "x": 59.88,
-        "y": 52.12,
-        "size": 125.6,
+        "x": 60.33,
+        "y": 52.53,
+        "size": 104.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
+        "betweenness": 0.0222,
+        "eigenvector": 0.6396
       },
       {
         "id": "Kayleigh Green",
         "short": "Green",
         "x": 58.93,
         "y": 36.0,
-        "size": 119.7,
+        "size": 107.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Megan Connolly",
-        "short": "Connolly",
-        "x": 71.56,
-        "y": 38.19,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Iniabasi Anefiok Umotong",
-        "short": "Umotong",
-        "x": 70.5,
-        "y": 26.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.4149
       },
       {
         "id": "Emily Simpkins",
         "short": "Simpkins",
         "x": 51.35,
         "y": 46.88,
-        "size": 55.0,
+        "size": 79.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.0174
       },
       {
         "id": "Danielle Buet",
         "short": "Buet",
         "x": 30.47,
         "y": 29.33,
-        "size": 55.0,
+        "size": 69.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -829,7 +809,27 @@
         "short": "Harris",
         "x": 13.89,
         "y": 41.78,
-        "size": 55.0,
+        "size": 69.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Megan Connolly",
+        "short": "Connolly",
+        "x": 73.0,
+        "y": 36.36,
+        "size": 69.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Iniabasi Anefiok Umotong",
+        "short": "Umotong",
+        "x": 70.5,
+        "y": 26.4,
+        "size": 69.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -839,40 +839,10 @@
         "short": "Whelan",
         "x": 51.89,
         "y": 52.44,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kate Natkiel",
-        "short": "Natkiel",
-        "x": 54.5,
-        "y": 40.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Amanda Nildén",
-        "short": "Nildén",
-        "x": 51.7,
-        "y": 39.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Chloe Peplow",
-        "short": "Peplow",
-        "x": 89.0,
-        "y": 66.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 69.0,
+        "is_playmaker": true,
+        "betweenness": 0.0333,
+        "eigenvector": 0.1068
       }
     ],
     "edges": [
@@ -889,9 +859,27 @@
         "direction": "lateral"
       },
       {
+        "source": "Aileen Whelan",
+        "target": "Megan Connolly",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Iniabasi Anefiok Umotong",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Victoria Williams",
         "target": "Ellie Brazil",
         "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Victoria Williams",
+        "target": "Kayleigh Green",
+        "weight": 4,
         "direction": "forward"
       },
       {
@@ -899,6 +887,66 @@
         "target": "Victoria Williams",
         "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Ellie Brazil",
+        "target": "Fern Whelan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Emily Simpkins",
+        "target": "Victoria Williams",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emily Simpkins",
+        "target": "Fern Whelan",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Danielle Buet",
+        "target": "Sophie Harris",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Megan Connolly",
+        "target": "Iniabasi Anefiok Umotong",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Megan Connolly",
+        "target": "Aileen Whelan",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Iniabasi Anefiok Umotong",
+        "target": "Megan Connolly",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Iniabasi Anefiok Umotong",
+        "target": "Aileen Whelan",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fern Whelan",
+        "target": "Emily Simpkins",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fern Whelan",
+        "target": "Ellie Brazil",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -907,142 +955,112 @@
       {
         "id": "Kerys Harrop",
         "short": "Harrop",
-        "x": 82.24,
-        "y": 31.39,
-        "size": 117.9,
+        "x": 82.2,
+        "y": 30.91,
+        "size": 115.7,
         "is_playmaker": false,
-        "betweenness": 0.0641,
-        "eigenvector": 0.4747
+        "betweenness": 0.1556,
+        "eigenvector": 0.4618
       },
       {
         "id": "Paige Williams",
         "short": "Williams",
-        "x": 70.28,
-        "y": 13.97,
-        "size": 119.9,
+        "x": 70.41,
+        "y": 14.08,
+        "size": 118.1,
         "is_playmaker": true,
-        "betweenness": 0.141,
-        "eigenvector": 0.3945
+        "betweenness": 0.3333,
+        "eigenvector": 0.4636
       },
       {
         "id": "Aoife Mannion",
         "short": "Mannion",
-        "x": 82.29,
-        "y": 54.61,
-        "size": 149.0,
-        "is_playmaker": true,
-        "betweenness": 0.109,
-        "eigenvector": 0.5152
+        "x": 82.66,
+        "y": 54.84,
+        "size": 148.5,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.4988
       },
       {
         "id": "Sarah Emma Mayling",
         "short": "Mayling",
-        "x": 64.35,
-        "y": 71.88,
-        "size": 116.6,
+        "x": 65.56,
+        "y": 71.82,
+        "size": 115.1,
         "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.3727
+        "betweenness": 0.0333,
+        "eigenvector": 0.361
       },
       {
         "id": "Hannah Hampton",
         "short": "Hampton",
         "x": 105.17,
         "y": 41.69,
-        "size": 72.2,
+        "size": 78.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1333,
+        "eigenvector": 0.1435
       },
       {
         "id": "Charlie Wellings",
         "short": "Wellings",
         "x": 46.55,
         "y": 54.77,
-        "size": 64.9,
+        "size": 65.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1301
+        "eigenvector": 0.1157
       },
       {
         "id": "Hayley Ladd",
         "short": "Ladd",
-        "x": 63.15,
-        "y": 50.33,
-        "size": 102.7,
+        "x": 64.46,
+        "y": 49.87,
+        "size": 97.9,
         "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.3476
+        "betweenness": 0.2333,
+        "eigenvector": 0.3046
       },
       {
         "id": "Lucy Staniforth",
         "short": "Staniforth",
-        "x": 52.98,
-        "y": 47.93,
-        "size": 77.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2512
+        "x": 53.31,
+        "y": 47.52,
+        "size": 81.2,
+        "is_playmaker": true,
+        "betweenness": 0.3889,
+        "eigenvector": 0.2233
       },
       {
         "id": "Marisa Ewers",
         "short": "Ewers",
         "x": 63.36,
         "y": 26.07,
-        "size": 68.9,
+        "size": 67.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0918
+        "eigenvector": 0.0989
       },
       {
         "id": "Emma Follis",
         "short": "Follis",
         "x": 34.88,
         "y": 33.62,
-        "size": 60.3,
+        "size": 59.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0734
+        "eigenvector": 0.0792
       },
       {
         "id": "Ellen White",
         "short": "White",
-        "x": 42.0,
-        "y": 41.55,
-        "size": 55.0,
+        "x": 42.89,
+        "y": 44.11,
+        "size": 57.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Meaghan Sargeant",
-        "short": "Sargeant",
-        "x": 54.43,
-        "y": 70.43,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Claudia Walker",
-        "short": "Walker",
-        "x": 32.08,
-        "y": 24.62,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Chloe Arthur",
-        "short": "Arthur",
-        "x": 29.5,
-        "y": 58.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0072
       }
     ],
     "edges": [
@@ -1057,6 +1075,12 @@
         "target": "Aoife Mannion",
         "weight": 23,
         "direction": "lateral"
+      },
+      {
+        "source": "Kerys Harrop",
+        "target": "Hannah Hampton",
+        "weight": 7,
+        "direction": "forward"
       },
       {
         "source": "Paige Williams",
@@ -1101,6 +1125,18 @@
         "direction": "backward"
       },
       {
+        "source": "Aoife Mannion",
+        "target": "Paige Williams",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Aoife Mannion",
+        "target": "Hannah Hampton",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Sarah Emma Mayling",
         "target": "Aoife Mannion",
         "weight": 18,
@@ -1137,6 +1173,12 @@
         "direction": "backward"
       },
       {
+        "source": "Charlie Wellings",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Hayley Ladd",
         "target": "Aoife Mannion",
         "weight": 13,
@@ -1161,10 +1203,34 @@
         "direction": "forward"
       },
       {
+        "source": "Lucy Staniforth",
+        "target": "Sarah Emma Mayling",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Lucy Staniforth",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Marisa Ewers",
         "target": "Paige Williams",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Lucy Staniforth",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Charlie Wellings",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

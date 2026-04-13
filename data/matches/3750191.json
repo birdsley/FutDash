@@ -819,43 +819,53 @@
   "network_home": {
     "nodes": [
       {
+        "id": "Sergio Daniel Batista",
+        "short": "Batista",
+        "x": 52.38,
+        "y": 40.96,
+        "size": 118.7,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.3241
+      },
+      {
         "id": "Héctor Adolfo Enrique",
         "short": "Enrique",
         "x": 58.16,
         "y": 44.54,
-        "size": 115.8,
+        "size": 112.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Diego Armando Maradona",
-        "short": "Maradona",
-        "x": 79.15,
-        "y": 35.38,
-        "size": 133.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "José Luis Cuciuffo",
-        "short": "Cuciuffo",
-        "x": 44.49,
-        "y": 68.88,
-        "size": 75.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.4573
       },
       {
         "id": "Ricardo Omar Giusti",
         "short": "Giusti",
         "x": 65.25,
         "y": 61.12,
-        "size": 115.8,
+        "size": 104.7,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.1331
+      },
+      {
+        "id": "Diego Armando Maradona",
+        "short": "Maradona",
+        "x": 78.64,
+        "y": 34.83,
+        "size": 123.8,
         "is_playmaker": true,
-        "betweenness": 0.0182,
+        "betweenness": 0.2,
+        "eigenvector": 0.6578
+      },
+      {
+        "id": "José Luis Cuciuffo",
+        "short": "Cuciuffo",
+        "x": 44.49,
+        "y": 68.88,
+        "size": 77.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
@@ -863,49 +873,39 @@
         "short": "Olarticoech",
         "x": 62.39,
         "y": 13.14,
-        "size": 95.5,
+        "size": 81.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0944
       },
       {
         "id": "Jorge Luis Burruchaga",
         "short": "Burruchaga",
         "x": 63.77,
         "y": 41.12,
-        "size": 148.7,
-        "is_playmaker": true,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0022
-      },
-      {
-        "id": "Sergio Daniel Batista",
-        "short": "Batista",
-        "x": 52.13,
-        "y": 41.08,
-        "size": 100.6,
+        "size": 116.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0333,
+        "eigenvector": 0.4356
       },
       {
         "id": "Jorge Alberto Francisco Valdano Castellano",
         "short": "Castellano",
         "x": 77.83,
         "y": 44.82,
-        "size": 55.0,
+        "size": 69.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1915
       },
       {
         "id": "José Luis Brown",
         "short": "Brown",
         "x": 33.85,
         "y": 40.76,
-        "size": 55.0,
+        "size": 76.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.2,
         "eigenvector": 0.0
       },
       {
@@ -913,7 +913,7 @@
         "short": "Barrinat",
         "x": 11.19,
         "y": 37.34,
-        "size": 55.0,
+        "size": 63.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -923,23 +923,37 @@
         "short": "Zocola",
         "x": 30.46,
         "y": 26.16,
-        "size": 55.0,
+        "size": 60.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Carlos Daniel Tapia",
-        "short": "Tapia",
-        "x": 56.0,
-        "y": 46.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1111,
         "eigenvector": 0.0
       }
     ],
     "edges": [
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Jorge Luis Burruchaga",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Diego Armando Maradona",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Julio Jorge Olarticoechea",
+        "weight": 5,
+        "direction": "forward"
+      },
       {
         "source": "Héctor Adolfo Enrique",
         "target": "Diego Armando Maradona",
@@ -953,9 +967,15 @@
         "direction": "forward"
       },
       {
-        "source": "José Luis Cuciuffo",
+        "source": "Héctor Adolfo Enrique",
+        "target": "Sergio Daniel Batista",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Héctor Adolfo Enrique",
         "target": "Ricardo Omar Giusti",
-        "weight": 8,
+        "weight": 5,
         "direction": "forward"
       },
       {
@@ -969,6 +989,48 @@
         "target": "Jorge Luis Burruchaga",
         "weight": 7,
         "direction": "lateral"
+      },
+      {
+        "source": "Ricardo Omar Giusti",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ricardo Omar Giusti",
+        "target": "Sergio Daniel Batista",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Armando Maradona",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Armando Maradona",
+        "target": "Jorge Alberto Francisco Valdano Castellano",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Luis Cuciuffo",
+        "target": "Ricardo Omar Giusti",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "José Luis Cuciuffo",
+        "target": "José Luis Brown",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "José Luis Cuciuffo",
+        "target": "Jorge Luis Burruchaga",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Julio Jorge Olarticoechea",
@@ -989,163 +1051,173 @@
         "direction": "forward"
       },
       {
-        "source": "Sergio Daniel Batista",
-        "target": "Jorge Luis Burruchaga",
-        "weight": 8,
+        "source": "Jorge Luis Burruchaga",
+        "target": "Sergio Daniel Batista",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jorge Alberto Francisco Valdano Castellano",
+        "target": "Diego Armando Maradona",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Luis Brown",
+        "target": "Sergio Daniel Batista",
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Sergio Daniel Batista",
-        "target": "Héctor Adolfo Enrique",
-        "weight": 10,
+        "source": "José Luis Brown",
+        "target": "Óscar Alfredo Ruggeri Zocola",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Neri Alberto Pumpido Barrinat",
+        "target": "José Luis Brown",
+        "weight": 5,
         "direction": "forward"
+      },
+      {
+        "source": "Neri Alberto Pumpido Barrinat",
+        "target": "Óscar Alfredo Ruggeri Zocola",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Óscar Alfredo Ruggeri Zocola",
+        "target": "José Luis Brown",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Óscar Alfredo Ruggeri Zocola",
+        "target": "Neri Alberto Pumpido Barrinat",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Glenn Hoddle",
-        "short": "Hoddle",
-        "x": 54.64,
-        "y": 39.02,
-        "size": 113.1,
-        "is_playmaker": false,
-        "betweenness": 0.1212,
-        "eigenvector": 0.5356
-      },
-      {
         "id": "Kenny Sansom",
         "short": "Sansom",
-        "x": 54.34,
-        "y": 9.21,
-        "size": 147.3,
+        "x": 55.27,
+        "y": 9.1,
+        "size": 130.6,
         "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.5002
-      },
-      {
-        "id": "Steve Hodge",
-        "short": "Hodge",
-        "x": 53.73,
-        "y": 18.15,
-        "size": 68.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2422
-      },
-      {
-        "id": "Terry Butcher",
-        "short": "Butcher",
-        "x": 84.33,
-        "y": 29.66,
-        "size": 118.2,
-        "is_playmaker": true,
-        "betweenness": 0.2348,
-        "eigenvector": 0.3115
-      },
-      {
-        "id": "Gary Michael Stevens",
-        "short": "Stevens",
-        "x": 72.49,
-        "y": 71.28,
-        "size": 89.2,
-        "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.0548
-      },
-      {
-        "id": "Terry Fenwick",
-        "short": "Fenwick",
-        "x": 84.28,
-        "y": 48.47,
-        "size": 84.1,
-        "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.0265
+        "betweenness": 0.3222,
+        "eigenvector": 0.4919
       },
       {
         "id": "Peter Reid",
         "short": "Reid",
         "x": 63.47,
         "y": 34.7,
-        "size": 109.7,
+        "size": 101.2,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.4556
+      },
+      {
+        "id": "Terry Fenwick",
+        "short": "Fenwick",
+        "x": 86.68,
+        "y": 49.66,
+        "size": 93.5,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.1834
+      },
+      {
+        "id": "Terry Butcher",
+        "short": "Butcher",
+        "x": 84.33,
+        "y": 29.66,
+        "size": 121.7,
+        "is_playmaker": false,
+        "betweenness": 0.3,
+        "eigenvector": 0.342
+      },
+      {
+        "id": "Glenn Hoddle",
+        "short": "Hoddle",
+        "x": 54.64,
+        "y": 39.02,
+        "size": 111.4,
+        "is_playmaker": true,
+        "betweenness": 0.3833,
+        "eigenvector": 0.4913
+      },
+      {
+        "id": "Steve Hodge",
+        "short": "Hodge",
+        "x": 54.19,
+        "y": 13.66,
+        "size": 65.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4973
+        "eigenvector": 0.2085
+      },
+      {
+        "id": "Gary Michael Stevens",
+        "short": "Stevens",
+        "x": 72.49,
+        "y": 71.28,
+        "size": 97.3,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.1465
+      },
+      {
+        "id": "Peter Shilton",
+        "short": "Shilton",
+        "x": 110.39,
+        "y": 37.2,
+        "size": 85.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1449
       },
       {
         "id": "Trevor Steven",
         "short": "Steven",
         "x": 51.02,
         "y": 55.68,
-        "size": 65.3,
+        "size": 67.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0199
-      },
-      {
-        "id": "Peter Shilton",
-        "short": "Shilton",
-        "x": 110.25,
-        "y": 36.9,
-        "size": 89.2,
-        "is_playmaker": false,
-        "betweenness": 0.1061,
-        "eigenvector": 0.1508
+        "eigenvector": 0.0466
       },
       {
         "id": "Peter Beardsley",
         "short": "Beardsley",
-        "x": 49.03,
-        "y": 31.63,
-        "size": 65.3,
+        "x": 46.79,
+        "y": 32.42,
+        "size": 70.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1817
+        "betweenness": 0.0056,
+        "eigenvector": 0.2626
       },
       {
         "id": "Gary Lineker",
         "short": "Lineker",
         "x": 44.61,
         "y": 41.53,
-        "size": 55.0,
+        "size": 60.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Chris Waddle",
-        "short": "Waddle",
-        "x": 67.55,
-        "y": 32.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "John Barnes",
-        "short": "Barnes",
-        "x": 53.0,
-        "y": 10.77,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0399
       }
     ],
     "edges": [
       {
-        "source": "Glenn Hoddle",
-        "target": "Kenny Sansom",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "Glenn Hoddle",
+        "source": "Kenny Sansom",
         "target": "Peter Reid",
-        "weight": 6,
+        "weight": 10,
         "direction": "forward"
       },
       {
@@ -1162,12 +1234,6 @@
       },
       {
         "source": "Kenny Sansom",
-        "target": "Peter Reid",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Kenny Sansom",
         "target": "Glenn Hoddle",
         "weight": 6,
         "direction": "lateral"
@@ -1177,36 +1243,6 @@
         "target": "Peter Beardsley",
         "weight": 6,
         "direction": "backward"
-      },
-      {
-        "source": "Terry Butcher",
-        "target": "Glenn Hoddle",
-        "weight": 6,
-        "direction": "backward"
-      },
-      {
-        "source": "Terry Butcher",
-        "target": "Peter Shilton",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Gary Michael Stevens",
-        "target": "Terry Fenwick",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Gary Michael Stevens",
-        "target": "Trevor Steven",
-        "weight": 6,
-        "direction": "backward"
-      },
-      {
-        "source": "Terry Fenwick",
-        "target": "Terry Butcher",
-        "weight": 9,
-        "direction": "lateral"
       },
       {
         "source": "Peter Reid",
@@ -1221,6 +1257,90 @@
         "direction": "backward"
       },
       {
+        "source": "Terry Fenwick",
+        "target": "Terry Butcher",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Terry Fenwick",
+        "target": "Peter Reid",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Terry Butcher",
+        "target": "Peter Shilton",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Terry Butcher",
+        "target": "Glenn Hoddle",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Terry Butcher",
+        "target": "Gary Michael Stevens",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Terry Butcher",
+        "target": "Terry Fenwick",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Terry Butcher",
+        "target": "Kenny Sansom",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Glenn Hoddle",
+        "target": "Kenny Sansom",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Glenn Hoddle",
+        "target": "Peter Reid",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Glenn Hoddle",
+        "target": "Peter Beardsley",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Glenn Hoddle",
+        "target": "Gary Lineker",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary Michael Stevens",
+        "target": "Terry Fenwick",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Gary Michael Stevens",
+        "target": "Trevor Steven",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary Michael Stevens",
+        "target": "Glenn Hoddle",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Peter Shilton",
         "target": "Terry Butcher",
         "weight": 6,
@@ -1231,6 +1351,36 @@
         "target": "Gary Michael Stevens",
         "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Peter Shilton",
+        "target": "Terry Fenwick",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Trevor Steven",
+        "target": "Gary Michael Stevens",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Peter Beardsley",
+        "target": "Gary Lineker",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gary Lineker",
+        "target": "Peter Beardsley",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gary Lineker",
+        "target": "Glenn Hoddle",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

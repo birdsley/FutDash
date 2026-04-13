@@ -883,9 +883,9 @@
         "short": "Santos",
         "x": 55.92,
         "y": 8.69,
-        "size": 81.1,
+        "size": 88.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0778,
         "eigenvector": 0.0
       },
       {
@@ -893,39 +893,39 @@
         "short": "Zagallo",
         "x": 75.62,
         "y": 11.04,
-        "size": 133.4,
-        "is_playmaker": true,
-        "betweenness": 0.1222,
-        "eigenvector": 0.392
+        "size": 123.7,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.3619
       },
       {
         "id": "Édson Arantes do Nascimento",
         "short": "Nascimento",
         "x": 78.07,
         "y": 35.99,
-        "size": 122.3,
+        "size": 114.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.6073
+        "eigenvector": 0.5956
       },
       {
         "id": "Edvaldo Izidio Neto",
         "short": "Neto",
         "x": 76.05,
         "y": 36.13,
-        "size": 132.4,
+        "size": 133.4,
         "is_playmaker": true,
-        "betweenness": 0.0889,
-        "eigenvector": 0.6234
+        "betweenness": 0.1333,
+        "eigenvector": 0.6047
       },
       {
         "id": "Dejalma Pereira Dias dos Santos",
         "short": "Santos",
         "x": 51.24,
         "y": 66.44,
-        "size": 77.1,
+        "size": 79.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0556,
         "eigenvector": 0.0
       },
       {
@@ -933,39 +933,39 @@
         "short": "Santos",
         "x": 86.73,
         "y": 61.67,
-        "size": 79.1,
+        "size": 76.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0882
+        "eigenvector": 0.0879
       },
       {
         "id": "José Ely de Miranda",
         "short": "Miranda",
         "x": 67.51,
         "y": 54.19,
-        "size": 102.2,
+        "size": 96.4,
         "is_playmaker": false,
-        "betweenness": 0.0889,
-        "eigenvector": 0.2135
+        "betweenness": 0.0556,
+        "eigenvector": 0.2251
       },
       {
         "id": "Waldyr Pereira",
         "short": "Pereira",
         "x": 66.08,
         "y": 30.0,
-        "size": 96.2,
+        "size": 101.7,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.1886
+        "betweenness": 0.0556,
+        "eigenvector": 0.3005
       },
       {
         "id": "Orlando Peçanha de Carvalho",
         "short": "Carvalho",
         "x": 42.83,
         "y": 23.76,
-        "size": 71.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "size": 70.9,
+        "is_playmaker": true,
+        "betweenness": 0.1111,
         "eigenvector": 0.0
       },
       {
@@ -973,9 +973,9 @@
         "short": "Bellini",
         "x": 33.44,
         "y": 48.38,
-        "size": 55.0,
+        "size": 62.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0444,
         "eigenvector": 0.0
       },
       {
@@ -983,9 +983,9 @@
         "short": "Neves",
         "x": 10.09,
         "y": 40.7,
-        "size": 55.0,
+        "size": 58.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0889,
         "eigenvector": 0.0
       }
     ],
@@ -994,6 +994,18 @@
         "source": "Nilton dos Reis Santos",
         "target": "Mário Jorge Lobo Zagallo",
         "weight": 18,
+        "direction": "forward"
+      },
+      {
+        "source": "Nilton dos Reis Santos",
+        "target": "Waldyr Pereira",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Nilton dos Reis Santos",
+        "target": "Edvaldo Izidio Neto",
+        "weight": 6,
         "direction": "forward"
       },
       {
@@ -1042,6 +1054,12 @@
         "source": "Edvaldo Izidio Neto",
         "target": "José Ely de Miranda",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Edvaldo Izidio Neto",
+        "target": "Waldyr Pereira",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1109,79 +1127,119 @@
         "target": "Nilton dos Reis Santos",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Orlando Peçanha de Carvalho",
+        "target": "Gylmar dos Santos Neves",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hideraldo Luis Bellini",
+        "target": "Dejalma Pereira Dias dos Santos",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Hideraldo Luis Bellini",
+        "target": "Gylmar dos Santos Neves",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gylmar dos Santos Neves",
+        "target": "Hideraldo Luis Bellini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gylmar dos Santos Neves",
+        "target": "Orlando Peçanha de Carvalho",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Ernst Orvar Bergmark",
-        "short": "Bergmark",
-        "x": 81.39,
-        "y": 66.78,
-        "size": 89.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Reino Borjesson",
-        "short": "Borjesson",
-        "x": 67.05,
-        "y": 61.77,
-        "size": 95.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3095
+        "id": "Gunnar Gren",
+        "short": "Gren",
+        "x": 57.57,
+        "y": 52.09,
+        "size": 155.0,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.5482
       },
       {
         "id": "Kurt Roland Hamrin",
         "short": "Hamrin",
         "x": 40.24,
         "y": 70.79,
-        "size": 111.7,
+        "size": 103.8,
         "is_playmaker": false,
-        "betweenness": 0.0444,
-        "eigenvector": 0.518
-      },
-      {
-        "id": "Agne Simonsson",
-        "short": "Simonsson",
-        "x": 45.81,
-        "y": 32.43,
-        "size": 105.7,
-        "is_playmaker": true,
-        "betweenness": 0.0778,
-        "eigenvector": 0.4398
-      },
-      {
-        "id": "Gunnar Gren",
-        "short": "Gren",
-        "x": 57.57,
-        "y": 52.09,
-        "size": 175.9,
-        "is_playmaker": true,
-        "betweenness": 0.2778,
-        "eigenvector": 0.5879
+        "betweenness": 0.0,
+        "eigenvector": 0.521
       },
       {
         "id": "Nils Liedholm",
         "short": "Liedholm",
         "x": 53.88,
         "y": 29.29,
-        "size": 95.3,
+        "size": 103.8,
+        "is_playmaker": true,
+        "betweenness": 0.2111,
+        "eigenvector": 0.2548
+      },
+      {
+        "id": "Agne Simonsson",
+        "short": "Simonsson",
+        "x": 45.81,
+        "y": 32.43,
+        "size": 94.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2785
+        "eigenvector": 0.3467
+      },
+      {
+        "id": "Reino Borjesson",
+        "short": "Borjesson",
+        "x": 67.05,
+        "y": 61.77,
+        "size": 96.9,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.4166
+      },
+      {
+        "id": "Ernst Orvar Bergmark",
+        "short": "Bergmark",
+        "x": 81.39,
+        "y": 66.78,
+        "size": 93.4,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.2162
+      },
+      {
+        "id": "Bengt Gustavsson",
+        "short": "Gustavsson",
+        "x": 88.8,
+        "y": 43.64,
+        "size": 67.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
       },
       {
         "id": "Karl-Oskar Svensson",
         "short": "Svensson",
         "x": 109.45,
         "y": 39.35,
-        "size": 83.4,
+        "size": 82.9,
         "is_playmaker": false,
-        "betweenness": 0.0778,
+        "betweenness": 0.1333,
         "eigenvector": 0.0
       },
       {
@@ -1189,27 +1247,17 @@
         "short": "Skoglund",
         "x": 38.96,
         "y": 14.0,
-        "size": 64.0,
+        "size": 73.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1389
+        "betweenness": 0.0111,
+        "eigenvector": 0.1503
       },
       {
         "id": "Sven Axbom",
         "short": "Axbom",
         "x": 79.67,
         "y": 21.76,
-        "size": 64.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Bengt Gustavsson",
-        "short": "Gustavsson",
-        "x": 88.8,
-        "y": 43.64,
-        "size": 65.4,
+        "size": 67.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1219,42 +1267,72 @@
         "short": "Parling",
         "x": 71.89,
         "y": 40.31,
-        "size": 55.0,
+        "size": 65.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0333,
         "eigenvector": 0.0
       }
     ],
     "edges": [
       {
-        "source": "Ernst Orvar Bergmark",
+        "source": "Gunnar Gren",
+        "target": "Kurt Roland Hamrin",
+        "weight": 12,
+        "direction": "backward"
+      },
+      {
+        "source": "Gunnar Gren",
         "target": "Reino Borjesson",
-        "weight": 8,
-        "direction": "backward"
+        "weight": 10,
+        "direction": "forward"
       },
       {
-        "source": "Ernst Orvar Bergmark",
-        "target": "Kurt Roland Hamrin",
-        "weight": 6,
-        "direction": "backward"
-      },
-      {
-        "source": "Ernst Orvar Bergmark",
-        "target": "Gunnar Gren",
+        "source": "Gunnar Gren",
+        "target": "Agne Simonsson",
         "weight": 9,
         "direction": "backward"
       },
       {
-        "source": "Reino Borjesson",
-        "target": "Kurt Roland Hamrin",
+        "source": "Gunnar Gren",
+        "target": "Nils Liedholm",
         "weight": 9,
-        "direction": "backward"
+        "direction": "lateral"
+      },
+      {
+        "source": "Gunnar Gren",
+        "target": "Ernst Orvar Bergmark",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Kurt Roland Hamrin",
         "target": "Gunnar Gren",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Kurt Roland Hamrin",
+        "target": "Reino Borjesson",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Nils Liedholm",
+        "target": "Agne Simonsson",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Nils Liedholm",
+        "target": "Gunnar Gren",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nils Liedholm",
+        "target": "Karl Lennart Skoglund",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Agne Simonsson",
@@ -1269,39 +1347,45 @@
         "direction": "backward"
       },
       {
-        "source": "Gunnar Gren",
-        "target": "Agne Simonsson",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Gunnar Gren",
+        "source": "Reino Borjesson",
         "target": "Kurt Roland Hamrin",
-        "weight": 12,
+        "weight": 9,
         "direction": "backward"
       },
       {
-        "source": "Gunnar Gren",
-        "target": "Nils Liedholm",
-        "weight": 9,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gunnar Gren",
-        "target": "Reino Borjesson",
-        "weight": 10,
+        "source": "Reino Borjesson",
+        "target": "Ernst Orvar Bergmark",
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Nils Liedholm",
+        "source": "Ernst Orvar Bergmark",
         "target": "Gunnar Gren",
-        "weight": 7,
-        "direction": "lateral"
+        "weight": 9,
+        "direction": "backward"
       },
       {
-        "source": "Nils Liedholm",
-        "target": "Agne Simonsson",
-        "weight": 11,
+        "source": "Ernst Orvar Bergmark",
+        "target": "Reino Borjesson",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Ernst Orvar Bergmark",
+        "target": "Kurt Roland Hamrin",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Bengt Gustavsson",
+        "target": "Karl-Oskar Svensson",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Bengt Gustavsson",
+        "target": "Sigvard Parling",
+        "weight": 4,
         "direction": "backward"
       },
       {
@@ -1317,10 +1401,22 @@
         "direction": "backward"
       },
       {
-        "source": "Bengt Gustavsson",
-        "target": "Karl-Oskar Svensson",
-        "weight": 7,
+        "source": "Karl Lennart Skoglund",
+        "target": "Nils Liedholm",
+        "weight": 5,
         "direction": "forward"
+      },
+      {
+        "source": "Sven Axbom",
+        "target": "Karl-Oskar Svensson",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Sigvard Parling",
+        "target": "Nils Liedholm",
+        "weight": 5,
+        "direction": "backward"
       }
     ]
   },

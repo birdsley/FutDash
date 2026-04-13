@@ -893,71 +893,91 @@
       {
         "id": "Richard Hughes",
         "short": "Hughes",
-        "x": 65.92,
-        "y": 22.49,
-        "size": 153.5,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.5234
+        "x": 65.7,
+        "y": 22.85,
+        "size": 132.1,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.5047
       },
       {
         "id": "Nigel Quashie",
         "short": "Quashie",
-        "x": 51.52,
-        "y": 30.73,
-        "size": 144.6,
+        "x": 51.33,
+        "y": 30.39,
+        "size": 125.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5263
+        "betweenness": 0.1667,
+        "eigenvector": 0.5074
       },
       {
         "id": "Matthew Taylor",
         "short": "Taylor",
         "x": 64.51,
         "y": 5.98,
-        "size": 189.3,
-        "is_playmaker": true,
-        "betweenness": 0.0364,
-        "eigenvector": 0.5917
+        "size": 148.8,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.5705
       },
       {
-        "id": "Yakubu Aiyegbeni",
-        "short": "Aiyegbeni",
-        "x": 75.93,
-        "y": 26.65,
-        "size": 72.9,
+        "id": "Dejan Stefanovic",
+        "short": "Stefanovic",
+        "x": 38.97,
+        "y": 28.5,
+        "size": 67.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2225
+        "betweenness": 0.1778,
+        "eigenvector": 0.0
       },
       {
         "id": "Amdy Moustapha Faye",
         "short": "Faye",
         "x": 52.75,
         "y": 48.4,
-        "size": 75.9,
+        "size": 84.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0333,
         "eigenvector": 0.0
-      },
-      {
-        "id": "Trésor Lomana LuaLua",
-        "short": "LuaLua",
-        "x": 84.64,
-        "y": 38.01,
-        "size": 93.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2225
       },
       {
         "id": "Steve Stone",
         "short": "Stone",
-        "x": 66.22,
-        "y": 63.51,
-        "size": 55.0,
+        "x": 59.87,
+        "y": 61.55,
+        "size": 82.1,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Yakubu Aiyegbeni",
+        "short": "Aiyegbeni",
+        "x": 75.93,
+        "y": 26.65,
+        "size": 75.8,
         "is_playmaker": false,
         "betweenness": 0.0,
+        "eigenvector": 0.341
+      },
+      {
+        "id": "Trésor Lomana LuaLua",
+        "short": "LuaLua",
+        "x": 84.76,
+        "y": 36.28,
+        "size": 90.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2145
+      },
+      {
+        "id": "John Curtis",
+        "short": "Curtis",
+        "x": 48.69,
+        "y": 61.4,
+        "size": 67.5,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
         "eigenvector": 0.0
       },
       {
@@ -965,49 +985,19 @@
         "short": "Zeeuw",
         "x": 31.65,
         "y": 48.57,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dejan Stefanovic",
-        "short": "Stefanovic",
-        "x": 38.97,
-        "y": 28.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "John Curtis",
-        "short": "Curtis",
-        "x": 48.69,
-        "y": 62.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "size": 67.5,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
         "eigenvector": 0.0
       },
       {
         "id": "Shaka Hislop",
         "short": "Hislop",
-        "x": 10.04,
-        "y": 38.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ivica Mornar",
-        "short": "Mornar",
-        "x": 70.25,
-        "y": 53.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "x": 10.55,
+        "y": 38.55,
+        "size": 63.3,
+        "is_playmaker": true,
+        "betweenness": 0.2222,
         "eigenvector": 0.0
       }
     ],
@@ -1023,6 +1013,12 @@
         "target": "Matthew Taylor",
         "weight": 11,
         "direction": "lateral"
+      },
+      {
+        "source": "Richard Hughes",
+        "target": "Yakubu Aiyegbeni",
+        "weight": 4,
+        "direction": "forward"
       },
       {
         "source": "Nigel Quashie",
@@ -1061,9 +1057,81 @@
         "direction": "forward"
       },
       {
+        "source": "Dejan Stefanovic",
+        "target": "Nigel Quashie",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Dejan Stefanovic",
+        "target": "Shaka Hislop",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Amdy Moustapha Faye",
+        "target": "Steve Stone",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Amdy Moustapha Faye",
         "target": "Trésor Lomana LuaLua",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Amdy Moustapha Faye",
+        "target": "Arjan de Zeeuw",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Steve Stone",
+        "target": "Trésor Lomana LuaLua",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "John Curtis",
+        "target": "Steve Stone",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "John Curtis",
+        "target": "Arjan de Zeeuw",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Arjan de Zeeuw",
+        "target": "Amdy Moustapha Faye",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Arjan de Zeeuw",
+        "target": "John Curtis",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Arjan de Zeeuw",
+        "target": "Shaka Hislop",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Shaka Hislop",
+        "target": "Arjan de Zeeuw",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Shaka Hislop",
+        "target": "Dejan Stefanovic",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1073,142 +1141,112 @@
       {
         "id": "Laureano Bisan-Etame Mayer",
         "short": "Mayer",
-        "x": 60.4,
-        "y": 69.92,
-        "size": 137.1,
+        "x": 60.55,
+        "y": 70.05,
+        "size": 132.6,
         "is_playmaker": true,
-        "betweenness": 0.0962,
-        "eigenvector": 0.4971
+        "betweenness": 0.3111,
+        "eigenvector": 0.4688
       },
       {
         "id": "Ray Parlour",
         "short": "Parlour",
-        "x": 59.71,
-        "y": 48.01,
-        "size": 128.6,
+        "x": 59.77,
+        "y": 47.45,
+        "size": 125.0,
         "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.5868
+        "betweenness": 0.0333,
+        "eigenvector": 0.5392
       },
       {
         "id": "David Bentley",
         "short": "Bentley",
         "x": 49.69,
         "y": 65.88,
-        "size": 90.0,
+        "size": 85.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2716
+        "eigenvector": 0.2426
       },
       {
         "id": "Patrick Vieira",
         "short": "Vieira",
-        "x": 55.59,
-        "y": 35.72,
-        "size": 138.6,
+        "x": 55.65,
+        "y": 35.24,
+        "size": 134.5,
         "is_playmaker": true,
-        "betweenness": 0.1795,
-        "eigenvector": 0.4626
+        "betweenness": 0.3444,
+        "eigenvector": 0.488
       },
       {
         "id": "Ashley Cole",
         "short": "Cole",
-        "x": 61.79,
-        "y": 9.84,
-        "size": 90.7,
+        "x": 62.35,
+        "y": 9.94,
+        "size": 97.3,
         "is_playmaker": false,
-        "betweenness": 0.0449,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.1081
       },
       {
         "id": "José Antonio Reyes Calderón",
         "short": "Calderón",
-        "x": 48.94,
-        "y": 28.5,
-        "size": 90.0,
+        "x": 49.58,
+        "y": 29.29,
+        "size": 85.9,
         "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.318
+        "betweenness": 0.1,
+        "eigenvector": 0.3295
       },
       {
         "id": "Kolo Habib Touré",
         "short": "Touré",
         "x": 82.96,
         "y": 51.44,
-        "size": 63.6,
+        "size": 68.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.0883
       },
       {
         "id": "Fredrik Ljungberg",
         "short": "Ljungberg",
-        "x": 42.84,
-        "y": 35.67,
-        "size": 78.6,
+        "x": 43.91,
+        "y": 32.72,
+        "size": 80.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1034
+        "eigenvector": 0.2353
       },
       {
         "id": "Thierry Henry",
         "short": "Henry",
-        "x": 35.92,
-        "y": 29.76,
-        "size": 70.7,
+        "x": 36.59,
+        "y": 29.04,
+        "size": 68.9,
         "is_playmaker": false,
-        "betweenness": 0.0321,
-        "eigenvector": 0.0948
+        "betweenness": 0.1,
+        "eigenvector": 0.093
       },
       {
         "id": "Sulzeer Jeremiah ''Sol' Campbell",
         "short": "Campbell",
-        "x": 79.5,
-        "y": 24.39,
-        "size": 62.1,
+        "x": 79.91,
+        "y": 24.26,
+        "size": 67.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0204
       },
       {
         "id": "Jens Lehmann",
         "short": "Lehmann",
-        "x": 109.25,
-        "y": 42.27,
-        "size": 55.0,
+        "x": 109.2,
+        "y": 42.04,
+        "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nwankwo Christian Kanu",
-        "short": "Kanu",
-        "x": 41.93,
-        "y": 51.87,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Martin Keown",
-        "short": "Keown",
-        "x": 37.4,
-        "y": 64.36,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jérémie Aliadière",
-        "short": "Aliadière",
-        "x": 23.2,
-        "y": 46.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0026
       }
     ],
     "edges": [
@@ -1231,6 +1269,12 @@
         "direction": "backward"
       },
       {
+        "source": "Laureano Bisan-Etame Mayer",
+        "target": "Kolo Habib Touré",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
         "source": "Ray Parlour",
         "target": "Laureano Bisan-Etame Mayer",
         "weight": 21,
@@ -1246,6 +1290,12 @@
         "source": "Ray Parlour",
         "target": "José Antonio Reyes Calderón",
         "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Ray Parlour",
+        "target": "Fredrik Ljungberg",
+        "weight": 8,
         "direction": "backward"
       },
       {
@@ -1285,6 +1335,12 @@
         "direction": "backward"
       },
       {
+        "source": "Patrick Vieira",
+        "target": "Ashley Cole",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
         "source": "Ashley Cole",
         "target": "Patrick Vieira",
         "weight": 16,
@@ -1303,6 +1359,12 @@
         "direction": "backward"
       },
       {
+        "source": "Ashley Cole",
+        "target": "Sulzeer Jeremiah ''Sol' Campbell",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
         "source": "José Antonio Reyes Calderón",
         "target": "Thierry Henry",
         "weight": 12,
@@ -1313,6 +1375,12 @@
         "target": "Laureano Bisan-Etame Mayer",
         "weight": 12,
         "direction": "backward"
+      },
+      {
+        "source": "Kolo Habib Touré",
+        "target": "Jens Lehmann",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Fredrik Ljungberg",
@@ -1330,6 +1398,24 @@
         "source": "Sulzeer Jeremiah ''Sol' Campbell",
         "target": "Ashley Cole",
         "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Sulzeer Jeremiah ''Sol' Campbell",
+        "target": "Jens Lehmann",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Kolo Habib Touré",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Sulzeer Jeremiah ''Sol' Campbell",
+        "weight": 1,
         "direction": "backward"
       }
     ]

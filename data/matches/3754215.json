@@ -763,7 +763,7 @@
         "short": "Sessègnon",
         "x": 81.27,
         "y": 62.24,
-        "size": 78.1,
+        "size": 77.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -771,101 +771,81 @@
       {
         "id": "Craig Dawson",
         "short": "Dawson",
-        "x": 61.28,
-        "y": 70.25,
-        "size": 108.8,
-        "is_playmaker": true,
-        "betweenness": 0.0091,
+        "x": 61.15,
+        "y": 69.95,
+        "size": 101.5,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
         "eigenvector": 0.0
       },
       {
         "id": "José Salomón Rondón Giménez",
         "short": "Giménez",
-        "x": 77.46,
-        "y": 33.05,
-        "size": 120.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4932
+        "x": 76.74,
+        "y": 32.48,
+        "size": 119.6,
+        "is_playmaker": true,
+        "betweenness": 0.2278,
+        "eigenvector": 0.3889
       },
       {
         "id": "Chris Brunt",
         "short": "Brunt",
         "x": 53.88,
         "y": 8.71,
-        "size": 201.2,
+        "size": 139.8,
         "is_playmaker": true,
-        "betweenness": 0.0273,
-        "eigenvector": 0.5695
-      },
-      {
-        "id": "James McClean",
-        "short": "McClean",
-        "x": 60.82,
-        "y": 12.59,
-        "size": 135.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6576
+        "betweenness": 0.1778,
+        "eigenvector": 0.5643
       },
       {
         "id": "James Morrison",
         "short": "Morrison",
         "x": 65.73,
         "y": 30.56,
-        "size": 85.8,
+        "size": 99.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.1487
+      },
+      {
+        "id": "James McClean",
+        "short": "McClean",
+        "x": 60.82,
+        "y": 12.59,
+        "size": 123.7,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.6913
       },
       {
         "id": "Jonathan Grant Evans",
         "short": "Evans",
-        "x": 62.36,
-        "y": 40.4,
-        "size": 55.0,
+        "x": 61.15,
+        "y": 41.72,
+        "size": 83.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Darren Fletcher",
-        "short": "Fletcher",
-        "x": 68.39,
-        "y": 43.95,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1722,
+        "eigenvector": 0.0023
       },
       {
         "id": "Jonas Olsson",
         "short": "Olsson",
         "x": 41.43,
         "y": 22.92,
-        "size": 55.0,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Craig Gardner",
-        "short": "Gardner",
-        "x": 76.71,
-        "y": 59.94,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1718
       },
       {
         "id": "Glyn Oliver Myhill",
         "short": "Myhill",
         "x": 10.52,
         "y": 39.61,
-        "size": 55.0,
+        "size": 71.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0778,
         "eigenvector": 0.0
       },
       {
@@ -873,10 +853,20 @@
         "short": "McAuley",
         "x": 34.01,
         "y": 43.9,
-        "size": 55.0,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
+      },
+      {
+        "id": "Darren Fletcher",
+        "short": "Fletcher",
+        "x": 69.22,
+        "y": 45.57,
+        "size": 63.1,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0298
       }
     ],
     "edges": [
@@ -893,6 +883,36 @@
         "direction": "forward"
       },
       {
+        "source": "Craig Dawson",
+        "target": "Jonathan Grant Evans",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Craig Dawson",
+        "target": "Stéphane Sessègnon",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "José Salomón Rondón Giménez",
+        "target": "James Morrison",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "José Salomón Rondón Giménez",
+        "target": "James McClean",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "José Salomón Rondón Giménez",
+        "target": "Darren Fletcher",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Chris Brunt",
         "target": "José Salomón Rondón Giménez",
         "weight": 9,
@@ -905,9 +925,9 @@
         "direction": "forward"
       },
       {
-        "source": "James McClean",
-        "target": "Chris Brunt",
-        "weight": 9,
+        "source": "Chris Brunt",
+        "target": "Jonas Olsson",
+        "weight": 4,
         "direction": "backward"
       },
       {
@@ -915,143 +935,219 @@
         "target": "Chris Brunt",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "James Morrison",
+        "target": "James McClean",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "James McClean",
+        "target": "Chris Brunt",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Grant Evans",
+        "target": "James McClean",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jonathan Grant Evans",
+        "target": "James Morrison",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Grant Evans",
+        "target": "Darren Fletcher",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Glyn Oliver Myhill",
+        "target": "José Salomón Rondón Giménez",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Gareth McAuley",
+        "target": "Glyn Oliver Myhill",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Darren Fletcher",
+        "target": "Jonathan Grant Evans",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Darren Fletcher",
+        "target": "José Salomón Rondón Giménez",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Jan Vertonghen",
-        "short": "Vertonghen",
-        "x": 75.85,
-        "y": 26.0,
-        "size": 127.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0224
-      },
-      {
-        "id": "Toby Alderweireld",
-        "short": "Alderweirel",
-        "x": 73.07,
-        "y": 55.39,
-        "size": 118.2,
-        "is_playmaker": true,
-        "betweenness": 0.0682,
-        "eigenvector": 0.5281
-      },
-      {
         "id": "Mousa Sidi Yaya Dembélé",
         "short": "Dembélé",
-        "x": 50.34,
-        "y": 35.92,
-        "size": 112.1,
+        "x": 50.25,
+        "y": 36.36,
+        "size": 116.9,
         "is_playmaker": true,
-        "betweenness": 0.053,
-        "eigenvector": 0.449
+        "betweenness": 0.4333,
+        "eigenvector": 0.3913
       },
       {
         "id": "Eric Dier",
         "short": "Dier",
-        "x": 62.28,
-        "y": 36.69,
-        "size": 121.2,
+        "x": 63.21,
+        "y": 37.07,
+        "size": 112.5,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.6002
+        "betweenness": 0.1333,
+        "eigenvector": 0.5492
+      },
+      {
+        "id": "Jan Vertonghen",
+        "short": "Vertonghen",
+        "x": 75.95,
+        "y": 25.92,
+        "size": 124.0,
+        "is_playmaker": false,
+        "betweenness": 0.1389,
+        "eigenvector": 0.3813
+      },
+      {
+        "id": "Toby Alderweireld",
+        "short": "Alderweirel",
+        "x": 73.75,
+        "y": 55.67,
+        "size": 111.6,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.3829
       },
       {
         "id": "Danny Rose",
         "short": "Rose",
-        "x": 62.93,
-        "y": 11.17,
-        "size": 119.7,
+        "x": 65.08,
+        "y": 11.62,
+        "size": 107.2,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0244
+        "betweenness": 0.0889,
+        "eigenvector": 0.3525
+      },
+      {
+        "id": "Kyle Walker",
+        "short": "Walker",
+        "x": 68.01,
+        "y": 67.73,
+        "size": 80.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2578
       },
       {
         "id": "Christian Dannemann Eriksen",
         "short": "Eriksen",
-        "x": 48.39,
-        "y": 29.09,
-        "size": 85.1,
+        "x": 47.53,
+        "y": 28.24,
+        "size": 99.2,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0204
+        "betweenness": 0.1278,
+        "eigenvector": 0.2353
       },
       {
         "id": "Hugo Lloris",
         "short": "Lloris",
         "x": 108.41,
         "y": 41.28,
-        "size": 68.5,
+        "size": 70.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
-      },
-      {
-        "id": "Kyle Walker",
-        "short": "Walker",
-        "x": 67.73,
-        "y": 67.72,
-        "size": 88.1,
-        "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.3974
       },
       {
         "id": "Bamidele Alli",
         "short": "Alli",
         "x": 48.87,
         "y": 25.84,
-        "size": 55.0,
+        "size": 62.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0665
       },
       {
         "id": "Harry Kane",
         "short": "Kane",
-        "x": 47.9,
-        "y": 39.74,
-        "size": 55.0,
+        "x": 46.69,
+        "y": 38.06,
+        "size": 62.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0389,
+        "eigenvector": 0.0505
       },
       {
         "id": "Erik Lamela",
         "short": "Lamela",
         "x": 51.72,
         "y": 47.91,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Heung-Min Son",
-        "short": "Son",
-        "x": 38.74,
-        "y": 19.51,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Clinton Mua N''Jie",
-        "short": "N''Jie",
-        "x": 29.2,
-        "y": 52.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 58.5,
+        "is_playmaker": true,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0156
       }
     ],
     "edges": [
+      {
+        "source": "Mousa Sidi Yaya Dembélé",
+        "target": "Eric Dier",
+        "weight": 15,
+        "direction": "forward"
+      },
+      {
+        "source": "Mousa Sidi Yaya Dembélé",
+        "target": "Danny Rose",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Mousa Sidi Yaya Dembélé",
+        "target": "Christian Dannemann Eriksen",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mousa Sidi Yaya Dembélé",
+        "target": "Erik Lamela",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Eric Dier",
+        "target": "Toby Alderweireld",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Eric Dier",
+        "target": "Kyle Walker",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Eric Dier",
+        "target": "Jan Vertonghen",
+        "weight": 7,
+        "direction": "forward"
+      },
       {
         "source": "Jan Vertonghen",
         "target": "Toby Alderweireld",
@@ -1071,21 +1167,39 @@
         "direction": "backward"
       },
       {
+        "source": "Jan Vertonghen",
+        "target": "Mousa Sidi Yaya Dembélé",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Toby Alderweireld",
         "target": "Kyle Walker",
         "weight": 9,
         "direction": "backward"
       },
       {
-        "source": "Mousa Sidi Yaya Dembélé",
-        "target": "Eric Dier",
-        "weight": 15,
-        "direction": "forward"
+        "source": "Toby Alderweireld",
+        "target": "Jan Vertonghen",
+        "weight": 8,
+        "direction": "lateral"
       },
       {
-        "source": "Eric Dier",
-        "target": "Toby Alderweireld",
-        "weight": 10,
+        "source": "Toby Alderweireld",
+        "target": "Mousa Sidi Yaya Dembélé",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Toby Alderweireld",
+        "target": "Eric Dier",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Danny Rose",
+        "target": "Jan Vertonghen",
+        "weight": 11,
         "direction": "forward"
       },
       {
@@ -1101,15 +1215,33 @@
         "direction": "lateral"
       },
       {
-        "source": "Danny Rose",
-        "target": "Jan Vertonghen",
-        "weight": 11,
-        "direction": "forward"
+        "source": "Kyle Walker",
+        "target": "Mousa Sidi Yaya Dembélé",
+        "weight": 13,
+        "direction": "backward"
       },
       {
         "source": "Christian Dannemann Eriksen",
         "target": "Mousa Sidi Yaya Dembélé",
         "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Christian Dannemann Eriksen",
+        "target": "Bamidele Alli",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Christian Dannemann Eriksen",
+        "target": "Danny Rose",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Christian Dannemann Eriksen",
+        "target": "Harry Kane",
+        "weight": 6,
         "direction": "lateral"
       },
       {
@@ -1119,10 +1251,28 @@
         "direction": "backward"
       },
       {
-        "source": "Kyle Walker",
-        "target": "Mousa Sidi Yaya Dembélé",
-        "weight": 13,
+        "source": "Hugo Lloris",
+        "target": "Jan Vertonghen",
+        "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Erik Lamela",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Erik Lamela",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Erik Lamela",
+        "target": "Mousa Sidi Yaya Dembélé",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

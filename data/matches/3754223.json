@@ -691,27 +691,27 @@
         "short": "Cabaye",
         "x": 61.68,
         "y": 44.96,
-        "size": 85.8,
+        "size": 90.1,
         "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.4168
+        "betweenness": 0.0,
+        "eigenvector": 0.3483
       },
       {
         "id": "Jason Puncheon",
         "short": "Puncheon",
         "x": 60.92,
         "y": 39.71,
-        "size": 109.9,
-        "is_playmaker": false,
-        "betweenness": 0.1182,
-        "eigenvector": 0.2944
+        "size": 117.2,
+        "is_playmaker": true,
+        "betweenness": 0.2222,
+        "eigenvector": 0.3178
       },
       {
         "id": "Martin Kelly",
         "short": "Kelly",
-        "x": 64.62,
-        "y": 34.46,
-        "size": 74.8,
+        "x": 64.31,
+        "y": 35.62,
+        "size": 73.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -719,59 +719,59 @@
       {
         "id": "Wilfried Zaha",
         "short": "Zaha",
-        "x": 75.91,
-        "y": 36.81,
-        "size": 74.8,
+        "x": 72.36,
+        "y": 43.91,
+        "size": 69.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.0007
       },
       {
         "id": "Damien Delaney",
         "short": "Delaney",
         "x": 36.06,
         "y": 21.48,
-        "size": 142.9,
-        "is_playmaker": true,
-        "betweenness": 0.1636,
-        "eigenvector": 0.2971
+        "size": 122.6,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.435
       },
       {
         "id": "James McArthur",
         "short": "McArthur",
         "x": 53.4,
         "y": 40.42,
-        "size": 131.9,
+        "size": 138.8,
         "is_playmaker": true,
-        "betweenness": 0.1545,
-        "eigenvector": 0.4497
+        "betweenness": 0.2667,
+        "eigenvector": 0.4839
+      },
+      {
+        "id": "Joel Ward",
+        "short": "Ward",
+        "x": 62.18,
+        "y": 36.9,
+        "size": 72.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.084
       },
       {
         "id": "Scott Dann",
         "short": "Dann",
         "x": 40.11,
         "y": 57.57,
-        "size": 99.0,
+        "size": 110.4,
         "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.59
-      },
-      {
-        "id": "Joel Ward",
-        "short": "Ward",
-        "x": 62.43,
-        "y": 38.56,
-        "size": 72.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0778,
+        "eigenvector": 0.5268
       },
       {
         "id": "Wayne Hennessey",
         "short": "Hennessey",
         "x": 13.26,
         "y": 42.4,
-        "size": 88.0,
+        "size": 75.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -781,30 +781,20 @@
         "short": "Yala",
         "x": 80.82,
         "y": 43.84,
-        "size": 70.4,
+        "size": 73.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3177
+        "betweenness": 0.1556,
+        "eigenvector": 0.2637
       },
       {
         "id": "Dwight Gayle",
         "short": "Gayle",
         "x": 83.03,
         "y": 53.78,
-        "size": 55.0,
+        "size": 60.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mile Jedinak",
-        "short": "Jedinak",
-        "x": 68.66,
-        "y": 37.06,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.014
       }
     ],
     "edges": [
@@ -815,15 +805,51 @@
         "direction": "lateral"
       },
       {
+        "source": "Yohan Cabaye",
+        "target": "Scott Dann",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jason Puncheon",
+        "target": "Joel Ward",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
         "source": "Jason Puncheon",
         "target": "Damien Delaney",
         "weight": 10,
         "direction": "backward"
       },
       {
+        "source": "Jason Puncheon",
+        "target": "Yannick Bolasie Yala",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jason Puncheon",
+        "target": "Scott Dann",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Martin Kelly",
         "target": "Wilfried Zaha",
         "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Martin Kelly",
+        "target": "James McArthur",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Wilfried Zaha",
+        "target": "Dwight Gayle",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -834,9 +860,21 @@
       },
       {
         "source": "James McArthur",
+        "target": "Jason Puncheon",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "James McArthur",
         "target": "Scott Dann",
         "weight": 13,
         "direction": "backward"
+      },
+      {
+        "source": "James McArthur",
+        "target": "Yohan Cabaye",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "James McArthur",
@@ -845,10 +883,10 @@
         "direction": "forward"
       },
       {
-        "source": "Scott Dann",
-        "target": "Yohan Cabaye",
-        "weight": 7,
-        "direction": "forward"
+        "source": "James McArthur",
+        "target": "Damien Delaney",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Joel Ward",
@@ -857,157 +895,241 @@
         "direction": "lateral"
       },
       {
+        "source": "Scott Dann",
+        "target": "James McArthur",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "Damien Delaney",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "Yohan Cabaye",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Wayne Hennessey",
         "target": "Damien Delaney",
         "weight": 15,
         "direction": "forward"
+      },
+      {
+        "source": "Yannick Bolasie Yala",
+        "target": "Dwight Gayle",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Dwight Gayle",
+        "target": "Yannick Bolasie Yala",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Dwight Gayle",
+        "target": "Wilfried Zaha",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Bastian Schweinsteiger",
-        "short": "Schweinstei",
-        "x": 61.5,
-        "y": 30.01,
-        "size": 124.0,
+        "id": "Chris Smalling",
+        "short": "Smalling",
+        "x": 74.22,
+        "y": 53.47,
+        "size": 112.4,
+        "is_playmaker": false,
+        "betweenness": 0.1852,
+        "eigenvector": 0.4152
+      },
+      {
+        "id": "Morgan Schneiderlin",
+        "short": "Schneiderli",
+        "x": 60.81,
+        "y": 45.98,
+        "size": 140.1,
         "is_playmaker": true,
-        "betweenness": 0.0833,
-        "eigenvector": 0.4888
+        "betweenness": 0.3593,
+        "eigenvector": 0.5139
       },
       {
         "id": "Faustino Marcos Alberto Rojo",
         "short": "Rojo",
         "x": 55.74,
         "y": 8.68,
-        "size": 105.0,
+        "size": 98.1,
         "is_playmaker": false,
-        "betweenness": 0.0321,
-        "eigenvector": 0.2544
+        "betweenness": 0.2,
+        "eigenvector": 0.111
+      },
+      {
+        "id": "Bastian Schweinsteiger",
+        "short": "Schweinstei",
+        "x": 61.5,
+        "y": 30.01,
+        "size": 102.2,
+        "is_playmaker": false,
+        "betweenness": 0.163,
+        "eigenvector": 0.2704
+      },
+      {
+        "id": "Daley Blind",
+        "short": "Blind",
+        "x": 72.04,
+        "y": 27.13,
+        "size": 114.5,
+        "is_playmaker": true,
+        "betweenness": 0.337,
+        "eigenvector": 0.4678
+      },
+      {
+        "id": "Wayne Mark Rooney",
+        "short": "Rooney",
+        "x": 53.49,
+        "y": 25.9,
+        "size": 69.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1995
       },
       {
         "id": "Anthony Martial",
         "short": "Martial",
         "x": 36.03,
         "y": 19.02,
-        "size": 68.8,
+        "size": 69.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1177
-      },
-      {
-        "id": "Daley Blind",
-        "short": "Blind",
-        "x": 72.22,
-        "y": 26.72,
-        "size": 122.2,
-        "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.4446
-      },
-      {
-        "id": "Chris Smalling",
-        "short": "Smalling",
-        "x": 74.22,
-        "y": 53.47,
-        "size": 113.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.257
-      },
-      {
-        "id": "Morgan Schneiderlin",
-        "short": "Schneiderli",
-        "x": 60.77,
-        "y": 46.32,
-        "size": 153.3,
-        "is_playmaker": true,
-        "betweenness": 0.1026,
-        "eigenvector": 0.5401
+        "eigenvector": 0.0371
       },
       {
         "id": "Juan Manuel Mata García",
         "short": "García",
         "x": 48.7,
         "y": 47.54,
-        "size": 82.6,
+        "size": 84.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2498
-      },
-      {
-        "id": "Wayne Mark Rooney",
-        "short": "Rooney",
-        "x": 52.48,
-        "y": 27.06,
-        "size": 70.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2544
-      },
-      {
-        "id": "Ander Herrera Agüera",
-        "short": "Agüera",
-        "x": 47.86,
-        "y": 43.84,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.2388
       },
       {
         "id": "Matteo Darmian",
         "short": "Darmian",
         "x": 70.0,
         "y": 74.09,
-        "size": 55.0,
+        "size": 74.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0556,
+        "eigenvector": 0.2289
+      },
+      {
+        "id": "Ander Herrera Agüera",
+        "short": "Agüera",
+        "x": 45.92,
+        "y": 42.51,
+        "size": 80.6,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3275
       },
       {
         "id": "David de Gea Quintana",
         "short": "Quintana",
-        "x": 109.92,
-        "y": 41.55,
-        "size": 55.0,
+        "x": 109.49,
+        "y": 41.54,
+        "size": 59.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ashley Young",
-        "short": "Young",
-        "x": 65.53,
-        "y": 66.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jesse Lingard",
-        "short": "Lingard",
-        "x": 40.06,
-        "y": 63.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marouane Fellaini-Bakkioui",
-        "short": "Fellaini-Ba",
-        "x": 49.2,
-        "y": 29.73,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2185,
+        "eigenvector": 0.0369
       }
     ],
     "edges": [
+      {
+        "source": "Chris Smalling",
+        "target": "Morgan Schneiderlin",
+        "weight": 13,
+        "direction": "backward"
+      },
+      {
+        "source": "Chris Smalling",
+        "target": "Daley Blind",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Chris Smalling",
+        "target": "Matteo Darmian",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Chris Smalling",
+        "target": "David de Gea Quintana",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Morgan Schneiderlin",
+        "target": "Bastian Schweinsteiger",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Morgan Schneiderlin",
+        "target": "Daley Blind",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Morgan Schneiderlin",
+        "target": "Juan Manuel Mata García",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Morgan Schneiderlin",
+        "target": "Chris Smalling",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Morgan Schneiderlin",
+        "target": "Ander Herrera Agüera",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Morgan Schneiderlin",
+        "target": "Matteo Darmian",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Faustino Marcos Alberto Rojo",
+        "target": "Bastian Schweinsteiger",
+        "weight": 12,
+        "direction": "forward"
+      },
+      {
+        "source": "Faustino Marcos Alberto Rojo",
+        "target": "Anthony Martial",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Faustino Marcos Alberto Rojo",
+        "target": "Morgan Schneiderlin",
+        "weight": 7,
+        "direction": "forward"
+      },
       {
         "source": "Bastian Schweinsteiger",
         "target": "Faustino Marcos Alberto Rojo",
@@ -1021,15 +1143,9 @@
         "direction": "backward"
       },
       {
-        "source": "Faustino Marcos Alberto Rojo",
-        "target": "Anthony Martial",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Faustino Marcos Alberto Rojo",
-        "target": "Bastian Schweinsteiger",
-        "weight": 12,
+        "source": "Bastian Schweinsteiger",
+        "target": "Chris Smalling",
+        "weight": 6,
         "direction": "forward"
       },
       {
@@ -1045,33 +1161,27 @@
         "direction": "backward"
       },
       {
-        "source": "Chris Smalling",
-        "target": "Daley Blind",
-        "weight": 11,
-        "direction": "lateral"
-      },
-      {
-        "source": "Chris Smalling",
-        "target": "Morgan Schneiderlin",
-        "weight": 13,
+        "source": "Daley Blind",
+        "target": "Ander Herrera Agüera",
+        "weight": 6,
         "direction": "backward"
       },
       {
-        "source": "Morgan Schneiderlin",
-        "target": "Juan Manuel Mata García",
-        "weight": 8,
+        "source": "Daley Blind",
+        "target": "Wayne Mark Rooney",
+        "weight": 5,
         "direction": "backward"
       },
       {
-        "source": "Morgan Schneiderlin",
-        "target": "Bastian Schweinsteiger",
-        "weight": 10,
-        "direction": "lateral"
+        "source": "Daley Blind",
+        "target": "David de Gea Quintana",
+        "weight": 1,
+        "direction": "forward"
       },
       {
-        "source": "Morgan Schneiderlin",
-        "target": "Daley Blind",
-        "weight": 9,
+        "source": "Anthony Martial",
+        "target": "Faustino Marcos Alberto Rojo",
+        "weight": 6,
         "direction": "forward"
       },
       {
@@ -1079,6 +1189,36 @@
         "target": "Morgan Schneiderlin",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Juan Manuel Mata García",
+        "target": "Ander Herrera Agüera",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Matteo Darmian",
+        "target": "Juan Manuel Mata García",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ander Herrera Agüera",
+        "target": "Daley Blind",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "David de Gea Quintana",
+        "target": "Chris Smalling",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "David de Gea Quintana",
+        "target": "Daley Blind",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

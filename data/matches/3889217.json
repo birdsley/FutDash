@@ -979,47 +979,47 @@
         "short": "Torres",
         "x": 52.8,
         "y": 67.45,
-        "size": 145.7,
-        "is_playmaker": true,
-        "betweenness": 0.0682,
-        "eigenvector": 0.427
+        "size": 140.0,
+        "is_playmaker": false,
+        "betweenness": 0.1296,
+        "eigenvector": 0.4222
       },
       {
         "id": "Jair Ventura Filho",
         "short": "Filho",
-        "x": 69.55,
-        "y": 64.4,
-        "size": 122.6,
+        "x": 70.01,
+        "y": 64.64,
+        "size": 114.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5414
+        "eigenvector": 0.527
       },
       {
         "id": "Wilson da Silva Piazza",
         "short": "Piazza",
-        "x": 44.26,
-        "y": 38.5,
-        "size": 92.0,
-        "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0
+        "x": 44.36,
+        "y": 38.0,
+        "size": 94.7,
+        "is_playmaker": true,
+        "betweenness": 0.2815,
+        "eigenvector": 0.0289
       },
       {
         "id": "Clodoaldo Tavares de Santana",
         "short": "Santana",
         "x": 58.7,
         "y": 46.45,
-        "size": 117.0,
-        "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.1407
+        "size": 109.3,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.173
       },
       {
         "id": "Everaldo Marques da Silva",
         "short": "Silva",
         "x": 54.63,
         "y": 13.7,
-        "size": 67.0,
+        "size": 65.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1027,39 +1027,39 @@
       {
         "id": "Paulo Cézar Lima",
         "short": "Lima",
-        "x": 60.95,
-        "y": 17.92,
-        "size": 80.9,
-        "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0
+        "x": 60.01,
+        "y": 18.97,
+        "size": 93.9,
+        "is_playmaker": true,
+        "betweenness": 0.3741,
+        "eigenvector": 0.1025
       },
       {
         "id": "Édson Arantes do Nascimento",
         "short": "Nascimento",
-        "x": 62.29,
-        "y": 44.55,
-        "size": 116.1,
+        "x": 62.04,
+        "y": 44.8,
+        "size": 108.4,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.5549
+        "betweenness": 0.0111,
+        "eigenvector": 0.546
       },
       {
         "id": "Eduardo Gonçalves de Andrade",
         "short": "Andrade",
-        "x": 68.71,
-        "y": 35.82,
-        "size": 88.3,
+        "x": 68.25,
+        "y": 35.71,
+        "size": 94.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4437
+        "betweenness": 0.2444,
+        "eigenvector": 0.4524
       },
       {
         "id": "Félix Miéli Venerando",
         "short": "Venerando",
-        "x": 9.07,
-        "y": 41.71,
-        "size": 65.2,
+        "x": 9.22,
+        "y": 42.1,
+        "size": 63.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1069,40 +1069,20 @@
         "short": "Ruas",
         "x": 39.26,
         "y": 56.84,
-        "size": 55.0,
+        "size": 62.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marco Antônio Feliciano",
-        "short": "Feliciano",
-        "x": 46.91,
-        "y": 14.08,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0222,
         "eigenvector": 0.0
       },
       {
         "id": "José de Anchieta Fontana",
         "short": "Fontana",
-        "x": 34.34,
-        "y": 31.67,
-        "size": 55.0,
+        "x": 35.89,
+        "y": 31.59,
+        "size": 58.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jonas Eduardo Américo",
-        "short": "Américo",
-        "x": 100.93,
-        "y": 22.33,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1704,
+        "eigenvector": 0.001
       }
     ],
     "edges": [
@@ -1161,6 +1141,18 @@
         "direction": "forward"
       },
       {
+        "source": "Wilson da Silva Piazza",
+        "target": "Paulo Cézar Lima",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Wilson da Silva Piazza",
+        "target": "José de Anchieta Fontana",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Clodoaldo Tavares de Santana",
         "target": "Jair Ventura Filho",
         "weight": 11,
@@ -1203,6 +1195,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Paulo Cézar Lima",
+        "target": "Eduardo Gonçalves de Andrade",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Édson Arantes do Nascimento",
         "target": "Eduardo Gonçalves de Andrade",
         "weight": 12,
@@ -1221,131 +1219,131 @@
         "direction": "backward"
       },
       {
+        "source": "Eduardo Gonçalves de Andrade",
+        "target": "Paulo Cézar Lima",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Félix Miéli Venerando",
         "target": "Carlos Alberto Torres",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Hercules Brito Ruas",
+        "target": "Carlos Alberto Torres",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Hercules Brito Ruas",
+        "target": "José de Anchieta Fontana",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José de Anchieta Fontana",
+        "target": "Wilson da Silva Piazza",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José de Anchieta Fontana",
+        "target": "Hercules Brito Ruas",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Emerich Dembrovschi",
-        "short": "Dembrovschi",
-        "x": 52.53,
-        "y": 48.52,
-        "size": 108.8,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.4582
+        "id": "Cornel Dinu",
+        "short": "Dinu",
+        "x": 61.23,
+        "y": 31.98,
+        "size": 121.3,
+        "is_playmaker": false,
+        "betweenness": 0.1278,
+        "eigenvector": 0.4364
       },
       {
         "id": "Radu Nunweiller",
         "short": "Nunweiller",
-        "x": 58.25,
-        "y": 35.59,
-        "size": 179.4,
+        "x": 57.47,
+        "y": 35.21,
+        "size": 153.3,
         "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.5801
-      },
-      {
-        "id": "Mircea Lucescu",
-        "short": "Lucescu",
-        "x": 44.52,
-        "y": 32.09,
-        "size": 78.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1832
+        "betweenness": 0.1667,
+        "eigenvector": 0.5666
       },
       {
         "id": "Lajos Satmareanu",
         "short": "Satmareanu",
-        "x": 61.41,
-        "y": 64.25,
-        "size": 128.9,
+        "x": 58.4,
+        "y": 63.59,
+        "size": 121.3,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.3144
+        "betweenness": 0.1556,
+        "eigenvector": 0.3768
+      },
+      {
+        "id": "Emerich Dembrovschi",
+        "short": "Dembrovschi",
+        "x": 52.53,
+        "y": 48.52,
+        "size": 124.6,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.4388
       },
       {
         "id": "Ion 'Liţă' Dumitru",
         "short": "Dumitru",
-        "x": 72.13,
-        "y": 53.34,
-        "size": 110.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3229
+        "x": 70.28,
+        "y": 52.71,
+        "size": 101.4,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.2656
       },
       {
-        "id": "Cornel Dinu",
-        "short": "Dinu",
-        "x": 62.41,
-        "y": 33.99,
-        "size": 123.9,
-        "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.4656
-      },
-      {
-        "id": "Mihai Mocanu",
-        "short": "Mocanu",
-        "x": 75.03,
-        "y": 17.84,
-        "size": 55.0,
+        "id": "Mircea Lucescu",
+        "short": "Lucescu",
+        "x": 51.23,
+        "y": 27.98,
+        "size": 77.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2317
       },
       {
         "id": "Alexandru Neagu",
         "short": "Neagu",
         "x": 49.78,
         "y": 52.01,
-        "size": 55.0,
+        "size": 66.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.172
       },
       {
         "id": "Florea Dumitrache",
         "short": "Dumitrache",
         "x": 46.45,
         "y": 35.88,
-        "size": 55.0,
+        "size": 60.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Nicolae Lupescu",
-        "short": "Lupescu",
-        "x": 89.85,
-        "y": 39.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gheorghe Tataru",
-        "short": "Tataru",
-        "x": 50.14,
-        "y": 57.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Necula Răducanu 'Rică'",
-        "short": "'Rică'",
-        "x": 112.38,
-        "y": 40.52,
-        "size": 55.0,
+        "id": "Mihai Mocanu",
+        "short": "Mocanu",
+        "x": 74.08,
+        "y": 17.33,
+        "size": 60.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1355,17 +1353,57 @@
         "short": "Adamache",
         "x": 112.13,
         "y": 44.76,
-        "size": 55.0,
+        "size": 59.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0097
+      },
+      {
+        "id": "Nicolae Lupescu",
+        "short": "Lupescu",
+        "x": 87.01,
+        "y": 41.53,
+        "size": 59.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0097
       }
     ],
     "edges": [
       {
-        "source": "Emerich Dembrovschi",
+        "source": "Cornel Dinu",
         "target": "Radu Nunweiller",
+        "weight": 16,
+        "direction": "lateral"
+      },
+      {
+        "source": "Cornel Dinu",
+        "target": "Lajos Satmareanu",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Cornel Dinu",
+        "target": "Emerich Dembrovschi",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Radu Nunweiller",
+        "target": "Emerich Dembrovschi",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Radu Nunweiller",
+        "target": "Cornel Dinu",
         "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Radu Nunweiller",
+        "target": "Ion 'Liţă' Dumitru",
+        "weight": 8,
         "direction": "forward"
       },
       {
@@ -1376,39 +1414,15 @@
       },
       {
         "source": "Radu Nunweiller",
-        "target": "Ion 'Liţă' Dumitru",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Radu Nunweiller",
-        "target": "Emerich Dembrovschi",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Radu Nunweiller",
         "target": "Lajos Satmareanu",
         "weight": 7,
         "direction": "lateral"
       },
       {
         "source": "Radu Nunweiller",
-        "target": "Cornel Dinu",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Mircea Lucescu",
-        "target": "Radu Nunweiller",
-        "weight": 7,
-        "direction": "forward"
-      },
-      {
-        "source": "Lajos Satmareanu",
-        "target": "Ion 'Liţă' Dumitru",
-        "weight": 8,
-        "direction": "forward"
+        "target": "Alexandru Neagu",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "Lajos Satmareanu",
@@ -1418,15 +1432,51 @@
       },
       {
         "source": "Lajos Satmareanu",
+        "target": "Ion 'Liţă' Dumitru",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Lajos Satmareanu",
         "target": "Cornel Dinu",
         "weight": 8,
         "direction": "lateral"
       },
       {
-        "source": "Ion 'Liţă' Dumitru",
+        "source": "Lajos Satmareanu",
+        "target": "Radu Nunweiller",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emerich Dembrovschi",
+        "target": "Radu Nunweiller",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Emerich Dembrovschi",
+        "target": "Alexandru Neagu",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emerich Dembrovschi",
+        "target": "Mircea Lucescu",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emerich Dembrovschi",
         "target": "Cornel Dinu",
-        "weight": 8,
-        "direction": "backward"
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Emerich Dembrovschi",
+        "target": "Lajos Satmareanu",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Ion 'Liţă' Dumitru",
@@ -1435,9 +1485,69 @@
         "direction": "backward"
       },
       {
-        "source": "Cornel Dinu",
+        "source": "Ion 'Liţă' Dumitru",
+        "target": "Cornel Dinu",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Ion 'Liţă' Dumitru",
         "target": "Radu Nunweiller",
-        "weight": 16,
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ion 'Liţă' Dumitru",
+        "target": "Stere Adamache",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ion 'Liţă' Dumitru",
+        "target": "Nicolae Lupescu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mircea Lucescu",
+        "target": "Radu Nunweiller",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Florea Dumitrache",
+        "target": "Emerich Dembrovschi",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mihai Mocanu",
+        "target": "Cornel Dinu",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Stere Adamache",
+        "target": "Nicolae Lupescu",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Stere Adamache",
+        "target": "Ion 'Liţă' Dumitru",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolae Lupescu",
+        "target": "Stere Adamache",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Nicolae Lupescu",
+        "target": "Ion 'Liţă' Dumitru",
+        "weight": 1,
         "direction": "backward"
       }
     ]

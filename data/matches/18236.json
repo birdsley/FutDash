@@ -809,59 +809,59 @@
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 70.1,
-        "y": 30.95,
-        "size": 146.9,
+        "x": 70.16,
+        "y": 30.82,
+        "size": 137.1,
         "is_playmaker": false,
-        "betweenness": 0.0449,
-        "eigenvector": 0.5327
+        "betweenness": 0.0889,
+        "eigenvector": 0.5048
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 77.3,
-        "y": 45.15,
-        "size": 131.9,
+        "x": 77.34,
+        "y": 45.12,
+        "size": 133.9,
         "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.55
+        "betweenness": 0.0333,
+        "eigenvector": 0.5273
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
         "x": 67.93,
         "y": 42.33,
-        "size": 178.1,
+        "size": 169.6,
         "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.5628
+        "betweenness": 0.4667,
+        "eigenvector": 0.5488
       },
       {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
         "x": 60.17,
         "y": 70.98,
-        "size": 85.1,
+        "size": 91.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.189
+        "eigenvector": 0.2508
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 56.04,
-        "y": 38.05,
-        "size": 91.4,
-        "is_playmaker": true,
-        "betweenness": 0.0769,
-        "eigenvector": 0.2002
+        "x": 56.1,
+        "y": 38.26,
+        "size": 97.2,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.2926
       },
       {
         "id": "Eric-Sylvain Bilal Abidal",
         "short": "Abidal",
         "x": 62.0,
         "y": 10.11,
-        "size": 69.0,
+        "size": 67.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -871,7 +871,7 @@
         "short": "Bernabéu",
         "x": 41.2,
         "y": 32.11,
-        "size": 62.8,
+        "size": 62.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -879,19 +879,19 @@
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 41.04,
-        "y": 55.38,
-        "size": 61.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1068
+        "x": 40.73,
+        "y": 55.6,
+        "size": 66.6,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.0971
       },
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
-        "x": 81.97,
-        "y": 16.29,
-        "size": 61.8,
+        "x": 83.47,
+        "y": 13.03,
+        "size": 61.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -901,50 +901,20 @@
         "short": "Sánchez",
         "x": 80.58,
         "y": 57.67,
-        "size": 61.2,
+        "size": 60.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0986
+        "eigenvector": 0.0896
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
-        "x": 11.23,
-        "y": 40.68,
-        "size": 55.0,
+        "x": 11.43,
+        "y": 40.67,
+        "size": 56.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Carles Puyol i Saforcada",
-        "short": "Saforcada",
-        "x": 47.0,
-        "y": 72.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Seydou Kéita",
-        "short": "Kéita",
-        "x": 54.0,
-        "y": 25.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ibrahim Afellay",
-        "short": "Afellay",
-        "x": 67.0,
-        "y": 76.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1667,
+        "eigenvector": 0.0013
       }
     ],
     "edges": [
@@ -976,6 +946,18 @@
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Andrés Iniesta Luján",
         "weight": 26,
+        "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Daniel Alves da Silva",
+        "weight": 11,
         "direction": "backward"
       },
       {
@@ -1027,6 +1009,12 @@
         "direction": "forward"
       },
       {
+        "source": "Daniel Alves da Silva",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
         "source": "Sergio Busquets i Burgos",
         "target": "Andrés Iniesta Luján",
         "weight": 18,
@@ -1063,10 +1051,40 @@
         "direction": "forward"
       },
       {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Xavier Hernández Creus",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Andrés Iniesta Luján",
         "weight": 13,
         "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1075,129 +1093,109 @@
       {
         "id": "Nemanja Vidić",
         "short": "Vidić",
-        "x": 79.0,
-        "y": 24.97,
-        "size": 131.9,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 78.93,
+        "y": 25.41,
+        "size": 93.3,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.1536
       },
       {
         "id": "Rio Ferdinand",
         "short": "Ferdinand",
-        "x": 82.37,
-        "y": 54.9,
-        "size": 193.5,
+        "x": 82.81,
+        "y": 55.94,
+        "size": 121.7,
         "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0013
+        "betweenness": 0.3611,
+        "eigenvector": 0.3653
       },
       {
         "id": "Edwin van der Sar",
         "short": "Sar",
-        "x": 106.5,
-        "y": 44.8,
-        "size": 116.5,
+        "x": 105.89,
+        "y": 43.95,
+        "size": 84.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 1.0
+        "eigenvector": 0.2802
       },
       {
         "id": "Ryan Giggs",
         "short": "Giggs",
         "x": 55.56,
         "y": 27.41,
-        "size": 116.5,
+        "size": 99.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1167,
+        "eigenvector": 0.4004
       },
       {
         "id": "Wayne Mark Rooney",
         "short": "Rooney",
-        "x": 46.67,
-        "y": 36.48,
-        "size": 116.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0011
-      },
-      {
-        "id": "Ji-Sung Park",
-        "short": "Park",
-        "x": 50.48,
-        "y": 27.96,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Michael Carrick",
-        "short": "Carrick",
-        "x": 65.71,
-        "y": 41.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Luis Antonio Valencia Mosquera",
-        "short": "Mosquera",
-        "x": 59.22,
-        "y": 68.61,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 46.87,
+        "y": 34.9,
+        "size": 118.8,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.511
       },
       {
         "id": "Patrice Evra",
         "short": "Evra",
-        "x": 50.77,
-        "y": 8.62,
-        "size": 55.0,
+        "x": 48.3,
+        "y": 8.57,
+        "size": 70.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
+        "id": "Ji-Sung Park",
+        "short": "Park",
+        "x": 52.13,
+        "y": 28.39,
+        "size": 87.6,
+        "is_playmaker": false,
+        "betweenness": 0.0722,
+        "eigenvector": 0.1403
+      },
+      {
+        "id": "Michael Carrick",
+        "short": "Carrick",
+        "x": 64.19,
+        "y": 42.22,
+        "size": 100.4,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.3562
+      },
+      {
         "id": "Javier Hernández Balcázar",
         "short": "Balcázar",
-        "x": 41.6,
-        "y": 33.87,
-        "size": 55.0,
+        "x": 42.79,
+        "y": 33.29,
+        "size": 76.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.293
+      },
+      {
+        "id": "Luis Antonio Valencia Mosquera",
+        "short": "Mosquera",
+        "x": 55.27,
+        "y": 67.6,
+        "size": 84.8,
+        "is_playmaker": false,
+        "betweenness": 0.2056,
+        "eigenvector": 0.3326
       },
       {
         "id": "Fábio Pereira da Silva",
         "short": "Silva",
         "x": 57.53,
         "y": 73.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Luís Carlos Almeida da Cunha",
-        "short": "Cunha",
-        "x": 51.29,
-        "y": 47.57,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Paul Scholes",
-        "short": "Scholes",
-        "x": 71.23,
-        "y": 38.31,
-        "size": 55.0,
+        "size": 67.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1211,16 +1209,142 @@
         "direction": "lateral"
       },
       {
+        "source": "Nemanja Vidić",
+        "target": "Edwin van der Sar",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Rio Ferdinand",
         "target": "Edwin van der Sar",
         "weight": 8,
         "direction": "forward"
       },
       {
+        "source": "Rio Ferdinand",
+        "target": "Nemanja Vidić",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rio Ferdinand",
+        "target": "Luis Antonio Valencia Mosquera",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Rio Ferdinand",
+        "target": "Michael Carrick",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Edwin van der Sar",
+        "target": "Rio Ferdinand",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Ryan Giggs",
         "target": "Wayne Mark Rooney",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Ryan Giggs",
+        "target": "Ji-Sung Park",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Wayne Mark Rooney",
+        "target": "Ryan Giggs",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Wayne Mark Rooney",
+        "target": "Michael Carrick",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Wayne Mark Rooney",
+        "target": "Luis Antonio Valencia Mosquera",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Wayne Mark Rooney",
+        "target": "Javier Hernández Balcázar",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Patrice Evra",
+        "target": "Ji-Sung Park",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Patrice Evra",
+        "target": "Nemanja Vidić",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Ji-Sung Park",
+        "target": "Wayne Mark Rooney",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Ji-Sung Park",
+        "target": "Michael Carrick",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Michael Carrick",
+        "target": "Javier Hernández Balcázar",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Michael Carrick",
+        "target": "Ryan Giggs",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Michael Carrick",
+        "target": "Wayne Mark Rooney",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Javier Hernández Balcázar",
+        "target": "Wayne Mark Rooney",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Luis Antonio Valencia Mosquera",
+        "target": "Rio Ferdinand",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Fábio Pereira da Silva",
+        "target": "Ryan Giggs",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fábio Pereira da Silva",
+        "target": "Luis Antonio Valencia Mosquera",
+        "weight": 4,
+        "direction": "lateral"
       }
     ]
   },

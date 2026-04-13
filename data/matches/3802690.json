@@ -907,120 +907,110 @@
         "short": "Lauriente",
         "x": 72.97,
         "y": 30.39,
-        "size": 188.3,
-        "is_playmaker": true,
+        "size": 118.0,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.2772
       },
       {
         "id": "Enzo Le Fée",
         "short": "Fée",
         "x": 74.66,
         "y": 24.16,
-        "size": 178.8,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.8516
-      },
-      {
-        "id": "Terem Igobor Moffi",
-        "short": "Moffi",
-        "x": 74.73,
-        "y": 38.68,
-        "size": 131.2,
+        "size": 126.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5242
+        "eigenvector": 0.7782
       },
       {
         "id": "Vincent Le Goff",
         "short": "Goff",
         "x": 54.44,
         "y": 11.03,
-        "size": 121.7,
+        "size": 107.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1778,
+        "eigenvector": 0.4688
+      },
+      {
+        "id": "Houboulang Mendes",
+        "short": "Mendes",
+        "x": 68.08,
+        "y": 73.79,
+        "size": 96.1,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0062
+      },
+      {
+        "id": "Julien Laporte",
+        "short": "Laporte",
+        "x": 38.19,
+        "y": 57.66,
+        "size": 85.1,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.004
       },
       {
         "id": "Laurent Abergel",
         "short": "Abergel",
         "x": 50.28,
         "y": 43.82,
-        "size": 55.0,
+        "size": 93.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.2222,
+        "eigenvector": 0.1427
       },
       {
-        "id": "Dango Aboubacar Faissal Ouattara",
-        "short": "Ouattara",
-        "x": 80.64,
-        "y": 67.13,
-        "size": 55.0,
+        "id": "Terem Igobor Moffi",
+        "short": "Moffi",
+        "x": 74.73,
+        "y": 38.68,
+        "size": 107.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1444,
+        "eigenvector": 0.2661
       },
       {
         "id": "Thomas Monconduit",
         "short": "Monconduit",
         "x": 61.03,
         "y": 37.57,
-        "size": 55.0,
+        "size": 68.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       },
       {
-        "id": "Houboulang Mendes",
-        "short": "Mendes",
-        "x": 68.6,
-        "y": 72.33,
-        "size": 55.0,
+        "id": "Dango Aboubacar Faissal Ouattara",
+        "short": "Ouattara",
+        "x": 80.64,
+        "y": 67.13,
+        "size": 66.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Julien Laporte",
-        "short": "Laporte",
-        "x": 38.42,
-        "y": 56.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Paul Nardi",
-        "short": "Nardi",
-        "x": 7.92,
-        "y": 41.58,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.2556,
+        "eigenvector": 0.0322
       },
       {
         "id": "Moritz Jenz",
         "short": "Jenz",
         "x": 41.88,
         "y": 23.52,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "size": 71.4,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.0734
       },
       {
-        "id": "Igor Silva de Almeida",
-        "short": "Almeida",
-        "x": 82.55,
-        "y": 71.85,
-        "size": 55.0,
+        "id": "Paul Nardi",
+        "short": "Nardi",
+        "x": 7.92,
+        "y": 41.58,
+        "size": 66.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.2444,
+        "eigenvector": 0.0092
       }
     ],
     "edges": [
@@ -1037,9 +1027,135 @@
         "direction": "lateral"
       },
       {
+        "source": "Armand Lauriente",
+        "target": "Laurent Abergel",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Enzo Le Fée",
+        "target": "Vincent Le Goff",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Vincent Le Goff",
+        "target": "Armand Lauriente",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Vincent Le Goff",
         "target": "Enzo Le Fée",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Vincent Le Goff",
+        "target": "Moritz Jenz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Houboulang Mendes",
+        "target": "Julien Laporte",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Houboulang Mendes",
+        "target": "Laurent Abergel",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Houboulang Mendes",
+        "target": "Dango Aboubacar Faissal Ouattara",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Julien Laporte",
+        "target": "Houboulang Mendes",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Julien Laporte",
+        "target": "Paul Nardi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Laurent Abergel",
+        "target": "Enzo Le Fée",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Laurent Abergel",
+        "target": "Moritz Jenz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Terem Igobor Moffi",
+        "target": "Enzo Le Fée",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Terem Igobor Moffi",
+        "target": "Dango Aboubacar Faissal Ouattara",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Thomas Monconduit",
+        "target": "Terem Igobor Moffi",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Dango Aboubacar Faissal Ouattara",
+        "target": "Houboulang Mendes",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Dango Aboubacar Faissal Ouattara",
+        "target": "Terem Igobor Moffi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Moritz Jenz",
+        "target": "Vincent Le Goff",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Moritz Jenz",
+        "target": "Laurent Abergel",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Moritz Jenz",
+        "target": "Paul Nardi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Paul Nardi",
+        "target": "Julien Laporte",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Paul Nardi",
+        "target": "Moritz Jenz",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1049,132 +1165,112 @@
       {
         "id": "Achraf Hakimi Mouh",
         "short": "Mouh",
-        "x": 39.51,
-        "y": 69.39,
-        "size": 122.9,
+        "x": 38.75,
+        "y": 69.51,
+        "size": 114.8,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4332
+        "betweenness": 0.0,
+        "eigenvector": 0.396
       },
       {
         "id": "Ander Herrera Agüera",
         "short": "Agüera",
-        "x": 50.87,
-        "y": 47.53,
-        "size": 99.4,
+        "x": 50.55,
+        "y": 47.58,
+        "size": 100.0,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.3123
+        "betweenness": 0.0,
+        "eigenvector": 0.3661
       },
       {
         "id": "Presnel Kimpembe",
         "short": "Kimpembe",
-        "x": 53.65,
-        "y": 23.54,
-        "size": 130.1,
+        "x": 53.74,
+        "y": 25.67,
+        "size": 124.3,
         "is_playmaker": true,
-        "betweenness": 0.1212,
-        "eigenvector": 0.3196
+        "betweenness": 0.3333,
+        "eigenvector": 0.359
       },
       {
         "id": "Marcos Aoás Corrêa",
         "short": "Corrêa",
-        "x": 60.8,
-        "y": 50.67,
-        "size": 106.1,
+        "x": 60.25,
+        "y": 49.91,
+        "size": 106.3,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.2949
+        "betweenness": 0.1889,
+        "eigenvector": 0.3
       },
       {
         "id": "Nuno Mendes",
         "short": "Mendes",
         "x": 46.83,
         "y": 10.16,
-        "size": 68.8,
+        "size": 78.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.144
       },
       {
         "id": "Ángel Fabián Di María Hernández",
         "short": "Hernández",
-        "x": 36.87,
-        "y": 30.34,
-        "size": 109.7,
+        "x": 36.67,
+        "y": 31.05,
+        "size": 104.2,
         "is_playmaker": false,
-        "betweenness": 0.0682,
-        "eigenvector": 0.4772
+        "betweenness": 0.2,
+        "eigenvector": 0.4381
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 40.64,
-        "y": 48.95,
-        "size": 113.9,
+        "x": 40.37,
+        "y": 49.31,
+        "size": 119.0,
         "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.5126
-      },
-      {
-        "id": "Sergio Ramos García",
-        "short": "García",
-        "x": 62.74,
-        "y": 33.2,
-        "size": 65.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1338
+        "betweenness": 0.3944,
+        "eigenvector": 0.4896
       },
       {
         "id": "Idrissa Gana Gueye",
         "short": "Gueye",
-        "x": 47.72,
-        "y": 30.2,
-        "size": 78.4,
-        "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.1311
-      },
-      {
-        "id": "Georginio Wijnaldum",
-        "short": "Wijnaldum",
-        "x": 36.69,
-        "y": 38.17,
-        "size": 55.0,
+        "x": 47.96,
+        "y": 29.2,
+        "size": 86.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1935
       },
       {
         "id": "Mauro Emanuel Icardi Rivero",
         "short": "Rivero",
         "x": 32.24,
         "y": 42.99,
-        "size": 55.0,
+        "size": 57.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2722,
+        "eigenvector": 0.0103
+      },
+      {
+        "id": "Georginio Wijnaldum",
+        "short": "Wijnaldum",
+        "x": 36.94,
+        "y": 38.62,
+        "size": 57.1,
+        "is_playmaker": false,
+        "betweenness": 0.2278,
+        "eigenvector": 0.0093
       },
       {
         "id": "Keylor Navas Gamboa",
         "short": "Gamboa",
-        "x": 106.12,
-        "y": 41.75,
-        "size": 55.0,
+        "x": 105.03,
+        "y": 41.35,
+        "size": 57.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sekou Oumar Yansane",
-        "short": "Yansane",
-        "x": 32.0,
-        "y": 28.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.0137
       }
     ],
     "edges": [
@@ -1222,15 +1318,27 @@
       },
       {
         "source": "Presnel Kimpembe",
-        "target": "Sergio Ramos García",
-        "weight": 18,
-        "direction": "forward"
-      },
-      {
-        "source": "Presnel Kimpembe",
         "target": "Ángel Fabián Di María Hernández",
         "weight": 14,
         "direction": "backward"
+      },
+      {
+        "source": "Presnel Kimpembe",
+        "target": "Idrissa Gana Gueye",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Presnel Kimpembe",
+        "target": "Nuno Mendes",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Presnel Kimpembe",
+        "target": "Keylor Navas Gamboa",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Marcos Aoás Corrêa",
@@ -1251,6 +1359,18 @@
         "direction": "backward"
       },
       {
+        "source": "Marcos Aoás Corrêa",
+        "target": "Nuno Mendes",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcos Aoás Corrêa",
+        "target": "Keylor Navas Gamboa",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Nuno Mendes",
         "target": "Presnel Kimpembe",
         "weight": 23,
@@ -1267,6 +1387,12 @@
         "target": "Presnel Kimpembe",
         "weight": 15,
         "direction": "forward"
+      },
+      {
+        "source": "Ángel Fabián Di María Hernández",
+        "target": "Georginio Wijnaldum",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
@@ -1287,6 +1413,18 @@
         "direction": "forward"
       },
       {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Ander Herrera Agüera",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Mauro Emanuel Icardi Rivero",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Idrissa Gana Gueye",
         "target": "Ángel Fabián Di María Hernández",
         "weight": 16,
@@ -1297,6 +1435,48 @@
         "target": "Presnel Kimpembe",
         "weight": 12,
         "direction": "forward"
+      },
+      {
+        "source": "Idrissa Gana Gueye",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Georginio Wijnaldum",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Georginio Wijnaldum",
+        "target": "Mauro Emanuel Icardi Rivero",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Georginio Wijnaldum",
+        "target": "Ángel Fabián Di María Hernández",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Presnel Kimpembe",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

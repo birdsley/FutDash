@@ -749,122 +749,112 @@
       {
         "id": "Nampalys Mendy",
         "short": "Mendy",
-        "x": 45.72,
-        "y": 38.14,
-        "size": 124.5,
+        "x": 45.55,
+        "y": 38.38,
+        "size": 136.7,
         "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.479
+        "betweenness": 0.1111,
+        "eigenvector": 0.5091
       },
       {
         "id": "Jean Michaël Seri",
         "short": "Seri",
-        "x": 58.99,
-        "y": 32.91,
-        "size": 153.0,
+        "x": 59.02,
+        "y": 32.84,
+        "size": 139.6,
         "is_playmaker": true,
-        "betweenness": 0.2182,
-        "eigenvector": 0.5677
+        "betweenness": 0.5778,
+        "eigenvector": 0.5293
       },
       {
         "id": "Paul Baysse",
         "short": "Baysse",
         "x": 35.15,
         "y": 57.62,
-        "size": 115.9,
-        "is_playmaker": true,
-        "betweenness": 0.0818,
-        "eigenvector": 0.2954
+        "size": 108.7,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.2943
       },
       {
         "id": "Maxime Le Marchand",
         "short": "Marchand",
-        "x": 36.14,
-        "y": 23.87,
-        "size": 120.6,
+        "x": 36.15,
+        "y": 23.74,
+        "size": 112.7,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4508
+        "betweenness": 0.3056,
+        "eigenvector": 0.4093
       },
       {
         "id": "Jérémy Pied",
         "short": "Pied",
-        "x": 56.33,
-        "y": 71.66,
-        "size": 88.1,
+        "x": 56.2,
+        "y": 71.51,
+        "size": 94.4,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.1159
+        "betweenness": 0.0111,
+        "eigenvector": 0.2059
       },
       {
         "id": "Ricardo Domingos Barbosa Pereira",
         "short": "Pereira",
-        "x": 51.7,
-        "y": 8.42,
-        "size": 81.5,
+        "x": 51.71,
+        "y": 8.68,
+        "size": 88.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.269
+        "eigenvector": 0.3165
       },
       {
         "id": "Vincent Koziello",
         "short": "Koziello",
-        "x": 57.95,
-        "y": 53.36,
-        "size": 84.8,
+        "x": 57.84,
+        "y": 52.78,
+        "size": 80.7,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.2235
+        "betweenness": 0.0222,
+        "eigenvector": 0.2186
       },
       {
         "id": "Hatem Ben Arfa",
         "short": "Arfa",
-        "x": 73.5,
-        "y": 41.2,
+        "x": 74.05,
+        "y": 42.26,
         "size": 71.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1485
-      },
-      {
-        "id": "Valère Germain",
-        "short": "Germain",
-        "x": 73.01,
-        "y": 46.57,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Alassane Pléa",
-        "short": "Pléa",
-        "x": 77.29,
-        "y": 35.34,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.126
       },
       {
         "id": "Yoan Cardinale",
         "short": "Cardinale",
         "x": 9.38,
         "y": 40.45,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2389,
+        "eigenvector": 0.0139
       },
       {
-        "id": "Rémi Walter",
-        "short": "Walter",
-        "x": 55.84,
-        "y": 34.29,
-        "size": 55.0,
+        "id": "Alassane Pléa",
+        "short": "Pléa",
+        "x": 77.29,
+        "y": 35.34,
+        "size": 57.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0025
+      },
+      {
+        "id": "Valère Germain",
+        "short": "Germain",
+        "x": 73.45,
+        "y": 48.1,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0025
       }
     ],
     "edges": [
@@ -885,6 +875,18 @@
         "target": "Paul Baysse",
         "weight": 11,
         "direction": "backward"
+      },
+      {
+        "source": "Nampalys Mendy",
+        "target": "Jérémy Pied",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Nampalys Mendy",
+        "target": "Ricardo Domingos Barbosa Pereira",
+        "weight": 9,
+        "direction": "forward"
       },
       {
         "source": "Jean Michaël Seri",
@@ -935,6 +937,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Paul Baysse",
+        "target": "Yoan Cardinale",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Maxime Le Marchand",
         "target": "Nampalys Mendy",
         "weight": 18,
@@ -959,6 +967,12 @@
         "direction": "forward"
       },
       {
+        "source": "Maxime Le Marchand",
+        "target": "Yoan Cardinale",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jérémy Pied",
         "target": "Paul Baysse",
         "weight": 17,
@@ -971,10 +985,22 @@
         "direction": "lateral"
       },
       {
+        "source": "Jérémy Pied",
+        "target": "Nampalys Mendy",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
         "source": "Ricardo Domingos Barbosa Pereira",
         "target": "Jean Michaël Seri",
         "weight": 16,
         "direction": "forward"
+      },
+      {
+        "source": "Ricardo Domingos Barbosa Pereira",
+        "target": "Nampalys Mendy",
+        "weight": 10,
+        "direction": "backward"
       },
       {
         "source": "Vincent Koziello",
@@ -987,153 +1013,201 @@
         "target": "Jean Michaël Seri",
         "weight": 13,
         "direction": "backward"
+      },
+      {
+        "source": "Hatem Ben Arfa",
+        "target": "Alassane Pléa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hatem Ben Arfa",
+        "target": "Valère Germain",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Yoan Cardinale",
+        "target": "Paul Baysse",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Yoan Cardinale",
+        "target": "Maxime Le Marchand",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alassane Pléa",
+        "target": "Hatem Ben Arfa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alassane Pléa",
+        "target": "Valère Germain",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Alassane Pléa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Hatem Ben Arfa",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Antoine Devaux",
-        "short": "Devaux",
-        "x": 64.13,
-        "y": 41.27,
-        "size": 191.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.611
-      },
-      {
         "id": "Hamari Traoré",
         "short": "Traoré",
-        "x": 49.2,
-        "y": 72.66,
-        "size": 255.0,
+        "x": 46.57,
+        "y": 72.94,
+        "size": 140.1,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.4916
+      },
+      {
+        "id": "Antoine Devaux",
+        "short": "Devaux",
+        "x": 64.91,
+        "y": 42.07,
+        "size": 135.6,
         "is_playmaker": true,
-        "betweenness": 0.0064,
-        "eigenvector": 0.576
+        "betweenness": 0.4111,
+        "eigenvector": 0.4565
       },
       {
         "id": "Gaëtan Charbonnier",
         "short": "Charbonnier",
-        "x": 44.48,
-        "y": 41.92,
-        "size": 119.0,
+        "x": 44.76,
+        "y": 41.84,
+        "size": 117.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5431
+        "betweenness": 0.2833,
+        "eigenvector": 0.4489
       },
       {
-        "id": "Nicolas de Roussel de Préville",
-        "short": "Préville",
-        "x": 46.45,
-        "y": 39.33,
-        "size": 55.0,
+        "id": "Antoine Conte",
+        "short": "Conte",
+        "x": 68.18,
+        "y": 60.49,
+        "size": 92.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Atila Turan",
-        "short": "Turan",
-        "x": 56.2,
-        "y": 10.76,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0278,
+        "eigenvector": 0.3851
       },
       {
         "id": "Aly Ndom",
         "short": "Ndom",
-        "x": 52.06,
-        "y": 35.1,
-        "size": 55.0,
+        "x": 51.2,
+        "y": 35.87,
+        "size": 84.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0333,
+        "eigenvector": 0.1055
+      },
+      {
+        "id": "Nicolas de Roussel de Préville",
+        "short": "Préville",
+        "x": 51.1,
+        "y": 35.26,
+        "size": 83.4,
+        "is_playmaker": false,
+        "betweenness": 0.0167,
+        "eigenvector": 0.2795
+      },
+      {
+        "id": "Aïssa Mandi",
+        "short": "Mandi",
+        "x": 78.0,
+        "y": 38.09,
+        "size": 87.8,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.1322
       },
       {
         "id": "Hugo Rodriguez",
         "short": "Rodriguez",
         "x": 43.29,
         "y": 45.85,
-        "size": 55.0,
+        "size": 69.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2756
       },
       {
-        "id": "Aïssa Mandi",
-        "short": "Mandi",
-        "x": 78.24,
-        "y": 38.0,
-        "size": 55.0,
+        "id": "Atila Turan",
+        "short": "Turan",
+        "x": 53.19,
+        "y": 10.78,
+        "size": 68.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Antoine Conte",
-        "short": "Conte",
-        "x": 68.51,
-        "y": 59.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Prince Oniangué",
-        "short": "Oniangué",
-        "x": 71.53,
-        "y": 41.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Johann Carrasso",
-        "short": "Carrasso",
-        "x": 106.78,
-        "y": 37.03,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.1317
       },
       {
         "id": "Anthony Weber",
         "short": "Weber",
         "x": 74.42,
         "y": 16.44,
-        "size": 55.0,
+        "size": 64.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0278,
+        "eigenvector": 0.0004
       },
       {
-        "id": "Grejohn Kyei",
-        "short": "Kyei",
-        "x": 39.4,
-        "y": 62.4,
-        "size": 55.0,
+        "id": "Johann Carrasso",
+        "short": "Carrasso",
+        "x": 106.89,
+        "y": 37.98,
+        "size": 61.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Omenuke Mfulu",
-        "short": "Mfulu",
-        "x": 65.82,
-        "y": 22.54,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1722,
+        "eigenvector": 0.0077
       }
     ],
     "edges": [
+      {
+        "source": "Hamari Traoré",
+        "target": "Antoine Devaux",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Hamari Traoré",
+        "target": "Gaëtan Charbonnier",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hamari Traoré",
+        "target": "Antoine Conte",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Hamari Traoré",
+        "target": "Hugo Rodriguez",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hamari Traoré",
+        "target": "Nicolas de Roussel de Préville",
+        "weight": 4,
+        "direction": "forward"
+      },
       {
         "source": "Antoine Devaux",
         "target": "Hamari Traoré",
@@ -1141,16 +1215,136 @@
         "direction": "backward"
       },
       {
-        "source": "Hamari Traoré",
-        "target": "Gaëtan Charbonnier",
-        "weight": 8,
+        "source": "Antoine Devaux",
+        "target": "Antoine Conte",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Antoine Devaux",
+        "target": "Atila Turan",
+        "weight": 5,
         "direction": "backward"
       },
       {
-        "source": "Hamari Traoré",
-        "target": "Antoine Devaux",
-        "weight": 9,
+        "source": "Antoine Devaux",
+        "target": "Aïssa Mandi",
+        "weight": 5,
         "direction": "forward"
+      },
+      {
+        "source": "Antoine Devaux",
+        "target": "Aly Ndom",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Antoine Devaux",
+        "target": "Hugo Rodriguez",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Gaëtan Charbonnier",
+        "target": "Antoine Devaux",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Gaëtan Charbonnier",
+        "target": "Hamari Traoré",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gaëtan Charbonnier",
+        "target": "Nicolas de Roussel de Préville",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Antoine Conte",
+        "target": "Hamari Traoré",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Antoine Conte",
+        "target": "Gaëtan Charbonnier",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Aly Ndom",
+        "target": "Nicolas de Roussel de Préville",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Aly Ndom",
+        "target": "Hamari Traoré",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolas de Roussel de Préville",
+        "target": "Gaëtan Charbonnier",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Aïssa Mandi",
+        "target": "Antoine Devaux",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Aïssa Mandi",
+        "target": "Gaëtan Charbonnier",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Aïssa Mandi",
+        "target": "Antoine Conte",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Aïssa Mandi",
+        "target": "Johann Carrasso",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Atila Turan",
+        "target": "Gaëtan Charbonnier",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Anthony Weber",
+        "target": "Aly Ndom",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Anthony Weber",
+        "target": "Johann Carrasso",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Johann Carrasso",
+        "target": "Aïssa Mandi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Johann Carrasso",
+        "target": "Anthony Weber",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

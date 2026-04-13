@@ -1015,87 +1015,87 @@
         "short": "Santos",
         "x": 52.19,
         "y": 15.03,
-        "size": 95.6,
-        "is_playmaker": true,
-        "betweenness": 0.2,
-        "eigenvector": 0.1957
+        "size": 90.5,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.1634
       },
       {
         "id": "Mário Jorge Lobo Zagallo",
         "short": "Zagallo",
         "x": 82.11,
         "y": 13.55,
-        "size": 113.5,
+        "size": 112.0,
         "is_playmaker": false,
-        "betweenness": 0.1722,
-        "eigenvector": 0.4268
+        "betweenness": 0.1222,
+        "eigenvector": 0.5221
       },
       {
         "id": "José Ely de Miranda",
         "short": "Miranda",
         "x": 67.3,
         "y": 49.01,
-        "size": 119.2,
-        "is_playmaker": true,
-        "betweenness": 0.2056,
-        "eigenvector": 0.1364
+        "size": 111.2,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.1384
       },
       {
         "id": "Manoel Francisco dos Santos",
         "short": "Santos",
         "x": 81.06,
         "y": 63.86,
-        "size": 87.1,
+        "size": 83.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1541
+        "eigenvector": 0.0951
       },
       {
         "id": "Dejalma Pereira Dias dos Santos",
         "short": "Santos",
         "x": 54.01,
         "y": 66.28,
-        "size": 104.1,
+        "size": 104.6,
         "is_playmaker": false,
-        "betweenness": 0.0778,
-        "eigenvector": 0.0704
+        "betweenness": 0.1556,
+        "eigenvector": 0.0487
       },
       {
         "id": "Waldyr Pereira",
         "short": "Pereira",
         "x": 64.87,
         "y": 34.66,
-        "size": 97.5,
-        "is_playmaker": false,
-        "betweenness": 0.1444,
-        "eigenvector": 0.1459
+        "size": 98.8,
+        "is_playmaker": true,
+        "betweenness": 0.2,
+        "eigenvector": 0.273
       },
       {
         "id": "Édson Arantes do Nascimento",
         "short": "Nascimento",
         "x": 82.26,
         "y": 42.29,
-        "size": 110.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7489
+        "size": 121.9,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.6073
       },
       {
         "id": "Edvaldo Izidio Neto",
         "short": "Neto",
         "x": 77.99,
         "y": 33.52,
-        "size": 95.6,
+        "size": 96.3,
         "is_playmaker": false,
-        "betweenness": 0.1,
-        "eigenvector": 0.3874
+        "betweenness": 0.0,
+        "eigenvector": 0.4762
       },
       {
         "id": "Gylmar dos Santos Neves",
         "short": "Neves",
         "x": 7.75,
         "y": 36.87,
-        "size": 64.4,
+        "size": 63.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1105,7 +1105,7 @@
         "short": "Calazães",
         "x": 34.08,
         "y": 27.34,
-        "size": 62.5,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1115,7 +1115,7 @@
         "short": "Oliveira",
         "x": 43.48,
         "y": 48.96,
-        "size": 55.0,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1219,6 +1219,24 @@
         "direction": "forward"
       },
       {
+        "source": "Édson Arantes do Nascimento",
+        "target": "Waldyr Pereira",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Édson Arantes do Nascimento",
+        "target": "Edvaldo Izidio Neto",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Édson Arantes do Nascimento",
+        "target": "Mário Jorge Lobo Zagallo",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
         "source": "Edvaldo Izidio Neto",
         "target": "Édson Arantes do Nascimento",
         "weight": 11,
@@ -1241,107 +1259,113 @@
         "target": "Nilton dos Reis Santos",
         "weight": 8,
         "direction": "forward"
+      },
+      {
+        "source": "Mauro Ramos de Oliveira",
+        "target": "Dejalma Pereira Dias dos Santos",
+        "weight": 8,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Isidoro Díaz Mejia",
-        "short": "Mejia",
-        "x": 52.6,
-        "y": 27.85,
-        "size": 93.7,
+        "id": "Antonio Jasso Alvarez",
+        "short": "Alvarez",
+        "x": 56.95,
+        "y": 52.45,
+        "size": 171.7,
         "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.2855
+        "betweenness": 0.1,
+        "eigenvector": 0.523
       },
       {
         "id": "Alfredo Estrella Del'Aguila",
         "short": "Del'Aguila",
         "x": 45.5,
         "y": 61.38,
-        "size": 123.5,
-        "is_playmaker": false,
-        "betweenness": 0.1111,
-        "eigenvector": 0.6273
-      },
-      {
-        "id": "Antonio Jasso Alvarez",
-        "short": "Alvarez",
-        "x": 56.95,
-        "y": 52.45,
-        "size": 189.8,
+        "size": 122.9,
         "is_playmaker": true,
-        "betweenness": 0.3222,
-        "eigenvector": 0.5309
+        "betweenness": 0.2222,
+        "eigenvector": 0.5927
       },
       {
         "id": "Salvador Reyes Monteón",
         "short": "Monteón",
         "x": 60.09,
         "y": 35.02,
-        "size": 113.6,
-        "is_playmaker": true,
-        "betweenness": 0.2,
-        "eigenvector": 0.167
-      },
-      {
-        "id": "Pedro Nájera Pacheco",
-        "short": "Pacheco",
-        "x": 74.17,
-        "y": 40.98,
-        "size": 69.4,
+        "size": 105.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0371
-      },
-      {
-        "id": "José de Jesús Del Muro Lopez",
-        "short": "Lopez",
-        "x": 71.48,
-        "y": 67.93,
-        "size": 82.6,
-        "is_playmaker": false,
-        "betweenness": 0.0333,
-        "eigenvector": 0.1377
+        "betweenness": 0.1111,
+        "eigenvector": 0.1657
       },
       {
         "id": "Héctor Hernández García",
         "short": "García",
         "x": 52.23,
         "y": 52.45,
-        "size": 89.3,
+        "size": 84.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4416
+        "eigenvector": 0.3928
       },
       {
-        "id": "Antonio Félix Carbajal Rodríguez",
-        "short": "Rodríguez",
-        "x": 110.02,
-        "y": 39.4,
-        "size": 62.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Isidoro Díaz Mejia",
+        "short": "Mejia",
+        "x": 52.6,
+        "y": 27.85,
+        "size": 102.8,
+        "is_playmaker": true,
+        "betweenness": 0.1889,
+        "eigenvector": 0.3763
       },
       {
-        "id": "Guillermo Sepúlveda Rodríguez",
-        "short": "Rodríguez",
-        "x": 79.34,
-        "y": 13.06,
-        "size": 61.6,
+        "id": "José de Jesús Del Muro Lopez",
+        "short": "Lopez",
+        "x": 71.48,
+        "y": 67.93,
+        "size": 87.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.2053
       },
       {
         "id": "Raul Cardenas",
         "short": "Cardenas",
         "x": 89.07,
         "y": 34.19,
-        "size": 63.8,
+        "size": 64.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Antonio Félix Carbajal Rodríguez",
+        "short": "Rodríguez",
+        "x": 110.02,
+        "y": 39.4,
+        "size": 68.4,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Pedro Nájera Pacheco",
+        "short": "Pacheco",
+        "x": 74.17,
+        "y": 40.98,
+        "size": 77.0,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.0979
+      },
+      {
+        "id": "Guillermo Sepúlveda Rodríguez",
+        "short": "Rodríguez",
+        "x": 79.34,
+        "y": 13.06,
+        "size": 60.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1351,47 +1375,29 @@
         "short": "Tavares",
         "x": 99.49,
         "y": 39.95,
-        "size": 55.0,
+        "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0556,
         "eigenvector": 0.0
       }
     ],
     "edges": [
       {
-        "source": "Isidoro Díaz Mejia",
+        "source": "Antonio Jasso Alvarez",
         "target": "Alfredo Estrella Del'Aguila",
-        "weight": 7,
+        "weight": 18,
         "direction": "backward"
       },
       {
-        "source": "Isidoro Díaz Mejia",
-        "target": "Antonio Jasso Alvarez",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Alfredo Estrella Del'Aguila",
+        "source": "Antonio Jasso Alvarez",
         "target": "Héctor Hernández García",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Alfredo Estrella Del'Aguila",
-        "target": "Antonio Jasso Alvarez",
-        "weight": 12,
-        "direction": "forward"
+        "weight": 13,
+        "direction": "backward"
       },
       {
         "source": "Antonio Jasso Alvarez",
         "target": "Isidoro Díaz Mejia",
         "weight": 12,
-        "direction": "backward"
-      },
-      {
-        "source": "Antonio Jasso Alvarez",
-        "target": "Alfredo Estrella Del'Aguila",
-        "weight": 18,
         "direction": "backward"
       },
       {
@@ -1402,15 +1408,39 @@
       },
       {
         "source": "Antonio Jasso Alvarez",
-        "target": "Héctor Hernández García",
-        "weight": 13,
-        "direction": "backward"
-      },
-      {
-        "source": "Antonio Jasso Alvarez",
         "target": "José de Jesús Del Muro Lopez",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Alfredo Estrella Del'Aguila",
+        "target": "Antonio Jasso Alvarez",
+        "weight": 12,
+        "direction": "forward"
+      },
+      {
+        "source": "Alfredo Estrella Del'Aguila",
+        "target": "Héctor Hernández García",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Alfredo Estrella Del'Aguila",
+        "target": "Isidoro Díaz Mejia",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Alfredo Estrella Del'Aguila",
+        "target": "José de Jesús Del Muro Lopez",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Salvador Reyes Monteón",
+        "target": "Antonio Jasso Alvarez",
+        "weight": 18,
+        "direction": "lateral"
       },
       {
         "source": "Salvador Reyes Monteón",
@@ -1425,16 +1455,28 @@
         "direction": "forward"
       },
       {
-        "source": "Salvador Reyes Monteón",
-        "target": "Antonio Jasso Alvarez",
-        "weight": 18,
-        "direction": "lateral"
+        "source": "Héctor Hernández García",
+        "target": "Alfredo Estrella Del'Aguila",
+        "weight": 10,
+        "direction": "backward"
       },
       {
-        "source": "Pedro Nájera Pacheco",
-        "target": "Salvador Reyes Monteón",
+        "source": "Isidoro Díaz Mejia",
+        "target": "Antonio Jasso Alvarez",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Isidoro Díaz Mejia",
+        "target": "Alfredo Estrella Del'Aguila",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Isidoro Díaz Mejia",
+        "target": "Pedro Nájera Pacheco",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "José de Jesús Del Muro Lopez",
@@ -1449,15 +1491,45 @@
         "direction": "backward"
       },
       {
-        "source": "Héctor Hernández García",
-        "target": "Alfredo Estrella Del'Aguila",
-        "weight": 10,
+        "source": "Raul Cardenas",
+        "target": "Antonio Jasso Alvarez",
+        "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Raul Cardenas",
+        "target": "José Villegas Tavares",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Antonio Félix Carbajal Rodríguez",
         "target": "Antonio Jasso Alvarez",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Félix Carbajal Rodríguez",
+        "target": "José de Jesús Del Muro Lopez",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Félix Carbajal Rodríguez",
+        "target": "José Villegas Tavares",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pedro Nájera Pacheco",
+        "target": "Salvador Reyes Monteón",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Pedro Nájera Pacheco",
+        "target": "Isidoro Díaz Mejia",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1467,9 +1539,15 @@
         "direction": "backward"
       },
       {
-        "source": "Raul Cardenas",
-        "target": "Antonio Jasso Alvarez",
-        "weight": 8,
+        "source": "José Villegas Tavares",
+        "target": "Antonio Félix Carbajal Rodríguez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Villegas Tavares",
+        "target": "Raul Cardenas",
+        "weight": 1,
         "direction": "backward"
       }
     ]

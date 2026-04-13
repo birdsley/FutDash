@@ -917,99 +917,89 @@
       {
         "id": "Andreu Fontàs Prat",
         "short": "Prat",
-        "x": 53.35,
-        "y": 27.13,
-        "size": 170.0,
-        "is_playmaker": true,
-        "betweenness": 0.1288,
-        "eigenvector": 0.5857
+        "x": 53.19,
+        "y": 27.25,
+        "size": 158.7,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.576
       },
       {
         "id": "Jonathan Castro Otto",
         "short": "Otto",
-        "x": 67.42,
-        "y": 10.08,
-        "size": 111.9,
+        "x": 67.61,
+        "y": 9.85,
+        "size": 110.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3811
+        "betweenness": 0.1556,
+        "eigenvector": 0.4122
       },
       {
         "id": "Augusto Matías Fernández",
         "short": "Fernández",
-        "x": 62.56,
-        "y": 40.96,
-        "size": 119.4,
+        "x": 62.77,
+        "y": 41.09,
+        "size": 114.2,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.426
+        "betweenness": 0.2222,
+        "eigenvector": 0.4107
       },
       {
         "id": "Manuel Agudo Durán",
         "short": "Durán",
-        "x": 88.78,
-        "y": 16.47,
-        "size": 76.9,
+        "x": 88.09,
+        "y": 16.94,
+        "size": 87.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3176
+        "betweenness": 0.2111,
+        "eigenvector": 0.3287
       },
       {
         "id": "Gustavo Daniel Cabral Cáceres",
         "short": "Cáceres",
-        "x": 46.43,
-        "y": 52.57,
-        "size": 103.1,
-        "is_playmaker": true,
-        "betweenness": 0.1136,
-        "eigenvector": 0.2493
+        "x": 46.0,
+        "y": 52.34,
+        "size": 98.4,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.2387
       },
       {
         "id": "Daniel Wass",
         "short": "Wass",
         "x": 67.57,
         "y": 39.22,
-        "size": 109.4,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.4058
+        "size": 109.6,
+        "is_playmaker": true,
+        "betweenness": 0.4222,
+        "eigenvector": 0.3997
       },
       {
         "id": "Hugo Mallo Novegil",
         "short": "Novegil",
         "x": 60.03,
         "y": 70.53,
-        "size": 78.1,
+        "size": 75.8,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0482
+        "betweenness": 0.1,
+        "eigenvector": 0.0454
       },
       {
         "id": "Fabián Ariel Orellana Valenzuela",
         "short": "Valenzuela",
         "x": 87.22,
         "y": 55.31,
-        "size": 64.4,
+        "size": 68.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.014
+        "betweenness": 0.0333,
+        "eigenvector": 0.0129
       },
       {
         "id": "Sergio Álvarez Conde",
         "short": "Conde",
         "x": 10.02,
         "y": 40.88,
-        "size": 61.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pedro Pablo Hernández",
-        "short": "Hernández",
-        "x": 70.93,
-        "y": 40.39,
-        "size": 55.0,
+        "size": 61.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1017,32 +1007,22 @@
       {
         "id": "Iago Aspas Juncal",
         "short": "Juncal",
-        "x": 89.33,
-        "y": 44.61,
-        "size": 55.0,
+        "x": 89.0,
+        "y": 44.32,
+        "size": 64.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.05
       },
       {
-        "id": "John Guidetti",
-        "short": "Guidetti",
-        "x": 72.89,
-        "y": 39.12,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Théo Bongonda Mbul''Ofeko Batombo",
-        "short": "Batombo",
-        "x": 97.4,
-        "y": 22.66,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Pedro Pablo Hernández",
+        "short": "Hernández",
+        "x": 70.93,
+        "y": 40.39,
+        "size": 57.3,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0154
       }
     ],
     "edges": [
@@ -1113,6 +1093,24 @@
         "direction": "backward"
       },
       {
+        "source": "Augusto Matías Fernández",
+        "target": "Pedro Pablo Hernández",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Manuel Agudo Durán",
+        "target": "Iago Aspas Juncal",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Manuel Agudo Durán",
+        "target": "Jonathan Castro Otto",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Gustavo Daniel Cabral Cáceres",
         "target": "Andreu Fontàs Prat",
         "weight": 19,
@@ -1149,6 +1147,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Daniel Wass",
+        "target": "Pedro Pablo Hernández",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Hugo Mallo Novegil",
         "target": "Fabián Ariel Orellana Valenzuela",
         "weight": 15,
@@ -1161,157 +1165,187 @@
         "direction": "backward"
       },
       {
+        "source": "Fabián Ariel Orellana Valenzuela",
+        "target": "Daniel Wass",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Sergio Álvarez Conde",
         "target": "Andreu Fontàs Prat",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Iago Aspas Juncal",
+        "target": "Manuel Agudo Durán",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pedro Pablo Hernández",
+        "target": "Daniel Wass",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pedro Pablo Hernández",
+        "target": "Augusto Matías Fernández",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Hernán Daniel Santana Trujillo",
-        "short": "Trujillo",
-        "x": 71.16,
-        "y": 53.68,
-        "size": 122.3,
-        "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pedro Bigas Rigo",
-        "short": "Rigo",
-        "x": 73.63,
-        "y": 27.79,
-        "size": 89.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Dani Castellano Betancor",
         "short": "Betancor",
-        "x": 67.78,
-        "y": 8.72,
+        "x": 68.17,
+        "y": 8.43,
         "size": 95.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.1862
       },
       {
         "id": "Sergio Ezequiel Araújo",
         "short": "Araújo",
         "x": 48.97,
         "y": 20.89,
-        "size": 108.1,
+        "size": 88.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4586
-      },
-      {
-        "id": "Jonathan Viera Ramos",
-        "short": "Ramos",
-        "x": 59.31,
-        "y": 33.3,
-        "size": 118.3,
-        "is_playmaker": true,
-        "betweenness": 0.0385,
-        "eigenvector": 0.5241
+        "eigenvector": 0.3663
       },
       {
         "id": "David Simón Rodríguez Santana",
         "short": "Santana",
         "x": 61.42,
         "y": 70.12,
-        "size": 89.7,
+        "size": 93.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.1111
+      },
+      {
+        "id": "Hernán Daniel Santana Trujillo",
+        "short": "Trujillo",
+        "x": 71.39,
+        "y": 53.57,
+        "size": 127.6,
+        "is_playmaker": true,
+        "betweenness": 0.3722,
+        "eigenvector": 0.2502
+      },
+      {
+        "id": "Pedro Bigas Rigo",
+        "short": "Rigo",
+        "x": 73.59,
+        "y": 28.31,
+        "size": 86.8,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.3165
       },
       {
         "id": "Juan Emmanuel Culio",
         "short": "Culio",
-        "x": 59.86,
-        "y": 25.07,
-        "size": 148.9,
+        "x": 59.94,
+        "y": 25.34,
+        "size": 131.4,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.599
+      },
+      {
+        "id": "Jonathan Viera Ramos",
+        "short": "Ramos",
+        "x": 59.1,
+        "y": 32.59,
+        "size": 107.2,
         "is_playmaker": true,
-        "betweenness": 0.0513,
-        "eigenvector": 0.7176
+        "betweenness": 0.3111,
+        "eigenvector": 0.5428
       },
       {
         "id": "Antolín Alcáraz Viveros",
         "short": "Viveros",
-        "x": 80.59,
-        "y": 50.87,
-        "size": 67.2,
+        "x": 78.46,
+        "y": 51.84,
+        "size": 75.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Raúl Lizoáin Cruz",
-        "short": "Cruz",
-        "x": 108.48,
-        "y": 37.79,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.05,
+        "eigenvector": 0.0009
       },
       {
         "id": "Roque Mesa Quevedo",
         "short": "Quevedo",
         "x": 58.29,
         "y": 56.56,
-        "size": 55.0,
+        "size": 79.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Aythami Artiles Oliva",
-        "short": "Oliva",
-        "x": 71.26,
-        "y": 36.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.25,
+        "eigenvector": 0.0346
       },
       {
         "id": "Willian José da Silva",
         "short": "Silva",
         "x": 51.2,
         "y": 49.73,
-        "size": 55.0,
+        "size": 60.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mubarak Wakaso",
-        "short": "Wakaso",
-        "x": 41.1,
-        "y": 54.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2389,
+        "eigenvector": 0.0339
       },
       {
         "id": "Javier Varas Herrera",
         "short": "Herrera",
         "x": 86.1,
         "y": 62.3,
-        "size": 55.0,
+        "size": 60.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0147
       }
     ],
     "edges": [
+      {
+        "source": "Dani Castellano Betancor",
+        "target": "Sergio Ezequiel Araújo",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Dani Castellano Betancor",
+        "target": "Juan Emmanuel Culio",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Dani Castellano Betancor",
+        "target": "Pedro Bigas Rigo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Ezequiel Araújo",
+        "target": "Juan Emmanuel Culio",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "David Simón Rodríguez Santana",
+        "target": "Hernán Daniel Santana Trujillo",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "David Simón Rodríguez Santana",
+        "target": "Roque Mesa Quevedo",
+        "weight": 5,
+        "direction": "lateral"
+      },
       {
         "source": "Hernán Daniel Santana Trujillo",
         "target": "Pedro Bigas Rigo",
@@ -1331,40 +1365,28 @@
         "direction": "backward"
       },
       {
+        "source": "Hernán Daniel Santana Trujillo",
+        "target": "Juan Emmanuel Culio",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Hernán Daniel Santana Trujillo",
+        "target": "Dani Castellano Betancor",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hernán Daniel Santana Trujillo",
+        "target": "Javier Varas Herrera",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Pedro Bigas Rigo",
         "target": "Jonathan Viera Ramos",
         "weight": 8,
         "direction": "backward"
-      },
-      {
-        "source": "Dani Castellano Betancor",
-        "target": "Sergio Ezequiel Araújo",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Dani Castellano Betancor",
-        "target": "Juan Emmanuel Culio",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Sergio Ezequiel Araújo",
-        "target": "Juan Emmanuel Culio",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Jonathan Viera Ramos",
-        "target": "Juan Emmanuel Culio",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "David Simón Rodríguez Santana",
-        "target": "Hernán Daniel Santana Trujillo",
-        "weight": 10,
-        "direction": "forward"
       },
       {
         "source": "Juan Emmanuel Culio",
@@ -1379,9 +1401,105 @@
         "direction": "backward"
       },
       {
+        "source": "Juan Emmanuel Culio",
+        "target": "Hernán Daniel Santana Trujillo",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Juan Emmanuel Culio",
+        "target": "Pedro Bigas Rigo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Viera Ramos",
+        "target": "Juan Emmanuel Culio",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jonathan Viera Ramos",
+        "target": "Dani Castellano Betancor",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Viera Ramos",
+        "target": "Willian José da Silva",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Antolín Alcáraz Viveros",
         "target": "Juan Emmanuel Culio",
         "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Antolín Alcáraz Viveros",
+        "target": "David Simón Rodríguez Santana",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Antolín Alcáraz Viveros",
+        "target": "Hernán Daniel Santana Trujillo",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Antolín Alcáraz Viveros",
+        "target": "Javier Varas Herrera",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Roque Mesa Quevedo",
+        "target": "Hernán Daniel Santana Trujillo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Roque Mesa Quevedo",
+        "target": "David Simón Rodríguez Santana",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roque Mesa Quevedo",
+        "target": "Jonathan Viera Ramos",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roque Mesa Quevedo",
+        "target": "Willian José da Silva",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Willian José da Silva",
+        "target": "Roque Mesa Quevedo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Willian José da Silva",
+        "target": "Jonathan Viera Ramos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Varas Herrera",
+        "target": "Antolín Alcáraz Viveros",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Javier Varas Herrera",
+        "target": "Hernán Daniel Santana Trujillo",
+        "weight": 1,
         "direction": "backward"
       }
     ]

@@ -631,120 +631,110 @@
         "short": "Hutton",
         "x": 73.45,
         "y": 70.47,
-        "size": 113.7,
+        "size": 110.9,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.6596
+        "betweenness": 0.0667,
+        "eigenvector": 0.6108
       },
       {
         "id": "Ashley Westwood",
         "short": "Westwood",
         "x": 72.21,
         "y": 58.95,
-        "size": 103.9,
+        "size": 103.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.705
+        "betweenness": 0.0556,
+        "eigenvector": 0.6141
       },
       {
         "id": "Kevin Toner",
         "short": "Toner",
         "x": 62.0,
         "y": 5.26,
-        "size": 90.9,
+        "size": 92.0,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0397
       },
       {
         "id": "Jordan Ayew",
         "short": "Ayew",
         "x": 70.32,
         "y": 30.64,
-        "size": 80.0,
+        "size": 76.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0243
       },
       {
         "id": "Carlos Alberto Sánchez Moreno",
         "short": "Moreno",
         "x": 58.92,
         "y": 39.28,
-        "size": 121.3,
-        "is_playmaker": true,
-        "betweenness": 0.1091,
-        "eigenvector": 0.0001
+        "size": 118.5,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.288
       },
       {
         "id": "Idrissa Gana Gueye",
         "short": "Gueye",
         "x": 67.79,
         "y": 27.51,
-        "size": 107.2,
+        "size": 100.5,
         "is_playmaker": true,
-        "betweenness": 0.1091,
-        "eigenvector": 0.0001
+        "betweenness": 0.2556,
+        "eigenvector": 0.1515
       },
       {
         "id": "Leandro Bacuna",
         "short": "Bacuna",
         "x": 50.35,
         "y": 63.89,
-        "size": 101.7,
+        "size": 97.7,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.2605
+        "betweenness": 0.2111,
+        "eigenvector": 0.3168
       },
       {
         "id": "Joleon Lescott",
         "short": "Lescott",
-        "x": 41.14,
-        "y": 40.78,
-        "size": 75.7,
+        "x": 42.5,
+        "y": 39.99,
+        "size": 80.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2278,
+        "eigenvector": 0.0369
       },
       {
         "id": "Ciaran Clark",
         "short": "Clark",
         "x": 49.94,
         "y": 16.77,
-        "size": 100.7,
-        "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.0
+        "size": 100.5,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.1381
       },
       {
         "id": "Scott Sinclair",
         "short": "Sinclair",
         "x": 84.9,
         "y": 44.33,
-        "size": 55.0,
+        "size": 65.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1438
       },
       {
         "id": "Mark Bunn",
         "short": "Bunn",
-        "x": 11.22,
-        "y": 41.89,
-        "size": 55.0,
+        "x": 11.82,
+        "y": 41.65,
+        "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rushian Hepburn-Murphy",
-        "short": "Hepburn-Mur",
-        "x": 46.52,
-        "y": 59.68,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.0154
       }
     ],
     "edges": [
@@ -761,10 +751,22 @@
         "direction": "backward"
       },
       {
+        "source": "Alan Hutton",
+        "target": "Scott Sinclair",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Ashley Westwood",
         "target": "Alan Hutton",
         "weight": 14,
         "direction": "lateral"
+      },
+      {
+        "source": "Ashley Westwood",
+        "target": "Carlos Alberto Sánchez Moreno",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Kevin Toner",
@@ -783,6 +785,12 @@
         "target": "Ciaran Clark",
         "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Kevin Toner",
+        "target": "Scott Sinclair",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Jordan Ayew",
@@ -845,6 +853,12 @@
         "direction": "forward"
       },
       {
+        "source": "Leandro Bacuna",
+        "target": "Mark Bunn",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Joleon Lescott",
         "target": "Leandro Bacuna",
         "weight": 10,
@@ -857,6 +871,12 @@
         "direction": "forward"
       },
       {
+        "source": "Joleon Lescott",
+        "target": "Mark Bunn",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ciaran Clark",
         "target": "Carlos Alberto Sánchez Moreno",
         "weight": 9,
@@ -867,6 +887,24 @@
         "target": "Idrissa Gana Gueye",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Ciaran Clark",
+        "target": "Joleon Lescott",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Mark Bunn",
+        "target": "Joleon Lescott",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mark Bunn",
+        "target": "Leandro Bacuna",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -875,157 +913,115 @@
       {
         "id": "Vurnon Anita",
         "short": "Anita",
-        "x": 49.36,
-        "y": 74.43,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.1026,
-        "eigenvector": 0.5753
-      },
-      {
-        "id": "Papiss Demba Cissé",
-        "short": "Cissé",
-        "x": 43.43,
-        "y": 53.13,
-        "size": 73.7,
+        "x": 48.08,
+        "y": 74.4,
+        "size": 140.8,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.1791
+        "betweenness": 0.1778,
+        "eigenvector": 0.537
       },
       {
         "id": "Andros Townsend",
         "short": "Townsend",
         "x": 40.3,
         "y": 70.6,
-        "size": 124.2,
-        "is_playmaker": true,
-        "betweenness": 0.0385,
-        "eigenvector": 0.7018
-      },
-      {
-        "id": "Moussa Sissoko",
-        "short": "Sissoko",
-        "x": 43.01,
-        "y": 46.39,
-        "size": 92.4,
+        "size": 112.5,
         "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.2687
+        "betweenness": 0.1,
+        "eigenvector": 0.6341
       },
       {
         "id": "Paul Dummett",
         "short": "Dummett",
-        "x": 61.83,
-        "y": 9.32,
-        "size": 109.9,
+        "x": 62.96,
+        "y": 9.15,
+        "size": 106.7,
         "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.038
       },
       {
         "id": "Jamaal Lascelles",
         "short": "Lascelles",
-        "x": 80.0,
-        "y": 27.55,
-        "size": 102.3,
+        "x": 80.34,
+        "y": 27.43,
+        "size": 97.5,
         "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.0
+        "betweenness": 0.2278,
+        "eigenvector": 0.0721
       },
       {
-        "id": "Cheik Ismaël Tioté",
-        "short": "Tioté",
-        "x": 69.73,
-        "y": 39.48,
-        "size": 84.7,
+        "id": "Moussa Sissoko",
+        "short": "Sissoko",
+        "x": 45.05,
+        "y": 47.53,
+        "size": 93.3,
         "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.4078
       },
       {
         "id": "Chancel Mbemba Mangulu",
         "short": "Mangulu",
-        "x": 71.35,
-        "y": 58.34,
-        "size": 88.0,
+        "x": 71.51,
+        "y": 56.78,
+        "size": 90.0,
         "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.2687
+        "betweenness": 0.0,
+        "eigenvector": 0.2413
+      },
+      {
+        "id": "Cheik Ismaël Tioté",
+        "short": "Tioté",
+        "x": 70.59,
+        "y": 39.87,
+        "size": 98.3,
+        "is_playmaker": true,
+        "betweenness": 0.4833,
+        "eigenvector": 0.2322
+      },
+      {
+        "id": "Papiss Demba Cissé",
+        "short": "Cissé",
+        "x": 43.43,
+        "y": 53.13,
+        "size": 69.2,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.1447
       },
       {
         "id": "Georginio Wijnaldum",
         "short": "Wijnaldum",
-        "x": 54.79,
-        "y": 20.88,
-        "size": 64.9,
+        "x": 58.39,
+        "y": 21.09,
+        "size": 67.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0584
       },
       {
         "id": "Jack Colback",
         "short": "Colback",
-        "x": 57.9,
-        "y": 34.84,
-        "size": 55.0,
+        "x": 57.76,
+        "y": 36.3,
+        "size": 70.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Aleksandar Mitrović",
-        "short": "Mitrović",
-        "x": 33.59,
-        "y": 38.82,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0333,
+        "eigenvector": 0.0064
       },
       {
         "id": "Karl Darlow",
         "short": "Darlow",
         "x": 107.58,
         "y": 37.22,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ayoze Pérez Gutiérrez",
-        "short": "Gutiérrez",
-        "x": 34.63,
-        "y": 8.85,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Siem Stefan de Jong",
-        "short": "Jong",
-        "x": 45.5,
-        "y": 30.7,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 58.3,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0103
       }
     ],
     "edges": [
-      {
-        "source": "Vurnon Anita",
-        "target": "Papiss Demba Cissé",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Vurnon Anita",
-        "target": "Moussa Sissoko",
-        "weight": 12,
-        "direction": "backward"
-      },
       {
         "source": "Vurnon Anita",
         "target": "Andros Townsend",
@@ -1034,15 +1030,27 @@
       },
       {
         "source": "Vurnon Anita",
+        "target": "Moussa Sissoko",
+        "weight": 12,
+        "direction": "lateral"
+      },
+      {
+        "source": "Vurnon Anita",
         "target": "Chancel Mbemba Mangulu",
         "weight": 12,
         "direction": "forward"
       },
       {
-        "source": "Papiss Demba Cissé",
-        "target": "Andros Townsend",
-        "weight": 9,
-        "direction": "lateral"
+        "source": "Vurnon Anita",
+        "target": "Papiss Demba Cissé",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Vurnon Anita",
+        "target": "Cheik Ismaël Tioté",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Andros Townsend",
@@ -1051,10 +1059,10 @@
         "direction": "forward"
       },
       {
-        "source": "Moussa Sissoko",
-        "target": "Andros Townsend",
-        "weight": 14,
-        "direction": "lateral"
+        "source": "Andros Townsend",
+        "target": "Moussa Sissoko",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Paul Dummett",
@@ -1064,14 +1072,20 @@
       },
       {
         "source": "Paul Dummett",
+        "target": "Georginio Wijnaldum",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Paul Dummett",
         "target": "Cheik Ismaël Tioté",
         "weight": 8,
         "direction": "forward"
       },
       {
         "source": "Paul Dummett",
-        "target": "Georginio Wijnaldum",
-        "weight": 9,
+        "target": "Jack Colback",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1087,6 +1101,42 @@
         "direction": "backward"
       },
       {
+        "source": "Jamaal Lascelles",
+        "target": "Karl Darlow",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Moussa Sissoko",
+        "target": "Andros Townsend",
+        "weight": 14,
+        "direction": "backward"
+      },
+      {
+        "source": "Moussa Sissoko",
+        "target": "Cheik Ismaël Tioté",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Chancel Mbemba Mangulu",
+        "target": "Vurnon Anita",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Chancel Mbemba Mangulu",
+        "target": "Jamaal Lascelles",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Chancel Mbemba Mangulu",
+        "target": "Cheik Ismaël Tioté",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
         "source": "Cheik Ismaël Tioté",
         "target": "Vurnon Anita",
         "weight": 11,
@@ -1099,9 +1149,45 @@
         "direction": "backward"
       },
       {
-        "source": "Chancel Mbemba Mangulu",
+        "source": "Cheik Ismaël Tioté",
+        "target": "Georginio Wijnaldum",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Cheik Ismaël Tioté",
+        "target": "Karl Darlow",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Papiss Demba Cissé",
+        "target": "Andros Townsend",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jack Colback",
         "target": "Vurnon Anita",
-        "weight": 8,
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Jack Colback",
+        "target": "Paul Dummett",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Karl Darlow",
+        "target": "Jamaal Lascelles",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Karl Darlow",
+        "target": "Cheik Ismaël Tioté",
+        "weight": 1,
         "direction": "backward"
       }
     ]

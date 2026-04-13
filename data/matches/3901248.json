@@ -869,122 +869,112 @@
       {
         "id": "Mounir Obbadi",
         "short": "Obbadi",
-        "x": 65.98,
-        "y": 26.39,
-        "size": 154.6,
+        "x": 65.76,
+        "y": 26.44,
+        "size": 146.0,
         "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.5873
+        "betweenness": 0.2667,
+        "eigenvector": 0.5609
       },
       {
         "id": "Djibril Sidibé",
         "short": "Sidibé",
-        "x": 62.94,
-        "y": 9.68,
-        "size": 100.0,
+        "x": 62.03,
+        "y": 9.63,
+        "size": 93.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2855
+        "eigenvector": 0.2568
       },
       {
         "id": "Ibrahim Amadou",
         "short": "Amadou",
         "x": 58.01,
         "y": 39.6,
-        "size": 112.8,
+        "size": 110.9,
         "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.3682
+        "betweenness": 0.2,
+        "eigenvector": 0.3726
       },
       {
         "id": "Florent Balmont",
         "short": "Balmont",
         "x": 69.91,
         "y": 55.16,
-        "size": 123.3,
+        "size": 120.5,
         "is_playmaker": true,
-        "betweenness": 0.1636,
-        "eigenvector": 0.4036
+        "betweenness": 0.4,
+        "eigenvector": 0.4645
       },
       {
         "id": "Sébastien Corchia",
         "short": "Corchia",
         "x": 67.09,
         "y": 72.35,
-        "size": 82.3,
+        "size": 78.4,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.1744
+        "betweenness": 0.0,
+        "eigenvector": 0.1891
       },
       {
         "id": "Marcos Paulo Mesquita Lopes",
         "short": "Lopes",
         "x": 80.27,
         "y": 37.46,
-        "size": 104.8,
+        "size": 103.3,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.4609
+        "betweenness": 0.0444,
+        "eigenvector": 0.4342
       },
       {
         "id": "Marko Baša",
         "short": "Baša",
         "x": 44.17,
         "y": 27.61,
-        "size": 72.7,
+        "size": 83.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.1005
       },
       {
         "id": "Renato Civelli",
         "short": "Civelli",
-        "x": 44.2,
-        "y": 50.31,
-        "size": 71.9,
+        "x": 43.49,
+        "y": 50.05,
+        "size": 81.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0424
+        "betweenness": 0.2,
+        "eigenvector": 0.0741
       },
       {
         "id": "Morgan Amalfitano",
         "short": "Amalfitano",
         "x": 78.27,
         "y": 53.16,
-        "size": 72.7,
+        "size": 71.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1745
+        "betweenness": 0.1611,
+        "eigenvector": 0.1574
       },
       {
         "id": "Éderzito António Macedo Lopes",
         "short": "Lopes",
         "x": 73.09,
         "y": 49.94,
-        "size": 55.0,
+        "size": 57.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.25,
+        "eigenvector": 0.0158
       },
       {
         "id": "Vincent Enyeama",
         "short": "Enyeama",
-        "x": 14.69,
-        "y": 41.38,
-        "size": 55.0,
+        "x": 14.63,
+        "y": 41.62,
+        "size": 57.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gadji Celi Carmen Junior Tallo",
-        "short": "Tallo",
-        "x": 92.36,
-        "y": 27.74,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0044
       }
     ],
     "edges": [
@@ -998,7 +988,7 @@
         "source": "Mounir Obbadi",
         "target": "Florent Balmont",
         "weight": 14,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Mounir Obbadi",
@@ -1049,6 +1039,12 @@
         "direction": "forward"
       },
       {
+        "source": "Ibrahim Amadou",
+        "target": "Marko Baša",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
         "source": "Florent Balmont",
         "target": "Sébastien Corchia",
         "weight": 16,
@@ -1070,6 +1066,12 @@
         "source": "Florent Balmont",
         "target": "Mounir Obbadi",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Florent Balmont",
+        "target": "Éderzito António Macedo Lopes",
+        "weight": 1,
         "direction": "lateral"
       },
       {
@@ -1091,6 +1093,12 @@
         "direction": "backward"
       },
       {
+        "source": "Marcos Paulo Mesquita Lopes",
+        "target": "Florent Balmont",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Marko Baša",
         "target": "Renato Civelli",
         "weight": 12,
@@ -1103,10 +1111,64 @@
         "direction": "forward"
       },
       {
+        "source": "Marko Baša",
+        "target": "Vincent Enyeama",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Renato Civelli",
+        "target": "Marko Baša",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Renato Civelli",
+        "target": "Mounir Obbadi",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Renato Civelli",
+        "target": "Vincent Enyeama",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Morgan Amalfitano",
         "target": "Marcos Paulo Mesquita Lopes",
         "weight": 11,
         "direction": "lateral"
+      },
+      {
+        "source": "Morgan Amalfitano",
+        "target": "Éderzito António Macedo Lopes",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Éderzito António Macedo Lopes",
+        "target": "Morgan Amalfitano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Éderzito António Macedo Lopes",
+        "target": "Florent Balmont",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Vincent Enyeama",
+        "target": "Renato Civelli",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vincent Enyeama",
+        "target": "Marko Baša",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1117,47 +1179,67 @@
         "short": "Kerbrat",
         "x": 79.03,
         "y": 59.45,
-        "size": 86.1,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 114.6,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.4226
       },
       {
         "id": "Jérémy Sorbon",
         "short": "Sorbon",
         "x": 78.43,
         "y": 31.83,
-        "size": 86.1,
+        "size": 76.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.4409
+      },
+      {
+        "id": "Moustapha Elhadji Diallo",
+        "short": "Diallo",
+        "x": 72.52,
+        "y": 49.17,
+        "size": 106.9,
+        "is_playmaker": false,
+        "betweenness": 0.1278,
+        "eigenvector": 0.4245
       },
       {
         "id": "Jimmy Briand",
         "short": "Briand",
-        "x": 50.19,
-        "y": 41.58,
-        "size": 108.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 50.27,
+        "y": 41.15,
+        "size": 120.4,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.2823
       },
       {
         "id": "Younousse Sankharé",
         "short": "Sankharé",
         "x": 64.91,
         "y": 30.84,
-        "size": 139.4,
+        "size": 99.2,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.1604
+      },
+      {
+        "id": "Jonathan Martins-Pereira",
+        "short": "Martins-Per",
+        "x": 61.49,
+        "y": 72.57,
+        "size": 112.7,
         "is_playmaker": true,
-        "betweenness": 0.0064,
-        "eigenvector": 0.0026
+        "betweenness": 0.2611,
+        "eigenvector": 0.468
       },
       {
         "id": "Dorian Lévêque",
         "short": "Lévêque",
-        "x": 73.32,
-        "y": 11.77,
-        "size": 139.4,
+        "x": 74.51,
+        "y": 12.22,
+        "size": 91.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1167,87 +1249,37 @@
         "short": "Erdinç",
         "x": 53.83,
         "y": 32.66,
-        "size": 108.3,
+        "size": 78.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Jonathan Martins-Pereira",
-        "short": "Martins-Per",
-        "x": 61.49,
-        "y": 72.57,
-        "size": 86.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marcus Coco",
-        "short": "Coco",
-        "x": 42.65,
-        "y": 61.2,
-        "size": 86.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Moustapha Elhadji Diallo",
-        "short": "Diallo",
-        "x": 72.27,
-        "y": 50.18,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jonas Lössl",
-        "short": "Lössl",
-        "x": 111.5,
-        "y": 39.06,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0911
       },
       {
         "id": "Thibault Giresse",
         "short": "Giresse",
         "x": 66.37,
         "y": 14.58,
-        "size": 55.0,
+        "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1337
       },
       {
-        "id": "Lionel Mathis",
-        "short": "Mathis",
-        "x": 76.6,
-        "y": 29.64,
-        "size": 55.0,
+        "id": "Marcus Coco",
+        "short": "Coco",
+        "x": 42.65,
+        "y": 61.2,
+        "size": 76.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3102
       },
       {
-        "id": "Ludovic Blas",
-        "short": "Blas",
-        "x": 85.4,
-        "y": 64.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Brou Benjamin Angoua",
-        "short": "Angoua",
-        "x": 88.45,
-        "y": 80.0,
-        "size": 55.0,
+        "id": "Jonas Lössl",
+        "short": "Lössl",
+        "x": 111.5,
+        "y": 39.06,
+        "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1261,15 +1293,87 @@
         "direction": "lateral"
       },
       {
+        "source": "Christophe Kerbrat",
+        "target": "Jonathan Martins-Pereira",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Christophe Kerbrat",
+        "target": "Moustapha Elhadji Diallo",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Moustapha Elhadji Diallo",
+        "target": "Christophe Kerbrat",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Moustapha Elhadji Diallo",
+        "target": "Jérémy Sorbon",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Moustapha Elhadji Diallo",
+        "target": "Jonathan Martins-Pereira",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Jimmy Briand",
         "target": "Younousse Sankharé",
         "weight": 6,
         "direction": "forward"
       },
       {
+        "source": "Jimmy Briand",
+        "target": "Thibault Giresse",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jimmy Briand",
+        "target": "Jonathan Martins-Pereira",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jimmy Briand",
+        "target": "Moustapha Elhadji Diallo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Younousse Sankharé",
         "target": "Mevlüt Erdinç",
         "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Younousse Sankharé",
+        "target": "Jimmy Briand",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Martins-Pereira",
+        "target": "Christophe Kerbrat",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Martins-Pereira",
+        "target": "Marcus Coco",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Martins-Pereira",
+        "target": "Jimmy Briand",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1291,9 +1395,15 @@
         "direction": "backward"
       },
       {
-        "source": "Jonathan Martins-Pereira",
-        "target": "Marcus Coco",
-        "weight": 7,
+        "source": "Marcus Coco",
+        "target": "Moustapha Elhadji Diallo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonas Lössl",
+        "target": "Christophe Kerbrat",
+        "weight": 5,
         "direction": "backward"
       }
     ]

@@ -795,33 +795,43 @@
   "network_home": {
     "nodes": [
       {
+        "id": "Francisco Javier González Urruticoechea",
+        "short": "Urruticoech",
+        "x": 11.16,
+        "y": 41.42,
+        "size": 104.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Bernd Schuster",
         "short": "Schuster",
         "x": 53.19,
         "y": 41.32,
-        "size": 152.0,
+        "size": 148.2,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.6614
+        "betweenness": 0.0556,
+        "eigenvector": 0.5401
       },
       {
         "id": "Francisco José Carrasco Hidalgo",
         "short": "Hidalgo",
         "x": 65.81,
         "y": 41.37,
-        "size": 152.0,
-        "is_playmaker": true,
+        "size": 98.8,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.75
+        "eigenvector": 0.6124
       },
       {
         "id": "José Vicente Sánchez Felip",
         "short": "Felip",
         "x": 45.73,
         "y": 62.79,
-        "size": 158.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "size": 118.0,
+        "is_playmaker": true,
+        "betweenness": 0.0222,
         "eigenvector": 0.0
       },
       {
@@ -829,7 +839,7 @@
         "short": "Peña",
         "x": 67.67,
         "y": 35.8,
-        "size": 97.4,
+        "size": 74.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -837,39 +847,9 @@
       {
         "id": "Víctor Muñoz Manrique",
         "short": "Manrique",
-        "x": 54.0,
-        "y": 56.88,
-        "size": 115.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Diego Armando Maradona",
-        "short": "Maradona",
-        "x": 73.41,
-        "y": 35.43,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Julio Alberto Moreno Casas",
-        "short": "Casas",
-        "x": 50.94,
-        "y": 16.28,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Esteban Vigo Benítez",
-        "short": "Benítez",
-        "x": 62.31,
-        "y": 27.86,
-        "size": 55.0,
+        "x": 51.76,
+        "y": 56.26,
+        "size": 82.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -879,47 +859,87 @@
         "short": "Bianquetti",
         "x": 33.92,
         "y": 42.15,
-        "size": 55.0,
+        "size": 85.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0111,
         "eigenvector": 0.0
       },
       {
         "id": "Gerardo Miranda Concepción",
         "short": "Concepción",
-        "x": 29.97,
-        "y": 40.98,
-        "size": 55.0,
+        "x": 30.56,
+        "y": 40.85,
+        "size": 68.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Francisco Javier González Urruticoechea",
-        "short": "Urruticoech",
-        "x": 11.16,
-        "y": 41.42,
-        "size": 55.0,
+        "id": "Diego Armando Maradona",
+        "short": "Maradona",
+        "x": 73.41,
+        "y": 35.43,
+        "size": 85.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.4082
+      },
+      {
+        "id": "Julio Alberto Moreno Casas",
+        "short": "Casas",
+        "x": 50.94,
+        "y": 16.28,
+        "size": 68.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Enrique Morán Blanco",
-        "short": "Blanco",
-        "x": 98.3,
-        "y": 59.4,
-        "size": 55.0,
+        "id": "Esteban Vigo Benítez",
+        "short": "Benítez",
+        "x": 62.31,
+        "y": 27.86,
+        "size": 71.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.4082
       }
     ],
     "edges": [
       {
+        "source": "Francisco Javier González Urruticoechea",
+        "target": "Bernd Schuster",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Francisco Javier González Urruticoechea",
+        "target": "José Vicente Sánchez Felip",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Francisco Javier González Urruticoechea",
+        "target": "Miguel Bernardo Bianquetti",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Bernd Schuster",
         "target": "Francisco José Carrasco Hidalgo",
         "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Bernd Schuster",
+        "target": "Diego Armando Maradona",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Bernd Schuster",
+        "target": "Esteban Vigo Benítez",
+        "weight": 6,
         "direction": "forward"
       },
       {
@@ -939,6 +959,18 @@
         "target": "Víctor Muñoz Manrique",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Miguel Bernardo Bianquetti",
+        "target": "Gerardo Miranda Concepción",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Julio Alberto Moreno Casas",
+        "target": "Diego Armando Maradona",
+        "weight": 5,
+        "direction": "forward"
       }
     ]
   },
@@ -949,67 +981,57 @@
         "short": "Stielike",
         "x": 74.28,
         "y": 46.68,
-        "size": 151.2,
+        "size": 136.9,
         "is_playmaker": true,
-        "betweenness": 0.0818,
-        "eigenvector": 0.3929
+        "betweenness": 0.2296,
+        "eigenvector": 0.4335
       },
       {
         "id": "Ángel de los Santos Cano",
         "short": "Cano",
         "x": 68.31,
         "y": 38.83,
-        "size": 90.4,
+        "size": 92.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6775
+        "betweenness": 0.163,
+        "eigenvector": 0.6285
       },
       {
         "id": "Francisco Bonet Serrano",
         "short": "Serrano",
         "x": 76.1,
         "y": 41.39,
-        "size": 72.7,
+        "size": 73.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0778,
+        "eigenvector": 0.2058
       },
       {
         "id": "Johannes Anthonius Bernardus Metgod",
         "short": "Metgod",
         "x": 82.98,
         "y": 44.2,
-        "size": 115.8,
+        "size": 110.6,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.114
       },
       {
         "id": "Ricardo Gallego Redondo",
         "short": "Redondo",
-        "x": 72.96,
-        "y": 26.48,
-        "size": 118.3,
+        "x": 72.11,
+        "y": 26.42,
+        "size": 114.7,
         "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.4048
-      },
-      {
-        "id": "Isidoro San José Pozo",
-        "short": "Pozo",
-        "x": 69.94,
-        "y": 42.98,
-        "size": 115.8,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.3337
+        "betweenness": 0.1889,
+        "eigenvector": 0.2986
       },
       {
         "id": "Miguel Ángel González Suárez",
         "short": "Suárez",
         "x": 112.04,
         "y": 41.51,
-        "size": 103.1,
+        "size": 89.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1017,52 +1039,52 @@
       {
         "id": "José Antonio Salguero García",
         "short": "García",
-        "x": 70.64,
-        "y": 61.9,
-        "size": 72.7,
+        "x": 69.95,
+        "y": 62.43,
+        "size": 95.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3337
+        "betweenness": 0.1333,
+        "eigenvector": 0.3624
       },
       {
-        "id": "José Antonio Camacho Alfaro",
-        "short": "Alfaro",
-        "x": 65.16,
-        "y": 18.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Isidoro San José Pozo",
+        "short": "Pozo",
+        "x": 70.11,
+        "y": 42.85,
+        "size": 98.1,
+        "is_playmaker": true,
+        "betweenness": 0.2815,
+        "eigenvector": 0.3091
       },
       {
         "id": "Juan Gómez González",
         "short": "González",
         "x": 45.13,
         "y": 35.36,
-        "size": 55.0,
+        "size": 63.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1418
+      },
+      {
+        "id": "José Antonio Camacho Alfaro",
+        "short": "Alfaro",
+        "x": 65.16,
+        "y": 18.45,
+        "size": 70.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1418
       },
       {
         "id": "Carlos Alonso González",
         "short": "González",
-        "x": 62.12,
-        "y": 33.05,
-        "size": 55.0,
+        "x": 59.6,
+        "y": 37.12,
+        "size": 60.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Isidro Díaz González",
-        "short": "González",
-        "x": 58.7,
-        "y": 41.9,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1963,
+        "eigenvector": 0.0742
       }
     ],
     "edges": [
@@ -1076,6 +1098,12 @@
         "source": "Ulrich Stielike",
         "target": "José Antonio Salguero García",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ulrich Stielike",
+        "target": "Francisco Bonet Serrano",
+        "weight": 6,
         "direction": "lateral"
       },
       {
@@ -1085,10 +1113,34 @@
         "direction": "backward"
       },
       {
+        "source": "Ángel de los Santos Cano",
+        "target": "Carlos Alonso González",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Francisco Bonet Serrano",
         "target": "Johannes Anthonius Bernardus Metgod",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Johannes Anthonius Bernardus Metgod",
+        "target": "Ricardo Gallego Redondo",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Johannes Anthonius Bernardus Metgod",
+        "target": "Ulrich Stielike",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Johannes Anthonius Bernardus Metgod",
+        "target": "Ángel de los Santos Cano",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Johannes Anthonius Bernardus Metgod",
@@ -1100,6 +1152,18 @@
         "source": "Ricardo Gallego Redondo",
         "target": "Ángel de los Santos Cano",
         "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ricardo Gallego Redondo",
+        "target": "Juan Gómez González",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Ricardo Gallego Redondo",
+        "target": "José Antonio Camacho Alfaro",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1109,10 +1173,10 @@
         "direction": "lateral"
       },
       {
-        "source": "Isidoro San José Pozo",
-        "target": "Ricardo Gallego Redondo",
-        "weight": 10,
-        "direction": "lateral"
+        "source": "Miguel Ángel González Suárez",
+        "target": "José Antonio Salguero García",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Miguel Ángel González Suárez",
@@ -1125,6 +1189,54 @@
         "target": "Ulrich Stielike",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "José Antonio Salguero García",
+        "target": "Ángel de los Santos Cano",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Antonio Salguero García",
+        "target": "Ulrich Stielike",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Isidoro San José Pozo",
+        "target": "Ricardo Gallego Redondo",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Isidoro San José Pozo",
+        "target": "José Antonio Salguero García",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Isidoro San José Pozo",
+        "target": "Carlos Alonso González",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Antonio Camacho Alfaro",
+        "target": "Ulrich Stielike",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Alonso González",
+        "target": "Ángel de los Santos Cano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Alonso González",
+        "target": "Isidoro San José Pozo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

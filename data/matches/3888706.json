@@ -999,117 +999,141 @@
   "network_home": {
     "nodes": [
       {
+        "id": "Arie Haan",
+        "short": "Haan",
+        "x": 57.36,
+        "y": 39.38,
+        "size": 130.0,
+        "is_playmaker": true,
+        "betweenness": 0.4667,
+        "eigenvector": 0.4168
+      },
+      {
         "id": "Ruud Krol",
         "short": "Krol",
         "x": 55.13,
         "y": 30.97,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0222,
-        "eigenvector": 0.0012
-      },
-      {
-        "id": "Piet Keizer",
-        "short": "Keizer",
-        "x": 69.07,
-        "y": 22.5,
-        "size": 123.8,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.774
-      },
-      {
-        "id": "Gerrie Mühren",
-        "short": "Mühren",
-        "x": 68.0,
-        "y": 19.7,
-        "size": 111.2,
+        "size": 155.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6332
-      },
-      {
-        "id": "Horst Blankenburg",
-        "short": "Blankenburg",
-        "x": 49.06,
-        "y": 28.84,
-        "size": 130.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2778,
+        "eigenvector": 0.583
       },
       {
         "id": "Johan Cruyff",
         "short": "Cruyff",
         "x": 70.92,
         "y": 34.59,
-        "size": 55.0,
+        "size": 105.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2983
       },
       {
-        "id": "Arie Haan",
-        "short": "Haan",
-        "x": 57.36,
-        "y": 39.38,
-        "size": 55.0,
+        "id": "Piet Keizer",
+        "short": "Keizer",
+        "x": 69.07,
+        "y": 22.5,
+        "size": 92.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0056,
+        "eigenvector": 0.4781
       },
       {
-        "id": "Johnny Rep",
-        "short": "Rep",
-        "x": 63.98,
-        "y": 59.57,
-        "size": 55.0,
+        "id": "Gerrie Mühren",
+        "short": "Mühren",
+        "x": 68.0,
+        "y": 19.7,
+        "size": 89.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2957
+      },
+      {
+        "id": "Horst Blankenburg",
+        "short": "Blankenburg",
+        "x": 49.06,
+        "y": 28.84,
+        "size": 97.2,
+        "is_playmaker": false,
+        "betweenness": 0.0389,
+        "eigenvector": 0.2308
       },
       {
         "id": "Johan Neeskens",
         "short": "Neeskens",
         "x": 66.55,
         "y": 50.36,
-        "size": 55.0,
+        "size": 78.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.165
       },
       {
         "id": "Wim Suurbier",
         "short": "Suurbier",
         "x": 52.81,
         "y": 44.17,
-        "size": 55.0,
+        "size": 70.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3333,
+        "eigenvector": 0.0019
       },
       {
-        "id": "Barry Hulshoff",
-        "short": "Hulshoff",
-        "x": 47.73,
-        "y": 43.79,
-        "size": 55.0,
+        "id": "Johnny Rep",
+        "short": "Rep",
+        "x": 63.98,
+        "y": 59.57,
+        "size": 61.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0094
       },
       {
         "id": "Heinz Stuy",
         "short": "Stuy",
         "x": 8.85,
         "y": 38.89,
-        "size": 55.0,
+        "size": 61.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1722,
+        "eigenvector": 0.0144
+      },
+      {
+        "id": "Barry Hulshoff",
+        "short": "Hulshoff",
+        "x": 47.73,
+        "y": 43.79,
+        "size": 64.4,
+        "is_playmaker": true,
+        "betweenness": 0.6,
+        "eigenvector": 0.0244
       }
     ],
     "edges": [
+      {
+        "source": "Arie Haan",
+        "target": "Ruud Krol",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Arie Haan",
+        "target": "Johan Cruyff",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Arie Haan",
+        "target": "Johan Neeskens",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Arie Haan",
+        "target": "Barry Hulshoff",
+        "weight": 1,
+        "direction": "backward"
+      },
       {
         "source": "Ruud Krol",
         "target": "Piet Keizer",
@@ -1123,9 +1147,135 @@
         "direction": "forward"
       },
       {
+        "source": "Ruud Krol",
+        "target": "Arie Haan",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ruud Krol",
+        "target": "Horst Blankenburg",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Johan Cruyff",
+        "target": "Arie Haan",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Johan Cruyff",
+        "target": "Ruud Krol",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Piet Keizer",
+        "target": "Ruud Krol",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Gerrie Mühren",
+        "target": "Piet Keizer",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gerrie Mühren",
+        "target": "Arie Haan",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Horst Blankenburg",
         "target": "Ruud Krol",
         "weight": 12,
+        "direction": "forward"
+      },
+      {
+        "source": "Horst Blankenburg",
+        "target": "Johan Cruyff",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Horst Blankenburg",
+        "target": "Heinz Stuy",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Johan Neeskens",
+        "target": "Johan Cruyff",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Johan Neeskens",
+        "target": "Johnny Rep",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Wim Suurbier",
+        "target": "Arie Haan",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Wim Suurbier",
+        "target": "Johnny Rep",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wim Suurbier",
+        "target": "Barry Hulshoff",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Johnny Rep",
+        "target": "Johan Neeskens",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Johnny Rep",
+        "target": "Wim Suurbier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Heinz Stuy",
+        "target": "Barry Hulshoff",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Heinz Stuy",
+        "target": "Horst Blankenburg",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Barry Hulshoff",
+        "target": "Heinz Stuy",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Barry Hulshoff",
+        "target": "Wim Suurbier",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Barry Hulshoff",
+        "target": "Arie Haan",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1137,57 +1287,37 @@
         "short": "Causio",
         "x": 55.2,
         "y": 59.7,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0018
+        "size": 125.0,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.6765
       },
       {
         "id": "Fabio Capello",
         "short": "Capello",
-        "x": 59.95,
-        "y": 45.71,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "x": 58.46,
+        "y": 46.6,
+        "size": 97.5,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.7297
       },
       {
         "id": "Gianpietro Marchetti",
         "short": "Marchetti",
-        "x": 73.97,
-        "y": 59.63,
-        "size": 155.0,
+        "x": 76.17,
+        "y": 61.59,
+        "size": 122.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0222,
         "eigenvector": 0.0
       },
       {
-        "id": "Pietro Anastasi",
-        "short": "Anastasi",
-        "x": 49.67,
-        "y": 37.13,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "José João Altafini",
-        "short": "Altafini",
-        "x": 45.89,
-        "y": 52.69,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Giuseppe Furino",
-        "short": "Furino",
-        "x": 69.44,
-        "y": 43.24,
-        "size": 55.0,
+        "id": "Dino Zoff",
+        "short": "Zoff",
+        "x": 111.42,
+        "y": 39.72,
+        "size": 97.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1197,70 +1327,70 @@
         "short": "Morini",
         "x": 88.22,
         "y": 52.16,
-        "size": 55.0,
+        "size": 90.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.0018
+      },
+      {
+        "id": "José João Altafini",
+        "short": "Altafini",
+        "x": 42.78,
+        "y": 54.85,
+        "size": 100.0,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0001
+      },
+      {
+        "id": "Pietro Anastasi",
+        "short": "Anastasi",
+        "x": 49.67,
+        "y": 37.13,
+        "size": 100.0,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0002
       },
       {
         "id": "Roberto Bettega",
         "short": "Bettega",
         "x": 55.68,
         "y": 27.66,
-        "size": 55.0,
+        "size": 72.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dino Zoff",
-        "short": "Zoff",
-        "x": 111.42,
-        "y": 39.72,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Silvio Longobucco",
-        "short": "Longobucco",
-        "x": 70.41,
-        "y": 15.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0002
       },
       {
         "id": "Sandro Salvadore",
         "short": "Salvadore",
-        "x": 85.83,
-        "y": 37.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 84.16,
+        "y": 37.49,
+        "size": 70.0,
+        "is_playmaker": true,
+        "betweenness": 0.5111,
+        "eigenvector": 0.0135
       },
       {
-        "id": "Antonello Cuccureddu",
-        "short": "Cuccureddu",
-        "x": 52.93,
-        "y": 50.63,
-        "size": 55.0,
+        "id": "Silvio Longobucco",
+        "short": "Longobucco",
+        "x": 68.5,
+        "y": 11.29,
+        "size": 65.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2889,
+        "eigenvector": 0.0018
       },
       {
-        "id": "Helmut Haller",
-        "short": "Haller",
-        "x": 44.76,
-        "y": 38.75,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Giuseppe Furino",
+        "short": "Furino",
+        "x": 69.7,
+        "y": 42.1,
+        "size": 65.0,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.0984
       }
     ],
     "edges": [
@@ -1268,12 +1398,126 @@
         "source": "Franco Causio",
         "target": "Fabio Capello",
         "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fabio Capello",
+        "target": "Franco Causio",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fabio Capello",
+        "target": "Giuseppe Furino",
+        "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Gianpietro Marchetti",
         "target": "Franco Causio",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Gianpietro Marchetti",
+        "target": "José João Altafini",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Gianpietro Marchetti",
+        "target": "Francesco Morini",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Dino Zoff",
+        "target": "Francesco Morini",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Dino Zoff",
+        "target": "Pietro Anastasi",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Dino Zoff",
+        "target": "Gianpietro Marchetti",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Francesco Morini",
+        "target": "Sandro Salvadore",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José João Altafini",
+        "target": "Franco Causio",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Pietro Anastasi",
+        "target": "José João Altafini",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Bettega",
+        "target": "Pietro Anastasi",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Bettega",
+        "target": "Silvio Longobucco",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sandro Salvadore",
+        "target": "Giuseppe Furino",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sandro Salvadore",
+        "target": "Francesco Morini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sandro Salvadore",
+        "target": "Silvio Longobucco",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Silvio Longobucco",
+        "target": "Roberto Bettega",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Silvio Longobucco",
+        "target": "Sandro Salvadore",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Giuseppe Furino",
+        "target": "Sandro Salvadore",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Giuseppe Furino",
+        "target": "Fabio Capello",
+        "weight": 1,
         "direction": "backward"
       }
     ]

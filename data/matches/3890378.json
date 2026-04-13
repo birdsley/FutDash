@@ -833,132 +833,112 @@
       {
         "id": "Xabier Alonso Olano",
         "short": "Olano",
-        "x": 68.86,
-        "y": 38.12,
-        "size": 169.4,
+        "x": 68.66,
+        "y": 38.35,
+        "size": 165.8,
         "is_playmaker": true,
-        "betweenness": 0.2348,
-        "eigenvector": 0.5992
+        "betweenness": 0.4444,
+        "eigenvector": 0.6031
       },
       {
         "id": "Márcio Rafael Ferreira de Souza",
         "short": "Souza",
-        "x": 72.02,
-        "y": 13.38,
-        "size": 151.5,
-        "is_playmaker": true,
-        "betweenness": 0.1515,
-        "eigenvector": 0.5
+        "x": 72.43,
+        "y": 13.58,
+        "size": 146.1,
+        "is_playmaker": false,
+        "betweenness": 0.3944,
+        "eigenvector": 0.5063
       },
       {
         "id": "Arturo Erasmo Vidal Pardo",
         "short": "Pardo",
-        "x": 72.57,
-        "y": 31.73,
-        "size": 106.2,
+        "x": 72.2,
+        "y": 31.54,
+        "size": 106.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4499
+        "betweenness": 0.0389,
+        "eigenvector": 0.4623
       },
       {
         "id": "Philipp Lahm",
         "short": "Lahm",
-        "x": 74.61,
-        "y": 66.83,
-        "size": 82.2,
+        "x": 74.91,
+        "y": 66.75,
+        "size": 83.9,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.2281
+        "betweenness": 0.1,
+        "eigenvector": 0.2149
       },
       {
         "id": "Kingsley Coman",
         "short": "Coman",
-        "x": 86.65,
-        "y": 12.96,
-        "size": 77.9,
+        "x": 87.17,
+        "y": 10.5,
+        "size": 75.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1821
+        "eigenvector": 0.1725
       },
       {
         "id": "Javier Martínez Aginaga",
         "short": "Aginaga",
-        "x": 59.38,
-        "y": 42.41,
-        "size": 89.9,
-        "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.2593
+        "x": 59.56,
+        "y": 41.65,
+        "size": 96.4,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.2413
       },
       {
         "id": "Thomas Müller",
         "short": "Müller",
-        "x": 87.52,
-        "y": 56.22,
-        "size": 64.3,
+        "x": 87.02,
+        "y": 56.75,
+        "size": 68.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0642
+        "eigenvector": 0.0566
       },
       {
         "id": "Jérôme Boateng",
         "short": "Boateng",
         "x": 67.2,
         "y": 55.25,
-        "size": 70.3,
+        "size": 68.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1488
+        "eigenvector": 0.1401
       },
       {
         "id": "Medhi Amine El Mouttaqi Benatia",
         "short": "Benatia",
-        "x": 49.51,
-        "y": 27.12,
-        "size": 83.3,
+        "x": 50.03,
+        "y": 26.72,
+        "size": 81.0,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.0993
+        "betweenness": 0.2667,
+        "eigenvector": 0.0942
       },
       {
         "id": "Robert Lewandowski",
         "short": "Lewandowski",
         "x": 79.31,
         "y": 24.9,
-        "size": 55.0,
+        "size": 56.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sebastian Rode",
-        "short": "Rode",
-        "x": 73.83,
-        "y": 46.92,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.015
       },
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
-        "x": 23.28,
-        "y": 37.81,
-        "size": 55.0,
+        "x": 23.43,
+        "y": 37.08,
+        "size": 56.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Holger Badstuber",
-        "short": "Badstuber",
-        "x": 55.5,
-        "y": 19.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0052
       }
     ],
     "edges": [
@@ -1023,6 +1003,12 @@
         "direction": "backward"
       },
       {
+        "source": "Márcio Rafael Ferreira de Souza",
+        "target": "Robert Lewandowski",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Arturo Erasmo Vidal Pardo",
         "target": "Xabier Alonso Olano",
         "weight": 29,
@@ -1033,6 +1019,12 @@
         "target": "Márcio Rafael Ferreira de Souza",
         "weight": 16,
         "direction": "lateral"
+      },
+      {
+        "source": "Arturo Erasmo Vidal Pardo",
+        "target": "Robert Lewandowski",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Philipp Lahm",
@@ -1047,6 +1039,12 @@
         "direction": "backward"
       },
       {
+        "source": "Philipp Lahm",
+        "target": "Xabier Alonso Olano",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
         "source": "Kingsley Coman",
         "target": "Márcio Rafael Ferreira de Souza",
         "weight": 20,
@@ -1057,6 +1055,30 @@
         "target": "Xabier Alonso Olano",
         "weight": 19,
         "direction": "forward"
+      },
+      {
+        "source": "Javier Martínez Aginaga",
+        "target": "Arturo Erasmo Vidal Pardo",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Martínez Aginaga",
+        "target": "Márcio Rafael Ferreira de Souza",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Martínez Aginaga",
+        "target": "Manuel Neuer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Thomas Müller",
+        "target": "Xabier Alonso Olano",
+        "weight": 10,
+        "direction": "backward"
       },
       {
         "source": "Jérôme Boateng",
@@ -1081,6 +1103,36 @@
         "target": "Javier Martínez Aginaga",
         "weight": 13,
         "direction": "forward"
+      },
+      {
+        "source": "Medhi Amine El Mouttaqi Benatia",
+        "target": "Manuel Neuer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Arturo Erasmo Vidal Pardo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Márcio Rafael Ferreira de Souza",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Manuel Neuer",
+        "target": "Medhi Amine El Mouttaqi Benatia",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Manuel Neuer",
+        "target": "Javier Martínez Aginaga",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1089,99 +1141,39 @@
       {
         "id": "Rune Almenning Jarstein",
         "short": "Jarstein",
-        "x": 110.35,
-        "y": 42.85,
-        "size": 221.7,
+        "x": 110.21,
+        "y": 42.97,
+        "size": 154.1,
         "is_playmaker": true,
-        "betweenness": 0.0192,
-        "eigenvector": 0.6901
-      },
-      {
-        "id": "Sebastian Langkamp",
-        "short": "Langkamp",
-        "x": 90.86,
-        "y": 61.77,
-        "size": 146.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5355
-      },
-      {
-        "id": "John Anthony Brooks",
-        "short": "Brooks",
-        "x": 89.53,
-        "y": 19.53,
-        "size": 163.3,
-        "is_playmaker": true,
-        "betweenness": 0.0128,
-        "eigenvector": 0.4868
-      },
-      {
-        "id": "Tolga Ciğerci",
-        "short": "Ciğerci",
-        "x": 78.83,
-        "y": 36.4,
-        "size": 88.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Yanni Regäsel",
-        "short": "Regäsel",
-        "x": 68.52,
-        "y": 69.11,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Vladimír Darida",
-        "short": "Darida",
-        "x": 70.28,
-        "y": 45.29,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3333,
+        "eigenvector": 0.5988
       },
       {
         "id": "Genki Haraguchi",
         "short": "Haraguchi",
-        "x": 55.82,
-        "y": 62.48,
-        "size": 55.0,
+        "x": 55.8,
+        "y": 60.97,
+        "size": 72.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2732
+      },
+      {
+        "id": "Yanni Regäsel",
+        "short": "Regäsel",
+        "x": 70.51,
+        "y": 67.8,
+        "size": 126.8,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.31
       },
       {
         "id": "Salomon Armand Magloire Kalou",
         "short": "Kalou",
-        "x": 70.02,
-        "y": 23.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Fabian Lustenberger",
-        "short": "Lustenberge",
-        "x": 75.79,
-        "y": 43.69,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Marvin Plattenhardt",
-        "short": "Plattenhard",
-        "x": 65.81,
-        "y": 13.12,
-        "size": 55.0,
+        "x": 73.03,
+        "y": 24.43,
+        "size": 61.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1191,19 +1183,9 @@
         "short": "Skjelbred",
         "x": 74.08,
         "y": 38.24,
-        "size": 55.0,
+        "size": 68.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Alexander Baumjohann",
-        "short": "Baumjohann",
-        "x": 60.1,
-        "y": 52.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.1,
         "eigenvector": 0.0
       },
       {
@@ -1211,23 +1193,69 @@
         "short": "Ibišević",
         "x": 51.28,
         "y": 50.03,
-        "size": 55.0,
+        "size": 70.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0876
       },
       {
-        "id": "Valentin Stocker",
-        "short": "Stocker",
-        "x": 53.8,
-        "y": 25.8,
-        "size": 55.0,
+        "id": "Vladimír Darida",
+        "short": "Darida",
+        "x": 73.94,
+        "y": 48.07,
+        "size": 78.9,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.1075
+      },
+      {
+        "id": "John Anthony Brooks",
+        "short": "Brooks",
+        "x": 90.28,
+        "y": 19.01,
+        "size": 102.9,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3385
+      },
+      {
+        "id": "Marvin Plattenhardt",
+        "short": "Plattenhard",
+        "x": 67.76,
+        "y": 14.83,
+        "size": 65.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1148
+      },
+      {
+        "id": "Sebastian Langkamp",
+        "short": "Langkamp",
+        "x": 92.25,
+        "y": 60.26,
+        "size": 123.4,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.5475
+      },
+      {
+        "id": "Fabian Lustenberger",
+        "short": "Lustenberge",
+        "x": 75.34,
+        "y": 44.03,
+        "size": 80.6,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.1548
       }
     ],
     "edges": [
+      {
+        "source": "Rune Almenning Jarstein",
+        "target": "Genki Haraguchi",
+        "weight": 6,
+        "direction": "backward"
+      },
       {
         "source": "Rune Almenning Jarstein",
         "target": "Sebastian Langkamp",
@@ -1241,10 +1269,76 @@
         "direction": "backward"
       },
       {
-        "source": "Sebastian Langkamp",
+        "source": "Rune Almenning Jarstein",
+        "target": "Yanni Regäsel",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Yanni Regäsel",
         "target": "Rune Almenning Jarstein",
-        "weight": 11,
+        "weight": 6,
         "direction": "forward"
+      },
+      {
+        "source": "Yanni Regäsel",
+        "target": "Vedad Ibišević",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Yanni Regäsel",
+        "target": "Vladimír Darida",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Yanni Regäsel",
+        "target": "Sebastian Langkamp",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Yanni Regäsel",
+        "target": "Genki Haraguchi",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Salomon Armand Magloire Kalou",
+        "target": "Per Ciljan Skjelbred",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Per Ciljan Skjelbred",
+        "target": "Fabian Lustenberger",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Vedad Ibišević",
+        "target": "Vladimír Darida",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Vladimír Darida",
+        "target": "Yanni Regäsel",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "John Anthony Brooks",
+        "target": "Marvin Plattenhardt",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "John Anthony Brooks",
+        "target": "Yanni Regäsel",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "John Anthony Brooks",
@@ -1253,9 +1347,21 @@
         "direction": "forward"
       },
       {
-        "source": "Tolga Ciğerci",
-        "target": "John Anthony Brooks",
-        "weight": 8,
+        "source": "Sebastian Langkamp",
+        "target": "Fabian Lustenberger",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sebastian Langkamp",
+        "target": "Rune Almenning Jarstein",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Fabian Lustenberger",
+        "target": "Sebastian Langkamp",
+        "weight": 6,
         "direction": "forward"
       }
     ]

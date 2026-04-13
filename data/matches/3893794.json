@@ -821,132 +821,112 @@
       {
         "id": "Jessica Carter",
         "short": "Carter",
-        "x": 48.74,
-        "y": 25.46,
-        "size": 131.0,
+        "x": 48.21,
+        "y": 25.47,
+        "size": 133.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5034
+        "betweenness": 0.1,
+        "eigenvector": 0.5001
       },
       {
         "id": "Alex Greenwood",
         "short": "Greenwood",
-        "x": 65.63,
-        "y": 8.68,
-        "size": 145.4,
-        "is_playmaker": true,
-        "betweenness": 0.2121,
-        "eigenvector": 0.4782
+        "x": 64.4,
+        "y": 8.42,
+        "size": 125.7,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.4277
       },
       {
         "id": "Millie Bright",
         "short": "Bright",
-        "x": 45.91,
-        "y": 48.9,
-        "size": 125.1,
+        "x": 45.54,
+        "y": 49.52,
+        "size": 128.4,
         "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.5051
+        "betweenness": 0.1056,
+        "eigenvector": 0.5255
       },
       {
         "id": "Georgia Stanway",
         "short": "Stanway",
         "x": 72.51,
         "y": 55.14,
-        "size": 92.7,
+        "size": 102.3,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.2796
+        "betweenness": 0.0667,
+        "eigenvector": 0.3225
       },
       {
         "id": "Lucy Bronze",
         "short": "Bronze",
-        "x": 68.16,
-        "y": 63.9,
-        "size": 110.7,
+        "x": 67.69,
+        "y": 63.87,
+        "size": 105.5,
         "is_playmaker": true,
-        "betweenness": 0.1742,
-        "eigenvector": 0.3021
+        "betweenness": 0.2,
+        "eigenvector": 0.3207
       },
       {
         "id": "Keira Walsh",
         "short": "Walsh",
-        "x": 69.03,
-        "y": 35.82,
-        "size": 84.9,
-        "is_playmaker": false,
-        "betweenness": 0.1288,
-        "eigenvector": 0.2216
+        "x": 68.76,
+        "y": 38.01,
+        "size": 92.0,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.1998
       },
       {
         "id": "Ella Toone",
         "short": "Toone",
-        "x": 70.86,
-        "y": 26.75,
-        "size": 64.0,
+        "x": 71.26,
+        "y": 27.93,
+        "size": 68.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.141
+        "betweenness": 0.0389,
+        "eigenvector": 0.1199
       },
       {
         "id": "Lauren Hemp",
         "short": "Hemp",
         "x": 86.78,
         "y": 20.24,
-        "size": 61.6,
+        "size": 61.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1034
-      },
-      {
-        "id": "Lauren James",
-        "short": "James",
-        "x": 83.39,
-        "y": 11.62,
-        "size": 67.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1034
+        "eigenvector": 0.0879
       },
       {
         "id": "Chloe Kelly",
         "short": "Kelly",
-        "x": 95.17,
-        "y": 57.92,
-        "size": 67.0,
+        "x": 94.86,
+        "y": 57.41,
+        "size": 70.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0549
-      },
-      {
-        "id": "Alessia Russo",
-        "short": "Russo",
-        "x": 78.36,
-        "y": 32.37,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1486
       },
       {
         "id": "Mary Alexandra Earps",
         "short": "Earps",
         "x": 13.16,
         "y": 39.05,
-        "size": 55.0,
+        "size": 59.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Rachel Daly",
-        "short": "Daly",
-        "x": 71.65,
-        "y": 30.62,
-        "size": 55.0,
+        "id": "Alessia Russo",
+        "short": "Russo",
+        "x": 78.36,
+        "y": 32.37,
+        "size": 57.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1111,
+        "eigenvector": 0.006
       }
     ],
     "edges": [
@@ -972,7 +952,7 @@
         "source": "Alex Greenwood",
         "target": "Keira Walsh",
         "weight": 16,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Alex Greenwood",
@@ -993,12 +973,6 @@
         "direction": "backward"
       },
       {
-        "source": "Alex Greenwood",
-        "target": "Lauren James",
-        "weight": 11,
-        "direction": "forward"
-      },
-      {
         "source": "Millie Bright",
         "target": "Jessica Carter",
         "weight": 28,
@@ -1017,6 +991,12 @@
         "direction": "forward"
       },
       {
+        "source": "Millie Bright",
+        "target": "Chloe Kelly",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
         "source": "Georgia Stanway",
         "target": "Lucy Bronze",
         "weight": 18,
@@ -1027,6 +1007,12 @@
         "target": "Chloe Kelly",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Georgia Stanway",
+        "target": "Millie Bright",
+        "weight": 9,
+        "direction": "backward"
       },
       {
         "source": "Lucy Bronze",
@@ -1050,7 +1036,7 @@
         "source": "Keira Walsh",
         "target": "Alex Greenwood",
         "weight": 12,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Keira Walsh",
@@ -1059,15 +1045,57 @@
         "direction": "lateral"
       },
       {
-        "source": "Lauren James",
-        "target": "Alex Greenwood",
-        "weight": 10,
+        "source": "Keira Walsh",
+        "target": "Jessica Carter",
+        "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Keira Walsh",
+        "target": "Georgia Stanway",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Keira Walsh",
+        "target": "Alessia Russo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ella Toone",
+        "target": "Georgia Stanway",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ella Toone",
+        "target": "Alessia Russo",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Chloe Kelly",
         "target": "Lucy Bronze",
         "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Mary Alexandra Earps",
+        "target": "Jessica Carter",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Alessia Russo",
+        "target": "Ella Toone",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Alessia Russo",
+        "target": "Keira Walsh",
+        "weight": 1,
         "direction": "backward"
       }
     ]
@@ -1077,132 +1105,112 @@
       {
         "id": "Nérilia Mondesir",
         "short": "Mondesir",
-        "x": 62.7,
-        "y": 18.92,
-        "size": 150.2,
-        "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0013
+        "x": 68.95,
+        "y": 18.8,
+        "size": 95.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2577
       },
       {
         "id": "Melchie Daëlle Dumornay",
         "short": "Dumornay",
-        "x": 50.25,
-        "y": 38.06,
-        "size": 102.6,
+        "x": 49.15,
+        "y": 39.58,
+        "size": 135.0,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Betina Petit-Frère",
-        "short": "Petit-Frère",
-        "x": 71.33,
-        "y": 75.51,
-        "size": 112.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.5389,
+        "eigenvector": 0.5831
       },
       {
         "id": "Batcheba Louis",
         "short": "Louis",
         "x": 66.69,
         "y": 65.99,
-        "size": 112.1,
+        "size": 89.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0015
+        "eigenvector": 0.404
       },
       {
-        "id": "Dayana Pierre-Louis",
-        "short": "Pierre-Loui",
-        "x": 76.31,
-        "y": 28.55,
-        "size": 102.6,
+        "id": "Betina Petit-Frère",
+        "short": "Petit-Frère",
+        "x": 71.33,
+        "y": 75.51,
+        "size": 109.3,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.1918
+      },
+      {
+        "id": "Sherly Jeudy",
+        "short": "Jeudy",
+        "x": 75.96,
+        "y": 46.16,
+        "size": 75.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
-      },
-      {
-        "id": "Kerly Théus",
-        "short": "Théus",
-        "x": 109.32,
-        "y": 40.31,
-        "size": 102.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kethna Louis",
-        "short": "Louis",
-        "x": 91.35,
-        "y": 24.93,
-        "size": 102.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0013
       },
       {
         "id": "Roselord Borgella",
         "short": "Borgella",
         "x": 54.8,
         "y": 57.59,
-        "size": 55.0,
+        "size": 95.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sherly Jeudy",
-        "short": "Jeudy",
-        "x": 74.69,
-        "y": 42.87,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dougenie Tabita Kerbie Joseph",
-        "short": "Joseph",
-        "x": 93.23,
-        "y": 51.04,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ruthny Mathurin",
-        "short": "Mathurin",
-        "x": 72.14,
-        "y": 4.15,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2444,
+        "eigenvector": 0.4588
       },
       {
         "id": "Jennyfer Limage",
         "short": "Limage",
         "x": 83.08,
         "y": 68.38,
-        "size": 55.0,
+        "size": 63.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0801
       },
       {
-        "id": "Roseline Éloissaint",
-        "short": "Éloissaint",
-        "x": 83.0,
-        "y": 20.3,
-        "size": 55.0,
+        "id": "Kethna Louis",
+        "short": "Louis",
+        "x": 90.42,
+        "y": 26.34,
+        "size": 77.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.1077
+      },
+      {
+        "id": "Dayana Pierre-Louis",
+        "short": "Pierre-Loui",
+        "x": 75.0,
+        "y": 28.51,
+        "size": 106.4,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.37
+      },
+      {
+        "id": "Kerly Théus",
+        "short": "Théus",
+        "x": 109.32,
+        "y": 40.31,
+        "size": 86.4,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.1546
+      },
+      {
+        "id": "Dougenie Tabita Kerbie Joseph",
+        "short": "Joseph",
+        "x": 93.23,
+        "y": 51.04,
+        "size": 72.1,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.0646
       }
     ],
     "edges": [
@@ -1213,9 +1221,75 @@
         "direction": "backward"
       },
       {
+        "source": "Melchie Daëlle Dumornay",
+        "target": "Batcheba Louis",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Melchie Daëlle Dumornay",
+        "target": "Roselord Borgella",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Melchie Daëlle Dumornay",
+        "target": "Dayana Pierre-Louis",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Batcheba Louis",
+        "target": "Melchie Daëlle Dumornay",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
         "source": "Betina Petit-Frère",
         "target": "Batcheba Louis",
         "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Betina Petit-Frère",
+        "target": "Roselord Borgella",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Betina Petit-Frère",
+        "target": "Jennyfer Limage",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Betina Petit-Frère",
+        "target": "Melchie Daëlle Dumornay",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Sherly Jeudy",
+        "target": "Nérilia Mondesir",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Sherly Jeudy",
+        "target": "Melchie Daëlle Dumornay",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Roselord Borgella",
+        "target": "Betina Petit-Frère",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Kethna Louis",
+        "target": "Dayana Pierre-Louis",
+        "weight": 3,
         "direction": "backward"
       },
       {
@@ -1225,9 +1299,33 @@
         "direction": "backward"
       },
       {
+        "source": "Dayana Pierre-Louis",
+        "target": "Kerly Théus",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Dayana Pierre-Louis",
+        "target": "Melchie Daëlle Dumornay",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
         "source": "Kerly Théus",
         "target": "Kethna Louis",
         "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Kerly Théus",
+        "target": "Dougenie Tabita Kerbie Joseph",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Dougenie Tabita Kerbie Joseph",
+        "target": "Roselord Borgella",
+        "weight": 3,
         "direction": "backward"
       }
     ]

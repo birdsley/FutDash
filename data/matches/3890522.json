@@ -763,77 +763,77 @@
         "short": "Max",
         "x": 50.13,
         "y": 7.11,
-        "size": 93.8,
+        "size": 89.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.287
+        "eigenvector": 0.2861
       },
       {
         "id": "Ragnar Klavan",
         "short": "Klavan",
         "x": 34.8,
         "y": 22.44,
-        "size": 157.4,
-        "is_playmaker": true,
-        "betweenness": 0.1455,
-        "eigenvector": 0.6309
+        "size": 146.1,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.6288
       },
       {
         "id": "Daniel Baier",
         "short": "Baier",
         "x": 58.36,
         "y": 27.62,
-        "size": 113.8,
-        "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.3677
+        "size": 112.6,
+        "is_playmaker": true,
+        "betweenness": 0.3667,
+        "eigenvector": 0.3679
       },
       {
         "id": "Marwin Hitz",
         "short": "Hitz",
         "x": 12.84,
         "y": 41.01,
-        "size": 99.7,
+        "size": 94.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2746
+        "eigenvector": 0.2734
       },
       {
         "id": "Jeffrey Gouweleeuw",
         "short": "Gouweleeuw",
         "x": 43.18,
         "y": 64.02,
-        "size": 120.9,
+        "size": 118.9,
         "is_playmaker": true,
-        "betweenness": 0.1818,
-        "eigenvector": 0.4783
+        "betweenness": 0.3,
+        "eigenvector": 0.4766
       },
       {
         "id": "Caiuby Francisco da Silva",
         "short": "Silva",
-        "x": 77.72,
-        "y": 15.18,
-        "size": 80.9,
+        "x": 77.63,
+        "y": 14.96,
+        "size": 84.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1959
+        "betweenness": 0.1778,
+        "eigenvector": 0.1975
       },
       {
         "id": "Daniel Tawiah Opare",
         "short": "Opare",
         "x": 52.14,
         "y": 71.39,
-        "size": 82.1,
+        "size": 79.1,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.1703
+        "betweenness": 0.0,
+        "eigenvector": 0.1696
       },
       {
         "id": "Dominik Kohr",
         "short": "Kohr",
         "x": 64.18,
         "y": 54.64,
-        "size": 63.2,
+        "size": 67.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -841,42 +841,32 @@
       {
         "id": "Ja-Cheol Koo",
         "short": "Koo",
-        "x": 60.57,
-        "y": 62.49,
-        "size": 69.1,
+        "x": 60.99,
+        "y": 63.05,
+        "size": 67.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1135
+        "eigenvector": 0.1242
       },
       {
         "id": "Alfreð Finnbogason",
         "short": "Finnbogason",
         "x": 80.76,
         "y": 39.69,
-        "size": 62.1,
+        "size": 72.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0468
       },
       {
         "id": "Halil Altıntop",
         "short": "Altıntop",
         "x": 72.01,
         "y": 25.72,
-        "size": 62.1,
+        "size": 71.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Raúl Marcelo Bobadilla",
-        "short": "Bobadilla",
-        "x": 75.04,
-        "y": 43.68,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.0093
       }
     ],
     "edges": [
@@ -977,6 +967,12 @@
         "direction": "forward"
       },
       {
+        "source": "Caiuby Francisco da Silva",
+        "target": "Alfreð Finnbogason",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
         "source": "Daniel Tawiah Opare",
         "target": "Jeffrey Gouweleeuw",
         "weight": 7,
@@ -989,9 +985,21 @@
         "direction": "backward"
       },
       {
+        "source": "Dominik Kohr",
+        "target": "Jeffrey Gouweleeuw",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Alfreð Finnbogason",
         "target": "Ja-Cheol Koo",
         "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Alfreð Finnbogason",
+        "target": "Halil Altıntop",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -999,158 +1007,158 @@
         "target": "Caiuby Francisco da Silva",
         "weight": 6,
         "direction": "forward"
+      },
+      {
+        "source": "Halil Altıntop",
+        "target": "Daniel Baier",
+        "weight": 5,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Toni Šunjić",
-        "short": "Šunjić",
-        "x": 82.08,
-        "y": 50.31,
-        "size": 89.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Daniel Didavi",
-        "short": "Didavi",
-        "x": 59.28,
-        "y": 39.47,
-        "size": 189.8,
-        "is_playmaker": true,
-        "betweenness": 0.0321,
-        "eigenvector": 0.5126
-      },
-      {
-        "id": "Daniel Schwaab",
-        "short": "Schwaab",
-        "x": 62.72,
-        "y": 69.03,
-        "size": 85.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Emiliano Adrián Insúa Zapata",
         "short": "Zapata",
-        "x": 59.67,
-        "y": 12.09,
-        "size": 159.3,
-        "is_playmaker": true,
-        "betweenness": 0.0192,
-        "eigenvector": 0.4701
+        "x": 58.74,
+        "y": 13.34,
+        "size": 114.1,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.5206
       },
       {
         "id": "Filip Kostić",
         "short": "Kostić",
-        "x": 38.05,
-        "y": 7.74,
-        "size": 150.7,
+        "x": 36.25,
+        "y": 7.92,
+        "size": 100.6,
         "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.7185
+        "betweenness": 0.1556,
+        "eigenvector": 0.5881
+      },
+      {
+        "id": "Daniel Didavi",
+        "short": "Didavi",
+        "x": 58.74,
+        "y": 37.6,
+        "size": 127.5,
+        "is_playmaker": true,
+        "betweenness": 0.3167,
+        "eigenvector": 0.3775
+      },
+      {
+        "id": "Toni Šunjić",
+        "short": "Šunjić",
+        "x": 82.35,
+        "y": 50.25,
+        "size": 103.3,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.1575
+      },
+      {
+        "id": "Daniel Schwaab",
+        "short": "Schwaab",
+        "x": 65.75,
+        "y": 68.81,
+        "size": 108.7,
+        "is_playmaker": true,
+        "betweenness": 0.25,
+        "eigenvector": 0.1523
       },
       {
         "id": "Christian Gentner",
         "short": "Gentner",
-        "x": 63.48,
-        "y": 39.99,
-        "size": 55.0,
+        "x": 64.96,
+        "y": 39.54,
+        "size": 98.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0444,
+        "eigenvector": 0.3982
+      },
+      {
+        "id": "Przemysław Tytoń",
+        "short": "Tytoń",
+        "x": 106.99,
+        "y": 39.02,
+        "size": 95.3,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0503
       },
       {
         "id": "Artem Kravets",
         "short": "Kravets",
         "x": 58.82,
         "y": 36.62,
-        "size": 55.0,
+        "size": 68.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Alexandru Iulian Maxim",
-        "short": "Maxim",
-        "x": 53.68,
-        "y": 40.21,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Timo Werner",
-        "short": "Werner",
-        "x": 58.91,
-        "y": 55.04,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Przemysław Tytoń",
-        "short": "Tytoń",
-        "x": 107.18,
-        "y": 38.8,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1749
       },
       {
         "id": "Georg Niedermeier",
         "short": "Niedermeier",
         "x": 81.81,
         "y": 25.14,
-        "size": 55.0,
+        "size": 68.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0147
+      },
+      {
+        "id": "Timo Werner",
+        "short": "Werner",
+        "x": 54.52,
+        "y": 53.27,
+        "size": 60.4,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0226
       },
       {
         "id": "Florian Klein",
         "short": "Klein",
         "x": 62.69,
         "y": 66.79,
-        "size": 55.0,
+        "size": 60.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Borys Tashchy",
-        "short": "Tashchy",
-        "x": 37.5,
-        "y": 59.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jan Kliment",
-        "short": "Kliment",
-        "x": 67.2,
-        "y": 69.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2167,
+        "eigenvector": 0.0102
       }
     ],
     "edges": [
       {
-        "source": "Toni Šunjić",
-        "target": "Daniel Didavi",
-        "weight": 8,
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Filip Kostić",
+        "weight": 15,
         "direction": "backward"
+      },
+      {
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Christian Gentner",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Emiliano Adrián Insúa Zapata",
+        "target": "Artem Kravets",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Filip Kostić",
+        "target": "Daniel Didavi",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Filip Kostić",
+        "target": "Emiliano Adrián Insúa Zapata",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Daniel Didavi",
@@ -1159,22 +1167,148 @@
         "direction": "lateral"
       },
       {
-        "source": "Daniel Schwaab",
-        "target": "Daniel Didavi",
-        "weight": 7,
-        "direction": "lateral"
+        "source": "Daniel Didavi",
+        "target": "Christian Gentner",
+        "weight": 6,
+        "direction": "forward"
       },
       {
-        "source": "Emiliano Adrián Insúa Zapata",
+        "source": "Daniel Didavi",
         "target": "Filip Kostić",
-        "weight": 15,
+        "weight": 6,
         "direction": "backward"
       },
       {
-        "source": "Filip Kostić",
+        "source": "Daniel Didavi",
+        "target": "Toni Šunjić",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Didavi",
+        "target": "Daniel Schwaab",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Didavi",
+        "target": "Timo Werner",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Toni Šunjić",
+        "target": "Daniel Didavi",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Toni Šunjić",
+        "target": "Przemysław Tytoń",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Šunjić",
+        "target": "Christian Gentner",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Toni Šunjić",
+        "target": "Daniel Schwaab",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Schwaab",
         "target": "Daniel Didavi",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Artem Kravets",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Christian Gentner",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Toni Šunjić",
+        "weight": 4,
         "direction": "forward"
+      },
+      {
+        "source": "Daniel Schwaab",
+        "target": "Florian Klein",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Christian Gentner",
+        "target": "Emiliano Adrián Insúa Zapata",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Daniel Schwaab",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Georg Niedermeier",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Christian Gentner",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Przemysław Tytoń",
+        "target": "Toni Šunjić",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Georg Niedermeier",
+        "target": "Przemysław Tytoń",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Timo Werner",
+        "target": "Florian Klein",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Timo Werner",
+        "target": "Daniel Didavi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Florian Klein",
+        "target": "Timo Werner",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Florian Klein",
+        "target": "Daniel Schwaab",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

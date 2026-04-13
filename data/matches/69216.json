@@ -907,97 +907,87 @@
         "short": "Junior",
         "x": 61.48,
         "y": 9.56,
-        "size": 79.3,
+        "size": 81.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.0783
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
         "x": 64.14,
         "y": 28.51,
-        "size": 86.6,
+        "size": 94.4,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.135
+        "betweenness": 0.1,
+        "eigenvector": 0.1769
       },
       {
         "id": "Rafael Márquez Álvarez",
         "short": "Álvarez",
-        "x": 45.98,
-        "y": 61.29,
-        "size": 145.7,
+        "x": 46.11,
+        "y": 61.32,
+        "size": 133.9,
         "is_playmaker": true,
-        "betweenness": 0.1136,
-        "eigenvector": 0.5325
+        "betweenness": 0.1667,
+        "eigenvector": 0.4974
       },
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
         "x": 45.71,
         "y": 25.39,
-        "size": 92.2,
+        "size": 93.0,
         "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.3823
+        "betweenness": 0.0667,
+        "eigenvector": 0.3715
       },
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
         "x": 62.99,
         "y": 70.98,
-        "size": 99.5,
+        "size": 93.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3609
+        "eigenvector": 0.346
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 65.85,
-        "y": 50.35,
-        "size": 152.2,
+        "x": 65.92,
+        "y": 50.55,
+        "size": 146.5,
         "is_playmaker": true,
-        "betweenness": 0.1439,
-        "eigenvector": 0.4962
+        "betweenness": 0.4722,
+        "eigenvector": 0.5376
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
         "x": 58.66,
         "y": 39.95,
-        "size": 103.6,
+        "size": 102.9,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.4044
+        "betweenness": 0.0889,
+        "eigenvector": 0.384
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 76.1,
-        "y": 54.49,
-        "size": 72.8,
+        "x": 77.25,
+        "y": 53.37,
+        "size": 78.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.11
+        "betweenness": 0.0167,
+        "eigenvector": 0.1389
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
         "x": 14.2,
         "y": 42.7,
-        "size": 63.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Samuel Eto''o Fils",
-        "short": "Fils",
-        "x": 79.86,
-        "y": 41.69,
-        "size": 55.0,
+        "size": 62.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1007,30 +997,20 @@
         "short": "Henry",
         "x": 77.23,
         "y": 16.41,
-        "size": 55.0,
+        "size": 60.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0361
       },
       {
-        "id": "Eiður Smári Guðjohnsen",
-        "short": "Guðjohnsen",
-        "x": 50.3,
-        "y": 28.0,
-        "size": 55.0,
+        "id": "Samuel Eto''o Fils",
+        "short": "Fils",
+        "x": 79.86,
+        "y": 41.69,
+        "size": 57.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Víctor Sánchez Mata",
-        "short": "Mata",
-        "x": 52.84,
-        "y": 77.68,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0172
       }
     ],
     "edges": [
@@ -1051,6 +1031,18 @@
         "target": "Xavier Hernández Creus",
         "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "Andrés Iniesta Luján",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Andrés Iniesta Luján",
+        "target": "Thierry Henry",
+        "weight": 8,
+        "direction": "forward"
       },
       {
         "source": "Rafael Márquez Álvarez",
@@ -1081,6 +1073,12 @@
         "target": "Rafael Márquez Álvarez",
         "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Xavier Hernández Creus",
+        "weight": 8,
+        "direction": "forward"
       },
       {
         "source": "Carles Puyol i Saforcada",
@@ -1125,6 +1123,12 @@
         "direction": "backward"
       },
       {
+        "source": "Xavier Hernández Creus",
+        "target": "Samuel Eto''o Fils",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Sergio Busquets i Burgos",
         "target": "Xavier Hernández Creus",
         "weight": 11,
@@ -1143,117 +1147,141 @@
         "direction": "forward"
       },
       {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Sylvio Mendes Campos Junior",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Xavier Hernández Creus",
         "weight": 12,
         "direction": "backward"
       },
       {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Samuel Eto''o Fils",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Víctor Valdés Arribas",
         "target": "Rafael Márquez Álvarez",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Samuel Eto''o Fils",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Samuel Eto''o Fils",
+        "target": "Xavier Hernández Creus",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Koikili Lertxundi Del Campo",
-        "short": "Campo",
-        "x": 66.41,
-        "y": 9.41,
-        "size": 85.4,
+        "id": "Markel Susaeta Laskurain",
+        "short": "Laskurain",
+        "x": 43.6,
+        "y": 62.63,
+        "size": 79.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Igor Gabilondo del Campo",
-        "short": "Campo",
-        "x": 50.0,
-        "y": 18.42,
-        "size": 85.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pablo Orbaiz Lesaka",
-        "short": "Lesaka",
-        "x": 64.87,
-        "y": 33.71,
-        "size": 89.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Francisco Javier Yeste Navarro",
-        "short": "Navarro",
-        "x": 61.57,
-        "y": 52.16,
-        "size": 133.3,
-        "is_playmaker": true,
-        "betweenness": 0.0128,
-        "eigenvector": 0.0
+        "eigenvector": 0.3289
       },
       {
         "id": "Andoni Iraola Sagarna",
         "short": "Sagarna",
-        "x": 60.26,
-        "y": 72.51,
-        "size": 159.3,
+        "x": 60.64,
+        "y": 72.44,
+        "size": 134.6,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.62
+      },
+      {
+        "id": "Francisco Javier Yeste Navarro",
+        "short": "Navarro",
+        "x": 61.98,
+        "y": 52.88,
+        "size": 121.7,
         "is_playmaker": true,
-        "betweenness": 0.0192,
-        "eigenvector": 0.0024
-      },
-      {
-        "id": "Carlos Gurpegi Nausia",
-        "short": "Nausia",
-        "x": 79.86,
-        "y": 56.93,
-        "size": 85.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Markel Susaeta Laskurain",
-        "short": "Laskurain",
-        "x": 44.65,
-        "y": 62.17,
-        "size": 85.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Gorka Iraizoz Moreno",
-        "short": "Moreno",
-        "x": 107.14,
-        "y": 39.3,
-        "size": 85.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3667,
+        "eigenvector": 0.4534
       },
       {
         "id": "Fernando Llorente Torres",
         "short": "Torres",
         "x": 50.54,
         "y": 47.28,
-        "size": 85.4,
+        "size": 79.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
+        "id": "Koikili Lertxundi Del Campo",
+        "short": "Campo",
+        "x": 67.13,
+        "y": 9.16,
+        "size": 88.3,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.098
+      },
+      {
+        "id": "Igor Gabilondo del Campo",
+        "short": "Campo",
+        "x": 52.53,
+        "y": 19.28,
+        "size": 88.3,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.2154
+      },
+      {
+        "id": "Pablo Orbaiz Lesaka",
+        "short": "Lesaka",
+        "x": 64.4,
+        "y": 34.45,
+        "size": 106.9,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.4313
+      },
+      {
+        "id": "Carlos Gurpegi Nausia",
+        "short": "Nausia",
+        "x": 79.86,
+        "y": 56.93,
+        "size": 90.2,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.2389
+      },
+      {
+        "id": "Gorka Iraizoz Moreno",
+        "short": "Moreno",
+        "x": 107.1,
+        "y": 38.92,
+        "size": 88.3,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Fernando Amorebieta Mardaras",
         "short": "Mardaras",
-        "x": 85.21,
-        "y": 17.79,
-        "size": 55.0,
+        "x": 83.91,
+        "y": 18.29,
+        "size": 66.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1263,59 +1291,29 @@
         "short": "Aginaga",
         "x": 73.43,
         "y": 53.38,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Joseba Garmendia Elorriaga",
-        "short": "Elorriaga",
-        "x": 60.17,
-        "y": 35.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gaizka Toquero Pinedo",
-        "short": "Pinedo",
-        "x": 60.0,
-        "y": 40.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Iñaki Muñoz Oroz",
-        "short": "Oroz",
-        "x": 45.04,
-        "y": 36.92,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 62.4,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0525
       }
     ],
     "edges": [
       {
-        "source": "Koikili Lertxundi Del Campo",
-        "target": "Igor Gabilondo del Campo",
-        "weight": 7,
-        "direction": "backward"
+        "source": "Markel Susaeta Laskurain",
+        "target": "Andoni Iraola Sagarna",
+        "weight": 6,
+        "direction": "forward"
       },
       {
-        "source": "Pablo Orbaiz Lesaka",
+        "source": "Andoni Iraola Sagarna",
         "target": "Francisco Javier Yeste Navarro",
-        "weight": 8,
+        "weight": 4,
         "direction": "lateral"
       },
       {
-        "source": "Francisco Javier Yeste Navarro",
-        "target": "Andoni Iraola Sagarna",
-        "weight": 10,
+        "source": "Andoni Iraola Sagarna",
+        "target": "Pablo Orbaiz Lesaka",
+        "weight": 4,
         "direction": "lateral"
       },
       {
@@ -1325,15 +1323,105 @@
         "direction": "backward"
       },
       {
+        "source": "Andoni Iraola Sagarna",
+        "target": "Carlos Gurpegi Nausia",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Francisco Javier Yeste Navarro",
+        "target": "Andoni Iraola Sagarna",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Francisco Javier Yeste Navarro",
+        "target": "Pablo Orbaiz Lesaka",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Francisco Javier Yeste Navarro",
+        "target": "Javier Martínez Aginaga",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Fernando Llorente Torres",
+        "target": "Francisco Javier Yeste Navarro",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Koikili Lertxundi Del Campo",
+        "target": "Igor Gabilondo del Campo",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Koikili Lertxundi Del Campo",
+        "target": "Pablo Orbaiz Lesaka",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Igor Gabilondo del Campo",
+        "target": "Koikili Lertxundi Del Campo",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Pablo Orbaiz Lesaka",
+        "target": "Francisco Javier Yeste Navarro",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pablo Orbaiz Lesaka",
+        "target": "Igor Gabilondo del Campo",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Carlos Gurpegi Nausia",
         "target": "Andoni Iraola Sagarna",
         "weight": 7,
         "direction": "backward"
       },
       {
+        "source": "Carlos Gurpegi Nausia",
+        "target": "Javier Martínez Aginaga",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Gorka Iraizoz Moreno",
         "target": "Fernando Llorente Torres",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Gorka Iraizoz Moreno",
+        "target": "Carlos Gurpegi Nausia",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Fernando Amorebieta Mardaras",
+        "target": "Gorka Iraizoz Moreno",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Martínez Aginaga",
+        "target": "Carlos Gurpegi Nausia",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Martínez Aginaga",
+        "target": "Francisco Javier Yeste Navarro",
+        "weight": 1,
         "direction": "backward"
       }
     ]

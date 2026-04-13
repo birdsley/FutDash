@@ -819,43 +819,63 @@
   "network_home": {
     "nodes": [
       {
-        "id": "Laura Vetterlein",
-        "short": "Vetterlein",
-        "x": 40.92,
-        "y": 15.08,
-        "size": 127.7,
-        "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.0031
-      },
-      {
         "id": "Kenza Dali",
         "short": "Dali",
         "x": 50.58,
         "y": 29.7,
-        "size": 91.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "size": 111.5,
+        "is_playmaker": true,
+        "betweenness": 0.1667,
+        "eigenvector": 0.4432
       },
       {
-        "id": "Mackenzie Arnold",
-        "short": "Arnold",
-        "x": 12.87,
-        "y": 38.29,
-        "size": 100.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Kate Longhurst",
+        "short": "Longhurst",
+        "x": 51.12,
+        "y": 29.31,
+        "size": 137.6,
+        "is_playmaker": true,
+        "betweenness": 0.1667,
+        "eigenvector": 0.6147
       },
       {
         "id": "Dagný Brynjarsdóttir",
         "short": "Brynjarsdót",
         "x": 43.26,
         "y": 20.53,
-        "size": 100.5,
+        "size": 89.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0444,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Laura Vetterlein",
+        "short": "Vetterlein",
+        "x": 40.92,
+        "y": 15.08,
+        "size": 102.8,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.522
+      },
+      {
+        "id": "Gilly Louise Scarlett Flaherty",
+        "short": "Flaherty",
+        "x": 29.21,
+        "y": 53.71,
+        "size": 85.4,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Mackenzie Arnold",
+        "short": "Arnold",
+        "x": 12.87,
+        "y": 38.29,
+        "size": 102.8,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
         "eigenvector": 0.0
       },
       {
@@ -863,27 +883,17 @@
         "short": "Cissoko",
         "x": 46.03,
         "y": 21.74,
-        "size": 91.4,
+        "size": 85.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kate Longhurst",
-        "short": "Longhurst",
-        "x": 51.12,
-        "y": 29.31,
-        "size": 173.2,
-        "is_playmaker": true,
-        "betweenness": 0.0303,
-        "eigenvector": 0.0
+        "eigenvector": 0.3915
       },
       {
         "id": "Grace Fisk",
         "short": "Fisk",
         "x": 43.16,
         "y": 37.42,
-        "size": 100.5,
+        "size": 76.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -891,19 +901,9 @@
       {
         "id": "Anouk Denton",
         "short": "Denton",
-        "x": 50.37,
-        "y": 25.66,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mayumi Pacheco",
-        "short": "Pacheco",
-        "x": 29.4,
-        "y": 47.4,
-        "size": 55.0,
+        "x": 48.98,
+        "y": 28.7,
+        "size": 68.0,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -913,37 +913,17 @@
         "short": "Barker",
         "x": 39.9,
         "y": 49.7,
-        "size": 55.0,
+        "size": 72.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Gilly Louise Scarlett Flaherty",
-        "short": "Flaherty",
-        "x": 40.6,
-        "y": 58.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Leanne Kiernan",
-        "short": "Kiernan",
-        "x": 36.1,
-        "y": 54.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nor Mustafa",
-        "short": "Mustafa",
-        "x": 60.58,
-        "y": 37.32,
-        "size": 55.0,
+        "id": "Mayumi Pacheco",
+        "short": "Pacheco",
+        "x": 32.33,
+        "y": 44.73,
+        "size": 72.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -951,15 +931,63 @@
     ],
     "edges": [
       {
+        "source": "Kenza Dali",
+        "target": "Kate Longhurst",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Hawa Cissoko",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Laura Vetterlein",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Dagný Brynjarsdóttir",
+        "target": "Laura Vetterlein",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
         "source": "Laura Vetterlein",
         "target": "Kenza Dali",
         "weight": 4,
         "direction": "forward"
       },
       {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Mackenzie Arnold",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Maisy Barker",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Mayumi Pacheco",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Mackenzie Arnold",
         "target": "Dagný Brynjarsdóttir",
         "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Mackenzie Arnold",
+        "target": "Kenza Dali",
+        "weight": 3,
         "direction": "forward"
       },
       {
@@ -969,16 +997,40 @@
         "direction": "forward"
       },
       {
-        "source": "Kate Longhurst",
-        "target": "Laura Vetterlein",
-        "weight": 4,
-        "direction": "backward"
-      },
-      {
         "source": "Grace Fisk",
         "target": "Kate Longhurst",
         "weight": 5,
         "direction": "forward"
+      },
+      {
+        "source": "Anouk Denton",
+        "target": "Kenza Dali",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Maisy Barker",
+        "target": "Mayumi Pacheco",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Maisy Barker",
+        "target": "Gilly Louise Scarlett Flaherty",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Maisy Barker",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mayumi Pacheco",
+        "target": "Gilly Louise Scarlett Flaherty",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -989,130 +1041,110 @@
         "short": "Stanway",
         "x": 59.91,
         "y": 11.68,
-        "size": 118.3,
-        "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.2539
+        "size": 111.5,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.2476
       },
       {
         "id": "Alex Greenwood",
         "short": "Greenwood",
-        "x": 72.45,
-        "y": 24.74,
-        "size": 129.9,
+        "x": 72.26,
+        "y": 24.67,
+        "size": 126.4,
         "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.5072
+        "betweenness": 0.2444,
+        "eigenvector": 0.504
       },
       {
         "id": "Esme Beth Morgan",
         "short": "Morgan",
-        "x": 69.61,
-        "y": 55.1,
-        "size": 121.9,
+        "x": 69.05,
+        "y": 55.35,
+        "size": 116.0,
         "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.4871
+        "betweenness": 0.2667,
+        "eigenvector": 0.4733
       },
       {
         "id": "Keira Walsh",
         "short": "Walsh",
-        "x": 60.7,
-        "y": 42.6,
-        "size": 135.7,
+        "x": 60.45,
+        "y": 42.26,
+        "size": 127.1,
         "is_playmaker": true,
-        "betweenness": 0.1364,
-        "eigenvector": 0.5002
+        "betweenness": 0.45,
+        "eigenvector": 0.5191
       },
       {
         "id": "Lucy Bronze",
         "short": "Bronze",
-        "x": 48.46,
-        "y": 69.96,
-        "size": 100.8,
-        "is_playmaker": false,
-        "betweenness": 0.0758,
-        "eigenvector": 0.2939
+        "x": 49.97,
+        "y": 69.91,
+        "size": 101.1,
+        "is_playmaker": true,
+        "betweenness": 0.2778,
+        "eigenvector": 0.2971
       },
       {
         "id": "Caroline Weir",
         "short": "Weir",
-        "x": 44.64,
-        "y": 18.12,
-        "size": 86.3,
+        "x": 45.44,
+        "y": 18.08,
+        "size": 98.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2435
+        "betweenness": 0.1556,
+        "eigenvector": 0.2561
       },
       {
         "id": "Samantha June Mewis",
         "short": "Mewis",
-        "x": 42.6,
-        "y": 56.5,
-        "size": 63.0,
+        "x": 43.91,
+        "y": 57.11,
+        "size": 62.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0803
+        "eigenvector": 0.0778
       },
       {
         "id": "Janine Elizabeth Beckie",
         "short": "Beckie",
         "x": 38.9,
         "y": 65.24,
-        "size": 63.0,
+        "size": 67.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0803
+        "eigenvector": 0.0778
       },
       {
         "id": "Lauren Hemp",
         "short": "Hemp",
         "x": 33.75,
         "y": 13.68,
-        "size": 62.3,
+        "size": 71.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0631
-      },
-      {
-        "id": "Rosemary Kathleen Lavelle",
-        "short": "Lavelle",
-        "x": 46.98,
-        "y": 54.27,
-        "size": 62.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1242
+        "eigenvector": 0.1138
       },
       {
         "id": "Karima Benameur",
         "short": "Benameur",
         "x": 108.89,
         "y": 38.07,
-        "size": 61.5,
+        "size": 65.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1134
+        "eigenvector": 0.108
       },
       {
         "id": "Ellen White",
         "short": "White",
-        "x": 57.9,
-        "y": 47.26,
-        "size": 55.0,
+        "x": 65.33,
+        "y": 45.67,
+        "size": 57.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Laura Coombs",
-        "short": "Coombs",
-        "x": 49.97,
-        "y": 57.27,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.25,
+        "eigenvector": 0.0236
       }
     ],
     "edges": [
@@ -1183,6 +1215,12 @@
         "direction": "backward"
       },
       {
+        "source": "Esme Beth Morgan",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Keira Walsh",
         "target": "Alex Greenwood",
         "weight": 17,
@@ -1208,9 +1246,9 @@
       },
       {
         "source": "Keira Walsh",
-        "target": "Rosemary Kathleen Lavelle",
-        "weight": 10,
-        "direction": "backward"
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Lucy Bronze",
@@ -1235,6 +1273,48 @@
         "target": "Georgia Stanway",
         "weight": 17,
         "direction": "forward"
+      },
+      {
+        "source": "Caroline Weir",
+        "target": "Lauren Hemp",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Caroline Weir",
+        "target": "Keira Walsh",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Janine Elizabeth Beckie",
+        "target": "Lucy Bronze",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Lauren Hemp",
+        "target": "Caroline Weir",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Karima Benameur",
+        "target": "Alex Greenwood",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Keira Walsh",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Esme Beth Morgan",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

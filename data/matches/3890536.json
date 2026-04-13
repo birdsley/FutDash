@@ -955,140 +955,110 @@
         "short": "Christensen",
         "x": 34.76,
         "y": 41.38,
-        "size": 92.2,
+        "size": 92.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1593
+        "betweenness": 0.0222,
+        "eigenvector": 0.2489
       },
       {
         "id": "Nico Elvedi",
         "short": "Elvedi",
         "x": 49.02,
         "y": 65.71,
-        "size": 116.4,
+        "size": 113.6,
         "is_playmaker": false,
-        "betweenness": 0.0577,
-        "eigenvector": 0.3204
+        "betweenness": 0.1278,
+        "eigenvector": 0.3252
       },
       {
         "id": "Granit Xhaka",
         "short": "Xhaka",
-        "x": 58.94,
-        "y": 36.28,
-        "size": 121.0,
+        "x": 58.1,
+        "y": 35.11,
+        "size": 118.5,
         "is_playmaker": true,
-        "betweenness": 0.1282,
-        "eigenvector": 0.4807
+        "betweenness": 0.1667,
+        "eigenvector": 0.4214
       },
       {
         "id": "Håvard Nordtveit",
         "short": "Nordtveit",
-        "x": 42.7,
-        "y": 19.65,
-        "size": 130.3,
+        "x": 42.83,
+        "y": 19.75,
+        "size": 126.5,
         "is_playmaker": true,
-        "betweenness": 0.0833,
-        "eigenvector": 0.3644
+        "betweenness": 0.1722,
+        "eigenvector": 0.4329
       },
       {
         "id": "Oscar Wendt",
         "short": "Wendt",
         "x": 74.48,
         "y": 6.52,
-        "size": 83.8,
+        "size": 86.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3361
+        "betweenness": 0.0222,
+        "eigenvector": 0.3063
       },
       {
         "id": "Yann Sommer",
         "short": "Sommer",
-        "x": 14.42,
-        "y": 39.12,
-        "size": 86.6,
+        "x": 14.59,
+        "y": 38.99,
+        "size": 82.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1883
+        "eigenvector": 0.199
       },
       {
         "id": "Ibrahima Traoré",
         "short": "Traoré",
         "x": 67.91,
         "y": 62.61,
-        "size": 75.5,
+        "size": 84.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3376
+        "betweenness": 0.1056,
+        "eigenvector": 0.3914
       },
       {
         "id": "Mahmoud Dahoud",
         "short": "Dahoud",
-        "x": 69.28,
-        "y": 38.88,
-        "size": 109.0,
+        "x": 68.78,
+        "y": 37.81,
+        "size": 101.6,
         "is_playmaker": false,
-        "betweenness": 0.0641,
-        "eigenvector": 0.4648
+        "betweenness": 0.0556,
+        "eigenvector": 0.3792
       },
       {
         "id": "Raffael Caetano de Araújo",
         "short": "Araújo",
-        "x": 79.0,
-        "y": 36.99,
-        "size": 71.7,
+        "x": 79.48,
+        "y": 35.67,
+        "size": 71.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.172
+        "betweenness": 0.0778,
+        "eigenvector": 0.1654
       },
       {
         "id": "Thorgan Hazard",
         "short": "Hazard",
         "x": 74.92,
         "y": 38.9,
-        "size": 63.4,
+        "size": 69.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0833,
+        "eigenvector": 0.0972
       },
       {
         "id": "André Hahn",
         "short": "Hahn",
-        "x": 81.28,
-        "y": 41.42,
-        "size": 55.0,
+        "x": 80.23,
+        "y": 42.47,
+        "size": 58.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jonas Hofmann",
-        "short": "Hofmann",
-        "x": 120.0,
-        "y": 0.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Fabian Johnson",
-        "short": "Johnson",
-        "x": 78.35,
-        "y": 57.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Patrick Herrmann",
-        "short": "Herrmann",
-        "x": 103.3,
-        "y": 78.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0944,
+        "eigenvector": 0.0093
       }
     ],
     "edges": [
@@ -1123,6 +1093,12 @@
         "direction": "forward"
       },
       {
+        "source": "Nico Elvedi",
+        "target": "Andreas Christensen",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Granit Xhaka",
         "target": "Mahmoud Dahoud",
         "weight": 12,
@@ -1145,6 +1121,12 @@
         "target": "Nico Elvedi",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Granit Xhaka",
+        "target": "Ibrahima Traoré",
+        "weight": 8,
+        "direction": "forward"
       },
       {
         "source": "Håvard Nordtveit",
@@ -1177,6 +1159,12 @@
         "direction": "backward"
       },
       {
+        "source": "Oscar Wendt",
+        "target": "Håvard Nordtveit",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Yann Sommer",
         "target": "Håvard Nordtveit",
         "weight": 13,
@@ -1186,6 +1174,12 @@
         "source": "Yann Sommer",
         "target": "Nico Elvedi",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Ibrahima Traoré",
+        "target": "Thorgan Hazard",
+        "weight": 7,
         "direction": "forward"
       },
       {
@@ -1207,81 +1201,125 @@
         "direction": "forward"
       },
       {
+        "source": "Raffael Caetano de Araújo",
+        "target": "André Hahn",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Thorgan Hazard",
         "target": "Raffael Caetano de Araújo",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Thorgan Hazard",
+        "target": "André Hahn",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "André Hahn",
+        "target": "Thorgan Hazard",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "André Hahn",
+        "target": "Raffael Caetano de Araújo",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Niklas Süle",
-        "short": "Süle",
-        "x": 85.9,
-        "y": 38.54,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.6794
-      },
-      {
-        "id": "Oliver Baumann",
-        "short": "Baumann",
-        "x": 104.12,
-        "y": 41.29,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.7338
-      },
-      {
-        "id": "Sebastian Rudy",
-        "short": "Rudy",
-        "x": 60.51,
-        "y": 55.47,
-        "size": 55.0,
+        "id": "Andrej Kramarić",
+        "short": "Kramarić",
+        "x": 49.29,
+        "y": 38.35,
+        "size": 81.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.1264
+      },
+      {
+        "id": "Tobias Strobl",
+        "short": "Strobl",
+        "x": 78.28,
+        "y": 34.09,
+        "size": 102.0,
+        "is_playmaker": true,
+        "betweenness": 0.0889,
+        "eigenvector": 0.0352
       },
       {
         "id": "Fabian Lukas Schär",
         "short": "Schär",
-        "x": 82.48,
-        "y": 63.0,
-        "size": 55.0,
+        "x": 82.35,
+        "y": 63.54,
+        "size": 136.7,
+        "is_playmaker": true,
+        "betweenness": 0.1889,
+        "eigenvector": 0.4186
+      },
+      {
+        "id": "Niklas Süle",
+        "short": "Süle",
+        "x": 87.33,
+        "y": 39.59,
+        "size": 140.2,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.5928
+      },
+      {
+        "id": "Oliver Baumann",
+        "short": "Baumann",
+        "x": 103.89,
+        "y": 41.41,
+        "size": 124.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.6253
+      },
+      {
+        "id": "Eugen Polanski",
+        "short": "Polanski",
+        "x": 75.83,
+        "y": 41.87,
+        "size": 63.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
+      },
+      {
+        "id": "Sebastian Rudy",
+        "short": "Rudy",
+        "x": 59.66,
+        "y": 58.45,
+        "size": 81.1,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.1651
       },
       {
         "id": "Kevin Volland",
         "short": "Volland",
         "x": 46.31,
         "y": 33.11,
-        "size": 55.0,
+        "size": 74.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0577
       },
       {
-        "id": "Andrej Kramarić",
-        "short": "Kramarić",
-        "x": 49.29,
-        "y": 38.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Tobias Strobl",
-        "short": "Strobl",
-        "x": 76.23,
-        "y": 37.0,
-        "size": 55.0,
+        "id": "Jeremy Toljan",
+        "short": "Toljan",
+        "x": 59.65,
+        "y": 10.42,
+        "size": 63.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1291,17 +1329,7 @@
         "short": "Amiri",
         "x": 60.28,
         "y": 31.52,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jeremy Toljan",
-        "short": "Toljan",
-        "x": 61.02,
-        "y": 10.31,
-        "size": 55.0,
+        "size": 63.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1311,53 +1339,67 @@
         "short": "Uth",
         "x": 59.65,
         "y": 66.89,
-        "size": 55.0,
+        "size": 74.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Eugen Polanski",
-        "short": "Polanski",
-        "x": 75.83,
-        "y": 41.87,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pirmin Schwegler",
-        "short": "Schwegler",
-        "x": 66.68,
-        "y": 44.24,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Eduardo Jesús Vargas Rojas",
-        "short": "Rojas",
-        "x": 58.19,
-        "y": 52.13,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Philipp Ochs",
-        "short": "Ochs",
-        "x": 57.5,
-        "y": 11.42,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1858
       }
     ],
     "edges": [
+      {
+        "source": "Andrej Kramarić",
+        "target": "Tobias Strobl",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Tobias Strobl",
+        "target": "Fabian Lukas Schär",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Tobias Strobl",
+        "target": "Niklas Süle",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Tobias Strobl",
+        "target": "Andrej Kramarić",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Tobias Strobl",
+        "target": "Kevin Volland",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Fabian Lukas Schär",
+        "target": "Niklas Süle",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Fabian Lukas Schär",
+        "target": "Oliver Baumann",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Fabian Lukas Schär",
+        "target": "Andrej Kramarić",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Fabian Lukas Schär",
+        "target": "Mark Uth",
+        "weight": 6,
+        "direction": "backward"
+      },
       {
         "source": "Niklas Süle",
         "target": "Oliver Baumann",
@@ -1365,10 +1407,52 @@
         "direction": "forward"
       },
       {
+        "source": "Niklas Süle",
+        "target": "Sebastian Rudy",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Niklas Süle",
+        "target": "Fabian Lukas Schär",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Oliver Baumann",
         "target": "Niklas Süle",
         "weight": 12,
         "direction": "backward"
+      },
+      {
+        "source": "Oliver Baumann",
+        "target": "Fabian Lukas Schär",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Eugen Polanski",
+        "target": "Fabian Lukas Schär",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Sebastian Rudy",
+        "target": "Kevin Volland",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sebastian Rudy",
+        "target": "Mark Uth",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jeremy Toljan",
+        "target": "Nadiem Amiri",
+        "weight": 5,
+        "direction": "lateral"
       }
     ]
   },

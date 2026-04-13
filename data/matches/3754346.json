@@ -823,120 +823,110 @@
         "short": "Nyom",
         "x": 68.86,
         "y": 72.77,
-        "size": 101.7,
+        "size": 95.6,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.2687
+        "betweenness": 0.0,
+        "eigenvector": 0.2557
       },
       {
         "id": "Etienne Capoue",
         "short": "Capoue",
-        "x": 66.68,
-        "y": 41.84,
-        "size": 163.7,
+        "x": 66.91,
+        "y": 42.81,
+        "size": 151.2,
         "is_playmaker": true,
-        "betweenness": 0.1545,
-        "eigenvector": 0.582
+        "betweenness": 0.5667,
+        "eigenvector": 0.559
       },
       {
         "id": "José Holebas",
         "short": "Holebas",
-        "x": 59.28,
-        "y": 6.93,
-        "size": 123.5,
+        "x": 57.9,
+        "y": 7.1,
+        "size": 120.1,
         "is_playmaker": false,
-        "betweenness": 0.0727,
-        "eigenvector": 0.4038
+        "betweenness": 0.0,
+        "eigenvector": 0.4083
       },
       {
         "id": "José Manuel Jurado Marín",
         "short": "Marín",
         "x": 69.46,
         "y": 21.39,
-        "size": 102.8,
+        "size": 100.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4293
+        "eigenvector": 0.414
       },
       {
         "id": "Almen Abdi",
         "short": "Abdi",
         "x": 68.73,
         "y": 57.02,
-        "size": 96.3,
+        "size": 95.6,
         "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0891
+        "betweenness": 0.2111,
+        "eigenvector": 0.0926
       },
       {
         "id": "Ben Watson",
         "short": "Watson",
         "x": 58.6,
         "y": 32.01,
-        "size": 105.0,
-        "is_playmaker": true,
-        "betweenness": 0.0818,
-        "eigenvector": 0.4078
+        "size": 100.3,
+        "is_playmaker": false,
+        "betweenness": 0.1278,
+        "eigenvector": 0.3905
       },
       {
         "id": "Miguel Ángel Britos Cabrera",
         "short": "Cabrera",
         "x": 42.95,
         "y": 23.31,
-        "size": 72.4,
+        "size": 77.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1052
+        "betweenness": 0.0111,
+        "eigenvector": 0.1876
       },
       {
         "id": "Troy Deeney",
         "short": "Deeney",
         "x": 67.85,
         "y": 31.64,
-        "size": 74.6,
+        "size": 80.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2376
+        "betweenness": 0.1778,
+        "eigenvector": 0.2896
       },
       {
         "id": "Odion Jude Ighalo",
         "short": "Ighalo",
         "x": 69.39,
         "y": 47.84,
-        "size": 55.0,
+        "size": 64.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Craig Cathcart",
-        "short": "Cathcart",
-        "x": 48.94,
-        "y": 50.09,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.0523
       },
       {
         "id": "Heurelho da Silva Gomes",
         "short": "Gomes",
         "x": 10.32,
         "y": 39.97,
-        "size": 55.0,
+        "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1833,
+        "eigenvector": 0.008
       },
       {
-        "id": "Adlène Guédioura",
-        "short": "Guédioura",
-        "x": 69.75,
-        "y": 4.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Craig Cathcart",
+        "short": "Cathcart",
+        "x": 48.94,
+        "y": 50.09,
+        "size": 60.7,
+        "is_playmaker": true,
+        "betweenness": 0.55,
+        "eigenvector": 0.0346
       }
     ],
     "edges": [
@@ -983,6 +973,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Etienne Capoue",
+        "target": "Craig Cathcart",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "José Holebas",
         "target": "José Manuel Jurado Marín",
         "weight": 13,
@@ -1007,6 +1003,12 @@
         "direction": "forward"
       },
       {
+        "source": "José Holebas",
+        "target": "Miguel Ángel Britos Cabrera",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "José Manuel Jurado Marín",
         "target": "Ben Watson",
         "weight": 12,
@@ -1016,6 +1018,12 @@
         "source": "José Manuel Jurado Marín",
         "target": "Etienne Capoue",
         "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Manuel Jurado Marín",
+        "target": "Troy Deeney",
+        "weight": 4,
         "direction": "lateral"
       },
       {
@@ -1055,9 +1063,63 @@
         "direction": "lateral"
       },
       {
+        "source": "Ben Watson",
+        "target": "Craig Cathcart",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Miguel Ángel Britos Cabrera",
         "target": "José Holebas",
         "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Miguel Ángel Britos Cabrera",
+        "target": "Heurelho da Silva Gomes",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Troy Deeney",
+        "target": "Odion Jude Ighalo",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Odion Jude Ighalo",
+        "target": "Almen Abdi",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Heurelho da Silva Gomes",
+        "target": "Miguel Ángel Britos Cabrera",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Heurelho da Silva Gomes",
+        "target": "Craig Cathcart",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Craig Cathcart",
+        "target": "Heurelho da Silva Gomes",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Craig Cathcart",
+        "target": "Etienne Capoue",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Craig Cathcart",
+        "target": "Ben Watson",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -1065,81 +1127,81 @@
   "network_away": {
     "nodes": [
       {
-        "id": "David Josué Jiménez Silva",
-        "short": "Silva",
-        "x": 44.79,
-        "y": 41.97,
-        "size": 80.9,
+        "id": "Bacary Sagna",
+        "short": "Sagna",
+        "x": 57.38,
+        "y": 70.61,
+        "size": 129.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2422
+        "betweenness": 0.0833,
+        "eigenvector": 0.4351
       },
       {
-        "id": "Gnégnéri Yaya Touré",
-        "short": "Touré",
-        "x": 57.22,
-        "y": 39.9,
-        "size": 136.6,
+        "id": "Nicolás Hernán Otamendi",
+        "short": "Otamendi",
+        "x": 75.12,
+        "y": 56.45,
+        "size": 104.2,
         "is_playmaker": true,
-        "betweenness": 0.0641,
-        "eigenvector": 0.5624
-      },
-      {
-        "id": "Aleksandar Kolarov",
-        "short": "Kolarov",
-        "x": 58.23,
-        "y": 7.01,
-        "size": 86.3,
-        "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Eliaquim Mangala",
-        "short": "Mangala",
-        "x": 73.12,
-        "y": 25.0,
-        "size": 76.8,
-        "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.4022
       },
       {
         "id": "Kevin De Bruyne",
         "short": "Bruyne",
         "x": 38.87,
         "y": 43.94,
-        "size": 136.6,
+        "size": 121.7,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.4959
+      },
+      {
+        "id": "Gnégnéri Yaya Touré",
+        "short": "Touré",
+        "x": 56.19,
+        "y": 39.34,
+        "size": 128.8,
         "is_playmaker": true,
-        "betweenness": 0.0449,
-        "eigenvector": 0.5647
+        "betweenness": 0.3111,
+        "eigenvector": 0.5497
       },
       {
-        "id": "Bacary Sagna",
-        "short": "Sagna",
-        "x": 58.56,
-        "y": 70.87,
-        "size": 138.0,
+        "id": "David Josué Jiménez Silva",
+        "short": "Silva",
+        "x": 46.1,
+        "y": 38.17,
+        "size": 79.6,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.4653
+        "betweenness": 0.0056,
+        "eigenvector": 0.1956
       },
       {
-        "id": "Nicolás Hernán Otamendi",
-        "short": "Otamendi",
-        "x": 74.8,
-        "y": 56.68,
-        "size": 109.4,
+        "id": "Aleksandar Kolarov",
+        "short": "Kolarov",
+        "x": 58.23,
+        "y": 7.01,
+        "size": 95.0,
         "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.2993
+        "betweenness": 0.1222,
+        "eigenvector": 0.1389
+      },
+      {
+        "id": "Eliaquim Mangala",
+        "short": "Mangala",
+        "x": 73.46,
+        "y": 24.81,
+        "size": 78.6,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.0445
       },
       {
         "id": "Fernando Luiz Rosa",
         "short": "Rosa",
         "x": 62.21,
         "y": 42.23,
-        "size": 75.4,
+        "size": 81.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1147,70 +1209,100 @@
       {
         "id": "Sergio Leonel Agüero del Castillo",
         "short": "Castillo",
-        "x": 41.79,
-        "y": 47.19,
-        "size": 55.0,
+        "x": 41.82,
+        "y": 46.89,
+        "size": 66.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2007
       },
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
         "x": 39.24,
         "y": 29.19,
-        "size": 55.0,
+        "size": 60.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jesús Navas González",
-        "short": "González",
-        "x": 46.54,
-        "y": 70.42,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0274
       },
       {
         "id": "Joe Hart",
         "short": "Hart",
-        "x": 109.64,
-        "y": 42.17,
-        "size": 55.0,
+        "x": 109.36,
+        "y": 41.39,
+        "size": 59.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Wilfried Guemiand Bony",
-        "short": "Bony",
-        "x": 50.73,
-        "y": 60.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Martín Gastón Demichelis",
-        "short": "Demichelis",
-        "x": 63.0,
-        "y": 19.8,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1667,
+        "eigenvector": 0.0176
       }
     ],
     "edges": [
       {
-        "source": "David Josué Jiménez Silva",
+        "source": "Bacary Sagna",
+        "target": "Nicolás Hernán Otamendi",
+        "weight": 15,
+        "direction": "forward"
+      },
+      {
+        "source": "Bacary Sagna",
+        "target": "Kevin De Bruyne",
+        "weight": 15,
+        "direction": "backward"
+      },
+      {
+        "source": "Bacary Sagna",
+        "target": "Gnégnéri Yaya Touré",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Bacary Sagna",
+        "target": "Sergio Leonel Agüero del Castillo",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolás Hernán Otamendi",
         "target": "Gnégnéri Yaya Touré",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolás Hernán Otamendi",
+        "target": "Bacary Sagna",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicolás Hernán Otamendi",
+        "target": "Joe Hart",
+        "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Kevin De Bruyne",
+        "target": "David Josué Jiménez Silva",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Kevin De Bruyne",
+        "target": "Gnégnéri Yaya Touré",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Kevin De Bruyne",
+        "target": "Bacary Sagna",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Kevin De Bruyne",
+        "target": "Sergio Leonel Agüero del Castillo",
+        "weight": 5,
+        "direction": "lateral"
       },
       {
         "source": "Gnégnéri Yaya Touré",
@@ -1225,6 +1317,24 @@
         "direction": "lateral"
       },
       {
+        "source": "Gnégnéri Yaya Touré",
+        "target": "Nicolás Hernán Otamendi",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Gnégnéri Yaya Touré",
+        "target": "Aleksandar Kolarov",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "David Josué Jiménez Silva",
+        "target": "Gnégnéri Yaya Touré",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
         "source": "Aleksandar Kolarov",
         "target": "Eliaquim Mangala",
         "weight": 8,
@@ -1237,56 +1347,32 @@
         "direction": "lateral"
       },
       {
+        "source": "Aleksandar Kolarov",
+        "target": "Raheem Sterling",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Eliaquim Mangala",
         "target": "Nicolás Hernán Otamendi",
         "weight": 8,
         "direction": "lateral"
       },
       {
-        "source": "Kevin De Bruyne",
-        "target": "Gnégnéri Yaya Touré",
-        "weight": 8,
+        "source": "Eliaquim Mangala",
+        "target": "Aleksandar Kolarov",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Eliaquim Mangala",
+        "target": "Joe Hart",
+        "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Kevin De Bruyne",
-        "target": "Bacary Sagna",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Kevin De Bruyne",
-        "target": "David Josué Jiménez Silva",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Bacary Sagna",
-        "target": "Nicolás Hernán Otamendi",
-        "weight": 15,
-        "direction": "forward"
-      },
-      {
-        "source": "Bacary Sagna",
+        "source": "Fernando Luiz Rosa",
         "target": "Kevin De Bruyne",
-        "weight": 15,
-        "direction": "backward"
-      },
-      {
-        "source": "Bacary Sagna",
-        "target": "Gnégnéri Yaya Touré",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "Nicolás Hernán Otamendi",
-        "target": "Gnégnéri Yaya Touré",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Nicolás Hernán Otamendi",
-        "target": "Bacary Sagna",
         "weight": 8,
         "direction": "backward"
       },
@@ -1298,8 +1384,26 @@
       },
       {
         "source": "Fernando Luiz Rosa",
-        "target": "Kevin De Bruyne",
-        "weight": 8,
+        "target": "Bacary Sagna",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Fernando Luiz Rosa",
+        "target": "David Josué Jiménez Silva",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Joe Hart",
+        "target": "Nicolás Hernán Otamendi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Joe Hart",
+        "target": "Eliaquim Mangala",
+        "weight": 1,
         "direction": "backward"
       }
     ]

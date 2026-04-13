@@ -857,79 +857,79 @@
       {
         "id": "Arthur Masuaku",
         "short": "Masuaku",
-        "x": 64.86,
-        "y": 7.91,
-        "size": 119.8,
+        "x": 64.1,
+        "y": 8.27,
+        "size": 111.3,
         "is_playmaker": false,
-        "betweenness": 0.1136,
-        "eigenvector": 0.4641
+        "betweenness": 0.1889,
+        "eigenvector": 0.4299
       },
       {
         "id": "Henoc Inonga Baka",
         "short": "Baka",
-        "x": 50.41,
-        "y": 24.49,
-        "size": 141.4,
+        "x": 50.35,
+        "y": 24.57,
+        "size": 135.8,
         "is_playmaker": false,
-        "betweenness": 0.0795,
-        "eigenvector": 0.5041
+        "betweenness": 0.1,
+        "eigenvector": 0.5102
       },
       {
         "id": "Chancel Mbemba Mangulu",
         "short": "Mangulu",
-        "x": 51.79,
-        "y": 56.83,
-        "size": 110.4,
+        "x": 50.8,
+        "y": 57.24,
+        "size": 114.6,
         "is_playmaker": false,
-        "betweenness": 0.0682,
-        "eigenvector": 0.4001
+        "betweenness": 0.2,
+        "eigenvector": 0.41
       },
       {
         "id": "Gedeon Kalulu Kyatengwa",
         "short": "Kyatengwa",
         "x": 63.42,
         "y": 71.31,
-        "size": 92.6,
+        "size": 99.1,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.222
+        "betweenness": 0.0778,
+        "eigenvector": 0.2374
       },
       {
         "id": "Théo Bongonda Mbul''Ofeko Batombo",
         "short": "Batombo",
-        "x": 77.54,
-        "y": 53.87,
-        "size": 81.3,
-        "is_playmaker": false,
-        "betweenness": 0.0568,
-        "eigenvector": 0.1951
+        "x": 78.56,
+        "y": 57.35,
+        "size": 85.2,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.1853
       },
       {
         "id": "Charles Pickel",
         "short": "Pickel",
-        "x": 63.37,
-        "y": 51.98,
-        "size": 108.5,
+        "x": 63.56,
+        "y": 51.82,
+        "size": 107.2,
         "is_playmaker": true,
-        "betweenness": 0.2159,
-        "eigenvector": 0.327
+        "betweenness": 0.3333,
+        "eigenvector": 0.3068
       },
       {
         "id": "Samuel Moutoussamy",
         "short": "Moutoussamy",
-        "x": 63.83,
-        "y": 30.49,
+        "x": 62.55,
+        "y": 30.76,
         "size": 99.1,
-        "is_playmaker": true,
-        "betweenness": 0.1212,
-        "eigenvector": 0.3939
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.4314
       },
       {
         "id": "Lionel Mpasi-Nzau",
         "short": "Mpasi-Nzau",
         "x": 14.76,
         "y": 41.11,
-        "size": 63.5,
+        "size": 62.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -939,50 +939,30 @@
         "short": "Kakuta",
         "x": 72.84,
         "y": 40.08,
-        "size": 63.5,
+        "size": 64.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0686
+        "betweenness": 0.0333,
+        "eigenvector": 0.0666
       },
       {
         "id": "Yoane Wissa",
         "short": "Wissa",
         "x": 85.35,
         "y": 20.79,
-        "size": 70.0,
+        "size": 68.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1274
+        "eigenvector": 0.1068
       },
       {
         "id": "Cédric Bakambu",
         "short": "Bakambu",
         "x": 95.4,
         "y": 59.5,
-        "size": 55.0,
+        "size": 58.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Meschak Elia",
-        "short": "Elia",
-        "x": 84.13,
-        "y": 28.07,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Simon Bokote Banza",
-        "short": "Banza",
-        "x": 108.35,
-        "y": 30.51,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0078
       }
     ],
     "edges": [
@@ -1047,6 +1027,12 @@
         "direction": "forward"
       },
       {
+        "source": "Chancel Mbemba Mangulu",
+        "target": "Samuel Moutoussamy",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Gedeon Kalulu Kyatengwa",
         "target": "Théo Bongonda Mbul''Ofeko Batombo",
         "weight": 13,
@@ -1059,10 +1045,28 @@
         "direction": "forward"
       },
       {
+        "source": "Gedeon Kalulu Kyatengwa",
+        "target": "Chancel Mbemba Mangulu",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Théo Bongonda Mbul''Ofeko Batombo",
         "target": "Charles Pickel",
         "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Théo Bongonda Mbul''Ofeko Batombo",
+        "target": "Gedeon Kalulu Kyatengwa",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Théo Bongonda Mbul''Ofeko Batombo",
+        "target": "Cédric Bakambu",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Charles Pickel",
@@ -1083,6 +1087,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Charles Pickel",
+        "target": "Henoc Inonga Baka",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
         "source": "Samuel Moutoussamy",
         "target": "Arthur Masuaku",
         "weight": 10,
@@ -1101,9 +1111,27 @@
         "direction": "forward"
       },
       {
+        "source": "Gaël Kakuta",
+        "target": "Cédric Bakambu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Yoane Wissa",
         "target": "Arthur Masuaku",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Cédric Bakambu",
+        "target": "Théo Bongonda Mbul''Ofeko Batombo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Cédric Bakambu",
+        "target": "Gaël Kakuta",
+        "weight": 1,
         "direction": "backward"
       }
     ]
@@ -1111,81 +1139,81 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Roderick Kabwe",
-        "short": "Kabwe",
-        "x": 74.66,
-        "y": 12.31,
-        "size": 82.7,
+        "id": "Stopilla Sunzu",
+        "short": "Sunzu",
+        "x": 82.2,
+        "y": 58.8,
+        "size": 128.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2522
+        "betweenness": 0.0222,
+        "eigenvector": 0.5332
       },
       {
         "id": "Frankie Musonda",
         "short": "Musonda",
         "x": 83.34,
         "y": 23.16,
-        "size": 162.7,
-        "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.5639
-      },
-      {
-        "id": "Stopilla Sunzu",
-        "short": "Sunzu",
-        "x": 82.2,
-        "y": 58.8,
-        "size": 138.1,
+        "size": 150.0,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.5494
+        "betweenness": 0.1889,
+        "eigenvector": 0.5613
       },
       {
         "id": "Tresford Lawrence Mulenga",
         "short": "Mulenga",
         "x": 109.06,
         "y": 38.34,
-        "size": 84.7,
+        "size": 81.2,
         "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.1456
+        "betweenness": 0.0333,
+        "eigenvector": 0.1432
+      },
+      {
+        "id": "Kelvin Kapumbu",
+        "short": "Kapumbu",
+        "x": 71.38,
+        "y": 53.59,
+        "size": 102.1,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.3831
+      },
+      {
+        "id": "Roderick Kabwe",
+        "short": "Kabwe",
+        "x": 77.44,
+        "y": 12.2,
+        "size": 89.4,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.259
       },
       {
         "id": "Tandi Mwape",
         "short": "Mwape",
         "x": 64.64,
         "y": 74.62,
-        "size": 88.8,
+        "size": 84.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2524
-      },
-      {
-        "id": "Kelvin Kapumbu",
-        "short": "Kapumbu",
-        "x": 70.3,
-        "y": 54.04,
-        "size": 108.3,
-        "is_playmaker": true,
-        "betweenness": 0.0682,
-        "eigenvector": 0.3973
+        "eigenvector": 0.2411
       },
       {
         "id": "Emmanuel Justine Rabby Banda",
         "short": "Banda",
         "x": 69.0,
         "y": 25.33,
-        "size": 90.9,
-        "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.2718
+        "size": 96.6,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.314
       },
       {
         "id": "Lubambo Musonda",
         "short": "Musonda",
         "x": 53.83,
         "y": 61.35,
-        "size": 62.2,
+        "size": 63.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1193,60 +1221,52 @@
       {
         "id": "Kings Kangwa",
         "short": "Kangwa",
-        "x": 61.49,
-        "y": 54.0,
-        "size": 69.4,
+        "x": 60.97,
+        "y": 53.91,
+        "size": 74.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0213
       },
       {
         "id": "Fashion Sakala",
         "short": "Sakala",
         "x": 54.59,
         "y": 40.95,
-        "size": 62.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 75.8,
+        "is_playmaker": true,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0954
       },
       {
         "id": "Patson Daka",
         "short": "Daka",
-        "x": 60.72,
-        "y": 54.63,
-        "size": 55.0,
+        "x": 57.94,
+        "y": 55.5,
+        "size": 58.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lameck Banda",
-        "short": "Banda",
-        "x": 32.4,
-        "y": 6.0,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Larry Bwalya",
-        "short": "Bwalya",
-        "x": 28.6,
-        "y": 44.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.0007
       }
     ],
     "edges": [
       {
-        "source": "Roderick Kabwe",
+        "source": "Stopilla Sunzu",
         "target": "Frankie Musonda",
-        "weight": 9,
-        "direction": "forward"
+        "weight": 19,
+        "direction": "lateral"
+      },
+      {
+        "source": "Stopilla Sunzu",
+        "target": "Kelvin Kapumbu",
+        "weight": 12,
+        "direction": "backward"
+      },
+      {
+        "source": "Stopilla Sunzu",
+        "target": "Tandi Mwape",
+        "weight": 7,
+        "direction": "backward"
       },
       {
         "source": "Frankie Musonda",
@@ -1262,38 +1282,20 @@
       },
       {
         "source": "Frankie Musonda",
-        "target": "Tresford Lawrence Mulenga",
-        "weight": 8,
-        "direction": "forward"
-      },
-      {
-        "source": "Frankie Musonda",
         "target": "Emmanuel Justine Rabby Banda",
         "weight": 10,
         "direction": "backward"
       },
       {
         "source": "Frankie Musonda",
+        "target": "Tresford Lawrence Mulenga",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Frankie Musonda",
         "target": "Kelvin Kapumbu",
         "weight": 7,
-        "direction": "backward"
-      },
-      {
-        "source": "Stopilla Sunzu",
-        "target": "Frankie Musonda",
-        "weight": 19,
-        "direction": "lateral"
-      },
-      {
-        "source": "Stopilla Sunzu",
-        "target": "Tandi Mwape",
-        "weight": 7,
-        "direction": "backward"
-      },
-      {
-        "source": "Stopilla Sunzu",
-        "target": "Kelvin Kapumbu",
-        "weight": 12,
         "direction": "backward"
       },
       {
@@ -1309,18 +1311,6 @@
         "direction": "backward"
       },
       {
-        "source": "Tandi Mwape",
-        "target": "Stopilla Sunzu",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Tandi Mwape",
-        "target": "Kelvin Kapumbu",
-        "weight": 7,
-        "direction": "forward"
-      },
-      {
         "source": "Kelvin Kapumbu",
         "target": "Tandi Mwape",
         "weight": 10,
@@ -1339,6 +1329,36 @@
         "direction": "lateral"
       },
       {
+        "source": "Roderick Kabwe",
+        "target": "Frankie Musonda",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Roderick Kabwe",
+        "target": "Emmanuel Justine Rabby Banda",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Roderick Kabwe",
+        "target": "Fashion Sakala",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Tandi Mwape",
+        "target": "Stopilla Sunzu",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Tandi Mwape",
+        "target": "Kelvin Kapumbu",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Emmanuel Justine Rabby Banda",
         "target": "Frankie Musonda",
         "weight": 10,
@@ -1351,16 +1371,52 @@
         "direction": "forward"
       },
       {
+        "source": "Emmanuel Justine Rabby Banda",
+        "target": "Fashion Sakala",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Lubambo Musonda",
         "target": "Kings Kangwa",
         "weight": 7,
         "direction": "forward"
       },
       {
+        "source": "Lubambo Musonda",
+        "target": "Patson Daka",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kings Kangwa",
+        "target": "Fashion Sakala",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Kings Kangwa",
+        "target": "Patson Daka",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Fashion Sakala",
         "target": "Kings Kangwa",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Patson Daka",
+        "target": "Kings Kangwa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Patson Daka",
+        "target": "Lubambo Musonda",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

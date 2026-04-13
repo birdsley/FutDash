@@ -819,31 +819,41 @@
   "network_home": {
     "nodes": [
       {
+        "id": "Simon Charlton",
+        "short": "Charlton",
+        "x": 43.5,
+        "y": 25.32,
+        "size": 101.9,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Ricardo Wayne Gardner",
         "short": "Gardner",
         "x": 57.22,
         "y": 11.39,
-        "size": 181.8,
+        "size": 120.3,
         "is_playmaker": true,
-        "betweenness": 0.0,
+        "betweenness": 0.1333,
         "eigenvector": 0.0
       },
       {
         "id": "Youri Djorkaeff",
         "short": "Djorkaeff",
-        "x": 76.59,
-        "y": 36.02,
-        "size": 147.7,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0012
+        "x": 75.74,
+        "y": 36.85,
+        "size": 126.4,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.5967
       },
       {
         "id": "Jussi Jääskeläinen",
         "short": "Jääskeläine",
-        "x": 13.22,
-        "y": 41.01,
-        "size": 89.1,
+        "x": 13.27,
+        "y": 40.15,
+        "size": 69.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -851,49 +861,39 @@
       {
         "id": "Kevin Cyril Davies",
         "short": "Davies",
-        "x": 77.52,
-        "y": 34.76,
-        "size": 89.1,
+        "x": 77.93,
+        "y": 35.21,
+        "size": 104.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0008
-      },
-      {
-        "id": "Simon Charlton",
-        "short": "Charlton",
-        "x": 43.5,
-        "y": 25.32,
-        "size": 89.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0008
+        "betweenness": 0.0556,
+        "eigenvector": 0.2913
       },
       {
         "id": "Augustine Azuka \"Jay-Jay\" Okocha",
         "short": "Okocha",
-        "x": 74.81,
-        "y": 31.77,
-        "size": 133.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "Émerson Augusto Thome",
-        "short": "Thome",
-        "x": 34.05,
-        "y": 54.09,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 76.14,
+        "y": 31.16,
+        "size": 140.7,
+        "is_playmaker": true,
+        "betweenness": 0.2778,
+        "eigenvector": 0.6164
       },
       {
         "id": "Iván Campo Ramos",
         "short": "Ramos",
         "x": 58.64,
         "y": 41.37,
-        "size": 55.0,
+        "size": 65.2,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Émerson Augusto Thome",
+        "short": "Thome",
+        "x": 34.05,
+        "y": 54.09,
+        "size": 65.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -903,53 +903,45 @@
         "short": "Nolan",
         "x": 66.3,
         "y": 45.53,
-        "size": 55.0,
+        "size": 79.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nicky Hunt",
-        "short": "Hunt",
-        "x": 65.08,
-        "y": 73.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1056,
+        "eigenvector": 0.2966
       },
       {
         "id": "Per Frandsen",
         "short": "Frandsen",
-        "x": 61.06,
-        "y": 52.87,
-        "size": 55.0,
+        "x": 61.62,
+        "y": 54.23,
+        "size": 69.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0389,
+        "eigenvector": 0.2966
       },
       {
-        "id": "Henrik Pedersen",
-        "short": "Pedersen",
-        "x": 55.54,
-        "y": 48.38,
-        "size": 55.0,
+        "id": "Nicky Hunt",
+        "short": "Hunt",
+        "x": 66.05,
+        "y": 73.91,
+        "size": 63.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ibrahim Ba",
-        "short": "Ba",
-        "x": 90.5,
-        "y": 27.7,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0556,
+        "eigenvector": 0.0561
       }
     ],
     "edges": [
+      {
+        "source": "Simon Charlton",
+        "target": "Ricardo Wayne Gardner",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Simon Charlton",
+        "target": "Iván Campo Ramos",
+        "weight": 5,
+        "direction": "forward"
+      },
       {
         "source": "Ricardo Wayne Gardner",
         "target": "Youri Djorkaeff",
@@ -979,6 +971,78 @@
         "target": "Kevin Cyril Davies",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Kevin Cyril Davies",
+        "target": "Youri Djorkaeff",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kevin Cyril Davies",
+        "target": "Augustine Azuka \"Jay-Jay\" Okocha",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Augustine Azuka \"Jay-Jay\" Okocha",
+        "target": "Kevin Cyril Davies",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Augustine Azuka \"Jay-Jay\" Okocha",
+        "target": "Kevin Nolan",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Augustine Azuka \"Jay-Jay\" Okocha",
+        "target": "Per Frandsen",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Augustine Azuka \"Jay-Jay\" Okocha",
+        "target": "Youri Djorkaeff",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Émerson Augusto Thome",
+        "target": "Simon Charlton",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Kevin Nolan",
+        "target": "Youri Djorkaeff",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Kevin Nolan",
+        "target": "Nicky Hunt",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Per Frandsen",
+        "target": "Nicky Hunt",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Nicky Hunt",
+        "target": "Per Frandsen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Nicky Hunt",
+        "target": "Kevin Nolan",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -987,61 +1051,71 @@
       {
         "id": "Kolo Habib Touré",
         "short": "Touré",
-        "x": 68.35,
-        "y": 70.27,
-        "size": 110.8,
+        "x": 68.82,
+        "y": 70.51,
+        "size": 100.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.0139
       },
       {
         "id": "Fredrik Ljungberg",
         "short": "Ljungberg",
-        "x": 54.6,
-        "y": 60.99,
-        "size": 81.9,
+        "x": 55.83,
+        "y": 60.87,
+        "size": 77.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0106
       },
       {
         "id": "Gaël Clichy",
         "short": "Clichy",
         "x": 74.46,
         "y": 8.02,
-        "size": 145.4,
-        "is_playmaker": true,
-        "betweenness": 0.0091,
-        "eigenvector": 0.3031
+        "size": 127.1,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.3116
       },
       {
         "id": "Patrick Vieira",
         "short": "Vieira",
-        "x": 63.33,
-        "y": 25.94,
-        "size": 137.7,
+        "x": 64.46,
+        "y": 24.57,
+        "size": 117.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.514
+        "betweenness": 0.0778,
+        "eigenvector": 0.6312
       },
       {
         "id": "Robert Pirès",
         "short": "Pirès",
         "x": 53.47,
         "y": 22.74,
-        "size": 112.7,
-        "is_playmaker": true,
-        "betweenness": 0.0182,
-        "eigenvector": 0.6558
+        "size": 108.5,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.6178
       },
       {
         "id": "Gilberto Aparecido da Silva",
         "short": "Silva",
-        "x": 63.5,
-        "y": 48.78,
-        "size": 83.8,
+        "x": 65.56,
+        "y": 47.91,
+        "size": 96.9,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0505
+      },
+      {
+        "id": "Jens Lehmann",
+        "short": "Lehmann",
+        "x": 109.68,
+        "y": 40.17,
+        "size": 72.4,
         "is_playmaker": false,
-        "betweenness": 0.0091,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
@@ -1049,60 +1123,40 @@
         "short": "Henry",
         "x": 47.64,
         "y": 34.27,
-        "size": 85.8,
+        "size": 79.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4351
-      },
-      {
-        "id": "Pascal Cygan",
-        "short": "Cygan",
-        "x": 77.91,
-        "y": 28.68,
-        "size": 68.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1564
+        "eigenvector": 0.3104
       },
       {
         "id": "Sulzeer Jeremiah ''Sol' Campbell",
         "short": "Campbell",
-        "x": 85.38,
-        "y": 50.25,
-        "size": 68.5,
+        "x": 85.4,
+        "y": 49.8,
+        "size": 70.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.0194
+      },
+      {
+        "id": "Pascal Cygan",
+        "short": "Cygan",
+        "x": 78.24,
+        "y": 28.78,
+        "size": 94.5,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.1261
       },
       {
         "id": "Dennis Bergkamp",
         "short": "Bergkamp",
         "x": 47.22,
         "y": 36.89,
-        "size": 55.0,
+        "size": 60.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jens Lehmann",
-        "short": "Lehmann",
-        "x": 109.68,
-        "y": 40.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ray Parlour",
-        "short": "Parlour",
-        "x": 43.41,
-        "y": 61.99,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0855
       }
     ],
     "edges": [
@@ -1116,13 +1170,19 @@
         "source": "Kolo Habib Touré",
         "target": "Gilberto Aparecido da Silva",
         "weight": 8,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Kolo Habib Touré",
         "target": "Thierry Henry",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Fredrik Ljungberg",
+        "target": "Gilberto Aparecido da Silva",
+        "weight": 5,
+        "direction": "forward"
       },
       {
         "source": "Gaël Clichy",
@@ -1143,6 +1203,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Gaël Clichy",
+        "target": "Dennis Bergkamp",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Patrick Vieira",
         "target": "Robert Pirès",
         "weight": 12,
@@ -1156,8 +1222,26 @@
       },
       {
         "source": "Robert Pirès",
+        "target": "Patrick Vieira",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Pirès",
         "target": "Thierry Henry",
         "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Gilberto Aparecido da Silva",
+        "target": "Kolo Habib Touré",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gilberto Aparecido da Silva",
+        "target": "Robert Pirès",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1165,6 +1249,54 @@
         "target": "Sulzeer Jeremiah ''Sol' Campbell",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Gaël Clichy",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Thierry Henry",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Kolo Habib Touré",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sulzeer Jeremiah ''Sol' Campbell",
+        "target": "Pascal Cygan",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Pascal Cygan",
+        "target": "Gaël Clichy",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pascal Cygan",
+        "target": "Gilberto Aparecido da Silva",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Pascal Cygan",
+        "target": "Robert Pirès",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Pascal Cygan",
+        "target": "Patrick Vieira",
+        "weight": 5,
+        "direction": "backward"
       }
     ]
   },

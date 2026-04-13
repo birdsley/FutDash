@@ -775,97 +775,97 @@
         "short": "Silva",
         "x": 70.66,
         "y": 69.31,
-        "size": 105.0,
+        "size": 99.1,
         "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.572
+        "betweenness": 0.0,
+        "eigenvector": 0.4639
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 86.56,
-        "y": 59.25,
-        "size": 101.1,
+        "x": 86.48,
+        "y": 58.71,
+        "size": 101.4,
         "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.6945
+        "betweenness": 0.0111,
+        "eigenvector": 0.56
       },
       {
         "id": "José Martín Cáceres Silva",
         "short": "Silva",
-        "x": 45.01,
-        "y": 32.18,
-        "size": 112.9,
+        "x": 44.73,
+        "y": 31.38,
+        "size": 111.8,
         "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.0
+        "betweenness": 0.3111,
+        "eigenvector": 0.2259
       },
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
         "x": 50.61,
         "y": 54.5,
-        "size": 85.9,
+        "size": 82.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1014
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
         "x": 70.5,
         "y": 48.4,
-        "size": 126.7,
+        "size": 136.2,
         "is_playmaker": true,
-        "betweenness": 0.1282,
-        "eigenvector": 0.4009
+        "betweenness": 0.4333,
+        "eigenvector": 0.5341
       },
       {
         "id": "Eric-Sylvain Bilal Abidal",
         "short": "Abidal",
-        "x": 58.82,
-        "y": 15.58,
-        "size": 101.7,
+        "x": 60.47,
+        "y": 15.05,
+        "size": 96.2,
         "is_playmaker": false,
-        "betweenness": 0.1154,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.1611
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 71.47,
-        "y": 26.0,
-        "size": 92.5,
+        "x": 71.03,
+        "y": 26.06,
+        "size": 94.4,
         "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.2189
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 63.72,
-        "y": 47.13,
-        "size": 82.6,
+        "x": 64.19,
+        "y": 47.73,
+        "size": 79.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1724
+        "eigenvector": 0.1865
       },
       {
         "id": "Thierry Henry",
         "short": "Henry",
-        "x": 82.88,
+        "x": 82.52,
         "y": 14.9,
-        "size": 72.1,
+        "size": 75.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1261
       },
       {
         "id": "Samuel Eto''o Fils",
         "short": "Fils",
-        "x": 83.55,
-        "y": 25.19,
-        "size": 62.2,
+        "x": 83.65,
+        "y": 26.08,
+        "size": 67.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -873,39 +873,9 @@
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
-        "x": 12.54,
-        "y": 42.98,
-        "size": 62.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Sylvio Mendes Campos Junior",
-        "short": "Junior",
-        "x": 62.07,
-        "y": 10.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Eiður Smári Guðjohnsen",
-        "short": "Guðjohnsen",
-        "x": 61.23,
-        "y": 43.9,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Víctor Sánchez Mata",
-        "short": "Mata",
-        "x": 61.97,
-        "y": 70.27,
-        "size": 55.0,
+        "x": 12.55,
+        "y": 42.92,
+        "size": 61.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -928,6 +898,12 @@
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Daniel Alves da Silva",
         "weight": 17,
+        "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Xavier Hernández Creus",
+        "weight": 10,
         "direction": "backward"
       },
       {
@@ -979,6 +955,18 @@
         "direction": "backward"
       },
       {
+        "source": "Xavier Hernández Creus",
+        "target": "Andrés Iniesta Luján",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Xavier Hernández Creus",
+        "target": "José Martín Cáceres Silva",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "Andrés Iniesta Luján",
         "weight": 18,
@@ -1027,6 +1015,12 @@
         "direction": "backward"
       },
       {
+        "source": "Samuel Eto''o Fils",
+        "target": "Thierry Henry",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
         "source": "Víctor Valdés Arribas",
         "target": "José Martín Cáceres Silva",
         "weight": 11,
@@ -1037,152 +1031,260 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Diego Castro Giménez",
-        "short": "Giménez",
-        "x": 58.61,
-        "y": 21.62,
-        "size": 255.0,
+        "id": "David Barral Torres",
+        "short": "Torres",
+        "x": 53.86,
+        "y": 41.94,
+        "size": 144.2,
         "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.2222,
+        "eigenvector": 0.544
       },
       {
         "id": "Carmelo José González Jiménez",
         "short": "Jiménez",
         "x": 66.68,
         "y": 34.93,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
-      },
-      {
-        "id": "David Barral Torres",
-        "short": "Torres",
-        "x": 53.09,
-        "y": 40.7,
-        "size": 55.0,
+        "size": 112.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Miguel Marcos Madera",
-        "short": "Madera",
-        "x": 68.08,
-        "y": 35.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Luis Morán Sánchez",
-        "short": "Sánchez",
-        "x": 65.64,
-        "y": 56.01,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1333,
+        "eigenvector": 0.5773
       },
       {
         "id": "Sergio Matabuena Delgado",
         "short": "Delgado",
         "x": 69.84,
         "y": 48.0,
-        "size": 55.0,
+        "size": 100.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.0333,
+        "eigenvector": 0.226
       },
       {
-        "id": "Raúl Miguel Cámara",
-        "short": "Cámara",
-        "x": 68.39,
-        "y": 23.54,
-        "size": 55.0,
+        "id": "Diego Castro Giménez",
+        "short": "Giménez",
+        "x": 58.61,
+        "y": 21.62,
+        "size": 108.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.0667,
+        "eigenvector": 0.288
       },
       {
         "id": "Gerard Autet Serrabasa",
         "short": "Serrabasa",
         "x": 80.2,
         "y": 56.89,
-        "size": 55.0,
+        "size": 62.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.0
       },
       {
-        "id": "Enrique Mateo Montoya",
-        "short": "Montoya",
-        "x": 60.04,
-        "y": 22.79,
-        "size": 55.0,
+        "id": "Miguel Marcos Madera",
+        "short": "Madera",
+        "x": 68.11,
+        "y": 36.27,
+        "size": 110.4,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.4106
+      },
+      {
+        "id": "Iñaki Lafuente Sancha",
+        "short": "Sancha",
+        "x": 113.18,
+        "y": 40.83,
+        "size": 67.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.0
       },
       {
         "id": "Rafael Sastre Reus",
         "short": "Reus",
         "x": 70.55,
         "y": 73.78,
-        "size": 55.0,
+        "size": 76.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.0
       },
       {
-        "id": "Iñaki Lafuente Sancha",
-        "short": "Sancha",
-        "x": 112.46,
-        "y": 42.11,
-        "size": 55.0,
+        "id": "Luis Morán Sánchez",
+        "short": "Sánchez",
+        "x": 64.78,
+        "y": 55.74,
+        "size": 96.0,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.2399
+      },
+      {
+        "id": "Raúl Miguel Cámara",
+        "short": "Cámara",
+        "x": 65.19,
+        "y": 9.67,
+        "size": 62.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.0
       },
       {
         "id": "Iván Hernández Soto",
         "short": "Soto",
-        "x": 76.71,
-        "y": 32.19,
-        "size": 55.0,
+        "x": 80.83,
+        "y": 32.07,
+        "size": 64.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Mate Bilić",
-        "short": "Bilić",
-        "x": 63.53,
-        "y": 51.38,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "José Ángel Valdés Díaz",
-        "short": "Díaz",
-        "x": 83.35,
-        "y": 11.97,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1333,
+        "eigenvector": 0.1026
       }
     ],
     "edges": [
+      {
+        "source": "David Barral Torres",
+        "target": "Carmelo José González Jiménez",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "David Barral Torres",
+        "target": "Sergio Matabuena Delgado",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "David Barral Torres",
+        "target": "Luis Morán Sánchez",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Carmelo José González Jiménez",
+        "target": "Miguel Marcos Madera",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Carmelo José González Jiménez",
+        "target": "David Barral Torres",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Carmelo José González Jiménez",
+        "target": "Iván Hernández Soto",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Matabuena Delgado",
+        "target": "Diego Castro Giménez",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Matabuena Delgado",
+        "target": "David Barral Torres",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Matabuena Delgado",
+        "target": "Luis Morán Sánchez",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Matabuena Delgado",
+        "target": "Miguel Marcos Madera",
+        "weight": 3,
+        "direction": "lateral"
+      },
       {
         "source": "Diego Castro Giménez",
         "target": "Carmelo José González Jiménez",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Diego Castro Giménez",
+        "target": "Miguel Marcos Madera",
+        "weight": 3,
+        "direction": "forward"
+      },
+      {
+        "source": "Gerard Autet Serrabasa",
+        "target": "Miguel Marcos Madera",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Miguel Marcos Madera",
+        "target": "Diego Castro Giménez",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Miguel Marcos Madera",
+        "target": "David Barral Torres",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Miguel Marcos Madera",
+        "target": "Iván Hernández Soto",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Iñaki Lafuente Sancha",
+        "target": "David Barral Torres",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Rafael Sastre Reus",
+        "target": "David Barral Torres",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Rafael Sastre Reus",
+        "target": "Luis Morán Sánchez",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Morán Sánchez",
+        "target": "Carmelo José González Jiménez",
+        "weight": 3,
+        "direction": "lateral"
+      },
+      {
+        "source": "Luis Morán Sánchez",
+        "target": "David Barral Torres",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Raúl Miguel Cámara",
+        "target": "Diego Castro Giménez",
+        "weight": 3,
+        "direction": "backward"
+      },
+      {
+        "source": "Iván Hernández Soto",
+        "target": "Miguel Marcos Madera",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Iván Hernández Soto",
+        "target": "Carmelo José González Jiménez",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

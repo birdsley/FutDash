@@ -799,130 +799,110 @@
         "short": "Milito",
         "x": 36.9,
         "y": 19.19,
-        "size": 119.8,
+        "size": 112.3,
         "is_playmaker": true,
-        "betweenness": 0.1212,
-        "eigenvector": 0.2105
+        "betweenness": 0.3389,
+        "eigenvector": 0.1808
       },
       {
         "id": "Eric-Sylvain Bilal Abidal",
         "short": "Abidal",
         "x": 57.29,
         "y": 8.05,
-        "size": 97.7,
+        "size": 91.9,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.1224
+        "betweenness": 0.0,
+        "eigenvector": 0.0934
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 61.35,
-        "y": 45.81,
-        "size": 134.1,
-        "is_playmaker": true,
-        "betweenness": 0.1515,
-        "eigenvector": 0.613
+        "x": 61.12,
+        "y": 45.51,
+        "size": 128.7,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.5565
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 75.85,
-        "y": 58.21,
-        "size": 96.9,
+        "x": 75.05,
+        "y": 57.81,
+        "size": 96.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4734
+        "eigenvector": 0.4184
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 53.76,
-        "y": 42.42,
-        "size": 104.0,
+        "x": 53.59,
+        "y": 42.45,
+        "size": 102.8,
         "is_playmaker": false,
-        "betweenness": 0.1061,
-        "eigenvector": 0.2376
+        "betweenness": 0.2222,
+        "eigenvector": 0.305
       },
       {
         "id": "Anderson Luís de Souza",
         "short": "Souza",
-        "x": 65.54,
-        "y": 31.19,
-        "size": 108.8,
-        "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.4406
+        "x": 64.98,
+        "y": 31.07,
+        "size": 119.2,
+        "is_playmaker": true,
+        "betweenness": 0.45,
+        "eigenvector": 0.516
       },
       {
         "id": "Oleguer Presas Renom",
         "short": "Renom",
         "x": 57.74,
         "y": 74.73,
-        "size": 81.1,
+        "size": 77.5,
         "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.2574
+        "betweenness": 0.0111,
+        "eigenvector": 0.2076
       },
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
         "x": 37.86,
         "y": 54.4,
-        "size": 89.8,
+        "size": 86.4,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.1497
+        "betweenness": 0.0833,
+        "eigenvector": 0.1109
       },
       {
         "id": "Ronaldo de Assis Moreira",
         "short": "Moreira",
         "x": 75.24,
         "y": 27.73,
-        "size": 62.9,
+        "size": 74.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0395
-      },
-      {
-        "id": "Thierry Henry",
-        "short": "Henry",
-        "x": 87.38,
-        "y": 20.91,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1222,
+        "eigenvector": 0.242
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
         "x": 10.24,
         "y": 38.88,
-        "size": 55.0,
+        "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1889,
+        "eigenvector": 0.0084
       },
       {
-        "id": "Giovani dos Santos Ramírez",
-        "short": "Ramírez",
-        "x": 81.67,
-        "y": 24.68,
-        "size": 55.0,
+        "id": "Thierry Henry",
+        "short": "Henry",
+        "x": 87.38,
+        "y": 20.91,
+        "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Bojan Krkíc Pérez",
-        "short": "Pérez",
-        "x": 80.88,
-        "y": 52.42,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2778,
+        "eigenvector": 0.0218
       }
     ],
     "edges": [
@@ -943,6 +923,12 @@
         "target": "Carles Puyol i Saforcada",
         "weight": 11,
         "direction": "lateral"
+      },
+      {
+        "source": "Gabriel Alejandro Milito",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
@@ -981,6 +967,12 @@
         "direction": "backward"
       },
       {
+        "source": "Xavier Hernández Creus",
+        "target": "Anderson Luís de Souza",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Anderson Luís de Souza",
         "weight": 15,
@@ -991,6 +983,12 @@
         "target": "Xavier Hernández Creus",
         "weight": 11,
         "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Ronaldo de Assis Moreira",
+        "weight": 8,
+        "direction": "lateral"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1014,12 +1012,30 @@
         "source": "Anderson Luís de Souza",
         "target": "Xavier Hernández Creus",
         "weight": 13,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Anderson Luís de Souza",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Anderson Luís de Souza",
+        "target": "Ronaldo de Assis Moreira",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Anderson Luís de Souza",
+        "target": "Andrés Iniesta Luján",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Anderson Luís de Souza",
+        "target": "Thierry Henry",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1045,153 +1061,189 @@
         "target": "Xavier Hernández Creus",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Carles Puyol i Saforcada",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ronaldo de Assis Moreira",
+        "target": "Thierry Henry",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Carles Puyol i Saforcada",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gabriel Alejandro Milito",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Thierry Henry",
+        "target": "Ronaldo de Assis Moreira",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Thierry Henry",
+        "target": "Anderson Luís de Souza",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Nuno Ricardo de Oliveira Ribeiro",
-        "short": "Ribeiro",
-        "x": 60.73,
-        "y": 40.28,
-        "size": 183.8,
-        "is_playmaker": true,
-        "betweenness": 0.0064,
-        "eigenvector": 0.7559
-      },
-      {
         "id": "Raúl García Escudero",
         "short": "Escudero",
-        "x": 58.17,
-        "y": 31.82,
-        "size": 183.8,
+        "x": 57.16,
+        "y": 33.59,
+        "size": 142.0,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.4866
+      },
+      {
+        "id": "Nuno Ricardo de Oliveira Ribeiro",
+        "short": "Ribeiro",
+        "x": 59.92,
+        "y": 38.78,
+        "size": 140.9,
         "is_playmaker": true,
-        "betweenness": 0.0064,
-        "eigenvector": 0.6547
+        "betweenness": 0.2778,
+        "eigenvector": 0.5463
       },
       {
         "id": "Mariano Andrés Pernía",
         "short": "Pernía",
-        "x": 58.62,
-        "y": 9.1,
-        "size": 126.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 58.93,
+        "y": 9.32,
+        "size": 117.1,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.4122
       },
       {
         "id": "Simão Pedro Fonseca Sabrosa",
         "short": "Sabrosa",
-        "x": 42.78,
-        "y": 15.31,
-        "size": 92.3,
+        "x": 42.46,
+        "y": 14.97,
+        "size": 102.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.4033
       },
       {
         "id": "Giorgios Seitaridis",
         "short": "Seitaridis",
-        "x": 67.2,
-        "y": 70.5,
-        "size": 88.9,
+        "x": 65.78,
+        "y": 70.72,
+        "size": 102.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pablo Ibáñez Tébar",
-        "short": "Tébar",
-        "x": 77.83,
-        "y": 48.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "José Antonio Reyes Calderón",
-        "short": "Calderón",
-        "x": 50.97,
-        "y": 46.34,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.2717
       },
       {
         "id": "Diego Forlán Corazo",
         "short": "Corazo",
-        "x": 49.8,
-        "y": 39.65,
-        "size": 55.0,
+        "x": 50.65,
+        "y": 39.62,
+        "size": 68.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.1735
       },
       {
-        "id": "Maximiliano Rubén Rodríguez",
-        "short": "Rodríguez",
-        "x": 52.75,
-        "y": 56.68,
-        "size": 55.0,
+        "id": "Pablo Ibáñez Tébar",
+        "short": "Tébar",
+        "x": 78.67,
+        "y": 49.07,
+        "size": 77.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0614
       },
       {
-        "id": "Sergio Leonel Agüero del Castillo",
-        "short": "Castillo",
-        "x": 37.73,
-        "y": 33.49,
-        "size": 55.0,
+        "id": "José Antonio Reyes Calderón",
+        "short": "Calderón",
+        "x": 49.77,
+        "y": 45.62,
+        "size": 73.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Christian Abbiati",
-        "short": "Abbiati",
-        "x": 106.89,
-        "y": 43.73,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Fabiano Eler dos Santos",
-        "short": "Santos",
-        "x": 77.88,
-        "y": 26.87,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.1429
       },
       {
         "id": "José Eduardo Rosa Vale de Castro",
         "short": "Castro",
         "x": 77.66,
         "y": 23.86,
-        "size": 55.0,
+        "size": 61.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.0621
       },
       {
-        "id": "Luis Javier García Sanz",
-        "short": "Sanz",
-        "x": 59.05,
-        "y": 44.17,
-        "size": 55.0,
+        "id": "Sergio Leonel Agüero del Castillo",
+        "short": "Castillo",
+        "x": 37.73,
+        "y": 33.49,
+        "size": 59.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1667,
+        "eigenvector": 0.0119
+      },
+      {
+        "id": "Christian Abbiati",
+        "short": "Abbiati",
+        "x": 106.35,
+        "y": 43.48,
+        "size": 59.5,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0046
       }
     ],
     "edges": [
+      {
+        "source": "Raúl García Escudero",
+        "target": "Nuno Ricardo de Oliveira Ribeiro",
+        "weight": 16,
+        "direction": "lateral"
+      },
+      {
+        "source": "Raúl García Escudero",
+        "target": "Mariano Andrés Pernía",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Raúl García Escudero",
+        "target": "Giorgios Seitaridis",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Raúl García Escudero",
+        "target": "Simão Pedro Fonseca Sabrosa",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Raúl García Escudero",
+        "target": "José Antonio Reyes Calderón",
+        "weight": 5,
+        "direction": "backward"
+      },
       {
         "source": "Nuno Ricardo de Oliveira Ribeiro",
         "target": "Raúl García Escudero",
@@ -1199,10 +1251,28 @@
         "direction": "lateral"
       },
       {
-        "source": "Raúl García Escudero",
-        "target": "Nuno Ricardo de Oliveira Ribeiro",
-        "weight": 16,
+        "source": "Nuno Ricardo de Oliveira Ribeiro",
+        "target": "Giorgios Seitaridis",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Nuno Ricardo de Oliveira Ribeiro",
+        "target": "Mariano Andrés Pernía",
+        "weight": 6,
         "direction": "lateral"
+      },
+      {
+        "source": "Nuno Ricardo de Oliveira Ribeiro",
+        "target": "Simão Pedro Fonseca Sabrosa",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Nuno Ricardo de Oliveira Ribeiro",
+        "target": "Diego Forlán Corazo",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "Mariano Andrés Pernía",
@@ -1217,9 +1287,123 @@
         "direction": "lateral"
       },
       {
+        "source": "Mariano Andrés Pernía",
+        "target": "José Eduardo Rosa Vale de Castro",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Mariano Andrés Pernía",
+        "target": "Nuno Ricardo de Oliveira Ribeiro",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Simão Pedro Fonseca Sabrosa",
+        "target": "Mariano Andrés Pernía",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Simão Pedro Fonseca Sabrosa",
+        "target": "Diego Forlán Corazo",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Simão Pedro Fonseca Sabrosa",
+        "target": "Nuno Ricardo de Oliveira Ribeiro",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
         "source": "Giorgios Seitaridis",
         "target": "Nuno Ricardo de Oliveira Ribeiro",
         "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Giorgios Seitaridis",
+        "target": "Raúl García Escudero",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Giorgios Seitaridis",
+        "target": "Pablo Ibáñez Tébar",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Giorgios Seitaridis",
+        "target": "José Antonio Reyes Calderón",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Forlán Corazo",
+        "target": "Sergio Leonel Agüero del Castillo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pablo Ibáñez Tébar",
+        "target": "Nuno Ricardo de Oliveira Ribeiro",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Pablo Ibáñez Tébar",
+        "target": "Raúl García Escudero",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Pablo Ibáñez Tébar",
+        "target": "Christian Abbiati",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Antonio Reyes Calderón",
+        "target": "Mariano Andrés Pernía",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "José Antonio Reyes Calderón",
+        "target": "Sergio Leonel Agüero del Castillo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Eduardo Rosa Vale de Castro",
+        "target": "Christian Abbiati",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Leonel Agüero del Castillo",
+        "target": "Diego Forlán Corazo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Leonel Agüero del Castillo",
+        "target": "José Antonio Reyes Calderón",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Christian Abbiati",
+        "target": "Pablo Ibáñez Tébar",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Christian Abbiati",
+        "target": "José Eduardo Rosa Vale de Castro",
+        "weight": 1,
         "direction": "backward"
       }
     ]

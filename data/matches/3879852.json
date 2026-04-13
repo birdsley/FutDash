@@ -713,111 +713,101 @@
       {
         "id": "Enzo Maresca",
         "short": "Maresca",
-        "x": 59.44,
-        "y": 33.36,
-        "size": 142.3,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.0001
+        "x": 59.83,
+        "y": 33.38,
+        "size": 123.8,
+        "is_playmaker": false,
+        "betweenness": 0.0944,
+        "eigenvector": 0.1673
       },
       {
         "id": "Franco Damián Vázquez",
         "short": "Vázquez",
-        "x": 66.53,
-        "y": 47.0,
-        "size": 145.9,
-        "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.7071
+        "x": 65.97,
+        "y": 49.09,
+        "size": 109.7,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.6971
       },
       {
         "id": "Andrea Rispoli",
         "short": "Rispoli",
         "x": 63.56,
         "y": 72.56,
-        "size": 113.2,
+        "size": 89.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.7071
+        "eigenvector": 0.5868
       },
       {
         "id": "Michel Morganella",
         "short": "Morganella",
-        "x": 67.5,
-        "y": 12.05,
-        "size": 138.6,
-        "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0001
+        "x": 65.48,
+        "y": 11.69,
+        "size": 122.2,
+        "is_playmaker": true,
+        "betweenness": 0.2167,
+        "eigenvector": 0.2193
       },
       {
         "id": "Stefano Sorrentino",
         "short": "Sorrentino",
-        "x": 13.01,
-        "y": 41.92,
-        "size": 80.5,
+        "x": 13.06,
+        "y": 41.62,
+        "size": 75.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0611,
         "eigenvector": 0.0
       },
       {
         "id": "Alberto Gilardino",
         "short": "Gilardino",
-        "x": 71.08,
-        "y": 41.46,
-        "size": 80.5,
+        "x": 73.35,
+        "y": 42.94,
+        "size": 90.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Robin Quaison",
-        "short": "Quaison",
-        "x": 94.38,
-        "y": 15.97,
-        "size": 84.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0001
-      },
-      {
-        "id": "Oscar Hiljemark",
-        "short": "Hiljemark",
-        "x": 60.25,
-        "y": 49.36,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0167,
+        "eigenvector": 0.2058
       },
       {
         "id": "Aleksandar Trajkovski",
         "short": "Trajkovski",
         "x": 70.53,
         "y": 23.7,
-        "size": 55.0,
+        "size": 76.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.2032
       },
       {
         "id": "Thiago Rangel Cionek",
         "short": "Cionek",
         "x": 49.96,
         "y": 60.36,
-        "size": 55.0,
+        "size": 84.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.0937
+      },
+      {
+        "id": "Oscar Hiljemark",
+        "short": "Hiljemark",
+        "x": 60.25,
+        "y": 49.36,
+        "size": 98.8,
+        "is_playmaker": true,
+        "betweenness": 0.1111,
+        "eigenvector": 0.0358
       },
       {
         "id": "Siniša Anđelković",
         "short": "Anđelković",
         "x": 35.3,
         "y": 25.72,
-        "size": 55.0,
+        "size": 72.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0722,
         "eigenvector": 0.0
       },
       {
@@ -825,19 +815,9 @@
         "short": "Vitiello",
         "x": 34.53,
         "y": 41.59,
-        "size": 55.0,
+        "size": 61.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mato Jajalo",
-        "short": "Jajalo",
-        "x": 37.33,
-        "y": 39.24,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0667,
         "eigenvector": 0.0
       }
     ],
@@ -855,6 +835,18 @@
         "direction": "forward"
       },
       {
+        "source": "Enzo Maresca",
+        "target": "Alberto Gilardino",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Enzo Maresca",
+        "target": "Thiago Rangel Cionek",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Franco Damián Vázquez",
         "target": "Andrea Rispoli",
         "weight": 8,
@@ -868,21 +860,123 @@
       },
       {
         "source": "Michel Morganella",
+        "target": "Alberto Gilardino",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Michel Morganella",
         "target": "Enzo Maresca",
         "weight": 7,
         "direction": "backward"
       },
       {
         "source": "Michel Morganella",
-        "target": "Robin Quaison",
-        "weight": 8,
+        "target": "Aleksandar Trajkovski",
+        "weight": 5,
         "direction": "forward"
+      },
+      {
+        "source": "Michel Morganella",
+        "target": "Franco Damián Vázquez",
+        "weight": 4,
+        "direction": "lateral"
       },
       {
         "source": "Stefano Sorrentino",
         "target": "Alberto Gilardino",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Stefano Sorrentino",
+        "target": "Oscar Hiljemark",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Stefano Sorrentino",
+        "target": "Roberto Vitiello",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alberto Gilardino",
+        "target": "Aleksandar Trajkovski",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Aleksandar Trajkovski",
+        "target": "Michel Morganella",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Thiago Rangel Cionek",
+        "target": "Andrea Rispoli",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Thiago Rangel Cionek",
+        "target": "Oscar Hiljemark",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Oscar Hiljemark",
+        "target": "Thiago Rangel Cionek",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Oscar Hiljemark",
+        "target": "Enzo Maresca",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Oscar Hiljemark",
+        "target": "Franco Damián Vázquez",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Oscar Hiljemark",
+        "target": "Michel Morganella",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Siniša Anđelković",
+        "target": "Michel Morganella",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Siniša Anđelković",
+        "target": "Enzo Maresca",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Siniša Anđelković",
+        "target": "Roberto Vitiello",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roberto Vitiello",
+        "target": "Siniša Anđelković",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Roberto Vitiello",
+        "target": "Stefano Sorrentino",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -891,151 +985,115 @@
       {
         "id": "Milan Škriniar",
         "short": "Škriniar",
-        "x": 72.7,
-        "y": 20.63,
-        "size": 145.6,
+        "x": 73.02,
+        "y": 19.98,
+        "size": 125.8,
         "is_playmaker": true,
-        "betweenness": 0.0288,
-        "eigenvector": 0.345
-      },
-      {
-        "id": "Roberto Soriano",
-        "short": "Soriano",
-        "x": 48.69,
-        "y": 19.51,
-        "size": 128.5,
-        "is_playmaker": false,
-        "betweenness": 0.0032,
-        "eigenvector": 0.4558
-      },
-      {
-        "id": "Nenad Krstičić",
-        "short": "Krstičić",
-        "x": 59.49,
-        "y": 26.73,
-        "size": 179.8,
-        "is_playmaker": true,
-        "betweenness": 0.0641,
-        "eigenvector": 0.6105
-      },
-      {
-        "id": "Andrea Ranocchia",
-        "short": "Ranocchia",
-        "x": 78.32,
-        "y": 41.01,
-        "size": 87.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2401
+        "betweenness": 0.2333,
+        "eigenvector": 0.3053
       },
       {
         "id": "José Rodolfo Pires Ribeiro",
         "short": "Ribeiro",
-        "x": 52.98,
-        "y": 12.05,
-        "size": 118.2,
+        "x": 53.73,
+        "y": 12.21,
+        "size": 98.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4302
+        "eigenvector": 0.4876
+      },
+      {
+        "id": "Nenad Krstičić",
+        "short": "Krstičić",
+        "x": 59.21,
+        "y": 27.02,
+        "size": 145.0,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.5532
+      },
+      {
+        "id": "Roberto Soriano",
+        "short": "Soriano",
+        "x": 48.51,
+        "y": 18.87,
+        "size": 96.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3612
+      },
+      {
+        "id": "Andrea Ranocchia",
+        "short": "Ranocchia",
+        "x": 78.41,
+        "y": 40.74,
+        "size": 100.9,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.2855
       },
       {
         "id": "Ricardo Gabriel Álvarez",
         "short": "Álvarez",
-        "x": 46.76,
-        "y": 44.57,
-        "size": 70.4,
+        "x": 45.22,
+        "y": 46.1,
+        "size": 77.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2401
-      },
-      {
-        "id": "Mattia Cassani",
-        "short": "Cassani",
-        "x": 69.46,
-        "y": 57.57,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.3145
       },
       {
         "id": "Lorenzo De Silvestri",
         "short": "Silvestri",
-        "x": 53.71,
-        "y": 70.38,
-        "size": 55.0,
+        "x": 51.11,
+        "y": 71.16,
+        "size": 76.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Fabio Quagliarella",
-        "short": "Quagliarell",
-        "x": 41.6,
-        "y": 33.45,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.046
       },
       {
         "id": "Fernando Lucas Martins",
         "short": "Martins",
         "x": 51.88,
         "y": 45.77,
-        "size": 55.0,
+        "size": 69.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0333,
+        "eigenvector": 0.0142
       },
       {
-        "id": "Luis Fernando Muriel Fruto",
-        "short": "Fruto",
-        "x": 41.97,
-        "y": 37.1,
-        "size": 55.0,
+        "id": "Mattia Cassani",
+        "short": "Cassani",
+        "x": 68.4,
+        "y": 59.29,
+        "size": 95.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2333,
+        "eigenvector": 0.1708
       },
       {
         "id": "Emiliano Viviano",
         "short": "Viviano",
-        "x": 106.33,
-        "y": 38.21,
-        "size": 55.0,
+        "x": 105.98,
+        "y": 37.9,
+        "size": 60.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0659
       },
       {
-        "id": "Antonio Cassano",
-        "short": "Cassano",
-        "x": 45.64,
-        "y": 36.16,
-        "size": 55.0,
+        "id": "Fabio Quagliarella",
+        "short": "Quagliarell",
+        "x": 43.01,
+        "y": 30.91,
+        "size": 60.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jacopo Sala",
-        "short": "Sala",
-        "x": 45.18,
-        "y": 51.9,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1277
       }
     ],
     "edges": [
-      {
-        "source": "Milan Škriniar",
-        "target": "Roberto Soriano",
-        "weight": 9,
-        "direction": "backward"
-      },
       {
         "source": "Milan Škriniar",
         "target": "José Rodolfo Pires Ribeiro",
@@ -1049,16 +1107,34 @@
         "direction": "backward"
       },
       {
-        "source": "Roberto Soriano",
-        "target": "Nenad Krstičić",
-        "weight": 11,
+        "source": "Milan Škriniar",
+        "target": "Roberto Soriano",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Milan Škriniar",
+        "target": "Andrea Ranocchia",
+        "weight": 8,
         "direction": "forward"
       },
       {
-        "source": "Roberto Soriano",
-        "target": "José Rodolfo Pires Ribeiro",
-        "weight": 11,
+        "source": "Milan Škriniar",
+        "target": "Mattia Cassani",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "José Rodolfo Pires Ribeiro",
+        "target": "Nenad Krstičić",
+        "weight": 12,
         "direction": "forward"
+      },
+      {
+        "source": "Nenad Krstičić",
+        "target": "Roberto Soriano",
+        "weight": 12,
+        "direction": "backward"
       },
       {
         "source": "Nenad Krstičić",
@@ -1080,9 +1156,27 @@
       },
       {
         "source": "Nenad Krstičić",
-        "target": "Roberto Soriano",
-        "weight": 12,
+        "target": "José Rodolfo Pires Ribeiro",
+        "weight": 8,
         "direction": "backward"
+      },
+      {
+        "source": "Nenad Krstičić",
+        "target": "Fabio Quagliarella",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Soriano",
+        "target": "Nenad Krstičić",
+        "weight": 11,
+        "direction": "forward"
+      },
+      {
+        "source": "Roberto Soriano",
+        "target": "José Rodolfo Pires Ribeiro",
+        "weight": 11,
+        "direction": "forward"
       },
       {
         "source": "Andrea Ranocchia",
@@ -1091,10 +1185,58 @@
         "direction": "backward"
       },
       {
-        "source": "José Rodolfo Pires Ribeiro",
-        "target": "Nenad Krstičić",
-        "weight": 12,
+        "source": "Andrea Ranocchia",
+        "target": "Mattia Cassani",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrea Ranocchia",
+        "target": "Ricardo Gabriel Álvarez",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrea Ranocchia",
+        "target": "Emiliano Viviano",
+        "weight": 6,
         "direction": "forward"
+      },
+      {
+        "source": "Lorenzo De Silvestri",
+        "target": "Fernando Lucas Martins",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lorenzo De Silvestri",
+        "target": "Mattia Cassani",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Fernando Lucas Martins",
+        "target": "Milan Škriniar",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Mattia Cassani",
+        "target": "Nenad Krstičić",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Mattia Cassani",
+        "target": "Ricardo Gabriel Álvarez",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Mattia Cassani",
+        "target": "Lorenzo De Silvestri",
+        "weight": 7,
+        "direction": "backward"
       }
     ]
   },

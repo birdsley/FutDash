@@ -763,7 +763,7 @@
         "short": "Cuciuffo",
         "x": 45.92,
         "y": 61.38,
-        "size": 76.1,
+        "size": 72.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -773,67 +773,67 @@
         "short": "Burruchaga",
         "x": 60.84,
         "y": 48.07,
-        "size": 123.4,
-        "is_playmaker": true,
-        "betweenness": 0.0333,
-        "eigenvector": 0.4605
+        "size": 111.3,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.4458
       },
       {
         "id": "Héctor Adolfo Enrique",
         "short": "Enrique",
         "x": 61.68,
         "y": 45.29,
-        "size": 73.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Diego Armando Maradona",
-        "short": "Maradona",
-        "x": 67.13,
-        "y": 40.68,
-        "size": 233.9,
+        "size": 96.5,
         "is_playmaker": true,
-        "betweenness": 0.1556,
-        "eigenvector": 0.752
-      },
-      {
-        "id": "Ricardo Omar Giusti",
-        "short": "Giusti",
-        "x": 51.36,
-        "y": 56.14,
-        "size": 102.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.307
+        "betweenness": 0.1444,
+        "eigenvector": 0.265
       },
       {
         "id": "Jorge Alberto Francisco Valdano Castellano",
         "short": "Castellano",
         "x": 69.33,
         "y": 51.16,
-        "size": 97.1,
+        "size": 86.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3582
+        "eigenvector": 0.3236
       },
       {
-        "id": "Julio Jorge Olarticoechea",
-        "short": "Olarticoech",
-        "x": 59.27,
-        "y": 10.64,
-        "size": 78.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "id": "Diego Armando Maradona",
+        "short": "Maradona",
+        "x": 67.22,
+        "y": 41.65,
+        "size": 169.1,
+        "is_playmaker": true,
+        "betweenness": 0.2,
+        "eigenvector": 0.6801
       },
       {
         "id": "Sergio Daniel Batista",
         "short": "Batista",
         "x": 52.38,
         "y": 33.7,
-        "size": 55.0,
+        "size": 93.5,
+        "is_playmaker": false,
+        "betweenness": 0.1389,
+        "eigenvector": 0.2756
+      },
+      {
+        "id": "Ricardo Omar Giusti",
+        "short": "Giusti",
+        "x": 51.36,
+        "y": 56.14,
+        "size": 106.9,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.2903
+      },
+      {
+        "id": "Óscar Alfredo Ruggeri Zocola",
+        "short": "Zocola",
+        "x": 34.25,
+        "y": 31.49,
+        "size": 66.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -843,27 +843,27 @@
         "short": "Barrinat",
         "x": 9.72,
         "y": 41.12,
-        "size": 55.0,
+        "size": 66.9,
+        "is_playmaker": false,
+        "betweenness": 0.0111,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Julio Jorge Olarticoechea",
+        "short": "Olarticoech",
+        "x": 59.27,
+        "y": 10.64,
+        "size": 74.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0586
       },
       {
         "id": "José Luis Brown",
         "short": "Brown",
         "x": 35.48,
         "y": 39.94,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Óscar Alfredo Ruggeri Zocola",
-        "short": "Zocola",
-        "x": 34.25,
-        "y": 31.49,
-        "size": 55.0,
+        "size": 60.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -877,6 +877,18 @@
         "direction": "forward"
       },
       {
+        "source": "José Luis Cuciuffo",
+        "target": "Ricardo Omar Giusti",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jorge Luis Burruchaga",
+        "target": "Sergio Daniel Batista",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Jorge Luis Burruchaga",
         "target": "Diego Armando Maradona",
         "weight": 9,
@@ -884,9 +896,27 @@
       },
       {
         "source": "Héctor Adolfo Enrique",
+        "target": "Jorge Alberto Francisco Valdano Castellano",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Héctor Adolfo Enrique",
         "target": "Diego Armando Maradona",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Jorge Alberto Francisco Valdano Castellano",
+        "target": "Diego Armando Maradona",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Diego Armando Maradona",
+        "target": "Sergio Daniel Batista",
+        "weight": 5,
+        "direction": "backward"
       },
       {
         "source": "Diego Armando Maradona",
@@ -907,16 +937,70 @@
         "direction": "backward"
       },
       {
+        "source": "Diego Armando Maradona",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Jorge Luis Burruchaga",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Julio Jorge Olarticoechea",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Daniel Batista",
+        "target": "Ricardo Omar Giusti",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ricardo Omar Giusti",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Ricardo Omar Giusti",
         "target": "Diego Armando Maradona",
         "weight": 12,
         "direction": "forward"
       },
       {
-        "source": "Jorge Alberto Francisco Valdano Castellano",
-        "target": "Diego Armando Maradona",
-        "weight": 9,
-        "direction": "lateral"
+        "source": "Ricardo Omar Giusti",
+        "target": "Jorge Luis Burruchaga",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Óscar Alfredo Ruggeri Zocola",
+        "target": "Neri Alberto Pumpido Barrinat",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Óscar Alfredo Ruggeri Zocola",
+        "target": "Héctor Adolfo Enrique",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Neri Alberto Pumpido Barrinat",
+        "target": "José Luis Brown",
+        "weight": 4,
+        "direction": "forward"
       },
       {
         "source": "Julio Jorge Olarticoechea",
@@ -929,161 +1013,117 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Ditmar Jakobs",
-        "short": "Jakobs",
-        "x": 68.45,
-        "y": 42.26,
-        "size": 162.1,
-        "is_playmaker": true,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4566
-      },
-      {
-        "id": "Karl-Heinz Förster",
-        "short": "Förster",
-        "x": 71.59,
-        "y": 27.29,
-        "size": 151.4,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.413
-      },
-      {
-        "id": "Hans-Peter Briegel",
-        "short": "Briegel",
-        "x": 71.37,
-        "y": 16.83,
-        "size": 80.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Andreas Brehme",
         "short": "Brehme",
-        "x": 55.33,
-        "y": 44.29,
-        "size": 158.6,
+        "x": 55.94,
+        "y": 46.16,
+        "size": 140.5,
         "is_playmaker": true,
-        "betweenness": 0.0455,
-        "eigenvector": 0.4589
+        "betweenness": 0.3444,
+        "eigenvector": 0.5266
       },
       {
         "id": "Thomas Berthold",
         "short": "Berthold",
-        "x": 60.0,
-        "y": 61.45,
-        "size": 97.9,
+        "x": 62.03,
+        "y": 62.16,
+        "size": 95.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5534
+        "eigenvector": 0.32
+      },
+      {
+        "id": "Karl-Heinz Förster",
+        "short": "Förster",
+        "x": 72.17,
+        "y": 26.72,
+        "size": 119.5,
+        "is_playmaker": false,
+        "betweenness": 0.2056,
+        "eigenvector": 0.357
+      },
+      {
+        "id": "Ditmar Jakobs",
+        "short": "Jakobs",
+        "x": 68.23,
+        "y": 41.68,
+        "size": 126.1,
+        "is_playmaker": false,
+        "betweenness": 0.0833,
+        "eigenvector": 0.4419
+      },
+      {
+        "id": "Hans-Peter Briegel",
+        "short": "Briegel",
+        "x": 72.31,
+        "y": 17.62,
+        "size": 94.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.3171
       },
       {
         "id": "Norbert Alban Eder",
         "short": "Eder",
-        "x": 66.01,
-        "y": 53.8,
-        "size": 80.0,
+        "x": 69.06,
+        "y": 51.81,
+        "size": 77.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3228
+        "eigenvector": 0.2677
       },
       {
         "id": "Lothar Matthäus",
         "short": "Matthäus",
         "x": 60.99,
         "y": 40.64,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Karl-Heinz Rummenigge",
-        "short": "Rummenigge",
-        "x": 38.69,
-        "y": 36.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Felix Magath",
-        "short": "Magath",
-        "x": 55.26,
-        "y": 28.72,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rudi Völler",
-        "short": "Völler",
-        "x": 48.21,
-        "y": 25.26,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 89.2,
+        "is_playmaker": true,
+        "betweenness": 0.2722,
+        "eigenvector": 0.2034
       },
       {
         "id": "Klaus Allofs",
         "short": "Allofs",
         "x": 40.32,
         "y": 46.52,
-        "size": 55.0,
+        "size": 61.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1333
+      },
+      {
+        "id": "Karl-Heinz Rummenigge",
+        "short": "Rummenigge",
+        "x": 40.56,
+        "y": 32.65,
+        "size": 80.0,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.2531
+      },
+      {
+        "id": "Felix Magath",
+        "short": "Magath",
+        "x": 55.26,
+        "y": 28.72,
+        "size": 60.3,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.0231
       },
       {
         "id": "Harald Anton Schumacher",
         "short": "Schumacher",
         "x": 112.0,
         "y": 36.89,
-        "size": 55.0,
+        "size": 60.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dieter Hoeneß",
-        "short": "Hoeneß",
-        "x": 50.8,
-        "y": 37.18,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.0405
       }
     ],
     "edges": [
-      {
-        "source": "Ditmar Jakobs",
-        "target": "Karl-Heinz Förster",
-        "weight": 9,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ditmar Jakobs",
-        "target": "Andreas Brehme",
-        "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Karl-Heinz Förster",
-        "target": "Ditmar Jakobs",
-        "weight": 11,
-        "direction": "lateral"
-      },
-      {
-        "source": "Hans-Peter Briegel",
-        "target": "Karl-Heinz Förster",
-        "weight": 7,
-        "direction": "lateral"
-      },
       {
         "source": "Andreas Brehme",
         "target": "Thomas Berthold",
@@ -1095,6 +1135,186 @@
         "target": "Norbert Alban Eder",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Andreas Brehme",
+        "target": "Ditmar Jakobs",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Andreas Brehme",
+        "target": "Klaus Allofs",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Andreas Brehme",
+        "target": "Karl-Heinz Rummenigge",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Thomas Berthold",
+        "target": "Ditmar Jakobs",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Thomas Berthold",
+        "target": "Norbert Alban Eder",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Thomas Berthold",
+        "target": "Karl-Heinz Rummenigge",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Thomas Berthold",
+        "target": "Andreas Brehme",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Karl-Heinz Förster",
+        "target": "Ditmar Jakobs",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Karl-Heinz Förster",
+        "target": "Andreas Brehme",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Karl-Heinz Förster",
+        "target": "Hans-Peter Briegel",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Karl-Heinz Förster",
+        "target": "Lothar Matthäus",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Karl-Heinz Förster",
+        "target": "Harald Anton Schumacher",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ditmar Jakobs",
+        "target": "Andreas Brehme",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Ditmar Jakobs",
+        "target": "Karl-Heinz Förster",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ditmar Jakobs",
+        "target": "Hans-Peter Briegel",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Ditmar Jakobs",
+        "target": "Lothar Matthäus",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ditmar Jakobs",
+        "target": "Harald Anton Schumacher",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hans-Peter Briegel",
+        "target": "Karl-Heinz Förster",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hans-Peter Briegel",
+        "target": "Karl-Heinz Rummenigge",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Norbert Alban Eder",
+        "target": "Andreas Brehme",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Lothar Matthäus",
+        "target": "Andreas Brehme",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Lothar Matthäus",
+        "target": "Hans-Peter Briegel",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Lothar Matthäus",
+        "target": "Karl-Heinz Förster",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Lothar Matthäus",
+        "target": "Felix Magath",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Karl-Heinz Rummenigge",
+        "target": "Hans-Peter Briegel",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Karl-Heinz Rummenigge",
+        "target": "Felix Magath",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Felix Magath",
+        "target": "Lothar Matthäus",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Felix Magath",
+        "target": "Karl-Heinz Rummenigge",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Harald Anton Schumacher",
+        "target": "Karl-Heinz Förster",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Harald Anton Schumacher",
+        "target": "Ditmar Jakobs",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

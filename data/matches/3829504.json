@@ -713,109 +713,99 @@
       {
         "id": "Floyd Ayité",
         "short": "Ayité",
-        "x": 77.84,
-        "y": 40.38,
-        "size": 114.3,
+        "x": 77.64,
+        "y": 40.48,
+        "size": 119.1,
         "is_playmaker": false,
-        "betweenness": 0.0136,
-        "eigenvector": 0.295
+        "betweenness": 0.1056,
+        "eigenvector": 0.5069
       },
       {
         "id": "Abdoulaye Sadio Diallo",
         "short": "Diallo",
         "x": 73.36,
         "y": 46.15,
-        "size": 134.0,
-        "is_playmaker": true,
-        "betweenness": 0.0909,
-        "eigenvector": 0.4397
-      },
-      {
-        "id": "Axel Ngando",
-        "short": "Ngando",
-        "x": 69.69,
-        "y": 57.69,
-        "size": 151.3,
-        "is_playmaker": true,
-        "betweenness": 0.0682,
-        "eigenvector": 0.6012
-      },
-      {
-        "id": "Seko Fofana",
-        "short": "Fofana",
-        "x": 57.16,
-        "y": 31.8,
-        "size": 99.4,
+        "size": 126.9,
         "is_playmaker": false,
-        "betweenness": 0.0682,
-        "eigenvector": 0.3846
-      },
-      {
-        "id": "Julian Palmieri",
-        "short": "Palmieri",
-        "x": 49.09,
-        "y": 9.37,
-        "size": 84.6,
-        "is_playmaker": false,
-        "betweenness": 0.0318,
-        "eigenvector": 0.1887
+        "betweenness": 0.1,
+        "eigenvector": 0.4634
       },
       {
         "id": "Gaël Danic",
         "short": "Danic",
         "x": 55.63,
         "y": 17.48,
-        "size": 84.6,
+        "size": 94.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2373
+        "betweenness": 0.0889,
+        "eigenvector": 0.2666
+      },
+      {
+        "id": "Julian Palmieri",
+        "short": "Palmieri",
+        "x": 50.08,
+        "y": 9.78,
+        "size": 95.6,
+        "is_playmaker": false,
+        "betweenness": 0.0389,
+        "eigenvector": 0.2044
+      },
+      {
+        "id": "Gilles Cioni",
+        "short": "Cioni",
+        "x": 54.63,
+        "y": 69.74,
+        "size": 70.6,
+        "is_playmaker": true,
+        "betweenness": 0.2111,
+        "eigenvector": 0.082
+      },
+      {
+        "id": "Axel Ngando",
+        "short": "Ngando",
+        "x": 69.69,
+        "y": 57.69,
+        "size": 115.9,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.5046
+      },
+      {
+        "id": "Seko Fofana",
+        "short": "Fofana",
+        "x": 56.23,
+        "y": 31.78,
+        "size": 101.9,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.3234
       },
       {
         "id": "Yannick Cahuzac",
         "short": "Cahuzac",
         "x": 56.91,
         "y": 50.37,
-        "size": 101.9,
+        "size": 94.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3441
-      },
-      {
-        "id": "Jean-Louis Leca",
-        "short": "Leca",
-        "x": 11.33,
-        "y": 40.85,
-        "size": 69.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gilles Cioni",
-        "short": "Cioni",
-        "x": 55.0,
-        "y": 69.52,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1778,
+        "eigenvector": 0.2218
       },
       {
         "id": "Mathieu Peybernes",
         "short": "Peybernes",
         "x": 35.8,
         "y": 31.49,
-        "size": 55.0,
+        "size": 61.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "Evaeverson Lemos da Silva Brandão",
-        "short": "Brandão",
-        "x": 91.4,
-        "y": 42.43,
-        "size": 55.0,
+        "id": "Jean-Louis Leca",
+        "short": "Leca",
+        "x": 9.73,
+        "y": 43.49,
+        "size": 64.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -825,10 +815,10 @@
         "short": "Squillaci",
         "x": 31.79,
         "y": 59.28,
-        "size": 55.0,
+        "size": 61.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.019
       }
     ],
     "edges": [
@@ -863,6 +853,60 @@
         "direction": "backward"
       },
       {
+        "source": "Abdoulaye Sadio Diallo",
+        "target": "Floyd Ayité",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Gaël Danic",
+        "target": "Julian Palmieri",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Gaël Danic",
+        "target": "Floyd Ayité",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Gaël Danic",
+        "target": "Seko Fofana",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Julian Palmieri",
+        "target": "Floyd Ayité",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Julian Palmieri",
+        "target": "Gaël Danic",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Julian Palmieri",
+        "target": "Abdoulaye Sadio Diallo",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Gilles Cioni",
+        "target": "Abdoulaye Sadio Diallo",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Gilles Cioni",
+        "target": "Sébastien Squillaci",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Axel Ngando",
         "target": "Abdoulaye Sadio Diallo",
         "weight": 6,
@@ -887,9 +931,15 @@
         "direction": "backward"
       },
       {
-        "source": "Julian Palmieri",
-        "target": "Gaël Danic",
-        "weight": 6,
+        "source": "Seko Fofana",
+        "target": "Gilles Cioni",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Yannick Cahuzac",
+        "target": "Floyd Ayité",
+        "weight": 4,
         "direction": "forward"
       },
       {
@@ -905,9 +955,33 @@
         "direction": "lateral"
       },
       {
+        "source": "Yannick Cahuzac",
+        "target": "Sébastien Squillaci",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mathieu Peybernes",
+        "target": "Seko Fofana",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
         "source": "Jean-Louis Leca",
         "target": "Abdoulaye Sadio Diallo",
         "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Sébastien Squillaci",
+        "target": "Gilles Cioni",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sébastien Squillaci",
+        "target": "Yannick Cahuzac",
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -917,142 +991,112 @@
       {
         "id": "Thiago Emiliano da Silva",
         "short": "Silva",
-        "x": 75.91,
-        "y": 54.74,
-        "size": 137.3,
-        "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.392
+        "x": 75.33,
+        "y": 54.32,
+        "size": 138.5,
+        "is_playmaker": true,
+        "betweenness": 0.3815,
+        "eigenvector": 0.4622
       },
       {
         "id": "Marcos Aoás Corrêa",
         "short": "Corrêa",
-        "x": 79.16,
-        "y": 25.91,
-        "size": 175.0,
-        "is_playmaker": true,
-        "betweenness": 0.0513,
-        "eigenvector": 0.5371
+        "x": 79.13,
+        "y": 26.24,
+        "size": 142.1,
+        "is_playmaker": false,
+        "betweenness": 0.1537,
+        "eigenvector": 0.4653
+      },
+      {
+        "id": "Maxwell Scherrer Cabelino Andrade",
+        "short": "Andrade",
+        "x": 66.5,
+        "y": 10.61,
+        "size": 97.4,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.2828
       },
       {
         "id": "Javier Matías Pastore",
         "short": "Pastore",
-        "x": 54.76,
-        "y": 47.9,
-        "size": 122.4,
+        "x": 54.86,
+        "y": 47.52,
+        "size": 109.7,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.4703
+      },
+      {
+        "id": "Adrien Rabiot",
+        "short": "Rabiot",
+        "x": 57.02,
+        "y": 38.84,
+        "size": 91.0,
         "is_playmaker": true,
-        "betweenness": 0.0513,
-        "eigenvector": 0.5109
-      },
-      {
-        "id": "Serge Aurier",
-        "short": "Aurier",
-        "x": 58.99,
-        "y": 69.69,
-        "size": 77.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2454
-      },
-      {
-        "id": "Lucas Rodrigues Moura da Silva",
-        "short": "Silva",
-        "x": 41.7,
-        "y": 61.6,
-        "size": 79.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1953
+        "betweenness": 0.3037,
+        "eigenvector": 0.3068
       },
       {
         "id": "Benjamin Stambouli",
         "short": "Stambouli",
         "x": 67.72,
         "y": 37.57,
-        "size": 68.7,
+        "size": 80.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1635
+        "eigenvector": 0.2299
       },
       {
-        "id": "Maxwell Scherrer Cabelino Andrade",
-        "short": "Andrade",
-        "x": 65.43,
-        "y": 10.57,
-        "size": 96.1,
+        "id": "Lucas Rodrigues Moura da Silva",
+        "short": "Silva",
+        "x": 41.7,
+        "y": 61.6,
+        "size": 75.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.336
+        "eigenvector": 0.1941
       },
       {
-        "id": "Adrien Rabiot",
-        "short": "Rabiot",
-        "x": 58.34,
-        "y": 41.16,
-        "size": 83.6,
+        "id": "Serge Aurier",
+        "short": "Aurier",
+        "x": 58.99,
+        "y": 69.85,
+        "size": 93.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2427
-      },
-      {
-        "id": "Zlatan Ibrahimović",
-        "short": "Ibrahimović",
-        "x": 53.41,
-        "y": 33.43,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1444,
+        "eigenvector": 0.2821
       },
       {
         "id": "Edinson Roberto Cavani Gómez",
         "short": "Gómez",
-        "x": 51.04,
-        "y": 18.69,
-        "size": 55.0,
+        "x": 50.84,
+        "y": 16.49,
+        "size": 60.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0591
       },
       {
-        "id": "Thiago Motta",
-        "short": "Motta",
-        "x": 66.69,
-        "y": 43.2,
-        "size": 55.0,
+        "id": "Zlatan Ibrahimović",
+        "short": "Ibrahimović",
+        "x": 51.94,
+        "y": 32.77,
+        "size": 57.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ezequiel Iván Lavezzi",
-        "short": "Lavezzi",
-        "x": 44.23,
-        "y": 59.21,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2667,
+        "eigenvector": 0.0203
       },
       {
         "id": "Salvatore Sirigu",
         "short": "Sirigu",
-        "x": 107.82,
-        "y": 42.29,
-        "size": 55.0,
+        "x": 106.96,
+        "y": 41.99,
+        "size": 57.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Layvin Kurzawa",
-        "short": "Kurzawa",
-        "x": 51.34,
-        "y": 12.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2463,
+        "eigenvector": 0.0242
       }
     ],
     "edges": [
@@ -1073,6 +1117,24 @@
         "target": "Benjamin Stambouli",
         "weight": 12,
         "direction": "backward"
+      },
+      {
+        "source": "Thiago Emiliano da Silva",
+        "target": "Serge Aurier",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Thiago Emiliano da Silva",
+        "target": "Adrien Rabiot",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Thiago Emiliano da Silva",
+        "target": "Salvatore Sirigu",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Marcos Aoás Corrêa",
@@ -1099,21 +1161,15 @@
         "direction": "backward"
       },
       {
-        "source": "Javier Matías Pastore",
-        "target": "Serge Aurier",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Javier Matías Pastore",
-        "target": "Lucas Rodrigues Moura da Silva",
-        "weight": 11,
+        "source": "Marcos Aoás Corrêa",
+        "target": "Benjamin Stambouli",
+        "weight": 7,
         "direction": "backward"
       },
       {
-        "source": "Lucas Rodrigues Moura da Silva",
-        "target": "Serge Aurier",
-        "weight": 10,
+        "source": "Marcos Aoás Corrêa",
+        "target": "Salvatore Sirigu",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1123,10 +1179,118 @@
         "direction": "forward"
       },
       {
+        "source": "Maxwell Scherrer Cabelino Andrade",
+        "target": "Edinson Roberto Cavani Gómez",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Maxwell Scherrer Cabelino Andrade",
+        "target": "Adrien Rabiot",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Javier Matías Pastore",
+        "target": "Lucas Rodrigues Moura da Silva",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Javier Matías Pastore",
+        "target": "Serge Aurier",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Matías Pastore",
+        "target": "Thiago Emiliano da Silva",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Matías Pastore",
+        "target": "Zlatan Ibrahimović",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Adrien Rabiot",
         "target": "Javier Matías Pastore",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Adrien Rabiot",
+        "target": "Maxwell Scherrer Cabelino Andrade",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Adrien Rabiot",
+        "target": "Zlatan Ibrahimović",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Benjamin Stambouli",
+        "target": "Thiago Emiliano da Silva",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Benjamin Stambouli",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Lucas Rodrigues Moura da Silva",
+        "target": "Serge Aurier",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Serge Aurier",
+        "target": "Thiago Emiliano da Silva",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Serge Aurier",
+        "target": "Javier Matías Pastore",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Serge Aurier",
+        "target": "Lucas Rodrigues Moura da Silva",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Zlatan Ibrahimović",
+        "target": "Adrien Rabiot",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Zlatan Ibrahimović",
+        "target": "Javier Matías Pastore",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Salvatore Sirigu",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Salvatore Sirigu",
+        "target": "Thiago Emiliano da Silva",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

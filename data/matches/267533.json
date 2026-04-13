@@ -847,120 +847,110 @@
         "short": "Bernabéu",
         "x": 47.22,
         "y": 50.23,
-        "size": 111.6,
-        "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.4019
+        "size": 110.5,
+        "is_playmaker": true,
+        "betweenness": 0.4111,
+        "eigenvector": 0.4082
       },
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 49.79,
-        "y": 27.67,
-        "size": 121.0,
+        "x": 50.35,
+        "y": 27.77,
+        "size": 113.8,
         "is_playmaker": false,
-        "betweenness": 0.0818,
-        "eigenvector": 0.5018
+        "betweenness": 0.2278,
+        "eigenvector": 0.4821
       },
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
         "x": 61.34,
         "y": 12.53,
-        "size": 107.8,
+        "size": 101.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3431
+        "eigenvector": 0.3076
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 66.94,
-        "y": 25.63,
-        "size": 109.1,
+        "x": 66.83,
+        "y": 24.57,
+        "size": 107.7,
         "is_playmaker": false,
-        "betweenness": 0.1091,
-        "eigenvector": 0.4077
+        "betweenness": 0.0889,
+        "eigenvector": 0.3733
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 69.64,
-        "y": 43.93,
-        "size": 94.6,
-        "is_playmaker": true,
-        "betweenness": 0.1182,
-        "eigenvector": 0.2729
+        "x": 69.68,
+        "y": 43.92,
+        "size": 96.2,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.3598
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 59.78,
-        "y": 38.01,
-        "size": 124.8,
+        "x": 59.63,
+        "y": 38.36,
+        "size": 122.6,
         "is_playmaker": true,
-        "betweenness": 0.2818,
-        "eigenvector": 0.3781
+        "betweenness": 0.3667,
+        "eigenvector": 0.4045
       },
       {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
-        "x": 63.82,
-        "y": 67.59,
-        "size": 77.6,
+        "x": 63.68,
+        "y": 67.31,
+        "size": 85.2,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.0544
+        "betweenness": 0.0,
+        "eigenvector": 0.0581
       },
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
         "x": 67.04,
         "y": 58.85,
-        "size": 75.1,
+        "size": 82.5,
         "is_playmaker": false,
-        "betweenness": 0.0545,
-        "eigenvector": 0.1264
+        "betweenness": 0.1333,
+        "eigenvector": 0.1413
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
         "x": 87.66,
         "y": 25.52,
-        "size": 73.2,
+        "size": 70.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2577
-      },
-      {
-        "id": "Luis Alberto Suárez Díaz",
-        "short": "Díaz",
-        "x": 77.21,
-        "y": 42.89,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2232
       },
       {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Muñoz",
         "x": 16.79,
         "y": 38.33,
-        "size": 55.0,
+        "size": 57.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3222,
+        "eigenvector": 0.0203
       },
       {
-        "id": "Arda Turan",
-        "short": "Turan",
-        "x": 69.17,
-        "y": 56.52,
-        "size": 55.0,
+        "id": "Luis Alberto Suárez Díaz",
+        "short": "Díaz",
+        "x": 77.21,
+        "y": 42.89,
+        "size": 57.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2667,
+        "eigenvector": 0.0175
       }
     ],
     "edges": [
@@ -983,6 +973,12 @@
         "direction": "forward"
       },
       {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Claudio Andrés Bravo Muñoz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Javier Alejandro Mascherano",
         "target": "Gerard Piqué Bernabéu",
         "weight": 26,
@@ -999,6 +995,12 @@
         "target": "Andrés Iniesta Luján",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Claudio Andrés Bravo Muñoz",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Jordi Alba Ramos",
@@ -1037,10 +1039,22 @@
         "direction": "backward"
       },
       {
+        "source": "Andrés Iniesta Luján",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Sergio Busquets i Burgos",
         "weight": 18,
         "direction": "backward"
+      },
+      {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Luis Alberto Suárez Díaz",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
@@ -1073,16 +1087,64 @@
         "direction": "backward"
       },
       {
+        "source": "Sergio Busquets i Burgos",
+        "target": "Luis Alberto Suárez Díaz",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Daniel Alves da Silva",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 18,
         "direction": "forward"
       },
       {
+        "source": "Daniel Alves da Silva",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alves da Silva",
+        "target": "Ivan Rakitić",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
         "source": "Ivan Rakitić",
         "target": "Daniel Alves da Silva",
         "weight": 18,
         "direction": "lateral"
+      },
+      {
+        "source": "Ivan Rakitić",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1091,89 +1153,99 @@
       {
         "id": "Marcelo Vieira da Silva Júnior",
         "short": "Júnior",
-        "x": 62.11,
-        "y": 15.53,
-        "size": 181.7,
+        "x": 62.41,
+        "y": 15.93,
+        "size": 125.8,
         "is_playmaker": true,
-        "betweenness": 0.0152,
-        "eigenvector": 0.5519
+        "betweenness": 0.3222,
+        "eigenvector": 0.364
+      },
+      {
+        "id": "Toni Kroos",
+        "short": "Kroos",
+        "x": 63.46,
+        "y": 28.86,
+        "size": 109.2,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.3847
       },
       {
         "id": "Cristiano Ronaldo dos Santos Aveiro",
         "short": "Aveiro",
-        "x": 68.41,
-        "y": 21.35,
-        "size": 85.0,
+        "x": 68.47,
+        "y": 23.1,
+        "size": 67.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4534
+        "eigenvector": 0.2076
       },
       {
         "id": "Daniel Carvajal Ramos",
         "short": "Ramos",
-        "x": 67.69,
-        "y": 65.81,
-        "size": 81.7,
+        "x": 70.18,
+        "y": 66.1,
+        "size": 92.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0111,
+        "eigenvector": 0.2245
       },
       {
         "id": "Gareth Frank Bale",
         "short": "Bale",
         "x": 45.28,
         "y": 57.58,
-        "size": 128.3,
-        "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0
+        "size": 93.9,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.4181
       },
       {
         "id": "Luka Modrić",
         "short": "Modrić",
         "x": 61.46,
         "y": 55.93,
-        "size": 101.7,
+        "size": 110.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Toni Kroos",
-        "short": "Kroos",
-        "x": 63.02,
-        "y": 29.15,
-        "size": 128.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6046
+        "betweenness": 0.2333,
+        "eigenvector": 0.4427
       },
       {
         "id": "Karim Benzema",
         "short": "Benzema",
         "x": 49.37,
         "y": 33.63,
-        "size": 78.3,
+        "size": 88.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3527
+        "betweenness": 0.0333,
+        "eigenvector": 0.2834
       },
       {
         "id": "Carlos Henrique Casimiro",
         "short": "Casimiro",
-        "x": 72.92,
-        "y": 40.71,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 72.78,
+        "y": 41.14,
+        "size": 98.1,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.3789
       },
       {
         "id": "Kléper Laveran Lima Ferreira",
         "short": "Ferreira",
         "x": 84.48,
         "y": 59.62,
-        "size": 55.0,
+        "size": 86.9,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.177
+      },
+      {
+        "id": "Keylor Navas Gamboa",
+        "short": "Gamboa",
+        "x": 109.35,
+        "y": 40.36,
+        "size": 66.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1183,49 +1255,13 @@
         "short": "García",
         "x": 85.63,
         "y": 20.7,
-        "size": 55.0,
+        "size": 66.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Keylor Navas Gamboa",
-        "short": "Gamboa",
-        "x": 109.35,
-        "y": 40.36,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jesé Rodríguez Ruiz",
-        "short": "Ruiz",
-        "x": 49.27,
-        "y": 29.16,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lucas Vázquez Iglesias",
-        "short": "Iglesias",
-        "x": 7.1,
-        "y": 70.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0556,
         "eigenvector": 0.0
       }
     ],
     "edges": [
-      {
-        "source": "Marcelo Vieira da Silva Júnior",
-        "target": "Cristiano Ronaldo dos Santos Aveiro",
-        "weight": 9,
-        "direction": "forward"
-      },
       {
         "source": "Marcelo Vieira da Silva Júnior",
         "target": "Toni Kroos",
@@ -1234,14 +1270,56 @@
       },
       {
         "source": "Marcelo Vieira da Silva Júnior",
+        "target": "Cristiano Ronaldo dos Santos Aveiro",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Marcelo Vieira da Silva Júnior",
         "target": "Karim Benzema",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcelo Vieira da Silva Júnior",
+        "target": "Carlos Henrique Casimiro",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Marcelo Vieira da Silva Júnior",
+        "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Carlos Henrique Casimiro",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Toni Kroos",
+        "target": "Karim Benzema",
+        "weight": 5,
         "direction": "backward"
       },
       {
         "source": "Daniel Carvajal Ramos",
         "target": "Gareth Frank Bale",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Carvajal Ramos",
+        "target": "Kléper Laveran Lima Ferreira",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Carvajal Ramos",
+        "target": "Luka Modrić",
+        "weight": 4,
         "direction": "backward"
       },
       {
@@ -1257,10 +1335,76 @@
         "direction": "backward"
       },
       {
-        "source": "Toni Kroos",
+        "source": "Luka Modrić",
+        "target": "Daniel Carvajal Ramos",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Luka Modrić",
+        "target": "Carlos Henrique Casimiro",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Karim Benzema",
+        "target": "Toni Kroos",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Karim Benzema",
+        "target": "Gareth Frank Bale",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Carlos Henrique Casimiro",
+        "target": "Luka Modrić",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Carlos Henrique Casimiro",
+        "target": "Kléper Laveran Lima Ferreira",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Henrique Casimiro",
         "target": "Marcelo Vieira da Silva Júnior",
-        "weight": 10,
-        "direction": "lateral"
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Kléper Laveran Lima Ferreira",
+        "target": "Luka Modrić",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Kléper Laveran Lima Ferreira",
+        "target": "Daniel Carvajal Ramos",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Kléper Laveran Lima Ferreira",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Sergio Ramos García",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Ramos García",
+        "target": "Marcelo Vieira da Silva Júnior",
+        "weight": 4,
+        "direction": "backward"
       }
     ]
   },

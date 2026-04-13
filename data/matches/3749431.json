@@ -747,33 +747,63 @@
   "network_home": {
     "nodes": [
       {
+        "id": "Aaron Hughes",
+        "short": "Hughes",
+        "x": 52.95,
+        "y": 68.74,
+        "size": 112.3,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.2655
+      },
+      {
+        "id": "Jermaine Jenas",
+        "short": "Jenas",
+        "x": 63.32,
+        "y": 48.28,
+        "size": 113.7,
+        "is_playmaker": true,
+        "betweenness": 0.3056,
+        "eigenvector": 0.416
+      },
+      {
         "id": "Gary Speed",
         "short": "Speed",
-        "x": 62.12,
-        "y": 35.31,
-        "size": 144.2,
-        "is_playmaker": true,
-        "betweenness": 0.0227,
-        "eigenvector": 0.0
+        "x": 61.06,
+        "y": 36.0,
+        "size": 113.7,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3728
       },
       {
         "id": "Laurent Robert",
         "short": "Robert",
         "x": 69.65,
         "y": 19.47,
-        "size": 79.6,
+        "size": 88.6,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.4545
+      },
+      {
+        "id": "Darren Ambrose",
+        "short": "Ambrose",
+        "x": 57.89,
+        "y": 63.74,
+        "size": 77.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1704
       },
       {
         "id": "Jonathan Woodgate",
         "short": "Woodgate",
-        "x": 42.39,
-        "y": 34.62,
-        "size": 76.5,
+        "x": 42.38,
+        "y": 34.6,
+        "size": 98.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
+        "betweenness": 0.0833,
         "eigenvector": 0.0
       },
       {
@@ -781,7 +811,7 @@
         "short": "Given",
         "x": 14.05,
         "y": 35.94,
-        "size": 76.5,
+        "size": 80.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -791,93 +821,91 @@
         "short": "Shearer",
         "x": 87.09,
         "y": 44.71,
-        "size": 76.5,
+        "size": 94.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jermaine Jenas",
-        "short": "Jenas",
-        "x": 62.88,
-        "y": 47.84,
-        "size": 119.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7082
-      },
-      {
-        "id": "Aaron Hughes",
-        "short": "Hughes",
-        "x": 52.95,
-        "y": 68.74,
-        "size": 144.2,
-        "is_playmaker": true,
-        "betweenness": 0.0076,
-        "eigenvector": 0.5555
-      },
-      {
-        "id": "Darren Ambrose",
-        "short": "Ambrose",
-        "x": 57.89,
-        "y": 63.74,
-        "size": 79.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4358
+        "betweenness": 0.0833,
+        "eigenvector": 0.3169
       },
       {
         "id": "Craig Bellamy",
         "short": "Bellamy",
-        "x": 73.51,
-        "y": 36.79,
-        "size": 76.5,
+        "x": 70.97,
+        "y": 38.65,
+        "size": 84.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1333,
+        "eigenvector": 0.4876
       },
       {
         "id": "Olivier Bernard",
         "short": "Bernard",
-        "x": 54.34,
-        "y": 14.42,
-        "size": 76.5,
+        "x": 51.94,
+        "y": 15.22,
+        "size": 81.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.2061
       },
       {
         "id": "Andy O\"Brien",
         "short": "O\"Brien",
         "x": 40.1,
         "y": 57.78,
-        "size": 55.0,
+        "size": 60.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Hugo Miguel Ferreira Gomes Viana",
-        "short": "Viana",
-        "x": 78.2,
-        "y": 6.74,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lee Bowyer",
-        "short": "Bowyer",
-        "x": 40.5,
-        "y": 62.65,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1333,
+        "eigenvector": 0.0344
       }
     ],
     "edges": [
+      {
+        "source": "Aaron Hughes",
+        "target": "Jermaine Jenas",
+        "weight": 13,
+        "direction": "forward"
+      },
+      {
+        "source": "Aaron Hughes",
+        "target": "Darren Ambrose",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Aaron Hughes",
+        "target": "Alan Shearer",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Aaron Hughes",
+        "target": "Andy O\"Brien",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jermaine Jenas",
+        "target": "Aaron Hughes",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Jermaine Jenas",
+        "target": "Gary Speed",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jermaine Jenas",
+        "target": "Craig Bellamy",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jermaine Jenas",
+        "target": "Alan Shearer",
+        "weight": 4,
+        "direction": "forward"
+      },
       {
         "source": "Gary Speed",
         "target": "Laurent Robert",
@@ -897,9 +925,57 @@
         "direction": "backward"
       },
       {
+        "source": "Laurent Robert",
+        "target": "Jermaine Jenas",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Laurent Robert",
+        "target": "Gary Speed",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Darren Ambrose",
+        "target": "Alan Shearer",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Darren Ambrose",
+        "target": "Andy O\"Brien",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jonathan Woodgate",
         "target": "Gary Speed",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Woodgate",
+        "target": "Shay Given",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonathan Woodgate",
+        "target": "Aaron Hughes",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Woodgate",
+        "target": "Jermaine Jenas",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonathan Woodgate",
+        "target": "Olivier Bernard",
+        "weight": 4,
         "direction": "forward"
       },
       {
@@ -909,21 +985,45 @@
         "direction": "forward"
       },
       {
-        "source": "Jermaine Jenas",
-        "target": "Aaron Hughes",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Aaron Hughes",
-        "target": "Jermaine Jenas",
-        "weight": 13,
+        "source": "Shay Given",
+        "target": "Jonathan Woodgate",
+        "weight": 5,
         "direction": "forward"
       },
       {
-        "source": "Aaron Hughes",
+        "source": "Alan Shearer",
+        "target": "Craig Bellamy",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Craig Bellamy",
+        "target": "Laurent Robert",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Olivier Bernard",
+        "target": "Gary Speed",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Olivier Bernard",
+        "target": "Laurent Robert",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Andy O\"Brien",
+        "target": "Aaron Hughes",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Andy O\"Brien",
         "target": "Darren Ambrose",
-        "weight": 8,
+        "weight": 1,
         "direction": "forward"
       }
     ]
@@ -931,159 +1031,117 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Patrick Vieira",
-        "short": "Vieira",
-        "x": 56.58,
-        "y": 28.22,
-        "size": 136.9,
-        "is_playmaker": true,
-        "betweenness": 0.0449,
-        "eigenvector": 0.5848
-      },
-      {
         "id": "Eduardo César Daude Gaspar",
         "short": "Gaspar",
-        "x": 54.77,
-        "y": 18.7,
-        "size": 133.7,
+        "x": 54.72,
+        "y": 18.84,
+        "size": 118.1,
         "is_playmaker": false,
-        "betweenness": 0.0192,
-        "eigenvector": 0.5014
+        "betweenness": 0.0611,
+        "eigenvector": 0.3741
+      },
+      {
+        "id": "Patrick Vieira",
+        "short": "Vieira",
+        "x": 55.76,
+        "y": 27.71,
+        "size": 119.0,
+        "is_playmaker": false,
+        "betweenness": 0.0833,
+        "eigenvector": 0.5373
+      },
+      {
+        "id": "Ashley Cole",
+        "short": "Cole",
+        "x": 65.63,
+        "y": 9.42,
+        "size": 115.1,
+        "is_playmaker": true,
+        "betweenness": 0.25,
+        "eigenvector": 0.2975
       },
       {
         "id": "Gilberto Aparecido da Silva",
         "short": "Silva",
         "x": 66.01,
         "y": 41.61,
-        "size": 118.0,
-        "is_playmaker": true,
-        "betweenness": 0.0256,
-        "eigenvector": 0.0
+        "size": 120.0,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.385
+      },
+      {
+        "id": "Laureano Bisan-Etame Mayer",
+        "short": "Mayer",
+        "x": 70.43,
+        "y": 68.29,
+        "size": 97.4,
+        "is_playmaker": false,
+        "betweenness": 0.0611,
+        "eigenvector": 0.2174
       },
       {
         "id": "Sylvain Wiltord",
         "short": "Wiltord",
         "x": 54.99,
         "y": 55.0,
-        "size": 81.8,
+        "size": 82.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Laureano Bisan-Etame Mayer",
-        "short": "Mayer",
-        "x": 69.71,
-        "y": 68.92,
-        "size": 113.3,
-        "is_playmaker": false,
-        "betweenness": 0.0064,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kolo Habib Touré",
-        "short": "Touré",
-        "x": 80.62,
-        "y": 50.07,
-        "size": 67.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ashley Cole",
-        "short": "Cole",
-        "x": 64.57,
-        "y": 9.38,
-        "size": 107.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.281
+        "eigenvector": 0.2135
       },
       {
         "id": "Thierry Henry",
         "short": "Henry",
         "x": 47.32,
         "y": 33.6,
-        "size": 81.8,
+        "size": 84.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5724
+        "betweenness": 0.0444,
+        "eigenvector": 0.4131
       },
       {
-        "id": "José Antonio Reyes Calderón",
-        "short": "Calderón",
-        "x": 49.71,
-        "y": 37.24,
-        "size": 55.0,
+        "id": "Kolo Habib Touré",
+        "short": "Touré",
+        "x": 80.62,
+        "y": 50.07,
+        "size": 64.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0944,
+        "eigenvector": 0.0741
       },
       {
         "id": "Sulzeer Jeremiah ''Sol' Campbell",
         "short": "Campbell",
         "x": 75.07,
         "y": 27.61,
-        "size": 55.0,
+        "size": 76.7,
+        "is_playmaker": true,
+        "betweenness": 0.3056,
+        "eigenvector": 0.137
+      },
+      {
+        "id": "José Antonio Reyes Calderón",
+        "short": "Calderón",
+        "x": 49.71,
+        "y": 37.24,
+        "size": 67.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.216
       },
       {
         "id": "Jens Lehmann",
         "short": "Lehmann",
-        "x": 107.97,
-        "y": 40.7,
-        "size": 55.0,
+        "x": 108.11,
+        "y": 39.19,
+        "size": 58.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Robert Pirès",
-        "short": "Pirès",
-        "x": 45.17,
-        "y": 57.83,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Dennis Bergkamp",
-        "short": "Bergkamp",
-        "x": 34.3,
-        "y": 20.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gaël Clichy",
-        "short": "Clichy",
-        "x": 81.3,
-        "y": 26.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.0089
       }
     ],
     "edges": [
-      {
-        "source": "Patrick Vieira",
-        "target": "Eduardo César Daude Gaspar",
-        "weight": 8,
-        "direction": "lateral"
-      },
-      {
-        "source": "Patrick Vieira",
-        "target": "Thierry Henry",
-        "weight": 8,
-        "direction": "backward"
-      },
       {
         "source": "Eduardo César Daude Gaspar",
         "target": "Patrick Vieira",
@@ -1103,40 +1161,34 @@
         "direction": "forward"
       },
       {
-        "source": "Gilberto Aparecido da Silva",
-        "target": "Sylvain Wiltord",
+        "source": "Eduardo César Daude Gaspar",
+        "target": "José Antonio Reyes Calderón",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Patrick Vieira",
+        "target": "Eduardo César Daude Gaspar",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Patrick Vieira",
+        "target": "Thierry Henry",
         "weight": 8,
         "direction": "backward"
       },
       {
-        "source": "Gilberto Aparecido da Silva",
-        "target": "Laureano Bisan-Etame Mayer",
-        "weight": 10,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gilberto Aparecido da Silva",
-        "target": "Patrick Vieira",
-        "weight": 12,
-        "direction": "backward"
-      },
-      {
-        "source": "Laureano Bisan-Etame Mayer",
+        "source": "Patrick Vieira",
         "target": "Gilberto Aparecido da Silva",
-        "weight": 10,
-        "direction": "lateral"
-      },
-      {
-        "source": "Laureano Bisan-Etame Mayer",
-        "target": "Kolo Habib Touré",
-        "weight": 8,
+        "weight": 7,
         "direction": "forward"
       },
       {
-        "source": "Laureano Bisan-Etame Mayer",
-        "target": "Sylvain Wiltord",
-        "weight": 9,
-        "direction": "backward"
+        "source": "Patrick Vieira",
+        "target": "Sulzeer Jeremiah ''Sol' Campbell",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Ashley Cole",
@@ -1148,6 +1200,114 @@
         "source": "Ashley Cole",
         "target": "Eduardo César Daude Gaspar",
         "weight": 12,
+        "direction": "backward"
+      },
+      {
+        "source": "Ashley Cole",
+        "target": "Gilberto Aparecido da Silva",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ashley Cole",
+        "target": "Thierry Henry",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Gilberto Aparecido da Silva",
+        "target": "Patrick Vieira",
+        "weight": 12,
+        "direction": "backward"
+      },
+      {
+        "source": "Gilberto Aparecido da Silva",
+        "target": "Laureano Bisan-Etame Mayer",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Gilberto Aparecido da Silva",
+        "target": "Sylvain Wiltord",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Gilberto Aparecido da Silva",
+        "target": "Ashley Cole",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Laureano Bisan-Etame Mayer",
+        "target": "Gilberto Aparecido da Silva",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
+        "source": "Laureano Bisan-Etame Mayer",
+        "target": "Sylvain Wiltord",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Laureano Bisan-Etame Mayer",
+        "target": "Kolo Habib Touré",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Sylvain Wiltord",
+        "target": "Laureano Bisan-Etame Mayer",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Sylvain Wiltord",
+        "target": "Gilberto Aparecido da Silva",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Thierry Henry",
+        "target": "José Antonio Reyes Calderón",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kolo Habib Touré",
+        "target": "Jens Lehmann",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sulzeer Jeremiah ''Sol' Campbell",
+        "target": "Ashley Cole",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Sulzeer Jeremiah ''Sol' Campbell",
+        "target": "Eduardo César Daude Gaspar",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Sulzeer Jeremiah ''Sol' Campbell",
+        "target": "Jens Lehmann",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Kolo Habib Touré",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jens Lehmann",
+        "target": "Sulzeer Jeremiah ''Sol' Campbell",
+        "weight": 1,
         "direction": "backward"
       }
     ]

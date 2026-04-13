@@ -1135,57 +1135,57 @@
         "short": "Nunes",
         "x": 62.2,
         "y": 38.56,
-        "size": 157.2,
+        "size": 150.7,
         "is_playmaker": true,
-        "betweenness": 0.3056,
-        "eigenvector": 0.5968
+        "betweenness": 0.3,
+        "eigenvector": 0.5926
       },
       {
         "id": "Carlos Alberto Torres",
         "short": "Torres",
         "x": 56.03,
         "y": 68.05,
-        "size": 151.9,
-        "is_playmaker": true,
-        "betweenness": 0.2278,
-        "eigenvector": 0.6033
+        "size": 141.2,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.5786
       },
       {
         "id": "Clodoaldo Tavares de Santana",
         "short": "Santana",
         "x": 61.02,
         "y": 47.11,
-        "size": 113.7,
-        "is_playmaker": false,
-        "betweenness": 0.0444,
-        "eigenvector": 0.422
+        "size": 108.8,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.4165
       },
       {
         "id": "Everaldo Marques da Silva",
         "short": "Silva",
         "x": 55.35,
         "y": 14.58,
-        "size": 100.3,
+        "size": 100.1,
         "is_playmaker": false,
-        "betweenness": 0.1222,
-        "eigenvector": 0.2138
+        "betweenness": 0.0,
+        "eigenvector": 0.2357
       },
       {
         "id": "Roberto Rivelino",
         "short": "Rivelino",
         "x": 65.59,
         "y": 18.83,
-        "size": 87.9,
+        "size": 89.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0811
+        "eigenvector": 0.1797
       },
       {
         "id": "Félix Miéli Venerando",
         "short": "Venerando",
         "x": 8.25,
         "y": 39.48,
-        "size": 72.8,
+        "size": 70.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1195,50 +1195,50 @@
         "short": "Filho",
         "x": 81.39,
         "y": 60.1,
-        "size": 63.0,
+        "size": 66.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1471
+        "eigenvector": 0.1365
       },
       {
         "id": "Wilson da Silva Piazza",
         "short": "Piazza",
         "x": 33.14,
         "y": 26.12,
-        "size": 74.6,
+        "size": 78.7,
         "is_playmaker": false,
-        "betweenness": 0.0389,
-        "eigenvector": 0.0405
+        "betweenness": 0.2,
+        "eigenvector": 0.0436
       },
       {
         "id": "Eduardo Gonçalves de Andrade",
         "short": "Andrade",
         "x": 71.4,
         "y": 40.91,
-        "size": 61.2,
+        "size": 65.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1144
+        "eigenvector": 0.1062
       },
       {
         "id": "Édson Arantes do Nascimento",
         "short": "Nascimento",
         "x": 73.68,
         "y": 44.82,
-        "size": 67.4,
+        "size": 75.6,
         "is_playmaker": false,
-        "betweenness": 0.0444,
-        "eigenvector": 0.1144
+        "betweenness": 0.2,
+        "eigenvector": 0.1443
       },
       {
         "id": "Hercules Brito Ruas",
         "short": "Ruas",
         "x": 34.67,
         "y": 50.42,
-        "size": 55.0,
+        "size": 58.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2444,
+        "eigenvector": 0.0121
       }
     ],
     "edges": [
@@ -1258,6 +1258,12 @@
         "source": "Gérson de Oliveira Nunes",
         "target": "Clodoaldo Tavares de Santana",
         "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gérson de Oliveira Nunes",
+        "target": "Roberto Rivelino",
+        "weight": 6,
         "direction": "lateral"
       },
       {
@@ -1300,6 +1306,12 @@
         "source": "Clodoaldo Tavares de Santana",
         "target": "Carlos Alberto Torres",
         "weight": 16,
+        "direction": "backward"
+      },
+      {
+        "source": "Clodoaldo Tavares de Santana",
+        "target": "Hercules Brito Ruas",
+        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1351,97 +1363,123 @@
         "direction": "forward"
       },
       {
+        "source": "Jair Ventura Filho",
+        "target": "Édson Arantes do Nascimento",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Wilson da Silva Piazza",
         "target": "Gérson de Oliveira Nunes",
         "weight": 7,
         "direction": "forward"
       },
       {
+        "source": "Wilson da Silva Piazza",
+        "target": "Everaldo Marques da Silva",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Wilson da Silva Piazza",
+        "target": "Hercules Brito Ruas",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Eduardo Gonçalves de Andrade",
+        "target": "Édson Arantes do Nascimento",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
         "source": "Édson Arantes do Nascimento",
         "target": "Gérson de Oliveira Nunes",
         "weight": 7,
         "direction": "backward"
+      },
+      {
+        "source": "Hercules Brito Ruas",
+        "target": "Wilson da Silva Piazza",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hercules Brito Ruas",
+        "target": "Clodoaldo Tavares de Santana",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Sandro Mazzola",
-        "short": "Mazzola",
-        "x": 51.02,
-        "y": 36.49,
-        "size": 153.5,
-        "is_playmaker": true,
-        "betweenness": 0.0379,
-        "eigenvector": 0.0015
-      },
-      {
-        "id": "Luigi Riva",
-        "short": "Riva",
-        "x": 46.2,
-        "y": 37.09,
-        "size": 79.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.624
-      },
-      {
-        "id": "Mario Bertini",
-        "short": "Bertini",
-        "x": 73.16,
-        "y": 53.9,
-        "size": 119.6,
-        "is_playmaker": true,
-        "betweenness": 0.0303,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pierluigi Cera",
-        "short": "Cera",
-        "x": 84.12,
-        "y": 39.86,
-        "size": 135.0,
-        "is_playmaker": false,
-        "betweenness": 0.0303,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Enrico Albertosi",
-        "short": "Albertosi",
-        "x": 112.28,
-        "y": 40.33,
-        "size": 91.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Angelo Domenghini",
         "short": "Domenghini",
-        "x": 55.12,
-        "y": 56.13,
-        "size": 128.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7814
-      },
-      {
-        "id": "Giancarlo De Sisti",
-        "short": "Sisti",
-        "x": 56.61,
-        "y": 40.0,
-        "size": 76.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "x": 54.26,
+        "y": 57.96,
+        "size": 128.2,
+        "is_playmaker": true,
+        "betweenness": 0.2333,
+        "eigenvector": 0.5262
       },
       {
         "id": "Roberto Boninsegna",
         "short": "Boninsegna",
         "x": 48.13,
         "y": 38.98,
-        "size": 55.0,
+        "size": 63.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2195
+      },
+      {
+        "id": "Giancarlo De Sisti",
+        "short": "Sisti",
+        "x": 55.85,
+        "y": 39.8,
+        "size": 102.2,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.2634
+      },
+      {
+        "id": "Sandro Mazzola",
+        "short": "Mazzola",
+        "x": 51.36,
+        "y": 36.04,
+        "size": 141.2,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.5683
+      },
+      {
+        "id": "Luigi Riva",
+        "short": "Riva",
+        "x": 46.36,
+        "y": 37.39,
+        "size": 74.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.4672
+      },
+      {
+        "id": "Mario Bertini",
+        "short": "Bertini",
+        "x": 73.16,
+        "y": 53.9,
+        "size": 102.2,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.0893
+      },
+      {
+        "id": "Pierluigi Cera",
+        "short": "Cera",
+        "x": 84.87,
+        "y": 39.47,
+        "size": 111.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1451,7 +1489,17 @@
         "short": "Facchetti",
         "x": 74.07,
         "y": 13.69,
-        "size": 55.0,
+        "size": 71.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2371
+      },
+      {
+        "id": "Enrico Albertosi",
+        "short": "Albertosi",
+        "x": 112.48,
+        "y": 40.26,
+        "size": 87.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1459,45 +1507,61 @@
       {
         "id": "Roberto Rosato",
         "short": "Rosato",
-        "x": 86.65,
-        "y": 50.83,
-        "size": 55.0,
+        "x": 84.79,
+        "y": 51.53,
+        "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0081
       },
       {
         "id": "Tarcisio Burgnich",
         "short": "Burgnich",
         "x": 79.21,
         "y": 57.73,
-        "size": 55.0,
+        "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Antonio Juliano",
-        "short": "Juliano",
-        "x": 58.73,
-        "y": 61.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gianni Rivera",
-        "short": "Rivera",
-        "x": 38.3,
-        "y": 47.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0081
       }
     ],
     "edges": [
+      {
+        "source": "Angelo Domenghini",
+        "target": "Roberto Boninsegna",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Angelo Domenghini",
+        "target": "Giancarlo De Sisti",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Angelo Domenghini",
+        "target": "Sandro Mazzola",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Giancarlo De Sisti",
+        "target": "Luigi Riva",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Giancarlo De Sisti",
+        "target": "Mario Bertini",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Giancarlo De Sisti",
+        "target": "Sandro Mazzola",
+        "weight": 7,
+        "direction": "backward"
+      },
       {
         "source": "Sandro Mazzola",
         "target": "Luigi Riva",
@@ -1508,6 +1572,12 @@
         "source": "Sandro Mazzola",
         "target": "Angelo Domenghini",
         "weight": 10,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sandro Mazzola",
+        "target": "Giacinto Facchetti",
+        "weight": 5,
         "direction": "forward"
       },
       {
@@ -1523,9 +1593,33 @@
         "direction": "backward"
       },
       {
+        "source": "Mario Bertini",
+        "target": "Roberto Rosato",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mario Bertini",
+        "target": "Tarcisio Burgnich",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Pierluigi Cera",
         "target": "Mario Bertini",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierluigi Cera",
+        "target": "Giancarlo De Sisti",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierluigi Cera",
+        "target": "Sandro Mazzola",
+        "weight": 5,
         "direction": "backward"
       },
       {
@@ -1535,15 +1629,51 @@
         "direction": "backward"
       },
       {
+        "source": "Giacinto Facchetti",
+        "target": "Sandro Mazzola",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Enrico Albertosi",
         "target": "Pierluigi Cera",
         "weight": 12,
         "direction": "backward"
       },
       {
-        "source": "Giancarlo De Sisti",
-        "target": "Sandro Mazzola",
-        "weight": 7,
+        "source": "Enrico Albertosi",
+        "target": "Angelo Domenghini",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Enrico Albertosi",
+        "target": "Giancarlo De Sisti",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Rosato",
+        "target": "Tarcisio Burgnich",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Roberto Rosato",
+        "target": "Mario Bertini",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Tarcisio Burgnich",
+        "target": "Roberto Rosato",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Tarcisio Burgnich",
+        "target": "Mario Bertini",
+        "weight": 1,
         "direction": "backward"
       }
     ]

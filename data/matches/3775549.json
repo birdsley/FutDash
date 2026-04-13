@@ -679,29 +679,49 @@
         "short": "Mayling",
         "x": 70.09,
         "y": 44.82,
-        "size": 135.0,
+        "size": 170.6,
         "is_playmaker": true,
-        "betweenness": 0.0222,
-        "eigenvector": 0.0018
+        "betweenness": 0.2222,
+        "eigenvector": 0.2616
       },
       {
         "id": "Emily Murphy",
         "short": "Murphy",
         "x": 61.5,
         "y": 59.6,
-        "size": 95.0,
+        "size": 86.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 1.0
+        "eigenvector": 0.6521
+      },
+      {
+        "id": "Harriet Scott",
+        "short": "Scott",
+        "x": 52.98,
+        "y": 68.08,
+        "size": 72.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Lucy Whipp",
+        "short": "Whipp",
+        "x": 60.65,
+        "y": 34.63,
+        "size": 81.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.5311
       },
       {
         "id": "Rebecca Holloway",
         "short": "Holloway",
         "x": 58.85,
         "y": 13.17,
-        "size": 135.0,
-        "is_playmaker": true,
-        "betweenness": 0.0222,
+        "size": 99.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
@@ -709,7 +729,7 @@
         "short": "Mace",
         "x": 34.09,
         "y": 25.9,
-        "size": 95.0,
+        "size": 77.2,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -719,7 +739,7 @@
         "short": "Hampton",
         "x": 13.63,
         "y": 40.74,
-        "size": 135.0,
+        "size": 99.4,
         "is_playmaker": false,
         "betweenness": 0.0111,
         "eigenvector": 0.0
@@ -729,10 +749,10 @@
         "short": "Napier",
         "x": 72.18,
         "y": 25.13,
-        "size": 95.0,
+        "size": 77.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0018
+        "eigenvector": 0.0
       },
       {
         "id": "Georgia Brougham",
@@ -749,40 +769,20 @@
         "short": "Walker",
         "x": 67.73,
         "y": 53.55,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lucy Whipp",
-        "short": "Whipp",
-        "x": 60.65,
-        "y": 34.63,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 72.8,
+        "is_playmaker": true,
+        "betweenness": 0.1,
+        "eigenvector": 0.3577
       },
       {
         "id": "Mollie Green",
         "short": "Green",
         "x": 60.44,
         "y": 39.94,
-        "size": 55.0,
+        "size": 72.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Harriet Scott",
-        "short": "Scott",
-        "x": 52.98,
-        "y": 68.08,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1,
+        "eigenvector": 0.3104
       }
     ],
     "edges": [
@@ -791,6 +791,42 @@
         "target": "Emily Murphy",
         "weight": 5,
         "direction": "backward"
+      },
+      {
+        "source": "Sarah Emma Mayling",
+        "target": "Lucy Whipp",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Sarah Emma Mayling",
+        "target": "Claudia Walker",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sarah Emma Mayling",
+        "target": "Mollie Green",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Emily Murphy",
+        "target": "Claudia Walker",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Harriet Scott",
+        "target": "Sarah Emma Mayling",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Lucy Whipp",
+        "target": "Mollie Green",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Rebecca Holloway",
@@ -815,169 +851,175 @@
         "target": "Rebecca Holloway",
         "weight": 5,
         "direction": "forward"
+      },
+      {
+        "source": "Georgia Brougham",
+        "target": "Sarah Emma Mayling",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Claudia Walker",
+        "target": "Emily Murphy",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Claudia Walker",
+        "target": "Sarah Emma Mayling",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mollie Green",
+        "target": "Lucy Whipp",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mollie Green",
+        "target": "Sarah Emma Mayling",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Kerys Harrop",
-        "short": "Harrop",
-        "x": 64.67,
-        "y": 9.07,
-        "size": 116.2,
+        "id": "Abbie McManus",
+        "short": "McManus",
+        "x": 79.9,
+        "y": 55.4,
+        "size": 141.1,
         "is_playmaker": true,
-        "betweenness": 0.0705,
-        "eigenvector": 0.3595
+        "betweenness": 0.4056,
+        "eigenvector": 0.5936
       },
       {
         "id": "Shelina Laura Zadorsky",
         "short": "Zadorsky",
-        "x": 80.87,
-        "y": 25.78,
-        "size": 162.5,
+        "x": 80.52,
+        "y": 25.67,
+        "size": 130.4,
         "is_playmaker": true,
-        "betweenness": 0.0962,
-        "eigenvector": 0.6214
+        "betweenness": 0.2333,
+        "eigenvector": 0.5514
       },
       {
         "id": "Rebecca Leigh Spencer",
         "short": "Spencer",
         "x": 110.27,
         "y": 41.0,
-        "size": 107.5,
+        "size": 96.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2582
+        "eigenvector": 0.2717
       },
       {
-        "id": "Abbie McManus",
-        "short": "McManus",
-        "x": 78.99,
-        "y": 55.96,
-        "size": 142.5,
+        "id": "Kerys Harrop",
+        "short": "Harrop",
+        "x": 63.88,
+        "y": 8.68,
+        "size": 118.1,
         "is_playmaker": false,
-        "betweenness": 0.0513,
-        "eigenvector": 0.5573
-      },
-      {
-        "id": "Ashleigh Neville",
-        "short": "Neville",
-        "x": 54.51,
-        "y": 72.29,
-        "size": 82.5,
-        "is_playmaker": false,
-        "betweenness": 0.0321,
-        "eigenvector": 0.2509
+        "betweenness": 0.1833,
+        "eigenvector": 0.2734
       },
       {
         "id": "Jessica Naz",
         "short": "Naz",
-        "x": 41.73,
-        "y": 25.95,
-        "size": 96.2,
+        "x": 40.44,
+        "y": 25.97,
+        "size": 82.0,
         "is_playmaker": false,
-        "betweenness": 0.0256,
-        "eigenvector": 0.1868
+        "betweenness": 0.0,
+        "eigenvector": 0.1265
+      },
+      {
+        "id": "Ashleigh Neville",
+        "short": "Neville",
+        "x": 54.97,
+        "y": 72.61,
+        "size": 90.2,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.2533
       },
       {
         "id": "Lucy Quinn",
         "short": "Quinn",
         "x": 44.17,
         "y": 59.09,
-        "size": 66.2,
+        "size": 68.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0782
+        "eigenvector": 0.0704
       },
       {
         "id": "Kit Graham",
         "short": "Graham",
-        "x": 38.29,
-        "y": 41.49,
-        "size": 66.2,
+        "x": 38.42,
+        "y": 41.64,
+        "size": 80.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0582
+        "eigenvector": 0.2652
       },
       {
         "id": "Rachel Williams",
         "short": "Williams",
-        "x": 52.88,
-        "y": 45.83,
-        "size": 55.0,
+        "x": 54.0,
+        "y": 45.95,
+        "size": 72.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "So-Hyun Cho",
-        "short": "Cho",
-        "x": 61.25,
-        "y": 40.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1132
       },
       {
         "id": "Chloe Peplow",
         "short": "Peplow",
         "x": 59.41,
         "y": 37.16,
-        "size": 55.0,
+        "size": 65.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.05,
+        "eigenvector": 0.1021
       },
       {
-        "id": "Angela Addison",
-        "short": "Addison",
-        "x": 50.95,
-        "y": 18.12,
-        "size": 55.0,
+        "id": "So-Hyun Cho",
+        "short": "Cho",
+        "x": 64.16,
+        "y": 44.25,
+        "size": 60.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Rosella Ayane",
-        "short": "Ayane",
-        "x": 40.87,
-        "y": 61.03,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gemma Suzanne Davison",
-        "short": "Davison",
-        "x": 57.59,
-        "y": 15.59,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1282
       }
     ],
     "edges": [
       {
-        "source": "Kerys Harrop",
+        "source": "Abbie McManus",
         "target": "Shelina Laura Zadorsky",
-        "weight": 11,
-        "direction": "forward"
+        "weight": 20,
+        "direction": "lateral"
       },
       {
-        "source": "Kerys Harrop",
-        "target": "Jessica Naz",
-        "weight": 15,
+        "source": "Abbie McManus",
+        "target": "Ashleigh Neville",
+        "weight": 13,
         "direction": "backward"
       },
       {
-        "source": "Shelina Laura Zadorsky",
-        "target": "Kerys Harrop",
-        "weight": 14,
+        "source": "Abbie McManus",
+        "target": "Kit Graham",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Abbie McManus",
+        "target": "So-Hyun Cho",
+        "weight": 7,
         "direction": "backward"
       },
       {
@@ -988,9 +1030,21 @@
       },
       {
         "source": "Shelina Laura Zadorsky",
+        "target": "Kerys Harrop",
+        "weight": 14,
+        "direction": "backward"
+      },
+      {
+        "source": "Shelina Laura Zadorsky",
         "target": "Rebecca Leigh Spencer",
         "weight": 12,
         "direction": "forward"
+      },
+      {
+        "source": "Shelina Laura Zadorsky",
+        "target": "Chloe Peplow",
+        "weight": 6,
+        "direction": "backward"
       },
       {
         "source": "Rebecca Leigh Spencer",
@@ -1005,21 +1059,39 @@
         "direction": "backward"
       },
       {
-        "source": "Abbie McManus",
-        "target": "Ashleigh Neville",
-        "weight": 13,
+        "source": "Kerys Harrop",
+        "target": "Jessica Naz",
+        "weight": 15,
         "direction": "backward"
       },
       {
-        "source": "Abbie McManus",
+        "source": "Kerys Harrop",
         "target": "Shelina Laura Zadorsky",
-        "weight": 20,
-        "direction": "lateral"
+        "weight": 11,
+        "direction": "forward"
       },
       {
-        "source": "Ashleigh Neville",
-        "target": "Lucy Quinn",
-        "weight": 9,
+        "source": "Kerys Harrop",
+        "target": "Rebecca Leigh Spencer",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Kerys Harrop",
+        "target": "Kit Graham",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Kerys Harrop",
+        "target": "Abbie McManus",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Kerys Harrop",
+        "target": "Rachel Williams",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1033,6 +1105,42 @@
         "target": "Kit Graham",
         "weight": 9,
         "direction": "lateral"
+      },
+      {
+        "source": "Ashleigh Neville",
+        "target": "Lucy Quinn",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Ashleigh Neville",
+        "target": "Rachel Williams",
+        "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ashleigh Neville",
+        "target": "Abbie McManus",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Lucy Quinn",
+        "target": "Ashleigh Neville",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Rachel Williams",
+        "target": "Kit Graham",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Chloe Peplow",
+        "target": "Abbie McManus",
+        "weight": 7,
+        "direction": "forward"
       }
     ]
   },

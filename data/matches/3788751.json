@@ -667,110 +667,110 @@
         "short": "Pi",
         "x": 56.81,
         "y": 8.73,
-        "size": 107.5,
-        "is_playmaker": true,
-        "betweenness": 0.2,
-        "eigenvector": 0.2109
+        "size": 100.5,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.1646
       },
       {
         "id": "Presnel Kimpembe",
         "short": "Kimpembe",
         "x": 41.15,
         "y": 24.57,
-        "size": 118.4,
-        "is_playmaker": true,
-        "betweenness": 0.2444,
-        "eigenvector": 0.274
+        "size": 111.9,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.2097
       },
       {
         "id": "Benjamin Pavard",
         "short": "Pavard",
         "x": 57.58,
         "y": 73.36,
-        "size": 115.1,
-        "is_playmaker": false,
-        "betweenness": 0.1,
-        "eigenvector": 0.4527
+        "size": 112.8,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.4122
       },
       {
         "id": "Paul Pogba",
         "short": "Pogba",
         "x": 61.46,
         "y": 57.72,
-        "size": 104.2,
+        "size": 103.3,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.565
+        "betweenness": 0.1,
+        "eigenvector": 0.5932
       },
       {
         "id": "Karim Benzema",
         "short": "Benzema",
         "x": 65.99,
         "y": 35.75,
-        "size": 75.8,
+        "size": 78.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0725
+        "betweenness": 0.0111,
+        "eigenvector": 0.1607
       },
       {
         "id": "Kylian Mbappé Lottin",
         "short": "Lottin",
         "x": 76.24,
         "y": 24.33,
-        "size": 76.9,
+        "size": 74.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1257
+        "eigenvector": 0.1533
       },
       {
         "id": "N''Golo Kanté",
         "short": "Kanté",
         "x": 53.95,
         "y": 41.94,
-        "size": 103.1,
+        "size": 108.1,
         "is_playmaker": false,
-        "betweenness": 0.1222,
-        "eigenvector": 0.3928
+        "betweenness": 0.1111,
+        "eigenvector": 0.375
       },
       {
         "id": "Adrien Rabiot",
         "short": "Rabiot",
         "x": 53.19,
         "y": 27.27,
-        "size": 81.2,
+        "size": 83.4,
         "is_playmaker": false,
-        "betweenness": 0.0333,
-        "eigenvector": 0.2159
+        "betweenness": 0.0111,
+        "eigenvector": 0.1834
       },
       {
         "id": "Raphaël Varane",
         "short": "Varane",
         "x": 40.26,
         "y": 53.0,
-        "size": 103.1,
-        "is_playmaker": false,
-        "betweenness": 0.1,
-        "eigenvector": 0.2681
+        "size": 98.6,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.2168
       },
       {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
         "x": 64.44,
         "y": 53.31,
-        "size": 64.8,
+        "size": 74.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2499
+        "betweenness": 0.0111,
+        "eigenvector": 0.3689
       },
       {
         "id": "Hugo Lloris",
         "short": "Lloris",
         "x": 10.89,
         "y": 41.55,
-        "size": 55.0,
+        "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3111,
+        "eigenvector": 0.0201
       }
     ],
     "edges": [
@@ -817,6 +817,12 @@
         "direction": "forward"
       },
       {
+        "source": "Presnel Kimpembe",
+        "target": "Hugo Lloris",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Benjamin Pavard",
         "target": "Paul Pogba",
         "weight": 14,
@@ -833,6 +839,12 @@
         "target": "Raphaël Varane",
         "weight": 6,
         "direction": "backward"
+      },
+      {
+        "source": "Benjamin Pavard",
+        "target": "Antoine Griezmann",
+        "weight": 6,
+        "direction": "forward"
       },
       {
         "source": "Paul Pogba",
@@ -871,9 +883,21 @@
         "direction": "forward"
       },
       {
+        "source": "N''Golo Kanté",
+        "target": "Karim Benzema",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Adrien Rabiot",
         "target": "Lucas Hernández Pi",
         "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Adrien Rabiot",
+        "target": "N''Golo Kanté",
+        "weight": 6,
         "direction": "lateral"
       },
       {
@@ -893,6 +917,30 @@
         "target": "Paul Pogba",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Raphaël Varane",
+        "target": "Hugo Lloris",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Antoine Griezmann",
+        "target": "Paul Pogba",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hugo Lloris",
+        "target": "Raphaël Varane",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hugo Lloris",
+        "target": "Presnel Kimpembe",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -901,72 +949,72 @@
       {
         "id": "Antonio Rüdiger",
         "short": "Rüdiger",
-        "x": 69.04,
-        "y": 17.47,
-        "size": 129.7,
-        "is_playmaker": false,
-        "betweenness": 0.0604,
-        "eigenvector": 0.44
+        "x": 69.42,
+        "y": 17.44,
+        "size": 126.4,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.4529
       },
       {
         "id": "Robin Gosens",
         "short": "Gosens",
-        "x": 51.09,
-        "y": 7.15,
-        "size": 89.6,
+        "x": 51.56,
+        "y": 7.37,
+        "size": 90.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3639
+        "eigenvector": 0.338
       },
       {
         "id": "Mats Hummels",
         "short": "Hummels",
-        "x": 70.42,
-        "y": 47.16,
-        "size": 120.7,
-        "is_playmaker": true,
-        "betweenness": 0.0989,
-        "eigenvector": 0.4047
+        "x": 70.89,
+        "y": 47.11,
+        "size": 112.7,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.3793
       },
       {
         "id": "Toni Kroos",
         "short": "Kroos",
-        "x": 58.57,
-        "y": 31.32,
-        "size": 154.0,
+        "x": 58.53,
+        "y": 31.79,
+        "size": 140.1,
         "is_playmaker": true,
-        "betweenness": 0.0934,
-        "eigenvector": 0.5078
+        "betweenness": 0.2222,
+        "eigenvector": 0.4812
       },
       {
         "id": "Joshua Kimmich",
         "short": "Kimmich",
-        "x": 46.26,
-        "y": 69.99,
-        "size": 88.2,
+        "x": 45.95,
+        "y": 70.12,
+        "size": 94.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2834
+        "betweenness": 0.0111,
+        "eigenvector": 0.3158
       },
       {
         "id": "Matthias Ginter",
         "short": "Ginter",
         "x": 69.14,
         "y": 69.21,
-        "size": 87.5,
+        "size": 88.9,
         "is_playmaker": false,
-        "betweenness": 0.0385,
-        "eigenvector": 0.2442
+        "betweenness": 0.0333,
+        "eigenvector": 0.2338
       },
       {
         "id": "İlkay Gündoğan",
         "short": "Gündoğan",
         "x": 54.34,
         "y": 40.47,
-        "size": 99.3,
+        "size": 104.4,
         "is_playmaker": false,
-        "betweenness": 0.0165,
-        "eigenvector": 0.2712
+        "betweenness": 0.1,
+        "eigenvector": 0.3113
       },
       {
         "id": "Kai Havertz",
@@ -976,77 +1024,37 @@
         "size": 63.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1453
+        "eigenvector": 0.1281
       },
       {
         "id": "Thomas Müller",
         "short": "Müller",
-        "x": 41.97,
-        "y": 33.74,
-        "size": 62.6,
+        "x": 42.64,
+        "y": 31.77,
+        "size": 68.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1332
+        "betweenness": 0.1,
+        "eigenvector": 0.1923
       },
       {
         "id": "Serge Gnabry",
         "short": "Gnabry",
         "x": 41.19,
         "y": 39.95,
-        "size": 55.0,
+        "size": 57.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0333,
+        "eigenvector": 0.0071
       },
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
-        "x": 105.63,
-        "y": 37.36,
-        "size": 55.0,
+        "x": 105.88,
+        "y": 37.92,
+        "size": 57.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Leroy Sané",
-        "short": "Sané",
-        "x": 29.27,
-        "y": 34.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Timo Werner",
-        "short": "Werner",
-        "x": 53.92,
-        "y": 16.6,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Emre Can",
-        "short": "Can",
-        "x": 57.34,
-        "y": 48.52,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Kevin Volland",
-        "short": "Volland",
-        "x": 68.44,
-        "y": 4.16,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2111,
+        "eigenvector": 0.0184
       }
     ],
     "edges": [
@@ -1075,10 +1083,22 @@
         "direction": "backward"
       },
       {
+        "source": "Antonio Rüdiger",
+        "target": "Manuel Neuer",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Robin Gosens",
         "target": "Antonio Rüdiger",
         "weight": 17,
         "direction": "forward"
+      },
+      {
+        "source": "Robin Gosens",
+        "target": "Thomas Müller",
+        "weight": 10,
+        "direction": "backward"
       },
       {
         "source": "Mats Hummels",
@@ -1097,6 +1117,12 @@
         "target": "Matthias Ginter",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Mats Hummels",
+        "target": "Manuel Neuer",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Toni Kroos",
@@ -1147,10 +1173,22 @@
         "direction": "forward"
       },
       {
+        "source": "Joshua Kimmich",
+        "target": "İlkay Gündoğan",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
         "source": "Matthias Ginter",
         "target": "Mats Hummels",
         "weight": 16,
         "direction": "lateral"
+      },
+      {
+        "source": "Matthias Ginter",
+        "target": "Joshua Kimmich",
+        "weight": 10,
+        "direction": "backward"
       },
       {
         "source": "İlkay Gündoğan",
@@ -1169,6 +1207,48 @@
         "target": "Mats Hummels",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "İlkay Gündoğan",
+        "target": "Antonio Rüdiger",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Kai Havertz",
+        "target": "Serge Gnabry",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Thomas Müller",
+        "target": "Serge Gnabry",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Serge Gnabry",
+        "target": "Kai Havertz",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Serge Gnabry",
+        "target": "Thomas Müller",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Manuel Neuer",
+        "target": "Mats Hummels",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Manuel Neuer",
+        "target": "Antonio Rüdiger",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

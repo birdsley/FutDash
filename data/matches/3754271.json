@@ -797,129 +797,109 @@
       {
         "id": "Etienne Capoue",
         "short": "Capoue",
-        "x": 69.64,
-        "y": 52.56,
-        "size": 97.9,
+        "x": 67.69,
+        "y": 51.59,
+        "size": 105.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4723
+        "eigenvector": 0.5966
       },
       {
         "id": "Juan Carlos Paredes Reasco",
         "short": "Reasco",
         "x": 64.2,
         "y": 73.46,
-        "size": 106.2,
+        "size": 99.6,
         "is_playmaker": false,
-        "betweenness": 0.0758,
-        "eigenvector": 0.5751
+        "betweenness": 0.0889,
+        "eigenvector": 0.5646
       },
       {
         "id": "Miguel Ángel Britos Cabrera",
         "short": "Cabrera",
         "x": 39.54,
         "y": 29.56,
-        "size": 93.1,
+        "size": 88.2,
         "is_playmaker": false,
-        "betweenness": 0.1212,
-        "eigenvector": 0.2212
+        "betweenness": 0.0111,
+        "eigenvector": 0.1565
       },
       {
         "id": "Craig Cathcart",
         "short": "Cathcart",
         "x": 43.2,
         "y": 59.14,
-        "size": 75.2,
+        "size": 78.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1229
+        "eigenvector": 0.1903
       },
       {
         "id": "Ben Watson",
         "short": "Watson",
         "x": 55.03,
         "y": 41.67,
-        "size": 118.1,
+        "size": 123.4,
         "is_playmaker": true,
-        "betweenness": 0.3561,
-        "eigenvector": 0.4674
+        "betweenness": 0.5333,
+        "eigenvector": 0.3985
       },
       {
         "id": "Nathan Aké",
         "short": "Aké",
         "x": 61.02,
         "y": 10.96,
-        "size": 74.0,
+        "size": 77.8,
         "is_playmaker": false,
-        "betweenness": 0.0568,
-        "eigenvector": 0.2336
+        "betweenness": 0.0444,
+        "eigenvector": 0.1725
       },
       {
         "id": "Odion Jude Ighalo",
         "short": "Ighalo",
         "x": 81.75,
         "y": 39.01,
-        "size": 84.8,
+        "size": 80.9,
         "is_playmaker": false,
-        "betweenness": 0.1212,
-        "eigenvector": 0.0326
+        "betweenness": 0.1778,
+        "eigenvector": 0.0164
       },
       {
         "id": "Troy Deeney",
         "short": "Deeney",
-        "x": 75.58,
-        "y": 38.66,
-        "size": 93.1,
+        "x": 76.29,
+        "y": 37.7,
+        "size": 88.2,
         "is_playmaker": false,
-        "betweenness": 0.1288,
-        "eigenvector": 0.0735
+        "betweenness": 0.1889,
+        "eigenvector": 0.0427
       },
       {
         "id": "Valon Behrami",
         "short": "Behrami",
-        "x": 55.73,
-        "y": 21.91,
-        "size": 99.0,
+        "x": 56.01,
+        "y": 22.01,
+        "size": 105.8,
         "is_playmaker": false,
-        "betweenness": 0.2462,
-        "eigenvector": 0.2936
+        "betweenness": 0.3222,
+        "eigenvector": 0.2558
       },
       {
         "id": "José Manuel Jurado Marín",
         "short": "Marín",
         "x": 69.62,
         "y": 34.2,
-        "size": 100.2,
+        "size": 94.4,
         "is_playmaker": true,
-        "betweenness": 0.2879,
-        "eigenvector": 0.1286
+        "betweenness": 0.3889,
+        "eigenvector": 0.0924
       },
       {
         "id": "Heurelho da Silva Gomes",
         "short": "Gomes",
-        "x": 10.51,
-        "y": 40.82,
-        "size": 63.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Almen Abdi",
-        "short": "Abdi",
-        "x": 85.26,
-        "y": 32.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Allan Romeo Nyom",
-        "short": "Nyom",
-        "x": 58.03,
-        "y": 71.34,
-        "size": 55.0,
+        "x": 10.09,
+        "y": 41.5,
+        "size": 62.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -930,13 +910,13 @@
         "source": "Etienne Capoue",
         "target": "Juan Carlos Paredes Reasco",
         "weight": 15,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Juan Carlos Paredes Reasco",
         "target": "Etienne Capoue",
         "weight": 13,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Juan Carlos Paredes Reasco",
@@ -981,9 +961,27 @@
         "direction": "forward"
       },
       {
+        "source": "Ben Watson",
+        "target": "Etienne Capoue",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Ben Watson",
+        "target": "Craig Cathcart",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
         "source": "Nathan Aké",
         "target": "Miguel Ángel Britos Cabrera",
         "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Nathan Aké",
+        "target": "Valon Behrami",
+        "weight": 6,
         "direction": "backward"
       },
       {
@@ -1023,6 +1021,12 @@
         "direction": "forward"
       },
       {
+        "source": "Valon Behrami",
+        "target": "Etienne Capoue",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "José Manuel Jurado Marín",
         "target": "Troy Deeney",
         "weight": 8,
@@ -1051,141 +1055,111 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Chancel Mbemba Mangulu",
-        "short": "Mangulu",
-        "x": 76.65,
-        "y": 17.73,
-        "size": 70.5,
+        "id": "Moussa Sissoko",
+        "short": "Sissoko",
+        "x": 51.16,
+        "y": 59.82,
+        "size": 127.0,
+        "is_playmaker": true,
+        "betweenness": 0.2222,
+        "eigenvector": 0.5784
+      },
+      {
+        "id": "Daryl Janmaat",
+        "short": "Janmaat",
+        "x": 63.6,
+        "y": 71.33,
+        "size": 141.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.6379
+      },
+      {
+        "id": "Jamaal Lascelles",
+        "short": "Lascelles",
+        "x": 74.65,
+        "y": 62.13,
+        "size": 116.4,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.3868
+      },
+      {
+        "id": "Jonjo Shelvey",
+        "short": "Shelvey",
+        "x": 55.58,
+        "y": 49.09,
+        "size": 118.5,
+        "is_playmaker": true,
+        "betweenness": 0.4556,
+        "eigenvector": 0.2558
+      },
+      {
+        "id": "Chancel Mbemba Mangulu",
+        "short": "Mangulu",
+        "x": 81.37,
+        "y": 18.6,
+        "size": 81.5,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0579
       },
       {
         "id": "Rolando Aarons",
         "short": "Aarons",
         "x": 62.17,
         "y": 5.44,
-        "size": 70.5,
+        "size": 80.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jamaal Lascelles",
-        "short": "Lascelles",
-        "x": 75.07,
-        "y": 61.99,
-        "size": 150.1,
-        "is_playmaker": true,
-        "betweenness": 0.0128,
-        "eigenvector": 0.4243
-      },
-      {
-        "id": "Daryl Janmaat",
-        "short": "Janmaat",
-        "x": 61.44,
-        "y": 71.22,
-        "size": 206.5,
-        "is_playmaker": true,
-        "betweenness": 0.0256,
-        "eigenvector": 0.6749
-      },
-      {
-        "id": "Moussa Sissoko",
-        "short": "Sissoko",
-        "x": 50.58,
-        "y": 59.39,
-        "size": 142.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.5905
-      },
-      {
-        "id": "Jonjo Shelvey",
-        "short": "Shelvey",
-        "x": 56.46,
-        "y": 48.56,
-        "size": 90.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1255
+        "betweenness": 0.1111,
+        "eigenvector": 0.024
       },
       {
         "id": "Georginio Wijnaldum",
         "short": "Wijnaldum",
-        "x": 59.03,
-        "y": 39.38,
-        "size": 55.0,
+        "x": 56.36,
+        "y": 37.93,
+        "size": 69.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Henri Saivet",
-        "short": "Saivet",
-        "x": 77.54,
-        "y": 28.51,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Aleksandar Mitrović",
-        "short": "Mitrović",
-        "x": 53.83,
-        "y": 43.96,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1376
       },
       {
         "id": "Fabricio Coloccini",
         "short": "Coloccini",
         "x": 85.1,
         "y": 36.42,
-        "size": 55.0,
+        "size": 71.9,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0609
+      },
+      {
+        "id": "Henri Saivet",
+        "short": "Saivet",
+        "x": 77.54,
+        "y": 28.51,
+        "size": 60.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0041
+      },
+      {
+        "id": "Aleksandar Mitrović",
+        "short": "Mitrović",
+        "x": 56.58,
+        "y": 44.66,
+        "size": 73.0,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.1302
       },
       {
         "id": "Rob Elliot",
         "short": "Elliot",
         "x": 108.9,
         "y": 42.19,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ayoze Pérez Gutiérrez",
-        "short": "Gutiérrez",
-        "x": 40.53,
-        "y": 58.07,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Yoan Gouffran",
-        "short": "Gouffran",
-        "x": 68.14,
-        "y": 12.16,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Emmanuel Rivière",
-        "short": "Rivière",
-        "x": 39.0,
-        "y": 60.2,
-        "size": 55.0,
+        "size": 64.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1193,9 +1167,39 @@
     ],
     "edges": [
       {
-        "source": "Chancel Mbemba Mangulu",
-        "target": "Rolando Aarons",
-        "weight": 8,
+        "source": "Moussa Sissoko",
+        "target": "Daryl Janmaat",
+        "weight": 18,
+        "direction": "forward"
+      },
+      {
+        "source": "Moussa Sissoko",
+        "target": "Georginio Wijnaldum",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Moussa Sissoko",
+        "target": "Jonjo Shelvey",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Daryl Janmaat",
+        "target": "Moussa Sissoko",
+        "weight": 18,
+        "direction": "backward"
+      },
+      {
+        "source": "Daryl Janmaat",
+        "target": "Jamaal Lascelles",
+        "weight": 17,
+        "direction": "forward"
+      },
+      {
+        "source": "Daryl Janmaat",
+        "target": "Aleksandar Mitrović",
+        "weight": 4,
         "direction": "backward"
       },
       {
@@ -1217,28 +1221,94 @@
         "direction": "backward"
       },
       {
-        "source": "Daryl Janmaat",
-        "target": "Jamaal Lascelles",
-        "weight": 17,
-        "direction": "forward"
-      },
-      {
-        "source": "Daryl Janmaat",
-        "target": "Moussa Sissoko",
-        "weight": 18,
-        "direction": "backward"
-      },
-      {
-        "source": "Moussa Sissoko",
-        "target": "Daryl Janmaat",
-        "weight": 18,
-        "direction": "forward"
-      },
-      {
         "source": "Jonjo Shelvey",
         "target": "Daryl Janmaat",
         "weight": 10,
         "direction": "forward"
+      },
+      {
+        "source": "Jonjo Shelvey",
+        "target": "Fabricio Coloccini",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonjo Shelvey",
+        "target": "Chancel Mbemba Mangulu",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Jonjo Shelvey",
+        "target": "Moussa Sissoko",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Jonjo Shelvey",
+        "target": "Aleksandar Mitrović",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Chancel Mbemba Mangulu",
+        "target": "Rolando Aarons",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Chancel Mbemba Mangulu",
+        "target": "Jamaal Lascelles",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Rolando Aarons",
+        "target": "Chancel Mbemba Mangulu",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Rolando Aarons",
+        "target": "Henri Saivet",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Georginio Wijnaldum",
+        "target": "Jonjo Shelvey",
+        "weight": 7,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fabricio Coloccini",
+        "target": "Jamaal Lascelles",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Fabricio Coloccini",
+        "target": "Rolando Aarons",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Aleksandar Mitrović",
+        "target": "Moussa Sissoko",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Rob Elliot",
+        "target": "Jonjo Shelvey",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Rob Elliot",
+        "target": "Aleksandar Mitrović",
+        "weight": 4,
+        "direction": "backward"
       }
     ]
   },

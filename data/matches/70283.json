@@ -821,132 +821,112 @@
       {
         "id": "Martín Montoya Torralbo",
         "short": "Torralbo",
-        "x": 62.27,
-        "y": 11.37,
-        "size": 90.0,
+        "x": 62.17,
+        "y": 11.46,
+        "size": 91.3,
         "is_playmaker": false,
-        "betweenness": 0.0114,
-        "eigenvector": 0.0166
+        "betweenness": 0.0,
+        "eigenvector": 0.0138
       },
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
-        "x": 83.13,
-        "y": 18.6,
-        "size": 96.1,
+        "x": 82.91,
+        "y": 19.25,
+        "size": 91.3,
         "is_playmaker": false,
-        "betweenness": 0.0227,
-        "eigenvector": 0.1854
+        "betweenness": 0.0222,
+        "eigenvector": 0.1725
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 60.44,
-        "y": 38.59,
-        "size": 114.2,
-        "is_playmaker": true,
-        "betweenness": 0.1742,
-        "eigenvector": 0.4088
+        "x": 60.52,
+        "y": 38.91,
+        "size": 112.6,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.4028
       },
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 66.72,
-        "y": 48.43,
-        "size": 133.5,
+        "x": 66.02,
+        "y": 47.82,
+        "size": 129.7,
         "is_playmaker": false,
-        "betweenness": 0.1553,
-        "eigenvector": 0.5196
+        "betweenness": 0.1056,
+        "eigenvector": 0.5595
       },
       {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
         "x": 76.06,
         "y": 70.61,
-        "size": 127.5,
+        "size": 124.3,
         "is_playmaker": true,
-        "betweenness": 0.1591,
-        "eigenvector": 0.5215
+        "betweenness": 0.2611,
+        "eigenvector": 0.5184
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
         "x": 72.93,
         "y": 31.2,
-        "size": 79.8,
+        "size": 76.9,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.1741
+        "betweenness": 0.0111,
+        "eigenvector": 0.1543
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 77.32,
-        "y": 55.11,
-        "size": 85.8,
+        "x": 77.22,
+        "y": 55.6,
+        "size": 87.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.4149
+        "eigenvector": 0.3964
       },
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
         "x": 45.23,
         "y": 29.94,
-        "size": 79.2,
+        "size": 88.1,
         "is_playmaker": false,
-        "betweenness": 0.0985,
-        "eigenvector": 0.0472
+        "betweenness": 0.2389,
+        "eigenvector": 0.0427
       },
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
         "x": 46.13,
         "y": 55.04,
-        "size": 72.5,
-        "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.1342
+        "size": 76.9,
+        "is_playmaker": true,
+        "betweenness": 0.2722,
+        "eigenvector": 0.1221
       },
       {
         "id": "Alexis Alejandro Sánchez Sánchez",
         "short": "Sánchez",
         "x": 80.4,
         "y": 64.9,
-        "size": 71.3,
+        "size": 69.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1834
+        "eigenvector": 0.1682
       },
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
         "x": 9.66,
         "y": 42.21,
-        "size": 55.0,
+        "size": 57.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Francesc Fàbregas i Soler",
-        "short": "Soler",
-        "x": 76.0,
-        "y": 27.26,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Pedro Eliezer Rodríguez Ledesma",
-        "short": "Ledesma",
-        "x": 107.43,
-        "y": 72.03,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2444,
+        "eigenvector": 0.0036
       }
     ],
     "edges": [
@@ -961,6 +941,12 @@
         "target": "Sergio Busquets i Burgos",
         "weight": 16,
         "direction": "lateral"
+      },
+      {
+        "source": "Martín Montoya Torralbo",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 10,
+        "direction": "backward"
       },
       {
         "source": "Neymar da Silva Santos Junior",
@@ -1047,6 +1033,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Xavier Hernández Creus",
+        "weight": 10,
+        "direction": "backward"
+      },
+      {
         "source": "Javier Alejandro Mascherano",
         "target": "Martín Montoya Torralbo",
         "weight": 15,
@@ -1059,153 +1051,266 @@
         "direction": "forward"
       },
       {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Gerard Piqué Bernabéu",
         "target": "Javier Alejandro Mascherano",
         "weight": 15,
         "direction": "lateral"
       },
       {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Daniel Alves da Silva",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Alexis Alejandro Sánchez Sánchez",
         "target": "Daniel Alves da Silva",
         "weight": 12,
         "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Víctor Sánchez Mata",
-        "short": "Mata",
-        "x": 58.46,
-        "y": 39.29,
-        "size": 55.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
         "id": "Sergio García De La Fuente",
         "short": "Fuente",
-        "x": 44.1,
-        "y": 47.83,
-        "size": 55.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Gabriel Andrei Torje",
-        "short": "Torje",
-        "x": 57.02,
-        "y": 26.99,
-        "size": 55.0,
+        "x": 45.52,
+        "y": 45.8,
+        "size": 120.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Abraham González Casanova",
-        "short": "Casanova",
-        "x": 61.37,
-        "y": 53.37,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "betweenness": 0.0333,
+        "eigenvector": 0.6906
       },
       {
         "id": "Thievy Guivane Bifouma Koulossa",
         "short": "Koulossa",
         "x": 57.38,
         "y": 62.2,
-        "size": 55.0,
+        "size": 95.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.5983
       },
       {
         "id": "Raúl Rodríguez Navarro",
         "short": "Navarro",
-        "x": 67.56,
-        "y": 67.7,
-        "size": 55.0,
+        "x": 68.56,
+        "y": 65.63,
+        "size": 115.0,
+        "is_playmaker": true,
+        "betweenness": 0.1222,
+        "eigenvector": 0.1686
+      },
+      {
+        "id": "Abraham González Casanova",
+        "short": "Casanova",
+        "x": 61.37,
+        "y": 53.37,
+        "size": 117.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "betweenness": 0.0556,
+        "eigenvector": 0.2326
       },
       {
         "id": "David López Silva",
         "short": "Silva",
-        "x": 66.07,
-        "y": 45.31,
-        "size": 55.0,
+        "x": 67.36,
+        "y": 43.88,
+        "size": 83.6,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Juan Rafael Fuentes Hernández",
-        "short": "Hernández",
-        "x": 52.01,
-        "y": 7.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Francisco Casilla Cortés",
-        "short": "Cortés",
-        "x": 105.2,
-        "y": 41.7,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
-      },
-      {
-        "id": "Sidnei Rechel da Silva Júnior",
-        "short": "Júnior",
-        "x": 81.0,
-        "y": 52.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.1686
       },
       {
         "id": "Héctor Alfredo Moreno Herrera",
         "short": "Herrera",
         "x": 71.07,
         "y": 28.81,
-        "size": 55.0,
+        "size": 66.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.0
       },
       {
-        "id": "Jhon Andrés Córdoba Copete",
-        "short": "Copete",
-        "x": 65.57,
-        "y": 51.87,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "id": "Sidnei Rechel da Silva Júnior",
+        "short": "Júnior",
+        "x": 80.12,
+        "y": 52.27,
+        "size": 77.9,
+        "is_playmaker": true,
+        "betweenness": 0.0667,
+        "eigenvector": 0.0
       },
       {
-        "id": "Manuel Lanzarote Bruno",
-        "short": "Bruno",
-        "x": 48.58,
-        "y": 67.6,
-        "size": 55.0,
+        "id": "Francisco Casilla Cortés",
+        "short": "Cortés",
+        "x": 104.22,
+        "y": 40.35,
+        "size": 66.4,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2774
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Víctor Sánchez Mata",
+        "short": "Mata",
+        "x": 57.3,
+        "y": 38.47,
+        "size": 100.7,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.2326
+      },
+      {
+        "id": "Gabriel Andrei Torje",
+        "short": "Torje",
+        "x": 60.63,
+        "y": 25.5,
+        "size": 80.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Juan Rafael Fuentes Hernández",
+        "short": "Hernández",
+        "x": 52.69,
+        "y": 5.67,
+        "size": 80.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
       }
     ],
-    "edges": []
+    "edges": [
+      {
+        "source": "Sergio García De La Fuente",
+        "target": "Thievy Guivane Bifouma Koulossa",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Thievy Guivane Bifouma Koulossa",
+        "target": "Sergio García De La Fuente",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Raúl Rodríguez Navarro",
+        "target": "Abraham González Casanova",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Raúl Rodríguez Navarro",
+        "target": "Víctor Sánchez Mata",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Raúl Rodríguez Navarro",
+        "target": "Thievy Guivane Bifouma Koulossa",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Abraham González Casanova",
+        "target": "Raúl Rodríguez Navarro",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Abraham González Casanova",
+        "target": "Víctor Sánchez Mata",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Abraham González Casanova",
+        "target": "David López Silva",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "David López Silva",
+        "target": "Sergio García De La Fuente",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Héctor Alfredo Moreno Herrera",
+        "target": "Sidnei Rechel da Silva Júnior",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Sidnei Rechel da Silva Júnior",
+        "target": "Raúl Rodríguez Navarro",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Francisco Casilla Cortés",
+        "target": "Sergio García De La Fuente",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Sánchez Mata",
+        "target": "Abraham González Casanova",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Sánchez Mata",
+        "target": "Sergio García De La Fuente",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Gabriel Andrei Torje",
+        "target": "Juan Rafael Fuentes Hernández",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Juan Rafael Fuentes Hernández",
+        "target": "Gabriel Andrei Torje",
+        "weight": 4,
+        "direction": "forward"
+      }
+    ]
   },
   "vaep": {
     "home": [

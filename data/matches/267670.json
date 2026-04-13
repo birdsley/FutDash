@@ -893,132 +893,112 @@
       {
         "id": "Sergi Roberto Carnicer",
         "short": "Carnicer",
-        "x": 75.02,
-        "y": 69.8,
-        "size": 145.8,
+        "x": 75.22,
+        "y": 70.06,
+        "size": 136.0,
         "is_playmaker": true,
-        "betweenness": 0.0985,
-        "eigenvector": 0.5441
+        "betweenness": 0.3667,
+        "eigenvector": 0.5248
       },
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
         "x": 79.41,
         "y": 56.4,
-        "size": 138.2,
+        "size": 134.3,
         "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.5871
+        "betweenness": 0.2556,
+        "eigenvector": 0.5757
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 86.5,
-        "y": 58.12,
-        "size": 126.1,
-        "is_playmaker": true,
-        "betweenness": 0.0833,
-        "eigenvector": 0.544
+        "x": 86.21,
+        "y": 58.56,
+        "size": 123.0,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.5359
       },
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
         "x": 48.76,
         "y": 56.82,
-        "size": 83.6,
-        "is_playmaker": false,
-        "betweenness": 0.0379,
-        "eigenvector": 0.1365
+        "size": 81.6,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.1261
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 63.34,
-        "y": 40.74,
-        "size": 108.3,
+        "x": 63.56,
+        "y": 40.47,
+        "size": 112.2,
         "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.1699
+        "betweenness": 0.2,
+        "eigenvector": 0.2572
       },
       {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Díaz",
         "x": 87.24,
         "y": 44.89,
-        "size": 69.0,
+        "size": 67.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1259
+        "eigenvector": 0.1183
       },
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
         "x": 67.04,
         "y": 14.54,
-        "size": 81.0,
+        "size": 82.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1667,
+        "eigenvector": 0.0144
       },
       {
         "id": "Denis Suárez Fernández",
         "short": "Fernández",
         "x": 75.34,
         "y": 26.27,
-        "size": 68.3,
+        "size": 66.9,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0029
       },
       {
         "id": "Samuel Yves Umtiti",
         "short": "Umtiti",
-        "x": 41.03,
-        "y": 20.44,
-        "size": 68.3,
+        "x": 39.26,
+        "y": 20.27,
+        "size": 68.0,
         "is_playmaker": false,
-        "betweenness": 0.0076,
-        "eigenvector": 0.0
+        "betweenness": 0.0667,
+        "eigenvector": 0.0027
       },
       {
         "id": "Arda Turan",
         "short": "Turan",
-        "x": 79.09,
-        "y": 25.07,
-        "size": 61.3,
+        "x": 79.11,
+        "y": 25.42,
+        "size": 75.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2222,
+        "eigenvector": 0.098
       },
       {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Muñoz",
         "x": 11.15,
         "y": 35.48,
-        "size": 55.0,
+        "size": 57.3,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lucas Digne",
-        "short": "Digne",
-        "x": 76.21,
-        "y": 7.32,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Munir El Haddadi Mohamed",
-        "short": "Mohamed",
-        "x": 96.55,
-        "y": 14.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2,
+        "eigenvector": 0.0024
       }
     ],
     "edges": [
@@ -1059,6 +1039,12 @@
         "direction": "backward"
       },
       {
+        "source": "Ivan Rakitić",
+        "target": "Arda Turan",
+        "weight": 9,
+        "direction": "lateral"
+      },
+      {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Ivan Rakitić",
         "weight": 15,
@@ -1077,10 +1063,22 @@
         "direction": "lateral"
       },
       {
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Gerard Piqué Bernabéu",
         "target": "Sergi Roberto Carnicer",
         "weight": 21,
         "direction": "forward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Claudio Andrés Bravo Muñoz",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
@@ -1141,6 +1139,36 @@
         "target": "Gerard Piqué Bernabéu",
         "weight": 11,
         "direction": "forward"
+      },
+      {
+        "source": "Samuel Yves Umtiti",
+        "target": "Claudio Andrés Bravo Muñoz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Arda Turan",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Arda Turan",
+        "target": "Jordi Alba Ramos",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Samuel Yves Umtiti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1149,79 +1177,89 @@
       {
         "id": "Rubén Castro Martín",
         "short": "Martín",
-        "x": 55.03,
-        "y": 34.91,
-        "size": 255.0,
+        "x": 56.04,
+        "y": 30.34,
+        "size": 137.9,
         "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.6151
+      },
+      {
+        "id": "Petros Matheus dos Santos Araújo",
+        "short": "Araújo",
+        "x": 64.21,
+        "y": 33.02,
+        "size": 92.1,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.3657
+      },
+      {
+        "id": "Bruno González Cabrera",
+        "short": "Cabrera",
+        "x": 80.4,
+        "y": 66.43,
+        "size": 106.4,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.1747
+      },
+      {
+        "id": "Riza Durmisi",
+        "short": "Durmisi",
+        "x": 56.72,
+        "y": 10.51,
+        "size": 95.0,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.75
+        "eigenvector": 0.0
       },
       {
         "id": "Arnaldo Antonio Sanabria Ayala",
         "short": "Ayala",
-        "x": 50.94,
-        "y": 38.33,
-        "size": 255.0,
-        "is_playmaker": true,
+        "x": 51.16,
+        "y": 36.1,
+        "size": 129.3,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.5747
+      },
+      {
+        "id": "Jonas Martin",
+        "short": "Martin",
+        "x": 43.54,
+        "y": 27.63,
+        "size": 66.4,
+        "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.6614
+        "eigenvector": 0.174
+      },
+      {
+        "id": "Antonio Adán Garrido",
+        "short": "Garrido",
+        "x": 109.2,
+        "y": 35.73,
+        "size": 89.3,
+        "is_playmaker": true,
+        "betweenness": 0.3889,
+        "eigenvector": 0.1054
       },
       {
         "id": "Felipe Alejandro Gutiérrez Leiva",
         "short": "Leiva",
         "x": 58.97,
         "y": 21.42,
-        "size": 55.0,
+        "size": 80.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Antonio Adán Garrido",
-        "short": "Garrido",
-        "x": 108.97,
-        "y": 38.24,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2926
       },
       {
         "id": "Álvaro Cejudo Carmona",
         "short": "Carmona",
-        "x": 61.12,
-        "y": 60.39,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Petros Matheus dos Santos Araújo",
-        "short": "Araújo",
-        "x": 66.08,
-        "y": 33.17,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Bruno González Cabrera",
-        "short": "Cabrera",
-        "x": 79.06,
-        "y": 65.72,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Riza Durmisi",
-        "short": "Durmisi",
-        "x": 56.36,
-        "y": 10.23,
-        "size": 55.0,
+        "x": 57.87,
+        "y": 59.93,
+        "size": 69.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1231,63 +1269,29 @@
         "short": "Mandi",
         "x": 80.83,
         "y": 38.3,
-        "size": 55.0,
+        "size": 72.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0222,
+        "eigenvector": 0.0015
       },
       {
         "id": "Germán Alejandro Pezzella",
         "short": "Pezzella",
-        "x": 93.99,
-        "y": 16.49,
-        "size": 55.0,
+        "x": 93.54,
+        "y": 13.94,
+        "size": 66.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Daniel Ceballos Fernández",
-        "short": "Fernández",
-        "x": 64.3,
-        "y": 52.05,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Fabián Ruiz Peña",
-        "short": "Peña",
-        "x": 69.06,
-        "y": 43.28,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Jonas Martin",
-        "short": "Martin",
-        "x": 43.54,
-        "y": 27.63,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Charly Musonda Junior",
-        "short": "Junior",
-        "x": 51.9,
-        "y": 71.5,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0127
       }
     ],
     "edges": [
+      {
+        "source": "Rubén Castro Martín",
+        "target": "Petros Matheus dos Santos Araújo",
+        "weight": 5,
+        "direction": "forward"
+      },
       {
         "source": "Rubén Castro Martín",
         "target": "Arnaldo Antonio Sanabria Ayala",
@@ -1295,10 +1299,94 @@
         "direction": "backward"
       },
       {
+        "source": "Rubén Castro Martín",
+        "target": "Felipe Alejandro Gutiérrez Leiva",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Petros Matheus dos Santos Araújo",
+        "target": "Bruno González Cabrera",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Petros Matheus dos Santos Araújo",
+        "target": "Jonas Martin",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Bruno González Cabrera",
+        "target": "Antonio Adán Garrido",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Riza Durmisi",
+        "target": "Rubén Castro Martín",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Riza Durmisi",
+        "target": "Arnaldo Antonio Sanabria Ayala",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Riza Durmisi",
+        "target": "Felipe Alejandro Gutiérrez Leiva",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
         "source": "Arnaldo Antonio Sanabria Ayala",
         "target": "Rubén Castro Martín",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Antonio Adán Garrido",
+        "target": "Arnaldo Antonio Sanabria Ayala",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Antonio Adán Garrido",
+        "target": "Germán Alejandro Pezzella",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Álvaro Cejudo Carmona",
+        "target": "Bruno González Cabrera",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Aïssa Mandi",
+        "target": "Bruno González Cabrera",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Aïssa Mandi",
+        "target": "Germán Alejandro Pezzella",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Germán Alejandro Pezzella",
+        "target": "Antonio Adán Garrido",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Germán Alejandro Pezzella",
+        "target": "Aïssa Mandi",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

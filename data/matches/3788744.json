@@ -823,120 +823,110 @@
         "short": "Allen",
         "x": 53.56,
         "y": 35.62,
-        "size": 98.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 105.7,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.3011
       },
       {
         "id": "Aaron Ramsey",
         "short": "Ramsey",
         "x": 59.02,
         "y": 28.28,
-        "size": 98.8,
-        "is_playmaker": true,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0
+        "size": 102.9,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.4037
       },
       {
         "id": "Gareth Frank Bale",
         "short": "Bale",
-        "x": 70.47,
-        "y": 54.89,
-        "size": 98.8,
+        "x": 68.98,
+        "y": 56.87,
+        "size": 83.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Joseff Morrell",
-        "short": "Morrell",
-        "x": 53.72,
-        "y": 49.47,
-        "size": 101.9,
-        "is_playmaker": true,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Connor Roberts",
-        "short": "Roberts",
-        "x": 55.5,
-        "y": 73.72,
-        "size": 101.9,
-        "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Joe Rodon",
-        "short": "Rodon",
-        "x": 34.44,
-        "y": 27.19,
-        "size": 142.5,
-        "is_playmaker": false,
-        "betweenness": 0.0091,
-        "eigenvector": 0.5904
+        "eigenvector": 0.3288
       },
       {
         "id": "Ben Davies",
         "short": "Davies",
         "x": 58.18,
         "y": 9.83,
-        "size": 117.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.6527
-      },
-      {
-        "id": "Chris Mepham",
-        "short": "Mepham",
-        "x": 34.95,
-        "y": 51.46,
-        "size": 80.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4747
-      },
-      {
-        "id": "Kieffer Roberto Francisco Moore",
-        "short": "Moore",
-        "x": 73.78,
-        "y": 28.2,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "size": 129.6,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.5671
       },
       {
         "id": "Daniel James",
         "short": "James",
         "x": 84.62,
         "y": 15.76,
-        "size": 55.0,
+        "size": 67.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1834
+      },
+      {
+        "id": "Joseff Morrell",
+        "short": "Morrell",
+        "x": 53.94,
+        "y": 48.66,
+        "size": 98.7,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.1962
+      },
+      {
+        "id": "Connor Roberts",
+        "short": "Roberts",
+        "x": 54.38,
+        "y": 73.67,
+        "size": 97.3,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.1545
       },
       {
         "id": "Danny Ward",
         "short": "Ward",
         "x": 10.42,
         "y": 39.49,
-        "size": 55.0,
+        "size": 70.5,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
-        "id": "David Brooks",
-        "short": "Brooks",
-        "x": 88.73,
-        "y": 48.53,
-        "size": 55.0,
+        "id": "Kieffer Roberto Francisco Moore",
+        "short": "Moore",
+        "x": 73.78,
+        "y": 28.2,
+        "size": 69.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1467
+      },
+      {
+        "id": "Chris Mepham",
+        "short": "Mepham",
+        "x": 33.04,
+        "y": 51.57,
+        "size": 78.9,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.205
+      },
+      {
+        "id": "Joe Rodon",
+        "short": "Rodon",
+        "x": 34.44,
+        "y": 27.19,
+        "size": 101.5,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.3963
       }
     ],
     "edges": [
@@ -953,10 +943,64 @@
         "direction": "lateral"
       },
       {
+        "source": "Joe Allen",
+        "target": "Ben Davies",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Aaron Ramsey",
+        "target": "Joe Allen",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Aaron Ramsey",
         "target": "Gareth Frank Bale",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Aaron Ramsey",
+        "target": "Ben Davies",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ben Davies",
+        "target": "Daniel James",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Ben Davies",
+        "target": "Joe Allen",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Ben Davies",
+        "target": "Aaron Ramsey",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ben Davies",
+        "target": "Joe Rodon",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Ben Davies",
+        "target": "Kieffer Roberto Francisco Moore",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel James",
+        "target": "Aaron Ramsey",
+        "weight": 4,
+        "direction": "backward"
       },
       {
         "source": "Joseff Morrell",
@@ -965,9 +1009,57 @@
         "direction": "lateral"
       },
       {
+        "source": "Joseff Morrell",
+        "target": "Ben Davies",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Joseff Morrell",
+        "target": "Gareth Frank Bale",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
         "source": "Connor Roberts",
         "target": "Gareth Frank Bale",
         "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Connor Roberts",
+        "target": "Joseff Morrell",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Connor Roberts",
+        "target": "Joe Allen",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Danny Ward",
+        "target": "Kieffer Roberto Francisco Moore",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Danny Ward",
+        "target": "Joe Allen",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Chris Mepham",
+        "target": "Joe Rodon",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Chris Mepham",
+        "target": "Connor Roberts",
+        "weight": 4,
         "direction": "forward"
       },
       {
@@ -981,12 +1073,6 @@
         "target": "Chris Mepham",
         "weight": 8,
         "direction": "lateral"
-      },
-      {
-        "source": "Ben Davies",
-        "target": "Joe Rodon",
-        "weight": 9,
-        "direction": "backward"
       }
     ]
   },
@@ -995,79 +1081,79 @@
       {
         "id": "Fabian Lukas Schär",
         "short": "Schär",
-        "x": 73.35,
-        "y": 44.42,
-        "size": 130.3,
+        "x": 72.89,
+        "y": 44.39,
+        "size": 131.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.5193
+        "eigenvector": 0.5345
       },
       {
         "id": "Manuel Obafemi Akanji",
         "short": "Akanji",
         "x": 71.71,
         "y": 23.87,
-        "size": 150.5,
-        "is_playmaker": true,
-        "betweenness": 0.1061,
-        "eigenvector": 0.5693
+        "size": 137.8,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.5276
       },
       {
         "id": "Nico Elvedi",
         "short": "Elvedi",
-        "x": 72.43,
-        "y": 66.2,
-        "size": 122.2,
+        "x": 71.81,
+        "y": 66.06,
+        "size": 118.2,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.3217
+        "betweenness": 0.1778,
+        "eigenvector": 0.3608
       },
       {
         "id": "Kevin Mbabu",
         "short": "Mbabu",
-        "x": 50.25,
-        "y": 74.68,
-        "size": 78.5,
+        "x": 50.29,
+        "y": 75.16,
+        "size": 80.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1425
+        "eigenvector": 0.1987
       },
       {
         "id": "Ricardo Iván Rodríguez Araya",
         "short": "Araya",
-        "x": 48.73,
-        "y": 11.65,
-        "size": 89.0,
+        "x": 50.09,
+        "y": 11.97,
+        "size": 84.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2948
+        "eigenvector": 0.2466
       },
       {
         "id": "Remo Freuler",
         "short": "Freuler",
         "x": 55.59,
         "y": 39.16,
-        "size": 89.0,
-        "is_playmaker": false,
-        "betweenness": 0.053,
-        "eigenvector": 0.2559
+        "size": 101.3,
+        "is_playmaker": true,
+        "betweenness": 0.4944,
+        "eigenvector": 0.3159
       },
       {
         "id": "Granit Xhaka",
         "short": "Xhaka",
-        "x": 62.12,
-        "y": 34.17,
-        "size": 110.9,
+        "x": 62.79,
+        "y": 33.98,
+        "size": 109.0,
         "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.3555
+        "betweenness": 0.3444,
+        "eigenvector": 0.318
       },
       {
         "id": "Yann Sommer",
         "short": "Sommer",
         "x": 105.33,
         "y": 41.84,
-        "size": 62.3,
+        "size": 61.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -1075,52 +1161,32 @@
       {
         "id": "Haris Seferović",
         "short": "Seferović",
-        "x": 39.66,
-        "y": 43.24,
-        "size": 62.3,
+        "x": 42.4,
+        "y": 42.19,
+        "size": 64.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.06
+        "eigenvector": 0.0679
       },
       {
         "id": "Breel-Donald Embolo",
         "short": "Embolo",
-        "x": 43.59,
-        "y": 35.51,
-        "size": 55.0,
+        "x": 42.32,
+        "y": 35.96,
+        "size": 59.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.3333,
+        "eigenvector": 0.0092
       },
       {
         "id": "Xherdan Shaqiri",
         "short": "Shaqiri",
         "x": 33.17,
         "y": 48.31,
-        "size": 55.0,
+        "size": 57.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Denis Lemi Zakaria Lako Lado",
-        "short": "Lado",
-        "x": 50.74,
-        "y": 60.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Mario Gavranović",
-        "short": "Gavranović",
-        "x": 33.17,
-        "y": 49.47,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.0018
       }
     ],
     "edges": [
@@ -1139,6 +1205,12 @@
       {
         "source": "Fabian Lukas Schär",
         "target": "Granit Xhaka",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Fabian Lukas Schär",
+        "target": "Remo Freuler",
         "weight": 8,
         "direction": "backward"
       },
@@ -1215,6 +1287,24 @@
         "direction": "backward"
       },
       {
+        "source": "Remo Freuler",
+        "target": "Nico Elvedi",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Remo Freuler",
+        "target": "Kevin Mbabu",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Remo Freuler",
+        "target": "Breel-Donald Embolo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Granit Xhaka",
         "target": "Ricardo Iván Rodríguez Araya",
         "weight": 11,
@@ -1239,10 +1329,58 @@
         "direction": "forward"
       },
       {
+        "source": "Granit Xhaka",
+        "target": "Fabian Lukas Schär",
+        "weight": 8,
+        "direction": "forward"
+      },
+      {
         "source": "Yann Sommer",
         "target": "Manuel Obafemi Akanji",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Haris Seferović",
+        "target": "Breel-Donald Embolo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Haris Seferović",
+        "target": "Xherdan Shaqiri",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Breel-Donald Embolo",
+        "target": "Haris Seferović",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Breel-Donald Embolo",
+        "target": "Remo Freuler",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Breel-Donald Embolo",
+        "target": "Xherdan Shaqiri",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Xherdan Shaqiri",
+        "target": "Haris Seferović",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Xherdan Shaqiri",
+        "target": "Breel-Donald Embolo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

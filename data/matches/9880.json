@@ -845,29 +845,29 @@
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
-        "x": 78.58,
-        "y": 8.42,
-        "size": 103.5,
+        "x": 78.79,
+        "y": 8.13,
+        "size": 97.8,
         "is_playmaker": false,
-        "betweenness": 0.0606,
-        "eigenvector": 0.4678
+        "betweenness": 0.0889,
+        "eigenvector": 0.409
       },
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
         "x": 75.38,
         "y": 20.32,
-        "size": 117.5,
+        "size": 121.9,
         "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.6385
+        "betweenness": 0.2444,
+        "eigenvector": 0.6186
       },
       {
         "id": "Samuel Yves Umtiti",
         "short": "Umtiti",
         "x": 49.99,
         "y": 20.5,
-        "size": 67.6,
+        "size": 66.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -875,99 +875,79 @@
       {
         "id": "Sergi Roberto Carnicer",
         "short": "Carnicer",
-        "x": 70.37,
-        "y": 70.27,
-        "size": 122.8,
+        "x": 71.31,
+        "y": 70.13,
+        "size": 114.8,
         "is_playmaker": false,
-        "betweenness": 0.1364,
-        "eigenvector": 0.1794
+        "betweenness": 0.0444,
+        "eigenvector": 0.1491
       },
       {
         "id": "José Paulo Bezzera Maciel Júnior",
         "short": "Júnior",
-        "x": 71.48,
+        "x": 70.93,
         "y": 50.45,
-        "size": 92.9,
+        "size": 100.2,
         "is_playmaker": false,
-        "betweenness": 0.0152,
-        "eigenvector": 0.2024
+        "betweenness": 0.0667,
+        "eigenvector": 0.2012
       },
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 62.35,
-        "y": 38.78,
-        "size": 108.8,
+        "x": 62.19,
+        "y": 38.92,
+        "size": 108.4,
         "is_playmaker": true,
-        "betweenness": 0.1894,
-        "eigenvector": 0.3385
+        "betweenness": 0.2,
+        "eigenvector": 0.3314
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 81.0,
-        "y": 44.4,
-        "size": 107.5,
+        "x": 80.71,
+        "y": 44.74,
+        "size": 107.2,
         "is_playmaker": false,
-        "betweenness": 0.1061,
-        "eigenvector": 0.3181
+        "betweenness": 0.1667,
+        "eigenvector": 0.4342
       },
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
-        "x": 47.01,
-        "y": 56.73,
-        "size": 88.2,
+        "x": 47.67,
+        "y": 56.5,
+        "size": 90.2,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.1921
+        "betweenness": 0.1,
+        "eigenvector": 0.1613
       },
       {
         "id": "Philippe Coutinho Correia",
         "short": "Correia",
         "x": 79.17,
         "y": 52.2,
-        "size": 71.6,
+        "size": 75.5,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1874
+        "eigenvector": 0.2097
       },
       {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Díaz",
-        "x": 84.79,
-        "y": 34.49,
-        "size": 63.0,
+        "x": 86.3,
+        "y": 33.49,
+        "size": 62.0,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.1119
+        "eigenvector": 0.1378
       },
       {
         "id": "Marc-André ter Stegen",
         "short": "Stegen",
         "x": 11.14,
         "y": 40.29,
-        "size": 61.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Ousmane Dembélé",
-        "short": "Dembélé",
-        "x": 76.18,
-        "y": 64.4,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Denis Suárez Fernández",
-        "short": "Fernández",
-        "x": 80.05,
-        "y": 18.26,
-        "size": 55.0,
+        "size": 60.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -991,6 +971,12 @@
         "target": "Sergio Busquets i Burgos",
         "weight": 15,
         "direction": "backward"
+      },
+      {
+        "source": "Andrés Iniesta Luján",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 10,
+        "direction": "forward"
       },
       {
         "source": "Samuel Yves Umtiti",
@@ -1041,6 +1027,18 @@
         "direction": "forward"
       },
       {
+        "source": "José Paulo Bezzera Maciel Júnior",
+        "target": "Andrés Iniesta Luján",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "José Paulo Bezzera Maciel Júnior",
+        "target": "Philippe Coutinho Correia",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
         "source": "Sergio Busquets i Burgos",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 17,
@@ -1068,7 +1066,7 @@
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Luis Alberto Suárez Díaz",
         "weight": 12,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
@@ -1089,6 +1087,12 @@
         "direction": "forward"
       },
       {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Sergio Busquets i Burgos",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
         "source": "Marc-André ter Stegen",
         "target": "Gerard Piqué Bernabéu",
         "weight": 10,
@@ -1099,195 +1103,117 @@
   "network_away": {
     "nodes": [
       {
-        "id": "Daniel Parejo Muñoz",
-        "short": "Muñoz",
-        "x": 61.88,
-        "y": 41.38,
-        "size": 166.3,
-        "is_playmaker": true,
-        "betweenness": 0.0577,
-        "eigenvector": 0.6627
-      },
-      {
-        "id": "Carlos Soler Barragán",
-        "short": "Barragán",
-        "x": 56.92,
-        "y": 64.38,
-        "size": 121.1,
-        "is_playmaker": false,
-        "betweenness": 0.0128,
-        "eigenvector": 0.4959
-      },
-      {
-        "id": "Rúben Miguel Nunes Vezo",
-        "short": "Vezo",
-        "x": 65.91,
-        "y": 73.19,
-        "size": 117.6,
-        "is_playmaker": true,
-        "betweenness": 0.0256,
-        "eigenvector": 0.2403
-      },
-      {
-        "id": "Rodrigo Moreno Machado",
-        "short": "Machado",
-        "x": 53.54,
-        "y": 47.3,
-        "size": 70.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.3211
-      },
-      {
-        "id": "Ezequiel Marcelo Garay",
-        "short": "Garay",
-        "x": 80.38,
-        "y": 56.49,
-        "size": 68.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "José Luis Gayà Peña",
         "short": "Peña",
-        "x": 49.01,
-        "y": 10.59,
-        "size": 100.2,
+        "x": 48.36,
+        "y": 10.62,
+        "size": 87.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.2459
       },
       {
         "id": "Gonçalo Manuel Ganchinho Guedes",
         "short": "Guedes",
         "x": 46.61,
         "y": 22.88,
-        "size": 100.2,
+        "size": 99.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.0889,
+        "eigenvector": 0.407
       },
       {
         "id": "Geoffrey Kondogbia",
         "short": "Kondogbia",
-        "x": 64.93,
-        "y": 43.37,
-        "size": 95.0,
+        "x": 64.96,
+        "y": 44.3,
+        "size": 100.6,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.3109
+      },
+      {
+        "id": "Daniel Parejo Muñoz",
+        "short": "Muñoz",
+        "x": 63.6,
+        "y": 40.78,
+        "size": 153.4,
+        "is_playmaker": true,
+        "betweenness": 0.2296,
+        "eigenvector": 0.5292
+      },
+      {
+        "id": "Carlos Soler Barragán",
+        "short": "Barragán",
+        "x": 56.14,
+        "y": 64.9,
+        "size": 107.8,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.4112
+      },
+      {
+        "id": "Rúben Miguel Nunes Vezo",
+        "short": "Vezo",
+        "x": 66.59,
+        "y": 73.1,
+        "size": 98.5,
+        "is_playmaker": false,
+        "betweenness": 0.1037,
+        "eigenvector": 0.2149
+      },
+      {
+        "id": "Rodrigo Moreno Machado",
+        "short": "Machado",
+        "x": 52.09,
+        "y": 46.04,
+        "size": 76.8,
+        "is_playmaker": false,
+        "betweenness": 0.0333,
+        "eigenvector": 0.3341
+      },
+      {
+        "id": "Ezequiel Marcelo Garay",
+        "short": "Garay",
+        "x": 80.38,
+        "y": 56.49,
+        "size": 80.9,
+        "is_playmaker": true,
+        "betweenness": 0.2296,
+        "eigenvector": 0.1518
+      },
+      {
+        "id": "Gabriel Armando de Abreu",
+        "short": "Abreu",
+        "x": 90.52,
+        "y": 26.63,
+        "size": 76.8,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3924
+        "eigenvector": 0.1626
       },
       {
         "id": "Santiago Mina Lorenzo",
         "short": "Lorenzo",
         "x": 40.1,
         "y": 26.07,
-        "size": 55.0,
+        "size": 64.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Gabriel Armando de Abreu",
-        "short": "Abreu",
-        "x": 89.13,
-        "y": 27.07,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Luciano Vietto",
-        "short": "Vietto",
-        "x": 52.68,
-        "y": 44.78,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Andreas Hoelgebaum Pereira",
-        "short": "Pereira",
-        "x": 47.52,
-        "y": 16.14,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "eigenvector": 0.1433
       },
       {
         "id": "Norberto Murara Neto",
         "short": "Neto",
         "x": 111.71,
         "y": 36.97,
-        "size": 55.0,
+        "size": 59.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Simone Zaza",
-        "short": "Zaza",
-        "x": 53.67,
-        "y": 48.37,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1074,
+        "eigenvector": 0.0137
       }
     ],
     "edges": [
-      {
-        "source": "Daniel Parejo Muñoz",
-        "target": "Carlos Soler Barragán",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Daniel Parejo Muñoz",
-        "target": "Rodrigo Moreno Machado",
-        "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Daniel Parejo Muñoz",
-        "target": "Geoffrey Kondogbia",
-        "weight": 11,
-        "direction": "lateral"
-      },
-      {
-        "source": "Carlos Soler Barragán",
-        "target": "Rúben Miguel Nunes Vezo",
-        "weight": 9,
-        "direction": "forward"
-      },
-      {
-        "source": "Carlos Soler Barragán",
-        "target": "Daniel Parejo Muñoz",
-        "weight": 10,
-        "direction": "forward"
-      },
-      {
-        "source": "Rúben Miguel Nunes Vezo",
-        "target": "Daniel Parejo Muñoz",
-        "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Rúben Miguel Nunes Vezo",
-        "target": "Carlos Soler Barragán",
-        "weight": 8,
-        "direction": "backward"
-      },
-      {
-        "source": "Ezequiel Marcelo Garay",
-        "target": "Rúben Miguel Nunes Vezo",
-        "weight": 8,
-        "direction": "backward"
-      },
       {
         "source": "José Luis Gayà Peña",
         "target": "Gonçalo Manuel Ganchinho Guedes",
@@ -1301,10 +1227,160 @@
         "direction": "lateral"
       },
       {
+        "source": "Gonçalo Manuel Ganchinho Guedes",
+        "target": "Santiago Mina Lorenzo",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Geoffrey Kondogbia",
         "target": "Daniel Parejo Muñoz",
         "weight": 12,
         "direction": "lateral"
+      },
+      {
+        "source": "Geoffrey Kondogbia",
+        "target": "Carlos Soler Barragán",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Geoffrey Kondogbia",
+        "target": "José Luis Gayà Peña",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Geoffrey Kondogbia",
+        "target": "Santiago Mina Lorenzo",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Parejo Muñoz",
+        "target": "Carlos Soler Barragán",
+        "weight": 11,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Parejo Muñoz",
+        "target": "Geoffrey Kondogbia",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Daniel Parejo Muñoz",
+        "target": "Rodrigo Moreno Machado",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Parejo Muñoz",
+        "target": "Gabriel Armando de Abreu",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Parejo Muñoz",
+        "target": "Gonçalo Manuel Ganchinho Guedes",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Parejo Muñoz",
+        "target": "Ezequiel Marcelo Garay",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Soler Barragán",
+        "target": "Daniel Parejo Muñoz",
+        "weight": 10,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Soler Barragán",
+        "target": "Rúben Miguel Nunes Vezo",
+        "weight": 9,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Soler Barragán",
+        "target": "Rodrigo Moreno Machado",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Rúben Miguel Nunes Vezo",
+        "target": "Daniel Parejo Muñoz",
+        "weight": 11,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rúben Miguel Nunes Vezo",
+        "target": "Carlos Soler Barragán",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Rúben Miguel Nunes Vezo",
+        "target": "Geoffrey Kondogbia",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rodrigo Moreno Machado",
+        "target": "Gonçalo Manuel Ganchinho Guedes",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ezequiel Marcelo Garay",
+        "target": "Rúben Miguel Nunes Vezo",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Ezequiel Marcelo Garay",
+        "target": "Daniel Parejo Muñoz",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ezequiel Marcelo Garay",
+        "target": "Norberto Murara Neto",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gabriel Armando de Abreu",
+        "target": "Daniel Parejo Muñoz",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Gabriel Armando de Abreu",
+        "target": "Ezequiel Marcelo Garay",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Gabriel Armando de Abreu",
+        "target": "Norberto Murara Neto",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Norberto Murara Neto",
+        "target": "Gabriel Armando de Abreu",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Norberto Murara Neto",
+        "target": "Ezequiel Marcelo Garay",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

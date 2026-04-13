@@ -857,22 +857,22 @@
       {
         "id": "Nico Elvedi",
         "short": "Elvedi",
-        "x": 45.79,
-        "y": 61.16,
-        "size": 131.9,
-        "is_playmaker": true,
-        "betweenness": 0.2182,
-        "eigenvector": 0.2453
+        "x": 45.85,
+        "y": 61.67,
+        "size": 121.9,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.1742
       },
       {
         "id": "Ibrahima Traoré",
         "short": "Traoré",
-        "x": 70.99,
-        "y": 73.03,
-        "size": 93.9,
+        "x": 70.54,
+        "y": 73.41,
+        "size": 88.9,
         "is_playmaker": false,
-        "betweenness": 0.1364,
-        "eigenvector": 0.3188
+        "betweenness": 0.2889,
+        "eigenvector": 0.251
       },
       {
         "id": "Andreas Christensen",
@@ -881,65 +881,65 @@
         "y": 44.89,
         "size": 98.5,
         "is_playmaker": false,
-        "betweenness": 0.0364,
-        "eigenvector": 0.1815
+        "betweenness": 0.0556,
+        "eigenvector": 0.1249
       },
       {
         "id": "Granit Xhaka",
         "short": "Xhaka",
         "x": 56.74,
         "y": 39.13,
-        "size": 104.1,
+        "size": 109.0,
         "is_playmaker": true,
-        "betweenness": 0.2364,
-        "eigenvector": 0.3902
+        "betweenness": 0.3778,
+        "eigenvector": 0.3871
       },
       {
         "id": "Håvard Nordtveit",
         "short": "Nordtveit",
         "x": 40.49,
         "y": 20.79,
-        "size": 106.9,
+        "size": 105.8,
         "is_playmaker": false,
-        "betweenness": 0.0455,
-        "eigenvector": 0.3679
+        "betweenness": 0.0667,
+        "eigenvector": 0.3246
       },
       {
         "id": "Oscar Wendt",
         "short": "Wendt",
-        "x": 67.41,
-        "y": 8.1,
-        "size": 113.3,
+        "x": 67.74,
+        "y": 7.9,
+        "size": 111.5,
         "is_playmaker": false,
-        "betweenness": 0.0636,
-        "eigenvector": 0.4688
+        "betweenness": 0.0222,
+        "eigenvector": 0.4673
       },
       {
         "id": "Lars Edi Stindl",
         "short": "Stindl",
-        "x": 66.23,
-        "y": 37.11,
-        "size": 80.0,
-        "is_playmaker": false,
-        "betweenness": 0.1091,
-        "eigenvector": 0.3637
+        "x": 67.35,
+        "y": 37.05,
+        "size": 78.4,
+        "is_playmaker": true,
+        "betweenness": 0.3667,
+        "eigenvector": 0.352
       },
       {
         "id": "Mahmoud Dahoud",
         "short": "Dahoud",
         "x": 58.52,
         "y": 35.02,
-        "size": 88.3,
+        "size": 89.7,
         "is_playmaker": false,
-        "betweenness": 0.0182,
-        "eigenvector": 0.3234
+        "betweenness": 0.0111,
+        "eigenvector": 0.4088
       },
       {
         "id": "Yann Sommer",
         "short": "Sommer",
         "x": 11.12,
         "y": 39.59,
-        "size": 63.3,
+        "size": 67.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -949,30 +949,20 @@
         "short": "Araújo",
         "x": 77.29,
         "y": 30.91,
-        "size": 69.8,
+        "size": 75.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2469
+        "betweenness": 0.0778,
+        "eigenvector": 0.3544
       },
       {
         "id": "André Hahn",
         "short": "Hahn",
         "x": 75.55,
         "y": 26.13,
-        "size": 55.0,
+        "size": 58.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Thorgan Hazard",
-        "short": "Hazard",
-        "x": 72.83,
-        "y": 22.12,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.1556,
+        "eigenvector": 0.0298
       }
     ],
     "edges": [
@@ -1019,6 +1009,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Andreas Christensen",
+        "target": "Granit Xhaka",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Granit Xhaka",
         "target": "Oscar Wendt",
         "weight": 8,
@@ -1035,6 +1031,12 @@
         "target": "Lars Edi Stindl",
         "weight": 7,
         "direction": "forward"
+      },
+      {
+        "source": "Granit Xhaka",
+        "target": "Mahmoud Dahoud",
+        "weight": 7,
+        "direction": "lateral"
       },
       {
         "source": "Håvard Nordtveit",
@@ -1073,9 +1075,21 @@
         "direction": "backward"
       },
       {
+        "source": "Oscar Wendt",
+        "target": "Raffael Caetano de Araújo",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
         "source": "Lars Edi Stindl",
         "target": "Ibrahima Traoré",
         "weight": 8,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lars Edi Stindl",
+        "target": "André Hahn",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1095,6 +1109,30 @@
         "target": "Nico Elvedi",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Yann Sommer",
+        "target": "Håvard Nordtveit",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Raffael Caetano de Araújo",
+        "target": "André Hahn",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "André Hahn",
+        "target": "Raffael Caetano de Araújo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "André Hahn",
+        "target": "Lars Edi Stindl",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1105,140 +1143,110 @@
         "short": "Leno",
         "x": 104.22,
         "y": 44.5,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "size": 83.8,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0333
       },
       {
         "id": "Stefan Kießling",
         "short": "Kießling",
-        "x": 48.49,
-        "y": 34.83,
-        "size": 155.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
+        "x": 49.99,
+        "y": 35.96,
+        "size": 102.0,
+        "is_playmaker": false,
+        "betweenness": 0.1278,
+        "eigenvector": 0.1621
       },
       {
         "id": "Javier Hernández Balcázar",
         "short": "Balcázar",
-        "x": 42.2,
-        "y": 44.33,
-        "size": 155.0,
+        "x": 43.33,
+        "y": 43.62,
+        "size": 108.0,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.0148,
+        "eigenvector": 0.4923
       },
       {
         "id": "Robbie Kruse",
         "short": "Kruse",
-        "x": 42.61,
-        "y": 58.34,
-        "size": 155.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.7071
-      },
-      {
-        "id": "Charles Mariano Aránguiz Sandoval",
-        "short": "Sandoval",
-        "x": 53.3,
-        "y": 36.9,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "x": 44.52,
+        "y": 56.87,
+        "size": 121.7,
+        "is_playmaker": true,
+        "betweenness": 0.4481,
+        "eigenvector": 0.5466
       },
       {
         "id": "Lars Bender",
         "short": "Bender",
-        "x": 59.49,
-        "y": 59.73,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Hakan Çalhanoğlu",
-        "short": "Çalhanoğlu",
-        "x": 44.12,
-        "y": 21.38,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "x": 60.6,
+        "y": 61.03,
+        "size": 95.9,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.273
       },
       {
         "id": "Benjamin Henrichs",
         "short": "Henrichs",
-        "x": 56.04,
-        "y": 13.3,
-        "size": 55.0,
+        "x": 58.34,
+        "y": 14.03,
+        "size": 98.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.2481,
+        "eigenvector": 0.2865
       },
       {
-        "id": "Tin Jedvaj",
-        "short": "Jedvaj",
-        "x": 46.51,
-        "y": 68.14,
-        "size": 55.0,
+        "id": "Hakan Çalhanoğlu",
+        "short": "Çalhanoğlu",
+        "x": 43.4,
+        "y": 20.55,
+        "size": 103.5,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1722,
+        "eigenvector": 0.2778
       },
       {
-        "id": "Christoph Kramer",
-        "short": "Kramer",
-        "x": 70.3,
-        "y": 47.52,
-        "size": 55.0,
+        "id": "Charles Mariano Aránguiz Sandoval",
+        "short": "Sandoval",
+        "x": 53.39,
+        "y": 38.13,
+        "size": 91.4,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1778,
+        "eigenvector": 0.4377
+      },
+      {
+        "id": "André Ramalho Silva",
+        "short": "Silva",
+        "x": 81.21,
+        "y": 50.37,
+        "size": 70.2,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0779
       },
       {
         "id": "Ömer Toprak",
         "short": "Toprak",
         "x": 74.47,
         "y": 31.04,
-        "size": 55.0,
+        "size": 68.6,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "betweenness": 0.1,
+        "eigenvector": 0.0119
       },
       {
-        "id": "André Ramalho Silva",
-        "short": "Silva",
-        "x": 80.27,
-        "y": 48.14,
-        "size": 55.0,
+        "id": "Christoph Kramer",
+        "short": "Kramer",
+        "x": 70.3,
+        "y": 47.52,
+        "size": 61.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Admir Mehmedi",
-        "short": "Mehmedi",
-        "x": 41.82,
-        "y": 35.95,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
-        "id": "Marlon Frey",
-        "short": "Frey",
-        "x": 33.3,
-        "y": 5.1,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
+        "eigenvector": 0.0
       }
     ],
     "edges": [
@@ -1249,10 +1257,142 @@
         "direction": "backward"
       },
       {
+        "source": "Bernd Leno",
+        "target": "Ömer Toprak",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Kießling",
+        "target": "Javier Hernández Balcázar",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Kießling",
+        "target": "Hakan Çalhanoğlu",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Kießling",
+        "target": "Robbie Kruse",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
         "source": "Javier Hernández Balcázar",
         "target": "Robbie Kruse",
         "weight": 8,
         "direction": "lateral"
+      },
+      {
+        "source": "Javier Hernández Balcázar",
+        "target": "Charles Mariano Aránguiz Sandoval",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Robbie Kruse",
+        "target": "Lars Bender",
+        "weight": 7,
+        "direction": "forward"
+      },
+      {
+        "source": "Robbie Kruse",
+        "target": "Javier Hernández Balcázar",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Robbie Kruse",
+        "target": "Charles Mariano Aránguiz Sandoval",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Lars Bender",
+        "target": "Robbie Kruse",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Lars Bender",
+        "target": "Javier Hernández Balcázar",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Lars Bender",
+        "target": "Hakan Çalhanoğlu",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Lars Bender",
+        "target": "André Ramalho Silva",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Benjamin Henrichs",
+        "target": "Stefan Kießling",
+        "weight": 7,
+        "direction": "backward"
+      },
+      {
+        "source": "Benjamin Henrichs",
+        "target": "Hakan Çalhanoğlu",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Benjamin Henrichs",
+        "target": "Charles Mariano Aránguiz Sandoval",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Hakan Çalhanoğlu",
+        "target": "Javier Hernández Balcázar",
+        "weight": 6,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hakan Çalhanoğlu",
+        "target": "Benjamin Henrichs",
+        "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Hakan Çalhanoğlu",
+        "target": "Robbie Kruse",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Charles Mariano Aránguiz Sandoval",
+        "target": "Benjamin Henrichs",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "André Ramalho Silva",
+        "target": "Bernd Leno",
+        "weight": 6,
+        "direction": "forward"
+      },
+      {
+        "source": "Ömer Toprak",
+        "target": "Robbie Kruse",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Christoph Kramer",
+        "target": "Charles Mariano Aránguiz Sandoval",
+        "weight": 4,
+        "direction": "backward"
       }
     ]
   },

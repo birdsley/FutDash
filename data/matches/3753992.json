@@ -845,59 +845,59 @@
       {
         "id": "Erik Lamela",
         "short": "Lamela",
-        "x": 84.11,
-        "y": 42.98,
-        "size": 86.1,
+        "x": 83.55,
+        "y": 43.1,
+        "size": 83.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2093
+        "betweenness": 0.1833,
+        "eigenvector": 0.1562
       },
       {
         "id": "Christian Dannemann Eriksen",
         "short": "Eriksen",
         "x": 72.02,
         "y": 36.73,
-        "size": 117.1,
-        "is_playmaker": false,
-        "betweenness": 0.1591,
-        "eigenvector": 0.5645
+        "size": 116.7,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.4281
       },
       {
         "id": "Jan Vertonghen",
         "short": "Vertonghen",
-        "x": 41.21,
+        "x": 40.77,
         "y": 21.58,
-        "size": 129.0,
-        "is_playmaker": true,
-        "betweenness": 0.1894,
-        "eigenvector": 0.1325
+        "size": 118.3,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.2865
       },
       {
         "id": "Danny Rose",
         "short": "Rose",
-        "x": 67.91,
-        "y": 6.49,
-        "size": 108.0,
+        "x": 67.64,
+        "y": 6.15,
+        "size": 100.3,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.2924
+        "eigenvector": 0.3108
       },
       {
         "id": "Ryan Mason",
         "short": "Mason",
-        "x": 62.22,
-        "y": 24.93,
-        "size": 129.0,
+        "x": 62.55,
+        "y": 25.19,
+        "size": 124.5,
         "is_playmaker": true,
-        "betweenness": 0.197,
-        "eigenvector": 0.5568
+        "betweenness": 0.3444,
+        "eigenvector": 0.4778
       },
       {
         "id": "Hugo Lloris",
         "short": "Lloris",
-        "x": 13.3,
-        "y": 36.48,
-        "size": 66.9,
+        "x": 12.64,
+        "y": 36.33,
+        "size": 71.4,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -905,39 +905,39 @@
       {
         "id": "Toby Alderweireld",
         "short": "Alderweirel",
-        "x": 49.2,
-        "y": 57.68,
-        "size": 75.1,
+        "x": 48.35,
+        "y": 57.61,
+        "size": 91.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0554
+        "eigenvector": 0.3591
       },
       {
         "id": "Heung-Min Son",
         "short": "Son",
         "x": 79.16,
         "y": 18.42,
-        "size": 83.3,
+        "size": 79.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.3792
+        "eigenvector": 0.3076
       },
       {
         "id": "Eric Dier",
         "short": "Dier",
-        "x": 55.36,
-        "y": 42.3,
-        "size": 82.4,
+        "x": 54.92,
+        "y": 42.87,
+        "size": 90.9,
         "is_playmaker": false,
-        "betweenness": 0.0909,
-        "eigenvector": 0.2787
+        "betweenness": 0.1,
+        "eigenvector": 0.4018
       },
       {
         "id": "Kyle Walker",
         "short": "Walker",
-        "x": 74.69,
-        "y": 68.23,
-        "size": 73.3,
+        "x": 74.06,
+        "y": 68.39,
+        "size": 70.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
@@ -947,30 +947,10 @@
         "short": "Kane",
         "x": 87.18,
         "y": 33.02,
-        "size": 55.0,
+        "size": 58.1,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Clinton Mua N''Jie",
-        "short": "N''Jie",
-        "x": 82.69,
-        "y": 15.02,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Nacer Chadli",
-        "short": "Chadli",
-        "x": 80.14,
-        "y": 34.41,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
+        "betweenness": 0.2056,
+        "eigenvector": 0.0211
       }
     ],
     "edges": [
@@ -979,6 +959,12 @@
         "target": "Christian Dannemann Eriksen",
         "weight": 16,
         "direction": "backward"
+      },
+      {
+        "source": "Erik Lamela",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Christian Dannemann Eriksen",
@@ -991,6 +977,18 @@
         "target": "Ryan Mason",
         "weight": 9,
         "direction": "backward"
+      },
+      {
+        "source": "Christian Dannemann Eriksen",
+        "target": "Toby Alderweireld",
+        "weight": 9,
+        "direction": "backward"
+      },
+      {
+        "source": "Christian Dannemann Eriksen",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Jan Vertonghen",
@@ -1059,9 +1057,21 @@
         "direction": "forward"
       },
       {
+        "source": "Ryan Mason",
+        "target": "Eric Dier",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Hugo Lloris",
         "target": "Jan Vertonghen",
         "weight": 13,
+        "direction": "forward"
+      },
+      {
+        "source": "Hugo Lloris",
+        "target": "Toby Alderweireld",
+        "weight": 8,
         "direction": "forward"
       },
       {
@@ -1083,6 +1093,12 @@
         "direction": "backward"
       },
       {
+        "source": "Eric Dier",
+        "target": "Toby Alderweireld",
+        "weight": 8,
+        "direction": "backward"
+      },
+      {
         "source": "Kyle Walker",
         "target": "Christian Dannemann Eriksen",
         "weight": 11,
@@ -1093,157 +1109,289 @@
         "target": "Erik Lamela",
         "weight": 9,
         "direction": "forward"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Erik Lamela",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Christian Dannemann Eriksen",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
   "network_away": {
     "nodes": [
       {
-        "id": "Victor Wanyama",
-        "short": "Wanyama",
-        "x": 68.04,
-        "y": 45.91,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Rhu-endly Martina",
-        "short": "Martina",
-        "x": 60.19,
-        "y": 70.28,
-        "size": 255.0,
-        "is_playmaker": true,
-        "betweenness": 0.0,
-        "eigenvector": 1.0
+        "id": "Shane Long",
+        "short": "Long",
+        "x": 49.13,
+        "y": 36.76,
+        "size": 108.7,
+        "is_playmaker": false,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3041
       },
       {
         "id": "Steven Davis",
         "short": "Davis",
-        "x": 45.16,
-        "y": 36.98,
-        "size": 55.0,
+        "x": 46.27,
+        "y": 38.29,
+        "size": 135.5,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.6406
+      },
+      {
+        "id": "Virgil van Dijk",
+        "short": "Dijk",
+        "x": 78.9,
+        "y": 23.42,
+        "size": 67.2,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Victor Wanyama",
+        "short": "Wanyama",
+        "x": 68.5,
+        "y": 44.24,
+        "size": 108.7,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0015
+      },
+      {
+        "id": "Fraser Forster",
+        "short": "Forster",
+        "x": 108.12,
+        "y": 37.64,
+        "size": 69.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Ryan Bertrand",
+        "short": "Bertrand",
+        "x": 54.99,
+        "y": 5.48,
+        "size": 101.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2925
+      },
+      {
+        "id": "Rhu-endly Martina",
+        "short": "Martina",
+        "x": 61.39,
+        "y": 68.71,
+        "size": 103.8,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.0014
       },
       {
         "id": "Dušan Tadić",
         "short": "Tadić",
         "x": 35.35,
         "y": 38.9,
-        "size": 55.0,
+        "size": 111.1,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Shane Long",
-        "short": "Long",
-        "x": 49.36,
-        "y": 35.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Ryan Bertrand",
-        "short": "Bertrand",
-        "x": 58.75,
-        "y": 6.63,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Sadio Mané",
-        "short": "Mané",
-        "x": 49.8,
-        "y": 49.3,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "José Miguel da Rocha Fonte",
-        "short": "Fonte",
-        "x": 78.23,
-        "y": 61.35,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Virgil van Dijk",
-        "short": "Dijk",
-        "x": 80.31,
-        "y": 24.21,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "eigenvector": 0.6321
       },
       {
         "id": "Jordy Clasie",
         "short": "Clasie",
         "x": 61.93,
         "y": 45.01,
-        "size": 55.0,
+        "size": 64.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.3389,
+        "eigenvector": 0.0126
       },
       {
-        "id": "Fraser Forster",
-        "short": "Forster",
-        "x": 109.16,
-        "y": 37.88,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "id": "Sadio Mané",
+        "short": "Mané",
+        "x": 49.8,
+        "y": 49.3,
+        "size": 69.6,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.109
       },
       {
-        "id": "Graziano Pellè",
-        "short": "Pellè",
-        "x": 53.67,
-        "y": 48.49,
-        "size": 55.0,
+        "id": "José Miguel da Rocha Fonte",
+        "short": "Fonte",
+        "x": 78.23,
+        "y": 61.35,
+        "size": 64.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "Oriol Romeu Vidal",
-        "short": "Vidal",
-        "x": 81.68,
-        "y": 57.43,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
-        "id": "James Ward-Prowse",
-        "short": "Ward-Prowse",
-        "x": 64.6,
-        "y": 68.25,
-        "size": 55.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
+        "betweenness": 0.1722,
+        "eigenvector": 0.0003
       }
     ],
     "edges": [
       {
+        "source": "Shane Long",
+        "target": "Steven Davis",
+        "weight": 5,
+        "direction": "lateral"
+      },
+      {
+        "source": "Shane Long",
+        "target": "Dušan Tadić",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Shane Long",
+        "target": "Sadio Mané",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Steven Davis",
+        "target": "Ryan Bertrand",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Steven Davis",
+        "target": "Shane Long",
+        "weight": 4,
+        "direction": "lateral"
+      },
+      {
+        "source": "Steven Davis",
+        "target": "Dušan Tadić",
+        "weight": 4,
+        "direction": "backward"
+      },
+      {
+        "source": "Steven Davis",
+        "target": "Sadio Mané",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Virgil van Dijk",
+        "target": "Victor Wanyama",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Victor Wanyama",
+        "target": "Ryan Bertrand",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
         "source": "Victor Wanyama",
         "target": "Rhu-endly Martina",
         "weight": 8,
+        "direction": "backward"
+      },
+      {
+        "source": "Victor Wanyama",
+        "target": "Jordy Clasie",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Victor Wanyama",
+        "target": "José Miguel da Rocha Fonte",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Fraser Forster",
+        "target": "Shane Long",
+        "weight": 6,
+        "direction": "backward"
+      },
+      {
+        "source": "Ryan Bertrand",
+        "target": "Dušan Tadić",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Ryan Bertrand",
+        "target": "Steven Davis",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Rhu-endly Martina",
+        "target": "Steven Davis",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Rhu-endly Martina",
+        "target": "Dušan Tadić",
+        "weight": 5,
+        "direction": "backward"
+      },
+      {
+        "source": "Rhu-endly Martina",
+        "target": "José Miguel da Rocha Fonte",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Dušan Tadić",
+        "target": "Steven Davis",
+        "weight": 4,
+        "direction": "forward"
+      },
+      {
+        "source": "Jordy Clasie",
+        "target": "Victor Wanyama",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jordy Clasie",
+        "target": "Sadio Mané",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sadio Mané",
+        "target": "Jordy Clasie",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sadio Mané",
+        "target": "Steven Davis",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sadio Mané",
+        "target": "Shane Long",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Miguel da Rocha Fonte",
+        "target": "Rhu-endly Martina",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Miguel da Rocha Fonte",
+        "target": "Victor Wanyama",
+        "weight": 1,
         "direction": "backward"
       }
     ]
