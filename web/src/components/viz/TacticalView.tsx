@@ -2,14 +2,19 @@
  * TacticalView.tsx
  * Combined full-pitch pass network — both teams on one field.
  *
- * Layout: home team on left half, away team mirrored to right half.
- * The halfway line naturally divides the two tactical shapes.
+ * COORDINATE SYSTEM FIX:
+ *   StatsBomb stores positions in [0,120] × [0,80] with each team's data
+ *   in "attacking right" frame — so a home striker at avg x=95 and an away
+ *   striker at avg x=90 (before mirroring) would both end up displayed deep
+ *   in the same area of the pitch, all clustering near the halfway line.
  *
- * Types used: Network, NetworkNode, NetworkEdge — all from existing types/index.ts
- * No new types needed.
+ *   Fix: remap each team's x-coordinates to their own half:
+ *     Home (left half, attacks right):  display_x = statsbomb_x * 0.5
+ *       → maps [0,120] → [0,60]  (GK at ~2, striker at ~50)
+ *     Away (right half, attacks left):  display_x = 60 + (120 - statsbomb_x) * 0.5
+ *       → GK at ~118, striker at ~65, midfielder at ~90
  *
- * Tooltip fix: uses useRef + getBoundingClientRect so position is
- * relative to the wrapper div, not the viewport — scroll-safe.
+ *   This keeps every player strictly within their own half of the pitch.
  */
 
 import { useMemo, useState, useRef, useCallback } from 'react'
@@ -68,7 +73,29 @@ function FullPitch() {
   )
 }
 
-// ── Tooltip state ─────────────────────────────────────────────────
+// ── Position mapping helpers ──────────────────────────────────────
+
+/**
+ * Map home team StatsBomb x [0,120] → display x [0,60].
+ * Scales the full attacking range into the left half only.
+ * GK (x≈3) → 1.5, defender (x≈25) → 12.5, midfielder (x≈55) → 27.5,
+ * striker (x≈95) → 47.5 — everyone stays in their own half.
+ */
+function homeX(statsbombX: number): number {
+  return Math.round((statsbombX * 0.5) * 100) / 100
+}
+
+/**
+ * Map away team StatsBomb x [0,120] → display x [60,120].
+ * Mirrors (attacks left from right half) and scales into right half only.
+ * GK (x≈3) → 118.5, defender (x≈25) → 107.5, midfielder (x≈55) → 92.5,
+ * striker (x≈95) → 72.5.
+ */
+function awayX(statsbombX: number): number {
+  return Math.round((60 + (120 - statsbombX) * 0.5) * 100) / 100
+}
+
+// ── Tooltip ───────────────────────────────────────────────────────
 interface TipState {
   relX: number
   relY: number
@@ -87,35 +114,40 @@ export function TacticalView({
   const [tooltip, setTooltip] = useState<TipState | null>(null)
   const [highlighted, setHighlighted] = useState<string | null>(null)
 
-  // Mirror away nodes for right-half display
-  const awayMirrored = useMemo(() =>
-    networkAway.nodes.map(n => ({ ...n, x: 120 - n.x, y: 80 - n.y })),
-    [networkAway.nodes]
-  )
+  /**
+   * Home position map: node.id → [display_x, display_y]
+   * Applies homeX() scaling so home players stay in [0,60].
+   */
+  const homePosMap = useMemo(() => {
+    const m: Record<string, [number, number]> = {}
+    networkHome.nodes.forEach(n => {
+      m[n.id] = [homeX(n.x), n.y]
+    })
+    return m
+  }, [networkHome.nodes])
+
+  /**
+   * Away position map: node.id → [display_x, display_y]
+   * Applies awayX() so away players stay in [60,120], attacking left.
+   */
+  const awayPosMap = useMemo(() => {
+    const m: Record<string, [number, number]> = {}
+    networkAway.nodes.forEach(n => {
+      m[n.id] = [awayX(n.x), n.y]
+    })
+    return m
+  }, [networkAway.nodes])
 
   const maxWeight = useMemo(() => {
-    const allWeights = [
+    const all = [
       ...networkHome.edges.map(e => e.weight),
       ...networkAway.edges.map(e => e.weight),
       1,
     ]
-    return Math.max(...allWeights)
+    return Math.max(...all)
   }, [networkHome.edges, networkAway.edges])
 
-  // Position maps for O(1) edge coordinate lookup
-  const homePosMap = useMemo(() => {
-    const m: Record<string, [number, number]> = {}
-    networkHome.nodes.forEach(n => { m[n.id] = [n.x, n.y] })
-    return m
-  }, [networkHome.nodes])
-
-  const awayPosMap = useMemo(() => {
-    const m: Record<string, [number, number]> = {}
-    awayMirrored.forEach(n => { m[n.id] = [n.x, n.y] })
-    return m
-  }, [awayMirrored])
-
-  // ── Tooltip helpers (relative to wrapper div, not viewport) ────
+  // ── Tooltip helpers ────────────────────────────────────────────
   const relPos = useCallback((e: React.MouseEvent) => {
     const rect = wrapperRef.current?.getBoundingClientRect()
     if (!rect) return { x: 0, y: 0 }
@@ -123,7 +155,9 @@ export function TacticalView({
   }, [])
 
   const showTip = useCallback((
-    e: React.MouseEvent, node: NetworkNode, isAway: boolean
+    e: React.MouseEvent,
+    node: NetworkNode,
+    isAway: boolean,
   ) => {
     const p = relPos(e)
     setTooltip({
@@ -156,9 +190,9 @@ export function TacticalView({
     posMap: Record<string, [number, number]>,
     color: string,
   ) => edges.map((e, i) => {
-    const [sx, sy] = posMap[e.source] ?? [-1, -1]
-    const [tx, ty] = posMap[e.target] ?? [-1, -1]
-    if (sx < 0 || tx < 0) return null
+    const src = posMap[e.source]
+    const tgt = posMap[e.target]
+    if (!src || !tgt) return null
 
     const isHL = !highlighted || e.source === highlighted || e.target === highlighted
     const w01 = e.weight / maxWeight
@@ -166,7 +200,8 @@ export function TacticalView({
     const sw = 0.2 + 1.4 * w01
 
     return (
-      <line key={`e${i}`} x1={sx} y1={sy} x2={tx} y2={ty}
+      <line key={`e${i}`}
+        x1={src[0]} y1={src[1]} x2={tgt[0]} y2={tgt[1]}
         stroke={color} strokeWidth={sw} strokeOpacity={opacity}
         strokeLinecap="round" />
     )
@@ -179,18 +214,22 @@ export function TacticalView({
     color: string,
     isAway: boolean,
   ) => nodes.map(n => {
-    const [cx, cy] = posMap[n.id] ?? [n.x, n.y]
+    const pos = posMap[n.id]
+    if (!pos) return null
+    const [cx, cy] = pos
     const r = Math.max(Math.sqrt(Math.max(n.size, 55)) * 0.20, 2.2)
     const isHL = !highlighted || highlighted === n.id
     const fill = n.is_playmaker ? '#fbbf24' : color
-    const stroke = n.is_playmaker ? '#fbbf24' : (highlighted === n.id ? '#ffffff' : 'rgba(255,255,255,0.75)')
+    const stroke = n.is_playmaker
+      ? '#fbbf24'
+      : (highlighted === n.id ? '#ffffff' : 'rgba(255,255,255,0.75)')
     const opacity = isHL ? 0.95 : 0.18
     const label = n.short || (n.id.split(' ').pop()?.slice(0, 13) ?? '')
 
     return (
       <g key={`n${n.id}${isAway ? 'a' : 'h'}`}
         style={{ cursor: 'pointer' }}
-        onMouseEnter={e => showTip(e, n, isAway)}
+        onMouseEnter={ev => showTip(ev, n, isAway)}
         onMouseMove={moveTip}
         onMouseLeave={hideTip}
         onClick={() => setHighlighted(prev => prev === n.id ? null : n.id)}
@@ -204,7 +243,7 @@ export function TacticalView({
           fill={fill} stroke={stroke}
           strokeWidth={n.is_playmaker ? 0.65 : 0.45}
           opacity={opacity} />
-        {/* Label */}
+        {/* Label — positioned above node */}
         <text x={cx} y={cy - r - 0.8} textAnchor="middle"
           fontSize={2.25} fill="#e6edf3"
           fontFamily="DM Mono, monospace"
@@ -242,45 +281,44 @@ export function TacticalView({
       >
         <FullPitch />
 
-        {/* Edges first (drawn behind nodes) */}
+        {/* Edges drawn first (behind nodes) */}
         {renderEdges(networkHome.edges, homePosMap, homeColor)}
         {renderEdges(networkAway.edges, awayPosMap, awayColor)}
 
         {/* Nodes */}
         {renderNodes(networkHome.nodes, homePosMap, homeColor, false)}
-        {renderNodes(awayMirrored, awayPosMap, awayColor, true)}
+        {renderNodes(networkAway.nodes, awayPosMap, awayColor, true)}
 
-        {/* Bottom legend row */}
+        {/* Legend */}
         <g transform="translate(2, 83)">
-          {/* Home legend */}
           <circle cx={3} cy={2} r={2} fill={homeColor} opacity={0.9} />
           <text x={7} y={3.4} fontSize={2.4} fill="#8b949e"
             fontFamily="DM Mono, monospace">
-            {home.length > 20 ? home.slice(0,19)+'…' : home}
+            {home.length > 22 ? home.slice(0, 21) + '…' : home}
             {homePlaymaker ? `  ★ ${homePlaymaker.short}` : ''}
           </text>
-          {/* Away legend */}
           <circle cx={65} cy={2} r={2} fill={awayColor} opacity={0.9} />
           <text x={69} y={3.4} fontSize={2.4} fill="#8b949e"
             fontFamily="DM Mono, monospace">
-            {away.length > 20 ? away.slice(0,19)+'…' : away}
+            {away.length > 22 ? away.slice(0, 21) + '…' : away}
             {awayPlaymaker ? `  ★ ${awayPlaymaker.short}` : ''}
           </text>
-          {/* Interaction hint */}
           <text x={60} y={8.5} textAnchor="middle" fontSize={2.0}
             fill="#4a5168" fontFamily="DM Mono, monospace">
-            Click node to highlight connections · Gold = playmaker
+            Click node to highlight connections · Gold = playmaker · Hover for stats
           </text>
         </g>
       </svg>
 
-      {/* ── Tooltip: absolute positioned relative to wrapper ── */}
+      {/* Tooltip — absolute within wrapper div, scroll-safe */}
       {tooltip && (
         <div style={{
           position: 'absolute',
-          // Offset right and slightly above cursor
-          left: Math.min(tooltip.relX + 14, (wrapperRef.current?.offsetWidth ?? 400) - 230),
-          top: Math.max(tooltip.relY - 90, 4),
+          left: Math.min(
+            tooltip.relX + 14,
+            (wrapperRef.current?.offsetWidth ?? 400) - 235,
+          ),
+          top: Math.max(tooltip.relY - 95, 4),
           background: 'rgba(10,13,20,0.96)',
           border: `1px solid ${tooltip.accentColor}50`,
           borderLeft: `3px solid ${tooltip.accentColor}`,
@@ -292,8 +330,8 @@ export function TacticalView({
           pointerEvents: 'none',
           zIndex: 200,
           lineHeight: 1.85,
-          minWidth: 180,
-          maxWidth: 230,
+          minWidth: 185,
+          maxWidth: 235,
           boxShadow: '0 6px 24px rgba(0,0,0,0.65)',
         }}>
           <div style={{ fontWeight: 700, color: '#fff', fontSize: 12, marginBottom: 4 }}>
