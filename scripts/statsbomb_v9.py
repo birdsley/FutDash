@@ -1223,6 +1223,16 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
 
     # ── pass network builder ──
     def _build_net(team_events, mirror=False):
+        # ── Step 1: avg positions from ALL events (every player who touched ball) ──
+        all_locs = defaultdict(list)
+        if "location" in team_events.columns and "player.name" in team_events.columns:
+            for _,r in team_events.iterrows():
+                p=r.get("player.name"); loc=r.get("location")
+                if p and isinstance(loc,list) and len(loc)==2:
+                    all_locs[p].append([float(loc[0]),float(loc[1])])
+        all_avg={p:np.mean(v,axis=0).tolist() for p,v in all_locs.items() if v}
+        
+        # ── Step 2: pass edges (unchanged logic) ──
         passes=(team_events[team_events["type.name"]=="Pass"].copy()
                 if "type.name" in team_events.columns else pd.DataFrame())
         if "pass.outcome.name" in passes.columns:
@@ -1235,11 +1245,23 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
         n_raw=len(er); min_p=max(3,int(n_raw*0.08))
         ef={k:v for k,v in er.items() if v>=min_p}
         if len(ef)>20: ef=dict(sorted(ef.items(),key=lambda kv:-kv[1])[:20])
-        avg_p={p:np.mean(v,axis=0).tolist() for p,v in pa.items()
-               if p in {k for pair in ef for k in pair}}
+        
+        # avg_p: use pass positions where available (more tactically meaningful),
+        # fall back to all-event positions for players with few passes
+        pass_avg={p:np.mean(v,axis=0).tolist() for p,v in pa.items()}
+        avg_p={**all_avg, **pass_avg}  # pass positions override all-event positions
+        
+        # ── Step 3: build graph ──
         G=nx.DiGraph()
         for (s,t),w in ef.items():
             if s in avg_p and t in avg_p: G.add_edge(s,t,weight=w)
+        
+        # Add ALL players with >=5 events as isolated nodes (starters who rarely pass)
+        ev_counts=team_events["player.name"].value_counts() if "player.name" in team_events.columns else pd.Series(dtype=int)
+        for p,cnt in ev_counts.items():
+            if cnt>=5 and p in avg_p and p not in G:
+                G.add_node(p)
+        
         try:    ev_c=nx.eigenvector_centrality(G,weight='weight',max_iter=500)
         except: ev_c={n:G.degree(n,weight='weight') for n in G.nodes()}
         btw=nx.betweenness_centrality(G,weight='weight')
