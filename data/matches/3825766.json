@@ -9,6 +9,11 @@
     "away_color": "#ff7200",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.032,
     "xg_away": 1.021,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Shkodran Mustafi",
       "minute": 15,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.0,
@@ -513,7 +520,9 @@
       "player_full": "André Filipe Tavares Gomes",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.1,
@@ -525,7 +534,9 @@
       "player_full": "Charly Musonda Junior",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -537,7 +548,9 @@
       "player_full": "Ricky van Wolfswinkel",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -549,7 +562,9 @@
       "player_full": "Álvaro Negredo Sánchez",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.8,
@@ -561,7 +576,9 @@
       "player_full": "Rubén Castro Martín",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -573,7 +590,9 @@
       "player_full": "Álvaro Negredo Sánchez",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -585,7 +604,9 @@
       "player_full": "Alfred John Momar N''Diaye",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -597,7 +618,9 @@
       "player_full": "Juan Manuel Vargas Risco",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -609,7 +632,9 @@
       "player_full": "André Filipe Tavares Gomes",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.4,
@@ -621,7 +646,9 @@
       "player_full": "Rodrigo Moreno Machado",
       "minute": 80,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -633,7 +660,9 @@
       "player_full": "Juan Manuel Vargas Risco",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -645,7 +674,9 @@
       "player_full": "Rodrigo Moreno Machado",
       "minute": 92,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +932,7 @@
       {
         "id": "Daniel Parejo Muñoz",
         "short": "Muñoz",
-        "x": 65.39,
+        "x": 54.61,
         "y": 37.9,
         "size": 126.7,
         "is_playmaker": false,
@@ -911,7 +942,7 @@
       {
         "id": "André Filipe Tavares Gomes",
         "short": "Gomes",
-        "x": 52.58,
+        "x": 67.42,
         "y": 41.64,
         "size": 112.9,
         "is_playmaker": true,
@@ -921,7 +952,7 @@
       {
         "id": "Denis Cheryshev",
         "short": "Cheryshev",
-        "x": 45.19,
+        "x": 74.81,
         "y": 17.73,
         "size": 97.8,
         "is_playmaker": false,
@@ -931,7 +962,7 @@
       {
         "id": "Antonio Barragán Fernández",
         "short": "Fernández",
-        "x": 64.58,
+        "x": 55.42,
         "y": 72.66,
         "size": 110.2,
         "is_playmaker": true,
@@ -941,7 +972,7 @@
       {
         "id": "Sofiane Feghouli",
         "short": "Feghouli",
-        "x": 40.08,
+        "x": 79.92,
         "y": 63.26,
         "size": 88.1,
         "is_playmaker": false,
@@ -951,7 +982,7 @@
       {
         "id": "Guilherme Magdalena Siqueira",
         "short": "Siqueira",
-        "x": 61.02,
+        "x": 58.98,
         "y": 6.48,
         "size": 64.7,
         "is_playmaker": false,
@@ -961,7 +992,7 @@
       {
         "id": "Álvaro Negredo Sánchez",
         "short": "Sánchez",
-        "x": 47.95,
+        "x": 72.05,
         "y": 34.88,
         "size": 99.1,
         "is_playmaker": false,
@@ -971,7 +1002,7 @@
       {
         "id": "Shkodran Mustafi",
         "short": "Mustafi",
-        "x": 75.4,
+        "x": 44.6,
         "y": 51.44,
         "size": 95.0,
         "is_playmaker": false,
@@ -981,7 +1012,7 @@
       {
         "id": "Mathew Ryan",
         "short": "Ryan",
-        "x": 107.77,
+        "x": 12.23,
         "y": 36.79,
         "size": 63.3,
         "is_playmaker": false,
@@ -991,7 +1022,7 @@
       {
         "id": "Aymen Abdennour",
         "short": "Abdennour",
-        "x": 79.98,
+        "x": 40.02,
         "y": 17.46,
         "size": 74.3,
         "is_playmaker": false,
@@ -1001,7 +1032,7 @@
       {
         "id": "Wilfried Aimeric Zahibo",
         "short": "Zahibo",
-        "x": 68.12,
+        "x": 51.88,
         "y": 40.97,
         "size": 72.9,
         "is_playmaker": false,
@@ -1014,7 +1045,7 @@
         "source": "Daniel Parejo Muñoz",
         "target": "André Filipe Tavares Gomes",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Parejo Muñoz",
@@ -1026,13 +1057,13 @@
         "source": "Daniel Parejo Muñoz",
         "target": "Sofiane Feghouli",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Parejo Muñoz",
         "target": "Denis Cheryshev",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Parejo Muñoz",
@@ -1044,25 +1075,25 @@
         "source": "André Filipe Tavares Gomes",
         "target": "Denis Cheryshev",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Filipe Tavares Gomes",
         "target": "Álvaro Negredo Sánchez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Filipe Tavares Gomes",
         "target": "Antonio Barragán Fernández",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antonio Barragán Fernández",
         "target": "Sofiane Feghouli",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Barragán Fernández",
@@ -1074,19 +1105,19 @@
         "source": "Antonio Barragán Fernández",
         "target": "Shkodran Mustafi",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sofiane Feghouli",
         "target": "André Filipe Tavares Gomes",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Guilherme Magdalena Siqueira",
         "target": "Álvaro Negredo Sánchez",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Álvaro Negredo Sánchez",
@@ -1098,61 +1129,61 @@
         "source": "Álvaro Negredo Sánchez",
         "target": "André Filipe Tavares Gomes",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Shkodran Mustafi",
         "target": "Daniel Parejo Muñoz",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Shkodran Mustafi",
         "target": "Aymen Abdennour",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Shkodran Mustafi",
         "target": "Antonio Barragán Fernández",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Shkodran Mustafi",
         "target": "Sofiane Feghouli",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathew Ryan",
         "target": "Álvaro Negredo Sánchez",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Denis Cheryshev",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Shkodran Mustafi",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wilfried Aimeric Zahibo",
         "target": "Álvaro Negredo Sánchez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wilfried Aimeric Zahibo",
         "target": "Denis Cheryshev",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

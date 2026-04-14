@@ -9,6 +9,11 @@
     "away_color": "#847275",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.28,
     "xg_away": 0.404,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Aleksandar Mitrović",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -513,7 +520,9 @@
       "player_full": "Jonjo Shelvey",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.6,
@@ -525,7 +534,9 @@
       "player_full": "Marko Arnautović",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -537,7 +548,9 @@
       "player_full": "Xherdan Shaqiri",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -549,7 +562,9 @@
       "player_full": "Aleksandar Mitrović",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -561,7 +576,9 @@
       "player_full": "Ibrahim Afellay",
       "minute": 53,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -573,7 +590,9 @@
       "player_full": "Jonathan Walters",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.8,
@@ -585,7 +604,9 @@
       "player_full": "Xherdan Shaqiri",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.9,
@@ -597,7 +618,9 @@
       "player_full": "Mame Biram Diouf",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -609,7 +632,9 @@
       "player_full": "Glenn Whelan",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.8,
@@ -621,7 +646,9 @@
       "player_full": "Gilbert Gianelli Imbula Wanga",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.9,
@@ -633,7 +660,9 @@
       "player_full": "Emmanuel Rivière",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -645,7 +674,9 @@
       "player_full": "Seydou Doumbia",
       "minute": 92,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.8,
@@ -657,7 +688,9 @@
       "player_full": "Marko Arnautović",
       "minute": 93,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +982,7 @@
       {
         "id": "Moussa Sissoko",
         "short": "Sissoko",
-        "x": 47.63,
+        "x": 72.37,
         "y": 55.32,
         "size": 125.2,
         "is_playmaker": false,
@@ -959,7 +992,7 @@
       {
         "id": "Daryl Janmaat",
         "short": "Janmaat",
-        "x": 61.91,
+        "x": 58.09,
         "y": 68.98,
         "size": 104.0,
         "is_playmaker": false,
@@ -969,7 +1002,7 @@
       {
         "id": "Rob Elliot",
         "short": "Elliot",
-        "x": 102.04,
+        "x": 17.96,
         "y": 37.0,
         "size": 68.2,
         "is_playmaker": false,
@@ -979,7 +1012,7 @@
       {
         "id": "Aleksandar Mitrović",
         "short": "Mitrović",
-        "x": 56.89,
+        "x": 63.11,
         "y": 37.94,
         "size": 112.0,
         "is_playmaker": true,
@@ -989,7 +1022,7 @@
       {
         "id": "Jack Colback",
         "short": "Colback",
-        "x": 68.38,
+        "x": 51.62,
         "y": 38.12,
         "size": 77.5,
         "is_playmaker": false,
@@ -999,7 +1032,7 @@
       {
         "id": "Paul Dummett",
         "short": "Dummett",
-        "x": 68.51,
+        "x": 51.49,
         "y": 8.32,
         "size": 72.2,
         "is_playmaker": false,
@@ -1009,7 +1042,7 @@
       {
         "id": "Georginio Wijnaldum",
         "short": "Wijnaldum",
-        "x": 47.06,
+        "x": 72.94,
         "y": 45.51,
         "size": 114.6,
         "is_playmaker": false,
@@ -1019,7 +1052,7 @@
       {
         "id": "Jonjo Shelvey",
         "short": "Shelvey",
-        "x": 53.73,
+        "x": 66.27,
         "y": 37.74,
         "size": 105.3,
         "is_playmaker": true,
@@ -1029,7 +1062,7 @@
       {
         "id": "Steven Taylor",
         "short": "Taylor",
-        "x": 70.42,
+        "x": 49.58,
         "y": 57.46,
         "size": 81.5,
         "is_playmaker": false,
@@ -1039,7 +1072,7 @@
       {
         "id": "Jamaal Lascelles",
         "short": "Lascelles",
-        "x": 80.55,
+        "x": 39.45,
         "y": 29.32,
         "size": 76.2,
         "is_playmaker": false,
@@ -1049,7 +1082,7 @@
       {
         "id": "Yoan Gouffran",
         "short": "Gouffran",
-        "x": 55.3,
+        "x": 64.7,
         "y": 25.84,
         "size": 68.2,
         "is_playmaker": false,
@@ -1062,13 +1095,13 @@
         "source": "Moussa Sissoko",
         "target": "Daryl Janmaat",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Moussa Sissoko",
         "target": "Jonjo Shelvey",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Moussa Sissoko",
@@ -1080,31 +1113,31 @@
         "source": "Moussa Sissoko",
         "target": "Aleksandar Mitrović",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daryl Janmaat",
         "target": "Georginio Wijnaldum",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daryl Janmaat",
         "target": "Moussa Sissoko",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daryl Janmaat",
         "target": "Steven Taylor",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rob Elliot",
         "target": "Aleksandar Mitrović",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aleksandar Mitrović",
@@ -1116,25 +1149,25 @@
         "source": "Aleksandar Mitrović",
         "target": "Georginio Wijnaldum",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jack Colback",
         "target": "Moussa Sissoko",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jack Colback",
         "target": "Aleksandar Mitrović",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paul Dummett",
         "target": "Aleksandar Mitrović",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Georginio Wijnaldum",
@@ -1146,13 +1179,13 @@
         "source": "Georginio Wijnaldum",
         "target": "Daryl Janmaat",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Georginio Wijnaldum",
         "target": "Jonjo Shelvey",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonjo Shelvey",
@@ -1164,31 +1197,31 @@
         "source": "Jonjo Shelvey",
         "target": "Georginio Wijnaldum",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonjo Shelvey",
         "target": "Steven Taylor",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Steven Taylor",
         "target": "Jamaal Lascelles",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jamaal Lascelles",
         "target": "Steven Taylor",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jamaal Lascelles",
         "target": "Paul Dummett",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yoan Gouffran",
@@ -1200,7 +1233,7 @@
         "source": "Yoan Gouffran",
         "target": "Jack Colback",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

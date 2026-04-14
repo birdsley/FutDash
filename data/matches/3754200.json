@@ -9,6 +9,11 @@
     "away_color": "#ed1a3b",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.184,
     "xg_away": 0.573,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Anthony Martial",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.2,
@@ -513,7 +520,9 @@
       "player_full": "Daley Blind",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.9,
@@ -525,7 +534,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -537,7 +548,9 @@
       "player_full": "Cédric Ricardo Alves Soares",
       "minute": 23,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.6,
@@ -549,7 +562,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -561,7 +576,9 @@
       "player_full": "Victor Wanyama",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -573,7 +590,9 @@
       "player_full": "Jesse Lingard",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.6,
@@ -585,7 +604,9 @@
       "player_full": "Ander Herrera Agüera",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -597,7 +618,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -609,7 +632,9 @@
       "player_full": "Victor Wanyama",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.1,
@@ -621,7 +646,9 @@
       "player_full": "Oriol Romeu Vidal",
       "minute": 67,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -633,7 +660,9 @@
       "player_full": "Shane Long",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -645,7 +674,9 @@
       "player_full": "Charlie Austin",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -657,7 +688,9 @@
       "player_full": "Oriol Romeu Vidal",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -669,7 +702,9 @@
       "player_full": "Adnan Januzaj",
       "minute": 94,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Dušan Tadić",
         "short": "Tadić",
-        "x": 52.08,
+        "x": 67.92,
         "y": 36.75,
         "size": 73.6,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Jordy Clasie",
         "short": "Clasie",
-        "x": 59.22,
+        "x": 60.78,
         "y": 34.54,
         "size": 99.3,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Ryan Bertrand",
         "short": "Bertrand",
-        "x": 67.44,
+        "x": 52.56,
         "y": 19.21,
         "size": 75.0,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Matt Targett",
         "short": "Targett",
-        "x": 40.78,
+        "x": 79.22,
         "y": 5.16,
         "size": 87.9,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Sadio Mané",
         "short": "Mané",
-        "x": 50.19,
+        "x": 69.81,
         "y": 50.5,
         "size": 96.4,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "José Miguel da Rocha Fonte",
         "short": "Fonte",
-        "x": 84.75,
+        "x": 35.25,
         "y": 35.7,
         "size": 129.3,
         "is_playmaker": true,
@@ -1021,7 +1056,7 @@
       {
         "id": "Victor Wanyama",
         "short": "Wanyama",
-        "x": 58.28,
+        "x": 61.72,
         "y": 46.03,
         "size": 90.7,
         "is_playmaker": true,
@@ -1031,7 +1066,7 @@
       {
         "id": "Virgil van Dijk",
         "short": "Dijk",
-        "x": 80.37,
+        "x": 39.63,
         "y": 60.82,
         "size": 70.7,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Fraser Forster",
         "short": "Forster",
-        "x": 109.52,
+        "x": 10.48,
         "y": 41.47,
         "size": 83.6,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Cédric Ricardo Alves Soares",
         "short": "Soares",
-        "x": 64.65,
+        "x": 55.35,
         "y": 72.9,
         "size": 97.9,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Shane Long",
         "short": "Long",
-        "x": 34.39,
+        "x": 85.61,
         "y": 43.6,
         "size": 100.7,
         "is_playmaker": false,
@@ -1074,145 +1109,145 @@
         "source": "Dušan Tadić",
         "target": "Jordy Clasie",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dušan Tadić",
         "target": "Shane Long",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordy Clasie",
         "target": "Ryan Bertrand",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordy Clasie",
         "target": "José Miguel da Rocha Fonte",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordy Clasie",
         "target": "Matt Targett",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordy Clasie",
         "target": "Sadio Mané",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ryan Bertrand",
         "target": "José Miguel da Rocha Fonte",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matt Targett",
         "target": "Sadio Mané",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matt Targett",
         "target": "Jordy Clasie",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matt Targett",
         "target": "Shane Long",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sadio Mané",
         "target": "Cédric Ricardo Alves Soares",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Miguel da Rocha Fonte",
         "target": "Victor Wanyama",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Miguel da Rocha Fonte",
         "target": "Ryan Bertrand",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Miguel da Rocha Fonte",
         "target": "Virgil van Dijk",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Miguel da Rocha Fonte",
         "target": "Fraser Forster",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Miguel da Rocha Fonte",
         "target": "Dušan Tadić",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Victor Wanyama",
         "target": "José Miguel da Rocha Fonte",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Victor Wanyama",
         "target": "Cédric Ricardo Alves Soares",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Virgil van Dijk",
         "target": "José Miguel da Rocha Fonte",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fraser Forster",
         "target": "Shane Long",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Ricardo Alves Soares",
         "target": "Sadio Mané",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Ricardo Alves Soares",
         "target": "Shane Long",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Ricardo Alves Soares",
         "target": "Victor Wanyama",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Shane Long",
         "target": "Sadio Mané",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

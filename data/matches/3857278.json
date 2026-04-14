@@ -9,6 +9,11 @@
     "away_color": "#b22234",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.921,
     "xg_away": 1.17,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Yunus Dimoara Musah",
       "minute": 8,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.1,
@@ -513,7 +520,9 @@
       "player_full": "Christian Pulisic",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -525,7 +534,9 @@
       "player_full": "Joshua Sargent",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -537,7 +548,9 @@
       "player_full": "Timothy Weah",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.3,
@@ -549,7 +562,9 @@
       "player_full": "Sergino Dest",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -561,7 +576,9 @@
       "player_full": "Timothy Weah",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -573,7 +590,9 @@
       "player_full": "Sergino Dest",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -585,7 +604,9 @@
       "player_full": "Christian Pulisic",
       "minute": 37,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -597,7 +618,9 @@
       "player_full": "Joshua Sargent",
       "minute": 41,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -609,7 +632,9 @@
       "player_full": "Joshua Sargent",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -621,7 +646,9 @@
       "player_full": "Saman Ghoddos",
       "minute": 51,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -633,7 +660,9 @@
       "player_full": "Yunus Dimoara Musah",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -645,7 +674,9 @@
       "player_full": "Saeid Ezatolahi Afagh",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -657,7 +688,9 @@
       "player_full": "Morteza Pouraliganji",
       "minute": 92,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.1,
@@ -669,7 +702,9 @@
       "player_full": "Mehdi Taremi",
       "minute": 97,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -681,7 +716,9 @@
       "player_full": "Haji Wright",
       "minute": 99,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Yunus Dimoara Musah",
         "short": "Musah",
-        "x": 48.98,
+        "x": 71.02,
         "y": 60.79,
         "size": 106.8,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Sergino Dest",
         "short": "Dest",
-        "x": 49.68,
+        "x": 70.32,
         "y": 71.09,
         "size": 100.6,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Tyler Adams",
         "short": "Adams",
-        "x": 62.23,
+        "x": 57.77,
         "y": 42.75,
         "size": 121.7,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Weston McKennie",
         "short": "McKennie",
-        "x": 52.51,
+        "x": 67.49,
         "y": 26.29,
         "size": 88.3,
         "is_playmaker": true,
@@ -1013,7 +1050,7 @@
       {
         "id": "Cameron Carter-Vickers",
         "short": "Carter-Vick",
-        "x": 79.71,
+        "x": 40.29,
         "y": 58.86,
         "size": 108.5,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Tim Ream",
         "short": "Ream",
-        "x": 75.57,
+        "x": 44.43,
         "y": 23.71,
         "size": 120.8,
         "is_playmaker": true,
@@ -1033,7 +1070,7 @@
       {
         "id": "Matthew Charles Turner",
         "short": "Turner",
-        "x": 109.37,
+        "x": 10.63,
         "y": 40.97,
         "size": 69.9,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Antonee Robinson",
         "short": "Robinson",
-        "x": 51.84,
+        "x": 68.16,
         "y": 8.85,
         "size": 83.9,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Timothy Weah",
         "short": "Weah",
-        "x": 43.59,
+        "x": 76.41,
         "y": 61.3,
         "size": 83.9,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Joshua Sargent",
         "short": "Sargent",
-        "x": 32.33,
+        "x": 87.67,
         "y": 43.79,
         "size": 62.0,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Christian Pulisic",
         "short": "Pulisic",
-        "x": 30.94,
+        "x": 89.06,
         "y": 30.47,
         "size": 58.5,
         "is_playmaker": false,
@@ -1092,13 +1129,13 @@
         "source": "Yunus Dimoara Musah",
         "target": "Tyler Adams",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yunus Dimoara Musah",
         "target": "Timothy Weah",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergino Dest",
@@ -1110,37 +1147,37 @@
         "source": "Sergino Dest",
         "target": "Tyler Adams",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergino Dest",
         "target": "Timothy Weah",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tyler Adams",
         "target": "Weston McKennie",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tyler Adams",
         "target": "Cameron Carter-Vickers",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tyler Adams",
         "target": "Antonee Robinson",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tyler Adams",
         "target": "Tim Ream",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Weston McKennie",
@@ -1152,85 +1189,85 @@
         "source": "Weston McKennie",
         "target": "Joshua Sargent",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Weston McKennie",
         "target": "Christian Pulisic",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cameron Carter-Vickers",
         "target": "Tim Ream",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cameron Carter-Vickers",
         "target": "Yunus Dimoara Musah",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cameron Carter-Vickers",
         "target": "Tyler Adams",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cameron Carter-Vickers",
         "target": "Matthew Charles Turner",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tim Ream",
         "target": "Cameron Carter-Vickers",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tim Ream",
         "target": "Antonee Robinson",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tim Ream",
         "target": "Weston McKennie",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tim Ream",
         "target": "Tyler Adams",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matthew Charles Turner",
         "target": "Tim Ream",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonee Robinson",
         "target": "Tim Ream",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Timothy Weah",
         "target": "Sergino Dest",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Timothy Weah",
         "target": "Yunus Dimoara Musah",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joshua Sargent",
@@ -1248,7 +1285,7 @@
         "source": "Christian Pulisic",
         "target": "Weston McKennie",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

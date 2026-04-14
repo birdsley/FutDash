@@ -9,6 +9,11 @@
     "away_color": "#8b1a1a",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.592,
     "xg_away": 0.247,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Daniele Baselli",
       "minute": 1,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -513,7 +520,9 @@
       "player_full": "Josef Alexander Martínez Mencia",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -525,7 +534,9 @@
       "player_full": "Sergio Pellissier",
       "minute": 25,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -537,7 +548,9 @@
       "player_full": "Lucas Nahuel Castro",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.1,
@@ -549,7 +562,9 @@
       "player_full": "Josef Alexander Martínez Mencia",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -561,7 +576,9 @@
       "player_full": "Valter Birsa",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -573,7 +590,9 @@
       "player_full": "Alberto Paloschi",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.6,
@@ -585,7 +604,9 @@
       "player_full": "Perparim Hetemaj",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -597,7 +618,9 @@
       "player_full": "Cristian Molinaro",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -609,7 +632,9 @@
       "player_full": "Kamil Glik",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -621,7 +646,9 @@
       "player_full": "Alberto Paloschi",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.9,
@@ -633,7 +660,9 @@
       "player_full": "Boštjan Cesar",
       "minute": 62,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -645,7 +674,9 @@
       "player_full": "Valter Birsa",
       "minute": 67,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -657,7 +688,9 @@
       "player_full": "Riccardo Meggiorini",
       "minute": 73,
       "technique": "Overhead Kick",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -669,7 +702,9 @@
       "player_full": "Lucas Nahuel Castro",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -765,16 +800,6 @@
         "eigenvector": 0.0692
       },
       {
-        "id": "Albano Benjamín Bizzarri",
-        "short": "Bizzarri",
-        "x": 9.82,
-        "y": 38.12,
-        "size": 58.6,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0321
-      },
-      {
         "id": "Sergio Pellissier",
         "short": "Pellissier",
         "x": 79.13,
@@ -783,6 +808,16 @@
         "is_playmaker": false,
         "betweenness": 0.25,
         "eigenvector": 0.0061
+      },
+      {
+        "id": "Albano Benjamín Bizzarri",
+        "short": "Bizzarri",
+        "x": 9.82,
+        "y": 38.12,
+        "size": 58.6,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0321
       }
     ],
     "edges": [
@@ -955,18 +990,6 @@
         "direction": "forward"
       },
       {
-        "source": "Albano Benjamín Bizzarri",
-        "target": "Boštjan Cesar",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Albano Benjamín Bizzarri",
-        "target": "Dario Dainelli",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Sergio Pellissier",
         "target": "Lucas Nahuel Castro",
         "weight": 1,
@@ -977,6 +1000,18 @@
         "target": "Alberto Paloschi",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Albano Benjamín Bizzarri",
+        "target": "Boštjan Cesar",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Albano Benjamín Bizzarri",
+        "target": "Dario Dainelli",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -985,7 +1020,7 @@
       {
         "id": "Kamil Glik",
         "short": "Glik",
-        "x": 81.56,
+        "x": 38.44,
         "y": 40.8,
         "size": 147.2,
         "is_playmaker": false,
@@ -995,7 +1030,7 @@
       {
         "id": "Emiliano Moretti",
         "short": "Moretti",
-        "x": 73.26,
+        "x": 46.74,
         "y": 19.24,
         "size": 142.5,
         "is_playmaker": false,
@@ -1005,7 +1040,7 @@
       {
         "id": "Cesare Bovo",
         "short": "Bovo",
-        "x": 76.74,
+        "x": 43.26,
         "y": 61.89,
         "size": 122.2,
         "is_playmaker": true,
@@ -1015,7 +1050,7 @@
       {
         "id": "Cristian Molinaro",
         "short": "Molinaro",
-        "x": 59.46,
+        "x": 60.54,
         "y": 9.72,
         "size": 108.3,
         "is_playmaker": false,
@@ -1025,7 +1060,7 @@
       {
         "id": "Daniele Baselli",
         "short": "Baselli",
-        "x": 49.46,
+        "x": 70.54,
         "y": 25.06,
         "size": 65.4,
         "is_playmaker": false,
@@ -1035,7 +1070,7 @@
       {
         "id": "Bruno da Silva Peres",
         "short": "Peres",
-        "x": 54.52,
+        "x": 65.48,
         "y": 70.78,
         "size": 81.1,
         "is_playmaker": false,
@@ -1045,7 +1080,7 @@
       {
         "id": "Giuseppe Vives",
         "short": "Vives",
-        "x": 58.5,
+        "x": 61.5,
         "y": 41.95,
         "size": 85.1,
         "is_playmaker": true,
@@ -1055,7 +1090,7 @@
       {
         "id": "Afriyie Acquah",
         "short": "Acquah",
-        "x": 45.24,
+        "x": 74.76,
         "y": 66.17,
         "size": 68.3,
         "is_playmaker": false,
@@ -1065,7 +1100,7 @@
       {
         "id": "Daniele Padelli",
         "short": "Padelli",
-        "x": 110.3,
+        "x": 9.7,
         "y": 40.37,
         "size": 68.3,
         "is_playmaker": false,
@@ -1075,7 +1110,7 @@
       {
         "id": "Josef Alexander Martínez Mencia",
         "short": "Mencia",
-        "x": 47.21,
+        "x": 72.79,
         "y": 39.3,
         "size": 59.1,
         "is_playmaker": false,
@@ -1085,7 +1120,7 @@
       {
         "id": "Fabio Quagliarella",
         "short": "Quagliarell",
-        "x": 55.66,
+        "x": 64.34,
         "y": 43.74,
         "size": 57.3,
         "is_playmaker": false,
@@ -1098,109 +1133,109 @@
         "source": "Kamil Glik",
         "target": "Emiliano Moretti",
         "weight": 38,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kamil Glik",
         "target": "Cesare Bovo",
         "weight": 30,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kamil Glik",
         "target": "Cristian Molinaro",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kamil Glik",
         "target": "Giuseppe Vives",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emiliano Moretti",
         "target": "Kamil Glik",
         "weight": 34,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emiliano Moretti",
         "target": "Cristian Molinaro",
         "weight": 31,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emiliano Moretti",
         "target": "Giuseppe Vives",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cesare Bovo",
         "target": "Kamil Glik",
         "weight": 36,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cesare Bovo",
         "target": "Bruno da Silva Peres",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cesare Bovo",
         "target": "Daniele Padelli",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cristian Molinaro",
         "target": "Emiliano Moretti",
         "weight": 25,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cristian Molinaro",
         "target": "Daniele Baselli",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristian Molinaro",
         "target": "Kamil Glik",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniele Baselli",
         "target": "Giuseppe Vives",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bruno da Silva Peres",
         "target": "Cesare Bovo",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bruno da Silva Peres",
         "target": "Afriyie Acquah",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Giuseppe Vives",
         "target": "Cesare Bovo",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Giuseppe Vives",
         "target": "Emiliano Moretti",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Giuseppe Vives",
@@ -1224,19 +1259,19 @@
         "source": "Afriyie Acquah",
         "target": "Bruno da Silva Peres",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniele Padelli",
         "target": "Cesare Bovo",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniele Padelli",
         "target": "Emiliano Moretti",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Josef Alexander Martínez Mencia",
@@ -1248,7 +1283,7 @@
         "source": "Josef Alexander Martínez Mencia",
         "target": "Fabio Quagliarella",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fabio Quagliarella",
@@ -1260,7 +1295,7 @@
         "source": "Fabio Quagliarella",
         "target": "Josef Alexander Martínez Mencia",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

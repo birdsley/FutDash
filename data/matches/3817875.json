@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.395,
     "xg_away": 1.542,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Airam López Cabrera",
       "minute": 4,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -513,7 +520,9 @@
       "player_full": "Daniel Chima Chukwu",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -525,7 +534,9 @@
       "player_full": "Brandon Fernandes",
       "minute": 26,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.9,
@@ -537,7 +548,9 @@
       "player_full": "Iván Garrido González",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -549,7 +562,9 @@
       "player_full": "Eduardo Bedia Peláez",
       "minute": 27,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.3,
@@ -561,7 +576,9 @@
       "player_full": "Princeton Rebello",
       "minute": 45,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -573,7 +590,9 @@
       "player_full": "Daniel Chima Chukwu",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -585,7 +604,9 @@
       "player_full": "Boris Singh Thangjam",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.0,
@@ -597,7 +618,9 @@
       "player_full": "Anisa Anwar Ali",
       "minute": 62,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.2,
@@ -609,7 +632,9 @@
       "player_full": "Airam López Cabrera",
       "minute": 62,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.4,
@@ -621,7 +646,9 @@
       "player_full": "Eduardo Bedia Peláez",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -633,7 +660,9 @@
       "player_full": "Daniel Chima Chukwu",
       "minute": 74,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -645,7 +674,9 @@
       "player_full": "Seminlen Doungel",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -657,7 +688,9 @@
       "player_full": "Airam López Cabrera",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -669,7 +702,9 @@
       "player_full": "Alexander Romario Jesuraj",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -681,7 +716,9 @@
       "player_full": "Airam López Cabrera",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.8,
@@ -693,7 +730,9 @@
       "player_full": "Eduardo Bedia Peláez",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.1271
       },
       {
-        "id": "Peter Hartley",
-        "short": "Hartley",
-        "x": 34.2,
-        "y": 23.64,
-        "size": 65.1,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0279
-      },
-      {
         "id": "Narender Gahlot",
         "short": "Gahlot",
         "x": 43.99,
@@ -807,6 +836,16 @@
         "is_playmaker": false,
         "betweenness": 0.1111,
         "eigenvector": 0.0155
+      },
+      {
+        "id": "Peter Hartley",
+        "short": "Hartley",
+        "x": 34.2,
+        "y": 23.64,
+        "size": 65.1,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0279
       }
     ],
     "edges": [
@@ -937,18 +976,6 @@
         "direction": "backward"
       },
       {
-        "source": "Peter Hartley",
-        "target": "Rehnesh Thumbirumbu Paramba",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Peter Hartley",
-        "target": "Ricky Lallawmawma",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Narender Gahlot",
         "target": "Jitendra Singh",
         "weight": 1,
@@ -959,6 +986,18 @@
         "target": "Seminlen Doungel",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Peter Hartley",
+        "target": "Rehnesh Thumbirumbu Paramba",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Peter Hartley",
+        "target": "Ricky Lallawmawma",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -967,7 +1006,7 @@
       {
         "id": "Eduardo Bedia Peláez",
         "short": "Peláez",
-        "x": 65.27,
+        "x": 54.73,
         "y": 39.11,
         "size": 152.8,
         "is_playmaker": false,
@@ -977,7 +1016,7 @@
       {
         "id": "Iván Garrido González",
         "short": "González",
-        "x": 79.98,
+        "x": 40.02,
         "y": 57.28,
         "size": 93.6,
         "is_playmaker": false,
@@ -987,7 +1026,7 @@
       {
         "id": "Princeton Rebello",
         "short": "Rebello",
-        "x": 62.99,
+        "x": 57.01,
         "y": 40.26,
         "size": 113.3,
         "is_playmaker": false,
@@ -997,7 +1036,7 @@
       {
         "id": "Brandon Fernandes",
         "short": "Fernandes",
-        "x": 61.9,
+        "x": 58.1,
         "y": 29.21,
         "size": 104.3,
         "is_playmaker": false,
@@ -1007,7 +1046,7 @@
       {
         "id": "Alberto Noguera Ripoll",
         "short": "Ripoll",
-        "x": 58.78,
+        "x": 61.22,
         "y": 37.47,
         "size": 99.8,
         "is_playmaker": true,
@@ -1017,7 +1056,7 @@
       {
         "id": "Anisa Anwar Ali",
         "short": "Ali",
-        "x": 87.1,
+        "x": 32.9,
         "y": 24.82,
         "size": 104.3,
         "is_playmaker": true,
@@ -1027,7 +1066,7 @@
       {
         "id": "Aibanbha Kupar Dohling",
         "short": "Dohling",
-        "x": 64.77,
+        "x": 55.23,
         "y": 13.12,
         "size": 92.7,
         "is_playmaker": false,
@@ -1037,7 +1076,7 @@
       {
         "id": "Seriton Fernandes",
         "short": "Fernandes",
-        "x": 60.36,
+        "x": 59.64,
         "y": 71.26,
         "size": 66.7,
         "is_playmaker": false,
@@ -1047,7 +1086,7 @@
       {
         "id": "Devendra Dhaku Murgaokar",
         "short": "Murgaokar",
-        "x": 45.48,
+        "x": 74.52,
         "y": 66.77,
         "size": 60.4,
         "is_playmaker": false,
@@ -1057,7 +1096,7 @@
       {
         "id": "Airam López Cabrera",
         "short": "Cabrera",
-        "x": 51.51,
+        "x": 68.49,
         "y": 40.16,
         "size": 58.6,
         "is_playmaker": false,
@@ -1067,7 +1106,7 @@
       {
         "id": "Naveen Kumar",
         "short": "Kumar",
-        "x": 104.17,
+        "x": 15.83,
         "y": 43.27,
         "size": 58.6,
         "is_playmaker": false,
@@ -1080,7 +1119,7 @@
         "source": "Eduardo Bedia Peláez",
         "target": "Iván Garrido González",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eduardo Bedia Peláez",
@@ -1092,7 +1131,7 @@
         "source": "Eduardo Bedia Peláez",
         "target": "Anisa Anwar Ali",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eduardo Bedia Peláez",
@@ -1110,19 +1149,19 @@
         "source": "Iván Garrido González",
         "target": "Eduardo Bedia Peláez",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Iván Garrido González",
         "target": "Anisa Anwar Ali",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Iván Garrido González",
         "target": "Naveen Kumar",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Princeton Rebello",
@@ -1134,7 +1173,7 @@
         "source": "Princeton Rebello",
         "target": "Alberto Noguera Ripoll",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Princeton Rebello",
@@ -1146,7 +1185,7 @@
         "source": "Princeton Rebello",
         "target": "Airam López Cabrera",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Brandon Fernandes",
@@ -1158,7 +1197,7 @@
         "source": "Alberto Noguera Ripoll",
         "target": "Princeton Rebello",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alberto Noguera Ripoll",
@@ -1170,43 +1209,43 @@
         "source": "Alberto Noguera Ripoll",
         "target": "Eduardo Bedia Peláez",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alberto Noguera Ripoll",
         "target": "Airam López Cabrera",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anisa Anwar Ali",
         "target": "Eduardo Bedia Peláez",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anisa Anwar Ali",
         "target": "Aibanbha Kupar Dohling",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anisa Anwar Ali",
         "target": "Alberto Noguera Ripoll",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anisa Anwar Ali",
         "target": "Brandon Fernandes",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anisa Anwar Ali",
         "target": "Naveen Kumar",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aibanbha Kupar Dohling",
@@ -1224,49 +1263,49 @@
         "source": "Aibanbha Kupar Dohling",
         "target": "Anisa Anwar Ali",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aibanbha Kupar Dohling",
         "target": "Alberto Noguera Ripoll",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Seriton Fernandes",
         "target": "Iván Garrido González",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Seriton Fernandes",
         "target": "Devendra Dhaku Murgaokar",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Airam López Cabrera",
         "target": "Alberto Noguera Ripoll",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Airam López Cabrera",
         "target": "Princeton Rebello",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Naveen Kumar",
         "target": "Anisa Anwar Ali",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Naveen Kumar",
         "target": "Iván Garrido González",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

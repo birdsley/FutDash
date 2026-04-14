@@ -9,6 +9,11 @@
     "away_color": "#f0c500",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.91,
     "xg_away": 0.306,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Bouna Sarr",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -513,7 +520,9 @@
       "player_full": "Adrien Thomasson",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -525,7 +534,9 @@
       "player_full": "Michy Batshuayi Tunga",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.3,
@@ -537,7 +548,9 @@
       "player_full": "Steven Fletcher",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -549,7 +562,9 @@
       "player_full": "Michy Batshuayi Tunga",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.6,
@@ -561,7 +576,9 @@
       "player_full": "Michy Batshuayi Tunga",
       "minute": 42,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -573,7 +590,9 @@
       "player_full": "Florian Thauvin",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -585,7 +604,9 @@
       "player_full": "Yacine Bammou",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.7,
@@ -597,7 +618,9 @@
       "player_full": "Florian Thauvin",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.4,
@@ -609,7 +632,9 @@
       "player_full": "Emiliano Sala",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -621,7 +646,9 @@
       "player_full": "Oswaldo Augusto Vizcarrondo Araújo",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -633,7 +660,9 @@
       "player_full": "Alejandro Bedoya",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.3,
@@ -645,7 +674,9 @@
       "player_full": "Adryan Oliveira Tavares",
       "minute": 86,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.9,
@@ -657,7 +688,9 @@
       "player_full": "Emiliano Sala",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +958,7 @@
       {
         "id": "Youssouf Sabaly",
         "short": "Sabaly",
-        "x": 63.7,
+        "x": 56.3,
         "y": 70.39,
         "size": 147.7,
         "is_playmaker": true,
@@ -935,7 +968,7 @@
       {
         "id": "Jules Iloki",
         "short": "Iloki",
-        "x": 42.16,
+        "x": 77.84,
         "y": 67.29,
         "size": 69.6,
         "is_playmaker": false,
@@ -945,7 +978,7 @@
       {
         "id": "Guillaume Gillet",
         "short": "Gillet",
-        "x": 65.74,
+        "x": 54.26,
         "y": 40.19,
         "size": 113.3,
         "is_playmaker": false,
@@ -955,7 +988,7 @@
       {
         "id": "Birama Touré",
         "short": "Touré",
-        "x": 60.5,
+        "x": 59.5,
         "y": 39.0,
         "size": 97.4,
         "is_playmaker": true,
@@ -965,7 +998,7 @@
       {
         "id": "Léo Dubois",
         "short": "Dubois",
-        "x": 61.16,
+        "x": 58.84,
         "y": 6.93,
         "size": 110.6,
         "is_playmaker": false,
@@ -975,7 +1008,7 @@
       {
         "id": "Lévy Koffi Djidji",
         "short": "Djidji",
-        "x": 84.1,
+        "x": 35.9,
         "y": 49.2,
         "size": 82.8,
         "is_playmaker": false,
@@ -985,7 +1018,7 @@
       {
         "id": "Adrien Thomasson",
         "short": "Thomasson",
-        "x": 48.0,
+        "x": 72.0,
         "y": 16.8,
         "size": 101.4,
         "is_playmaker": false,
@@ -995,7 +1028,7 @@
       {
         "id": "Yacine Bammou",
         "short": "Bammou",
-        "x": 53.28,
+        "x": 66.72,
         "y": 31.86,
         "size": 89.4,
         "is_playmaker": false,
@@ -1005,7 +1038,7 @@
       {
         "id": "Maxime Dupé",
         "short": "Dupé",
-        "x": 107.61,
+        "x": 12.39,
         "y": 45.42,
         "size": 66.9,
         "is_playmaker": false,
@@ -1015,7 +1048,7 @@
       {
         "id": "Emiliano Sala",
         "short": "Sala",
-        "x": 49.45,
+        "x": 70.55,
         "y": 40.25,
         "size": 60.3,
         "is_playmaker": false,
@@ -1025,7 +1058,7 @@
       {
         "id": "Oswaldo Augusto Vizcarrondo Araújo",
         "short": "Araújo",
-        "x": 77.47,
+        "x": 42.53,
         "y": 26.37,
         "size": 65.6,
         "is_playmaker": false,
@@ -1038,7 +1071,7 @@
         "source": "Youssouf Sabaly",
         "target": "Jules Iloki",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Youssouf Sabaly",
@@ -1056,13 +1089,13 @@
         "source": "Youssouf Sabaly",
         "target": "Yacine Bammou",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Youssouf Sabaly",
         "target": "Lévy Koffi Djidji",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Guillaume Gillet",
@@ -1074,7 +1107,7 @@
         "source": "Guillaume Gillet",
         "target": "Léo Dubois",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Birama Touré",
@@ -1092,19 +1125,19 @@
         "source": "Léo Dubois",
         "target": "Guillaume Gillet",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Léo Dubois",
         "target": "Adrien Thomasson",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Léo Dubois",
         "target": "Yacine Bammou",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Léo Dubois",
@@ -1116,37 +1149,37 @@
         "source": "Lévy Koffi Djidji",
         "target": "Youssouf Sabaly",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lévy Koffi Djidji",
         "target": "Oswaldo Augusto Vizcarrondo Araújo",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adrien Thomasson",
         "target": "Birama Touré",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrien Thomasson",
         "target": "Léo Dubois",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrien Thomasson",
         "target": "Guillaume Gillet",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yacine Bammou",
         "target": "Adrien Thomasson",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yacine Bammou",
@@ -1158,25 +1191,25 @@
         "source": "Yacine Bammou",
         "target": "Guillaume Gillet",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maxime Dupé",
         "target": "Youssouf Sabaly",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maxime Dupé",
         "target": "Lévy Koffi Djidji",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oswaldo Augusto Vizcarrondo Araújo",
         "target": "Adrien Thomasson",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

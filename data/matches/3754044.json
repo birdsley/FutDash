@@ -9,6 +9,11 @@
     "away_color": "#00a650",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.942,
     "xg_away": 0.924,
     "shots_home": 11,
@@ -501,7 +506,9 @@
       "player_full": "Memphis Depay",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -513,7 +520,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -525,7 +534,9 @@
       "player_full": "Alexander Banor Tettey",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.3,
@@ -537,7 +548,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -549,7 +562,9 @@
       "player_full": "Chris Smalling",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.6,
@@ -561,7 +576,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 30,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -573,7 +590,9 @@
       "player_full": "Cameron Jerome",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -585,7 +604,9 @@
       "player_full": "Alexander Banor Tettey",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -597,7 +618,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 59,
       "technique": "Overhead Kick",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.3,
@@ -609,7 +632,9 @@
       "player_full": "Wes Hoolahan",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -621,7 +646,9 @@
       "player_full": "Anthony Martial",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -633,7 +660,9 @@
       "player_full": "Daley Blind",
       "minute": 68,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.7,
@@ -645,7 +674,9 @@
       "player_full": "Ander Herrera Agüera",
       "minute": 75,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -657,7 +688,9 @@
       "player_full": "Juan Manuel Mata García",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.6,
@@ -669,7 +702,9 @@
       "player_full": "Youssouf Chafiq Mulumbu Ngangu",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -681,7 +716,9 @@
       "player_full": "Jonathan Howson",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -693,7 +730,9 @@
       "player_full": "Chris Smalling",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.262
       },
       {
-        "id": "Wayne Mark Rooney",
-        "short": "Rooney",
-        "x": 82.4,
-        "y": 38.04,
-        "size": 57.7,
-        "is_playmaker": true,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0232
-      },
-      {
         "id": "David de Gea Quintana",
         "short": "Quintana",
         "x": 11.82,
@@ -807,6 +836,16 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0084
+      },
+      {
+        "id": "Wayne Mark Rooney",
+        "short": "Rooney",
+        "x": 82.4,
+        "y": 38.04,
+        "size": 57.7,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0232
       }
     ],
     "edges": [
@@ -979,18 +1018,6 @@
         "direction": "backward"
       },
       {
-        "source": "Wayne Mark Rooney",
-        "target": "Michael Carrick",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Wayne Mark Rooney",
-        "target": "Juan Manuel Mata García",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "David de Gea Quintana",
         "target": "Chris Smalling",
         "weight": 1,
@@ -1001,6 +1028,18 @@
         "target": "Phil Jones",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Wayne Mark Rooney",
+        "target": "Michael Carrick",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Wayne Mark Rooney",
+        "target": "Juan Manuel Mata García",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1009,7 +1048,7 @@
       {
         "id": "Wes Hoolahan",
         "short": "Hoolahan",
-        "x": 63.94,
+        "x": 56.06,
         "y": 43.28,
         "size": 146.7,
         "is_playmaker": false,
@@ -1019,7 +1058,7 @@
       {
         "id": "Nathan Redmond",
         "short": "Redmond",
-        "x": 53.58,
+        "x": 66.42,
         "y": 54.12,
         "size": 95.0,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Gary O''Neil",
         "short": "O''Neil",
-        "x": 64.38,
+        "x": 55.62,
         "y": 34.66,
         "size": 123.3,
         "is_playmaker": false,
@@ -1039,7 +1078,7 @@
       {
         "id": "Sébastien Aymar Bassong Nguena",
         "short": "Nguena",
-        "x": 83.42,
+        "x": 36.58,
         "y": 20.96,
         "size": 66.7,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Alexander Banor Tettey",
         "short": "Tettey",
-        "x": 60.99,
+        "x": 59.01,
         "y": 39.0,
         "size": 130.0,
         "is_playmaker": true,
@@ -1059,7 +1098,7 @@
       {
         "id": "Robert Brady",
         "short": "Brady",
-        "x": 55.19,
+        "x": 64.81,
         "y": 22.13,
         "size": 91.7,
         "is_playmaker": false,
@@ -1069,7 +1108,7 @@
       {
         "id": "Ryan Bennett",
         "short": "Bennett",
-        "x": 78.47,
+        "x": 41.53,
         "y": 56.82,
         "size": 78.3,
         "is_playmaker": true,
@@ -1079,7 +1118,7 @@
       {
         "id": "Martin Olsson",
         "short": "Olsson",
-        "x": 61.39,
+        "x": 58.61,
         "y": 5.65,
         "size": 70.0,
         "is_playmaker": false,
@@ -1089,7 +1128,7 @@
       {
         "id": "Russell Martin",
         "short": "Martin",
-        "x": 68.75,
+        "x": 51.25,
         "y": 70.35,
         "size": 80.0,
         "is_playmaker": false,
@@ -1099,7 +1138,7 @@
       {
         "id": "Declan Rudd",
         "short": "Rudd",
-        "x": 110.69,
+        "x": 9.31,
         "y": 40.85,
         "size": 61.7,
         "is_playmaker": false,
@@ -1109,7 +1148,7 @@
       {
         "id": "Cameron Jerome",
         "short": "Jerome",
-        "x": 44.88,
+        "x": 75.12,
         "y": 31.94,
         "size": 61.7,
         "is_playmaker": false,
@@ -1122,13 +1161,13 @@
         "source": "Wes Hoolahan",
         "target": "Nathan Redmond",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wes Hoolahan",
         "target": "Robert Brady",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wes Hoolahan",
@@ -1146,19 +1185,19 @@
         "source": "Nathan Redmond",
         "target": "Gary O''Neil",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nathan Redmond",
         "target": "Wes Hoolahan",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nathan Redmond",
         "target": "Alexander Banor Tettey",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gary O''Neil",
@@ -1176,7 +1215,7 @@
         "source": "Gary O''Neil",
         "target": "Russell Martin",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gary O''Neil",
@@ -1188,13 +1227,13 @@
         "source": "Sébastien Aymar Bassong Nguena",
         "target": "Alexander Banor Tettey",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sébastien Aymar Bassong Nguena",
         "target": "Declan Rudd",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexander Banor Tettey",
@@ -1206,7 +1245,7 @@
         "source": "Alexander Banor Tettey",
         "target": "Nathan Redmond",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexander Banor Tettey",
@@ -1218,55 +1257,55 @@
         "source": "Alexander Banor Tettey",
         "target": "Robert Brady",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexander Banor Tettey",
         "target": "Ryan Bennett",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexander Banor Tettey",
         "target": "Cameron Jerome",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Robert Brady",
         "target": "Wes Hoolahan",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Brady",
         "target": "Gary O''Neil",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Brady",
         "target": "Cameron Jerome",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ryan Bennett",
         "target": "Alexander Banor Tettey",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ryan Bennett",
         "target": "Russell Martin",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ryan Bennett",
         "target": "Declan Rudd",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Martin Olsson",
@@ -1278,31 +1317,31 @@
         "source": "Russell Martin",
         "target": "Wes Hoolahan",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rudd",
         "target": "Sébastien Aymar Bassong Nguena",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rudd",
         "target": "Ryan Bennett",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cameron Jerome",
         "target": "Robert Brady",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cameron Jerome",
         "target": "Alexander Banor Tettey",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#ef0107",
     "score_home": 1,
     "score_away": 5,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.153,
     "xg_away": 1.395,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Kim Little",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -513,7 +520,9 @@
       "player_full": "Dominique Johanna Anna Petrone Janssen",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -525,7 +534,9 @@
       "player_full": "Kim Little",
       "minute": 19,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.0,
@@ -537,7 +548,9 @@
       "player_full": "Bethany Mead",
       "minute": 21,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -549,7 +562,9 @@
       "player_full": "Courtney Sweetman-Kirk",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -561,7 +576,9 @@
       "player_full": "Dominique Johanna Anna Petrone Janssen",
       "minute": 34,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -573,7 +590,9 @@
       "player_full": "Danielle van de Donk",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -585,7 +604,9 @@
       "player_full": "Vivianne Miedema",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 83.0,
@@ -597,7 +618,9 @@
       "player_full": "Laura Coombs",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -609,7 +632,9 @@
       "player_full": "Bethany Mead",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -621,7 +646,9 @@
       "player_full": "Bethany Mead",
       "minute": 64,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -633,7 +660,9 @@
       "player_full": "Dominique Johanna Anna Petrone Janssen",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -645,7 +674,9 @@
       "player_full": "Courtney Sweetman-Kirk",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -657,7 +688,9 @@
       "player_full": "Katie McCabe",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -669,7 +702,9 @@
       "player_full": "Vivianne Miedema",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -681,7 +716,9 @@
       "player_full": "Missy Bo Kearns",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -693,7 +730,9 @@
       "player_full": "Viktoria Schnaderbeck",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.1709
       },
       {
-        "id": "Amy Rodgers",
-        "short": "Rodgers",
-        "x": 32.5,
-        "y": 32.25,
-        "size": 65.8,
-        "is_playmaker": false,
-        "betweenness": 0.2444,
-        "eigenvector": 0.0445
-      },
-      {
         "id": "Anke Preuß",
         "short": "Preuß",
         "x": 11.5,
@@ -807,6 +836,16 @@
         "is_playmaker": false,
         "betweenness": 0.15,
         "eigenvector": 0.0063
+      },
+      {
+        "id": "Amy Rodgers",
+        "short": "Rodgers",
+        "x": 32.5,
+        "y": 32.25,
+        "size": 65.8,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.0445
       }
     ],
     "edges": [
@@ -913,18 +952,6 @@
         "direction": "forward"
       },
       {
-        "source": "Amy Rodgers",
-        "target": "Laura Coombs",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Amy Rodgers",
-        "target": "Anke Preuß",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Anke Preuß",
         "target": "Amy Rodgers",
         "weight": 1,
@@ -935,6 +962,18 @@
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Amy Rodgers",
+        "target": "Anke Preuß",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Amy Rodgers",
+        "target": "Laura Coombs",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -943,7 +982,7 @@
       {
         "id": "Louise Quinn",
         "short": "Quinn",
-        "x": 76.88,
+        "x": 43.12,
         "y": 28.98,
         "size": 137.1,
         "is_playmaker": true,
@@ -953,7 +992,7 @@
       {
         "id": "Katrine Veje",
         "short": "Veje",
-        "x": 57.22,
+        "x": 62.78,
         "y": 10.32,
         "size": 134.5,
         "is_playmaker": false,
@@ -963,7 +1002,7 @@
       {
         "id": "Lisa Evans",
         "short": "Evans",
-        "x": 59.28,
+        "x": 60.72,
         "y": 72.88,
         "size": 96.0,
         "is_playmaker": false,
@@ -973,7 +1012,7 @@
       {
         "id": "Bethany Mead",
         "short": "Mead",
-        "x": 50.26,
+        "x": 69.74,
         "y": 61.85,
         "size": 75.5,
         "is_playmaker": false,
@@ -983,7 +1022,7 @@
       {
         "id": "Leah Williamson",
         "short": "Williamson",
-        "x": 75.66,
+        "x": 44.34,
         "y": 60.37,
         "size": 106.3,
         "is_playmaker": true,
@@ -993,7 +1032,7 @@
       {
         "id": "Kim Little",
         "short": "Little",
-        "x": 52.83,
+        "x": 67.17,
         "y": 34.8,
         "size": 91.5,
         "is_playmaker": false,
@@ -1003,7 +1042,7 @@
       {
         "id": "Pauline Peyraud Magnin",
         "short": "Magnin",
-        "x": 105.29,
+        "x": 14.71,
         "y": 41.61,
         "size": 76.8,
         "is_playmaker": false,
@@ -1013,7 +1052,7 @@
       {
         "id": "Danielle van de Donk",
         "short": "Donk",
-        "x": 47.71,
+        "x": 72.29,
         "y": 37.35,
         "size": 90.3,
         "is_playmaker": false,
@@ -1023,7 +1062,7 @@
       {
         "id": "Dominique Johanna Anna Petrone Janssen",
         "short": "Janssen",
-        "x": 62.49,
+        "x": 57.51,
         "y": 38.19,
         "size": 78.1,
         "is_playmaker": false,
@@ -1033,7 +1072,7 @@
       {
         "id": "Katie McCabe",
         "short": "McCabe",
-        "x": 40.77,
+        "x": 79.23,
         "y": 24.73,
         "size": 61.4,
         "is_playmaker": false,
@@ -1043,7 +1082,7 @@
       {
         "id": "Vivianne Miedema",
         "short": "Miedema",
-        "x": 41.28,
+        "x": 78.72,
         "y": 35.14,
         "size": 57.6,
         "is_playmaker": false,
@@ -1056,7 +1095,7 @@
         "source": "Louise Quinn",
         "target": "Katrine Veje",
         "weight": 27,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Louise Quinn",
@@ -1068,73 +1107,73 @@
         "source": "Louise Quinn",
         "target": "Danielle van de Donk",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Louise Quinn",
         "target": "Dominique Johanna Anna Petrone Janssen",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katrine Veje",
         "target": "Louise Quinn",
         "weight": 22,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Katrine Veje",
         "target": "Kim Little",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katrine Veje",
         "target": "Danielle van de Donk",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katrine Veje",
         "target": "Dominique Johanna Anna Petrone Janssen",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Katrine Veje",
         "target": "Katie McCabe",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lisa Evans",
         "target": "Bethany Mead",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lisa Evans",
         "target": "Leah Williamson",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bethany Mead",
         "target": "Lisa Evans",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Leah Williamson",
         "target": "Lisa Evans",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Leah Williamson",
         "target": "Pauline Peyraud Magnin",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Leah Williamson",
@@ -1146,61 +1185,61 @@
         "source": "Kim Little",
         "target": "Louise Quinn",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kim Little",
         "target": "Danielle van de Donk",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kim Little",
         "target": "Katrine Veje",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pauline Peyraud Magnin",
         "target": "Louise Quinn",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pauline Peyraud Magnin",
         "target": "Leah Williamson",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danielle van de Donk",
         "target": "Katrine Veje",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danielle van de Donk",
         "target": "Kim Little",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danielle van de Donk",
         "target": "Vivianne Miedema",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dominique Johanna Anna Petrone Janssen",
         "target": "Louise Quinn",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dominique Johanna Anna Petrone Janssen",
         "target": "Katrine Veje",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katie McCabe",
@@ -1212,7 +1251,7 @@
         "source": "Vivianne Miedema",
         "target": "Danielle van de Donk",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vivianne Miedema",

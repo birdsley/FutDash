@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.34,
     "xg_away": 1.557,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Mariana Valeria Larroquette",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.2,
@@ -513,7 +520,9 @@
       "player_full": "Estefanía Romina Banini Ruiz",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.1,
@@ -525,7 +534,9 @@
       "player_full": "Olivia Alma Charlotta Schough",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -537,7 +548,9 @@
       "player_full": "Mariana Valeria Larroquette",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.4,
@@ -549,7 +562,9 @@
       "player_full": "Olivia Alma Charlotta Schough",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.6,
@@ -561,7 +576,9 @@
       "player_full": "Magdalena Lilly Eriksson",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.4,
@@ -573,7 +590,9 @@
       "player_full": "Anna Sandberg",
       "minute": 50,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.3,
@@ -585,7 +604,9 @@
       "player_full": "Estefanía Romina Banini Ruiz",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.6,
@@ -597,7 +618,9 @@
       "player_full": "Rebecka Blomqvist",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.8,
@@ -609,7 +632,9 @@
       "player_full": "Hanna Ulrika Bennison",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -621,7 +646,9 @@
       "player_full": "Érica Noelia Lonigro",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -633,7 +660,9 @@
       "player_full": "Elin Ingrid Johanna Rubensson",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.2,
@@ -645,7 +674,9 @@
       "player_full": "Érica Noelia Lonigro",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +944,7 @@
       {
         "id": "Amanda Ilestedt",
         "short": "Ilestedt",
-        "x": 68.61,
+        "x": 51.39,
         "y": 51.37,
         "size": 143.8,
         "is_playmaker": false,
@@ -923,7 +954,7 @@
       {
         "id": "Magdalena Lilly Eriksson",
         "short": "Eriksson",
-        "x": 67.39,
+        "x": 52.61,
         "y": 24.16,
         "size": 156.1,
         "is_playmaker": false,
@@ -933,7 +964,7 @@
       {
         "id": "Anna Sandberg",
         "short": "Sandberg",
-        "x": 54.59,
+        "x": 65.41,
         "y": 7.26,
         "size": 110.1,
         "is_playmaker": false,
@@ -943,7 +974,7 @@
       {
         "id": "Stina Olivia Lennartsson",
         "short": "Lennartsson",
-        "x": 50.6,
+        "x": 69.4,
         "y": 73.0,
         "size": 106.7,
         "is_playmaker": true,
@@ -953,7 +984,7 @@
       {
         "id": "Madelen Fatimma Maria Janogy",
         "short": "Janogy",
-        "x": 30.45,
+        "x": 89.55,
         "y": 52.09,
         "size": 68.5,
         "is_playmaker": false,
@@ -963,7 +994,7 @@
       {
         "id": "Eva Sofia Jakobsson",
         "short": "Jakobsson",
-        "x": 42.31,
+        "x": 77.69,
         "y": 71.71,
         "size": 74.1,
         "is_playmaker": false,
@@ -973,7 +1004,7 @@
       {
         "id": "Hanna Ulrika Bennison",
         "short": "Bennison",
-        "x": 54.58,
+        "x": 65.42,
         "y": 47.19,
         "size": 85.3,
         "is_playmaker": true,
@@ -983,7 +1014,7 @@
       {
         "id": "Olivia Alma Charlotta Schough",
         "short": "Schough",
-        "x": 59.34,
+        "x": 60.66,
         "y": 21.35,
         "size": 66.2,
         "is_playmaker": false,
@@ -993,7 +1024,7 @@
       {
         "id": "Jennifer Miley Falk",
         "short": "Falk",
-        "x": 105.18,
+        "x": 14.82,
         "y": 36.18,
         "size": 60.6,
         "is_playmaker": false,
@@ -1003,7 +1034,7 @@
       {
         "id": "Sara Caroline Seger",
         "short": "Seger",
-        "x": 48.81,
+        "x": 71.19,
         "y": 37.08,
         "size": 69.6,
         "is_playmaker": false,
@@ -1013,7 +1044,7 @@
       {
         "id": "Rebecka Blomqvist",
         "short": "Blomqvist",
-        "x": 45.1,
+        "x": 74.9,
         "y": 27.38,
         "size": 64.0,
         "is_playmaker": false,
@@ -1032,13 +1063,13 @@
         "source": "Amanda Ilestedt",
         "target": "Stina Olivia Lennartsson",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Amanda Ilestedt",
         "target": "Eva Sofia Jakobsson",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Magdalena Lilly Eriksson",
@@ -1050,37 +1081,37 @@
         "source": "Magdalena Lilly Eriksson",
         "target": "Anna Sandberg",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Magdalena Lilly Eriksson",
         "target": "Olivia Alma Charlotta Schough",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Magdalena Lilly Eriksson",
         "target": "Sara Caroline Seger",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Magdalena Lilly Eriksson",
         "target": "Hanna Ulrika Bennison",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anna Sandberg",
         "target": "Magdalena Lilly Eriksson",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anna Sandberg",
         "target": "Olivia Alma Charlotta Schough",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anna Sandberg",
@@ -1092,31 +1123,31 @@
         "source": "Anna Sandberg",
         "target": "Rebecka Blomqvist",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anna Sandberg",
         "target": "Sara Caroline Seger",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stina Olivia Lennartsson",
         "target": "Amanda Ilestedt",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stina Olivia Lennartsson",
         "target": "Madelen Fatimma Maria Janogy",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stina Olivia Lennartsson",
         "target": "Eva Sofia Jakobsson",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stina Olivia Lennartsson",
@@ -1128,13 +1159,13 @@
         "source": "Eva Sofia Jakobsson",
         "target": "Madelen Fatimma Maria Janogy",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hanna Ulrika Bennison",
         "target": "Amanda Ilestedt",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hanna Ulrika Bennison",
@@ -1146,13 +1177,13 @@
         "source": "Hanna Ulrika Bennison",
         "target": "Magdalena Lilly Eriksson",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jennifer Miley Falk",
         "target": "Amanda Ilestedt",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sara Caroline Seger",
@@ -1164,7 +1195,7 @@
         "source": "Rebecka Blomqvist",
         "target": "Anna Sandberg",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#274488",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.864,
     "xg_away": 0.575,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Marcus Rashford",
       "minute": 7,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.3,
@@ -513,7 +520,9 @@
       "player_full": "Anthony Martial",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.3,
@@ -525,7 +534,9 @@
       "player_full": "Leighton Baines",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -537,7 +548,9 @@
       "player_full": "Faustino Marcos Alberto Rojo",
       "minute": 24,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -549,7 +562,9 @@
       "player_full": "Anthony Martial",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.3,
@@ -561,7 +576,9 @@
       "player_full": "Anthony Martial",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.3,
@@ -573,7 +590,9 @@
       "player_full": "Morgan Schneiderlin",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -585,7 +604,9 @@
       "player_full": "Jesse Lingard",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -597,7 +618,9 @@
       "player_full": "Romelu Lukaku Menama",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.8,
@@ -609,7 +632,9 @@
       "player_full": "Tom Cleverley",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -621,7 +646,9 @@
       "player_full": "Anthony Martial",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -633,7 +660,9 @@
       "player_full": "Phil Jagielka",
       "minute": 55,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.3,
@@ -645,7 +674,9 @@
       "player_full": "Kevin Mirallas",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -657,7 +688,9 @@
       "player_full": "Phil Jagielka",
       "minute": 82,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -669,7 +702,9 @@
       "player_full": "Tom Cleverley",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -681,7 +716,9 @@
       "player_full": "Marcus Rashford",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.1,
@@ -693,7 +730,9 @@
       "player_full": "Juan Manuel Mata García",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "John Stones",
         "short": "Stones",
-        "x": 78.43,
+        "x": 41.57,
         "y": 56.36,
         "size": 143.0,
         "is_playmaker": true,
@@ -971,7 +1010,7 @@
       {
         "id": "Joel Robles Blázquez",
         "short": "Blázquez",
-        "x": 110.08,
+        "x": 9.92,
         "y": 40.53,
         "size": 102.1,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Phil Jagielka",
         "short": "Jagielka",
-        "x": 77.7,
+        "x": 42.3,
         "y": 30.21,
         "size": 104.2,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Leighton Baines",
         "short": "Baines",
-        "x": 52.96,
+        "x": 67.04,
         "y": 18.07,
         "size": 111.5,
         "is_playmaker": false,
@@ -1001,7 +1040,7 @@
       {
         "id": "Tom Cleverley",
         "short": "Cleverley",
-        "x": 55.15,
+        "x": 64.85,
         "y": 29.62,
         "size": 104.2,
         "is_playmaker": true,
@@ -1011,7 +1050,7 @@
       {
         "id": "Séamus Coleman",
         "short": "Coleman",
-        "x": 61.13,
+        "x": 58.87,
         "y": 68.03,
         "size": 85.4,
         "is_playmaker": false,
@@ -1021,7 +1060,7 @@
       {
         "id": "Ross Barkley",
         "short": "Barkley",
-        "x": 52.71,
+        "x": 67.29,
         "y": 37.08,
         "size": 90.6,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Romelu Lukaku Menama",
         "short": "Menama",
-        "x": 42.06,
+        "x": 77.94,
         "y": 42.77,
         "size": 74.9,
         "is_playmaker": false,
@@ -1041,7 +1080,7 @@
       {
         "id": "Aaron Lennon",
         "short": "Lennon",
-        "x": 47.24,
+        "x": 72.76,
         "y": 37.3,
         "size": 62.3,
         "is_playmaker": false,
@@ -1051,7 +1090,7 @@
       {
         "id": "James McCarthy",
         "short": "McCarthy",
-        "x": 59.78,
+        "x": 60.22,
         "y": 46.29,
         "size": 66.5,
         "is_playmaker": false,
@@ -1061,7 +1100,7 @@
       {
         "id": "Gerard Deulofeu Lázaro",
         "short": "Lázaro",
-        "x": 43.91,
+        "x": 76.09,
         "y": 53.14,
         "size": 60.2,
         "is_playmaker": false,
@@ -1074,7 +1113,7 @@
         "source": "John Stones",
         "target": "Joel Robles Blázquez",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "John Stones",
@@ -1086,43 +1125,43 @@
         "source": "John Stones",
         "target": "James McCarthy",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Séamus Coleman",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Tom Cleverley",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joel Robles Blázquez",
         "target": "John Stones",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joel Robles Blázquez",
         "target": "Phil Jagielka",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Phil Jagielka",
         "target": "Leighton Baines",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Phil Jagielka",
         "target": "Joel Robles Blázquez",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Phil Jagielka",
@@ -1140,13 +1179,13 @@
         "source": "Leighton Baines",
         "target": "Romelu Lukaku Menama",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Leighton Baines",
         "target": "Phil Jagielka",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tom Cleverley",
@@ -1158,7 +1197,7 @@
         "source": "Tom Cleverley",
         "target": "Aaron Lennon",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tom Cleverley",
@@ -1170,19 +1209,19 @@
         "source": "Séamus Coleman",
         "target": "John Stones",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Séamus Coleman",
         "target": "Tom Cleverley",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Séamus Coleman",
         "target": "Romelu Lukaku Menama",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ross Barkley",
@@ -1194,25 +1233,25 @@
         "source": "Ross Barkley",
         "target": "Gerard Deulofeu Lázaro",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ross Barkley",
         "target": "John Stones",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Romelu Lukaku Menama",
         "target": "Ross Barkley",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "James McCarthy",
         "target": "John Stones",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

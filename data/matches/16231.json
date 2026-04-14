@@ -9,6 +9,11 @@
     "away_color": "#0070b8",
     "score_home": 2,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.06,
     "xg_away": 0.18,
     "shots_home": 13,
@@ -501,7 +506,9 @@
       "player_full": "Óscar Melendo Jiménez",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -513,7 +520,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -525,7 +534,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -537,7 +548,9 @@
       "player_full": "Clément Lenglet",
       "minute": 21,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -549,7 +562,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 22,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.3,
@@ -561,7 +576,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -573,7 +590,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -585,7 +604,9 @@
       "player_full": "Jordi Alba Ramos",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.1,
@@ -597,7 +618,9 @@
       "player_full": "Óscar Melendo Jiménez",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -609,7 +632,9 @@
       "player_full": "Malcom Filipe Silva de Oliveira",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.1,
@@ -621,7 +646,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -633,7 +660,9 @@
       "player_full": "Philippe Coutinho Correia",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -645,7 +674,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -657,7 +688,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -669,7 +702,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.6,
@@ -681,7 +716,9 @@
       "player_full": "Esteban Félix Granero Molina",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Víctor Sánchez Mata",
         "short": "Mata",
-        "x": 60.11,
+        "x": 59.89,
         "y": 33.56,
         "size": 69.7,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Adrià Giner Pedrosa",
         "short": "Pedrosa",
-        "x": 56.42,
+        "x": 63.58,
         "y": 8.37,
         "size": 95.4,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Mario Hermoso Canseco",
         "short": "Canseco",
-        "x": 77.96,
+        "x": 42.04,
         "y": 20.96,
         "size": 88.0,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Marc Roca Junqué",
         "short": "Junqué",
-        "x": 58.52,
+        "x": 61.48,
         "y": 41.39,
         "size": 141.2,
         "is_playmaker": true,
@@ -1013,7 +1050,7 @@
       {
         "id": "Óscar Melendo Jiménez",
         "short": "Jiménez",
-        "x": 44.54,
+        "x": 75.46,
         "y": 45.69,
         "size": 86.2,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Esteban Félix Granero Molina",
         "short": "Molina",
-        "x": 59.7,
+        "x": 60.3,
         "y": 48.5,
         "size": 133.9,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Diego López Rodríguez",
         "short": "Rodríguez",
-        "x": 109.1,
+        "x": 10.9,
         "y": 46.4,
         "size": 73.3,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Roberto José Rosales Altuve",
         "short": "Altuve",
-        "x": 64.1,
+        "x": 55.9,
         "y": 74.05,
         "size": 111.9,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Lluís López Mármol",
         "short": "Mármol",
-        "x": 78.13,
+        "x": 41.87,
         "y": 65.47,
         "size": 78.9,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Borja Iglesias Quintas",
         "short": "Quintas",
-        "x": 40.75,
+        "x": 79.25,
         "y": 46.75,
         "size": 64.2,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Edinaldo Gomes Pereira",
         "short": "Pereira",
-        "x": 71.83,
+        "x": 48.17,
         "y": 44.17,
         "size": 62.3,
         "is_playmaker": true,
@@ -1098,7 +1135,7 @@
         "source": "Adrià Giner Pedrosa",
         "target": "Mario Hermoso Canseco",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrià Giner Pedrosa",
@@ -1110,13 +1147,13 @@
         "source": "Mario Hermoso Canseco",
         "target": "Marc Roca Junqué",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Roca Junqué",
         "target": "Óscar Melendo Jiménez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Roca Junqué",
@@ -1134,31 +1171,31 @@
         "source": "Marc Roca Junqué",
         "target": "Roberto José Rosales Altuve",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marc Roca Junqué",
         "target": "Mario Hermoso Canseco",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marc Roca Junqué",
         "target": "Edinaldo Gomes Pereira",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Óscar Melendo Jiménez",
         "target": "Esteban Félix Granero Molina",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Esteban Félix Granero Molina",
         "target": "Óscar Melendo Jiménez",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Esteban Félix Granero Molina",
@@ -1170,61 +1207,61 @@
         "source": "Esteban Félix Granero Molina",
         "target": "Lluís López Mármol",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Esteban Félix Granero Molina",
         "target": "Edinaldo Gomes Pereira",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Diego López Rodríguez",
         "target": "Roberto José Rosales Altuve",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego López Rodríguez",
         "target": "Esteban Félix Granero Molina",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roberto José Rosales Altuve",
         "target": "Lluís López Mármol",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roberto José Rosales Altuve",
         "target": "Esteban Félix Granero Molina",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roberto José Rosales Altuve",
         "target": "Borja Iglesias Quintas",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lluís López Mármol",
         "target": "Roberto José Rosales Altuve",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Edinaldo Gomes Pereira",
         "target": "Esteban Félix Granero Molina",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Edinaldo Gomes Pereira",
         "target": "Marc Roca Junqué",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#cf091d",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.412,
     "xg_away": 1.253,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Xavi Simons",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.2,
@@ -513,7 +520,9 @@
       "player_full": "Harry Kane",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -525,7 +534,9 @@
       "player_full": "Bukayo Saka",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -537,7 +548,9 @@
       "player_full": "Harry Kane",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.0,
@@ -549,7 +562,9 @@
       "player_full": "Phil Foden",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.9,
@@ -561,7 +576,9 @@
       "player_full": "Donyell Malen",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -573,7 +590,9 @@
       "player_full": "Denzel Dumfries",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -585,7 +604,9 @@
       "player_full": "Phil Foden",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.4,
@@ -597,7 +618,9 @@
       "player_full": "Phil Foden",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.8,
@@ -609,7 +632,9 @@
       "player_full": "Kobbie Mainoo",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.5,
@@ -621,7 +646,9 @@
       "player_full": "Virgil van Dijk",
       "minute": 64,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.1,
@@ -633,7 +660,9 @@
       "player_full": "Denzel Dumfries",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -645,7 +674,9 @@
       "player_full": "Wout Weghorst",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -657,7 +688,9 @@
       "player_full": "Xavi Simons",
       "minute": 76,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.8,
@@ -669,7 +702,9 @@
       "player_full": "Cole Palmer",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -681,7 +716,9 @@
       "player_full": "Ollie Watkins",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -777,16 +814,6 @@
         "eigenvector": 0.0347
       },
       {
-        "id": "Donyell Malen",
-        "short": "Malen",
-        "x": 58.33,
-        "y": 57.0,
-        "size": 58.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0162
-      },
-      {
         "id": "Memphis Depay",
         "short": "Depay",
         "x": 58.28,
@@ -795,6 +822,16 @@
         "is_playmaker": false,
         "betweenness": 0.1556,
         "eigenvector": 0.0194
+      },
+      {
+        "id": "Donyell Malen",
+        "short": "Malen",
+        "x": 58.33,
+        "y": 57.0,
+        "size": 58.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0162
       }
     ],
     "edges": [
@@ -914,13 +951,13 @@
       },
       {
         "source": "Jerdy Schouten",
-        "target": "Donyell Malen",
+        "target": "Memphis Depay",
         "weight": 1,
         "direction": "lateral"
       },
       {
         "source": "Jerdy Schouten",
-        "target": "Memphis Depay",
+        "target": "Donyell Malen",
         "weight": 1,
         "direction": "lateral"
       },
@@ -961,24 +998,6 @@
         "direction": "backward"
       },
       {
-        "source": "Donyell Malen",
-        "target": "Jerdy Schouten",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Donyell Malen",
-        "target": "Memphis Depay",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Memphis Depay",
-        "target": "Donyell Malen",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Memphis Depay",
         "target": "Jerdy Schouten",
         "weight": 1,
@@ -989,6 +1008,24 @@
         "target": "Tijjani Reijnders",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Memphis Depay",
+        "target": "Donyell Malen",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Donyell Malen",
+        "target": "Jerdy Schouten",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Donyell Malen",
+        "target": "Memphis Depay",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -997,7 +1034,7 @@
       {
         "id": "John Stones",
         "short": "Stones",
-        "x": 71.38,
+        "x": 48.62,
         "y": 49.49,
         "size": 136.3,
         "is_playmaker": false,
@@ -1007,7 +1044,7 @@
       {
         "id": "Marc Guehi",
         "short": "Guehi",
-        "x": 72.18,
+        "x": 47.82,
         "y": 20.68,
         "size": 130.4,
         "is_playmaker": true,
@@ -1017,7 +1054,7 @@
       {
         "id": "Kyle Walker",
         "short": "Walker",
-        "x": 54.43,
+        "x": 65.57,
         "y": 63.12,
         "size": 99.6,
         "is_playmaker": false,
@@ -1027,7 +1064,7 @@
       {
         "id": "Declan Rice",
         "short": "Rice",
-        "x": 59.03,
+        "x": 60.97,
         "y": 26.3,
         "size": 146.1,
         "is_playmaker": true,
@@ -1037,7 +1074,7 @@
       {
         "id": "Phil Foden",
         "short": "Foden",
-        "x": 46.38,
+        "x": 73.62,
         "y": 31.82,
         "size": 83.9,
         "is_playmaker": false,
@@ -1047,7 +1084,7 @@
       {
         "id": "Jude Bellingham",
         "short": "Bellingham",
-        "x": 47.02,
+        "x": 72.98,
         "y": 19.59,
         "size": 85.2,
         "is_playmaker": false,
@@ -1057,7 +1094,7 @@
       {
         "id": "Kieran Trippier",
         "short": "Trippier",
-        "x": 46.02,
+        "x": 73.98,
         "y": 6.93,
         "size": 72.7,
         "is_playmaker": false,
@@ -1067,7 +1104,7 @@
       {
         "id": "Kobbie Mainoo",
         "short": "Mainoo",
-        "x": 47.66,
+        "x": 72.34,
         "y": 45.12,
         "size": 67.5,
         "is_playmaker": false,
@@ -1077,7 +1114,7 @@
       {
         "id": "Jordan Pickford",
         "short": "Pickford",
-        "x": 107.1,
+        "x": 12.9,
         "y": 38.52,
         "size": 65.5,
         "is_playmaker": false,
@@ -1087,7 +1124,7 @@
       {
         "id": "Bukayo Saka",
         "short": "Saka",
-        "x": 32.65,
+        "x": 87.35,
         "y": 58.43,
         "size": 60.2,
         "is_playmaker": false,
@@ -1097,7 +1134,7 @@
       {
         "id": "Harry Kane",
         "short": "Kane",
-        "x": 41.92,
+        "x": 78.08,
         "y": 37.16,
         "size": 57.6,
         "is_playmaker": false,
@@ -1116,13 +1153,13 @@
         "source": "John Stones",
         "target": "Declan Rice",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Kyle Walker",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Guehi",
@@ -1134,85 +1171,85 @@
         "source": "Marc Guehi",
         "target": "Declan Rice",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Guehi",
         "target": "Jude Bellingham",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Guehi",
         "target": "Jordan Pickford",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marc Guehi",
         "target": "Kieran Trippier",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kyle Walker",
         "target": "John Stones",
         "weight": 21,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "Bukayo Saka",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kyle Walker",
         "target": "Declan Rice",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Declan Rice",
         "target": "Marc Guehi",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Declan Rice",
         "target": "Phil Foden",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
         "target": "Kyle Walker",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
         "target": "John Stones",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Declan Rice",
         "target": "Jude Bellingham",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
         "target": "Kobbie Mainoo",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Phil Foden",
         "target": "Declan Rice",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Phil Foden",
@@ -1224,19 +1261,19 @@
         "source": "Phil Foden",
         "target": "Harry Kane",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jude Bellingham",
         "target": "Marc Guehi",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kieran Trippier",
         "target": "Declan Rice",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kieran Trippier",
@@ -1254,25 +1291,25 @@
         "source": "Kobbie Mainoo",
         "target": "Harry Kane",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordan Pickford",
         "target": "John Stones",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Kane",
         "target": "Phil Foden",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harry Kane",
         "target": "Kobbie Mainoo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

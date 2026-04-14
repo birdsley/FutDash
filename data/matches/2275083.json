@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.774,
     "xg_away": 0.538,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Brianna Visalli",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -513,7 +520,9 @@
       "player_full": "Brianna Visalli",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -525,7 +534,9 @@
       "player_full": "Charlie Wellings",
       "minute": 29,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -537,7 +548,9 @@
       "player_full": "Abbi Grant",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -549,7 +562,9 @@
       "player_full": "Brianna Visalli",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.0,
@@ -561,7 +576,9 @@
       "player_full": "Kerys Harrop",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.8,
@@ -573,7 +590,9 @@
       "player_full": "Abbi Grant",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.3,
@@ -585,7 +604,9 @@
       "player_full": "Rachel Williams",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.2,
@@ -597,7 +618,9 @@
       "player_full": "Yana Daniëls",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -609,7 +632,9 @@
       "player_full": "Claudia Walker",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.3,
@@ -621,7 +646,9 @@
       "player_full": "Ebony Salmon",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.3,
@@ -633,7 +660,9 @@
       "player_full": "Olivia Chance",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +930,7 @@
       {
         "id": "Faye Bryson",
         "short": "Bryson",
-        "x": 74.6,
+        "x": 45.4,
         "y": 68.11,
         "size": 89.1,
         "is_playmaker": true,
@@ -911,7 +940,7 @@
       {
         "id": "Frankie Brown",
         "short": "Brown",
-        "x": 80.99,
+        "x": 39.01,
         "y": 54.41,
         "size": 90.8,
         "is_playmaker": true,
@@ -921,7 +950,7 @@
       {
         "id": "Jasmine Matthews",
         "short": "Matthews",
-        "x": 89.78,
+        "x": 30.22,
         "y": 19.23,
         "size": 167.2,
         "is_playmaker": false,
@@ -931,7 +960,7 @@
       {
         "id": "Yana Daniëls",
         "short": "Daniëls",
-        "x": 54.24,
+        "x": 65.76,
         "y": 8.17,
         "size": 82.6,
         "is_playmaker": false,
@@ -941,7 +970,7 @@
       {
         "id": "Poppy Pattinson",
         "short": "Pattinson",
-        "x": 70.2,
+        "x": 49.8,
         "y": 7.13,
         "size": 94.0,
         "is_playmaker": false,
@@ -951,7 +980,7 @@
       {
         "id": "Olivia Chance",
         "short": "Chance",
-        "x": 76.22,
+        "x": 43.78,
         "y": 33.23,
         "size": 94.0,
         "is_playmaker": false,
@@ -961,7 +990,7 @@
       {
         "id": "Sophie Baggaley",
         "short": "Baggaley",
-        "x": 108.14,
+        "x": 11.86,
         "y": 39.06,
         "size": 113.5,
         "is_playmaker": false,
@@ -971,7 +1000,7 @@
       {
         "id": "Chloe Logarzo",
         "short": "Logarzo",
-        "x": 63.85,
+        "x": 56.15,
         "y": 35.53,
         "size": 74.5,
         "is_playmaker": false,
@@ -981,7 +1010,7 @@
       {
         "id": "Charlie Wellings",
         "short": "Wellings",
-        "x": 61.57,
+        "x": 58.43,
         "y": 33.17,
         "size": 76.1,
         "is_playmaker": false,
@@ -989,20 +1018,20 @@
         "eigenvector": 0.0741
       },
       {
-        "id": "Katie Robinson",
-        "short": "Robinson",
-        "x": 37.06,
-        "y": 56.13,
+        "id": "Ga-Eul Jeon",
+        "short": "Jeon",
+        "x": 57.2,
+        "y": 22.21,
         "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0111,
         "eigenvector": 0.0072
       },
       {
-        "id": "Ga-Eul Jeon",
-        "short": "Jeon",
-        "x": 62.8,
-        "y": 22.21,
+        "id": "Katie Robinson",
+        "short": "Robinson",
+        "x": 82.94,
+        "y": 56.13,
         "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.0111,
@@ -1014,109 +1043,109 @@
         "source": "Faye Bryson",
         "target": "Frankie Brown",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Faye Bryson",
         "target": "Chloe Logarzo",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Faye Bryson",
         "target": "Charlie Wellings",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frankie Brown",
         "target": "Faye Bryson",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frankie Brown",
         "target": "Sophie Baggaley",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jasmine Matthews",
         "target": "Yana Daniëls",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jasmine Matthews",
         "target": "Poppy Pattinson",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jasmine Matthews",
         "target": "Olivia Chance",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jasmine Matthews",
         "target": "Sophie Baggaley",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jasmine Matthews",
         "target": "Frankie Brown",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jasmine Matthews",
         "target": "Faye Bryson",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Poppy Pattinson",
         "target": "Jasmine Matthews",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Poppy Pattinson",
         "target": "Yana Daniëls",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Olivia Chance",
         "target": "Frankie Brown",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Olivia Chance",
         "target": "Jasmine Matthews",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sophie Baggaley",
         "target": "Jasmine Matthews",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sophie Baggaley",
         "target": "Olivia Chance",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sophie Baggaley",
         "target": "Yana Daniëls",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chloe Logarzo",
@@ -1126,12 +1155,18 @@
       },
       {
         "source": "Chloe Logarzo",
-        "target": "Katie Robinson",
+        "target": "Ga-Eul Jeon",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Chloe Logarzo",
+        "target": "Katie Robinson",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Charlie Wellings",
         "target": "Ga-Eul Jeon",
         "weight": 1,
         "direction": "lateral"
@@ -1140,37 +1175,31 @@
         "source": "Charlie Wellings",
         "target": "Katie Robinson",
         "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ga-Eul Jeon",
+        "target": "Charlie Wellings",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ga-Eul Jeon",
+        "target": "Chloe Logarzo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Katie Robinson",
+        "target": "Charlie Wellings",
+        "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Charlie Wellings",
-        "target": "Ga-Eul Jeon",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Katie Robinson",
-        "target": "Charlie Wellings",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Katie Robinson",
         "target": "Chloe Logarzo",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ga-Eul Jeon",
-        "target": "Charlie Wellings",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ga-Eul Jeon",
-        "target": "Chloe Logarzo",
-        "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       }
     ]
   },

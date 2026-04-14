@@ -9,6 +9,11 @@
     "away_color": "#8e1f2f",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.947,
     "xg_away": 0.152,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Allan Marques Loureiro",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.4,
@@ -513,7 +520,9 @@
       "player_full": "Mohamed Salah",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -525,7 +534,9 @@
       "player_full": "Edin Džeko",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -537,7 +548,9 @@
       "player_full": "Lorenzo Insigne",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -549,7 +562,9 @@
       "player_full": "Konstantinos Manolas",
       "minute": 26,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -561,7 +576,9 @@
       "player_full": "Lorenzo Insigne",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.8,
@@ -573,7 +590,9 @@
       "player_full": "Lorenzo Insigne",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -585,7 +604,9 @@
       "player_full": "José María Callejón Bueno",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -597,7 +618,9 @@
       "player_full": "Marek Hamšík",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.1,
@@ -609,7 +632,9 @@
       "player_full": "Lorenzo Insigne",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.6,
@@ -621,7 +646,9 @@
       "player_full": "Miralem Pjanić",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -633,7 +660,9 @@
       "player_full": "Marek Hamšík",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -645,7 +674,9 @@
       "player_full": "Marek Hamšík",
       "minute": 84,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -657,7 +688,9 @@
       "player_full": "Dries Mertens",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -669,7 +702,9 @@
       "player_full": "Dries Mertens",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -681,7 +716,9 @@
       "player_full": "Omar El Kaddouri",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Miralem Pjanić",
         "short": "Pjanić",
-        "x": 56.95,
+        "x": 63.05,
         "y": 48.82,
         "size": 106.5,
         "is_playmaker": true,
@@ -983,7 +1020,7 @@
       {
         "id": "Iago Falqué Silva",
         "short": "Silva",
-        "x": 48.69,
+        "x": 71.31,
         "y": 62.96,
         "size": 81.9,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Daniele De Rossi",
         "short": "Rossi",
-        "x": 68.0,
+        "x": 52.0,
         "y": 43.7,
         "size": 117.0,
         "is_playmaker": true,
@@ -1003,7 +1040,7 @@
       {
         "id": "Antonio Rüdiger",
         "short": "Rüdiger",
-        "x": 77.47,
+        "x": 42.53,
         "y": 21.75,
         "size": 83.1,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Alessandro Florenzi",
         "short": "Florenzi",
-        "x": 77.75,
+        "x": 42.25,
         "y": 70.23,
         "size": 81.9,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Radja Nainggolan",
         "short": "Nainggolan",
-        "x": 68.46,
+        "x": 51.54,
         "y": 28.49,
         "size": 92.4,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Wojciech Szczęsny",
         "short": "Szczęsny",
-        "x": 108.34,
+        "x": 11.66,
         "y": 41.94,
         "size": 95.9,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Edin Džeko",
         "short": "Džeko",
-        "x": 54.79,
+        "x": 65.21,
         "y": 22.09,
         "size": 87.7,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Konstantinos Manolas",
         "short": "Manolas",
-        "x": 92.67,
+        "x": 27.33,
         "y": 54.45,
         "size": 78.4,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Mohamed Salah",
         "short": "Salah",
-        "x": 53.62,
+        "x": 66.38,
         "y": 23.29,
         "size": 85.4,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Lucas Digne",
         "short": "Digne",
-        "x": 68.85,
+        "x": 51.15,
         "y": 8.29,
         "size": 94.8,
         "is_playmaker": false,
@@ -1086,19 +1123,19 @@
         "source": "Miralem Pjanić",
         "target": "Iago Falqué Silva",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Miralem Pjanić",
         "target": "Radja Nainggolan",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Miralem Pjanić",
         "target": "Daniele De Rossi",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Miralem Pjanić",
@@ -1110,37 +1147,37 @@
         "source": "Iago Falqué Silva",
         "target": "Miralem Pjanić",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniele De Rossi",
         "target": "Antonio Rüdiger",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniele De Rossi",
         "target": "Alessandro Florenzi",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antonio Rüdiger",
         "target": "Wojciech Szczęsny",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alessandro Florenzi",
         "target": "Iago Falqué Silva",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alessandro Florenzi",
         "target": "Edin Džeko",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Radja Nainggolan",
@@ -1158,37 +1195,37 @@
         "source": "Radja Nainggolan",
         "target": "Mohamed Salah",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wojciech Szczęsny",
         "target": "Edin Džeko",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wojciech Szczęsny",
         "target": "Konstantinos Manolas",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wojciech Szczęsny",
         "target": "Daniele De Rossi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Konstantinos Manolas",
         "target": "Wojciech Szczęsny",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Konstantinos Manolas",
         "target": "Daniele De Rossi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mohamed Salah",
@@ -1200,13 +1237,13 @@
         "source": "Mohamed Salah",
         "target": "Daniele De Rossi",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Digne",
         "target": "Edin Džeko",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lucas Digne",
@@ -1218,13 +1255,13 @@
         "source": "Lucas Digne",
         "target": "Mohamed Salah",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lucas Digne",
         "target": "Antonio Rüdiger",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#ffd700",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.641,
     "xg_away": 0.415,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Sergio Floccari",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -513,7 +520,9 @@
       "player_full": "Sergio Floccari",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -525,7 +534,9 @@
       "player_full": "Juan Ignacio Gómez Taleb",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Other"
+      "body_part": "Other",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.6,
@@ -537,7 +548,9 @@
       "player_full": "Juan Ignacio Gómez Taleb",
       "minute": 32,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -549,7 +562,9 @@
       "player_full": "Samir Caetano de Souza Santos",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -561,7 +576,9 @@
       "player_full": "Emanuele Giaccherini",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -573,7 +590,9 @@
       "player_full": "Emanuele Giaccherini",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.3,
@@ -585,7 +604,9 @@
       "player_full": "Alex Ferrari",
       "minute": 64,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -597,7 +618,9 @@
       "player_full": "Luca Rizzo",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -609,7 +632,9 @@
       "player_full": "Franco Brienza",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -621,7 +646,9 @@
       "player_full": "Franco Brienza",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -633,7 +660,9 @@
       "player_full": "Luca Rizzo",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -645,7 +674,9 @@
       "player_full": "Samir Caetano de Souza Santos",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +968,7 @@
       {
         "id": "Federico Viviani",
         "short": "Viviani",
-        "x": 62.69,
+        "x": 57.31,
         "y": 40.17,
         "size": 148.3,
         "is_playmaker": true,
@@ -947,7 +978,7 @@
       {
         "id": "Artur Ioniţă",
         "short": "Ioniţă",
-        "x": 66.52,
+        "x": 53.48,
         "y": 51.61,
         "size": 109.7,
         "is_playmaker": false,
@@ -957,7 +988,7 @@
       {
         "id": "Eros Pisano",
         "short": "Pisano",
-        "x": 72.39,
+        "x": 47.61,
         "y": 73.49,
         "size": 111.0,
         "is_playmaker": true,
@@ -967,7 +998,7 @@
       {
         "id": "Michelangelo Albertazzi",
         "short": "Albertazzi",
-        "x": 65.72,
+        "x": 54.28,
         "y": 6.68,
         "size": 91.0,
         "is_playmaker": false,
@@ -977,7 +1008,7 @@
       {
         "id": "Giampaolo Pazzini",
         "short": "Pazzini",
-        "x": 49.75,
+        "x": 70.25,
         "y": 43.87,
         "size": 83.0,
         "is_playmaker": false,
@@ -987,7 +1018,7 @@
       {
         "id": "Samir Caetano de Souza Santos",
         "short": "Santos",
-        "x": 84.55,
+        "x": 35.45,
         "y": 27.45,
         "size": 84.3,
         "is_playmaker": false,
@@ -997,7 +1028,7 @@
       {
         "id": "Matteo Bianchetti",
         "short": "Bianchetti",
-        "x": 89.08,
+        "x": 30.92,
         "y": 52.02,
         "size": 89.7,
         "is_playmaker": false,
@@ -1007,7 +1038,7 @@
       {
         "id": "Paweł Wszołek",
         "short": "Wszołek",
-        "x": 60.34,
+        "x": 59.66,
         "y": 65.63,
         "size": 71.0,
         "is_playmaker": false,
@@ -1017,7 +1048,7 @@
       {
         "id": "Urby Emanuelson",
         "short": "Emanuelson",
-        "x": 46.3,
+        "x": 73.7,
         "y": 13.6,
         "size": 87.0,
         "is_playmaker": false,
@@ -1027,7 +1058,7 @@
       {
         "id": "Juan Ignacio Gómez Taleb",
         "short": "Taleb",
-        "x": 56.09,
+        "x": 63.91,
         "y": 31.8,
         "size": 63.0,
         "is_playmaker": false,
@@ -1037,7 +1068,7 @@
       {
         "id": "Pierluigi Gollini",
         "short": "Gollini",
-        "x": 106.44,
+        "x": 13.56,
         "y": 44.23,
         "size": 67.0,
         "is_playmaker": false,
@@ -1056,31 +1087,31 @@
         "source": "Federico Viviani",
         "target": "Giampaolo Pazzini",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Federico Viviani",
         "target": "Matteo Bianchetti",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Federico Viviani",
         "target": "Urby Emanuelson",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Federico Viviani",
         "target": "Samir Caetano de Souza Santos",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Artur Ioniţă",
         "target": "Eros Pisano",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Artur Ioniţă",
@@ -1092,37 +1123,37 @@
         "source": "Artur Ioniţă",
         "target": "Giampaolo Pazzini",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Artur Ioniţă",
         "target": "Urby Emanuelson",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eros Pisano",
         "target": "Giampaolo Pazzini",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eros Pisano",
         "target": "Federico Viviani",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eros Pisano",
         "target": "Artur Ioniţă",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eros Pisano",
         "target": "Pierluigi Gollini",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Michelangelo Albertazzi",
@@ -1134,61 +1165,61 @@
         "source": "Michelangelo Albertazzi",
         "target": "Urby Emanuelson",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Michelangelo Albertazzi",
         "target": "Juan Ignacio Gómez Taleb",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samir Caetano de Souza Santos",
         "target": "Federico Viviani",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samir Caetano de Souza Santos",
         "target": "Matteo Bianchetti",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matteo Bianchetti",
         "target": "Federico Viviani",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matteo Bianchetti",
         "target": "Paweł Wszołek",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matteo Bianchetti",
         "target": "Eros Pisano",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paweł Wszołek",
         "target": "Eros Pisano",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Urby Emanuelson",
         "target": "Michelangelo Albertazzi",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pierluigi Gollini",
         "target": "Samir Caetano de Souza Santos",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

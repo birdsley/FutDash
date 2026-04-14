@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.0,
     "xg_away": 2.178,
     "shots_home": 0,
@@ -501,7 +506,9 @@
       "player_full": "Charlie Wellings",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -513,7 +520,9 @@
       "player_full": "Meaghan Sargeant",
       "minute": 12,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -525,7 +534,9 @@
       "player_full": "Charlie Wellings",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -537,7 +548,9 @@
       "player_full": "Aoife Mannion",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -549,7 +562,9 @@
       "player_full": "Harriet Scott",
       "minute": 32,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -561,7 +576,9 @@
       "player_full": "Marisa Ewers",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -573,7 +590,9 @@
       "player_full": "Charlie Wellings",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -585,7 +604,9 @@
       "player_full": "Lucy Staniforth",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -597,7 +618,9 @@
       "player_full": "Lucy Staniforth",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -609,7 +632,9 @@
       "player_full": "Meaghan Sargeant",
       "minute": 63,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -621,7 +646,9 @@
       "player_full": "Charlie Wellings",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.0,
@@ -633,7 +660,9 @@
       "player_full": "Kerys Harrop",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -645,7 +674,9 @@
       "player_full": "Meaghan Sargeant",
       "minute": 74,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.0,
@@ -657,7 +688,9 @@
       "player_full": "Aoife Mannion",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -669,7 +702,9 @@
       "player_full": "Charlie Wellings",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -681,7 +716,9 @@
       "player_full": "Charlie Wellings",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -693,7 +730,9 @@
       "player_full": "Lucy Staniforth",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.125
       },
       {
-        "id": "Julie Biesmans",
-        "short": "Biesmans",
-        "x": 50.3,
-        "y": 41.0,
-        "size": 82.3,
-        "is_playmaker": true,
-        "betweenness": 0.4333,
-        "eigenvector": 0.307
-      },
-      {
         "id": "Frankie Brown",
         "short": "Brown",
         "x": 34.5,
@@ -807,6 +836,16 @@
         "is_playmaker": true,
         "betweenness": 0.2667,
         "eigenvector": 0.1499
+      },
+      {
+        "id": "Julie Biesmans",
+        "short": "Biesmans",
+        "x": 50.3,
+        "y": 41.0,
+        "size": 82.3,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.307
       }
     ],
     "edges": [
@@ -871,24 +910,6 @@
         "direction": "backward"
       },
       {
-        "source": "Julie Biesmans",
-        "target": "Ella Rutherford",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Julie Biesmans",
-        "target": "Lucy Hope",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Julie Biesmans",
-        "target": "Frankie Brown",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Frankie Brown",
         "target": "Julie Biesmans",
         "weight": 1,
@@ -899,6 +920,24 @@
         "target": "Danique Kerkdijk",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Julie Biesmans",
+        "target": "Frankie Brown",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Julie Biesmans",
+        "target": "Ella Rutherford",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Julie Biesmans",
+        "target": "Lucy Hope",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -907,7 +946,7 @@
       {
         "id": "Kerys Harrop",
         "short": "Harrop",
-        "x": 72.63,
+        "x": 47.37,
         "y": 21.43,
         "size": 153.0,
         "is_playmaker": false,
@@ -917,7 +956,7 @@
       {
         "id": "Aoife Mannion",
         "short": "Mannion",
-        "x": 78.42,
+        "x": 41.58,
         "y": 44.14,
         "size": 139.5,
         "is_playmaker": false,
@@ -927,7 +966,7 @@
       {
         "id": "Meaghan Sargeant",
         "short": "Sargeant",
-        "x": 74.61,
+        "x": 45.39,
         "y": 61.7,
         "size": 102.2,
         "is_playmaker": false,
@@ -937,7 +976,7 @@
       {
         "id": "Paige Williams",
         "short": "Williams",
-        "x": 47.87,
+        "x": 72.13,
         "y": 12.51,
         "size": 113.3,
         "is_playmaker": false,
@@ -947,7 +986,7 @@
       {
         "id": "Hayley Ladd",
         "short": "Ladd",
-        "x": 61.81,
+        "x": 58.19,
         "y": 30.76,
         "size": 85.3,
         "is_playmaker": false,
@@ -957,7 +996,7 @@
       {
         "id": "Lucy Staniforth",
         "short": "Staniforth",
-        "x": 49.16,
+        "x": 70.84,
         "y": 43.12,
         "size": 90.6,
         "is_playmaker": true,
@@ -967,7 +1006,7 @@
       {
         "id": "Charlie Wellings",
         "short": "Wellings",
-        "x": 34.67,
+        "x": 85.33,
         "y": 33.48,
         "size": 63.2,
         "is_playmaker": false,
@@ -977,7 +1016,7 @@
       {
         "id": "Ann-Katrin Berger",
         "short": "Berger",
-        "x": 105.12,
+        "x": 14.88,
         "y": 40.91,
         "size": 77.2,
         "is_playmaker": false,
@@ -987,7 +1026,7 @@
       {
         "id": "Marisa Ewers",
         "short": "Ewers",
-        "x": 58.81,
+        "x": 61.19,
         "y": 43.72,
         "size": 66.1,
         "is_playmaker": false,
@@ -995,24 +1034,24 @@
         "eigenvector": 0.0001
       },
       {
-        "id": "Emma Follis",
-        "short": "Follis",
-        "x": 36.2,
-        "y": 44.47,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0088
-      },
-      {
         "id": "Harriet Scott",
         "short": "Scott",
-        "x": 52.59,
+        "x": 67.41,
         "y": 64.04,
         "size": 57.3,
         "is_playmaker": true,
         "betweenness": 0.4,
         "eigenvector": 0.0068
+      },
+      {
+        "id": "Emma Follis",
+        "short": "Follis",
+        "x": 83.8,
+        "y": 44.47,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0088
       }
     ],
     "edges": [
@@ -1020,25 +1059,25 @@
         "source": "Kerys Harrop",
         "target": "Aoife Mannion",
         "weight": 32,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Paige Williams",
         "weight": 30,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Hayley Ladd",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Lucy Staniforth",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aoife Mannion",
@@ -1050,19 +1089,19 @@
         "source": "Aoife Mannion",
         "target": "Kerys Harrop",
         "weight": 26,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aoife Mannion",
         "target": "Ann-Katrin Berger",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aoife Mannion",
         "target": "Lucy Staniforth",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Meaghan Sargeant",
@@ -1080,25 +1119,25 @@
         "source": "Meaghan Sargeant",
         "target": "Lucy Staniforth",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Meaghan Sargeant",
         "target": "Ann-Katrin Berger",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paige Williams",
         "target": "Kerys Harrop",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paige Williams",
         "target": "Hayley Ladd",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paige Williams",
@@ -1110,43 +1149,43 @@
         "source": "Paige Williams",
         "target": "Charlie Wellings",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hayley Ladd",
         "target": "Kerys Harrop",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hayley Ladd",
         "target": "Paige Williams",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lucy Staniforth",
         "target": "Hayley Ladd",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucy Staniforth",
         "target": "Paige Williams",
         "weight": 8,
         "direction": "lateral"
-      },
-      {
-        "source": "Lucy Staniforth",
-        "target": "Emma Follis",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Lucy Staniforth",
         "target": "Harriet Scott",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Lucy Staniforth",
+        "target": "Emma Follis",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Charlie Wellings",
@@ -1158,41 +1197,29 @@
         "source": "Ann-Katrin Berger",
         "target": "Aoife Mannion",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ann-Katrin Berger",
         "target": "Kerys Harrop",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marisa Ewers",
         "target": "Aoife Mannion",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marisa Ewers",
         "target": "Kerys Harrop",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marisa Ewers",
         "target": "Harriet Scott",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Emma Follis",
-        "target": "Charlie Wellings",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Emma Follis",
-        "target": "Lucy Staniforth",
         "weight": 1,
         "direction": "forward"
       },
@@ -1206,7 +1233,19 @@
         "source": "Harriet Scott",
         "target": "Marisa Ewers",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
+      },
+      {
+        "source": "Emma Follis",
+        "target": "Charlie Wellings",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emma Follis",
+        "target": "Lucy Staniforth",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 3,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.191,
     "xg_away": 0.312,
     "shots_home": 11,
@@ -501,7 +506,9 @@
       "player_full": "Christen Annemarie Press",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -513,7 +520,9 @@
       "player_full": "Katie Stengel",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -525,7 +534,9 @@
       "player_full": "Katie Stengel",
       "minute": 24,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -537,7 +548,9 @@
       "player_full": "Katie Stengel",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.0,
@@ -549,7 +562,9 @@
       "player_full": "Katie Bowen",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -561,7 +576,9 @@
       "player_full": "Erika Tymrak",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -573,7 +590,9 @@
       "player_full": "Christen Annemarie Press",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -585,7 +604,9 @@
       "player_full": "Janine Elizabeth Beckie",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -597,7 +618,9 @@
       "player_full": "Shea Groom",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -609,7 +632,9 @@
       "player_full": "Carli Anne Hollins",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -621,7 +646,9 @@
       "player_full": "Christen Annemarie Press",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -633,7 +660,9 @@
       "player_full": "Shea Groom",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -645,7 +674,9 @@
       "player_full": "Christen Annemarie Press",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -657,7 +688,9 @@
       "player_full": "Katrina Gorry",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -669,7 +702,9 @@
       "player_full": "Erika Tymrak",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -681,7 +716,9 @@
       "player_full": "Carli Anne Hollins",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 61.0,
@@ -693,7 +730,9 @@
       "player_full": "Michaela Abam",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Mandy Freeman",
         "short": "Freeman",
-        "x": 82.85,
+        "x": 37.15,
         "y": 52.63,
         "size": 97.6,
         "is_playmaker": false,
@@ -971,7 +1010,7 @@
       {
         "id": "Erica Skroski",
         "short": "Skroski",
-        "x": 68.15,
+        "x": 51.85,
         "y": 69.79,
         "size": 121.2,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Madison Tiernan",
         "short": "Tiernan",
-        "x": 68.65,
+        "x": 51.35,
         "y": 39.25,
         "size": 81.5,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Dominique Richardson",
         "short": "Richardson",
-        "x": 83.55,
+        "x": 36.45,
         "y": 27.79,
         "size": 102.1,
         "is_playmaker": true,
@@ -1001,7 +1040,7 @@
       {
         "id": "Amanda Frisbie",
         "short": "Frisbie",
-        "x": 71.0,
+        "x": 49.0,
         "y": 13.69,
         "size": 82.9,
         "is_playmaker": false,
@@ -1011,7 +1050,7 @@
       {
         "id": "Sarah Killion",
         "short": "Killion",
-        "x": 63.48,
+        "x": 56.52,
         "y": 42.04,
         "size": 109.4,
         "is_playmaker": false,
@@ -1021,7 +1060,7 @@
       {
         "id": "Carli Anne Hollins",
         "short": "Hollins",
-        "x": 56.85,
+        "x": 63.15,
         "y": 37.25,
         "size": 102.1,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Janine Elizabeth Beckie",
         "short": "Beckie",
-        "x": 53.0,
+        "x": 67.0,
         "y": 44.73,
         "size": 102.1,
         "is_playmaker": false,
@@ -1041,7 +1080,7 @@
       {
         "id": "Kailen Mary Iacovoni Sheridan",
         "short": "Sheridan",
-        "x": 106.15,
+        "x": 13.85,
         "y": 41.45,
         "size": 84.4,
         "is_playmaker": false,
@@ -1051,7 +1090,7 @@
       {
         "id": "Shea Groom",
         "short": "Groom",
-        "x": 43.33,
+        "x": 76.67,
         "y": 46.5,
         "size": 60.9,
         "is_playmaker": false,
@@ -1061,7 +1100,7 @@
       {
         "id": "Imani Dorsey",
         "short": "Dorsey",
-        "x": 66.71,
+        "x": 53.29,
         "y": 9.57,
         "size": 60.9,
         "is_playmaker": true,
@@ -1074,13 +1113,13 @@
         "source": "Mandy Freeman",
         "target": "Erica Skroski",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mandy Freeman",
         "target": "Sarah Killion",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mandy Freeman",
@@ -1098,37 +1137,37 @@
         "source": "Erica Skroski",
         "target": "Kailen Mary Iacovoni Sheridan",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Erica Skroski",
         "target": "Mandy Freeman",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Erica Skroski",
         "target": "Sarah Killion",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Erica Skroski",
         "target": "Carli Anne Hollins",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Madison Tiernan",
         "target": "Janine Elizabeth Beckie",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dominique Richardson",
         "target": "Amanda Frisbie",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dominique Richardson",
@@ -1140,49 +1179,49 @@
         "source": "Dominique Richardson",
         "target": "Sarah Killion",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dominique Richardson",
         "target": "Imani Dorsey",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Amanda Frisbie",
         "target": "Carli Anne Hollins",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Amanda Frisbie",
         "target": "Kailen Mary Iacovoni Sheridan",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Amanda Frisbie",
         "target": "Imani Dorsey",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sarah Killion",
         "target": "Carli Anne Hollins",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sarah Killion",
         "target": "Janine Elizabeth Beckie",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sarah Killion",
         "target": "Dominique Richardson",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Carli Anne Hollins",
@@ -1194,7 +1233,7 @@
         "source": "Carli Anne Hollins",
         "target": "Shea Groom",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Janine Elizabeth Beckie",
@@ -1206,37 +1245,37 @@
         "source": "Janine Elizabeth Beckie",
         "target": "Erica Skroski",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Janine Elizabeth Beckie",
         "target": "Sarah Killion",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kailen Mary Iacovoni Sheridan",
         "target": "Madison Tiernan",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kailen Mary Iacovoni Sheridan",
         "target": "Dominique Richardson",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Imani Dorsey",
         "target": "Amanda Frisbie",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Imani Dorsey",
         "target": "Dominique Richardson",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

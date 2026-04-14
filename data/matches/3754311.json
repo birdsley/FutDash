@@ -9,6 +9,11 @@
     "away_color": "#595959",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.096,
     "xg_away": 0.488,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Wes Hoolahan",
       "minute": 0,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.8,
@@ -513,7 +520,9 @@
       "player_full": "Bafétimbi Gomis",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.2,
@@ -525,7 +534,9 @@
       "player_full": "Cameron Jerome",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.2,
@@ -537,7 +548,9 @@
       "player_full": "Jonathan Howson",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -549,7 +562,9 @@
       "player_full": "Bafétimbi Gomis",
       "minute": 30,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.6,
@@ -561,7 +576,9 @@
       "player_full": "Bafétimbi Gomis",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -573,7 +590,9 @@
       "player_full": "Robert Brady",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -585,7 +604,9 @@
       "player_full": "Gylfi Þór Sigurðsson",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -597,7 +618,9 @@
       "player_full": "Sung-Yeung Ki",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -609,7 +632,9 @@
       "player_full": "Gary O''Neil",
       "minute": 68,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -621,7 +646,9 @@
       "player_full": "Robert Brady",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.0,
@@ -633,7 +660,9 @@
       "player_full": "Jonathan Howson",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -645,7 +674,9 @@
       "player_full": "Wes Hoolahan",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -657,7 +688,9 @@
       "player_full": "Sébastien Aymar Bassong Nguena",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -669,7 +702,9 @@
       "player_full": "Kyle Naughton",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -681,7 +716,9 @@
       "player_full": "Bafétimbi Gomis",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.0,
@@ -693,7 +730,9 @@
       "player_full": "Bafétimbi Gomis",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.0575
       },
       {
-        "id": "John Ruddy",
-        "short": "Ruddy",
-        "x": 10.78,
-        "y": 39.5,
-        "size": 59.7,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0028
-      },
-      {
         "id": "Cameron Jerome",
         "short": "Jerome",
         "x": 55.43,
@@ -807,6 +836,16 @@
         "is_playmaker": false,
         "betweenness": 0.2444,
         "eigenvector": 0.0165
+      },
+      {
+        "id": "John Ruddy",
+        "short": "Ruddy",
+        "x": 10.78,
+        "y": 39.5,
+        "size": 59.7,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0028
       }
     ],
     "edges": [
@@ -968,27 +1007,15 @@
       },
       {
         "source": "Sébastien Aymar Bassong Nguena",
-        "target": "John Ruddy",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sébastien Aymar Bassong Nguena",
         "target": "Cameron Jerome",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "John Ruddy",
-        "target": "Sébastien Aymar Bassong Nguena",
+        "source": "Sébastien Aymar Bassong Nguena",
+        "target": "John Ruddy",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "John Ruddy",
-        "target": "Ryan Bennett",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cameron Jerome",
@@ -1001,6 +1028,18 @@
         "target": "Sébastien Aymar Bassong Nguena",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "John Ruddy",
+        "target": "Sébastien Aymar Bassong Nguena",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "John Ruddy",
+        "target": "Ryan Bennett",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1009,7 +1048,7 @@
       {
         "id": "Federico Fernández",
         "short": "Fernández",
-        "x": 72.05,
+        "x": 47.95,
         "y": 58.54,
         "size": 130.4,
         "is_playmaker": false,
@@ -1019,7 +1058,7 @@
       {
         "id": "Ashley Williams",
         "short": "Williams",
-        "x": 70.97,
+        "x": 49.03,
         "y": 25.41,
         "size": 132.1,
         "is_playmaker": true,
@@ -1029,7 +1068,7 @@
       {
         "id": "Sung-Yeung Ki",
         "short": "Ki",
-        "x": 58.93,
+        "x": 61.07,
         "y": 45.98,
         "size": 145.3,
         "is_playmaker": true,
@@ -1039,7 +1078,7 @@
       {
         "id": "Jonjo Shelvey",
         "short": "Shelvey",
-        "x": 57.05,
+        "x": 62.95,
         "y": 38.32,
         "size": 112.7,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Kyle Naughton",
         "short": "Naughton",
-        "x": 53.13,
+        "x": 66.87,
         "y": 72.91,
         "size": 88.1,
         "is_playmaker": false,
@@ -1059,7 +1098,7 @@
       {
         "id": "Neil Taylor",
         "short": "Taylor",
-        "x": 58.07,
+        "x": 61.93,
         "y": 8.61,
         "size": 76.7,
         "is_playmaker": false,
@@ -1069,7 +1108,7 @@
       {
         "id": "Gylfi Þór Sigurðsson",
         "short": "Sigurðsson",
-        "x": 46.29,
+        "x": 73.71,
         "y": 28.11,
         "size": 75.0,
         "is_playmaker": false,
@@ -1079,7 +1118,7 @@
       {
         "id": "André Ayew Pelé",
         "short": "Pelé",
-        "x": 53.08,
+        "x": 66.92,
         "y": 51.39,
         "size": 69.3,
         "is_playmaker": false,
@@ -1089,7 +1128,7 @@
       {
         "id": "Łukasz Fabiański",
         "short": "Fabiański",
-        "x": 105.14,
+        "x": 14.86,
         "y": 43.41,
         "size": 60.7,
         "is_playmaker": false,
@@ -1097,24 +1136,24 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Bafétimbi Gomis",
-        "short": "Gomis",
-        "x": 42.98,
-        "y": 48.09,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0116
-      },
-      {
         "id": "Jefferson Antonio Montero Vite",
         "short": "Vite",
-        "x": 43.63,
+        "x": 76.37,
         "y": 14.99,
         "size": 57.3,
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0064
+      },
+      {
+        "id": "Bafétimbi Gomis",
+        "short": "Gomis",
+        "x": 77.02,
+        "y": 48.09,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0116
       }
     ],
     "edges": [
@@ -1128,19 +1167,19 @@
         "source": "Federico Fernández",
         "target": "Sung-Yeung Ki",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Federico Fernández",
         "target": "Jonjo Shelvey",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Federico Fernández",
         "target": "Kyle Naughton",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashley Williams",
@@ -1152,31 +1191,31 @@
         "source": "Ashley Williams",
         "target": "Sung-Yeung Ki",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashley Williams",
         "target": "Jonjo Shelvey",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashley Williams",
         "target": "Neil Taylor",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sung-Yeung Ki",
         "target": "Federico Fernández",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sung-Yeung Ki",
         "target": "Kyle Naughton",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sung-Yeung Ki",
@@ -1188,31 +1227,31 @@
         "source": "Sung-Yeung Ki",
         "target": "André Ayew Pelé",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sung-Yeung Ki",
         "target": "Ashley Williams",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sung-Yeung Ki",
         "target": "Gylfi Þór Sigurðsson",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sung-Yeung Ki",
         "target": "Bafétimbi Gomis",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonjo Shelvey",
         "target": "Ashley Williams",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonjo Shelvey",
@@ -1224,43 +1263,43 @@
         "source": "Jonjo Shelvey",
         "target": "Federico Fernández",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonjo Shelvey",
         "target": "Gylfi Þór Sigurðsson",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kyle Naughton",
         "target": "Federico Fernández",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Naughton",
         "target": "Sung-Yeung Ki",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neil Taylor",
         "target": "Ashley Williams",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neil Taylor",
         "target": "Jefferson Antonio Montero Vite",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gylfi Þór Sigurðsson",
         "target": "Neil Taylor",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gylfi Þór Sigurðsson",
@@ -1272,30 +1311,18 @@
         "source": "André Ayew Pelé",
         "target": "Sung-Yeung Ki",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André Ayew Pelé",
         "target": "Bafétimbi Gomis",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Łukasz Fabiański",
         "target": "Ashley Williams",
         "weight": 10,
-        "direction": "backward"
-      },
-      {
-        "source": "Bafétimbi Gomis",
-        "target": "André Ayew Pelé",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Bafétimbi Gomis",
-        "target": "Sung-Yeung Ki",
-        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1308,7 +1335,19 @@
         "source": "Jefferson Antonio Montero Vite",
         "target": "Neil Taylor",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
+      },
+      {
+        "source": "Bafétimbi Gomis",
+        "target": "André Ayew Pelé",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Bafétimbi Gomis",
+        "target": "Sung-Yeung Ki",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#dc052d",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.437,
     "xg_away": 1.474,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Arturo Erasmo Vidal Pardo",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.1,
@@ -513,7 +520,9 @@
       "player_full": "Haris Seferović",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.9,
@@ -525,7 +534,9 @@
       "player_full": "Arturo Erasmo Vidal Pardo",
       "minute": 14,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -537,7 +548,9 @@
       "player_full": "Javier Martínez Aginaga",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.7,
@@ -549,7 +562,9 @@
       "player_full": "Robert Lewandowski",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -561,7 +576,9 @@
       "player_full": "Douglas Costa de Souza",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -573,7 +590,9 @@
       "player_full": "Haris Seferović",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.7,
@@ -585,7 +604,9 @@
       "player_full": "Marc Stendera",
       "minute": 53,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -597,7 +618,9 @@
       "player_full": "Stefan Aigner",
       "minute": 53,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.6,
@@ -609,7 +632,9 @@
       "player_full": "Marc Stendera",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -621,7 +646,9 @@
       "player_full": "Robert Lewandowski",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.1,
@@ -633,7 +660,9 @@
       "player_full": "David Ángel Abraham",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -645,7 +674,9 @@
       "player_full": "Robert Lewandowski",
       "minute": 78,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -657,7 +688,9 @@
       "player_full": "Robert Lewandowski",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -669,7 +702,9 @@
       "player_full": "Marco Russ",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -681,7 +716,9 @@
       "player_full": "David Olatukunbo Alaba",
       "minute": 87,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -693,7 +730,9 @@
       "player_full": "Arjen Robben",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -779,16 +818,6 @@
         "eigenvector": 0.0007
       },
       {
-        "id": "Slobodan Medojević",
-        "short": "Medojević",
-        "x": 40.72,
-        "y": 31.82,
-        "size": 64.4,
-        "is_playmaker": false,
-        "betweenness": 0.2389,
-        "eigenvector": 0.0222
-      },
-      {
         "id": "Carlos Augusto Zambrano Ochandarte",
         "short": "Ochandarte",
         "x": 29.45,
@@ -797,6 +826,16 @@
         "is_playmaker": false,
         "betweenness": 0.2722,
         "eigenvector": 0.0535
+      },
+      {
+        "id": "Slobodan Medojević",
+        "short": "Medojević",
+        "x": 40.72,
+        "y": 31.82,
+        "size": 64.4,
+        "is_playmaker": false,
+        "betweenness": 0.2389,
+        "eigenvector": 0.0222
       },
       {
         "id": "David Ángel Abraham",
@@ -907,18 +946,6 @@
         "direction": "backward"
       },
       {
-        "source": "Slobodan Medojević",
-        "target": "Alexander Meier",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Slobodan Medojević",
-        "target": "David Ángel Abraham",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Carlos Augusto Zambrano Ochandarte",
         "target": "Lukáš Hrádecký",
         "weight": 1,
@@ -929,6 +956,18 @@
         "target": "Aleksandar Ignjovski",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Slobodan Medojević",
+        "target": "Alexander Meier",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Slobodan Medojević",
+        "target": "David Ángel Abraham",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "David Ángel Abraham",
@@ -949,7 +988,7 @@
       {
         "id": "Xabier Alonso Olano",
         "short": "Olano",
-        "x": 54.76,
+        "x": 65.24,
         "y": 32.24,
         "size": 157.1,
         "is_playmaker": false,
@@ -959,7 +998,7 @@
       {
         "id": "Jérôme Boateng",
         "short": "Boateng",
-        "x": 57.06,
+        "x": 62.94,
         "y": 40.8,
         "size": 145.3,
         "is_playmaker": true,
@@ -969,7 +1008,7 @@
       {
         "id": "Javier Martínez Aginaga",
         "short": "Aginaga",
-        "x": 60.3,
+        "x": 59.7,
         "y": 41.24,
         "size": 111.3,
         "is_playmaker": false,
@@ -979,7 +1018,7 @@
       {
         "id": "Arturo Erasmo Vidal Pardo",
         "short": "Pardo",
-        "x": 50.65,
+        "x": 69.35,
         "y": 57.8,
         "size": 94.9,
         "is_playmaker": false,
@@ -989,7 +1028,7 @@
       {
         "id": "Philipp Lahm",
         "short": "Lahm",
-        "x": 51.03,
+        "x": 68.97,
         "y": 47.28,
         "size": 111.3,
         "is_playmaker": false,
@@ -999,7 +1038,7 @@
       {
         "id": "Douglas Costa de Souza",
         "short": "Souza",
-        "x": 39.81,
+        "x": 80.19,
         "y": 16.8,
         "size": 64.4,
         "is_playmaker": false,
@@ -1009,7 +1048,7 @@
       {
         "id": "Márcio Rafael Ferreira de Souza",
         "short": "Souza",
-        "x": 57.47,
+        "x": 62.53,
         "y": 12.17,
         "size": 80.2,
         "is_playmaker": false,
@@ -1019,7 +1058,7 @@
       {
         "id": "Arjen Robben",
         "short": "Robben",
-        "x": 41.35,
+        "x": 78.65,
         "y": 46.31,
         "size": 66.1,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Kingsley Coman",
         "short": "Coman",
-        "x": 39.09,
+        "x": 80.91,
         "y": 54.42,
         "size": 59.7,
         "is_playmaker": false,
@@ -1039,7 +1078,7 @@
       {
         "id": "Robert Lewandowski",
         "short": "Lewandowski",
-        "x": 50.25,
+        "x": 69.75,
         "y": 39.16,
         "size": 57.3,
         "is_playmaker": true,
@@ -1049,7 +1088,7 @@
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
-        "x": 102.61,
+        "x": 17.39,
         "y": 43.46,
         "size": 57.3,
         "is_playmaker": false,
@@ -1068,13 +1107,13 @@
         "source": "Xabier Alonso Olano",
         "target": "Douglas Costa de Souza",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Arturo Erasmo Vidal Pardo",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
@@ -1086,7 +1125,7 @@
         "source": "Xabier Alonso Olano",
         "target": "Arjen Robben",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
@@ -1098,13 +1137,13 @@
         "source": "Xabier Alonso Olano",
         "target": "Javier Martínez Aginaga",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jérôme Boateng",
         "target": "Arturo Erasmo Vidal Pardo",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérôme Boateng",
@@ -1122,7 +1161,7 @@
         "source": "Jérôme Boateng",
         "target": "Philipp Lahm",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérôme Boateng",
@@ -1134,25 +1173,25 @@
         "source": "Jérôme Boateng",
         "target": "Robert Lewandowski",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérôme Boateng",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Javier Martínez Aginaga",
         "target": "Xabier Alonso Olano",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Martínez Aginaga",
         "target": "Philipp Lahm",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Martínez Aginaga",
@@ -1164,25 +1203,25 @@
         "source": "Javier Martínez Aginaga",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arturo Erasmo Vidal Pardo",
         "target": "Jérôme Boateng",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arturo Erasmo Vidal Pardo",
         "target": "Xabier Alonso Olano",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arturo Erasmo Vidal Pardo",
         "target": "Arjen Robben",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Philipp Lahm",
@@ -1194,19 +1233,19 @@
         "source": "Philipp Lahm",
         "target": "Javier Martínez Aginaga",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Philipp Lahm",
         "target": "Jérôme Boateng",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Philipp Lahm",
         "target": "Kingsley Coman",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Philipp Lahm",
@@ -1230,7 +1269,7 @@
         "source": "Robert Lewandowski",
         "target": "Jérôme Boateng",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Lewandowski",
@@ -1242,13 +1281,13 @@
         "source": "Manuel Neuer",
         "target": "Javier Martínez Aginaga",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Neuer",
         "target": "Jérôme Boateng",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

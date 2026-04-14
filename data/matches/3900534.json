@@ -9,6 +9,11 @@
     "away_color": "#6060d9",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.081,
     "xg_away": 0.325,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Cédric Yambéré",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.1,
@@ -513,7 +520,9 @@
       "player_full": "Henri Saivet",
       "minute": 14,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -525,7 +534,9 @@
       "player_full": "Floyd Ayité",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.7,
@@ -537,7 +548,9 @@
       "player_full": "Diego Armando Valentin Contento",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -549,7 +562,9 @@
       "player_full": "Floyd Ayité",
       "minute": 33,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -561,7 +576,9 @@
       "player_full": "Diego Alejandro Rolan Silva",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -573,7 +590,9 @@
       "player_full": "Enzo Crivelli",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -585,7 +604,9 @@
       "player_full": "Floyd Ayité",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.3,
@@ -597,7 +618,9 @@
       "player_full": "Diego Alejandro Rolan Silva",
       "minute": 58,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -609,7 +632,9 @@
       "player_full": "Floyd Ayité",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -621,7 +646,9 @@
       "player_full": "Floyd Ayité",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -633,7 +660,9 @@
       "player_full": "Florian Raspentino",
       "minute": 86,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -645,7 +674,9 @@
       "player_full": "Julian Palmieri",
       "minute": 87,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -657,7 +688,9 @@
       "player_full": "Florian Raspentino",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -669,7 +702,9 @@
       "player_full": "Floyd Ayité",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +960,7 @@
       {
         "id": "Diego Armando Valentin Contento",
         "short": "Contento",
-        "x": 57.74,
+        "x": 62.26,
         "y": 8.38,
         "size": 118.7,
         "is_playmaker": false,
@@ -935,7 +970,7 @@
       {
         "id": "Nicolas Maurice-Belay",
         "short": "Maurice-Bel",
-        "x": 41.21,
+        "x": 78.79,
         "y": 14.9,
         "size": 126.5,
         "is_playmaker": false,
@@ -945,7 +980,7 @@
       {
         "id": "Henri Saivet",
         "short": "Saivet",
-        "x": 62.1,
+        "x": 57.9,
         "y": 36.37,
         "size": 138.8,
         "is_playmaker": true,
@@ -955,7 +990,7 @@
       {
         "id": "Jaroslav Plašil",
         "short": "Plašil",
-        "x": 54.38,
+        "x": 65.62,
         "y": 35.28,
         "size": 115.3,
         "is_playmaker": true,
@@ -965,7 +1000,7 @@
       {
         "id": "Frédéric Guilbert",
         "short": "Guilbert",
-        "x": 59.83,
+        "x": 60.17,
         "y": 70.25,
         "size": 70.6,
         "is_playmaker": false,
@@ -975,7 +1010,7 @@
       {
         "id": "Jussiê Ferreira Vieira",
         "short": "Vieira",
-        "x": 47.3,
+        "x": 72.7,
         "y": 38.63,
         "size": 88.5,
         "is_playmaker": false,
@@ -985,7 +1020,7 @@
       {
         "id": "Diego Alejandro Rolan Silva",
         "short": "Silva",
-        "x": 53.88,
+        "x": 66.12,
         "y": 53.35,
         "size": 69.5,
         "is_playmaker": false,
@@ -995,7 +1030,7 @@
       {
         "id": "Cédric Carrasso",
         "short": "Carrasso",
-        "x": 106.54,
+        "x": 13.46,
         "y": 36.86,
         "size": 61.7,
         "is_playmaker": false,
@@ -1005,7 +1040,7 @@
       {
         "id": "Enzo Crivelli",
         "short": "Crivelli",
-        "x": 49.04,
+        "x": 70.96,
         "y": 35.62,
         "size": 72.9,
         "is_playmaker": false,
@@ -1015,7 +1050,7 @@
       {
         "id": "Cédric Yambéré",
         "short": "Yambéré",
-        "x": 76.42,
+        "x": 43.58,
         "y": 29.25,
         "size": 74.0,
         "is_playmaker": false,
@@ -1025,7 +1060,7 @@
       {
         "id": "Clément Chantôme",
         "short": "Chantôme",
-        "x": 76.8,
+        "x": 43.2,
         "y": 53.89,
         "size": 68.4,
         "is_playmaker": false,
@@ -1038,7 +1073,7 @@
         "source": "Diego Armando Valentin Contento",
         "target": "Nicolas Maurice-Belay",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Armando Valentin Contento",
@@ -1050,49 +1085,49 @@
         "source": "Diego Armando Valentin Contento",
         "target": "Cédric Yambéré",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicolas Maurice-Belay",
         "target": "Diego Armando Valentin Contento",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicolas Maurice-Belay",
         "target": "Jussiê Ferreira Vieira",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicolas Maurice-Belay",
         "target": "Henri Saivet",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Henri Saivet",
         "target": "Diego Armando Valentin Contento",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Henri Saivet",
         "target": "Nicolas Maurice-Belay",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Henri Saivet",
         "target": "Jussiê Ferreira Vieira",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Henri Saivet",
         "target": "Jaroslav Plašil",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Henri Saivet",
@@ -1104,31 +1139,31 @@
         "source": "Henri Saivet",
         "target": "Diego Alejandro Rolan Silva",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Henri Saivet",
         "target": "Enzo Crivelli",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Nicolas Maurice-Belay",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Henri Saivet",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Jussiê Ferreira Vieira",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frédéric Guilbert",
@@ -1140,7 +1175,7 @@
         "source": "Jussiê Ferreira Vieira",
         "target": "Nicolas Maurice-Belay",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jussiê Ferreira Vieira",
@@ -1158,19 +1193,19 @@
         "source": "Cédric Carrasso",
         "target": "Enzo Crivelli",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Yambéré",
         "target": "Diego Armando Valentin Contento",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Clément Chantôme",
         "target": "Jaroslav Plašil",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Clément Chantôme",

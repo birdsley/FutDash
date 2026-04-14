@@ -9,6 +9,11 @@
     "away_color": "#ee2523",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.356,
     "xg_away": 1.076,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Raúl García Escudero",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -513,7 +520,9 @@
       "player_full": "Iker Muniain Goñi",
       "minute": 18,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -525,7 +534,9 @@
       "player_full": "Beñat Etxebarria Urkiaga",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.2,
@@ -537,7 +548,9 @@
       "player_full": "Raúl García Escudero",
       "minute": 28,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.9,
@@ -549,7 +562,9 @@
       "player_full": "Arnaldo Antonio Sanabria Ayala",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -561,7 +576,9 @@
       "player_full": "Daniel Arnaud N''Di\t",
       "minute": 36,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -573,7 +590,9 @@
       "player_full": "Raúl García Escudero",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.2,
@@ -585,7 +604,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -597,7 +618,9 @@
       "player_full": "Beñat Etxebarria Urkiaga",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -609,7 +632,9 @@
       "player_full": "Jonathan Rodríguez Menéndez",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.9,
@@ -621,7 +646,9 @@
       "player_full": "Alen Halilović",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -633,7 +660,9 @@
       "player_full": "Óscar de Marcos Arana",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -645,7 +674,9 @@
       "player_full": "Sabin Merino Zuloaga",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.8,
@@ -657,7 +688,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.6,
@@ -669,7 +702,9 @@
       "player_full": "Alejandro Barrera García",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -681,7 +716,9 @@
       "player_full": "Javier Eraso Goñi",
       "minute": 90,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -967,7 +1004,7 @@
       {
         "id": "Beñat Etxebarria Urkiaga",
         "short": "Urkiaga",
-        "x": 61.64,
+        "x": 58.36,
         "y": 34.19,
         "size": 141.3,
         "is_playmaker": true,
@@ -977,7 +1014,7 @@
       {
         "id": "Aymeric Laporte",
         "short": "Laporte",
-        "x": 73.61,
+        "x": 46.39,
         "y": 20.14,
         "size": 134.4,
         "is_playmaker": true,
@@ -987,7 +1024,7 @@
       {
         "id": "Mikel San José Domínguez",
         "short": "Domínguez",
-        "x": 71.08,
+        "x": 48.92,
         "y": 42.73,
         "size": 128.5,
         "is_playmaker": false,
@@ -997,7 +1034,7 @@
       {
         "id": "Raúl García Escudero",
         "short": "Escudero",
-        "x": 49.62,
+        "x": 70.38,
         "y": 32.73,
         "size": 79.5,
         "is_playmaker": false,
@@ -1007,7 +1044,7 @@
       {
         "id": "Xabier Etxeita Gorritxategi",
         "short": "Gorritxateg",
-        "x": 75.03,
+        "x": 44.97,
         "y": 56.01,
         "size": 77.5,
         "is_playmaker": false,
@@ -1017,7 +1054,7 @@
       {
         "id": "Óscar de Marcos Arana",
         "short": "Arana",
-        "x": 58.47,
+        "x": 61.53,
         "y": 74.53,
         "size": 98.1,
         "is_playmaker": false,
@@ -1027,7 +1064,7 @@
       {
         "id": "Markel Susaeta Laskurain",
         "short": "Laskurain",
-        "x": 47.6,
+        "x": 72.4,
         "y": 52.69,
         "size": 70.7,
         "is_playmaker": false,
@@ -1037,7 +1074,7 @@
       {
         "id": "Mikel Balenziaga Oruesagasti",
         "short": "Oruesagasti",
-        "x": 57.84,
+        "x": 62.16,
         "y": 7.74,
         "size": 70.7,
         "is_playmaker": false,
@@ -1047,7 +1084,7 @@
       {
         "id": "Iker Muniain Goñi",
         "short": "Goñi",
-        "x": 56.38,
+        "x": 63.62,
         "y": 29.62,
         "size": 68.7,
         "is_playmaker": false,
@@ -1057,7 +1094,7 @@
       {
         "id": "Gorka Iraizoz Moreno",
         "short": "Moreno",
-        "x": 103.47,
+        "x": 16.53,
         "y": 44.79,
         "size": 73.6,
         "is_playmaker": false,
@@ -1067,7 +1104,7 @@
       {
         "id": "Aritz Aduriz Zubeldia",
         "short": "Zubeldia",
-        "x": 46.48,
+        "x": 73.52,
         "y": 36.97,
         "size": 61.9,
         "is_playmaker": false,
@@ -1080,25 +1117,25 @@
         "source": "Beñat Etxebarria Urkiaga",
         "target": "Aymeric Laporte",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Beñat Etxebarria Urkiaga",
         "target": "Raúl García Escudero",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Beñat Etxebarria Urkiaga",
         "target": "Mikel San José Domínguez",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Beñat Etxebarria Urkiaga",
         "target": "Iker Muniain Goñi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Beñat Etxebarria Urkiaga",
@@ -1110,7 +1147,7 @@
         "source": "Aymeric Laporte",
         "target": "Beñat Etxebarria Urkiaga",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
@@ -1122,25 +1159,25 @@
         "source": "Aymeric Laporte",
         "target": "Mikel Balenziaga Oruesagasti",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
         "target": "Aritz Aduriz Zubeldia",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
         "target": "Gorka Iraizoz Moreno",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mikel San José Domínguez",
         "target": "Beñat Etxebarria Urkiaga",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mikel San José Domínguez",
@@ -1158,7 +1195,7 @@
         "source": "Mikel San José Domínguez",
         "target": "Raúl García Escudero",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Etxeita Gorritxategi",
@@ -1170,19 +1207,19 @@
         "source": "Xabier Etxeita Gorritxategi",
         "target": "Óscar de Marcos Arana",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Óscar de Marcos Arana",
         "target": "Markel Susaeta Laskurain",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Óscar de Marcos Arana",
         "target": "Mikel San José Domínguez",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Óscar de Marcos Arana",
@@ -1194,31 +1231,31 @@
         "source": "Markel Susaeta Laskurain",
         "target": "Óscar de Marcos Arana",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mikel Balenziaga Oruesagasti",
         "target": "Aymeric Laporte",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Iker Muniain Goñi",
         "target": "Beñat Etxebarria Urkiaga",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gorka Iraizoz Moreno",
         "target": "Raúl García Escudero",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gorka Iraizoz Moreno",
         "target": "Aymeric Laporte",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

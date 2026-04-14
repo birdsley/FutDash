@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.304,
     "xg_away": 1.154,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Enner Remberto Valencia Lastra",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -513,7 +520,9 @@
       "player_full": "Romario Andrés Ibarra Mina",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -525,7 +534,9 @@
       "player_full": "Enner Remberto Valencia Lastra",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.4,
@@ -537,7 +548,9 @@
       "player_full": "Abdelkarim Hassan Al Haj Fadlalla",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -549,7 +562,9 @@
       "player_full": "Almoez Ali Zainalabiddin Abdulla",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.7,
@@ -561,7 +576,9 @@
       "player_full": "Angelo Smit Preciado Quiñónez",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -573,7 +590,9 @@
       "player_full": "Romario Andrés Ibarra Mina",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -585,7 +604,9 @@
       "player_full": "Pedro Miguel Correia",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.1,
@@ -597,7 +618,9 @@
       "player_full": "Akram Hassan Afif",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.2,
@@ -609,7 +632,9 @@
       "player_full": "Mohammed Muntari",
       "minute": 85,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -621,7 +646,9 @@
       "player_full": "Kevin José Rodríguez Cortez",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +940,7 @@
       {
         "id": "Jhegson Sebastián Méndez Carabalí",
         "short": "Carabalí",
-        "x": 77.64,
+        "x": 42.36,
         "y": 45.09,
         "size": 140.4,
         "is_playmaker": true,
@@ -923,7 +950,7 @@
       {
         "id": "Piero Martín Hincapié Reyna",
         "short": "Reyna",
-        "x": 82.09,
+        "x": 37.91,
         "y": 22.12,
         "size": 138.3,
         "is_playmaker": false,
@@ -933,7 +960,7 @@
       {
         "id": "Pervis Josué Estupiñán Tenorio",
         "short": "Tenorio",
-        "x": 64.76,
+        "x": 55.24,
         "y": 9.24,
         "size": 116.9,
         "is_playmaker": false,
@@ -943,7 +970,7 @@
       {
         "id": "Felix Eduardo Torres Caicedo",
         "short": "Caicedo",
-        "x": 80.65,
+        "x": 39.35,
         "y": 60.58,
         "size": 109.8,
         "is_playmaker": false,
@@ -953,7 +980,7 @@
       {
         "id": "Angelo Smit Preciado Quiñónez",
         "short": "Quiñónez",
-        "x": 61.04,
+        "x": 58.96,
         "y": 70.79,
         "size": 89.9,
         "is_playmaker": false,
@@ -963,7 +990,7 @@
       {
         "id": "Moisés Isaac Caicedo Corozo",
         "short": "Corozo",
-        "x": 61.38,
+        "x": 58.62,
         "y": 30.06,
         "size": 90.6,
         "is_playmaker": true,
@@ -973,7 +1000,7 @@
       {
         "id": "Gonzalo Jordy Plata Jiménez",
         "short": "Jiménez",
-        "x": 58.49,
+        "x": 61.51,
         "y": 60.1,
         "size": 74.9,
         "is_playmaker": false,
@@ -983,7 +1010,7 @@
       {
         "id": "Enner Remberto Valencia Lastra",
         "short": "Lastra",
-        "x": 47.68,
+        "x": 72.32,
         "y": 25.34,
         "size": 69.2,
         "is_playmaker": false,
@@ -993,7 +1020,7 @@
       {
         "id": "Romario Andrés Ibarra Mina",
         "short": "Mina",
-        "x": 51.8,
+        "x": 68.2,
         "y": 11.1,
         "size": 59.3,
         "is_playmaker": false,
@@ -1003,7 +1030,7 @@
       {
         "id": "Hernán Ismael Galíndez",
         "short": "Galíndez",
-        "x": 108.62,
+        "x": 11.38,
         "y": 41.51,
         "size": 57.8,
         "is_playmaker": false,
@@ -1013,7 +1040,7 @@
       {
         "id": "Michael Steveen Estrada Martínez",
         "short": "Martínez",
-        "x": 55.82,
+        "x": 64.18,
         "y": 35.51,
         "size": 57.8,
         "is_playmaker": false,
@@ -1026,7 +1053,7 @@
         "source": "Jhegson Sebastián Méndez Carabalí",
         "target": "Piero Martín Hincapié Reyna",
         "weight": 25,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jhegson Sebastián Méndez Carabalí",
@@ -1038,37 +1065,37 @@
         "source": "Jhegson Sebastián Méndez Carabalí",
         "target": "Moisés Isaac Caicedo Corozo",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jhegson Sebastián Méndez Carabalí",
         "target": "Gonzalo Jordy Plata Jiménez",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jhegson Sebastián Méndez Carabalí",
         "target": "Angelo Smit Preciado Quiñónez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jhegson Sebastián Méndez Carabalí",
         "target": "Hernán Ismael Galíndez",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Piero Martín Hincapié Reyna",
         "target": "Pervis Josué Estupiñán Tenorio",
         "weight": 23,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Piero Martín Hincapié Reyna",
         "target": "Jhegson Sebastián Méndez Carabalí",
         "weight": 23,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Piero Martín Hincapié Reyna",
@@ -1080,13 +1107,13 @@
         "source": "Piero Martín Hincapié Reyna",
         "target": "Hernán Ismael Galíndez",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pervis Josué Estupiñán Tenorio",
         "target": "Piero Martín Hincapié Reyna",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pervis Josué Estupiñán Tenorio",
@@ -1098,19 +1125,19 @@
         "source": "Pervis Josué Estupiñán Tenorio",
         "target": "Enner Remberto Valencia Lastra",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pervis Josué Estupiñán Tenorio",
         "target": "Jhegson Sebastián Méndez Carabalí",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Felix Eduardo Torres Caicedo",
         "target": "Angelo Smit Preciado Quiñónez",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Felix Eduardo Torres Caicedo",
@@ -1128,7 +1155,7 @@
         "source": "Angelo Smit Preciado Quiñónez",
         "target": "Felix Eduardo Torres Caicedo",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Angelo Smit Preciado Quiñónez",
@@ -1140,7 +1167,7 @@
         "source": "Angelo Smit Preciado Quiñónez",
         "target": "Enner Remberto Valencia Lastra",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moisés Isaac Caicedo Corozo",
@@ -1152,67 +1179,67 @@
         "source": "Moisés Isaac Caicedo Corozo",
         "target": "Jhegson Sebastián Méndez Carabalí",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Moisés Isaac Caicedo Corozo",
         "target": "Piero Martín Hincapié Reyna",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Moisés Isaac Caicedo Corozo",
         "target": "Enner Remberto Valencia Lastra",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moisés Isaac Caicedo Corozo",
         "target": "Michael Steveen Estrada Martínez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gonzalo Jordy Plata Jiménez",
         "target": "Jhegson Sebastián Méndez Carabalí",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Enner Remberto Valencia Lastra",
         "target": "Michael Steveen Estrada Martínez",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Romario Andrés Ibarra Mina",
         "target": "Pervis Josué Estupiñán Tenorio",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hernán Ismael Galíndez",
         "target": "Jhegson Sebastián Méndez Carabalí",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hernán Ismael Galíndez",
         "target": "Piero Martín Hincapié Reyna",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Michael Steveen Estrada Martínez",
         "target": "Moisés Isaac Caicedo Corozo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Michael Steveen Estrada Martínez",
         "target": "Enner Remberto Valencia Lastra",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

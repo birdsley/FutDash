@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.096,
     "xg_away": 0.426,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Mark Anthony Kaye",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 83.9,
@@ -513,7 +520,9 @@
       "player_full": "Hakim Ziyech",
       "minute": 3,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.8,
@@ -525,7 +534,9 @@
       "player_full": "Abdelhamid Sabiri",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -537,7 +548,9 @@
       "player_full": "Sofiane Boufal",
       "minute": 9,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -549,7 +562,9 @@
       "player_full": "Tajon Buchanan",
       "minute": 14,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -561,7 +576,9 @@
       "player_full": "Hakim Ziyech",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -573,7 +590,9 @@
       "player_full": "Youssef En-Nesyri",
       "minute": 22,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -585,7 +604,9 @@
       "player_full": "Abdelhamid Sabiri",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -597,7 +618,9 @@
       "player_full": "Youssef En-Nesyri",
       "minute": 47,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -609,7 +632,9 @@
       "player_full": "Alphonso Davies",
       "minute": 57,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -621,7 +646,9 @@
       "player_full": "Atiba Hutchinson",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.8,
@@ -633,7 +660,9 @@
       "player_full": "Alistair Johnston",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +954,7 @@
       {
         "id": "Sofyan Amrabat",
         "short": "Amrabat",
-        "x": 77.03,
+        "x": 42.97,
         "y": 42.18,
         "size": 109.1,
         "is_playmaker": true,
@@ -935,7 +964,7 @@
       {
         "id": "Nayef Aguerd",
         "short": "Aguerd",
-        "x": 95.92,
+        "x": 24.08,
         "y": 63.17,
         "size": 119.7,
         "is_playmaker": false,
@@ -945,7 +974,7 @@
       {
         "id": "Romain Saïss",
         "short": "Saïss",
-        "x": 87.82,
+        "x": 32.18,
         "y": 20.71,
         "size": 87.9,
         "is_playmaker": false,
@@ -955,7 +984,7 @@
       {
         "id": "Achraf Hakimi Mouh",
         "short": "Mouh",
-        "x": 74.2,
+        "x": 45.8,
         "y": 71.27,
         "size": 143.2,
         "is_playmaker": true,
@@ -965,7 +994,7 @@
       {
         "id": "Hakim Ziyech",
         "short": "Ziyech",
-        "x": 67.99,
+        "x": 52.01,
         "y": 69.04,
         "size": 95.0,
         "is_playmaker": false,
@@ -975,7 +1004,7 @@
       {
         "id": "Yassine Bounou",
         "short": "Bounou",
-        "x": 110.43,
+        "x": 9.57,
         "y": 39.8,
         "size": 82.1,
         "is_playmaker": false,
@@ -985,7 +1014,7 @@
       {
         "id": "Abdelhamid Sabiri",
         "short": "Sabiri",
-        "x": 59.71,
+        "x": 60.29,
         "y": 19.18,
         "size": 76.2,
         "is_playmaker": false,
@@ -995,7 +1024,7 @@
       {
         "id": "Sofiane Boufal",
         "short": "Boufal",
-        "x": 53.51,
+        "x": 66.49,
         "y": 19.63,
         "size": 73.8,
         "is_playmaker": false,
@@ -1005,7 +1034,7 @@
       {
         "id": "Noussair Mazraoui",
         "short": "Mazraoui",
-        "x": 76.13,
+        "x": 43.87,
         "y": 9.96,
         "size": 66.8,
         "is_playmaker": false,
@@ -1015,7 +1044,7 @@
       {
         "id": "Youssef En-Nesyri",
         "short": "En-Nesyri",
-        "x": 60.56,
+        "x": 59.44,
         "y": 48.98,
         "size": 67.9,
         "is_playmaker": false,
@@ -1025,7 +1054,7 @@
       {
         "id": "Azzedine Ounahi",
         "short": "Ounahi",
-        "x": 62.28,
+        "x": 57.72,
         "y": 54.83,
         "size": 83.2,
         "is_playmaker": false,
@@ -1038,7 +1067,7 @@
         "source": "Sofyan Amrabat",
         "target": "Nayef Aguerd",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sofyan Amrabat",
@@ -1050,37 +1079,37 @@
         "source": "Sofyan Amrabat",
         "target": "Romain Saïss",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nayef Aguerd",
         "target": "Achraf Hakimi Mouh",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nayef Aguerd",
         "target": "Yassine Bounou",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nayef Aguerd",
         "target": "Sofyan Amrabat",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Romain Saïss",
         "target": "Nayef Aguerd",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Romain Saïss",
         "target": "Youssef En-Nesyri",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Achraf Hakimi Mouh",
@@ -1092,85 +1121,85 @@
         "source": "Achraf Hakimi Mouh",
         "target": "Nayef Aguerd",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Achraf Hakimi Mouh",
         "target": "Hakim Ziyech",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Achraf Hakimi Mouh",
         "target": "Azzedine Ounahi",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Achraf Hakimi Mouh",
         "target": "Youssef En-Nesyri",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hakim Ziyech",
         "target": "Achraf Hakimi Mouh",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yassine Bounou",
         "target": "Romain Saïss",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yassine Bounou",
         "target": "Nayef Aguerd",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abdelhamid Sabiri",
         "target": "Sofiane Boufal",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abdelhamid Sabiri",
         "target": "Sofyan Amrabat",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sofiane Boufal",
         "target": "Abdelhamid Sabiri",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Noussair Mazraoui",
         "target": "Sofiane Boufal",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Noussair Mazraoui",
         "target": "Romain Saïss",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Azzedine Ounahi",
         "target": "Sofyan Amrabat",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Azzedine Ounahi",
         "target": "Hakim Ziyech",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

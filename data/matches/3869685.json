@@ -7,12 +7,17 @@
     "home_color": "#74acdf",
     "away_color_raw": "#003189",
     "away_color": "#3d82ff",
-    "score_home": 7,
-    "score_away": 5,
-    "xg_home": 5.892,
-    "xg_away": 5.407,
-    "shots_home": 24,
-    "shots_away": 14,
+    "score_home": 3,
+    "score_away": 3,
+    "penalty_home": 4,
+    "penalty_away": 2,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 127,
+    "xg_home": 2.758,
+    "xg_away": 2.273,
+    "shots_home": 20,
+    "shots_away": 10,
     "possession_home": 53.8,
     "competition": "FIFA World Cup",
     "season": "2022",
@@ -111,7 +116,42 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
     ],
     "home": [
       0.0,
@@ -205,7 +245,42 @@
       1.5787,
       1.5787,
       1.5787,
-      5.8924
+      1.5787,
+      1.598,
+      1.598,
+      1.598,
+      1.598,
+      1.641,
+      1.641,
+      1.641,
+      1.641,
+      1.641,
+      1.641,
+      1.641,
+      1.641,
+      1.8942,
+      2.0345,
+      2.0593,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.6518,
+      2.7584,
+      2.7584,
+      2.7584,
+      2.7584,
+      2.7584
     ],
     "away": [
       0.0,
@@ -299,195 +374,300 @@
       1.032,
       1.032,
       1.032,
-      5.4065
+      1.032,
+      1.0644,
+      1.1577,
+      1.1577,
+      1.1577,
+      1.1577,
+      1.1577,
+      1.1577,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.1807,
+      1.2115,
+      1.2115,
+      1.995,
+      1.995,
+      1.995,
+      1.995,
+      1.995,
+      2.2725,
+      2.2725,
+      2.2725,
+      2.2725,
+      2.2725
     ],
     "pressure_home": [
       0.0,
       0.0,
-      0.0656,
-      0.071,
-      0.1913,
-      0.1913,
-      0.1913,
-      0.2896,
-      0.3333,
-      0.3333,
-      0.3333,
-      0.3716,
-      0.3333,
-      0.3716,
-      0.2514,
-      0.2568,
-      0.2896,
-      0.1913,
-      0.1475,
-      0.1475,
-      0.2022,
-      0.1639,
-      0.1421,
-      0.0984,
-      0.0984,
-      0.0929,
-      0.0601,
-      0.0601,
-      0.0765,
-      0.082,
-      0.071,
-      0.1913,
-      0.2842,
-      0.3005,
-      0.4098,
-      0.4317,
-      0.4317,
-      0.4317,
-      0.4153,
-      0.4098,
-      0.3661,
-      0.2459,
-      0.1585,
-      0.1421,
-      0.0328,
-      0.0874,
-      0.0984,
-      0.1202,
-      0.2131,
-      0.2131,
-      0.2459,
-      0.3115,
-      0.306,
-      0.3279,
-      0.3279,
-      0.2514,
-      0.2404,
-      0.2186,
-      0.1585,
-      0.1803,
-      0.1475,
-      0.082,
-      0.0929,
-      0.071,
-      0.1639,
-      0.1639,
-      0.1639,
-      0.1639,
-      0.1311,
-      0.1093,
-      0.1093,
-      0.1803,
-      0.1639,
-      0.1639,
-      0.1038,
-      0.1038,
-      0.1803,
-      0.2077,
-      0.2077,
-      0.2077,
-      0.2077,
-      0.1366,
-      0.1421,
-      0.2951,
-      0.2623,
-      0.2623,
-      0.1858,
-      0.1585,
-      0.1585,
-      0.1585,
-      0.1803,
-      1.0
+      0.1519,
+      0.1646,
+      0.443,
+      0.443,
+      0.443,
+      0.6709,
+      0.7722,
+      0.7722,
+      0.7722,
+      0.8608,
+      0.7722,
+      0.8608,
+      0.5823,
+      0.5949,
+      0.6709,
+      0.443,
+      0.3418,
+      0.3418,
+      0.4684,
+      0.3797,
+      0.3291,
+      0.2278,
+      0.2278,
+      0.2152,
+      0.1392,
+      0.1392,
+      0.1772,
+      0.1899,
+      0.1646,
+      0.443,
+      0.6582,
+      0.6962,
+      0.9494,
+      1.0,
+      1.0,
+      1.0,
+      0.962,
+      0.9494,
+      0.8481,
+      0.5696,
+      0.3671,
+      0.3291,
+      0.0759,
+      0.2025,
+      0.2278,
+      0.2785,
+      0.4937,
+      0.4937,
+      0.5696,
+      0.7215,
+      0.7089,
+      0.7595,
+      0.7595,
+      0.5823,
+      0.557,
+      0.5063,
+      0.3671,
+      0.4177,
+      0.3418,
+      0.1899,
+      0.2152,
+      0.1646,
+      0.3797,
+      0.3797,
+      0.3797,
+      0.3797,
+      0.3038,
+      0.2532,
+      0.2532,
+      0.4177,
+      0.3797,
+      0.3797,
+      0.2405,
+      0.2405,
+      0.4177,
+      0.481,
+      0.481,
+      0.481,
+      0.481,
+      0.3165,
+      0.3291,
+      0.6835,
+      0.6076,
+      0.6076,
+      0.4304,
+      0.3671,
+      0.3671,
+      0.3671,
+      0.4177,
+      0.519,
+      0.5823,
+      0.2278,
+      0.3291,
+      0.4051,
+      0.5696,
+      0.5949,
+      0.6835,
+      0.6835,
+      0.6329,
+      0.5316,
+      0.4557,
+      0.5063,
+      0.6709,
+      0.8608,
+      0.7342,
+      0.8608,
+      0.7722,
+      0.7722,
+      0.7722,
+      0.7975,
+      0.9114,
+      0.8734,
+      0.6076,
+      0.3418,
+      0.3038,
+      0.1519,
+      0.3038,
+      0.3418,
+      0.3418,
+      0.3544,
+      0.3291,
+      0.3165,
+      0.3291,
+      0.3418,
+      0.3418
     ],
     "pressure_away": [
       0.0,
       0.0,
       0.0,
-      0.0106,
-      0.2021,
-      0.2979,
-      0.4468,
-      0.4574,
-      0.4574,
-      0.4574,
-      0.4574,
-      0.5,
-      0.5106,
-      0.5,
-      0.3191,
-      0.3404,
-      0.266,
-      0.3191,
-      0.3191,
-      0.3191,
-      0.3191,
-      0.2766,
-      0.266,
-      0.3404,
-      0.3298,
-      0.234,
-      0.1596,
-      0.0957,
-      0.1064,
-      0.117,
-      0.1596,
-      0.1596,
-      0.2021,
-      0.1383,
-      0.1596,
-      0.1383,
-      0.1383,
-      0.1383,
-      0.1809,
-      0.1702,
-      0.1277,
-      0.1277,
-      0.1277,
-      0.1277,
-      0.1064,
-      0.1702,
-      0.266,
-      0.3723,
-      0.5106,
-      0.5532,
-      0.6596,
-      0.6702,
-      0.6277,
-      0.6383,
-      0.6383,
-      0.5745,
-      0.5,
-      0.4255,
-      0.2553,
-      0.2234,
-      0.1277,
-      0.2447,
-      0.2766,
-      0.2553,
-      0.2979,
-      0.3085,
-      0.3511,
-      0.3191,
-      0.2979,
-      0.3404,
-      0.3298,
-      0.2766,
-      0.2447,
-      0.2447,
-      0.2234,
-      0.2234,
-      0.1596,
-      0.1702,
-      0.1809,
-      0.1277,
-      0.1383,
-      0.0638,
-      0.0638,
-      0.0851,
-      0.0851,
-      0.1277,
-      0.1277,
-      0.117,
-      0.1064,
-      0.1277,
-      0.1915,
-      1.0
+      0.0159,
+      0.3016,
+      0.4444,
+      0.6667,
+      0.6825,
+      0.6825,
+      0.6825,
+      0.6825,
+      0.746,
+      0.7619,
+      0.746,
+      0.4762,
+      0.5079,
+      0.3968,
+      0.4762,
+      0.4762,
+      0.4762,
+      0.4762,
+      0.4127,
+      0.3968,
+      0.5079,
+      0.4921,
+      0.3492,
+      0.2381,
+      0.1429,
+      0.1587,
+      0.1746,
+      0.2381,
+      0.2381,
+      0.3016,
+      0.2063,
+      0.2381,
+      0.2063,
+      0.2063,
+      0.2063,
+      0.2698,
+      0.254,
+      0.1905,
+      0.1905,
+      0.1905,
+      0.1905,
+      0.1587,
+      0.254,
+      0.3968,
+      0.5556,
+      0.7619,
+      0.8254,
+      0.9841,
+      1.0,
+      0.9365,
+      0.9524,
+      0.9524,
+      0.8571,
+      0.746,
+      0.6349,
+      0.381,
+      0.3333,
+      0.1905,
+      0.3651,
+      0.4127,
+      0.381,
+      0.4444,
+      0.4603,
+      0.5238,
+      0.4762,
+      0.4444,
+      0.5079,
+      0.4921,
+      0.4127,
+      0.3651,
+      0.3651,
+      0.3333,
+      0.3333,
+      0.2381,
+      0.254,
+      0.2698,
+      0.1905,
+      0.2063,
+      0.0952,
+      0.0952,
+      0.127,
+      0.127,
+      0.1905,
+      0.1905,
+      0.1746,
+      0.1587,
+      0.1905,
+      0.2857,
+      0.3016,
+      0.3333,
+      0.4921,
+      0.4762,
+      0.4286,
+      0.4762,
+      0.5238,
+      0.5397,
+      0.5079,
+      0.3968,
+      0.381,
+      0.3492,
+      0.1905,
+      0.1905,
+      0.4127,
+      0.4127,
+      0.381,
+      0.3651,
+      0.3651,
+      0.4444,
+      0.5873,
+      0.5873,
+      0.6032,
+      0.5873,
+      0.3333,
+      0.2857,
+      0.2698,
+      0.3016,
+      0.4127,
+      0.3333,
+      0.1905,
+      0.2063,
+      0.1746,
+      0.1746,
+      0.1746,
+      0.1746
     ]
   },
   "shots": [
@@ -501,7 +681,9 @@
       "player_full": "Alexis Mac Allister",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.2,
@@ -513,7 +695,9 @@
       "player_full": "Rodrigo Javier De Paul",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.1,
@@ -525,7 +709,9 @@
       "player_full": "Ángel Fabián Di María Hernández",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -537,7 +723,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.3,
@@ -549,7 +737,9 @@
       "player_full": "Alexis Mac Allister",
       "minute": 31,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -561,7 +751,9 @@
       "player_full": "Ángel Fabián Di María Hernández",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.3,
@@ -573,7 +765,9 @@
       "player_full": "Rodrigo Javier De Paul",
       "minute": 48,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -585,7 +779,9 @@
       "player_full": "Julián Álvarez",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -597,7 +793,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -609,7 +807,9 @@
       "player_full": "Randal Kolo Muani",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.5,
@@ -621,7 +821,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.9,
@@ -633,7 +835,9 @@
       "player_full": "Enzo Fernandez",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -645,7 +849,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.8,
@@ -657,7 +863,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 80,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -669,7 +877,9 @@
       "player_full": "Enzo Fernandez",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -681,7 +891,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -693,7 +905,9 @@
       "player_full": "Adrien Rabiot",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -705,7 +919,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 96,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.2,
@@ -717,7 +933,9 @@
       "player_full": "Alexis Mac Allister",
       "minute": 92,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.8,
@@ -729,7 +947,9 @@
       "player_full": "Youssouf Fofana",
       "minute": 99,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -741,7 +961,9 @@
       "player_full": "Lautaro Javier Martínez",
       "minute": 104,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.3,
@@ -753,7 +975,9 @@
       "player_full": "Gonzalo Ariel Montiel",
       "minute": 104,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -765,7 +989,9 @@
       "player_full": "Lautaro Javier Martínez",
       "minute": 105,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -777,7 +1003,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 106,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.4,
@@ -789,7 +1017,9 @@
       "player_full": "Lautaro Javier Martínez",
       "minute": 107,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.6,
@@ -801,7 +1031,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 107,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -813,7 +1045,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 115,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -825,7 +1059,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 117,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.7,
@@ -837,7 +1073,9 @@
       "player_full": "Randal Kolo Muani",
       "minute": 122,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -849,7 +1087,9 @@
       "player_full": "Lautaro Javier Martínez",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -861,7 +1101,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -873,7 +1115,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -885,7 +1129,9 @@
       "player_full": "Kingsley Coman",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -897,7 +1143,9 @@
       "player_full": "Paulo Bruno Exequiel Dybala",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -909,7 +1157,9 @@
       "player_full": "Aurélien Djani Tchouaméni",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -921,7 +1171,9 @@
       "player_full": "Leandro Daniel Paredes",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -933,7 +1185,9 @@
       "player_full": "Randal Kolo Muani",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -945,7 +1199,9 @@
       "player_full": "Gonzalo Ariel Montiel",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1261,7 +1517,7 @@
       {
         "id": "Raphaël Varane",
         "short": "Varane",
-        "x": 75.52,
+        "x": 44.48,
         "y": 50.43,
         "size": 129.9,
         "is_playmaker": false,
@@ -1271,7 +1527,7 @@
       {
         "id": "Dayotchanculle Upamecano",
         "short": "Upamecano",
-        "x": 75.44,
+        "x": 44.56,
         "y": 25.29,
         "size": 128.9,
         "is_playmaker": false,
@@ -1281,7 +1537,7 @@
       {
         "id": "Jules Koundé",
         "short": "Koundé",
-        "x": 67.34,
+        "x": 52.66,
         "y": 68.47,
         "size": 107.2,
         "is_playmaker": false,
@@ -1291,7 +1547,7 @@
       {
         "id": "Theo Bernard François Hernández",
         "short": "Hernández",
-        "x": 55.26,
+        "x": 64.74,
         "y": 6.47,
         "size": 102.3,
         "is_playmaker": false,
@@ -1301,7 +1557,7 @@
       {
         "id": "Aurélien Djani Tchouaméni",
         "short": "Tchouaméni",
-        "x": 61.89,
+        "x": 58.11,
         "y": 39.46,
         "size": 127.9,
         "is_playmaker": true,
@@ -1311,7 +1567,7 @@
       {
         "id": "Adrien Rabiot",
         "short": "Rabiot",
-        "x": 57.0,
+        "x": 63.0,
         "y": 27.28,
         "size": 95.4,
         "is_playmaker": false,
@@ -1321,7 +1577,7 @@
       {
         "id": "Kylian Mbappé Lottin",
         "short": "Lottin",
-        "x": 42.16,
+        "x": 77.84,
         "y": 17.58,
         "size": 69.8,
         "is_playmaker": false,
@@ -1331,7 +1587,7 @@
       {
         "id": "Ousmane Dembélé",
         "short": "Dembélé",
-        "x": 53.43,
+        "x": 66.57,
         "y": 71.96,
         "size": 62.9,
         "is_playmaker": false,
@@ -1341,7 +1597,7 @@
       {
         "id": "Hugo Lloris",
         "short": "Lloris",
-        "x": 105.82,
+        "x": 14.18,
         "y": 38.51,
         "size": 60.9,
         "is_playmaker": false,
@@ -1349,24 +1605,24 @@
         "eigenvector": 0.1026
       },
       {
-        "id": "Olivier Giroud",
-        "short": "Giroud",
-        "x": 50.76,
-        "y": 56.02,
-        "size": 58.9,
-        "is_playmaker": false,
-        "betweenness": 0.1667,
-        "eigenvector": 0.0033
-      },
-      {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
-        "x": 53.7,
+        "x": 66.3,
         "y": 41.05,
         "size": 60.9,
         "is_playmaker": true,
         "betweenness": 0.4722,
         "eigenvector": 0.0193
+      },
+      {
+        "id": "Olivier Giroud",
+        "short": "Giroud",
+        "x": 69.24,
+        "y": 56.02,
+        "size": 58.9,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.0033
       }
     ],
     "edges": [
@@ -1380,19 +1636,19 @@
         "source": "Raphaël Varane",
         "target": "Jules Koundé",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Raphaël Varane",
         "target": "Aurélien Djani Tchouaméni",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Raphaël Varane",
         "target": "Hugo Lloris",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dayotchanculle Upamecano",
@@ -1404,49 +1660,49 @@
         "source": "Dayotchanculle Upamecano",
         "target": "Theo Bernard François Hernández",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dayotchanculle Upamecano",
         "target": "Aurélien Djani Tchouaméni",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dayotchanculle Upamecano",
         "target": "Jules Koundé",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jules Koundé",
         "target": "Raphaël Varane",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jules Koundé",
         "target": "Ousmane Dembélé",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jules Koundé",
         "target": "Aurélien Djani Tchouaméni",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Theo Bernard François Hernández",
         "target": "Kylian Mbappé Lottin",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Theo Bernard François Hernández",
         "target": "Dayotchanculle Upamecano",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Theo Bernard François Hernández",
@@ -1458,55 +1714,55 @@
         "source": "Theo Bernard François Hernández",
         "target": "Aurélien Djani Tchouaméni",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aurélien Djani Tchouaméni",
         "target": "Adrien Rabiot",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aurélien Djani Tchouaméni",
         "target": "Dayotchanculle Upamecano",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aurélien Djani Tchouaméni",
         "target": "Jules Koundé",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aurélien Djani Tchouaméni",
         "target": "Theo Bernard François Hernández",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aurélien Djani Tchouaméni",
         "target": "Raphaël Varane",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aurélien Djani Tchouaméni",
         "target": "Antoine Griezmann",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adrien Rabiot",
         "target": "Aurélien Djani Tchouaméni",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrien Rabiot",
         "target": "Kylian Mbappé Lottin",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adrien Rabiot",
@@ -1518,7 +1774,7 @@
         "source": "Adrien Rabiot",
         "target": "Dayotchanculle Upamecano",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrien Rabiot",
@@ -1533,14 +1789,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Olivier Giroud",
-        "target": "Antoine Griezmann",
+        "source": "Antoine Griezmann",
+        "target": "Aurélien Djani Tchouaméni",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Olivier Giroud",
-        "target": "Ousmane Dembélé",
+        "source": "Antoine Griezmann",
+        "target": "Adrien Rabiot",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1551,14 +1807,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Antoine Griezmann",
-        "target": "Aurélien Djani Tchouaméni",
+        "source": "Olivier Giroud",
+        "target": "Antoine Griezmann",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Antoine Griezmann",
-        "target": "Adrien Rabiot",
+        "source": "Olivier Giroud",
+        "target": "Ousmane Dembélé",
         "weight": 1,
         "direction": "lateral"
       }
@@ -1664,7 +1920,7 @@
     }
   },
   "insights": [
-    "Closely contested: Argentina 5.89 xG vs France 5.41 xG",
+    "Closely contested: Argentina 2.76 xG vs France 2.27 xG",
     "Even possession — contested midfield throughout"
   ]
 }

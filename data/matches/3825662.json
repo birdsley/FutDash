@@ -9,6 +9,11 @@
     "away_color": "#81b8df",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.078,
     "xg_away": 1.135,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 0,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.1,
@@ -513,7 +520,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 7,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.6,
@@ -525,7 +534,9 @@
       "player_full": "Pedro Pablo Hernández",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.2,
@@ -537,7 +548,9 @@
       "player_full": "Lucas Pérez Martínez",
       "minute": 22,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -549,7 +562,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -561,7 +576,9 @@
       "player_full": "Iago Aspas Juncal",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -573,7 +590,9 @@
       "player_full": "Jonathan Javier Rodríguez Portillo",
       "minute": 34,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -585,7 +604,9 @@
       "player_full": "Jonathan Javier Rodríguez Portillo",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.7,
@@ -597,7 +618,9 @@
       "player_full": "Luis Carlos Correia Pinto",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.5,
@@ -609,7 +632,9 @@
       "player_full": "Juan Francisco Moreno Fuertes",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -621,7 +646,9 @@
       "player_full": "Iago Aspas Juncal",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -633,7 +660,9 @@
       "player_full": "Hugo Mallo Novegil",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -871,7 +900,7 @@
       {
         "id": "Jonathan Castro Otto",
         "short": "Otto",
-        "x": 61.95,
+        "x": 58.05,
         "y": 14.22,
         "size": 93.3,
         "is_playmaker": false,
@@ -881,7 +910,7 @@
       {
         "id": "Augusto Matías Fernández",
         "short": "Fernández",
-        "x": 66.41,
+        "x": 53.59,
         "y": 36.7,
         "size": 155.5,
         "is_playmaker": true,
@@ -891,7 +920,7 @@
       {
         "id": "Daniel Wass",
         "short": "Wass",
-        "x": 61.77,
+        "x": 58.23,
         "y": 46.03,
         "size": 109.5,
         "is_playmaker": false,
@@ -901,7 +930,7 @@
       {
         "id": "Hugo Mallo Novegil",
         "short": "Novegil",
-        "x": 62.87,
+        "x": 57.13,
         "y": 67.23,
         "size": 100.9,
         "is_playmaker": false,
@@ -911,7 +940,7 @@
       {
         "id": "Manuel Agudo Durán",
         "short": "Durán",
-        "x": 38.78,
+        "x": 81.22,
         "y": 10.0,
         "size": 100.0,
         "is_playmaker": false,
@@ -921,7 +950,7 @@
       {
         "id": "Sergi Gómez Solà",
         "short": "Solà",
-        "x": 77.84,
+        "x": 42.16,
         "y": 52.62,
         "size": 89.4,
         "is_playmaker": false,
@@ -931,7 +960,7 @@
       {
         "id": "Pedro Pablo Hernández",
         "short": "Hernández",
-        "x": 52.82,
+        "x": 67.18,
         "y": 32.03,
         "size": 87.5,
         "is_playmaker": true,
@@ -941,7 +970,7 @@
       {
         "id": "Andreu Fontàs Prat",
         "short": "Prat",
-        "x": 73.31,
+        "x": 46.69,
         "y": 23.41,
         "size": 68.4,
         "is_playmaker": false,
@@ -951,7 +980,7 @@
       {
         "id": "Fabián Ariel Orellana Valenzuela",
         "short": "Valenzuela",
-        "x": 39.94,
+        "x": 80.06,
         "y": 36.62,
         "size": 77.0,
         "is_playmaker": false,
@@ -961,7 +990,7 @@
       {
         "id": "Iago Aspas Juncal",
         "short": "Juncal",
-        "x": 39.97,
+        "x": 80.03,
         "y": 39.95,
         "size": 62.7,
         "is_playmaker": false,
@@ -971,7 +1000,7 @@
       {
         "id": "Sergio Álvarez Conde",
         "short": "Conde",
-        "x": 106.38,
+        "x": 13.62,
         "y": 41.14,
         "size": 60.7,
         "is_playmaker": false,
@@ -984,49 +1013,49 @@
         "source": "Jonathan Castro Otto",
         "target": "Augusto Matías Fernández",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonathan Castro Otto",
         "target": "Manuel Agudo Durán",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonathan Castro Otto",
         "target": "Andreu Fontàs Prat",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Augusto Matías Fernández",
         "target": "Daniel Wass",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Augusto Matías Fernández",
         "target": "Sergi Gómez Solà",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Augusto Matías Fernández",
         "target": "Pedro Pablo Hernández",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Augusto Matías Fernández",
         "target": "Fabián Ariel Orellana Valenzuela",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Augusto Matías Fernández",
         "target": "Jonathan Castro Otto",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Augusto Matías Fernández",
@@ -1038,7 +1067,7 @@
         "source": "Augusto Matías Fernández",
         "target": "Manuel Agudo Durán",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Wass",
@@ -1050,7 +1079,7 @@
         "source": "Daniel Wass",
         "target": "Augusto Matías Fernández",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hugo Mallo Novegil",
@@ -1068,7 +1097,7 @@
         "source": "Hugo Mallo Novegil",
         "target": "Fabián Ariel Orellana Valenzuela",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Agudo Durán",
@@ -1086,43 +1115,43 @@
         "source": "Manuel Agudo Durán",
         "target": "Pedro Pablo Hernández",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergi Gómez Solà",
         "target": "Daniel Wass",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergi Gómez Solà",
         "target": "Augusto Matías Fernández",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Pablo Hernández",
         "target": "Manuel Agudo Durán",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Pablo Hernández",
         "target": "Augusto Matías Fernández",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andreu Fontàs Prat",
         "target": "Sergi Gómez Solà",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Álvarez Conde",
         "target": "Pedro Pablo Hernández",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

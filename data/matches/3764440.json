@@ -9,6 +9,11 @@
     "away_color": "#007f3e",
     "score_home": 3,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 2.701,
     "xg_away": 0.67,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Francisco António Machado Mota de Castro Trincão",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -513,7 +520,9 @@
       "player_full": "Lucas Ariel Boyé",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -525,7 +534,9 @@
       "player_full": "Francisco António Machado Mota de Castro Trincão",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.9,
@@ -537,7 +548,9 @@
       "player_full": "José Raúl Gutiérrez Parejo",
       "minute": 32,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -549,7 +562,9 @@
       "player_full": "Pere Milla Peña",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -561,7 +576,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -573,7 +590,9 @@
       "player_full": "Lucas Ariel Boyé",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -585,7 +604,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -597,7 +618,9 @@
       "player_full": "Ousmane Dembélé",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -609,7 +632,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -621,7 +646,9 @@
       "player_full": "Jordi Alba Ramos",
       "minute": 72,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -633,7 +660,9 @@
       "player_full": "Guido Marcelo Carrillo",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.4,
@@ -645,7 +674,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -657,7 +688,9 @@
       "player_full": "Guido Marcelo Carrillo",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -669,7 +702,9 @@
       "player_full": "Ousmane Dembélé",
       "minute": 92,
       "technique": "Backheel",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -765,16 +800,6 @@
         "eigenvector": 0.1098
       },
       {
-        "id": "Marc-André ter Stegen",
-        "short": "Stegen",
-        "x": 14.86,
-        "y": 40.94,
-        "size": 57.3,
-        "is_playmaker": true,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0171
-      },
-      {
         "id": "Martin Braithwaite Christensen",
         "short": "Christensen",
         "x": 84.33,
@@ -783,6 +808,16 @@
         "is_playmaker": false,
         "betweenness": 0.1833,
         "eigenvector": 0.0189
+      },
+      {
+        "id": "Marc-André ter Stegen",
+        "short": "Stegen",
+        "x": 14.86,
+        "y": 40.94,
+        "size": 57.3,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0171
       }
     ],
     "edges": [
@@ -955,18 +990,6 @@
         "direction": "backward"
       },
       {
-        "source": "Marc-André ter Stegen",
-        "target": "Samuel Yves Umtiti",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marc-André ter Stegen",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Martin Braithwaite Christensen",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
@@ -977,6 +1000,18 @@
         "target": "Pedro González López",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Samuel Yves Umtiti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -985,7 +1020,7 @@
       {
         "id": "José Raúl Gutiérrez Parejo",
         "short": "Parejo",
-        "x": 68.22,
+        "x": 51.78,
         "y": 50.02,
         "size": 98.7,
         "is_playmaker": false,
@@ -995,7 +1030,7 @@
       {
         "id": "Gonzalo Cacicedo Verdú",
         "short": "Verdú",
-        "x": 78.02,
+        "x": 41.98,
         "y": 59.72,
         "size": 163.5,
         "is_playmaker": true,
@@ -1005,7 +1040,7 @@
       {
         "id": "José Manuel Sánchez Guillén",
         "short": "Guillén",
-        "x": 85.96,
+        "x": 34.04,
         "y": 21.84,
         "size": 105.7,
         "is_playmaker": false,
@@ -1015,7 +1050,7 @@
       {
         "id": "Lucas Ariel Boyé",
         "short": "Boyé",
-        "x": 59.6,
+        "x": 60.4,
         "y": 35.75,
         "size": 70.5,
         "is_playmaker": false,
@@ -1025,7 +1060,7 @@
       {
         "id": "Edgar Badía Guardiola",
         "short": "Guardiola",
-        "x": 109.33,
+        "x": 10.67,
         "y": 41.61,
         "size": 100.1,
         "is_playmaker": true,
@@ -1035,7 +1070,7 @@
       {
         "id": "Johan Andrés Mojica Palacio",
         "short": "Palacio",
-        "x": 69.93,
+        "x": 50.07,
         "y": 9.87,
         "size": 83.2,
         "is_playmaker": false,
@@ -1045,7 +1080,7 @@
       {
         "id": "Emiliano Ariel Rigoni",
         "short": "Rigoni",
-        "x": 50.16,
+        "x": 69.84,
         "y": 30.03,
         "size": 69.1,
         "is_playmaker": false,
@@ -1055,7 +1090,7 @@
       {
         "id": "Antonio Barragán Fernández",
         "short": "Fernández",
-        "x": 67.26,
+        "x": 52.74,
         "y": 69.35,
         "size": 98.7,
         "is_playmaker": false,
@@ -1065,7 +1100,7 @@
       {
         "id": "Omenuke Mfulu",
         "short": "Mfulu",
-        "x": 68.89,
+        "x": 51.11,
         "y": 39.9,
         "size": 90.2,
         "is_playmaker": false,
@@ -1075,7 +1110,7 @@
       {
         "id": "Pere Milla Peña",
         "short": "Peña",
-        "x": 57.71,
+        "x": 62.29,
         "y": 44.36,
         "size": 64.9,
         "is_playmaker": false,
@@ -1085,7 +1120,7 @@
       {
         "id": "Miguel Ángel Garrido Cifuentes",
         "short": "Cifuentes",
-        "x": 60.21,
+        "x": 59.79,
         "y": 49.75,
         "size": 60.6,
         "is_playmaker": false,
@@ -1098,85 +1133,85 @@
         "source": "José Raúl Gutiérrez Parejo",
         "target": "Gonzalo Cacicedo Verdú",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Raúl Gutiérrez Parejo",
         "target": "Miguel Ángel Garrido Cifuentes",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gonzalo Cacicedo Verdú",
         "target": "Lucas Ariel Boyé",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gonzalo Cacicedo Verdú",
         "target": "Edgar Badía Guardiola",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gonzalo Cacicedo Verdú",
         "target": "Antonio Barragán Fernández",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gonzalo Cacicedo Verdú",
         "target": "José Raúl Gutiérrez Parejo",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Manuel Sánchez Guillén",
         "target": "Gonzalo Cacicedo Verdú",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Manuel Sánchez Guillén",
         "target": "Johan Andrés Mojica Palacio",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Manuel Sánchez Guillén",
         "target": "Edgar Badía Guardiola",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Ariel Boyé",
         "target": "Omenuke Mfulu",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Edgar Badía Guardiola",
         "target": "José Manuel Sánchez Guillén",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Edgar Badía Guardiola",
         "target": "Gonzalo Cacicedo Verdú",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Johan Andrés Mojica Palacio",
         "target": "Emiliano Ariel Rigoni",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emiliano Ariel Rigoni",
         "target": "Johan Andrés Mojica Palacio",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antonio Barragán Fernández",
@@ -1194,13 +1229,13 @@
         "source": "Antonio Barragán Fernández",
         "target": "Gonzalo Cacicedo Verdú",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Omenuke Mfulu",
         "target": "Gonzalo Cacicedo Verdú",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Omenuke Mfulu",
@@ -1212,7 +1247,7 @@
         "source": "Pere Milla Peña",
         "target": "Omenuke Mfulu",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pere Milla Peña",
@@ -1230,7 +1265,7 @@
         "source": "Miguel Ángel Garrido Cifuentes",
         "target": "José Raúl Gutiérrez Parejo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": true,
+    "has_penalties": false,
+    "max_minute": 123,
     "xg_home": 1.587,
     "xg_away": 1.548,
     "shots_home": 16,
@@ -111,7 +116,38 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
     ],
     "home": [
       0.0,
@@ -205,6 +241,37 @@
       0.8347,
       0.8347,
       1.36,
+      1.36,
+      1.36,
+      1.36,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.4632,
+      1.5866,
+      1.5866,
       1.5866
     ],
     "away": [
@@ -299,195 +366,288 @@
       0.8036,
       0.8036,
       0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      0.8036,
+      1.31,
+      1.31,
+      1.3242,
+      1.3242,
+      1.3242,
+      1.3242,
+      1.3528,
+      1.3528,
+      1.3528,
+      1.3528,
+      1.3528,
+      1.3528,
+      1.3612,
+      1.3612,
+      1.4291,
+      1.502,
+      1.5478,
+      1.5478,
       1.5478
     ],
     "pressure_home": [
       0.0,
       0.0,
-      0.0635,
-      0.0635,
-      0.0635,
-      0.1429,
-      0.2063,
-      0.2063,
-      0.2302,
-      0.3175,
-      0.6746,
-      0.6746,
-      0.6111,
-      0.6825,
-      0.6825,
-      0.6032,
-      0.5397,
-      0.5397,
-      0.5556,
-      0.5794,
-      0.2222,
-      0.2698,
-      0.3571,
-      0.3175,
-      0.3175,
-      0.3175,
-      0.3254,
-      0.3254,
-      0.2857,
-      0.2619,
-      0.2698,
-      0.3175,
-      0.246,
-      0.3016,
-      0.3333,
-      0.3333,
-      0.3254,
-      0.3571,
-      0.4048,
-      0.3175,
-      0.3254,
-      0.2619,
-      0.254,
-      0.1746,
-      0.1429,
-      0.1905,
-      0.1905,
-      0.3095,
-      0.3254,
-      0.381,
-      0.3651,
-      0.3571,
-      0.4603,
-      0.4524,
-      0.4603,
-      0.5794,
-      0.7857,
-      0.6349,
-      0.8016,
-      0.746,
-      0.754,
-      0.7302,
-      0.6587,
-      0.6587,
-      0.6587,
-      0.4921,
-      0.2857,
-      0.3095,
-      0.1587,
-      0.246,
-      0.3175,
-      0.5397,
-      0.6429,
-      0.6429,
-      0.6349,
-      0.6429,
-      0.6905,
-      0.6905,
-      0.6508,
-      0.6984,
-      0.7143,
-      0.4921,
-      0.3889,
-      0.4762,
-      0.5159,
-      0.6349,
-      0.619,
-      0.6746,
-      0.6349,
-      0.5159,
-      0.5794,
-      1.0
+      0.0792,
+      0.0792,
+      0.0792,
+      0.1782,
+      0.2574,
+      0.2574,
+      0.2871,
+      0.396,
+      0.8416,
+      0.8416,
+      0.7624,
+      0.8515,
+      0.8515,
+      0.7525,
+      0.6733,
+      0.6733,
+      0.6931,
+      0.7228,
+      0.2772,
+      0.3366,
+      0.4455,
+      0.396,
+      0.396,
+      0.396,
+      0.4059,
+      0.4059,
+      0.3564,
+      0.3267,
+      0.3366,
+      0.396,
+      0.3069,
+      0.3762,
+      0.4158,
+      0.4158,
+      0.4059,
+      0.4455,
+      0.505,
+      0.396,
+      0.4059,
+      0.3267,
+      0.3168,
+      0.2178,
+      0.1782,
+      0.2376,
+      0.2376,
+      0.3861,
+      0.4059,
+      0.4752,
+      0.4554,
+      0.4455,
+      0.5743,
+      0.5644,
+      0.5743,
+      0.7228,
+      0.9802,
+      0.7921,
+      1.0,
+      0.9307,
+      0.9406,
+      0.9109,
+      0.8218,
+      0.8218,
+      0.8218,
+      0.6139,
+      0.3564,
+      0.3861,
+      0.198,
+      0.3069,
+      0.396,
+      0.6733,
+      0.802,
+      0.802,
+      0.7921,
+      0.802,
+      0.8614,
+      0.8614,
+      0.8119,
+      0.8713,
+      0.8911,
+      0.6139,
+      0.4851,
+      0.5941,
+      0.6436,
+      0.7921,
+      0.7723,
+      0.8416,
+      0.7921,
+      0.6436,
+      0.7228,
+      0.7723,
+      0.7228,
+      0.6634,
+      0.703,
+      0.5446,
+      0.505,
+      0.5149,
+      0.5149,
+      0.495,
+      0.297,
+      0.2475,
+      0.2475,
+      0.2079,
+      0.1188,
+      0.1584,
+      0.2574,
+      0.1485,
+      0.1584,
+      0.1584,
+      0.1584,
+      0.1584,
+      0.1584,
+      0.1485,
+      0.1881,
+      0.1485,
+      0.0495,
+      0.0495,
+      0.0396,
+      0.0396,
+      0.0693,
+      0.0693,
+      0.0693
     ],
     "pressure_away": [
-      0.1127,
-      0.1127,
-      0.1127,
-      0.1127,
-      0.1479,
-      0.1479,
-      0.2465,
-      0.3239,
-      0.3239,
-      0.3732,
-      0.2606,
-      0.2887,
-      0.2887,
-      0.3099,
-      0.2746,
-      0.2817,
-      0.2254,
-      0.1479,
-      0.1479,
-      0.1197,
-      0.1479,
-      0.1549,
-      0.1549,
-      0.1761,
-      0.1761,
-      0.169,
-      0.1338,
-      0.1338,
-      0.1338,
-      0.162,
-      0.169,
-      0.1549,
-      0.2183,
-      0.1831,
-      0.1831,
-      0.1972,
-      0.1972,
-      0.2042,
-      0.2042,
-      0.1549,
-      0.1197,
-      0.0986,
-      0.0423,
-      0.0563,
-      0.0563,
-      0.0493,
-      0.0423,
-      0.0775,
-      0.0775,
-      0.0775,
-      0.0845,
-      0.0845,
-      0.0775,
-      0.0915,
-      0.1056,
-      0.1831,
-      0.2887,
-      0.2746,
-      0.2746,
-      0.2746,
-      0.2676,
-      0.2746,
-      0.3099,
-      0.2746,
-      0.2887,
-      0.2042,
-      0.0986,
-      0.0704,
-      0.0845,
-      0.0915,
-      0.1338,
-      0.1268,
-      0.1056,
-      0.1056,
-      0.1761,
-      0.2394,
-      0.2746,
-      0.2817,
-      0.2817,
-      0.3028,
-      0.2606,
-      0.2676,
-      0.2817,
-      0.3099,
-      0.2324,
-      0.1972,
-      0.1972,
-      0.1901,
-      0.1831,
-      0.2113,
-      0.2113,
-      1.0
+      0.2623,
+      0.2623,
+      0.2623,
+      0.2623,
+      0.3443,
+      0.3443,
+      0.5738,
+      0.7541,
+      0.7541,
+      0.8689,
+      0.6066,
+      0.6721,
+      0.6721,
+      0.7213,
+      0.6393,
+      0.6557,
+      0.5246,
+      0.3443,
+      0.3443,
+      0.2787,
+      0.3443,
+      0.3607,
+      0.3607,
+      0.4098,
+      0.4098,
+      0.3934,
+      0.3115,
+      0.3115,
+      0.3115,
+      0.377,
+      0.3934,
+      0.3607,
+      0.5082,
+      0.4262,
+      0.4262,
+      0.459,
+      0.459,
+      0.4754,
+      0.4754,
+      0.3607,
+      0.2787,
+      0.2295,
+      0.0984,
+      0.1311,
+      0.1311,
+      0.1148,
+      0.0984,
+      0.1803,
+      0.1803,
+      0.1803,
+      0.1967,
+      0.1967,
+      0.1803,
+      0.2131,
+      0.2459,
+      0.4262,
+      0.6721,
+      0.6393,
+      0.6393,
+      0.6393,
+      0.623,
+      0.6393,
+      0.7213,
+      0.6393,
+      0.6721,
+      0.4754,
+      0.2295,
+      0.1639,
+      0.1967,
+      0.2131,
+      0.3115,
+      0.2951,
+      0.2459,
+      0.2459,
+      0.4098,
+      0.5574,
+      0.6393,
+      0.6557,
+      0.6557,
+      0.7049,
+      0.6066,
+      0.623,
+      0.6557,
+      0.7213,
+      0.541,
+      0.459,
+      0.459,
+      0.4426,
+      0.4262,
+      0.4918,
+      0.4918,
+      0.5738,
+      0.5574,
+      0.5082,
+      0.4754,
+      0.5738,
+      0.7213,
+      0.8033,
+      1.0,
+      0.8689,
+      0.9836,
+      0.9672,
+      0.918,
+      0.9672,
+      0.9836,
+      0.9344,
+      0.7541,
+      0.6721,
+      0.459,
+      0.459,
+      0.3607,
+      0.2787,
+      0.2787,
+      0.2131,
+      0.4262,
+      0.3115,
+      0.2951,
+      0.3607,
+      0.3607,
+      0.4918,
+      0.5082,
+      0.5082,
+      0.5082
     ]
   },
   "shots": [
@@ -501,7 +661,9 @@
       "player_full": "David Strelec",
       "minute": 3,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -513,7 +675,9 @@
       "player_full": "Lukáš Haraslín",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -525,7 +689,9 @@
       "player_full": "Kieran Trippier",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -537,7 +703,9 @@
       "player_full": "Lukáš Haraslín",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -549,7 +717,9 @@
       "player_full": "Harry Kane",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.3,
@@ -561,7 +731,9 @@
       "player_full": "Kobbie Mainoo",
       "minute": 23,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -573,7 +745,9 @@
       "player_full": "Ivan Schranz",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -585,7 +759,9 @@
       "player_full": "Declan Rice",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.4,
@@ -597,7 +773,9 @@
       "player_full": "Kobbie Mainoo",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.1,
@@ -609,7 +787,9 @@
       "player_full": "Bukayo Saka",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.9,
@@ -621,7 +801,9 @@
       "player_full": "Harry Kane",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 62.7,
@@ -633,7 +815,9 @@
       "player_full": "David Strelec",
       "minute": 53,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -645,7 +829,9 @@
       "player_full": "Jude Bellingham",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.1,
@@ -657,7 +843,9 @@
       "player_full": "Phil Foden",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -669,7 +857,9 @@
       "player_full": "Harry Kane",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.5,
@@ -681,7 +871,9 @@
       "player_full": "Declan Rice",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -693,7 +885,9 @@
       "player_full": "Harry Kane",
       "minute": 80,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.4,
@@ -705,7 +899,9 @@
       "player_full": "Stanislav Lobotka",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.1,
@@ -717,7 +913,9 @@
       "player_full": "Jude Bellingham",
       "minute": 94,
       "technique": "Overhead Kick",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -729,7 +927,9 @@
       "player_full": "Eberechi Eze",
       "minute": 90,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.2,
@@ -741,7 +941,9 @@
       "player_full": "Harry Kane",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.9,
@@ -753,7 +955,9 @@
       "player_full": "Peter Pekarík",
       "minute": 104,
       "technique": "Normal",
-      "body_part": "Other"
+      "body_part": "Other",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -765,7 +969,9 @@
       "player_full": "Matúš Bero",
       "minute": 106,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.8,
@@ -777,7 +983,9 @@
       "player_full": "Ľubomír Tupta",
       "minute": 110,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -789,7 +997,9 @@
       "player_full": "Róbert Boženík",
       "minute": 116,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -801,7 +1011,9 @@
       "player_full": "Dávid Hancko",
       "minute": 118,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -813,7 +1025,9 @@
       "player_full": "Milan Škriniar",
       "minute": 119,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -825,7 +1039,9 @@
       "player_full": "Ivan Toney",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -837,7 +1053,9 @@
       "player_full": "Dávid Hancko",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -933,20 +1151,20 @@
         "eigenvector": 0.3336
       },
       {
-        "id": "Harry Kane",
-        "short": "Kane",
-        "x": 78.6,
-        "y": 52.33,
+        "id": "Jude Bellingham",
+        "short": "Bellingham",
+        "x": 75.14,
+        "y": 44.82,
         "size": 56.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0013
       },
       {
-        "id": "Jude Bellingham",
-        "short": "Bellingham",
-        "x": 75.14,
-        "y": 44.82,
+        "id": "Harry Kane",
+        "short": "Kane",
+        "x": 78.6,
+        "y": 52.33,
         "size": 56.9,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1076,15 +1294,15 @@
       },
       {
         "source": "Bukayo Saka",
-        "target": "Harry Kane",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Bukayo Saka",
         "target": "Jude Bellingham",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Bukayo Saka",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
@@ -1111,6 +1329,18 @@
         "direction": "backward"
       },
       {
+        "source": "Jude Bellingham",
+        "target": "Bukayo Saka",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jude Bellingham",
+        "target": "Harry Kane",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Harry Kane",
         "target": "Jude Bellingham",
         "weight": 1,
@@ -1121,18 +1351,6 @@
         "target": "Bukayo Saka",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Jude Bellingham",
-        "target": "Harry Kane",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Jude Bellingham",
-        "target": "Bukayo Saka",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },
@@ -1141,7 +1359,7 @@
       {
         "id": "Milan Škriniar",
         "short": "Škriniar",
-        "x": 73.96,
+        "x": 46.04,
         "y": 22.01,
         "size": 133.5,
         "is_playmaker": false,
@@ -1151,7 +1369,7 @@
       {
         "id": "Denis Vavro",
         "short": "Vavro",
-        "x": 83.03,
+        "x": 36.97,
         "y": 55.6,
         "size": 122.7,
         "is_playmaker": false,
@@ -1161,7 +1379,7 @@
       {
         "id": "Ondrej Duda",
         "short": "Duda",
-        "x": 60.53,
+        "x": 59.47,
         "y": 24.8,
         "size": 104.2,
         "is_playmaker": false,
@@ -1171,7 +1389,7 @@
       {
         "id": "Stanislav Lobotka",
         "short": "Lobotka",
-        "x": 60.33,
+        "x": 59.67,
         "y": 33.51,
         "size": 139.6,
         "is_playmaker": true,
@@ -1181,7 +1399,7 @@
       {
         "id": "Martin Dúbravka",
         "short": "Dúbravka",
-        "x": 104.49,
+        "x": 15.51,
         "y": 42.34,
         "size": 71.9,
         "is_playmaker": false,
@@ -1191,7 +1409,7 @@
       {
         "id": "Peter Pekarík",
         "short": "Pekarík",
-        "x": 66.96,
+        "x": 53.04,
         "y": 70.32,
         "size": 79.6,
         "is_playmaker": false,
@@ -1201,7 +1419,7 @@
       {
         "id": "Juraj Kucka",
         "short": "Kucka",
-        "x": 50.54,
+        "x": 69.46,
         "y": 56.04,
         "size": 81.2,
         "is_playmaker": false,
@@ -1211,7 +1429,7 @@
       {
         "id": "Ivan Schranz",
         "short": "Schranz",
-        "x": 52.11,
+        "x": 67.89,
         "y": 72.73,
         "size": 68.8,
         "is_playmaker": false,
@@ -1221,7 +1439,7 @@
       {
         "id": "Dávid Hancko",
         "short": "Hancko",
-        "x": 64.14,
+        "x": 55.86,
         "y": 8.28,
         "size": 78.1,
         "is_playmaker": false,
@@ -1231,7 +1449,7 @@
       {
         "id": "David Strelec",
         "short": "Strelec",
-        "x": 53.06,
+        "x": 66.94,
         "y": 36.09,
         "size": 64.2,
         "is_playmaker": true,
@@ -1241,7 +1459,7 @@
       {
         "id": "Lukáš Haraslín",
         "short": "Haraslín",
-        "x": 35.8,
+        "x": 84.2,
         "y": 22.46,
         "size": 61.2,
         "is_playmaker": false,
@@ -1254,49 +1472,49 @@
         "source": "Milan Škriniar",
         "target": "Denis Vavro",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Milan Škriniar",
         "target": "Stanislav Lobotka",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Milan Škriniar",
         "target": "Dávid Hancko",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Denis Vavro",
         "target": "Milan Škriniar",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Denis Vavro",
         "target": "Martin Dúbravka",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Denis Vavro",
         "target": "Juraj Kucka",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Denis Vavro",
         "target": "Stanislav Lobotka",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ondrej Duda",
         "target": "Milan Škriniar",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ondrej Duda",
@@ -1314,19 +1532,19 @@
         "source": "Ondrej Duda",
         "target": "David Strelec",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ondrej Duda",
         "target": "Lukáš Haraslín",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stanislav Lobotka",
         "target": "Milan Škriniar",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stanislav Lobotka",
@@ -1338,37 +1556,37 @@
         "source": "Stanislav Lobotka",
         "target": "Peter Pekarík",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stanislav Lobotka",
         "target": "Denis Vavro",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stanislav Lobotka",
         "target": "David Strelec",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martin Dúbravka",
         "target": "Milan Škriniar",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Peter Pekarík",
         "target": "Denis Vavro",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Peter Pekarík",
         "target": "Juraj Kucka",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juraj Kucka",
@@ -1392,31 +1610,31 @@
         "source": "David Strelec",
         "target": "Stanislav Lobotka",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Strelec",
         "target": "Ondrej Duda",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Strelec",
         "target": "Lukáš Haraslín",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lukáš Haraslín",
         "target": "David Strelec",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lukáš Haraslín",
         "target": "Ondrej Duda",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

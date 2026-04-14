@@ -9,6 +9,11 @@
     "away_color": "#81b8df",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.902,
     "xg_away": 0.357,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Abraham González Casanova",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -513,7 +520,9 @@
       "player_full": "Iago Aspas Juncal",
       "minute": 27,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -525,7 +534,9 @@
       "player_full": "Papa Kouly Diop",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -537,7 +548,9 @@
       "player_full": "Abraham González Casanova",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -549,7 +562,9 @@
       "player_full": "Hernán Arsenio Pérez González",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -561,7 +576,9 @@
       "player_full": "Marco Asensio Willemsen",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -573,7 +590,9 @@
       "player_full": "Marco Asensio Willemsen",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -585,7 +604,9 @@
       "player_full": "Abraham González Casanova",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -597,7 +618,9 @@
       "player_full": "Marco Asensio Willemsen",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -609,7 +632,9 @@
       "player_full": "Abraham González Casanova",
       "minute": 46,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -621,7 +646,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.6,
@@ -633,7 +660,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +954,7 @@
       {
         "id": "Jonathan Castro Otto",
         "short": "Otto",
-        "x": 62.65,
+        "x": 57.35,
         "y": 67.47,
         "size": 110.0,
         "is_playmaker": false,
@@ -935,7 +964,7 @@
       {
         "id": "Pedro Pablo Hernández",
         "short": "Hernández",
-        "x": 53.71,
+        "x": 66.29,
         "y": 39.73,
         "size": 103.8,
         "is_playmaker": true,
@@ -945,7 +974,7 @@
       {
         "id": "Sergi Gómez Solà",
         "short": "Solà",
-        "x": 79.61,
+        "x": 40.39,
         "y": 23.42,
         "size": 98.3,
         "is_playmaker": false,
@@ -955,7 +984,7 @@
       {
         "id": "Carles Planas Antolínez",
         "short": "Antolínez",
-        "x": 54.55,
+        "x": 65.45,
         "y": 8.03,
         "size": 109.3,
         "is_playmaker": false,
@@ -965,7 +994,7 @@
       {
         "id": "Manuel Agudo Durán",
         "short": "Durán",
-        "x": 41.82,
+        "x": 78.18,
         "y": 14.47,
         "size": 72.9,
         "is_playmaker": false,
@@ -975,7 +1004,7 @@
       {
         "id": "Fabián Ariel Orellana Valenzuela",
         "short": "Valenzuela",
-        "x": 46.7,
+        "x": 73.3,
         "y": 52.87,
         "size": 85.9,
         "is_playmaker": false,
@@ -985,7 +1014,7 @@
       {
         "id": "Gustavo Daniel Cabral Cáceres",
         "short": "Cáceres",
-        "x": 75.69,
+        "x": 44.31,
         "y": 51.16,
         "size": 118.2,
         "is_playmaker": true,
@@ -995,7 +1024,7 @@
       {
         "id": "Marcelo Alfonso Díaz Rojas",
         "short": "Rojas",
-        "x": 64.81,
+        "x": 55.19,
         "y": 37.76,
         "size": 116.9,
         "is_playmaker": false,
@@ -1005,7 +1034,7 @@
       {
         "id": "Nemanja Radoja",
         "short": "Radoja",
-        "x": 63.15,
+        "x": 56.85,
         "y": 32.39,
         "size": 74.2,
         "is_playmaker": false,
@@ -1015,7 +1044,7 @@
       {
         "id": "Iago Aspas Juncal",
         "short": "Juncal",
-        "x": 49.27,
+        "x": 70.73,
         "y": 55.52,
         "size": 57.7,
         "is_playmaker": false,
@@ -1025,7 +1054,7 @@
       {
         "id": "Sergio Álvarez Conde",
         "short": "Conde",
-        "x": 106.79,
+        "x": 13.21,
         "y": 39.89,
         "size": 57.7,
         "is_playmaker": false,
@@ -1038,19 +1067,19 @@
         "source": "Jonathan Castro Otto",
         "target": "Pedro Pablo Hernández",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonathan Castro Otto",
         "target": "Fabián Ariel Orellana Valenzuela",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonathan Castro Otto",
         "target": "Gustavo Daniel Cabral Cáceres",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonathan Castro Otto",
@@ -1062,31 +1091,31 @@
         "source": "Pedro Pablo Hernández",
         "target": "Marcelo Alfonso Díaz Rojas",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro Pablo Hernández",
         "target": "Fabián Ariel Orellana Valenzuela",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Pablo Hernández",
         "target": "Iago Aspas Juncal",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergi Gómez Solà",
         "target": "Carles Planas Antolínez",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergi Gómez Solà",
         "target": "Nemanja Radoja",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergi Gómez Solà",
@@ -1098,19 +1127,19 @@
         "source": "Sergi Gómez Solà",
         "target": "Sergio Álvarez Conde",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Carles Planas Antolínez",
         "target": "Manuel Agudo Durán",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carles Planas Antolínez",
         "target": "Marcelo Alfonso Díaz Rojas",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Carles Planas Antolínez",
@@ -1122,13 +1151,13 @@
         "source": "Carles Planas Antolínez",
         "target": "Nemanja Radoja",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fabián Ariel Orellana Valenzuela",
         "target": "Manuel Agudo Durán",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabián Ariel Orellana Valenzuela",
@@ -1146,37 +1175,37 @@
         "source": "Gustavo Daniel Cabral Cáceres",
         "target": "Jonathan Castro Otto",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gustavo Daniel Cabral Cáceres",
         "target": "Fabián Ariel Orellana Valenzuela",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gustavo Daniel Cabral Cáceres",
         "target": "Pedro Pablo Hernández",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gustavo Daniel Cabral Cáceres",
         "target": "Sergio Álvarez Conde",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcelo Alfonso Díaz Rojas",
         "target": "Gustavo Daniel Cabral Cáceres",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcelo Alfonso Díaz Rojas",
         "target": "Carles Planas Antolínez",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcelo Alfonso Díaz Rojas",
@@ -1188,19 +1217,19 @@
         "source": "Marcelo Alfonso Díaz Rojas",
         "target": "Sergi Gómez Solà",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcelo Alfonso Díaz Rojas",
         "target": "Pedro Pablo Hernández",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nemanja Radoja",
         "target": "Gustavo Daniel Cabral Cáceres",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Iago Aspas Juncal",
@@ -1212,19 +1241,19 @@
         "source": "Iago Aspas Juncal",
         "target": "Pedro Pablo Hernández",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Álvarez Conde",
         "target": "Sergi Gómez Solà",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Álvarez Conde",
         "target": "Gustavo Daniel Cabral Cáceres",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

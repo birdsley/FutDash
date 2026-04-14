@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.169,
     "xg_away": 0.687,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Andrés Iniesta Luján",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.4,
@@ -513,7 +520,9 @@
       "player_full": "Samuel Eto''o Fils",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -525,7 +534,9 @@
       "player_full": "Rafael Márquez Álvarez",
       "minute": 27,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -537,7 +548,9 @@
       "player_full": "Xavier Hernández Creus",
       "minute": 41,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -549,7 +562,9 @@
       "player_full": "Anderson Luís de Souza",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.5,
@@ -561,7 +576,9 @@
       "player_full": "Ronaldo de Assis Moreira",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -573,7 +590,9 @@
       "player_full": "Antonio Pacheco D\"Agosti",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -585,7 +604,9 @@
       "player_full": "Samuel Eto''o Fils",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.1,
@@ -597,7 +618,9 @@
       "player_full": "Rafael Márquez Álvarez",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.6,
@@ -609,7 +632,9 @@
       "player_full": "Gaspar Gálvez Burgos",
       "minute": 70,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -621,7 +646,9 @@
       "player_full": "Antonio Pacheco D\"Agosti",
       "minute": 71,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.9,
@@ -633,7 +660,9 @@
       "player_full": "Mark Dennis González Hoffmann",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -645,7 +674,9 @@
       "player_full": "Mark Dennis González Hoffmann",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -657,7 +688,9 @@
       "player_full": "Antonio Pacheco D\"Agosti",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -669,7 +702,9 @@
       "player_full": "Xavier Hernández Creus",
       "minute": 84,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -681,7 +716,9 @@
       "player_full": "Sylvio Mendes Campos Junior",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -943,7 +980,7 @@
       {
         "id": "Damià Abella Pérez",
         "short": "Pérez",
-        "x": 66.55,
+        "x": 53.45,
         "y": 69.65,
         "size": 94.2,
         "is_playmaker": true,
@@ -953,7 +990,7 @@
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 53.84,
+        "x": 66.16,
         "y": 67.15,
         "size": 95.5,
         "is_playmaker": false,
@@ -963,7 +1000,7 @@
       {
         "id": "Ronaldo de Assis Moreira",
         "short": "Moreira",
-        "x": 50.4,
+        "x": 69.6,
         "y": 25.49,
         "size": 91.7,
         "is_playmaker": false,
@@ -973,7 +1010,7 @@
       {
         "id": "Anderson Luís de Souza",
         "short": "Souza",
-        "x": 55.84,
+        "x": 64.16,
         "y": 40.64,
         "size": 118.3,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 59.22,
+        "x": 60.78,
         "y": 39.82,
         "size": 122.1,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Samuel Eto''o Fils",
         "short": "Fils",
-        "x": 46.51,
+        "x": 73.49,
         "y": 28.59,
         "size": 80.3,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Giovanni van Bronckhorst",
         "short": "Bronckhorst",
-        "x": 68.16,
+        "x": 51.84,
         "y": 10.68,
         "size": 80.3,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
-        "x": 81.68,
+        "x": 38.32,
         "y": 51.45,
         "size": 91.7,
         "is_playmaker": true,
@@ -1023,7 +1060,7 @@
       {
         "id": "Oleguer Presas Renom",
         "short": "Renom",
-        "x": 80.71,
+        "x": 39.29,
         "y": 31.88,
         "size": 95.5,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Rafael Márquez Álvarez",
         "short": "Álvarez",
-        "x": 66.86,
+        "x": 53.14,
         "y": 40.78,
         "size": 74.0,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
-        "x": 107.51,
+        "x": 12.49,
         "y": 40.3,
         "size": 61.3,
         "is_playmaker": false,
@@ -1056,19 +1093,19 @@
         "source": "Damià Abella Pérez",
         "target": "Andrés Iniesta Luján",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Damià Abella Pérez",
         "target": "Carles Puyol i Saforcada",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
         "target": "Damià Abella Pérez",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1080,43 +1117,43 @@
         "source": "Ronaldo de Assis Moreira",
         "target": "Anderson Luís de Souza",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronaldo de Assis Moreira",
         "target": "Xavier Hernández Creus",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anderson Luís de Souza",
         "target": "Damià Abella Pérez",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anderson Luís de Souza",
         "target": "Samuel Eto''o Fils",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Samuel Eto''o Fils",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Ronaldo de Assis Moreira",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Andrés Iniesta Luján",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
@@ -1128,19 +1165,19 @@
         "source": "Samuel Eto''o Fils",
         "target": "Anderson Luís de Souza",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Giovanni van Bronckhorst",
         "target": "Anderson Luís de Souza",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Giovanni van Bronckhorst",
         "target": "Ronaldo de Assis Moreira",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carles Puyol i Saforcada",
@@ -1152,49 +1189,49 @@
         "source": "Carles Puyol i Saforcada",
         "target": "Xavier Hernández Creus",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carles Puyol i Saforcada",
         "target": "Anderson Luís de Souza",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oleguer Presas Renom",
         "target": "Xavier Hernández Creus",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oleguer Presas Renom",
         "target": "Giovanni van Bronckhorst",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oleguer Presas Renom",
         "target": "Rafael Márquez Álvarez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rafael Márquez Álvarez",
         "target": "Carles Puyol i Saforcada",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rafael Márquez Álvarez",
         "target": "Xavier Hernández Creus",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Valdés Arribas",
         "target": "Oleguer Presas Renom",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

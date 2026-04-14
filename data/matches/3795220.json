@@ -7,12 +7,17 @@
     "home_color": "#003da5",
     "away_color_raw": "#aa151b",
     "away_color": "#aa151b",
-    "score_home": 5,
-    "score_away": 3,
-    "xg_home": 4.316,
-    "xg_away": 4.536,
-    "shots_home": 12,
-    "shots_away": 20,
+    "score_home": 1,
+    "score_away": 1,
+    "penalty_home": 4,
+    "penalty_away": 2,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 128,
+    "xg_home": 0.398,
+    "xg_away": 1.402,
+    "shots_home": 7,
+    "shots_away": 16,
     "possession_home": 34.0,
     "competition": "UEFA Euro",
     "season": "2020",
@@ -111,7 +116,43 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
     ],
     "home": [
       0.0,
@@ -205,7 +246,43 @@
       0.3142,
       0.3142,
       0.3142,
-      4.3156
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3142,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981,
+      0.3981
     ],
     "away": [
       0.0,
@@ -299,195 +376,303 @@
       1.2557,
       1.2557,
       1.2557,
-      4.5362
+      1.2557,
+      1.2557,
+      1.2557,
+      1.2557,
+      1.2557,
+      1.2557,
+      1.329,
+      1.329,
+      1.329,
+      1.329,
+      1.3943,
+      1.3943,
+      1.3943,
+      1.3943,
+      1.3943,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022,
+      1.4022
     ],
     "pressure_home": [
       0.0,
       0.0,
       0.0,
-      0.0274,
-      0.137,
-      0.137,
-      0.1507,
-      0.2192,
-      0.2192,
-      0.2192,
-      0.2192,
-      0.2192,
-      0.2192,
-      0.1918,
-      0.0822,
-      0.0822,
-      0.0685,
-      0.0137,
-      0.0137,
-      0.0274,
-      0.1507,
-      0.1644,
-      0.1644,
-      0.1781,
-      0.1781,
-      0.2329,
-      0.2329,
-      0.2329,
-      0.2466,
-      0.2329,
-      0.1096,
-      0.0959,
-      0.1096,
-      0.3014,
-      0.3288,
-      0.274,
-      0.274,
-      0.2603,
-      0.2466,
-      0.2603,
-      0.3425,
-      0.3973,
-      0.3836,
-      0.3014,
-      0.3425,
-      0.3425,
-      0.3425,
-      0.3836,
-      0.4247,
-      0.4658,
-      0.3836,
-      0.3288,
-      0.4247,
-      0.3014,
-      0.2329,
-      0.2329,
-      0.3151,
-      0.274,
-      0.2877,
-      0.274,
-      0.274,
-      0.274,
-      0.1781,
-      0.1781,
-      0.1781,
-      0.1781,
-      0.0959,
-      0.1918,
-      0.137,
-      0.1096,
-      0.1096,
-      0.2055,
-      0.274,
-      0.274,
-      0.274,
-      0.274,
-      0.274,
-      0.3288,
-      0.3425,
-      0.3973,
-      0.3973,
-      0.3014,
-      0.2466,
-      0.2466,
-      0.2466,
-      0.2603,
-      0.3425,
-      0.2192,
-      0.5616,
-      0.5068,
-      0.5068,
-      1.0
+      0.0488,
+      0.2439,
+      0.2439,
+      0.2683,
+      0.3902,
+      0.3902,
+      0.3902,
+      0.3902,
+      0.3902,
+      0.3902,
+      0.3415,
+      0.1463,
+      0.1463,
+      0.122,
+      0.0244,
+      0.0244,
+      0.0488,
+      0.2683,
+      0.2927,
+      0.2927,
+      0.3171,
+      0.3171,
+      0.4146,
+      0.4146,
+      0.4146,
+      0.439,
+      0.4146,
+      0.1951,
+      0.1707,
+      0.1951,
+      0.5366,
+      0.5854,
+      0.4878,
+      0.4878,
+      0.4634,
+      0.439,
+      0.4634,
+      0.6098,
+      0.7073,
+      0.6829,
+      0.5366,
+      0.6098,
+      0.6098,
+      0.6098,
+      0.6829,
+      0.7561,
+      0.8293,
+      0.6829,
+      0.5854,
+      0.7561,
+      0.5366,
+      0.4146,
+      0.4146,
+      0.561,
+      0.4878,
+      0.5122,
+      0.4878,
+      0.4878,
+      0.4878,
+      0.3171,
+      0.3171,
+      0.3171,
+      0.3171,
+      0.1707,
+      0.3415,
+      0.2439,
+      0.1951,
+      0.1951,
+      0.3659,
+      0.4878,
+      0.4878,
+      0.4878,
+      0.4878,
+      0.4878,
+      0.5854,
+      0.6098,
+      0.7073,
+      0.7073,
+      0.5366,
+      0.439,
+      0.439,
+      0.439,
+      0.4634,
+      0.6098,
+      0.3902,
+      1.0,
+      0.9024,
+      0.9024,
+      0.9268,
+      0.9512,
+      0.9512,
+      0.9512,
+      0.9268,
+      0.9268,
+      0.878,
+      0.2439,
+      0.2195,
+      0.2195,
+      0.1951,
+      0.1707,
+      0.1707,
+      0.1707,
+      0.1707,
+      0.0244,
+      0.1463,
+      0.1463,
+      0.4146,
+      0.4146,
+      0.4146,
+      0.3902,
+      0.3902,
+      0.3902,
+      0.4146,
+      0.439,
+      0.3659,
+      0.3659,
+      0.0976,
+      0.1463,
+      0.1707,
+      0.1707,
+      0.1951,
+      0.2195,
+      0.1951,
+      0.1951,
+      0.1463
     ],
     "pressure_away": [
-      0.0484,
-      0.0806,
-      0.0806,
-      0.1882,
-      0.2258,
-      0.2258,
-      0.2688,
-      0.3817,
-      0.4086,
-      0.4086,
-      0.3602,
-      0.328,
-      0.328,
-      0.2204,
-      0.1828,
-      0.2366,
-      0.2258,
-      0.1183,
-      0.1344,
-      0.1559,
-      0.1774,
-      0.2581,
-      0.2581,
-      0.3656,
-      0.3656,
-      0.3226,
-      0.3065,
-      0.3548,
-      0.3656,
-      0.414,
-      0.4462,
-      0.3656,
-      0.3656,
-      0.2903,
-      0.3118,
-      0.3011,
-      0.3656,
-      0.3118,
-      0.2581,
-      0.1882,
-      0.1989,
-      0.2366,
-      0.2366,
-      0.2043,
-      0.2581,
-      0.2581,
-      0.1774,
-      0.1989,
-      0.2419,
-      0.2419,
-      0.1774,
-      0.172,
-      0.172,
-      0.2151,
-      0.1398,
-      0.2204,
-      0.2419,
-      0.2204,
-      0.2312,
-      0.2312,
-      0.2312,
-      0.1989,
-      0.1989,
-      0.172,
-      0.2043,
-      0.1237,
-      0.1022,
-      0.1398,
-      0.086,
-      0.1075,
-      0.1075,
-      0.1075,
-      0.1075,
-      0.0914,
-      0.1667,
-      0.2097,
-      0.2097,
-      0.1774,
-      0.2903,
-      0.3333,
-      0.3333,
-      0.3333,
-      0.3387,
-      0.4462,
-      0.3387,
-      0.328,
-      0.3817,
-      0.4086,
-      0.3441,
-      0.3548,
-      0.3656,
-      1.0
+      0.1084,
+      0.1807,
+      0.1807,
+      0.4217,
+      0.506,
+      0.506,
+      0.6024,
+      0.8554,
+      0.9157,
+      0.9157,
+      0.8072,
+      0.7349,
+      0.7349,
+      0.494,
+      0.4096,
+      0.5301,
+      0.506,
+      0.2651,
+      0.3012,
+      0.3494,
+      0.3976,
+      0.5783,
+      0.5783,
+      0.8193,
+      0.8193,
+      0.7229,
+      0.6867,
+      0.7952,
+      0.8193,
+      0.9277,
+      1.0,
+      0.8193,
+      0.8193,
+      0.6506,
+      0.6988,
+      0.6747,
+      0.8193,
+      0.6988,
+      0.5783,
+      0.4217,
+      0.4458,
+      0.5301,
+      0.5301,
+      0.4578,
+      0.5783,
+      0.5783,
+      0.3976,
+      0.4458,
+      0.5422,
+      0.5422,
+      0.3976,
+      0.3855,
+      0.3855,
+      0.4819,
+      0.3133,
+      0.494,
+      0.5422,
+      0.494,
+      0.5181,
+      0.5181,
+      0.5181,
+      0.4458,
+      0.4458,
+      0.3855,
+      0.4578,
+      0.2771,
+      0.2289,
+      0.3133,
+      0.1928,
+      0.241,
+      0.241,
+      0.241,
+      0.241,
+      0.2048,
+      0.3735,
+      0.4699,
+      0.4699,
+      0.3976,
+      0.6506,
+      0.747,
+      0.747,
+      0.747,
+      0.759,
+      1.0,
+      0.759,
+      0.7349,
+      0.8554,
+      0.9157,
+      0.7711,
+      0.7952,
+      0.8193,
+      0.8313,
+      0.9157,
+      0.8795,
+      0.988,
+      0.9157,
+      0.8193,
+      0.747,
+      0.6386,
+      0.5422,
+      0.7229,
+      0.7108,
+      0.759,
+      0.5542,
+      0.4458,
+      0.4578,
+      0.4337,
+      0.4699,
+      0.4699,
+      0.3976,
+      0.3253,
+      0.3253,
+      0.3133,
+      0.3735,
+      0.3735,
+      0.3855,
+      0.3855,
+      0.494,
+      0.494,
+      0.494,
+      0.3735,
+      0.3735,
+      0.241,
+      0.1807,
+      0.1807,
+      0.1566,
+      0.1566,
+      0.012
     ]
   },
   "shots": [
@@ -501,7 +686,9 @@
       "player_full": "Ferrán Torres García",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.9,
@@ -513,7 +700,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 24,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -525,7 +714,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.3,
@@ -537,7 +728,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -549,7 +742,9 @@
       "player_full": "Mikel Oyarzabal Ugarte",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -561,7 +756,9 @@
       "player_full": "Emerson Palmieri dos Santos",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -573,7 +770,9 @@
       "player_full": "Ciro Immobile",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.6,
@@ -585,7 +784,9 @@
       "player_full": "Sergio Busquets i Burgos",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -597,7 +798,9 @@
       "player_full": "Federico Chiesa",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.5,
@@ -609,7 +812,9 @@
       "player_full": "Ferrán Torres García",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -621,7 +826,9 @@
       "player_full": "Mikel Oyarzabal Ugarte",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -633,7 +840,9 @@
       "player_full": "Federico Chiesa",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.7,
@@ -645,7 +854,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -657,7 +868,9 @@
       "player_full": "Domenico Berardi",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.7,
@@ -669,7 +882,9 @@
       "player_full": "Domenico Berardi",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -681,7 +896,9 @@
       "player_full": "Álvaro Borja Morata Martín",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -693,7 +910,9 @@
       "player_full": "Sergio Busquets i Burgos",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -705,7 +924,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.8,
@@ -717,7 +938,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 97,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -729,7 +952,9 @@
       "player_full": "Álvaro Borja Morata Martín",
       "minute": 97,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.1,
@@ -741,7 +966,9 @@
       "player_full": "Marcos Llorente Moreno",
       "minute": 101,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.3,
@@ -753,7 +980,9 @@
       "player_full": "Thiago Alcântara do Nascimento",
       "minute": 106,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -765,7 +994,9 @@
       "player_full": "Domenico Berardi",
       "minute": 109,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -777,7 +1008,9 @@
       "player_full": "Manuel Locatelli",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -789,7 +1022,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -801,7 +1036,9 @@
       "player_full": "Andrea Belotti",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -813,7 +1050,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -825,7 +1064,9 @@
       "player_full": "Leonardo Bonucci",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -837,7 +1078,9 @@
       "player_full": "Thiago Alcântara do Nascimento",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -849,7 +1092,9 @@
       "player_full": "Federico Bernardeschi",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -861,7 +1106,9 @@
       "player_full": "Álvaro Borja Morata Martín",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.8,
@@ -873,7 +1120,9 @@
       "player_full": "Jorge Luiz Frello Filho",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1141,7 +1390,7 @@
       {
         "id": "Eric García Martret",
         "short": "Martret",
-        "x": 71.34,
+        "x": 48.66,
         "y": 54.68,
         "size": 142.9,
         "is_playmaker": true,
@@ -1151,7 +1400,7 @@
       {
         "id": "Aymeric Laporte",
         "short": "Laporte",
-        "x": 70.11,
+        "x": 49.89,
         "y": 26.47,
         "size": 150.1,
         "is_playmaker": false,
@@ -1161,7 +1410,7 @@
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
-        "x": 58.48,
+        "x": 61.52,
         "y": 9.83,
         "size": 109.3,
         "is_playmaker": true,
@@ -1171,7 +1420,7 @@
       {
         "id": "Unai Simón Mendibil",
         "short": "Mendibil",
-        "x": 105.83,
+        "x": 14.17,
         "y": 39.47,
         "size": 86.0,
         "is_playmaker": false,
@@ -1181,7 +1430,7 @@
       {
         "id": "César Azpilicueta Tanco",
         "short": "Tanco",
-        "x": 58.85,
+        "x": 61.15,
         "y": 72.4,
         "size": 95.3,
         "is_playmaker": false,
@@ -1191,7 +1440,7 @@
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 62.27,
+        "x": 57.73,
         "y": 35.59,
         "size": 86.5,
         "is_playmaker": false,
@@ -1201,7 +1450,7 @@
       {
         "id": "Pedro González López",
         "short": "López",
-        "x": 48.67,
+        "x": 71.33,
         "y": 29.01,
         "size": 74.1,
         "is_playmaker": false,
@@ -1211,7 +1460,7 @@
       {
         "id": "Jorge Resurrección Merodio",
         "short": "Merodio",
-        "x": 50.1,
+        "x": 69.9,
         "y": 52.53,
         "size": 74.1,
         "is_playmaker": false,
@@ -1221,7 +1470,7 @@
       {
         "id": "Ferrán Torres García",
         "short": "García",
-        "x": 36.03,
+        "x": 83.97,
         "y": 10.32,
         "size": 61.2,
         "is_playmaker": false,
@@ -1231,7 +1480,7 @@
       {
         "id": "Daniel Olmo Carvajal",
         "short": "Carvajal",
-        "x": 49.95,
+        "x": 70.05,
         "y": 39.93,
         "size": 65.9,
         "is_playmaker": false,
@@ -1241,7 +1490,7 @@
       {
         "id": "Mikel Oyarzabal Ugarte",
         "short": "Ugarte",
-        "x": 38.43,
+        "x": 81.57,
         "y": 61.45,
         "size": 59.7,
         "is_playmaker": false,
@@ -1260,25 +1509,25 @@
         "source": "Eric García Martret",
         "target": "César Azpilicueta Tanco",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eric García Martret",
         "target": "Unai Simón Mendibil",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eric García Martret",
         "target": "Sergio Busquets i Burgos",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
         "target": "Jordi Alba Ramos",
         "weight": 29,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
@@ -1290,43 +1539,43 @@
         "source": "Aymeric Laporte",
         "target": "Sergio Busquets i Burgos",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
         "target": "Unai Simón Mendibil",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aymeric Laporte",
         "target": "Daniel Olmo Carvajal",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Aymeric Laporte",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Ferrán Torres García",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Daniel Olmo Carvajal",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Pedro González López",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
@@ -1338,61 +1587,61 @@
         "source": "Unai Simón Mendibil",
         "target": "Aymeric Laporte",
         "weight": 22,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Unai Simón Mendibil",
         "target": "Eric García Martret",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "César Azpilicueta Tanco",
         "target": "Eric García Martret",
         "weight": 22,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "César Azpilicueta Tanco",
         "target": "Jorge Resurrección Merodio",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "César Azpilicueta Tanco",
         "target": "Mikel Oyarzabal Ugarte",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Eric García Martret",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Pedro González López",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro González López",
         "target": "Jordi Alba Ramos",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jorge Resurrección Merodio",
         "target": "César Azpilicueta Tanco",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jorge Resurrección Merodio",
         "target": "Aymeric Laporte",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },
@@ -1496,7 +1745,7 @@
     }
   },
   "insights": [
-    "Closely contested: Italy 4.32 xG vs Spain 4.54 xG",
+    "Spain created 1.00 more xG — dominant territorial control",
     "Spain dominated possession (66%) — Italy sat deep and defended"
   ]
 }

@@ -7,12 +7,17 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#b22234",
     "away_color": "#b22234",
-    "score_home": 5,
-    "score_away": 4,
-    "xg_home": 5.988,
-    "xg_away": 6.816,
-    "shots_home": 16,
-    "shots_away": 29,
+    "score_home": 0,
+    "score_away": 0,
+    "penalty_home": 5,
+    "penalty_away": 4,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 131,
+    "xg_home": 0.503,
+    "xg_away": 1.331,
+    "shots_home": 9,
+    "shots_away": 22,
     "possession_home": 45.3,
     "competition": "Women's World Cup",
     "season": "2023",
@@ -111,7 +116,46 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
     ],
     "home": [
       0.0,
@@ -205,7 +249,46 @@
       0.3989,
       0.3989,
       0.3989,
-      5.9878
+      0.3989,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033,
+      0.5033
     ],
     "away": [
       0.0,
@@ -299,195 +382,312 @@
       0.7644,
       0.839,
       0.839,
-      6.8161
+      0.839,
+      0.839,
+      0.839,
+      0.839,
+      0.8791,
+      0.8791,
+      0.8862,
+      0.8862,
+      0.8862,
+      1.0926,
+      1.0926,
+      1.0926,
+      1.0926,
+      1.0926,
+      1.0926,
+      1.1511,
+      1.2011,
+      1.2011,
+      1.2011,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316,
+      1.3316
     ],
     "pressure_home": [
-      0.0381,
-      0.1524,
-      0.2667,
-      0.2762,
-      0.4,
-      0.4,
-      0.4,
-      0.4,
-      0.5048,
-      0.5048,
-      0.5143,
-      0.4,
-      0.2857,
-      0.2762,
-      0.1714,
-      0.1714,
-      0.1714,
-      0.1714,
-      0.0667,
-      0.1524,
-      0.1619,
-      0.2,
-      0.2286,
-      0.2286,
-      0.2095,
-      0.2095,
-      0.2095,
-      0.2095,
-      0.2571,
-      0.2286,
-      0.1714,
-      0.1333,
-      0.1048,
-      0.1048,
-      0.1048,
-      0.1048,
-      0.1048,
-      0.1048,
-      0.0571,
+      0.0563,
+      0.2254,
+      0.3944,
+      0.4085,
+      0.5915,
+      0.5915,
+      0.5915,
+      0.5915,
+      0.7465,
+      0.7465,
+      0.7606,
+      0.5915,
+      0.4225,
+      0.4085,
+      0.2535,
+      0.2535,
+      0.2535,
+      0.2535,
+      0.0986,
+      0.2254,
+      0.2394,
+      0.2958,
+      0.338,
+      0.338,
+      0.3099,
+      0.3099,
+      0.3099,
+      0.3099,
+      0.3803,
+      0.338,
+      0.2535,
+      0.1972,
+      0.1549,
+      0.1549,
+      0.1549,
+      0.1549,
+      0.1549,
+      0.1549,
+      0.0845,
       0.0,
       0.0,
       0.0,
-      0.019,
-      0.019,
-      0.019,
-      0.0476,
-      0.0952,
-      0.2095,
-      0.219,
-      0.2571,
-      0.3333,
-      0.3333,
-      0.3143,
-      0.3143,
-      0.6667,
-      0.6381,
-      0.5905,
-      0.4857,
-      0.4762,
-      0.5524,
-      0.5238,
-      0.5238,
-      0.5524,
-      0.5524,
-      0.381,
-      0.5143,
-      0.5143,
-      0.5238,
-      0.5333,
-      0.419,
-      0.581,
-      0.581,
-      0.5619,
-      0.6762,
-      0.5429,
-      0.4095,
-      0.4286,
-      0.4952,
-      0.4857,
-      0.4952,
-      0.419,
-      0.419,
-      0.4095,
-      0.2952,
-      0.3048,
-      0.3429,
-      0.3333,
-      0.3143,
-      0.3143,
-      0.3048,
-      0.2952,
-      1.0
+      0.0282,
+      0.0282,
+      0.0282,
+      0.0704,
+      0.1408,
+      0.3099,
+      0.3239,
+      0.3803,
+      0.493,
+      0.493,
+      0.4648,
+      0.4648,
+      0.9859,
+      0.9437,
+      0.8732,
+      0.7183,
+      0.7042,
+      0.8169,
+      0.7746,
+      0.7746,
+      0.8169,
+      0.8169,
+      0.5634,
+      0.7606,
+      0.7606,
+      0.7746,
+      0.7887,
+      0.6197,
+      0.8592,
+      0.8592,
+      0.831,
+      1.0,
+      0.8028,
+      0.6056,
+      0.6338,
+      0.7324,
+      0.7183,
+      0.7324,
+      0.6197,
+      0.6197,
+      0.6056,
+      0.4366,
+      0.4507,
+      0.507,
+      0.493,
+      0.4648,
+      0.4648,
+      0.4507,
+      0.4366,
+      0.4789,
+      0.9437,
+      0.9577,
+      0.8732,
+      0.8169,
+      0.8028,
+      0.7042,
+      0.7042,
+      0.7042,
+      0.5211,
+      0.4789,
+      0.0141,
+      0.0563,
+      0.1549,
+      0.3099,
+      0.3099,
+      0.3099,
+      0.3239,
+      0.3239,
+      0.338,
+      0.338,
+      0.338,
+      0.2817,
+      0.1831,
+      0.0704,
+      0.0704,
+      0.0704,
+      0.0845,
+      0.0986,
+      0.0986,
+      0.0986,
+      0.1127,
+      0.1268,
+      0.1408,
+      0.0986,
+      0.1127,
+      0.1268,
+      0.0986,
+      0.0986,
+      0.0845
     ],
     "pressure_away": [
-      0.06,
-      0.12,
-      0.13,
-      0.19,
-      0.37,
-      0.65,
-      0.65,
-      0.68,
-      0.68,
-      0.82,
-      0.79,
-      0.74,
-      0.73,
-      0.67,
-      0.68,
-      0.4,
-      0.51,
-      0.51,
-      0.51,
-      0.39,
-      0.37,
-      0.39,
-      0.39,
-      0.39,
-      0.33,
-      0.36,
-      0.29,
-      0.29,
-      0.29,
-      0.48,
-      0.47,
-      0.44,
-      0.44,
-      0.44,
-      0.31,
-      0.28,
-      0.31,
-      0.28,
-      0.4,
-      0.31,
-      0.31,
-      0.31,
-      0.34,
-      0.34,
-      0.34,
-      0.43,
-      0.44,
-      0.55,
-      0.5,
-      0.54,
-      0.7,
-      0.7,
-      0.67,
-      0.67,
-      0.69,
-      0.93,
-      0.85,
-      0.81,
-      0.74,
-      0.63,
-      0.62,
-      0.62,
-      0.64,
-      0.76,
-      0.76,
-      0.47,
-      0.47,
-      0.42,
-      0.47,
-      0.54,
-      0.44,
-      0.53,
-      0.51,
-      0.46,
-      0.46,
-      0.42,
-      0.42,
-      0.49,
-      0.48,
-      0.37,
-      0.4,
-      0.31,
-      0.31,
-      0.27,
-      0.28,
-      0.45,
-      0.45,
-      0.36,
-      0.33,
-      0.35,
-      0.32,
-      1.0
+      0.0645,
+      0.129,
+      0.1398,
+      0.2043,
+      0.3978,
+      0.6989,
+      0.6989,
+      0.7312,
+      0.7312,
+      0.8817,
+      0.8495,
+      0.7957,
+      0.7849,
+      0.7204,
+      0.7312,
+      0.4301,
+      0.5484,
+      0.5484,
+      0.5484,
+      0.4194,
+      0.3978,
+      0.4194,
+      0.4194,
+      0.4194,
+      0.3548,
+      0.3871,
+      0.3118,
+      0.3118,
+      0.3118,
+      0.5161,
+      0.5054,
+      0.4731,
+      0.4731,
+      0.4731,
+      0.3333,
+      0.3011,
+      0.3333,
+      0.3011,
+      0.4301,
+      0.3333,
+      0.3333,
+      0.3333,
+      0.3656,
+      0.3656,
+      0.3656,
+      0.4624,
+      0.4731,
+      0.5914,
+      0.5376,
+      0.5806,
+      0.7527,
+      0.7527,
+      0.7204,
+      0.7204,
+      0.7419,
+      1.0,
+      0.914,
+      0.871,
+      0.7957,
+      0.6774,
+      0.6667,
+      0.6667,
+      0.6882,
+      0.8172,
+      0.8172,
+      0.5054,
+      0.5054,
+      0.4516,
+      0.5054,
+      0.5806,
+      0.4731,
+      0.5699,
+      0.5484,
+      0.4946,
+      0.4946,
+      0.4516,
+      0.4516,
+      0.5269,
+      0.5161,
+      0.3978,
+      0.4301,
+      0.3333,
+      0.3333,
+      0.2903,
+      0.3011,
+      0.4839,
+      0.4839,
+      0.3871,
+      0.3548,
+      0.3763,
+      0.3441,
+      0.5054,
+      0.5054,
+      0.5914,
+      0.5914,
+      0.4086,
+      0.4086,
+      0.4086,
+      0.3978,
+      0.3656,
+      0.3118,
+      0.1505,
+      0.1505,
+      0.0645,
+      0.1613,
+      0.2043,
+      0.2043,
+      0.2688,
+      0.2688,
+      0.3011,
+      0.3011,
+      0.3118,
+      0.3441,
+      0.3226,
+      0.1935,
+      0.172,
+      0.172,
+      0.1075,
+      0.1075,
+      0.1183,
+      0.1183,
+      0.1075,
+      0.0753,
+      0.0645,
+      0.0645,
+      0.043,
+      0.043,
+      0.043,
+      0.043,
+      0.0,
+      0.0
     ]
   },
   "shots": [
@@ -501,7 +701,9 @@
       "player_full": "Andi Sullivan",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.3,
@@ -513,7 +715,9 @@
       "player_full": "Trinity Rain Moyer-Rodman",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -525,7 +729,9 @@
       "player_full": "Emma Stina Blackstenius",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -537,7 +743,9 @@
       "player_full": "Trinity Rain Moyer-Rodman",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -549,7 +757,9 @@
       "player_full": "Trinity Rain Moyer-Rodman",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -561,7 +771,9 @@
       "player_full": "Emma Stina Blackstenius",
       "minute": 29,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -573,7 +785,9 @@
       "player_full": "Lindsey Michelle Horan",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -585,7 +799,9 @@
       "player_full": "Julie Beth Ertz",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Other"
+      "body_part": "Other",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -597,7 +813,9 @@
       "player_full": "Lindsey Michelle Horan",
       "minute": 52,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -609,7 +827,9 @@
       "player_full": "Sophia Olivia Smith",
       "minute": 53,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -621,7 +841,9 @@
       "player_full": "Lindsey Michelle Horan",
       "minute": 56,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -633,7 +855,9 @@
       "player_full": "Ingrid Filippa Angeldal",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -645,7 +869,9 @@
       "player_full": "Lynn Raenie Williams",
       "minute": 72,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -657,7 +883,9 @@
       "player_full": "Sophia Olivia Smith",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.9,
@@ -669,7 +897,9 @@
       "player_full": "Emily Ann Sonnett",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.8,
@@ -681,7 +911,9 @@
       "player_full": "Emma Stina Blackstenius",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.1,
@@ -693,7 +925,9 @@
       "player_full": "Eva Sofia Jakobsson",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -705,7 +939,9 @@
       "player_full": "Elin Ingrid Johanna Rubensson",
       "minute": 87,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.7,
@@ -717,7 +953,9 @@
       "player_full": "Ingrid Filippa Angeldal",
       "minute": 87,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -729,7 +967,9 @@
       "player_full": "Alexandra Morgan Carrasco",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -741,7 +981,9 @@
       "player_full": "Alexandra Morgan Carrasco",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -753,7 +995,9 @@
       "player_full": "Fridolina Rolfö",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.3,
@@ -765,7 +1009,9 @@
       "player_full": "Elin Ingrid Johanna Rubensson",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -777,7 +1023,9 @@
       "player_full": "Alexandra Morgan Carrasco",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.5,
@@ -789,7 +1037,9 @@
       "player_full": "Andi Sullivan",
       "minute": 97,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -801,7 +1051,9 @@
       "player_full": "Lynn Raenie Williams",
       "minute": 100,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -813,7 +1065,9 @@
       "player_full": "Lindsey Michelle Horan",
       "minute": 100,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -825,7 +1079,9 @@
       "player_full": "Sophia Olivia Smith",
       "minute": 106,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -837,7 +1093,9 @@
       "player_full": "Julie Beth Ertz",
       "minute": 107,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -849,7 +1107,9 @@
       "player_full": "Sophia Olivia Smith",
       "minute": 110,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -861,7 +1121,9 @@
       "player_full": "Lynn Raenie Williams",
       "minute": 110,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -873,7 +1135,9 @@
       "player_full": "Andi Sullivan",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -885,7 +1149,9 @@
       "player_full": "Fridolina Rolfö",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -897,7 +1163,9 @@
       "player_full": "Lindsey Michelle Horan",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -909,7 +1177,9 @@
       "player_full": "Elin Ingrid Johanna Rubensson",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -921,7 +1191,9 @@
       "player_full": "Kristie Mewis",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -933,7 +1205,9 @@
       "player_full": "Gun Nathalie Björn",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -945,7 +1219,9 @@
       "player_full": "Megan Anna Rapinoe",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -957,7 +1233,9 @@
       "player_full": "Rebecka Blomqvist",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -969,7 +1247,9 @@
       "player_full": "Sophia Olivia Smith",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -981,7 +1261,9 @@
       "player_full": "Hanna Ulrika Bennison",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -993,7 +1275,9 @@
       "player_full": "Alyssa Michele Naeher",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1005,7 +1289,9 @@
       "player_full": "Magdalena Lilly Eriksson",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1017,7 +1303,9 @@
       "player_full": "Kelley Maureen O'Hara",
       "minute": 128,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1029,7 +1317,9 @@
       "player_full": "Lina Mona Andréa Hurtig",
       "minute": 129,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1297,7 +1587,7 @@
       {
         "id": "Julie Beth Ertz",
         "short": "Ertz",
-        "x": 77.73,
+        "x": 42.27,
         "y": 49.99,
         "size": 102.9,
         "is_playmaker": false,
@@ -1307,7 +1597,7 @@
       {
         "id": "Naomi Haile Girma",
         "short": "Girma",
-        "x": 76.51,
+        "x": 43.49,
         "y": 22.95,
         "size": 141.1,
         "is_playmaker": true,
@@ -1317,7 +1607,7 @@
       {
         "id": "Emily Ann Fox",
         "short": "Fox",
-        "x": 58.8,
+        "x": 61.2,
         "y": 68.31,
         "size": 139.0,
         "is_playmaker": true,
@@ -1327,7 +1617,7 @@
       {
         "id": "Emily Ann Sonnett",
         "short": "Sonnett",
-        "x": 62.45,
+        "x": 57.55,
         "y": 32.41,
         "size": 107.8,
         "is_playmaker": false,
@@ -1337,7 +1627,7 @@
       {
         "id": "Lindsey Michelle Horan",
         "short": "Horan",
-        "x": 46.98,
+        "x": 73.02,
         "y": 52.92,
         "size": 101.5,
         "is_playmaker": false,
@@ -1347,7 +1637,7 @@
       {
         "id": "Crystal Alyssia Dunn Soubrier",
         "short": "Soubrier",
-        "x": 61.68,
+        "x": 58.32,
         "y": 8.0,
         "size": 69.6,
         "is_playmaker": false,
@@ -1357,7 +1647,7 @@
       {
         "id": "Andi Sullivan",
         "short": "Sullivan",
-        "x": 59.32,
+        "x": 60.68,
         "y": 47.43,
         "size": 92.5,
         "is_playmaker": false,
@@ -1367,7 +1657,7 @@
       {
         "id": "Sophia Olivia Smith",
         "short": "Smith",
-        "x": 48.81,
+        "x": 71.19,
         "y": 19.63,
         "size": 61.9,
         "is_playmaker": false,
@@ -1377,7 +1667,7 @@
       {
         "id": "Trinity Rain Moyer-Rodman",
         "short": "Moyer-Rodma",
-        "x": 41.57,
+        "x": 78.43,
         "y": 69.35,
         "size": 67.5,
         "is_playmaker": false,
@@ -1387,7 +1677,7 @@
       {
         "id": "Alyssa Michele Naeher",
         "short": "Naeher",
-        "x": 110.97,
+        "x": 9.03,
         "y": 44.39,
         "size": 60.6,
         "is_playmaker": false,
@@ -1397,7 +1687,7 @@
       {
         "id": "Alexandra Morgan Carrasco",
         "short": "Carrasco",
-        "x": 44.37,
+        "x": 75.63,
         "y": 36.03,
         "size": 60.6,
         "is_playmaker": false,
@@ -1416,13 +1706,13 @@
         "source": "Julie Beth Ertz",
         "target": "Emily Ann Fox",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Naomi Haile Girma",
         "target": "Emily Ann Sonnett",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Naomi Haile Girma",
@@ -1434,25 +1724,25 @@
         "source": "Naomi Haile Girma",
         "target": "Andi Sullivan",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Naomi Haile Girma",
         "target": "Emily Ann Fox",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emily Ann Fox",
         "target": "Julie Beth Ertz",
         "weight": 22,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emily Ann Fox",
         "target": "Lindsey Michelle Horan",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emily Ann Fox",
@@ -1470,19 +1760,19 @@
         "source": "Emily Ann Fox",
         "target": "Trinity Rain Moyer-Rodman",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emily Ann Sonnett",
         "target": "Naomi Haile Girma",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emily Ann Sonnett",
         "target": "Sophia Olivia Smith",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emily Ann Sonnett",
@@ -1494,37 +1784,37 @@
         "source": "Emily Ann Sonnett",
         "target": "Lindsey Michelle Horan",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lindsey Michelle Horan",
         "target": "Emily Ann Fox",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lindsey Michelle Horan",
         "target": "Emily Ann Sonnett",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Crystal Alyssia Dunn Soubrier",
         "target": "Naomi Haile Girma",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Crystal Alyssia Dunn Soubrier",
         "target": "Alexandra Morgan Carrasco",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andi Sullivan",
         "target": "Lindsey Michelle Horan",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andi Sullivan",
@@ -1536,19 +1826,19 @@
         "source": "Andi Sullivan",
         "target": "Naomi Haile Girma",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Trinity Rain Moyer-Rodman",
         "target": "Lindsey Michelle Horan",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alyssa Michele Naeher",
         "target": "Naomi Haile Girma",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

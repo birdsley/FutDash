@@ -9,6 +9,11 @@
     "away_color": "#e2001a",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.062,
     "xg_away": 0.214,
     "shots_home": 13,
@@ -501,7 +506,9 @@
       "player_full": "Kolbeinn Sigþórsson",
       "minute": 6,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -513,7 +520,9 @@
       "player_full": "Johan Audel",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -525,7 +534,9 @@
       "player_full": "Kolbeinn Sigþórsson",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -537,7 +548,9 @@
       "player_full": "Johan Audel",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.7,
@@ -549,7 +562,9 @@
       "player_full": "Valentin Rongier",
       "minute": 35,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.5,
@@ -561,7 +576,9 @@
       "player_full": "Adryan Oliveira Tavares",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.6,
@@ -573,7 +590,9 @@
       "player_full": "Frédéric Bulot",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -585,7 +604,9 @@
       "player_full": "Birama Touré",
       "minute": 45,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.2,
@@ -597,7 +618,9 @@
       "player_full": "Adrien Thomasson",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.5,
@@ -609,7 +632,9 @@
       "player_full": "Kolbeinn Sigþórsson",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -621,7 +646,9 @@
       "player_full": "Kolbeinn Sigþórsson",
       "minute": 70,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -633,7 +660,9 @@
       "player_full": "Johan Audel",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 119.3,
@@ -645,7 +674,9 @@
       "player_full": "Johan Audel",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -657,7 +688,9 @@
       "player_full": "Ermir Lenjani",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -669,7 +702,9 @@
       "player_full": "Nicolas de Roussel de Préville",
       "minute": 88,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Aïssa Mandi",
         "short": "Mandi",
-        "x": 73.47,
+        "x": 46.53,
         "y": 52.57,
         "size": 130.7,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Anthony Weber",
         "short": "Weber",
-        "x": 76.25,
+        "x": 43.75,
         "y": 24.03,
         "size": 130.7,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Franck Signorino",
         "short": "Signorino",
-        "x": 58.21,
+        "x": 61.79,
         "y": 5.61,
         "size": 133.6,
         "is_playmaker": true,
@@ -991,7 +1026,7 @@
       {
         "id": "Hamari Traoré",
         "short": "Traoré",
-        "x": 64.95,
+        "x": 55.05,
         "y": 72.25,
         "size": 108.4,
         "is_playmaker": true,
@@ -1001,7 +1036,7 @@
       {
         "id": "Prince Oniangué",
         "short": "Oniangué",
-        "x": 64.88,
+        "x": 55.12,
         "y": 34.4,
         "size": 81.2,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Frédéric Bulot",
         "short": "Bulot",
-        "x": 48.02,
+        "x": 71.98,
         "y": 45.7,
         "size": 84.1,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Kossi Agassa",
         "short": "Agassa",
-        "x": 107.61,
+        "x": 12.39,
         "y": 42.86,
         "size": 61.8,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "David N\"Gog",
         "short": "N\"Gog",
-        "x": 46.44,
+        "x": 73.56,
         "y": 45.93,
         "size": 65.7,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Antoine Devaux",
         "short": "Devaux",
-        "x": 68.93,
+        "x": 51.07,
         "y": 38.41,
         "size": 83.2,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Jaba Kankava",
         "short": "Kankava",
-        "x": 67.37,
+        "x": 52.63,
         "y": 34.0,
         "size": 65.7,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Nicolas de Roussel de Préville",
         "short": "Préville",
-        "x": 48.45,
+        "x": 71.55,
         "y": 43.98,
         "size": 59.9,
         "is_playmaker": false,
@@ -1080,19 +1115,19 @@
         "source": "Aïssa Mandi",
         "target": "Hamari Traoré",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aïssa Mandi",
         "target": "Franck Signorino",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aïssa Mandi",
         "target": "Antoine Devaux",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anthony Weber",
@@ -1104,55 +1139,55 @@
         "source": "Anthony Weber",
         "target": "Franck Signorino",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anthony Weber",
         "target": "Prince Oniangué",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anthony Weber",
         "target": "Antoine Devaux",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Franck Signorino",
         "target": "Anthony Weber",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Franck Signorino",
         "target": "Prince Oniangué",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Franck Signorino",
         "target": "Frédéric Bulot",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Franck Signorino",
         "target": "Nicolas de Roussel de Préville",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hamari Traoré",
         "target": "Aïssa Mandi",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hamari Traoré",
         "target": "Frédéric Bulot",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hamari Traoré",
@@ -1164,25 +1199,25 @@
         "source": "Hamari Traoré",
         "target": "David N\"Gog",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Prince Oniangué",
         "target": "Franck Signorino",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frédéric Bulot",
         "target": "Hamari Traoré",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kossi Agassa",
         "target": "Aïssa Mandi",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David N\"Gog",
@@ -1200,19 +1235,19 @@
         "source": "Antoine Devaux",
         "target": "Franck Signorino",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaba Kankava",
         "target": "Franck Signorino",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaba Kankava",
         "target": "Anthony Weber",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

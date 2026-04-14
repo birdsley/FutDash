@@ -9,6 +9,11 @@
     "away_color": "#fdbe11",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.3,
     "xg_away": 0.829,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Jamie Vardy",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -513,7 +520,9 @@
       "player_full": "Max-Alain Gradel",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -525,7 +534,9 @@
       "player_full": "Callum Wilson",
       "minute": 23,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.6,
@@ -537,7 +548,9 @@
       "player_full": "Max-Alain Gradel",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -549,7 +562,9 @@
       "player_full": "Jeffrey Schlupp",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -561,7 +576,9 @@
       "player_full": "Jamie Vardy",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.5,
@@ -573,7 +590,9 @@
       "player_full": "Simon Francis",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -841,7 +860,7 @@
       {
         "id": "N''Golo Kanté",
         "short": "Kanté",
-        "x": 50.95,
+        "x": 69.05,
         "y": 32.46,
         "size": 125.1,
         "is_playmaker": true,
@@ -851,7 +870,7 @@
       {
         "id": "Danny Drinkwater",
         "short": "Drinkwater",
-        "x": 45.04,
+        "x": 74.96,
         "y": 45.98,
         "size": 117.8,
         "is_playmaker": false,
@@ -861,7 +880,7 @@
       {
         "id": "Andrew Philip King",
         "short": "King",
-        "x": 63.4,
+        "x": 56.6,
         "y": 35.95,
         "size": 103.2,
         "is_playmaker": false,
@@ -871,7 +890,7 @@
       {
         "id": "Wes Morgan",
         "short": "Morgan",
-        "x": 71.61,
+        "x": 48.39,
         "y": 24.11,
         "size": 74.0,
         "is_playmaker": false,
@@ -881,7 +900,7 @@
       {
         "id": "Jeffrey Schlupp",
         "short": "Schlupp",
-        "x": 67.2,
+        "x": 52.8,
         "y": 14.3,
         "size": 114.9,
         "is_playmaker": false,
@@ -891,7 +910,7 @@
       {
         "id": "Jamie Vardy",
         "short": "Vardy",
-        "x": 50.28,
+        "x": 69.72,
         "y": 36.76,
         "size": 76.9,
         "is_playmaker": false,
@@ -901,7 +920,7 @@
       {
         "id": "Marc Albrighton",
         "short": "Albrighton",
-        "x": 56.05,
+        "x": 63.95,
         "y": 28.67,
         "size": 75.4,
         "is_playmaker": false,
@@ -911,7 +930,7 @@
       {
         "id": "Robert Huth",
         "short": "Huth",
-        "x": 74.21,
+        "x": 45.79,
         "y": 55.33,
         "size": 87.1,
         "is_playmaker": false,
@@ -921,7 +940,7 @@
       {
         "id": "Ritchie De Laet",
         "short": "Laet",
-        "x": 56.05,
+        "x": 63.95,
         "y": 72.34,
         "size": 107.6,
         "is_playmaker": true,
@@ -931,7 +950,7 @@
       {
         "id": "Kasper Schmeichel",
         "short": "Schmeichel",
-        "x": 104.82,
+        "x": 15.18,
         "y": 49.33,
         "size": 62.3,
         "is_playmaker": false,
@@ -941,7 +960,7 @@
       {
         "id": "Riyad Mahrez",
         "short": "Mahrez",
-        "x": 45.16,
+        "x": 74.84,
         "y": 58.14,
         "size": 60.8,
         "is_playmaker": false,
@@ -954,13 +973,13 @@
         "source": "N''Golo Kanté",
         "target": "Danny Drinkwater",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "N''Golo Kanté",
         "target": "Jeffrey Schlupp",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "N''Golo Kanté",
@@ -972,25 +991,25 @@
         "source": "N''Golo Kanté",
         "target": "Andrew Philip King",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Drinkwater",
         "target": "Andrew Philip King",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Drinkwater",
         "target": "Jeffrey Schlupp",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Drinkwater",
         "target": "Ritchie De Laet",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Drinkwater",
@@ -1002,19 +1021,19 @@
         "source": "Andrew Philip King",
         "target": "Danny Drinkwater",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrew Philip King",
         "target": "N''Golo Kanté",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrew Philip King",
         "target": "Robert Huth",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrew Philip King",
@@ -1026,43 +1045,43 @@
         "source": "Wes Morgan",
         "target": "N''Golo Kanté",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wes Morgan",
         "target": "Jeffrey Schlupp",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jeffrey Schlupp",
         "target": "Jamie Vardy",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jeffrey Schlupp",
         "target": "Marc Albrighton",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jeffrey Schlupp",
         "target": "N''Golo Kanté",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jamie Vardy",
         "target": "Marc Albrighton",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Huth",
         "target": "Ritchie De Laet",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Robert Huth",
@@ -1074,25 +1093,25 @@
         "source": "Robert Huth",
         "target": "Kasper Schmeichel",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ritchie De Laet",
         "target": "Robert Huth",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ritchie De Laet",
         "target": "N''Golo Kanté",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ritchie De Laet",
         "target": "Danny Drinkwater",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ritchie De Laet",
@@ -1104,7 +1123,7 @@
         "source": "Ritchie De Laet",
         "target": "Riyad Mahrez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Riyad Mahrez",
@@ -1116,7 +1135,7 @@
         "source": "Riyad Mahrez",
         "target": "Ritchie De Laet",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -7,12 +7,17 @@
     "home_color": "#fcd116",
     "away_color_raw": "#cf091d",
     "away_color": "#cf091d",
-    "score_home": 4,
-    "score_away": 5,
-    "xg_home": 4.749,
-    "xg_away": 6.162,
-    "shots_home": 19,
-    "shots_away": 22,
+    "score_home": 1,
+    "score_away": 1,
+    "penalty_home": 3,
+    "penalty_away": 4,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 129,
+    "xg_home": 0.831,
+    "xg_away": 2.244,
+    "shots_home": 14,
+    "shots_away": 17,
     "possession_home": 49.6,
     "competition": "FIFA World Cup",
     "season": "2018",
@@ -111,7 +116,44 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
     ],
     "home": [
       0.0,
@@ -205,7 +247,44 @@
       0.4164,
       0.4164,
       0.4164,
-      4.7486
+      0.4228,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.5922,
+      0.6585,
+      0.7202,
+      0.7202,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311,
+      0.8311
     ],
     "away": [
       0.0,
@@ -299,195 +378,306 @@
       1.9826,
       1.9826,
       1.9826,
-      6.1618
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      1.9826,
+      2.03,
+      2.03,
+      2.0434,
+      2.0434,
+      2.0434,
+      2.0434,
+      2.0589,
+      2.0589,
+      2.0589,
+      2.1731,
+      2.1731,
+      2.1731,
+      2.1731,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443,
+      2.2443
     ],
     "pressure_home": [
-      0.0444,
-      0.0444,
-      0.0593,
-      0.0593,
-      0.0593,
-      0.0593,
-      0.0593,
-      0.0593,
-      0.1333,
-      0.1333,
-      0.0889,
-      0.0889,
-      0.0741,
-      0.1037,
-      0.1037,
-      0.1037,
-      0.1037,
-      0.1111,
-      0.0444,
-      0.0444,
-      0.0444,
-      0.1852,
-      0.2,
-      0.2963,
-      0.2963,
-      0.2963,
-      0.2963,
-      0.2889,
-      0.2815,
-      0.2889,
-      0.3037,
-      0.1704,
-      0.2074,
-      0.0815,
-      0.0963,
-      0.1704,
-      0.1704,
-      0.1704,
-      0.1704,
-      0.163,
-      0.1481,
-      0.1407,
-      0.0889,
-      0.1037,
-      0.0889,
-      0.0222,
-      0.0889,
-      0.0889,
-      0.0963,
-      0.1407,
-      0.1481,
-      0.1481,
-      0.1481,
-      0.1333,
-      0.1333,
-      0.1259,
-      0.0593,
-      0.0593,
-      0.0741,
-      0.037,
-      0.0444,
-      0.0444,
-      0.0444,
-      0.0444,
-      0.0444,
-      0.0444,
-      0.0444,
-      0.0444,
-      0.0222,
-      0.0296,
-      0.0222,
-      0.0222,
-      0.0222,
-      0.0222,
-      0.0519,
-      0.1407,
-      0.2148,
-      0.3333,
-      0.3407,
-      0.3259,
-      0.3481,
-      0.3481,
-      0.3481,
-      0.3852,
-      0.4963,
-      0.437,
-      0.4296,
-      0.3111,
-      0.3185,
-      0.3259,
-      0.2963,
-      1.0
+      0.0896,
+      0.0896,
+      0.1194,
+      0.1194,
+      0.1194,
+      0.1194,
+      0.1194,
+      0.1194,
+      0.2687,
+      0.2687,
+      0.1791,
+      0.1791,
+      0.1493,
+      0.209,
+      0.209,
+      0.209,
+      0.209,
+      0.2239,
+      0.0896,
+      0.0896,
+      0.0896,
+      0.3731,
+      0.403,
+      0.597,
+      0.597,
+      0.597,
+      0.597,
+      0.5821,
+      0.5672,
+      0.5821,
+      0.6119,
+      0.3433,
+      0.4179,
+      0.1642,
+      0.194,
+      0.3433,
+      0.3433,
+      0.3433,
+      0.3433,
+      0.3284,
+      0.2985,
+      0.2836,
+      0.1791,
+      0.209,
+      0.1791,
+      0.0448,
+      0.1791,
+      0.1791,
+      0.194,
+      0.2836,
+      0.2985,
+      0.2985,
+      0.2985,
+      0.2687,
+      0.2687,
+      0.2537,
+      0.1194,
+      0.1194,
+      0.1493,
+      0.0746,
+      0.0896,
+      0.0896,
+      0.0896,
+      0.0896,
+      0.0896,
+      0.0896,
+      0.0896,
+      0.0896,
+      0.0448,
+      0.0597,
+      0.0448,
+      0.0448,
+      0.0448,
+      0.0448,
+      0.1045,
+      0.2836,
+      0.4328,
+      0.6716,
+      0.6866,
+      0.6567,
+      0.7015,
+      0.7015,
+      0.7015,
+      0.7761,
+      1.0,
+      0.8806,
+      0.8657,
+      0.6269,
+      0.6418,
+      0.6567,
+      0.597,
+      0.6119,
+      0.6567,
+      0.5821,
+      0.4478,
+      0.4627,
+      0.3731,
+      0.3731,
+      0.3433,
+      0.3433,
+      0.5075,
+      0.5224,
+      0.4776,
+      0.5522,
+      0.5522,
+      0.5373,
+      0.6716,
+      0.7612,
+      0.8806,
+      0.8657,
+      0.7015,
+      0.6716,
+      0.6716,
+      0.597,
+      0.4478,
+      0.3881,
+      0.2239,
+      0.1343,
+      0.0149,
+      0.0448,
+      0.1493,
+      0.1642,
+      0.1642,
+      0.1791,
+      0.194,
+      0.194,
+      0.194,
+      0.194,
+      0.194
     ],
     "pressure_away": [
-      0.0992,
-      0.2214,
-      0.3893,
-      0.4427,
-      0.5496,
-      0.5496,
-      0.5573,
-      0.5573,
-      0.5649,
-      0.5649,
-      0.4885,
-      0.4046,
-      0.2366,
-      0.2214,
-      0.1221,
-      0.1221,
-      0.1985,
-      0.2061,
-      0.2519,
-      0.2519,
-      0.229,
-      0.1908,
-      0.229,
-      0.2061,
-      0.2443,
-      0.2672,
-      0.1832,
-      0.3206,
-      0.2672,
-      0.2672,
-      0.2748,
-      0.3511,
-      0.3282,
-      0.3206,
-      0.3282,
-      0.4504,
-      0.5191,
-      0.4351,
-      0.4351,
-      0.4351,
-      0.4275,
-      0.3511,
-      0.5038,
-      0.5573,
-      0.5038,
-      0.374,
-      0.3664,
-      0.4656,
-      0.5038,
-      0.6183,
-      0.7481,
-      0.7481,
-      0.5802,
-      0.5191,
-      0.5191,
-      0.5038,
-      0.4427,
-      0.2824,
-      0.2443,
-      0.1374,
-      0.0916,
-      0.0916,
-      0.0916,
-      0.0916,
-      0.0992,
-      0.0992,
-      0.0992,
-      0.0992,
-      0.0992,
-      0.2061,
-      0.1527,
-      0.2901,
-      0.2901,
-      0.2901,
-      0.3053,
-      0.3053,
-      0.3282,
-      0.3435,
-      0.3511,
-      0.2519,
-      0.2214,
-      0.1069,
-      0.1069,
-      0.1145,
-      0.0916,
-      0.0992,
-      0.0763,
-      0.0611,
-      0.0534,
-      0.0382,
-      0.084,
-      1.0
+      0.1327,
+      0.2959,
+      0.5204,
+      0.5918,
+      0.7347,
+      0.7347,
+      0.7449,
+      0.7449,
+      0.7551,
+      0.7551,
+      0.6531,
+      0.5408,
+      0.3163,
+      0.2959,
+      0.1633,
+      0.1633,
+      0.2653,
+      0.2755,
+      0.3367,
+      0.3367,
+      0.3061,
+      0.2551,
+      0.3061,
+      0.2755,
+      0.3265,
+      0.3571,
+      0.2449,
+      0.4286,
+      0.3571,
+      0.3571,
+      0.3673,
+      0.4694,
+      0.4388,
+      0.4286,
+      0.4388,
+      0.602,
+      0.6939,
+      0.5816,
+      0.5816,
+      0.5816,
+      0.5714,
+      0.4694,
+      0.6735,
+      0.7449,
+      0.6735,
+      0.5,
+      0.4898,
+      0.6224,
+      0.6735,
+      0.8265,
+      1.0,
+      1.0,
+      0.7755,
+      0.6939,
+      0.6939,
+      0.6735,
+      0.5918,
+      0.3776,
+      0.3265,
+      0.1837,
+      0.1224,
+      0.1224,
+      0.1224,
+      0.1224,
+      0.1327,
+      0.1327,
+      0.1327,
+      0.1327,
+      0.1327,
+      0.2755,
+      0.2041,
+      0.3878,
+      0.3878,
+      0.3878,
+      0.4082,
+      0.4082,
+      0.4388,
+      0.4592,
+      0.4694,
+      0.3367,
+      0.2959,
+      0.1429,
+      0.1429,
+      0.1531,
+      0.1224,
+      0.1327,
+      0.102,
+      0.0816,
+      0.0714,
+      0.051,
+      0.1122,
+      0.0918,
+      0.2245,
+      0.2245,
+      0.2449,
+      0.3673,
+      0.3776,
+      0.4694,
+      0.4796,
+      0.7347,
+      0.6735,
+      0.6939,
+      0.6122,
+      0.7143,
+      0.6939,
+      0.6224,
+      0.6837,
+      0.602,
+      0.7143,
+      0.4592,
+      0.4592,
+      0.4286,
+      0.3776,
+      0.3265,
+      0.3265,
+      0.2653,
+      0.2041,
+      0.1939,
+      0.102,
+      0.102,
+      0.1224,
+      0.1224,
+      0.1224,
+      0.0612,
+      0.0612,
+      0.0612,
+      0.051,
+      0.051,
+      0.0204
     ]
   },
   "shots": [
@@ -501,7 +691,9 @@
       "player_full": "Ashley Young",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -513,7 +705,9 @@
       "player_full": "Raheem Sterling",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -525,7 +719,9 @@
       "player_full": "Raheem Sterling",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 119.0,
@@ -537,7 +733,9 @@
       "player_full": "Harry Kane",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -549,7 +747,9 @@
       "player_full": "Juan Guillermo Cuadrado Bello",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.0,
@@ -561,7 +761,9 @@
       "player_full": "Johan Andrés Mojica Palacio",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -573,7 +775,9 @@
       "player_full": "Raheem Sterling",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.0,
@@ -585,7 +789,9 @@
       "player_full": "Juan Fernando Quintero Paniagua",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -597,7 +803,9 @@
       "player_full": "Kieran Trippier",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -609,7 +817,9 @@
       "player_full": "Harry Kane",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -621,7 +831,9 @@
       "player_full": "Juan Fernando Quintero Paniagua",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -633,7 +845,9 @@
       "player_full": "Jesse Lingard",
       "minute": 46,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -645,7 +859,9 @@
       "player_full": "Harry Kane",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 78.0,
@@ -657,7 +873,9 @@
       "player_full": "Juan Fernando Quintero Paniagua",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.0,
@@ -669,7 +887,9 @@
       "player_full": "Bamidele Alli",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -681,7 +901,9 @@
       "player_full": "Harry Maguire",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -693,7 +915,9 @@
       "player_full": "Juan Guillermo Cuadrado Bello",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -705,7 +929,9 @@
       "player_full": "Harry Maguire",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -717,7 +943,9 @@
       "player_full": "Davinson Sánchez Mina",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -729,7 +957,9 @@
       "player_full": "Radamel Falcao García Zárate",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -741,7 +971,9 @@
       "player_full": "Radamel Falcao García Zárate",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.0,
@@ -753,7 +985,9 @@
       "player_full": "Andrés Mateus Uribe Villa",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -765,7 +999,9 @@
       "player_full": "Yerry Fernando Mina González",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -777,7 +1013,9 @@
       "player_full": "Carlos Arturo Bacca Ahumada",
       "minute": 100,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -789,7 +1027,9 @@
       "player_full": "Davinson Sánchez Mina",
       "minute": 101,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -801,7 +1041,9 @@
       "player_full": "Radamel Falcao García Zárate",
       "minute": 103,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -813,7 +1055,9 @@
       "player_full": "Jesse Lingard",
       "minute": 105,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -825,7 +1069,9 @@
       "player_full": "Jamie Vardy",
       "minute": 107,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -837,7 +1083,9 @@
       "player_full": "Danny Rose",
       "minute": 111,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -849,7 +1097,9 @@
       "player_full": "Eric Dier",
       "minute": 114,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -861,7 +1111,9 @@
       "player_full": "Harry Maguire",
       "minute": 118,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -873,7 +1125,9 @@
       "player_full": "Radamel Falcao García Zárate",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -885,7 +1139,9 @@
       "player_full": "Harry Kane",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -897,7 +1153,9 @@
       "player_full": "Juan Guillermo Cuadrado Bello",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -909,7 +1167,9 @@
       "player_full": "Marcus Rashford",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -921,7 +1181,9 @@
       "player_full": "Luis Fernando Muriel Fruto",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -933,7 +1195,9 @@
       "player_full": "Jordan Brian Henderson",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -945,7 +1209,9 @@
       "player_full": "Andrés Mateus Uribe Villa",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -957,7 +1223,9 @@
       "player_full": "Kieran Trippier",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -969,7 +1237,9 @@
       "player_full": "Carlos Arturo Bacca Ahumada",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 109.0,
@@ -981,7 +1251,9 @@
       "player_full": "Eric Dier",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1273,7 +1545,7 @@
       {
         "id": "Kyle Walker",
         "short": "Walker",
-        "x": 79.25,
+        "x": 40.75,
         "y": 57.36,
         "size": 117.6,
         "is_playmaker": false,
@@ -1283,7 +1555,7 @@
       {
         "id": "John Stones",
         "short": "Stones",
-        "x": 78.81,
+        "x": 41.19,
         "y": 39.85,
         "size": 147.9,
         "is_playmaker": true,
@@ -1293,7 +1565,7 @@
       {
         "id": "Harry Maguire",
         "short": "Maguire",
-        "x": 76.78,
+        "x": 43.22,
         "y": 19.69,
         "size": 122.3,
         "is_playmaker": false,
@@ -1303,7 +1575,7 @@
       {
         "id": "Kieran Trippier",
         "short": "Trippier",
-        "x": 62.21,
+        "x": 57.79,
         "y": 70.73,
         "size": 81.5,
         "is_playmaker": false,
@@ -1313,7 +1585,7 @@
       {
         "id": "Jordan Brian Henderson",
         "short": "Henderson",
-        "x": 63.79,
+        "x": 56.21,
         "y": 36.28,
         "size": 88.2,
         "is_playmaker": false,
@@ -1323,7 +1595,7 @@
       {
         "id": "Jordan Pickford",
         "short": "Pickford",
-        "x": 104.5,
+        "x": 15.5,
         "y": 36.73,
         "size": 75.9,
         "is_playmaker": false,
@@ -1333,7 +1605,7 @@
       {
         "id": "Bamidele Alli",
         "short": "Alli",
-        "x": 57.14,
+        "x": 62.86,
         "y": 25.69,
         "size": 87.2,
         "is_playmaker": true,
@@ -1343,7 +1615,7 @@
       {
         "id": "Jesse Lingard",
         "short": "Lingard",
-        "x": 47.55,
+        "x": 72.45,
         "y": 38.74,
         "size": 87.2,
         "is_playmaker": false,
@@ -1353,7 +1625,7 @@
       {
         "id": "Ashley Young",
         "short": "Young",
-        "x": 53.59,
+        "x": 66.41,
         "y": 9.56,
         "size": 67.3,
         "is_playmaker": false,
@@ -1363,7 +1635,7 @@
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
-        "x": 44.44,
+        "x": 75.56,
         "y": 31.5,
         "size": 61.6,
         "is_playmaker": false,
@@ -1373,7 +1645,7 @@
       {
         "id": "Harry Kane",
         "short": "Kane",
-        "x": 47.87,
+        "x": 72.13,
         "y": 34.48,
         "size": 68.3,
         "is_playmaker": false,
@@ -1392,13 +1664,13 @@
         "source": "Kyle Walker",
         "target": "Jordan Pickford",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "Kieran Trippier",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
@@ -1410,7 +1682,7 @@
         "source": "John Stones",
         "target": "Jordan Brian Henderson",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
@@ -1422,13 +1694,13 @@
         "source": "John Stones",
         "target": "Bamidele Alli",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Jesse Lingard",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
@@ -1440,61 +1712,61 @@
         "source": "Harry Maguire",
         "target": "Jordan Brian Henderson",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
         "target": "Bamidele Alli",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
         "target": "Jordan Pickford",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harry Maguire",
         "target": "Jesse Lingard",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kieran Trippier",
         "target": "Kyle Walker",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kieran Trippier",
         "target": "John Stones",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordan Brian Henderson",
         "target": "Harry Maguire",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordan Brian Henderson",
         "target": "John Stones",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordan Pickford",
         "target": "Kyle Walker",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bamidele Alli",
         "target": "Harry Maguire",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bamidele Alli",
@@ -1512,13 +1784,13 @@
         "source": "Jesse Lingard",
         "target": "Bamidele Alli",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ashley Young",
         "target": "Raheem Sterling",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Kane",

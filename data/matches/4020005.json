@@ -9,6 +9,11 @@
     "away_color": "#003da5",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": true,
+    "has_penalties": false,
+    "max_minute": 125,
     "xg_home": 3.053,
     "xg_away": 1.184,
     "shots_home": 24,
@@ -111,7 +116,40 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
     ],
     "home": [
       0.0,
@@ -205,6 +243,39 @@
       1.3702,
       1.3702,
       1.3702,
+      1.3702,
+      1.3702,
+      1.3892,
+      1.3892,
+      1.4861,
+      1.4861,
+      1.5687,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6234,
+      1.6443,
+      1.6443,
+      1.6443,
+      1.6443,
+      1.6443,
+      1.6443,
+      1.6815,
+      1.6815,
+      1.7275,
+      1.7275,
+      3.0528,
+      3.0528,
+      3.0528,
+      3.0528,
+      3.0528,
+      3.0528,
       3.0528
     ],
     "away": [
@@ -299,195 +370,294 @@
       1.1539,
       1.1539,
       1.1539,
+      1.162,
+      1.162,
+      1.162,
+      1.162,
+      1.162,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
+      1.1839,
       1.1839
     ],
     "pressure_home": [
-      0.004,
-      0.0445,
-      0.0445,
-      0.0445,
-      0.1296,
-      0.1417,
-      0.166,
-      0.1943,
-      0.1943,
-      0.1943,
-      0.2065,
-      0.166,
-      0.1741,
-      0.1741,
-      0.0891,
-      0.0769,
-      0.0769,
-      0.0486,
-      0.1053,
-      0.1093,
-      0.0931,
-      0.1215,
-      0.2267,
-      0.2348,
-      0.2389,
-      0.2389,
-      0.2713,
-      0.2713,
-      0.2146,
-      0.2105,
-      0.2389,
-      0.2105,
-      0.0972,
-      0.2065,
-      0.2632,
-      0.2632,
-      0.2065,
-      0.2348,
-      0.2794,
-      0.3441,
-      0.3158,
-      0.3198,
-      0.3198,
-      0.2024,
-      0.1417,
-      0.1498,
-      0.1781,
-      0.1498,
-      0.1498,
-      0.1822,
-      0.2227,
-      0.2591,
-      0.2591,
-      0.2591,
-      0.3279,
-      0.4089,
-      0.4251,
-      0.4453,
-      0.4049,
-      0.3765,
-      0.3522,
-      0.3563,
-      0.3563,
-      0.3563,
-      0.3036,
-      0.2186,
-      0.1862,
-      0.166,
-      0.1619,
-      0.1093,
-      0.1174,
-      0.1093,
-      0.1255,
-      0.1255,
-      0.1093,
-      0.1498,
-      0.1377,
-      0.1377,
-      0.1984,
-      0.2024,
-      0.2267,
-      0.1903,
-      0.1741,
-      0.2227,
-      0.2348,
-      0.1903,
-      0.1903,
-      0.1903,
-      0.1498,
-      0.2389,
-      0.2024,
-      1.0
+      0.0074,
+      0.0809,
+      0.0809,
+      0.0809,
+      0.2353,
+      0.2574,
+      0.3015,
+      0.3529,
+      0.3529,
+      0.3529,
+      0.375,
+      0.3015,
+      0.3162,
+      0.3162,
+      0.1618,
+      0.1397,
+      0.1397,
+      0.0882,
+      0.1912,
+      0.1985,
+      0.1691,
+      0.2206,
+      0.4118,
+      0.4265,
+      0.4338,
+      0.4338,
+      0.4926,
+      0.4926,
+      0.3897,
+      0.3824,
+      0.4338,
+      0.3824,
+      0.1765,
+      0.375,
+      0.4779,
+      0.4779,
+      0.375,
+      0.4265,
+      0.5074,
+      0.625,
+      0.5735,
+      0.5809,
+      0.5809,
+      0.3676,
+      0.2574,
+      0.2721,
+      0.3235,
+      0.2721,
+      0.2721,
+      0.3309,
+      0.4044,
+      0.4706,
+      0.4706,
+      0.4706,
+      0.5956,
+      0.7426,
+      0.7721,
+      0.8088,
+      0.7353,
+      0.6838,
+      0.6397,
+      0.6471,
+      0.6471,
+      0.6471,
+      0.5515,
+      0.3971,
+      0.3382,
+      0.3015,
+      0.2941,
+      0.1985,
+      0.2132,
+      0.1985,
+      0.2279,
+      0.2279,
+      0.1985,
+      0.2721,
+      0.25,
+      0.25,
+      0.3603,
+      0.3676,
+      0.4118,
+      0.3456,
+      0.3162,
+      0.4044,
+      0.4265,
+      0.3456,
+      0.3456,
+      0.3456,
+      0.2721,
+      0.4338,
+      0.3676,
+      0.4559,
+      0.5368,
+      0.5588,
+      0.7794,
+      0.8162,
+      0.8162,
+      0.9779,
+      1.0,
+      0.8309,
+      0.8456,
+      0.7794,
+      0.7132,
+      0.6176,
+      0.4559,
+      0.4191,
+      0.4853,
+      0.3676,
+      0.375,
+      0.3456,
+      0.3088,
+      0.3676,
+      0.3603,
+      0.4044,
+      0.3456,
+      0.3603,
+      0.3456,
+      0.3015,
+      0.25,
+      0.25,
+      0.25,
+      0.2132,
+      0.2059,
+      0.1471,
+      0.125
     ],
     "pressure_away": [
       0.0,
-      0.0429,
-      0.0643,
-      0.0929,
-      0.1143,
-      0.1929,
-      0.2286,
-      0.3,
-      0.3714,
-      0.4071,
-      0.4357,
-      0.3929,
-      0.3714,
-      0.35,
-      0.3357,
-      0.3286,
-      0.2929,
-      0.2786,
-      0.2286,
-      0.2286,
-      0.2929,
-      0.3214,
-      0.3429,
-      0.3857,
-      0.3929,
-      0.3214,
-      0.3786,
-      0.3786,
-      0.3571,
-      0.3857,
-      0.3143,
-      0.3643,
-      0.3429,
-      0.3214,
-      0.3143,
-      0.3214,
-      0.3071,
-      0.25,
-      0.3357,
-      0.2714,
-      0.2714,
-      0.2214,
-      0.2357,
-      0.2071,
-      0.2,
-      0.2214,
-      0.1929,
-      0.1929,
-      0.2429,
-      0.3143,
-      0.35,
-      0.3214,
-      0.4429,
-      0.5357,
-      0.5357,
-      0.5071,
-      0.5286,
-      0.5929,
-      0.4929,
-      0.4214,
-      0.3857,
-      0.4643,
-      0.4357,
-      0.3429,
-      0.3429,
-      0.3857,
-      0.3571,
-      0.35,
-      0.3429,
-      0.3786,
-      0.3857,
-      0.3071,
-      0.2286,
-      0.2357,
-      0.2929,
-      0.25,
-      0.25,
-      0.2,
-      0.1857,
-      0.15,
-      0.1286,
-      0.1571,
-      0.1286,
-      0.1714,
-      0.1357,
-      0.1357,
-      0.1286,
-      0.1286,
-      0.1143,
-      0.15,
-      0.1714,
-      1.0
+      0.0723,
+      0.1084,
+      0.1566,
+      0.1928,
+      0.3253,
+      0.3855,
+      0.506,
+      0.6265,
+      0.6867,
+      0.7349,
+      0.6627,
+      0.6265,
+      0.5904,
+      0.5663,
+      0.5542,
+      0.494,
+      0.4699,
+      0.3855,
+      0.3855,
+      0.494,
+      0.5422,
+      0.5783,
+      0.6506,
+      0.6627,
+      0.5422,
+      0.6386,
+      0.6386,
+      0.6024,
+      0.6506,
+      0.5301,
+      0.6145,
+      0.5783,
+      0.5422,
+      0.5301,
+      0.5422,
+      0.5181,
+      0.4217,
+      0.5663,
+      0.4578,
+      0.4578,
+      0.3735,
+      0.3976,
+      0.3494,
+      0.3373,
+      0.3735,
+      0.3253,
+      0.3253,
+      0.4096,
+      0.5301,
+      0.5904,
+      0.5422,
+      0.747,
+      0.9036,
+      0.9036,
+      0.8554,
+      0.8916,
+      1.0,
+      0.8313,
+      0.7108,
+      0.6506,
+      0.7831,
+      0.7349,
+      0.5783,
+      0.5783,
+      0.6506,
+      0.6024,
+      0.5904,
+      0.5783,
+      0.6386,
+      0.6506,
+      0.5181,
+      0.3855,
+      0.3976,
+      0.494,
+      0.4217,
+      0.4217,
+      0.3373,
+      0.3133,
+      0.253,
+      0.2169,
+      0.2651,
+      0.2169,
+      0.2892,
+      0.2289,
+      0.2289,
+      0.2169,
+      0.2169,
+      0.1928,
+      0.253,
+      0.2892,
+      0.3012,
+      0.3614,
+      0.5422,
+      0.5422,
+      0.5542,
+      0.5542,
+      0.5783,
+      0.8434,
+      0.8193,
+      0.7711,
+      0.7229,
+      0.747,
+      0.5422,
+      0.5542,
+      0.5663,
+      0.6506,
+      0.6145,
+      0.5301,
+      0.494,
+      0.494,
+      0.5422,
+      0.4699,
+      0.4096,
+      0.4096,
+      0.3855,
+      0.3494,
+      0.3494,
+      0.1687,
+      0.1687,
+      0.1687,
+      0.1205,
+      0.1084,
+      0.1084,
+      0.0602
     ]
   },
   "shots": [
@@ -501,7 +671,9 @@
       "player_full": "Lauren James",
       "minute": 10,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -513,7 +685,9 @@
       "player_full": "Alessia Russo",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -525,7 +699,9 @@
       "player_full": "Sofia Cantore",
       "minute": 20,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -537,7 +713,9 @@
       "player_full": "Lauren Hemp",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -549,7 +727,9 @@
       "player_full": "Cristiana Girelli",
       "minute": 32,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -561,7 +741,9 @@
       "player_full": "Barbara Bonansea",
       "minute": 32,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.8,
@@ -573,7 +755,9 @@
       "player_full": "Lauren James",
       "minute": 37,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.0,
@@ -585,7 +769,9 @@
       "player_full": "Arianna Caruso",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.6,
@@ -597,7 +783,9 @@
       "player_full": "Alex Greenwood",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.5,
@@ -609,7 +797,9 @@
       "player_full": "Lauren Hemp",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.5,
@@ -621,7 +811,9 @@
       "player_full": "Keira Walsh",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -633,7 +825,9 @@
       "player_full": "Lauren Hemp",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.9,
@@ -645,7 +839,9 @@
       "player_full": "Sofia Cantore",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.1,
@@ -657,7 +853,9 @@
       "player_full": "Keira Walsh",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.8,
@@ -669,7 +867,9 @@
       "player_full": "Georgia Stanway",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -681,7 +881,9 @@
       "player_full": "Alex Greenwood",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.8,
@@ -693,7 +895,9 @@
       "player_full": "Ella Toone",
       "minute": 69,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -705,7 +909,9 @@
       "player_full": "Georgia Stanway",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 80.4,
@@ -717,7 +923,9 @@
       "player_full": "Arianna Caruso",
       "minute": 76,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -729,7 +937,9 @@
       "player_full": "Martina Piemonte",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -741,7 +951,9 @@
       "player_full": "Chloe Kelly",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -753,7 +965,9 @@
       "player_full": "Lucy Bronze",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -765,7 +979,9 @@
       "player_full": "Michela Cambiaghi",
       "minute": 85,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -777,7 +993,9 @@
       "player_full": "Emma Severini",
       "minute": 85,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.6,
@@ -789,7 +1007,9 @@
       "player_full": "Elisabetta Oliviero",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -801,7 +1021,9 @@
       "player_full": "Keira Walsh",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -813,7 +1035,9 @@
       "player_full": "Michelle Agyemang",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -825,7 +1049,9 @@
       "player_full": "Agnes Beever-Jones",
       "minute": 98,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -837,7 +1063,9 @@
       "player_full": "Giada Greggi",
       "minute": 96,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -849,7 +1077,9 @@
       "player_full": "Chloe Kelly",
       "minute": 97,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -861,7 +1091,9 @@
       "player_full": "Lucy Bronze",
       "minute": 108,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.3,
@@ -873,7 +1105,9 @@
       "player_full": "Alex Greenwood",
       "minute": 114,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -885,7 +1119,9 @@
       "player_full": "Michelle Agyemang",
       "minute": 116,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -897,7 +1133,9 @@
       "player_full": "Chloe Kelly",
       "minute": 118,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.6,
@@ -909,7 +1147,9 @@
       "player_full": "Chloe Kelly",
       "minute": 118,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -1213,7 +1453,7 @@
       {
         "id": "Manuela Giugliano",
         "short": "Giugliano",
-        "x": 59.0,
+        "x": 61.0,
         "y": 32.42,
         "size": 82.3,
         "is_playmaker": false,
@@ -1223,7 +1463,7 @@
       {
         "id": "Arianna Caruso",
         "short": "Caruso",
-        "x": 59.16,
+        "x": 60.84,
         "y": 54.48,
         "size": 84.8,
         "is_playmaker": false,
@@ -1233,7 +1473,7 @@
       {
         "id": "Laura Giuliani",
         "short": "Giuliani",
-        "x": 108.83,
+        "x": 11.17,
         "y": 41.53,
         "size": 119.6,
         "is_playmaker": false,
@@ -1243,7 +1483,7 @@
       {
         "id": "Cecilia Salvai",
         "short": "Salvai",
-        "x": 88.48,
+        "x": 31.52,
         "y": 45.17,
         "size": 133.3,
         "is_playmaker": true,
@@ -1253,7 +1493,7 @@
       {
         "id": "Cristiana Girelli",
         "short": "Girelli",
-        "x": 53.36,
+        "x": 66.64,
         "y": 35.75,
         "size": 79.8,
         "is_playmaker": false,
@@ -1263,7 +1503,7 @@
       {
         "id": "Sofia Cantore",
         "short": "Cantore",
-        "x": 52.15,
+        "x": 67.85,
         "y": 56.44,
         "size": 66.2,
         "is_playmaker": false,
@@ -1273,7 +1513,7 @@
       {
         "id": "Elisabetta Oliviero",
         "short": "Oliviero",
-        "x": 62.22,
+        "x": 57.78,
         "y": 63.78,
         "size": 76.1,
         "is_playmaker": false,
@@ -1283,7 +1523,7 @@
       {
         "id": "Martina Lenzini",
         "short": "Lenzini",
-        "x": 82.76,
+        "x": 37.24,
         "y": 69.35,
         "size": 76.1,
         "is_playmaker": true,
@@ -1293,7 +1533,7 @@
       {
         "id": "Elena Linari",
         "short": "Linari",
-        "x": 80.04,
+        "x": 39.96,
         "y": 14.49,
         "size": 139.5,
         "is_playmaker": false,
@@ -1303,7 +1543,7 @@
       {
         "id": "Barbara Bonansea",
         "short": "Bonansea",
-        "x": 46.66,
+        "x": 73.34,
         "y": 21.25,
         "size": 73.6,
         "is_playmaker": false,
@@ -1313,7 +1553,7 @@
       {
         "id": "Lucia Di Guglielmo",
         "short": "Guglielmo",
-        "x": 49.59,
+        "x": 70.41,
         "y": 6.85,
         "size": 73.6,
         "is_playmaker": false,
@@ -1332,13 +1572,13 @@
         "source": "Manuela Giugliano",
         "target": "Cristiana Girelli",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuela Giugliano",
         "target": "Martina Lenzini",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arianna Caruso",
@@ -1356,43 +1596,43 @@
         "source": "Arianna Caruso",
         "target": "Elena Linari",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Laura Giuliani",
         "target": "Cecilia Salvai",
         "weight": 23,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Laura Giuliani",
         "target": "Elena Linari",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cecilia Salvai",
         "target": "Cristiana Girelli",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cecilia Salvai",
         "target": "Laura Giuliani",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cecilia Salvai",
         "target": "Elena Linari",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cecilia Salvai",
         "target": "Arianna Caruso",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristiana Girelli",
@@ -1404,61 +1644,61 @@
         "source": "Sofia Cantore",
         "target": "Elisabetta Oliviero",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Elisabetta Oliviero",
         "target": "Martina Lenzini",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Martina Lenzini",
         "target": "Cecilia Salvai",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Martina Lenzini",
         "target": "Elisabetta Oliviero",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elena Linari",
         "target": "Cristiana Girelli",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elena Linari",
         "target": "Barbara Bonansea",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elena Linari",
         "target": "Laura Giuliani",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Elena Linari",
         "target": "Lucia Di Guglielmo",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elena Linari",
         "target": "Cecilia Salvai",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucia Di Guglielmo",
         "target": "Manuela Giugliano",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucia Di Guglielmo",

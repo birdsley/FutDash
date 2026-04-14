@@ -9,6 +9,11 @@
     "away_color": "#be0a25",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.711,
     "xg_away": 1.001,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Axel Ngando",
       "minute": 3,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.1,
@@ -513,7 +520,9 @@
       "player_full": "Gaël Danic",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -525,7 +534,9 @@
       "player_full": "Rachid Ghezzal",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -537,7 +548,9 @@
       "player_full": "Maxime Gonalons",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -549,7 +562,9 @@
       "player_full": "Axel Ngando",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -561,7 +576,9 @@
       "player_full": "Axel Ngando",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.4,
@@ -573,7 +590,9 @@
       "player_full": "Corentin Tolisso",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -585,7 +604,9 @@
       "player_full": "François Kamano",
       "minute": 35,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -597,7 +618,9 @@
       "player_full": "Corentin Tolisso",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -609,7 +632,9 @@
       "player_full": "Evaeverson Lemos da Silva Brandão",
       "minute": 40,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.3,
@@ -621,7 +646,9 @@
       "player_full": "Corentin Tolisso",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -633,7 +660,9 @@
       "player_full": "Corentin Tolisso",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -645,7 +674,9 @@
       "player_full": "Evaeverson Lemos da Silva Brandão",
       "minute": 68,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -657,7 +688,9 @@
       "player_full": "Alexandre Lacazette",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -669,7 +702,9 @@
       "player_full": "Alexandre Lacazette",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -681,7 +716,9 @@
       "player_full": "Mapou Yanga-Mbiwa",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +938,7 @@
       {
         "id": "Samuel Yves Umtiti",
         "short": "Umtiti",
-        "x": 76.59,
+        "x": 43.41,
         "y": 21.77,
         "size": 120.9,
         "is_playmaker": false,
@@ -911,7 +948,7 @@
       {
         "id": "Mapou Yanga-Mbiwa",
         "short": "Yanga-Mbiwa",
-        "x": 80.12,
+        "x": 39.88,
         "y": 51.17,
         "size": 132.8,
         "is_playmaker": false,
@@ -921,7 +958,7 @@
       {
         "id": "Christophe Jallet",
         "short": "Jallet",
-        "x": 56.88,
+        "x": 63.12,
         "y": 69.18,
         "size": 105.4,
         "is_playmaker": false,
@@ -931,7 +968,7 @@
       {
         "id": "Maxime Gonalons",
         "short": "Gonalons",
-        "x": 64.6,
+        "x": 55.4,
         "y": 38.52,
         "size": 117.2,
         "is_playmaker": true,
@@ -941,7 +978,7 @@
       {
         "id": "Corentin Tolisso",
         "short": "Tolisso",
-        "x": 57.61,
+        "x": 62.39,
         "y": 30.56,
         "size": 103.9,
         "is_playmaker": true,
@@ -951,7 +988,7 @@
       {
         "id": "Rachid Ghezzal",
         "short": "Ghezzal",
-        "x": 44.82,
+        "x": 75.18,
         "y": 60.73,
         "size": 75.0,
         "is_playmaker": false,
@@ -961,7 +998,7 @@
       {
         "id": "Jordan Ferri",
         "short": "Ferri",
-        "x": 50.62,
+        "x": 69.38,
         "y": 55.74,
         "size": 67.6,
         "is_playmaker": false,
@@ -971,7 +1008,7 @@
       {
         "id": "Jérémy Morel",
         "short": "Morel",
-        "x": 63.55,
+        "x": 56.45,
         "y": 9.33,
         "size": 87.6,
         "is_playmaker": false,
@@ -981,7 +1018,7 @@
       {
         "id": "Mathieu Valbuena",
         "short": "Valbuena",
-        "x": 37.16,
+        "x": 82.84,
         "y": 24.91,
         "size": 76.5,
         "is_playmaker": false,
@@ -991,7 +1028,7 @@
       {
         "id": "Anthony Lopes",
         "short": "Lopes",
-        "x": 107.28,
+        "x": 12.73,
         "y": 39.38,
         "size": 60.2,
         "is_playmaker": false,
@@ -1001,7 +1038,7 @@
       {
         "id": "Alexandre Lacazette",
         "short": "Lacazette",
-        "x": 34.72,
+        "x": 85.28,
         "y": 36.03,
         "size": 58.0,
         "is_playmaker": false,
@@ -1020,19 +1057,19 @@
         "source": "Samuel Yves Umtiti",
         "target": "Maxime Gonalons",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samuel Yves Umtiti",
         "target": "Corentin Tolisso",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samuel Yves Umtiti",
         "target": "Jérémy Morel",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mapou Yanga-Mbiwa",
@@ -1044,31 +1081,31 @@
         "source": "Mapou Yanga-Mbiwa",
         "target": "Christophe Jallet",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mapou Yanga-Mbiwa",
         "target": "Maxime Gonalons",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christophe Jallet",
         "target": "Rachid Ghezzal",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christophe Jallet",
         "target": "Mapou Yanga-Mbiwa",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christophe Jallet",
         "target": "Jordan Ferri",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christophe Jallet",
@@ -1080,79 +1117,79 @@
         "source": "Maxime Gonalons",
         "target": "Mapou Yanga-Mbiwa",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maxime Gonalons",
         "target": "Christophe Jallet",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maxime Gonalons",
         "target": "Samuel Yves Umtiti",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maxime Gonalons",
         "target": "Rachid Ghezzal",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maxime Gonalons",
         "target": "Corentin Tolisso",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Corentin Tolisso",
         "target": "Maxime Gonalons",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Corentin Tolisso",
         "target": "Mathieu Valbuena",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Corentin Tolisso",
         "target": "Jérémy Morel",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Corentin Tolisso",
         "target": "Alexandre Lacazette",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordan Ferri",
         "target": "Rachid Ghezzal",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérémy Morel",
         "target": "Corentin Tolisso",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérémy Morel",
         "target": "Mathieu Valbuena",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathieu Valbuena",
         "target": "Jérémy Morel",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mathieu Valbuena",
@@ -1164,7 +1201,7 @@
         "source": "Anthony Lopes",
         "target": "Mapou Yanga-Mbiwa",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandre Lacazette",
@@ -1176,7 +1213,7 @@
         "source": "Alexandre Lacazette",
         "target": "Corentin Tolisso",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

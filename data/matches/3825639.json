@@ -9,6 +9,11 @@
     "away_color": "#f7d130",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.299,
     "xg_away": 0.318,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Sergio Ezequiel Araújo",
       "minute": 8,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -513,7 +520,9 @@
       "player_full": "Bruno Soriano Llido",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.4,
@@ -525,7 +534,9 @@
       "player_full": "Samuel Castillejo Azuaga",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.4,
@@ -537,7 +548,9 @@
       "player_full": "Jonathan Viera Ramos",
       "minute": 40,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.1,
@@ -549,7 +562,9 @@
       "player_full": "David Simón Rodríguez Santana",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.6,
@@ -561,7 +576,9 @@
       "player_full": "Cédric Bakambu",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -573,7 +590,9 @@
       "player_full": "Nabil El Zhar",
       "minute": 57,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -585,7 +604,9 @@
       "player_full": "Hernán Daniel Santana Trujillo",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -597,7 +618,9 @@
       "player_full": "Mario Gaspar Pérez Martínez",
       "minute": 84,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.6,
@@ -609,7 +632,9 @@
       "player_full": "Samuel Castillejo Azuaga",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -621,7 +646,9 @@
       "player_full": "Aythami Artiles Oliva",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -633,7 +660,9 @@
       "player_full": "Pedro Bigas Rigo",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +954,7 @@
       {
         "id": "Mario Gaspar Pérez Martínez",
         "short": "Martínez",
-        "x": 49.56,
+        "x": 70.44,
         "y": 73.62,
         "size": 90.7,
         "is_playmaker": false,
@@ -935,7 +964,7 @@
       {
         "id": "Matías Nahuel Leiva Esquivel",
         "short": "Esquivel",
-        "x": 51.48,
+        "x": 68.52,
         "y": 55.12,
         "size": 63.9,
         "is_playmaker": false,
@@ -945,7 +974,7 @@
       {
         "id": "Denis Suárez Fernández",
         "short": "Fernández",
-        "x": 36.49,
+        "x": 83.51,
         "y": 39.79,
         "size": 86.8,
         "is_playmaker": true,
@@ -955,7 +984,7 @@
       {
         "id": "Víctor Ruíz Torre",
         "short": "Torre",
-        "x": 76.2,
+        "x": 43.8,
         "y": 30.65,
         "size": 125.1,
         "is_playmaker": false,
@@ -965,7 +994,7 @@
       {
         "id": "Bruno Soriano Llido",
         "short": "Llido",
-        "x": 58.6,
+        "x": 61.4,
         "y": 30.55,
         "size": 132.7,
         "is_playmaker": true,
@@ -975,7 +1004,7 @@
       {
         "id": "Samuel Castillejo Azuaga",
         "short": "Azuaga",
-        "x": 49.15,
+        "x": 70.85,
         "y": 23.94,
         "size": 88.1,
         "is_playmaker": false,
@@ -985,7 +1014,7 @@
       {
         "id": "Jaume Vicent Costa Jordá",
         "short": "Jordá",
-        "x": 58.19,
+        "x": 61.81,
         "y": 7.84,
         "size": 141.6,
         "is_playmaker": false,
@@ -995,7 +1024,7 @@
       {
         "id": "Jonathan dos Santos Ramírez",
         "short": "Ramírez",
-        "x": 59.6,
+        "x": 60.4,
         "y": 49.29,
         "size": 71.6,
         "is_playmaker": false,
@@ -1005,7 +1034,7 @@
       {
         "id": "Daniele Bonera",
         "short": "Bonera",
-        "x": 71.95,
+        "x": 48.05,
         "y": 56.6,
         "size": 81.8,
         "is_playmaker": false,
@@ -1015,7 +1044,7 @@
       {
         "id": "Cédric Bakambu",
         "short": "Bakambu",
-        "x": 47.76,
+        "x": 72.24,
         "y": 39.41,
         "size": 62.6,
         "is_playmaker": false,
@@ -1025,7 +1054,7 @@
       {
         "id": "Alphonse Areola",
         "short": "Areola",
-        "x": 110.61,
+        "x": 9.39,
         "y": 43.1,
         "size": 60.1,
         "is_playmaker": false,
@@ -1044,7 +1073,7 @@
         "source": "Mario Gaspar Pérez Martínez",
         "target": "Denis Suárez Fernández",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mario Gaspar Pérez Martínez",
@@ -1056,31 +1085,31 @@
         "source": "Denis Suárez Fernández",
         "target": "Mario Gaspar Pérez Martínez",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Víctor Ruíz Torre",
         "target": "Bruno Soriano Llido",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Ruíz Torre",
         "target": "Daniele Bonera",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Ruíz Torre",
         "target": "Jaume Vicent Costa Jordá",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Ruíz Torre",
         "target": "Alphonse Areola",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bruno Soriano Llido",
@@ -1092,43 +1121,43 @@
         "source": "Bruno Soriano Llido",
         "target": "Denis Suárez Fernández",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bruno Soriano Llido",
         "target": "Samuel Castillejo Azuaga",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bruno Soriano Llido",
         "target": "Víctor Ruíz Torre",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Samuel Castillejo Azuaga",
         "target": "Bruno Soriano Llido",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Samuel Castillejo Azuaga",
         "target": "Jaume Vicent Costa Jordá",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaume Vicent Costa Jordá",
         "target": "Denis Suárez Fernández",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaume Vicent Costa Jordá",
         "target": "Víctor Ruíz Torre",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaume Vicent Costa Jordá",
@@ -1140,19 +1169,19 @@
         "source": "Jaume Vicent Costa Jordá",
         "target": "Samuel Castillejo Azuaga",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonathan dos Santos Ramírez",
         "target": "Mario Gaspar Pérez Martínez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonathan dos Santos Ramírez",
         "target": "Víctor Ruíz Torre",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonathan dos Santos Ramírez",
@@ -1164,31 +1193,31 @@
         "source": "Daniele Bonera",
         "target": "Bruno Soriano Llido",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniele Bonera",
         "target": "Víctor Ruíz Torre",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniele Bonera",
         "target": "Alphonse Areola",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alphonse Areola",
         "target": "Víctor Ruíz Torre",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alphonse Areola",
         "target": "Daniele Bonera",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

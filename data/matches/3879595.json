@@ -9,6 +9,11 @@
     "away_color": "#a767d7",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.098,
     "xg_away": 1.709,
     "shots_home": 2,
@@ -501,7 +506,9 @@
       "player_full": "Giuseppe Rossi",
       "minute": 5,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.8,
@@ -513,7 +520,9 @@
       "player_full": "Josip Iličić",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.4,
@@ -525,7 +534,9 @@
       "player_full": "Matías Vecino Falero",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -537,7 +548,9 @@
       "player_full": "Davide Astori",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -549,7 +562,9 @@
       "player_full": "Nikola Kalinić",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.3,
@@ -561,7 +576,9 @@
       "player_full": "Nikola Kalinić",
       "minute": 24,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -573,7 +590,9 @@
       "player_full": "Boško Janković",
       "minute": 35,
       "technique": "Overhead Kick",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -585,7 +604,9 @@
       "player_full": "Boško Janković",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.4,
@@ -597,7 +618,9 @@
       "player_full": "Josip Iličić",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.2,
@@ -609,7 +632,9 @@
       "player_full": "Nikola Kalinić",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.4,
@@ -621,7 +646,9 @@
       "player_full": "Borja Valero Iglesias",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +940,7 @@
       {
         "id": "Borja Valero Iglesias",
         "short": "Iglesias",
-        "x": 54.07,
+        "x": 65.93,
         "y": 38.79,
         "size": 136.9,
         "is_playmaker": true,
@@ -923,7 +950,7 @@
       {
         "id": "Matías Vecino Falero",
         "short": "Falero",
-        "x": 61.43,
+        "x": 58.57,
         "y": 32.48,
         "size": 130.1,
         "is_playmaker": false,
@@ -933,7 +960,7 @@
       {
         "id": "Manuel Pasqual",
         "short": "Pasqual",
-        "x": 55.79,
+        "x": 64.21,
         "y": 8.4,
         "size": 112.3,
         "is_playmaker": false,
@@ -943,7 +970,7 @@
       {
         "id": "Gonzalo Javier Rodríguez",
         "short": "Rodríguez",
-        "x": 79.98,
+        "x": 40.02,
         "y": 47.74,
         "size": 89.8,
         "is_playmaker": false,
@@ -953,7 +980,7 @@
       {
         "id": "Davide Astori",
         "short": "Astori",
-        "x": 76.11,
+        "x": 43.89,
         "y": 20.1,
         "size": 128.7,
         "is_playmaker": false,
@@ -963,7 +990,7 @@
       {
         "id": "Facundo Sebastián Roncaglia",
         "short": "Roncaglia",
-        "x": 68.63,
+        "x": 51.37,
         "y": 64.23,
         "size": 97.3,
         "is_playmaker": true,
@@ -973,7 +1000,7 @@
       {
         "id": "Jakub Błaszczykowski",
         "short": "Błaszczykow",
-        "x": 48.66,
+        "x": 71.34,
         "y": 71.71,
         "size": 65.2,
         "is_playmaker": false,
@@ -983,7 +1010,7 @@
       {
         "id": "Josip Iličić",
         "short": "Iličić",
-        "x": 50.35,
+        "x": 69.65,
         "y": 47.68,
         "size": 65.9,
         "is_playmaker": false,
@@ -993,7 +1020,7 @@
       {
         "id": "Anton Ciprian Tătărușanu",
         "short": "Tătărușanu",
-        "x": 109.44,
+        "x": 10.56,
         "y": 37.43,
         "size": 59.8,
         "is_playmaker": false,
@@ -1003,7 +1030,7 @@
       {
         "id": "Nikola Kalinić",
         "short": "Kalinić",
-        "x": 47.54,
+        "x": 72.46,
         "y": 21.22,
         "size": 61.1,
         "is_playmaker": false,
@@ -1013,7 +1040,7 @@
       {
         "id": "Giuseppe Rossi",
         "short": "Rossi",
-        "x": 38.81,
+        "x": 81.19,
         "y": 33.55,
         "size": 57.7,
         "is_playmaker": false,
@@ -1026,7 +1053,7 @@
         "source": "Borja Valero Iglesias",
         "target": "Matías Vecino Falero",
         "weight": 22,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Borja Valero Iglesias",
@@ -1044,43 +1071,43 @@
         "source": "Borja Valero Iglesias",
         "target": "Facundo Sebastián Roncaglia",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Borja Valero Iglesias",
         "target": "Giuseppe Rossi",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matías Vecino Falero",
         "target": "Davide Astori",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matías Vecino Falero",
         "target": "Manuel Pasqual",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matías Vecino Falero",
         "target": "Borja Valero Iglesias",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Pasqual",
         "target": "Matías Vecino Falero",
         "weight": 18,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Manuel Pasqual",
         "target": "Davide Astori",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Manuel Pasqual",
@@ -1098,25 +1125,25 @@
         "source": "Gonzalo Javier Rodríguez",
         "target": "Facundo Sebastián Roncaglia",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davide Astori",
         "target": "Matías Vecino Falero",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davide Astori",
         "target": "Borja Valero Iglesias",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davide Astori",
         "target": "Manuel Pasqual",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davide Astori",
@@ -1128,43 +1155,43 @@
         "source": "Davide Astori",
         "target": "Anton Ciprian Tătărușanu",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Davide Astori",
         "target": "Nikola Kalinić",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Facundo Sebastián Roncaglia",
         "target": "Gonzalo Javier Rodríguez",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Facundo Sebastián Roncaglia",
         "target": "Borja Valero Iglesias",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Facundo Sebastián Roncaglia",
         "target": "Jakub Błaszczykowski",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Facundo Sebastián Roncaglia",
         "target": "Matías Vecino Falero",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jakub Błaszczykowski",
         "target": "Borja Valero Iglesias",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Josip Iličić",
@@ -1176,19 +1203,19 @@
         "source": "Nikola Kalinić",
         "target": "Giuseppe Rossi",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Giuseppe Rossi",
         "target": "Nikola Kalinić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Giuseppe Rossi",
         "target": "Borja Valero Iglesias",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

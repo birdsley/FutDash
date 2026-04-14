@@ -9,6 +9,11 @@
     "away_color": "#1e8449",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.156,
     "xg_away": 0.644,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Erick Antonio Pulgar Farfán",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -513,7 +520,9 @@
       "player_full": "Mattia Destro",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -525,7 +534,9 @@
       "player_full": "Nicola Sansone",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -537,7 +548,9 @@
       "player_full": "Filippo Falco",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -549,7 +562,9 @@
       "player_full": "Simone Missiroli",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.3,
@@ -561,7 +576,9 @@
       "player_full": "Gregoire Defrel",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -573,7 +590,9 @@
       "player_full": "Matteo Politano",
       "minute": 44,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.4,
@@ -585,7 +604,9 @@
       "player_full": "Joseph Alfred Duncan",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -597,7 +618,9 @@
       "player_full": "Alex Ferrari",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -609,7 +632,9 @@
       "player_full": "Matteo Politano",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -621,7 +646,9 @@
       "player_full": "Matteo Politano",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -633,7 +660,9 @@
       "player_full": "Erick Antonio Pulgar Farfán",
       "minute": 56,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -645,7 +674,9 @@
       "player_full": "Lorenzo Crisetig",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.5,
@@ -657,7 +688,9 @@
       "player_full": "Franco Brienza",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -669,7 +702,9 @@
       "player_full": "Antonio Floro Flores",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -681,7 +716,9 @@
       "player_full": "Antonio Floro Flores",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Francesco Acerbi",
         "short": "Acerbi",
-        "x": 80.38,
+        "x": 39.62,
         "y": 24.44,
         "size": 127.6,
         "is_playmaker": true,
@@ -959,7 +996,7 @@
       {
         "id": "Paolo Cannavaro",
         "short": "Cannavaro",
-        "x": 80.64,
+        "x": 39.36,
         "y": 53.69,
         "size": 112.5,
         "is_playmaker": false,
@@ -969,7 +1006,7 @@
       {
         "id": "Šime Vrsaljko",
         "short": "Vrsaljko",
-        "x": 69.59,
+        "x": 50.41,
         "y": 71.41,
         "size": 111.6,
         "is_playmaker": true,
@@ -979,7 +1016,7 @@
       {
         "id": "Andrea Consigli",
         "short": "Consigli",
-        "x": 108.16,
+        "x": 11.84,
         "y": 41.06,
         "size": 78.6,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Joseph Alfred Duncan",
         "short": "Duncan",
-        "x": 52.61,
+        "x": 67.39,
         "y": 23.64,
         "size": 105.0,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Gregoire Defrel",
         "short": "Defrel",
-        "x": 44.51,
+        "x": 75.49,
         "y": 40.64,
         "size": 66.3,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Simone Missiroli",
         "short": "Missiroli",
-        "x": 53.07,
+        "x": 66.93,
         "y": 60.68,
         "size": 85.2,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "Nicola Sansone",
         "short": "Sansone",
-        "x": 47.83,
+        "x": 72.17,
         "y": 24.01,
         "size": 80.5,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "Federico Peluso",
         "short": "Peluso",
-        "x": 59.02,
+        "x": 60.98,
         "y": 11.06,
         "size": 83.3,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Matteo Politano",
         "short": "Politano",
-        "x": 48.78,
+        "x": 71.22,
         "y": 58.7,
         "size": 70.1,
         "is_playmaker": false,
@@ -1049,7 +1086,7 @@
       {
         "id": "Francesco Magnanelli",
         "short": "Magnanelli",
-        "x": 65.49,
+        "x": 54.51,
         "y": 42.97,
         "size": 84.2,
         "is_playmaker": false,
@@ -1068,31 +1105,31 @@
         "source": "Francesco Acerbi",
         "target": "Federico Peluso",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Acerbi",
         "target": "Joseph Alfred Duncan",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Acerbi",
         "target": "Šime Vrsaljko",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Acerbi",
         "target": "Andrea Consigli",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paolo Cannavaro",
         "target": "Šime Vrsaljko",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paolo Cannavaro",
@@ -1104,103 +1141,103 @@
         "source": "Paolo Cannavaro",
         "target": "Simone Missiroli",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Simone Missiroli",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Matteo Politano",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Francesco Magnanelli",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Paolo Cannavaro",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrea Consigli",
         "target": "Francesco Acerbi",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrea Consigli",
         "target": "Šime Vrsaljko",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joseph Alfred Duncan",
         "target": "Gregoire Defrel",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joseph Alfred Duncan",
         "target": "Nicola Sansone",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Simone Missiroli",
         "target": "Francesco Magnanelli",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Simone Missiroli",
         "target": "Matteo Politano",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicola Sansone",
         "target": "Joseph Alfred Duncan",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Federico Peluso",
         "target": "Francesco Acerbi",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Federico Peluso",
         "target": "Nicola Sansone",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Federico Peluso",
         "target": "Joseph Alfred Duncan",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Magnanelli",
         "target": "Paolo Cannavaro",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francesco Magnanelli",
         "target": "Joseph Alfred Duncan",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

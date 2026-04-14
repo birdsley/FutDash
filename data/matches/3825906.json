@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.741,
     "xg_away": 0.665,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Fernando Llorente Torres",
       "minute": 5,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -513,7 +520,9 @@
       "player_full": "Luis Alberto Romero Alconchel",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -525,7 +534,9 @@
       "player_full": "Fernando Llorente Torres",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.4,
@@ -537,7 +548,9 @@
       "player_full": "Fernando Llorente Torres",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.3,
@@ -549,7 +562,9 @@
       "player_full": "Vicente Iborra De La Fuente",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.8,
@@ -561,7 +576,9 @@
       "player_full": "Fernando Llorente Torres",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.6,
@@ -573,7 +590,9 @@
       "player_full": "Vicente Iborra De La Fuente",
       "minute": 29,
       "technique": "Backheel",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -585,7 +604,9 @@
       "player_full": "Fayçal Fajr",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -597,7 +618,9 @@
       "player_full": "Vicente Iborra De La Fuente",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -609,7 +632,9 @@
       "player_full": "Fayçal Fajr",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -621,7 +646,9 @@
       "player_full": "Fernando Llorente Torres",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -633,7 +660,9 @@
       "player_full": "Yevhen Konoplyanka",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -645,7 +674,9 @@
       "player_full": "Lucas Pérez Martínez",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.7,
@@ -657,7 +688,9 @@
       "player_full": "Juan Muñoz Muñoz",
       "minute": 74,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -669,7 +702,9 @@
       "player_full": "Oriol Riera Magem",
       "minute": 80,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -681,7 +716,9 @@
       "player_full": "Sergio Escudero Palomo",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -693,7 +730,9 @@
       "player_full": "Daniel Filipe Martins Carriço",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.4143
       },
       {
-        "id": "Fernando Llorente Torres",
-        "short": "Torres",
-        "x": 92.43,
-        "y": 55.34,
-        "size": 58.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0141
-      },
-      {
         "id": "Vicente Iborra De La Fuente",
         "short": "Fuente",
         "x": 70.26,
@@ -807,6 +836,16 @@
         "is_playmaker": true,
         "betweenness": 0.3333,
         "eigenvector": 0.0307
+      },
+      {
+        "id": "Fernando Llorente Torres",
+        "short": "Torres",
+        "x": 92.43,
+        "y": 55.34,
+        "size": 58.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0141
       }
     ],
     "edges": [
@@ -962,30 +1001,12 @@
       },
       {
         "source": "José Antonio Reyes Calderón",
-        "target": "Fernando Llorente Torres",
+        "target": "Vicente Iborra De La Fuente",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Antonio Reyes Calderón",
-        "target": "Vicente Iborra De La Fuente",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Fernando Llorente Torres",
-        "target": "José Antonio Reyes Calderón",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Fernando Llorente Torres",
-        "target": "Vicente Iborra De La Fuente",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Vicente Iborra De La Fuente",
         "target": "Fernando Llorente Torres",
         "weight": 1,
         "direction": "forward"
@@ -1001,6 +1022,24 @@
         "target": "José Antonio Reyes Calderón",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Vicente Iborra De La Fuente",
+        "target": "Fernando Llorente Torres",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Fernando Llorente Torres",
+        "target": "José Antonio Reyes Calderón",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Fernando Llorente Torres",
+        "target": "Vicente Iborra De La Fuente",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1009,7 +1048,7 @@
       {
         "id": "Juan Francisco Moreno Fuertes",
         "short": "Fuertes",
-        "x": 57.82,
+        "x": 62.18,
         "y": 69.85,
         "size": 104.7,
         "is_playmaker": false,
@@ -1019,7 +1058,7 @@
       {
         "id": "Alberto Lopo García",
         "short": "García",
-        "x": 79.46,
+        "x": 40.54,
         "y": 58.74,
         "size": 113.4,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Celso Borges Mora",
         "short": "Mora",
-        "x": 51.29,
+        "x": 68.71,
         "y": 34.31,
         "size": 105.9,
         "is_playmaker": true,
@@ -1039,7 +1078,7 @@
       {
         "id": "Fayçal Fajr",
         "short": "Fajr",
-        "x": 51.42,
+        "x": 68.58,
         "y": 33.9,
         "size": 113.4,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Pedro Mosquera Parada",
         "short": "Parada",
-        "x": 64.9,
+        "x": 55.1,
         "y": 37.8,
         "size": 142.0,
         "is_playmaker": true,
@@ -1059,7 +1098,7 @@
       {
         "id": "Sidnei Rechel da Silva Júnior",
         "short": "Júnior",
-        "x": 79.31,
+        "x": 40.69,
         "y": 32.43,
         "size": 103.4,
         "is_playmaker": false,
@@ -1069,7 +1108,7 @@
       {
         "id": "Fernando Navarro i Corbacho",
         "short": "Corbacho",
-        "x": 62.16,
+        "x": 57.84,
         "y": 8.95,
         "size": 72.4,
         "is_playmaker": false,
@@ -1079,7 +1118,7 @@
       {
         "id": "Manuel Fernández Muñíz",
         "short": "Muñíz",
-        "x": 108.36,
+        "x": 11.64,
         "y": 39.17,
         "size": 67.4,
         "is_playmaker": false,
@@ -1087,9 +1126,19 @@
         "eigenvector": 0.0833
       },
       {
+        "id": "Luis Carlos Correia Pinto",
+        "short": "Pinto",
+        "x": 49.7,
+        "y": 8.77,
+        "size": 60.0,
+        "is_playmaker": false,
+        "betweenness": 0.1611,
+        "eigenvector": 0.0212
+      },
+      {
         "id": "Luis Alberto Romero Alconchel",
         "short": "Alconchel",
-        "x": 44.7,
+        "x": 75.3,
         "y": 50.7,
         "size": 60.0,
         "is_playmaker": false,
@@ -1099,22 +1148,12 @@
       {
         "id": "Lucas Pérez Martínez",
         "short": "Martínez",
-        "x": 41.12,
+        "x": 78.88,
         "y": 39.45,
         "size": 62.5,
         "is_playmaker": false,
         "betweenness": 0.1778,
         "eigenvector": 0.0381
-      },
-      {
-        "id": "Luis Carlos Correia Pinto",
-        "short": "Pinto",
-        "x": 70.3,
-        "y": 8.77,
-        "size": 60.0,
-        "is_playmaker": false,
-        "betweenness": 0.1611,
-        "eigenvector": 0.0212
       }
     ],
     "edges": [
@@ -1122,37 +1161,37 @@
         "source": "Juan Francisco Moreno Fuertes",
         "target": "Alberto Lopo García",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Francisco Moreno Fuertes",
         "target": "Pedro Mosquera Parada",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Francisco Moreno Fuertes",
         "target": "Fayçal Fajr",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Francisco Moreno Fuertes",
         "target": "Celso Borges Mora",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alberto Lopo García",
         "target": "Pedro Mosquera Parada",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alberto Lopo García",
         "target": "Juan Francisco Moreno Fuertes",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alberto Lopo García",
@@ -1164,7 +1203,7 @@
         "source": "Alberto Lopo García",
         "target": "Manuel Fernández Muñíz",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Celso Borges Mora",
@@ -1176,25 +1215,25 @@
         "source": "Celso Borges Mora",
         "target": "Pedro Mosquera Parada",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Celso Borges Mora",
         "target": "Luis Alberto Romero Alconchel",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Celso Borges Mora",
         "target": "Lucas Pérez Martínez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fayçal Fajr",
         "target": "Pedro Mosquera Parada",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fayçal Fajr",
@@ -1206,43 +1245,43 @@
         "source": "Fayçal Fajr",
         "target": "Juan Francisco Moreno Fuertes",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fayçal Fajr",
         "target": "Lucas Pérez Martínez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Fayçal Fajr",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Sidnei Rechel da Silva Júnior",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Celso Borges Mora",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Alberto Lopo García",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Juan Francisco Moreno Fuertes",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Mosquera Parada",
@@ -1254,7 +1293,7 @@
         "source": "Sidnei Rechel da Silva Júnior",
         "target": "Fernando Navarro i Corbacho",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sidnei Rechel da Silva Júnior",
@@ -1266,30 +1305,42 @@
         "source": "Sidnei Rechel da Silva Júnior",
         "target": "Pedro Mosquera Parada",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sidnei Rechel da Silva Júnior",
         "target": "Fayçal Fajr",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sidnei Rechel da Silva Júnior",
         "target": "Luis Carlos Correia Pinto",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Navarro i Corbacho",
         "target": "Luis Carlos Correia Pinto",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Manuel Fernández Muñíz",
         "target": "Celso Borges Mora",
         "weight": 5,
+        "direction": "forward"
+      },
+      {
+        "source": "Luis Carlos Correia Pinto",
+        "target": "Fernando Navarro i Corbacho",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Luis Carlos Correia Pinto",
+        "target": "Sidnei Rechel da Silva Júnior",
+        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1302,7 +1353,7 @@
         "source": "Luis Alberto Romero Alconchel",
         "target": "Celso Borges Mora",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Pérez Martínez",
@@ -1314,25 +1365,13 @@
         "source": "Lucas Pérez Martínez",
         "target": "Celso Borges Mora",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Pérez Martínez",
         "target": "Fayçal Fajr",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Luis Carlos Correia Pinto",
-        "target": "Fernando Navarro i Corbacho",
-        "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Luis Carlos Correia Pinto",
-        "target": "Sidnei Rechel da Silva Júnior",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

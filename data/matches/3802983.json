@@ -9,6 +9,11 @@
     "away_color": "#009bdb",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.293,
     "xg_away": 0.813,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 11,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -513,7 +520,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.2,
@@ -525,7 +534,9 @@
       "player_full": "Duje Ćaleta-Car",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.7,
@@ -537,7 +548,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -549,7 +562,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 37,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -561,7 +576,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -573,7 +590,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -585,7 +604,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -597,7 +618,9 @@
       "player_full": "Mattéo Guendouzi Olié",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.7,
@@ -609,7 +632,9 @@
       "player_full": "Mattéo Guendouzi Olié",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +926,7 @@
       {
         "id": "William Saliba",
         "short": "Saliba",
-        "x": 80.97,
+        "x": 39.03,
         "y": 64.07,
         "size": 123.6,
         "is_playmaker": true,
@@ -911,7 +936,7 @@
       {
         "id": "Valentin Rongier",
         "short": "Rongier",
-        "x": 65.41,
+        "x": 54.59,
         "y": 69.92,
         "size": 89.0,
         "is_playmaker": false,
@@ -921,7 +946,7 @@
       {
         "id": "Boubacar Kamara",
         "short": "Kamara",
-        "x": 62.7,
+        "x": 57.3,
         "y": 39.22,
         "size": 136.0,
         "is_playmaker": true,
@@ -931,7 +956,7 @@
       {
         "id": "Dimitri Payet",
         "short": "Payet",
-        "x": 49.25,
+        "x": 70.75,
         "y": 39.89,
         "size": 91.6,
         "is_playmaker": false,
@@ -941,7 +966,7 @@
       {
         "id": "Duje Ćaleta-Car",
         "short": "Ćaleta-Car",
-        "x": 84.64,
+        "x": 35.36,
         "y": 31.16,
         "size": 106.0,
         "is_playmaker": false,
@@ -951,7 +976,7 @@
       {
         "id": "Luan Peres Petroni",
         "short": "Petroni",
-        "x": 75.3,
+        "x": 44.7,
         "y": 13.65,
         "size": 92.3,
         "is_playmaker": false,
@@ -961,7 +986,7 @@
       {
         "id": "Pau López Sabata",
         "short": "Sabata",
-        "x": 106.69,
+        "x": 13.31,
         "y": 41.98,
         "size": 84.4,
         "is_playmaker": false,
@@ -971,7 +996,7 @@
       {
         "id": "Pape Gueye",
         "short": "Gueye",
-        "x": 52.45,
+        "x": 67.55,
         "y": 21.67,
         "size": 79.2,
         "is_playmaker": false,
@@ -981,7 +1006,7 @@
       {
         "id": "Mattéo Guendouzi Olié",
         "short": "Olié",
-        "x": 57.02,
+        "x": 62.98,
         "y": 53.11,
         "size": 77.9,
         "is_playmaker": false,
@@ -991,7 +1016,7 @@
       {
         "id": "Gerson Santos da Silva",
         "short": "Silva",
-        "x": 48.01,
+        "x": 71.99,
         "y": 9.83,
         "size": 67.4,
         "is_playmaker": false,
@@ -1001,7 +1026,7 @@
       {
         "id": "Cengiz Ünder",
         "short": "Ünder",
-        "x": 50.63,
+        "x": 69.37,
         "y": 66.41,
         "size": 57.6,
         "is_playmaker": false,
@@ -1014,13 +1039,13 @@
         "source": "William Saliba",
         "target": "Valentin Rongier",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "William Saliba",
         "target": "Boubacar Kamara",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "William Saliba",
@@ -1032,151 +1057,151 @@
         "source": "William Saliba",
         "target": "Pau López Sabata",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Valentin Rongier",
         "target": "William Saliba",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Valentin Rongier",
         "target": "Mattéo Guendouzi Olié",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Valentin Rongier",
         "target": "Dimitri Payet",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Valentin Rongier",
         "target": "Cengiz Ünder",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Boubacar Kamara",
         "target": "Dimitri Payet",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Boubacar Kamara",
         "target": "William Saliba",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Boubacar Kamara",
         "target": "Duje Ćaleta-Car",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Boubacar Kamara",
         "target": "Pape Gueye",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Boubacar Kamara",
         "target": "Luan Peres Petroni",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dimitri Payet",
         "target": "Boubacar Kamara",
         "weight": 18,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dimitri Payet",
         "target": "Mattéo Guendouzi Olié",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Duje Ćaleta-Car",
         "target": "Luan Peres Petroni",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Duje Ćaleta-Car",
         "target": "Pau López Sabata",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luan Peres Petroni",
         "target": "Duje Ćaleta-Car",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luan Peres Petroni",
         "target": "Boubacar Kamara",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pau López Sabata",
         "target": "William Saliba",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pau López Sabata",
         "target": "Duje Ćaleta-Car",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pape Gueye",
         "target": "Boubacar Kamara",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mattéo Guendouzi Olié",
         "target": "William Saliba",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mattéo Guendouzi Olié",
         "target": "Cengiz Ünder",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerson Santos da Silva",
         "target": "Luan Peres Petroni",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gerson Santos da Silva",
         "target": "Pape Gueye",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cengiz Ünder",
         "target": "Mattéo Guendouzi Olié",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cengiz Ünder",
         "target": "Valentin Rongier",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

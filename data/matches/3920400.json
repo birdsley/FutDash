@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 3,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.231,
     "xg_away": 0.249,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Abdou Diallo",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -513,7 +520,9 @@
       "player_full": "Nicolas Moumi Ngamaleu",
       "minute": 5,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -525,7 +534,9 @@
       "player_full": "Ismaïla Sarr",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -537,7 +548,9 @@
       "player_full": "Sadio Mané",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.8,
@@ -549,7 +562,9 @@
       "player_full": "Nouhou Tolo",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -561,7 +576,9 @@
       "player_full": "Olivier Michel Kemen",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -573,7 +590,9 @@
       "player_full": "Habibou Mouhamadou Diallo",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -585,7 +604,9 @@
       "player_full": "Jean-Charles Castelletto",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -597,7 +618,9 @@
       "player_full": "Georges-Kévin Nkoudou Mbida",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -609,7 +632,9 @@
       "player_full": "Sadio Mané",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -847,7 +872,7 @@
       {
         "id": "Jean-Charles Castelletto",
         "short": "Castelletto",
-        "x": 68.99,
+        "x": 51.01,
         "y": 38.75,
         "size": 131.6,
         "is_playmaker": false,
@@ -857,7 +882,7 @@
       {
         "id": "Christopher Wooh",
         "short": "Wooh",
-        "x": 77.57,
+        "x": 42.43,
         "y": 38.52,
         "size": 123.6,
         "is_playmaker": false,
@@ -867,7 +892,7 @@
       {
         "id": "André-Frank Zambo Anguissa",
         "short": "Anguissa",
-        "x": 61.5,
+        "x": 58.5,
         "y": 31.38,
         "size": 117.9,
         "is_playmaker": false,
@@ -877,7 +902,7 @@
       {
         "id": "Yvan Neyou Noupa",
         "short": "Noupa",
-        "x": 67.43,
+        "x": 52.57,
         "y": 37.11,
         "size": 124.7,
         "is_playmaker": true,
@@ -887,7 +912,7 @@
       {
         "id": "Nouhou Tolo",
         "short": "Tolo",
-        "x": 62.12,
+        "x": 57.88,
         "y": 12.95,
         "size": 87.0,
         "is_playmaker": false,
@@ -897,7 +922,7 @@
       {
         "id": "André Onana",
         "short": "Onana",
-        "x": 102.78,
+        "x": 17.22,
         "y": 42.1,
         "size": 68.7,
         "is_playmaker": false,
@@ -907,7 +932,7 @@
       {
         "id": "Georges-Kévin Nkoudou Mbida",
         "short": "Mbida",
-        "x": 39.84,
+        "x": 80.16,
         "y": 13.43,
         "size": 90.4,
         "is_playmaker": false,
@@ -917,7 +942,7 @@
       {
         "id": "Enzo Gianni Tchato Mbiayi",
         "short": "Mbiayi",
-        "x": 57.38,
+        "x": 62.62,
         "y": 72.31,
         "size": 74.4,
         "is_playmaker": false,
@@ -927,7 +952,7 @@
       {
         "id": "Nicolas Moumi Ngamaleu",
         "short": "Ngamaleu",
-        "x": 48.8,
+        "x": 71.2,
         "y": 61.91,
         "size": 64.1,
         "is_playmaker": false,
@@ -937,7 +962,7 @@
       {
         "id": "Olivier Michel Kemen",
         "short": "Kemen",
-        "x": 60.11,
+        "x": 59.89,
         "y": 35.53,
         "size": 63.0,
         "is_playmaker": true,
@@ -947,7 +972,7 @@
       {
         "id": "Frank Magri",
         "short": "Magri",
-        "x": 51.29,
+        "x": 68.71,
         "y": 48.99,
         "size": 59.6,
         "is_playmaker": false,
@@ -960,67 +985,67 @@
         "source": "Jean-Charles Castelletto",
         "target": "Christopher Wooh",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jean-Charles Castelletto",
         "target": "André-Frank Zambo Anguissa",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jean-Charles Castelletto",
         "target": "Georges-Kévin Nkoudou Mbida",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jean-Charles Castelletto",
         "target": "Nouhou Tolo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christopher Wooh",
         "target": "Jean-Charles Castelletto",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christopher Wooh",
         "target": "André-Frank Zambo Anguissa",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christopher Wooh",
         "target": "Yvan Neyou Noupa",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
         "target": "Jean-Charles Castelletto",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
         "target": "Yvan Neyou Noupa",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
         "target": "Georges-Kévin Nkoudou Mbida",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yvan Neyou Noupa",
         "target": "Christopher Wooh",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yvan Neyou Noupa",
@@ -1032,73 +1057,73 @@
         "source": "Yvan Neyou Noupa",
         "target": "André-Frank Zambo Anguissa",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yvan Neyou Noupa",
         "target": "Olivier Michel Kemen",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yvan Neyou Noupa",
         "target": "Nouhou Tolo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nouhou Tolo",
         "target": "Yvan Neyou Noupa",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nouhou Tolo",
         "target": "Georges-Kévin Nkoudou Mbida",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Onana",
         "target": "Jean-Charles Castelletto",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Onana",
         "target": "Christopher Wooh",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Georges-Kévin Nkoudou Mbida",
         "target": "André-Frank Zambo Anguissa",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Georges-Kévin Nkoudou Mbida",
         "target": "Nouhou Tolo",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Enzo Gianni Tchato Mbiayi",
         "target": "Yvan Neyou Noupa",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Enzo Gianni Tchato Mbiayi",
         "target": "Nicolas Moumi Ngamaleu",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Enzo Gianni Tchato Mbiayi",
         "target": "Christopher Wooh",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicolas Moumi Ngamaleu",
@@ -1110,7 +1135,7 @@
         "source": "Olivier Michel Kemen",
         "target": "Frank Magri",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frank Magri",
@@ -1122,7 +1147,7 @@
         "source": "Frank Magri",
         "target": "Olivier Michel Kemen",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

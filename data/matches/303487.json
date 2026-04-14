@@ -9,6 +9,11 @@
     "away_color": "#81b8df",
     "score_home": 4,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.559,
     "xg_away": 0.268,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 13,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -513,7 +520,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.5,
@@ -525,7 +534,9 @@
       "player_full": "Iago Aspas Juncal",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.8,
@@ -537,7 +548,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -549,7 +562,9 @@
       "player_full": "Lucas René Olaza Catrofe",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.5,
@@ -561,7 +576,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -573,7 +590,9 @@
       "player_full": "Ousmane Dembélé",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.4,
@@ -585,7 +604,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -597,7 +618,9 @@
       "player_full": "Pione Sisto Ifolo Emirmija",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.1,
@@ -609,7 +632,9 @@
       "player_full": "Francisco José Beltrán Peinado",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -621,7 +646,9 @@
       "player_full": "Pione Sisto Ifolo Emirmija",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.1,
@@ -633,7 +660,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -645,7 +674,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.6,
@@ -657,7 +688,9 @@
       "player_full": "Sergio Busquets i Burgos",
       "minute": 84,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.4,
@@ -669,7 +702,9 @@
       "player_full": "Lucas René Olaza Catrofe",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -985,7 +1020,7 @@
       {
         "id": "Stanislav Lobotka",
         "short": "Lobotka",
-        "x": 59.02,
+        "x": 60.98,
         "y": 57.15,
         "size": 98.7,
         "is_playmaker": false,
@@ -995,7 +1030,7 @@
       {
         "id": "Hugo Mallo Novegil",
         "short": "Novegil",
-        "x": 51.96,
+        "x": 68.04,
         "y": 73.37,
         "size": 112.9,
         "is_playmaker": false,
@@ -1005,7 +1040,7 @@
       {
         "id": "Lucas René Olaza Catrofe",
         "short": "Catrofe",
-        "x": 80.44,
+        "x": 39.56,
         "y": 15.99,
         "size": 115.9,
         "is_playmaker": true,
@@ -1015,7 +1050,7 @@
       {
         "id": "David Juncà Reñé",
         "short": "Reñé",
-        "x": 68.36,
+        "x": 51.64,
         "y": 8.27,
         "size": 92.6,
         "is_playmaker": false,
@@ -1025,7 +1060,7 @@
       {
         "id": "Iago Aspas Juncal",
         "short": "Juncal",
-        "x": 53.17,
+        "x": 66.83,
         "y": 46.22,
         "size": 86.5,
         "is_playmaker": false,
@@ -1035,7 +1070,7 @@
       {
         "id": "Néstor Alejandro Araújo Razo",
         "short": "Razo",
-        "x": 77.42,
+        "x": 42.58,
         "y": 40.81,
         "size": 94.6,
         "is_playmaker": false,
@@ -1045,7 +1080,7 @@
       {
         "id": "Rubén Blanco Veiga",
         "short": "Veiga",
-        "x": 109.55,
+        "x": 10.45,
         "y": 39.46,
         "size": 64.1,
         "is_playmaker": false,
@@ -1055,7 +1090,7 @@
       {
         "id": "Joseph Aidoo",
         "short": "Aidoo",
-        "x": 73.86,
+        "x": 46.14,
         "y": 60.51,
         "size": 94.6,
         "is_playmaker": false,
@@ -1065,7 +1100,7 @@
       {
         "id": "Pape Cheikh Diop Gueye",
         "short": "Gueye",
-        "x": 63.93,
+        "x": 56.07,
         "y": 27.36,
         "size": 72.3,
         "is_playmaker": false,
@@ -1075,7 +1110,7 @@
       {
         "id": "Francisco José Beltrán Peinado",
         "short": "Peinado",
-        "x": 63.55,
+        "x": 56.45,
         "y": 37.21,
         "size": 113.9,
         "is_playmaker": true,
@@ -1085,7 +1120,7 @@
       {
         "id": "Pione Sisto Ifolo Emirmija",
         "short": "Emirmija",
-        "x": 52.15,
+        "x": 67.85,
         "y": 30.3,
         "size": 59.1,
         "is_playmaker": false,
@@ -1098,13 +1133,13 @@
         "source": "Stanislav Lobotka",
         "target": "Hugo Mallo Novegil",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stanislav Lobotka",
         "target": "Iago Aspas Juncal",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hugo Mallo Novegil",
@@ -1116,25 +1151,25 @@
         "source": "Hugo Mallo Novegil",
         "target": "Joseph Aidoo",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hugo Mallo Novegil",
         "target": "Francisco José Beltrán Peinado",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hugo Mallo Novegil",
         "target": "Stanislav Lobotka",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas René Olaza Catrofe",
         "target": "David Juncà Reñé",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lucas René Olaza Catrofe",
@@ -1146,37 +1181,37 @@
         "source": "Lucas René Olaza Catrofe",
         "target": "Francisco José Beltrán Peinado",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Juncà Reñé",
         "target": "Lucas René Olaza Catrofe",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Juncà Reñé",
         "target": "Pape Cheikh Diop Gueye",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Juncà Reñé",
         "target": "Francisco José Beltrán Peinado",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Iago Aspas Juncal",
         "target": "Stanislav Lobotka",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Iago Aspas Juncal",
         "target": "Francisco José Beltrán Peinado",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Néstor Alejandro Araújo Razo",
@@ -1194,13 +1229,13 @@
         "source": "Rubén Blanco Veiga",
         "target": "Lucas René Olaza Catrofe",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joseph Aidoo",
         "target": "Hugo Mallo Novegil",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joseph Aidoo",
@@ -1218,49 +1253,49 @@
         "source": "Pape Cheikh Diop Gueye",
         "target": "Pione Sisto Ifolo Emirmija",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francisco José Beltrán Peinado",
         "target": "Néstor Alejandro Araújo Razo",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francisco José Beltrán Peinado",
         "target": "Stanislav Lobotka",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francisco José Beltrán Peinado",
         "target": "Lucas René Olaza Catrofe",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francisco José Beltrán Peinado",
         "target": "Joseph Aidoo",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francisco José Beltrán Peinado",
         "target": "Pione Sisto Ifolo Emirmija",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pione Sisto Ifolo Emirmija",
         "target": "Pape Cheikh Diop Gueye",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pione Sisto Ifolo Emirmija",
         "target": "Francisco José Beltrán Peinado",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -7,12 +7,17 @@
     "home_color": "#dc052d",
     "away_color_raw": "#034694",
     "away_color": "#034694",
-    "score_home": 4,
-    "score_away": 5,
-    "xg_home": 7.404,
-    "xg_away": 4.209,
-    "shots_home": 45,
-    "shots_away": 14,
+    "score_home": 1,
+    "score_away": 1,
+    "penalty_home": 3,
+    "penalty_away": 4,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 129,
+    "xg_home": 3.486,
+    "xg_away": 0.292,
+    "shots_home": 40,
+    "shots_away": 9,
     "possession_home": 53.6,
     "competition": "Champions League",
     "season": "2011/2012",
@@ -111,7 +116,44 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
     ],
     "home": [
       0.0,
@@ -205,7 +247,44 @@
       1.9501,
       1.9501,
       2.015,
-      7.4037
+      2.015,
+      2.0544,
+      2.0544,
+      2.8379,
+      2.8636,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9453,
+      2.9701,
+      2.9701,
+      2.9701,
+      2.9701,
+      3.4295,
+      3.4747,
+      3.4747,
+      3.4747,
+      3.4747,
+      3.4747,
+      3.4747,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862,
+      3.4862
     ],
     "away": [
       0.0,
@@ -299,195 +378,306 @@
       0.1759,
       0.1759,
       0.204,
-      4.2093
+      0.2418,
+      0.2418,
+      0.2418,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918,
+      0.2918
     ],
     "pressure_home": [
-      0.0039,
-      0.0354,
-      0.063,
-      0.0945,
-      0.1496,
-      0.1496,
-      0.1732,
-      0.2008,
-      0.2008,
-      0.2244,
-      0.2205,
-      0.189,
-      0.2008,
-      0.1693,
-      0.122,
-      0.2441,
-      0.252,
-      0.2756,
-      0.3189,
-      0.2953,
-      0.378,
-      0.3819,
-      0.4055,
-      0.4488,
-      0.4567,
-      0.3346,
-      0.3307,
-      0.3543,
-      0.3228,
-      0.3268,
-      0.2441,
-      0.2598,
-      0.1969,
-      0.1535,
-      0.1654,
-      0.1969,
-      0.1693,
-      0.1142,
-      0.1378,
-      0.1614,
-      0.1614,
-      0.1732,
-      0.1732,
-      0.1732,
-      0.1654,
-      0.1575,
-      0.1575,
-      0.1496,
-      0.2008,
-      0.2008,
-      0.2008,
-      0.1772,
-      0.1811,
-      0.2008,
-      0.1811,
-      0.1772,
-      0.1772,
-      0.1693,
-      0.1614,
-      0.1378,
-      0.1772,
-      0.1693,
-      0.1929,
-      0.2047,
-      0.2441,
-      0.2835,
-      0.3071,
-      0.4567,
-      0.4016,
-      0.4331,
-      0.4173,
-      0.4213,
-      0.3937,
-      0.3622,
-      0.3425,
-      0.3386,
-      0.4213,
-      0.2874,
-      0.2638,
-      0.2283,
-      0.2047,
-      0.2362,
-      0.2717,
-      0.2717,
-      0.2717,
-      0.2244,
-      0.1575,
-      0.1378,
-      0.1378,
-      0.1614,
-      0.1969,
-      1.0
+      0.0075,
+      0.0677,
+      0.1203,
+      0.1805,
+      0.2857,
+      0.2857,
+      0.3308,
+      0.3835,
+      0.3835,
+      0.4286,
+      0.4211,
+      0.3609,
+      0.3835,
+      0.3233,
+      0.2331,
+      0.4662,
+      0.4812,
+      0.5263,
+      0.609,
+      0.5639,
+      0.7218,
+      0.7293,
+      0.7744,
+      0.8571,
+      0.8722,
+      0.6391,
+      0.6316,
+      0.6767,
+      0.6165,
+      0.6241,
+      0.4662,
+      0.4962,
+      0.3759,
+      0.2932,
+      0.3158,
+      0.3759,
+      0.3233,
+      0.218,
+      0.2632,
+      0.3083,
+      0.3083,
+      0.3308,
+      0.3308,
+      0.3308,
+      0.3158,
+      0.3008,
+      0.3008,
+      0.2857,
+      0.3835,
+      0.3835,
+      0.3835,
+      0.3383,
+      0.3459,
+      0.3835,
+      0.3459,
+      0.3383,
+      0.3383,
+      0.3233,
+      0.3083,
+      0.2632,
+      0.3383,
+      0.3233,
+      0.3684,
+      0.391,
+      0.4662,
+      0.5414,
+      0.5865,
+      0.8722,
+      0.7669,
+      0.8271,
+      0.797,
+      0.8045,
+      0.7519,
+      0.6917,
+      0.6541,
+      0.6466,
+      0.8045,
+      0.5489,
+      0.5038,
+      0.4361,
+      0.391,
+      0.4511,
+      0.5188,
+      0.5188,
+      0.5188,
+      0.4286,
+      0.3008,
+      0.2632,
+      0.2632,
+      0.3083,
+      0.3759,
+      0.3083,
+      0.3459,
+      0.3459,
+      0.3158,
+      0.3233,
+      0.3383,
+      0.391,
+      0.406,
+      0.3684,
+      0.3083,
+      0.3534,
+      0.2782,
+      0.3008,
+      0.2932,
+      0.4887,
+      0.4737,
+      0.5639,
+      0.594,
+      0.8195,
+      0.8722,
+      0.9774,
+      1.0,
+      0.985,
+      1.0,
+      0.8571,
+      0.782,
+      0.6917,
+      0.6767,
+      0.4436,
+      0.391,
+      0.2481,
+      0.1955,
+      0.1955,
+      0.188,
+      0.1128,
+      0.1203,
+      0.0677,
+      0.0376
     ],
     "pressure_away": [
-      0.0756,
-      0.1345,
-      0.1429,
-      0.1513,
-      0.1513,
-      0.1849,
-      0.2857,
-      0.3361,
-      0.3445,
-      0.4202,
-      0.3529,
-      0.4034,
-      0.395,
-      0.395,
-      0.437,
-      0.437,
-      0.4118,
-      0.3613,
-      0.3866,
-      0.3109,
-      0.3025,
-      0.2017,
-      0.2185,
-      0.2185,
-      0.2101,
-      0.2269,
-      0.1513,
-      0.1513,
-      0.1176,
-      0.1429,
-      0.1429,
-      0.1345,
-      0.1261,
-      0.1176,
-      0.1092,
-      0.0924,
-      0.1345,
-      0.1513,
-      0.1513,
-      0.1429,
-      0.2689,
-      0.2689,
-      0.3025,
-      0.3361,
-      0.3361,
-      0.4538,
-      0.4454,
-      0.4538,
-      0.5042,
-      0.5042,
-      0.3782,
-      0.4958,
-      0.4622,
-      0.5126,
-      0.5462,
-      0.395,
-      0.3697,
-      0.3697,
-      0.4202,
-      0.4118,
-      0.4118,
-      0.3445,
-      0.395,
-      0.3193,
-      0.3025,
-      0.3361,
-      0.4958,
-      0.4874,
-      0.4286,
-      0.4202,
-      0.4706,
-      0.4706,
-      0.4118,
-      0.4034,
-      0.3613,
-      0.3529,
-      0.1933,
-      0.1849,
-      0.2773,
-      0.2773,
-      0.2269,
-      0.1849,
-      0.1849,
-      0.1849,
-      0.1933,
-      0.1681,
-      0.1681,
-      0.1597,
-      0.0252,
-      0.0252,
-      0.0672,
-      1.0
+      0.1385,
+      0.2462,
+      0.2615,
+      0.2769,
+      0.2769,
+      0.3385,
+      0.5231,
+      0.6154,
+      0.6308,
+      0.7692,
+      0.6462,
+      0.7385,
+      0.7231,
+      0.7231,
+      0.8,
+      0.8,
+      0.7538,
+      0.6615,
+      0.7077,
+      0.5692,
+      0.5538,
+      0.3692,
+      0.4,
+      0.4,
+      0.3846,
+      0.4154,
+      0.2769,
+      0.2769,
+      0.2154,
+      0.2615,
+      0.2615,
+      0.2462,
+      0.2308,
+      0.2154,
+      0.2,
+      0.1692,
+      0.2462,
+      0.2769,
+      0.2769,
+      0.2615,
+      0.4923,
+      0.4923,
+      0.5538,
+      0.6154,
+      0.6154,
+      0.8308,
+      0.8154,
+      0.8308,
+      0.9231,
+      0.9231,
+      0.6923,
+      0.9077,
+      0.8462,
+      0.9385,
+      1.0,
+      0.7231,
+      0.6769,
+      0.6769,
+      0.7692,
+      0.7538,
+      0.7538,
+      0.6308,
+      0.7231,
+      0.5846,
+      0.5538,
+      0.6154,
+      0.9077,
+      0.8923,
+      0.7846,
+      0.7692,
+      0.8615,
+      0.8615,
+      0.7538,
+      0.7385,
+      0.6615,
+      0.6462,
+      0.3538,
+      0.3385,
+      0.5077,
+      0.5077,
+      0.4154,
+      0.3385,
+      0.3385,
+      0.3385,
+      0.3538,
+      0.3077,
+      0.3077,
+      0.2923,
+      0.0462,
+      0.0462,
+      0.1231,
+      0.1538,
+      0.2923,
+      0.2923,
+      0.2923,
+      0.3077,
+      0.2923,
+      0.3077,
+      0.3231,
+      0.3538,
+      0.5846,
+      0.6308,
+      0.5077,
+      0.5846,
+      0.5692,
+      0.6615,
+      0.8308,
+      0.8154,
+      0.8769,
+      0.8462,
+      0.6462,
+      0.5538,
+      0.5385,
+      0.6769,
+      0.6769,
+      0.5846,
+      0.4615,
+      0.4615,
+      0.4154,
+      0.6,
+      0.4923,
+      0.4923,
+      0.4923,
+      0.2769,
+      0.2769,
+      0.2615,
+      0.2154,
+      0.2154,
+      0.1846
     ]
   },
   "shots": [
@@ -501,7 +691,9 @@
       "player_full": "Bastian Schweinsteiger",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -513,7 +705,9 @@
       "player_full": "Toni Kroos",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -525,7 +719,9 @@
       "player_full": "Arjen Robben",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -537,7 +733,9 @@
       "player_full": "Mario Gómez García",
       "minute": 12,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -549,7 +747,9 @@
       "player_full": "Arjen Robben",
       "minute": 17,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -561,7 +761,9 @@
       "player_full": "Arjen Robben",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -573,7 +775,9 @@
       "player_full": "Arjen Robben",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -585,7 +789,9 @@
       "player_full": "Arjen Robben",
       "minute": 31,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -597,7 +803,9 @@
       "player_full": "Juan Manuel Mata García",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -609,7 +817,9 @@
       "player_full": "Franck Bilal Ribéry",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -621,7 +831,9 @@
       "player_full": "Thomas Müller",
       "minute": 35,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -633,7 +845,9 @@
       "player_full": "Salomon Armand Magloire Kalou",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -645,7 +859,9 @@
       "player_full": "Mario Gómez García",
       "minute": 38,
       "technique": "Overhead Kick",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -657,7 +873,9 @@
       "player_full": "Franck Bilal Ribéry",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.0,
@@ -669,7 +887,9 @@
       "player_full": "Anatoliy Tymoshchuk",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -681,7 +901,9 @@
       "player_full": "Mario Gómez García",
       "minute": 39,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -693,7 +915,9 @@
       "player_full": "Mario Gómez García",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.0,
@@ -705,7 +929,9 @@
       "player_full": "Toni Kroos",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.0,
@@ -717,7 +943,9 @@
       "player_full": "Didier Yves Drogba Tébily",
       "minute": 50,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -729,7 +957,9 @@
       "player_full": "Didier Yves Drogba Tébily",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -741,7 +971,9 @@
       "player_full": "Arjen Robben",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -753,7 +985,9 @@
       "player_full": "Toni Kroos",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -765,7 +999,9 @@
       "player_full": "Arjen Robben",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -777,7 +1013,9 @@
       "player_full": "Bastian Schweinsteiger",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -789,7 +1027,9 @@
       "player_full": "Franck Bilal Ribéry",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -801,7 +1041,9 @@
       "player_full": "Thomas Müller",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -813,7 +1055,9 @@
       "player_full": "Arjen Robben",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -825,7 +1069,9 @@
       "player_full": "Toni Kroos",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -837,7 +1083,9 @@
       "player_full": "Arjen Robben",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -849,7 +1097,9 @@
       "player_full": "Arjen Robben",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -861,7 +1111,9 @@
       "player_full": "Didier Yves Drogba Tébily",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -873,7 +1125,9 @@
       "player_full": "Toni Kroos",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -885,7 +1139,9 @@
       "player_full": "Thomas Müller",
       "minute": 77,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -897,7 +1153,9 @@
       "player_full": "Thomas Müller",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.0,
@@ -909,7 +1167,9 @@
       "player_full": "Thomas Müller",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -921,7 +1181,9 @@
       "player_full": "Arjen Robben",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -933,7 +1195,9 @@
       "player_full": "Didier Yves Drogba Tébily",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -945,7 +1209,9 @@
       "player_full": "Arjen Robben",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -957,7 +1223,9 @@
       "player_full": "Didier Yves Drogba Tébily",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.0,
@@ -969,7 +1237,9 @@
       "player_full": "Frank Lampard",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -981,7 +1251,9 @@
       "player_full": "Juan Manuel Mata García",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -993,7 +1265,9 @@
       "player_full": "Toni Kroos",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -1005,7 +1279,9 @@
       "player_full": "Arjen Robben",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -1017,7 +1293,9 @@
       "player_full": "Arjen Robben",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -1029,7 +1307,9 @@
       "player_full": "Daniel Van Buyten",
       "minute": 96,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -1041,7 +1321,9 @@
       "player_full": "Jérôme Boateng",
       "minute": 107,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -1053,7 +1335,9 @@
       "player_full": "Mario Gómez García",
       "minute": 111,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -1065,7 +1349,9 @@
       "player_full": "Arjen Robben",
       "minute": 112,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.0,
@@ -1077,7 +1363,9 @@
       "player_full": "Anatoliy Tymoshchuk",
       "minute": 118,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -1089,7 +1377,9 @@
       "player_full": "Philipp Lahm",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1101,7 +1391,9 @@
       "player_full": "Juan Manuel Mata García",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1113,7 +1405,9 @@
       "player_full": "Mario Gómez García",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1125,7 +1419,9 @@
       "player_full": "David Luiz Moreira Marinho",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1137,7 +1433,9 @@
       "player_full": "Manuel Neuer",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1149,7 +1447,9 @@
       "player_full": "Frank Lampard",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1161,7 +1461,9 @@
       "player_full": "Ivica Olić",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1173,7 +1475,9 @@
       "player_full": "Ashley Cole",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1185,7 +1489,9 @@
       "player_full": "Bastian Schweinsteiger",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1197,7 +1503,9 @@
       "player_full": "Didier Yves Drogba Tébily",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1513,7 +1821,7 @@
       {
         "id": "John Michael Nchekwube Obinna",
         "short": "Obinna",
-        "x": 68.59,
+        "x": 51.41,
         "y": 45.81,
         "size": 116.2,
         "is_playmaker": false,
@@ -1523,7 +1831,7 @@
       {
         "id": "Juan Manuel Mata García",
         "short": "García",
-        "x": 54.29,
+        "x": 65.71,
         "y": 45.6,
         "size": 118.8,
         "is_playmaker": true,
@@ -1533,7 +1841,7 @@
       {
         "id": "Frank Lampard",
         "short": "Lampard",
-        "x": 64.95,
+        "x": 55.05,
         "y": 35.09,
         "size": 129.1,
         "is_playmaker": true,
@@ -1543,7 +1851,7 @@
       {
         "id": "Petr Čech",
         "short": "Čech",
-        "x": 107.1,
+        "x": 12.9,
         "y": 37.52,
         "size": 78.3,
         "is_playmaker": false,
@@ -1553,7 +1861,7 @@
       {
         "id": "Didier Yves Drogba Tébily",
         "short": "Tébily",
-        "x": 48.13,
+        "x": 71.87,
         "y": 39.33,
         "size": 77.4,
         "is_playmaker": false,
@@ -1563,7 +1871,7 @@
       {
         "id": "Ashley Cole",
         "short": "Cole",
-        "x": 67.35,
+        "x": 52.65,
         "y": 13.28,
         "size": 84.3,
         "is_playmaker": false,
@@ -1573,7 +1881,7 @@
       {
         "id": "Gary Cahill",
         "short": "Cahill",
-        "x": 81.33,
+        "x": 38.67,
         "y": 55.88,
         "size": 101.6,
         "is_playmaker": false,
@@ -1583,7 +1891,7 @@
       {
         "id": "David Luiz Moreira Marinho",
         "short": "Marinho",
-        "x": 79.6,
+        "x": 40.4,
         "y": 23.2,
         "size": 94.7,
         "is_playmaker": false,
@@ -1593,7 +1901,7 @@
       {
         "id": "José Bosingwa da Silva",
         "short": "Silva",
-        "x": 63.15,
+        "x": 56.85,
         "y": 69.03,
         "size": 77.4,
         "is_playmaker": false,
@@ -1603,7 +1911,7 @@
       {
         "id": "Salomon Armand Magloire Kalou",
         "short": "Kalou",
-        "x": 54.48,
+        "x": 65.52,
         "y": 58.87,
         "size": 68.8,
         "is_playmaker": false,
@@ -1613,7 +1921,7 @@
       {
         "id": "Ryan Bertrand",
         "short": "Bertrand",
-        "x": 52.19,
+        "x": 67.81,
         "y": 14.5,
         "size": 58.4,
         "is_playmaker": false,
@@ -1626,7 +1934,7 @@
         "source": "John Michael Nchekwube Obinna",
         "target": "Juan Manuel Mata García",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Michael Nchekwube Obinna",
@@ -1638,25 +1946,25 @@
         "source": "John Michael Nchekwube Obinna",
         "target": "José Bosingwa da Silva",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Michael Nchekwube Obinna",
         "target": "Gary Cahill",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Manuel Mata García",
         "target": "Frank Lampard",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Manuel Mata García",
         "target": "José Bosingwa da Silva",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Manuel Mata García",
@@ -1668,7 +1976,7 @@
         "source": "Juan Manuel Mata García",
         "target": "Didier Yves Drogba Tébily",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frank Lampard",
@@ -1680,43 +1988,43 @@
         "source": "Frank Lampard",
         "target": "Juan Manuel Mata García",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frank Lampard",
         "target": "David Luiz Moreira Marinho",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Frank Lampard",
         "target": "Gary Cahill",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Frank Lampard",
         "target": "Ryan Bertrand",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Petr Čech",
         "target": "Didier Yves Drogba Tébily",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Petr Čech",
         "target": "Gary Cahill",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Didier Yves Drogba Tébily",
         "target": "Frank Lampard",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ashley Cole",
@@ -1728,13 +2036,13 @@
         "source": "Ashley Cole",
         "target": "David Luiz Moreira Marinho",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ashley Cole",
         "target": "Ryan Bertrand",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gary Cahill",
@@ -1746,19 +2054,19 @@
         "source": "Gary Cahill",
         "target": "John Michael Nchekwube Obinna",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gary Cahill",
         "target": "Petr Čech",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Luiz Moreira Marinho",
         "target": "Ashley Cole",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Luiz Moreira Marinho",
@@ -1770,7 +2078,7 @@
         "source": "José Bosingwa da Silva",
         "target": "John Michael Nchekwube Obinna",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Salomon Armand Magloire Kalou",
@@ -1782,13 +2090,13 @@
         "source": "Ryan Bertrand",
         "target": "Ashley Cole",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ryan Bertrand",
         "target": "Frank Lampard",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },
@@ -1892,7 +2200,7 @@
     }
   },
   "insights": [
-    "Bayern Munich created 3.20 more xG — dominant territorial control",
+    "Bayern Munich created 3.19 more xG — dominant territorial control",
     "Even possession — contested midfield throughout"
   ]
 }

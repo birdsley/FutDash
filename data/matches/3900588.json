@@ -9,6 +9,11 @@
     "away_color": "#cf0921",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.715,
     "xg_away": 0.679,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Benjamin Jeannot",
       "minute": 4,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -513,7 +520,9 @@
       "player_full": "Benjamin Jeannot",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.7,
@@ -525,7 +534,9 @@
       "player_full": "Benjamin Jeannot",
       "minute": 25,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.3,
@@ -537,7 +548,9 @@
       "player_full": "Yann Jouffre",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.3,
@@ -549,7 +562,9 @@
       "player_full": "Didier Ndong Ibrahim",
       "minute": 40,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.5,
@@ -561,7 +576,9 @@
       "player_full": "Yann Jouffre",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -573,7 +590,9 @@
       "player_full": "Benjamin Jeannot",
       "minute": 50,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.4,
@@ -585,7 +604,9 @@
       "player_full": "Walid Mesloub",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -597,7 +618,9 @@
       "player_full": "Thomas Lemar",
       "minute": 52,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -609,7 +632,9 @@
       "player_full": "Guido Marcelo Carrillo",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -621,7 +646,9 @@
       "player_full": "João Filipe Iria Santos Moutinho",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -633,7 +660,9 @@
       "player_full": "Guido Marcelo Carrillo",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.7,
@@ -645,7 +674,9 @@
       "player_full": "Fábio Alexandre da Silva Coentrão",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.3,
@@ -657,7 +688,9 @@
       "player_full": "Mario Pašalić",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +958,7 @@
       {
         "id": "Jérémy Toulalan",
         "short": "Toulalan",
-        "x": 80.98,
+        "x": 39.02,
         "y": 53.71,
         "size": 102.7,
         "is_playmaker": false,
@@ -935,7 +968,7 @@
       {
         "id": "Andrea Raggi",
         "short": "Raggi",
-        "x": 75.94,
+        "x": 44.06,
         "y": 67.51,
         "size": 92.4,
         "is_playmaker": false,
@@ -945,7 +978,7 @@
       {
         "id": "Tiemoué Bakayoko",
         "short": "Bakayoko",
-        "x": 68.6,
+        "x": 51.4,
         "y": 28.84,
         "size": 129.8,
         "is_playmaker": true,
@@ -955,7 +988,7 @@
       {
         "id": "João Filipe Iria Santos Moutinho",
         "short": "Moutinho",
-        "x": 57.06,
+        "x": 62.94,
         "y": 36.22,
         "size": 122.1,
         "is_playmaker": false,
@@ -965,7 +998,7 @@
       {
         "id": "Thomas Lemar",
         "short": "Lemar",
-        "x": 50.33,
+        "x": 69.67,
         "y": 22.28,
         "size": 88.5,
         "is_playmaker": false,
@@ -975,7 +1008,7 @@
       {
         "id": "Fábio Henrique Tavares",
         "short": "Tavares",
-        "x": 67.26,
+        "x": 52.74,
         "y": 52.15,
         "size": 114.4,
         "is_playmaker": true,
@@ -985,7 +1018,7 @@
       {
         "id": "Wallace Fortuna dos Santos",
         "short": "Santos",
-        "x": 85.4,
+        "x": 34.6,
         "y": 22.94,
         "size": 78.2,
         "is_playmaker": false,
@@ -995,7 +1028,7 @@
       {
         "id": "Fábio Alexandre da Silva Coentrão",
         "short": "Coentrão",
-        "x": 60.69,
+        "x": 59.31,
         "y": 8.23,
         "size": 78.2,
         "is_playmaker": false,
@@ -1005,7 +1038,7 @@
       {
         "id": "Guido Marcelo Carrillo",
         "short": "Carrillo",
-        "x": 43.5,
+        "x": 76.5,
         "y": 40.57,
         "size": 75.6,
         "is_playmaker": false,
@@ -1015,7 +1048,7 @@
       {
         "id": "Nabil Dirar",
         "short": "Dirar",
-        "x": 53.09,
+        "x": 66.91,
         "y": 53.73,
         "size": 61.5,
         "is_playmaker": false,
@@ -1025,7 +1058,7 @@
       {
         "id": "Danijel Subašić",
         "short": "Subašić",
-        "x": 111.13,
+        "x": 8.87,
         "y": 38.19,
         "size": 61.5,
         "is_playmaker": false,
@@ -1038,55 +1071,55 @@
         "source": "Jérémy Toulalan",
         "target": "Andrea Raggi",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérémy Toulalan",
         "target": "Fábio Henrique Tavares",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrea Raggi",
         "target": "Jérémy Toulalan",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrea Raggi",
         "target": "Fábio Henrique Tavares",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrea Raggi",
         "target": "João Filipe Iria Santos Moutinho",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tiemoué Bakayoko",
         "target": "João Filipe Iria Santos Moutinho",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tiemoué Bakayoko",
         "target": "Thomas Lemar",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tiemoué Bakayoko",
         "target": "Wallace Fortuna dos Santos",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tiemoué Bakayoko",
         "target": "Jérémy Toulalan",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tiemoué Bakayoko",
@@ -1098,13 +1131,13 @@
         "source": "João Filipe Iria Santos Moutinho",
         "target": "Thomas Lemar",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "João Filipe Iria Santos Moutinho",
         "target": "Tiemoué Bakayoko",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "João Filipe Iria Santos Moutinho",
@@ -1116,25 +1149,25 @@
         "source": "João Filipe Iria Santos Moutinho",
         "target": "Fábio Henrique Tavares",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Lemar",
         "target": "Tiemoué Bakayoko",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Lemar",
         "target": "Fábio Alexandre da Silva Coentrão",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fábio Henrique Tavares",
         "target": "João Filipe Iria Santos Moutinho",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fábio Henrique Tavares",
@@ -1146,37 +1179,37 @@
         "source": "Fábio Henrique Tavares",
         "target": "Nabil Dirar",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fábio Henrique Tavares",
         "target": "Guido Marcelo Carrillo",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wallace Fortuna dos Santos",
         "target": "Jérémy Toulalan",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wallace Fortuna dos Santos",
         "target": "Tiemoué Bakayoko",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fábio Alexandre da Silva Coentrão",
         "target": "Guido Marcelo Carrillo",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danijel Subašić",
         "target": "Guido Marcelo Carrillo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

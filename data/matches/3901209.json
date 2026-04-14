@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.192,
     "xg_away": 0.155,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Pierrick Capelle",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -513,7 +520,9 @@
       "player_full": "Grégory Pujol",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.6,
@@ -525,7 +534,9 @@
       "player_full": "Gilles Sunu",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -537,7 +548,9 @@
       "player_full": "Khalid Boutaïb",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.1,
@@ -549,7 +562,9 @@
       "player_full": "Billy Ketkeophomphone",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -561,7 +576,9 @@
       "player_full": "Pierrick Capelle",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -573,7 +590,9 @@
       "player_full": "Cheikh N''Doye",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.4,
@@ -585,7 +604,9 @@
       "player_full": "Cheikh N''Doye",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.1,
@@ -597,7 +618,9 @@
       "player_full": "Romain Saïss",
       "minute": 86,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -609,7 +632,9 @@
       "player_full": "Jérôme Le Moigne",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +926,7 @@
       {
         "id": "Pablo Jean Antoine Martínez",
         "short": "Martínez",
-        "x": 71.77,
+        "x": 48.23,
         "y": 7.54,
         "size": 75.9,
         "is_playmaker": false,
@@ -911,7 +936,7 @@
       {
         "id": "Mohamed Larbi",
         "short": "Larbi",
-        "x": 48.47,
+        "x": 71.53,
         "y": 25.84,
         "size": 95.3,
         "is_playmaker": true,
@@ -921,7 +946,7 @@
       {
         "id": "Jérémie Bréchet",
         "short": "Bréchet",
-        "x": 80.74,
+        "x": 39.26,
         "y": 26.97,
         "size": 80.4,
         "is_playmaker": false,
@@ -931,7 +956,7 @@
       {
         "id": "Roderic Filippi",
         "short": "Filippi",
-        "x": 79.62,
+        "x": 40.38,
         "y": 54.8,
         "size": 101.3,
         "is_playmaker": false,
@@ -941,7 +966,7 @@
       {
         "id": "Grégory Pujol",
         "short": "Pujol",
-        "x": 47.94,
+        "x": 72.06,
         "y": 42.11,
         "size": 80.4,
         "is_playmaker": false,
@@ -951,7 +976,7 @@
       {
         "id": "Khalid Boutaïb",
         "short": "Boutaïb",
-        "x": 47.83,
+        "x": 72.17,
         "y": 36.52,
         "size": 113.2,
         "is_playmaker": false,
@@ -961,7 +986,7 @@
       {
         "id": "Amos Youga",
         "short": "Youga",
-        "x": 62.7,
+        "x": 57.3,
         "y": 36.79,
         "size": 81.9,
         "is_playmaker": false,
@@ -971,7 +996,7 @@
       {
         "id": "Clément Maury",
         "short": "Maury",
-        "x": 106.15,
+        "x": 13.85,
         "y": 37.43,
         "size": 89.3,
         "is_playmaker": false,
@@ -981,7 +1006,7 @@
       {
         "id": "Issiaga Sylla",
         "short": "Sylla",
-        "x": 67.41,
+        "x": 52.59,
         "y": 72.9,
         "size": 134.1,
         "is_playmaker": true,
@@ -991,7 +1016,7 @@
       {
         "id": "Jérôme Le Moigne",
         "short": "Moigne",
-        "x": 57.55,
+        "x": 62.45,
         "y": 47.15,
         "size": 83.4,
         "is_playmaker": false,
@@ -1001,7 +1026,7 @@
       {
         "id": "Louis Poggi",
         "short": "Poggi",
-        "x": 59.77,
+        "x": 60.23,
         "y": 64.21,
         "size": 69.9,
         "is_playmaker": false,
@@ -1014,19 +1039,19 @@
         "source": "Pablo Jean Antoine Martínez",
         "target": "Mohamed Larbi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pablo Jean Antoine Martínez",
         "target": "Khalid Boutaïb",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mohamed Larbi",
         "target": "Amos Youga",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mohamed Larbi",
@@ -1044,7 +1069,7 @@
         "source": "Jérémie Bréchet",
         "target": "Clément Maury",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roderic Filippi",
@@ -1056,13 +1081,13 @@
         "source": "Roderic Filippi",
         "target": "Clément Maury",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roderic Filippi",
         "target": "Issiaga Sylla",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Grégory Pujol",
@@ -1074,13 +1099,13 @@
         "source": "Grégory Pujol",
         "target": "Jérôme Le Moigne",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Khalid Boutaïb",
         "target": "Issiaga Sylla",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Khalid Boutaïb",
@@ -1092,49 +1117,49 @@
         "source": "Amos Youga",
         "target": "Mohamed Larbi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Clément Maury",
         "target": "Roderic Filippi",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Clément Maury",
         "target": "Khalid Boutaïb",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Khalid Boutaïb",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Louis Poggi",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Jérôme Le Moigne",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Amos Youga",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérôme Le Moigne",
         "target": "Issiaga Sylla",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

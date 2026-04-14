@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.059,
     "xg_away": 0.659,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Simon Happygod Msuva",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.6,
@@ -513,7 +520,9 @@
       "player_full": "Gaël Kakuta",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 80.0,
@@ -525,7 +534,9 @@
       "player_full": "Faisal Salum Abdalla",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -537,7 +548,9 @@
       "player_full": "Mbwana Ally Samatta",
       "minute": 14,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.3,
@@ -549,7 +562,9 @@
       "player_full": "Fiston Kalala Mayele",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.2,
@@ -561,7 +576,9 @@
       "player_full": "Yoane Wissa",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -573,7 +590,9 @@
       "player_full": "Chancel Mbemba Mangulu",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -585,7 +604,9 @@
       "player_full": "Samuel Moutoussamy",
       "minute": 34,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.2,
@@ -597,7 +618,9 @@
       "player_full": "Yoane Wissa",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -609,7 +632,9 @@
       "player_full": "Simon Happygod Msuva",
       "minute": 63,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -621,7 +646,9 @@
       "player_full": "Meschak Elia",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -633,7 +660,9 @@
       "player_full": "Yoane Wissa",
       "minute": 77,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -645,7 +674,9 @@
       "player_full": "Yoane Wissa",
       "minute": 84,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +944,7 @@
       {
         "id": "Gedeon Kalulu Kyatengwa",
         "short": "Kyatengwa",
-        "x": 58.77,
+        "x": 61.23,
         "y": 68.05,
         "size": 95.9,
         "is_playmaker": false,
@@ -923,7 +954,7 @@
       {
         "id": "Charles Pickel",
         "short": "Pickel",
-        "x": 60.47,
+        "x": 59.53,
         "y": 44.14,
         "size": 81.7,
         "is_playmaker": false,
@@ -933,7 +964,7 @@
       {
         "id": "Dylan Batubinsika",
         "short": "Batubinsika",
-        "x": 76.71,
+        "x": 43.29,
         "y": 27.34,
         "size": 154.6,
         "is_playmaker": false,
@@ -943,7 +974,7 @@
       {
         "id": "Arthur Masuaku",
         "short": "Masuaku",
-        "x": 67.19,
+        "x": 52.81,
         "y": 10.58,
         "size": 129.7,
         "is_playmaker": true,
@@ -953,7 +984,7 @@
       {
         "id": "Chancel Mbemba Mangulu",
         "short": "Mangulu",
-        "x": 75.51,
+        "x": 44.49,
         "y": 57.01,
         "size": 111.0,
         "is_playmaker": false,
@@ -963,7 +994,7 @@
       {
         "id": "Lionel Mpasi-Nzau",
         "short": "Mpasi-Nzau",
-        "x": 104.15,
+        "x": 15.85,
         "y": 40.18,
         "size": 84.3,
         "is_playmaker": false,
@@ -973,7 +1004,7 @@
       {
         "id": "Yoane Wissa",
         "short": "Wissa",
-        "x": 46.53,
+        "x": 73.47,
         "y": 24.35,
         "size": 81.7,
         "is_playmaker": false,
@@ -983,7 +1014,7 @@
       {
         "id": "Samuel Moutoussamy",
         "short": "Moutoussamy",
-        "x": 61.97,
+        "x": 58.03,
         "y": 38.51,
         "size": 74.6,
         "is_playmaker": false,
@@ -993,7 +1024,7 @@
       {
         "id": "Gaël Kakuta",
         "short": "Kakuta",
-        "x": 47.1,
+        "x": 72.9,
         "y": 40.8,
         "size": 74.6,
         "is_playmaker": true,
@@ -1001,20 +1032,20 @@
         "eigenvector": 0.1149
       },
       {
-        "id": "Silas Katompa Mvumpa",
-        "short": "Mvumpa",
-        "x": 44.21,
-        "y": 54.85,
+        "id": "Fiston Kalala Mayele",
+        "short": "Mayele",
+        "x": 79.08,
+        "y": 42.12,
         "size": 58.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0036
       },
       {
-        "id": "Fiston Kalala Mayele",
-        "short": "Mayele",
-        "x": 40.92,
-        "y": 42.12,
+        "id": "Silas Katompa Mvumpa",
+        "short": "Mvumpa",
+        "x": 75.79,
+        "y": 54.85,
         "size": 58.6,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1032,13 +1063,13 @@
         "source": "Gedeon Kalulu Kyatengwa",
         "target": "Gaël Kakuta",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gedeon Kalulu Kyatengwa",
         "target": "Chancel Mbemba Mangulu",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gedeon Kalulu Kyatengwa",
@@ -1050,13 +1081,13 @@
         "source": "Charles Pickel",
         "target": "Dylan Batubinsika",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Charles Pickel",
         "target": "Chancel Mbemba Mangulu",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Charles Pickel",
@@ -1068,7 +1099,7 @@
         "source": "Dylan Batubinsika",
         "target": "Arthur Masuaku",
         "weight": 33,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dylan Batubinsika",
@@ -1080,49 +1111,49 @@
         "source": "Dylan Batubinsika",
         "target": "Lionel Mpasi-Nzau",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dylan Batubinsika",
         "target": "Charles Pickel",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Arthur Masuaku",
         "target": "Chancel Mbemba Mangulu",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arthur Masuaku",
         "target": "Yoane Wissa",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Arthur Masuaku",
         "target": "Dylan Batubinsika",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arthur Masuaku",
         "target": "Samuel Moutoussamy",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Arthur Masuaku",
         "target": "Lionel Mpasi-Nzau",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arthur Masuaku",
         "target": "Gaël Kakuta",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chancel Mbemba Mangulu",
@@ -1134,31 +1165,31 @@
         "source": "Chancel Mbemba Mangulu",
         "target": "Gedeon Kalulu Kyatengwa",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lionel Mpasi-Nzau",
         "target": "Dylan Batubinsika",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yoane Wissa",
         "target": "Arthur Masuaku",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Samuel Moutoussamy",
         "target": "Dylan Batubinsika",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Samuel Moutoussamy",
         "target": "Yoane Wissa",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gaël Kakuta",
@@ -1168,17 +1199,29 @@
       },
       {
         "source": "Gaël Kakuta",
+        "target": "Fiston Kalala Mayele",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gaël Kakuta",
         "target": "Silas Katompa Mvumpa",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Gaël Kakuta",
-        "target": "Fiston Kalala Mayele",
+        "source": "Fiston Kalala Mayele",
+        "target": "Gaël Kakuta",
         "weight": 1,
         "direction": "backward"
       },
       {
+        "source": "Fiston Kalala Mayele",
+        "target": "Silas Katompa Mvumpa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Silas Katompa Mvumpa",
         "target": "Fiston Kalala Mayele",
         "weight": 1,
@@ -1189,18 +1232,6 @@
         "target": "Gaël Kakuta",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Fiston Kalala Mayele",
-        "target": "Silas Katompa Mvumpa",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Fiston Kalala Mayele",
-        "target": "Gaël Kakuta",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

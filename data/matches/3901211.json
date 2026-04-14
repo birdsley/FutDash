@@ -9,6 +9,11 @@
     "away_color": "#6060d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.443,
     "xg_away": 0.559,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Bouna Sarr",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -513,7 +520,9 @@
       "player_full": "Steven Fletcher",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -525,7 +534,9 @@
       "player_full": "Adam Ounas",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.8,
@@ -537,7 +548,9 @@
       "player_full": "André Biyogo Poko",
       "minute": 17,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.7,
@@ -549,7 +562,9 @@
       "player_full": "Rémy Cabella",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.2,
@@ -561,7 +576,9 @@
       "player_full": "Florian Thauvin",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -573,7 +590,9 @@
       "player_full": "Adam Ounas",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.1,
@@ -585,7 +604,9 @@
       "player_full": "Adam Ounas",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.6,
@@ -597,7 +618,9 @@
       "player_full": "Thomas Touré",
       "minute": 53,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.3,
@@ -609,7 +632,9 @@
       "player_full": "André Biyogo Poko",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -621,7 +646,9 @@
       "player_full": "Steven Fletcher",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -633,7 +660,9 @@
       "player_full": "Cédric Yambéré",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.5,
@@ -645,7 +674,9 @@
       "player_full": "Thomas Touré",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -657,7 +688,9 @@
       "player_full": "Jussiê Ferreira Vieira",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -669,7 +702,9 @@
       "player_full": "Steven Fletcher",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -681,7 +716,9 @@
       "player_full": "Steven Fletcher",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Enzo Crivelli",
         "short": "Crivelli",
-        "x": 48.01,
+        "x": 71.99,
         "y": 45.23,
         "size": 82.3,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "Jaroslav Plašil",
         "short": "Plašil",
-        "x": 67.09,
+        "x": 52.91,
         "y": 38.98,
         "size": 141.4,
         "is_playmaker": true,
@@ -969,7 +1006,7 @@
       {
         "id": "Mathieu Debuchy",
         "short": "Debuchy",
-        "x": 59.04,
+        "x": 60.96,
         "y": 72.65,
         "size": 116.4,
         "is_playmaker": false,
@@ -979,7 +1016,7 @@
       {
         "id": "Diego Armando Valentin Contento",
         "short": "Contento",
-        "x": 69.79,
+        "x": 50.21,
         "y": 5.09,
         "size": 89.1,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Thomas Touré",
         "short": "Touré",
-        "x": 65.41,
+        "x": 54.59,
         "y": 26.96,
         "size": 114.1,
         "is_playmaker": true,
@@ -999,7 +1036,7 @@
       {
         "id": "Adam Ounas",
         "short": "Ounas",
-        "x": 53.86,
+        "x": 66.14,
         "y": 40.01,
         "size": 73.2,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Cédric Yambéré",
         "short": "Yambéré",
-        "x": 57.57,
+        "x": 62.43,
         "y": 47.95,
         "size": 89.1,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "André Biyogo Poko",
         "short": "Poko",
-        "x": 56.33,
+        "x": 63.67,
         "y": 64.45,
         "size": 100.5,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "Jérôme Prior",
         "short": "Prior",
-        "x": 108.43,
+        "x": 11.57,
         "y": 35.57,
         "size": 70.9,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Frédéric Guilbert",
         "short": "Guilbert",
-        "x": 86.23,
+        "x": 33.77,
         "y": 51.4,
         "size": 64.1,
         "is_playmaker": false,
@@ -1049,7 +1086,7 @@
       {
         "id": "Pablo Nascimento Castro",
         "short": "Castro",
-        "x": 85.95,
+        "x": 34.05,
         "y": 33.81,
         "size": 64.1,
         "is_playmaker": false,
@@ -1062,19 +1099,19 @@
         "source": "Enzo Crivelli",
         "target": "Jaroslav Plašil",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Mathieu Debuchy",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Adam Ounas",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaroslav Plašil",
@@ -1092,19 +1129,19 @@
         "source": "Jaroslav Plašil",
         "target": "Frédéric Guilbert",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Pablo Nascimento Castro",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mathieu Debuchy",
         "target": "Jaroslav Plašil",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mathieu Debuchy",
@@ -1116,31 +1153,31 @@
         "source": "Mathieu Debuchy",
         "target": "Enzo Crivelli",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Armando Valentin Contento",
         "target": "Thomas Touré",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Armando Valentin Contento",
         "target": "Enzo Crivelli",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thomas Touré",
         "target": "Diego Armando Valentin Contento",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Touré",
         "target": "Cédric Yambéré",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thomas Touré",
@@ -1152,7 +1189,7 @@
         "source": "Adam Ounas",
         "target": "Thomas Touré",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cédric Yambéré",
@@ -1164,7 +1201,7 @@
         "source": "Cédric Yambéré",
         "target": "Jaroslav Plašil",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André Biyogo Poko",
@@ -1176,13 +1213,13 @@
         "source": "Jérôme Prior",
         "target": "Enzo Crivelli",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérôme Prior",
         "target": "Cédric Yambéré",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Frédéric Guilbert",
@@ -1194,7 +1231,7 @@
         "source": "Frédéric Guilbert",
         "target": "Jaroslav Plašil",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pablo Nascimento Castro",
@@ -1206,7 +1243,7 @@
         "source": "Pablo Nascimento Castro",
         "target": "Jaroslav Plašil",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

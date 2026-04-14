@@ -9,6 +9,11 @@
     "away_color": "#ef0107",
     "score_home": 0,
     "score_away": 3,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.674,
     "xg_away": 2.066,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Thierry Henry",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -513,7 +520,9 @@
       "player_full": "Fredrik Ljungberg",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -525,7 +534,9 @@
       "player_full": "Dennis Bergkamp",
       "minute": 8,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -537,7 +548,9 @@
       "player_full": "Thierry Henry",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -549,7 +562,9 @@
       "player_full": "Stan Lazaridis",
       "minute": 14,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.8,
@@ -561,7 +576,9 @@
       "player_full": "Stan Lazaridis",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -573,7 +590,9 @@
       "player_full": "Matthew Upson",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.5,
@@ -585,7 +604,9 @@
       "player_full": "David Dunn",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -597,7 +618,9 @@
       "player_full": "Thierry Henry",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -609,7 +632,9 @@
       "player_full": "Mikael Forssell",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.9,
@@ -621,7 +646,9 @@
       "player_full": "Stephen Clemence",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.8,
@@ -633,7 +660,9 @@
       "player_full": "Fredrik Ljungberg",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.1,
@@ -645,7 +674,9 @@
       "player_full": "Dennis Bergkamp",
       "minute": 79,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.2,
@@ -657,7 +688,9 @@
       "player_full": "Matthew Upson",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -669,7 +702,9 @@
       "player_full": "Robert Pirès",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -681,7 +716,9 @@
       "player_full": "David Dunn",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Dennis Bergkamp",
         "short": "Bergkamp",
-        "x": 57.48,
+        "x": 62.52,
         "y": 34.3,
         "size": 80.3,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Thierry Henry",
         "short": "Henry",
-        "x": 48.3,
+        "x": 71.7,
         "y": 22.43,
         "size": 88.3,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Gaël Clichy",
         "short": "Clichy",
-        "x": 51.7,
+        "x": 68.3,
         "y": 16.89,
         "size": 90.4,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Eduardo César Daude Gaspar",
         "short": "Gaspar",
-        "x": 65.65,
+        "x": 54.35,
         "y": 31.8,
         "size": 128.7,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Robert Pirès",
         "short": "Pirès",
-        "x": 59.39,
+        "x": 60.61,
         "y": 36.66,
         "size": 130.8,
         "is_playmaker": true,
@@ -1023,7 +1060,7 @@
       {
         "id": "Kolo Habib Touré",
         "short": "Touré",
-        "x": 66.59,
+        "x": 53.41,
         "y": 71.65,
         "size": 88.3,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Pascal Cygan",
         "short": "Cygan",
-        "x": 85.02,
+        "x": 34.98,
         "y": 27.37,
         "size": 67.1,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Fredrik Ljungberg",
         "short": "Ljungberg",
-        "x": 59.11,
+        "x": 60.89,
         "y": 62.02,
         "size": 79.2,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Ashley Cole",
         "short": "Cole",
-        "x": 61.23,
+        "x": 58.77,
         "y": 8.7,
         "size": 131.8,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Sulzeer Jeremiah ''Sol' Campbell",
         "short": "Campbell",
-        "x": 71.53,
+        "x": 48.47,
         "y": 43.61,
         "size": 61.1,
         "is_playmaker": true,
@@ -1073,7 +1110,7 @@
       {
         "id": "Jens Lehmann",
         "short": "Lehmann",
-        "x": 108.9,
+        "x": 11.1,
         "y": 41.26,
         "size": 59.0,
         "is_playmaker": false,
@@ -1086,79 +1123,79 @@
         "source": "Dennis Bergkamp",
         "target": "Thierry Henry",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dennis Bergkamp",
         "target": "Eduardo César Daude Gaspar",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thierry Henry",
         "target": "Ashley Cole",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaël Clichy",
         "target": "Eduardo César Daude Gaspar",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaël Clichy",
         "target": "Ashley Cole",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eduardo César Daude Gaspar",
         "target": "Pascal Cygan",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eduardo César Daude Gaspar",
         "target": "Robert Pirès",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eduardo César Daude Gaspar",
         "target": "Dennis Bergkamp",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eduardo César Daude Gaspar",
         "target": "Thierry Henry",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eduardo César Daude Gaspar",
         "target": "Ashley Cole",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eduardo César Daude Gaspar",
         "target": "Sulzeer Jeremiah ''Sol' Campbell",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Pirès",
         "target": "Kolo Habib Touré",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Pirès",
         "target": "Eduardo César Daude Gaspar",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Pirès",
@@ -1170,43 +1207,43 @@
         "source": "Robert Pirès",
         "target": "Thierry Henry",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Robert Pirès",
         "target": "Sulzeer Jeremiah ''Sol' Campbell",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kolo Habib Touré",
         "target": "Robert Pirès",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kolo Habib Touré",
         "target": "Fredrik Ljungberg",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pascal Cygan",
         "target": "Gaël Clichy",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pascal Cygan",
         "target": "Jens Lehmann",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fredrik Ljungberg",
         "target": "Kolo Habib Touré",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fredrik Ljungberg",
@@ -1218,19 +1255,19 @@
         "source": "Ashley Cole",
         "target": "Gaël Clichy",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashley Cole",
         "target": "Eduardo César Daude Gaspar",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ashley Cole",
         "target": "Thierry Henry",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashley Cole",
@@ -1248,31 +1285,31 @@
         "source": "Sulzeer Jeremiah ''Sol' Campbell",
         "target": "Eduardo César Daude Gaspar",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sulzeer Jeremiah ''Sol' Campbell",
         "target": "Robert Pirès",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sulzeer Jeremiah ''Sol' Campbell",
         "target": "Jens Lehmann",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jens Lehmann",
         "target": "Pascal Cygan",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jens Lehmann",
         "target": "Sulzeer Jeremiah ''Sol' Campbell",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

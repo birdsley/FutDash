@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.469,
     "xg_away": 0.174,
     "shots_home": 11,
@@ -501,7 +506,9 @@
       "player_full": "Bruno da Silva Peres",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -513,7 +520,9 @@
       "player_full": "Antonio Di Gaudio",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -525,7 +534,9 @@
       "player_full": "Andrea Belotti",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -537,7 +548,9 @@
       "player_full": "Jerry Uche Mbakogu",
       "minute": 19,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.3,
@@ -549,7 +562,9 @@
       "player_full": "Gaetano Letizia",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -561,7 +576,9 @@
       "player_full": "Ciro Immobile",
       "minute": 29,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -573,7 +590,9 @@
       "player_full": "Daniele Baselli",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -585,7 +604,9 @@
       "player_full": "Andrea Belotti",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -597,7 +618,9 @@
       "player_full": "Ciro Immobile",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.3,
@@ -609,7 +632,9 @@
       "player_full": "Daniele Baselli",
       "minute": 60,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -621,7 +646,9 @@
       "player_full": "Ciro Immobile",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -633,7 +660,9 @@
       "player_full": "Andrea Belotti",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -645,7 +674,9 @@
       "player_full": "Kevin Lasagna",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -657,7 +688,9 @@
       "player_full": "Maximiliano Gastón López",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -669,7 +702,9 @@
       "player_full": "Ciro Immobile",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.5,
@@ -681,7 +716,9 @@
       "player_full": "Gaetano Letizia",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Riccardo Gagliolo",
         "short": "Gagliolo",
-        "x": 79.52,
+        "x": 40.48,
         "y": 24.45,
         "size": 95.0,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "Gaetano Letizia",
         "short": "Letizia",
-        "x": 66.36,
+        "x": 53.64,
         "y": 14.65,
         "size": 155.7,
         "is_playmaker": true,
@@ -969,7 +1006,7 @@
       {
         "id": "Raffaele Bianco",
         "short": "Bianco",
-        "x": 61.12,
+        "x": 58.88,
         "y": 36.73,
         "size": 146.0,
         "is_playmaker": true,
@@ -979,7 +1016,7 @@
       {
         "id": "Cristian Zaccardo",
         "short": "Zaccardo",
-        "x": 68.79,
+        "x": 51.21,
         "y": 72.59,
         "size": 101.9,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Antonio Di Gaudio",
         "short": "Gaudio",
-        "x": 49.79,
+        "x": 70.21,
         "y": 8.82,
         "size": 70.2,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Lorenzo Lollo",
         "short": "Lollo",
-        "x": 57.92,
+        "x": 62.08,
         "y": 44.55,
         "size": 99.1,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Vid Belec",
         "short": "Belec",
-        "x": 107.94,
+        "x": 12.06,
         "y": 38.95,
         "size": 63.3,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "Marco Crimi",
         "short": "Crimi",
-        "x": 48.67,
+        "x": 71.33,
         "y": 47.81,
         "size": 71.6,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "Jerry Uche Mbakogu",
         "short": "Mbakogu",
-        "x": 38.13,
+        "x": 81.87,
         "y": 55.57,
         "size": 68.8,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Simone Romagnoli",
         "short": "Romagnoli",
-        "x": 74.74,
+        "x": 45.26,
         "y": 53.83,
         "size": 66.0,
         "is_playmaker": false,
@@ -1049,7 +1086,7 @@
       {
         "id": "Stefano Sabelli",
         "short": "Sabelli",
-        "x": 49.8,
+        "x": 70.2,
         "y": 69.33,
         "size": 67.4,
         "is_playmaker": false,
@@ -1062,121 +1099,121 @@
         "source": "Riccardo Gagliolo",
         "target": "Gaetano Letizia",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Riccardo Gagliolo",
         "target": "Raffaele Bianco",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gaetano Letizia",
         "target": "Raffaele Bianco",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gaetano Letizia",
         "target": "Riccardo Gagliolo",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaetano Letizia",
         "target": "Antonio Di Gaudio",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gaetano Letizia",
         "target": "Lorenzo Lollo",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gaetano Letizia",
         "target": "Jerry Uche Mbakogu",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Raffaele Bianco",
         "target": "Cristian Zaccardo",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Raffaele Bianco",
         "target": "Gaetano Letizia",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Raffaele Bianco",
         "target": "Simone Romagnoli",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Raffaele Bianco",
         "target": "Marco Crimi",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Raffaele Bianco",
         "target": "Stefano Sabelli",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristian Zaccardo",
         "target": "Lorenzo Lollo",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristian Zaccardo",
         "target": "Stefano Sabelli",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristian Zaccardo",
         "target": "Raffaele Bianco",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristian Zaccardo",
         "target": "Simone Romagnoli",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cristian Zaccardo",
         "target": "Marco Crimi",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Di Gaudio",
         "target": "Gaetano Letizia",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lorenzo Lollo",
         "target": "Jerry Uche Mbakogu",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lorenzo Lollo",
         "target": "Riccardo Gagliolo",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lorenzo Lollo",
@@ -1188,19 +1225,19 @@
         "source": "Lorenzo Lollo",
         "target": "Gaetano Letizia",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vid Belec",
         "target": "Gaetano Letizia",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Crimi",
         "target": "Raffaele Bianco",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

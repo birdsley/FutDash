@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.255,
     "xg_away": 0.784,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Nordin Amrabat",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.5,
@@ -513,7 +520,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -525,7 +534,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 16,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.2,
@@ -537,7 +548,9 @@
       "player_full": "Sergi Darder Moll",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.1,
@@ -549,7 +562,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Other"
+      "body_part": "Other",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.4,
@@ -561,7 +576,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -573,7 +590,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 41,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -585,7 +604,9 @@
       "player_full": "Marc Bartra Aregall",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.6,
@@ -597,7 +618,9 @@
       "player_full": "Sandro Ramírez Castillo",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -609,7 +632,9 @@
       "player_full": "Roberto José Rosales Altuve",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -621,7 +646,9 @@
       "player_full": "Luis Alberto Romero Alconchel",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -633,7 +660,9 @@
       "player_full": "Sergio Sánchez Ortega",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.1,
@@ -645,7 +674,9 @@
       "player_full": "Jordi Alba Ramos",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -657,7 +688,9 @@
       "player_full": "Nordin Amrabat",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -669,7 +702,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -681,7 +716,9 @@
       "player_full": "Marc Bartra Aregall",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -895,7 +932,7 @@
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
-        "x": 50.84,
+        "x": 69.16,
         "y": 10.86,
         "size": 129.0,
         "is_playmaker": false,
@@ -905,7 +942,7 @@
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 47.59,
+        "x": 72.41,
         "y": 22.23,
         "size": 103.1,
         "is_playmaker": false,
@@ -915,7 +952,7 @@
       {
         "id": "Douglas Pereira dos Santos",
         "short": "Santos",
-        "x": 50.76,
+        "x": 69.24,
         "y": 73.08,
         "size": 105.0,
         "is_playmaker": false,
@@ -925,7 +962,7 @@
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
-        "x": 49.07,
+        "x": 70.93,
         "y": 60.85,
         "size": 110.8,
         "is_playmaker": false,
@@ -935,7 +972,7 @@
       {
         "id": "Marc Bartra Aregall",
         "short": "Aregall",
-        "x": 70.67,
+        "x": 49.33,
         "y": 29.62,
         "size": 97.9,
         "is_playmaker": false,
@@ -945,7 +982,7 @@
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
-        "x": 38.92,
+        "x": 81.08,
         "y": 21.3,
         "size": 72.5,
         "is_playmaker": false,
@@ -955,7 +992,7 @@
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
-        "x": 72.39,
+        "x": 47.61,
         "y": 52.68,
         "size": 106.3,
         "is_playmaker": true,
@@ -965,7 +1002,7 @@
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 59.39,
+        "x": 60.61,
         "y": 40.57,
         "size": 92.7,
         "is_playmaker": false,
@@ -975,7 +1012,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 41.67,
+        "x": 78.33,
         "y": 49.04,
         "size": 68.0,
         "is_playmaker": false,
@@ -985,7 +1022,7 @@
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
-        "x": 44.19,
+        "x": 75.81,
         "y": 55.47,
         "size": 62.1,
         "is_playmaker": false,
@@ -995,7 +1032,7 @@
       {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Muñoz",
-        "x": 109.8,
+        "x": 10.2,
         "y": 41.34,
         "size": 57.6,
         "is_playmaker": true,
@@ -1014,19 +1051,19 @@
         "source": "Jordi Alba Ramos",
         "target": "Neymar da Silva Santos Junior",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Sergio Busquets i Burgos",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Marc Bartra Aregall",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1038,7 +1075,7 @@
         "source": "Andrés Iniesta Luján",
         "target": "Sergio Busquets i Burgos",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Douglas Pereira dos Santos",
@@ -1050,13 +1087,13 @@
         "source": "Douglas Pereira dos Santos",
         "target": "Gerard Piqué Bernabéu",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Douglas Pereira dos Santos",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ivan Rakitić",
@@ -1068,19 +1105,19 @@
         "source": "Ivan Rakitić",
         "target": "Gerard Piqué Bernabéu",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ivan Rakitić",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Bartra Aregall",
         "target": "Jordi Alba Ramos",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Bartra Aregall",
@@ -1092,19 +1129,19 @@
         "source": "Marc Bartra Aregall",
         "target": "Andrés Iniesta Luján",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Bartra Aregall",
         "target": "Claudio Andrés Bravo Muñoz",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neymar da Silva Santos Junior",
         "target": "Jordi Alba Ramos",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
@@ -1116,61 +1153,61 @@
         "source": "Gerard Piqué Bernabéu",
         "target": "Douglas Pereira dos Santos",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Jordi Alba Ramos",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Ivan Rakitić",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Claudio Andrés Bravo Muñoz",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Andrés Iniesta Luján",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Ivan Rakitić",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Marc Bartra Aregall",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Marc Bartra Aregall",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

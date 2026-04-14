@@ -7,12 +7,17 @@
     "home_color": "#cc0000",
     "away_color_raw": "#c9d1d9",
     "away_color": "#c9d1d9",
-    "score_home": 4,
-    "score_away": 3,
-    "xg_home": 6.088,
-    "xg_away": 4.614,
-    "shots_home": 26,
-    "shots_away": 19,
+    "score_home": 1,
+    "score_away": 1,
+    "penalty_home": 3,
+    "penalty_away": 2,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 130,
+    "xg_home": 2.17,
+    "xg_away": 0.696,
+    "shots_home": 21,
+    "shots_away": 14,
     "possession_home": 52.7,
     "competition": "FIFA World Cup",
     "season": "2018",
@@ -111,7 +116,45 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
     ],
     "home": [
       0.0,
@@ -205,7 +248,45 @@
       1.216,
       1.216,
       1.216,
-      6.0876
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2368,
+      1.2799,
+      1.2799,
+      1.2799,
+      1.2799,
+      1.2799,
+      1.2799,
+      1.2799,
+      1.2799,
+      1.2799,
+      1.2799,
+      2.0634,
+      2.0634,
+      2.0634,
+      2.1355,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701,
+      2.1701
     ],
     "away": [
       0.1261,
@@ -299,195 +380,309 @@
       0.5291,
       0.5291,
       0.5291,
-      4.6141
+      0.5349,
+      0.6042,
+      0.6042,
+      0.6042,
+      0.6042,
+      0.6042,
+      0.6042,
+      0.632,
+      0.632,
+      0.632,
+      0.632,
+      0.632,
+      0.632,
+      0.632,
+      0.632,
+      0.632,
+      0.6423,
+      0.6423,
+      0.6423,
+      0.6423,
+      0.6423,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966,
+      0.6966
     ],
     "pressure_home": [
       0.0,
       0.0,
-      0.0376,
-      0.061,
-      0.061,
-      0.0657,
-      0.0704,
-      0.0704,
-      0.0704,
-      0.108,
-      0.1455,
-      0.1502,
-      0.1737,
-      0.1643,
-      0.2817,
-      0.277,
-      0.3052,
-      0.3052,
-      0.3192,
-      0.338,
-      0.3052,
-      0.3333,
-      0.2723,
-      0.2582,
-      0.1408,
-      0.1549,
-      0.1221,
-      0.1221,
-      0.1643,
-      0.1268,
-      0.1221,
-      0.1268,
-      0.1549,
-      0.1549,
-      0.1831,
-      0.169,
-      0.169,
-      0.1925,
-      0.1502,
-      0.169,
-      0.169,
-      0.1315,
-      0.1268,
-      0.1502,
-      0.1268,
-      0.1408,
-      0.1455,
-      0.1315,
-      0.1221,
-      0.0892,
-      0.0892,
-      0.0892,
-      0.0751,
-      0.0516,
-      0.0469,
-      0.0329,
-      0.0329,
-      0.0235,
-      0.0563,
-      0.0516,
-      0.0516,
-      0.0516,
-      0.0423,
-      0.0563,
-      0.1174,
-      0.1174,
-      0.1127,
-      0.1221,
-      0.0845,
-      0.0845,
-      0.0845,
-      0.0845,
-      0.1127,
-      0.0986,
-      0.0469,
-      0.061,
-      0.0986,
-      0.0939,
-      0.0939,
-      0.1033,
-      0.1033,
-      0.1033,
-      0.0751,
-      0.1033,
-      0.1549,
-      0.2441,
-      0.216,
-      0.2113,
-      0.2113,
-      0.2019,
-      0.2113,
-      1.0
+      0.1,
+      0.1625,
+      0.1625,
+      0.175,
+      0.1875,
+      0.1875,
+      0.1875,
+      0.2875,
+      0.3875,
+      0.4,
+      0.4625,
+      0.4375,
+      0.75,
+      0.7375,
+      0.8125,
+      0.8125,
+      0.85,
+      0.9,
+      0.8125,
+      0.8875,
+      0.725,
+      0.6875,
+      0.375,
+      0.4125,
+      0.325,
+      0.325,
+      0.4375,
+      0.3375,
+      0.325,
+      0.3375,
+      0.4125,
+      0.4125,
+      0.4875,
+      0.45,
+      0.45,
+      0.5125,
+      0.4,
+      0.45,
+      0.45,
+      0.35,
+      0.3375,
+      0.4,
+      0.3375,
+      0.375,
+      0.3875,
+      0.35,
+      0.325,
+      0.2375,
+      0.2375,
+      0.2375,
+      0.2,
+      0.1375,
+      0.125,
+      0.0875,
+      0.0875,
+      0.0625,
+      0.15,
+      0.1375,
+      0.1375,
+      0.1375,
+      0.1125,
+      0.15,
+      0.3125,
+      0.3125,
+      0.3,
+      0.325,
+      0.225,
+      0.225,
+      0.225,
+      0.225,
+      0.3,
+      0.2625,
+      0.125,
+      0.1625,
+      0.2625,
+      0.25,
+      0.25,
+      0.275,
+      0.275,
+      0.275,
+      0.2,
+      0.275,
+      0.4125,
+      0.65,
+      0.575,
+      0.5625,
+      0.5625,
+      0.5375,
+      0.5625,
+      0.65,
+      0.65,
+      0.575,
+      0.4125,
+      0.1375,
+      0.1125,
+      0.1125,
+      0.1375,
+      0.2625,
+      0.425,
+      0.3375,
+      0.425,
+      0.5125,
+      0.6125,
+      0.9125,
+      0.9125,
+      0.9125,
+      1.0,
+      0.875,
+      0.825,
+      0.825,
+      0.7375,
+      0.6875,
+      0.5875,
+      0.3,
+      0.325,
+      0.675,
+      0.7625,
+      0.925,
+      0.8,
+      0.8,
+      0.8125,
+      0.775,
+      0.7875,
+      0.775,
+      0.7625,
+      0.4125,
+      0.225,
+      0.0625
     ],
     "pressure_away": [
-      0.0353,
-      0.0353,
-      0.2235,
-      0.2235,
-      0.2235,
-      0.3176,
-      0.3176,
-      0.3176,
-      0.3176,
-      0.3529,
-      0.3176,
-      0.3176,
-      0.1412,
-      0.2235,
-      0.2353,
-      0.1647,
-      0.2118,
-      0.3412,
-      0.3412,
-      0.3176,
-      0.3294,
-      0.3882,
+      0.0429,
+      0.0429,
+      0.2714,
+      0.2714,
+      0.2714,
+      0.3857,
+      0.3857,
+      0.3857,
+      0.3857,
+      0.4286,
+      0.3857,
+      0.3857,
+      0.1714,
+      0.2714,
+      0.2857,
+      0.2,
+      0.2571,
+      0.4143,
+      0.4143,
+      0.3857,
       0.4,
-      0.3294,
-      0.3647,
+      0.4714,
+      0.4857,
       0.4,
-      0.4706,
-      0.3412,
-      0.4235,
-      0.5294,
-      0.5176,
-      0.4588,
-      0.4471,
-      0.4471,
-      0.4,
-      0.4824,
-      0.3647,
-      0.3647,
-      0.2824,
-      0.2235,
-      0.2235,
-      0.2235,
-      0.3647,
-      0.3529,
-      0.4,
-      0.2588,
-      0.3765,
-      0.3882,
-      0.4,
-      0.3882,
-      0.3882,
-      0.4941,
-      0.4941,
-      0.5294,
-      0.5765,
+      0.4429,
+      0.4857,
+      0.5714,
+      0.4143,
+      0.5143,
+      0.6429,
+      0.6286,
+      0.5571,
+      0.5429,
+      0.5429,
+      0.4857,
+      0.5857,
+      0.4429,
+      0.4429,
+      0.3429,
+      0.2714,
+      0.2714,
+      0.2714,
+      0.4429,
+      0.4286,
+      0.4857,
+      0.3143,
+      0.4571,
+      0.4714,
+      0.4857,
+      0.4714,
+      0.4714,
       0.6,
-      0.5176,
-      0.6941,
-      0.7294,
-      0.6941,
-      0.7765,
-      0.8235,
-      0.6706,
-      0.6588,
-      0.5647,
-      0.5412,
-      0.5176,
-      0.3412,
-      0.3647,
-      0.3529,
-      0.2706,
-      0.1176,
-      0.1294,
-      0.1176,
-      0.1647,
-      0.1647,
-      0.1882,
-      0.2941,
-      0.2706,
-      0.2824,
-      0.2941,
-      0.2941,
-      0.2824,
-      0.2706,
-      0.3059,
-      0.3412,
-      0.3294,
-      0.2118,
-      0.1647,
-      0.1529,
-      0.2941,
-      1.0
+      0.6,
+      0.6429,
+      0.7,
+      0.7286,
+      0.6286,
+      0.8429,
+      0.8857,
+      0.8429,
+      0.9429,
+      1.0,
+      0.8143,
+      0.8,
+      0.6857,
+      0.6571,
+      0.6286,
+      0.4143,
+      0.4429,
+      0.4286,
+      0.3286,
+      0.1429,
+      0.1571,
+      0.1429,
+      0.2,
+      0.2,
+      0.2286,
+      0.3571,
+      0.3286,
+      0.3429,
+      0.3571,
+      0.3571,
+      0.3429,
+      0.3286,
+      0.3714,
+      0.4143,
+      0.4,
+      0.2571,
+      0.2,
+      0.1857,
+      0.3571,
+      0.4571,
+      0.4571,
+      0.4571,
+      0.3571,
+      0.3143,
+      0.2857,
+      0.3286,
+      0.3286,
+      0.3857,
+      0.2,
+      0.1143,
+      0.2,
+      0.2143,
+      0.2143,
+      0.4714,
+      0.4714,
+      0.4286,
+      0.4857,
+      0.4286,
+      0.4429,
+      0.5143,
+      0.4286,
+      0.4143,
+      0.4143,
+      0.1571,
+      0.1571,
+      0.1857,
+      0.1429,
+      0.1429,
+      0.2143,
+      0.1286,
+      0.1286,
+      0.1286,
+      0.1286,
+      0.1286,
+      0.1286,
+      0.1,
+      0.0857,
+      0.0857
     ]
   },
   "shots": [
@@ -501,7 +696,9 @@
       "player_full": "Mathias Jattah-Njie Jørgensen",
       "minute": 0,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -513,7 +710,9 @@
       "player_full": "Mario Mandžukić",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -525,7 +724,9 @@
       "player_full": "Ivan Perišić",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -537,7 +738,9 @@
       "player_full": "Ivan Perišić",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -549,7 +752,9 @@
       "player_full": "Christian Dannemann Eriksen",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -561,7 +766,9 @@
       "player_full": "Martin Braithwaite Christensen",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -573,7 +780,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -585,7 +794,9 @@
       "player_full": "Ivan Perišić",
       "minute": 28,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -597,7 +808,9 @@
       "player_full": "Ivan Perišić",
       "minute": 28,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -609,7 +822,9 @@
       "player_full": "Ante Rebić",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -621,7 +836,9 @@
       "player_full": "Christian Dannemann Eriksen",
       "minute": 33,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -633,7 +850,9 @@
       "player_full": "Dejan Lovren",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -645,7 +864,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -657,7 +878,9 @@
       "player_full": "Ivan Perišić",
       "minute": 45,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -669,7 +892,9 @@
       "player_full": "Martin Braithwaite Christensen",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -681,7 +906,9 @@
       "player_full": "Ivan Perišić",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -693,7 +920,9 @@
       "player_full": "Ante Rebić",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -705,7 +934,9 @@
       "player_full": "Nicolai Jørgensen",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -717,7 +948,9 @@
       "player_full": "Christian Dannemann Eriksen",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -729,7 +962,9 @@
       "player_full": "Luka Modrić",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -741,7 +976,9 @@
       "player_full": "Ante Rebić",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -753,7 +990,9 @@
       "player_full": "Ivan Perišić",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -765,7 +1004,9 @@
       "player_full": "Josip Pivarić",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -777,7 +1018,9 @@
       "player_full": "Lasse Schöne",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.0,
@@ -789,7 +1032,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -801,7 +1046,9 @@
       "player_full": "Martin Braithwaite Christensen",
       "minute": 92,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 78.0,
@@ -813,7 +1060,9 @@
       "player_full": "Thomas Delaney",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -825,7 +1074,9 @@
       "player_full": "Lasse Schöne",
       "minute": 92,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -837,7 +1088,9 @@
       "player_full": "Lasse Schöne",
       "minute": 98,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -849,7 +1102,9 @@
       "player_full": "Mateo Kovačić",
       "minute": 105,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -861,7 +1116,9 @@
       "player_full": "Pione Sisto Ifolo Emirmija",
       "minute": 107,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -873,7 +1130,9 @@
       "player_full": "Nicolai Jørgensen",
       "minute": 112,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -885,7 +1144,9 @@
       "player_full": "Luka Modrić",
       "minute": 115,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -897,7 +1158,9 @@
       "player_full": "Luka Modrić",
       "minute": 118,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -909,7 +1172,9 @@
       "player_full": "Andrej Kramarić",
       "minute": 119,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -921,7 +1186,9 @@
       "player_full": "Christian Dannemann Eriksen",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -933,7 +1200,9 @@
       "player_full": "Milan Badelj",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -945,7 +1214,9 @@
       "player_full": "Simon Thorup Kjær",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -957,7 +1228,9 @@
       "player_full": "Andrej Kramarić",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -969,7 +1242,9 @@
       "player_full": "Michael Krohn-Dehli",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -981,7 +1256,9 @@
       "player_full": "Luka Modrić",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -993,7 +1270,9 @@
       "player_full": "Lasse Schöne",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1005,7 +1284,9 @@
       "player_full": "Josip Pivarić",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1017,7 +1298,9 @@
       "player_full": "Nicolai Jørgensen",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1029,7 +1312,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 128,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1321,7 +1606,7 @@
       {
         "id": "Simon Thorup Kjær",
         "short": "Kjær",
-        "x": 78.9,
+        "x": 41.1,
         "y": 53.25,
         "size": 158.4,
         "is_playmaker": false,
@@ -1331,7 +1616,7 @@
       {
         "id": "Mathias Jattah-Njie Jørgensen",
         "short": "Jørgensen",
-        "x": 75.27,
+        "x": 44.73,
         "y": 24.78,
         "size": 129.4,
         "is_playmaker": false,
@@ -1341,7 +1626,7 @@
       {
         "id": "Henrik Dalsgaard",
         "short": "Dalsgaard",
-        "x": 61.4,
+        "x": 58.6,
         "y": 70.0,
         "size": 82.1,
         "is_playmaker": false,
@@ -1351,7 +1636,7 @@
       {
         "id": "Thomas Delaney",
         "short": "Delaney",
-        "x": 60.83,
+        "x": 59.17,
         "y": 35.79,
         "size": 109.1,
         "is_playmaker": true,
@@ -1361,7 +1646,7 @@
       {
         "id": "Jonas Knudsen",
         "short": "Knudsen",
-        "x": 61.15,
+        "x": 58.85,
         "y": 13.62,
         "size": 81.1,
         "is_playmaker": false,
@@ -1371,7 +1656,7 @@
       {
         "id": "Andreas Christensen",
         "short": "Christensen",
-        "x": 70.21,
+        "x": 49.79,
         "y": 51.79,
         "size": 70.5,
         "is_playmaker": false,
@@ -1381,7 +1666,7 @@
       {
         "id": "Kasper Schmeichel",
         "short": "Schmeichel",
-        "x": 106.77,
+        "x": 13.23,
         "y": 42.5,
         "size": 82.1,
         "is_playmaker": false,
@@ -1391,7 +1676,7 @@
       {
         "id": "Yussuf Yurary Poulsen",
         "short": "Poulsen",
-        "x": 45.56,
+        "x": 74.44,
         "y": 65.67,
         "size": 88.8,
         "is_playmaker": false,
@@ -1401,7 +1686,7 @@
       {
         "id": "Christian Dannemann Eriksen",
         "short": "Eriksen",
-        "x": 45.23,
+        "x": 74.77,
         "y": 51.32,
         "size": 85.9,
         "is_playmaker": true,
@@ -1411,7 +1696,7 @@
       {
         "id": "Martin Braithwaite Christensen",
         "short": "Christensen",
-        "x": 45.73,
+        "x": 74.27,
         "y": 25.36,
         "size": 58.9,
         "is_playmaker": false,
@@ -1421,7 +1706,7 @@
       {
         "id": "Andreas Evald Cornelius",
         "short": "Cornelius",
-        "x": 43.29,
+        "x": 76.71,
         "y": 47.0,
         "size": 58.9,
         "is_playmaker": false,
@@ -1440,25 +1725,25 @@
         "source": "Simon Thorup Kjær",
         "target": "Andreas Christensen",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Simon Thorup Kjær",
         "target": "Thomas Delaney",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Simon Thorup Kjær",
         "target": "Yussuf Yurary Poulsen",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Simon Thorup Kjær",
         "target": "Henrik Dalsgaard",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathias Jattah-Njie Jørgensen",
@@ -1470,61 +1755,61 @@
         "source": "Mathias Jattah-Njie Jørgensen",
         "target": "Thomas Delaney",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathias Jattah-Njie Jørgensen",
         "target": "Jonas Knudsen",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathias Jattah-Njie Jørgensen",
         "target": "Kasper Schmeichel",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Henrik Dalsgaard",
         "target": "Simon Thorup Kjær",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Henrik Dalsgaard",
         "target": "Kasper Schmeichel",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Delaney",
         "target": "Simon Thorup Kjær",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Delaney",
         "target": "Mathias Jattah-Njie Jørgensen",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Delaney",
         "target": "Christian Dannemann Eriksen",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thomas Delaney",
         "target": "Martin Braithwaite Christensen",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonas Knudsen",
         "target": "Mathias Jattah-Njie Jørgensen",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonas Knudsen",
@@ -1536,25 +1821,25 @@
         "source": "Jonas Knudsen",
         "target": "Martin Braithwaite Christensen",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andreas Christensen",
         "target": "Simon Thorup Kjær",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kasper Schmeichel",
         "target": "Simon Thorup Kjær",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kasper Schmeichel",
         "target": "Yussuf Yurary Poulsen",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yussuf Yurary Poulsen",
@@ -1566,7 +1851,7 @@
         "source": "Yussuf Yurary Poulsen",
         "target": "Henrik Dalsgaard",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yussuf Yurary Poulsen",
@@ -1584,13 +1869,13 @@
         "source": "Christian Dannemann Eriksen",
         "target": "Simon Thorup Kjær",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Dannemann Eriksen",
         "target": "Thomas Delaney",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Dannemann Eriksen",
@@ -1602,13 +1887,13 @@
         "source": "Martin Braithwaite Christensen",
         "target": "Thomas Delaney",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Martin Braithwaite Christensen",
         "target": "Jonas Knudsen",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andreas Evald Cornelius",

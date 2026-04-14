@@ -9,6 +9,11 @@
     "away_color": "#009bdb",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.493,
     "xg_away": 0.229,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Ryad Boudebouz",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.6,
@@ -513,7 +520,9 @@
       "player_full": "Mustapha Yatabaré",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.7,
@@ -525,7 +534,9 @@
       "player_full": "Bouna Sarr",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.7,
@@ -537,7 +548,9 @@
       "player_full": "Jonas Martin",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.2,
@@ -549,7 +562,9 @@
       "player_full": "Ryad Boudebouz",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.7,
@@ -561,7 +576,9 @@
       "player_full": "Bouna Sarr",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.7,
@@ -573,7 +590,9 @@
       "player_full": "Ramy Bensebaini",
       "minute": 41,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.8,
@@ -585,7 +604,9 @@
       "player_full": "Souleymane Camara",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.7,
@@ -597,7 +618,9 @@
       "player_full": "Jacques-Alaixys Romao",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.6,
@@ -609,7 +632,9 @@
       "player_full": "Bryan Dabo",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.5,
@@ -621,7 +646,9 @@
       "player_full": "Ramy Bensebaini",
       "minute": 59,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.3,
@@ -633,7 +660,9 @@
       "player_full": "Georges-Kévin Nkoudou Mbida",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.7,
@@ -645,7 +674,9 @@
       "player_full": "Vitorino Hilton da Silva",
       "minute": 77,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -657,7 +688,9 @@
       "player_full": "Daniel Congré",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -669,7 +702,9 @@
       "player_full": "Mustapha Yatabaré",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.6,
@@ -681,7 +716,9 @@
       "player_full": "Jamel Saihi",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Mauricio Aníbal Isla Isla",
         "short": "Isla",
-        "x": 66.3,
+        "x": 53.7,
         "y": 37.08,
         "size": 118.8,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Rémy Cabella",
         "short": "Cabella",
-        "x": 57.4,
+        "x": 62.6,
         "y": 33.09,
         "size": 124.9,
         "is_playmaker": true,
@@ -993,7 +1030,7 @@
       {
         "id": "Javier Manquillo Gaitán",
         "short": "Gaitán",
-        "x": 69.05,
+        "x": 50.95,
         "y": 8.35,
         "size": 118.8,
         "is_playmaker": true,
@@ -1003,7 +1040,7 @@
       {
         "id": "Georges-Kévin Nkoudou Mbida",
         "short": "Mbida",
-        "x": 53.08,
+        "x": 66.92,
         "y": 16.29,
         "size": 80.3,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Jacques-Alaixys Romao",
         "short": "Romao",
-        "x": 66.79,
+        "x": 53.21,
         "y": 37.1,
         "size": 120.5,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "short": "Ndoubena",
-        "x": 85.74,
+        "x": 34.26,
         "y": 58.47,
         "size": 78.6,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Brice Dja Djédjé",
         "short": "Djédjé",
-        "x": 64.42,
+        "x": 55.58,
         "y": 74.09,
         "size": 71.6,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Steve Mandanda",
         "short": "Mandanda",
-        "x": 109.97,
+        "x": 10.03,
         "y": 39.35,
         "size": 79.5,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Rolando Jorge Pires da Fonseca",
         "short": "Fonseca",
-        "x": 88.03,
+        "x": 31.97,
         "y": 29.28,
         "size": 91.7,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Bouna Sarr",
         "short": "Sarr",
-        "x": 59.8,
+        "x": 60.2,
         "y": 63.25,
         "size": 62.0,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Antoine Rabillard",
         "short": "Rabillard",
-        "x": 50.68,
+        "x": 69.32,
         "y": 48.48,
         "size": 58.5,
         "is_playmaker": false,
@@ -1086,7 +1123,7 @@
         "source": "Mauricio Aníbal Isla Isla",
         "target": "Rémy Cabella",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mauricio Aníbal Isla Isla",
@@ -1098,55 +1135,55 @@
         "source": "Mauricio Aníbal Isla Isla",
         "target": "Rolando Jorge Pires da Fonseca",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mauricio Aníbal Isla Isla",
         "target": "Georges-Kévin Nkoudou Mbida",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rémy Cabella",
         "target": "Jacques-Alaixys Romao",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rémy Cabella",
         "target": "Mauricio Aníbal Isla Isla",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rémy Cabella",
         "target": "Javier Manquillo Gaitán",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rémy Cabella",
         "target": "Georges-Kévin Nkoudou Mbida",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rémy Cabella",
         "target": "Antoine Rabillard",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Manquillo Gaitán",
         "target": "Georges-Kévin Nkoudou Mbida",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Manquillo Gaitán",
         "target": "Rémy Cabella",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Manquillo Gaitán",
@@ -1158,13 +1195,13 @@
         "source": "Javier Manquillo Gaitán",
         "target": "Rolando Jorge Pires da Fonseca",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jacques-Alaixys Romao",
         "target": "Rémy Cabella",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jacques-Alaixys Romao",
@@ -1182,73 +1219,73 @@
         "source": "Jacques-Alaixys Romao",
         "target": "Bouna Sarr",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "target": "Brice Dja Djédjé",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Brice Dja Djédjé",
         "target": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Steve Mandanda",
         "target": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steve Mandanda",
         "target": "Javier Manquillo Gaitán",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steve Mandanda",
         "target": "Rolando Jorge Pires da Fonseca",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rolando Jorge Pires da Fonseca",
         "target": "Mauricio Aníbal Isla Isla",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rolando Jorge Pires da Fonseca",
         "target": "Steve Mandanda",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rolando Jorge Pires da Fonseca",
         "target": "Javier Manquillo Gaitán",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bouna Sarr",
         "target": "Antoine Rabillard",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antoine Rabillard",
         "target": "Rémy Cabella",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antoine Rabillard",
         "target": "Bouna Sarr",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

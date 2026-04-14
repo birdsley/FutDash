@@ -9,6 +9,11 @@
     "away_color": "#005ca9",
     "score_home": 3,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.98,
     "xg_away": 0.391,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Juan Pablo Añor Acosta",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.3,
@@ -513,7 +520,9 @@
       "player_full": "Juan Pablo Añor Acosta",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -525,7 +534,9 @@
       "player_full": "Egor Filipenko",
       "minute": 12,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.2,
@@ -537,7 +548,9 @@
       "player_full": "Pedro León Sánchez Gil",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -549,7 +562,9 @@
       "player_full": "Christian Atsu Twasam",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -561,7 +576,9 @@
       "player_full": "Moisés Gómez Bordonado",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -573,7 +590,9 @@
       "player_full": "Víctor Rodríguez Romero",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -585,7 +604,9 @@
       "player_full": "Stefan Šćepović",
       "minute": 34,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -597,7 +618,9 @@
       "player_full": "Charles Días Barbosa de Oliveira",
       "minute": 42,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -609,7 +632,9 @@
       "player_full": "Charles Días Barbosa de Oliveira",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -621,7 +646,9 @@
       "player_full": "Duje Čop",
       "minute": 71,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.8,
@@ -633,7 +660,9 @@
       "player_full": "Pedro León Sánchez Gil",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -645,7 +674,9 @@
       "player_full": "Duje Čop",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -657,7 +688,9 @@
       "player_full": "Roque Luis Santa Cruz Cantero",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +982,7 @@
       {
         "id": "Damián Nicolás Suárez Suárez",
         "short": "Suárez",
-        "x": 53.85,
+        "x": 66.15,
         "y": 73.58,
         "size": 139.8,
         "is_playmaker": true,
@@ -959,7 +992,7 @@
       {
         "id": "Pedro León Sánchez Gil",
         "short": "Gil",
-        "x": 52.23,
+        "x": 67.77,
         "y": 63.2,
         "size": 99.8,
         "is_playmaker": false,
@@ -969,7 +1002,7 @@
       {
         "id": "Santiago Vergini",
         "short": "Vergini",
-        "x": 76.91,
+        "x": 43.09,
         "y": 58.35,
         "size": 95.0,
         "is_playmaker": false,
@@ -979,7 +1012,7 @@
       {
         "id": "Carlos Martín Vigaray",
         "short": "Vigaray",
-        "x": 59.64,
+        "x": 60.36,
         "y": 19.53,
         "size": 116.9,
         "is_playmaker": true,
@@ -989,7 +1022,7 @@
       {
         "id": "Moisés Gómez Bordonado",
         "short": "Bordonado",
-        "x": 52.26,
+        "x": 67.74,
         "y": 17.54,
         "size": 81.7,
         "is_playmaker": false,
@@ -999,7 +1032,7 @@
       {
         "id": "Emiliano Daniel Velázquez Maldonado",
         "short": "Maldonado",
-        "x": 85.14,
+        "x": 34.86,
         "y": 27.14,
         "size": 90.2,
         "is_playmaker": false,
@@ -1009,7 +1042,7 @@
       {
         "id": "Juan Antonio Rodríguez Villamuela",
         "short": "Villamuela",
-        "x": 61.54,
+        "x": 58.46,
         "y": 50.13,
         "size": 79.8,
         "is_playmaker": false,
@@ -1019,7 +1052,7 @@
       {
         "id": "Stefan Šćepović",
         "short": "Šćepović",
-        "x": 48.67,
+        "x": 71.33,
         "y": 55.29,
         "size": 75.0,
         "is_playmaker": false,
@@ -1029,7 +1062,7 @@
       {
         "id": "Víctor Rodríguez Romero",
         "short": "Romero",
-        "x": 50.49,
+        "x": 69.51,
         "y": 43.11,
         "size": 95.0,
         "is_playmaker": false,
@@ -1039,7 +1072,7 @@
       {
         "id": "Mehdi Lacen",
         "short": "Lacen",
-        "x": 62.59,
+        "x": 57.41,
         "y": 25.5,
         "size": 72.1,
         "is_playmaker": false,
@@ -1049,7 +1082,7 @@
       {
         "id": "Vicente Guaita Panadero",
         "short": "Panadero",
-        "x": 105.16,
+        "x": 14.84,
         "y": 44.36,
         "size": 59.8,
         "is_playmaker": false,
@@ -1068,19 +1101,19 @@
         "source": "Damián Nicolás Suárez Suárez",
         "target": "Stefan Šćepović",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Damián Nicolás Suárez Suárez",
         "target": "Juan Antonio Rodríguez Villamuela",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Damián Nicolás Suárez Suárez",
         "target": "Santiago Vergini",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Damián Nicolás Suárez Suárez",
@@ -1098,37 +1131,37 @@
         "source": "Santiago Vergini",
         "target": "Damián Nicolás Suárez Suárez",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Santiago Vergini",
         "target": "Emiliano Daniel Velázquez Maldonado",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Santiago Vergini",
         "target": "Vicente Guaita Panadero",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Carlos Martín Vigaray",
         "target": "Moisés Gómez Bordonado",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlos Martín Vigaray",
         "target": "Víctor Rodríguez Romero",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlos Martín Vigaray",
         "target": "Emiliano Daniel Velázquez Maldonado",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Carlos Martín Vigaray",
@@ -1140,31 +1173,31 @@
         "source": "Carlos Martín Vigaray",
         "target": "Stefan Šćepović",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moisés Gómez Bordonado",
         "target": "Carlos Martín Vigaray",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emiliano Daniel Velázquez Maldonado",
         "target": "Carlos Martín Vigaray",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emiliano Daniel Velázquez Maldonado",
         "target": "Santiago Vergini",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Antonio Rodríguez Villamuela",
         "target": "Damián Nicolás Suárez Suárez",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Šćepović",
@@ -1176,7 +1209,7 @@
         "source": "Víctor Rodríguez Romero",
         "target": "Juan Antonio Rodríguez Villamuela",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Víctor Rodríguez Romero",
@@ -1200,7 +1233,7 @@
         "source": "Mehdi Lacen",
         "target": "Víctor Rodríguez Romero",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

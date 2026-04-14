@@ -9,6 +9,11 @@
     "away_color": "#6060d9",
     "score_home": 3,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.519,
     "xg_away": 0.672,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Isaac Kiese Thelin",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.3,
@@ -513,7 +520,9 @@
       "player_full": "Jaroslav Plašil",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.4,
@@ -525,7 +534,9 @@
       "player_full": "Pablo Nascimento Castro",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -537,7 +548,9 @@
       "player_full": "Diego Alejandro Rolan Silva",
       "minute": 37,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -549,7 +562,9 @@
       "player_full": "Benjamin Moukandjo Bilé",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -561,7 +576,9 @@
       "player_full": "Benjamin Moukandjo Bilé",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.6,
@@ -573,7 +590,9 @@
       "player_full": "André Biyogo Poko",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.8,
@@ -585,7 +604,9 @@
       "player_full": "Vincent Le Goff",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -597,7 +618,9 @@
       "player_full": "Abdul Majeed Waris",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.1,
@@ -609,7 +632,9 @@
       "player_full": "Zargo Touré",
       "minute": 66,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -621,7 +646,9 @@
       "player_full": "Benjamin Moukandjo Bilé",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -633,7 +660,9 @@
       "player_full": "Zargo Touré",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -645,7 +674,9 @@
       "player_full": "Wahbi Khazri",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -657,7 +688,9 @@
       "player_full": "Pablo Nascimento Castro",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -669,7 +702,9 @@
       "player_full": "Adam Ounas",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -681,7 +716,9 @@
       "player_full": "Wahbi Khazri",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +998,7 @@
       {
         "id": "Pablo Nascimento Castro",
         "short": "Castro",
-        "x": 77.95,
+        "x": 42.05,
         "y": 46.73,
         "size": 95.2,
         "is_playmaker": false,
@@ -971,7 +1008,7 @@
       {
         "id": "Nicolas Pallois",
         "short": "Pallois",
-        "x": 80.4,
+        "x": 39.6,
         "y": 27.71,
         "size": 139.9,
         "is_playmaker": true,
@@ -981,7 +1018,7 @@
       {
         "id": "Jaroslav Plašil",
         "short": "Plašil",
-        "x": 56.46,
+        "x": 63.54,
         "y": 34.94,
         "size": 113.1,
         "is_playmaker": false,
@@ -991,7 +1028,7 @@
       {
         "id": "Wahbi Khazri",
         "short": "Khazri",
-        "x": 48.28,
+        "x": 71.72,
         "y": 31.81,
         "size": 85.2,
         "is_playmaker": false,
@@ -1001,7 +1038,7 @@
       {
         "id": "Maxime Poundjé",
         "short": "Poundjé",
-        "x": 60.82,
+        "x": 59.18,
         "y": 9.41,
         "size": 120.9,
         "is_playmaker": false,
@@ -1011,7 +1048,7 @@
       {
         "id": "Henri Saivet",
         "short": "Saivet",
-        "x": 60.83,
+        "x": 59.17,
         "y": 44.76,
         "size": 90.8,
         "is_playmaker": false,
@@ -1021,7 +1058,7 @@
       {
         "id": "André Biyogo Poko",
         "short": "Poko",
-        "x": 61.9,
+        "x": 58.1,
         "y": 36.02,
         "size": 77.3,
         "is_playmaker": false,
@@ -1031,7 +1068,7 @@
       {
         "id": "Milan Gajić",
         "short": "Gajić",
-        "x": 60.1,
+        "x": 59.9,
         "y": 73.39,
         "size": 96.3,
         "is_playmaker": true,
@@ -1041,7 +1078,7 @@
       {
         "id": "Diego Alejandro Rolan Silva",
         "short": "Silva",
-        "x": 53.81,
+        "x": 66.19,
         "y": 32.3,
         "size": 65.1,
         "is_playmaker": false,
@@ -1051,7 +1088,7 @@
       {
         "id": "Cédric Carrasso",
         "short": "Carrasso",
-        "x": 108.28,
+        "x": 11.72,
         "y": 39.78,
         "size": 61.7,
         "is_playmaker": false,
@@ -1061,7 +1098,7 @@
       {
         "id": "Isaac Kiese Thelin",
         "short": "Thelin",
-        "x": 46.97,
+        "x": 73.03,
         "y": 39.38,
         "size": 59.5,
         "is_playmaker": false,
@@ -1080,25 +1117,25 @@
         "source": "Pablo Nascimento Castro",
         "target": "Jaroslav Plašil",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pablo Nascimento Castro",
         "target": "Henri Saivet",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolas Pallois",
         "target": "Maxime Poundjé",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolas Pallois",
         "target": "Henri Saivet",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolas Pallois",
@@ -1110,25 +1147,25 @@
         "source": "Nicolas Pallois",
         "target": "Jaroslav Plašil",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolas Pallois",
         "target": "André Biyogo Poko",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Wahbi Khazri",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaroslav Plašil",
         "target": "Maxime Poundjé",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaroslav Plašil",
@@ -1140,7 +1177,7 @@
         "source": "Wahbi Khazri",
         "target": "Milan Gajić",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wahbi Khazri",
@@ -1152,13 +1189,13 @@
         "source": "Maxime Poundjé",
         "target": "Nicolas Pallois",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maxime Poundjé",
         "target": "Wahbi Khazri",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maxime Poundjé",
@@ -1170,13 +1207,13 @@
         "source": "Maxime Poundjé",
         "target": "Diego Alejandro Rolan Silva",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maxime Poundjé",
         "target": "Jaroslav Plašil",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Henri Saivet",
@@ -1188,13 +1225,13 @@
         "source": "Henri Saivet",
         "target": "Nicolas Pallois",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André Biyogo Poko",
         "target": "Nicolas Pallois",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Milan Gajić",
@@ -1212,19 +1249,19 @@
         "source": "Milan Gajić",
         "target": "Pablo Nascimento Castro",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Diego Alejandro Rolan Silva",
         "target": "Isaac Kiese Thelin",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Carrasso",
         "target": "Nicolas Pallois",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Isaac Kiese Thelin",
@@ -1236,7 +1273,7 @@
         "source": "Isaac Kiese Thelin",
         "target": "Diego Alejandro Rolan Silva",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

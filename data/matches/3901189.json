@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.228,
     "xg_away": 1.06,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Marcel Tisserand",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -513,7 +520,9 @@
       "player_full": "Morgan Amalfitano",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.4,
@@ -525,7 +534,9 @@
       "player_full": "Mounir Obbadi",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.4,
@@ -537,7 +548,9 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.4,
@@ -549,7 +562,9 @@
       "player_full": "Mounir Obbadi",
       "minute": 29,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -561,7 +576,9 @@
       "player_full": "Sofiane Boufal",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -573,7 +590,9 @@
       "player_full": "Éderzito António Macedo Lopes",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -585,7 +604,9 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -597,7 +618,9 @@
       "player_full": "Adrien Regattin",
       "minute": 52,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -609,7 +632,9 @@
       "player_full": "Tongo Hamed Doumbia",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -621,7 +646,9 @@
       "player_full": "Florent Balmont",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -633,7 +660,9 @@
       "player_full": "Adrien Regattin",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.3,
@@ -645,7 +674,9 @@
       "player_full": "Martin Braithwaite Christensen",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -657,7 +688,9 @@
       "player_full": "Aleksandar Pešić",
       "minute": 69,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.8,
@@ -669,7 +702,9 @@
       "player_full": "Martin Braithwaite Christensen",
       "minute": 77,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.5,
@@ -681,7 +716,9 @@
       "player_full": "Jacques François Moubandje",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -943,7 +980,7 @@
       {
         "id": "Steeve Yago",
         "short": "Yago",
-        "x": 58.56,
+        "x": 61.44,
         "y": 70.8,
         "size": 86.6,
         "is_playmaker": false,
@@ -953,7 +990,7 @@
       {
         "id": "Tongo Hamed Doumbia",
         "short": "Doumbia",
-        "x": 56.15,
+        "x": 63.85,
         "y": 43.67,
         "size": 143.7,
         "is_playmaker": true,
@@ -963,7 +1000,7 @@
       {
         "id": "Yann Bodiger",
         "short": "Bodiger",
-        "x": 62.87,
+        "x": 57.13,
         "y": 36.08,
         "size": 115.2,
         "is_playmaker": false,
@@ -973,7 +1010,7 @@
       {
         "id": "Jacques François Moubandje",
         "short": "Moubandje",
-        "x": 61.25,
+        "x": 58.75,
         "y": 8.12,
         "size": 97.1,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Wissam Ben Yedder",
         "short": "Yedder",
-        "x": 49.91,
+        "x": 70.09,
         "y": 24.87,
         "size": 115.2,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Issa Diop",
         "short": "Diop",
-        "x": 75.87,
+        "x": 44.13,
         "y": 50.45,
         "size": 70.0,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Marcel Tisserand",
         "short": "Tisserand",
-        "x": 78.1,
+        "x": 41.9,
         "y": 25.57,
         "size": 88.1,
         "is_playmaker": true,
@@ -1013,7 +1050,7 @@
       {
         "id": "Étienne Didot",
         "short": "Didot",
-        "x": 52.26,
+        "x": 67.74,
         "y": 23.33,
         "size": 88.1,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Wergiton do Rosário Calmon",
         "short": "Calmon",
-        "x": 47.27,
+        "x": 72.73,
         "y": 68.85,
         "size": 73.0,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Martin Braithwaite Christensen",
         "short": "Christensen",
-        "x": 43.45,
+        "x": 76.55,
         "y": 11.61,
         "size": 67.0,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Alban Lafont",
         "short": "Lafont",
-        "x": 107.71,
+        "x": 12.29,
         "y": 43.5,
         "size": 61.0,
         "is_playmaker": false,
@@ -1062,7 +1099,7 @@
         "source": "Steeve Yago",
         "target": "Yann Bodiger",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tongo Hamed Doumbia",
@@ -1074,37 +1111,37 @@
         "source": "Tongo Hamed Doumbia",
         "target": "Issa Diop",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tongo Hamed Doumbia",
         "target": "Yann Bodiger",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tongo Hamed Doumbia",
         "target": "Wergiton do Rosário Calmon",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tongo Hamed Doumbia",
         "target": "Wissam Ben Yedder",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yann Bodiger",
         "target": "Tongo Hamed Doumbia",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yann Bodiger",
         "target": "Étienne Didot",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yann Bodiger",
@@ -1116,31 +1153,31 @@
         "source": "Yann Bodiger",
         "target": "Marcel Tisserand",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yann Bodiger",
         "target": "Wissam Ben Yedder",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jacques François Moubandje",
         "target": "Wissam Ben Yedder",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jacques François Moubandje",
         "target": "Marcel Tisserand",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wissam Ben Yedder",
         "target": "Tongo Hamed Doumbia",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wissam Ben Yedder",
@@ -1152,25 +1189,25 @@
         "source": "Issa Diop",
         "target": "Alban Lafont",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcel Tisserand",
         "target": "Jacques François Moubandje",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcel Tisserand",
         "target": "Tongo Hamed Doumbia",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcel Tisserand",
         "target": "Alban Lafont",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Étienne Didot",
@@ -1182,13 +1219,13 @@
         "source": "Étienne Didot",
         "target": "Jacques François Moubandje",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wergiton do Rosário Calmon",
         "target": "Yann Bodiger",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wergiton do Rosário Calmon",
@@ -1200,25 +1237,25 @@
         "source": "Martin Braithwaite Christensen",
         "target": "Étienne Didot",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Martin Braithwaite Christensen",
         "target": "Wissam Ben Yedder",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alban Lafont",
         "target": "Issa Diop",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alban Lafont",
         "target": "Marcel Tisserand",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

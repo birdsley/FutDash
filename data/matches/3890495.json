@@ -9,6 +9,11 @@
     "away_color": "#dc052d",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.429,
     "xg_away": 0.489,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Robert Lewandowski",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.5,
@@ -513,7 +520,9 @@
       "player_full": "Douglas Costa de Souza",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.7,
@@ -525,7 +534,9 @@
       "player_full": "Marcel Risse",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.4,
@@ -537,7 +548,9 @@
       "player_full": "Thiago Alcântara do Nascimento",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -549,7 +562,9 @@
       "player_full": "Leonardo Bittencourt",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -561,7 +576,9 @@
       "player_full": "Robert Lewandowski",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.0,
@@ -573,7 +590,9 @@
       "player_full": "Marcel Risse",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -585,7 +604,9 @@
       "player_full": "Anthony Modeste",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.4,
@@ -597,7 +618,9 @@
       "player_full": "Leonardo Bittencourt",
       "minute": 76,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.9,
@@ -609,7 +632,9 @@
       "player_full": "Robert Lewandowski",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -621,7 +646,9 @@
       "player_full": "Kingsley Coman",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.9,
@@ -633,7 +660,9 @@
       "player_full": "Leonardo Bittencourt",
       "minute": 93,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -841,7 +870,7 @@
       {
         "id": "Joshua Kimmich",
         "short": "Kimmich",
-        "x": 70.15,
+        "x": 49.85,
         "y": 58.74,
         "size": 124.3,
         "is_playmaker": true,
@@ -851,7 +880,7 @@
       {
         "id": "Márcio Rafael Ferreira de Souza",
         "short": "Souza",
-        "x": 50.98,
+        "x": 69.02,
         "y": 70.68,
         "size": 118.3,
         "is_playmaker": false,
@@ -861,7 +890,7 @@
       {
         "id": "Xabier Alonso Olano",
         "short": "Olano",
-        "x": 61.56,
+        "x": 58.44,
         "y": 38.04,
         "size": 138.3,
         "is_playmaker": true,
@@ -871,7 +900,7 @@
       {
         "id": "David Olatukunbo Alaba",
         "short": "Alaba",
-        "x": 67.65,
+        "x": 52.35,
         "y": 27.09,
         "size": 116.3,
         "is_playmaker": false,
@@ -881,7 +910,7 @@
       {
         "id": "Thiago Alcântara do Nascimento",
         "short": "Nascimento",
-        "x": 45.52,
+        "x": 74.48,
         "y": 26.32,
         "size": 94.4,
         "is_playmaker": false,
@@ -891,7 +920,7 @@
       {
         "id": "Douglas Costa de Souza",
         "short": "Souza",
-        "x": 40.1,
+        "x": 79.9,
         "y": 21.87,
         "size": 64.0,
         "is_playmaker": false,
@@ -901,7 +930,7 @@
       {
         "id": "Juan Bernat Velasco",
         "short": "Velasco",
-        "x": 60.97,
+        "x": 59.03,
         "y": 11.28,
         "size": 90.4,
         "is_playmaker": false,
@@ -911,7 +940,7 @@
       {
         "id": "Kingsley Coman",
         "short": "Coman",
-        "x": 35.5,
+        "x": 84.5,
         "y": 63.11,
         "size": 69.5,
         "is_playmaker": false,
@@ -921,7 +950,7 @@
       {
         "id": "Sebastian Rode",
         "short": "Rode",
-        "x": 48.44,
+        "x": 71.56,
         "y": 56.79,
         "size": 75.4,
         "is_playmaker": false,
@@ -931,7 +960,7 @@
       {
         "id": "Robert Lewandowski",
         "short": "Lewandowski",
-        "x": 36.76,
+        "x": 83.24,
         "y": 45.74,
         "size": 57.0,
         "is_playmaker": false,
@@ -941,7 +970,7 @@
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
-        "x": 104.56,
+        "x": 15.44,
         "y": 42.32,
         "size": 57.0,
         "is_playmaker": false,
@@ -954,7 +983,7 @@
         "source": "Joshua Kimmich",
         "target": "Márcio Rafael Ferreira de Souza",
         "weight": 35,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joshua Kimmich",
@@ -966,25 +995,25 @@
         "source": "Joshua Kimmich",
         "target": "Xabier Alonso Olano",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joshua Kimmich",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Márcio Rafael Ferreira de Souza",
         "target": "Joshua Kimmich",
         "weight": 29,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Márcio Rafael Ferreira de Souza",
         "target": "Kingsley Coman",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Márcio Rafael Ferreira de Souza",
@@ -996,31 +1025,31 @@
         "source": "Márcio Rafael Ferreira de Souza",
         "target": "Xabier Alonso Olano",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "David Olatukunbo Alaba",
         "weight": 24,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Joshua Kimmich",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Sebastian Rode",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
@@ -1032,13 +1061,13 @@
         "source": "Xabier Alonso Olano",
         "target": "Márcio Rafael Ferreira de Souza",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Olatukunbo Alaba",
         "target": "Xabier Alonso Olano",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Olatukunbo Alaba",
@@ -1050,37 +1079,37 @@
         "source": "David Olatukunbo Alaba",
         "target": "Juan Bernat Velasco",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Olatukunbo Alaba",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Olatukunbo Alaba",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thiago Alcântara do Nascimento",
         "target": "Douglas Costa de Souza",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thiago Alcântara do Nascimento",
         "target": "Xabier Alonso Olano",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Bernat Velasco",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Bernat Velasco",
@@ -1092,13 +1121,13 @@
         "source": "Juan Bernat Velasco",
         "target": "David Olatukunbo Alaba",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kingsley Coman",
         "target": "Márcio Rafael Ferreira de Souza",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kingsley Coman",
@@ -1110,19 +1139,19 @@
         "source": "Sebastian Rode",
         "target": "Joshua Kimmich",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sebastian Rode",
         "target": "Robert Lewandowski",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Robert Lewandowski",
         "target": "Sebastian Rode",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Lewandowski",
@@ -1134,13 +1163,13 @@
         "source": "Manuel Neuer",
         "target": "Joshua Kimmich",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Neuer",
         "target": "David Olatukunbo Alaba",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

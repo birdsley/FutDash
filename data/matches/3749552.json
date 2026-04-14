@@ -9,6 +9,11 @@
     "away_color": "#ef0107",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.058,
     "xg_away": 0.208,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Fredrik Ljungberg",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.4,
@@ -513,7 +520,9 @@
       "player_full": "Ruud van Nistelrooy",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.3,
@@ -525,7 +534,9 @@
       "player_full": "Ruud van Nistelrooy",
       "minute": 21,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.3,
@@ -537,7 +548,9 @@
       "player_full": "Ashley Cole",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -549,7 +562,9 @@
       "player_full": "Quinton Fortune Kolobea",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.1,
@@ -561,7 +576,9 @@
       "player_full": "Dennis Bergkamp",
       "minute": 33,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -573,7 +590,9 @@
       "player_full": "Cristiano Ronaldo dos Santos Aveiro",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.4,
@@ -585,7 +604,9 @@
       "player_full": "Cristiano Ronaldo dos Santos Aveiro",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.6,
@@ -597,7 +618,9 @@
       "player_full": "Gilberto Aparecido da Silva",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.8,
@@ -609,7 +632,9 @@
       "player_full": "Thierry Henry",
       "minute": 50,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -621,7 +646,9 @@
       "player_full": "Cristiano Ronaldo dos Santos Aveiro",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -633,7 +660,9 @@
       "player_full": "Ruud van Nistelrooy",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -645,7 +674,9 @@
       "player_full": "Thierry Henry",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 80.9,
@@ -657,7 +688,9 @@
       "player_full": "Eduardo César Daude Gaspar",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -669,7 +702,9 @@
       "player_full": "Ruud van Nistelrooy",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Laureano Bisan-Etame Mayer",
         "short": "Mayer",
-        "x": 61.65,
+        "x": 58.35,
         "y": 70.95,
         "size": 116.5,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Ray Parlour",
         "short": "Parlour",
-        "x": 54.02,
+        "x": 65.98,
         "y": 65.29,
         "size": 113.8,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Gilberto Aparecido da Silva",
         "short": "Silva",
-        "x": 65.37,
+        "x": 54.63,
         "y": 46.61,
         "size": 107.5,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Patrick Vieira",
         "short": "Vieira",
-        "x": 62.25,
+        "x": 57.75,
         "y": 36.56,
         "size": 113.8,
         "is_playmaker": true,
@@ -1001,7 +1036,7 @@
       {
         "id": "Dennis Bergkamp",
         "short": "Bergkamp",
-        "x": 55.45,
+        "x": 64.55,
         "y": 44.77,
         "size": 92.1,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Fredrik Ljungberg",
         "short": "Ljungberg",
-        "x": 54.89,
+        "x": 65.11,
         "y": 18.73,
         "size": 87.6,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Ashley Cole",
         "short": "Cole",
-        "x": 69.05,
+        "x": 50.95,
         "y": 8.13,
         "size": 104.8,
         "is_playmaker": true,
@@ -1031,7 +1066,7 @@
       {
         "id": "Martin Keown",
         "short": "Keown",
-        "x": 81.71,
+        "x": 38.29,
         "y": 51.39,
         "size": 70.4,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Kolo Habib Touré",
         "short": "Touré",
-        "x": 78.39,
+        "x": 41.61,
         "y": 29.13,
         "size": 68.6,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Thierry Henry",
         "short": "Henry",
-        "x": 43.31,
+        "x": 76.69,
         "y": 38.69,
         "size": 71.3,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Jens Lehmann",
         "short": "Lehmann",
-        "x": 108.48,
+        "x": 11.52,
         "y": 36.85,
         "size": 58.6,
         "is_playmaker": false,
@@ -1074,7 +1109,7 @@
         "source": "Laureano Bisan-Etame Mayer",
         "target": "Ray Parlour",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Laureano Bisan-Etame Mayer",
@@ -1086,19 +1121,19 @@
         "source": "Laureano Bisan-Etame Mayer",
         "target": "Dennis Bergkamp",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ray Parlour",
         "target": "Laureano Bisan-Etame Mayer",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ray Parlour",
         "target": "Gilberto Aparecido da Silva",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gilberto Aparecido da Silva",
@@ -1110,7 +1145,7 @@
         "source": "Gilberto Aparecido da Silva",
         "target": "Ray Parlour",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gilberto Aparecido da Silva",
@@ -1122,31 +1157,31 @@
         "source": "Patrick Vieira",
         "target": "Dennis Bergkamp",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Patrick Vieira",
         "target": "Fredrik Ljungberg",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Patrick Vieira",
         "target": "Ashley Cole",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Patrick Vieira",
         "target": "Thierry Henry",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dennis Bergkamp",
         "target": "Patrick Vieira",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dennis Bergkamp",
@@ -1158,7 +1193,7 @@
         "source": "Fredrik Ljungberg",
         "target": "Ashley Cole",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fredrik Ljungberg",
@@ -1170,13 +1205,13 @@
         "source": "Ashley Cole",
         "target": "Fredrik Ljungberg",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashley Cole",
         "target": "Patrick Vieira",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashley Cole",
@@ -1188,25 +1223,25 @@
         "source": "Ashley Cole",
         "target": "Kolo Habib Touré",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ashley Cole",
         "target": "Thierry Henry",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martin Keown",
         "target": "Laureano Bisan-Etame Mayer",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martin Keown",
         "target": "Jens Lehmann",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kolo Habib Touré",
@@ -1218,25 +1253,25 @@
         "source": "Kolo Habib Touré",
         "target": "Jens Lehmann",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thierry Henry",
         "target": "Ray Parlour",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jens Lehmann",
         "target": "Martin Keown",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jens Lehmann",
         "target": "Kolo Habib Touré",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.37,
     "xg_away": 1.213,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Lucas Pérez Martínez",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -513,7 +520,9 @@
       "player_full": "Luis Alberto Romero Alconchel",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -525,7 +534,9 @@
       "player_full": "Sidnei Rechel da Silva Júnior",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.4,
@@ -537,7 +548,9 @@
       "player_full": "Celso Borges Mora",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.9,
@@ -549,7 +562,9 @@
       "player_full": "Fabián Ariel Orellana Valenzuela",
       "minute": 22,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.1,
@@ -561,7 +576,9 @@
       "player_full": "Iago Aspas Juncal",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.5,
@@ -573,7 +590,9 @@
       "player_full": "Lucas Pérez Martínez",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -585,7 +604,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -597,7 +618,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.6,
@@ -609,7 +632,9 @@
       "player_full": "Iago Aspas Juncal",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.3,
@@ -621,7 +646,9 @@
       "player_full": "Luis Alberto Romero Alconchel",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -633,7 +660,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.8,
@@ -645,7 +674,9 @@
       "player_full": "Juan Francisco Moreno Fuertes",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -657,7 +688,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.4,
@@ -669,7 +702,9 @@
       "player_full": "Fabián Ariel Orellana Valenzuela",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.6,
@@ -681,7 +716,9 @@
       "player_full": "Manuel Agudo Durán",
       "minute": 92,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Lucas Pérez Martínez",
         "short": "Martínez",
-        "x": 37.8,
+        "x": 82.2,
         "y": 48.64,
         "size": 128.9,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Luis Alberto Romero Alconchel",
         "short": "Alconchel",
-        "x": 39.28,
+        "x": 80.72,
         "y": 32.71,
         "size": 88.3,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Federico Nicolás Cartabia",
         "short": "Cartabia",
-        "x": 42.06,
+        "x": 77.94,
         "y": 61.14,
         "size": 105.7,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Juan Francisco Moreno Fuertes",
         "short": "Fuertes",
-        "x": 59.26,
+        "x": 60.74,
         "y": 69.13,
         "size": 91.2,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Celso Borges Mora",
         "short": "Mora",
-        "x": 59.04,
+        "x": 60.96,
         "y": 30.65,
         "size": 82.5,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Fayçal Fajr",
         "short": "Fajr",
-        "x": 43.38,
+        "x": 76.62,
         "y": 33.34,
         "size": 137.6,
         "is_playmaker": true,
@@ -1033,7 +1070,7 @@
       {
         "id": "Fernando Navarro i Corbacho",
         "short": "Corbacho",
-        "x": 53.79,
+        "x": 66.21,
         "y": 7.42,
         "size": 88.3,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Pedro Mosquera Parada",
         "short": "Parada",
-        "x": 61.9,
+        "x": 58.1,
         "y": 46.13,
         "size": 94.1,
         "is_playmaker": true,
@@ -1053,7 +1090,7 @@
       {
         "id": "Sidnei Rechel da Silva Júnior",
         "short": "Júnior",
-        "x": 76.27,
+        "x": 43.73,
         "y": 28.3,
         "size": 66.6,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Germán Darío Lux",
         "short": "Lux",
-        "x": 104.9,
+        "x": 15.1,
         "y": 46.15,
         "size": 60.8,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Alejandro Arribas Garrido",
         "short": "Garrido",
-        "x": 78.26,
+        "x": 41.74,
         "y": 56.63,
         "size": 60.8,
         "is_playmaker": false,
@@ -1092,7 +1129,7 @@
         "source": "Lucas Pérez Martínez",
         "target": "Federico Nicolás Cartabia",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luis Alberto Romero Alconchel",
@@ -1110,121 +1147,121 @@
         "source": "Federico Nicolás Cartabia",
         "target": "Juan Francisco Moreno Fuertes",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Federico Nicolás Cartabia",
         "target": "Lucas Pérez Martínez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Federico Nicolás Cartabia",
         "target": "Pedro Mosquera Parada",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Francisco Moreno Fuertes",
         "target": "Federico Nicolás Cartabia",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Francisco Moreno Fuertes",
         "target": "Lucas Pérez Martínez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Francisco Moreno Fuertes",
         "target": "Fayçal Fajr",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Celso Borges Mora",
         "target": "Fayçal Fajr",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Celso Borges Mora",
         "target": "Lucas Pérez Martínez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fayçal Fajr",
         "target": "Pedro Mosquera Parada",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fayçal Fajr",
         "target": "Celso Borges Mora",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fayçal Fajr",
         "target": "Lucas Pérez Martínez",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fayçal Fajr",
         "target": "Fernando Navarro i Corbacho",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fayçal Fajr",
         "target": "Luis Alberto Romero Alconchel",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Navarro i Corbacho",
         "target": "Fayçal Fajr",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Navarro i Corbacho",
         "target": "Lucas Pérez Martínez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Navarro i Corbacho",
         "target": "Sidnei Rechel da Silva Júnior",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Fayçal Fajr",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Lucas Pérez Martínez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Mosquera Parada",
         "target": "Alejandro Arribas Garrido",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sidnei Rechel da Silva Júnior",
         "target": "Germán Darío Lux",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

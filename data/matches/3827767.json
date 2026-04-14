@@ -7,12 +7,17 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#c9d1d9",
     "away_color": "#c9d1d9",
-    "score_home": 4,
-    "score_away": 2,
-    "xg_home": 3.999,
-    "xg_away": 4.319,
-    "shots_home": 18,
-    "shots_away": 20,
+    "score_home": 1,
+    "score_away": 1,
+    "penalty_home": 3,
+    "penalty_away": 1,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 131,
+    "xg_home": 0.865,
+    "xg_away": 1.185,
+    "shots_home": 14,
+    "shots_away": 16,
     "possession_home": 45.7,
     "competition": "Indian Super league",
     "season": "2021/2022",
@@ -111,7 +116,46 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
     ],
     "home": [
       0.0,
@@ -205,7 +249,46 @@
       0.6215,
       0.6215,
       0.6215,
-      3.9992
+      0.6215,
+      0.6215,
+      0.6215,
+      0.6418,
+      0.6418,
+      0.6418,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.7005,
+      0.86,
+      0.86,
+      0.86,
+      0.86,
+      0.86,
+      0.86,
+      0.86,
+      0.86,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652,
+      0.8652
     ],
     "away": [
       0.0,
@@ -299,195 +382,312 @@
       0.781,
       0.9537,
       0.9537,
-      4.3192
+      0.9537,
+      0.9537,
+      1.0105,
+      1.0105,
+      1.0105,
+      1.0105,
+      1.0105,
+      1.0105,
+      1.0105,
+      1.0105,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.128,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852,
+      1.1852
     ],
     "pressure_home": [
-      0.0345,
-      0.0345,
-      0.0414,
-      0.0414,
-      0.0828,
-      0.0828,
-      0.0897,
-      0.0897,
-      0.0897,
-      0.0966,
-      0.0897,
-      0.1172,
-      0.1103,
-      0.1103,
-      0.069,
-      0.0828,
-      0.0759,
-      0.0759,
-      0.0759,
-      0.0759,
-      0.0759,
-      0.0483,
-      0.0483,
-      0.0483,
-      0.0483,
-      0.0345,
-      0.0345,
-      0.0345,
-      0.0897,
-      0.0897,
-      0.0621,
-      0.0828,
-      0.0828,
-      0.1655,
-      0.1931,
-      0.2414,
-      0.2759,
-      0.2828,
-      0.2414,
-      0.2345,
-      0.2414,
-      0.2276,
-      0.2276,
-      0.1448,
-      0.1172,
-      0.0897,
-      0.0621,
-      0.0828,
-      0.1517,
-      0.1586,
-      0.2276,
-      0.2483,
-      0.2828,
-      0.331,
-      0.3586,
-      0.3379,
-      0.331,
-      0.3034,
-      0.2414,
-      0.2345,
-      0.1586,
-      0.2621,
-      0.2345,
-      0.1931,
-      0.2414,
-      0.2897,
-      0.2897,
-      0.2897,
-      0.269,
-      0.3034,
-      0.3448,
-      0.2207,
-      0.2414,
-      0.269,
-      0.1931,
-      0.1586,
-      0.1586,
-      0.1655,
-      0.2207,
-      0.1862,
-      0.1448,
-      0.2138,
-      0.2276,
-      0.1931,
-      0.1931,
-      0.2138,
-      0.269,
-      0.2759,
-      0.2207,
-      0.2207,
-      0.2414,
-      1.0
+      0.0704,
+      0.0704,
+      0.0845,
+      0.0845,
+      0.169,
+      0.169,
+      0.1831,
+      0.1831,
+      0.1831,
+      0.1972,
+      0.1831,
+      0.2394,
+      0.2254,
+      0.2254,
+      0.1408,
+      0.169,
+      0.1549,
+      0.1549,
+      0.1549,
+      0.1549,
+      0.1549,
+      0.0986,
+      0.0986,
+      0.0986,
+      0.0986,
+      0.0704,
+      0.0704,
+      0.0704,
+      0.1831,
+      0.1831,
+      0.1268,
+      0.169,
+      0.169,
+      0.338,
+      0.3944,
+      0.493,
+      0.5634,
+      0.5775,
+      0.493,
+      0.4789,
+      0.493,
+      0.4648,
+      0.4648,
+      0.2958,
+      0.2394,
+      0.1831,
+      0.1268,
+      0.169,
+      0.3099,
+      0.3239,
+      0.4648,
+      0.507,
+      0.5775,
+      0.6761,
+      0.7324,
+      0.6901,
+      0.6761,
+      0.6197,
+      0.493,
+      0.4789,
+      0.3239,
+      0.5352,
+      0.4789,
+      0.3944,
+      0.493,
+      0.5915,
+      0.5915,
+      0.5915,
+      0.5493,
+      0.6197,
+      0.7042,
+      0.4507,
+      0.493,
+      0.5493,
+      0.3944,
+      0.3239,
+      0.3239,
+      0.338,
+      0.4507,
+      0.3803,
+      0.2958,
+      0.4366,
+      0.4648,
+      0.3944,
+      0.3944,
+      0.4366,
+      0.5493,
+      0.5634,
+      0.4507,
+      0.4507,
+      0.493,
+      0.3662,
+      0.3239,
+      0.338,
+      0.4366,
+      0.3803,
+      0.4366,
+      0.4507,
+      0.4507,
+      0.4648,
+      0.4789,
+      0.4507,
+      0.4085,
+      0.4085,
+      0.3099,
+      0.2958,
+      0.1268,
+      0.1831,
+      0.3803,
+      0.7324,
+      0.6761,
+      0.6901,
+      0.6901,
+      0.8451,
+      0.8873,
+      0.8873,
+      1.0,
+      0.9718,
+      0.7887,
+      0.4789,
+      0.493,
+      0.493,
+      0.493,
+      0.3239,
+      0.2958,
+      0.2958,
+      0.1972,
+      0.1268,
+      0.1268,
+      0.0704,
+      0.0563
     ],
     "pressure_away": [
-      0.1353,
-      0.1353,
-      0.2707,
-      0.2932,
-      0.3233,
-      0.3684,
-      0.3759,
-      0.3759,
-      0.4211,
-      0.4211,
-      0.2932,
-      0.3083,
-      0.1729,
-      0.1504,
-      0.1203,
-      0.1579,
-      0.218,
-      0.2256,
-      0.1955,
-      0.2256,
-      0.2406,
-      0.3158,
-      0.3233,
-      0.3233,
-      0.406,
-      0.4135,
-      0.3459,
-      0.3985,
-      0.391,
-      0.3609,
-      0.3383,
-      0.3383,
-      0.3609,
-      0.3759,
-      0.3008,
-      0.2331,
-      0.3233,
-      0.2707,
-      0.391,
-      0.4662,
+      0.2368,
+      0.2368,
       0.4737,
-      0.406,
-      0.3759,
-      0.3609,
-      0.3835,
-      0.3609,
-      0.2782,
-      0.2707,
-      0.1429,
-      0.2406,
-      0.2331,
+      0.5132,
+      0.5658,
+      0.6447,
+      0.6579,
+      0.6579,
+      0.7368,
+      0.7368,
+      0.5132,
+      0.5395,
+      0.3026,
       0.2632,
-      0.3459,
-      0.3835,
-      0.3534,
-      0.3609,
-      0.3534,
-      0.3609,
-      0.3835,
-      0.2556,
-      0.3008,
-      0.3609,
-      0.4361,
-      0.5639,
-      0.5639,
-      0.5564,
-      0.5714,
-      0.5639,
-      0.5414,
-      0.4962,
-      0.4586,
-      0.3459,
-      0.2406,
-      0.0752,
-      0.0752,
-      0.0752,
-      0.0602,
-      0.0977,
-      0.0977,
-      0.1353,
-      0.1278,
-      0.188,
-      0.1955,
       0.2105,
-      0.2105,
-      0.2331,
-      0.2331,
-      0.1955,
-      0.218,
-      0.1805,
-      0.1955,
-      1.0
+      0.2763,
+      0.3816,
+      0.3947,
+      0.3421,
+      0.3947,
+      0.4211,
+      0.5526,
+      0.5658,
+      0.5658,
+      0.7105,
+      0.7237,
+      0.6053,
+      0.6974,
+      0.6842,
+      0.6316,
+      0.5921,
+      0.5921,
+      0.6316,
+      0.6579,
+      0.5263,
+      0.4079,
+      0.5658,
+      0.4737,
+      0.6842,
+      0.8158,
+      0.8289,
+      0.7105,
+      0.6579,
+      0.6316,
+      0.6711,
+      0.6316,
+      0.4868,
+      0.4737,
+      0.25,
+      0.4211,
+      0.4079,
+      0.4605,
+      0.6053,
+      0.6711,
+      0.6184,
+      0.6316,
+      0.6184,
+      0.6316,
+      0.6711,
+      0.4474,
+      0.5263,
+      0.6316,
+      0.7632,
+      0.9868,
+      0.9868,
+      0.9737,
+      1.0,
+      0.9868,
+      0.9474,
+      0.8684,
+      0.8026,
+      0.6053,
+      0.4211,
+      0.1316,
+      0.1316,
+      0.1316,
+      0.1053,
+      0.1711,
+      0.1711,
+      0.2368,
+      0.2237,
+      0.3289,
+      0.3421,
+      0.3684,
+      0.3684,
+      0.4079,
+      0.4079,
+      0.3421,
+      0.3816,
+      0.3158,
+      0.3421,
+      0.3947,
+      0.3289,
+      0.4079,
+      0.6053,
+      0.5658,
+      0.5921,
+      0.5921,
+      0.5658,
+      0.5921,
+      0.6974,
+      0.5395,
+      0.5,
+      0.4605,
+      0.3684,
+      0.4079,
+      0.3947,
+      0.3947,
+      0.4868,
+      0.5658,
+      0.4342,
+      0.5526,
+      0.5526,
+      0.5658,
+      0.4737,
+      0.4474,
+      0.4868,
+      0.5658,
+      0.4868,
+      0.3816,
+      0.3816,
+      0.2632,
+      0.2632,
+      0.1842,
+      0.1711,
+      0.1579,
+      0.1053,
+      0.0263,
+      0.0,
+      0.0,
+      0.0
     ]
   },
   "shots": [
@@ -501,7 +701,9 @@
       "player_full": "Souvik Chakrabarti",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -513,7 +715,9 @@
       "player_full": "Jorge Rolando Pereyra Díaz",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -525,7 +729,9 @@
       "player_full": "Rahul Kannoly Praveen",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.2,
@@ -537,7 +743,9 @@
       "player_full": "Adrián Nicolás Luna Retamar",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -549,7 +757,9 @@
       "player_full": "Álvaro Vázquez García",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -561,7 +771,9 @@
       "player_full": "Jorge Rolando Pereyra Díaz",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.3,
@@ -573,7 +785,9 @@
       "player_full": "Lalthathanga Khawlhring",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -585,7 +799,9 @@
       "player_full": "Javier Siverio Toro",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.7,
@@ -597,7 +813,9 @@
       "player_full": "João Victor de Albuquerque Bruno",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -609,7 +827,9 @@
       "player_full": "Bartholomew Owogbalor Ogbeche",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -621,7 +841,9 @@
       "player_full": "Lalthathanga Khawlhring",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.2,
@@ -633,7 +855,9 @@
       "player_full": "Bartholomew Owogbalor Ogbeche",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.9,
@@ -645,7 +869,9 @@
       "player_full": "Javier Siverio Toro",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -657,7 +883,9 @@
       "player_full": "Rahul Kannoly Praveen",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.4,
@@ -669,7 +897,9 @@
       "player_full": "Halicharan Narzary",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.8,
@@ -681,7 +911,9 @@
       "player_full": "Bartholomew Owogbalor Ogbeche",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -693,7 +925,9 @@
       "player_full": "Juan Antonio González Fernández",
       "minute": 75,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.1,
@@ -705,7 +939,9 @@
       "player_full": "Álvaro Vázquez García",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -717,7 +953,9 @@
       "player_full": "Adrián Nicolás Luna Retamar",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -729,7 +967,9 @@
       "player_full": "Marko Lešković",
       "minute": 84,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.7,
@@ -741,7 +981,9 @@
       "player_full": "Sahil Tavora",
       "minute": 87,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -753,7 +995,9 @@
       "player_full": "Álvaro Vázquez García",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -765,7 +1009,9 @@
       "player_full": "Nishu Kumar Tashni",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -777,7 +1023,9 @@
       "player_full": "Halicharan Narzary",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -789,7 +1037,9 @@
       "player_full": "Bartholomew Owogbalor Ogbeche",
       "minute": 97,
       "technique": "Overhead Kick",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.2,
@@ -801,7 +1051,9 @@
       "player_full": "Jeakson Singh Thaunaojam",
       "minute": 101,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.4,
@@ -813,7 +1065,9 @@
       "player_full": "Bartholomew Owogbalor Ogbeche",
       "minute": 109,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -825,7 +1079,9 @@
       "player_full": "Chencho Gyeltshen",
       "minute": 114,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.9,
@@ -837,7 +1093,9 @@
       "player_full": "Adrián Nicolás Luna Retamar",
       "minute": 114,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 80.9,
@@ -849,7 +1107,9 @@
       "player_full": "Asish Rai",
       "minute": 117,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -861,7 +1121,9 @@
       "player_full": "Marko Lešković",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -873,7 +1135,9 @@
       "player_full": "João Victor de Albuquerque Bruno",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -885,7 +1149,9 @@
       "player_full": "Nishu Kumar Tashni",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -897,7 +1163,9 @@
       "player_full": "Javier Siverio Toro",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -909,7 +1177,9 @@
       "player_full": "Ayush Adhikari",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -921,7 +1191,9 @@
       "player_full": "Khassa Camara",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -933,7 +1205,9 @@
       "player_full": "Jeakson Singh Thaunaojam",
       "minute": 128,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -945,7 +1219,9 @@
       "player_full": "Halicharan Narzary",
       "minute": 128,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1237,7 +1513,7 @@
       {
         "id": "Hormipam Ruivah",
         "short": "Ruivah",
-        "x": 82.91,
+        "x": 37.09,
         "y": 56.86,
         "size": 98.4,
         "is_playmaker": false,
@@ -1247,7 +1523,7 @@
       {
         "id": "Marko Lešković",
         "short": "Lešković",
-        "x": 80.21,
+        "x": 39.79,
         "y": 26.46,
         "size": 162.4,
         "is_playmaker": true,
@@ -1257,7 +1533,7 @@
       {
         "id": "Soraisham Sandeep Singh",
         "short": "Singh",
-        "x": 60.92,
+        "x": 59.08,
         "y": 11.19,
         "size": 114.8,
         "is_playmaker": false,
@@ -1267,7 +1543,7 @@
       {
         "id": "Lalthathanga Khawlhring",
         "short": "Khawlhring",
-        "x": 63.01,
+        "x": 56.99,
         "y": 34.13,
         "size": 106.6,
         "is_playmaker": false,
@@ -1277,7 +1553,7 @@
       {
         "id": "Harmanjot Singh Khabra",
         "short": "Khabra",
-        "x": 60.13,
+        "x": 59.87,
         "y": 72.35,
         "size": 82.0,
         "is_playmaker": false,
@@ -1287,7 +1563,7 @@
       {
         "id": "Jeakson Singh Thaunaojam",
         "short": "Thaunaojam",
-        "x": 61.76,
+        "x": 58.24,
         "y": 47.83,
         "size": 103.4,
         "is_playmaker": true,
@@ -1297,7 +1573,7 @@
       {
         "id": "Adrián Nicolás Luna Retamar",
         "short": "Retamar",
-        "x": 55.87,
+        "x": 64.13,
         "y": 25.18,
         "size": 93.5,
         "is_playmaker": false,
@@ -1307,7 +1583,7 @@
       {
         "id": "Prabhushkan Singh Gill",
         "short": "Gill",
-        "x": 109.68,
+        "x": 10.32,
         "y": 36.79,
         "size": 61.6,
         "is_playmaker": false,
@@ -1317,7 +1593,7 @@
       {
         "id": "Jorge Rolando Pereyra Díaz",
         "short": "Díaz",
-        "x": 52.5,
+        "x": 67.5,
         "y": 25.99,
         "size": 60.7,
         "is_playmaker": false,
@@ -1327,7 +1603,7 @@
       {
         "id": "Rahul Kannoly Praveen",
         "short": "Praveen",
-        "x": 50.03,
+        "x": 69.97,
         "y": 61.91,
         "size": 60.7,
         "is_playmaker": false,
@@ -1337,7 +1613,7 @@
       {
         "id": "Álvaro Vázquez García",
         "short": "García",
-        "x": 44.91,
+        "x": 75.09,
         "y": 43.28,
         "size": 60.7,
         "is_playmaker": false,
@@ -1356,7 +1632,7 @@
         "source": "Marko Lešković",
         "target": "Soraisham Sandeep Singh",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marko Lešković",
@@ -1368,37 +1644,37 @@
         "source": "Marko Lešković",
         "target": "Adrián Nicolás Luna Retamar",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marko Lešković",
         "target": "Lalthathanga Khawlhring",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marko Lešković",
         "target": "Prabhushkan Singh Gill",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marko Lešković",
         "target": "Jeakson Singh Thaunaojam",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Soraisham Sandeep Singh",
         "target": "Marko Lešković",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Soraisham Sandeep Singh",
         "target": "Adrián Nicolás Luna Retamar",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Soraisham Sandeep Singh",
@@ -1410,13 +1686,13 @@
         "source": "Soraisham Sandeep Singh",
         "target": "Jorge Rolando Pereyra Díaz",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lalthathanga Khawlhring",
         "target": "Marko Lešković",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lalthathanga Khawlhring",
@@ -1428,7 +1704,7 @@
         "source": "Lalthathanga Khawlhring",
         "target": "Álvaro Vázquez García",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lalthathanga Khawlhring",
@@ -1440,13 +1716,13 @@
         "source": "Lalthathanga Khawlhring",
         "target": "Hormipam Ruivah",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harmanjot Singh Khabra",
         "target": "Hormipam Ruivah",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harmanjot Singh Khabra",
@@ -1464,31 +1740,31 @@
         "source": "Jeakson Singh Thaunaojam",
         "target": "Adrián Nicolás Luna Retamar",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jeakson Singh Thaunaojam",
         "target": "Rahul Kannoly Praveen",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jeakson Singh Thaunaojam",
         "target": "Marko Lešković",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrián Nicolás Luna Retamar",
         "target": "Soraisham Sandeep Singh",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrián Nicolás Luna Retamar",
         "target": "Marko Lešković",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },
@@ -1592,7 +1868,7 @@
     }
   },
   "insights": [
-    "Closely contested: Hyderabad 4.00 xG vs Kerala Blasters 4.32 xG",
+    "Closely contested: Hyderabad 0.86 xG vs Kerala Blasters 1.19 xG",
     "Even possession — contested midfield throughout"
   ]
 }

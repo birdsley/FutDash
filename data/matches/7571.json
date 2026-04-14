@@ -9,6 +9,11 @@
     "away_color": "#fcd116",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.36,
     "xg_away": 0.285,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "M''Baye Babacar Niang",
       "minute": 0,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -513,7 +520,9 @@
       "player_full": "Juan Fernando Quintero Paniagua",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -525,7 +534,9 @@
       "player_full": "Keita Baldé Diao",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -537,7 +548,9 @@
       "player_full": "Ismaïla Sarr",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.0,
@@ -549,7 +562,9 @@
       "player_full": "Salif Sané",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -561,7 +576,9 @@
       "player_full": "Sadio Mané",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -573,7 +590,9 @@
       "player_full": "Luis Fernando Muriel Fruto",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -585,7 +604,9 @@
       "player_full": "Radamel Falcao García Zárate",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -597,7 +618,9 @@
       "player_full": "Yerry Fernando Mina González",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -609,7 +632,9 @@
       "player_full": "M''Baye Babacar Niang",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -621,7 +646,9 @@
       "player_full": "Ismaïla Sarr",
       "minute": 78,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -877,7 +904,7 @@
       {
         "id": "Yerry Fernando Mina González",
         "short": "González",
-        "x": 81.96,
+        "x": 38.04,
         "y": 54.33,
         "size": 137.4,
         "is_playmaker": true,
@@ -887,7 +914,7 @@
       {
         "id": "Davinson Sánchez Mina",
         "short": "Mina",
-        "x": 82.42,
+        "x": 37.58,
         "y": 24.81,
         "size": 126.4,
         "is_playmaker": true,
@@ -897,7 +924,7 @@
       {
         "id": "Santiago Arias Naranjo",
         "short": "Naranjo",
-        "x": 62.02,
+        "x": 57.98,
         "y": 73.87,
         "size": 114.3,
         "is_playmaker": false,
@@ -907,7 +934,7 @@
       {
         "id": "Juan Guillermo Cuadrado Bello",
         "short": "Bello",
-        "x": 57.1,
+        "x": 62.9,
         "y": 69.48,
         "size": 100.2,
         "is_playmaker": false,
@@ -917,7 +944,7 @@
       {
         "id": "Andrés Mateus Uribe Villa",
         "short": "Villa",
-        "x": 65.79,
+        "x": 54.21,
         "y": 29.5,
         "size": 81.1,
         "is_playmaker": false,
@@ -927,7 +954,7 @@
       {
         "id": "Johan Andrés Mojica Palacio",
         "short": "Palacio",
-        "x": 67.56,
+        "x": 52.44,
         "y": 5.39,
         "size": 81.1,
         "is_playmaker": false,
@@ -937,7 +964,7 @@
       {
         "id": "Carlos Alberto Sánchez Moreno",
         "short": "Moreno",
-        "x": 74.5,
+        "x": 45.5,
         "y": 45.3,
         "size": 78.1,
         "is_playmaker": false,
@@ -947,7 +974,7 @@
       {
         "id": "Juan Fernando Quintero Paniagua",
         "short": "Paniagua",
-        "x": 62.19,
+        "x": 57.81,
         "y": 58.22,
         "size": 88.2,
         "is_playmaker": false,
@@ -957,7 +984,7 @@
       {
         "id": "David Ospina Ramírez",
         "short": "Ramírez",
-        "x": 107.89,
+        "x": 12.11,
         "y": 42.74,
         "size": 73.1,
         "is_playmaker": false,
@@ -967,7 +994,7 @@
       {
         "id": "Radamel Falcao García Zárate",
         "short": "Zárate",
-        "x": 40.9,
+        "x": 79.1,
         "y": 47.9,
         "size": 66.1,
         "is_playmaker": false,
@@ -977,7 +1004,7 @@
       {
         "id": "James David Rodríguez Rubio",
         "short": "Rubio",
-        "x": 64.71,
+        "x": 55.29,
         "y": 22.29,
         "size": 59.0,
         "is_playmaker": false,
@@ -996,37 +1023,37 @@
         "source": "Yerry Fernando Mina González",
         "target": "Santiago Arias Naranjo",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yerry Fernando Mina González",
         "target": "Juan Guillermo Cuadrado Bello",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yerry Fernando Mina González",
         "target": "David Ospina Ramírez",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yerry Fernando Mina González",
         "target": "Juan Fernando Quintero Paniagua",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davinson Sánchez Mina",
         "target": "Andrés Mateus Uribe Villa",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davinson Sánchez Mina",
         "target": "Johan Andrés Mojica Palacio",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davinson Sánchez Mina",
@@ -1038,19 +1065,19 @@
         "source": "Davinson Sánchez Mina",
         "target": "Carlos Alberto Sánchez Moreno",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Santiago Arias Naranjo",
         "target": "Juan Guillermo Cuadrado Bello",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Santiago Arias Naranjo",
         "target": "Yerry Fernando Mina González",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Santiago Arias Naranjo",
@@ -1062,25 +1089,25 @@
         "source": "Santiago Arias Naranjo",
         "target": "Radamel Falcao García Zárate",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Guillermo Cuadrado Bello",
         "target": "Santiago Arias Naranjo",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Guillermo Cuadrado Bello",
         "target": "Radamel Falcao García Zárate",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrés Mateus Uribe Villa",
         "target": "Davinson Sánchez Mina",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Mateus Uribe Villa",
@@ -1098,7 +1125,7 @@
         "source": "Johan Andrés Mojica Palacio",
         "target": "Davinson Sánchez Mina",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Johan Andrés Mojica Palacio",
@@ -1110,37 +1137,37 @@
         "source": "Carlos Alberto Sánchez Moreno",
         "target": "Juan Fernando Quintero Paniagua",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlos Alberto Sánchez Moreno",
         "target": "Yerry Fernando Mina González",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Fernando Quintero Paniagua",
         "target": "Juan Guillermo Cuadrado Bello",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Fernando Quintero Paniagua",
         "target": "Yerry Fernando Mina González",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Ospina Ramírez",
         "target": "Davinson Sánchez Mina",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Ospina Ramírez",
         "target": "Yerry Fernando Mina González",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "James David Rodríguez Rubio",

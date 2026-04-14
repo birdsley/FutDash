@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.427,
     "xg_away": 0.613,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Bryan Mbeumo",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -513,7 +520,9 @@
       "player_full": "Karl Brillant Toko Ekambi",
       "minute": 9,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.1,
@@ -525,7 +534,9 @@
       "player_full": "Granit Xhaka",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.8,
@@ -537,7 +548,9 @@
       "player_full": "Ngoran Suiru Fai Collins",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -549,7 +562,9 @@
       "player_full": "Martin Hongla Yma II",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -561,7 +576,9 @@
       "player_full": "Nico Elvedi",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -573,7 +590,9 @@
       "player_full": "Jean-Eric Maxim Choupo-Moting",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -585,7 +604,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -597,7 +618,9 @@
       "player_full": "Breel-Donald Embolo",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -609,7 +632,9 @@
       "player_full": "Nicolas Alexis Julio N'Koulou Ndoubena",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 119.2,
@@ -621,7 +646,9 @@
       "player_full": "Jean-Eric Maxim Choupo-Moting",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -633,7 +660,9 @@
       "player_full": "André-Frank Zambo Anguissa",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -645,7 +674,9 @@
       "player_full": "Ruben Vargas",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -657,7 +688,9 @@
       "player_full": "Granit Xhaka",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -669,7 +702,9 @@
       "player_full": "Haris Seferović",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +972,7 @@
       {
         "id": "André Onana",
         "short": "Onana",
-        "x": 101.31,
+        "x": 18.69,
         "y": 41.94,
         "size": 109.4,
         "is_playmaker": false,
@@ -947,7 +982,7 @@
       {
         "id": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "short": "Ndoubena",
-        "x": 86.54,
+        "x": 33.46,
         "y": 27.6,
         "size": 106.6,
         "is_playmaker": false,
@@ -957,7 +992,7 @@
       {
         "id": "Ngoran Suiru Fai Collins",
         "short": "Collins",
-        "x": 65.44,
+        "x": 54.56,
         "y": 75.62,
         "size": 111.2,
         "is_playmaker": true,
@@ -967,7 +1002,7 @@
       {
         "id": "Bryan Mbeumo",
         "short": "Mbeumo",
-        "x": 40.16,
+        "x": 79.84,
         "y": 64.7,
         "size": 92.8,
         "is_playmaker": false,
@@ -977,7 +1012,7 @@
       {
         "id": "André-Frank Zambo Anguissa",
         "short": "Anguissa",
-        "x": 62.43,
+        "x": 57.57,
         "y": 42.4,
         "size": 125.0,
         "is_playmaker": true,
@@ -987,7 +1022,7 @@
       {
         "id": "Samuel Yves Oum Gwet",
         "short": "Gwet",
-        "x": 71.35,
+        "x": 48.65,
         "y": 42.05,
         "size": 87.3,
         "is_playmaker": false,
@@ -997,7 +1032,7 @@
       {
         "id": "Jean-Charles Castelletto",
         "short": "Castelletto",
-        "x": 72.15,
+        "x": 47.85,
         "y": 61.23,
         "size": 91.9,
         "is_playmaker": false,
@@ -1007,7 +1042,7 @@
       {
         "id": "Nouhou Tolo",
         "short": "Tolo",
-        "x": 55.14,
+        "x": 64.86,
         "y": 10.39,
         "size": 77.1,
         "is_playmaker": false,
@@ -1017,7 +1052,7 @@
       {
         "id": "Karl Brillant Toko Ekambi",
         "short": "Ekambi",
-        "x": 47.76,
+        "x": 72.24,
         "y": 14.69,
         "size": 75.3,
         "is_playmaker": false,
@@ -1027,7 +1062,7 @@
       {
         "id": "Martin Hongla Yma II",
         "short": "II",
-        "x": 56.52,
+        "x": 63.48,
         "y": 34.83,
         "size": 69.7,
         "is_playmaker": false,
@@ -1037,7 +1072,7 @@
       {
         "id": "Jean-Eric Maxim Choupo-Moting",
         "short": "Choupo-Moti",
-        "x": 49.75,
+        "x": 70.25,
         "y": 38.24,
         "size": 58.7,
         "is_playmaker": false,
@@ -1050,31 +1085,31 @@
         "source": "André Onana",
         "target": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Onana",
         "target": "Jean-Charles Castelletto",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "target": "André Onana",
         "weight": 18,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "target": "Jean-Charles Castelletto",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ngoran Suiru Fai Collins",
         "target": "Bryan Mbeumo",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ngoran Suiru Fai Collins",
@@ -1086,31 +1121,31 @@
         "source": "Ngoran Suiru Fai Collins",
         "target": "André Onana",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bryan Mbeumo",
         "target": "Ngoran Suiru Fai Collins",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bryan Mbeumo",
         "target": "André-Frank Zambo Anguissa",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
         "target": "Samuel Yves Oum Gwet",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
         "target": "Bryan Mbeumo",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
@@ -1122,37 +1157,37 @@
         "source": "André-Frank Zambo Anguissa",
         "target": "Nouhou Tolo",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
         "target": "Karl Brillant Toko Ekambi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André-Frank Zambo Anguissa",
         "target": "Jean-Eric Maxim Choupo-Moting",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samuel Yves Oum Gwet",
         "target": "André-Frank Zambo Anguissa",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samuel Yves Oum Gwet",
         "target": "Martin Hongla Yma II",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samuel Yves Oum Gwet",
         "target": "Ngoran Suiru Fai Collins",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samuel Yves Oum Gwet",
@@ -1164,55 +1199,55 @@
         "source": "Jean-Charles Castelletto",
         "target": "Ngoran Suiru Fai Collins",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jean-Charles Castelletto",
         "target": "André Onana",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nouhou Tolo",
         "target": "Karl Brillant Toko Ekambi",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nouhou Tolo",
         "target": "Nicolas Alexis Julio N'Koulou Ndoubena",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Karl Brillant Toko Ekambi",
         "target": "André-Frank Zambo Anguissa",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Martin Hongla Yma II",
         "target": "André-Frank Zambo Anguissa",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Martin Hongla Yma II",
         "target": "Jean-Eric Maxim Choupo-Moting",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jean-Eric Maxim Choupo-Moting",
         "target": "Martin Hongla Yma II",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jean-Eric Maxim Choupo-Moting",
         "target": "André-Frank Zambo Anguissa",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

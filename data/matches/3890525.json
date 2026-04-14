@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 2,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.274,
     "xg_away": 0.656,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Mario Vrančić",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.4,
@@ -513,7 +520,9 @@
       "player_full": "Pascal Groß",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.6,
@@ -525,7 +534,9 @@
       "player_full": "Sandro Wagner",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -537,7 +548,9 @@
       "player_full": "Pascal Groß",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.2,
@@ -549,7 +562,9 @@
       "player_full": "Konstantin Rausch",
       "minute": 46,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -561,7 +576,9 @@
       "player_full": "Dario Lezcano",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -573,7 +590,9 @@
       "player_full": "Konstantin Rausch",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -585,7 +604,9 @@
       "player_full": "Sandro Wagner",
       "minute": 54,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.2,
@@ -597,7 +618,9 @@
       "player_full": "Max Christiansen",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -609,7 +632,9 @@
       "player_full": "Dario Lezcano",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -621,7 +646,9 @@
       "player_full": "Mathew Leckie",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -633,7 +660,9 @@
       "player_full": "Benjamin Hübner",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.8,
@@ -645,7 +674,9 @@
       "player_full": "Sandro Wagner",
       "minute": 84,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -889,7 +920,7 @@
       {
         "id": "Dario Lezcano",
         "short": "Lezcano",
-        "x": 40.05,
+        "x": 79.95,
         "y": 49.84,
         "size": 78.7,
         "is_playmaker": false,
@@ -899,7 +930,7 @@
       {
         "id": "Pascal Groß",
         "short": "Groß",
-        "x": 50.73,
+        "x": 69.27,
         "y": 56.86,
         "size": 182.4,
         "is_playmaker": true,
@@ -909,7 +940,7 @@
       {
         "id": "Marvin Matip",
         "short": "Matip",
-        "x": 73.37,
+        "x": 46.63,
         "y": 53.29,
         "size": 103.9,
         "is_playmaker": false,
@@ -919,7 +950,7 @@
       {
         "id": "Danny Vieira da Costa",
         "short": "Costa",
-        "x": 47.28,
+        "x": 72.72,
         "y": 69.12,
         "size": 129.1,
         "is_playmaker": false,
@@ -929,7 +960,7 @@
       {
         "id": "Moritz Hartmann",
         "short": "Hartmann",
-        "x": 47.15,
+        "x": 72.85,
         "y": 33.98,
         "size": 80.2,
         "is_playmaker": false,
@@ -939,7 +970,7 @@
       {
         "id": "Ramazan Özcan",
         "short": "Özcan",
-        "x": 101.66,
+        "x": 18.34,
         "y": 36.72,
         "size": 69.8,
         "is_playmaker": false,
@@ -949,7 +980,7 @@
       {
         "id": "Lukas Hinterseer",
         "short": "Hinterseer",
-        "x": 62.74,
+        "x": 57.26,
         "y": 66.02,
         "size": 69.8,
         "is_playmaker": false,
@@ -959,7 +990,7 @@
       {
         "id": "Max Christiansen",
         "short": "Christianse",
-        "x": 50.65,
+        "x": 69.35,
         "y": 48.99,
         "size": 100.9,
         "is_playmaker": false,
@@ -969,7 +1000,7 @@
       {
         "id": "Benjamin Hübner",
         "short": "Hübner",
-        "x": 80.6,
+        "x": 39.4,
         "y": 24.5,
         "size": 65.4,
         "is_playmaker": false,
@@ -979,7 +1010,7 @@
       {
         "id": "Roger de Oliveira Bernardo",
         "short": "Bernardo",
-        "x": 60.27,
+        "x": 59.73,
         "y": 40.77,
         "size": 63.9,
         "is_playmaker": true,
@@ -989,7 +1020,7 @@
       {
         "id": "Robert Bauer",
         "short": "Bauer",
-        "x": 65.61,
+        "x": 54.39,
         "y": 17.42,
         "size": 60.9,
         "is_playmaker": false,
@@ -1002,13 +1033,13 @@
         "source": "Dario Lezcano",
         "target": "Pascal Groß",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pascal Groß",
         "target": "Marvin Matip",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pascal Groß",
@@ -1020,7 +1051,7 @@
         "source": "Pascal Groß",
         "target": "Dario Lezcano",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pascal Groß",
@@ -1032,25 +1063,25 @@
         "source": "Marvin Matip",
         "target": "Danny Vieira da Costa",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marvin Matip",
         "target": "Pascal Groß",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marvin Matip",
         "target": "Ramazan Özcan",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Vieira da Costa",
         "target": "Lukas Hinterseer",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Vieira da Costa",
@@ -1074,19 +1105,19 @@
         "source": "Moritz Hartmann",
         "target": "Roger de Oliveira Bernardo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ramazan Özcan",
         "target": "Moritz Hartmann",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lukas Hinterseer",
         "target": "Pascal Groß",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Max Christiansen",
@@ -1104,49 +1135,49 @@
         "source": "Max Christiansen",
         "target": "Roger de Oliveira Bernardo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Benjamin Hübner",
         "target": "Marvin Matip",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Benjamin Hübner",
         "target": "Robert Bauer",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roger de Oliveira Bernardo",
         "target": "Max Christiansen",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roger de Oliveira Bernardo",
         "target": "Moritz Hartmann",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roger de Oliveira Bernardo",
         "target": "Robert Bauer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Bauer",
         "target": "Benjamin Hübner",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Bauer",
         "target": "Roger de Oliveira Bernardo",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

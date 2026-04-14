@@ -9,6 +9,11 @@
     "away_color": "#b22234",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.204,
     "xg_away": 2.174,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Patricia Guijarro Gutiérrez",
       "minute": 0,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -513,7 +520,9 @@
       "player_full": "Megan Anna Rapinoe",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -525,7 +534,9 @@
       "player_full": "Jennifer Hermoso Fuentes",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -537,7 +548,9 @@
       "player_full": "Megan Anna Rapinoe",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.3,
@@ -549,7 +562,9 @@
       "player_full": "Julie Beth Ertz",
       "minute": 13,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -561,7 +576,9 @@
       "player_full": "Megan Anna Rapinoe",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -573,7 +590,9 @@
       "player_full": "Julie Beth Ertz",
       "minute": 24,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -585,7 +604,9 @@
       "player_full": "Megan Anna Rapinoe",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.5,
@@ -597,7 +618,9 @@
       "player_full": "Samantha June Mewis",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -609,7 +632,9 @@
       "player_full": "Lucía García Córdoba",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.3,
@@ -621,7 +646,9 @@
       "player_full": "Rosemary Kathleen Lavelle",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -633,7 +660,9 @@
       "player_full": "Samantha June Mewis",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.9,
@@ -645,7 +674,9 @@
       "player_full": "Lucía García Córdoba",
       "minute": 64,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -657,7 +688,9 @@
       "player_full": "Megan Anna Rapinoe",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -669,7 +702,9 @@
       "player_full": "Megan Anna Rapinoe",
       "minute": 78,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -985,7 +1020,7 @@
       {
         "id": "Rebecca Elizabeth Sauerbrunn",
         "short": "Sauerbrunn",
-        "x": 78.0,
+        "x": 42.0,
         "y": 29.18,
         "size": 119.8,
         "is_playmaker": true,
@@ -995,7 +1030,7 @@
       {
         "id": "Abby Dahlkemper",
         "short": "Dahlkemper",
-        "x": 73.84,
+        "x": 46.16,
         "y": 52.68,
         "size": 132.1,
         "is_playmaker": true,
@@ -1005,7 +1040,7 @@
       {
         "id": "Megan Anna Rapinoe",
         "short": "Rapinoe",
-        "x": 42.2,
+        "x": 77.8,
         "y": 11.33,
         "size": 106.4,
         "is_playmaker": false,
@@ -1015,7 +1050,7 @@
       {
         "id": "Crystal Alyssia Dunn Soubrier",
         "short": "Soubrier",
-        "x": 67.04,
+        "x": 52.96,
         "y": 10.34,
         "size": 105.3,
         "is_playmaker": false,
@@ -1025,7 +1060,7 @@
       {
         "id": "Samantha June Mewis",
         "short": "Mewis",
-        "x": 55.35,
+        "x": 64.65,
         "y": 28.66,
         "size": 101.9,
         "is_playmaker": false,
@@ -1035,7 +1070,7 @@
       {
         "id": "Alexandra Morgan Carrasco",
         "short": "Carrasco",
-        "x": 46.93,
+        "x": 73.07,
         "y": 35.45,
         "size": 68.4,
         "is_playmaker": false,
@@ -1045,7 +1080,7 @@
       {
         "id": "Kelley Maureen O'Hara",
         "short": "O'Hara",
-        "x": 60.93,
+        "x": 59.07,
         "y": 69.57,
         "size": 101.9,
         "is_playmaker": false,
@@ -1055,7 +1090,7 @@
       {
         "id": "Julie Beth Ertz",
         "short": "Ertz",
-        "x": 56.43,
+        "x": 63.57,
         "y": 38.92,
         "size": 75.1,
         "is_playmaker": false,
@@ -1065,7 +1100,7 @@
       {
         "id": "Tobin Powell Heath",
         "short": "Heath",
-        "x": 39.44,
+        "x": 80.56,
         "y": 63.82,
         "size": 70.6,
         "is_playmaker": false,
@@ -1075,7 +1110,7 @@
       {
         "id": "Rosemary Kathleen Lavelle",
         "short": "Lavelle",
-        "x": 52.33,
+        "x": 67.67,
         "y": 55.5,
         "size": 62.8,
         "is_playmaker": false,
@@ -1085,7 +1120,7 @@
       {
         "id": "Alyssa Michele Naeher",
         "short": "Naeher",
-        "x": 107.62,
+        "x": 12.38,
         "y": 33.64,
         "size": 60.6,
         "is_playmaker": false,
@@ -1098,127 +1133,127 @@
         "source": "Rebecca Elizabeth Sauerbrunn",
         "target": "Abby Dahlkemper",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rebecca Elizabeth Sauerbrunn",
         "target": "Crystal Alyssia Dunn Soubrier",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rebecca Elizabeth Sauerbrunn",
         "target": "Alyssa Michele Naeher",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Abby Dahlkemper",
         "target": "Alexandra Morgan Carrasco",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abby Dahlkemper",
         "target": "Julie Beth Ertz",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abby Dahlkemper",
         "target": "Kelley Maureen O'Hara",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abby Dahlkemper",
         "target": "Rebecca Elizabeth Sauerbrunn",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Anna Rapinoe",
         "target": "Crystal Alyssia Dunn Soubrier",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Anna Rapinoe",
         "target": "Samantha June Mewis",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Crystal Alyssia Dunn Soubrier",
         "target": "Rebecca Elizabeth Sauerbrunn",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Crystal Alyssia Dunn Soubrier",
         "target": "Megan Anna Rapinoe",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Crystal Alyssia Dunn Soubrier",
         "target": "Samantha June Mewis",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samantha June Mewis",
         "target": "Rebecca Elizabeth Sauerbrunn",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Samantha June Mewis",
         "target": "Tobin Powell Heath",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samantha June Mewis",
         "target": "Megan Anna Rapinoe",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandra Morgan Carrasco",
         "target": "Megan Anna Rapinoe",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kelley Maureen O'Hara",
         "target": "Abby Dahlkemper",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kelley Maureen O'Hara",
         "target": "Tobin Powell Heath",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kelley Maureen O'Hara",
         "target": "Rosemary Kathleen Lavelle",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kelley Maureen O'Hara",
         "target": "Julie Beth Ertz",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Julie Beth Ertz",
         "target": "Abby Dahlkemper",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

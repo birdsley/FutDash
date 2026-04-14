@@ -9,6 +9,11 @@
     "away_color": "#e32221",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.012,
     "xg_away": 0.969,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Mitchell Weiser",
       "minute": 2,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -513,7 +520,9 @@
       "player_full": "Vladimír Darida",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -525,7 +534,9 @@
       "player_full": "Vedad Ibišević",
       "minute": 8,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -537,7 +548,9 @@
       "player_full": "Vedad Ibišević",
       "minute": 8,
       "technique": "Overhead Kick",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -549,7 +562,9 @@
       "player_full": "Vedad Ibišević",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -561,7 +576,9 @@
       "player_full": "Genki Haraguchi",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -573,7 +590,9 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -585,7 +604,9 @@
       "player_full": "Jonathan Tah",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.0,
@@ -597,7 +618,9 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 36,
       "technique": "Backheel",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -609,7 +632,9 @@
       "player_full": "Salomon Armand Magloire Kalou",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 76.5,
@@ -621,7 +646,9 @@
       "player_full": "Yanni Regäsel",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.6,
@@ -633,7 +660,9 @@
       "player_full": "John Anthony Brooks",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -645,7 +674,9 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 61,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -657,7 +688,9 @@
       "player_full": "John Anthony Brooks",
       "minute": 81,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -669,7 +702,9 @@
       "player_full": "Ömer Toprak",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.3,
@@ -681,7 +716,9 @@
       "player_full": "Jonathan Tah",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -693,7 +730,9 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Other"
+      "body_part": "Other",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Ömer Toprak",
         "short": "Toprak",
-        "x": 81.5,
+        "x": 38.5,
         "y": 36.54,
         "size": 123.0,
         "is_playmaker": false,
@@ -971,7 +1010,7 @@
       {
         "id": "Kevin Kampl",
         "short": "Kampl",
-        "x": 59.24,
+        "x": 60.76,
         "y": 38.38,
         "size": 117.7,
         "is_playmaker": true,
@@ -981,7 +1020,7 @@
       {
         "id": "Jonathan Tah",
         "short": "Tah",
-        "x": 76.05,
+        "x": 43.95,
         "y": 56.71,
         "size": 107.3,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Christoph Kramer",
         "short": "Kramer",
-        "x": 60.58,
+        "x": 59.42,
         "y": 45.55,
         "size": 137.4,
         "is_playmaker": true,
@@ -1001,7 +1040,7 @@
       {
         "id": "Karim Bellarabi",
         "short": "Bellarabi",
-        "x": 43.99,
+        "x": 76.01,
         "y": 56.94,
         "size": 98.1,
         "is_playmaker": false,
@@ -1011,7 +1050,7 @@
       {
         "id": "Giulio Donati",
         "short": "Donati",
-        "x": 64.28,
+        "x": 55.72,
         "y": 67.53,
         "size": 82.5,
         "is_playmaker": false,
@@ -1021,7 +1060,7 @@
       {
         "id": "Admir Mehmedi",
         "short": "Mehmedi",
-        "x": 48.83,
+        "x": 71.17,
         "y": 35.24,
         "size": 75.9,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Javier Hernández Balcázar",
         "short": "Balcázar",
-        "x": 48.39,
+        "x": 71.61,
         "y": 45.66,
         "size": 70.7,
         "is_playmaker": false,
@@ -1041,7 +1080,7 @@
       {
         "id": "Bernd Leno",
         "short": "Leno",
-        "x": 104.61,
+        "x": 15.39,
         "y": 41.36,
         "size": 72.0,
         "is_playmaker": false,
@@ -1051,7 +1090,7 @@
       {
         "id": "Sebastian Boenisch",
         "short": "Boenisch",
-        "x": 65.48,
+        "x": 54.52,
         "y": 3.44,
         "size": 60.2,
         "is_playmaker": false,
@@ -1061,7 +1100,7 @@
       {
         "id": "Julian Brandt",
         "short": "Brandt",
-        "x": 47.72,
+        "x": 72.28,
         "y": 46.25,
         "size": 60.2,
         "is_playmaker": false,
@@ -1074,37 +1113,37 @@
         "source": "Ömer Toprak",
         "target": "Kevin Kampl",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ömer Toprak",
         "target": "Jonathan Tah",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ömer Toprak",
         "target": "Christoph Kramer",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ömer Toprak",
         "target": "Bernd Leno",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kevin Kampl",
         "target": "Karim Bellarabi",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kevin Kampl",
         "target": "Admir Mehmedi",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kevin Kampl",
@@ -1116,37 +1155,37 @@
         "source": "Kevin Kampl",
         "target": "Sebastian Boenisch",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonathan Tah",
         "target": "Ömer Toprak",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonathan Tah",
         "target": "Christoph Kramer",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonathan Tah",
         "target": "Giulio Donati",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christoph Kramer",
         "target": "Ömer Toprak",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christoph Kramer",
         "target": "Jonathan Tah",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christoph Kramer",
@@ -1158,13 +1197,13 @@
         "source": "Christoph Kramer",
         "target": "Karim Bellarabi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christoph Kramer",
         "target": "Javier Hernández Balcázar",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christoph Kramer",
@@ -1176,13 +1215,13 @@
         "source": "Karim Bellarabi",
         "target": "Kevin Kampl",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Karim Bellarabi",
         "target": "Christoph Kramer",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Giulio Donati",
@@ -1194,19 +1233,19 @@
         "source": "Giulio Donati",
         "target": "Karim Bellarabi",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Admir Mehmedi",
         "target": "Kevin Kampl",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Admir Mehmedi",
         "target": "Sebastian Boenisch",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Admir Mehmedi",
@@ -1218,7 +1257,7 @@
         "source": "Javier Hernández Balcázar",
         "target": "Karim Bellarabi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Hernández Balcázar",
@@ -1230,25 +1269,25 @@
         "source": "Bernd Leno",
         "target": "Jonathan Tah",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bernd Leno",
         "target": "Ömer Toprak",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sebastian Boenisch",
         "target": "Kevin Kampl",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sebastian Boenisch",
         "target": "Admir Mehmedi",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Julian Brandt",

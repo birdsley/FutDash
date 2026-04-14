@@ -9,6 +9,11 @@
     "away_color": "#d40000",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.663,
     "xg_away": 0.014,
     "shots_home": 15,
@@ -501,7 +506,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -513,7 +520,9 @@
       "player_full": "Ivan Rakitić",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -525,7 +534,9 @@
       "player_full": "Samuel Yves Umtiti",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.0,
@@ -537,7 +548,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.3,
@@ -549,7 +562,9 @@
       "player_full": "Rafael Alcântara do Nascimento",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -561,7 +576,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -573,7 +590,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -585,7 +604,9 @@
       "player_full": "Rafael Alcântara do Nascimento",
       "minute": 47,
       "technique": "Overhead Kick",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -597,7 +618,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -609,7 +632,9 @@
       "player_full": "Javier Alejandro Mascherano",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.4,
@@ -621,7 +646,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -633,7 +660,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -645,7 +674,9 @@
       "player_full": "Jeremie Boga",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -657,7 +688,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -669,7 +702,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -681,7 +716,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Artem Kravets",
         "short": "Kravets",
-        "x": 61.41,
+        "x": 58.59,
         "y": 31.8,
         "size": 72.8,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Jon Miquel Toral Harper",
         "short": "Harper",
-        "x": 64.03,
+        "x": 55.97,
         "y": 24.95,
         "size": 117.2,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Uche Henry Agbo",
         "short": "Agbo",
-        "x": 63.76,
+        "x": 56.24,
         "y": 40.37,
         "size": 139.4,
         "is_playmaker": true,
@@ -1003,7 +1040,7 @@
       {
         "id": "Juan Isaac Cuenca López",
         "short": "López",
-        "x": 62.66,
+        "x": 57.34,
         "y": 71.45,
         "size": 108.3,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Gabriel Moisés Antunes da Silva",
         "short": "Silva",
-        "x": 64.57,
+        "x": 55.43,
         "y": 8.96,
         "size": 101.7,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Andreas Hoelgebaum Pereira",
         "short": "Pereira",
-        "x": 62.65,
+        "x": 57.35,
         "y": 12.4,
         "size": 92.8,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Mehdi Carcela-González",
         "short": "Carcela-Gon",
-        "x": 63.5,
+        "x": 56.5,
         "y": 59.39,
         "size": 81.7,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Rúben Miguel Nunes Vezo",
         "short": "Vezo",
-        "x": 89.7,
+        "x": 30.3,
         "y": 58.72,
         "size": 99.4,
         "is_playmaker": true,
@@ -1053,7 +1090,7 @@
       {
         "id": "Matthieu Saunier",
         "short": "Saunier",
-        "x": 83.68,
+        "x": 36.32,
         "y": 24.2,
         "size": 63.9,
         "is_playmaker": false,
@@ -1061,20 +1098,20 @@
         "eigenvector": 0.0
       },
       {
-        "id": "David Rodríguez Lombán",
-        "short": "Lombán",
-        "x": 95.09,
-        "y": 42.54,
+        "id": "Francisco Guillermo Ochoa Magaña",
+        "short": "Magaña",
+        "x": 11.15,
+        "y": 42.08,
         "size": 63.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0311
       },
       {
-        "id": "Francisco Guillermo Ochoa Magaña",
-        "short": "Magaña",
-        "x": 108.85,
-        "y": 42.08,
+        "id": "David Rodríguez Lombán",
+        "short": "Lombán",
+        "x": 24.91,
+        "y": 42.54,
         "size": 63.9,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1116,7 +1153,7 @@
         "source": "Uche Henry Agbo",
         "target": "Rúben Miguel Nunes Vezo",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Uche Henry Agbo",
@@ -1140,7 +1177,7 @@
         "source": "Juan Isaac Cuenca López",
         "target": "Rúben Miguel Nunes Vezo",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gabriel Moisés Antunes da Silva",
@@ -1164,49 +1201,49 @@
         "source": "Rúben Miguel Nunes Vezo",
         "target": "Juan Isaac Cuenca López",
         "weight": 6,
-        "direction": "backward"
-      },
-      {
-        "source": "Rúben Miguel Nunes Vezo",
-        "target": "David Rodríguez Lombán",
-        "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Rúben Miguel Nunes Vezo",
         "target": "Francisco Guillermo Ochoa Magaña",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
+      },
+      {
+        "source": "Rúben Miguel Nunes Vezo",
+        "target": "David Rodríguez Lombán",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Matthieu Saunier",
         "target": "Uche Henry Agbo",
         "weight": 4,
-        "direction": "backward"
-      },
-      {
-        "source": "David Rodríguez Lombán",
-        "target": "Francisco Guillermo Ochoa Magaña",
-        "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "David Rodríguez Lombán",
-        "target": "Rúben Miguel Nunes Vezo",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Francisco Guillermo Ochoa Magaña",
         "target": "David Rodríguez Lombán",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francisco Guillermo Ochoa Magaña",
         "target": "Rúben Miguel Nunes Vezo",
         "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "David Rodríguez Lombán",
+        "target": "Francisco Guillermo Ochoa Magaña",
+        "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "David Rodríguez Lombán",
+        "target": "Rúben Miguel Nunes Vezo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

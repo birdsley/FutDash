@@ -9,6 +9,11 @@
     "away_color": "#274488",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.166,
     "xg_away": 0.068,
     "shots_home": 13,
@@ -501,7 +506,9 @@
       "player_full": "Samantha June Mewis",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -513,7 +520,9 @@
       "player_full": "Caroline Weir",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.6,
@@ -525,7 +534,9 @@
       "player_full": "Samantha June Mewis",
       "minute": 25,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.2,
@@ -537,7 +548,9 @@
       "player_full": "Samantha June Mewis",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -549,7 +562,9 @@
       "player_full": "Ellen White",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -561,7 +576,9 @@
       "player_full": "Stephanie Houghton",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.1,
@@ -573,7 +590,9 @@
       "player_full": "Samantha June Mewis",
       "minute": 47,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -585,7 +604,9 @@
       "player_full": "Chloe Kelly",
       "minute": 49,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -597,7 +618,9 @@
       "player_full": "Ellen White",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -609,7 +632,9 @@
       "player_full": "Lauren Hemp",
       "minute": 64,
       "technique": "Overhead Kick",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.4,
@@ -621,7 +646,9 @@
       "player_full": "Hayley Emma Raso",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.4,
@@ -633,7 +660,9 @@
       "player_full": "Keira Walsh",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -645,7 +674,9 @@
       "player_full": "Chloe Kelly",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.2,
@@ -657,7 +688,9 @@
       "player_full": "Chloe Kelly",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.7,
@@ -669,7 +702,9 @@
       "player_full": "Maéva Clemaron",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Alexandra MacIver",
         "short": "MacIver",
-        "x": 110.47,
+        "x": 9.53,
         "y": 40.01,
         "size": 113.5,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Gabrielle George",
         "short": "George",
-        "x": 92.39,
+        "x": 27.61,
         "y": 18.12,
         "size": 145.1,
         "is_playmaker": true,
@@ -981,7 +1016,7 @@
       {
         "id": "Rikke Læntver Sevecke",
         "short": "Sevecke",
-        "x": 88.86,
+        "x": 31.14,
         "y": 62.92,
         "size": 146.2,
         "is_playmaker": true,
@@ -991,7 +1026,7 @@
       {
         "id": "Megan Finnigan",
         "short": "Finnigan",
-        "x": 87.05,
+        "x": 32.95,
         "y": 35.19,
         "size": 112.3,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Danielle Turner",
         "short": "Turner",
-        "x": 76.3,
+        "x": 43.7,
         "y": 8.47,
         "size": 69.0,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Lucy Hope",
         "short": "Hope",
-        "x": 73.12,
+        "x": 46.88,
         "y": 16.28,
         "size": 71.4,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Nicoline Sørensen",
         "short": "Sørensen",
-        "x": 62.96,
+        "x": 57.04,
         "y": 65.13,
         "size": 76.1,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Isobel Mary Christiansen",
         "short": "Christianse",
-        "x": 83.49,
+        "x": 36.51,
         "y": 42.3,
         "size": 79.6,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Ingrid Moe Wold",
         "short": "Wold",
-        "x": 70.18,
+        "x": 49.82,
         "y": 71.5,
         "size": 65.5,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Maéva Clemaron",
         "short": "Clemaron",
-        "x": 71.64,
+        "x": 48.36,
         "y": 30.81,
         "size": 66.7,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Valérie Gauvin",
         "short": "Gauvin",
-        "x": 65.23,
+        "x": 54.77,
         "y": 25.0,
         "size": 59.7,
         "is_playmaker": false,
@@ -1074,37 +1109,37 @@
         "source": "Alexandra MacIver",
         "target": "Gabrielle George",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandra MacIver",
         "target": "Rikke Læntver Sevecke",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gabrielle George",
         "target": "Megan Finnigan",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gabrielle George",
         "target": "Danielle Turner",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gabrielle George",
         "target": "Lucy Hope",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gabrielle George",
         "target": "Alexandra MacIver",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gabrielle George",
@@ -1122,19 +1157,19 @@
         "source": "Rikke Læntver Sevecke",
         "target": "Nicoline Sørensen",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rikke Læntver Sevecke",
         "target": "Alexandra MacIver",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rikke Læntver Sevecke",
         "target": "Ingrid Moe Wold",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rikke Læntver Sevecke",
@@ -1152,13 +1187,13 @@
         "source": "Megan Finnigan",
         "target": "Gabrielle George",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Finnigan",
         "target": "Alexandra MacIver",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Finnigan",
@@ -1170,73 +1205,73 @@
         "source": "Danielle Turner",
         "target": "Gabrielle George",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucy Hope",
         "target": "Gabrielle George",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucy Hope",
         "target": "Valérie Gauvin",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicoline Sørensen",
         "target": "Rikke Læntver Sevecke",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Isobel Mary Christiansen",
         "target": "Rikke Læntver Sevecke",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Isobel Mary Christiansen",
         "target": "Nicoline Sørensen",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ingrid Moe Wold",
         "target": "Rikke Læntver Sevecke",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maéva Clemaron",
         "target": "Gabrielle George",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maéva Clemaron",
         "target": "Isobel Mary Christiansen",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maéva Clemaron",
         "target": "Valérie Gauvin",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Valérie Gauvin",
         "target": "Maéva Clemaron",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Valérie Gauvin",
         "target": "Lucy Hope",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

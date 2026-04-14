@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.753,
     "xg_away": 0.059,
     "shots_home": 11,
@@ -501,7 +506,9 @@
       "player_full": "Rachel Mclauchlan",
       "minute": 5,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -513,7 +520,9 @@
       "player_full": "Nicola Cousins",
       "minute": 22,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.9,
@@ -525,7 +534,9 @@
       "player_full": "Danielle Turner",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.6,
@@ -537,7 +548,9 @@
       "player_full": "Rachel Mclauchlan",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.2,
@@ -549,7 +562,9 @@
       "player_full": "Gabrielle George",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.4,
@@ -561,7 +576,9 @@
       "player_full": "Chantelle Boye-Hlorkah",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -573,7 +590,9 @@
       "player_full": "Megan Finnigan",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -585,7 +604,9 @@
       "player_full": "Megan Finnigan",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -597,7 +618,9 @@
       "player_full": "Chantelle Boye-Hlorkah",
       "minute": 67,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -609,7 +632,9 @@
       "player_full": "Inessa Kaagman",
       "minute": 70,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -621,7 +646,9 @@
       "player_full": "Megan Alexander",
       "minute": 77,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.7,
@@ -633,7 +660,9 @@
       "player_full": "Rachel Mclauchlan",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -645,7 +674,9 @@
       "player_full": "Angharad James",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -657,7 +688,9 @@
       "player_full": "Hannah Cain",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -669,7 +702,9 @@
       "player_full": "Inessa Kaagman",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -681,7 +716,9 @@
       "player_full": "Danielle Turner",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Nicola Cousins",
         "short": "Cousins",
-        "x": 49.19,
+        "x": 70.81,
         "y": 75.37,
         "size": 153.7,
         "is_playmaker": true,
@@ -959,7 +996,7 @@
       {
         "id": "Georgia Evans",
         "short": "Evans",
-        "x": 52.21,
+        "x": 67.79,
         "y": 50.21,
         "size": 106.9,
         "is_playmaker": false,
@@ -969,7 +1006,7 @@
       {
         "id": "Megan Alexander",
         "short": "Alexander",
-        "x": 76.67,
+        "x": 43.33,
         "y": 6.33,
         "size": 99.2,
         "is_playmaker": false,
@@ -979,7 +1016,7 @@
       {
         "id": "Anne-Marie Heatherson",
         "short": "Heatherson",
-        "x": 43.5,
+        "x": 76.5,
         "y": 45.4,
         "size": 99.2,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Hannah Short",
         "short": "Short",
-        "x": 71.25,
+        "x": 48.75,
         "y": 57.42,
         "size": 70.6,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Ellie Mason",
         "short": "Mason",
-        "x": 81.89,
+        "x": 38.11,
         "y": 33.33,
         "size": 62.8,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Bonnie Horwood",
         "short": "Horwood",
-        "x": 54.28,
+        "x": 65.72,
         "y": 37.0,
         "size": 117.3,
         "is_playmaker": true,
@@ -1019,7 +1056,7 @@
       {
         "id": "Rachel Mclauchlan",
         "short": "Mclauchlan",
-        "x": 53.89,
+        "x": 66.11,
         "y": 54.56,
         "size": 96.6,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "Emily Donovan",
         "short": "Donovan",
-        "x": 49.43,
+        "x": 70.57,
         "y": 22.71,
         "size": 73.2,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Olivia Fergusson",
         "short": "Fergusson",
-        "x": 54.0,
+        "x": 66.0,
         "y": 65.0,
         "size": 62.8,
         "is_playmaker": false,
@@ -1049,7 +1086,7 @@
       {
         "id": "Megan Walsh",
         "short": "Walsh",
-        "x": 102.9,
+        "x": 17.1,
         "y": 36.2,
         "size": 62.8,
         "is_playmaker": false,
@@ -1068,31 +1105,31 @@
         "source": "Nicola Cousins",
         "target": "Anne-Marie Heatherson",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicola Cousins",
         "target": "Hannah Short",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicola Cousins",
         "target": "Rachel Mclauchlan",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicola Cousins",
         "target": "Olivia Fergusson",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicola Cousins",
         "target": "Bonnie Horwood",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Georgia Evans",
@@ -1110,37 +1147,37 @@
         "source": "Megan Alexander",
         "target": "Anne-Marie Heatherson",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Megan Alexander",
         "target": "Bonnie Horwood",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Megan Alexander",
         "target": "Emily Donovan",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anne-Marie Heatherson",
         "target": "Nicola Cousins",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hannah Short",
         "target": "Anne-Marie Heatherson",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ellie Mason",
         "target": "Bonnie Horwood",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bonnie Horwood",
@@ -1152,7 +1189,7 @@
         "source": "Bonnie Horwood",
         "target": "Nicola Cousins",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bonnie Horwood",
@@ -1164,7 +1201,7 @@
         "source": "Bonnie Horwood",
         "target": "Megan Alexander",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rachel Mclauchlan",
@@ -1176,13 +1213,13 @@
         "source": "Emily Donovan",
         "target": "Megan Alexander",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Walsh",
         "target": "Anne-Marie Heatherson",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 2,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.415,
     "xg_away": 0.068,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Cristian Tello Herrera",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.7,
@@ -513,7 +520,9 @@
       "player_full": "Daniel Alves da Silva",
       "minute": 11,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -525,7 +534,9 @@
       "player_full": "Francesc Fàbregas i Soler",
       "minute": 13,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -537,7 +548,9 @@
       "player_full": "Adriano Correia Claro",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -549,7 +562,9 @@
       "player_full": "David Villa Sánchez",
       "minute": 23,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -561,7 +576,9 @@
       "player_full": "Adriano Correia Claro",
       "minute": 23,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -573,7 +590,9 @@
       "player_full": "Cristian Tello Herrera",
       "minute": 23,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.4,
@@ -585,7 +604,9 @@
       "player_full": "David Villa Sánchez",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -597,7 +618,9 @@
       "player_full": "Bruno Alexandre Vilela Gama",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.4,
@@ -609,7 +632,9 @@
       "player_full": "Nélson Miguel Castro Oliveira",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -621,7 +646,9 @@
       "player_full": "Alexis Alejandro Sánchez Sánchez",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.3,
@@ -633,7 +660,9 @@
       "player_full": "Luís Miguel Afonso Fernandes",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -645,7 +674,9 @@
       "player_full": "David Villa Sánchez",
       "minute": 43,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -657,7 +688,9 @@
       "player_full": "Andrés Iniesta Luján",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -669,7 +702,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 87,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -681,7 +716,9 @@
       "player_full": "Javier Camuñas Gallego",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -997,7 +1034,7 @@
       {
         "id": "Nélson Miguel Castro Oliveira",
         "short": "Oliveira",
-        "x": 47.76,
+        "x": 72.24,
         "y": 41.13,
         "size": 99.4,
         "is_playmaker": false,
@@ -1007,7 +1044,7 @@
       {
         "id": "Juan Carlos Valerón Santana",
         "short": "Santana",
-        "x": 58.15,
+        "x": 61.85,
         "y": 50.07,
         "size": 140.9,
         "is_playmaker": false,
@@ -1017,7 +1054,7 @@
       {
         "id": "Bruno Alexandre Vilela Gama",
         "short": "Gama",
-        "x": 52.29,
+        "x": 67.71,
         "y": 58.11,
         "size": 95.0,
         "is_playmaker": false,
@@ -1027,7 +1064,7 @@
       {
         "id": "Abel Enrique Aguilar Tapia",
         "short": "Tapia",
-        "x": 62.3,
+        "x": 57.7,
         "y": 26.56,
         "size": 112.8,
         "is_playmaker": false,
@@ -1037,7 +1074,7 @@
       {
         "id": "Paulo Assunção da Silva",
         "short": "Silva",
-        "x": 67.43,
+        "x": 52.57,
         "y": 46.58,
         "size": 114.3,
         "is_playmaker": true,
@@ -1047,7 +1084,7 @@
       {
         "id": "Luís Miguel Afonso Fernandes",
         "short": "Fernandes",
-        "x": 56.51,
+        "x": 63.49,
         "y": 25.89,
         "size": 93.5,
         "is_playmaker": false,
@@ -1057,7 +1094,7 @@
       {
         "id": "Manuel Pablo García Díaz",
         "short": "Díaz",
-        "x": 71.71,
+        "x": 48.29,
         "y": 69.71,
         "size": 90.6,
         "is_playmaker": false,
@@ -1067,7 +1104,7 @@
       {
         "id": "Daniel Aranzubia Aguado",
         "short": "Aguado",
-        "x": 107.32,
+        "x": 12.68,
         "y": 37.77,
         "size": 72.8,
         "is_playmaker": false,
@@ -1077,7 +1114,7 @@
       {
         "id": "Aythami Artiles Oliva",
         "short": "Oliva",
-        "x": 79.39,
+        "x": 40.61,
         "y": 46.75,
         "size": 63.9,
         "is_playmaker": false,
@@ -1087,7 +1124,7 @@
       {
         "id": "Sílvio Manuel Azevedo Ferreira Sá Pereira",
         "short": "Pereira",
-        "x": 62.73,
+        "x": 57.27,
         "y": 7.84,
         "size": 60.9,
         "is_playmaker": false,
@@ -1097,7 +1134,7 @@
       {
         "id": "Pablo Ínsua Blanco",
         "short": "Blanco",
-        "x": 77.84,
+        "x": 42.16,
         "y": 37.62,
         "size": 60.9,
         "is_playmaker": true,
@@ -1110,37 +1147,37 @@
         "source": "Nélson Miguel Castro Oliveira",
         "target": "Juan Carlos Valerón Santana",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nélson Miguel Castro Oliveira",
         "target": "Bruno Alexandre Vilela Gama",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Carlos Valerón Santana",
         "target": "Nélson Miguel Castro Oliveira",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Carlos Valerón Santana",
         "target": "Abel Enrique Aguilar Tapia",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Carlos Valerón Santana",
         "target": "Bruno Alexandre Vilela Gama",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juan Carlos Valerón Santana",
         "target": "Paulo Assunção da Silva",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Carlos Valerón Santana",
@@ -1152,31 +1189,31 @@
         "source": "Bruno Alexandre Vilela Gama",
         "target": "Manuel Pablo García Díaz",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bruno Alexandre Vilela Gama",
         "target": "Paulo Assunção da Silva",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Abel Enrique Aguilar Tapia",
         "target": "Juan Carlos Valerón Santana",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abel Enrique Aguilar Tapia",
         "target": "Luís Miguel Afonso Fernandes",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abel Enrique Aguilar Tapia",
         "target": "Paulo Assunção da Silva",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Abel Enrique Aguilar Tapia",
@@ -1188,37 +1225,37 @@
         "source": "Paulo Assunção da Silva",
         "target": "Luís Miguel Afonso Fernandes",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paulo Assunção da Silva",
         "target": "Manuel Pablo García Díaz",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paulo Assunção da Silva",
         "target": "Abel Enrique Aguilar Tapia",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paulo Assunção da Silva",
         "target": "Nélson Miguel Castro Oliveira",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paulo Assunção da Silva",
         "target": "Pablo Ínsua Blanco",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luís Miguel Afonso Fernandes",
         "target": "Abel Enrique Aguilar Tapia",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luís Miguel Afonso Fernandes",
@@ -1230,43 +1267,43 @@
         "source": "Luís Miguel Afonso Fernandes",
         "target": "Sílvio Manuel Azevedo Ferreira Sá Pereira",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Manuel Pablo García Díaz",
         "target": "Nélson Miguel Castro Oliveira",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Pablo García Díaz",
         "target": "Bruno Alexandre Vilela Gama",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Pablo García Díaz",
         "target": "Juan Carlos Valerón Santana",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Aranzubia Aguado",
         "target": "Juan Carlos Valerón Santana",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Aranzubia Aguado",
         "target": "Nélson Miguel Castro Oliveira",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aythami Artiles Oliva",
         "target": "Abel Enrique Aguilar Tapia",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aythami Artiles Oliva",
@@ -1284,7 +1321,7 @@
         "source": "Sílvio Manuel Azevedo Ferreira Sá Pereira",
         "target": "Luís Miguel Afonso Fernandes",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pablo Ínsua Blanco",
@@ -1296,7 +1333,7 @@
         "source": "Pablo Ínsua Blanco",
         "target": "Paulo Assunção da Silva",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

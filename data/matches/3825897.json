@@ -9,6 +9,11 @@
     "away_color": "#007dc5",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.176,
     "xg_away": 0.619,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Takashi Inui",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.8,
@@ -513,7 +520,9 @@
       "player_full": "David Zurutuza Veillet",
       "minute": 6,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -525,7 +534,9 @@
       "player_full": "Carlos Alberto Vela Garrido",
       "minute": 25,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -537,7 +548,9 @@
       "player_full": "Jon Ansotegi Gorostola",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -549,7 +562,9 @@
       "player_full": "Sergio Enrich Ametller",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.6,
@@ -561,7 +576,9 @@
       "player_full": "Markel Bergara Larrañaga",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -573,7 +590,9 @@
       "player_full": "Markel Bergara Larrañaga",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -585,7 +604,9 @@
       "player_full": "Borja González Tomás",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -597,7 +618,9 @@
       "player_full": "Gonzalo Escalante",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.1,
@@ -609,7 +632,9 @@
       "player_full": "Carlos Alberto Vela Garrido",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.9,
@@ -621,7 +646,9 @@
       "player_full": "Markel Bergara Larrañaga",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -633,7 +660,9 @@
       "player_full": "Sergio Gontán Gallardo",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -645,7 +674,9 @@
       "player_full": "Sergio Gontán Gallardo",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.0,
@@ -657,7 +688,9 @@
       "player_full": "Gonzalo Escalante",
       "minute": 85,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -669,7 +702,9 @@
       "player_full": "Carlos Alberto Vela Garrido",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +972,7 @@
       {
         "id": "Íñigo Martínez Berridi",
         "short": "Berridi",
-        "x": 81.84,
+        "x": 38.16,
         "y": 24.47,
         "size": 111.1,
         "is_playmaker": true,
@@ -947,7 +982,7 @@
       {
         "id": "Gerónimo Rulli",
         "short": "Rulli",
-        "x": 106.6,
+        "x": 13.4,
         "y": 41.61,
         "size": 91.0,
         "is_playmaker": false,
@@ -957,7 +992,7 @@
       {
         "id": "Yuri Berchiche Izeta",
         "short": "Izeta",
-        "x": 63.55,
+        "x": 56.45,
         "y": 8.8,
         "size": 111.1,
         "is_playmaker": false,
@@ -967,7 +1002,7 @@
       {
         "id": "David Zurutuza Veillet",
         "short": "Veillet",
-        "x": 53.59,
+        "x": 66.41,
         "y": 22.67,
         "size": 82.5,
         "is_playmaker": false,
@@ -977,7 +1012,7 @@
       {
         "id": "Aritz Elustondo Irribaria",
         "short": "Irribaria",
-        "x": 57.45,
+        "x": 62.55,
         "y": 71.46,
         "size": 109.0,
         "is_playmaker": true,
@@ -987,7 +1022,7 @@
       {
         "id": "Diego Antonio Reyes Rosales",
         "short": "Rosales",
-        "x": 78.74,
+        "x": 41.26,
         "y": 55.07,
         "size": 104.7,
         "is_playmaker": false,
@@ -997,7 +1032,7 @@
       {
         "id": "Asier Illarramendi Andonegi",
         "short": "Andonegi",
-        "x": 60.25,
+        "x": 59.75,
         "y": 29.35,
         "size": 101.6,
         "is_playmaker": false,
@@ -1007,7 +1042,7 @@
       {
         "id": "Xabier Prieto Argarate",
         "short": "Argarate",
-        "x": 49.72,
+        "x": 70.28,
         "y": 58.12,
         "size": 77.2,
         "is_playmaker": false,
@@ -1017,7 +1052,7 @@
       {
         "id": "Carlos Alberto Vela Garrido",
         "short": "Garrido",
-        "x": 37.59,
+        "x": 82.41,
         "y": 56.37,
         "size": 69.8,
         "is_playmaker": false,
@@ -1027,7 +1062,7 @@
       {
         "id": "Mikel Oyarzabal Ugarte",
         "short": "Ugarte",
-        "x": 40.66,
+        "x": 79.34,
         "y": 48.25,
         "size": 77.2,
         "is_playmaker": false,
@@ -1037,7 +1072,7 @@
       {
         "id": "Markel Bergara Larrañaga",
         "short": "Larrañaga",
-        "x": 63.64,
+        "x": 56.36,
         "y": 48.24,
         "size": 69.8,
         "is_playmaker": false,
@@ -1050,19 +1085,19 @@
         "source": "Íñigo Martínez Berridi",
         "target": "Gerónimo Rulli",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Íñigo Martínez Berridi",
         "target": "Yuri Berchiche Izeta",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Íñigo Martínez Berridi",
         "target": "Asier Illarramendi Andonegi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Íñigo Martínez Berridi",
@@ -1074,19 +1109,19 @@
         "source": "Gerónimo Rulli",
         "target": "Diego Antonio Reyes Rosales",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerónimo Rulli",
         "target": "Íñigo Martínez Berridi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yuri Berchiche Izeta",
         "target": "David Zurutuza Veillet",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yuri Berchiche Izeta",
@@ -1098,43 +1133,43 @@
         "source": "Yuri Berchiche Izeta",
         "target": "Íñigo Martínez Berridi",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Zurutuza Veillet",
         "target": "Yuri Berchiche Izeta",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Zurutuza Veillet",
         "target": "Asier Illarramendi Andonegi",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aritz Elustondo Irribaria",
         "target": "Diego Antonio Reyes Rosales",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aritz Elustondo Irribaria",
         "target": "Xabier Prieto Argarate",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aritz Elustondo Irribaria",
         "target": "Carlos Alberto Vela Garrido",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aritz Elustondo Irribaria",
         "target": "Mikel Oyarzabal Ugarte",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Antonio Reyes Rosales",
@@ -1146,13 +1181,13 @@
         "source": "Diego Antonio Reyes Rosales",
         "target": "Gerónimo Rulli",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Diego Antonio Reyes Rosales",
         "target": "Aritz Elustondo Irribaria",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Asier Illarramendi Andonegi",
@@ -1164,7 +1199,7 @@
         "source": "Asier Illarramendi Andonegi",
         "target": "Mikel Oyarzabal Ugarte",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Asier Illarramendi Andonegi",
@@ -1176,19 +1211,19 @@
         "source": "Xabier Prieto Argarate",
         "target": "Mikel Oyarzabal Ugarte",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Prieto Argarate",
         "target": "Carlos Alberto Vela Garrido",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Markel Bergara Larrañaga",
         "target": "Aritz Elustondo Irribaria",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#f7d130",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.691,
     "xg_away": 0.303,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Roberto Soldado Rillo",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -513,7 +520,9 @@
       "player_full": "Iñaki Williams Arthuer",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -525,7 +534,9 @@
       "player_full": "Iñaki Williams Arthuer",
       "minute": 10,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -537,7 +548,9 @@
       "player_full": "Mikel San José Domínguez",
       "minute": 11,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.5,
@@ -549,7 +562,9 @@
       "player_full": "Iñaki Williams Arthuer",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.4,
@@ -561,7 +576,9 @@
       "player_full": "Iñaki Williams Arthuer",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -573,7 +590,9 @@
       "player_full": "Mikel Balenziaga Oruesagasti",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.8,
@@ -585,7 +604,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -597,7 +618,9 @@
       "player_full": "Beñat Etxebarria Urkiaga",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -609,7 +632,9 @@
       "player_full": "Iñaki Williams Arthuer",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -621,7 +646,9 @@
       "player_full": "Roberto Soldado Rillo",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -633,7 +660,9 @@
       "player_full": "Eneko Bóveda Altube",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +954,7 @@
       {
         "id": "Jaume Vicent Costa Jordá",
         "short": "Jordá",
-        "x": 58.61,
+        "x": 61.39,
         "y": 7.65,
         "size": 110.4,
         "is_playmaker": false,
@@ -935,7 +964,7 @@
       {
         "id": "Denis Suárez Fernández",
         "short": "Fernández",
-        "x": 42.5,
+        "x": 77.5,
         "y": 14.34,
         "size": 99.6,
         "is_playmaker": false,
@@ -945,7 +974,7 @@
       {
         "id": "Jonathan dos Santos Ramírez",
         "short": "Ramírez",
-        "x": 50.36,
+        "x": 69.64,
         "y": 61.96,
         "size": 93.5,
         "is_playmaker": false,
@@ -955,7 +984,7 @@
       {
         "id": "Mario Gaspar Pérez Martínez",
         "short": "Martínez",
-        "x": 53.61,
+        "x": 66.39,
         "y": 74.28,
         "size": 105.8,
         "is_playmaker": true,
@@ -965,7 +994,7 @@
       {
         "id": "Víctor Ruíz Torre",
         "short": "Torre",
-        "x": 79.79,
+        "x": 40.21,
         "y": 27.84,
         "size": 79.6,
         "is_playmaker": false,
@@ -975,7 +1004,7 @@
       {
         "id": "Bruno Soriano Llido",
         "short": "Llido",
-        "x": 68.68,
+        "x": 51.32,
         "y": 30.72,
         "size": 88.8,
         "is_playmaker": false,
@@ -985,7 +1014,7 @@
       {
         "id": "Manuel Trigueros Muñoz",
         "short": "Muñoz",
-        "x": 66.77,
+        "x": 53.23,
         "y": 49.26,
         "size": 124.2,
         "is_playmaker": true,
@@ -995,7 +1024,7 @@
       {
         "id": "Roberto Soldado Rillo",
         "short": "Rillo",
-        "x": 53.79,
+        "x": 66.21,
         "y": 37.81,
         "size": 98.1,
         "is_playmaker": false,
@@ -1005,7 +1034,7 @@
       {
         "id": "Mateo Pablo Musacchio",
         "short": "Musacchio",
-        "x": 80.2,
+        "x": 39.8,
         "y": 57.06,
         "size": 76.5,
         "is_playmaker": false,
@@ -1015,7 +1044,7 @@
       {
         "id": "Alphonse Areola",
         "short": "Areola",
-        "x": 106.74,
+        "x": 13.26,
         "y": 41.79,
         "size": 67.3,
         "is_playmaker": false,
@@ -1025,7 +1054,7 @@
       {
         "id": "Cédric Bakambu",
         "short": "Bakambu",
-        "x": 57.09,
+        "x": 62.91,
         "y": 48.44,
         "size": 61.2,
         "is_playmaker": false,
@@ -1038,25 +1067,25 @@
         "source": "Jaume Vicent Costa Jordá",
         "target": "Denis Suárez Fernández",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaume Vicent Costa Jordá",
         "target": "Manuel Trigueros Muñoz",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaume Vicent Costa Jordá",
         "target": "Roberto Soldado Rillo",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Denis Suárez Fernández",
         "target": "Roberto Soldado Rillo",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonathan dos Santos Ramírez",
@@ -1068,7 +1097,7 @@
         "source": "Mario Gaspar Pérez Martínez",
         "target": "Manuel Trigueros Muñoz",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mario Gaspar Pérez Martínez",
@@ -1086,25 +1115,25 @@
         "source": "Víctor Ruíz Torre",
         "target": "Jaume Vicent Costa Jordá",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Ruíz Torre",
         "target": "Manuel Trigueros Muñoz",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bruno Soriano Llido",
         "target": "Jaume Vicent Costa Jordá",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bruno Soriano Llido",
         "target": "Roberto Soldado Rillo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bruno Soriano Llido",
@@ -1116,7 +1145,7 @@
         "source": "Manuel Trigueros Muñoz",
         "target": "Mateo Pablo Musacchio",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
@@ -1128,13 +1157,13 @@
         "source": "Manuel Trigueros Muñoz",
         "target": "Denis Suárez Fernández",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
         "target": "Mario Gaspar Pérez Martínez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roberto Soldado Rillo",
@@ -1146,37 +1175,37 @@
         "source": "Roberto Soldado Rillo",
         "target": "Denis Suárez Fernández",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mateo Pablo Musacchio",
         "target": "Manuel Trigueros Muñoz",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mateo Pablo Musacchio",
         "target": "Mario Gaspar Pérez Martínez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alphonse Areola",
         "target": "Jonathan dos Santos Ramírez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alphonse Areola",
         "target": "Víctor Ruíz Torre",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Bakambu",
         "target": "Jonathan dos Santos Ramírez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

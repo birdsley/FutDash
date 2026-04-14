@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 3,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.441,
     "xg_away": 0.84,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Christoph Baumgartner",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.5,
@@ -513,7 +520,9 @@
       "player_full": "Sasa Kalajdzic",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.1,
@@ -525,7 +534,9 @@
       "player_full": "Stefan Lainer",
       "minute": 17,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -537,7 +548,9 @@
       "player_full": "Sasa Kalajdzic",
       "minute": 21,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -549,7 +562,9 @@
       "player_full": "Goran Pandev",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.7,
@@ -561,7 +576,9 @@
       "player_full": "Stefan Ristovski",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.1,
@@ -573,7 +590,9 @@
       "player_full": "Boban Nikolov",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -585,7 +604,9 @@
       "player_full": "Boban Nikolov",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -597,7 +618,9 @@
       "player_full": "Goran Pandev",
       "minute": 62,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -609,7 +632,9 @@
       "player_full": "Michael Gregoritsch",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -621,7 +646,9 @@
       "player_full": "Marcel Sabitzer",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -633,7 +660,9 @@
       "player_full": "Xaver Schlager",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -645,7 +674,9 @@
       "player_full": "Ezgjan Alioski",
       "minute": 72,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -657,7 +688,9 @@
       "player_full": "Eljif Elmas",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -669,7 +702,9 @@
       "player_full": "Michael Gregoritsch",
       "minute": 77,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -681,7 +716,9 @@
       "player_full": "Marcel Sabitzer",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -693,7 +730,9 @@
       "player_full": "Marko Arnautović",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -985,7 +1024,7 @@
       {
         "id": "Visar Musliu",
         "short": "Musliu",
-        "x": 73.82,
+        "x": 46.18,
         "y": 19.27,
         "size": 70.8,
         "is_playmaker": false,
@@ -995,7 +1034,7 @@
       {
         "id": "Ezgjan Alioski",
         "short": "Alioski",
-        "x": 61.68,
+        "x": 58.32,
         "y": 6.83,
         "size": 167.2,
         "is_playmaker": true,
@@ -1005,7 +1044,7 @@
       {
         "id": "Arijan Ademi",
         "short": "Ademi",
-        "x": 72.12,
+        "x": 47.88,
         "y": 43.99,
         "size": 82.3,
         "is_playmaker": false,
@@ -1015,7 +1054,7 @@
       {
         "id": "Aleksandar Trajkovski",
         "short": "Trajkovski",
-        "x": 47.22,
+        "x": 72.78,
         "y": 25.57,
         "size": 79.5,
         "is_playmaker": false,
@@ -1025,7 +1064,7 @@
       {
         "id": "Darko Velkovski",
         "short": "Velkovski",
-        "x": 80.56,
+        "x": 39.44,
         "y": 48.66,
         "size": 96.7,
         "is_playmaker": false,
@@ -1035,7 +1074,7 @@
       {
         "id": "Stole Dimitrievski",
         "short": "Dimitrievsk",
-        "x": 108.75,
+        "x": 11.25,
         "y": 43.54,
         "size": 69.4,
         "is_playmaker": false,
@@ -1045,7 +1084,7 @@
       {
         "id": "Stefan Ristovski",
         "short": "Ristovski",
-        "x": 76.55,
+        "x": 43.45,
         "y": 64.24,
         "size": 114.0,
         "is_playmaker": true,
@@ -1055,7 +1094,7 @@
       {
         "id": "Enis Bardhi",
         "short": "Bardhi",
-        "x": 60.39,
+        "x": 59.61,
         "y": 34.14,
         "size": 92.4,
         "is_playmaker": false,
@@ -1065,7 +1104,7 @@
       {
         "id": "Goran Pandev",
         "short": "Pandev",
-        "x": 57.82,
+        "x": 62.18,
         "y": 33.01,
         "size": 82.3,
         "is_playmaker": false,
@@ -1075,7 +1114,7 @@
       {
         "id": "Eljif Elmas",
         "short": "Elmas",
-        "x": 59.77,
+        "x": 60.23,
         "y": 20.94,
         "size": 88.1,
         "is_playmaker": false,
@@ -1085,7 +1124,7 @@
       {
         "id": "Boban Nikolov",
         "short": "Nikolov",
-        "x": 61.88,
+        "x": 58.12,
         "y": 75.27,
         "size": 62.2,
         "is_playmaker": false,
@@ -1098,25 +1137,25 @@
         "source": "Visar Musliu",
         "target": "Ezgjan Alioski",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Visar Musliu",
         "target": "Darko Velkovski",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ezgjan Alioski",
         "target": "Arijan Ademi",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ezgjan Alioski",
         "target": "Aleksandar Trajkovski",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ezgjan Alioski",
@@ -1140,67 +1179,67 @@
         "source": "Arijan Ademi",
         "target": "Ezgjan Alioski",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Arijan Ademi",
         "target": "Enis Bardhi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aleksandar Trajkovski",
         "target": "Stefan Ristovski",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Darko Velkovski",
         "target": "Ezgjan Alioski",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Darko Velkovski",
         "target": "Arijan Ademi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Darko Velkovski",
         "target": "Stefan Ristovski",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stole Dimitrievski",
         "target": "Stefan Ristovski",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Ristovski",
         "target": "Enis Bardhi",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Ristovski",
         "target": "Darko Velkovski",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stefan Ristovski",
         "target": "Boban Nikolov",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Ristovski",
         "target": "Stole Dimitrievski",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Enis Bardhi",
@@ -1212,7 +1251,7 @@
         "source": "Goran Pandev",
         "target": "Aleksandar Trajkovski",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Goran Pandev",

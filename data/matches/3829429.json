@@ -9,6 +9,11 @@
     "away_color": "#e2001a",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.842,
     "xg_away": 0.18,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Kévin Bérigaud",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.3,
@@ -513,7 +520,9 @@
       "player_full": "Pedro Henrique Konzen Medina da Silva",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -525,7 +534,9 @@
       "player_full": "Paul Lasne",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -537,7 +548,9 @@
       "player_full": "Edson André Sitoe",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -549,7 +562,9 @@
       "player_full": "Giovanni-Guy Yann Sio",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -561,7 +576,9 @@
       "player_full": "Giovanni-Guy Yann Sio",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -573,7 +590,9 @@
       "player_full": "Yacouba Sylla",
       "minute": 53,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.9,
@@ -585,7 +604,9 @@
       "player_full": "Pedro Henrique Konzen Medina da Silva",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.9,
@@ -597,7 +618,9 @@
       "player_full": "Benjamin André",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -609,7 +632,9 @@
       "player_full": "Bryan Dabo",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -621,7 +646,9 @@
       "player_full": "Giovanni-Guy Yann Sio",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.6,
@@ -633,7 +660,9 @@
       "player_full": "Kamil Grosicki",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -645,7 +674,9 @@
       "player_full": "Kamil Grosicki",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -657,7 +688,9 @@
       "player_full": "Djamel Bakar",
       "minute": 93,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +958,7 @@
       {
         "id": "Daniel Congré",
         "short": "Congré",
-        "x": 57.68,
+        "x": 62.32,
         "y": 7.43,
         "size": 120.1,
         "is_playmaker": false,
@@ -935,7 +968,7 @@
       {
         "id": "Jonas Martin",
         "short": "Martin",
-        "x": 54.91,
+        "x": 65.09,
         "y": 30.7,
         "size": 131.6,
         "is_playmaker": true,
@@ -945,7 +978,7 @@
       {
         "id": "Paul Lasne",
         "short": "Lasne",
-        "x": 56.29,
+        "x": 63.71,
         "y": 48.08,
         "size": 99.0,
         "is_playmaker": false,
@@ -955,7 +988,7 @@
       {
         "id": "Bryan Dabo",
         "short": "Dabo",
-        "x": 43.34,
+        "x": 76.66,
         "y": 27.49,
         "size": 116.2,
         "is_playmaker": false,
@@ -965,7 +998,7 @@
       {
         "id": "Mathieu Deplagne",
         "short": "Deplagne",
-        "x": 61.41,
+        "x": 58.59,
         "y": 67.3,
         "size": 106.7,
         "is_playmaker": true,
@@ -975,7 +1008,7 @@
       {
         "id": "Souleymane Camara",
         "short": "Camara",
-        "x": 37.38,
+        "x": 82.62,
         "y": 56.66,
         "size": 72.2,
         "is_playmaker": false,
@@ -985,7 +1018,7 @@
       {
         "id": "Anthony Mounier",
         "short": "Mounier",
-        "x": 41.02,
+        "x": 78.98,
         "y": 13.04,
         "size": 92.3,
         "is_playmaker": false,
@@ -995,7 +1028,7 @@
       {
         "id": "Ramy Bensebaini",
         "short": "Bensebaini",
-        "x": 80.62,
+        "x": 39.38,
         "y": 25.32,
         "size": 71.3,
         "is_playmaker": false,
@@ -1005,7 +1038,7 @@
       {
         "id": "Geoffrey Jourdren",
         "short": "Jourdren",
-        "x": 110.02,
+        "x": 9.98,
         "y": 44.46,
         "size": 62.7,
         "is_playmaker": false,
@@ -1015,7 +1048,7 @@
       {
         "id": "Vitorino Hilton da Silva",
         "short": "Silva",
-        "x": 79.57,
+        "x": 40.43,
         "y": 50.59,
         "size": 73.2,
         "is_playmaker": false,
@@ -1025,7 +1058,7 @@
       {
         "id": "Kévin Bérigaud",
         "short": "Bérigaud",
-        "x": 40.97,
+        "x": 79.03,
         "y": 41.76,
         "size": 59.8,
         "is_playmaker": false,
@@ -1044,19 +1077,19 @@
         "source": "Daniel Congré",
         "target": "Bryan Dabo",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Congré",
         "target": "Anthony Mounier",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Congré",
         "target": "Ramy Bensebaini",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonas Martin",
@@ -1068,13 +1101,13 @@
         "source": "Jonas Martin",
         "target": "Bryan Dabo",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonas Martin",
         "target": "Anthony Mounier",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jonas Martin",
@@ -1086,7 +1119,7 @@
         "source": "Jonas Martin",
         "target": "Mathieu Deplagne",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paul Lasne",
@@ -1098,19 +1131,19 @@
         "source": "Paul Lasne",
         "target": "Mathieu Deplagne",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paul Lasne",
         "target": "Vitorino Hilton da Silva",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bryan Dabo",
         "target": "Jonas Martin",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bryan Dabo",
@@ -1122,31 +1155,31 @@
         "source": "Bryan Dabo",
         "target": "Daniel Congré",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mathieu Deplagne",
         "target": "Souleymane Camara",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathieu Deplagne",
         "target": "Paul Lasne",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathieu Deplagne",
         "target": "Vitorino Hilton da Silva",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Souleymane Camara",
         "target": "Mathieu Deplagne",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anthony Mounier",
@@ -1164,19 +1197,19 @@
         "source": "Ramy Bensebaini",
         "target": "Daniel Congré",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Geoffrey Jourdren",
         "target": "Bryan Dabo",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Vitorino Hilton da Silva",
         "target": "Mathieu Deplagne",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#847275",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.015,
     "xg_away": 0.965,
     "shots_home": 2,
@@ -501,7 +506,9 @@
       "player_full": "Ciaran Clark",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -513,7 +520,9 @@
       "player_full": "Papiss Demba Cissé",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -525,7 +534,9 @@
       "player_full": "Papiss Demba Cissé",
       "minute": 35,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -537,7 +548,9 @@
       "player_full": "Jack Colback",
       "minute": 45,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -549,7 +562,9 @@
       "player_full": "Aleksandar Mitrović",
       "minute": 60,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -561,7 +576,9 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -573,7 +590,9 @@
       "player_full": "Aleksandar Mitrović",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -585,7 +604,9 @@
       "player_full": "Aleksandar Mitrović",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.5,
@@ -597,7 +618,9 @@
       "player_full": "Alan Hutton",
       "minute": 85,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.8,
@@ -609,7 +632,9 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -621,7 +646,9 @@
       "player_full": "Andros Townsend",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +940,7 @@
       {
         "id": "Vurnon Anita",
         "short": "Anita",
-        "x": 48.08,
+        "x": 71.92,
         "y": 74.4,
         "size": 140.8,
         "is_playmaker": false,
@@ -923,7 +950,7 @@
       {
         "id": "Andros Townsend",
         "short": "Townsend",
-        "x": 40.3,
+        "x": 79.7,
         "y": 70.6,
         "size": 112.5,
         "is_playmaker": false,
@@ -933,7 +960,7 @@
       {
         "id": "Paul Dummett",
         "short": "Dummett",
-        "x": 62.96,
+        "x": 57.04,
         "y": 9.15,
         "size": 106.7,
         "is_playmaker": false,
@@ -943,7 +970,7 @@
       {
         "id": "Jamaal Lascelles",
         "short": "Lascelles",
-        "x": 80.34,
+        "x": 39.66,
         "y": 27.43,
         "size": 97.5,
         "is_playmaker": false,
@@ -953,7 +980,7 @@
       {
         "id": "Moussa Sissoko",
         "short": "Sissoko",
-        "x": 45.05,
+        "x": 74.95,
         "y": 47.53,
         "size": 93.3,
         "is_playmaker": false,
@@ -963,7 +990,7 @@
       {
         "id": "Chancel Mbemba Mangulu",
         "short": "Mangulu",
-        "x": 71.51,
+        "x": 48.49,
         "y": 56.78,
         "size": 90.0,
         "is_playmaker": false,
@@ -973,7 +1000,7 @@
       {
         "id": "Cheik Ismaël Tioté",
         "short": "Tioté",
-        "x": 70.59,
+        "x": 49.41,
         "y": 39.87,
         "size": 98.3,
         "is_playmaker": true,
@@ -983,7 +1010,7 @@
       {
         "id": "Papiss Demba Cissé",
         "short": "Cissé",
-        "x": 43.43,
+        "x": 76.57,
         "y": 53.13,
         "size": 69.2,
         "is_playmaker": false,
@@ -993,7 +1020,7 @@
       {
         "id": "Georginio Wijnaldum",
         "short": "Wijnaldum",
-        "x": 58.39,
+        "x": 61.61,
         "y": 21.09,
         "size": 67.5,
         "is_playmaker": false,
@@ -1003,7 +1030,7 @@
       {
         "id": "Jack Colback",
         "short": "Colback",
-        "x": 57.76,
+        "x": 62.24,
         "y": 36.3,
         "size": 70.8,
         "is_playmaker": false,
@@ -1013,7 +1040,7 @@
       {
         "id": "Karl Darlow",
         "short": "Darlow",
-        "x": 107.58,
+        "x": 12.42,
         "y": 37.22,
         "size": 58.3,
         "is_playmaker": true,
@@ -1026,7 +1053,7 @@
         "source": "Vurnon Anita",
         "target": "Andros Townsend",
         "weight": 22,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Vurnon Anita",
@@ -1038,97 +1065,97 @@
         "source": "Vurnon Anita",
         "target": "Chancel Mbemba Mangulu",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vurnon Anita",
         "target": "Papiss Demba Cissé",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Vurnon Anita",
         "target": "Cheik Ismaël Tioté",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andros Townsend",
         "target": "Vurnon Anita",
         "weight": 18,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andros Townsend",
         "target": "Moussa Sissoko",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paul Dummett",
         "target": "Jamaal Lascelles",
         "weight": 18,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paul Dummett",
         "target": "Georginio Wijnaldum",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paul Dummett",
         "target": "Cheik Ismaël Tioté",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paul Dummett",
         "target": "Jack Colback",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jamaal Lascelles",
         "target": "Paul Dummett",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jamaal Lascelles",
         "target": "Chancel Mbemba Mangulu",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jamaal Lascelles",
         "target": "Karl Darlow",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Moussa Sissoko",
         "target": "Andros Townsend",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moussa Sissoko",
         "target": "Cheik Ismaël Tioté",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Chancel Mbemba Mangulu",
         "target": "Vurnon Anita",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chancel Mbemba Mangulu",
         "target": "Jamaal Lascelles",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Chancel Mbemba Mangulu",
@@ -1140,25 +1167,25 @@
         "source": "Cheik Ismaël Tioté",
         "target": "Vurnon Anita",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cheik Ismaël Tioté",
         "target": "Moussa Sissoko",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cheik Ismaël Tioté",
         "target": "Georginio Wijnaldum",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cheik Ismaël Tioté",
         "target": "Karl Darlow",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Papiss Demba Cissé",
@@ -1170,25 +1197,25 @@
         "source": "Jack Colback",
         "target": "Vurnon Anita",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jack Colback",
         "target": "Paul Dummett",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Karl Darlow",
         "target": "Jamaal Lascelles",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Karl Darlow",
         "target": "Cheik Ismaël Tioté",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

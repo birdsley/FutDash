@@ -7,12 +7,17 @@
     "home_color": "#3d82ff",
     "away_color_raw": "#c9d1d9",
     "away_color": "#c9d1d9",
-    "score_home": 7,
-    "score_away": 8,
-    "xg_home": 6.563,
-    "xg_away": 5.772,
-    "shots_home": 31,
-    "shots_away": 18,
+    "score_home": 3,
+    "score_away": 3,
+    "penalty_home": 4,
+    "penalty_away": 5,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 130,
+    "xg_home": 2.646,
+    "xg_away": 1.854,
+    "shots_home": 26,
+    "shots_away": 13,
     "possession_home": 53.5,
     "competition": "UEFA Euro",
     "season": "2020",
@@ -111,7 +116,45 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
     ],
     "home": [
       0.0,
@@ -205,7 +248,45 @@
       2.0183,
       2.0183,
       2.0183,
-      6.5632
+      2.0183,
+      2.0183,
+      2.0598,
+      2.1631,
+      2.1631,
+      2.1631,
+      2.1785,
+      2.1785,
+      2.1785,
+      2.2068,
+      2.2068,
+      2.2068,
+      2.2068,
+      2.2068,
+      2.2068,
+      2.2068,
+      2.2068,
+      2.2917,
+      2.4342,
+      2.4342,
+      2.4342,
+      2.4342,
+      2.5564,
+      2.5564,
+      2.5564,
+      2.5564,
+      2.5564,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457,
+      2.6457
     ],
     "away": [
       0.0,
@@ -299,195 +380,309 @@
       1.5313,
       1.7276,
       1.7276,
-      5.7716
+      1.7276,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.7821,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.824,
+      1.8294,
+      1.8294,
+      1.8294,
+      1.8541,
+      1.8541,
+      1.8541,
+      1.8541,
+      1.8541,
+      1.8541,
+      1.8541,
+      1.8541,
+      1.8541,
+      1.8541
     ],
     "pressure_home": [
-      0.0892,
-      0.121,
-      0.121,
-      0.121,
-      0.2038,
-      0.3312,
-      0.3631,
-      0.3631,
-      0.3631,
-      0.3631,
-      0.293,
-      0.293,
-      0.293,
-      0.3376,
-      0.2548,
-      0.1274,
-      0.1529,
-      0.2166,
-      0.2166,
-      0.2229,
-      0.2102,
-      0.2675,
-      0.3248,
-      0.2803,
-      0.4204,
-      0.4331,
-      0.3758,
-      0.3758,
-      0.3758,
-      0.3694,
-      0.3631,
-      0.3312,
-      0.2803,
-      0.2803,
-      0.1401,
-      0.1529,
-      0.1592,
-      0.0955,
-      0.1401,
-      0.172,
-      0.172,
-      0.1338,
-      0.172,
-      0.2229,
-      0.2293,
-      0.2229,
-      0.2803,
-      0.2803,
-      0.2484,
-      0.3057,
-      0.5223,
-      0.5223,
-      0.4777,
-      0.4268,
-      0.4586,
-      0.5096,
-      0.5032,
-      0.535,
-      0.6115,
-      0.5223,
-      0.3503,
-      0.3503,
-      0.3885,
-      0.3885,
-      0.3503,
-      0.2803,
-      0.2229,
-      0.1975,
-      0.1656,
-      0.2166,
-      0.1847,
-      0.1656,
-      0.1401,
-      0.1975,
-      0.2994,
-      0.2994,
-      0.3439,
-      0.3758,
-      0.3185,
-      0.2675,
-      0.2548,
-      0.3503,
-      0.4395,
-      0.3822,
-      0.2803,
-      0.2803,
-      0.2357,
-      0.1975,
-      0.1975,
-      0.2038,
-      0.2038,
-      1.0
+      0.1458,
+      0.1979,
+      0.1979,
+      0.1979,
+      0.3333,
+      0.5417,
+      0.5938,
+      0.5938,
+      0.5938,
+      0.5938,
+      0.4792,
+      0.4792,
+      0.4792,
+      0.5521,
+      0.4167,
+      0.2083,
+      0.25,
+      0.3542,
+      0.3542,
+      0.3646,
+      0.3438,
+      0.4375,
+      0.5312,
+      0.4583,
+      0.6875,
+      0.7083,
+      0.6146,
+      0.6146,
+      0.6146,
+      0.6042,
+      0.5938,
+      0.5417,
+      0.4583,
+      0.4583,
+      0.2292,
+      0.25,
+      0.2604,
+      0.1562,
+      0.2292,
+      0.2812,
+      0.2812,
+      0.2188,
+      0.2812,
+      0.3646,
+      0.375,
+      0.3646,
+      0.4583,
+      0.4583,
+      0.4062,
+      0.5,
+      0.8542,
+      0.8542,
+      0.7812,
+      0.6979,
+      0.75,
+      0.8333,
+      0.8229,
+      0.875,
+      1.0,
+      0.8542,
+      0.5729,
+      0.5729,
+      0.6354,
+      0.6354,
+      0.5729,
+      0.4583,
+      0.3646,
+      0.3229,
+      0.2708,
+      0.3542,
+      0.3021,
+      0.2708,
+      0.2292,
+      0.3229,
+      0.4896,
+      0.4896,
+      0.5625,
+      0.6146,
+      0.5208,
+      0.4375,
+      0.4167,
+      0.5729,
+      0.7188,
+      0.625,
+      0.4583,
+      0.4583,
+      0.3854,
+      0.3229,
+      0.3229,
+      0.3333,
+      0.3333,
+      0.1979,
+      0.125,
+      0.2188,
+      0.3021,
+      0.3021,
+      0.3021,
+      0.3333,
+      0.3333,
+      0.3229,
+      0.3542,
+      0.3333,
+      0.2396,
+      0.1458,
+      0.0729,
+      0.2708,
+      0.3646,
+      0.3333,
+      0.4167,
+      0.6146,
+      0.5833,
+      0.6562,
+      0.6875,
+      0.7396,
+      0.7292,
+      0.6354,
+      0.5833,
+      0.5833,
+      0.6667,
+      0.4688,
+      0.4688,
+      0.4062,
+      0.375,
+      0.3333,
+      0.3333,
+      0.2396,
+      0.2083,
+      0.2083,
+      0.0521,
+      0.0521
     ],
     "pressure_away": [
-      0.0317,
-      0.0317,
-      0.0556,
-      0.0556,
-      0.0556,
-      0.1111,
-      0.1111,
-      0.127,
-      0.127,
-      0.127,
-      0.1746,
-      0.3254,
-      0.4206,
-      0.4206,
-      0.4365,
-      0.381,
-      0.381,
-      0.3651,
-      0.4206,
-      0.4286,
-      0.3492,
-      0.2143,
-      0.1032,
-      0.127,
-      0.1111,
-      0.1111,
-      0.1667,
-      0.2063,
-      0.2143,
-      0.2063,
-      0.2063,
-      0.1905,
-      0.1984,
-      0.1825,
-      0.1825,
-      0.1825,
-      0.1349,
-      0.0952,
-      0.0397,
-      0.119,
-      0.119,
-      0.119,
-      0.1111,
-      0.127,
-      0.1587,
-      0.1667,
-      0.1667,
-      0.1984,
-      0.1984,
-      0.119,
-      0.119,
-      0.1746,
-      0.1667,
-      0.1429,
-      0.119,
-      0.1111,
-      0.127,
-      0.0952,
-      0.0873,
-      0.0873,
-      0.0873,
-      0.0397,
-      0.0794,
-      0.0952,
-      0.0873,
-      0.0873,
-      0.0635,
-      0.1111,
-      0.1429,
-      0.1587,
-      0.1984,
-      0.1905,
-      0.1508,
-      0.1905,
-      0.1905,
-      0.1905,
-      0.246,
-      0.2302,
-      0.254,
-      0.2381,
-      0.1984,
-      0.1984,
-      0.1984,
-      0.1587,
-      0.1587,
-      0.2143,
-      0.1587,
-      0.1349,
-      0.0794,
-      0.0794,
-      0.119,
-      1.0
+      0.0702,
+      0.0702,
+      0.1228,
+      0.1228,
+      0.1228,
+      0.2456,
+      0.2456,
+      0.2807,
+      0.2807,
+      0.2807,
+      0.386,
+      0.7193,
+      0.9298,
+      0.9298,
+      0.9649,
+      0.8421,
+      0.8421,
+      0.807,
+      0.9298,
+      0.9474,
+      0.7719,
+      0.4737,
+      0.2281,
+      0.2807,
+      0.2456,
+      0.2456,
+      0.3684,
+      0.4561,
+      0.4737,
+      0.4561,
+      0.4561,
+      0.4211,
+      0.4386,
+      0.4035,
+      0.4035,
+      0.4035,
+      0.2982,
+      0.2105,
+      0.0877,
+      0.2632,
+      0.2632,
+      0.2632,
+      0.2456,
+      0.2807,
+      0.3509,
+      0.3684,
+      0.3684,
+      0.4386,
+      0.4386,
+      0.2632,
+      0.2632,
+      0.386,
+      0.3684,
+      0.3158,
+      0.2632,
+      0.2456,
+      0.2807,
+      0.2105,
+      0.193,
+      0.193,
+      0.193,
+      0.0877,
+      0.1754,
+      0.2105,
+      0.193,
+      0.193,
+      0.1404,
+      0.2456,
+      0.3158,
+      0.3509,
+      0.4386,
+      0.4211,
+      0.3333,
+      0.4211,
+      0.4211,
+      0.4211,
+      0.5439,
+      0.5088,
+      0.5614,
+      0.5263,
+      0.4386,
+      0.4386,
+      0.4386,
+      0.3509,
+      0.3509,
+      0.4737,
+      0.3509,
+      0.2982,
+      0.1754,
+      0.1754,
+      0.2632,
+      0.2982,
+      0.4912,
+      0.6491,
+      0.6491,
+      0.5263,
+      0.5263,
+      0.5088,
+      0.5088,
+      0.6842,
+      0.5965,
+      0.6316,
+      0.4386,
+      0.2456,
+      0.3333,
+      0.5614,
+      0.6667,
+      0.6667,
+      0.7193,
+      0.5965,
+      0.614,
+      0.5439,
+      0.6842,
+      0.6842,
+      1.0,
+      0.7719,
+      0.807,
+      0.807,
+      0.7895,
+      0.7544,
+      0.7368,
+      0.7368,
+      0.5965,
+      0.5965,
+      0.193,
+      0.193,
+      0.0526,
+      0.0526,
+      0.0175,
+      0.0
     ]
   },
   "shots": [
@@ -501,7 +696,9 @@
       "player_full": "Raphaël Varane",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -513,7 +710,9 @@
       "player_full": "Nico Elvedi",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.7,
@@ -525,7 +724,9 @@
       "player_full": "Paul Pogba",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.1,
@@ -537,7 +738,9 @@
       "player_full": "Haris Seferović",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.1,
@@ -549,7 +752,9 @@
       "player_full": "Haris Seferović",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.3,
@@ -561,7 +766,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.9,
@@ -573,7 +780,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 25,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -585,7 +794,9 @@
       "player_full": "Adrien Rabiot",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -597,7 +808,9 @@
       "player_full": "Breel-Donald Embolo",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.9,
@@ -609,7 +822,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.3,
@@ -621,7 +836,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -633,7 +850,9 @@
       "player_full": "Karim Benzema",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.9,
@@ -645,7 +864,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -657,7 +878,9 @@
       "player_full": "Ricardo Iván Rodríguez Araya",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -669,7 +892,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -681,7 +906,9 @@
       "player_full": "Karim Benzema",
       "minute": 56,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.3,
@@ -693,7 +920,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 58,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.9,
@@ -705,7 +934,9 @@
       "player_full": "Karim Benzema",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.6,
@@ -717,7 +948,9 @@
       "player_full": "Paul Pogba",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.4,
@@ -729,7 +962,9 @@
       "player_full": "Kingsley Coman",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.5,
@@ -741,7 +976,9 @@
       "player_full": "Karim Benzema",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.8,
@@ -753,7 +990,9 @@
       "player_full": "Paul Pogba",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.1,
@@ -765,7 +1004,9 @@
       "player_full": "Kingsley Coman",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -777,7 +1018,9 @@
       "player_full": "Haris Seferović",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -789,7 +1032,9 @@
       "player_full": "Adrien Rabiot",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.9,
@@ -801,7 +1046,9 @@
       "player_full": "Ricardo Iván Rodríguez Araya",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.7,
@@ -813,7 +1060,9 @@
       "player_full": "Mario Gavranović",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -825,7 +1074,9 @@
       "player_full": "Kingsley Coman",
       "minute": 93,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -837,7 +1088,9 @@
       "player_full": "Admir Mehmedi",
       "minute": 92,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -849,7 +1102,9 @@
       "player_full": "Benjamin Pavard",
       "minute": 94,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.3,
@@ -861,7 +1116,9 @@
       "player_full": "Kingsley Coman",
       "minute": 97,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -873,7 +1130,9 @@
       "player_full": "Moussa Sissoko",
       "minute": 100,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.7,
@@ -885,7 +1144,9 @@
       "player_full": "Admir Mehmedi",
       "minute": 102,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.4,
@@ -897,7 +1158,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 108,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.6,
@@ -909,7 +1172,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 109,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.9,
@@ -921,7 +1186,9 @@
       "player_full": "Olivier Giroud",
       "minute": 113,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 79.6,
@@ -933,7 +1200,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 117,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -945,7 +1214,9 @@
       "player_full": "Olivier Giroud",
       "minute": 118,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.5,
@@ -957,7 +1228,9 @@
       "player_full": "Granit Xhaka",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -969,7 +1242,9 @@
       "player_full": "Mario Gavranović",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -981,7 +1256,9 @@
       "player_full": "Paul Pogba",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -993,7 +1270,9 @@
       "player_full": "Fabian Lukas Schär",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1005,7 +1284,9 @@
       "player_full": "Olivier Giroud",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -1017,7 +1298,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -1029,7 +1312,9 @@
       "player_full": "Marcus Thuram",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -1041,7 +1326,9 @@
       "player_full": "Ruben Vargas",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1053,7 +1340,9 @@
       "player_full": "Presnel Kimpembe",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1065,7 +1354,9 @@
       "player_full": "Admir Mehmedi",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -1077,7 +1368,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 128,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1369,7 +1662,7 @@
       {
         "id": "Steven Zuber",
         "short": "Zuber",
-        "x": 44.65,
+        "x": 75.35,
         "y": 5.37,
         "size": 103.4,
         "is_playmaker": false,
@@ -1379,7 +1672,7 @@
       {
         "id": "Ricardo Iván Rodríguez Araya",
         "short": "Araya",
-        "x": 54.4,
+        "x": 65.6,
         "y": 8.49,
         "size": 116.0,
         "is_playmaker": false,
@@ -1389,7 +1682,7 @@
       {
         "id": "Granit Xhaka",
         "short": "Xhaka",
-        "x": 59.81,
+        "x": 60.19,
         "y": 27.98,
         "size": 143.8,
         "is_playmaker": true,
@@ -1399,7 +1692,7 @@
       {
         "id": "Manuel Obafemi Akanji",
         "short": "Akanji",
-        "x": 78.56,
+        "x": 41.44,
         "y": 33.5,
         "size": 124.1,
         "is_playmaker": false,
@@ -1409,7 +1702,7 @@
       {
         "id": "Remo Freuler",
         "short": "Freuler",
-        "x": 58.7,
+        "x": 61.3,
         "y": 50.53,
         "size": 105.2,
         "is_playmaker": true,
@@ -1419,7 +1712,7 @@
       {
         "id": "Yann Sommer",
         "short": "Sommer",
-        "x": 108.72,
+        "x": 11.28,
         "y": 40.46,
         "size": 69.3,
         "is_playmaker": false,
@@ -1429,7 +1722,7 @@
       {
         "id": "Silvan Widmer",
         "short": "Widmer",
-        "x": 52.1,
+        "x": 67.9,
         "y": 74.52,
         "size": 77.4,
         "is_playmaker": false,
@@ -1439,7 +1732,7 @@
       {
         "id": "Nico Elvedi",
         "short": "Elvedi",
-        "x": 77.59,
+        "x": 42.41,
         "y": 61.49,
         "size": 76.5,
         "is_playmaker": false,
@@ -1449,7 +1742,7 @@
       {
         "id": "Xherdan Shaqiri",
         "short": "Shaqiri",
-        "x": 48.13,
+        "x": 71.87,
         "y": 48.7,
         "size": 67.6,
         "is_playmaker": false,
@@ -1459,7 +1752,7 @@
       {
         "id": "Haris Seferović",
         "short": "Seferović",
-        "x": 48.57,
+        "x": 71.43,
         "y": 24.18,
         "size": 61.3,
         "is_playmaker": false,
@@ -1469,7 +1762,7 @@
       {
         "id": "Breel-Donald Embolo",
         "short": "Embolo",
-        "x": 58.53,
+        "x": 61.47,
         "y": 39.25,
         "size": 60.4,
         "is_playmaker": false,
@@ -1482,55 +1775,55 @@
         "source": "Steven Zuber",
         "target": "Ricardo Iván Rodríguez Araya",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Steven Zuber",
         "target": "Granit Xhaka",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ricardo Iván Rodríguez Araya",
         "target": "Steven Zuber",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ricardo Iván Rodríguez Araya",
         "target": "Granit Xhaka",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ricardo Iván Rodríguez Araya",
         "target": "Haris Seferović",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ricardo Iván Rodríguez Araya",
         "target": "Manuel Obafemi Akanji",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Granit Xhaka",
         "target": "Manuel Obafemi Akanji",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Granit Xhaka",
         "target": "Steven Zuber",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Granit Xhaka",
         "target": "Ricardo Iván Rodríguez Araya",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Granit Xhaka",
@@ -1548,19 +1841,19 @@
         "source": "Manuel Obafemi Akanji",
         "target": "Granit Xhaka",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Obafemi Akanji",
         "target": "Remo Freuler",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Obafemi Akanji",
         "target": "Ricardo Iván Rodríguez Araya",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Obafemi Akanji",
@@ -1578,19 +1871,19 @@
         "source": "Remo Freuler",
         "target": "Silvan Widmer",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yann Sommer",
         "target": "Manuel Obafemi Akanji",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yann Sommer",
         "target": "Granit Xhaka",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Silvan Widmer",
@@ -1602,13 +1895,13 @@
         "source": "Silvan Widmer",
         "target": "Remo Freuler",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nico Elvedi",
         "target": "Remo Freuler",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nico Elvedi",

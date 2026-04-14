@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": true,
+    "has_penalties": false,
+    "max_minute": 126,
     "xg_home": 0.912,
     "xg_away": 1.344,
     "shots_home": 13,
@@ -111,7 +116,41 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
     ],
     "home": [
       0.0,
@@ -205,6 +244,40 @@
       0.832,
       0.832,
       0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.832,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
+      0.9121,
       0.9121
     ],
     "away": [
@@ -299,6 +372,40 @@
       0.6354,
       0.6354,
       0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.6354,
+      0.9835,
+      0.9835,
+      1.0286,
+      1.0286,
+      1.0286,
+      1.036,
+      1.0788,
+      1.0788,
+      1.0788,
+      1.0788,
+      1.2533,
+      1.2533,
+      1.2533,
+      1.3442,
+      1.3442,
       1.3442
     ],
     "pressure_home": [
@@ -393,101 +500,169 @@
       0.0545,
       0.0636,
       0.0636,
-      0.4364
+      0.0727,
+      0.0818,
+      0.0818,
+      0.0545,
+      0.1727,
+      0.1727,
+      0.1727,
+      0.1455,
+      0.1364,
+      0.1364,
+      0.1273,
+      0.1182,
+      0.1182,
+      0.1182,
+      0.0,
+      0.0182,
+      0.0455,
+      0.0545,
+      0.0545,
+      0.0545,
+      0.0909,
+      0.1,
+      0.1,
+      0.1273,
+      0.1273,
+      0.1091,
+      0.1455,
+      0.1364,
+      0.1364,
+      0.1455,
+      0.1091,
+      0.1,
+      0.1182,
+      0.1091,
+      0.1091
     ],
     "pressure_away": [
-      0.2584,
-      0.3483,
-      0.4045,
-      0.5618,
-      0.6742,
-      0.6742,
-      0.6742,
-      0.6742,
-      0.8427,
-      0.8427,
-      0.5955,
-      0.5393,
-      0.4831,
-      0.6966,
-      0.618,
-      0.7865,
-      0.7865,
-      0.7865,
-      0.6292,
-      0.6854,
-      0.6742,
-      0.6404,
-      0.6517,
-      0.3483,
-      0.3708,
-      0.2247,
-      0.3483,
-      0.3483,
-      0.3371,
-      0.3596,
-      0.427,
-      0.427,
-      0.4157,
-      0.3708,
-      0.3483,
-      0.382,
-      0.3034,
-      0.3258,
-      0.3258,
-      0.3258,
-      0.382,
-      0.382,
-      0.382,
-      0.3596,
-      0.6067,
-      0.5506,
-      0.5506,
-      0.573,
-      0.5955,
-      0.5169,
-      0.427,
-      0.4382,
-      0.4382,
-      0.5506,
-      0.4494,
-      0.4494,
-      0.4157,
-      0.3708,
-      0.4045,
-      0.4045,
-      0.4494,
-      0.4831,
-      0.4944,
-      0.382,
-      0.236,
-      0.236,
-      0.2584,
-      0.3371,
-      0.2921,
-      0.3933,
-      0.4045,
-      0.382,
-      0.4045,
-      0.4045,
-      0.3708,
-      0.4382,
-      0.4944,
-      0.4382,
-      0.427,
-      0.5056,
-      0.5169,
-      0.4944,
-      0.4607,
-      0.5056,
-      0.5393,
-      0.4719,
-      0.4157,
-      0.427,
-      0.427,
-      0.2921,
-      0.191,
-      1.0
+      0.3067,
+      0.4133,
+      0.48,
+      0.6667,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      1.0,
+      1.0,
+      0.7067,
+      0.64,
+      0.5733,
+      0.8267,
+      0.7333,
+      0.9333,
+      0.9333,
+      0.9333,
+      0.7467,
+      0.8133,
+      0.8,
+      0.76,
+      0.7733,
+      0.4133,
+      0.44,
+      0.2667,
+      0.4133,
+      0.4133,
+      0.4,
+      0.4267,
+      0.5067,
+      0.5067,
+      0.4933,
+      0.44,
+      0.4133,
+      0.4533,
+      0.36,
+      0.3867,
+      0.3867,
+      0.3867,
+      0.4533,
+      0.4533,
+      0.4533,
+      0.4267,
+      0.72,
+      0.6533,
+      0.6533,
+      0.68,
+      0.7067,
+      0.6133,
+      0.5067,
+      0.52,
+      0.52,
+      0.6533,
+      0.5333,
+      0.5333,
+      0.4933,
+      0.44,
+      0.48,
+      0.48,
+      0.5333,
+      0.5733,
+      0.5867,
+      0.4533,
+      0.28,
+      0.28,
+      0.3067,
+      0.4,
+      0.3467,
+      0.4667,
+      0.48,
+      0.4533,
+      0.48,
+      0.48,
+      0.44,
+      0.52,
+      0.5867,
+      0.52,
+      0.5067,
+      0.6,
+      0.6133,
+      0.5867,
+      0.5467,
+      0.6,
+      0.64,
+      0.56,
+      0.4933,
+      0.5067,
+      0.5067,
+      0.3467,
+      0.2267,
+      0.3867,
+      0.44,
+      0.3867,
+      0.3467,
+      0.4267,
+      0.48,
+      0.4533,
+      0.4533,
+      0.4,
+      0.4,
+      0.24,
+      0.1867,
+      0.2267,
+      0.2267,
+      0.1467,
+      0.1733,
+      0.16,
+      0.16,
+      0.1867,
+      0.1867,
+      0.36,
+      0.36,
+      0.32,
+      0.44,
+      0.44,
+      0.32,
+      0.3733,
+      0.3733,
+      0.3467,
+      0.3467,
+      0.1733,
+      0.1867,
+      0.2,
+      0.08,
+      0.08
     ]
   },
   "shots": [
@@ -501,7 +676,9 @@
       "player_full": "Emil Peter Forsberg",
       "minute": 6,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -513,7 +690,9 @@
       "player_full": "Dejan Kulusevski",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -525,7 +704,9 @@
       "player_full": "Mykola Shaparenko",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -537,7 +718,9 @@
       "player_full": "Roman Yaremchuk",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -549,7 +732,9 @@
       "player_full": "Emil Peter Forsberg",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -561,7 +746,9 @@
       "player_full": "Alexander Isak",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -573,7 +760,9 @@
       "player_full": "Oleksandr Zinchenko",
       "minute": 26,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 83.3,
@@ -585,7 +774,9 @@
       "player_full": "Sebastian Larsson",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -597,7 +788,9 @@
       "player_full": "Roman Yaremchuk",
       "minute": 31,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -609,7 +802,9 @@
       "player_full": "Andriy Yarmolenko",
       "minute": 31,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.7,
@@ -621,7 +816,9 @@
       "player_full": "Emil Peter Forsberg",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -633,7 +830,9 @@
       "player_full": "Taras Stepanenko",
       "minute": 52,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -645,7 +844,9 @@
       "player_full": "Sebastian Larsson",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.8,
@@ -657,7 +858,9 @@
       "player_full": "Serhii Sydorchuk",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -669,7 +872,9 @@
       "player_full": "Emil Peter Forsberg",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -681,7 +886,9 @@
       "player_full": "Alexander Isak",
       "minute": 59,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -693,7 +900,9 @@
       "player_full": "Dejan Kulusevski",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -705,7 +914,9 @@
       "player_full": "Andriy Yarmolenko",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.3,
@@ -717,7 +928,9 @@
       "player_full": "Emil Peter Forsberg",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -729,7 +942,9 @@
       "player_full": "Taras Stepanenko",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -741,7 +956,9 @@
       "player_full": "Dejan Kulusevski",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.7,
@@ -753,7 +970,9 @@
       "player_full": "Emil Peter Forsberg",
       "minute": 108,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -765,7 +984,9 @@
       "player_full": "Artem Dovbyk",
       "minute": 110,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -777,7 +998,9 @@
       "player_full": "Oleksandr Karavaev",
       "minute": 112,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 83.4,
@@ -789,7 +1012,9 @@
       "player_full": "Ruslan Malinovskiy",
       "minute": 115,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.1,
@@ -801,7 +1026,9 @@
       "player_full": "Ruslan Malinovskiy",
       "minute": 116,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -813,7 +1040,9 @@
       "player_full": "Artem Dovbyk",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.9,
@@ -825,7 +1054,9 @@
       "player_full": "Ruslan Malinovskiy",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -1117,7 +1348,7 @@
       {
         "id": "Illia Zabarnyi",
         "short": "Zabarnyi",
-        "x": 69.12,
+        "x": 50.88,
         "y": 64.4,
         "size": 134.4,
         "is_playmaker": false,
@@ -1127,7 +1358,7 @@
       {
         "id": "Serhiy Kryvtsov",
         "short": "Kryvtsov",
-        "x": 76.4,
+        "x": 43.6,
         "y": 42.05,
         "size": 119.3,
         "is_playmaker": false,
@@ -1137,7 +1368,7 @@
       {
         "id": "Mykola Matviyenko",
         "short": "Matviyenko",
-        "x": 66.37,
+        "x": 53.63,
         "y": 16.6,
         "size": 134.4,
         "is_playmaker": true,
@@ -1147,7 +1378,7 @@
       {
         "id": "Oleksandr Karavaev",
         "short": "Karavaev",
-        "x": 48.8,
+        "x": 71.2,
         "y": 74.13,
         "size": 99.0,
         "is_playmaker": false,
@@ -1157,7 +1388,7 @@
       {
         "id": "Oleksandr Zinchenko",
         "short": "Zinchenko",
-        "x": 50.6,
+        "x": 69.4,
         "y": 8.25,
         "size": 97.9,
         "is_playmaker": false,
@@ -1167,7 +1398,7 @@
       {
         "id": "Andriy Yarmolenko",
         "short": "Yarmolenko",
-        "x": 31.25,
+        "x": 88.75,
         "y": 63.88,
         "size": 66.8,
         "is_playmaker": false,
@@ -1177,7 +1408,7 @@
       {
         "id": "Mykola Shaparenko",
         "short": "Shaparenko",
-        "x": 51.22,
+        "x": 68.78,
         "y": 19.74,
         "size": 73.8,
         "is_playmaker": false,
@@ -1187,7 +1418,7 @@
       {
         "id": "Taras Stepanenko",
         "short": "Stepanenko",
-        "x": 62.34,
+        "x": 57.66,
         "y": 31.69,
         "size": 71.1,
         "is_playmaker": false,
@@ -1197,7 +1428,7 @@
       {
         "id": "Heorhii Bushchan",
         "short": "Bushchan",
-        "x": 111.19,
+        "x": 8.81,
         "y": 38.3,
         "size": 64.7,
         "is_playmaker": false,
@@ -1207,7 +1438,7 @@
       {
         "id": "Serhii Sydorchuk",
         "short": "Sydorchuk",
-        "x": 49.67,
+        "x": 70.33,
         "y": 59.07,
         "size": 86.6,
         "is_playmaker": true,
@@ -1217,7 +1448,7 @@
       {
         "id": "Roman Yaremchuk",
         "short": "Yaremchuk",
-        "x": 44.58,
+        "x": 75.42,
         "y": 37.51,
         "size": 57.1,
         "is_playmaker": false,
@@ -1230,43 +1461,43 @@
         "source": "Illia Zabarnyi",
         "target": "Serhiy Kryvtsov",
         "weight": 32,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Illia Zabarnyi",
         "target": "Oleksandr Karavaev",
         "weight": 27,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Illia Zabarnyi",
         "target": "Serhii Sydorchuk",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Serhiy Kryvtsov",
         "target": "Illia Zabarnyi",
         "weight": 31,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Serhiy Kryvtsov",
         "target": "Mykola Matviyenko",
         "weight": 29,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mykola Matviyenko",
         "target": "Serhiy Kryvtsov",
         "weight": 21,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mykola Matviyenko",
         "target": "Oleksandr Zinchenko",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mykola Matviyenko",
@@ -1278,25 +1509,25 @@
         "source": "Mykola Matviyenko",
         "target": "Mykola Shaparenko",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mykola Matviyenko",
         "target": "Taras Stepanenko",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oleksandr Karavaev",
         "target": "Illia Zabarnyi",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Oleksandr Karavaev",
         "target": "Andriy Yarmolenko",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oleksandr Karavaev",
@@ -1308,13 +1539,13 @@
         "source": "Oleksandr Zinchenko",
         "target": "Mykola Matviyenko",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Oleksandr Zinchenko",
         "target": "Taras Stepanenko",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Oleksandr Zinchenko",
@@ -1326,43 +1557,43 @@
         "source": "Andriy Yarmolenko",
         "target": "Serhii Sydorchuk",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mykola Shaparenko",
         "target": "Mykola Matviyenko",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mykola Shaparenko",
         "target": "Roman Yaremchuk",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Taras Stepanenko",
         "target": "Oleksandr Zinchenko",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Taras Stepanenko",
         "target": "Roman Yaremchuk",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Heorhii Bushchan",
         "target": "Mykola Matviyenko",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Heorhii Bushchan",
         "target": "Oleksandr Zinchenko",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Serhii Sydorchuk",
@@ -1374,25 +1605,25 @@
         "source": "Serhii Sydorchuk",
         "target": "Illia Zabarnyi",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Serhii Sydorchuk",
         "target": "Serhiy Kryvtsov",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roman Yaremchuk",
         "target": "Taras Stepanenko",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roman Yaremchuk",
         "target": "Mykola Shaparenko",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

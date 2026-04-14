@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.602,
     "xg_away": 1.395,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Joshua Sargent",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.6,
@@ -513,7 +520,9 @@
       "player_full": "Ethan Ampadu",
       "minute": 13,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.9,
@@ -525,7 +534,9 @@
       "player_full": "Sergino Dest",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -537,7 +548,9 @@
       "player_full": "Timothy Weah",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -549,7 +562,9 @@
       "player_full": "Ben Davies",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -561,7 +576,9 @@
       "player_full": "Kieffer Roberto Francisco Moore",
       "minute": 60,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -573,7 +590,9 @@
       "player_full": "Ben Davies",
       "minute": 63,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.3,
@@ -585,7 +604,9 @@
       "player_full": "Kieffer Roberto Francisco Moore",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -597,7 +618,9 @@
       "player_full": "Haji Wright",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.3,
@@ -609,7 +632,9 @@
       "player_full": "Brenden Aaronson",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -621,7 +646,9 @@
       "player_full": "Gareth Frank Bale",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -633,7 +660,9 @@
       "player_full": "Brennan Johnson",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.8,
@@ -645,7 +674,9 @@
       "player_full": "Tyler Adams",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +968,7 @@
       {
         "id": "Chris Mepham",
         "short": "Mepham",
-        "x": 78.98,
+        "x": 41.02,
         "y": 61.17,
         "size": 131.9,
         "is_playmaker": false,
@@ -947,7 +978,7 @@
       {
         "id": "Connor Roberts",
         "short": "Roberts",
-        "x": 67.29,
+        "x": 52.71,
         "y": 71.18,
         "size": 97.6,
         "is_playmaker": false,
@@ -957,7 +988,7 @@
       {
         "id": "Neco Williams",
         "short": "Williams",
-        "x": 52.32,
+        "x": 67.68,
         "y": 6.83,
         "size": 76.3,
         "is_playmaker": false,
@@ -967,7 +998,7 @@
       {
         "id": "Ben Davies",
         "short": "Davies",
-        "x": 79.02,
+        "x": 40.98,
         "y": 19.49,
         "size": 108.3,
         "is_playmaker": true,
@@ -977,7 +1008,7 @@
       {
         "id": "Joe Rodon",
         "short": "Rodon",
-        "x": 84.31,
+        "x": 35.69,
         "y": 37.92,
         "size": 150.9,
         "is_playmaker": true,
@@ -987,7 +1018,7 @@
       {
         "id": "Wayne Hennessey",
         "short": "Hennessey",
-        "x": 107.24,
+        "x": 12.76,
         "y": 40.67,
         "size": 71.6,
         "is_playmaker": false,
@@ -997,7 +1028,7 @@
       {
         "id": "Ethan Ampadu",
         "short": "Ampadu",
-        "x": 71.47,
+        "x": 48.53,
         "y": 40.19,
         "size": 82.2,
         "is_playmaker": false,
@@ -1007,7 +1038,7 @@
       {
         "id": "Aaron Ramsey",
         "short": "Ramsey",
-        "x": 64.95,
+        "x": 55.05,
         "y": 49.88,
         "size": 82.2,
         "is_playmaker": false,
@@ -1017,7 +1048,7 @@
       {
         "id": "Gareth Frank Bale",
         "short": "Bale",
-        "x": 58.59,
+        "x": 61.41,
         "y": 47.9,
         "size": 69.2,
         "is_playmaker": false,
@@ -1027,7 +1058,7 @@
       {
         "id": "Harry Wilson",
         "short": "Wilson",
-        "x": 62.77,
+        "x": 57.23,
         "y": 28.8,
         "size": 75.1,
         "is_playmaker": false,
@@ -1037,7 +1068,7 @@
       {
         "id": "Daniel James",
         "short": "James",
-        "x": 60.39,
+        "x": 59.61,
         "y": 23.06,
         "size": 59.7,
         "is_playmaker": false,
@@ -1050,25 +1081,25 @@
         "source": "Chris Mepham",
         "target": "Connor Roberts",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chris Mepham",
         "target": "Joe Rodon",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Chris Mepham",
         "target": "Ethan Ampadu",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Connor Roberts",
         "target": "Chris Mepham",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Connor Roberts",
@@ -1080,97 +1111,97 @@
         "source": "Connor Roberts",
         "target": "Gareth Frank Bale",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Neco Williams",
         "target": "Ben Davies",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neco Williams",
         "target": "Harry Wilson",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neco Williams",
         "target": "Daniel James",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ben Davies",
         "target": "Joe Rodon",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ben Davies",
         "target": "Ethan Ampadu",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ben Davies",
         "target": "Aaron Ramsey",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ben Davies",
         "target": "Harry Wilson",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joe Rodon",
         "target": "Ben Davies",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joe Rodon",
         "target": "Wayne Hennessey",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joe Rodon",
         "target": "Chris Mepham",
         "weight": 22,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wayne Hennessey",
         "target": "Joe Rodon",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ethan Ampadu",
         "target": "Joe Rodon",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aaron Ramsey",
         "target": "Gareth Frank Bale",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aaron Ramsey",
         "target": "Ethan Ampadu",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harry Wilson",
         "target": "Neco Williams",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Wilson",
@@ -1188,7 +1219,7 @@
         "source": "Daniel James",
         "target": "Neco Williams",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 3,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.683,
     "xg_away": 0.5,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Edouard Cissé",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -513,7 +520,9 @@
       "player_full": "Anderson Luís de Souza",
       "minute": 6,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -525,7 +534,9 @@
       "player_full": "Carlos Alberto Gomes de Jesus",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -537,7 +548,9 @@
       "player_full": "Dado Prso",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.8,
@@ -549,7 +562,9 @@
       "player_full": "Julien Rodriguez",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.8,
@@ -561,7 +576,9 @@
       "player_full": "Anderson Luís de Souza",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.2,
@@ -573,7 +590,9 @@
       "player_full": "Fernando Morientes Sánchez",
       "minute": 72,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -585,7 +604,9 @@
       "player_full": "Sébastien Squillaci",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -597,7 +618,9 @@
       "player_full": "Dmitriy Alenichev",
       "minute": 74,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.8,
@@ -609,7 +632,9 @@
       "player_full": "Sébastien Squillaci",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.4,
@@ -621,7 +646,9 @@
       "player_full": "Patrice Evra",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -633,7 +660,9 @@
       "player_full": "Sébastien Squillaci",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -645,7 +674,9 @@
       "player_full": "Sébastien Squillaci",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +968,7 @@
       {
         "id": "Nuno Jorge Pereira Silva Valente",
         "short": "Valente",
-        "x": 60.16,
+        "x": 59.84,
         "y": 7.36,
         "size": 115.4,
         "is_playmaker": false,
@@ -947,7 +978,7 @@
       {
         "id": "Nuno Ricardo de Oliveira Ribeiro",
         "short": "Ribeiro",
-        "x": 59.88,
+        "x": 60.12,
         "y": 28.02,
         "size": 126.9,
         "is_playmaker": true,
@@ -957,7 +988,7 @@
       {
         "id": "Paulo Renato Rebocho Ferreira",
         "short": "Ferreira",
-        "x": 62.01,
+        "x": 57.99,
         "y": 71.6,
         "size": 109.7,
         "is_playmaker": false,
@@ -967,7 +998,7 @@
       {
         "id": "Anderson Luís de Souza",
         "short": "Souza",
-        "x": 54.96,
+        "x": 65.04,
         "y": 36.04,
         "size": 124.1,
         "is_playmaker": true,
@@ -977,7 +1008,7 @@
       {
         "id": "Ricardo Alberto Silveira de Carvalho",
         "short": "Carvalho",
-        "x": 77.95,
+        "x": 42.05,
         "y": 34.17,
         "size": 88.1,
         "is_playmaker": false,
@@ -987,7 +1018,7 @@
       {
         "id": "Vítor Manuel Martins Baía",
         "short": "Baía",
-        "x": 104.81,
+        "x": 15.19,
         "y": 42.91,
         "size": 76.6,
         "is_playmaker": false,
@@ -997,7 +1028,7 @@
       {
         "id": "Francisco José Rodrigues da Costa",
         "short": "Costa",
-        "x": 72.21,
+        "x": 47.79,
         "y": 30.35,
         "size": 70.8,
         "is_playmaker": false,
@@ -1007,7 +1038,7 @@
       {
         "id": "Pedro Miguel da Silva Mendes",
         "short": "Mendes",
-        "x": 63.91,
+        "x": 56.09,
         "y": 58.16,
         "size": 85.2,
         "is_playmaker": false,
@@ -1017,7 +1048,7 @@
       {
         "id": "Vanderlei Fernandes Silva",
         "short": "Silva",
-        "x": 50.47,
+        "x": 69.53,
         "y": 54.03,
         "size": 83.8,
         "is_playmaker": false,
@@ -1027,7 +1058,7 @@
       {
         "id": "Carlos Alberto Gomes de Jesus",
         "short": "Jesus",
-        "x": 43.7,
+        "x": 76.3,
         "y": 39.9,
         "size": 63.6,
         "is_playmaker": false,
@@ -1037,7 +1068,7 @@
       {
         "id": "Jorge Paulo Costa Almeida",
         "short": "Almeida",
-        "x": 82.53,
+        "x": 37.47,
         "y": 42.94,
         "size": 60.8,
         "is_playmaker": false,
@@ -1056,7 +1087,7 @@
         "source": "Nuno Jorge Pereira Silva Valente",
         "target": "Anderson Luís de Souza",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nuno Ricardo de Oliveira Ribeiro",
@@ -1068,7 +1099,7 @@
         "source": "Nuno Ricardo de Oliveira Ribeiro",
         "target": "Pedro Miguel da Silva Mendes",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nuno Ricardo de Oliveira Ribeiro",
@@ -1080,31 +1111,31 @@
         "source": "Nuno Ricardo de Oliveira Ribeiro",
         "target": "Vanderlei Fernandes Silva",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nuno Ricardo de Oliveira Ribeiro",
         "target": "Anderson Luís de Souza",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nuno Ricardo de Oliveira Ribeiro",
         "target": "Francisco José Rodrigues da Costa",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Paulo Renato Rebocho Ferreira",
         "target": "Anderson Luís de Souza",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paulo Renato Rebocho Ferreira",
         "target": "Vanderlei Fernandes Silva",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paulo Renato Rebocho Ferreira",
@@ -1116,79 +1147,79 @@
         "source": "Anderson Luís de Souza",
         "target": "Carlos Alberto Gomes de Jesus",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anderson Luís de Souza",
         "target": "Vanderlei Fernandes Silva",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anderson Luís de Souza",
         "target": "Nuno Jorge Pereira Silva Valente",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ricardo Alberto Silveira de Carvalho",
         "target": "Nuno Jorge Pereira Silva Valente",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ricardo Alberto Silveira de Carvalho",
         "target": "Nuno Ricardo de Oliveira Ribeiro",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ricardo Alberto Silveira de Carvalho",
         "target": "Paulo Renato Rebocho Ferreira",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ricardo Alberto Silveira de Carvalho",
         "target": "Vítor Manuel Martins Baía",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vítor Manuel Martins Baía",
         "target": "Paulo Renato Rebocho Ferreira",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francisco José Rodrigues da Costa",
         "target": "Nuno Jorge Pereira Silva Valente",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Miguel da Silva Mendes",
         "target": "Anderson Luís de Souza",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Miguel da Silva Mendes",
         "target": "Nuno Ricardo de Oliveira Ribeiro",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Vanderlei Fernandes Silva",
         "target": "Anderson Luís de Souza",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jorge Paulo Costa Almeida",
         "target": "Vítor Manuel Martins Baía",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

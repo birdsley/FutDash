@@ -9,6 +9,11 @@
     "away_color": "#0b59ff",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.594,
     "xg_away": 0.518,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Ruby Mace",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.5,
@@ -513,7 +520,9 @@
       "player_full": "Jessica Naz",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -525,7 +534,9 @@
       "player_full": "Jessica Naz",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -537,7 +548,9 @@
       "player_full": "Kerys Harrop",
       "minute": 17,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.9,
@@ -549,7 +562,9 @@
       "player_full": "Ruby Mace",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -561,7 +576,9 @@
       "player_full": "Ashleigh Neville",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -573,7 +590,9 @@
       "player_full": "Kit Graham",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -585,7 +604,9 @@
       "player_full": "Ashleigh Neville",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.9,
@@ -597,7 +618,9 @@
       "player_full": "Claudia Walker",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.4,
@@ -609,7 +632,9 @@
       "player_full": "Rachel Williams",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.1,
@@ -621,7 +646,9 @@
       "player_full": "Kit Graham",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.6,
@@ -633,7 +660,9 @@
       "player_full": "Ashleigh Neville",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -645,7 +674,9 @@
       "player_full": "Emily Murphy",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -657,7 +688,9 @@
       "player_full": "Claudia Walker",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.6,
@@ -669,7 +702,9 @@
       "player_full": "Kit Graham",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -889,7 +924,7 @@
       {
         "id": "Abbie McManus",
         "short": "McManus",
-        "x": 79.9,
+        "x": 40.1,
         "y": 55.4,
         "size": 141.1,
         "is_playmaker": true,
@@ -899,7 +934,7 @@
       {
         "id": "Shelina Laura Zadorsky",
         "short": "Zadorsky",
-        "x": 80.52,
+        "x": 39.48,
         "y": 25.67,
         "size": 130.4,
         "is_playmaker": true,
@@ -909,7 +944,7 @@
       {
         "id": "Rebecca Leigh Spencer",
         "short": "Spencer",
-        "x": 110.27,
+        "x": 9.73,
         "y": 41.0,
         "size": 96.0,
         "is_playmaker": false,
@@ -919,7 +954,7 @@
       {
         "id": "Kerys Harrop",
         "short": "Harrop",
-        "x": 63.88,
+        "x": 56.12,
         "y": 8.68,
         "size": 118.1,
         "is_playmaker": false,
@@ -929,7 +964,7 @@
       {
         "id": "Jessica Naz",
         "short": "Naz",
-        "x": 40.44,
+        "x": 79.56,
         "y": 25.97,
         "size": 82.0,
         "is_playmaker": false,
@@ -939,7 +974,7 @@
       {
         "id": "Ashleigh Neville",
         "short": "Neville",
-        "x": 54.97,
+        "x": 65.03,
         "y": 72.61,
         "size": 90.2,
         "is_playmaker": false,
@@ -949,7 +984,7 @@
       {
         "id": "Lucy Quinn",
         "short": "Quinn",
-        "x": 44.17,
+        "x": 75.83,
         "y": 59.09,
         "size": 68.1,
         "is_playmaker": false,
@@ -959,7 +994,7 @@
       {
         "id": "Kit Graham",
         "short": "Graham",
-        "x": 38.42,
+        "x": 81.58,
         "y": 41.64,
         "size": 80.4,
         "is_playmaker": false,
@@ -969,7 +1004,7 @@
       {
         "id": "Rachel Williams",
         "short": "Williams",
-        "x": 54.0,
+        "x": 66.0,
         "y": 45.95,
         "size": 72.2,
         "is_playmaker": false,
@@ -979,7 +1014,7 @@
       {
         "id": "Chloe Peplow",
         "short": "Peplow",
-        "x": 59.41,
+        "x": 60.59,
         "y": 37.16,
         "size": 65.7,
         "is_playmaker": false,
@@ -989,7 +1024,7 @@
       {
         "id": "So-Hyun Cho",
         "short": "Cho",
-        "x": 64.16,
+        "x": 55.84,
         "y": 44.25,
         "size": 60.7,
         "is_playmaker": false,
@@ -1008,19 +1043,19 @@
         "source": "Abbie McManus",
         "target": "Ashleigh Neville",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abbie McManus",
         "target": "Kit Graham",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abbie McManus",
         "target": "So-Hyun Cho",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Shelina Laura Zadorsky",
@@ -1032,73 +1067,73 @@
         "source": "Shelina Laura Zadorsky",
         "target": "Kerys Harrop",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Shelina Laura Zadorsky",
         "target": "Rebecca Leigh Spencer",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Shelina Laura Zadorsky",
         "target": "Chloe Peplow",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rebecca Leigh Spencer",
         "target": "Abbie McManus",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rebecca Leigh Spencer",
         "target": "Shelina Laura Zadorsky",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Jessica Naz",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Shelina Laura Zadorsky",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Rebecca Leigh Spencer",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Kit Graham",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Abbie McManus",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kerys Harrop",
         "target": "Rachel Williams",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jessica Naz",
         "target": "Kerys Harrop",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jessica Naz",
@@ -1110,7 +1145,7 @@
         "source": "Ashleigh Neville",
         "target": "Lucy Quinn",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashleigh Neville",
@@ -1122,25 +1157,25 @@
         "source": "Ashleigh Neville",
         "target": "Abbie McManus",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucy Quinn",
         "target": "Ashleigh Neville",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rachel Williams",
         "target": "Kit Graham",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chloe Peplow",
         "target": "Abbie McManus",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.301,
     "xg_away": 1.742,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Sabin Merino Zuloaga",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.9,
@@ -513,7 +520,9 @@
       "player_full": "Andrés Iniesta Luján",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -525,7 +534,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -537,7 +548,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.7,
@@ -549,7 +562,9 @@
       "player_full": "Andrés Iniesta Luján",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -561,7 +576,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -573,7 +590,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.8,
@@ -585,7 +604,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 37,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -597,7 +618,9 @@
       "player_full": "Aymeric Laporte",
       "minute": 40,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -609,7 +632,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -621,7 +646,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 53,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -633,7 +660,9 @@
       "player_full": "Sergi Roberto Carnicer",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.7,
@@ -645,7 +674,9 @@
       "player_full": "Markel Susaeta Laskurain",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -657,7 +688,9 @@
       "player_full": "Ibai Gómez Pérez",
       "minute": 79,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.8,
@@ -669,7 +702,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.5,
@@ -681,7 +716,9 @@
       "player_full": "Aymeric Laporte",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 81.72,
+        "x": 38.28,
         "y": 57.25,
         "size": 117.2,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "Ivan Rakitić",
         "short": "Rakitić",
-        "x": 61.07,
+        "x": 58.93,
         "y": 60.3,
         "size": 93.1,
         "is_playmaker": true,
@@ -969,7 +1006,7 @@
       {
         "id": "Thomas Vermaelen",
         "short": "Vermaelen",
-        "x": 89.28,
+        "x": 30.72,
         "y": 22.34,
         "size": 132.3,
         "is_playmaker": false,
@@ -979,7 +1016,7 @@
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
-        "x": 68.94,
+        "x": 51.06,
         "y": 10.94,
         "size": 120.9,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Muñoz",
-        "x": 106.57,
+        "x": 13.43,
         "y": 40.54,
         "size": 99.7,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 63.5,
+        "x": 56.5,
         "y": 23.56,
         "size": 95.5,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Rafael Alcântara do Nascimento",
         "short": "Nascimento",
-        "x": 57.53,
+        "x": 62.47,
         "y": 17.08,
         "size": 68.9,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Díaz",
-        "x": 51.61,
+        "x": 68.39,
         "y": 46.98,
         "size": 71.3,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 47.22,
+        "x": 72.78,
         "y": 49.99,
         "size": 78.0,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 68.75,
+        "x": 51.25,
         "y": 30.41,
         "size": 70.7,
         "is_playmaker": false,
@@ -1049,7 +1086,7 @@
       {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
-        "x": 66.4,
+        "x": 53.6,
         "y": 72.47,
         "size": 57.4,
         "is_playmaker": true,
@@ -1062,109 +1099,109 @@
         "source": "Javier Alejandro Mascherano",
         "target": "Ivan Rakitić",
         "weight": 22,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Claudio Andrés Bravo Muñoz",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Thomas Vermaelen",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Daniel Alves da Silva",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ivan Rakitić",
         "target": "Javier Alejandro Mascherano",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ivan Rakitić",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ivan Rakitić",
         "target": "Daniel Alves da Silva",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Vermaelen",
         "target": "Jordi Alba Ramos",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thomas Vermaelen",
         "target": "Javier Alejandro Mascherano",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thomas Vermaelen",
         "target": "Claudio Andrés Bravo Muñoz",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Thomas Vermaelen",
         "weight": 21,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Andrés Iniesta Luján",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Rafael Alcântara do Nascimento",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Luis Alberto Suárez Díaz",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Thomas Vermaelen",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Javier Alejandro Mascherano",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrés Iniesta Luján",
         "target": "Jordi Alba Ramos",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
         "target": "Thomas Vermaelen",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1176,25 +1213,25 @@
         "source": "Rafael Alcântara do Nascimento",
         "target": "Andrés Iniesta Luján",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luis Alberto Suárez Díaz",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Ivan Rakitić",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Luis Alberto Suárez Díaz",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
@@ -1206,25 +1243,25 @@
         "source": "Sergio Busquets i Burgos",
         "target": "Andrés Iniesta Luján",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Thomas Vermaelen",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel Alves da Silva",
         "target": "Ivan Rakitić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Alves da Silva",
         "target": "Javier Alejandro Mascherano",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

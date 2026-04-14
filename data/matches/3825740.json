@@ -9,6 +9,11 @@
     "away_color": "#d40000",
     "score_home": 5,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.714,
     "xg_away": 0.964,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Sergio Gontán Gallardo",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.4,
@@ -513,7 +520,9 @@
       "player_full": "Ander Capa Rodríguez",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.2,
@@ -525,7 +534,9 @@
       "player_full": "Takashi Inui",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.1,
@@ -537,7 +548,9 @@
       "player_full": "Rene Krhin",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -549,7 +562,9 @@
       "player_full": "Borja González Tomás",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -561,7 +576,9 @@
       "player_full": "Takashi Inui",
       "minute": 34,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -573,7 +590,9 @@
       "player_full": "Sergio Enrich Ametller",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -585,7 +604,9 @@
       "player_full": "Sergio Enrich Ametller",
       "minute": 41,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.7,
@@ -597,7 +618,9 @@
       "player_full": "Cristiano Biraghi",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -609,7 +632,9 @@
       "player_full": "Youssef El-Arabi",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.1,
@@ -621,7 +646,9 @@
       "player_full": "Sergio Enrich Ametller",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.0,
@@ -633,7 +660,9 @@
       "player_full": "Sergio Gontán Gallardo",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -645,7 +674,9 @@
       "player_full": "Borja González Tomás",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.7,
@@ -657,7 +688,9 @@
       "player_full": "Borja González Tomás",
       "minute": 78,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.5,
@@ -669,7 +702,9 @@
       "player_full": "Saúl Berjón Pérez",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.4,
@@ -681,7 +716,9 @@
       "player_full": "Isaac Ajayi Success",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Cristiano Biraghi",
         "short": "Biraghi",
-        "x": 64.37,
+        "x": 55.63,
         "y": 5.99,
         "size": 110.3,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "Isaac Ajayi Success",
         "short": "Success",
-        "x": 57.45,
+        "x": 62.55,
         "y": 19.86,
         "size": 106.1,
         "is_playmaker": false,
@@ -969,7 +1006,7 @@
       {
         "id": "Adalberto Peñaranda Maestre",
         "short": "Maestre",
-        "x": 45.84,
+        "x": 74.16,
         "y": 30.51,
         "size": 110.3,
         "is_playmaker": true,
@@ -979,7 +1016,7 @@
       {
         "id": "Uche Henry Agbo",
         "short": "Agbo",
-        "x": 67.84,
+        "x": 52.16,
         "y": 40.37,
         "size": 97.6,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Rubén Salvador Pérez Del Mármol",
         "short": "Mármol",
-        "x": 53.5,
+        "x": 66.5,
         "y": 25.19,
         "size": 89.0,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Rene Krhin",
         "short": "Krhin",
-        "x": 69.57,
+        "x": 50.43,
         "y": 32.99,
         "size": 72.0,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Dimitri Foulquier",
         "short": "Foulquier",
-        "x": 65.11,
+        "x": 54.89,
         "y": 73.58,
         "size": 101.8,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "Edgar Antonio Méndez Ortega",
         "short": "Ortega",
-        "x": 70.96,
+        "x": 49.04,
         "y": 38.37,
         "size": 97.6,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "David Rodríguez Lombán",
         "short": "Lombán",
-        "x": 76.9,
+        "x": 43.1,
         "y": 36.32,
         "size": 76.3,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Andrés Eduardo Fernández Moreno",
         "short": "Moreno",
-        "x": 101.37,
+        "x": 18.63,
         "y": 43.2,
         "size": 72.0,
         "is_playmaker": false,
@@ -1049,7 +1086,7 @@
       {
         "id": "Diego Mainz García",
         "short": "García",
-        "x": 77.91,
+        "x": 42.09,
         "y": 58.18,
         "size": 72.0,
         "is_playmaker": true,
@@ -1062,43 +1099,43 @@
         "source": "Cristiano Biraghi",
         "target": "Isaac Ajayi Success",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristiano Biraghi",
         "target": "David Rodríguez Lombán",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Isaac Ajayi Success",
         "target": "Adalberto Peñaranda Maestre",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adalberto Peñaranda Maestre",
         "target": "Edgar Antonio Méndez Ortega",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Uche Henry Agbo",
         "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Uche Henry Agbo",
         "target": "Diego Mainz García",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rene Krhin",
         "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dimitri Foulquier",
@@ -1110,31 +1147,31 @@
         "source": "Dimitri Foulquier",
         "target": "Edgar Antonio Méndez Ortega",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dimitri Foulquier",
         "target": "Diego Mainz García",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Eduardo Fernández Moreno",
         "target": "Adalberto Peñaranda Maestre",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Mainz García",
         "target": "Dimitri Foulquier",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Mainz García",
         "target": "Uche Henry Agbo",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

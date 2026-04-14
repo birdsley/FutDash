@@ -9,6 +9,11 @@
     "away_color": "#fde100",
     "score_home": 3,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.393,
     "xg_away": 0.257,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Romelu Lukaku Menama",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -513,7 +520,9 @@
       "player_full": "Mário Figueira Fernandes",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -525,7 +534,9 @@
       "player_full": "Magomed Ozdoev",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -537,7 +548,9 @@
       "player_full": "Leander Dendoncker",
       "minute": 17,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -549,7 +562,9 @@
       "player_full": "Thorgan Hazard",
       "minute": 21,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.6,
@@ -561,7 +576,9 @@
       "player_full": "Toby Alderweireld",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -573,7 +590,9 @@
       "player_full": "Thomas Meunier",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.1,
@@ -585,7 +604,9 @@
       "player_full": "Youri Tielemans",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -597,7 +618,9 @@
       "player_full": "Yannick Ferreira Carrasco",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.1,
@@ -609,7 +632,9 @@
       "player_full": "Roman Zobnin",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.4,
@@ -621,7 +646,9 @@
       "player_full": "Aleksandr Golovin",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.1,
@@ -633,7 +660,9 @@
       "player_full": "Romelu Lukaku Menama",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.5,
@@ -645,7 +674,9 @@
       "player_full": "Romelu Lukaku Menama",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.6,
@@ -657,7 +688,9 @@
       "player_full": "Aleksey Miranchuk",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -753,16 +786,6 @@
         "eigenvector": 0.0707
       },
       {
-        "id": "Dries Mertens",
-        "short": "Mertens",
-        "x": 74.43,
-        "y": 63.05,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.2722,
-        "eigenvector": 0.0014
-      },
-      {
         "id": "Romelu Lukaku Menama",
         "short": "Menama",
         "x": 80.29,
@@ -771,6 +794,16 @@
         "is_playmaker": true,
         "betweenness": 0.4944,
         "eigenvector": 0.0093
+      },
+      {
+        "id": "Dries Mertens",
+        "short": "Mertens",
+        "x": 74.43,
+        "y": 63.05,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.2722,
+        "eigenvector": 0.0014
       }
     ],
     "edges": [
@@ -937,24 +970,6 @@
         "direction": "forward"
       },
       {
-        "source": "Dries Mertens",
-        "target": "Timothy Castagne",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Dries Mertens",
-        "target": "Romelu Lukaku Menama",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Romelu Lukaku Menama",
-        "target": "Dries Mertens",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Romelu Lukaku Menama",
         "target": "Leander Dendoncker",
         "weight": 1,
@@ -965,6 +980,24 @@
         "target": "Youri Tielemans",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Romelu Lukaku Menama",
+        "target": "Dries Mertens",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Dries Mertens",
+        "target": "Timothy Castagne",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Dries Mertens",
+        "target": "Romelu Lukaku Menama",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -973,7 +1006,7 @@
       {
         "id": "Aleksandr Golovin",
         "short": "Golovin",
-        "x": 49.84,
+        "x": 70.16,
         "y": 21.6,
         "size": 78.9,
         "is_playmaker": false,
@@ -983,7 +1016,7 @@
       {
         "id": "Georgiy Dzhikiya",
         "short": "Dzhikiya",
-        "x": 74.25,
+        "x": 45.75,
         "y": 24.81,
         "size": 125.1,
         "is_playmaker": false,
@@ -993,7 +1026,7 @@
       {
         "id": "Mário Figueira Fernandes",
         "short": "Fernandes",
-        "x": 52.59,
+        "x": 67.41,
         "y": 73.55,
         "size": 121.7,
         "is_playmaker": true,
@@ -1003,7 +1036,7 @@
       {
         "id": "Artem Dzyuba",
         "short": "Dzyuba",
-        "x": 31.68,
+        "x": 88.32,
         "y": 47.7,
         "size": 94.3,
         "is_playmaker": false,
@@ -1013,7 +1046,7 @@
       {
         "id": "Roman Zobnin",
         "short": "Zobnin",
-        "x": 43.36,
+        "x": 76.64,
         "y": 60.92,
         "size": 77.2,
         "is_playmaker": false,
@@ -1023,7 +1056,7 @@
       {
         "id": "Andrey Semenov",
         "short": "Semenov",
-        "x": 78.4,
+        "x": 41.6,
         "y": 56.64,
         "size": 138.8,
         "is_playmaker": true,
@@ -1033,7 +1066,7 @@
       {
         "id": "Anton Shunin",
         "short": "Shunin",
-        "x": 106.77,
+        "x": 13.23,
         "y": 37.22,
         "size": 78.9,
         "is_playmaker": false,
@@ -1043,7 +1076,7 @@
       {
         "id": "Yuri Zhirkov",
         "short": "Zhirkov",
-        "x": 69.57,
+        "x": 50.43,
         "y": 11.26,
         "size": 87.5,
         "is_playmaker": false,
@@ -1053,7 +1086,7 @@
       {
         "id": "Daler Kuzyaev",
         "short": "Kuzyaev",
-        "x": 45.24,
+        "x": 74.76,
         "y": 10.99,
         "size": 63.5,
         "is_playmaker": false,
@@ -1063,7 +1096,7 @@
       {
         "id": "Magomed Ozdoev",
         "short": "Ozdoev",
-        "x": 73.75,
+        "x": 46.25,
         "y": 38.3,
         "size": 77.2,
         "is_playmaker": false,
@@ -1073,7 +1106,7 @@
       {
         "id": "Dmitriy Barinov",
         "short": "Barinov",
-        "x": 74.89,
+        "x": 45.11,
         "y": 52.84,
         "size": 61.8,
         "is_playmaker": false,
@@ -1086,115 +1119,115 @@
         "source": "Aleksandr Golovin",
         "target": "Georgiy Dzhikiya",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Georgiy Dzhikiya",
         "target": "Andrey Semenov",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Georgiy Dzhikiya",
         "target": "Yuri Zhirkov",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mário Figueira Fernandes",
         "target": "Artem Dzyuba",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mário Figueira Fernandes",
         "target": "Andrey Semenov",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mário Figueira Fernandes",
         "target": "Dmitriy Barinov",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mário Figueira Fernandes",
         "target": "Magomed Ozdoev",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Artem Dzyuba",
         "target": "Roman Zobnin",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Artem Dzyuba",
         "target": "Aleksandr Golovin",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roman Zobnin",
         "target": "Mário Figueira Fernandes",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrey Semenov",
         "target": "Anton Shunin",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrey Semenov",
         "target": "Georgiy Dzhikiya",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrey Semenov",
         "target": "Mário Figueira Fernandes",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrey Semenov",
         "target": "Roman Zobnin",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anton Shunin",
         "target": "Artem Dzyuba",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yuri Zhirkov",
         "target": "Daler Kuzyaev",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yuri Zhirkov",
         "target": "Georgiy Dzhikiya",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Magomed Ozdoev",
         "target": "Yuri Zhirkov",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Magomed Ozdoev",
         "target": "Mário Figueira Fernandes",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#65b32e",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.428,
     "xg_away": 1.516,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Pierre-Michel Lasogga",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.1,
@@ -513,7 +520,9 @@
       "player_full": "Aaron Hunt",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -525,7 +534,9 @@
       "player_full": "Michael Gregoritsch",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 78.8,
@@ -537,7 +548,9 @@
       "player_full": "Maximilian Arnold",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -549,7 +562,9 @@
       "player_full": "Max Kruse",
       "minute": 28,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 80.6,
@@ -561,7 +576,9 @@
       "player_full": "Ronaldo Aparecido Rodrigues",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.2,
@@ -573,7 +590,9 @@
       "player_full": "Ronaldo Aparecido Rodrigues",
       "minute": 57,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -585,7 +604,9 @@
       "player_full": "Maximilian Arnold",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -597,7 +618,9 @@
       "player_full": "Ivica Olić",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -609,7 +632,9 @@
       "player_full": "André Schürrle",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -621,7 +646,9 @@
       "player_full": "André Schürrle",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -633,7 +660,9 @@
       "player_full": "Daniel Caligiuri",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.5,
@@ -645,7 +674,9 @@
       "player_full": "Ronaldo Aparecido Rodrigues",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.2,
@@ -657,7 +688,9 @@
       "player_full": "Luiz Gustavo Dias",
       "minute": 72,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -669,7 +702,9 @@
       "player_full": "Ivo Iličević",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -681,7 +716,9 @@
       "player_full": "Dante Bonfim da Costa Santos",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.4,
@@ -693,7 +730,9 @@
       "player_full": "André Schürrle",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -985,7 +1024,7 @@
       {
         "id": "Max Kruse",
         "short": "Kruse",
-        "x": 43.29,
+        "x": 76.71,
         "y": 38.99,
         "size": 78.1,
         "is_playmaker": false,
@@ -995,7 +1034,7 @@
       {
         "id": "Maximilian Arnold",
         "short": "Arnold",
-        "x": 53.65,
+        "x": 66.35,
         "y": 37.0,
         "size": 95.8,
         "is_playmaker": false,
@@ -1005,7 +1044,7 @@
       {
         "id": "Ronaldo Aparecido Rodrigues",
         "short": "Rodrigues",
-        "x": 81.14,
+        "x": 38.86,
         "y": 54.98,
         "size": 109.4,
         "is_playmaker": true,
@@ -1015,7 +1054,7 @@
       {
         "id": "Dante Bonfim da Costa Santos",
         "short": "Santos",
-        "x": 86.44,
+        "x": 33.56,
         "y": 23.42,
         "size": 144.8,
         "is_playmaker": true,
@@ -1025,7 +1064,7 @@
       {
         "id": "Adelino André Vieira Freitas",
         "short": "Freitas",
-        "x": 55.8,
+        "x": 64.2,
         "y": 57.79,
         "size": 109.4,
         "is_playmaker": false,
@@ -1035,7 +1074,7 @@
       {
         "id": "Marcel Schäfer",
         "short": "Schäfer",
-        "x": 60.78,
+        "x": 59.22,
         "y": 8.67,
         "size": 90.4,
         "is_playmaker": false,
@@ -1045,7 +1084,7 @@
       {
         "id": "Koen Casteels",
         "short": "Casteels",
-        "x": 109.29,
+        "x": 10.71,
         "y": 41.18,
         "size": 76.8,
         "is_playmaker": false,
@@ -1055,7 +1094,7 @@
       {
         "id": "Paul Seguin",
         "short": "Seguin",
-        "x": 58.63,
+        "x": 61.37,
         "y": 56.76,
         "size": 84.9,
         "is_playmaker": false,
@@ -1065,7 +1104,7 @@
       {
         "id": "Christian Träsch",
         "short": "Träsch",
-        "x": 56.05,
+        "x": 63.95,
         "y": 72.77,
         "size": 79.5,
         "is_playmaker": false,
@@ -1075,7 +1114,7 @@
       {
         "id": "Luiz Gustavo Dias",
         "short": "Dias",
-        "x": 70.85,
+        "x": 49.15,
         "y": 29.41,
         "size": 72.7,
         "is_playmaker": false,
@@ -1085,7 +1124,7 @@
       {
         "id": "André Schürrle",
         "short": "Schürrle",
-        "x": 48.75,
+        "x": 71.25,
         "y": 33.57,
         "size": 63.2,
         "is_playmaker": false,
@@ -1098,67 +1137,67 @@
         "source": "Max Kruse",
         "target": "Maximilian Arnold",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maximilian Arnold",
         "target": "Marcel Schäfer",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maximilian Arnold",
         "target": "André Schürrle",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maximilian Arnold",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronaldo Aparecido Rodrigues",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronaldo Aparecido Rodrigues",
         "target": "Adelino André Vieira Freitas",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ronaldo Aparecido Rodrigues",
         "target": "Paul Seguin",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dante Bonfim da Costa Santos",
         "target": "Ronaldo Aparecido Rodrigues",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dante Bonfim da Costa Santos",
         "target": "Marcel Schäfer",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dante Bonfim da Costa Santos",
         "target": "Luiz Gustavo Dias",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dante Bonfim da Costa Santos",
         "target": "Maximilian Arnold",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adelino André Vieira Freitas",
@@ -1170,43 +1209,43 @@
         "source": "Adelino André Vieira Freitas",
         "target": "Ronaldo Aparecido Rodrigues",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adelino André Vieira Freitas",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcel Schäfer",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcel Schäfer",
         "target": "Max Kruse",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Koen Casteels",
         "target": "Ronaldo Aparecido Rodrigues",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Koen Casteels",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Koen Casteels",
         "target": "Adelino André Vieira Freitas",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Paul Seguin",
@@ -1224,7 +1263,7 @@
         "source": "Paul Seguin",
         "target": "Max Kruse",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christian Träsch",
@@ -1236,7 +1275,7 @@
         "source": "Luiz Gustavo Dias",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#cc0000",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.363,
     "xg_away": 0.85,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Noussair Mazraoui",
       "minute": 6,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -513,7 +520,9 @@
       "player_full": "Hakim Ziyech",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.9,
@@ -525,7 +534,9 @@
       "player_full": "Ivan Perišić",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.7,
@@ -537,7 +548,9 @@
       "player_full": "Sofiane Boufal",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.5,
@@ -549,7 +562,9 @@
       "player_full": "Hakim Ziyech",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.8,
@@ -561,7 +576,9 @@
       "player_full": "Youssef En-Nesyri",
       "minute": 24,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -573,7 +590,9 @@
       "player_full": "Nikola Vlašić",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -585,7 +604,9 @@
       "player_full": "Nikola Vlašić",
       "minute": 46,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.8,
@@ -597,7 +618,9 @@
       "player_full": "Luka Modrić",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -609,7 +632,9 @@
       "player_full": "Sofiane Boufal",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.3,
@@ -621,7 +646,9 @@
       "player_full": "Noussair Mazraoui",
       "minute": 50,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -633,7 +660,9 @@
       "player_full": "Dejan Lovren",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.5,
@@ -645,7 +674,9 @@
       "player_full": "Achraf Hakimi Mouh",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +968,7 @@
       {
         "id": "Dejan Lovren",
         "short": "Lovren",
-        "x": 75.89,
+        "x": 44.11,
         "y": 52.07,
         "size": 124.6,
         "is_playmaker": false,
@@ -947,7 +978,7 @@
       {
         "id": "Joško Gvardiol",
         "short": "Gvardiol",
-        "x": 77.68,
+        "x": 42.32,
         "y": 22.46,
         "size": 155.0,
         "is_playmaker": false,
@@ -957,7 +988,7 @@
       {
         "id": "Marcelo Brozović",
         "short": "Brozović",
-        "x": 64.67,
+        "x": 55.33,
         "y": 36.77,
         "size": 119.3,
         "is_playmaker": false,
@@ -967,7 +998,7 @@
       {
         "id": "Luka Modrić",
         "short": "Modrić",
-        "x": 62.1,
+        "x": 57.9,
         "y": 48.84,
         "size": 117.0,
         "is_playmaker": true,
@@ -977,7 +1008,7 @@
       {
         "id": "Borna Sosa",
         "short": "Sosa",
-        "x": 61.29,
+        "x": 58.71,
         "y": 8.25,
         "size": 81.9,
         "is_playmaker": false,
@@ -987,7 +1018,7 @@
       {
         "id": "Josip Juranović",
         "short": "Juranović",
-        "x": 62.71,
+        "x": 57.29,
         "y": 70.9,
         "size": 90.1,
         "is_playmaker": false,
@@ -997,7 +1028,7 @@
       {
         "id": "Mateo Kovačić",
         "short": "Kovačić",
-        "x": 60.07,
+        "x": 59.93,
         "y": 25.12,
         "size": 84.8,
         "is_playmaker": false,
@@ -1007,7 +1038,7 @@
       {
         "id": "Dominik Livaković",
         "short": "Livaković",
-        "x": 108.37,
+        "x": 11.63,
         "y": 41.49,
         "size": 60.3,
         "is_playmaker": false,
@@ -1015,9 +1046,19 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Nikola Vlašić",
+        "short": "Vlašić",
+        "x": 67.93,
+        "y": 62.83,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.3167,
+        "eigenvector": 0.0037
+      },
+      {
         "id": "Andrej Kramarić",
         "short": "Kramarić",
-        "x": 43.4,
+        "x": 76.6,
         "y": 48.73,
         "size": 57.3,
         "is_playmaker": true,
@@ -1027,22 +1068,12 @@
       {
         "id": "Ivan Perišić",
         "short": "Perišić",
-        "x": 40.33,
+        "x": 79.67,
         "y": 10.4,
         "size": 57.3,
         "is_playmaker": false,
         "betweenness": 0.2222,
         "eigenvector": 0.0089
-      },
-      {
-        "id": "Nikola Vlašić",
-        "short": "Vlašić",
-        "x": 52.07,
-        "y": 62.83,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.3167,
-        "eigenvector": 0.0037
       }
     ],
     "edges": [
@@ -1056,19 +1087,19 @@
         "source": "Dejan Lovren",
         "target": "Marcelo Brozović",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dejan Lovren",
         "target": "Luka Modrić",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dejan Lovren",
         "target": "Josip Juranović",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joško Gvardiol",
@@ -1080,25 +1111,25 @@
         "source": "Joško Gvardiol",
         "target": "Borna Sosa",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joško Gvardiol",
         "target": "Marcelo Brozović",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joško Gvardiol",
         "target": "Mateo Kovačić",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joško Gvardiol",
         "target": "Luka Modrić",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcelo Brozović",
@@ -1110,13 +1141,13 @@
         "source": "Marcelo Brozović",
         "target": "Joško Gvardiol",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcelo Brozović",
         "target": "Mateo Kovačić",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcelo Brozović",
@@ -1140,19 +1171,19 @@
         "source": "Luka Modrić",
         "target": "Joško Gvardiol",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luka Modrić",
         "target": "Andrej Kramarić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Borna Sosa",
         "target": "Joško Gvardiol",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Borna Sosa",
@@ -1164,13 +1195,13 @@
         "source": "Borna Sosa",
         "target": "Ivan Perišić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Josip Juranović",
         "target": "Dejan Lovren",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Josip Juranović",
@@ -1188,13 +1219,13 @@
         "source": "Josip Juranović",
         "target": "Nikola Vlašić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mateo Kovačić",
         "target": "Joško Gvardiol",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mateo Kovačić",
@@ -1206,49 +1237,49 @@
         "source": "Mateo Kovačić",
         "target": "Ivan Perišić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dominik Livaković",
         "target": "Joško Gvardiol",
         "weight": 9,
-        "direction": "backward"
-      },
-      {
-        "source": "Andrej Kramarić",
-        "target": "Nikola Vlašić",
-        "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Andrej Kramarić",
-        "target": "Luka Modrić",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ivan Perišić",
-        "target": "Borna Sosa",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ivan Perišić",
-        "target": "Mateo Kovačić",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Nikola Vlašić",
-        "target": "Andrej Kramarić",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Nikola Vlašić",
         "target": "Josip Juranović",
         "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Nikola Vlašić",
+        "target": "Andrej Kramarić",
+        "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Andrej Kramarić",
+        "target": "Nikola Vlašić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrej Kramarić",
+        "target": "Luka Modrić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ivan Perišić",
+        "target": "Borna Sosa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ivan Perišić",
+        "target": "Mateo Kovačić",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

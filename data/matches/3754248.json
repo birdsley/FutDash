@@ -9,6 +9,11 @@
     "away_color": "#1b458f",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.83,
     "xg_away": 0.563,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Scott Dann",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -513,7 +520,9 @@
       "player_full": "Damien Delaney",
       "minute": 8,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -525,7 +534,9 @@
       "player_full": "Harry Arter",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -537,7 +548,9 @@
       "player_full": "Fraizer Campbell",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -549,7 +562,9 @@
       "player_full": "Glenn Murray",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.2,
@@ -561,7 +576,9 @@
       "player_full": "Dan Gosling",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.5,
@@ -573,7 +590,9 @@
       "player_full": "Andrew Surman",
       "minute": 33,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.3,
@@ -585,7 +604,9 @@
       "player_full": "Junior Stanislas",
       "minute": 39,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -597,7 +618,9 @@
       "player_full": "Jordon Mutch",
       "minute": 44,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.2,
@@ -609,7 +632,9 @@
       "player_full": "Eunan O''Kane",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.6,
@@ -621,7 +646,9 @@
       "player_full": "Glenn Murray",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.2,
@@ -633,7 +660,9 @@
       "player_full": "Scott Dann",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.3,
@@ -645,7 +674,9 @@
       "player_full": "Scott Dann",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.6,
@@ -657,7 +688,9 @@
       "player_full": "Dan Gosling",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.1,
@@ -669,7 +702,9 @@
       "player_full": "Junior Stanislas",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -681,7 +716,9 @@
       "player_full": "James McArthur",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -693,7 +730,9 @@
       "player_full": "Tokelo Anthony Rantie",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Joel Ward",
         "short": "Ward",
-        "x": 57.9,
+        "x": 62.1,
         "y": 67.97,
         "size": 97.3,
         "is_playmaker": false,
@@ -971,7 +1010,7 @@
       {
         "id": "Joe Ledley",
         "short": "Ledley",
-        "x": 56.96,
+        "x": 63.04,
         "y": 42.69,
         "size": 89.6,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Damien Delaney",
         "short": "Delaney",
-        "x": 78.55,
+        "x": 41.45,
         "y": 28.77,
         "size": 114.6,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Pape N''Diaye Souaré",
         "short": "Souaré",
-        "x": 57.95,
+        "x": 62.05,
         "y": 10.35,
         "size": 126.2,
         "is_playmaker": false,
@@ -1001,7 +1040,7 @@
       {
         "id": "Scott Dann",
         "short": "Dann",
-        "x": 71.95,
+        "x": 48.05,
         "y": 57.82,
         "size": 105.0,
         "is_playmaker": false,
@@ -1011,7 +1050,7 @@
       {
         "id": "James McArthur",
         "short": "McArthur",
-        "x": 63.11,
+        "x": 56.89,
         "y": 32.6,
         "size": 103.1,
         "is_playmaker": true,
@@ -1021,7 +1060,7 @@
       {
         "id": "Wilfried Zaha",
         "short": "Zaha",
-        "x": 54.48,
+        "x": 65.52,
         "y": 50.57,
         "size": 64.6,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Jason Puncheon",
         "short": "Puncheon",
-        "x": 49.09,
+        "x": 70.91,
         "y": 29.67,
         "size": 110.8,
         "is_playmaker": true,
@@ -1041,7 +1080,7 @@
       {
         "id": "Wayne Hennessey",
         "short": "Hennessey",
-        "x": 109.47,
+        "x": 10.53,
         "y": 44.43,
         "size": 64.6,
         "is_playmaker": false,
@@ -1051,7 +1090,7 @@
       {
         "id": "Fraizer Campbell",
         "short": "Campbell",
-        "x": 54.54,
+        "x": 65.46,
         "y": 32.95,
         "size": 66.5,
         "is_playmaker": false,
@@ -1061,7 +1100,7 @@
       {
         "id": "Jordon Mutch",
         "short": "Mutch",
-        "x": 44.78,
+        "x": 75.22,
         "y": 39.66,
         "size": 62.7,
         "is_playmaker": false,
@@ -1086,133 +1125,133 @@
         "source": "Joel Ward",
         "target": "James McArthur",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joe Ledley",
         "target": "Jason Puncheon",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Damien Delaney",
         "target": "Pape N''Diaye Souaré",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Damien Delaney",
         "target": "Scott Dann",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pape N''Diaye Souaré",
         "target": "Damien Delaney",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pape N''Diaye Souaré",
         "target": "Jason Puncheon",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Scott Dann",
         "target": "Wayne Hennessey",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Scott Dann",
         "target": "Joe Ledley",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Scott Dann",
         "target": "Damien Delaney",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "James McArthur",
         "target": "Pape N''Diaye Souaré",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "James McArthur",
         "target": "Damien Delaney",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "James McArthur",
         "target": "Scott Dann",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "James McArthur",
         "target": "Fraizer Campbell",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jason Puncheon",
         "target": "Joel Ward",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jason Puncheon",
         "target": "Pape N''Diaye Souaré",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jason Puncheon",
         "target": "Fraizer Campbell",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jason Puncheon",
         "target": "Jordon Mutch",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fraizer Campbell",
         "target": "Jason Puncheon",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fraizer Campbell",
         "target": "James McArthur",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fraizer Campbell",
         "target": "Jordon Mutch",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordon Mutch",
         "target": "Jason Puncheon",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordon Mutch",
         "target": "Fraizer Campbell",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

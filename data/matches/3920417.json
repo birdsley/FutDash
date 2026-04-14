@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.656,
     "xg_away": 0.681,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Yves Bissouma",
       "minute": 0,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -513,7 +520,9 @@
       "player_full": "Prins Menelik Tjiueza",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -525,7 +534,9 @@
       "player_full": "Fousseni Diabaté",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -537,7 +548,9 @@
       "player_full": "Lassine Sinayoko",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -549,7 +562,9 @@
       "player_full": "Kennedy Amutenya",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.3,
@@ -561,7 +576,9 @@
       "player_full": "Ngero Kaanjuka Katua",
       "minute": 43,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -573,7 +590,9 @@
       "player_full": "Kennedy Amutenya",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.4,
@@ -585,7 +604,9 @@
       "player_full": "Ngero Kaanjuka Katua",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.8,
@@ -597,7 +618,9 @@
       "player_full": "Ibrahim Sissoko",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.8,
@@ -609,7 +632,9 @@
       "player_full": "Yves Bissouma",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.9,
@@ -621,7 +646,9 @@
       "player_full": "Nene Dorgeles",
       "minute": 74,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -633,7 +660,9 @@
       "player_full": "Hamari Traoré",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.5,
@@ -645,7 +674,9 @@
       "player_full": "Amadou Dante",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.3,
@@ -657,7 +688,9 @@
       "player_full": "Yves Bissouma",
       "minute": 84,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.6,
@@ -669,7 +702,9 @@
       "player_full": "Mohamed Camara",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -681,7 +716,9 @@
       "player_full": "Adama Traoré",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -777,24 +814,24 @@
         "eigenvector": 0.0402
       },
       {
-        "id": "Aprocious Petrus",
-        "short": "Petrus",
-        "x": 72.26,
-        "y": 45.85,
-        "size": 69.8,
-        "is_playmaker": true,
-        "betweenness": 0.1444,
-        "eigenvector": 0.2711
-      },
-      {
         "id": "Prins Menelik Tjiueza",
         "short": "Tjiueza",
         "x": 76.16,
         "y": 56.29,
         "size": 69.8,
-        "is_playmaker": false,
+        "is_playmaker": true,
         "betweenness": 0.1444,
         "eigenvector": 0.1728
+      },
+      {
+        "id": "Aprocious Petrus",
+        "short": "Petrus",
+        "x": 72.26,
+        "y": 45.85,
+        "size": 69.8,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.2711
       }
     ],
     "edges": [
@@ -812,15 +849,15 @@
       },
       {
         "source": "Peter Shalulile",
-        "target": "Aprocious Petrus",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Peter Shalulile",
         "target": "Prins Menelik Tjiueza",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Peter Shalulile",
+        "target": "Aprocious Petrus",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Riaan Hanamub",
@@ -877,18 +914,6 @@
         "direction": "backward"
       },
       {
-        "source": "Aprocious Petrus",
-        "target": "Peter Shalulile",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Aprocious Petrus",
-        "target": "Ngero Kaanjuka Katua",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Prins Menelik Tjiueza",
         "target": "Bethuel Muzeu",
         "weight": 1,
@@ -899,6 +924,18 @@
         "target": "Peter Shalulile",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Aprocious Petrus",
+        "target": "Peter Shalulile",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Aprocious Petrus",
+        "target": "Ngero Kaanjuka Katua",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -907,7 +944,7 @@
       {
         "id": "Sikou Niakate",
         "short": "Niakate",
-        "x": 82.61,
+        "x": 37.39,
         "y": 23.41,
         "size": 116.5,
         "is_playmaker": false,
@@ -917,7 +954,7 @@
       {
         "id": "Boubakar Kouyate",
         "short": "Kouyate",
-        "x": 78.54,
+        "x": 41.46,
         "y": 57.13,
         "size": 127.1,
         "is_playmaker": false,
@@ -927,7 +964,7 @@
       {
         "id": "Hamari Traoré",
         "short": "Traoré",
-        "x": 69.18,
+        "x": 50.82,
         "y": 72.5,
         "size": 127.1,
         "is_playmaker": false,
@@ -937,7 +974,7 @@
       {
         "id": "Aliou Dieng",
         "short": "Dieng",
-        "x": 70.39,
+        "x": 49.61,
         "y": 52.24,
         "size": 105.0,
         "is_playmaker": true,
@@ -947,7 +984,7 @@
       {
         "id": "Moussa Diarra",
         "short": "Diarra",
-        "x": 66.91,
+        "x": 53.09,
         "y": 8.16,
         "size": 107.9,
         "is_playmaker": false,
@@ -957,7 +994,7 @@
       {
         "id": "Yves Bissouma",
         "short": "Bissouma",
-        "x": 65.44,
+        "x": 54.56,
         "y": 29.97,
         "size": 93.5,
         "is_playmaker": false,
@@ -967,7 +1004,7 @@
       {
         "id": "Fousseni Diabaté",
         "short": "Diabaté",
-        "x": 49.91,
+        "x": 70.09,
         "y": 58.74,
         "size": 82.9,
         "is_playmaker": true,
@@ -977,7 +1014,7 @@
       {
         "id": "Nene Dorgeles",
         "short": "Dorgeles",
-        "x": 64.57,
+        "x": 55.43,
         "y": 9.88,
         "size": 66.5,
         "is_playmaker": false,
@@ -987,7 +1024,7 @@
       {
         "id": "Djigui Diarra",
         "short": "Diarra",
-        "x": 107.91,
+        "x": 12.09,
         "y": 41.51,
         "size": 60.8,
         "is_playmaker": false,
@@ -997,7 +1034,7 @@
       {
         "id": "Youssoufou Niakaté",
         "short": "Niakaté",
-        "x": 46.76,
+        "x": 73.24,
         "y": 43.77,
         "size": 58.8,
         "is_playmaker": false,
@@ -1007,7 +1044,7 @@
       {
         "id": "Lassine Sinayoko",
         "short": "Sinayoko",
-        "x": 34.96,
+        "x": 85.04,
         "y": 38.54,
         "size": 58.8,
         "is_playmaker": false,
@@ -1020,49 +1057,49 @@
         "source": "Sikou Niakate",
         "target": "Boubakar Kouyate",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sikou Niakate",
         "target": "Moussa Diarra",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sikou Niakate",
         "target": "Nene Dorgeles",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Boubakar Kouyate",
         "target": "Hamari Traoré",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Boubakar Kouyate",
         "target": "Sikou Niakate",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Boubakar Kouyate",
         "target": "Yves Bissouma",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Boubakar Kouyate",
         "target": "Fousseni Diabaté",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hamari Traoré",
         "target": "Boubakar Kouyate",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hamari Traoré",
@@ -1074,7 +1111,7 @@
         "source": "Hamari Traoré",
         "target": "Fousseni Diabaté",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aliou Dieng",
@@ -1086,7 +1123,7 @@
         "source": "Aliou Dieng",
         "target": "Boubakar Kouyate",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aliou Dieng",
@@ -1098,7 +1135,7 @@
         "source": "Moussa Diarra",
         "target": "Sikou Niakate",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Moussa Diarra",
@@ -1128,13 +1165,13 @@
         "source": "Yves Bissouma",
         "target": "Sikou Niakate",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yves Bissouma",
         "target": "Aliou Dieng",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yves Bissouma",
@@ -1146,13 +1183,13 @@
         "source": "Fousseni Diabaté",
         "target": "Hamari Traoré",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fousseni Diabaté",
         "target": "Aliou Dieng",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fousseni Diabaté",
@@ -1164,19 +1201,19 @@
         "source": "Fousseni Diabaté",
         "target": "Lassine Sinayoko",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Djigui Diarra",
         "target": "Sikou Niakate",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Youssoufou Niakaté",
         "target": "Lassine Sinayoko",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Youssoufou Niakaté",
@@ -1188,13 +1225,13 @@
         "source": "Lassine Sinayoko",
         "target": "Youssoufou Niakaté",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lassine Sinayoko",
         "target": "Fousseni Diabaté",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

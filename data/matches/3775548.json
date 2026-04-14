@@ -9,6 +9,11 @@
     "away_color": "#ef0107",
     "score_home": 3,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.253,
     "xg_away": 0.404,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Pernille Mosegaard Harder",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -513,7 +520,9 @@
       "player_full": "Francesca Kirby",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.8,
@@ -525,7 +534,9 @@
       "player_full": "Melanie Leupolz",
       "minute": 16,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -537,7 +548,9 @@
       "player_full": "Vivianne Miedema",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.3,
@@ -549,7 +562,9 @@
       "player_full": "Katie McCabe",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.3,
@@ -561,7 +576,9 @@
       "player_full": "Francesca Kirby",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.2,
@@ -573,7 +590,9 @@
       "player_full": "Francesca Kirby",
       "minute": 32,
       "technique": "Backheel",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.3,
@@ -585,7 +604,9 @@
       "player_full": "Francesca Kirby",
       "minute": 37,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -597,7 +618,9 @@
       "player_full": "Lisa Evans",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.2,
@@ -609,7 +632,9 @@
       "player_full": "Pernille Mosegaard Harder",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -621,7 +646,9 @@
       "player_full": "Samantha May Kerr",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -633,7 +660,9 @@
       "player_full": "Pernille Mosegaard Harder",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 75.0,
@@ -645,7 +674,9 @@
       "player_full": "Leah Williamson",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -657,7 +688,9 @@
       "player_full": "Bethany Mead",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -669,7 +702,9 @@
       "player_full": "Bethany Mead",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.6,
@@ -681,7 +716,9 @@
       "player_full": "Katie McCabe",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -693,7 +730,9 @@
       "player_full": "Francesca Kirby",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -985,7 +1024,7 @@
       {
         "id": "Lydia Grace Yilkari Williams",
         "short": "Williams",
-        "x": 105.47,
+        "x": 14.53,
         "y": 39.6,
         "size": 102.7,
         "is_playmaker": false,
@@ -995,7 +1034,7 @@
       {
         "id": "Carlotte Wubben-Moy",
         "short": "Wubben-Moy",
-        "x": 84.62,
+        "x": 35.38,
         "y": 22.2,
         "size": 125.5,
         "is_playmaker": false,
@@ -1005,7 +1044,7 @@
       {
         "id": "Katie McCabe",
         "short": "McCabe",
-        "x": 59.97,
+        "x": 60.03,
         "y": 9.06,
         "size": 115.6,
         "is_playmaker": true,
@@ -1015,7 +1054,7 @@
       {
         "id": "Lia Wälti",
         "short": "Wälti",
-        "x": 69.04,
+        "x": 50.96,
         "y": 36.17,
         "size": 98.2,
         "is_playmaker": false,
@@ -1025,7 +1064,7 @@
       {
         "id": "Noelle Maritz",
         "short": "Maritz",
-        "x": 58.42,
+        "x": 61.58,
         "y": 71.53,
         "size": 105.0,
         "is_playmaker": false,
@@ -1035,7 +1074,7 @@
       {
         "id": "Leah Williamson",
         "short": "Williamson",
-        "x": 79.95,
+        "x": 40.05,
         "y": 53.42,
         "size": 113.3,
         "is_playmaker": false,
@@ -1045,7 +1084,7 @@
       {
         "id": "Jill Roord",
         "short": "Roord",
-        "x": 50.85,
+        "x": 69.15,
         "y": 40.24,
         "size": 92.1,
         "is_playmaker": true,
@@ -1055,7 +1094,7 @@
       {
         "id": "Lisa Evans",
         "short": "Evans",
-        "x": 46.07,
+        "x": 73.93,
         "y": 59.56,
         "size": 66.4,
         "is_playmaker": false,
@@ -1065,7 +1104,7 @@
       {
         "id": "Vivianne Miedema",
         "short": "Miedema",
-        "x": 48.48,
+        "x": 71.52,
         "y": 37.29,
         "size": 67.9,
         "is_playmaker": false,
@@ -1075,7 +1114,7 @@
       {
         "id": "Danielle van de Donk",
         "short": "Donk",
-        "x": 52.26,
+        "x": 67.74,
         "y": 48.74,
         "size": 60.3,
         "is_playmaker": false,
@@ -1085,7 +1124,7 @@
       {
         "id": "Bethany Mead",
         "short": "Mead",
-        "x": 40.57,
+        "x": 79.43,
         "y": 36.07,
         "size": 58.0,
         "is_playmaker": false,
@@ -1098,121 +1137,121 @@
         "source": "Lydia Grace Yilkari Williams",
         "target": "Carlotte Wubben-Moy",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lydia Grace Yilkari Williams",
         "target": "Leah Williamson",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lydia Grace Yilkari Williams",
         "target": "Katie McCabe",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlotte Wubben-Moy",
         "target": "Katie McCabe",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlotte Wubben-Moy",
         "target": "Lia Wälti",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlotte Wubben-Moy",
         "target": "Lydia Grace Yilkari Williams",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Katie McCabe",
         "target": "Carlotte Wubben-Moy",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Katie McCabe",
         "target": "Vivianne Miedema",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katie McCabe",
         "target": "Jill Roord",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lia Wälti",
         "target": "Carlotte Wubben-Moy",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lia Wälti",
         "target": "Leah Williamson",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lia Wälti",
         "target": "Katie McCabe",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Noelle Maritz",
         "target": "Leah Williamson",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Noelle Maritz",
         "target": "Jill Roord",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Noelle Maritz",
         "target": "Lisa Evans",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Noelle Maritz",
         "target": "Lia Wälti",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Leah Williamson",
         "target": "Lydia Grace Yilkari Williams",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Leah Williamson",
         "target": "Noelle Maritz",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Leah Williamson",
         "target": "Katie McCabe",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jill Roord",
         "target": "Noelle Maritz",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jill Roord",
@@ -1224,43 +1263,43 @@
         "source": "Jill Roord",
         "target": "Katie McCabe",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jill Roord",
         "target": "Bethany Mead",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lisa Evans",
         "target": "Jill Roord",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vivianne Miedema",
         "target": "Bethany Mead",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danielle van de Donk",
         "target": "Leah Williamson",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bethany Mead",
         "target": "Vivianne Miedema",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bethany Mead",
         "target": "Jill Roord",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

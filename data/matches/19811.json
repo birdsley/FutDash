@@ -9,6 +9,11 @@
     "away_color": "#274488",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.406,
     "xg_away": 0.174,
     "shots_home": 11,
@@ -501,7 +506,9 @@
       "player_full": "Louise Quinn",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.7,
@@ -513,7 +520,9 @@
       "player_full": "Katie McCabe",
       "minute": 10,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.1,
@@ -525,7 +534,9 @@
       "player_full": "Kim Little",
       "minute": 13,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -537,7 +548,9 @@
       "player_full": "Vivianne Miedema",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -549,7 +562,9 @@
       "player_full": "Chantelle Boye-Hlorkah",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -561,7 +576,9 @@
       "player_full": "Vivianne Miedema",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -573,7 +590,9 @@
       "player_full": "Katrine Veje",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.4,
@@ -585,7 +604,9 @@
       "player_full": "Leah Williamson",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -597,7 +618,9 @@
       "player_full": "Chantelle Boye-Hlorkah",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -609,7 +632,9 @@
       "player_full": "Katie McCabe",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -621,7 +646,9 @@
       "player_full": "Elise Hughes",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.3,
@@ -633,7 +660,9 @@
       "player_full": "Dominique Johanna Anna Petrone Janssen",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -645,7 +674,9 @@
       "player_full": "Vivianne Miedema",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -657,7 +688,9 @@
       "player_full": "Danielle van de Donk",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +958,7 @@
       {
         "id": "Megan Finnigan",
         "short": "Finnigan",
-        "x": 82.57,
+        "x": 37.43,
         "y": 57.69,
         "size": 128.8,
         "is_playmaker": true,
@@ -935,7 +968,7 @@
       {
         "id": "Siri Worm",
         "short": "Worm",
-        "x": 84.34,
+        "x": 35.66,
         "y": 24.57,
         "size": 124.5,
         "is_playmaker": false,
@@ -945,7 +978,7 @@
       {
         "id": "Kirstie Levell",
         "short": "Levell",
-        "x": 107.48,
+        "x": 12.52,
         "y": 42.04,
         "size": 87.6,
         "is_playmaker": false,
@@ -955,7 +988,7 @@
       {
         "id": "Abbey-Leigh Stringer",
         "short": "Stringer",
-        "x": 65.12,
+        "x": 54.88,
         "y": 48.53,
         "size": 100.4,
         "is_playmaker": false,
@@ -965,7 +998,7 @@
       {
         "id": "Angharad James",
         "short": "James",
-        "x": 69.61,
+        "x": 50.39,
         "y": 29.85,
         "size": 106.1,
         "is_playmaker": true,
@@ -975,7 +1008,7 @@
       {
         "id": "Danielle Turner",
         "short": "Turner",
-        "x": 71.79,
+        "x": 48.21,
         "y": 11.94,
         "size": 94.7,
         "is_playmaker": false,
@@ -985,7 +1018,7 @@
       {
         "id": "Taylor Hinds",
         "short": "Hinds",
-        "x": 54.89,
+        "x": 65.11,
         "y": 68.95,
         "size": 72.0,
         "is_playmaker": false,
@@ -995,7 +1028,7 @@
       {
         "id": "Simone Magill",
         "short": "Magill",
-        "x": 51.16,
+        "x": 68.84,
         "y": 42.53,
         "size": 70.6,
         "is_playmaker": false,
@@ -1005,7 +1038,7 @@
       {
         "id": "Chantelle Boye-Hlorkah",
         "short": "Boye-Hlorka",
-        "x": 51.27,
+        "x": 68.73,
         "y": 33.91,
         "size": 69.2,
         "is_playmaker": false,
@@ -1015,7 +1048,7 @@
       {
         "id": "Inessa Kaagman",
         "short": "Kaagman",
-        "x": 51.62,
+        "x": 68.38,
         "y": 35.57,
         "size": 84.8,
         "is_playmaker": false,
@@ -1025,7 +1058,7 @@
       {
         "id": "Hannah Cain",
         "short": "Cain",
-        "x": 54.2,
+        "x": 65.8,
         "y": 9.2,
         "size": 66.3,
         "is_playmaker": false,
@@ -1044,31 +1077,31 @@
         "source": "Megan Finnigan",
         "target": "Abbey-Leigh Stringer",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Megan Finnigan",
         "target": "Kirstie Levell",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Finnigan",
         "target": "Inessa Kaagman",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Siri Worm",
         "target": "Angharad James",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Siri Worm",
         "target": "Danielle Turner",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Siri Worm",
@@ -1080,73 +1113,73 @@
         "source": "Kirstie Levell",
         "target": "Siri Worm",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kirstie Levell",
         "target": "Megan Finnigan",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abbey-Leigh Stringer",
         "target": "Megan Finnigan",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Abbey-Leigh Stringer",
         "target": "Siri Worm",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Abbey-Leigh Stringer",
         "target": "Taylor Hinds",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Angharad James",
         "target": "Siri Worm",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Angharad James",
         "target": "Megan Finnigan",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Angharad James",
         "target": "Inessa Kaagman",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Angharad James",
         "target": "Hannah Cain",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danielle Turner",
         "target": "Chantelle Boye-Hlorkah",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danielle Turner",
         "target": "Simone Magill",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danielle Turner",
         "target": "Inessa Kaagman",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danielle Turner",
@@ -1158,13 +1191,13 @@
         "source": "Taylor Hinds",
         "target": "Abbey-Leigh Stringer",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Simone Magill",
         "target": "Angharad James",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Inessa Kaagman",

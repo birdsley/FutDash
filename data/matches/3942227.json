@@ -7,12 +7,17 @@
     "home_color": "#cf091d",
     "away_color_raw": "#c9d1d9",
     "away_color": "#c9d1d9",
-    "score_home": 6,
-    "score_away": 4,
-    "xg_home": 4.455,
-    "xg_away": 4.335,
-    "shots_home": 18,
-    "shots_away": 16,
+    "score_home": 1,
+    "score_away": 1,
+    "penalty_home": 5,
+    "penalty_away": 3,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 129,
+    "xg_home": 0.537,
+    "xg_away": 1.201,
+    "shots_home": 13,
+    "shots_away": 12,
     "possession_home": 50.9,
     "competition": "UEFA Euro",
     "season": "2024",
@@ -111,7 +116,44 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
     ],
     "home": [
       0.0,
@@ -205,7 +247,44 @@
       0.3608,
       0.3608,
       0.3608,
-      4.4545
+      0.3608,
+      0.3608,
+      0.3608,
+      0.3783,
+      0.3783,
+      0.3783,
+      0.3783,
+      0.3783,
+      0.3783,
+      0.4028,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537,
+      0.537
     ],
     "away": [
       0.0,
@@ -299,195 +378,306 @@
       0.9541,
       0.9825,
       0.9825,
-      4.3355
+      0.9825,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0316,
+      1.0439,
+      1.0439,
+      1.0439,
+      1.0439,
+      1.0441,
+      1.0441,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015,
+      1.2015
     ],
     "pressure_home": [
       0.0,
       0.0,
       0.0,
-      0.1602,
-      0.1602,
-      0.1602,
-      0.2039,
-      0.2039,
-      0.2039,
-      0.2039,
-      0.3301,
-      0.3447,
-      0.5097,
-      0.4126,
-      0.4126,
-      0.4757,
-      0.432,
-      0.432,
-      0.4417,
-      0.4709,
-      0.3592,
-      0.3932,
-      0.2282,
-      0.165,
-      0.165,
-      0.1019,
-      0.1068,
-      0.1553,
-      0.2282,
-      0.2573,
-      0.2427,
-      0.1942,
-      0.2233,
-      0.2233,
-      0.2233,
-      0.2379,
-      0.233,
-      0.1845,
-      0.1117,
-      0.0534,
-      0.0534,
-      0.1117,
-      0.1505,
-      0.2767,
-      0.3107,
-      0.2961,
-      0.4175,
-      0.5437,
-      0.5437,
-      0.5437,
-      0.5437,
-      0.4854,
-      0.4466,
-      0.3204,
-      0.2913,
-      0.2913,
-      0.1699,
-      0.1214,
-      0.1699,
-      0.1699,
-      0.1699,
-      0.1699,
-      0.1408,
-      0.1408,
-      0.1699,
-      0.1699,
-      0.1699,
-      0.0922,
-      0.034,
-      0.034,
-      0.1165,
-      0.1845,
-      0.2427,
-      0.2427,
-      0.2087,
-      0.233,
-      0.3301,
-      0.3301,
-      0.3398,
-      0.4757,
-      0.3932,
-      0.3835,
-      0.3786,
-      0.3786,
-      0.3786,
-      0.3835,
-      0.3495,
-      0.4078,
-      0.4029,
-      0.2961,
-      0.2961,
-      1.0
+      0.2946,
+      0.2946,
+      0.2946,
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.6071,
+      0.6339,
+      0.9375,
+      0.7589,
+      0.7589,
+      0.875,
+      0.7946,
+      0.7946,
+      0.8125,
+      0.8661,
+      0.6607,
+      0.7232,
+      0.4196,
+      0.3036,
+      0.3036,
+      0.1875,
+      0.1964,
+      0.2857,
+      0.4196,
+      0.4732,
+      0.4464,
+      0.3571,
+      0.4107,
+      0.4107,
+      0.4107,
+      0.4375,
+      0.4286,
+      0.3393,
+      0.2054,
+      0.0982,
+      0.0982,
+      0.2054,
+      0.2768,
+      0.5089,
+      0.5714,
+      0.5446,
+      0.7679,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8929,
+      0.8214,
+      0.5893,
+      0.5357,
+      0.5357,
+      0.3125,
+      0.2232,
+      0.3125,
+      0.3125,
+      0.3125,
+      0.3125,
+      0.2589,
+      0.2589,
+      0.3125,
+      0.3125,
+      0.3125,
+      0.1696,
+      0.0625,
+      0.0625,
+      0.2143,
+      0.3393,
+      0.4464,
+      0.4464,
+      0.3839,
+      0.4286,
+      0.6071,
+      0.6071,
+      0.625,
+      0.875,
+      0.7232,
+      0.7054,
+      0.6964,
+      0.6964,
+      0.6964,
+      0.7054,
+      0.6429,
+      0.75,
+      0.7411,
+      0.5446,
+      0.5446,
+      0.4375,
+      0.3571,
+      0.3839,
+      0.5446,
+      0.8036,
+      0.7232,
+      0.6161,
+      0.6071,
+      0.5536,
+      0.6518,
+      0.6875,
+      0.6696,
+      0.6429,
+      0.4821,
+      0.2143,
+      0.1786,
+      0.1786,
+      0.1786,
+      0.3482,
+      0.2679,
+      0.2857,
+      0.2857,
+      0.2857,
+      0.2857,
+      0.3571,
+      0.3571,
+      0.3571,
+      0.3571,
+      0.2321,
+      0.4464,
+      0.4018,
+      0.4018,
+      0.4107,
+      0.4107,
+      0.3036,
+      0.3036,
+      0.3125,
+      0.3125
     ],
     "pressure_away": [
-      0.0331,
-      0.1818,
-      0.1983,
-      0.2231,
-      0.3554,
-      0.3554,
-      0.4298,
-      0.6033,
-      0.6529,
-      0.6529,
-      0.6364,
-      0.4876,
-      0.5124,
-      0.4876,
-      0.405,
-      0.4298,
-      0.4298,
-      0.3802,
-      0.3388,
-      0.4215,
-      0.405,
-      0.4793,
-      0.438,
-      0.562,
-      0.5124,
-      0.4876,
-      0.4132,
-      0.3554,
-      0.405,
-      0.3223,
-      0.4298,
-      0.3554,
-      0.3554,
-      0.3884,
-      0.3884,
-      0.3967,
-      0.3967,
-      0.3719,
-      0.314,
-      0.4959,
-      0.3884,
-      0.3884,
-      0.3884,
-      0.2314,
-      0.2645,
-      0.3554,
-      0.3636,
-      0.405,
-      0.4463,
-      0.314,
-      0.3388,
-      0.3719,
-      0.5785,
-      0.5785,
-      0.5868,
-      0.4876,
-      0.4793,
-      0.4132,
-      0.4215,
-      0.3719,
-      0.3719,
-      0.3388,
-      0.1322,
-      0.1322,
-      0.124,
-      0.2727,
-      0.2727,
-      0.2562,
-      0.2066,
-      0.2066,
-      0.2149,
-      0.2149,
-      0.2149,
-      0.3223,
-      0.2893,
-      0.1405,
-      0.2066,
-      0.2066,
-      0.2066,
-      0.2066,
-      0.1736,
-      0.1736,
-      0.2727,
-      0.2314,
-      0.2314,
-      0.2314,
-      0.1653,
-      0.1983,
-      0.2397,
-      0.2975,
-      0.4628,
-      1.0
+      0.0506,
+      0.2785,
+      0.3038,
+      0.3418,
+      0.5443,
+      0.5443,
+      0.6582,
+      0.9241,
+      1.0,
+      1.0,
+      0.9747,
+      0.7468,
+      0.7848,
+      0.7468,
+      0.6203,
+      0.6582,
+      0.6582,
+      0.5823,
+      0.519,
+      0.6456,
+      0.6203,
+      0.7342,
+      0.6709,
+      0.8608,
+      0.7848,
+      0.7468,
+      0.6329,
+      0.5443,
+      0.6203,
+      0.4937,
+      0.6582,
+      0.5443,
+      0.5443,
+      0.5949,
+      0.5949,
+      0.6076,
+      0.6076,
+      0.5696,
+      0.481,
+      0.7595,
+      0.5949,
+      0.5949,
+      0.5949,
+      0.3544,
+      0.4051,
+      0.5443,
+      0.557,
+      0.6203,
+      0.6835,
+      0.481,
+      0.519,
+      0.5696,
+      0.8861,
+      0.8861,
+      0.8987,
+      0.7468,
+      0.7342,
+      0.6329,
+      0.6456,
+      0.5696,
+      0.5696,
+      0.519,
+      0.2025,
+      0.2025,
+      0.1899,
+      0.4177,
+      0.4177,
+      0.3924,
+      0.3165,
+      0.3165,
+      0.3291,
+      0.3291,
+      0.3291,
+      0.4937,
+      0.443,
+      0.2152,
+      0.3165,
+      0.3165,
+      0.3165,
+      0.3165,
+      0.2658,
+      0.2658,
+      0.4177,
+      0.3544,
+      0.3544,
+      0.3544,
+      0.2532,
+      0.3038,
+      0.3671,
+      0.4557,
+      0.7089,
+      0.7089,
+      0.6456,
+      0.5443,
+      0.5443,
+      0.5696,
+      0.5949,
+      0.5443,
+      0.481,
+      0.3924,
+      0.1392,
+      0.1772,
+      0.0886,
+      0.1139,
+      0.1646,
+      0.2405,
+      0.2911,
+      0.3038,
+      0.3038,
+      0.3544,
+      0.3544,
+      0.519,
+      0.519,
+      0.4937,
+      0.443,
+      0.3797,
+      0.3038,
+      0.2911,
+      0.3544,
+      0.3291,
+      0.3291,
+      0.1266,
+      0.1266,
+      0.1266,
+      0.1266,
+      0.0886,
+      0.0886,
+      0.0886,
+      0.0253
     ]
   },
   "shots": [
@@ -501,7 +691,9 @@
       "player_full": "Breel-Donald Embolo",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -513,7 +705,9 @@
       "player_full": "Declan Rice",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -525,7 +719,9 @@
       "player_full": "Kobbie Mainoo",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -537,7 +733,9 @@
       "player_full": "Harry Kane",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -549,7 +747,9 @@
       "player_full": "Breel-Donald Embolo",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.4,
@@ -561,7 +761,9 @@
       "player_full": "Bukayo Saka",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -573,7 +775,9 @@
       "player_full": "Kobbie Mainoo",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -585,7 +789,9 @@
       "player_full": "Bukayo Saka",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -597,7 +803,9 @@
       "player_full": "Breel-Donald Embolo",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -609,7 +817,9 @@
       "player_full": "Breel-Donald Embolo",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -621,7 +831,9 @@
       "player_full": "Michel Aebischer",
       "minute": 65,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.9,
@@ -633,7 +845,9 @@
       "player_full": "Breel-Donald Embolo",
       "minute": 74,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -645,7 +859,9 @@
       "player_full": "Bukayo Saka",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -657,7 +873,9 @@
       "player_full": "Harry Kane",
       "minute": 82,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -669,7 +887,9 @@
       "player_full": "Eberechi Eze",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.2,
@@ -681,7 +901,9 @@
       "player_full": "Dan Ndoye",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -693,7 +915,9 @@
       "player_full": "Steven Zuber",
       "minute": 92,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.6,
@@ -705,7 +929,9 @@
       "player_full": "Declan Rice",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.5,
@@ -717,7 +943,9 @@
       "player_full": "Phil Foden",
       "minute": 100,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -729,7 +957,9 @@
       "player_full": "Jude Bellingham",
       "minute": 101,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.8,
@@ -741,7 +971,9 @@
       "player_full": "Jude Bellingham",
       "minute": 101,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -753,7 +985,9 @@
       "player_full": "Fabian Lukas Schär",
       "minute": 112,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 119.3,
@@ -765,7 +999,9 @@
       "player_full": "Xherdan Shaqiri",
       "minute": 116,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.7,
@@ -777,7 +1013,9 @@
       "player_full": "Mohamed Zeki Amdouni",
       "minute": 118,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -789,7 +1027,9 @@
       "player_full": "Silvan Widmer",
       "minute": 118,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -801,7 +1041,9 @@
       "player_full": "Cole Palmer",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -813,7 +1055,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -825,7 +1069,9 @@
       "player_full": "Jude Bellingham",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -837,7 +1083,9 @@
       "player_full": "Fabian Lukas Schär",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -849,7 +1097,9 @@
       "player_full": "Bukayo Saka",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -861,7 +1111,9 @@
       "player_full": "Xherdan Shaqiri",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -873,7 +1125,9 @@
       "player_full": "Ivan Toney",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -885,7 +1139,9 @@
       "player_full": "Mohamed Zeki Amdouni",
       "minute": 126,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -897,7 +1153,9 @@
       "player_full": "Trent Alexander-Arnold",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1189,7 +1447,7 @@
       {
         "id": "Granit Xhaka",
         "short": "Xhaka",
-        "x": 61.6,
+        "x": 58.4,
         "y": 33.69,
         "size": 157.3,
         "is_playmaker": true,
@@ -1199,7 +1457,7 @@
       {
         "id": "Manuel Obafemi Akanji",
         "short": "Akanji",
-        "x": 75.78,
+        "x": 44.22,
         "y": 36.97,
         "size": 149.8,
         "is_playmaker": false,
@@ -1209,7 +1467,7 @@
       {
         "id": "Fabian Lukas Schär",
         "short": "Schär",
-        "x": 68.99,
+        "x": 51.01,
         "y": 68.02,
         "size": 107.9,
         "is_playmaker": false,
@@ -1219,7 +1477,7 @@
       {
         "id": "Ricardo Iván Rodríguez Araya",
         "short": "Araya",
-        "x": 57.86,
+        "x": 62.14,
         "y": 12.68,
         "size": 103.3,
         "is_playmaker": false,
@@ -1229,7 +1487,7 @@
       {
         "id": "Yann Sommer",
         "short": "Sommer",
-        "x": 108.65,
+        "x": 11.35,
         "y": 43.67,
         "size": 82.9,
         "is_playmaker": false,
@@ -1239,7 +1497,7 @@
       {
         "id": "Remo Freuler",
         "short": "Freuler",
-        "x": 49.84,
+        "x": 70.16,
         "y": 44.53,
         "size": 84.7,
         "is_playmaker": true,
@@ -1249,7 +1507,7 @@
       {
         "id": "Michel Aebischer",
         "short": "Aebischer",
-        "x": 48.28,
+        "x": 71.72,
         "y": 14.21,
         "size": 85.2,
         "is_playmaker": false,
@@ -1259,7 +1517,7 @@
       {
         "id": "Breel-Donald Embolo",
         "short": "Embolo",
-        "x": 45.33,
+        "x": 74.67,
         "y": 44.15,
         "size": 59.1,
         "is_playmaker": false,
@@ -1269,7 +1527,7 @@
       {
         "id": "Dan Ndoye",
         "short": "Ndoye",
-        "x": 45.77,
+        "x": 74.23,
         "y": 61.64,
         "size": 60.2,
         "is_playmaker": false,
@@ -1279,7 +1537,7 @@
       {
         "id": "Ruben Vargas",
         "short": "Vargas",
-        "x": 54.16,
+        "x": 65.84,
         "y": 28.17,
         "size": 57.3,
         "is_playmaker": false,
@@ -1289,7 +1547,7 @@
       {
         "id": "Fabian Rieder",
         "short": "Rieder",
-        "x": 46.34,
+        "x": 73.66,
         "y": 60.45,
         "size": 57.3,
         "is_playmaker": false,
@@ -1302,7 +1560,7 @@
         "source": "Granit Xhaka",
         "target": "Manuel Obafemi Akanji",
         "weight": 30,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Granit Xhaka",
@@ -1314,73 +1572,73 @@
         "source": "Granit Xhaka",
         "target": "Fabian Lukas Schär",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Granit Xhaka",
         "target": "Michel Aebischer",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Granit Xhaka",
         "target": "Remo Freuler",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Granit Xhaka",
         "target": "Ruben Vargas",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Obafemi Akanji",
         "target": "Granit Xhaka",
         "weight": 30,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Obafemi Akanji",
         "target": "Fabian Lukas Schär",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Obafemi Akanji",
         "target": "Yann Sommer",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Manuel Obafemi Akanji",
         "target": "Ricardo Iván Rodríguez Araya",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Manuel Obafemi Akanji",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Granit Xhaka",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Breel-Donald Embolo",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Yann Sommer",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ricardo Iván Rodríguez Araya",
@@ -1392,43 +1650,43 @@
         "source": "Ricardo Iván Rodríguez Araya",
         "target": "Manuel Obafemi Akanji",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ricardo Iván Rodríguez Araya",
         "target": "Michel Aebischer",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yann Sommer",
         "target": "Manuel Obafemi Akanji",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yann Sommer",
         "target": "Fabian Lukas Schär",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Remo Freuler",
         "target": "Granit Xhaka",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Remo Freuler",
         "target": "Manuel Obafemi Akanji",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Remo Freuler",
         "target": "Fabian Lukas Schär",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Remo Freuler",
@@ -1440,25 +1698,25 @@
         "source": "Michel Aebischer",
         "target": "Granit Xhaka",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Michel Aebischer",
         "target": "Ricardo Iván Rodríguez Araya",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Michel Aebischer",
         "target": "Ruben Vargas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dan Ndoye",
         "target": "Remo Freuler",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dan Ndoye",
@@ -1470,13 +1728,13 @@
         "source": "Ruben Vargas",
         "target": "Granit Xhaka",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ruben Vargas",
         "target": "Michel Aebischer",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabian Rieder",
@@ -1592,7 +1850,7 @@
     }
   },
   "insights": [
-    "Closely contested: England 4.46 xG vs Switzerland 4.33 xG",
+    "Switzerland created 0.66 more xG — dominant territorial control",
     "Even possession — contested midfield throughout"
   ]
 }

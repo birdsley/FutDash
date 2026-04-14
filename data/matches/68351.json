@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.187,
     "xg_away": 1.201,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -513,7 +520,9 @@
       "player_full": "Diego Alberto Milito",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.2,
@@ -525,7 +534,9 @@
       "player_full": "Ewerthon Henrique de Souza",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.1,
@@ -537,7 +548,9 @@
       "player_full": "Samuel Eto''o Fils",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -549,7 +562,9 @@
       "player_full": "Álvaro Luiz Maior de Aquino",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 83.8,
@@ -561,7 +576,9 @@
       "player_full": "Thiago Motta",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -573,7 +590,9 @@
       "player_full": "Samuel Eto''o Fils",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.4,
@@ -585,7 +604,9 @@
       "player_full": "Rubén Gracia Calmache",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 83.6,
@@ -597,7 +618,9 @@
       "player_full": "Mark van Bommel",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.8,
@@ -609,7 +632,9 @@
       "player_full": "Óscar Javier González Marcos",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.2,
@@ -621,7 +646,9 @@
       "player_full": "Rafael Márquez Álvarez",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.4,
@@ -633,7 +660,9 @@
       "player_full": "José Edmílson Gomes de Moraes",
       "minute": 78,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -645,7 +674,9 @@
       "player_full": "Ronaldo de Assis Moreira",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -657,7 +688,9 @@
       "player_full": "Henrik Larsson",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -669,7 +702,9 @@
       "player_full": "Ewerthon Henrique de Souza",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +936,7 @@
       {
         "id": "Rafael Márquez Álvarez",
         "short": "Álvarez",
-        "x": 81.04,
+        "x": 38.96,
         "y": 48.86,
         "size": 138.5,
         "is_playmaker": true,
@@ -911,7 +946,7 @@
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
-        "x": 78.97,
+        "x": 41.03,
         "y": 27.06,
         "size": 137.0,
         "is_playmaker": true,
@@ -921,7 +956,7 @@
       {
         "id": "Sylvio Mendes Campos Junior",
         "short": "Junior",
-        "x": 61.55,
+        "x": 58.45,
         "y": 10.03,
         "size": 101.7,
         "is_playmaker": false,
@@ -931,7 +966,7 @@
       {
         "id": "Ronaldo de Assis Moreira",
         "short": "Moreira",
-        "x": 44.94,
+        "x": 75.06,
         "y": 25.86,
         "size": 84.1,
         "is_playmaker": false,
@@ -941,7 +976,7 @@
       {
         "id": "José Edmílson Gomes de Moraes",
         "short": "Moraes",
-        "x": 65.43,
+        "x": 54.57,
         "y": 42.42,
         "size": 81.1,
         "is_playmaker": false,
@@ -951,7 +986,7 @@
       {
         "id": "Anderson Luís de Souza",
         "short": "Souza",
-        "x": 53.39,
+        "x": 66.61,
         "y": 45.3,
         "size": 103.3,
         "is_playmaker": false,
@@ -961,7 +996,7 @@
       {
         "id": "Juliano Haus Belletti",
         "short": "Belletti",
-        "x": 65.16,
+        "x": 54.84,
         "y": 70.69,
         "size": 90.2,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Thiago Motta",
         "short": "Motta",
-        "x": 60.8,
+        "x": 59.2,
         "y": 27.77,
         "size": 89.5,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 44.42,
+        "x": 75.58,
         "y": 56.83,
         "size": 61.9,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Samuel Eto''o Fils",
         "short": "Fils",
-        "x": 51.24,
+        "x": 68.76,
         "y": 31.71,
         "size": 59.6,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
-        "x": 99.34,
+        "x": 20.66,
         "y": 37.85,
         "size": 58.1,
         "is_playmaker": false,
@@ -1020,19 +1055,19 @@
         "source": "Rafael Márquez Álvarez",
         "target": "Juliano Haus Belletti",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rafael Márquez Álvarez",
         "target": "José Edmílson Gomes de Moraes",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rafael Márquez Álvarez",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Carles Puyol i Saforcada",
@@ -1044,31 +1079,31 @@
         "source": "Carles Puyol i Saforcada",
         "target": "Sylvio Mendes Campos Junior",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carles Puyol i Saforcada",
         "target": "Thiago Motta",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carles Puyol i Saforcada",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sylvio Mendes Campos Junior",
         "target": "Ronaldo de Assis Moreira",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sylvio Mendes Campos Junior",
         "target": "Carles Puyol i Saforcada",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sylvio Mendes Campos Junior",
@@ -1080,43 +1115,43 @@
         "source": "Sylvio Mendes Campos Junior",
         "target": "Rafael Márquez Álvarez",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronaldo de Assis Moreira",
         "target": "Anderson Luís de Souza",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronaldo de Assis Moreira",
         "target": "Sylvio Mendes Campos Junior",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Edmílson Gomes de Moraes",
         "target": "Anderson Luís de Souza",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Edmílson Gomes de Moraes",
         "target": "Carles Puyol i Saforcada",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anderson Luís de Souza",
         "target": "Juliano Haus Belletti",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anderson Luís de Souza",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anderson Luís de Souza",
@@ -1128,13 +1163,13 @@
         "source": "Juliano Haus Belletti",
         "target": "Anderson Luís de Souza",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juliano Haus Belletti",
         "target": "Rafael Márquez Álvarez",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juliano Haus Belletti",
@@ -1146,19 +1181,19 @@
         "source": "Thiago Motta",
         "target": "Ronaldo de Assis Moreira",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thiago Motta",
         "target": "Rafael Márquez Álvarez",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thiago Motta",
         "target": "Anderson Luís de Souza",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thiago Motta",
@@ -1170,13 +1205,13 @@
         "source": "Víctor Valdés Arribas",
         "target": "Rafael Márquez Álvarez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Valdés Arribas",
         "target": "Carles Puyol i Saforcada",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

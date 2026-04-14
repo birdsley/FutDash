@@ -9,6 +9,11 @@
     "away_color": "#e1000f",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.65,
     "xg_away": 0.792,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Leon Andreasen",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -513,7 +520,9 @@
       "player_full": "Miiko Martín Albornoz Inola",
       "minute": 8,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.2,
@@ -525,7 +534,9 @@
       "player_full": "Tohouri Zahoui Constant Djakpa",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -537,7 +548,9 @@
       "player_full": "Felix Klaus",
       "minute": 17,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -549,7 +562,9 @@
       "player_full": "Leon Andreasen",
       "minute": 18,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.2,
@@ -561,7 +576,9 @@
       "player_full": "Felix Klaus",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.3,
@@ -573,7 +590,9 @@
       "player_full": "Hiroshi Kiyotake",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -585,7 +604,9 @@
       "player_full": "Hiroshi Kiyotake",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -597,7 +618,9 @@
       "player_full": "Felix Klaus",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -609,7 +632,9 @@
       "player_full": "Marc Stendera",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.5,
@@ -621,7 +646,9 @@
       "player_full": "Stefan Aigner",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -633,7 +660,9 @@
       "player_full": "Leon Andreasen",
       "minute": 60,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -645,7 +674,9 @@
       "player_full": "Artur Sobiech",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -657,7 +688,9 @@
       "player_full": "Marc Stendera",
       "minute": 64,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -669,7 +702,9 @@
       "player_full": "Haris Seferović",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Tohouri Zahoui Constant Djakpa",
         "short": "Djakpa",
-        "x": 66.79,
+        "x": 53.21,
         "y": 11.75,
         "size": 112.4,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Bastian Oczipka",
         "short": "Oczipka",
-        "x": 54.67,
+        "x": 65.33,
         "y": 13.62,
         "size": 94.7,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Makoto Hasebe",
         "short": "Hasebe",
-        "x": 63.49,
+        "x": 56.51,
         "y": 71.0,
         "size": 107.5,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Carlos Augusto Zambrano Ochandarte",
         "short": "Ochandarte",
-        "x": 78.0,
+        "x": 42.0,
         "y": 54.89,
         "size": 128.8,
         "is_playmaker": true,
@@ -1001,7 +1036,7 @@
       {
         "id": "Marco Russ",
         "short": "Russ",
-        "x": 79.39,
+        "x": 40.61,
         "y": 24.21,
         "size": 108.9,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Stefan Aigner",
         "short": "Aigner",
-        "x": 52.2,
+        "x": 67.8,
         "y": 67.49,
         "size": 87.6,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Marc Stendera",
         "short": "Stendera",
-        "x": 60.5,
+        "x": 59.5,
         "y": 52.89,
         "size": 89.0,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Stefan Reinartz",
         "short": "Reinartz",
-        "x": 74.89,
+        "x": 45.11,
         "y": 31.23,
         "size": 86.2,
         "is_playmaker": true,
@@ -1041,7 +1076,7 @@
       {
         "id": "Haris Seferović",
         "short": "Seferović",
-        "x": 50.71,
+        "x": 69.29,
         "y": 53.37,
         "size": 69.2,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Lukáš Hrádecký",
         "short": "Hrádecký",
-        "x": 105.22,
+        "x": 14.78,
         "y": 41.41,
         "size": 60.7,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Alexander Meier",
         "short": "Meier",
-        "x": 53.52,
+        "x": 66.48,
         "y": 33.63,
         "size": 60.0,
         "is_playmaker": false,
@@ -1074,43 +1109,43 @@
         "source": "Tohouri Zahoui Constant Djakpa",
         "target": "Bastian Oczipka",
         "weight": 26,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tohouri Zahoui Constant Djakpa",
         "target": "Marco Russ",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tohouri Zahoui Constant Djakpa",
         "target": "Stefan Reinartz",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bastian Oczipka",
         "target": "Tohouri Zahoui Constant Djakpa",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Makoto Hasebe",
         "target": "Carlos Augusto Zambrano Ochandarte",
         "weight": 23,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Makoto Hasebe",
         "target": "Haris Seferović",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Makoto Hasebe",
         "target": "Stefan Aigner",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Makoto Hasebe",
@@ -1128,19 +1163,19 @@
         "source": "Carlos Augusto Zambrano Ochandarte",
         "target": "Makoto Hasebe",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlos Augusto Zambrano Ochandarte",
         "target": "Marc Stendera",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carlos Augusto Zambrano Ochandarte",
         "target": "Lukáš Hrádecký",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Carlos Augusto Zambrano Ochandarte",
@@ -1158,25 +1193,25 @@
         "source": "Marco Russ",
         "target": "Stefan Reinartz",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Russ",
         "target": "Tohouri Zahoui Constant Djakpa",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Russ",
         "target": "Bastian Oczipka",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Aigner",
         "target": "Makoto Hasebe",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stefan Aigner",
@@ -1188,19 +1223,19 @@
         "source": "Marc Stendera",
         "target": "Stefan Aigner",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Stendera",
         "target": "Carlos Augusto Zambrano Ochandarte",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "Marc Stendera",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Reinartz",
@@ -1212,7 +1247,7 @@
         "source": "Alexander Meier",
         "target": "Tohouri Zahoui Constant Djakpa",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

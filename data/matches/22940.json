@@ -9,6 +9,11 @@
     "away_color": "#bc002d",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.195,
     "xg_away": 0.347,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Emi Nakajima",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.9,
@@ -513,7 +520,9 @@
       "player_full": "Narumi Miura",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.9,
@@ -525,7 +534,9 @@
       "player_full": "Kumi Yokoyama",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -537,7 +548,9 @@
       "player_full": "Yuika Sugasawa",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -549,7 +562,9 @@
       "player_full": "Yui Hasegawa",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -561,7 +576,9 @@
       "player_full": "Florencia Soledad Jaimes",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.7,
@@ -573,7 +590,9 @@
       "player_full": "Yuika Sugasawa",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.4,
@@ -585,7 +604,9 @@
       "player_full": "María Florencia Bonsegundo",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -597,7 +618,9 @@
       "player_full": "Florencia Soledad Jaimes",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 83.7,
@@ -609,7 +632,9 @@
       "player_full": "Mariana Valeria Larroquette",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -621,7 +646,9 @@
       "player_full": "Mariela Del Carmen Coronel",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.8,
@@ -633,7 +660,9 @@
       "player_full": "Hina Sugita",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.3,
@@ -645,7 +674,9 @@
       "player_full": "Yui Hasegawa",
       "minute": 90,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -883,7 +914,7 @@
       {
         "id": "Saki Kumagai",
         "short": "Kumagai",
-        "x": 70.2,
+        "x": 49.8,
         "y": 51.97,
         "size": 138.2,
         "is_playmaker": true,
@@ -893,7 +924,7 @@
       {
         "id": "Moeka Minami",
         "short": "Minami",
-        "x": 67.86,
+        "x": 52.14,
         "y": 28.15,
         "size": 146.2,
         "is_playmaker": false,
@@ -903,7 +934,7 @@
       {
         "id": "Aya Sameshima",
         "short": "Sameshima",
-        "x": 55.21,
+        "x": 64.79,
         "y": 11.32,
         "size": 96.6,
         "is_playmaker": false,
@@ -913,7 +944,7 @@
       {
         "id": "Risa Shimizu",
         "short": "Shimizu",
-        "x": 59.17,
+        "x": 60.83,
         "y": 71.44,
         "size": 111.4,
         "is_playmaker": false,
@@ -923,7 +954,7 @@
       {
         "id": "Yui Hasegawa",
         "short": "Hasegawa",
-        "x": 45.68,
+        "x": 74.32,
         "y": 24.4,
         "size": 78.9,
         "is_playmaker": false,
@@ -933,7 +964,7 @@
       {
         "id": "Emi Nakajima",
         "short": "Nakajima",
-        "x": 45.37,
+        "x": 74.63,
         "y": 67.22,
         "size": 63.5,
         "is_playmaker": false,
@@ -943,7 +974,7 @@
       {
         "id": "Narumi Miura",
         "short": "Miura",
-        "x": 54.65,
+        "x": 65.35,
         "y": 41.87,
         "size": 87.5,
         "is_playmaker": true,
@@ -953,7 +984,7 @@
       {
         "id": "Ayaka Yamashita",
         "short": "Yamashita",
-        "x": 105.96,
+        "x": 14.04,
         "y": 39.46,
         "size": 73.2,
         "is_playmaker": false,
@@ -963,7 +994,7 @@
       {
         "id": "Hina Sugita",
         "short": "Sugita",
-        "x": 55.91,
+        "x": 64.09,
         "y": 40.72,
         "size": 94.9,
         "is_playmaker": false,
@@ -971,20 +1002,20 @@
         "eigenvector": 0.2095
       },
       {
-        "id": "Yuika Sugasawa",
-        "short": "Sugasawa",
-        "x": 42.45,
-        "y": 46.46,
+        "id": "Kumi Yokoyama",
+        "short": "Yokoyama",
+        "x": 87.26,
+        "y": 47.07,
         "size": 57.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0036
       },
       {
-        "id": "Kumi Yokoyama",
-        "short": "Yokoyama",
-        "x": 32.74,
-        "y": 47.07,
+        "id": "Yuika Sugasawa",
+        "short": "Sugasawa",
+        "x": 77.55,
+        "y": 46.46,
         "size": 57.3,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1002,25 +1033,25 @@
         "source": "Saki Kumagai",
         "target": "Risa Shimizu",
         "weight": 26,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Saki Kumagai",
         "target": "Hina Sugita",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Saki Kumagai",
         "target": "Narumi Miura",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moeka Minami",
         "target": "Aya Sameshima",
         "weight": 26,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moeka Minami",
@@ -1032,43 +1063,43 @@
         "source": "Moeka Minami",
         "target": "Yui Hasegawa",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moeka Minami",
         "target": "Ayaka Yamashita",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aya Sameshima",
         "target": "Yui Hasegawa",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aya Sameshima",
         "target": "Moeka Minami",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Risa Shimizu",
         "target": "Saki Kumagai",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Risa Shimizu",
         "target": "Emi Nakajima",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Risa Shimizu",
         "target": "Narumi Miura",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Risa Shimizu",
@@ -1080,19 +1111,19 @@
         "source": "Yui Hasegawa",
         "target": "Aya Sameshima",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Narumi Miura",
         "target": "Moeka Minami",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Narumi Miura",
         "target": "Risa Shimizu",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Narumi Miura",
@@ -1102,33 +1133,33 @@
       },
       {
         "source": "Narumi Miura",
-        "target": "Yuika Sugasawa",
+        "target": "Kumi Yokoyama",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Narumi Miura",
-        "target": "Kumi Yokoyama",
+        "target": "Yuika Sugasawa",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ayaka Yamashita",
         "target": "Saki Kumagai",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ayaka Yamashita",
         "target": "Moeka Minami",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hina Sugita",
         "target": "Moeka Minami",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hina Sugita",
@@ -1140,7 +1171,7 @@
         "source": "Hina Sugita",
         "target": "Saki Kumagai",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hina Sugita",
@@ -1149,28 +1180,28 @@
         "direction": "lateral"
       },
       {
-        "source": "Yuika Sugasawa",
-        "target": "Kumi Yokoyama",
+        "source": "Kumi Yokoyama",
+        "target": "Yuika Sugasawa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Kumi Yokoyama",
+        "target": "Narumi Miura",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Yuika Sugasawa",
-        "target": "Narumi Miura",
+        "target": "Kumi Yokoyama",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Kumi Yokoyama",
-        "target": "Yuika Sugasawa",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kumi Yokoyama",
+        "source": "Yuika Sugasawa",
         "target": "Narumi Miura",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

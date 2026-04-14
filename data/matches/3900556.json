@@ -9,6 +9,11 @@
     "away_color": "#6060d9",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.202,
     "xg_away": 0.489,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Wahbi Khazri",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -513,7 +520,9 @@
       "player_full": "Billy Ketkeophomphone",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -525,7 +534,9 @@
       "player_full": "Gilles Sunu",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -537,7 +548,9 @@
       "player_full": "Diego Alejandro Rolan Silva",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.4,
@@ -549,7 +562,9 @@
       "player_full": "Abdoul Razzagui Camara",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -561,7 +576,9 @@
       "player_full": "Goran Karanović",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -573,7 +590,9 @@
       "player_full": "Romain Thomas",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.5,
@@ -585,7 +604,9 @@
       "player_full": "Romain Thomas",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -597,7 +618,9 @@
       "player_full": "Goran Karanović",
       "minute": 86,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -609,7 +632,9 @@
       "player_full": "Gaëtan Laborde",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +926,7 @@
       {
         "id": "Nicolas Maurice-Belay",
         "short": "Maurice-Bel",
-        "x": 58.16,
+        "x": 61.84,
         "y": 22.78,
         "size": 142.6,
         "is_playmaker": true,
@@ -911,7 +936,7 @@
       {
         "id": "Abdoulaye Traoré",
         "short": "Traoré",
-        "x": 59.27,
+        "x": 60.73,
         "y": 38.51,
         "size": 120.5,
         "is_playmaker": false,
@@ -921,7 +946,7 @@
       {
         "id": "Frédéric Guilbert",
         "short": "Guilbert",
-        "x": 77.48,
+        "x": 42.52,
         "y": 55.68,
         "size": 95.7,
         "is_playmaker": true,
@@ -931,7 +956,7 @@
       {
         "id": "Cédric Yambéré",
         "short": "Yambéré",
-        "x": 76.03,
+        "x": 43.97,
         "y": 26.81,
         "size": 98.4,
         "is_playmaker": false,
@@ -941,7 +966,7 @@
       {
         "id": "André Biyogo Poko",
         "short": "Poko",
-        "x": 60.82,
+        "x": 59.18,
         "y": 73.13,
         "size": 92.2,
         "is_playmaker": false,
@@ -951,7 +976,7 @@
       {
         "id": "Wahbi Khazri",
         "short": "Khazri",
-        "x": 46.98,
+        "x": 73.02,
         "y": 23.37,
         "size": 78.9,
         "is_playmaker": false,
@@ -961,7 +986,7 @@
       {
         "id": "Diego Armando Valentin Contento",
         "short": "Contento",
-        "x": 61.72,
+        "x": 58.28,
         "y": 7.55,
         "size": 78.9,
         "is_playmaker": false,
@@ -971,7 +996,7 @@
       {
         "id": "Jaroslav Plašil",
         "short": "Plašil",
-        "x": 51.15,
+        "x": 68.85,
         "y": 47.27,
         "size": 91.3,
         "is_playmaker": false,
@@ -981,7 +1006,7 @@
       {
         "id": "Diego Alejandro Rolan Silva",
         "short": "Silva",
-        "x": 53.23,
+        "x": 66.77,
         "y": 52.68,
         "size": 76.2,
         "is_playmaker": false,
@@ -991,7 +1016,7 @@
       {
         "id": "Enzo Crivelli",
         "short": "Crivelli",
-        "x": 44.66,
+        "x": 75.34,
         "y": 47.14,
         "size": 69.2,
         "is_playmaker": false,
@@ -1001,7 +1026,7 @@
       {
         "id": "Cédric Carrasso",
         "short": "Carrasso",
-        "x": 104.94,
+        "x": 15.06,
         "y": 38.04,
         "size": 61.2,
         "is_playmaker": false,
@@ -1020,7 +1045,7 @@
         "source": "Nicolas Maurice-Belay",
         "target": "Wahbi Khazri",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolas Maurice-Belay",
@@ -1032,7 +1057,7 @@
         "source": "Nicolas Maurice-Belay",
         "target": "Jaroslav Plašil",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abdoulaye Traoré",
@@ -1044,13 +1069,13 @@
         "source": "Abdoulaye Traoré",
         "target": "Jaroslav Plašil",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abdoulaye Traoré",
         "target": "Frédéric Guilbert",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Frédéric Guilbert",
@@ -1062,13 +1087,13 @@
         "source": "Frédéric Guilbert",
         "target": "André Biyogo Poko",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Yambéré",
         "target": "Nicolas Maurice-Belay",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cédric Yambéré",
@@ -1080,19 +1105,19 @@
         "source": "Cédric Yambéré",
         "target": "Abdoulaye Traoré",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Biyogo Poko",
         "target": "Enzo Crivelli",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Biyogo Poko",
         "target": "Jaroslav Plašil",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Biyogo Poko",
@@ -1104,19 +1129,19 @@
         "source": "André Biyogo Poko",
         "target": "Frédéric Guilbert",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wahbi Khazri",
         "target": "Nicolas Maurice-Belay",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Diego Armando Valentin Contento",
         "target": "Cédric Yambéré",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Diego Armando Valentin Contento",
@@ -1134,25 +1159,25 @@
         "source": "Jaroslav Plašil",
         "target": "Wahbi Khazri",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Alejandro Rolan Silva",
         "target": "Abdoulaye Traoré",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Diego Alejandro Rolan Silva",
         "target": "Nicolas Maurice-Belay",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cédric Carrasso",
         "target": "Enzo Crivelli",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

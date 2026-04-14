@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 0,
     "score_away": 3,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.418,
     "xg_away": 1.829,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Pierre Achille Webó Kouamo",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -513,7 +520,9 @@
       "player_full": "Pierre Achille Webó Kouamo",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.6,
@@ -525,7 +534,9 @@
       "player_full": "Seydou Kéita",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -537,7 +548,9 @@
       "player_full": "Pierre Achille Webó Kouamo",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.8,
@@ -549,7 +562,9 @@
       "player_full": "Ayoze Díaz Díaz",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -561,7 +576,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -573,7 +590,9 @@
       "player_full": "Jonathan de Guzmán",
       "minute": 32,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.8,
@@ -585,7 +604,9 @@
       "player_full": "Andrés Iniesta Luján",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.5,
@@ -597,7 +618,9 @@
       "player_full": "Adriano Correia Claro",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.4,
@@ -609,7 +632,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 37,
       "technique": "Lob",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -621,7 +646,9 @@
       "player_full": "Gonzalo Castro Irizábal",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -633,7 +660,9 @@
       "player_full": "David Villa Sánchez",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.2,
@@ -645,7 +674,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -657,7 +688,9 @@
       "player_full": "Andrés Iniesta Luján",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.3,
@@ -669,7 +702,9 @@
       "player_full": "Jose Luis Martí Soler",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -681,7 +716,9 @@
       "player_full": "Akihiro Ienaga",
       "minute": 80,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -777,16 +814,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "João Victor de Albuquerque Bruno",
-        "short": "Bruno",
-        "x": 63.77,
-        "y": 49.69,
-        "size": 67.1,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.1324
-      },
-      {
         "id": "Rubén González Rocha",
         "short": "Rocha",
         "x": 43.66,
@@ -795,6 +822,16 @@
         "is_playmaker": false,
         "betweenness": 0.1,
         "eigenvector": 0.0
+      },
+      {
+        "id": "João Victor de Albuquerque Bruno",
+        "short": "Bruno",
+        "x": 63.77,
+        "y": 49.69,
+        "size": 67.1,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.1324
       }
     ],
     "edges": [
@@ -889,18 +926,6 @@
         "direction": "backward"
       },
       {
-        "source": "João Victor de Albuquerque Bruno",
-        "target": "Jose Luis Martí Soler",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "João Victor de Albuquerque Bruno",
-        "target": "Pierre Achille Webó Kouamo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Rubén González Rocha",
         "target": "José Carlos de Araújo Nunes",
         "weight": 1,
@@ -911,6 +936,18 @@
         "target": "Ayoze Díaz Díaz",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "João Victor de Albuquerque Bruno",
+        "target": "Jose Luis Martí Soler",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "João Victor de Albuquerque Bruno",
+        "target": "Pierre Achille Webó Kouamo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -919,7 +956,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 46.86,
+        "x": 73.14,
         "y": 41.09,
         "size": 103.5,
         "is_playmaker": false,
@@ -929,7 +966,7 @@
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 56.34,
+        "x": 63.66,
         "y": 40.9,
         "size": 135.0,
         "is_playmaker": true,
@@ -939,7 +976,7 @@
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 64.26,
+        "x": 55.74,
         "y": 38.74,
         "size": 139.2,
         "is_playmaker": true,
@@ -949,7 +986,7 @@
       {
         "id": "Adriano Correia Claro",
         "short": "Claro",
-        "x": 58.37,
+        "x": 61.63,
         "y": 70.46,
         "size": 96.9,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "Seydou Kéita",
         "short": "Kéita",
-        "x": 57.65,
+        "x": 62.35,
         "y": 24.79,
         "size": 117.1,
         "is_playmaker": false,
@@ -969,7 +1006,7 @@
       {
         "id": "Maxwell Scherrer Cabelino Andrade",
         "short": "Andrade",
-        "x": 67.03,
+        "x": 52.97,
         "y": 10.27,
         "size": 79.5,
         "is_playmaker": false,
@@ -979,7 +1016,7 @@
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
-        "x": 76.52,
+        "x": 43.48,
         "y": 56.49,
         "size": 87.0,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Eric-Sylvain Bilal Abidal",
         "short": "Abidal",
-        "x": 79.36,
+        "x": 40.64,
         "y": 25.34,
         "size": 76.2,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "José Manuel Pinto Colorado",
         "short": "Colorado",
-        "x": 110.23,
+        "x": 9.77,
         "y": 40.22,
         "size": 56.9,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
-        "x": 55.49,
+        "x": 64.51,
         "y": 38.9,
         "size": 56.9,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "David Villa Sánchez",
         "short": "Sánchez",
-        "x": 38.16,
+        "x": 81.84,
         "y": 51.06,
         "size": 56.9,
         "is_playmaker": false,
@@ -1032,25 +1069,25 @@
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Andrés Iniesta Luján",
         "weight": 31,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Seydou Kéita",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "David Villa Sánchez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrés Iniesta Luján",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 24,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1062,7 +1099,7 @@
         "source": "Andrés Iniesta Luján",
         "target": "Sergio Busquets i Burgos",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1080,43 +1117,43 @@
         "source": "Andrés Iniesta Luján",
         "target": "David Villa Sánchez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Andrés Iniesta Luján",
         "weight": 25,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Eric-Sylvain Bilal Abidal",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Gerard Piqué Bernabéu",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Seydou Kéita",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adriano Correia Claro",
@@ -1128,25 +1165,25 @@
         "source": "Adriano Correia Claro",
         "target": "Gerard Piqué Bernabéu",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adriano Correia Claro",
         "target": "Sergio Busquets i Burgos",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Seydou Kéita",
         "target": "Maxwell Scherrer Cabelino Andrade",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Seydou Kéita",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Seydou Kéita",
@@ -1158,13 +1195,13 @@
         "source": "Seydou Kéita",
         "target": "Sergio Busquets i Burgos",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maxwell Scherrer Cabelino Andrade",
         "target": "Seydou Kéita",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maxwell Scherrer Cabelino Andrade",
@@ -1176,49 +1213,49 @@
         "source": "Gerard Piqué Bernabéu",
         "target": "Adriano Correia Claro",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Sergio Busquets i Burgos",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "José Manuel Pinto Colorado",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "Seydou Kéita",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "Sergio Busquets i Burgos",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "José Manuel Pinto Colorado",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Manuel Pinto Colorado",
         "target": "Eric-Sylvain Bilal Abidal",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Manuel Pinto Colorado",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Eliezer Rodríguez Ledesma",
@@ -1230,19 +1267,19 @@
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Sergio Busquets i Burgos",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Villa Sánchez",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Villa Sánchez",
         "target": "Andrés Iniesta Luján",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

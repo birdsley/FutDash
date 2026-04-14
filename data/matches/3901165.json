@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.606,
     "xg_away": 0.193,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Mohamed Larbi",
       "minute": 0,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.2,
@@ -513,7 +520,9 @@
       "player_full": "Frédéric Guilbert",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -525,7 +534,9 @@
       "player_full": "Ludovic Lamine Sané",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -537,7 +548,9 @@
       "player_full": "Cheick Tidiane Diabaté",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -549,7 +562,9 @@
       "player_full": "Diego Alejandro Rolan Silva",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -561,7 +576,9 @@
       "player_full": "Cheick Tidiane Diabaté",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.1,
@@ -573,7 +590,9 @@
       "player_full": "Valentín Vada",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.1,
@@ -585,7 +604,9 @@
       "player_full": "Khalid Boutaïb",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -597,7 +618,9 @@
       "player_full": "Diego Alejandro Rolan Silva",
       "minute": 48,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 57.6,
@@ -609,7 +632,9 @@
       "player_full": "Abdoulaye Traoré",
       "minute": 64,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.5,
@@ -621,7 +646,9 @@
       "player_full": "Valentín Vada",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -633,7 +660,9 @@
       "player_full": "Khalid Boutaïb",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -645,7 +674,9 @@
       "player_full": "Valentín Vada",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.3,
@@ -657,7 +688,9 @@
       "player_full": "Diego Alejandro Rolan Silva",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -669,7 +702,9 @@
       "player_full": "Mauro Wilney Arambarri Rosa",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -681,7 +716,9 @@
       "player_full": "Mohamed Larbi",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -997,7 +1034,7 @@
       {
         "id": "Issiaga Sylla",
         "short": "Sylla",
-        "x": 63.35,
+        "x": 56.65,
         "y": 7.36,
         "size": 124.7,
         "is_playmaker": false,
@@ -1007,7 +1044,7 @@
       {
         "id": "Mohamed Larbi",
         "short": "Larbi",
-        "x": 56.37,
+        "x": 63.63,
         "y": 16.63,
         "size": 90.9,
         "is_playmaker": false,
@@ -1017,7 +1054,7 @@
       {
         "id": "Alassane Touré",
         "short": "Touré",
-        "x": 60.06,
+        "x": 59.94,
         "y": 75.08,
         "size": 94.0,
         "is_playmaker": false,
@@ -1027,7 +1064,7 @@
       {
         "id": "David Ducourtioux",
         "short": "Ducourtioux",
-        "x": 66.01,
+        "x": 53.99,
         "y": 52.15,
         "size": 128.8,
         "is_playmaker": true,
@@ -1037,7 +1074,7 @@
       {
         "id": "Abdou Kader Mangane",
         "short": "Mangane",
-        "x": 78.55,
+        "x": 41.45,
         "y": 57.42,
         "size": 91.9,
         "is_playmaker": false,
@@ -1047,7 +1084,7 @@
       {
         "id": "Alexandre Coeff",
         "short": "Coeff",
-        "x": 78.67,
+        "x": 41.33,
         "y": 36.92,
         "size": 130.9,
         "is_playmaker": true,
@@ -1057,7 +1094,7 @@
       {
         "id": "Damjan Đoković",
         "short": "Đoković",
-        "x": 61.33,
+        "x": 58.67,
         "y": 31.52,
         "size": 79.6,
         "is_playmaker": false,
@@ -1067,7 +1104,7 @@
       {
         "id": "Clément Maury",
         "short": "Maury",
-        "x": 104.93,
+        "x": 15.07,
         "y": 40.48,
         "size": 67.3,
         "is_playmaker": false,
@@ -1077,7 +1114,7 @@
       {
         "id": "Kévin Mayi",
         "short": "Mayi",
-        "x": 47.6,
+        "x": 72.4,
         "y": 62.32,
         "size": 76.5,
         "is_playmaker": false,
@@ -1087,7 +1124,7 @@
       {
         "id": "Khalid Boutaïb",
         "short": "Boutaïb",
-        "x": 54.61,
+        "x": 65.39,
         "y": 47.62,
         "size": 60.1,
         "is_playmaker": false,
@@ -1097,7 +1134,7 @@
       {
         "id": "Mohamed Amine Chermiti",
         "short": "Chermiti",
-        "x": 54.49,
+        "x": 65.51,
         "y": 36.12,
         "size": 60.1,
         "is_playmaker": false,
@@ -1110,13 +1147,13 @@
         "source": "Issiaga Sylla",
         "target": "Mohamed Larbi",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Alexandre Coeff",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Issiaga Sylla",
@@ -1128,43 +1165,43 @@
         "source": "Mohamed Larbi",
         "target": "Issiaga Sylla",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mohamed Larbi",
         "target": "David Ducourtioux",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alassane Touré",
         "target": "David Ducourtioux",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alassane Touré",
         "target": "Abdou Kader Mangane",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Ducourtioux",
         "target": "Alexandre Coeff",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Ducourtioux",
         "target": "Alassane Touré",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Ducourtioux",
         "target": "Kévin Mayi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Ducourtioux",
@@ -1176,7 +1213,7 @@
         "source": "Abdou Kader Mangane",
         "target": "David Ducourtioux",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abdou Kader Mangane",
@@ -1194,25 +1231,25 @@
         "source": "Alexandre Coeff",
         "target": "David Ducourtioux",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandre Coeff",
         "target": "Issiaga Sylla",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandre Coeff",
         "target": "Clément Maury",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexandre Coeff",
         "target": "Alassane Touré",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Damjan Đoković",
@@ -1224,25 +1261,25 @@
         "source": "Damjan Đoković",
         "target": "Alexandre Coeff",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Clément Maury",
         "target": "Kévin Mayi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kévin Mayi",
         "target": "Alassane Touré",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kévin Mayi",
         "target": "David Ducourtioux",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Khalid Boutaïb",

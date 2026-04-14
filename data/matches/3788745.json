@@ -9,6 +9,11 @@
     "away_color": "#cc0000",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.707,
     "xg_away": 0.34,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Philip Foden",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.2,
@@ -513,7 +520,9 @@
       "player_full": "Ante Rebić",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.2,
@@ -525,7 +534,9 @@
       "player_full": "Kalvin Phillips",
       "minute": 8,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.4,
@@ -537,7 +548,9 @@
       "player_full": "Raheem Sterling",
       "minute": 25,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.4,
@@ -549,7 +562,9 @@
       "player_full": "Ivan Perišić",
       "minute": 26,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.6,
@@ -561,7 +576,9 @@
       "player_full": "Kieran Trippier",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -573,7 +590,9 @@
       "player_full": "Luka Modrić",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -585,7 +604,9 @@
       "player_full": "Raheem Sterling",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.5,
@@ -597,7 +618,9 @@
       "player_full": "Harry Kane",
       "minute": 60,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.3,
@@ -609,7 +632,9 @@
       "player_full": "Mateo Kovačić",
       "minute": 64,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -621,7 +646,9 @@
       "player_full": "Ante Rebić",
       "minute": 64,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.3,
@@ -633,7 +660,9 @@
       "player_full": "Mason Mount",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.6,
@@ -645,7 +674,9 @@
       "player_full": "Marcelo Brozović",
       "minute": 69,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -657,7 +688,9 @@
       "player_full": "Ante Rebić",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -669,7 +702,9 @@
       "player_full": "Raheem Sterling",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -681,7 +716,9 @@
       "player_full": "Mario Pašalić",
       "minute": 94,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Mateo Kovačić",
         "short": "Kovačić",
-        "x": 56.85,
+        "x": 63.15,
         "y": 29.67,
         "size": 115.5,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Luka Modrić",
         "short": "Modrić",
-        "x": 60.67,
+        "x": 59.33,
         "y": 50.19,
         "size": 141.5,
         "is_playmaker": true,
@@ -993,7 +1030,7 @@
       {
         "id": "Šime Vrsaljko",
         "short": "Vrsaljko",
-        "x": 61.15,
+        "x": 58.85,
         "y": 74.68,
         "size": 90.3,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Marcelo Brozović",
         "short": "Brozović",
-        "x": 65.58,
+        "x": 54.42,
         "y": 49.63,
         "size": 114.5,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Duje Ćaleta-Car",
         "short": "Ćaleta-Car",
-        "x": 82.6,
+        "x": 37.4,
         "y": 33.97,
         "size": 115.5,
         "is_playmaker": true,
@@ -1023,7 +1060,7 @@
       {
         "id": "Domagoj Vida",
         "short": "Vida",
-        "x": 79.22,
+        "x": 40.78,
         "y": 55.74,
         "size": 87.6,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Joško Gvardiol",
         "short": "Gvardiol",
-        "x": 48.39,
+        "x": 71.61,
         "y": 8.82,
         "size": 84.8,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Andrej Kramarić",
         "short": "Kramarić",
-        "x": 58.09,
+        "x": 61.91,
         "y": 56.19,
         "size": 66.2,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Dominik Livaković",
         "short": "Livaković",
-        "x": 110.26,
+        "x": 9.74,
         "y": 41.64,
         "size": 70.8,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Ivan Perišić",
         "short": "Perišić",
-        "x": 45.75,
+        "x": 74.25,
         "y": 13.85,
         "size": 59.7,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Ante Rebić",
         "short": "Rebić",
-        "x": 50.39,
+        "x": 69.61,
         "y": 44.49,
         "size": 58.7,
         "is_playmaker": false,
@@ -1092,19 +1129,19 @@
         "source": "Mateo Kovačić",
         "target": "Marcelo Brozović",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mateo Kovačić",
         "target": "Joško Gvardiol",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mateo Kovačić",
         "target": "Šime Vrsaljko",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luka Modrić",
@@ -1122,7 +1159,7 @@
         "source": "Luka Modrić",
         "target": "Marcelo Brozović",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luka Modrić",
@@ -1134,13 +1171,13 @@
         "source": "Luka Modrić",
         "target": "Joško Gvardiol",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luka Modrić",
         "target": "Ante Rebić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Šime Vrsaljko",
@@ -1152,19 +1189,19 @@
         "source": "Marcelo Brozović",
         "target": "Mateo Kovačić",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcelo Brozović",
         "target": "Luka Modrić",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcelo Brozović",
         "target": "Duje Ćaleta-Car",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Duje Ćaleta-Car",
@@ -1176,19 +1213,19 @@
         "source": "Duje Ćaleta-Car",
         "target": "Marcelo Brozović",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Duje Ćaleta-Car",
         "target": "Dominik Livaković",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Duje Ćaleta-Car",
         "target": "Luka Modrić",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Domagoj Vida",
@@ -1200,37 +1237,37 @@
         "source": "Domagoj Vida",
         "target": "Marcelo Brozović",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Domagoj Vida",
         "target": "Šime Vrsaljko",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joško Gvardiol",
         "target": "Mateo Kovačić",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joško Gvardiol",
         "target": "Duje Ćaleta-Car",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrej Kramarić",
         "target": "Ante Rebić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dominik Livaković",
         "target": "Duje Ćaleta-Car",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ivan Perišić",
@@ -1242,13 +1279,13 @@
         "source": "Ante Rebić",
         "target": "Luka Modrić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ante Rebić",
         "target": "Andrej Kramarić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

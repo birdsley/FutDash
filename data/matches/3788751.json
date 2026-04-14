@@ -9,6 +9,11 @@
     "away_color": "#939393",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.446,
     "xg_away": 0.825,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Mats Hummels",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -513,7 +520,9 @@
       "player_full": "Paul Pogba",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -525,7 +534,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.5,
@@ -537,7 +548,9 @@
       "player_full": "Thomas Müller",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.8,
@@ -549,7 +562,9 @@
       "player_full": "Toni Kroos",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.5,
@@ -561,7 +576,9 @@
       "player_full": "Toni Kroos",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -573,7 +590,9 @@
       "player_full": "İlkay Gündoğan",
       "minute": 37,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -585,7 +604,9 @@
       "player_full": "Kai Havertz",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.6,
@@ -597,7 +618,9 @@
       "player_full": "Adrien Rabiot",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -609,7 +632,9 @@
       "player_full": "Serge Gnabry",
       "minute": 53,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -621,7 +646,9 @@
       "player_full": "Thomas Müller",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -633,7 +660,9 @@
       "player_full": "Karim Benzema",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.5,
@@ -645,7 +674,9 @@
       "player_full": "Antonio Rüdiger",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -657,7 +688,9 @@
       "player_full": "Leroy Sané",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +982,7 @@
       {
         "id": "Antonio Rüdiger",
         "short": "Rüdiger",
-        "x": 69.42,
+        "x": 50.58,
         "y": 17.44,
         "size": 126.4,
         "is_playmaker": true,
@@ -959,7 +992,7 @@
       {
         "id": "Robin Gosens",
         "short": "Gosens",
-        "x": 51.56,
+        "x": 68.44,
         "y": 7.37,
         "size": 90.7,
         "is_playmaker": false,
@@ -969,7 +1002,7 @@
       {
         "id": "Mats Hummels",
         "short": "Hummels",
-        "x": 70.89,
+        "x": 49.11,
         "y": 47.11,
         "size": 112.7,
         "is_playmaker": false,
@@ -979,7 +1012,7 @@
       {
         "id": "Toni Kroos",
         "short": "Kroos",
-        "x": 58.53,
+        "x": 61.47,
         "y": 31.79,
         "size": 140.1,
         "is_playmaker": true,
@@ -989,7 +1022,7 @@
       {
         "id": "Joshua Kimmich",
         "short": "Kimmich",
-        "x": 45.95,
+        "x": 74.05,
         "y": 70.12,
         "size": 94.9,
         "is_playmaker": false,
@@ -999,7 +1032,7 @@
       {
         "id": "Matthias Ginter",
         "short": "Ginter",
-        "x": 69.14,
+        "x": 50.86,
         "y": 69.21,
         "size": 88.9,
         "is_playmaker": false,
@@ -1009,7 +1042,7 @@
       {
         "id": "İlkay Gündoğan",
         "short": "Gündoğan",
-        "x": 54.34,
+        "x": 65.66,
         "y": 40.47,
         "size": 104.4,
         "is_playmaker": false,
@@ -1019,7 +1052,7 @@
       {
         "id": "Kai Havertz",
         "short": "Havertz",
-        "x": 46.3,
+        "x": 73.7,
         "y": 45.92,
         "size": 63.3,
         "is_playmaker": false,
@@ -1029,7 +1062,7 @@
       {
         "id": "Thomas Müller",
         "short": "Müller",
-        "x": 42.64,
+        "x": 77.36,
         "y": 31.77,
         "size": 68.7,
         "is_playmaker": false,
@@ -1039,7 +1072,7 @@
       {
         "id": "Serge Gnabry",
         "short": "Gnabry",
-        "x": 41.19,
+        "x": 78.81,
         "y": 39.95,
         "size": 57.4,
         "is_playmaker": false,
@@ -1049,7 +1082,7 @@
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
-        "x": 105.88,
+        "x": 14.13,
         "y": 37.92,
         "size": 57.4,
         "is_playmaker": false,
@@ -1062,13 +1095,13 @@
         "source": "Antonio Rüdiger",
         "target": "Robin Gosens",
         "weight": 22,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Rüdiger",
         "target": "Toni Kroos",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Rüdiger",
@@ -1080,31 +1113,31 @@
         "source": "Antonio Rüdiger",
         "target": "İlkay Gündoğan",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Rüdiger",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robin Gosens",
         "target": "Antonio Rüdiger",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robin Gosens",
         "target": "Thomas Müller",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mats Hummels",
         "target": "Toni Kroos",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mats Hummels",
@@ -1122,61 +1155,61 @@
         "source": "Mats Hummels",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Toni Kroos",
         "target": "Joshua Kimmich",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Toni Kroos",
         "target": "Antonio Rüdiger",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Toni Kroos",
         "target": "Kai Havertz",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Toni Kroos",
         "target": "İlkay Gündoğan",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Toni Kroos",
         "target": "Robin Gosens",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Toni Kroos",
         "target": "Thomas Müller",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Toni Kroos",
         "target": "Mats Hummels",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joshua Kimmich",
         "target": "Matthias Ginter",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joshua Kimmich",
         "target": "İlkay Gündoğan",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matthias Ginter",
@@ -1188,37 +1221,37 @@
         "source": "Matthias Ginter",
         "target": "Joshua Kimmich",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "İlkay Gündoğan",
         "target": "Toni Kroos",
         "weight": 18,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "İlkay Gündoğan",
         "target": "Joshua Kimmich",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "İlkay Gündoğan",
         "target": "Mats Hummels",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "İlkay Gündoğan",
         "target": "Antonio Rüdiger",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kai Havertz",
         "target": "Serge Gnabry",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thomas Müller",
@@ -1230,7 +1263,7 @@
         "source": "Serge Gnabry",
         "target": "Kai Havertz",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Serge Gnabry",
@@ -1242,13 +1275,13 @@
         "source": "Manuel Neuer",
         "target": "Mats Hummels",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Neuer",
         "target": "Antonio Rüdiger",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

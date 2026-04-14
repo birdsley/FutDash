@@ -9,6 +9,11 @@
     "away_color": "#3d82ff",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.139,
     "xg_away": 0.418,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Olivier Giroud",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -513,7 +520,9 @@
       "player_full": "Raphaël Varane",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -525,7 +534,9 @@
       "player_full": "Ousmane Dembélé",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -537,7 +548,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -549,7 +562,9 @@
       "player_full": "Ousmane Dembélé",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -561,7 +576,9 @@
       "player_full": "Christian Dannemann Eriksen",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.0,
@@ -573,7 +590,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.0,
@@ -585,7 +604,9 @@
       "player_full": "Christian Dannemann Eriksen",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.0,
@@ -597,7 +618,9 @@
       "player_full": "Thomas Lemar",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -609,7 +632,9 @@
       "player_full": "Christian Dannemann Eriksen",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -621,7 +646,9 @@
       "player_full": "Viktor Fischer",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -633,7 +660,9 @@
       "player_full": "Henrik Dalsgaard",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -645,7 +674,9 @@
       "player_full": "Nabil Fekir",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -657,7 +688,9 @@
       "player_full": "Olivier Giroud",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -669,7 +702,9 @@
       "player_full": "Olivier Giroud",
       "minute": 78,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -681,7 +716,9 @@
       "player_full": "Nabil Fekir",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -919,7 +956,7 @@
       {
         "id": "Raphaël Varane",
         "short": "Varane",
-        "x": 70.04,
+        "x": 49.96,
         "y": 58.47,
         "size": 132.2,
         "is_playmaker": false,
@@ -929,7 +966,7 @@
       {
         "id": "Djibril Sidibé",
         "short": "Sidibé",
-        "x": 52.57,
+        "x": 67.43,
         "y": 74.42,
         "size": 128.2,
         "is_playmaker": false,
@@ -939,7 +976,7 @@
       {
         "id": "Ousmane Dembélé",
         "short": "Dembélé",
-        "x": 41.5,
+        "x": 78.5,
         "y": 60.78,
         "size": 75.8,
         "is_playmaker": false,
@@ -949,7 +986,7 @@
       {
         "id": "Presnel Kimpembe",
         "short": "Kimpembe",
-        "x": 68.61,
+        "x": 51.39,
         "y": 22.67,
         "size": 114.1,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "N''Golo Kanté",
         "short": "Kanté",
-        "x": 53.2,
+        "x": 66.8,
         "y": 48.09,
         "size": 114.7,
         "is_playmaker": true,
@@ -969,7 +1006,7 @@
       {
         "id": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "short": "Nzonzi",
-        "x": 51.44,
+        "x": 68.56,
         "y": 31.75,
         "size": 96.6,
         "is_playmaker": false,
@@ -979,7 +1016,7 @@
       {
         "id": "Lucas Hernández Pi",
         "short": "Pi",
-        "x": 45.08,
+        "x": 74.92,
         "y": 5.79,
         "size": 79.8,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Steve Mandanda",
         "short": "Mandanda",
-        "x": 107.0,
+        "x": 13.0,
         "y": 39.6,
         "size": 61.7,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Thomas Lemar",
         "short": "Lemar",
-        "x": 37.86,
+        "x": 82.14,
         "y": 19.51,
         "size": 72.4,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
-        "x": 44.83,
+        "x": 75.17,
         "y": 37.79,
         "size": 71.8,
         "is_playmaker": true,
@@ -1019,7 +1056,7 @@
       {
         "id": "Olivier Giroud",
         "short": "Giroud",
-        "x": 39.25,
+        "x": 80.75,
         "y": 47.17,
         "size": 57.7,
         "is_playmaker": false,
@@ -1032,7 +1069,7 @@
         "source": "Raphaël Varane",
         "target": "Djibril Sidibé",
         "weight": 30,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Raphaël Varane",
@@ -1044,19 +1081,19 @@
         "source": "Raphaël Varane",
         "target": "N''Golo Kanté",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Djibril Sidibé",
         "target": "Ousmane Dembélé",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Djibril Sidibé",
         "target": "Raphaël Varane",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Djibril Sidibé",
@@ -1068,7 +1105,7 @@
         "source": "Ousmane Dembélé",
         "target": "Djibril Sidibé",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ousmane Dembélé",
@@ -1086,19 +1123,19 @@
         "source": "Presnel Kimpembe",
         "target": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Presnel Kimpembe",
         "target": "N''Golo Kanté",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Presnel Kimpembe",
         "target": "Lucas Hernández Pi",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "N''Golo Kanté",
@@ -1116,25 +1153,25 @@
         "source": "N''Golo Kanté",
         "target": "Raphaël Varane",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "N''Golo Kanté",
         "target": "Antoine Griezmann",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "target": "Thomas Lemar",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "target": "Lucas Hernández Pi",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steven N''Kemboanza Mike Christopher Nzonzi",
@@ -1146,49 +1183,49 @@
         "source": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "target": "Presnel Kimpembe",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Hernández Pi",
         "target": "Presnel Kimpembe",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Hernández Pi",
         "target": "Thomas Lemar",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steve Mandanda",
         "target": "Raphaël Varane",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antoine Griezmann",
         "target": "Thomas Lemar",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antoine Griezmann",
         "target": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antoine Griezmann",
         "target": "Olivier Giroud",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Olivier Giroud",
         "target": "Antoine Griezmann",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Olivier Giroud",

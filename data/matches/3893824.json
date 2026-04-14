@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.496,
     "xg_away": 1.13,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Katie McCabe",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -513,7 +520,9 @@
       "player_full": "Asisat Lamina Oshoala",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -525,7 +534,9 @@
       "player_full": "Sinead Farrelly",
       "minute": 24,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -537,7 +548,9 @@
       "player_full": "Kyra Carusa",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.2,
@@ -549,7 +562,9 @@
       "player_full": "Antionette Oyedupe Payne",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.4,
@@ -561,7 +576,9 @@
       "player_full": "Antionette Oyedupe Payne",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -573,7 +590,9 @@
       "player_full": "Uchenna Kanu",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -585,7 +604,9 @@
       "player_full": "Asisat Lamina Oshoala",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -597,7 +618,9 @@
       "player_full": "Louise Quinn",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -609,7 +632,9 @@
       "player_full": "Denise O'Sullivan",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -621,7 +646,9 @@
       "player_full": "Ashleigh Plumptre",
       "minute": 70,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -633,7 +660,9 @@
       "player_full": "Ifeoma Onumonu",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.3,
@@ -645,7 +674,9 @@
       "player_full": "Michelle Alozie",
       "minute": 70,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.4,
@@ -657,7 +688,9 @@
       "player_full": "Halimatu Ibrahim Ayinde",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.2,
@@ -669,7 +702,9 @@
       "player_full": "Christy Onyenaturuchi Ucheibe",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -681,7 +716,9 @@
       "player_full": "Rasheedat Busayo Ajibade",
       "minute": 96,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Oluwatosin Blessing Demehin",
         "short": "Demehin",
-        "x": 81.94,
+        "x": 38.06,
         "y": 24.25,
         "size": 107.1,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Osinachi Marvis Ohale",
         "short": "Ohale",
-        "x": 78.86,
+        "x": 41.14,
         "y": 52.45,
         "size": 124.8,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Ashleigh Plumptre",
         "short": "Plumptre",
-        "x": 64.22,
+        "x": 55.78,
         "y": 9.45,
         "size": 112.3,
         "is_playmaker": true,
@@ -1003,7 +1040,7 @@
       {
         "id": "Michelle Alozie",
         "short": "Alozie",
-        "x": 64.77,
+        "x": 55.23,
         "y": 70.16,
         "size": 120.6,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Christy Onyenaturuchi Ucheibe",
         "short": "Ucheibe",
-        "x": 66.54,
+        "x": 53.46,
         "y": 46.85,
         "size": 101.9,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Rasheedat Busayo Ajibade",
         "short": "Ajibade",
-        "x": 50.08,
+        "x": 69.92,
         "y": 34.62,
         "size": 76.9,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Halimatu Ibrahim Ayinde",
         "short": "Ayinde",
-        "x": 66.04,
+        "x": 53.96,
         "y": 36.72,
         "size": 102.9,
         "is_playmaker": true,
@@ -1043,7 +1080,7 @@
       {
         "id": "Uchenna Kanu",
         "short": "Kanu",
-        "x": 52.36,
+        "x": 67.64,
         "y": 18.0,
         "size": 66.5,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Chiamaka Cynthia Nnadozie",
         "short": "Nnadozie",
-        "x": 111.46,
+        "x": 8.54,
         "y": 42.29,
         "size": 66.5,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Antionette Oyedupe Payne",
         "short": "Payne",
-        "x": 50.79,
+        "x": 69.21,
         "y": 46.66,
         "size": 66.5,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Asisat Lamina Oshoala",
         "short": "Oshoala",
-        "x": 42.9,
+        "x": 77.1,
         "y": 36.08,
         "size": 59.2,
         "is_playmaker": false,
@@ -1092,7 +1129,7 @@
         "source": "Oluwatosin Blessing Demehin",
         "target": "Ashleigh Plumptre",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Osinachi Marvis Ohale",
@@ -1104,31 +1141,31 @@
         "source": "Osinachi Marvis Ohale",
         "target": "Michelle Alozie",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Osinachi Marvis Ohale",
         "target": "Halimatu Ibrahim Ayinde",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashleigh Plumptre",
         "target": "Oluwatosin Blessing Demehin",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ashleigh Plumptre",
         "target": "Rasheedat Busayo Ajibade",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashleigh Plumptre",
         "target": "Uchenna Kanu",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ashleigh Plumptre",
@@ -1152,13 +1189,13 @@
         "source": "Michelle Alozie",
         "target": "Osinachi Marvis Ohale",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Michelle Alozie",
         "target": "Rasheedat Busayo Ajibade",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christy Onyenaturuchi Ucheibe",
@@ -1176,13 +1213,13 @@
         "source": "Christy Onyenaturuchi Ucheibe",
         "target": "Antionette Oyedupe Payne",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rasheedat Busayo Ajibade",
         "target": "Asisat Lamina Oshoala",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Halimatu Ibrahim Ayinde",
@@ -1194,7 +1231,7 @@
         "source": "Halimatu Ibrahim Ayinde",
         "target": "Osinachi Marvis Ohale",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Halimatu Ibrahim Ayinde",
@@ -1212,43 +1249,43 @@
         "source": "Halimatu Ibrahim Ayinde",
         "target": "Antionette Oyedupe Payne",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Uchenna Kanu",
         "target": "Christy Onyenaturuchi Ucheibe",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Chiamaka Cynthia Nnadozie",
         "target": "Michelle Alozie",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chiamaka Cynthia Nnadozie",
         "target": "Osinachi Marvis Ohale",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antionette Oyedupe Payne",
         "target": "Asisat Lamina Oshoala",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Asisat Lamina Oshoala",
         "target": "Rasheedat Busayo Ajibade",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Asisat Lamina Oshoala",
         "target": "Antionette Oyedupe Payne",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

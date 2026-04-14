@@ -9,6 +9,11 @@
     "away_color": "#da020e",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 2.022,
     "xg_away": 0.461,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Jessica Sigsworth",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.1,
@@ -513,7 +520,9 @@
       "player_full": "Millie Turner",
       "minute": 17,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -525,7 +534,9 @@
       "player_full": "Lauren James",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.4,
@@ -537,7 +548,9 @@
       "player_full": "Fara Williams",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -549,7 +562,9 @@
       "player_full": "Amalie Vevle Eikeland",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -561,7 +576,9 @@
       "player_full": "Martha Harris",
       "minute": 60,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -573,7 +590,9 @@
       "player_full": "Katie Zelem",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.1,
@@ -585,7 +604,9 @@
       "player_full": "Lauren James",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -597,7 +618,9 @@
       "player_full": "Fara Williams",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.5,
@@ -609,7 +632,9 @@
       "player_full": "Lauren James",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -621,7 +646,9 @@
       "player_full": "Fara Williams",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -633,7 +660,9 @@
       "player_full": "Fara Williams",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.8,
@@ -645,7 +674,9 @@
       "player_full": "Remi Allen",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +944,7 @@
       {
         "id": "Millie Turner",
         "short": "Turner",
-        "x": 81.39,
+        "x": 38.61,
         "y": 19.94,
         "size": 80.3,
         "is_playmaker": false,
@@ -923,7 +954,7 @@
       {
         "id": "Mary Alexandra Earps",
         "short": "Earps",
-        "x": 106.49,
+        "x": 13.51,
         "y": 41.7,
         "size": 94.1,
         "is_playmaker": true,
@@ -933,7 +964,7 @@
       {
         "id": "Kirsty Smith",
         "short": "Smith",
-        "x": 54.36,
+        "x": 65.64,
         "y": 8.61,
         "size": 130.9,
         "is_playmaker": false,
@@ -943,7 +974,7 @@
       {
         "id": "Lauren James",
         "short": "James",
-        "x": 41.47,
+        "x": 78.53,
         "y": 10.97,
         "size": 89.5,
         "is_playmaker": false,
@@ -953,7 +984,7 @@
       {
         "id": "Jane Ross",
         "short": "Ross",
-        "x": 49.55,
+        "x": 70.45,
         "y": 67.3,
         "size": 105.6,
         "is_playmaker": true,
@@ -963,7 +994,7 @@
       {
         "id": "Jessica Sigsworth",
         "short": "Sigsworth",
-        "x": 41.04,
+        "x": 78.96,
         "y": 53.37,
         "size": 73.4,
         "is_playmaker": false,
@@ -973,7 +1004,7 @@
       {
         "id": "Jackie Groenen",
         "short": "Groenen",
-        "x": 55.74,
+        "x": 64.26,
         "y": 46.73,
         "size": 75.7,
         "is_playmaker": false,
@@ -983,7 +1014,7 @@
       {
         "id": "Katie Zelem",
         "short": "Zelem",
-        "x": 43.77,
+        "x": 76.23,
         "y": 22.86,
         "size": 107.9,
         "is_playmaker": false,
@@ -993,7 +1024,7 @@
       {
         "id": "Hayley Ladd",
         "short": "Ladd",
-        "x": 57.49,
+        "x": 62.51,
         "y": 39.58,
         "size": 73.4,
         "is_playmaker": false,
@@ -1003,7 +1034,7 @@
       {
         "id": "Martha Harris",
         "short": "Harris",
-        "x": 58.81,
+        "x": 61.19,
         "y": 68.33,
         "size": 89.5,
         "is_playmaker": false,
@@ -1013,7 +1044,7 @@
       {
         "id": "Amy Turner",
         "short": "Turner",
-        "x": 87.46,
+        "x": 32.54,
         "y": 50.17,
         "size": 84.9,
         "is_playmaker": false,
@@ -1026,37 +1057,37 @@
         "source": "Millie Turner",
         "target": "Mary Alexandra Earps",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Millie Turner",
         "target": "Kirsty Smith",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mary Alexandra Earps",
         "target": "Amy Turner",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mary Alexandra Earps",
         "target": "Jane Ross",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kirsty Smith",
         "target": "Lauren James",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kirsty Smith",
         "target": "Katie Zelem",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kirsty Smith",
@@ -1068,25 +1099,25 @@
         "source": "Jane Ross",
         "target": "Jessica Sigsworth",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jane Ross",
         "target": "Martha Harris",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jessica Sigsworth",
         "target": "Jackie Groenen",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Katie Zelem",
         "target": "Kirsty Smith",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Katie Zelem",
@@ -1098,13 +1129,13 @@
         "source": "Hayley Ladd",
         "target": "Katie Zelem",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martha Harris",
         "target": "Jane Ross",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martha Harris",
@@ -1116,13 +1147,13 @@
         "source": "Amy Turner",
         "target": "Mary Alexandra Earps",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Amy Turner",
         "target": "Jane Ross",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

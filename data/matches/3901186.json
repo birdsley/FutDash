@@ -9,6 +9,11 @@
     "away_color": "#f0c500",
     "score_home": 2,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.797,
     "xg_away": 0.315,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Rachid Ghezzal",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -513,7 +520,9 @@
       "player_full": "Samuel Yves Umtiti",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.6,
@@ -525,7 +534,9 @@
       "player_full": "Youssouf Sabaly",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -537,7 +548,9 @@
       "player_full": "Corentin Tolisso",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.9,
@@ -549,7 +562,9 @@
       "player_full": "Guillaume Gillet",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.3,
@@ -561,7 +576,9 @@
       "player_full": "Sergi Darder Moll",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -573,7 +590,9 @@
       "player_full": "Adrien Thomasson",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.2,
@@ -585,7 +604,9 @@
       "player_full": "Guillaume Gillet",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -597,7 +618,9 @@
       "player_full": "Alejandro Bedoya",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.4,
@@ -609,7 +632,9 @@
       "player_full": "Léo Dubois",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -621,7 +646,9 @@
       "player_full": "Adrien Thomasson",
       "minute": 78,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -633,7 +660,9 @@
       "player_full": "Jordan Ferri",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -645,7 +674,9 @@
       "player_full": "Rachid Ghezzal",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -657,7 +688,9 @@
       "player_full": "Gaëtan Perrin",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -669,7 +702,9 @@
       "player_full": "Alexandre Lacazette",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +972,7 @@
       {
         "id": "Guillaume Gillet",
         "short": "Gillet",
-        "x": 70.35,
+        "x": 49.65,
         "y": 48.89,
         "size": 107.1,
         "is_playmaker": false,
@@ -947,7 +982,7 @@
       {
         "id": "Youssouf Sabaly",
         "short": "Sabaly",
-        "x": 69.17,
+        "x": 50.83,
         "y": 73.21,
         "size": 159.2,
         "is_playmaker": true,
@@ -957,7 +992,7 @@
       {
         "id": "Oswaldo Augusto Vizcarrondo Araújo",
         "short": "Araújo",
-        "x": 72.87,
+        "x": 47.13,
         "y": 54.69,
         "size": 63.4,
         "is_playmaker": false,
@@ -967,7 +1002,7 @@
       {
         "id": "Lorik Agim Cana",
         "short": "Cana",
-        "x": 81.46,
+        "x": 38.54,
         "y": 31.17,
         "size": 68.4,
         "is_playmaker": false,
@@ -977,7 +1012,7 @@
       {
         "id": "Léo Dubois",
         "short": "Dubois",
-        "x": 71.49,
+        "x": 48.51,
         "y": 11.54,
         "size": 108.8,
         "is_playmaker": false,
@@ -987,7 +1022,7 @@
       {
         "id": "Rémi Gomis",
         "short": "Gomis",
-        "x": 70.56,
+        "x": 49.44,
         "y": 46.33,
         "size": 76.8,
         "is_playmaker": false,
@@ -997,7 +1032,7 @@
       {
         "id": "Alejandro Bedoya",
         "short": "Bedoya",
-        "x": 72.23,
+        "x": 47.77,
         "y": 61.99,
         "size": 97.0,
         "is_playmaker": false,
@@ -1007,7 +1042,7 @@
       {
         "id": "Kolbeinn Sigþórsson",
         "short": "Sigþórsson",
-        "x": 50.08,
+        "x": 69.92,
         "y": 45.82,
         "size": 107.1,
         "is_playmaker": true,
@@ -1017,7 +1052,7 @@
       {
         "id": "Rémy Riou",
         "short": "Riou",
-        "x": 106.41,
+        "x": 13.59,
         "y": 37.94,
         "size": 66.8,
         "is_playmaker": false,
@@ -1027,7 +1062,7 @@
       {
         "id": "Adrien Thomasson",
         "short": "Thomasson",
-        "x": 56.38,
+        "x": 63.62,
         "y": 17.7,
         "size": 85.3,
         "is_playmaker": false,
@@ -1037,7 +1072,7 @@
       {
         "id": "Emiliano Sala",
         "short": "Sala",
-        "x": 41.32,
+        "x": 78.68,
         "y": 42.13,
         "size": 65.1,
         "is_playmaker": false,
@@ -1086,25 +1121,25 @@
         "source": "Youssouf Sabaly",
         "target": "Kolbeinn Sigþórsson",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lorik Agim Cana",
         "target": "Léo Dubois",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Léo Dubois",
         "target": "Adrien Thomasson",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Léo Dubois",
         "target": "Kolbeinn Sigþórsson",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rémi Gomis",
@@ -1116,7 +1151,7 @@
         "source": "Alejandro Bedoya",
         "target": "Kolbeinn Sigþórsson",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alejandro Bedoya",
@@ -1128,19 +1163,19 @@
         "source": "Kolbeinn Sigþórsson",
         "target": "Emiliano Sala",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rémy Riou",
         "target": "Kolbeinn Sigþórsson",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adrien Thomasson",
         "target": "Léo Dubois",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

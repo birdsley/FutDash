@@ -9,6 +9,11 @@
     "away_color": "#1457a8",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.611,
     "xg_away": 1.265,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Luc Castaignos",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.7,
@@ -513,7 +520,9 @@
       "player_full": "Andrej Kramarić",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.1,
@@ -525,7 +534,9 @@
       "player_full": "David Ángel Abraham",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.7,
@@ -537,7 +548,9 @@
       "player_full": "Sonny Kittel",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.8,
@@ -549,7 +562,9 @@
       "player_full": "Sonny Kittel",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -561,7 +576,9 @@
       "player_full": "Andrej Kramarić",
       "minute": 33,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -573,7 +590,9 @@
       "player_full": "Andrej Kramarić",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.0,
@@ -585,7 +604,9 @@
       "player_full": "Marc Stendera",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -597,7 +618,9 @@
       "player_full": "Luc Castaignos",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -609,7 +632,9 @@
       "player_full": "Änis Ben-Hatira",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.7,
@@ -621,7 +646,9 @@
       "player_full": "Stefan Aigner",
       "minute": 47,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -633,7 +660,9 @@
       "player_full": "Carlos Augusto Zambrano Ochandarte",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -645,7 +674,9 @@
       "player_full": "Andrej Kramarić",
       "minute": 58,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.1,
@@ -657,7 +688,9 @@
       "player_full": "Nadiem Amiri",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -669,7 +702,9 @@
       "player_full": "Sonny Kittel",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -681,7 +716,9 @@
       "player_full": "Mark Uth",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -693,7 +730,9 @@
       "player_full": "Mark Uth",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Jeremy Toljan",
         "short": "Toljan",
-        "x": 62.41,
+        "x": 57.59,
         "y": 7.56,
         "size": 77.6,
         "is_playmaker": false,
@@ -971,7 +1010,7 @@
       {
         "id": "Niklas Süle",
         "short": "Süle",
-        "x": 82.7,
+        "x": 37.3,
         "y": 22.97,
         "size": 117.9,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Fabian Lukas Schär",
         "short": "Schär",
-        "x": 81.09,
+        "x": 38.91,
         "y": 57.3,
         "size": 151.8,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Oliver Baumann",
         "short": "Baumann",
-        "x": 107.4,
+        "x": 12.6,
         "y": 39.47,
         "size": 124.4,
         "is_playmaker": false,
@@ -1001,7 +1040,7 @@
       {
         "id": "Eduardo Jesús Vargas Rojas",
         "short": "Rojas",
-        "x": 44.66,
+        "x": 75.34,
         "y": 43.47,
         "size": 72.7,
         "is_playmaker": false,
@@ -1011,7 +1050,7 @@
       {
         "id": "Kevin Volland",
         "short": "Volland",
-        "x": 49.91,
+        "x": 70.09,
         "y": 12.74,
         "size": 66.3,
         "is_playmaker": false,
@@ -1021,7 +1060,7 @@
       {
         "id": "Pavel Kadeřábek",
         "short": "Kadeřábek",
-        "x": 64.85,
+        "x": 55.15,
         "y": 73.7,
         "size": 106.6,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Tobias Strobl",
         "short": "Strobl",
-        "x": 64.17,
+        "x": 55.83,
         "y": 46.41,
         "size": 79.2,
         "is_playmaker": true,
@@ -1041,7 +1080,7 @@
       {
         "id": "Sebastian Rudy",
         "short": "Rudy",
-        "x": 56.59,
+        "x": 63.41,
         "y": 30.87,
         "size": 85.6,
         "is_playmaker": true,
@@ -1049,24 +1088,24 @@
         "eigenvector": 0.3012
       },
       {
-        "id": "Andrej Kramarić",
-        "short": "Kramarić",
-        "x": 39.42,
-        "y": 15.8,
-        "size": 61.5,
-        "is_playmaker": false,
-        "betweenness": 0.2611,
-        "eigenvector": 0.0206
-      },
-      {
         "id": "Philipp Ochs",
         "short": "Ochs",
-        "x": 71.61,
+        "x": 48.39,
         "y": 40.05,
         "size": 61.5,
         "is_playmaker": false,
         "betweenness": 0.3722,
         "eigenvector": 0.0286
+      },
+      {
+        "id": "Andrej Kramarić",
+        "short": "Kramarić",
+        "x": 80.58,
+        "y": 15.8,
+        "size": 61.5,
+        "is_playmaker": false,
+        "betweenness": 0.2611,
+        "eigenvector": 0.0206
       }
     ],
     "edges": [
@@ -1074,13 +1113,13 @@
         "source": "Jeremy Toljan",
         "target": "Niklas Süle",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jeremy Toljan",
         "target": "Oliver Baumann",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Niklas Süle",
@@ -1092,85 +1131,85 @@
         "source": "Niklas Süle",
         "target": "Oliver Baumann",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Niklas Süle",
         "target": "Jeremy Toljan",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Oliver Baumann",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Pavel Kadeřábek",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Tobias Strobl",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabian Lukas Schär",
         "target": "Sebastian Rudy",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oliver Baumann",
         "target": "Fabian Lukas Schär",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oliver Baumann",
         "target": "Niklas Süle",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oliver Baumann",
         "target": "Pavel Kadeřábek",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eduardo Jesús Vargas Rojas",
         "target": "Kevin Volland",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kevin Volland",
         "target": "Andrej Kramarić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pavel Kadeřábek",
         "target": "Eduardo Jesús Vargas Rojas",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pavel Kadeřábek",
         "target": "Fabian Lukas Schär",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tobias Strobl",
         "target": "Fabian Lukas Schär",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tobias Strobl",
@@ -1182,35 +1221,23 @@
         "source": "Tobias Strobl",
         "target": "Philipp Ochs",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sebastian Rudy",
         "target": "Niklas Süle",
         "weight": 7,
-        "direction": "forward"
-      },
-      {
-        "source": "Sebastian Rudy",
-        "target": "Andrej Kramarić",
-        "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Sebastian Rudy",
         "target": "Philipp Ochs",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Andrej Kramarić",
-        "target": "Kevin Volland",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Andrej Kramarić",
-        "target": "Sebastian Rudy",
+        "source": "Sebastian Rudy",
+        "target": "Andrej Kramarić",
         "weight": 1,
         "direction": "forward"
       },
@@ -1218,10 +1245,22 @@
         "source": "Philipp Ochs",
         "target": "Tobias Strobl",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Philipp Ochs",
+        "target": "Sebastian Rudy",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Andrej Kramarić",
+        "target": "Kevin Volland",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrej Kramarić",
         "target": "Sebastian Rudy",
         "weight": 1,
         "direction": "backward"

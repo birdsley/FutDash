@@ -9,6 +9,11 @@
     "away_color": "#be0f0c",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.773,
     "xg_away": 0.382,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.1,
@@ -513,7 +520,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -525,7 +534,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -537,7 +548,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -549,7 +562,9 @@
       "player_full": "Youcef Atal",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -561,7 +576,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -573,7 +590,9 @@
       "player_full": "Gaëtan Laborde",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -585,7 +604,9 @@
       "player_full": "Melvin Bard",
       "minute": 51,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.8,
@@ -597,7 +618,9 @@
       "player_full": "Vitor Machado Ferreira",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.2,
@@ -609,7 +632,9 @@
       "player_full": "Vitor Machado Ferreira",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.1,
@@ -621,7 +646,9 @@
       "player_full": "Neymar da Silva Santos Junior",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -633,7 +660,9 @@
       "player_full": "Khéphren Thuram-Ulien",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -645,7 +674,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -657,7 +688,9 @@
       "player_full": "Marcos Aoás Corrêa",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -669,7 +702,9 @@
       "player_full": "Nordi Mukiele Mulere",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.8,
@@ -681,7 +716,9 @@
       "player_full": "Vitor Machado Ferreira",
       "minute": 89,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Dante Bonfim da Costa Santos",
         "short": "Santos",
-        "x": 85.73,
+        "x": 34.27,
         "y": 33.61,
         "size": 113.4,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Mattia Viti",
         "short": "Viti",
-        "x": 78.53,
+        "x": 41.47,
         "y": 16.31,
         "size": 122.0,
         "is_playmaker": true,
@@ -993,7 +1030,7 @@
       {
         "id": "Melvin Bard",
         "short": "Bard",
-        "x": 53.89,
+        "x": 66.11,
         "y": 7.27,
         "size": 95.2,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Sofiane Diop",
         "short": "Diop",
-        "x": 54.3,
+        "x": 65.7,
         "y": 20.37,
         "size": 128.7,
         "is_playmaker": true,
@@ -1013,7 +1050,7 @@
       {
         "id": "Pablo Paulino Rosario",
         "short": "Rosario",
-        "x": 73.11,
+        "x": 46.89,
         "y": 63.29,
         "size": 89.4,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Aaron Ramsey",
         "short": "Ramsey",
-        "x": 59.56,
+        "x": 60.44,
         "y": 31.23,
         "size": 116.2,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Mario Lemina",
         "short": "Lemina",
-        "x": 58.96,
+        "x": 61.04,
         "y": 38.13,
         "size": 77.0,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Ross Barkley",
         "short": "Barkley",
-        "x": 44.97,
+        "x": 75.03,
         "y": 39.89,
         "size": 78.9,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Kasper Schmeichel",
         "short": "Schmeichel",
-        "x": 110.33,
+        "x": 9.67,
         "y": 42.73,
         "size": 62.7,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Youcef Atal",
         "short": "Atal",
-        "x": 56.03,
+        "x": 63.97,
         "y": 69.97,
         "size": 62.7,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Gaëtan Laborde",
         "short": "Laborde",
-        "x": 52.7,
+        "x": 67.3,
         "y": 38.06,
         "size": 58.8,
         "is_playmaker": false,
@@ -1086,43 +1123,43 @@
         "source": "Dante Bonfim da Costa Santos",
         "target": "Mattia Viti",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dante Bonfim da Costa Santos",
         "target": "Pablo Paulino Rosario",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dante Bonfim da Costa Santos",
         "target": "Sofiane Diop",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dante Bonfim da Costa Santos",
         "target": "Mario Lemina",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mattia Viti",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mattia Viti",
         "target": "Melvin Bard",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mattia Viti",
         "target": "Sofiane Diop",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Melvin Bard",
@@ -1134,13 +1171,13 @@
         "source": "Melvin Bard",
         "target": "Mattia Viti",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sofiane Diop",
         "target": "Aaron Ramsey",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sofiane Diop",
@@ -1152,49 +1189,49 @@
         "source": "Sofiane Diop",
         "target": "Ross Barkley",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sofiane Diop",
         "target": "Mattia Viti",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pablo Paulino Rosario",
         "target": "Dante Bonfim da Costa Santos",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pablo Paulino Rosario",
         "target": "Aaron Ramsey",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aaron Ramsey",
         "target": "Sofiane Diop",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aaron Ramsey",
         "target": "Melvin Bard",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aaron Ramsey",
         "target": "Mattia Viti",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aaron Ramsey",
         "target": "Ross Barkley",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mario Lemina",
@@ -1206,49 +1243,49 @@
         "source": "Mario Lemina",
         "target": "Sofiane Diop",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mario Lemina",
         "target": "Gaëtan Laborde",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ross Barkley",
         "target": "Aaron Ramsey",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ross Barkley",
         "target": "Gaëtan Laborde",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kasper Schmeichel",
         "target": "Mattia Viti",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Youcef Atal",
         "target": "Pablo Paulino Rosario",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaëtan Laborde",
         "target": "Mario Lemina",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaëtan Laborde",
         "target": "Ross Barkley",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

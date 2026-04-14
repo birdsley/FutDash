@@ -7,12 +7,17 @@
     "home_color": "#fb090b",
     "away_color_raw": "#00a398",
     "away_color": "#00a398",
-    "score_home": 5,
-    "score_away": 6,
-    "xg_home": 6.29,
-    "xg_away": 4.931,
-    "shots_home": 28,
-    "shots_away": 21,
+    "score_home": 3,
+    "score_away": 3,
+    "penalty_home": 2,
+    "penalty_away": 3,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 128,
+    "xg_home": 3.156,
+    "xg_away": 1.797,
+    "shots_home": 24,
+    "shots_away": 17,
     "possession_home": 51.8,
     "competition": "Champions League",
     "season": "2004/2005",
@@ -111,7 +116,43 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
     ],
     "home": [
       0.0647,
@@ -205,7 +246,43 @@
       2.2957,
       2.2957,
       2.2957,
-      6.2894
+      2.3017,
+      2.3017,
+      2.3017,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3287,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      2.3701,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554,
+      3.1554
     ],
     "away": [
       0.0,
@@ -299,195 +376,303 @@
       1.7413,
       1.7413,
       1.7413,
-      4.9305
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7413,
+      1.7724,
+      1.7724,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7793,
+      1.7965,
+      1.7965,
+      1.7965,
+      1.7965,
+      1.7965,
+      1.7965,
+      1.7965
     ],
     "pressure_home": [
-      0.0251,
-      0.0251,
-      0.0251,
-      0.0251,
-      0.0402,
-      0.0603,
-      0.0653,
-      0.0653,
-      0.1759,
-      0.2563,
-      0.2613,
-      0.2714,
-      0.2814,
-      0.3216,
-      0.3065,
-      0.2864,
-      0.2814,
-      0.3065,
-      0.206,
-      0.1407,
-      0.1106,
-      0.1005,
-      0.0905,
-      0.0503,
-      0.0704,
-      0.0804,
-      0.0804,
-      0.0553,
-      0.0553,
-      0.0402,
-      0.0503,
-      0.0603,
-      0.0603,
-      0.0603,
-      0.0402,
-      0.0402,
-      0.0553,
-      0.0653,
-      0.0854,
-      0.0854,
-      0.1407,
-      0.1307,
-      0.1407,
-      0.1407,
-      0.1457,
-      0.1457,
-      0.1357,
-      0.1407,
-      0.1859,
-      0.1859,
-      0.1206,
-      0.1457,
-      0.1558,
-      0.1558,
-      0.1508,
-      0.1407,
-      0.1357,
-      0.1206,
-      0.0503,
-      0.0503,
-      0.0603,
-      0.0754,
-      0.0553,
-      0.0955,
-      0.1407,
-      0.2111,
-      0.2261,
-      0.2513,
-      0.2462,
-      0.2915,
-      0.2814,
-      0.2412,
-      0.2412,
-      0.201,
-      0.1558,
-      0.0854,
-      0.1256,
-      0.1055,
-      0.1156,
-      0.1055,
-      0.1307,
-      0.1558,
-      0.1558,
-      0.1608,
-      0.1608,
-      0.1658,
-      0.1558,
-      0.1658,
-      0.1759,
-      0.1457,
-      0.1709,
-      1.0
+      0.0725,
+      0.0725,
+      0.0725,
+      0.0725,
+      0.1159,
+      0.1739,
+      0.1884,
+      0.1884,
+      0.5072,
+      0.7391,
+      0.7536,
+      0.7826,
+      0.8116,
+      0.9275,
+      0.8841,
+      0.8261,
+      0.8116,
+      0.8841,
+      0.5942,
+      0.4058,
+      0.3188,
+      0.2899,
+      0.2609,
+      0.1449,
+      0.2029,
+      0.2319,
+      0.2319,
+      0.1594,
+      0.1594,
+      0.1159,
+      0.1449,
+      0.1739,
+      0.1739,
+      0.1739,
+      0.1159,
+      0.1159,
+      0.1594,
+      0.1884,
+      0.2464,
+      0.2464,
+      0.4058,
+      0.3768,
+      0.4058,
+      0.4058,
+      0.4203,
+      0.4203,
+      0.3913,
+      0.4058,
+      0.5362,
+      0.5362,
+      0.3478,
+      0.4203,
+      0.4493,
+      0.4493,
+      0.4348,
+      0.4058,
+      0.3913,
+      0.3478,
+      0.1449,
+      0.1449,
+      0.1739,
+      0.2174,
+      0.1594,
+      0.2754,
+      0.4058,
+      0.6087,
+      0.6522,
+      0.7246,
+      0.7101,
+      0.8406,
+      0.8116,
+      0.6957,
+      0.6957,
+      0.5797,
+      0.4493,
+      0.2464,
+      0.3623,
+      0.3043,
+      0.3333,
+      0.3043,
+      0.3768,
+      0.4493,
+      0.4493,
+      0.4638,
+      0.4638,
+      0.4783,
+      0.4493,
+      0.4783,
+      0.5072,
+      0.4203,
+      0.4928,
+      0.6522,
+      0.6522,
+      0.6667,
+      0.6812,
+      0.9565,
+      0.9275,
+      0.971,
+      0.9855,
+      1.0,
+      0.9275,
+      0.7391,
+      0.7681,
+      0.8406,
+      0.8261,
+      0.8261,
+      0.7246,
+      0.6667,
+      0.6087,
+      0.8551,
+      0.7826,
+      0.8116,
+      0.7826,
+      0.7971,
+      0.8261,
+      0.6667,
+      0.7246,
+      0.8406,
+      0.9565,
+      0.6957,
+      0.7101,
+      0.6522,
+      0.6522,
+      0.5507,
+      0.5217,
+      0.4058,
+      0.3478,
+      0.2029
     ],
     "pressure_away": [
       0.0,
-      0.0519,
-      0.0519,
-      0.0519,
-      0.0593,
-      0.0889,
-      0.0963,
-      0.0963,
-      0.0963,
-      0.1111,
-      0.1111,
-      0.0593,
-      0.0963,
-      0.1111,
-      0.1111,
-      0.0889,
-      0.1852,
-      0.237,
-      0.2444,
-      0.237,
-      0.2741,
-      0.2815,
-      0.2519,
-      0.2519,
-      0.2519,
-      0.2519,
-      0.163,
-      0.1185,
-      0.1259,
-      0.1185,
-      0.0889,
-      0.0963,
-      0.1111,
-      0.1407,
-      0.2148,
-      0.2296,
-      0.2222,
-      0.2222,
-      0.2074,
-      0.2074,
-      0.2074,
-      0.1926,
-      0.2519,
-      0.2074,
-      0.1259,
-      0.1407,
-      0.2296,
-      0.3037,
-      0.3704,
-      0.3704,
-      0.3852,
-      0.3852,
-      0.3407,
-      0.3407,
-      0.3407,
-      0.3259,
-      0.2593,
-      0.1852,
-      0.1185,
-      0.1185,
-      0.1111,
-      0.1111,
-      0.0815,
-      0.0815,
-      0.1185,
-      0.1111,
-      0.1037,
-      0.1481,
-      0.1481,
-      0.1481,
-      0.1556,
-      0.2074,
-      0.2,
-      0.2593,
-      0.2667,
-      0.2519,
-      0.3185,
-      0.3704,
-      0.4667,
-      0.4741,
-      0.4667,
-      0.4222,
-      0.4222,
-      0.4519,
-      0.4074,
-      0.437,
-      0.3778,
-      0.2741,
-      0.1852,
-      0.2,
-      0.237,
-      1.0
+      0.1094,
+      0.1094,
+      0.1094,
+      0.125,
+      0.1875,
+      0.2031,
+      0.2031,
+      0.2031,
+      0.2344,
+      0.2344,
+      0.125,
+      0.2031,
+      0.2344,
+      0.2344,
+      0.1875,
+      0.3906,
+      0.5,
+      0.5156,
+      0.5,
+      0.5781,
+      0.5938,
+      0.5312,
+      0.5312,
+      0.5312,
+      0.5312,
+      0.3438,
+      0.25,
+      0.2656,
+      0.25,
+      0.1875,
+      0.2031,
+      0.2344,
+      0.2969,
+      0.4531,
+      0.4844,
+      0.4688,
+      0.4688,
+      0.4375,
+      0.4375,
+      0.4375,
+      0.4062,
+      0.5312,
+      0.4375,
+      0.2656,
+      0.2969,
+      0.4844,
+      0.6406,
+      0.7812,
+      0.7812,
+      0.8125,
+      0.8125,
+      0.7188,
+      0.7188,
+      0.7188,
+      0.6875,
+      0.5469,
+      0.3906,
+      0.25,
+      0.25,
+      0.2344,
+      0.2344,
+      0.1719,
+      0.1719,
+      0.25,
+      0.2344,
+      0.2188,
+      0.3125,
+      0.3125,
+      0.3125,
+      0.3281,
+      0.4375,
+      0.4219,
+      0.5469,
+      0.5625,
+      0.5312,
+      0.6719,
+      0.7812,
+      0.9844,
+      1.0,
+      0.9844,
+      0.8906,
+      0.8906,
+      0.9531,
+      0.8594,
+      0.9219,
+      0.7969,
+      0.5781,
+      0.3906,
+      0.4219,
+      0.5,
+      0.5781,
+      0.5938,
+      0.4219,
+      0.4375,
+      0.375,
+      0.3906,
+      0.5312,
+      0.5469,
+      0.5156,
+      0.4375,
+      0.4531,
+      0.4688,
+      0.4688,
+      0.4688,
+      0.5469,
+      0.75,
+      0.6406,
+      0.6094,
+      0.625,
+      0.6094,
+      0.5,
+      0.5312,
+      0.5312,
+      0.5156,
+      0.5625,
+      0.3906,
+      0.4062,
+      0.5781,
+      0.5938,
+      0.5781,
+      0.5781,
+      0.5156,
+      0.5,
+      0.5,
+      0.375,
+      0.2656,
+      0.2188
     ]
   },
   "shots": [
@@ -501,7 +686,9 @@
       "player_full": "Paolo Maldini",
       "minute": 0,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.4,
@@ -513,7 +700,9 @@
       "player_full": "John Arne Semundseth Riise",
       "minute": 3,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.9,
@@ -525,7 +714,9 @@
       "player_full": "Sami Hyypiä",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.5,
@@ -537,7 +728,9 @@
       "player_full": "Ivan Gennaro Gattuso",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.9,
@@ -549,7 +742,9 @@
       "player_full": "Hernán Jorge Crespo",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -561,7 +756,9 @@
       "player_full": "Jaap Stam",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -573,7 +770,9 @@
       "player_full": "Ricardo Izecson dos Santos Leite",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -585,7 +784,9 @@
       "player_full": "Milan Baroš",
       "minute": 29,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.2,
@@ -597,7 +798,9 @@
       "player_full": "Luis Javier García Sanz",
       "minute": 32,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.7,
@@ -609,7 +812,9 @@
       "player_full": "Luis Javier García Sanz",
       "minute": 35,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -621,7 +826,9 @@
       "player_full": "Hernán Jorge Crespo",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -633,7 +840,9 @@
       "player_full": "Hernán Jorge Crespo",
       "minute": 42,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.5,
@@ -645,7 +854,9 @@
       "player_full": "Ricardo Izecson dos Santos Leite",
       "minute": 45,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.9,
@@ -657,7 +868,9 @@
       "player_full": "Marcos Evangelista de Moraes",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -669,7 +882,9 @@
       "player_full": "Paolo Maldini",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.3,
@@ -681,7 +896,9 @@
       "player_full": "Xabier Alonso Olano",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.1,
@@ -693,7 +910,9 @@
       "player_full": "Andriy Shevchenko",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -705,7 +924,9 @@
       "player_full": "Steven Gerrard",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -717,7 +938,9 @@
       "player_full": "Vladimir Smicer",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.9,
@@ -729,7 +952,9 @@
       "player_full": "Xabier Alonso Olano",
       "minute": 56,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -741,7 +966,9 @@
       "player_full": "Xabier Alonso Olano",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.9,
@@ -753,7 +980,9 @@
       "player_full": "Xabier Alonso Olano",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.4,
@@ -765,7 +994,9 @@
       "player_full": "Paolo Maldini",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -777,7 +1008,9 @@
       "player_full": "Clarence Seedorf",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -789,7 +1022,9 @@
       "player_full": "John Arne Semundseth Riise",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -801,7 +1036,9 @@
       "player_full": "Andriy Shevchenko",
       "minute": 69,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.1,
@@ -813,7 +1050,9 @@
       "player_full": "Alessandro Nesta",
       "minute": 69,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -825,7 +1064,9 @@
       "player_full": "Steven Gerrard",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.4,
@@ -837,7 +1078,9 @@
       "player_full": "Vladimir Smicer",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -849,7 +1092,9 @@
       "player_full": "Ricardo Izecson dos Santos Leite",
       "minute": 79,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -861,7 +1106,9 @@
       "player_full": "Andriy Shevchenko",
       "minute": 81,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -873,7 +1120,9 @@
       "player_full": "Jaap Stam",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.1,
@@ -885,7 +1134,9 @@
       "player_full": "Ricardo Izecson dos Santos Leite",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 80.4,
@@ -897,7 +1148,9 @@
       "player_full": "Andrea Pirlo",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.4,
@@ -909,7 +1162,9 @@
       "player_full": "Andrea Pirlo",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -921,7 +1176,9 @@
       "player_full": "Andriy Shevchenko",
       "minute": 105,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -933,7 +1190,9 @@
       "player_full": "Dietmar Hamann",
       "minute": 107,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.9,
@@ -945,7 +1204,9 @@
       "player_full": "Djibril Cissé",
       "minute": 109,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.4,
@@ -957,7 +1218,9 @@
       "player_full": "Andriy Shevchenko",
       "minute": 117,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.3,
@@ -969,7 +1232,9 @@
       "player_full": "Andriy Shevchenko",
       "minute": 117,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.3,
@@ -981,7 +1246,9 @@
       "player_full": "John Arne Semundseth Riise",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -993,7 +1260,9 @@
       "player_full": "Claudio Santos",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -1005,7 +1274,9 @@
       "player_full": "Dietmar Hamann",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -1017,7 +1288,9 @@
       "player_full": "Andrea Pirlo",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.8,
@@ -1029,7 +1302,9 @@
       "player_full": "Djibril Cissé",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 107.9,
@@ -1041,7 +1316,9 @@
       "player_full": "Jon Dahl Tomasson",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1053,7 +1330,9 @@
       "player_full": "John Arne Semundseth Riise",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1065,7 +1344,9 @@
       "player_full": "Ricardo Izecson dos Santos Leite",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1077,7 +1358,9 @@
       "player_full": "Vladimir Smicer",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1393,7 +1676,7 @@
       {
         "id": "Djimi Traoré",
         "short": "Traoré",
-        "x": 76.32,
+        "x": 43.68,
         "y": 13.5,
         "size": 114.3,
         "is_playmaker": false,
@@ -1403,7 +1686,7 @@
       {
         "id": "John Arne Semundseth Riise",
         "short": "Riise",
-        "x": 48.37,
+        "x": 71.63,
         "y": 7.66,
         "size": 115.3,
         "is_playmaker": false,
@@ -1413,7 +1696,7 @@
       {
         "id": "Steven Gerrard",
         "short": "Gerrard",
-        "x": 55.6,
+        "x": 64.4,
         "y": 45.44,
         "size": 126.8,
         "is_playmaker": true,
@@ -1423,7 +1706,7 @@
       {
         "id": "Xabier Alonso Olano",
         "short": "Olano",
-        "x": 60.86,
+        "x": 59.14,
         "y": 44.57,
         "size": 133.5,
         "is_playmaker": true,
@@ -1433,7 +1716,7 @@
       {
         "id": "Sami Hyypiä",
         "short": "Hyypiä",
-        "x": 84.16,
+        "x": 35.84,
         "y": 31.24,
         "size": 114.3,
         "is_playmaker": false,
@@ -1443,7 +1726,7 @@
       {
         "id": "Jamie Carragher",
         "short": "Carragher",
-        "x": 77.54,
+        "x": 42.46,
         "y": 60.11,
         "size": 83.7,
         "is_playmaker": false,
@@ -1453,7 +1736,7 @@
       {
         "id": "Steve Finnan",
         "short": "Finnan",
-        "x": 50.5,
+        "x": 69.5,
         "y": 75.95,
         "size": 67.4,
         "is_playmaker": false,
@@ -1463,7 +1746,7 @@
       {
         "id": "Luis Javier García Sanz",
         "short": "Sanz",
-        "x": 50.04,
+        "x": 69.96,
         "y": 44.31,
         "size": 71.3,
         "is_playmaker": false,
@@ -1473,7 +1756,7 @@
       {
         "id": "Jerzy Dudek",
         "short": "Dudek",
-        "x": 110.62,
+        "x": 9.38,
         "y": 39.93,
         "size": 60.7,
         "is_playmaker": false,
@@ -1481,20 +1764,20 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Harry Kewell",
-        "short": "Kewell",
-        "x": 42.2,
-        "y": 44.47,
+        "id": "Milan Baroš",
+        "short": "Baroš",
+        "x": 81.13,
+        "y": 44.99,
         "size": 58.8,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.007
       },
       {
-        "id": "Milan Baroš",
-        "short": "Baroš",
-        "x": 38.87,
-        "y": 44.99,
+        "id": "Harry Kewell",
+        "short": "Kewell",
+        "x": 77.8,
+        "y": 44.47,
         "size": 58.8,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1506,168 +1789,156 @@
         "source": "Djimi Traoré",
         "target": "John Arne Semundseth Riise",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Djimi Traoré",
         "target": "Sami Hyypiä",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Djimi Traoré",
         "target": "Xabier Alonso Olano",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Arne Semundseth Riise",
         "target": "Djimi Traoré",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "John Arne Semundseth Riise",
         "target": "Steven Gerrard",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "John Arne Semundseth Riise",
         "target": "Xabier Alonso Olano",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Steven Gerrard",
         "target": "Xabier Alonso Olano",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Steven Gerrard",
         "target": "Steve Finnan",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steven Gerrard",
         "target": "John Arne Semundseth Riise",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steven Gerrard",
         "target": "Luis Javier García Sanz",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Steven Gerrard",
         "target": "Djimi Traoré",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Steven Gerrard",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "John Arne Semundseth Riise",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Luis Javier García Sanz",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Djimi Traoré",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xabier Alonso Olano",
         "target": "Sami Hyypiä",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sami Hyypiä",
         "target": "Jamie Carragher",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sami Hyypiä",
         "target": "Xabier Alonso Olano",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sami Hyypiä",
         "target": "Djimi Traoré",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sami Hyypiä",
         "target": "Steven Gerrard",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jamie Carragher",
         "target": "Steven Gerrard",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jamie Carragher",
         "target": "Sami Hyypiä",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Steve Finnan",
         "target": "Xabier Alonso Olano",
         "weight": 5,
-        "direction": "forward"
-      },
-      {
-        "source": "Luis Javier García Sanz",
-        "target": "Harry Kewell",
-        "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Luis Javier García Sanz",
         "target": "Milan Baroš",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "Luis Javier García Sanz",
+        "target": "Harry Kewell",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Jerzy Dudek",
         "target": "John Arne Semundseth Riise",
         "weight": 6,
-        "direction": "backward"
-      },
-      {
-        "source": "Harry Kewell",
-        "target": "Milan Baroš",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Harry Kewell",
-        "target": "Luis Javier García Sanz",
-        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1680,7 +1951,19 @@
         "source": "Milan Baroš",
         "target": "Luis Javier García Sanz",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
+      },
+      {
+        "source": "Harry Kewell",
+        "target": "Milan Baroš",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Harry Kewell",
+        "target": "Luis Javier García Sanz",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

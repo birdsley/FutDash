@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.588,
     "xg_away": 0.202,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Ronny Rodelin",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -513,7 +520,9 @@
       "player_full": "Hervé Bazile",
       "minute": 20,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -525,7 +534,9 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.5,
@@ -537,7 +548,9 @@
       "player_full": "Julien Féret",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -549,7 +562,9 @@
       "player_full": "Martin Braithwaite Christensen",
       "minute": 42,
       "technique": "Backheel",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.4,
@@ -561,7 +576,9 @@
       "player_full": "Andy Delort",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -573,7 +590,9 @@
       "player_full": "Tongo Hamed Doumbia",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.9,
@@ -585,7 +604,9 @@
       "player_full": "Ronny Rodelin",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.9,
@@ -597,7 +618,9 @@
       "player_full": "Andy Delort",
       "minute": 62,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.1,
@@ -609,7 +632,9 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.0,
@@ -621,7 +646,9 @@
       "player_full": "Alexis Blin",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -633,7 +660,9 @@
       "player_full": "Martin Braithwaite Christensen",
       "minute": 84,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.1,
@@ -645,7 +674,9 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +956,7 @@
       {
         "id": "Dennis Appiah",
         "short": "Appiah",
-        "x": 61.91,
+        "x": 58.09,
         "y": 75.82,
         "size": 91.2,
         "is_playmaker": false,
@@ -935,7 +966,7 @@
       {
         "id": "Ronny Rodelin",
         "short": "Rodelin",
-        "x": 44.75,
+        "x": 75.25,
         "y": 33.78,
         "size": 113.3,
         "is_playmaker": false,
@@ -945,7 +976,7 @@
       {
         "id": "Jonathan Delaplace",
         "short": "Delaplace",
-        "x": 60.84,
+        "x": 59.16,
         "y": 46.01,
         "size": 70.7,
         "is_playmaker": false,
@@ -955,7 +986,7 @@
       {
         "id": "Ismaël Tiémoko Diomandé",
         "short": "Diomandé",
-        "x": 61.22,
+        "x": 58.78,
         "y": 39.2,
         "size": 88.1,
         "is_playmaker": true,
@@ -965,7 +996,7 @@
       {
         "id": "Julien Féret",
         "short": "Féret",
-        "x": 49.29,
+        "x": 70.71,
         "y": 36.18,
         "size": 111.7,
         "is_playmaker": false,
@@ -975,7 +1006,7 @@
       {
         "id": "Alexandre Raineau",
         "short": "Raineau",
-        "x": 61.29,
+        "x": 58.71,
         "y": 10.1,
         "size": 132.2,
         "is_playmaker": true,
@@ -985,7 +1016,7 @@
       {
         "id": "Andy Delort",
         "short": "Delort",
-        "x": 42.87,
+        "x": 77.13,
         "y": 27.28,
         "size": 91.2,
         "is_playmaker": false,
@@ -995,7 +1026,7 @@
       {
         "id": "Hervé Bazile",
         "short": "Bazile",
-        "x": 57.36,
+        "x": 62.64,
         "y": 13.29,
         "size": 75.5,
         "is_playmaker": false,
@@ -1005,7 +1036,7 @@
       {
         "id": "Alaeddine Yahia",
         "short": "Yahia",
-        "x": 77.91,
+        "x": 42.09,
         "y": 57.88,
         "size": 67.6,
         "is_playmaker": false,
@@ -1015,7 +1046,7 @@
       {
         "id": "Rémy Vercoutre",
         "short": "Vercoutre",
-        "x": 105.25,
+        "x": 14.75,
         "y": 41.44,
         "size": 91.2,
         "is_playmaker": false,
@@ -1025,7 +1056,7 @@
       {
         "id": "Damien Da Silva",
         "short": "Silva",
-        "x": 82.01,
+        "x": 37.99,
         "y": 25.81,
         "size": 72.3,
         "is_playmaker": false,
@@ -1038,7 +1069,7 @@
         "source": "Dennis Appiah",
         "target": "Ronny Rodelin",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dennis Appiah",
@@ -1050,13 +1081,13 @@
         "source": "Dennis Appiah",
         "target": "Julien Féret",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ronny Rodelin",
         "target": "Ismaël Tiémoko Diomandé",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronny Rodelin",
@@ -1068,13 +1099,13 @@
         "source": "Jonathan Delaplace",
         "target": "Ronny Rodelin",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ismaël Tiémoko Diomandé",
         "target": "Julien Féret",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ismaël Tiémoko Diomandé",
@@ -1086,19 +1117,19 @@
         "source": "Julien Féret",
         "target": "Alexandre Raineau",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Julien Féret",
         "target": "Ismaël Tiémoko Diomandé",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexandre Raineau",
         "target": "Andy Delort",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandre Raineau",
@@ -1110,19 +1141,19 @@
         "source": "Alexandre Raineau",
         "target": "Julien Féret",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandre Raineau",
         "target": "Ronny Rodelin",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andy Delort",
         "target": "Alexandre Raineau",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hervé Bazile",
@@ -1134,37 +1165,37 @@
         "source": "Alaeddine Yahia",
         "target": "Rémy Vercoutre",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alaeddine Yahia",
         "target": "Julien Féret",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rémy Vercoutre",
         "target": "Andy Delort",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rémy Vercoutre",
         "target": "Ronny Rodelin",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Damien Da Silva",
         "target": "Alexandre Raineau",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Damien Da Silva",
         "target": "Rémy Vercoutre",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

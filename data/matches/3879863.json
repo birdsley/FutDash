@@ -9,6 +9,11 @@
     "away_color": "#848484",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.126,
     "xg_away": 0.43,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Duván Esteban Zapata Banguera",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.1,
@@ -513,7 +520,9 @@
       "player_full": "Davide Brivio",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -525,7 +534,9 @@
       "player_full": "Marco Borriello",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -537,7 +548,9 @@
       "player_full": "Gianpaolo Bellini",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -549,7 +562,9 @@
       "player_full": "Duván Esteban Zapata Banguera",
       "minute": 19,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -561,7 +576,9 @@
       "player_full": "Luca Cigarini",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -573,7 +590,9 @@
       "player_full": "Marco Borriello",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.1,
@@ -585,7 +604,9 @@
       "player_full": "Luca Cigarini",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.1,
@@ -597,7 +618,9 @@
       "player_full": "Duván Esteban Zapata Banguera",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.4,
@@ -609,7 +632,9 @@
       "player_full": "Davide Brivio",
       "minute": 47,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -621,7 +646,9 @@
       "player_full": "Duván Esteban Zapata Banguera",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -633,7 +660,9 @@
       "player_full": "Marco D''Alessandro",
       "minute": 66,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.4,
@@ -645,7 +674,9 @@
       "player_full": "Luca Cigarini",
       "minute": 68,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +968,7 @@
       {
         "id": "Ali Adnan Kadhim Al Tameemi",
         "short": "Tameemi",
-        "x": 43.64,
+        "x": 76.36,
         "y": 5.18,
         "size": 112.7,
         "is_playmaker": false,
@@ -947,7 +978,7 @@
       {
         "id": "Cyril Théréau",
         "short": "Théréau",
-        "x": 43.41,
+        "x": 76.59,
         "y": 32.58,
         "size": 112.7,
         "is_playmaker": true,
@@ -957,7 +988,7 @@
       {
         "id": "Maurizio Domizzi",
         "short": "Domizzi",
-        "x": 73.02,
+        "x": 46.98,
         "y": 16.42,
         "size": 141.5,
         "is_playmaker": true,
@@ -967,7 +998,7 @@
       {
         "id": "Duván Esteban Zapata Banguera",
         "short": "Banguera",
-        "x": 39.97,
+        "x": 80.03,
         "y": 38.05,
         "size": 73.0,
         "is_playmaker": false,
@@ -977,7 +1008,7 @@
       {
         "id": "Emil Hallfreðsson",
         "short": "Hallfreðsso",
-        "x": 48.58,
+        "x": 71.42,
         "y": 19.39,
         "size": 91.0,
         "is_playmaker": false,
@@ -987,7 +1018,7 @@
       {
         "id": "Zdravko Kuzmanović",
         "short": "Kuzmanović",
-        "x": 68.18,
+        "x": 51.82,
         "y": 36.58,
         "size": 65.8,
         "is_playmaker": false,
@@ -997,7 +1028,7 @@
       {
         "id": "Danilo Larangeira",
         "short": "Larangeira",
-        "x": 81.63,
+        "x": 38.37,
         "y": 43.24,
         "size": 109.1,
         "is_playmaker": false,
@@ -1007,7 +1038,7 @@
       {
         "id": "Orestis Karnezis",
         "short": "Karnezis",
-        "x": 108.93,
+        "x": 11.07,
         "y": 41.85,
         "size": 78.4,
         "is_playmaker": false,
@@ -1017,7 +1048,7 @@
       {
         "id": "Emmanuel Agyemang-Badu",
         "short": "Agyemang-Ba",
-        "x": 57.07,
+        "x": 62.93,
         "y": 58.96,
         "size": 80.2,
         "is_playmaker": false,
@@ -1027,7 +1058,7 @@
       {
         "id": "Silvan Widmer",
         "short": "Widmer",
-        "x": 56.29,
+        "x": 63.71,
         "y": 72.65,
         "size": 78.4,
         "is_playmaker": false,
@@ -1037,7 +1068,7 @@
       {
         "id": "Molla Wagué",
         "short": "Wagué",
-        "x": 47.2,
+        "x": 72.8,
         "y": 58.7,
         "size": 62.2,
         "is_playmaker": false,
@@ -1056,7 +1087,7 @@
         "source": "Ali Adnan Kadhim Al Tameemi",
         "target": "Maurizio Domizzi",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ali Adnan Kadhim Al Tameemi",
@@ -1068,7 +1099,7 @@
         "source": "Ali Adnan Kadhim Al Tameemi",
         "target": "Emil Hallfreðsson",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cyril Théréau",
@@ -1086,91 +1117,91 @@
         "source": "Cyril Théréau",
         "target": "Silvan Widmer",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maurizio Domizzi",
         "target": "Duván Esteban Zapata Banguera",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maurizio Domizzi",
         "target": "Emil Hallfreðsson",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maurizio Domizzi",
         "target": "Danilo Larangeira",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maurizio Domizzi",
         "target": "Orestis Karnezis",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emil Hallfreðsson",
         "target": "Ali Adnan Kadhim Al Tameemi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emil Hallfreðsson",
         "target": "Maurizio Domizzi",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emil Hallfreðsson",
         "target": "Cyril Théréau",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Zdravko Kuzmanović",
         "target": "Danilo Larangeira",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Zdravko Kuzmanović",
         "target": "Maurizio Domizzi",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danilo Larangeira",
         "target": "Cyril Théréau",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danilo Larangeira",
         "target": "Maurizio Domizzi",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Orestis Karnezis",
         "target": "Danilo Larangeira",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Orestis Karnezis",
         "target": "Maurizio Domizzi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emmanuel Agyemang-Badu",
         "target": "Cyril Théréau",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emmanuel Agyemang-Badu",
@@ -1182,7 +1213,7 @@
         "source": "Emmanuel Agyemang-Badu",
         "target": "Molla Wagué",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Silvan Widmer",
@@ -1194,19 +1225,19 @@
         "source": "Silvan Widmer",
         "target": "Molla Wagué",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Molla Wagué",
         "target": "Emmanuel Agyemang-Badu",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Molla Wagué",
         "target": "Silvan Widmer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

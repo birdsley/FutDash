@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.883,
     "xg_away": 0.331,
     "shots_home": 11,
@@ -501,7 +506,9 @@
       "player_full": "Bruno Edgar Silva Almeida",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.6,
@@ -513,7 +520,9 @@
       "player_full": "Naorem Mahesh Singh",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -525,7 +534,9 @@
       "player_full": "Thongkhosiem Haokip",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.7,
@@ -537,7 +548,9 @@
       "player_full": "Bruno Edgar Silva Almeida",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -549,7 +562,9 @@
       "player_full": "Thongkhosiem Haokip",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.7,
@@ -561,7 +576,9 @@
       "player_full": "Alan Henrique Costa",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -573,7 +590,9 @@
       "player_full": "Daniel Chima Chukwu",
       "minute": 40,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -585,7 +604,9 @@
       "player_full": "Bruno Edgar Silva Almeida",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.8,
@@ -597,7 +618,9 @@
       "player_full": "Udanta Kumam Singh",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -609,7 +632,9 @@
       "player_full": "Amarjit Singh Kiyam Singh",
       "minute": 55,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -621,7 +646,9 @@
       "player_full": "Prince Vinny Ibara Doniama",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -633,7 +660,9 @@
       "player_full": "Prince Vinny Ibara Doniama",
       "minute": 71,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -645,7 +674,9 @@
       "player_full": "Sunil Chhetri",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -657,7 +688,9 @@
       "player_full": "Prince Vinny Ibara Doniama",
       "minute": 86,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -669,7 +702,9 @@
       "player_full": "Prince Vinny Ibara Doniama",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.9,
@@ -681,7 +716,9 @@
       "player_full": "Udanta Kumam Singh",
       "minute": 89,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Lalrinliana Hnamte",
         "short": "Hnamte",
-        "x": 48.28,
+        "x": 71.72,
         "y": 14.05,
         "size": 123.9,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Sourav Das",
         "short": "Das",
-        "x": 63.15,
+        "x": 56.85,
         "y": 27.02,
         "size": 120.6,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Daniel Chima Chukwu",
         "short": "Chukwu",
-        "x": 40.9,
+        "x": 79.1,
         "y": 24.99,
         "size": 87.8,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Hira Mondal",
         "short": "Mondal",
-        "x": 70.31,
+        "x": 49.69,
         "y": 8.43,
         "size": 104.2,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Joyner Lourenco",
         "short": "Lourenco",
-        "x": 62.68,
+        "x": 57.32,
         "y": 68.04,
         "size": 68.1,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Thongkhosiem Haokip",
         "short": "Haokip",
-        "x": 46.55,
+        "x": 73.45,
         "y": 28.53,
         "size": 127.1,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Wahengbam Angousana Luwang",
         "short": "Luwang",
-        "x": 57.85,
+        "x": 62.15,
         "y": 54.6,
         "size": 97.6,
         "is_playmaker": true,
@@ -1043,7 +1080,7 @@
       {
         "id": "Naorem Mahesh Singh",
         "short": "Singh",
-        "x": 58.2,
+        "x": 61.8,
         "y": 68.83,
         "size": 64.8,
         "is_playmaker": false,
@@ -1051,19 +1088,19 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Tomislav Mrčela",
-        "short": "Mrčela",
-        "x": 77.62,
-        "y": 51.2,
-        "size": 74.7,
-        "is_playmaker": true,
-        "betweenness": 0.1778,
+        "id": "Adil Khan",
+        "short": "Khan",
+        "x": 32.44,
+        "y": 33.63,
+        "size": 68.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
         "id": "Arindam Bhattacharja",
         "short": "Bhattacharj",
-        "x": 108.86,
+        "x": 11.14,
         "y": 33.78,
         "size": 68.1,
         "is_playmaker": false,
@@ -1071,13 +1108,13 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Adil Khan",
-        "short": "Khan",
-        "x": 87.56,
-        "y": 33.63,
-        "size": 68.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
+        "id": "Tomislav Mrčela",
+        "short": "Mrčela",
+        "x": 42.38,
+        "y": 51.2,
+        "size": 74.7,
+        "is_playmaker": true,
+        "betweenness": 0.1778,
         "eigenvector": 0.0
       }
     ],
@@ -1086,7 +1123,7 @@
         "source": "Lalrinliana Hnamte",
         "target": "Sourav Das",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lalrinliana Hnamte",
@@ -1098,43 +1135,43 @@
         "source": "Sourav Das",
         "target": "Daniel Chima Chukwu",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sourav Das",
         "target": "Hira Mondal",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sourav Das",
         "target": "Lalrinliana Hnamte",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hira Mondal",
         "target": "Lalrinliana Hnamte",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hira Mondal",
         "target": "Thongkhosiem Haokip",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hira Mondal",
         "target": "Daniel Chima Chukwu",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joyner Lourenco",
         "target": "Thongkhosiem Haokip",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thongkhosiem Haokip",
@@ -1146,13 +1183,13 @@
         "source": "Thongkhosiem Haokip",
         "target": "Daniel Chima Chukwu",
         "weight": 3,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wahengbam Angousana Luwang",
         "target": "Thongkhosiem Haokip",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wahengbam Angousana Luwang",
@@ -1164,53 +1201,53 @@
         "source": "Wahengbam Angousana Luwang",
         "target": "Sourav Das",
         "weight": 3,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wahengbam Angousana Luwang",
         "target": "Tomislav Mrčela",
         "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Adil Khan",
+        "target": "Tomislav Mrčela",
+        "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Adil Khan",
+        "target": "Arindam Bhattacharja",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Arindam Bhattacharja",
+        "target": "Adil Khan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Arindam Bhattacharja",
+        "target": "Tomislav Mrčela",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Tomislav Mrčela",
+        "target": "Adil Khan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Tomislav Mrčela",
+        "target": "Arindam Bhattacharja",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Tomislav Mrčela",
         "target": "Wahengbam Angousana Luwang",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Tomislav Mrčela",
-        "target": "Adil Khan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Tomislav Mrčela",
-        "target": "Arindam Bhattacharja",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Arindam Bhattacharja",
-        "target": "Adil Khan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Arindam Bhattacharja",
-        "target": "Tomislav Mrčela",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Adil Khan",
-        "target": "Tomislav Mrčela",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Adil Khan",
-        "target": "Arindam Bhattacharja",
         "weight": 1,
         "direction": "forward"
       }

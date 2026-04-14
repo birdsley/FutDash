@@ -9,6 +9,11 @@
     "away_color": "#98c5e9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.345,
     "xg_away": 0.324,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Raheem Sterling",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.9,
@@ -513,7 +520,9 @@
       "player_full": "Gnégnéri Yaya Touré",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -525,7 +534,9 @@
       "player_full": "Gnégnéri Yaya Touré",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.2,
@@ -537,7 +548,9 @@
       "player_full": "Gnégnéri Yaya Touré",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -549,7 +562,9 @@
       "player_full": "Ander Herrera Agüera",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -561,7 +576,9 @@
       "player_full": "Chris Smalling",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.4,
@@ -573,7 +590,9 @@
       "player_full": "Faustino Marcos Alberto Rojo",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.4,
@@ -585,7 +604,9 @@
       "player_full": "Kevin De Bruyne",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -597,7 +618,9 @@
       "player_full": "Jesús Navas González",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -609,7 +632,9 @@
       "player_full": "Jesse Lingard",
       "minute": 83,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -621,7 +646,9 @@
       "player_full": "Chris Smalling",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.1,
@@ -633,7 +660,9 @@
       "player_full": "Wayne Mark Rooney",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +954,7 @@
       {
         "id": "Nicolás Hernán Otamendi",
         "short": "Otamendi",
-        "x": 74.31,
+        "x": 45.69,
         "y": 20.97,
         "size": 136.5,
         "is_playmaker": true,
@@ -935,7 +964,7 @@
       {
         "id": "Aleksandar Kolarov",
         "short": "Kolarov",
-        "x": 58.12,
+        "x": 61.88,
         "y": 9.43,
         "size": 104.2,
         "is_playmaker": false,
@@ -945,7 +974,7 @@
       {
         "id": "Joe Hart",
         "short": "Hart",
-        "x": 107.47,
+        "x": 12.53,
         "y": 40.1,
         "size": 73.5,
         "is_playmaker": false,
@@ -955,7 +984,7 @@
       {
         "id": "Vincent Kompany",
         "short": "Kompany",
-        "x": 81.52,
+        "x": 38.48,
         "y": 49.24,
         "size": 91.9,
         "is_playmaker": false,
@@ -965,7 +994,7 @@
       {
         "id": "Bacary Sagna",
         "short": "Sagna",
-        "x": 59.36,
+        "x": 60.64,
         "y": 74.82,
         "size": 87.3,
         "is_playmaker": false,
@@ -975,7 +1004,7 @@
       {
         "id": "Wilfried Guemiand Bony",
         "short": "Bony",
-        "x": 58.13,
+        "x": 61.87,
         "y": 38.04,
         "size": 91.9,
         "is_playmaker": false,
@@ -985,7 +1014,7 @@
       {
         "id": "Fernando Luiz Rosa",
         "short": "Rosa",
-        "x": 52.88,
+        "x": 67.12,
         "y": 42.71,
         "size": 88.8,
         "is_playmaker": true,
@@ -995,7 +1024,7 @@
       {
         "id": "Fernando Francisco Reges",
         "short": "Reges",
-        "x": 65.12,
+        "x": 54.88,
         "y": 21.61,
         "size": 98.1,
         "is_playmaker": false,
@@ -1005,7 +1034,7 @@
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
-        "x": 46.4,
+        "x": 73.6,
         "y": 14.22,
         "size": 70.4,
         "is_playmaker": false,
@@ -1015,7 +1044,7 @@
       {
         "id": "Gnégnéri Yaya Touré",
         "short": "Touré",
-        "x": 57.55,
+        "x": 62.45,
         "y": 32.08,
         "size": 81.2,
         "is_playmaker": false,
@@ -1025,7 +1054,7 @@
       {
         "id": "Kevin De Bruyne",
         "short": "Bruyne",
-        "x": 29.82,
+        "x": 90.18,
         "y": 50.87,
         "size": 81.2,
         "is_playmaker": false,
@@ -1038,55 +1067,55 @@
         "source": "Nicolás Hernán Otamendi",
         "target": "Aleksandar Kolarov",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nicolás Hernán Otamendi",
         "target": "Vincent Kompany",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nicolás Hernán Otamendi",
         "target": "Fernando Francisco Reges",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aleksandar Kolarov",
         "target": "Nicolás Hernán Otamendi",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aleksandar Kolarov",
         "target": "Fernando Francisco Reges",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aleksandar Kolarov",
         "target": "Raheem Sterling",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joe Hart",
         "target": "Nicolás Hernán Otamendi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joe Hart",
         "target": "Wilfried Guemiand Bony",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Vincent Kompany",
         "target": "Nicolás Hernán Otamendi",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bacary Sagna",
@@ -1098,61 +1127,61 @@
         "source": "Bacary Sagna",
         "target": "Vincent Kompany",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wilfried Guemiand Bony",
         "target": "Fernando Luiz Rosa",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Luiz Rosa",
         "target": "Nicolás Hernán Otamendi",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fernando Luiz Rosa",
         "target": "Raheem Sterling",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Luiz Rosa",
         "target": "Kevin De Bruyne",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Francisco Reges",
         "target": "Nicolás Hernán Otamendi",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fernando Francisco Reges",
         "target": "Gnégnéri Yaya Touré",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Francisco Reges",
         "target": "Aleksandar Kolarov",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gnégnéri Yaya Touré",
         "target": "Kevin De Bruyne",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kevin De Bruyne",
         "target": "Gnégnéri Yaya Touré",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

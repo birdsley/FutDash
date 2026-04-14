@@ -9,6 +9,11 @@
     "away_color": "#e5428b",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.351,
     "xg_away": 0.836,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Chloe Arthur",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.7,
@@ -513,7 +520,9 @@
       "player_full": "Chloe Arthur",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.4,
@@ -525,7 +534,9 @@
       "player_full": "Christie Murray",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -537,7 +548,9 @@
       "player_full": "Mana Iwabuchi",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.4,
@@ -549,7 +562,9 @@
       "player_full": "Mana Iwabuchi",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.4,
@@ -561,7 +576,9 @@
       "player_full": "Freya Gregory",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -573,7 +590,9 @@
       "player_full": "Freya Gregory",
       "minute": 27,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.6,
@@ -585,7 +604,9 @@
       "player_full": "Jamie-Lee Napier",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -597,7 +618,9 @@
       "player_full": "Harriet Scott",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.0,
@@ -609,7 +632,9 @@
       "player_full": "Emily Murphy",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -621,7 +646,9 @@
       "player_full": "Georgia Brougham",
       "minute": 67,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -633,7 +660,9 @@
       "player_full": "Veatriki Sarri",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -883,7 +912,7 @@
       {
         "id": "Olivia McLoughlin",
         "short": "McLoughlin",
-        "x": 76.18,
+        "x": 43.82,
         "y": 33.66,
         "size": 99.4,
         "is_playmaker": false,
@@ -893,7 +922,7 @@
       {
         "id": "Jodie Hutton",
         "short": "Hutton",
-        "x": 63.41,
+        "x": 56.59,
         "y": 20.42,
         "size": 102.2,
         "is_playmaker": false,
@@ -903,7 +932,7 @@
       {
         "id": "Natalie Haigh",
         "short": "Haigh",
-        "x": 93.46,
+        "x": 26.54,
         "y": 29.4,
         "size": 77.2,
         "is_playmaker": false,
@@ -913,7 +942,7 @@
       {
         "id": "Asmita Ale",
         "short": "Ale",
-        "x": 54.08,
+        "x": 65.92,
         "y": 72.8,
         "size": 130.0,
         "is_playmaker": false,
@@ -923,7 +952,7 @@
       {
         "id": "Anita Amma Ankyewah Asante",
         "short": "Asante",
-        "x": 77.45,
+        "x": 42.55,
         "y": 60.0,
         "size": 105.0,
         "is_playmaker": true,
@@ -933,7 +962,7 @@
       {
         "id": "Mana Iwabuchi",
         "short": "Iwabuchi",
-        "x": 54.39,
+        "x": 65.61,
         "y": 46.09,
         "size": 88.3,
         "is_playmaker": false,
@@ -943,7 +972,7 @@
       {
         "id": "Lisa Weiß",
         "short": "Weiß",
-        "x": 109.71,
+        "x": 10.29,
         "y": 39.21,
         "size": 66.1,
         "is_playmaker": false,
@@ -953,7 +982,7 @@
       {
         "id": "Chloe Arthur",
         "short": "Arthur",
-        "x": 53.16,
+        "x": 66.84,
         "y": 46.07,
         "size": 82.8,
         "is_playmaker": false,
@@ -963,7 +992,7 @@
       {
         "id": "Stine Larsen",
         "short": "Larsen",
-        "x": 40.36,
+        "x": 79.64,
         "y": 44.07,
         "size": 121.7,
         "is_playmaker": true,
@@ -973,7 +1002,7 @@
       {
         "id": "Freya Gregory",
         "short": "Gregory",
-        "x": 71.5,
+        "x": 48.5,
         "y": 7.19,
         "size": 66.1,
         "is_playmaker": false,
@@ -983,7 +1012,7 @@
       {
         "id": "Shania Hayles",
         "short": "Hayles",
-        "x": 39.85,
+        "x": 80.15,
         "y": 34.2,
         "size": 66.1,
         "is_playmaker": false,
@@ -996,49 +1025,49 @@
         "source": "Olivia McLoughlin",
         "target": "Jodie Hutton",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Olivia McLoughlin",
         "target": "Natalie Haigh",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Olivia McLoughlin",
         "target": "Chloe Arthur",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jodie Hutton",
         "target": "Olivia McLoughlin",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jodie Hutton",
         "target": "Mana Iwabuchi",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jodie Hutton",
         "target": "Stine Larsen",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Natalie Haigh",
         "target": "Freya Gregory",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Asmita Ale",
         "target": "Anita Amma Ankyewah Asante",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Asmita Ale",
@@ -1050,25 +1079,25 @@
         "source": "Asmita Ale",
         "target": "Stine Larsen",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anita Amma Ankyewah Asante",
         "target": "Asmita Ale",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anita Amma Ankyewah Asante",
         "target": "Stine Larsen",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lisa Weiß",
         "target": "Anita Amma Ankyewah Asante",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chloe Arthur",
@@ -1080,7 +1109,7 @@
         "source": "Chloe Arthur",
         "target": "Shania Hayles",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stine Larsen",
@@ -1098,7 +1127,7 @@
         "source": "Shania Hayles",
         "target": "Chloe Arthur",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

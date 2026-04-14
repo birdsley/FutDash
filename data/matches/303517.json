@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 4,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.593,
     "xg_away": 0.545,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.7,
@@ -513,7 +520,9 @@
       "player_full": "Mubarak Wakaso",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.5,
@@ -525,7 +534,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -537,7 +548,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -549,7 +562,9 @@
       "player_full": "Arturo Erasmo Vidal Pardo",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -561,7 +576,9 @@
       "player_full": "Pere Pons Riera",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.8,
@@ -573,7 +590,9 @@
       "player_full": "Aleix Vidal Parreu",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -585,7 +604,9 @@
       "player_full": "Rubén Duarte Sánchez",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -597,7 +618,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.0,
@@ -609,7 +632,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -621,7 +646,9 @@
       "player_full": "Luis Alberto Suárez Díaz",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.1,
@@ -633,7 +660,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.1,
@@ -645,7 +674,9 @@
       "player_full": "Manuel Alejandro García Sánchez",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Other"
+      "body_part": "Other",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +968,7 @@
       {
         "id": "Fernando Pacheco Flores",
         "short": "Flores",
-        "x": 108.28,
+        "x": 11.72,
         "y": 37.49,
         "size": 78.8,
         "is_playmaker": false,
@@ -947,7 +978,7 @@
       {
         "id": "Martín Aguirregabiria Padilla",
         "short": "Padilla",
-        "x": 68.15,
+        "x": 51.85,
         "y": 70.32,
         "size": 121.7,
         "is_playmaker": false,
@@ -957,7 +988,7 @@
       {
         "id": "Aleix Vidal Parreu",
         "short": "Parreu",
-        "x": 56.18,
+        "x": 63.82,
         "y": 58.1,
         "size": 138.3,
         "is_playmaker": true,
@@ -967,7 +998,7 @@
       {
         "id": "Pere Pons Riera",
         "short": "Riera",
-        "x": 74.81,
+        "x": 45.19,
         "y": 47.84,
         "size": 119.3,
         "is_playmaker": false,
@@ -977,7 +1008,7 @@
       {
         "id": "Mubarak Wakaso",
         "short": "Wakaso",
-        "x": 65.4,
+        "x": 54.6,
         "y": 27.06,
         "size": 90.7,
         "is_playmaker": false,
@@ -987,7 +1018,7 @@
       {
         "id": "Rubén Duarte Sánchez",
         "short": "Sánchez",
-        "x": 63.71,
+        "x": 56.29,
         "y": 13.0,
         "size": 86.0,
         "is_playmaker": false,
@@ -997,7 +1028,7 @@
       {
         "id": "Joaquín Navarro Jiménez",
         "short": "Jiménez",
-        "x": 78.14,
+        "x": 41.86,
         "y": 38.72,
         "size": 71.7,
         "is_playmaker": false,
@@ -1007,7 +1038,7 @@
       {
         "id": "Manuel Alejandro García Sánchez",
         "short": "Sánchez",
-        "x": 65.09,
+        "x": 54.91,
         "y": 48.78,
         "size": 105.0,
         "is_playmaker": false,
@@ -1015,19 +1046,19 @@
         "eigenvector": 0.5403
       },
       {
-        "id": "Lucas Pérez Martínez",
-        "short": "Martínez",
-        "x": 42.16,
-        "y": 42.72,
+        "id": "Javier Muñoz Jiménez",
+        "short": "Jiménez",
+        "x": 63.65,
+        "y": 31.62,
         "size": 64.5,
-        "is_playmaker": true,
-        "betweenness": 0.4333,
-        "eigenvector": 0.0545
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.005
       },
       {
         "id": "Rodrigo Ely",
         "short": "Ely",
-        "x": 78.29,
+        "x": 41.71,
         "y": 42.93,
         "size": 64.5,
         "is_playmaker": false,
@@ -1035,14 +1066,14 @@
         "eigenvector": 0.0606
       },
       {
-        "id": "Javier Muñoz Jiménez",
-        "short": "Jiménez",
-        "x": 56.35,
-        "y": 31.62,
+        "id": "Lucas Pérez Martínez",
+        "short": "Martínez",
+        "x": 77.84,
+        "y": 42.72,
         "size": 64.5,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.005
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.0545
       }
     ],
     "edges": [
@@ -1050,49 +1081,49 @@
         "source": "Fernando Pacheco Flores",
         "target": "Martín Aguirregabiria Padilla",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fernando Pacheco Flores",
         "target": "Manuel Alejandro García Sánchez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martín Aguirregabiria Padilla",
         "target": "Aleix Vidal Parreu",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martín Aguirregabiria Padilla",
         "target": "Pere Pons Riera",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aleix Vidal Parreu",
         "target": "Pere Pons Riera",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aleix Vidal Parreu",
         "target": "Manuel Alejandro García Sánchez",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aleix Vidal Parreu",
         "target": "Lucas Pérez Martínez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pere Pons Riera",
         "target": "Aleix Vidal Parreu",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pere Pons Riera",
@@ -1116,7 +1147,7 @@
         "source": "Mubarak Wakaso",
         "target": "Javier Muñoz Jiménez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rubén Duarte Sánchez",
@@ -1137,14 +1168,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Lucas Pérez Martínez",
-        "target": "Javier Muñoz Jiménez",
+        "source": "Javier Muñoz Jiménez",
+        "target": "Mubarak Wakaso",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Lucas Pérez Martínez",
-        "target": "Aleix Vidal Parreu",
+        "source": "Javier Muñoz Jiménez",
+        "target": "Lucas Pérez Martínez",
         "weight": 1,
         "direction": "forward"
       },
@@ -1161,16 +1192,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Javier Muñoz Jiménez",
-        "target": "Lucas Pérez Martínez",
+        "source": "Lucas Pérez Martínez",
+        "target": "Javier Muñoz Jiménez",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Javier Muñoz Jiménez",
-        "target": "Mubarak Wakaso",
+        "source": "Lucas Pérez Martínez",
+        "target": "Aleix Vidal Parreu",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

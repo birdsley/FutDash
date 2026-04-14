@@ -7,12 +7,17 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#00843d",
     "away_color": "#00843d",
-    "score_home": 5,
-    "score_away": 2,
-    "xg_home": 4.989,
-    "xg_away": 3.521,
-    "shots_home": 32,
-    "shots_away": 20,
+    "score_home": 1,
+    "score_away": 1,
+    "penalty_home": 4,
+    "penalty_away": 1,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 126,
+    "xg_home": 1.855,
+    "xg_away": 1.171,
+    "shots_home": 28,
+    "shots_away": 17,
     "possession_home": 48.8,
     "competition": "Women's World Cup",
     "season": "2019",
@@ -111,7 +116,41 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
     ],
     "home": [
       0.0,
@@ -205,7 +244,41 @@
       1.0533,
       1.0533,
       1.0533,
-      4.9893
+      1.0533,
+      1.1237,
+      1.1237,
+      1.1423,
+      1.1423,
+      1.1423,
+      1.1423,
+      1.2693,
+      1.2939,
+      1.2939,
+      1.2939,
+      1.2939,
+      1.2939,
+      1.2939,
+      1.3107,
+      1.3577,
+      1.3577,
+      1.372,
+      1.3865,
+      1.3865,
+      1.3865,
+      1.3865,
+      1.418,
+      1.418,
+      1.418,
+      1.4278,
+      1.7303,
+      1.7303,
+      1.7933,
+      1.8553,
+      1.8553,
+      1.8553,
+      1.8553,
+      1.8553,
+      1.8553
     ],
     "away": [
       0.151,
@@ -299,195 +372,297 @@
       1.1285,
       1.1285,
       1.1285,
-      3.5212
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1285,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1342,
+      1.1707,
+      1.1707,
+      1.1707,
+      1.1707,
+      1.1707,
+      1.1707
     ],
     "pressure_home": [
       0.0,
-      0.012,
-      0.06,
-      0.064,
-      0.068,
-      0.068,
-      0.084,
-      0.128,
-      0.128,
-      0.168,
-      0.168,
-      0.156,
-      0.132,
-      0.172,
-      0.168,
-      0.168,
-      0.152,
-      0.144,
-      0.188,
-      0.176,
-      0.208,
-      0.248,
+      0.0337,
+      0.1685,
+      0.1798,
+      0.191,
+      0.191,
       0.236,
-      0.192,
-      0.196,
-      0.196,
-      0.2,
-      0.192,
-      0.148,
-      0.12,
-      0.132,
-      0.092,
-      0.08,
-      0.08,
-      0.076,
-      0.084,
-      0.1,
-      0.08,
-      0.108,
-      0.116,
-      0.092,
-      0.092,
-      0.092,
-      0.092,
-      0.092,
-      0.088,
-      0.072,
-      0.1,
-      0.072,
-      0.072,
-      0.06,
-      0.06,
-      0.064,
-      0.064,
-      0.064,
-      0.104,
-      0.1,
-      0.064,
-      0.064,
-      0.056,
-      0.104,
-      0.104,
-      0.1,
-      0.116,
-      0.116,
-      0.076,
-      0.1,
-      0.1,
-      0.1,
-      0.1,
-      0.044,
-      0.044,
-      0.044,
-      0.028,
-      0.06,
-      0.056,
-      0.032,
-      0.032,
-      0.032,
-      0.032,
-      0.032,
-      0.032,
-      0.032,
-      0.068,
-      0.104,
-      0.116,
-      0.144,
-      0.144,
-      0.144,
-      0.144,
-      0.156,
-      1.0
+      0.3596,
+      0.3596,
+      0.4719,
+      0.4719,
+      0.4382,
+      0.3708,
+      0.4831,
+      0.4719,
+      0.4719,
+      0.427,
+      0.4045,
+      0.5281,
+      0.4944,
+      0.5843,
+      0.6966,
+      0.6629,
+      0.5393,
+      0.5506,
+      0.5506,
+      0.5618,
+      0.5393,
+      0.4157,
+      0.3371,
+      0.3708,
+      0.2584,
+      0.2247,
+      0.2247,
+      0.2135,
+      0.236,
+      0.2809,
+      0.2247,
+      0.3034,
+      0.3258,
+      0.2584,
+      0.2584,
+      0.2584,
+      0.2584,
+      0.2584,
+      0.2472,
+      0.2022,
+      0.2809,
+      0.2022,
+      0.2022,
+      0.1685,
+      0.1685,
+      0.1798,
+      0.1798,
+      0.1798,
+      0.2921,
+      0.2809,
+      0.1798,
+      0.1798,
+      0.1573,
+      0.2921,
+      0.2921,
+      0.2809,
+      0.3258,
+      0.3258,
+      0.2135,
+      0.2809,
+      0.2809,
+      0.2809,
+      0.2809,
+      0.1236,
+      0.1236,
+      0.1236,
+      0.0787,
+      0.1685,
+      0.1573,
+      0.0899,
+      0.0899,
+      0.0899,
+      0.0899,
+      0.0899,
+      0.0899,
+      0.0899,
+      0.191,
+      0.2921,
+      0.3258,
+      0.4045,
+      0.4045,
+      0.4045,
+      0.4045,
+      0.4382,
+      0.5169,
+      0.7416,
+      0.6629,
+      0.573,
+      0.5506,
+      0.4719,
+      0.4719,
+      0.5843,
+      0.6404,
+      0.6292,
+      0.5506,
+      0.382,
+      0.3596,
+      0.2584,
+      0.4831,
+      0.6404,
+      0.6404,
+      0.6404,
+      0.8315,
+      0.8202,
+      0.8652,
+      0.809,
+      0.9101,
+      0.9101,
+      0.6742,
+      0.7303,
+      1.0,
+      0.9101,
+      0.7528,
+      0.8652,
+      0.8315,
+      0.8539,
+      0.764,
+      0.7753,
+      0.7753
     ],
     "pressure_away": [
       0.0,
-      0.137,
-      0.1781,
-      0.1986,
-      0.3767,
-      0.4178,
-      0.4863,
-      0.6507,
-      0.6507,
-      0.6507,
-      0.6849,
-      0.5479,
-      0.589,
-      0.6438,
-      0.4658,
-      0.4452,
-      0.4178,
-      0.3082,
-      0.3562,
-      0.3699,
-      0.3493,
-      0.363,
-      0.2808,
-      0.2055,
-      0.2055,
-      0.2534,
-      0.2192,
-      0.2534,
-      0.2123,
-      0.1986,
-      0.1986,
-      0.1849,
-      0.1918,
-      0.1918,
-      0.1918,
-      0.1986,
-      0.2397,
-      0.1507,
-      0.1438,
-      0.1438,
-      0.1781,
-      0.1781,
-      0.1712,
-      0.1712,
-      0.1712,
-      0.1712,
-      0.1438,
-      0.1644,
-      0.274,
-      0.3014,
-      0.3425,
-      0.3425,
-      0.3493,
-      0.3493,
-      0.3493,
-      0.3014,
-      0.3151,
-      0.2945,
-      0.1849,
-      0.1575,
-      0.1301,
-      0.1438,
-      0.137,
-      0.1575,
-      0.1575,
-      0.1849,
-      0.2055,
-      0.2055,
-      0.2329,
-      0.3014,
-      0.2397,
-      0.226,
-      0.2534,
-      0.2397,
-      0.274,
-      0.2192,
-      0.1644,
-      0.1644,
-      0.137,
-      0.0685,
-      0.1164,
-      0.137,
-      0.1096,
-      0.1027,
-      0.0959,
-      0.1027,
-      0.1438,
-      0.1438,
-      0.1438,
-      0.1438,
-      0.1849,
-      1.0
+      0.2,
+      0.26,
+      0.29,
+      0.55,
+      0.61,
+      0.71,
+      0.95,
+      0.95,
+      0.95,
+      1.0,
+      0.8,
+      0.86,
+      0.94,
+      0.68,
+      0.65,
+      0.61,
+      0.45,
+      0.52,
+      0.54,
+      0.51,
+      0.53,
+      0.41,
+      0.3,
+      0.3,
+      0.37,
+      0.32,
+      0.37,
+      0.31,
+      0.29,
+      0.29,
+      0.27,
+      0.28,
+      0.28,
+      0.28,
+      0.29,
+      0.35,
+      0.22,
+      0.21,
+      0.21,
+      0.26,
+      0.26,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.21,
+      0.24,
+      0.4,
+      0.44,
+      0.5,
+      0.5,
+      0.51,
+      0.51,
+      0.51,
+      0.44,
+      0.46,
+      0.43,
+      0.27,
+      0.23,
+      0.19,
+      0.21,
+      0.2,
+      0.23,
+      0.23,
+      0.27,
+      0.3,
+      0.3,
+      0.34,
+      0.44,
+      0.35,
+      0.33,
+      0.37,
+      0.35,
+      0.4,
+      0.32,
+      0.24,
+      0.24,
+      0.2,
+      0.1,
+      0.17,
+      0.2,
+      0.16,
+      0.15,
+      0.14,
+      0.15,
+      0.21,
+      0.21,
+      0.21,
+      0.21,
+      0.27,
+      0.35,
+      0.37,
+      0.37,
+      0.33,
+      0.32,
+      0.3,
+      0.36,
+      0.39,
+      0.42,
+      0.32,
+      0.21,
+      0.25,
+      0.25,
+      0.25,
+      0.3,
+      0.41,
+      0.45,
+      0.48,
+      0.48,
+      0.59,
+      0.8,
+      0.78,
+      0.78,
+      0.78,
+      0.73,
+      0.6,
+      0.5,
+      0.45,
+      0.43,
+      0.29,
+      0.1,
+      0.06,
+      0.06,
+      0.06,
+      0.06
     ]
   },
   "shots": [
@@ -501,7 +676,9 @@
       "player_full": "Samantha May Kerr",
       "minute": 0,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.5,
@@ -513,7 +690,9 @@
       "player_full": "Vilde Bøe Risa",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -525,7 +704,9 @@
       "player_full": "Hayley Emma Raso",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -537,7 +718,9 @@
       "player_full": "Samantha May Kerr",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -549,7 +732,9 @@
       "player_full": "Kristine Minde",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -561,7 +746,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.4,
@@ -573,7 +760,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -585,7 +774,9 @@
       "player_full": "Isabell Herlovsen",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -597,7 +788,9 @@
       "player_full": "Maren Nævdal Mjelde",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -609,7 +802,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.5,
@@ -621,7 +816,9 @@
       "player_full": "Ingrid Moe Wold",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -633,7 +830,9 @@
       "player_full": "Ingrid Moe Wold",
       "minute": 39,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.6,
@@ -645,7 +844,9 @@
       "player_full": "Ingrid Moe Wold",
       "minute": 40,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.7,
@@ -657,7 +858,9 @@
       "player_full": "Hayley Emma Raso",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.3,
@@ -669,7 +872,9 @@
       "player_full": "Caitlin Jade Foord",
       "minute": 51,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.3,
@@ -681,7 +886,9 @@
       "player_full": "Elise Kellond-Knight",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.4,
@@ -693,7 +900,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.4,
@@ -705,7 +914,9 @@
       "player_full": "Ingrid Syrstad Engen",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.9,
@@ -717,7 +928,9 @@
       "player_full": "Caitlin Jade Foord",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -729,7 +942,9 @@
       "player_full": "Samantha May Kerr",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.4,
@@ -741,7 +956,9 @@
       "player_full": "Tameka Yallop",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -753,7 +970,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.6,
@@ -765,7 +984,9 @@
       "player_full": "Alanna Stephanie Kennedy",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -777,7 +998,9 @@
       "player_full": "Hayley Emma Raso",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.9,
@@ -789,7 +1012,9 @@
       "player_full": "Tameka Yallop",
       "minute": 75,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.7,
@@ -801,7 +1026,9 @@
       "player_full": "Tameka Yallop",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 119.5,
@@ -813,7 +1040,9 @@
       "player_full": "Elise Kellond-Knight",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.3,
@@ -825,7 +1054,9 @@
       "player_full": "Maria Thorisdottir",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -837,7 +1068,9 @@
       "player_full": "Chloe Logarzo",
       "minute": 87,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -849,7 +1082,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -861,7 +1096,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.3,
@@ -873,7 +1110,9 @@
       "player_full": "Vilde Bøe Risa",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.0,
@@ -885,7 +1124,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 98,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -897,7 +1138,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 99,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.5,
@@ -909,7 +1152,9 @@
       "player_full": "Alanna Stephanie Kennedy",
       "minute": 102,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -921,7 +1166,9 @@
       "player_full": "Maren Nævdal Mjelde",
       "minute": 106,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.6,
@@ -933,7 +1180,9 @@
       "player_full": "Vilde Bøe Risa",
       "minute": 108,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -945,7 +1194,9 @@
       "player_full": "Frida Maanum",
       "minute": 105,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.6,
@@ -957,7 +1208,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 109,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -969,7 +1222,9 @@
       "player_full": "Guro Reiten",
       "minute": 113,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -981,7 +1236,9 @@
       "player_full": "Frida Maanum",
       "minute": 116,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -993,7 +1250,9 @@
       "player_full": "Lisa-Marie Utland",
       "minute": 117,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.7,
@@ -1005,7 +1264,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 119,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.2,
@@ -1017,7 +1278,9 @@
       "player_full": "Tameka Yallop",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.9,
@@ -1029,7 +1292,9 @@
       "player_full": "Guro Reiten",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -1041,7 +1306,9 @@
       "player_full": "Caroline Graham Hansen",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1053,7 +1320,9 @@
       "player_full": "Samantha May Kerr",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.2,
@@ -1065,7 +1334,9 @@
       "player_full": "Guro Reiten",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1077,7 +1348,9 @@
       "player_full": "Emily Gielnik",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1089,7 +1362,9 @@
       "player_full": "Maren Nævdal Mjelde",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1101,7 +1376,9 @@
       "player_full": "Stephanie-Elise Catley",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.1,
@@ -1113,7 +1390,9 @@
       "player_full": "Ingrid Syrstad Engen",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1405,7 +1684,7 @@
       {
         "id": "Alanna Stephanie Kennedy",
         "short": "Kennedy",
-        "x": 77.1,
+        "x": 42.9,
         "y": 52.45,
         "size": 136.0,
         "is_playmaker": false,
@@ -1415,7 +1694,7 @@
       {
         "id": "Stephanie-Elise Catley",
         "short": "Catley",
-        "x": 74.91,
+        "x": 45.09,
         "y": 20.65,
         "size": 120.0,
         "is_playmaker": false,
@@ -1425,7 +1704,7 @@
       {
         "id": "Elise Kellond-Knight",
         "short": "Kellond-Kni",
-        "x": 56.03,
+        "x": 63.97,
         "y": 9.74,
         "size": 104.6,
         "is_playmaker": false,
@@ -1435,7 +1714,7 @@
       {
         "id": "Ellie Madison Carpenter",
         "short": "Carpenter",
-        "x": 60.86,
+        "x": 59.14,
         "y": 69.38,
         "size": 108.3,
         "is_playmaker": false,
@@ -1445,7 +1724,7 @@
       {
         "id": "Emily Louise van Egmond",
         "short": "Egmond",
-        "x": 60.45,
+        "x": 59.55,
         "y": 50.69,
         "size": 125.1,
         "is_playmaker": true,
@@ -1455,7 +1734,7 @@
       {
         "id": "Caitlin Jade Foord",
         "short": "Foord",
-        "x": 43.35,
+        "x": 76.65,
         "y": 22.2,
         "size": 69.6,
         "is_playmaker": false,
@@ -1465,7 +1744,7 @@
       {
         "id": "Hayley Emma Raso",
         "short": "Raso",
-        "x": 44.19,
+        "x": 75.81,
         "y": 63.85,
         "size": 74.0,
         "is_playmaker": false,
@@ -1475,7 +1754,7 @@
       {
         "id": "Samantha May Kerr",
         "short": "Kerr",
-        "x": 43.13,
+        "x": 76.87,
         "y": 43.98,
         "size": 74.7,
         "is_playmaker": true,
@@ -1485,7 +1764,7 @@
       {
         "id": "Lydia Grace Yilkari Williams",
         "short": "Williams",
-        "x": 107.35,
+        "x": 12.65,
         "y": 40.17,
         "size": 73.2,
         "is_playmaker": false,
@@ -1495,7 +1774,7 @@
       {
         "id": "Chloe Logarzo",
         "short": "Logarzo",
-        "x": 56.22,
+        "x": 63.78,
         "y": 41.63,
         "size": 61.6,
         "is_playmaker": false,
@@ -1505,7 +1784,7 @@
       {
         "id": "Tameka Yallop",
         "short": "Yallop",
-        "x": 52.45,
+        "x": 67.55,
         "y": 42.13,
         "size": 57.9,
         "is_playmaker": false,
@@ -1524,19 +1803,19 @@
         "source": "Alanna Stephanie Kennedy",
         "target": "Ellie Madison Carpenter",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alanna Stephanie Kennedy",
         "target": "Emily Louise van Egmond",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stephanie-Elise Catley",
         "target": "Elise Kellond-Knight",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stephanie-Elise Catley",
@@ -1548,19 +1827,19 @@
         "source": "Stephanie-Elise Catley",
         "target": "Caitlin Jade Foord",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elise Kellond-Knight",
         "target": "Caitlin Jade Foord",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elise Kellond-Knight",
         "target": "Stephanie-Elise Catley",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Elise Kellond-Knight",
@@ -1572,19 +1851,19 @@
         "source": "Elise Kellond-Knight",
         "target": "Samantha May Kerr",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elise Kellond-Knight",
         "target": "Alanna Stephanie Kennedy",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Elise Kellond-Knight",
         "target": "Emily Louise van Egmond",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ellie Madison Carpenter",
@@ -1596,13 +1875,13 @@
         "source": "Ellie Madison Carpenter",
         "target": "Alanna Stephanie Kennedy",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ellie Madison Carpenter",
         "target": "Hayley Emma Raso",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emily Louise van Egmond",
@@ -1614,25 +1893,25 @@
         "source": "Emily Louise van Egmond",
         "target": "Alanna Stephanie Kennedy",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emily Louise van Egmond",
         "target": "Samantha May Kerr",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emily Louise van Egmond",
         "target": "Stephanie-Elise Catley",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emily Louise van Egmond",
         "target": "Hayley Emma Raso",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samantha May Kerr",
@@ -1644,25 +1923,25 @@
         "source": "Samantha May Kerr",
         "target": "Tameka Yallop",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lydia Grace Yilkari Williams",
         "target": "Alanna Stephanie Kennedy",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lydia Grace Yilkari Williams",
         "target": "Emily Louise van Egmond",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lydia Grace Yilkari Williams",
         "target": "Stephanie-Elise Catley",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chloe Logarzo",
@@ -1680,7 +1959,7 @@
         "source": "Tameka Yallop",
         "target": "Samantha May Kerr",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },
@@ -1784,7 +2063,7 @@
     }
   },
   "insights": [
-    "Norway Women's created 1.47 more xG — dominant territorial control",
+    "Norway Women's created 0.68 more xG — dominant territorial control",
     "Even possession — contested midfield throughout"
   ]
 }

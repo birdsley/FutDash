@@ -9,6 +9,11 @@
     "away_color": "#aa151b",
     "score_home": 4,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.882,
     "xg_away": 0.579,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Olga  Carmona García",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -513,7 +520,9 @@
       "player_full": "Hinata Miyazawa",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -525,7 +534,9 @@
       "player_full": "Jennifer Hermoso Fuentes",
       "minute": 14,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.1,
@@ -537,7 +548,9 @@
       "player_full": "Salma Paralluelo Ayingono",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -549,7 +562,9 @@
       "player_full": "Riko Ueki",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -561,7 +576,9 @@
       "player_full": "Jennifer Hermoso Fuentes",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -573,7 +590,9 @@
       "player_full": "Salma Paralluelo Ayingono",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -585,7 +604,9 @@
       "player_full": "Hinata Miyazawa",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -597,7 +618,9 @@
       "player_full": "Ona Batlle Pascual",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -609,7 +632,9 @@
       "player_full": "Fuka Nagano",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -621,7 +646,9 @@
       "player_full": "Hikaru Naomoto",
       "minute": 50,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -633,7 +660,9 @@
       "player_full": "Alexia Putellas Segura",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -645,7 +674,9 @@
       "player_full": "Jennifer Hermoso Fuentes",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.8,
@@ -657,7 +688,9 @@
       "player_full": "Teresa Abelleira Dueñas",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -669,7 +702,9 @@
       "player_full": "Mina Tanaka",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.8,
@@ -681,7 +716,9 @@
       "player_full": "Hikaru Naomoto",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -693,7 +730,9 @@
       "player_full": "Esther Gonzalez Rodríguez",
       "minute": 92,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -779,16 +818,6 @@
         "eigenvector": 0.0032
       },
       {
-        "id": "Fuka Nagano",
-        "short": "Nagano",
-        "x": 37.74,
-        "y": 38.52,
-        "size": 74.0,
-        "is_playmaker": true,
-        "betweenness": 0.3833,
-        "eigenvector": 0.0206
-      },
-      {
         "id": "Hinata Miyazawa",
         "short": "Miyazawa",
         "x": 48.66,
@@ -797,6 +826,16 @@
         "is_playmaker": false,
         "betweenness": 0.0944,
         "eigenvector": 0.0641
+      },
+      {
+        "id": "Fuka Nagano",
+        "short": "Nagano",
+        "x": 37.74,
+        "y": 38.52,
+        "size": 74.0,
+        "is_playmaker": true,
+        "betweenness": 0.3833,
+        "eigenvector": 0.0206
       },
       {
         "id": "Moeka Minami",
@@ -907,6 +946,18 @@
         "direction": "backward"
       },
       {
+        "source": "Hinata Miyazawa",
+        "target": "Risa Shimizu",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Hinata Miyazawa",
+        "target": "Riko Ueki",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Fuka Nagano",
         "target": "Honoka Hayashi",
         "weight": 1,
@@ -923,18 +974,6 @@
         "target": "Moeka Minami",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Hinata Miyazawa",
-        "target": "Risa Shimizu",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Hinata Miyazawa",
-        "target": "Riko Ueki",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Moeka Minami",
@@ -955,7 +994,7 @@
       {
         "id": "Rocío Gálvez Luna",
         "short": "Luna",
-        "x": 71.97,
+        "x": 48.03,
         "y": 26.91,
         "size": 113.6,
         "is_playmaker": true,
@@ -965,7 +1004,7 @@
       {
         "id": "Irene Paredes Hernandez",
         "short": "Hernandez",
-        "x": 66.51,
+        "x": 53.49,
         "y": 52.25,
         "size": 127.5,
         "is_playmaker": false,
@@ -975,7 +1014,7 @@
       {
         "id": "Ona Batlle Pascual",
         "short": "Pascual",
-        "x": 49.96,
+        "x": 70.04,
         "y": 45.49,
         "size": 137.3,
         "is_playmaker": false,
@@ -985,7 +1024,7 @@
       {
         "id": "Salma Paralluelo Ayingono",
         "short": "Ayingono",
-        "x": 33.08,
+        "x": 86.92,
         "y": 41.83,
         "size": 63.7,
         "is_playmaker": false,
@@ -995,7 +1034,7 @@
       {
         "id": "Aitana Bonmati Conca",
         "short": "Conca",
-        "x": 47.68,
+        "x": 72.32,
         "y": 51.08,
         "size": 92.0,
         "is_playmaker": false,
@@ -1005,7 +1044,7 @@
       {
         "id": "Alexia Putellas Segura",
         "short": "Segura",
-        "x": 43.19,
+        "x": 76.81,
         "y": 24.88,
         "size": 75.1,
         "is_playmaker": false,
@@ -1015,7 +1054,7 @@
       {
         "id": "Teresa Abelleira Dueñas",
         "short": "Dueñas",
-        "x": 50.53,
+        "x": 69.47,
         "y": 35.45,
         "size": 134.7,
         "is_playmaker": true,
@@ -1025,7 +1064,7 @@
       {
         "id": "María Francesca Caldentey Oliver",
         "short": "Oliver",
-        "x": 43.7,
+        "x": 76.3,
         "y": 23.06,
         "size": 81.2,
         "is_playmaker": false,
@@ -1035,7 +1074,7 @@
       {
         "id": "Olga  Carmona García",
         "short": "García",
-        "x": 49.78,
+        "x": 70.22,
         "y": 7.46,
         "size": 62.2,
         "is_playmaker": false,
@@ -1045,7 +1084,7 @@
       {
         "id": "Jennifer Hermoso Fuentes",
         "short": "Fuentes",
-        "x": 40.55,
+        "x": 79.45,
         "y": 27.05,
         "size": 60.7,
         "is_playmaker": false,
@@ -1055,7 +1094,7 @@
       {
         "id": "María Isabel Rodríguez Rivero",
         "short": "Rivero",
-        "x": 108.4,
+        "x": 11.6,
         "y": 39.75,
         "size": 57.1,
         "is_playmaker": false,
@@ -1068,61 +1107,61 @@
         "source": "Rocío Gálvez Luna",
         "target": "Irene Paredes Hernandez",
         "weight": 40,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rocío Gálvez Luna",
         "target": "Alexia Putellas Segura",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rocío Gálvez Luna",
         "target": "Teresa Abelleira Dueñas",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rocío Gálvez Luna",
         "target": "María Isabel Rodríguez Rivero",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Irene Paredes Hernandez",
         "target": "Rocío Gálvez Luna",
         "weight": 25,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Irene Paredes Hernandez",
         "target": "Ona Batlle Pascual",
         "weight": 23,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Irene Paredes Hernandez",
         "target": "Aitana Bonmati Conca",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Irene Paredes Hernandez",
         "target": "María Isabel Rodríguez Rivero",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ona Batlle Pascual",
         "target": "Irene Paredes Hernandez",
         "weight": 26,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ona Batlle Pascual",
         "target": "Salma Paralluelo Ayingono",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ona Batlle Pascual",
@@ -1140,19 +1179,19 @@
         "source": "Ona Batlle Pascual",
         "target": "Rocío Gálvez Luna",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ona Batlle Pascual",
         "target": "Jennifer Hermoso Fuentes",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ona Batlle Pascual",
         "target": "María Francesca Caldentey Oliver",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aitana Bonmati Conca",
@@ -1170,13 +1209,13 @@
         "source": "Alexia Putellas Segura",
         "target": "Teresa Abelleira Dueñas",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Teresa Abelleira Dueñas",
         "target": "María Francesca Caldentey Oliver",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Teresa Abelleira Dueñas",
@@ -1200,19 +1239,19 @@
         "source": "Teresa Abelleira Dueñas",
         "target": "Irene Paredes Hernandez",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Teresa Abelleira Dueñas",
         "target": "Rocío Gálvez Luna",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "María Francesca Caldentey Oliver",
         "target": "Teresa Abelleira Dueñas",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "María Francesca Caldentey Oliver",
@@ -1224,13 +1263,13 @@
         "source": "María Isabel Rodríguez Rivero",
         "target": "Rocío Gálvez Luna",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "María Isabel Rodríguez Rivero",
         "target": "Irene Paredes Hernandez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

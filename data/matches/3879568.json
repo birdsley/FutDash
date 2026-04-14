@@ -9,6 +9,11 @@
     "away_color": "#fb090b",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.624,
     "xg_away": 1.125,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Riccardo Montolivo",
       "minute": 17,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.4,
@@ -513,7 +520,9 @@
       "player_full": "Riccardo Montolivo",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -525,7 +534,9 @@
       "player_full": "Giacomo Bonaventura",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.9,
@@ -537,7 +548,9 @@
       "player_full": "Alex Rodrigo Dias da Costa",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -549,7 +562,9 @@
       "player_full": "Alessio Cerci",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.1,
@@ -561,7 +576,9 @@
       "player_full": "Carlos Arturo Bacca Ahumada",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.2,
@@ -573,7 +590,9 @@
       "player_full": "Alessio Cerci",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -585,7 +604,9 @@
       "player_full": "Carlos Arturo Bacca Ahumada",
       "minute": 63,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.5,
@@ -597,7 +618,9 @@
       "player_full": "Carlos Arturo Bacca Ahumada",
       "minute": 63,
       "technique": "Backheel",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -609,7 +632,9 @@
       "player_full": "Daniele Baselli",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -621,7 +646,9 @@
       "player_full": "Daniele Baselli",
       "minute": 72,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.8,
@@ -633,7 +660,9 @@
       "player_full": "Giacomo Bonaventura",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -645,7 +674,9 @@
       "player_full": "Maximiliano Gastón López",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.9,
@@ -657,7 +688,9 @@
       "player_full": "Afriyie Acquah",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -669,7 +702,9 @@
       "player_full": "Marco Benassi",
       "minute": 85,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.3,
@@ -681,7 +716,9 @@
       "player_full": "Kamil Glik",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -931,7 +968,7 @@
       {
         "id": "Riccardo Montolivo",
         "short": "Montolivo",
-        "x": 60.88,
+        "x": 59.12,
         "y": 41.8,
         "size": 133.8,
         "is_playmaker": true,
@@ -941,7 +978,7 @@
       {
         "id": "Ignazio Abate",
         "short": "Abate",
-        "x": 61.92,
+        "x": 58.08,
         "y": 70.9,
         "size": 137.6,
         "is_playmaker": true,
@@ -951,7 +988,7 @@
       {
         "id": "Alessio Cerci",
         "short": "Cerci",
-        "x": 41.55,
+        "x": 78.45,
         "y": 69.81,
         "size": 68.6,
         "is_playmaker": false,
@@ -961,7 +998,7 @@
       {
         "id": "Luca Antonelli",
         "short": "Antonelli",
-        "x": 59.69,
+        "x": 60.31,
         "y": 7.74,
         "size": 118.6,
         "is_playmaker": false,
@@ -971,7 +1008,7 @@
       {
         "id": "Giacomo Bonaventura",
         "short": "Bonaventura",
-        "x": 48.1,
+        "x": 71.9,
         "y": 20.21,
         "size": 78.5,
         "is_playmaker": false,
@@ -981,7 +1018,7 @@
       {
         "id": "Juraj Kucka",
         "short": "Kucka",
-        "x": 56.75,
+        "x": 63.25,
         "y": 61.75,
         "size": 80.8,
         "is_playmaker": false,
@@ -991,7 +1028,7 @@
       {
         "id": "Alex Rodrigo Dias da Costa",
         "short": "Costa",
-        "x": 78.05,
+        "x": 41.95,
         "y": 52.04,
         "size": 97.4,
         "is_playmaker": false,
@@ -1001,7 +1038,7 @@
       {
         "id": "Alessio Romagnoli",
         "short": "Romagnoli",
-        "x": 75.89,
+        "x": 44.11,
         "y": 25.96,
         "size": 95.2,
         "is_playmaker": false,
@@ -1011,7 +1048,7 @@
       {
         "id": "Andrea Bertolacci",
         "short": "Bertolacci",
-        "x": 55.53,
+        "x": 64.47,
         "y": 19.0,
         "size": 73.9,
         "is_playmaker": false,
@@ -1021,7 +1058,7 @@
       {
         "id": "Diego López Rodríguez",
         "short": "Rodríguez",
-        "x": 110.88,
+        "x": 9.12,
         "y": 39.52,
         "size": 62.6,
         "is_playmaker": false,
@@ -1031,7 +1068,7 @@
       {
         "id": "Luiz Adriano de Souza da Silva",
         "short": "Silva",
-        "x": 32.67,
+        "x": 87.33,
         "y": 40.17,
         "size": 58.0,
         "is_playmaker": false,
@@ -1056,37 +1093,37 @@
         "source": "Riccardo Montolivo",
         "target": "Andrea Bertolacci",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Riccardo Montolivo",
         "target": "Alex Rodrigo Dias da Costa",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Riccardo Montolivo",
         "target": "Luiz Adriano de Souza da Silva",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ignazio Abate",
         "target": "Alessio Cerci",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ignazio Abate",
         "target": "Juraj Kucka",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ignazio Abate",
         "target": "Alex Rodrigo Dias da Costa",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ignazio Abate",
@@ -1104,55 +1141,55 @@
         "source": "Luca Antonelli",
         "target": "Giacomo Bonaventura",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luca Antonelli",
         "target": "Alessio Romagnoli",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luca Antonelli",
         "target": "Andrea Bertolacci",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Giacomo Bonaventura",
         "target": "Luca Antonelli",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Giacomo Bonaventura",
         "target": "Luiz Adriano de Souza da Silva",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Juraj Kucka",
         "target": "Riccardo Montolivo",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juraj Kucka",
         "target": "Ignazio Abate",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alex Rodrigo Dias da Costa",
         "target": "Ignazio Abate",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alex Rodrigo Dias da Costa",
         "target": "Riccardo Montolivo",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alex Rodrigo Dias da Costa",
@@ -1164,13 +1201,13 @@
         "source": "Alessio Romagnoli",
         "target": "Luca Antonelli",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alessio Romagnoli",
         "target": "Ignazio Abate",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alessio Romagnoli",
@@ -1182,31 +1219,31 @@
         "source": "Alessio Romagnoli",
         "target": "Riccardo Montolivo",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrea Bertolacci",
         "target": "Giacomo Bonaventura",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego López Rodríguez",
         "target": "Ignazio Abate",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luiz Adriano de Souza da Silva",
         "target": "Giacomo Bonaventura",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luiz Adriano de Souza da Silva",
         "target": "Riccardo Montolivo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

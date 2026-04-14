@@ -9,6 +9,11 @@
     "away_color": "#da020e",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.723,
     "xg_away": 0.379,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Anthony Martial",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -513,7 +520,9 @@
       "player_full": "Craig Dawson",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -525,7 +534,9 @@
       "player_full": "Saido Berahino",
       "minute": 16,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.1,
@@ -537,7 +548,9 @@
       "player_full": "Craig Dawson",
       "minute": 26,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -549,7 +562,9 @@
       "player_full": "Saido Berahino",
       "minute": 33,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.3,
@@ -561,7 +576,9 @@
       "player_full": "Stéphane Sessègnon",
       "minute": 37,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.3,
@@ -573,7 +590,9 @@
       "player_full": "Anthony Martial",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -585,7 +604,9 @@
       "player_full": "Craig Gardner",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.6,
@@ -597,7 +618,9 @@
       "player_full": "Marcus Rashford",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.7,
@@ -609,7 +632,9 @@
       "player_full": "Jesse Lingard",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.1,
@@ -621,7 +646,9 @@
       "player_full": "Stéphane Sessègnon",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.3,
@@ -633,7 +660,9 @@
       "player_full": "Ander Herrera Agüera",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.3,
@@ -645,7 +674,9 @@
       "player_full": "Jesse Lingard",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -657,7 +688,9 @@
       "player_full": "Saido Berahino",
       "minute": 60,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -669,7 +702,9 @@
       "player_full": "José Salomón Rondón Giménez",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -681,7 +716,9 @@
       "player_full": "Timothy Evans Fosu-Mensah",
       "minute": 93,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +998,7 @@
       {
         "id": "Daley Blind",
         "short": "Blind",
-        "x": 70.52,
+        "x": 49.48,
         "y": 25.22,
         "size": 108.9,
         "is_playmaker": true,
@@ -971,7 +1008,7 @@
       {
         "id": "Anthony Martial",
         "short": "Martial",
-        "x": 48.2,
+        "x": 71.8,
         "y": 20.52,
         "size": 99.6,
         "is_playmaker": false,
@@ -981,7 +1018,7 @@
       {
         "id": "Michael Carrick",
         "short": "Carrick",
-        "x": 65.23,
+        "x": 54.77,
         "y": 39.99,
         "size": 121.3,
         "is_playmaker": false,
@@ -991,7 +1028,7 @@
       {
         "id": "Faustino Marcos Alberto Rojo",
         "short": "Rojo",
-        "x": 63.04,
+        "x": 56.96,
         "y": 9.09,
         "size": 105.8,
         "is_playmaker": false,
@@ -1001,7 +1038,7 @@
       {
         "id": "Ander Herrera Agüera",
         "short": "Agüera",
-        "x": 50.44,
+        "x": 69.56,
         "y": 36.92,
         "size": 122.4,
         "is_playmaker": true,
@@ -1011,7 +1048,7 @@
       {
         "id": "Chris Smalling",
         "short": "Smalling",
-        "x": 79.99,
+        "x": 40.01,
         "y": 50.9,
         "size": 79.9,
         "is_playmaker": false,
@@ -1021,7 +1058,7 @@
       {
         "id": "Jesse Lingard",
         "short": "Lingard",
-        "x": 43.59,
+        "x": 76.41,
         "y": 47.47,
         "size": 88.2,
         "is_playmaker": false,
@@ -1031,7 +1068,7 @@
       {
         "id": "Matteo Darmian",
         "short": "Darmian",
-        "x": 49.87,
+        "x": 70.13,
         "y": 71.61,
         "size": 91.3,
         "is_playmaker": false,
@@ -1041,7 +1078,7 @@
       {
         "id": "Marcus Rashford",
         "short": "Rashford",
-        "x": 41.2,
+        "x": 78.8,
         "y": 56.74,
         "size": 69.5,
         "is_playmaker": false,
@@ -1049,24 +1086,24 @@
         "eigenvector": 0.1311
       },
       {
-        "id": "David de Gea Quintana",
-        "short": "Quintana",
-        "x": 106.71,
-        "y": 38.49,
-        "size": 59.1,
-        "is_playmaker": false,
-        "betweenness": 0.1722,
-        "eigenvector": 0.0156
-      },
-      {
         "id": "Juan Manuel Mata García",
         "short": "García",
-        "x": 40.99,
+        "x": 79.01,
         "y": 55.15,
         "size": 59.1,
         "is_playmaker": false,
         "betweenness": 0.1537,
         "eigenvector": 0.0206
+      },
+      {
+        "id": "David de Gea Quintana",
+        "short": "Quintana",
+        "x": 13.29,
+        "y": 38.49,
+        "size": 59.1,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0156
       }
     ],
     "edges": [
@@ -1074,25 +1111,25 @@
         "source": "Daley Blind",
         "target": "Anthony Martial",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daley Blind",
         "target": "Michael Carrick",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daley Blind",
         "target": "Ander Herrera Agüera",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daley Blind",
         "target": "David de Gea Quintana",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anthony Martial",
@@ -1104,7 +1141,7 @@
         "source": "Anthony Martial",
         "target": "Faustino Marcos Alberto Rojo",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Michael Carrick",
@@ -1116,49 +1153,49 @@
         "source": "Michael Carrick",
         "target": "Jesse Lingard",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Michael Carrick",
         "target": "Daley Blind",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Michael Carrick",
         "target": "Ander Herrera Agüera",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Faustino Marcos Alberto Rojo",
         "target": "Anthony Martial",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Faustino Marcos Alberto Rojo",
         "target": "Jesse Lingard",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Faustino Marcos Alberto Rojo",
         "target": "Ander Herrera Agüera",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Faustino Marcos Alberto Rojo",
         "target": "Daley Blind",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ander Herrera Agüera",
         "target": "Michael Carrick",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ander Herrera Agüera",
@@ -1176,31 +1213,31 @@
         "source": "Ander Herrera Agüera",
         "target": "Marcus Rashford",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chris Smalling",
         "target": "Daley Blind",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chris Smalling",
         "target": "Michael Carrick",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Chris Smalling",
         "target": "David de Gea Quintana",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jesse Lingard",
         "target": "Matteo Darmian",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jesse Lingard",
@@ -1212,43 +1249,31 @@
         "source": "Matteo Darmian",
         "target": "Jesse Lingard",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matteo Darmian",
         "target": "Michael Carrick",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matteo Darmian",
         "target": "Chris Smalling",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcus Rashford",
         "target": "Ander Herrera Agüera",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marcus Rashford",
         "target": "Juan Manuel Mata García",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "David de Gea Quintana",
-        "target": "Chris Smalling",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "David de Gea Quintana",
-        "target": "Daley Blind",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Juan Manuel Mata García",
@@ -1261,6 +1286,18 @@
         "target": "Jesse Lingard",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "David de Gea Quintana",
+        "target": "Chris Smalling",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "David de Gea Quintana",
+        "target": "Daley Blind",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

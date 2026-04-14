@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.082,
     "xg_away": 0.698,
     "shots_home": 3,
@@ -501,7 +506,9 @@
       "player_full": "Ramona Bachmann",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -513,7 +520,9 @@
       "player_full": "Rebekah Ashley Stott",
       "minute": 10,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -525,7 +534,9 @@
       "player_full": "Catherine Joan Bott",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.4,
@@ -537,7 +548,9 @@
       "player_full": "Annalie Longo",
       "minute": 13,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.7,
@@ -549,7 +562,9 @@
       "player_full": "Katie Bowen",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -561,7 +576,9 @@
       "player_full": "Annalie Longo",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.4,
@@ -573,7 +590,9 @@
       "player_full": "Jacqueline Anne Hand",
       "minute": 22,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.4,
@@ -585,7 +604,9 @@
       "player_full": "Katie Bowen",
       "minute": 26,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.7,
@@ -597,7 +618,9 @@
       "player_full": "Seraina Piubel",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -609,7 +632,9 @@
       "player_full": "Malia Grace Steinmetz",
       "minute": 73,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -621,7 +646,9 @@
       "player_full": "Claudia Bunge",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -633,7 +660,9 @@
       "player_full": "Jacqueline Anne Hand",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.8,
@@ -645,7 +674,9 @@
       "player_full": "Coumba Sow",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -657,7 +688,9 @@
       "player_full": "Victoria Esson",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -669,7 +702,9 @@
       "player_full": "Malia Grace Steinmetz",
       "minute": 97,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Katie Bowen",
         "short": "Bowen",
-        "x": 78.12,
+        "x": 41.88,
         "y": 31.69,
         "size": 167.6,
         "is_playmaker": true,
@@ -971,7 +1006,7 @@
       {
         "id": "Rebekah Ashley Stott",
         "short": "Stott",
-        "x": 77.43,
+        "x": 42.57,
         "y": 58.36,
         "size": 130.7,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Alexandra Riley",
         "short": "Riley",
-        "x": 64.38,
+        "x": 55.62,
         "y": 9.1,
         "size": 102.6,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Catherine Joan Bott",
         "short": "Bott",
-        "x": 64.36,
+        "x": 55.64,
         "y": 73.01,
         "size": 112.3,
         "is_playmaker": true,
@@ -1001,7 +1036,7 @@
       {
         "id": "Jacqueline Anne Hand",
         "short": "Hand",
-        "x": 47.2,
+        "x": 72.8,
         "y": 59.63,
         "size": 86.1,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Malia Grace Steinmetz",
         "short": "Steinmetz",
-        "x": 53.35,
+        "x": 66.65,
         "y": 44.23,
         "size": 84.1,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Ria Percival",
         "short": "Percival",
-        "x": 64.91,
+        "x": 55.09,
         "y": 32.9,
         "size": 68.6,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Victoria Esson",
         "short": "Esson",
-        "x": 106.58,
+        "x": 13.42,
         "y": 39.53,
         "size": 69.6,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Hannah Wilkinson",
         "short": "Wilkinson",
-        "x": 62.65,
+        "x": 57.35,
         "y": 45.6,
         "size": 60.8,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Annalie Longo",
         "short": "Longo",
-        "x": 62.42,
+        "x": 57.58,
         "y": 62.65,
         "size": 63.7,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Olivia Chance",
         "short": "Chance",
-        "x": 50.28,
+        "x": 69.72,
         "y": 16.07,
         "size": 58.9,
         "is_playmaker": false,
@@ -1080,37 +1115,37 @@
         "source": "Katie Bowen",
         "target": "Alexandra Riley",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katie Bowen",
         "target": "Catherine Joan Bott",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katie Bowen",
         "target": "Ria Percival",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katie Bowen",
         "target": "Victoria Esson",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Katie Bowen",
         "target": "Jacqueline Anne Hand",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Katie Bowen",
         "target": "Malia Grace Steinmetz",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rebekah Ashley Stott",
@@ -1122,61 +1157,61 @@
         "source": "Rebekah Ashley Stott",
         "target": "Catherine Joan Bott",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rebekah Ashley Stott",
         "target": "Annalie Longo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rebekah Ashley Stott",
         "target": "Victoria Esson",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexandra Riley",
         "target": "Katie Bowen",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexandra Riley",
         "target": "Malia Grace Steinmetz",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandra Riley",
         "target": "Jacqueline Anne Hand",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexandra Riley",
         "target": "Olivia Chance",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Catherine Joan Bott",
         "target": "Rebekah Ashley Stott",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Catherine Joan Bott",
         "target": "Jacqueline Anne Hand",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Catherine Joan Bott",
         "target": "Malia Grace Steinmetz",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Catherine Joan Bott",
@@ -1188,55 +1223,55 @@
         "source": "Jacqueline Anne Hand",
         "target": "Catherine Joan Bott",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jacqueline Anne Hand",
         "target": "Malia Grace Steinmetz",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Malia Grace Steinmetz",
         "target": "Alexandra Riley",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ria Percival",
         "target": "Katie Bowen",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ria Percival",
         "target": "Olivia Chance",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Victoria Esson",
         "target": "Katie Bowen",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Annalie Longo",
         "target": "Rebekah Ashley Stott",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Olivia Chance",
         "target": "Alexandra Riley",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Olivia Chance",
         "target": "Ria Percival",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

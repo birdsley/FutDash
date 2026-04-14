@@ -9,6 +9,11 @@
     "away_color": "#003da5",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 2.112,
     "xg_away": 0.688,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Borja González Tomás",
       "minute": 3,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.1,
@@ -513,7 +520,9 @@
       "player_full": "Xabier Prieto Argarate",
       "minute": 5,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -525,7 +534,9 @@
       "player_full": "Imanol Agirretxe Arruti",
       "minute": 9,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -537,7 +548,9 @@
       "player_full": "Sergio Gontán Gallardo",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -549,7 +562,9 @@
       "player_full": "Imanol Agirretxe Arruti",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.2,
@@ -561,7 +576,9 @@
       "player_full": "Borja González Tomás",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -573,7 +590,9 @@
       "player_full": "Aleksandar Pantić",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -585,7 +604,9 @@
       "player_full": "Imanol Agirretxe Arruti",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -597,7 +618,9 @@
       "player_full": "Takashi Inui",
       "minute": 64,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.6,
@@ -609,7 +632,9 @@
       "player_full": "Manuel Castellano Castro",
       "minute": 66,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -621,7 +646,9 @@
       "player_full": "Jonathas Cristian de Jesus",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.9,
@@ -633,7 +660,9 @@
       "player_full": "Sergio Canales Madrazo",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.6,
@@ -645,7 +674,9 @@
       "player_full": "Jonathas Cristian de Jesus",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.2,
@@ -657,7 +688,9 @@
       "player_full": "Jonathas Cristian de Jesus",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -669,7 +702,9 @@
       "player_full": "Imanol Agirretxe Arruti",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.4,
@@ -681,7 +716,9 @@
       "player_full": "Imanol Agirretxe Arruti",
       "minute": 89,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Borja González Tomás",
         "short": "Tomás",
-        "x": 46.06,
+        "x": 73.94,
         "y": 31.38,
         "size": 104.4,
         "is_playmaker": false,
@@ -983,7 +1020,7 @@
       {
         "id": "Sergio Enrich Ametller",
         "short": "Ametller",
-        "x": 47.84,
+        "x": 72.16,
         "y": 42.78,
         "size": 111.2,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Saúl Berjón Pérez",
         "short": "Pérez",
-        "x": 45.6,
+        "x": 74.4,
         "y": 17.11,
         "size": 156.1,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "David Juncà Reñé",
         "short": "Reñé",
-        "x": 61.39,
+        "x": 58.61,
         "y": 4.24,
         "size": 115.7,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Daniel García Carrillo",
         "short": "Carrillo",
-        "x": 65.21,
+        "x": 54.79,
         "y": 42.84,
         "size": 84.2,
         "is_playmaker": true,
@@ -1023,7 +1060,7 @@
       {
         "id": "Adrián González Morales",
         "short": "Morales",
-        "x": 67.9,
+        "x": 52.1,
         "y": 30.71,
         "size": 95.4,
         "is_playmaker": false,
@@ -1033,7 +1070,7 @@
       {
         "id": "Asier Riesgo Unamuno",
         "short": "Unamuno",
-        "x": 109.81,
+        "x": 10.19,
         "y": 43.33,
         "size": 82.0,
         "is_playmaker": false,
@@ -1041,9 +1078,19 @@
         "eigenvector": 0.0013
       },
       {
+        "id": "Mauro Javier Dos Santos",
+        "short": "Santos",
+        "x": 35.41,
+        "y": 42.09,
+        "size": 64.0,
+        "is_playmaker": true,
+        "betweenness": 0.4556,
+        "eigenvector": 0.0003
+      },
+      {
         "id": "Ander Capa Rodríguez",
         "short": "Rodríguez",
-        "x": 60.01,
+        "x": 59.99,
         "y": 71.85,
         "size": 64.0,
         "is_playmaker": false,
@@ -1053,7 +1100,7 @@
       {
         "id": "Aleksandar Pantić",
         "short": "Pantić",
-        "x": 72.74,
+        "x": 47.26,
         "y": 20.77,
         "size": 64.0,
         "is_playmaker": false,
@@ -1061,19 +1108,9 @@
         "eigenvector": 0.0452
       },
       {
-        "id": "Mauro Javier Dos Santos",
-        "short": "Santos",
-        "x": 84.59,
-        "y": 42.09,
-        "size": 64.0,
-        "is_playmaker": true,
-        "betweenness": 0.4556,
-        "eigenvector": 0.0003
-      },
-      {
         "id": "Sergio Gontán Gallardo",
         "short": "Gallardo",
-        "x": 45.98,
+        "x": 74.02,
         "y": 67.68,
         "size": 64.0,
         "is_playmaker": false,
@@ -1122,41 +1159,41 @@
         "source": "Saúl Berjón Pérez",
         "target": "David Juncà Reñé",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "David Juncà Reñé",
         "target": "Saúl Berjón Pérez",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Juncà Reñé",
         "target": "Aleksandar Pantić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel García Carrillo",
         "target": "Saúl Berjón Pérez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel García Carrillo",
         "target": "Borja González Tomás",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel García Carrillo",
-        "target": "Ander Capa Rodríguez",
+        "target": "Mauro Javier Dos Santos",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Daniel García Carrillo",
-        "target": "Mauro Javier Dos Santos",
+        "target": "Ander Capa Rodríguez",
         "weight": 1,
         "direction": "forward"
       },
@@ -1164,85 +1201,85 @@
         "source": "Adrián González Morales",
         "target": "Asier Riesgo Unamuno",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrián González Morales",
         "target": "Saúl Berjón Pérez",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adrián González Morales",
         "target": "David Juncà Reñé",
         "weight": 4,
-        "direction": "backward"
-      },
-      {
-        "source": "Adrián González Morales",
-        "target": "Aleksandar Pantić",
-        "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Adrián González Morales",
         "target": "Mauro Javier Dos Santos",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
+      },
+      {
+        "source": "Adrián González Morales",
+        "target": "Aleksandar Pantić",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Asier Riesgo Unamuno",
         "target": "Borja González Tomás",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Asier Riesgo Unamuno",
         "target": "Sergio Enrich Ametller",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "Mauro Javier Dos Santos",
+        "target": "Daniel García Carrillo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mauro Javier Dos Santos",
+        "target": "Adrián González Morales",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Ander Capa Rodríguez",
         "target": "Sergio Gontán Gallardo",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ander Capa Rodríguez",
         "target": "Daniel García Carrillo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aleksandar Pantić",
         "target": "Adrián González Morales",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aleksandar Pantić",
         "target": "David Juncà Reñé",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Mauro Javier Dos Santos",
-        "target": "Daniel García Carrillo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Mauro Javier Dos Santos",
-        "target": "Adrián González Morales",
-        "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Gontán Gallardo",
         "target": "Ander Capa Rodríguez",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Gontán Gallardo",

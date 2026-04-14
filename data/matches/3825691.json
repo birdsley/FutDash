@@ -9,6 +9,11 @@
     "away_color": "#d40000",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.428,
     "xg_away": 0.764,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Isaac Ajayi Success",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -513,7 +520,9 @@
       "player_full": "Rubén Rochina Naixes",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.6,
@@ -525,7 +534,9 @@
       "player_full": "Francisco Manuel Rico Castro",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -537,7 +548,9 @@
       "player_full": "Víctor Camarasa Ferrando",
       "minute": 28,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -549,7 +562,9 @@
       "player_full": "José Luis Morales Nogales",
       "minute": 47,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -561,7 +576,9 @@
       "player_full": "Adalberto Peñaranda Maestre",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.1,
@@ -573,7 +590,9 @@
       "player_full": "Víctor Camarasa Ferrando",
       "minute": 55,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -585,7 +604,9 @@
       "player_full": "Simão Mate",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -597,7 +618,9 @@
       "player_full": "Rubén Rochina Naixes",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -609,7 +632,9 @@
       "player_full": "Simão Mate",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.7,
@@ -621,7 +646,9 @@
       "player_full": "Víctor Camarasa Ferrando",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -633,7 +660,9 @@
       "player_full": "Roger Martí Salvador",
       "minute": 82,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -645,7 +674,9 @@
       "player_full": "Javier Márquez Moreno",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.4,
@@ -657,7 +688,9 @@
       "player_full": "Adalberto Peñaranda Maestre",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -669,7 +702,9 @@
       "player_full": "Adalberto Peñaranda Maestre",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Rubén Salvador Pérez Del Mármol",
         "short": "Mármol",
-        "x": 66.37,
+        "x": 53.63,
         "y": 40.73,
         "size": 170.6,
         "is_playmaker": true,
@@ -971,7 +1006,7 @@
       {
         "id": "Dimitri Foulquier",
         "short": "Foulquier",
-        "x": 64.08,
+        "x": 55.92,
         "y": 67.39,
         "size": 95.3,
         "is_playmaker": true,
@@ -981,7 +1016,7 @@
       {
         "id": "Isaac Ajayi Success",
         "short": "Success",
-        "x": 44.18,
+        "x": 75.82,
         "y": 23.53,
         "size": 73.2,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Adalberto Peñaranda Maestre",
         "short": "Maestre",
-        "x": 45.53,
+        "x": 74.47,
         "y": 33.33,
         "size": 77.1,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Francisco Manuel Rico Castro",
         "short": "Castro",
-        "x": 52.14,
+        "x": 67.86,
         "y": 43.12,
         "size": 69.3,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Andrés Eduardo Fernández Moreno",
         "short": "Moreno",
-        "x": 106.2,
+        "x": 13.8,
         "y": 40.89,
         "size": 61.5,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "David Rodríguez Lombán",
         "short": "Lombán",
-        "x": 85.84,
+        "x": 34.16,
         "y": 30.87,
         "size": 104.4,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Cristiano Biraghi",
         "short": "Biraghi",
-        "x": 65.35,
+        "x": 54.65,
         "y": 7.84,
         "size": 99.2,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Robert Ibáñez Castro",
         "short": "Castro",
-        "x": 47.88,
+        "x": 72.12,
         "y": 60.99,
         "size": 65.4,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Jean-Sylvain Claude Babin",
         "short": "Babin",
-        "x": 79.02,
+        "x": 40.98,
         "y": 54.77,
         "size": 82.3,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Rubén Rochina Naixes",
         "short": "Naixes",
-        "x": 57.49,
+        "x": 62.51,
         "y": 36.1,
         "size": 106.9,
         "is_playmaker": false,
@@ -1080,25 +1115,25 @@
         "source": "Rubén Salvador Pérez Del Mármol",
         "target": "Isaac Ajayi Success",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rubén Salvador Pérez Del Mármol",
         "target": "Jean-Sylvain Claude Babin",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rubén Salvador Pérez Del Mármol",
         "target": "David Rodríguez Lombán",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rubén Salvador Pérez Del Mármol",
         "target": "Rubén Rochina Naixes",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rubén Salvador Pérez Del Mármol",
@@ -1110,13 +1145,13 @@
         "source": "Dimitri Foulquier",
         "target": "Robert Ibáñez Castro",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dimitri Foulquier",
         "target": "Rubén Rochina Naixes",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dimitri Foulquier",
@@ -1128,49 +1163,49 @@
         "source": "Adalberto Peñaranda Maestre",
         "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francisco Manuel Rico Castro",
         "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francisco Manuel Rico Castro",
         "target": "Adalberto Peñaranda Maestre",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrés Eduardo Fernández Moreno",
         "target": "David Rodríguez Lombán",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Rodríguez Lombán",
         "target": "Cristiano Biraghi",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Rodríguez Lombán",
         "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristiano Biraghi",
         "target": "David Rodríguez Lombán",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Cristiano Biraghi",
         "target": "Isaac Ajayi Success",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Cristiano Biraghi",
@@ -1182,31 +1217,31 @@
         "source": "Jean-Sylvain Claude Babin",
         "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jean-Sylvain Claude Babin",
         "target": "Rubén Rochina Naixes",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rubén Rochina Naixes",
         "target": "Adalberto Peñaranda Maestre",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Rubén Rochina Naixes",
         "target": "Dimitri Foulquier",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rubén Rochina Naixes",
         "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

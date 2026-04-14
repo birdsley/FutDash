@@ -9,6 +9,11 @@
     "away_color": "#cf0921",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.286,
     "xg_away": 2.379,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Gaël Danic",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -513,7 +520,9 @@
       "player_full": "Julian Palmieri",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -525,7 +534,9 @@
       "player_full": "Florian Raspentino",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.8,
@@ -537,7 +548,9 @@
       "player_full": "Fábio Henrique Tavares",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -549,7 +562,9 @@
       "player_full": "Gabriel Boschilia",
       "minute": 26,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -561,7 +576,9 @@
       "player_full": "Almamy Touré",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.5,
@@ -573,7 +590,9 @@
       "player_full": "Lacina Traoré",
       "minute": 46,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.1,
@@ -585,7 +604,9 @@
       "player_full": "Gabriel Boschilia",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.8,
@@ -597,7 +618,9 @@
       "player_full": "Florian Marange",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -609,7 +632,9 @@
       "player_full": "Lacina Traoré",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -621,7 +646,9 @@
       "player_full": "Lacina Traoré",
       "minute": 83,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -633,7 +660,9 @@
       "player_full": "Julien Romain",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +930,7 @@
       {
         "id": "Elderson Uwa Echiejile",
         "short": "Echiejile",
-        "x": 66.5,
+        "x": 53.5,
         "y": 8.31,
         "size": 115.0,
         "is_playmaker": false,
@@ -911,7 +940,7 @@
       {
         "id": "Tiemoué Bakayoko",
         "short": "Bakayoko",
-        "x": 63.58,
+        "x": 56.42,
         "y": 36.28,
         "size": 130.3,
         "is_playmaker": true,
@@ -921,7 +950,7 @@
       {
         "id": "Almamy Touré",
         "short": "Touré",
-        "x": 58.37,
+        "x": 61.63,
         "y": 72.13,
         "size": 97.4,
         "is_playmaker": false,
@@ -931,7 +960,7 @@
       {
         "id": "Nabil Dirar",
         "short": "Dirar",
-        "x": 42.41,
+        "x": 77.59,
         "y": 61.27,
         "size": 95.0,
         "is_playmaker": false,
@@ -941,7 +970,7 @@
       {
         "id": "Fábio Alexandre da Silva Coentrão",
         "short": "Coentrão",
-        "x": 41.54,
+        "x": 78.46,
         "y": 25.6,
         "size": 71.5,
         "is_playmaker": false,
@@ -951,7 +980,7 @@
       {
         "id": "Ricardo Alberto Silveira de Carvalho",
         "short": "Carvalho",
-        "x": 84.22,
+        "x": 35.78,
         "y": 26.51,
         "size": 95.0,
         "is_playmaker": false,
@@ -961,7 +990,7 @@
       {
         "id": "Wallace Fortuna dos Santos",
         "short": "Santos",
-        "x": 81.11,
+        "x": 38.89,
         "y": 55.1,
         "size": 96.2,
         "is_playmaker": false,
@@ -971,7 +1000,7 @@
       {
         "id": "Fábio Henrique Tavares",
         "short": "Tavares",
-        "x": 64.86,
+        "x": 55.14,
         "y": 48.16,
         "size": 106.8,
         "is_playmaker": false,
@@ -981,7 +1010,7 @@
       {
         "id": "Lacina Traoré",
         "short": "Traoré",
-        "x": 39.51,
+        "x": 80.49,
         "y": 49.24,
         "size": 78.5,
         "is_playmaker": false,
@@ -989,24 +1018,24 @@
         "eigenvector": 0.1755
       },
       {
-        "id": "Gabriel Boschilia",
-        "short": "Boschilia",
-        "x": 49.17,
-        "y": 40.58,
-        "size": 59.7,
-        "is_playmaker": true,
-        "betweenness": 0.2444,
-        "eigenvector": 0.034
-      },
-      {
         "id": "Danijel Subašić",
         "short": "Subašić",
-        "x": 107.94,
+        "x": 12.06,
         "y": 45.69,
         "size": 59.7,
         "is_playmaker": false,
         "betweenness": 0.1111,
         "eigenvector": 0.0278
+      },
+      {
+        "id": "Gabriel Boschilia",
+        "short": "Boschilia",
+        "x": 70.83,
+        "y": 40.58,
+        "size": 59.7,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.034
       }
     ],
     "edges": [
@@ -1020,7 +1049,7 @@
         "source": "Elderson Uwa Echiejile",
         "target": "Fábio Alexandre da Silva Coentrão",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Elderson Uwa Echiejile",
@@ -1032,7 +1061,7 @@
         "source": "Elderson Uwa Echiejile",
         "target": "Ricardo Alberto Silveira de Carvalho",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tiemoué Bakayoko",
@@ -1044,13 +1073,13 @@
         "source": "Tiemoué Bakayoko",
         "target": "Ricardo Alberto Silveira de Carvalho",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tiemoué Bakayoko",
         "target": "Wallace Fortuna dos Santos",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tiemoué Bakayoko",
@@ -1062,25 +1091,25 @@
         "source": "Tiemoué Bakayoko",
         "target": "Gabriel Boschilia",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Almamy Touré",
         "target": "Nabil Dirar",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Almamy Touré",
         "target": "Tiemoué Bakayoko",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Almamy Touré",
         "target": "Lacina Traoré",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nabil Dirar",
@@ -1092,25 +1121,25 @@
         "source": "Nabil Dirar",
         "target": "Almamy Touré",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fábio Alexandre da Silva Coentrão",
         "target": "Elderson Uwa Echiejile",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ricardo Alberto Silveira de Carvalho",
         "target": "Elderson Uwa Echiejile",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ricardo Alberto Silveira de Carvalho",
         "target": "Fábio Henrique Tavares",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ricardo Alberto Silveira de Carvalho",
@@ -1122,37 +1151,37 @@
         "source": "Ricardo Alberto Silveira de Carvalho",
         "target": "Danijel Subašić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Wallace Fortuna dos Santos",
         "target": "Tiemoué Bakayoko",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wallace Fortuna dos Santos",
         "target": "Fábio Henrique Tavares",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wallace Fortuna dos Santos",
         "target": "Almamy Touré",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wallace Fortuna dos Santos",
         "target": "Danijel Subašić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fábio Henrique Tavares",
         "target": "Nabil Dirar",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fábio Henrique Tavares",
@@ -1164,7 +1193,7 @@
         "source": "Fábio Henrique Tavares",
         "target": "Almamy Touré",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lacina Traoré",
@@ -1176,29 +1205,29 @@
         "source": "Lacina Traoré",
         "target": "Gabriel Boschilia",
         "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Danijel Subašić",
+        "target": "Wallace Fortuna dos Santos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Danijel Subašić",
+        "target": "Ricardo Alberto Silveira de Carvalho",
+        "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Gabriel Boschilia",
         "target": "Lacina Traoré",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gabriel Boschilia",
         "target": "Tiemoué Bakayoko",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Danijel Subašić",
-        "target": "Wallace Fortuna dos Santos",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Danijel Subašić",
-        "target": "Ricardo Alberto Silveira de Carvalho",
         "weight": 1,
         "direction": "backward"
       }

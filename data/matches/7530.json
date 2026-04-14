@@ -9,6 +9,11 @@
     "away_color": "#00843d",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.562,
     "xg_away": 0.98,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -513,7 +520,9 @@
       "player_full": "Paul Pogba",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -525,7 +534,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 5,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -537,7 +548,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -549,7 +562,9 @@
       "player_full": "Mathew Leckie",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -561,7 +576,9 @@
       "player_full": "Mathew Leckie",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -573,7 +590,9 @@
       "player_full": "Lucas Hernández Pi",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -585,7 +604,9 @@
       "player_full": "Aziz Eraltay Behich",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -597,7 +618,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -609,7 +632,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -621,7 +646,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -633,7 +660,9 @@
       "player_full": "Mile Jedinak",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.0,
@@ -645,7 +674,9 @@
       "player_full": "Samuel Yves Umtiti",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.0,
@@ -657,7 +688,9 @@
       "player_full": "Benjamin Pavard",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -669,7 +702,9 @@
       "player_full": "Lucas Hernández Pi",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -681,7 +716,9 @@
       "player_full": "Nabil Fekir",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.0,
@@ -693,7 +730,9 @@
       "player_full": "Josh Risdon",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.0593
       },
       {
-        "id": "Kylian Mbappé Lottin",
-        "short": "Lottin",
-        "x": 84.0,
-        "y": 19.6,
-        "size": 58.3,
-        "is_playmaker": false,
-        "betweenness": 0.1444,
-        "eigenvector": 0.0263
-      },
-      {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
         "x": 70.2,
@@ -807,6 +836,16 @@
         "is_playmaker": false,
         "betweenness": 0.2389,
         "eigenvector": 0.0122
+      },
+      {
+        "id": "Kylian Mbappé Lottin",
+        "short": "Lottin",
+        "x": 84.0,
+        "y": 19.6,
+        "size": 58.3,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.0263
       }
     ],
     "edges": [
@@ -979,18 +1018,6 @@
         "direction": "backward"
       },
       {
-        "source": "Kylian Mbappé Lottin",
-        "target": "Paul Pogba",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Kylian Mbappé Lottin",
-        "target": "Lucas Hernández Pi",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Antoine Griezmann",
         "target": "Ousmane Dembélé",
         "weight": 1,
@@ -1001,6 +1028,18 @@
         "target": "N''Golo Kanté",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Kylian Mbappé Lottin",
+        "target": "Paul Pogba",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Kylian Mbappé Lottin",
+        "target": "Lucas Hernández Pi",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1009,7 +1048,7 @@
       {
         "id": "Mark Milligan",
         "short": "Milligan",
-        "x": 83.27,
+        "x": 36.73,
         "y": 21.0,
         "size": 163.1,
         "is_playmaker": false,
@@ -1019,7 +1058,7 @@
       {
         "id": "Aziz Eraltay Behich",
         "short": "Behich",
-        "x": 65.42,
+        "x": 54.58,
         "y": 6.16,
         "size": 118.1,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Trent Sainsbury",
         "short": "Sainsbury",
-        "x": 78.68,
+        "x": 41.32,
         "y": 55.52,
         "size": 110.9,
         "is_playmaker": false,
@@ -1039,7 +1078,7 @@
       {
         "id": "Mathew Ryan",
         "short": "Ryan",
-        "x": 105.92,
+        "x": 14.08,
         "y": 38.97,
         "size": 94.6,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Aaron Mooy",
         "short": "Mooy",
-        "x": 65.57,
+        "x": 54.43,
         "y": 35.79,
         "size": 112.7,
         "is_playmaker": true,
@@ -1059,7 +1098,7 @@
       {
         "id": "Mile Jedinak",
         "short": "Jedinak",
-        "x": 66.83,
+        "x": 53.17,
         "y": 40.73,
         "size": 83.8,
         "is_playmaker": true,
@@ -1069,7 +1108,7 @@
       {
         "id": "Josh Risdon",
         "short": "Risdon",
-        "x": 62.23,
+        "x": 57.77,
         "y": 73.41,
         "size": 76.6,
         "is_playmaker": false,
@@ -1079,7 +1118,7 @@
       {
         "id": "Mathew Leckie",
         "short": "Leckie",
-        "x": 47.7,
+        "x": 72.3,
         "y": 73.4,
         "size": 62.2,
         "is_playmaker": false,
@@ -1089,7 +1128,7 @@
       {
         "id": "Tom Rogić",
         "short": "Rogić",
-        "x": 62.92,
+        "x": 57.08,
         "y": 43.17,
         "size": 63.1,
         "is_playmaker": false,
@@ -1099,7 +1138,7 @@
       {
         "id": "Robbie Kruse",
         "short": "Kruse",
-        "x": 41.18,
+        "x": 78.82,
         "y": 11.18,
         "size": 61.3,
         "is_playmaker": false,
@@ -1109,7 +1148,7 @@
       {
         "id": "Andrew Nabbout",
         "short": "Nabbout",
-        "x": 51.67,
+        "x": 68.33,
         "y": 43.0,
         "size": 58.6,
         "is_playmaker": false,
@@ -1122,37 +1161,37 @@
         "source": "Mark Milligan",
         "target": "Aziz Eraltay Behich",
         "weight": 21,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mark Milligan",
         "target": "Trent Sainsbury",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mark Milligan",
         "target": "Mathew Ryan",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mark Milligan",
         "target": "Aaron Mooy",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aziz Eraltay Behich",
         "target": "Mark Milligan",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aziz Eraltay Behich",
         "target": "Robbie Kruse",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aziz Eraltay Behich",
@@ -1170,55 +1209,55 @@
         "source": "Trent Sainsbury",
         "target": "Mark Milligan",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Trent Sainsbury",
         "target": "Aaron Mooy",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Trent Sainsbury",
         "target": "Tom Rogić",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathew Ryan",
         "target": "Mark Milligan",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathew Ryan",
         "target": "Trent Sainsbury",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathew Ryan",
         "target": "Aziz Eraltay Behich",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathew Ryan",
         "target": "Josh Risdon",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aaron Mooy",
         "target": "Trent Sainsbury",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aaron Mooy",
         "target": "Mark Milligan",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aaron Mooy",
@@ -1242,7 +1281,7 @@
         "source": "Mile Jedinak",
         "target": "Mark Milligan",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mile Jedinak",
@@ -1254,37 +1293,37 @@
         "source": "Mile Jedinak",
         "target": "Josh Risdon",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mile Jedinak",
         "target": "Andrew Nabbout",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Josh Risdon",
         "target": "Mathew Leckie",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tom Rogić",
         "target": "Andrew Nabbout",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrew Nabbout",
         "target": "Tom Rogić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrew Nabbout",
         "target": "Mile Jedinak",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

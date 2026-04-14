@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 0,
     "score_away": 4,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.742,
     "xg_away": 0.928,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Adrián López Álvarez",
       "minute": 20,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.4,
@@ -513,7 +520,9 @@
       "player_full": "Adriano Correia Claro",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.7,
@@ -525,7 +534,9 @@
       "player_full": "David Villa Sánchez",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -537,7 +548,9 @@
       "player_full": "David Villa Sánchez",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -549,7 +562,9 @@
       "player_full": "Saúl Fernández García",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 81.7,
@@ -561,7 +576,9 @@
       "player_full": "Rubén Salvador Pérez Del Mármol",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.8,
@@ -573,7 +590,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -585,7 +604,9 @@
       "player_full": "Laureano Sanabria Ruiz",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -597,7 +618,9 @@
       "player_full": "Diego Daniel Colotto",
       "minute": 56,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.6,
@@ -609,7 +632,9 @@
       "player_full": "Andrés Iniesta Luján",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.8,
@@ -621,7 +646,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -633,7 +660,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -645,7 +674,9 @@
       "player_full": "Adrián López Álvarez",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.3,
@@ -657,7 +688,9 @@
       "player_full": "Antonio Tomás González",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -919,7 +952,7 @@
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
-        "x": 68.7,
+        "x": 51.3,
         "y": 58.1,
         "size": 97.9,
         "is_playmaker": false,
@@ -929,7 +962,7 @@
       {
         "id": "Adriano Correia Claro",
         "short": "Claro",
-        "x": 49.25,
+        "x": 70.75,
         "y": 70.21,
         "size": 102.8,
         "is_playmaker": false,
@@ -939,7 +972,7 @@
       {
         "id": "Eric-Sylvain Bilal Abidal",
         "short": "Abidal",
-        "x": 56.59,
+        "x": 63.41,
         "y": 11.5,
         "size": 112.1,
         "is_playmaker": false,
@@ -949,7 +982,7 @@
       {
         "id": "Seydou Kéita",
         "short": "Kéita",
-        "x": 51.66,
+        "x": 68.34,
         "y": 30.62,
         "size": 92.6,
         "is_playmaker": true,
@@ -959,7 +992,7 @@
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 61.02,
+        "x": 58.98,
         "y": 36.37,
         "size": 128.2,
         "is_playmaker": false,
@@ -969,7 +1002,7 @@
       {
         "id": "Andrés Iniesta Luján",
         "short": "Luján",
-        "x": 52.83,
+        "x": 67.17,
         "y": 44.1,
         "size": 127.2,
         "is_playmaker": false,
@@ -979,7 +1012,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 39.82,
+        "x": 80.18,
         "y": 45.0,
         "size": 91.6,
         "is_playmaker": false,
@@ -989,7 +1022,7 @@
       {
         "id": "Carles Puyol i Saforcada",
         "short": "Saforcada",
-        "x": 79.86,
+        "x": 40.14,
         "y": 32.95,
         "size": 76.5,
         "is_playmaker": false,
@@ -999,7 +1032,7 @@
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
-        "x": 42.44,
+        "x": 77.56,
         "y": 36.47,
         "size": 62.3,
         "is_playmaker": false,
@@ -1007,24 +1040,24 @@
         "eigenvector": 0.0927
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Arribas",
-        "x": 110.36,
-        "y": 38.38,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0062
-      },
-      {
         "id": "David Villa Sánchez",
         "short": "Sánchez",
-        "x": 46.8,
+        "x": 73.2,
         "y": 35.82,
         "size": 57.0,
         "is_playmaker": true,
         "betweenness": 0.2556,
         "eigenvector": 0.0058
+      },
+      {
+        "id": "Víctor Valdés Arribas",
+        "short": "Arribas",
+        "x": 9.64,
+        "y": 38.38,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0062
       }
     ],
     "edges": [
@@ -1032,19 +1065,19 @@
         "source": "Gerard Piqué Bernabéu",
         "target": "Adriano Correia Claro",
         "weight": 26,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Javier Alejandro Mascherano",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adriano Correia Claro",
@@ -1056,25 +1089,25 @@
         "source": "Adriano Correia Claro",
         "target": "Gerard Piqué Bernabéu",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adriano Correia Claro",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "Seydou Kéita",
         "weight": 24,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "Javier Alejandro Mascherano",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
@@ -1086,19 +1119,19 @@
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "Carles Puyol i Saforcada",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Seydou Kéita",
         "target": "Eric-Sylvain Bilal Abidal",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Seydou Kéita",
         "target": "Javier Alejandro Mascherano",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Seydou Kéita",
@@ -1110,37 +1143,37 @@
         "source": "Seydou Kéita",
         "target": "David Villa Sánchez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Andrés Iniesta Luján",
         "weight": 23,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Gerard Piqué Bernabéu",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Eric-Sylvain Bilal Abidal",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Seydou Kéita",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1152,19 +1185,19 @@
         "source": "Andrés Iniesta Luján",
         "target": "Javier Alejandro Mascherano",
         "weight": 22,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Andrés Iniesta Luján",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
@@ -1176,35 +1209,23 @@
         "source": "Carles Puyol i Saforcada",
         "target": "Eric-Sylvain Bilal Abidal",
         "weight": 18,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carles Puyol i Saforcada",
         "target": "Gerard Piqué Bernabéu",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Carles Puyol i Saforcada",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "David Villa Sánchez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Carles Puyol i Saforcada",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "backward"
       },
@@ -1212,11 +1233,23 @@
         "source": "David Villa Sánchez",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Villa Sánchez",
         "target": "Seydou Kéita",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Carles Puyol i Saforcada",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "forward"
       }

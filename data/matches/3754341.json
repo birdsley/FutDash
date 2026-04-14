@@ -9,6 +9,11 @@
     "away_color": "#e03a3e",
     "score_home": 3,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.875,
     "xg_away": 0.152,
     "shots_home": 14,
@@ -501,7 +506,9 @@
       "player_full": "Shinji Okazaki",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -513,7 +520,9 @@
       "player_full": "Jamie Vardy",
       "minute": 17,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -525,7 +534,9 @@
       "player_full": "Riyad Mahrez",
       "minute": 18,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.4,
@@ -537,7 +548,9 @@
       "player_full": "N''Golo Kanté",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -549,7 +562,9 @@
       "player_full": "Shinji Okazaki",
       "minute": 35,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.8,
@@ -561,7 +576,9 @@
       "player_full": "Danny Drinkwater",
       "minute": 41,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -573,7 +590,9 @@
       "player_full": "Shinji Okazaki",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -585,7 +604,9 @@
       "player_full": "José Luis Sanmartín Mato",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -597,7 +618,9 @@
       "player_full": "José Leonardo Ulloa",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.6,
@@ -609,7 +632,9 @@
       "player_full": "Jamie Vardy",
       "minute": 65,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -621,7 +646,9 @@
       "player_full": "Glenn Whelan",
       "minute": 67,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.4,
@@ -633,7 +660,9 @@
       "player_full": "Ibrahim Afellay",
       "minute": 67,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -645,7 +674,9 @@
       "player_full": "Jamie Vardy",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -657,7 +688,9 @@
       "player_full": "Robert Huth",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.3,
@@ -669,7 +702,9 @@
       "player_full": "Marc Albrighton",
       "minute": 84,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -681,7 +716,9 @@
       "player_full": "Riyad Mahrez",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -693,7 +730,9 @@
       "player_full": "José Leonardo Ulloa",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.0011
       },
       {
-        "id": "Kasper Schmeichel",
-        "short": "Schmeichel",
-        "x": 11.65,
-        "y": 41.66,
-        "size": 60.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0011
-      },
-      {
         "id": "Wes Morgan",
         "short": "Morgan",
         "x": 46.6,
@@ -807,6 +836,16 @@
         "is_playmaker": true,
         "betweenness": 0.3222,
         "eigenvector": 0.0241
+      },
+      {
+        "id": "Kasper Schmeichel",
+        "short": "Schmeichel",
+        "x": 11.65,
+        "y": 41.66,
+        "size": 60.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0011
       }
     ],
     "edges": [
@@ -962,30 +1001,12 @@
       },
       {
         "source": "Robert Huth",
-        "target": "Kasper Schmeichel",
+        "target": "Wes Morgan",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Robert Huth",
-        "target": "Wes Morgan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kasper Schmeichel",
-        "target": "Robert Huth",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kasper Schmeichel",
-        "target": "Wes Morgan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wes Morgan",
         "target": "Kasper Schmeichel",
         "weight": 1,
         "direction": "backward"
@@ -1001,6 +1022,24 @@
         "target": "Robert Huth",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Wes Morgan",
+        "target": "Kasper Schmeichel",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Kasper Schmeichel",
+        "target": "Robert Huth",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kasper Schmeichel",
+        "target": "Wes Morgan",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1009,7 +1048,7 @@
       {
         "id": "Glenn Whelan",
         "short": "Whelan",
-        "x": 64.71,
+        "x": 55.29,
         "y": 42.74,
         "size": 130.2,
         "is_playmaker": true,
@@ -1019,7 +1058,7 @@
       {
         "id": "Glen Johnson",
         "short": "Johnson",
-        "x": 59.97,
+        "x": 60.03,
         "y": 71.89,
         "size": 119.4,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Ibrahim Afellay",
         "short": "Afellay",
-        "x": 60.4,
+        "x": 59.6,
         "y": 35.02,
         "size": 143.1,
         "is_playmaker": true,
@@ -1039,7 +1078,7 @@
       {
         "id": "Erik Pieters",
         "short": "Pieters",
-        "x": 65.04,
+        "x": 54.96,
         "y": 10.47,
         "size": 112.4,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Xherdan Shaqiri",
         "short": "Shaqiri",
-        "x": 48.19,
+        "x": 71.81,
         "y": 52.52,
         "size": 83.7,
         "is_playmaker": false,
@@ -1059,7 +1098,7 @@
       {
         "id": "Philipp Wollscheid",
         "short": "Wollscheid",
-        "x": 80.08,
+        "x": 39.92,
         "y": 24.42,
         "size": 103.5,
         "is_playmaker": false,
@@ -1069,7 +1108,7 @@
       {
         "id": "José Luis Sanmartín Mato",
         "short": "Mato",
-        "x": 51.02,
+        "x": 68.98,
         "y": 41.95,
         "size": 69.9,
         "is_playmaker": false,
@@ -1079,7 +1118,7 @@
       {
         "id": "Jack Butland",
         "short": "Butland",
-        "x": 108.08,
+        "x": 11.92,
         "y": 42.46,
         "size": 60.0,
         "is_playmaker": false,
@@ -1089,7 +1128,7 @@
       {
         "id": "Jonathan Walters",
         "short": "Walters",
-        "x": 52.33,
+        "x": 67.67,
         "y": 40.56,
         "size": 60.0,
         "is_playmaker": false,
@@ -1099,7 +1138,7 @@
       {
         "id": "Mame Biram Diouf",
         "short": "Diouf",
-        "x": 54.06,
+        "x": 65.94,
         "y": 15.85,
         "size": 63.9,
         "is_playmaker": false,
@@ -1109,7 +1148,7 @@
       {
         "id": "Ryan Shawcross",
         "short": "Shawcross",
-        "x": 76.2,
+        "x": 43.8,
         "y": 53.19,
         "size": 59.0,
         "is_playmaker": false,
@@ -1122,37 +1161,37 @@
         "source": "Glenn Whelan",
         "target": "Glen Johnson",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Glenn Whelan",
         "target": "Philipp Wollscheid",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Glenn Whelan",
         "target": "Ibrahim Afellay",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Glenn Whelan",
         "target": "Xherdan Shaqiri",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Glenn Whelan",
         "target": "Ryan Shawcross",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Glen Johnson",
         "target": "Xherdan Shaqiri",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Glen Johnson",
@@ -1164,25 +1203,25 @@
         "source": "Glen Johnson",
         "target": "José Luis Sanmartín Mato",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Glen Johnson",
         "target": "Glenn Whelan",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ibrahim Afellay",
         "target": "Erik Pieters",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ibrahim Afellay",
         "target": "Glenn Whelan",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ibrahim Afellay",
@@ -1194,37 +1233,37 @@
         "source": "Ibrahim Afellay",
         "target": "Philipp Wollscheid",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ibrahim Afellay",
         "target": "Xherdan Shaqiri",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ibrahim Afellay",
         "target": "Ryan Shawcross",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Erik Pieters",
         "target": "Ibrahim Afellay",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Erik Pieters",
         "target": "Philipp Wollscheid",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Erik Pieters",
         "target": "José Luis Sanmartín Mato",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Erik Pieters",
@@ -1236,55 +1275,55 @@
         "source": "Xherdan Shaqiri",
         "target": "Glenn Whelan",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Philipp Wollscheid",
         "target": "Erik Pieters",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Philipp Wollscheid",
         "target": "Ibrahim Afellay",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Philipp Wollscheid",
         "target": "Mame Biram Diouf",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Philipp Wollscheid",
         "target": "Glenn Whelan",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jack Butland",
         "target": "Jonathan Walters",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mame Biram Diouf",
         "target": "Ibrahim Afellay",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ryan Shawcross",
         "target": "Glenn Whelan",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ryan Shawcross",
         "target": "Ibrahim Afellay",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

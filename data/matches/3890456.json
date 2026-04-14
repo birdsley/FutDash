@@ -9,6 +9,11 @@
     "away_color": "#fde100",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.623,
     "xg_away": 1.645,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Pierre-Emerick Aubameyang",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -513,7 +520,9 @@
       "player_full": "Jonathan Tah",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -525,7 +534,9 @@
       "player_full": "Karim Bellarabi",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.3,
@@ -537,7 +548,9 @@
       "player_full": "Ömer Toprak",
       "minute": 33,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.2,
@@ -549,7 +562,9 @@
       "player_full": "Matthias Ginter",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -561,7 +576,9 @@
       "player_full": "Pierre-Emerick Aubameyang",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -573,7 +590,9 @@
       "player_full": "Karim Bellarabi",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -585,7 +604,9 @@
       "player_full": "Pierre-Emerick Aubameyang",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -597,7 +618,9 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -609,7 +632,9 @@
       "player_full": "Jonathan Tah",
       "minute": 79,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -621,7 +646,9 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -633,7 +660,9 @@
       "player_full": "Marco Reus",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -645,7 +674,9 @@
       "player_full": "Marco Reus",
       "minute": 98,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -657,7 +688,9 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 99,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -669,7 +702,9 @@
       "player_full": "Stefan Kießling",
       "minute": 102,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -755,6 +790,16 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Javier Hernández Balcázar",
+        "short": "Balcázar",
+        "x": 71.52,
+        "y": 43.67,
+        "size": 64.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Karim Bellarabi",
         "short": "Bellarabi",
         "x": 78.4,
@@ -772,16 +817,6 @@
         "size": 74.8,
         "is_playmaker": true,
         "betweenness": 0.1667,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Javier Hernández Balcázar",
-        "short": "Balcázar",
-        "x": 71.52,
-        "y": 43.67,
-        "size": 64.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
         "eigenvector": 0.0
       }
     ],
@@ -859,6 +894,18 @@
         "direction": "forward"
       },
       {
+        "source": "Javier Hernández Balcázar",
+        "target": "Stefan Kießling",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Javier Hernández Balcázar",
+        "target": "Karim Bellarabi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Karim Bellarabi",
         "target": "Javier Hernández Balcázar",
         "weight": 1,
@@ -869,6 +916,12 @@
         "target": "Stefan Kießling",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Stefan Kießling",
+        "target": "Javier Hernández Balcázar",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Stefan Kießling",
@@ -887,24 +940,6 @@
         "target": "Christoph Kramer",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Stefan Kießling",
-        "target": "Javier Hernández Balcázar",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Javier Hernández Balcázar",
-        "target": "Karim Bellarabi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Javier Hernández Balcázar",
-        "target": "Stefan Kießling",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },
@@ -913,7 +948,7 @@
       {
         "id": "Sokratis Papastathopoulos",
         "short": "Papastathop",
-        "x": 85.5,
+        "x": 34.5,
         "y": 51.47,
         "size": 158.6,
         "is_playmaker": true,
@@ -923,7 +958,7 @@
       {
         "id": "Łukasz Piszczek",
         "short": "Piszczek",
-        "x": 68.65,
+        "x": 51.35,
         "y": 67.89,
         "size": 109.4,
         "is_playmaker": false,
@@ -933,7 +968,7 @@
       {
         "id": "Mats Hummels",
         "short": "Hummels",
-        "x": 80.44,
+        "x": 39.56,
         "y": 20.41,
         "size": 100.1,
         "is_playmaker": false,
@@ -943,7 +978,7 @@
       {
         "id": "Henrikh Mkhitaryan",
         "short": "Mkhitaryan",
-        "x": 48.11,
+        "x": 71.89,
         "y": 66.35,
         "size": 91.9,
         "is_playmaker": false,
@@ -953,7 +988,7 @@
       {
         "id": "Roman Bürki",
         "short": "Bürki",
-        "x": 107.76,
+        "x": 12.24,
         "y": 42.12,
         "size": 89.9,
         "is_playmaker": false,
@@ -963,7 +998,7 @@
       {
         "id": "Sven Bender",
         "short": "Bender",
-        "x": 78.11,
+        "x": 41.89,
         "y": 37.72,
         "size": 89.9,
         "is_playmaker": false,
@@ -973,7 +1008,7 @@
       {
         "id": "Erik Durm",
         "short": "Durm",
-        "x": 65.31,
+        "x": 54.69,
         "y": 10.81,
         "size": 74.5,
         "is_playmaker": false,
@@ -983,7 +1018,7 @@
       {
         "id": "Pierre-Emerick Aubameyang",
         "short": "Aubameyang",
-        "x": 43.78,
+        "x": 76.22,
         "y": 35.68,
         "size": 74.5,
         "is_playmaker": true,
@@ -993,7 +1028,7 @@
       {
         "id": "Moritz Leitner",
         "short": "Leitner",
-        "x": 49.58,
+        "x": 70.42,
         "y": 47.48,
         "size": 79.6,
         "is_playmaker": false,
@@ -1003,7 +1038,7 @@
       {
         "id": "Matthias Ginter",
         "short": "Ginter",
-        "x": 64.15,
+        "x": 55.85,
         "y": 45.62,
         "size": 77.6,
         "is_playmaker": false,
@@ -1013,7 +1048,7 @@
       {
         "id": "Christian Pulisic",
         "short": "Pulisic",
-        "x": 55.54,
+        "x": 64.46,
         "y": 15.89,
         "size": 59.1,
         "is_playmaker": false,
@@ -1026,49 +1061,49 @@
         "source": "Sokratis Papastathopoulos",
         "target": "Łukasz Piszczek",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sokratis Papastathopoulos",
         "target": "Mats Hummels",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sokratis Papastathopoulos",
         "target": "Roman Bürki",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sokratis Papastathopoulos",
         "target": "Sven Bender",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sokratis Papastathopoulos",
         "target": "Matthias Ginter",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Łukasz Piszczek",
         "target": "Sokratis Papastathopoulos",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Łukasz Piszczek",
         "target": "Henrikh Mkhitaryan",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mats Hummels",
         "target": "Sokratis Papastathopoulos",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mats Hummels",
@@ -1080,13 +1115,13 @@
         "source": "Mats Hummels",
         "target": "Erik Durm",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Henrikh Mkhitaryan",
         "target": "Łukasz Piszczek",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Henrikh Mkhitaryan",
@@ -1098,67 +1133,67 @@
         "source": "Henrikh Mkhitaryan",
         "target": "Pierre-Emerick Aubameyang",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roman Bürki",
         "target": "Sven Bender",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roman Bürki",
         "target": "Sokratis Papastathopoulos",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roman Bürki",
         "target": "Mats Hummels",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sven Bender",
         "target": "Sokratis Papastathopoulos",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sven Bender",
         "target": "Łukasz Piszczek",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Erik Durm",
         "target": "Pierre-Emerick Aubameyang",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Erik Durm",
         "target": "Moritz Leitner",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Erik Durm",
         "target": "Christian Pulisic",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pierre-Emerick Aubameyang",
         "target": "Matthias Ginter",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pierre-Emerick Aubameyang",
         "target": "Christian Pulisic",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Moritz Leitner",
@@ -1170,25 +1205,25 @@
         "source": "Matthias Ginter",
         "target": "Sokratis Papastathopoulos",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matthias Ginter",
         "target": "Moritz Leitner",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christian Pulisic",
         "target": "Erik Durm",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Pulisic",
         "target": "Pierre-Emerick Aubameyang",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#274488",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.505,
     "xg_away": 0.757,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Danielle Turner",
       "minute": 16,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -513,7 +520,9 @@
       "player_full": "Dominique Bruinenberg",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -525,7 +534,9 @@
       "player_full": "Abbey-Leigh Stringer",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -537,7 +548,9 @@
       "player_full": "Gilly Louise Scarlett Flaherty",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.0,
@@ -549,7 +562,9 @@
       "player_full": "So-Hyun Cho",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -561,7 +576,9 @@
       "player_full": "Alisha Lehmann",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -573,7 +590,9 @@
       "player_full": "Brooke Hendrix",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.0,
@@ -585,7 +604,9 @@
       "player_full": "Dominique Bruinenberg",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -597,7 +618,9 @@
       "player_full": "Alisha Lehmann",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -609,7 +632,9 @@
       "player_full": "Lucienne Reichardt",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.0,
@@ -621,7 +646,9 @@
       "player_full": "Taylor Hinds",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -633,7 +660,9 @@
       "player_full": "Taylor Hinds",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -645,7 +674,9 @@
       "player_full": "Leanne Kiernan",
       "minute": 70,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.0,
@@ -657,7 +688,9 @@
       "player_full": "Abbey-Leigh Stringer",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -669,7 +702,9 @@
       "player_full": "Hannah Cain",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -681,7 +716,9 @@
       "player_full": "Faye Bryson",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.0,
@@ -693,7 +730,9 @@
       "player_full": "Hannah Cain",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Siri Worm",
         "short": "Worm",
-        "x": 72.31,
+        "x": 47.69,
         "y": 8.9,
         "size": 111.1,
         "is_playmaker": false,
@@ -971,7 +1010,7 @@
       {
         "id": "Danielle Turner",
         "short": "Turner",
-        "x": 62.42,
+        "x": 57.58,
         "y": 10.25,
         "size": 63.6,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Megan Finnigan",
         "short": "Finnigan",
-        "x": 69.06,
+        "x": 50.94,
         "y": 41.23,
         "size": 111.1,
         "is_playmaker": true,
@@ -991,7 +1030,7 @@
       {
         "id": "Abbey-Leigh Stringer",
         "short": "Stringer",
-        "x": 60.48,
+        "x": 59.52,
         "y": 43.0,
         "size": 93.8,
         "is_playmaker": true,
@@ -1001,7 +1040,7 @@
       {
         "id": "Gabrielle George",
         "short": "George",
-        "x": 82.7,
+        "x": 37.3,
         "y": 28.45,
         "size": 126.9,
         "is_playmaker": false,
@@ -1011,7 +1050,7 @@
       {
         "id": "Emma Brownlie",
         "short": "Brownlie",
-        "x": 58.71,
+        "x": 61.29,
         "y": 74.96,
         "size": 83.8,
         "is_playmaker": false,
@@ -1021,7 +1060,7 @@
       {
         "id": "Georgia Brougham",
         "short": "Brougham",
-        "x": 82.85,
+        "x": 37.15,
         "y": 59.27,
         "size": 114.0,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Kirstie Levell",
         "short": "Levell",
-        "x": 105.83,
+        "x": 14.17,
         "y": 40.52,
         "size": 95.3,
         "is_playmaker": false,
@@ -1041,7 +1080,7 @@
       {
         "id": "Taylor Hinds",
         "short": "Hinds",
-        "x": 43.22,
+        "x": 76.78,
         "y": 68.67,
         "size": 73.7,
         "is_playmaker": false,
@@ -1051,7 +1090,7 @@
       {
         "id": "Simone Magill",
         "short": "Magill",
-        "x": 50.92,
+        "x": 69.08,
         "y": 31.46,
         "size": 70.8,
         "is_playmaker": false,
@@ -1061,7 +1100,7 @@
       {
         "id": "Dominique Bruinenberg",
         "short": "Bruinenberg",
-        "x": 70.38,
+        "x": 49.62,
         "y": 37.15,
         "size": 60.8,
         "is_playmaker": false,
@@ -1074,19 +1113,19 @@
         "source": "Siri Worm",
         "target": "Danielle Turner",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Siri Worm",
         "target": "Gabrielle George",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Siri Worm",
         "target": "Simone Magill",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Siri Worm",
@@ -1098,19 +1137,19 @@
         "source": "Megan Finnigan",
         "target": "Abbey-Leigh Stringer",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Megan Finnigan",
         "target": "Gabrielle George",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Finnigan",
         "target": "Georgia Brougham",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Finnigan",
@@ -1122,25 +1161,25 @@
         "source": "Abbey-Leigh Stringer",
         "target": "Taylor Hinds",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Abbey-Leigh Stringer",
         "target": "Siri Worm",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Abbey-Leigh Stringer",
         "target": "Dominique Bruinenberg",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gabrielle George",
         "target": "Siri Worm",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gabrielle George",
@@ -1152,7 +1191,7 @@
         "source": "Gabrielle George",
         "target": "Kirstie Levell",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emma Brownlie",
@@ -1164,13 +1203,13 @@
         "source": "Emma Brownlie",
         "target": "Megan Finnigan",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emma Brownlie",
         "target": "Taylor Hinds",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Georgia Brougham",
@@ -1182,37 +1221,37 @@
         "source": "Georgia Brougham",
         "target": "Megan Finnigan",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Georgia Brougham",
         "target": "Kirstie Levell",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kirstie Levell",
         "target": "Georgia Brougham",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kirstie Levell",
         "target": "Siri Worm",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kirstie Levell",
         "target": "Gabrielle George",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Simone Magill",
         "target": "Abbey-Leigh Stringer",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Dominique Bruinenberg",
@@ -1224,7 +1263,7 @@
         "source": "Dominique Bruinenberg",
         "target": "Abbey-Leigh Stringer",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

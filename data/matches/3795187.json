@@ -9,6 +9,11 @@
     "away_color": "#cf091d",
     "score_home": 0,
     "score_away": 4,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.338,
     "xg_away": 1.216,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Harry Kane",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.7,
@@ -513,7 +520,9 @@
       "player_full": "Roman Yaremchuk",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -525,7 +534,9 @@
       "player_full": "Oleksandr Karavaev",
       "minute": 7,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -537,7 +548,9 @@
       "player_full": "Roman Yaremchuk",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -549,7 +562,9 @@
       "player_full": "Raheem Sterling",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.8,
@@ -561,7 +576,9 @@
       "player_full": "Harry Kane",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -573,7 +590,9 @@
       "player_full": "Declan Rice",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -585,7 +604,9 @@
       "player_full": "Mason Mount",
       "minute": 32,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -597,7 +618,9 @@
       "player_full": "Oleksandr Zinchenko",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -609,7 +632,9 @@
       "player_full": "Mykola Shaparenko",
       "minute": 42,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -621,7 +646,9 @@
       "player_full": "Harry Maguire",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -633,7 +660,9 @@
       "player_full": "Harry Kane",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -645,7 +674,9 @@
       "player_full": "Harry Kane",
       "minute": 61,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.5,
@@ -657,7 +688,9 @@
       "player_full": "Jordan Brian Henderson",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -669,7 +702,9 @@
       "player_full": "Harry Maguire",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.1,
@@ -681,7 +716,9 @@
       "player_full": "Roman Yaremchuk",
       "minute": 69,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.2,
@@ -693,7 +730,9 @@
       "player_full": "Evgeny Makarenko",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.0744
       },
       {
-        "id": "Heorhii Bushchan",
-        "short": "Bushchan",
-        "x": 11.79,
-        "y": 42.44,
-        "size": 57.7,
-        "is_playmaker": false,
-        "betweenness": 0.2278,
-        "eigenvector": 0.0121
-      },
-      {
         "id": "Roman Yaremchuk",
         "short": "Yaremchuk",
         "x": 74.59,
@@ -807,6 +836,16 @@
         "is_playmaker": false,
         "betweenness": 0.1111,
         "eigenvector": 0.0131
+      },
+      {
+        "id": "Heorhii Bushchan",
+        "short": "Bushchan",
+        "x": 11.79,
+        "y": 42.44,
+        "size": 57.7,
+        "is_playmaker": false,
+        "betweenness": 0.2278,
+        "eigenvector": 0.0121
       }
     ],
     "edges": [
@@ -979,18 +1018,6 @@
         "direction": "backward"
       },
       {
-        "source": "Heorhii Bushchan",
-        "target": "Serhiy Kryvtsov",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Heorhii Bushchan",
-        "target": "Illia Zabarnyi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Roman Yaremchuk",
         "target": "Oleksandr Zinchenko",
         "weight": 1,
@@ -1001,6 +1028,18 @@
         "target": "Serhii Sydorchuk",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Heorhii Bushchan",
+        "target": "Serhiy Kryvtsov",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Heorhii Bushchan",
+        "target": "Illia Zabarnyi",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1009,7 +1048,7 @@
       {
         "id": "John Stones",
         "short": "Stones",
-        "x": 72.17,
+        "x": 47.83,
         "y": 49.08,
         "size": 138.2,
         "is_playmaker": false,
@@ -1019,7 +1058,7 @@
       {
         "id": "Harry Maguire",
         "short": "Maguire",
-        "x": 66.7,
+        "x": 53.3,
         "y": 21.11,
         "size": 138.2,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Kyle Walker",
         "short": "Walker",
-        "x": 54.2,
+        "x": 65.8,
         "y": 69.44,
         "size": 126.9,
         "is_playmaker": true,
@@ -1039,7 +1078,7 @@
       {
         "id": "Luke Shaw",
         "short": "Shaw",
-        "x": 50.27,
+        "x": 69.73,
         "y": 7.08,
         "size": 104.5,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Jadon Sancho",
         "short": "Sancho",
-        "x": 41.38,
+        "x": 78.62,
         "y": 66.88,
         "size": 88.7,
         "is_playmaker": false,
@@ -1059,7 +1098,7 @@
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
-        "x": 34.35,
+        "x": 85.65,
         "y": 12.14,
         "size": 76.1,
         "is_playmaker": false,
@@ -1069,7 +1108,7 @@
       {
         "id": "Mason Mount",
         "short": "Mount",
-        "x": 43.44,
+        "x": 76.56,
         "y": 43.77,
         "size": 75.5,
         "is_playmaker": false,
@@ -1079,7 +1118,7 @@
       {
         "id": "Declan Rice",
         "short": "Rice",
-        "x": 61.57,
+        "x": 58.43,
         "y": 40.5,
         "size": 74.1,
         "is_playmaker": true,
@@ -1089,7 +1128,7 @@
       {
         "id": "Jordan Pickford",
         "short": "Pickford",
-        "x": 104.4,
+        "x": 15.6,
         "y": 35.86,
         "size": 60.3,
         "is_playmaker": false,
@@ -1099,7 +1138,7 @@
       {
         "id": "Kalvin Phillips",
         "short": "Phillips",
-        "x": 55.99,
+        "x": 64.01,
         "y": 46.27,
         "size": 64.9,
         "is_playmaker": false,
@@ -1109,7 +1148,7 @@
       {
         "id": "Harry Kane",
         "short": "Kane",
-        "x": 44.04,
+        "x": 75.96,
         "y": 46.13,
         "size": 57.6,
         "is_playmaker": false,
@@ -1122,67 +1161,67 @@
         "source": "John Stones",
         "target": "Harry Maguire",
         "weight": 28,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Kyle Walker",
         "weight": 24,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Jordan Pickford",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "John Stones",
         "target": "Declan Rice",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
         "target": "John Stones",
         "weight": 26,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harry Maguire",
         "target": "Luke Shaw",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
         "target": "Raheem Sterling",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
         "target": "Kyle Walker",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
         "target": "Mason Mount",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kyle Walker",
         "target": "John Stones",
         "weight": 24,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "Jadon Sancho",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kyle Walker",
@@ -1194,37 +1233,37 @@
         "source": "Kyle Walker",
         "target": "Mason Mount",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kyle Walker",
         "target": "Declan Rice",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luke Shaw",
         "target": "Harry Maguire",
         "weight": 24,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luke Shaw",
         "target": "Raheem Sterling",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luke Shaw",
         "target": "Kalvin Phillips",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jadon Sancho",
         "target": "Kyle Walker",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jadon Sancho",
@@ -1236,13 +1275,13 @@
         "source": "Raheem Sterling",
         "target": "Luke Shaw",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Raheem Sterling",
         "target": "Harry Maguire",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mason Mount",
@@ -1260,19 +1299,19 @@
         "source": "Declan Rice",
         "target": "John Stones",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Declan Rice",
         "target": "Luke Shaw",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kalvin Phillips",
         "target": "Harry Kane",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Kane",
@@ -1284,7 +1323,7 @@
         "source": "Harry Kane",
         "target": "Kalvin Phillips",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

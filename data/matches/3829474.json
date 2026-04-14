@@ -9,6 +9,11 @@
     "away_color": "#e2001a",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.576,
     "xg_away": 0.146,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Pierrick Capelle",
       "minute": 0,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.2,
@@ -513,7 +520,9 @@
       "player_full": "Abdoul Razzagui Camara",
       "minute": 4,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.9,
@@ -525,7 +534,9 @@
       "player_full": "Aïssa Mandi",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.5,
@@ -537,7 +548,9 @@
       "player_full": "Pierrick Capelle",
       "minute": 38,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -549,7 +562,9 @@
       "player_full": "Theoson Jordan Siebatcheu",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -561,7 +576,9 @@
       "player_full": "Romain Saïss",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.5,
@@ -573,7 +590,9 @@
       "player_full": "Romain Saïss",
       "minute": 56,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.8,
@@ -585,7 +604,9 @@
       "player_full": "Nicolas de Roussel de Préville",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -597,7 +618,9 @@
       "player_full": "Abdoul Razzagui Camara",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -609,7 +632,9 @@
       "player_full": "Abdoul Razzagui Camara",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.3,
@@ -621,7 +646,9 @@
       "player_full": "Thomas Mangani",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -633,7 +660,9 @@
       "player_full": "Theoson Jordan Siebatcheu",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -729,16 +758,6 @@
         "eigenvector": 0.029
       },
       {
-        "id": "Slimane Sissoko",
-        "short": "Sissoko",
-        "x": 80.83,
-        "y": 32.67,
-        "size": 59.1,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0276
-      },
-      {
         "id": "Ludovic Butelle",
         "short": "Butelle",
         "x": 13.55,
@@ -747,6 +766,16 @@
         "is_playmaker": false,
         "betweenness": 0.3056,
         "eigenvector": 0.0285
+      },
+      {
+        "id": "Slimane Sissoko",
+        "short": "Sissoko",
+        "x": 80.83,
+        "y": 32.67,
+        "size": 59.1,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0276
       }
     ],
     "edges": [
@@ -919,18 +948,6 @@
         "direction": "forward"
       },
       {
-        "source": "Slimane Sissoko",
-        "target": "Pierrick Capelle",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Slimane Sissoko",
-        "target": "Thomas Mangani",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Ludovic Butelle",
         "target": "Romain Thomas",
         "weight": 1,
@@ -941,6 +958,18 @@
         "target": "Ismaël Traoré",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Slimane Sissoko",
+        "target": "Pierrick Capelle",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Slimane Sissoko",
+        "target": "Thomas Mangani",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -949,7 +978,7 @@
       {
         "id": "Hamari Traoré",
         "short": "Traoré",
-        "x": 58.5,
+        "x": 61.5,
         "y": 71.08,
         "size": 106.4,
         "is_playmaker": false,
@@ -959,7 +988,7 @@
       {
         "id": "Gaëtan Charbonnier",
         "short": "Charbonnier",
-        "x": 43.46,
+        "x": 76.54,
         "y": 47.45,
         "size": 70.2,
         "is_playmaker": false,
@@ -969,7 +998,7 @@
       {
         "id": "Mohamed Fofana",
         "short": "Fofana",
-        "x": 77.26,
+        "x": 42.74,
         "y": 24.56,
         "size": 123.6,
         "is_playmaker": false,
@@ -979,7 +1008,7 @@
       {
         "id": "Aïssa Mandi",
         "short": "Mandi",
-        "x": 80.27,
+        "x": 39.73,
         "y": 56.42,
         "size": 108.3,
         "is_playmaker": false,
@@ -989,7 +1018,7 @@
       {
         "id": "Alexi Peuget",
         "short": "Peuget",
-        "x": 67.02,
+        "x": 52.98,
         "y": 44.1,
         "size": 131.2,
         "is_playmaker": true,
@@ -999,7 +1028,7 @@
       {
         "id": "Jaba Kankava",
         "short": "Kankava",
-        "x": 59.95,
+        "x": 60.05,
         "y": 37.38,
         "size": 103.6,
         "is_playmaker": true,
@@ -1009,7 +1038,7 @@
       {
         "id": "Atila Turan",
         "short": "Turan",
-        "x": 64.13,
+        "x": 55.87,
         "y": 6.97,
         "size": 97.9,
         "is_playmaker": false,
@@ -1019,7 +1048,7 @@
       {
         "id": "Odaïr Junior Lopes Fortes",
         "short": "Fortes",
-        "x": 53.87,
+        "x": 66.13,
         "y": 62.62,
         "size": 70.2,
         "is_playmaker": false,
@@ -1029,7 +1058,7 @@
       {
         "id": "Johny Placide",
         "short": "Placide",
-        "x": 105.18,
+        "x": 14.82,
         "y": 41.09,
         "size": 74.0,
         "is_playmaker": false,
@@ -1039,7 +1068,7 @@
       {
         "id": "Diego Rigonato Rodrigues",
         "short": "Rodrigues",
-        "x": 37.76,
+        "x": 82.24,
         "y": 14.23,
         "size": 60.7,
         "is_playmaker": false,
@@ -1049,7 +1078,7 @@
       {
         "id": "Theoson Jordan Siebatcheu",
         "short": "Siebatcheu",
-        "x": 47.47,
+        "x": 72.53,
         "y": 41.92,
         "size": 58.8,
         "is_playmaker": false,
@@ -1062,19 +1091,19 @@
         "source": "Hamari Traoré",
         "target": "Gaëtan Charbonnier",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hamari Traoré",
         "target": "Alexi Peuget",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hamari Traoré",
         "target": "Odaïr Junior Lopes Fortes",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hamari Traoré",
@@ -1086,7 +1115,7 @@
         "source": "Gaëtan Charbonnier",
         "target": "Theoson Jordan Siebatcheu",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mohamed Fofana",
@@ -1098,25 +1127,25 @@
         "source": "Mohamed Fofana",
         "target": "Alexi Peuget",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mohamed Fofana",
         "target": "Johny Placide",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aïssa Mandi",
         "target": "Alexi Peuget",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aïssa Mandi",
         "target": "Jaba Kankava",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aïssa Mandi",
@@ -1128,25 +1157,25 @@
         "source": "Alexi Peuget",
         "target": "Jaba Kankava",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexi Peuget",
         "target": "Aïssa Mandi",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexi Peuget",
         "target": "Mohamed Fofana",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexi Peuget",
         "target": "Hamari Traoré",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexi Peuget",
@@ -1158,31 +1187,31 @@
         "source": "Jaba Kankava",
         "target": "Mohamed Fofana",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaba Kankava",
         "target": "Atila Turan",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jaba Kankava",
         "target": "Theoson Jordan Siebatcheu",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Atila Turan",
         "target": "Mohamed Fofana",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Atila Turan",
         "target": "Jaba Kankava",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Atila Turan",
@@ -1194,37 +1223,37 @@
         "source": "Atila Turan",
         "target": "Diego Rigonato Rodrigues",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Odaïr Junior Lopes Fortes",
         "target": "Hamari Traoré",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Johny Placide",
         "target": "Mohamed Fofana",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Johny Placide",
         "target": "Aïssa Mandi",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Theoson Jordan Siebatcheu",
         "target": "Gaëtan Charbonnier",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Theoson Jordan Siebatcheu",
         "target": "Jaba Kankava",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

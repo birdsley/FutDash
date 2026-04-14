@@ -9,6 +9,11 @@
     "away_color": "#e2001a",
     "score_home": 1,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.473,
     "xg_away": 1.131,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Yannis Salibur",
       "minute": 0,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.2,
@@ -513,7 +520,9 @@
       "player_full": "Yannis Salibur",
       "minute": 4,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -525,7 +534,9 @@
       "player_full": "Christophe Kerbrat",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -537,7 +548,9 @@
       "player_full": "Moustapha Elhadji Diallo",
       "minute": 5,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -549,7 +562,9 @@
       "player_full": "Antoine Devaux",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -561,7 +576,9 @@
       "player_full": "David N\"Gog",
       "minute": 13,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 76.7,
@@ -573,7 +590,9 @@
       "player_full": "Yannis Salibur",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.7,
@@ -585,7 +604,9 @@
       "player_full": "Nicolas de Roussel de Préville",
       "minute": 46,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.1,
@@ -597,7 +618,9 @@
       "player_full": "Younousse Sankharé",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -609,7 +632,9 @@
       "player_full": "David N\"Gog",
       "minute": 53,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.8,
@@ -621,7 +646,9 @@
       "player_full": "Antoine Devaux",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.4,
@@ -633,7 +660,9 @@
       "player_full": "Prince Oniangué",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.5,
@@ -645,7 +674,9 @@
       "player_full": "Mana Dembélé",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -657,7 +688,9 @@
       "player_full": "Jérémy Sorbon",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +958,7 @@
       {
         "id": "Hamari Traoré",
         "short": "Traoré",
-        "x": 68.46,
+        "x": 51.54,
         "y": 70.34,
         "size": 124.0,
         "is_playmaker": false,
@@ -935,7 +968,7 @@
       {
         "id": "Odaïr Junior Lopes Fortes",
         "short": "Fortes",
-        "x": 53.16,
+        "x": 66.84,
         "y": 63.92,
         "size": 102.8,
         "is_playmaker": false,
@@ -945,7 +978,7 @@
       {
         "id": "Franck Signorino",
         "short": "Signorino",
-        "x": 65.04,
+        "x": 54.96,
         "y": 8.27,
         "size": 113.4,
         "is_playmaker": true,
@@ -955,7 +988,7 @@
       {
         "id": "Alexi Peuget",
         "short": "Peuget",
-        "x": 61.97,
+        "x": 58.03,
         "y": 35.48,
         "size": 101.0,
         "is_playmaker": true,
@@ -965,7 +998,7 @@
       {
         "id": "Prince Oniangué",
         "short": "Oniangué",
-        "x": 64.7,
+        "x": 55.3,
         "y": 39.4,
         "size": 101.0,
         "is_playmaker": false,
@@ -975,7 +1008,7 @@
       {
         "id": "Nicolas de Roussel de Préville",
         "short": "Préville",
-        "x": 54.99,
+        "x": 65.01,
         "y": 27.47,
         "size": 101.0,
         "is_playmaker": false,
@@ -985,7 +1018,7 @@
       {
         "id": "David N\"Gog",
         "short": "N\"Gog",
-        "x": 41.15,
+        "x": 78.85,
         "y": 52.04,
         "size": 83.3,
         "is_playmaker": false,
@@ -995,7 +1028,7 @@
       {
         "id": "Antoine Devaux",
         "short": "Devaux",
-        "x": 50.74,
+        "x": 69.26,
         "y": 38.2,
         "size": 88.6,
         "is_playmaker": false,
@@ -1005,7 +1038,7 @@
       {
         "id": "Kossi Agassa",
         "short": "Agassa",
-        "x": 101.88,
+        "x": 18.12,
         "y": 45.03,
         "size": 62.1,
         "is_playmaker": false,
@@ -1015,7 +1048,7 @@
       {
         "id": "Aïssa Mandi",
         "short": "Mandi",
-        "x": 77.21,
+        "x": 42.79,
         "y": 51.25,
         "size": 65.6,
         "is_playmaker": false,
@@ -1025,7 +1058,7 @@
       {
         "id": "Anthony Weber",
         "short": "Weber",
-        "x": 86.04,
+        "x": 33.96,
         "y": 18.76,
         "size": 62.1,
         "is_playmaker": false,
@@ -1038,13 +1071,13 @@
         "source": "Hamari Traoré",
         "target": "Odaïr Junior Lopes Fortes",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hamari Traoré",
         "target": "David N\"Gog",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hamari Traoré",
@@ -1056,13 +1089,13 @@
         "source": "Hamari Traoré",
         "target": "Nicolas de Roussel de Préville",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Odaïr Junior Lopes Fortes",
         "target": "Alexi Peuget",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Franck Signorino",
@@ -1074,49 +1107,49 @@
         "source": "Franck Signorino",
         "target": "David N\"Gog",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Franck Signorino",
         "target": "Antoine Devaux",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Franck Signorino",
         "target": "Nicolas de Roussel de Préville",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Franck Signorino",
         "target": "Anthony Weber",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexi Peuget",
         "target": "Odaïr Junior Lopes Fortes",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexi Peuget",
         "target": "Nicolas de Roussel de Préville",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexi Peuget",
         "target": "Anthony Weber",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Prince Oniangué",
         "target": "Nicolas de Roussel de Préville",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Prince Oniangué",
@@ -1134,19 +1167,19 @@
         "source": "Nicolas de Roussel de Préville",
         "target": "Alexi Peuget",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antoine Devaux",
         "target": "Prince Oniangué",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antoine Devaux",
         "target": "Franck Signorino",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antoine Devaux",
@@ -1158,25 +1191,25 @@
         "source": "Kossi Agassa",
         "target": "David N\"Gog",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aïssa Mandi",
         "target": "Hamari Traoré",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anthony Weber",
         "target": "Franck Signorino",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anthony Weber",
         "target": "Alexi Peuget",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

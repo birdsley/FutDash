@@ -9,6 +9,11 @@
     "away_color": "#f7d130",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.32,
     "xg_away": 1.045,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Aderllan Leandro de Jesus Santos",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.3,
@@ -513,7 +520,9 @@
       "player_full": "Daniel Parejo Muñoz",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -525,7 +534,9 @@
       "player_full": "Samuel García Sánchez",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.5,
@@ -537,7 +548,9 @@
       "player_full": "Javier Fuego Martínez",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.2,
@@ -549,7 +562,9 @@
       "player_full": "Rodrigo Hernández Cascante",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.4,
@@ -561,7 +576,9 @@
       "player_full": "Adrián López Álvarez",
       "minute": 32,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -573,7 +590,9 @@
       "player_full": "Álvaro Negredo Sánchez",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.6,
@@ -585,7 +604,9 @@
       "player_full": "Roberto Soldado Rillo",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -597,7 +618,9 @@
       "player_full": "Rodrigo Moreno Machado",
       "minute": 40,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -609,7 +632,9 @@
       "player_full": "Roberto Soldado Rillo",
       "minute": 46,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.2,
@@ -621,7 +646,9 @@
       "player_full": "Manuel Trigueros Muñoz",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -633,7 +660,9 @@
       "player_full": "Rodrigo Hernández Cascante",
       "minute": 46,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -645,7 +674,9 @@
       "player_full": "André Filipe Tavares Gomes",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.3,
@@ -657,7 +688,9 @@
       "player_full": "Shkodran Mustafi",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -669,7 +702,9 @@
       "player_full": "Samuel Castillejo Azuaga",
       "minute": 89,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Manuel Trigueros Muñoz",
         "short": "Muñoz",
-        "x": 69.54,
+        "x": 50.46,
         "y": 51.12,
         "size": 137.7,
         "is_playmaker": true,
@@ -971,7 +1006,7 @@
       {
         "id": "Antonio Rukavina",
         "short": "Rukavina",
-        "x": 63.33,
+        "x": 56.67,
         "y": 73.96,
         "size": 101.9,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Roberto Soldado Rillo",
         "short": "Rillo",
-        "x": 47.39,
+        "x": 72.61,
         "y": 52.23,
         "size": 97.5,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Samuel García Sánchez",
         "short": "Sánchez",
-        "x": 50.69,
+        "x": 69.31,
         "y": 53.49,
         "size": 99.7,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Rodrigo Hernández Cascante",
         "short": "Cascante",
-        "x": 63.87,
+        "x": 56.13,
         "y": 28.68,
         "size": 88.5,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Adrián Marín Gómez",
         "short": "Gómez",
-        "x": 68.7,
+        "x": 51.3,
         "y": 11.15,
         "size": 95.2,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Adrián López Álvarez",
         "short": "Álvarez",
-        "x": 53.26,
+        "x": 66.74,
         "y": 31.13,
         "size": 106.4,
         "is_playmaker": true,
@@ -1031,7 +1066,7 @@
       {
         "id": "Samuel Castillejo Azuaga",
         "short": "Azuaga",
-        "x": 52.64,
+        "x": 67.36,
         "y": 24.75,
         "size": 94.1,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Mateo Pablo Musacchio",
         "short": "Musacchio",
-        "x": 80.46,
+        "x": 39.54,
         "y": 56.44,
         "size": 61.7,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Daniele Bonera",
         "short": "Bonera",
-        "x": 83.41,
+        "x": 36.59,
         "y": 30.12,
         "size": 61.7,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Alphonse Areola",
         "short": "Areola",
-        "x": 110.59,
+        "x": 9.41,
         "y": 41.38,
         "size": 60.6,
         "is_playmaker": false,
@@ -1074,61 +1109,61 @@
         "source": "Manuel Trigueros Muñoz",
         "target": "Antonio Rukavina",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
         "target": "Roberto Soldado Rillo",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
         "target": "Adrián López Álvarez",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
         "target": "Daniele Bonera",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
         "target": "Samuel Castillejo Azuaga",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
         "target": "Samuel García Sánchez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
         "target": "Rodrigo Hernández Cascante",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Rukavina",
         "target": "Manuel Trigueros Muñoz",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antonio Rukavina",
         "target": "Samuel García Sánchez",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Rukavina",
         "target": "Roberto Soldado Rillo",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roberto Soldado Rillo",
@@ -1146,37 +1181,37 @@
         "source": "Samuel García Sánchez",
         "target": "Manuel Trigueros Muñoz",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rodrigo Hernández Cascante",
         "target": "Manuel Trigueros Muñoz",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rodrigo Hernández Cascante",
         "target": "Adrián Marín Gómez",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrián Marín Gómez",
         "target": "Adrián López Álvarez",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adrián Marín Gómez",
         "target": "Samuel Castillejo Azuaga",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adrián López Álvarez",
         "target": "Rodrigo Hernández Cascante",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adrián López Álvarez",
@@ -1188,7 +1223,7 @@
         "source": "Adrián López Álvarez",
         "target": "Roberto Soldado Rillo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Samuel Castillejo Azuaga",
@@ -1200,19 +1235,19 @@
         "source": "Samuel Castillejo Azuaga",
         "target": "Adrián Marín Gómez",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mateo Pablo Musacchio",
         "target": "Antonio Rukavina",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alphonse Areola",
         "target": "Adrián López Álvarez",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

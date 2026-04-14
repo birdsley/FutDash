@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.956,
     "xg_away": 0.557,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Mohamed Bayo",
       "minute": 2,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.0,
@@ -513,7 +520,9 @@
       "player_full": "Saúl Basilio Coco-Bassey Oubiña",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.4,
@@ -525,7 +534,9 @@
       "player_full": "Pablo Ganet Cómitre",
       "minute": 42,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -537,7 +548,9 @@
       "player_full": "Morgan Guilavogui",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.3,
@@ -549,7 +562,9 @@
       "player_full": "Pablo Ganet Cómitre",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -561,7 +576,9 @@
       "player_full": "Aguibou Camara",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -573,7 +590,9 @@
       "player_full": "Emilio Nsue López",
       "minute": 46,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.5,
@@ -585,7 +604,9 @@
       "player_full": "Morgan Guilavogui",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.3,
@@ -597,7 +618,9 @@
       "player_full": "Mouctar Diakhaby",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -609,7 +632,9 @@
       "player_full": "Emilio Nsue López",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -621,7 +646,9 @@
       "player_full": "Serhou Guirassy",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -633,7 +660,9 @@
       "player_full": "Serhou Guirassy",
       "minute": 82,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -645,7 +674,9 @@
       "player_full": "Ibrahim Diakité",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.6,
@@ -657,7 +688,9 @@
       "player_full": "François Kamano",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.4,
@@ -669,7 +702,9 @@
       "player_full": "Mohamed Bayo",
       "minute": 97,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Mouctar Diakhaby",
         "short": "Diakhaby",
-        "x": 79.09,
+        "x": 40.91,
         "y": 50.94,
         "size": 112.0,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Julian Jeanvier",
         "short": "Jeanvier",
-        "x": 78.22,
+        "x": 41.78,
         "y": 24.23,
         "size": 101.8,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Amadou Diawara",
         "short": "Diawara",
-        "x": 59.75,
+        "x": 60.25,
         "y": 42.36,
         "size": 112.0,
         "is_playmaker": true,
@@ -991,7 +1026,7 @@
       {
         "id": "Mory Konaté",
         "short": "Konaté",
-        "x": 60.27,
+        "x": 59.73,
         "y": 35.82,
         "size": 113.2,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Ibrahim Diakité",
         "short": "Diakité",
-        "x": 61.02,
+        "x": 58.98,
         "y": 72.76,
         "size": 117.0,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Aguibou Camara",
         "short": "Camara",
-        "x": 53.35,
+        "x": 66.65,
         "y": 54.64,
         "size": 91.7,
         "is_playmaker": true,
@@ -1021,7 +1056,7 @@
       {
         "id": "Issiaga Sylla",
         "short": "Sylla",
-        "x": 69.0,
+        "x": 51.0,
         "y": 10.22,
         "size": 104.4,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Morgan Guilavogui",
         "short": "Guilavogui",
-        "x": 48.08,
+        "x": 71.92,
         "y": 62.62,
         "size": 71.5,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Ibrahim Kone",
         "short": "Kone",
-        "x": 106.69,
+        "x": 13.31,
         "y": 39.47,
         "size": 61.3,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Sekou Oumar Sylla",
         "short": "Sylla",
-        "x": 56.8,
+        "x": 63.2,
         "y": 20.88,
         "size": 60.1,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Mohamed Bayo",
         "short": "Bayo",
-        "x": 53.7,
+        "x": 66.3,
         "y": 56.92,
         "size": 60.1,
         "is_playmaker": false,
@@ -1080,13 +1115,13 @@
         "source": "Mouctar Diakhaby",
         "target": "Ibrahim Diakité",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Julian Jeanvier",
         "target": "Issiaga Sylla",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Julian Jeanvier",
@@ -1098,13 +1133,13 @@
         "source": "Julian Jeanvier",
         "target": "Mory Konaté",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Julian Jeanvier",
         "target": "Ibrahim Kone",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Amadou Diawara",
@@ -1122,19 +1157,19 @@
         "source": "Amadou Diawara",
         "target": "Morgan Guilavogui",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Amadou Diawara",
         "target": "Mouctar Diakhaby",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mory Konaté",
         "target": "Issiaga Sylla",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mory Konaté",
@@ -1152,7 +1187,7 @@
         "source": "Mory Konaté",
         "target": "Mouctar Diakhaby",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mory Konaté",
@@ -1164,25 +1199,25 @@
         "source": "Ibrahim Diakité",
         "target": "Aguibou Camara",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ibrahim Diakité",
         "target": "Mouctar Diakhaby",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aguibou Camara",
         "target": "Ibrahim Diakité",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aguibou Camara",
         "target": "Amadou Diawara",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aguibou Camara",
@@ -1194,37 +1229,37 @@
         "source": "Issiaga Sylla",
         "target": "Aguibou Camara",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Amadou Diawara",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Mory Konaté",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Mouctar Diakhaby",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Morgan Guilavogui",
         "target": "Ibrahim Diakité",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Morgan Guilavogui",
         "target": "Mohamed Bayo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mohamed Bayo",
@@ -1236,7 +1271,7 @@
         "source": "Mohamed Bayo",
         "target": "Morgan Guilavogui",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

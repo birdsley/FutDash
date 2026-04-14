@@ -9,6 +9,11 @@
     "away_color": "#6e80db",
     "score_home": 2,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.953,
     "xg_away": 0.183,
     "shots_home": 13,
@@ -501,7 +506,9 @@
       "player_full": "Luca Rizzo",
       "minute": 9,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -513,7 +520,9 @@
       "player_full": "Daniele Baselli",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.8,
@@ -525,7 +534,9 @@
       "player_full": "Fabio Quagliarella",
       "minute": 13,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -537,7 +548,9 @@
       "player_full": "Cristian Molinaro",
       "minute": 14,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.3,
@@ -549,7 +562,9 @@
       "player_full": "Fabio Quagliarella",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -561,7 +576,9 @@
       "player_full": "Fabio Quagliarella",
       "minute": 28,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.0,
@@ -573,7 +590,9 @@
       "player_full": "Giuseppe Vives",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -585,7 +604,9 @@
       "player_full": "Emanuele Giaccherini",
       "minute": 38,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -597,7 +618,9 @@
       "player_full": "Fabio Quagliarella",
       "minute": 48,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -609,7 +632,9 @@
       "player_full": "Fabio Quagliarella",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.9,
@@ -621,7 +646,9 @@
       "player_full": "Amadou Diawara",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.7,
@@ -633,7 +660,9 @@
       "player_full": "Bruno da Silva Peres",
       "minute": 70,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -645,7 +674,9 @@
       "player_full": "Andrea Belotti",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.3,
@@ -657,7 +688,9 @@
       "player_full": "Daniele Baselli",
       "minute": 78,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.1,
@@ -669,7 +702,9 @@
       "player_full": "Andrea Belotti",
       "minute": 82,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -681,7 +716,9 @@
       "player_full": "Daniele Gastaldello",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.9,
@@ -693,7 +730,9 @@
       "player_full": "Giuseppe Vives",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -789,16 +828,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Daniele Padelli",
-        "short": "Padelli",
-        "x": 8.88,
-        "y": 39.95,
-        "size": 57.1,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0154
-      },
-      {
         "id": "Andrea Belotti",
         "short": "Belotti",
         "x": 80.51,
@@ -807,6 +836,16 @@
         "is_playmaker": false,
         "betweenness": 0.2667,
         "eigenvector": 0.002
+      },
+      {
+        "id": "Daniele Padelli",
+        "short": "Padelli",
+        "x": 8.88,
+        "y": 39.95,
+        "size": 57.1,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0154
       }
     ],
     "edges": [
@@ -979,18 +1018,6 @@
         "direction": "forward"
       },
       {
-        "source": "Daniele Padelli",
-        "target": "Kamil Glik",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Daniele Padelli",
-        "target": "Cesare Bovo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Andrea Belotti",
         "target": "Fabio Quagliarella",
         "weight": 1,
@@ -1001,6 +1028,18 @@
         "target": "Daniele Baselli",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Daniele Padelli",
+        "target": "Kamil Glik",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniele Padelli",
+        "target": "Cesare Bovo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1009,7 +1048,7 @@
       {
         "id": "Daniele Gastaldello",
         "short": "Gastaldello",
-        "x": 77.47,
+        "x": 42.53,
         "y": 48.85,
         "size": 128.5,
         "is_playmaker": true,
@@ -1019,7 +1058,7 @@
       {
         "id": "Luca Rossettini",
         "short": "Rossettini",
-        "x": 69.87,
+        "x": 50.13,
         "y": 71.98,
         "size": 136.9,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Matteo Brighi",
         "short": "Brighi",
-        "x": 51.11,
+        "x": 68.89,
         "y": 53.07,
         "size": 99.6,
         "is_playmaker": true,
@@ -1039,7 +1078,7 @@
       {
         "id": "Domenico Maietta",
         "short": "Maietta",
-        "x": 76.47,
+        "x": 43.53,
         "y": 18.58,
         "size": 114.0,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Adam Masina",
         "short": "Masina",
-        "x": 68.32,
+        "x": 51.68,
         "y": 7.5,
         "size": 104.4,
         "is_playmaker": false,
@@ -1059,7 +1098,7 @@
       {
         "id": "Luca Rizzo",
         "short": "Rizzo",
-        "x": 55.53,
+        "x": 64.47,
         "y": 64.57,
         "size": 80.3,
         "is_playmaker": false,
@@ -1069,7 +1108,7 @@
       {
         "id": "Emanuele Giaccherini",
         "short": "Giaccherini",
-        "x": 55.61,
+        "x": 64.39,
         "y": 21.51,
         "size": 64.6,
         "is_playmaker": false,
@@ -1079,7 +1118,7 @@
       {
         "id": "Amadou Diawara",
         "short": "Diawara",
-        "x": 69.0,
+        "x": 51.0,
         "y": 33.93,
         "size": 87.5,
         "is_playmaker": false,
@@ -1089,7 +1128,7 @@
       {
         "id": "Godfred Donsah",
         "short": "Donsah",
-        "x": 72.64,
+        "x": 47.36,
         "y": 24.51,
         "size": 59.8,
         "is_playmaker": false,
@@ -1099,7 +1138,7 @@
       {
         "id": "Antonio Mirante",
         "short": "Mirante",
-        "x": 107.95,
+        "x": 12.05,
         "y": 37.34,
         "size": 69.5,
         "is_playmaker": false,
@@ -1109,7 +1148,7 @@
       {
         "id": "Matteo Mancosu",
         "short": "Mancosu",
-        "x": 49.58,
+        "x": 70.42,
         "y": 35.45,
         "size": 59.8,
         "is_playmaker": false,
@@ -1122,7 +1161,7 @@
         "source": "Daniele Gastaldello",
         "target": "Luca Rossettini",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniele Gastaldello",
@@ -1134,49 +1173,49 @@
         "source": "Daniele Gastaldello",
         "target": "Adam Masina",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniele Gastaldello",
         "target": "Amadou Diawara",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luca Rossettini",
         "target": "Daniele Gastaldello",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luca Rossettini",
         "target": "Matteo Brighi",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luca Rossettini",
         "target": "Luca Rizzo",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matteo Brighi",
         "target": "Luca Rizzo",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matteo Brighi",
         "target": "Luca Rossettini",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matteo Brighi",
         "target": "Daniele Gastaldello",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matteo Brighi",
@@ -1194,7 +1233,7 @@
         "source": "Domenico Maietta",
         "target": "Adam Masina",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Domenico Maietta",
@@ -1206,19 +1245,19 @@
         "source": "Domenico Maietta",
         "target": "Antonio Mirante",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adam Masina",
         "target": "Domenico Maietta",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adam Masina",
         "target": "Emanuele Giaccherini",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adam Masina",
@@ -1230,13 +1269,13 @@
         "source": "Luca Rizzo",
         "target": "Luca Rossettini",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emanuele Giaccherini",
         "target": "Matteo Mancosu",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Amadou Diawara",
@@ -1248,13 +1287,13 @@
         "source": "Amadou Diawara",
         "target": "Domenico Maietta",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Amadou Diawara",
         "target": "Matteo Brighi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Amadou Diawara",
@@ -1266,19 +1305,19 @@
         "source": "Antonio Mirante",
         "target": "Luca Rossettini",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Mirante",
         "target": "Adam Masina",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matteo Mancosu",
         "target": "Emanuele Giaccherini",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Matteo Mancosu",

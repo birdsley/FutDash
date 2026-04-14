@@ -9,6 +9,11 @@
     "away_color": "#0055a9",
     "score_home": 4,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.585,
     "xg_away": 0.083,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Kim Little",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -513,7 +520,9 @@
       "player_full": "Leah Williamson",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -525,7 +534,9 @@
       "player_full": "Leonie Maier",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.3,
@@ -537,7 +548,9 @@
       "player_full": "Kayleigh Green",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -549,7 +562,9 @@
       "player_full": "Vivianne Miedema",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.9,
@@ -561,7 +576,9 @@
       "player_full": "Leah Williamson",
       "minute": 43,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 80.0,
@@ -573,7 +590,9 @@
       "player_full": "Léa Le Garrec",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.5,
@@ -585,7 +604,9 @@
       "player_full": "Danielle van de Donk",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -597,7 +618,9 @@
       "player_full": "Jordan Nobbs",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -609,7 +632,9 @@
       "player_full": "Jordan Nobbs",
       "minute": 69,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -621,7 +646,9 @@
       "player_full": "Matilde Lundorf Skovsen",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.8,
@@ -633,7 +660,9 @@
       "player_full": "Bethany Mead",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -645,7 +674,9 @@
       "player_full": "Emma Mukandi",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -657,7 +688,9 @@
       "player_full": "Jordan Nobbs",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -669,7 +702,9 @@
       "player_full": "Katie McCabe",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Felicity Gibbons",
         "short": "Gibbons",
-        "x": 85.7,
+        "x": 34.3,
         "y": 8.69,
         "size": 123.2,
         "is_playmaker": true,
@@ -971,7 +1006,7 @@
       {
         "id": "Ellie Brazil",
         "short": "Brazil",
-        "x": 65.17,
+        "x": 54.83,
         "y": 52.47,
         "size": 100.5,
         "is_playmaker": true,
@@ -981,7 +1016,7 @@
       {
         "id": "Fern Whelan",
         "short": "Whelan",
-        "x": 80.64,
+        "x": 39.36,
         "y": 54.05,
         "size": 105.0,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Matilde Lundorf Skovsen",
         "short": "Skovsen",
-        "x": 71.58,
+        "x": 48.42,
         "y": 71.09,
         "size": 107.3,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Megan Walsh",
         "short": "Walsh",
-        "x": 111.66,
+        "x": 8.34,
         "y": 38.34,
         "size": 73.2,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Victoria Williams",
         "short": "Williams",
-        "x": 80.43,
+        "x": 39.57,
         "y": 31.24,
         "size": 127.7,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Megan Connolly",
         "short": "Connolly",
-        "x": 75.49,
+        "x": 44.51,
         "y": 35.13,
         "size": 89.1,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Danielle Buet",
         "short": "Buet",
-        "x": 72.21,
+        "x": 47.79,
         "y": 37.77,
         "size": 86.8,
         "is_playmaker": false,
@@ -1039,19 +1074,9 @@
         "eigenvector": 0.1701
       },
       {
-        "id": "Emily Simpkins",
-        "short": "Simpkins",
-        "x": 79.82,
-        "y": 51.68,
-        "size": 64.1,
-        "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.1158
-      },
-      {
         "id": "Aileen Whelan",
         "short": "Whelan",
-        "x": 84.85,
+        "x": 35.15,
         "y": 21.97,
         "size": 64.1,
         "is_playmaker": false,
@@ -1059,9 +1084,19 @@
         "eigenvector": 0.0655
       },
       {
+        "id": "Emily Simpkins",
+        "short": "Simpkins",
+        "x": 40.18,
+        "y": 51.68,
+        "size": 64.1,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.1158
+      },
+      {
         "id": "Kayleigh Green",
         "short": "Green",
-        "x": 47.9,
+        "x": 72.1,
         "y": 31.7,
         "size": 64.1,
         "is_playmaker": false,
@@ -1074,19 +1109,19 @@
         "source": "Felicity Gibbons",
         "target": "Ellie Brazil",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Felicity Gibbons",
         "target": "Megan Connolly",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Felicity Gibbons",
         "target": "Danielle Buet",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Felicity Gibbons",
@@ -1098,25 +1133,25 @@
         "source": "Ellie Brazil",
         "target": "Emily Simpkins",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ellie Brazil",
         "target": "Kayleigh Green",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fern Whelan",
         "target": "Matilde Lundorf Skovsen",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fern Whelan",
         "target": "Ellie Brazil",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fern Whelan",
@@ -1128,67 +1163,79 @@
         "source": "Matilde Lundorf Skovsen",
         "target": "Ellie Brazil",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Matilde Lundorf Skovsen",
         "target": "Fern Whelan",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Walsh",
         "target": "Victoria Williams",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Victoria Williams",
         "target": "Felicity Gibbons",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Victoria Williams",
         "target": "Megan Connolly",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Victoria Williams",
         "target": "Matilde Lundorf Skovsen",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Victoria Williams",
         "target": "Aileen Whelan",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Megan Connolly",
         "target": "Victoria Williams",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danielle Buet",
         "target": "Felicity Gibbons",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danielle Buet",
         "target": "Fern Whelan",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danielle Buet",
         "target": "Kayleigh Green",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Victoria Williams",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Felicity Gibbons",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Emily Simpkins",
@@ -1200,31 +1247,19 @@
         "source": "Emily Simpkins",
         "target": "Ellie Brazil",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aileen Whelan",
-        "target": "Victoria Williams",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aileen Whelan",
-        "target": "Felicity Gibbons",
-        "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Kayleigh Green",
         "target": "Danielle Buet",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kayleigh Green",
         "target": "Ellie Brazil",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

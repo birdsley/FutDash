@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.355,
     "xg_away": 1.555,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Neal Maupay",
       "minute": 11,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.3,
@@ -513,7 +520,9 @@
       "player_full": "Thomas Mangani",
       "minute": 15,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -525,7 +534,9 @@
       "player_full": "Charles Diers",
       "minute": 16,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -537,7 +548,9 @@
       "player_full": "Moustapha Bayal Sall",
       "minute": 18,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -549,7 +562,9 @@
       "player_full": "Neal Maupay",
       "minute": 25,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.3,
@@ -561,7 +576,9 @@
       "player_full": "Kévin Théophile-Catherine",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.1,
@@ -573,7 +590,9 @@
       "player_full": "Thomas Mangani",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.6,
@@ -585,7 +604,9 @@
       "player_full": "Neal Maupay",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.9,
@@ -597,7 +618,9 @@
       "player_full": "Yoann Andreu",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.7,
@@ -609,7 +632,9 @@
       "player_full": "Vincent Manceau",
       "minute": 37,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.8,
@@ -621,7 +646,9 @@
       "player_full": "Kévin Monnet-Paquet",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.5,
@@ -633,7 +660,9 @@
       "player_full": "Romain Saïss",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.0,
@@ -645,7 +674,9 @@
       "player_full": "Neal Maupay",
       "minute": 60,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.4,
@@ -657,7 +688,9 @@
       "player_full": "Billy Ketkeophomphone",
       "minute": 69,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -979,7 +1012,7 @@
       {
         "id": "Kévin Théophile-Catherine",
         "short": "Théophile-C",
-        "x": 81.31,
+        "x": 38.69,
         "y": 59.8,
         "size": 121.9,
         "is_playmaker": false,
@@ -989,7 +1022,7 @@
       {
         "id": "Moustapha Bayal Sall",
         "short": "Sall",
-        "x": 80.75,
+        "x": 39.25,
         "y": 27.24,
         "size": 115.6,
         "is_playmaker": true,
@@ -999,7 +1032,7 @@
       {
         "id": "Jérémy Clément",
         "short": "Clément",
-        "x": 63.76,
+        "x": 56.24,
         "y": 37.64,
         "size": 142.4,
         "is_playmaker": false,
@@ -1009,7 +1042,7 @@
       {
         "id": "Renaud Cohade",
         "short": "Cohade",
-        "x": 62.41,
+        "x": 57.59,
         "y": 35.94,
         "size": 73.1,
         "is_playmaker": false,
@@ -1019,7 +1052,7 @@
       {
         "id": "Stéphane Ruffier",
         "short": "Ruffier",
-        "x": 106.6,
+        "x": 13.4,
         "y": 42.18,
         "size": 73.1,
         "is_playmaker": false,
@@ -1029,7 +1062,7 @@
       {
         "id": "Franck Tabanou",
         "short": "Tabanou",
-        "x": 61.63,
+        "x": 58.37,
         "y": 7.84,
         "size": 100.7,
         "is_playmaker": false,
@@ -1039,7 +1072,7 @@
       {
         "id": "Ronaël Pierre-Gabriel",
         "short": "Pierre-Gabr",
-        "x": 57.29,
+        "x": 62.71,
         "y": 73.35,
         "size": 93.6,
         "is_playmaker": false,
@@ -1049,7 +1082,7 @@
       {
         "id": "Fabien Lemoine",
         "short": "Lemoine",
-        "x": 58.41,
+        "x": 61.59,
         "y": 47.77,
         "size": 102.2,
         "is_playmaker": true,
@@ -1059,7 +1092,7 @@
       {
         "id": "Valentin Eysseric",
         "short": "Eysseric",
-        "x": 51.23,
+        "x": 68.77,
         "y": 20.95,
         "size": 61.3,
         "is_playmaker": false,
@@ -1069,7 +1102,7 @@
       {
         "id": "Kévin Monnet-Paquet",
         "short": "Monnet-Paqu",
-        "x": 43.76,
+        "x": 76.24,
         "y": 60.21,
         "size": 62.9,
         "is_playmaker": false,
@@ -1079,7 +1112,7 @@
       {
         "id": "Neal Maupay",
         "short": "Maupay",
-        "x": 48.31,
+        "x": 71.69,
         "y": 44.5,
         "size": 58.1,
         "is_playmaker": false,
@@ -1098,19 +1131,19 @@
         "source": "Kévin Théophile-Catherine",
         "target": "Stéphane Ruffier",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kévin Théophile-Catherine",
         "target": "Jérémy Clément",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moustapha Bayal Sall",
         "target": "Jérémy Clément",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moustapha Bayal Sall",
@@ -1122,13 +1155,13 @@
         "source": "Moustapha Bayal Sall",
         "target": "Fabien Lemoine",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moustapha Bayal Sall",
         "target": "Franck Tabanou",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérémy Clément",
@@ -1140,7 +1173,7 @@
         "source": "Jérémy Clément",
         "target": "Kévin Théophile-Catherine",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jérémy Clément",
@@ -1152,19 +1185,19 @@
         "source": "Jérémy Clément",
         "target": "Fabien Lemoine",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérémy Clément",
         "target": "Moustapha Bayal Sall",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stéphane Ruffier",
         "target": "Moustapha Bayal Sall",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Franck Tabanou",
@@ -1182,19 +1215,19 @@
         "source": "Franck Tabanou",
         "target": "Moustapha Bayal Sall",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Franck Tabanou",
         "target": "Valentin Eysseric",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ronaël Pierre-Gabriel",
         "target": "Kévin Théophile-Catherine",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronaël Pierre-Gabriel",
@@ -1206,19 +1239,19 @@
         "source": "Ronaël Pierre-Gabriel",
         "target": "Jérémy Clément",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ronaël Pierre-Gabriel",
         "target": "Kévin Monnet-Paquet",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabien Lemoine",
         "target": "Kévin Théophile-Catherine",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fabien Lemoine",
@@ -1230,31 +1263,31 @@
         "source": "Fabien Lemoine",
         "target": "Jérémy Clément",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Fabien Lemoine",
         "target": "Neal Maupay",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kévin Monnet-Paquet",
         "target": "Neal Maupay",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neal Maupay",
         "target": "Fabien Lemoine",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neal Maupay",
         "target": "Kévin Monnet-Paquet",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

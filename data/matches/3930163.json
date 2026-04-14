@@ -9,6 +9,11 @@
     "away_color": "#cf091d",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.249,
     "xg_away": 0.559,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Jude Bellingham",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -513,7 +520,9 @@
       "player_full": "Trent Alexander-Arnold",
       "minute": 18,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -525,7 +534,9 @@
       "player_full": "Aleksandar Mitrović",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.9,
@@ -537,7 +548,9 @@
       "player_full": "Dušan Vlahović",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -549,7 +562,9 @@
       "player_full": "Trent Alexander-Arnold",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -561,7 +576,9 @@
       "player_full": "Trent Alexander-Arnold",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -573,7 +590,9 @@
       "player_full": "Harry Kane",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.9,
@@ -585,7 +604,9 @@
       "player_full": "Dušan Vlahović",
       "minute": 81,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.1,
@@ -597,7 +618,9 @@
       "player_full": "Veljko Birmančević",
       "minute": 82,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.8,
@@ -609,7 +632,9 @@
       "player_full": "Sergej Milinković-Savić",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.5,
@@ -621,7 +646,9 @@
       "player_full": "Ivan Ilić",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -707,14 +734,14 @@
         "eigenvector": 0.1195
       },
       {
-        "id": "Aleksandar Mitrović",
-        "short": "Mitrović",
-        "x": 67.65,
-        "y": 35.1,
-        "size": 60.5,
-        "is_playmaker": true,
-        "betweenness": 0.5333,
-        "eigenvector": 0.0235
+        "id": "Dušan Vlahović",
+        "short": "Vlahović",
+        "x": 39.1,
+        "y": 63.25,
+        "size": 58.6,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.03
       },
       {
         "id": "Filip Kostić",
@@ -727,14 +754,14 @@
         "eigenvector": 0.0097
       },
       {
-        "id": "Dušan Vlahović",
-        "short": "Vlahović",
-        "x": 39.1,
-        "y": 63.25,
-        "size": 58.6,
-        "is_playmaker": false,
-        "betweenness": 0.3111,
-        "eigenvector": 0.03
+        "id": "Aleksandar Mitrović",
+        "short": "Mitrović",
+        "x": 67.65,
+        "y": 35.1,
+        "size": 60.5,
+        "is_playmaker": true,
+        "betweenness": 0.5333,
+        "eigenvector": 0.0235
       }
     ],
     "edges": [
@@ -842,15 +869,15 @@
       },
       {
         "source": "Saša Lukić",
-        "target": "Aleksandar Mitrović",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Saša Lukić",
         "target": "Dušan Vlahović",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Saša Lukić",
+        "target": "Aleksandar Mitrović",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Strahinja Pavlović",
@@ -913,22 +940,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Aleksandar Mitrović",
-        "target": "Sergej Milinković-Savić",
+        "source": "Dušan Vlahović",
+        "target": "Milos Veljkovic",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Aleksandar Mitrović",
+        "source": "Dušan Vlahović",
         "target": "Saša Lukić",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aleksandar Mitrović",
-        "target": "Filip Kostić",
-        "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Filip Kostić",
@@ -943,16 +964,22 @@
         "direction": "lateral"
       },
       {
-        "source": "Dušan Vlahović",
-        "target": "Milos Veljkovic",
+        "source": "Aleksandar Mitrović",
+        "target": "Filip Kostić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Dušan Vlahović",
+        "source": "Aleksandar Mitrović",
+        "target": "Sergej Milinković-Savić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aleksandar Mitrović",
         "target": "Saša Lukić",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },
@@ -961,7 +988,7 @@
       {
         "id": "Kyle Walker",
         "short": "Walker",
-        "x": 62.94,
+        "x": 57.06,
         "y": 66.66,
         "size": 120.2,
         "is_playmaker": true,
@@ -971,7 +998,7 @@
       {
         "id": "John Stones",
         "short": "Stones",
-        "x": 71.85,
+        "x": 48.15,
         "y": 49.81,
         "size": 112.0,
         "is_playmaker": false,
@@ -981,7 +1008,7 @@
       {
         "id": "Declan Rice",
         "short": "Rice",
-        "x": 63.58,
+        "x": 56.42,
         "y": 36.74,
         "size": 132.0,
         "is_playmaker": true,
@@ -991,7 +1018,7 @@
       {
         "id": "Jude Bellingham",
         "short": "Bellingham",
-        "x": 53.78,
+        "x": 66.22,
         "y": 33.41,
         "size": 111.3,
         "is_playmaker": false,
@@ -1001,7 +1028,7 @@
       {
         "id": "Trent Alexander-Arnold",
         "short": "Alexander-A",
-        "x": 53.0,
+        "x": 67.0,
         "y": 57.22,
         "size": 85.4,
         "is_playmaker": false,
@@ -1011,7 +1038,7 @@
       {
         "id": "Phil Foden",
         "short": "Foden",
-        "x": 52.6,
+        "x": 67.4,
         "y": 23.4,
         "size": 99.4,
         "is_playmaker": false,
@@ -1021,7 +1048,7 @@
       {
         "id": "Marc Guehi",
         "short": "Guehi",
-        "x": 72.13,
+        "x": 47.87,
         "y": 25.88,
         "size": 79.4,
         "is_playmaker": false,
@@ -1031,7 +1058,7 @@
       {
         "id": "Kieran Trippier",
         "short": "Trippier",
-        "x": 58.82,
+        "x": 61.18,
         "y": 12.69,
         "size": 69.8,
         "is_playmaker": false,
@@ -1041,7 +1068,7 @@
       {
         "id": "Jordan Pickford",
         "short": "Pickford",
-        "x": 106.74,
+        "x": 13.26,
         "y": 41.1,
         "size": 62.4,
         "is_playmaker": false,
@@ -1051,7 +1078,7 @@
       {
         "id": "Bukayo Saka",
         "short": "Saka",
-        "x": 49.3,
+        "x": 70.7,
         "y": 57.79,
         "size": 75.0,
         "is_playmaker": false,
@@ -1061,7 +1088,7 @@
       {
         "id": "Harry Kane",
         "short": "Kane",
-        "x": 37.27,
+        "x": 82.73,
         "y": 32.64,
         "size": 58.0,
         "is_playmaker": false,
@@ -1074,13 +1101,13 @@
         "source": "Kyle Walker",
         "target": "John Stones",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "Bukayo Saka",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kyle Walker",
@@ -1092,13 +1119,13 @@
         "source": "Kyle Walker",
         "target": "Trent Alexander-Arnold",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Kyle Walker",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
@@ -1110,31 +1137,31 @@
         "source": "John Stones",
         "target": "Jordan Pickford",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "John Stones",
         "target": "Declan Rice",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
         "target": "Jude Bellingham",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
         "target": "Trent Alexander-Arnold",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
         "target": "Phil Foden",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
@@ -1152,19 +1179,19 @@
         "source": "Jude Bellingham",
         "target": "Declan Rice",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jude Bellingham",
         "target": "Kyle Walker",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jude Bellingham",
         "target": "Harry Kane",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Trent Alexander-Arnold",
@@ -1176,7 +1203,7 @@
         "source": "Trent Alexander-Arnold",
         "target": "Declan Rice",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Phil Foden",
@@ -1188,19 +1215,19 @@
         "source": "Phil Foden",
         "target": "Declan Rice",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Phil Foden",
         "target": "Kieran Trippier",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Phil Foden",
         "target": "Harry Kane",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Guehi",
@@ -1212,31 +1239,31 @@
         "source": "Marc Guehi",
         "target": "Declan Rice",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kieran Trippier",
         "target": "Jude Bellingham",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bukayo Saka",
         "target": "Kyle Walker",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harry Kane",
         "target": "Jude Bellingham",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harry Kane",
         "target": "Phil Foden",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

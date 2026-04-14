@@ -9,6 +9,11 @@
     "away_color": "#cf091d",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.393,
     "xg_away": 0.642,
     "shots_home": 7,
@@ -501,7 +506,9 @@
       "player_full": "Raheem Sterling",
       "minute": 1,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.3,
@@ -513,7 +520,9 @@
       "player_full": "John Stones",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.9,
@@ -525,7 +534,9 @@
       "player_full": "Harry Kane",
       "minute": 10,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.9,
@@ -537,7 +548,9 @@
       "player_full": "Raheem Sterling",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -549,7 +562,9 @@
       "player_full": "Harry Kane",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -561,7 +576,9 @@
       "player_full": "Tomáš Holeš",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.1,
@@ -573,7 +590,9 @@
       "player_full": "Tomáš Holeš",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -585,7 +604,9 @@
       "player_full": "Tomáš Kalas",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.5,
@@ -597,7 +618,9 @@
       "player_full": "Tomáš Souček",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -609,7 +632,9 @@
       "player_full": "Tomáš Souček",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.0,
@@ -621,7 +646,9 @@
       "player_full": "Harry Kane",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -633,7 +660,9 @@
       "player_full": "Tomáš Pekhart",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.4,
@@ -645,7 +674,9 @@
       "player_full": "Alex Král",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -907,7 +938,7 @@
       {
         "id": "Harry Maguire",
         "short": "Maguire",
-        "x": 81.06,
+        "x": 38.94,
         "y": 28.06,
         "size": 142.4,
         "is_playmaker": true,
@@ -917,7 +948,7 @@
       {
         "id": "John Stones",
         "short": "Stones",
-        "x": 78.09,
+        "x": 41.91,
         "y": 53.25,
         "size": 141.4,
         "is_playmaker": false,
@@ -927,7 +958,7 @@
       {
         "id": "Kyle Walker",
         "short": "Walker",
-        "x": 70.96,
+        "x": 49.04,
         "y": 64.14,
         "size": 119.1,
         "is_playmaker": false,
@@ -937,7 +968,7 @@
       {
         "id": "Luke Shaw",
         "short": "Shaw",
-        "x": 53.92,
+        "x": 66.08,
         "y": 7.4,
         "size": 80.2,
         "is_playmaker": true,
@@ -947,7 +978,7 @@
       {
         "id": "Kalvin Phillips",
         "short": "Phillips",
-        "x": 61.45,
+        "x": 58.55,
         "y": 48.63,
         "size": 84.1,
         "is_playmaker": false,
@@ -957,7 +988,7 @@
       {
         "id": "Jordan Pickford",
         "short": "Pickford",
-        "x": 108.5,
+        "x": 11.5,
         "y": 37.29,
         "size": 94.8,
         "is_playmaker": false,
@@ -967,7 +998,7 @@
       {
         "id": "Declan Rice",
         "short": "Rice",
-        "x": 66.94,
+        "x": 53.06,
         "y": 31.3,
         "size": 82.2,
         "is_playmaker": false,
@@ -977,7 +1008,7 @@
       {
         "id": "Raheem Sterling",
         "short": "Sterling",
-        "x": 41.62,
+        "x": 78.38,
         "y": 20.75,
         "size": 70.5,
         "is_playmaker": false,
@@ -987,7 +1018,7 @@
       {
         "id": "Bukayo Saka",
         "short": "Saka",
-        "x": 50.07,
+        "x": 69.93,
         "y": 56.18,
         "size": 67.6,
         "is_playmaker": false,
@@ -997,7 +1028,7 @@
       {
         "id": "Jack Grealish",
         "short": "Grealish",
-        "x": 38.38,
+        "x": 81.62,
         "y": 25.9,
         "size": 63.7,
         "is_playmaker": false,
@@ -1007,7 +1038,7 @@
       {
         "id": "Harry Kane",
         "short": "Kane",
-        "x": 38.14,
+        "x": 81.86,
         "y": 39.19,
         "size": 58.9,
         "is_playmaker": false,
@@ -1026,19 +1057,19 @@
         "source": "Harry Maguire",
         "target": "Jordan Pickford",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Harry Maguire",
         "target": "Luke Shaw",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Harry Maguire",
         "target": "Declan Rice",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
@@ -1050,103 +1081,103 @@
         "source": "John Stones",
         "target": "Kalvin Phillips",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Kyle Walker",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Declan Rice",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Stones",
         "target": "Jordan Pickford",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "John Stones",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "Jordan Pickford",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "Harry Maguire",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kyle Walker",
         "target": "Bukayo Saka",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luke Shaw",
         "target": "Harry Maguire",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Luke Shaw",
         "target": "Raheem Sterling",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kalvin Phillips",
         "target": "John Stones",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kalvin Phillips",
         "target": "Kyle Walker",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kalvin Phillips",
         "target": "Harry Maguire",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordan Pickford",
         "target": "Harry Maguire",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordan Pickford",
         "target": "Kyle Walker",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Declan Rice",
         "target": "Harry Maguire",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Declan Rice",
         "target": "John Stones",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Raheem Sterling",
@@ -1158,7 +1189,7 @@
         "source": "Bukayo Saka",
         "target": "Kyle Walker",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jack Grealish",

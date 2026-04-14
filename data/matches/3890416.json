@@ -9,6 +9,11 @@
     "away_color": "#c3161c",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.681,
     "xg_away": 0.377,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Benjamin Hübner",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.2,
@@ -513,7 +520,9 @@
       "player_full": "Elias Kachunga",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -525,7 +534,9 @@
       "player_full": "Alfredo Morales",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -537,7 +548,9 @@
       "player_full": "Yunus Mallı",
       "minute": 16,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -549,7 +562,9 @@
       "player_full": "Mathew Leckie",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.5,
@@ -561,7 +576,9 @@
       "player_full": "Moritz Hartmann",
       "minute": 18,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -573,7 +590,9 @@
       "player_full": "Mathew Leckie",
       "minute": 18,
       "technique": "Backheel",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.9,
@@ -585,7 +604,9 @@
       "player_full": "Julian Baumgartlinger",
       "minute": 24,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -597,7 +618,9 @@
       "player_full": "Pascal Groß",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -609,7 +632,9 @@
       "player_full": "Moritz Hartmann",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.2,
@@ -621,7 +646,9 @@
       "player_full": "Christian Clemens",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.8,
@@ -633,7 +660,9 @@
       "player_full": "Christian Clemens",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.8,
@@ -645,7 +674,9 @@
       "player_full": "Max Christiansen",
       "minute": 76,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.9,
@@ -657,7 +688,9 @@
       "player_full": "Danny Latza",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.0,
@@ -669,7 +702,9 @@
       "player_full": "Danny Latza",
       "minute": 91,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -937,7 +972,7 @@
       {
         "id": "Daniel Brosinski",
         "short": "Brosinski",
-        "x": 59.99,
+        "x": 60.01,
         "y": 71.03,
         "size": 98.9,
         "is_playmaker": false,
@@ -947,7 +982,7 @@
       {
         "id": "Julian Baumgartlinger",
         "short": "Baumgartlin",
-        "x": 65.83,
+        "x": 54.17,
         "y": 42.38,
         "size": 136.9,
         "is_playmaker": true,
@@ -957,7 +992,7 @@
       {
         "id": "Danny Latza",
         "short": "Latza",
-        "x": 65.52,
+        "x": 54.48,
         "y": 34.7,
         "size": 113.2,
         "is_playmaker": false,
@@ -967,7 +1002,7 @@
       {
         "id": "Stefan Bell",
         "short": "Bell",
-        "x": 77.88,
+        "x": 42.12,
         "y": 25.45,
         "size": 135.2,
         "is_playmaker": true,
@@ -977,7 +1012,7 @@
       {
         "id": "Gaëtan Bussmann",
         "short": "Bussmann",
-        "x": 55.48,
+        "x": 64.52,
         "y": 6.53,
         "size": 101.4,
         "is_playmaker": false,
@@ -987,7 +1022,7 @@
       {
         "id": "Leon Aderemi Balogun",
         "short": "Balogun",
-        "x": 82.05,
+        "x": 37.95,
         "y": 50.53,
         "size": 99.7,
         "is_playmaker": false,
@@ -997,7 +1032,7 @@
       {
         "id": "Jairo Samperio Bustara",
         "short": "Bustara",
-        "x": 46.11,
+        "x": 73.89,
         "y": 16.44,
         "size": 63.4,
         "is_playmaker": false,
@@ -1007,7 +1042,7 @@
       {
         "id": "Christian Clemens",
         "short": "Clemens",
-        "x": 53.72,
+        "x": 66.28,
         "y": 62.12,
         "size": 69.3,
         "is_playmaker": false,
@@ -1017,7 +1052,7 @@
       {
         "id": "Yunus Mallı",
         "short": "Mallı",
-        "x": 47.77,
+        "x": 72.23,
         "y": 33.64,
         "size": 67.7,
         "is_playmaker": false,
@@ -1027,7 +1062,7 @@
       {
         "id": "Loris Karius",
         "short": "Karius",
-        "x": 101.08,
+        "x": 18.92,
         "y": 41.2,
         "size": 60.9,
         "is_playmaker": false,
@@ -1037,7 +1072,7 @@
       {
         "id": "Jhon Andrés Córdoba Copete",
         "short": "Copete",
-        "x": 56.51,
+        "x": 63.49,
         "y": 41.91,
         "size": 58.4,
         "is_playmaker": false,
@@ -1050,19 +1085,19 @@
         "source": "Daniel Brosinski",
         "target": "Julian Baumgartlinger",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel Brosinski",
         "target": "Christian Clemens",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Brosinski",
         "target": "Stefan Bell",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Julian Baumgartlinger",
@@ -1074,49 +1109,49 @@
         "source": "Julian Baumgartlinger",
         "target": "Leon Aderemi Balogun",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Julian Baumgartlinger",
         "target": "Daniel Brosinski",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Julian Baumgartlinger",
         "target": "Yunus Mallı",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Julian Baumgartlinger",
         "target": "Stefan Bell",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Julian Baumgartlinger",
         "target": "Jhon Andrés Córdoba Copete",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danny Latza",
         "target": "Stefan Bell",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Latza",
         "target": "Leon Aderemi Balogun",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danny Latza",
         "target": "Gaëtan Bussmann",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danny Latza",
@@ -1128,91 +1163,91 @@
         "source": "Danny Latza",
         "target": "Jhon Andrés Córdoba Copete",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Bell",
         "target": "Gaëtan Bussmann",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Bell",
         "target": "Julian Baumgartlinger",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Bell",
         "target": "Leon Aderemi Balogun",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stefan Bell",
         "target": "Danny Latza",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Bell",
         "target": "Loris Karius",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaëtan Bussmann",
         "target": "Jairo Samperio Bustara",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gaëtan Bussmann",
         "target": "Danny Latza",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaëtan Bussmann",
         "target": "Stefan Bell",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gaëtan Bussmann",
         "target": "Yunus Mallı",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Leon Aderemi Balogun",
         "target": "Stefan Bell",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Leon Aderemi Balogun",
         "target": "Julian Baumgartlinger",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christian Clemens",
         "target": "Daniel Brosinski",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jhon Andrés Córdoba Copete",
         "target": "Julian Baumgartlinger",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jhon Andrés Córdoba Copete",
         "target": "Danny Latza",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

@@ -9,6 +9,11 @@
     "away_color": "#e1000f",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.782,
     "xg_away": 0.451,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Marco Russ",
       "minute": 4,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -513,7 +520,9 @@
       "player_full": "Pierre-Michel Lasogga",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -525,7 +534,9 @@
       "player_full": "Aaron Hunt",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -537,7 +548,9 @@
       "player_full": "Johan Danon Djourou-Gbadjere",
       "minute": 9,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.7,
@@ -549,7 +562,9 @@
       "player_full": "Alexander Meier",
       "minute": 11,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -561,7 +576,9 @@
       "player_full": "Aaron Hunt",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.5,
@@ -573,7 +590,9 @@
       "player_full": "Gojko Kačar",
       "minute": 40,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -585,7 +604,9 @@
       "player_full": "Ivo Iličević",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -597,7 +618,9 @@
       "player_full": "Stefan Reinartz",
       "minute": 49,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.1,
@@ -609,7 +632,9 @@
       "player_full": "Ivo Iličević",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -621,7 +646,9 @@
       "player_full": "Pierre-Michel Lasogga",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.1,
@@ -633,7 +660,9 @@
       "player_full": "Haris Seferović",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -645,7 +674,9 @@
       "player_full": "Alexander Meier",
       "minute": 61,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.7,
@@ -657,7 +688,9 @@
       "player_full": "Aleksandar Ignjovski",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -669,7 +702,9 @@
       "player_full": "Pierre-Michel Lasogga",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.5,
@@ -681,7 +716,9 @@
       "player_full": "Michael Gregoritsch",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.7,
@@ -693,7 +730,9 @@
       "player_full": "Haris Seferović",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Bastian Oczipka",
         "short": "Oczipka",
-        "x": 54.98,
+        "x": 65.02,
         "y": 7.95,
         "size": 135.2,
         "is_playmaker": true,
@@ -971,7 +1010,7 @@
       {
         "id": "Marc Stendera",
         "short": "Stendera",
-        "x": 49.28,
+        "x": 70.72,
         "y": 26.46,
         "size": 101.5,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Marco Russ",
         "short": "Russ",
-        "x": 77.83,
+        "x": 42.17,
         "y": 60.16,
         "size": 87.7,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Stefan Reinartz",
         "short": "Reinartz",
-        "x": 64.16,
+        "x": 55.84,
         "y": 41.93,
         "size": 139.2,
         "is_playmaker": true,
@@ -1001,7 +1040,7 @@
       {
         "id": "David Ángel Abraham",
         "short": "Abraham",
-        "x": 81.92,
+        "x": 38.08,
         "y": 22.13,
         "size": 77.8,
         "is_playmaker": false,
@@ -1011,7 +1050,7 @@
       {
         "id": "Alexander Meier",
         "short": "Meier",
-        "x": 52.12,
+        "x": 67.88,
         "y": 22.76,
         "size": 65.9,
         "is_playmaker": false,
@@ -1021,7 +1060,7 @@
       {
         "id": "Luc Castaignos",
         "short": "Castaignos",
-        "x": 36.71,
+        "x": 83.29,
         "y": 44.74,
         "size": 60.0,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Haris Seferović",
         "short": "Seferović",
-        "x": 38.22,
+        "x": 81.78,
         "y": 26.92,
         "size": 113.4,
         "is_playmaker": false,
@@ -1041,7 +1080,7 @@
       {
         "id": "Aleksandar Ignjovski",
         "short": "Ignjovski",
-        "x": 59.36,
+        "x": 60.64,
         "y": 72.57,
         "size": 85.7,
         "is_playmaker": false,
@@ -1051,7 +1090,7 @@
       {
         "id": "Makoto Hasebe",
         "short": "Hasebe",
-        "x": 52.36,
+        "x": 67.64,
         "y": 58.4,
         "size": 79.8,
         "is_playmaker": false,
@@ -1061,7 +1100,7 @@
       {
         "id": "Lukáš Hrádecký",
         "short": "Hrádecký",
-        "x": 107.82,
+        "x": 12.18,
         "y": 40.45,
         "size": 59.0,
         "is_playmaker": false,
@@ -1074,115 +1113,115 @@
         "source": "Bastian Oczipka",
         "target": "Marc Stendera",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Bastian Oczipka",
         "target": "Stefan Reinartz",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bastian Oczipka",
         "target": "Haris Seferović",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marc Stendera",
         "target": "Bastian Oczipka",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marc Stendera",
         "target": "Haris Seferović",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Russ",
         "target": "Stefan Reinartz",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Russ",
         "target": "David Ángel Abraham",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Marco Russ",
         "target": "Aleksandar Ignjovski",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Russ",
         "target": "Lukáš Hrádecký",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "David Ángel Abraham",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "Marco Russ",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "Bastian Oczipka",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "Makoto Hasebe",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "Marc Stendera",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "Aleksandar Ignjovski",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stefan Reinartz",
         "target": "Haris Seferović",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Ángel Abraham",
         "target": "Marco Russ",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Ángel Abraham",
         "target": "Marc Stendera",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "David Ángel Abraham",
         "target": "Lukáš Hrádecký",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexander Meier",
@@ -1200,43 +1239,43 @@
         "source": "Haris Seferović",
         "target": "Bastian Oczipka",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Haris Seferović",
         "target": "Alexander Meier",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aleksandar Ignjovski",
         "target": "Makoto Hasebe",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aleksandar Ignjovski",
         "target": "Stefan Reinartz",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Makoto Hasebe",
         "target": "Stefan Reinartz",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lukáš Hrádecký",
         "target": "David Ángel Abraham",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lukáš Hrádecký",
         "target": "Marco Russ",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

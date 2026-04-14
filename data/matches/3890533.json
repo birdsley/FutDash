@@ -9,6 +9,11 @@
     "away_color": "#dc052d",
     "score_home": 0,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.346,
     "xg_away": 0.338,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Tolga Ciğerci",
       "minute": 3,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.2,
@@ -513,7 +520,9 @@
       "player_full": "Niklas Stark",
       "minute": 3,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.3,
@@ -525,7 +534,9 @@
       "player_full": "Douglas Costa de Souza",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.4,
@@ -537,7 +548,9 @@
       "player_full": "Mitchell Weiser",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.6,
@@ -549,7 +562,9 @@
       "player_full": "Maximilian Mittelstädt",
       "minute": 19,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -561,7 +576,9 @@
       "player_full": "Thiago Alcântara do Nascimento",
       "minute": 21,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -573,7 +590,9 @@
       "player_full": "Niklas Stark",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -585,7 +604,9 @@
       "player_full": "Douglas Costa de Souza",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.1,
@@ -597,7 +618,9 @@
       "player_full": "Tolga Ciğerci",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -609,7 +632,9 @@
       "player_full": "Arturo Erasmo Vidal Pardo",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -621,7 +646,9 @@
       "player_full": "Niklas Stark",
       "minute": 52,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.3,
@@ -633,7 +660,9 @@
       "player_full": "Franck Bilal Ribéry",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -645,7 +674,9 @@
       "player_full": "Douglas Costa de Souza",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.0,
@@ -657,7 +688,9 @@
       "player_full": "Florian Kohls",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +946,7 @@
       {
         "id": "Thiago Alcântara do Nascimento",
         "short": "Nascimento",
-        "x": 64.25,
+        "x": 55.75,
         "y": 31.03,
         "size": 125.9,
         "is_playmaker": false,
@@ -923,7 +956,7 @@
       {
         "id": "Arturo Erasmo Vidal Pardo",
         "short": "Pardo",
-        "x": 66.16,
+        "x": 53.84,
         "y": 51.91,
         "size": 140.3,
         "is_playmaker": false,
@@ -933,7 +966,7 @@
       {
         "id": "Medhi Amine El Mouttaqi Benatia",
         "short": "Benatia",
-        "x": 77.06,
+        "x": 42.94,
         "y": 55.2,
         "size": 117.0,
         "is_playmaker": false,
@@ -943,7 +976,7 @@
       {
         "id": "Joshua Kimmich",
         "short": "Kimmich",
-        "x": 62.48,
+        "x": 57.52,
         "y": 65.06,
         "size": 105.4,
         "is_playmaker": false,
@@ -953,7 +986,7 @@
       {
         "id": "Serdar Taşçı",
         "short": "Taşçı",
-        "x": 79.18,
+        "x": 40.82,
         "y": 27.61,
         "size": 114.8,
         "is_playmaker": false,
@@ -963,7 +996,7 @@
       {
         "id": "Márcio Rafael Ferreira de Souza",
         "short": "Souza",
-        "x": 66.26,
+        "x": 53.74,
         "y": 24.03,
         "size": 89.9,
         "is_playmaker": false,
@@ -973,7 +1006,7 @@
       {
         "id": "Mario Götze",
         "short": "Götze",
-        "x": 52.36,
+        "x": 67.64,
         "y": 35.74,
         "size": 78.3,
         "is_playmaker": false,
@@ -983,7 +1016,7 @@
       {
         "id": "Douglas Costa de Souza",
         "short": "Souza",
-        "x": 48.82,
+        "x": 71.18,
         "y": 49.49,
         "size": 61.6,
         "is_playmaker": true,
@@ -993,7 +1026,7 @@
       {
         "id": "Robert Lewandowski",
         "short": "Lewandowski",
-        "x": 39.62,
+        "x": 80.38,
         "y": 48.42,
         "size": 57.2,
         "is_playmaker": false,
@@ -1003,7 +1036,7 @@
       {
         "id": "Thomas Müller",
         "short": "Müller",
-        "x": 53.62,
+        "x": 66.38,
         "y": 69.22,
         "size": 57.2,
         "is_playmaker": true,
@@ -1013,7 +1046,7 @@
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
-        "x": 108.35,
+        "x": 11.65,
         "y": 40.57,
         "size": 57.2,
         "is_playmaker": false,
@@ -1032,7 +1065,7 @@
         "source": "Thiago Alcântara do Nascimento",
         "target": "Medhi Amine El Mouttaqi Benatia",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thiago Alcântara do Nascimento",
@@ -1044,7 +1077,7 @@
         "source": "Thiago Alcântara do Nascimento",
         "target": "Mario Götze",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Thiago Alcântara do Nascimento",
@@ -1068,25 +1101,25 @@
         "source": "Arturo Erasmo Vidal Pardo",
         "target": "Serdar Taşçı",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arturo Erasmo Vidal Pardo",
         "target": "Medhi Amine El Mouttaqi Benatia",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Arturo Erasmo Vidal Pardo",
         "target": "Mario Götze",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Medhi Amine El Mouttaqi Benatia",
         "target": "Joshua Kimmich",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Medhi Amine El Mouttaqi Benatia",
@@ -1098,13 +1131,13 @@
         "source": "Medhi Amine El Mouttaqi Benatia",
         "target": "Arturo Erasmo Vidal Pardo",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Medhi Amine El Mouttaqi Benatia",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joshua Kimmich",
@@ -1116,31 +1149,31 @@
         "source": "Joshua Kimmich",
         "target": "Medhi Amine El Mouttaqi Benatia",
         "weight": 17,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joshua Kimmich",
         "target": "Thomas Müller",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Serdar Taşçı",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Serdar Taşçı",
         "target": "Márcio Rafael Ferreira de Souza",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Serdar Taşçı",
         "target": "Arturo Erasmo Vidal Pardo",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Serdar Taşçı",
@@ -1152,7 +1185,7 @@
         "source": "Serdar Taşçı",
         "target": "Manuel Neuer",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Márcio Rafael Ferreira de Souza",
@@ -1164,79 +1197,79 @@
         "source": "Márcio Rafael Ferreira de Souza",
         "target": "Serdar Taşçı",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Márcio Rafael Ferreira de Souza",
         "target": "Douglas Costa de Souza",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mario Götze",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mario Götze",
         "target": "Arturo Erasmo Vidal Pardo",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Mario Götze",
         "target": "Robert Lewandowski",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Douglas Costa de Souza",
         "target": "Robert Lewandowski",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Douglas Costa de Souza",
         "target": "Thomas Müller",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Lewandowski",
         "target": "Douglas Costa de Souza",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Robert Lewandowski",
         "target": "Mario Götze",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Müller",
         "target": "Joshua Kimmich",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thomas Müller",
         "target": "Douglas Costa de Souza",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Neuer",
         "target": "Serdar Taşçı",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Manuel Neuer",
         "target": "Medhi Amine El Mouttaqi Benatia",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

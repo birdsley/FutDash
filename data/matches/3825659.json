@@ -9,6 +9,11 @@
     "away_color": "#0070b8",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.518,
     "xg_away": 0.461,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Iñaki Williams Arthuer",
       "minute": 7,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.6,
@@ -513,7 +520,9 @@
       "player_full": "Hernán Arsenio Pérez González",
       "minute": 12,
       "technique": "Normal",
-      "body_part": "Other"
+      "body_part": "Other",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.4,
@@ -525,7 +534,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 18,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -537,7 +548,9 @@
       "player_full": "Felipe Salvador Caicedo Corozo",
       "minute": 19,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -549,7 +562,9 @@
       "player_full": "Carlos Gurpegi Nausia",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.1,
@@ -561,7 +576,9 @@
       "player_full": "Hernán Arsenio Pérez González",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.4,
@@ -573,7 +590,9 @@
       "player_full": "Víctor Sánchez Mata",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 82.9,
@@ -585,7 +604,9 @@
       "player_full": "Raúl García Escudero",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.6,
@@ -597,7 +618,9 @@
       "player_full": "Mikel San José Domínguez",
       "minute": 36,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -609,7 +632,9 @@
       "player_full": "Iñaki Williams Arthuer",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -621,7 +646,9 @@
       "player_full": "Hernán Arsenio Pérez González",
       "minute": 50,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.6,
@@ -633,7 +660,9 @@
       "player_full": "Raúl García Escudero",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.6,
@@ -645,7 +674,9 @@
       "player_full": "Markel Susaeta Laskurain",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -925,7 +956,7 @@
       {
         "id": "Javier López Rodríguez",
         "short": "Rodríguez",
-        "x": 73.29,
+        "x": 46.71,
         "y": 65.84,
         "size": 103.7,
         "is_playmaker": false,
@@ -935,7 +966,7 @@
       {
         "id": "Hernán Arsenio Pérez González",
         "short": "González",
-        "x": 52.82,
+        "x": 67.18,
         "y": 56.49,
         "size": 97.3,
         "is_playmaker": false,
@@ -945,7 +976,7 @@
       {
         "id": "Víctor Sánchez Mata",
         "short": "Mata",
-        "x": 58.71,
+        "x": 61.29,
         "y": 45.82,
         "size": 103.7,
         "is_playmaker": true,
@@ -955,7 +986,7 @@
       {
         "id": "Papa Kouly Diop",
         "short": "Diop",
-        "x": 73.1,
+        "x": 46.9,
         "y": 48.91,
         "size": 120.4,
         "is_playmaker": true,
@@ -965,7 +996,7 @@
       {
         "id": "Álvaro González Soberón",
         "short": "Soberón",
-        "x": 78.85,
+        "x": 41.15,
         "y": 47.51,
         "size": 122.9,
         "is_playmaker": false,
@@ -975,7 +1006,7 @@
       {
         "id": "Marco Asensio Willemsen",
         "short": "Willemsen",
-        "x": 59.82,
+        "x": 60.18,
         "y": 29.38,
         "size": 87.1,
         "is_playmaker": false,
@@ -985,7 +1016,7 @@
       {
         "id": "Juan Rafael Fuentes Hernández",
         "short": "Hernández",
-        "x": 52.96,
+        "x": 67.04,
         "y": 6.79,
         "size": 87.1,
         "is_playmaker": false,
@@ -995,7 +1026,7 @@
       {
         "id": "Víctor Guillermo Álvarez Delgado",
         "short": "Delgado",
-        "x": 66.05,
+        "x": 53.95,
         "y": 13.57,
         "size": 64.0,
         "is_playmaker": false,
@@ -1005,7 +1036,7 @@
       {
         "id": "Enzo Pablo Roco Roco",
         "short": "Roco",
-        "x": 79.28,
+        "x": 40.72,
         "y": 33.62,
         "size": 88.3,
         "is_playmaker": false,
@@ -1015,7 +1046,7 @@
       {
         "id": "Pau López Sabata",
         "short": "Sabata",
-        "x": 106.04,
+        "x": 13.96,
         "y": 36.06,
         "size": 69.1,
         "is_playmaker": false,
@@ -1025,7 +1056,7 @@
       {
         "id": "Felipe Salvador Caicedo Corozo",
         "short": "Corozo",
-        "x": 44.09,
+        "x": 75.91,
         "y": 36.82,
         "size": 61.4,
         "is_playmaker": false,
@@ -1038,55 +1069,55 @@
         "source": "Javier López Rodríguez",
         "target": "Hernán Arsenio Pérez González",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier López Rodríguez",
         "target": "Víctor Sánchez Mata",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier López Rodríguez",
         "target": "Álvaro González Soberón",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hernán Arsenio Pérez González",
         "target": "Víctor Sánchez Mata",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Víctor Sánchez Mata",
         "target": "Hernán Arsenio Pérez González",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Sánchez Mata",
         "target": "Felipe Salvador Caicedo Corozo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Sánchez Mata",
         "target": "Papa Kouly Diop",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Papa Kouly Diop",
         "target": "Álvaro González Soberón",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Papa Kouly Diop",
         "target": "Enzo Pablo Roco Roco",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Papa Kouly Diop",
@@ -1098,67 +1129,67 @@
         "source": "Papa Kouly Diop",
         "target": "Víctor Sánchez Mata",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Álvaro González Soberón",
         "target": "Marco Asensio Willemsen",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Álvaro González Soberón",
         "target": "Javier López Rodríguez",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Álvaro González Soberón",
         "target": "Hernán Arsenio Pérez González",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Álvaro González Soberón",
         "target": "Papa Kouly Diop",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Asensio Willemsen",
         "target": "Juan Rafael Fuentes Hernández",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Asensio Willemsen",
         "target": "Papa Kouly Diop",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Rafael Fuentes Hernández",
         "target": "Víctor Guillermo Álvarez Delgado",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juan Rafael Fuentes Hernández",
         "target": "Marco Asensio Willemsen",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Enzo Pablo Roco Roco",
         "target": "Papa Kouly Diop",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Enzo Pablo Roco Roco",
         "target": "Juan Rafael Fuentes Hernández",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Enzo Pablo Roco Roco",
@@ -1170,13 +1201,13 @@
         "source": "Pau López Sabata",
         "target": "Álvaro González Soberón",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pau López Sabata",
         "target": "Hernán Arsenio Pérez González",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

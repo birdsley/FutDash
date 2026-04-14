@@ -9,6 +9,11 @@
     "away_color": "#ff7200",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.543,
     "xg_away": 0.0,
     "shots_home": 16,
@@ -501,7 +506,9 @@
       "player_full": "Sergio Escudero Palomo",
       "minute": 5,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -513,7 +520,9 @@
       "player_full": "Adil Rami",
       "minute": 10,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -525,7 +534,9 @@
       "player_full": "Fernando Llorente Torres",
       "minute": 27,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -537,7 +548,9 @@
       "player_full": "Fernando Llorente Torres",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -549,7 +562,9 @@
       "player_full": "Éver Maximiliano David Banega",
       "minute": 30,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.2,
@@ -561,7 +576,9 @@
       "player_full": "Adil Rami",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -573,7 +590,9 @@
       "player_full": "Yevhen Konoplyanka",
       "minute": 37,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -585,7 +604,9 @@
       "player_full": "Grzegorz Krychowiak",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -597,7 +618,9 @@
       "player_full": "Sergio Escudero Palomo",
       "minute": 49,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.7,
@@ -609,7 +632,9 @@
       "player_full": "Mariano Ferreira Filho",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.9,
@@ -621,7 +646,9 @@
       "player_full": "Yevhen Konoplyanka",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -633,7 +660,9 @@
       "player_full": "Yevhen Konoplyanka",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.2,
@@ -645,7 +674,9 @@
       "player_full": "Éver Maximiliano David Banega",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.2,
@@ -657,7 +688,9 @@
       "player_full": "Steven N''Kemboanza Mike Christopher Nzonzi",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -669,7 +702,9 @@
       "player_full": "Yevhen Konoplyanka",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.9,
@@ -681,7 +716,9 @@
       "player_full": "Steven N''Kemboanza Mike Christopher Nzonzi",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -777,16 +814,6 @@
         "eigenvector": 0.1581
       },
       {
-        "id": "Fernando Llorente Torres",
-        "short": "Torres",
-        "x": 74.77,
-        "y": 52.33,
-        "size": 58.2,
-        "is_playmaker": false,
-        "betweenness": 0.2167,
-        "eigenvector": 0.0285
-      },
-      {
         "id": "Sergio Rico González",
         "short": "González",
         "x": 12.03,
@@ -795,6 +822,16 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0054
+      },
+      {
+        "id": "Fernando Llorente Torres",
+        "short": "Torres",
+        "x": 74.77,
+        "y": 52.33,
+        "size": 58.2,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.0285
       }
     ],
     "edges": [
@@ -967,18 +1004,6 @@
         "direction": "backward"
       },
       {
-        "source": "Fernando Llorente Torres",
-        "target": "Víctor Machín Pérez",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Fernando Llorente Torres",
-        "target": "Éver Maximiliano David Banega",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Sergio Rico González",
         "target": "Adil Rami",
         "weight": 1,
@@ -989,6 +1014,18 @@
         "target": "Steven N''Kemboanza Mike Christopher Nzonzi",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Fernando Llorente Torres",
+        "target": "Víctor Machín Pérez",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fernando Llorente Torres",
+        "target": "Éver Maximiliano David Banega",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -997,7 +1034,7 @@
       {
         "id": "Aymen Abdennour",
         "short": "Abdennour",
-        "x": 79.34,
+        "x": 40.66,
         "y": 23.58,
         "size": 126.0,
         "is_playmaker": true,
@@ -1007,7 +1044,7 @@
       {
         "id": "Santiago Mina Lorenzo",
         "short": "Lorenzo",
-        "x": 45.2,
+        "x": 74.8,
         "y": 13.2,
         "size": 85.6,
         "is_playmaker": false,
@@ -1017,7 +1054,7 @@
       {
         "id": "Danilo Barbosa da Silva",
         "short": "Silva",
-        "x": 53.53,
+        "x": 66.47,
         "y": 32.45,
         "size": 85.6,
         "is_playmaker": false,
@@ -1027,7 +1064,7 @@
       {
         "id": "Daniel Parejo Muñoz",
         "short": "Muñoz",
-        "x": 59.46,
+        "x": 60.54,
         "y": 28.02,
         "size": 143.7,
         "is_playmaker": false,
@@ -1037,7 +1074,7 @@
       {
         "id": "Enzo Nicolás Pérez",
         "short": "Pérez",
-        "x": 42.97,
+        "x": 77.03,
         "y": 65.98,
         "size": 74.4,
         "is_playmaker": false,
@@ -1047,7 +1084,7 @@
       {
         "id": "José Luis Gayà Peña",
         "short": "Peña",
-        "x": 51.03,
+        "x": 68.97,
         "y": 5.81,
         "size": 121.1,
         "is_playmaker": false,
@@ -1057,7 +1094,7 @@
       {
         "id": "Javier Fuego Martínez",
         "short": "Martínez",
-        "x": 71.49,
+        "x": 48.51,
         "y": 44.86,
         "size": 90.5,
         "is_playmaker": true,
@@ -1067,7 +1104,7 @@
       {
         "id": "Mathew Ryan",
         "short": "Ryan",
-        "x": 107.91,
+        "x": 12.09,
         "y": 41.06,
         "size": 61.5,
         "is_playmaker": false,
@@ -1077,7 +1114,7 @@
       {
         "id": "João Pedro Cavaco Cancelo",
         "short": "Cancelo",
-        "x": 67.51,
+        "x": 52.49,
         "y": 72.62,
         "size": 74.4,
         "is_playmaker": false,
@@ -1087,7 +1124,7 @@
       {
         "id": "Aderllan Leandro de Jesus Santos",
         "short": "Santos",
-        "x": 73.76,
+        "x": 46.24,
         "y": 56.7,
         "size": 80.8,
         "is_playmaker": false,
@@ -1097,7 +1134,7 @@
       {
         "id": "Francisco Alcácer García",
         "short": "García",
-        "x": 55.53,
+        "x": 64.47,
         "y": 53.73,
         "size": 61.5,
         "is_playmaker": false,
@@ -1110,49 +1147,49 @@
         "source": "Aymen Abdennour",
         "target": "Santiago Mina Lorenzo",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Javier Fuego Martínez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Danilo Barbosa da Silva",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Daniel Parejo Muñoz",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Aderllan Leandro de Jesus Santos",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "José Luis Gayà Peña",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Santiago Mina Lorenzo",
         "target": "Danilo Barbosa da Silva",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Santiago Mina Lorenzo",
         "target": "Daniel Parejo Muñoz",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danilo Barbosa da Silva",
@@ -1164,103 +1201,103 @@
         "source": "Daniel Parejo Muñoz",
         "target": "Enzo Nicolás Pérez",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Parejo Muñoz",
         "target": "Danilo Barbosa da Silva",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Parejo Muñoz",
         "target": "José Luis Gayà Peña",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Parejo Muñoz",
         "target": "Aderllan Leandro de Jesus Santos",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel Parejo Muñoz",
         "target": "Javier Fuego Martínez",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Enzo Nicolás Pérez",
         "target": "Francisco Alcácer García",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Luis Gayà Peña",
         "target": "Santiago Mina Lorenzo",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José Luis Gayà Peña",
         "target": "Aymen Abdennour",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "José Luis Gayà Peña",
         "target": "Daniel Parejo Muñoz",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Javier Fuego Martínez",
         "target": "Aymen Abdennour",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Javier Fuego Martínez",
         "target": "Daniel Parejo Muñoz",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Fuego Martínez",
         "target": "Francisco Alcácer García",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mathew Ryan",
         "target": "Aymen Abdennour",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "João Pedro Cavaco Cancelo",
         "target": "Enzo Nicolás Pérez",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "João Pedro Cavaco Cancelo",
         "target": "Aderllan Leandro de Jesus Santos",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francisco Alcácer García",
         "target": "Enzo Nicolás Pérez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francisco Alcácer García",
         "target": "Javier Fuego Martínez",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

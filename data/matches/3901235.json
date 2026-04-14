@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.291,
     "xg_away": 0.361,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Maxime Gonalons",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 119.6,
@@ -513,7 +520,9 @@
       "player_full": "Rachid Ghezzal",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.4,
@@ -525,7 +534,9 @@
       "player_full": "Jacques Zoua Daogari",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.4,
@@ -537,7 +548,9 @@
       "player_full": "John Tshibumbu",
       "minute": 29,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -549,7 +562,9 @@
       "player_full": "Samuel Yves Umtiti",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -561,7 +576,9 @@
       "player_full": "Gnaly Maxwell Cornet",
       "minute": 39,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.1,
@@ -573,7 +590,9 @@
       "player_full": "John Tshibumbu",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -585,7 +604,9 @@
       "player_full": "Grégory Pujol",
       "minute": 48,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -597,7 +618,9 @@
       "player_full": "Clément Grenier",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -609,7 +632,9 @@
       "player_full": "Alexandre Lacazette",
       "minute": 78,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -621,7 +646,9 @@
       "player_full": "Kévin Mayi",
       "minute": 88,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -633,7 +660,9 @@
       "player_full": "Alexandre Coeff",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +930,7 @@
       {
         "id": "Jacques Zoua Daogari",
         "short": "Daogari",
-        "x": 51.83,
+        "x": 68.17,
         "y": 35.83,
         "size": 126.0,
         "is_playmaker": false,
@@ -911,7 +940,7 @@
       {
         "id": "Pablo Jean Antoine Martínez",
         "short": "Martínez",
-        "x": 76.87,
+        "x": 43.13,
         "y": 32.72,
         "size": 67.9,
         "is_playmaker": false,
@@ -921,7 +950,7 @@
       {
         "id": "Issiaga Sylla",
         "short": "Sylla",
-        "x": 57.87,
+        "x": 62.13,
         "y": 8.21,
         "size": 138.9,
         "is_playmaker": false,
@@ -931,7 +960,7 @@
       {
         "id": "Alassane Touré",
         "short": "Touré",
-        "x": 69.83,
+        "x": 50.17,
         "y": 71.54,
         "size": 132.4,
         "is_playmaker": true,
@@ -941,7 +970,7 @@
       {
         "id": "Roderic Filippi",
         "short": "Filippi",
-        "x": 86.71,
+        "x": 33.29,
         "y": 48.47,
         "size": 80.8,
         "is_playmaker": false,
@@ -951,7 +980,7 @@
       {
         "id": "Damjan Đoković",
         "short": "Đoković",
-        "x": 63.53,
+        "x": 56.47,
         "y": 33.46,
         "size": 84.0,
         "is_playmaker": false,
@@ -961,7 +990,7 @@
       {
         "id": "Clément Maury",
         "short": "Maury",
-        "x": 101.61,
+        "x": 18.39,
         "y": 39.56,
         "size": 80.8,
         "is_playmaker": false,
@@ -971,7 +1000,7 @@
       {
         "id": "John Tshibumbu",
         "short": "Tshibumbu",
-        "x": 37.78,
+        "x": 82.22,
         "y": 11.14,
         "size": 84.0,
         "is_playmaker": false,
@@ -979,19 +1008,9 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Mohamed Amine Chermiti",
-        "short": "Chermiti",
-        "x": 61.89,
-        "y": 40.53,
-        "size": 67.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0037
-      },
-      {
         "id": "Abdou Kader Mangane",
         "short": "Mangane",
-        "x": 61.21,
+        "x": 58.79,
         "y": 47.38,
         "size": 74.4,
         "is_playmaker": false,
@@ -999,9 +1018,19 @@
         "eigenvector": 0.0178
       },
       {
+        "id": "Mohamed Amine Chermiti",
+        "short": "Chermiti",
+        "x": 58.11,
+        "y": 40.53,
+        "size": 67.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0037
+      },
+      {
         "id": "Louis Poggi",
         "short": "Poggi",
-        "x": 69.24,
+        "x": 50.76,
         "y": 64.76,
         "size": 67.9,
         "is_playmaker": true,
@@ -1014,43 +1043,43 @@
         "source": "Jacques Zoua Daogari",
         "target": "Pablo Jean Antoine Martínez",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Jacques Zoua Daogari",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "Damjan Đoković",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Issiaga Sylla",
         "target": "John Tshibumbu",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alassane Touré",
         "target": "Roderic Filippi",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alassane Touré",
         "target": "Clément Maury",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alassane Touré",
         "target": "Jacques Zoua Daogari",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alassane Touré",
@@ -1062,7 +1091,13 @@
         "source": "Roderic Filippi",
         "target": "Alassane Touré",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "Damjan Đoković",
+        "target": "Abdou Kader Mangane",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Damjan Đoković",
@@ -1071,34 +1106,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Damjan Đoković",
-        "target": "Abdou Kader Mangane",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Clément Maury",
         "target": "Alassane Touré",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "John Tshibumbu",
         "target": "Issiaga Sylla",
         "weight": 4,
-        "direction": "forward"
-      },
-      {
-        "source": "Mohamed Amine Chermiti",
-        "target": "Abdou Kader Mangane",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Mohamed Amine Chermiti",
-        "target": "Damjan Đoković",
-        "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Abdou Kader Mangane",
@@ -1116,7 +1133,19 @@
         "source": "Abdou Kader Mangane",
         "target": "Louis Poggi",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
+      },
+      {
+        "source": "Mohamed Amine Chermiti",
+        "target": "Abdou Kader Mangane",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mohamed Amine Chermiti",
+        "target": "Damjan Đoković",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Louis Poggi",
@@ -1128,7 +1157,7 @@
         "source": "Louis Poggi",
         "target": "Abdou Kader Mangane",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

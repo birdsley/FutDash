@@ -9,6 +9,11 @@
     "away_color": "#e32219",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.489,
     "xg_away": 0.892,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Daniel Brosinski",
       "minute": 1,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.3,
@@ -513,7 +520,9 @@
       "player_full": "Danny Latza",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.4,
@@ -525,7 +534,9 @@
       "player_full": "Christian Gentner",
       "minute": 5,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.4,
@@ -537,7 +548,9 @@
       "player_full": "Christian Gentner",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -549,7 +562,9 @@
       "player_full": "Lukas Rupp",
       "minute": 10,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.8,
@@ -561,7 +576,9 @@
       "player_full": "Timo Werner",
       "minute": 23,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.3,
@@ -573,7 +590,9 @@
       "player_full": "Alexandru Iulian Maxim",
       "minute": 25,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.3,
@@ -585,7 +604,9 @@
       "player_full": "Lukas Rupp",
       "minute": 36,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.9,
@@ -597,7 +618,9 @@
       "player_full": "Daniel Brosinski",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -609,7 +632,9 @@
       "player_full": "Yunus Mallı",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -621,7 +646,9 @@
       "player_full": "Timo Werner",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.8,
@@ -633,7 +660,9 @@
       "player_full": "Robbie Kruse",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -645,7 +674,9 @@
       "player_full": "Yoshinori Muto",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.3,
@@ -657,7 +688,9 @@
       "player_full": "Filip Kostić",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -669,7 +702,9 @@
       "player_full": "Lukas Rupp",
       "minute": 75,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -681,7 +716,9 @@
       "player_full": "Pablo Ezequiel De Blasis",
       "minute": 77,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.5,
@@ -693,7 +730,9 @@
       "player_full": "Timo Werner",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -1009,7 +1048,7 @@
       {
         "id": "Toni Šunjić",
         "short": "Šunjić",
-        "x": 82.45,
+        "x": 37.55,
         "y": 56.48,
         "size": 86.1,
         "is_playmaker": false,
@@ -1019,7 +1058,7 @@
       {
         "id": "Daniel Schwaab",
         "short": "Schwaab",
-        "x": 70.47,
+        "x": 49.53,
         "y": 71.99,
         "size": 102.9,
         "is_playmaker": false,
@@ -1029,7 +1068,7 @@
       {
         "id": "Emiliano Adrián Insúa Zapata",
         "short": "Zapata",
-        "x": 56.46,
+        "x": 63.54,
         "y": 9.48,
         "size": 104.1,
         "is_playmaker": false,
@@ -1039,7 +1078,7 @@
       {
         "id": "Alexandru Iulian Maxim",
         "short": "Maxim",
-        "x": 48.21,
+        "x": 71.79,
         "y": 40.12,
         "size": 106.5,
         "is_playmaker": false,
@@ -1049,7 +1088,7 @@
       {
         "id": "Christian Gentner",
         "short": "Gentner",
-        "x": 58.27,
+        "x": 61.73,
         "y": 42.01,
         "size": 128.1,
         "is_playmaker": true,
@@ -1059,7 +1098,7 @@
       {
         "id": "Lukas Rupp",
         "short": "Rupp",
-        "x": 57.5,
+        "x": 62.5,
         "y": 52.27,
         "size": 113.7,
         "is_playmaker": false,
@@ -1069,7 +1108,7 @@
       {
         "id": "Filip Kostić",
         "short": "Kostić",
-        "x": 44.44,
+        "x": 75.56,
         "y": 8.41,
         "size": 70.6,
         "is_playmaker": false,
@@ -1079,7 +1118,7 @@
       {
         "id": "Georg Niedermeier",
         "short": "Niedermeier",
-        "x": 76.44,
+        "x": 43.56,
         "y": 28.21,
         "size": 79.0,
         "is_playmaker": false,
@@ -1089,7 +1128,7 @@
       {
         "id": "Przemysław Tytoń",
         "short": "Tytoń",
-        "x": 106.67,
+        "x": 13.33,
         "y": 38.67,
         "size": 80.1,
         "is_playmaker": false,
@@ -1099,7 +1138,7 @@
       {
         "id": "Timo Werner",
         "short": "Werner",
-        "x": 41.02,
+        "x": 78.98,
         "y": 50.75,
         "size": 74.2,
         "is_playmaker": false,
@@ -1109,7 +1148,7 @@
       {
         "id": "Sereso Geoffroy Gonzaroua Dié",
         "short": "Dié",
-        "x": 68.09,
+        "x": 51.91,
         "y": 32.77,
         "size": 59.8,
         "is_playmaker": true,
@@ -1122,49 +1161,49 @@
         "source": "Toni Šunjić",
         "target": "Daniel Schwaab",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Toni Šunjić",
         "target": "Przemysław Tytoń",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel Schwaab",
         "target": "Christian Gentner",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Schwaab",
         "target": "Lukas Rupp",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Schwaab",
         "target": "Timo Werner",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emiliano Adrián Insúa Zapata",
         "target": "Alexandru Iulian Maxim",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emiliano Adrián Insúa Zapata",
         "target": "Filip Kostić",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Emiliano Adrián Insúa Zapata",
         "target": "Georg Niedermeier",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Emiliano Adrián Insúa Zapata",
@@ -1176,19 +1215,19 @@
         "source": "Alexandru Iulian Maxim",
         "target": "Christian Gentner",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexandru Iulian Maxim",
         "target": "Lukas Rupp",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexandru Iulian Maxim",
         "target": "Emiliano Adrián Insúa Zapata",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Gentner",
@@ -1200,7 +1239,7 @@
         "source": "Christian Gentner",
         "target": "Daniel Schwaab",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Gentner",
@@ -1212,19 +1251,19 @@
         "source": "Christian Gentner",
         "target": "Alexandru Iulian Maxim",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christian Gentner",
         "target": "Timo Werner",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christian Gentner",
         "target": "Sereso Geoffroy Gonzaroua Dié",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lukas Rupp",
@@ -1236,55 +1275,55 @@
         "source": "Lukas Rupp",
         "target": "Alexandru Iulian Maxim",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lukas Rupp",
         "target": "Timo Werner",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Georg Niedermeier",
         "target": "Przemysław Tytoń",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Georg Niedermeier",
         "target": "Toni Šunjić",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Georg Niedermeier",
         "target": "Sereso Geoffroy Gonzaroua Dié",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Przemysław Tytoń",
         "target": "Toni Šunjić",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Przemysław Tytoń",
         "target": "Filip Kostić",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sereso Geoffroy Gonzaroua Dié",
         "target": "Georg Niedermeier",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sereso Geoffroy Gonzaroua Dié",
         "target": "Christian Gentner",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

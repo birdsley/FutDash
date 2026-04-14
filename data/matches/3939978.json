@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.576,
     "xg_away": 0.909,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Gianluca Lapadula Vargas",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -513,7 +520,9 @@
       "player_full": "Piero Aldair Quispe Córdova",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -525,7 +534,9 @@
       "player_full": "Édison Michael Flores Peralta",
       "minute": 29,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -537,7 +548,9 @@
       "player_full": "Cyle Larin",
       "minute": 31,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -549,7 +562,9 @@
       "player_full": "Gianluca Lapadula Vargas",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.7,
@@ -561,7 +576,9 @@
       "player_full": "Gianluca Lapadula Vargas",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 60.7,
@@ -573,7 +590,9 @@
       "player_full": "Gianluca Lapadula Vargas",
       "minute": 47,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.1,
@@ -585,7 +604,9 @@
       "player_full": "Cyle Larin",
       "minute": 66,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.3,
@@ -597,7 +618,9 @@
       "player_full": "Jonathan David",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.8,
@@ -609,7 +632,9 @@
       "player_full": "André Martín Carrillo Díaz",
       "minute": 83,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -621,7 +646,9 @@
       "player_full": "Tanitoluwa Oluwaseyi",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.6,
@@ -633,7 +660,9 @@
       "player_full": "Tanitoluwa Oluwaseyi",
       "minute": 88,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -645,7 +674,9 @@
       "player_full": "Christian Alberto Cueva Bravo",
       "minute": 90,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -657,7 +688,9 @@
       "player_full": "José Paolo Guerrero Gonzáles",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -889,7 +922,7 @@
       {
         "id": "Jonathan David",
         "short": "David",
-        "x": 45.32,
+        "x": 74.68,
         "y": 47.9,
         "size": 92.9,
         "is_playmaker": false,
@@ -899,7 +932,7 @@
       {
         "id": "Cyle Larin",
         "short": "Larin",
-        "x": 47.75,
+        "x": 72.25,
         "y": 43.85,
         "size": 62.6,
         "is_playmaker": false,
@@ -909,7 +942,7 @@
       {
         "id": "Alistair Johnston",
         "short": "Johnston",
-        "x": 64.39,
+        "x": 55.61,
         "y": 70.74,
         "size": 136.8,
         "is_playmaker": true,
@@ -919,7 +952,7 @@
       {
         "id": "Liam Millar",
         "short": "Millar",
-        "x": 29.07,
+        "x": 90.93,
         "y": 70.39,
         "size": 65.6,
         "is_playmaker": false,
@@ -929,7 +962,7 @@
       {
         "id": "Richie Laryea",
         "short": "Laryea",
-        "x": 46.16,
+        "x": 73.84,
         "y": 22.35,
         "size": 68.6,
         "is_playmaker": false,
@@ -939,7 +972,7 @@
       {
         "id": "Alphonso Davies",
         "short": "Davies",
-        "x": 41.83,
+        "x": 78.17,
         "y": 18.69,
         "size": 103.5,
         "is_playmaker": false,
@@ -949,7 +982,7 @@
       {
         "id": "Stephen Antunes Eustáquio",
         "short": "Eustáquio",
-        "x": 55.59,
+        "x": 64.41,
         "y": 28.99,
         "size": 118.6,
         "is_playmaker": true,
@@ -959,7 +992,7 @@
       {
         "id": "Moise Bombito",
         "short": "Bombito",
-        "x": 80.44,
+        "x": 39.56,
         "y": 53.82,
         "size": 124.7,
         "is_playmaker": false,
@@ -969,7 +1002,7 @@
       {
         "id": "Derek Cornelius",
         "short": "Cornelius",
-        "x": 76.21,
+        "x": 43.79,
         "y": 26.71,
         "size": 68.6,
         "is_playmaker": false,
@@ -979,7 +1012,7 @@
       {
         "id": "Ismael Koné",
         "short": "Koné",
-        "x": 59.29,
+        "x": 60.71,
         "y": 49.75,
         "size": 94.4,
         "is_playmaker": false,
@@ -989,7 +1022,7 @@
       {
         "id": "Maxime Crépeau",
         "short": "Crépeau",
-        "x": 104.34,
+        "x": 15.66,
         "y": 40.06,
         "size": 68.6,
         "is_playmaker": false,
@@ -1014,49 +1047,49 @@
         "source": "Alistair Johnston",
         "target": "Liam Millar",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alistair Johnston",
         "target": "Moise Bombito",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alistair Johnston",
         "target": "Ismael Koné",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alistair Johnston",
         "target": "Jonathan David",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alistair Johnston",
         "target": "Stephen Antunes Eustáquio",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Richie Laryea",
         "target": "Alphonso Davies",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Richie Laryea",
         "target": "Stephen Antunes Eustáquio",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alphonso Davies",
         "target": "Stephen Antunes Eustáquio",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alphonso Davies",
@@ -1068,19 +1101,19 @@
         "source": "Stephen Antunes Eustáquio",
         "target": "Moise Bombito",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stephen Antunes Eustáquio",
         "target": "Jonathan David",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stephen Antunes Eustáquio",
         "target": "Alistair Johnston",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stephen Antunes Eustáquio",
@@ -1092,55 +1125,55 @@
         "source": "Stephen Antunes Eustáquio",
         "target": "Alphonso Davies",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moise Bombito",
         "target": "Alistair Johnston",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moise Bombito",
         "target": "Derek Cornelius",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Moise Bombito",
         "target": "Ismael Koné",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Derek Cornelius",
         "target": "Moise Bombito",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ismael Koné",
         "target": "Moise Bombito",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ismael Koné",
         "target": "Alistair Johnston",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Maxime Crépeau",
         "target": "Moise Bombito",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Maxime Crépeau",
         "target": "Alistair Johnston",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

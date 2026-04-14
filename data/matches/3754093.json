@@ -9,6 +9,11 @@
     "away_color": "#034694",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.513,
     "xg_away": 0.272,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Harry Kane",
       "minute": 9,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.4,
@@ -513,7 +520,9 @@
       "player_full": "Harry Kane",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.8,
@@ -525,7 +534,9 @@
       "player_full": "Eden Hazard",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -537,7 +548,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -549,7 +562,9 @@
       "player_full": "Heung-Min Son",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.1,
@@ -561,7 +576,9 @@
       "player_full": "Mousa Sidi Yaya Dembélé",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.9,
@@ -573,7 +590,9 @@
       "player_full": "Heung-Min Son",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.4,
@@ -585,7 +604,9 @@
       "player_full": "Heung-Min Son",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.0,
@@ -597,7 +618,9 @@
       "player_full": "Oscar dos Santos Emboaba Júnior",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -609,7 +632,9 @@
       "player_full": "Harry Kane",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -621,7 +646,9 @@
       "player_full": "Heung-Min Son",
       "minute": 63,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -633,7 +660,9 @@
       "player_full": "Eden Hazard",
       "minute": 66,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.6,
@@ -645,7 +674,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 76,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.7,
@@ -657,7 +688,9 @@
       "player_full": "Harry Kane",
       "minute": 92,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +982,7 @@
       {
         "id": "César Azpilicueta Tanco",
         "short": "Tanco",
-        "x": 44.89,
+        "x": 75.11,
         "y": 6.46,
         "size": 80.6,
         "is_playmaker": false,
@@ -959,7 +992,7 @@
       {
         "id": "Eden Hazard",
         "short": "Hazard",
-        "x": 33.93,
+        "x": 86.07,
         "y": 31.93,
         "size": 143.4,
         "is_playmaker": true,
@@ -969,7 +1002,7 @@
       {
         "id": "Branislav Ivanović",
         "short": "Ivanović",
-        "x": 59.27,
+        "x": 60.73,
         "y": 71.48,
         "size": 110.8,
         "is_playmaker": true,
@@ -979,7 +1012,7 @@
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
-        "x": 49.47,
+        "x": 70.53,
         "y": 16.83,
         "size": 79.4,
         "is_playmaker": false,
@@ -989,7 +1022,7 @@
       {
         "id": "Francesc Fàbregas i Soler",
         "short": "Soler",
-        "x": 48.84,
+        "x": 71.16,
         "y": 47.11,
         "size": 120.1,
         "is_playmaker": false,
@@ -999,7 +1032,7 @@
       {
         "id": "Willian Borges da Silva",
         "short": "Silva",
-        "x": 49.13,
+        "x": 70.87,
         "y": 58.47,
         "size": 108.5,
         "is_playmaker": false,
@@ -1009,7 +1042,7 @@
       {
         "id": "Gary Cahill",
         "short": "Cahill",
-        "x": 78.01,
+        "x": 41.99,
         "y": 22.49,
         "size": 73.6,
         "is_playmaker": false,
@@ -1019,7 +1052,7 @@
       {
         "id": "Asmir Begović",
         "short": "Begović",
-        "x": 106.96,
+        "x": 13.04,
         "y": 42.44,
         "size": 69.0,
         "is_playmaker": false,
@@ -1029,7 +1062,7 @@
       {
         "id": "Oscar dos Santos Emboaba Júnior",
         "short": "Júnior",
-        "x": 52.26,
+        "x": 67.74,
         "y": 35.52,
         "size": 96.9,
         "is_playmaker": false,
@@ -1039,7 +1072,7 @@
       {
         "id": "Nemanja Matić",
         "short": "Matić",
-        "x": 62.04,
+        "x": 57.96,
         "y": 40.43,
         "size": 63.1,
         "is_playmaker": false,
@@ -1049,7 +1082,7 @@
       {
         "id": "Kurt Happy Zouma",
         "short": "Zouma",
-        "x": 84.07,
+        "x": 35.93,
         "y": 43.57,
         "size": 59.7,
         "is_playmaker": false,
@@ -1062,61 +1095,61 @@
         "source": "César Azpilicueta Tanco",
         "target": "Eden Hazard",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eden Hazard",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eden Hazard",
         "target": "Willian Borges da Silva",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eden Hazard",
         "target": "Francesc Fàbregas i Soler",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eden Hazard",
         "target": "Oscar dos Santos Emboaba Júnior",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Branislav Ivanović",
         "target": "Eden Hazard",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Branislav Ivanović",
         "target": "Francesc Fàbregas i Soler",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Branislav Ivanović",
         "target": "Willian Borges da Silva",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Branislav Ivanović",
         "target": "Oscar dos Santos Emboaba Júnior",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Eden Hazard",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesc Fàbregas i Soler",
@@ -1128,13 +1161,13 @@
         "source": "Francesc Fàbregas i Soler",
         "target": "Eden Hazard",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesc Fàbregas i Soler",
         "target": "Branislav Ivanović",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francesc Fàbregas i Soler",
@@ -1152,7 +1185,7 @@
         "source": "Willian Borges da Silva",
         "target": "Branislav Ivanović",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Willian Borges da Silva",
@@ -1164,31 +1197,31 @@
         "source": "Gary Cahill",
         "target": "Asmir Begović",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gary Cahill",
         "target": "César Azpilicueta Tanco",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gary Cahill",
         "target": "Kurt Happy Zouma",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Asmir Begović",
         "target": "Branislav Ivanović",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oscar dos Santos Emboaba Júnior",
         "target": "Eden Hazard",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oscar dos Santos Emboaba Júnior",
@@ -1206,25 +1239,25 @@
         "source": "Nemanja Matić",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nemanja Matić",
         "target": "Kurt Happy Zouma",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kurt Happy Zouma",
         "target": "Gary Cahill",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kurt Happy Zouma",
         "target": "Nemanja Matić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

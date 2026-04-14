@@ -7,12 +7,17 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#aa151b",
     "away_color": "#aa151b",
-    "score_home": 2,
-    "score_away": 3,
-    "xg_home": 3.958,
-    "xg_away": 6.928,
-    "shots_home": 12,
-    "shots_away": 34,
+    "score_home": 1,
+    "score_away": 0,
+    "penalty_home": 1,
+    "penalty_away": 3,
+    "has_extra_time": true,
+    "has_penalties": true,
+    "max_minute": 129,
+    "xg_home": 0.824,
+    "xg_away": 3.011,
+    "shots_home": 8,
+    "shots_away": 29,
     "possession_home": 32.0,
     "competition": "UEFA Euro",
     "season": "2020",
@@ -111,7 +116,44 @@
       88,
       89,
       90,
-      91
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
     ],
     "home": [
       0.0,
@@ -205,7 +247,44 @@
       0.8239,
       0.8239,
       0.8239,
-      3.9579
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239,
+      0.8239
     ],
     "away": [
       0.0,
@@ -299,7 +378,44 @@
       1.0358,
       1.0358,
       1.0358,
-      6.9281
+      1.4206,
+      1.4206,
+      1.4206,
+      1.4397,
+      1.5154,
+      1.5733,
+      1.5733,
+      1.7225,
+      1.9177,
+      2.1566,
+      2.1566,
+      2.1942,
+      2.1942,
+      2.2346,
+      2.2789,
+      2.2789,
+      2.2789,
+      2.2789,
+      2.3949,
+      2.4634,
+      2.5322,
+      2.5322,
+      2.5322,
+      2.6319,
+      2.6911,
+      2.6911,
+      2.7789,
+      2.7789,
+      2.7789,
+      3.0106,
+      3.0106,
+      3.0106,
+      3.0106,
+      3.0106,
+      3.0106,
+      3.0106,
+      3.0106,
+      3.0106
     ],
     "pressure_home": [
       0.0,
@@ -393,7 +509,44 @@
       0.1967,
       0.0656,
       0.0984,
-      0.5574
+      0.0984,
+      0.1475,
+      0.1475,
+      0.1475,
+      0.1475,
+      0.1148,
+      0.1148,
+      0.1148,
+      0.1148,
+      0.082,
+      0.082,
+      0.0328,
+      0.0164,
+      0.0,
+      0.0,
+      0.0492,
+      0.0492,
+      0.0492,
+      0.0492,
+      0.0492,
+      0.0656,
+      0.0656,
+      0.0656,
+      0.0656,
+      0.0656,
+      0.2131,
+      0.2459,
+      0.2459,
+      0.2623,
+      0.2623,
+      0.2623,
+      0.2787,
+      0.2787,
+      0.2951,
+      0.3115,
+      0.1148,
+      0.082,
+      0.082
     ],
     "pressure_away": [
       0.0854,
@@ -487,7 +640,44 @@
       0.2073,
       0.2195,
       0.2805,
-      0.9756
+      0.2561,
+      0.3293,
+      0.2683,
+      0.2439,
+      0.2317,
+      0.2195,
+      0.2195,
+      0.2561,
+      0.2439,
+      0.1829,
+      0.1829,
+      0.122,
+      0.0732,
+      0.0854,
+      0.0854,
+      0.122,
+      0.2317,
+      0.1951,
+      0.1951,
+      0.1951,
+      0.2317,
+      0.2195,
+      0.2927,
+      0.2561,
+      0.2561,
+      0.3902,
+      0.3293,
+      0.3293,
+      0.3415,
+      0.3415,
+      0.3049,
+      0.3049,
+      0.2317,
+      0.2317,
+      0.2317,
+      0.061,
+      0.0122,
+      0.0122
     ]
   },
   "shots": [
@@ -501,7 +691,9 @@
       "player_full": "Xherdan Shaqiri",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -513,7 +705,9 @@
       "player_full": "Jordi Alba Ramos",
       "minute": 7,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.8,
@@ -525,7 +719,9 @@
       "player_full": "Jorge Resurrección Merodio",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -537,7 +733,9 @@
       "player_full": "César Azpilicueta Tanco",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.7,
@@ -549,7 +747,9 @@
       "player_full": "Haris Seferović",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -561,7 +761,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -573,7 +775,9 @@
       "player_full": "Silvan Widmer",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.9,
@@ -585,7 +789,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 46,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -597,7 +803,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.5,
@@ -609,7 +817,9 @@
       "player_full": "Jorge Resurrección Merodio",
       "minute": 49,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -621,7 +831,9 @@
       "player_full": "Denis Lemi Zakaria Lako Lado",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.6,
@@ -633,7 +845,9 @@
       "player_full": "Ferrán Torres García",
       "minute": 58,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.5,
@@ -645,7 +859,9 @@
       "player_full": "Steven Zuber",
       "minute": 63,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.2,
@@ -657,7 +873,9 @@
       "player_full": "Xherdan Shaqiri",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.7,
@@ -669,7 +887,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 75,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.3,
@@ -681,7 +901,9 @@
       "player_full": "Pau Francisco Torres",
       "minute": 76,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -693,7 +915,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.4,
@@ -705,7 +929,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.2,
@@ -717,7 +943,9 @@
       "player_full": "Aymeric Laporte",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.9,
@@ -729,7 +957,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 91,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.5,
@@ -741,7 +971,9 @@
       "player_full": "Mikel Oyarzabal Ugarte",
       "minute": 94,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.0,
@@ -753,7 +985,9 @@
       "player_full": "Jordi Alba Ramos",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.8,
@@ -765,7 +999,9 @@
       "player_full": "Marcos Llorente Moreno",
       "minute": 95,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.1,
@@ -777,7 +1013,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 96,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.1,
@@ -789,7 +1027,9 @@
       "player_full": "Marcos Llorente Moreno",
       "minute": 98,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.2,
@@ -801,7 +1041,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 99,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.1,
@@ -813,7 +1055,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 100,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.8,
@@ -825,7 +1069,9 @@
       "player_full": "Mikel Oyarzabal Ugarte",
       "minute": 102,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.6,
@@ -837,7 +1083,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 104,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.8,
@@ -849,7 +1097,9 @@
       "player_full": "Mikel Oyarzabal Ugarte",
       "minute": 105,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 3,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -861,7 +1111,9 @@
       "player_full": "Marcos Llorente Moreno",
       "minute": 109,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.8,
@@ -873,7 +1125,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 110,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.0,
@@ -885,7 +1139,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 111,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.5,
@@ -897,7 +1153,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 114,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.0,
@@ -909,7 +1167,9 @@
       "player_full": "Sergio Busquets i Burgos",
       "minute": 115,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -921,7 +1181,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 117,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -933,7 +1195,9 @@
       "player_full": "Rodrigo Hernández Cascante",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 4,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -945,7 +1209,9 @@
       "player_full": "Sergio Busquets i Burgos",
       "minute": 120,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -957,7 +1223,9 @@
       "player_full": "Mario Gavranović",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -969,7 +1237,9 @@
       "player_full": "Daniel Olmo Carvajal",
       "minute": 121,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -981,7 +1251,9 @@
       "player_full": "Fabian Lukas Schär",
       "minute": 122,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -993,7 +1265,9 @@
       "player_full": "Rodrigo Hernández Cascante",
       "minute": 123,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1005,7 +1279,9 @@
       "player_full": "Manuel Obafemi Akanji",
       "minute": 124,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1017,7 +1293,9 @@
       "player_full": "Gerard Moreno Balaguero",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1029,7 +1307,9 @@
       "player_full": "Ruben Vargas",
       "minute": 125,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     },
     {
       "x": 108.0,
@@ -1041,7 +1321,9 @@
       "player_full": "Mikel Oyarzabal Ugarte",
       "minute": 127,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 5,
+      "is_penalty_shootout": true
     }
   ],
   "network_home": {
@@ -1333,7 +1615,7 @@
       {
         "id": "Aymeric Laporte",
         "short": "Laporte",
-        "x": 69.61,
+        "x": 50.39,
         "y": 51.75,
         "size": 141.9,
         "is_playmaker": false,
@@ -1343,7 +1625,7 @@
       {
         "id": "Pau Francisco Torres",
         "short": "Torres",
-        "x": 66.48,
+        "x": 53.52,
         "y": 24.86,
         "size": 157.8,
         "is_playmaker": false,
@@ -1353,7 +1635,7 @@
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
-        "x": 55.8,
+        "x": 64.2,
         "y": 11.12,
         "size": 101.9,
         "is_playmaker": false,
@@ -1363,7 +1645,7 @@
       {
         "id": "César Azpilicueta Tanco",
         "short": "Tanco",
-        "x": 57.63,
+        "x": 62.37,
         "y": 66.74,
         "size": 88.5,
         "is_playmaker": false,
@@ -1373,7 +1655,7 @@
       {
         "id": "Pedro González López",
         "short": "López",
-        "x": 45.17,
+        "x": 74.83,
         "y": 24.65,
         "size": 97.6,
         "is_playmaker": true,
@@ -1383,7 +1665,7 @@
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 55.3,
+        "x": 64.7,
         "y": 42.29,
         "size": 95.0,
         "is_playmaker": true,
@@ -1393,7 +1675,7 @@
       {
         "id": "Unai Simón Mendibil",
         "short": "Mendibil",
-        "x": 106.55,
+        "x": 13.45,
         "y": 40.79,
         "size": 73.1,
         "is_playmaker": false,
@@ -1403,7 +1685,7 @@
       {
         "id": "Jorge Resurrección Merodio",
         "short": "Merodio",
-        "x": 51.78,
+        "x": 68.22,
         "y": 56.76,
         "size": 75.6,
         "is_playmaker": false,
@@ -1413,7 +1695,7 @@
       {
         "id": "Ferrán Torres García",
         "short": "García",
-        "x": 44.15,
+        "x": 75.85,
         "y": 58.13,
         "size": 60.2,
         "is_playmaker": false,
@@ -1421,24 +1703,24 @@
         "eigenvector": 0.0167
       },
       {
-        "id": "Álvaro Borja Morata Martín",
-        "short": "Martín",
-        "x": 49.79,
-        "y": 46.17,
-        "size": 56.7,
-        "is_playmaker": false,
-        "betweenness": 0.2778,
-        "eigenvector": 0.0053
-      },
-      {
         "id": "Pablo Sarabia García",
         "short": "García",
-        "x": 40.17,
+        "x": 79.83,
         "y": 19.43,
         "size": 56.7,
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0088
+      },
+      {
+        "id": "Álvaro Borja Morata Martín",
+        "short": "Martín",
+        "x": 70.21,
+        "y": 46.17,
+        "size": 56.7,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.0053
       }
     ],
     "edges": [
@@ -1452,19 +1734,19 @@
         "source": "Aymeric Laporte",
         "target": "César Azpilicueta Tanco",
         "weight": 27,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
         "target": "Sergio Busquets i Burgos",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymeric Laporte",
         "target": "Jorge Resurrección Merodio",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pau Francisco Torres",
@@ -1476,49 +1758,49 @@
         "source": "Pau Francisco Torres",
         "target": "Jordi Alba Ramos",
         "weight": 28,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pau Francisco Torres",
         "target": "Pedro González López",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pau Francisco Torres",
         "target": "Unai Simón Mendibil",
         "weight": 15,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pau Francisco Torres",
         "target": "Sergio Busquets i Burgos",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Pau Francisco Torres",
         "weight": 37,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Pedro González López",
         "weight": 23,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Pablo Sarabia García",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "César Azpilicueta Tanco",
         "target": "Aymeric Laporte",
         "weight": 20,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "César Azpilicueta Tanco",
@@ -1530,79 +1812,79 @@
         "source": "César Azpilicueta Tanco",
         "target": "Jorge Resurrección Merodio",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pedro González López",
         "target": "Jordi Alba Ramos",
         "weight": 19,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro González López",
         "target": "Pau Francisco Torres",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro González López",
         "target": "Sergio Busquets i Burgos",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro González López",
         "target": "Pablo Sarabia García",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Pedro González López",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Pau Francisco Torres",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Aymeric Laporte",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Álvaro Borja Morata Martín",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Unai Simón Mendibil",
         "target": "Aymeric Laporte",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Unai Simón Mendibil",
         "target": "Pau Francisco Torres",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jorge Resurrección Merodio",
         "target": "Aymeric Laporte",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jorge Resurrección Merodio",
         "target": "Ferrán Torres García",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jorge Resurrección Merodio",
@@ -1611,28 +1893,28 @@
         "direction": "lateral"
       },
       {
+        "source": "Pablo Sarabia García",
+        "target": "Pedro González López",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pablo Sarabia García",
+        "target": "Jordi Alba Ramos",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Álvaro Borja Morata Martín",
         "target": "Sergio Busquets i Burgos",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Álvaro Borja Morata Martín",
         "target": "Jorge Resurrección Merodio",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Pablo Sarabia García",
-        "target": "Pedro González López",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Pablo Sarabia García",
-        "target": "Jordi Alba Ramos",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },
@@ -1736,7 +2018,7 @@
     }
   },
   "insights": [
-    "Spain created 2.97 more xG — dominant territorial control",
+    "Spain created 2.19 more xG — dominant territorial control",
     "Spain dominated possession (68%) — Switzerland sat deep and defended"
   ]
 }

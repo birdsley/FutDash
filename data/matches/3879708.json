@@ -9,6 +9,11 @@
     "away_color": "#1e8449",
     "score_home": 1,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.558,
     "xg_away": 0.993,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Diego Falcinelli",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.5,
@@ -513,7 +520,9 @@
       "player_full": "Germán Gustavo Denis",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.8,
@@ -525,7 +534,9 @@
       "player_full": "Joseph Alfred Duncan",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.4,
@@ -537,7 +548,9 @@
       "player_full": "Francesco Magnanelli",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -549,7 +562,9 @@
       "player_full": "Domenico Berardi",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -561,7 +576,9 @@
       "player_full": "Germán Gustavo Denis",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.5,
@@ -573,7 +590,9 @@
       "player_full": "Germán Gustavo Denis",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.4,
@@ -585,7 +604,9 @@
       "player_full": "Germán Gustavo Denis",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.5,
@@ -597,7 +618,9 @@
       "player_full": "Davide Biondini",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.5,
@@ -609,7 +632,9 @@
       "player_full": "Joseph Alfred Duncan",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -621,7 +646,9 @@
       "player_full": "Domenico Berardi",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.3,
@@ -633,7 +660,9 @@
       "player_full": "Alessandro Longhi",
       "minute": 53,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.5,
@@ -645,7 +674,9 @@
       "player_full": "Alejandro Darío Gómez",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.7,
@@ -657,7 +688,9 @@
       "player_full": "Luca Cigarini",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 86.3,
@@ -669,7 +702,9 @@
       "player_full": "Francesco Magnanelli",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Francesco Acerbi",
         "short": "Acerbi",
-        "x": 78.04,
+        "x": 41.96,
         "y": 28.01,
         "size": 127.0,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Francesco Magnanelli",
         "short": "Magnanelli",
-        "x": 63.95,
+        "x": 56.05,
         "y": 42.88,
         "size": 143.0,
         "is_playmaker": true,
@@ -981,7 +1016,7 @@
       {
         "id": "Šime Vrsaljko",
         "short": "Vrsaljko",
-        "x": 55.91,
+        "x": 64.09,
         "y": 72.85,
         "size": 109.2,
         "is_playmaker": true,
@@ -991,7 +1026,7 @@
       {
         "id": "Luca Antei",
         "short": "Antei",
-        "x": 75.29,
+        "x": 44.71,
         "y": 50.26,
         "size": 105.7,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Andrea Consigli",
         "short": "Consigli",
-        "x": 106.87,
+        "x": 13.13,
         "y": 36.17,
         "size": 73.7,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Davide Biondini",
         "short": "Biondini",
-        "x": 51.62,
+        "x": 68.38,
         "y": 60.87,
         "size": 82.6,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Alessandro Longhi",
         "short": "Longhi",
-        "x": 65.39,
+        "x": 54.61,
         "y": 10.89,
         "size": 80.8,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Domenico Berardi",
         "short": "Berardi",
-        "x": 39.44,
+        "x": 80.56,
         "y": 29.03,
         "size": 70.1,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Joseph Alfred Duncan",
         "short": "Duncan",
-        "x": 53.18,
+        "x": 66.82,
         "y": 31.24,
         "size": 93.2,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Diego Falcinelli",
         "short": "Falcinelli",
-        "x": 38.28,
+        "x": 81.72,
         "y": 41.86,
         "size": 61.2,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Gregoire Defrel",
         "short": "Defrel",
-        "x": 50.19,
+        "x": 69.81,
         "y": 56.59,
         "size": 58.6,
         "is_playmaker": false,
@@ -1074,7 +1109,7 @@
         "source": "Francesco Acerbi",
         "target": "Francesco Magnanelli",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Acerbi",
@@ -1086,67 +1121,67 @@
         "source": "Francesco Acerbi",
         "target": "Šime Vrsaljko",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Acerbi",
         "target": "Andrea Consigli",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francesco Magnanelli",
         "target": "Luca Antei",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francesco Magnanelli",
         "target": "Davide Biondini",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Magnanelli",
         "target": "Joseph Alfred Duncan",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francesco Magnanelli",
         "target": "Francesco Acerbi",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francesco Magnanelli",
         "target": "Šime Vrsaljko",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Francesco Magnanelli",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Davide Biondini",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Luca Antei",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Šime Vrsaljko",
         "target": "Gregoire Defrel",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Luca Antei",
@@ -1158,25 +1193,25 @@
         "source": "Luca Antei",
         "target": "Šime Vrsaljko",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Andrea Consigli",
         "target": "Francesco Acerbi",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Davide Biondini",
         "target": "Šime Vrsaljko",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Davide Biondini",
         "target": "Francesco Magnanelli",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Davide Biondini",
@@ -1188,7 +1223,7 @@
         "source": "Alessandro Longhi",
         "target": "Domenico Berardi",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alessandro Longhi",
@@ -1200,31 +1235,31 @@
         "source": "Alessandro Longhi",
         "target": "Joseph Alfred Duncan",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joseph Alfred Duncan",
         "target": "Domenico Berardi",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joseph Alfred Duncan",
         "target": "Diego Falcinelli",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Joseph Alfred Duncan",
         "target": "Francesco Magnanelli",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joseph Alfred Duncan",
         "target": "Alessandro Longhi",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gregoire Defrel",
@@ -1236,7 +1271,7 @@
         "source": "Gregoire Defrel",
         "target": "Šime Vrsaljko",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

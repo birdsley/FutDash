@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.774,
     "xg_away": 0.199,
     "shots_home": 13,
@@ -501,7 +506,9 @@
       "player_full": "Ritsu Doan",
       "minute": 2,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.1,
@@ -513,7 +520,9 @@
       "player_full": "Gerson Torres Barrantes",
       "minute": 3,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -525,7 +534,9 @@
       "player_full": "Francisco Javier Calvo Quesada",
       "minute": 34,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.0,
@@ -537,7 +548,9 @@
       "player_full": "Joel Nathaniel Campbell Samuels",
       "minute": 34,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.1,
@@ -549,7 +562,9 @@
       "player_full": "Wataru Endo",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -561,7 +576,9 @@
       "player_full": "Hidemasa Morita",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.1,
@@ -573,7 +590,9 @@
       "player_full": "Takuma Asano",
       "minute": 45,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.2,
@@ -585,7 +604,9 @@
       "player_full": "Wataru Endo",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -597,7 +618,9 @@
       "player_full": "Takuma Asano",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -609,7 +632,9 @@
       "player_full": "Ko Itakura",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.1,
@@ -621,7 +646,9 @@
       "player_full": "Wataru Endo",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.4,
@@ -633,7 +660,9 @@
       "player_full": "Yuki Soma",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.1,
@@ -645,7 +674,9 @@
       "player_full": "Yuki Soma",
       "minute": 62,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.2,
@@ -657,7 +688,9 @@
       "player_full": "Daichi Kamada",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -669,7 +702,9 @@
       "player_full": "Yuki Soma",
       "minute": 71,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.6,
@@ -681,7 +716,9 @@
       "player_full": "Keysher Fuller Spence",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.0,
@@ -693,7 +730,9 @@
       "player_full": "Daichi Kamada",
       "minute": 87,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Francisco Javier Calvo Quesada",
         "short": "Quesada",
-        "x": 83.0,
+        "x": 37.0,
         "y": 12.05,
         "size": 142.2,
         "is_playmaker": false,
@@ -971,7 +1010,7 @@
       {
         "id": "Kendall Jamaal Waston Manley",
         "short": "Manley",
-        "x": 85.35,
+        "x": 34.65,
         "y": 31.57,
         "size": 97.7,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Joel Nathaniel Campbell Samuels",
         "short": "Samuels",
-        "x": 60.04,
+        "x": 59.96,
         "y": 17.55,
         "size": 100.3,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Óscar Esau Duarte Gaitán",
         "short": "Gaitán",
-        "x": 88.78,
+        "x": 31.22,
         "y": 57.04,
         "size": 94.3,
         "is_playmaker": false,
@@ -1001,7 +1040,7 @@
       {
         "id": "Keylor Navas Gamboa",
         "short": "Gamboa",
-        "x": 107.1,
+        "x": 12.9,
         "y": 41.16,
         "size": 78.1,
         "is_playmaker": false,
@@ -1011,7 +1050,7 @@
       {
         "id": "Yeltsin Ignacio Tejeda Valverde",
         "short": "Valverde",
-        "x": 66.64,
+        "x": 53.36,
         "y": 28.81,
         "size": 104.6,
         "is_playmaker": true,
@@ -1021,7 +1060,7 @@
       {
         "id": "Celso Borges Mora",
         "short": "Mora",
-        "x": 66.39,
+        "x": 53.61,
         "y": 55.53,
         "size": 101.2,
         "is_playmaker": true,
@@ -1031,7 +1070,7 @@
       {
         "id": "Gerson Torres Barrantes",
         "short": "Barrantes",
-        "x": 57.94,
+        "x": 62.06,
         "y": 55.89,
         "size": 72.9,
         "is_playmaker": false,
@@ -1041,7 +1080,7 @@
       {
         "id": "Bryan Oviedo",
         "short": "Oviedo",
-        "x": 63.82,
+        "x": 56.18,
         "y": 6.12,
         "size": 96.9,
         "is_playmaker": false,
@@ -1049,24 +1088,24 @@
         "eigenvector": 0.3655
       },
       {
-        "id": "Anthony Daniel Contreras Enríquez",
-        "short": "Enríquez",
-        "x": 49.94,
-        "y": 22.64,
-        "size": 58.4,
-        "is_playmaker": false,
-        "betweenness": 0.2722,
-        "eigenvector": 0.0244
-      },
-      {
         "id": "Keysher Fuller Spence",
         "short": "Spence",
-        "x": 64.77,
+        "x": 55.23,
         "y": 69.27,
         "size": 58.4,
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0089
+      },
+      {
+        "id": "Anthony Daniel Contreras Enríquez",
+        "short": "Enríquez",
+        "x": 70.06,
+        "y": 22.64,
+        "size": 58.4,
+        "is_playmaker": false,
+        "betweenness": 0.2722,
+        "eigenvector": 0.0244
       }
     ],
     "edges": [
@@ -1080,19 +1119,19 @@
         "source": "Francisco Javier Calvo Quesada",
         "target": "Joel Nathaniel Campbell Samuels",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francisco Javier Calvo Quesada",
         "target": "Bryan Oviedo",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Francisco Javier Calvo Quesada",
         "target": "Keylor Navas Gamboa",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kendall Jamaal Waston Manley",
@@ -1110,13 +1149,13 @@
         "source": "Joel Nathaniel Campbell Samuels",
         "target": "Francisco Javier Calvo Quesada",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joel Nathaniel Campbell Samuels",
         "target": "Yeltsin Ignacio Tejeda Valverde",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joel Nathaniel Campbell Samuels",
@@ -1128,13 +1167,13 @@
         "source": "Joel Nathaniel Campbell Samuels",
         "target": "Anthony Daniel Contreras Enríquez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Óscar Esau Duarte Gaitán",
         "target": "Celso Borges Mora",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Óscar Esau Duarte Gaitán",
@@ -1146,19 +1185,19 @@
         "source": "Óscar Esau Duarte Gaitán",
         "target": "Keylor Navas Gamboa",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Óscar Esau Duarte Gaitán",
         "target": "Yeltsin Ignacio Tejeda Valverde",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Keylor Navas Gamboa",
         "target": "Francisco Javier Calvo Quesada",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Yeltsin Ignacio Tejeda Valverde",
@@ -1176,19 +1215,19 @@
         "source": "Yeltsin Ignacio Tejeda Valverde",
         "target": "Francisco Javier Calvo Quesada",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Yeltsin Ignacio Tejeda Valverde",
         "target": "Anthony Daniel Contreras Enríquez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Celso Borges Mora",
         "target": "Gerson Torres Barrantes",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Celso Borges Mora",
@@ -1200,7 +1239,7 @@
         "source": "Celso Borges Mora",
         "target": "Óscar Esau Duarte Gaitán",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Celso Borges Mora",
@@ -1212,13 +1251,13 @@
         "source": "Gerson Torres Barrantes",
         "target": "Celso Borges Mora",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gerson Torres Barrantes",
         "target": "Keysher Fuller Spence",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Bryan Oviedo",
@@ -1236,19 +1275,7 @@
         "source": "Bryan Oviedo",
         "target": "Francisco Javier Calvo Quesada",
         "weight": 6,
-        "direction": "forward"
-      },
-      {
-        "source": "Anthony Daniel Contreras Enríquez",
-        "target": "Joel Nathaniel Campbell Samuels",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Anthony Daniel Contreras Enríquez",
-        "target": "Yeltsin Ignacio Tejeda Valverde",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Keysher Fuller Spence",
@@ -1259,6 +1286,18 @@
       {
         "source": "Keysher Fuller Spence",
         "target": "Gerson Torres Barrantes",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Anthony Daniel Contreras Enríquez",
+        "target": "Joel Nathaniel Campbell Samuels",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Anthony Daniel Contreras Enríquez",
+        "target": "Yeltsin Ignacio Tejeda Valverde",
         "weight": 1,
         "direction": "backward"
       }

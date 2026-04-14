@@ -9,6 +9,11 @@
     "away_color": "#ee2523",
     "score_home": 0,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.187,
     "xg_away": 0.382,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -513,7 +520,9 @@
       "player_full": "Raúl García Escudero",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.1,
@@ -525,7 +534,9 @@
       "player_full": "Beñat Etxebarria Urkiaga",
       "minute": 28,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -537,7 +548,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -549,7 +562,9 @@
       "player_full": "Aritz Aduriz Zubeldia",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.2,
@@ -561,7 +576,9 @@
       "player_full": "Mikel San José Domínguez",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.4,
@@ -573,7 +590,9 @@
       "player_full": "Willian José da Silva",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.6,
@@ -585,7 +604,9 @@
       "player_full": "Markel Susaeta Laskurain",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.7,
@@ -597,7 +618,9 @@
       "player_full": "Jonathan Viera Ramos",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 73.9,
@@ -609,7 +632,9 @@
       "player_full": "José Vicente Gómez Umpiérrez",
       "minute": 88,
       "technique": "Lob",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.2,
@@ -621,7 +646,9 @@
       "player_full": "Jonathan Viera Ramos",
       "minute": 89,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.2,
@@ -633,7 +660,9 @@
       "player_full": "Mikel San José Domínguez",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -645,7 +674,9 @@
       "player_full": "Ander Iturraspe Derteano",
       "minute": 92,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -913,7 +944,7 @@
       {
         "id": "Óscar de Marcos Arana",
         "short": "Arana",
-        "x": 51.21,
+        "x": 68.79,
         "y": 72.45,
         "size": 64.0,
         "is_playmaker": false,
@@ -923,7 +954,7 @@
       {
         "id": "Iñaki Williams Arthuer",
         "short": "Arthuer",
-        "x": 39.0,
+        "x": 81.0,
         "y": 64.18,
         "size": 64.0,
         "is_playmaker": false,
@@ -933,7 +964,7 @@
       {
         "id": "Gorka Elustondo Urkola",
         "short": "Urkola",
-        "x": 74.82,
+        "x": 45.18,
         "y": 25.62,
         "size": 101.8,
         "is_playmaker": false,
@@ -943,7 +974,7 @@
       {
         "id": "Gorka Iraizoz Moreno",
         "short": "Moreno",
-        "x": 105.04,
+        "x": 14.96,
         "y": 43.53,
         "size": 65.8,
         "is_playmaker": false,
@@ -953,7 +984,7 @@
       {
         "id": "Beñat Etxebarria Urkiaga",
         "short": "Urkiaga",
-        "x": 58.54,
+        "x": 61.46,
         "y": 33.07,
         "size": 139.7,
         "is_playmaker": false,
@@ -963,7 +994,7 @@
       {
         "id": "Mikel San José Domínguez",
         "short": "Domínguez",
-        "x": 61.05,
+        "x": 58.95,
         "y": 41.01,
         "size": 101.8,
         "is_playmaker": false,
@@ -973,7 +1004,7 @@
       {
         "id": "Mikel Balenziaga Oruesagasti",
         "short": "Oruesagasti",
-        "x": 57.85,
+        "x": 62.15,
         "y": 8.46,
         "size": 101.8,
         "is_playmaker": false,
@@ -983,7 +1014,7 @@
       {
         "id": "Iker Muniain Goñi",
         "short": "Goñi",
-        "x": 49.63,
+        "x": 70.37,
         "y": 25.75,
         "size": 132.5,
         "is_playmaker": true,
@@ -993,7 +1024,7 @@
       {
         "id": "Raúl García Escudero",
         "short": "Escudero",
-        "x": 55.36,
+        "x": 64.64,
         "y": 42.17,
         "size": 76.6,
         "is_playmaker": false,
@@ -1003,7 +1034,7 @@
       {
         "id": "Eneko Bóveda Altube",
         "short": "Altube",
-        "x": 58.69,
+        "x": 61.31,
         "y": 63.07,
         "size": 94.6,
         "is_playmaker": false,
@@ -1013,7 +1044,7 @@
       {
         "id": "Aritz Aduriz Zubeldia",
         "short": "Zubeldia",
-        "x": 40.83,
+        "x": 79.17,
         "y": 36.48,
         "size": 62.2,
         "is_playmaker": true,
@@ -1026,31 +1057,31 @@
         "source": "Óscar de Marcos Arana",
         "target": "Iñaki Williams Arthuer",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gorka Elustondo Urkola",
         "target": "Gorka Iraizoz Moreno",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gorka Elustondo Urkola",
         "target": "Mikel Balenziaga Oruesagasti",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gorka Elustondo Urkola",
         "target": "Beñat Etxebarria Urkiaga",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gorka Elustondo Urkola",
         "target": "Iker Muniain Goñi",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Beñat Etxebarria Urkiaga",
@@ -1074,7 +1105,7 @@
         "source": "Beñat Etxebarria Urkiaga",
         "target": "Iker Muniain Goñi",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Beñat Etxebarria Urkiaga",
@@ -1086,13 +1117,13 @@
         "source": "Mikel San José Domínguez",
         "target": "Iker Muniain Goñi",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mikel Balenziaga Oruesagasti",
         "target": "Iker Muniain Goñi",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Mikel Balenziaga Oruesagasti",
@@ -1104,37 +1135,37 @@
         "source": "Iker Muniain Goñi",
         "target": "Eneko Bóveda Altube",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Iker Muniain Goñi",
         "target": "Beñat Etxebarria Urkiaga",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Iker Muniain Goñi",
         "target": "Aritz Aduriz Zubeldia",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Raúl García Escudero",
         "target": "Mikel San José Domínguez",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Raúl García Escudero",
         "target": "Aritz Aduriz Zubeldia",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Eneko Bóveda Altube",
         "target": "Gorka Elustondo Urkola",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Eneko Bóveda Altube",
@@ -1146,13 +1177,13 @@
         "source": "Aritz Aduriz Zubeldia",
         "target": "Iker Muniain Goñi",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aritz Aduriz Zubeldia",
         "target": "Raúl García Escudero",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

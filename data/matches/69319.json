@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 2,
     "score_away": 2,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.814,
     "xg_away": 0.579,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 5,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.6,
@@ -513,7 +520,9 @@
       "player_full": "Sergio Busquets i Burgos",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.6,
@@ -525,7 +534,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.0,
@@ -537,7 +548,9 @@
       "player_full": "Xavier Hernández Creus",
       "minute": 19,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.9,
@@ -549,7 +562,9 @@
       "player_full": "Seydou Kéita",
       "minute": 24,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.4,
@@ -561,7 +576,9 @@
       "player_full": "Adriano Correia Claro",
       "minute": 31,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.5,
@@ -573,7 +590,9 @@
       "player_full": "Jonathan Pereira Rodríguez",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -585,7 +604,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 36,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.9,
@@ -597,7 +618,9 @@
       "player_full": "Seydou Kéita",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.3,
@@ -609,7 +632,9 @@
       "player_full": "Rubén Castro Martín",
       "minute": 48,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -621,7 +646,9 @@
       "player_full": "Jonathan Pereira Rodríguez",
       "minute": 50,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.3,
@@ -633,7 +660,9 @@
       "player_full": "Seydou Kéita",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -645,7 +674,9 @@
       "player_full": "Rubén Castro Martín",
       "minute": 70,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.4,
@@ -657,7 +688,9 @@
       "player_full": "Rubén Castro Martín",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.9,
@@ -669,7 +702,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.4,
@@ -681,7 +716,9 @@
       "player_full": "Seydou Kéita",
       "minute": 91,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 57.89,
+        "x": 62.11,
         "y": 43.25,
         "size": 122.7,
         "is_playmaker": true,
@@ -959,7 +996,7 @@
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 53.46,
+        "x": 66.54,
         "y": 44.52,
         "size": 154.2,
         "is_playmaker": true,
@@ -969,7 +1006,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 45.83,
+        "x": 74.17,
         "y": 46.61,
         "size": 103.1,
         "is_playmaker": false,
@@ -979,7 +1016,7 @@
       {
         "id": "Seydou Kéita",
         "short": "Kéita",
-        "x": 57.35,
+        "x": 62.65,
         "y": 37.73,
         "size": 103.1,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
-        "x": 41.26,
+        "x": 78.74,
         "y": 60.6,
         "size": 77.6,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
-        "x": 55.46,
+        "x": 64.54,
         "y": 69.26,
         "size": 91.1,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Adriano Correia Claro",
         "short": "Claro",
-        "x": 64.2,
+        "x": 55.8,
         "y": 11.84,
         "size": 85.8,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 75.47,
+        "x": 44.53,
         "y": 30.3,
         "size": 77.6,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
-        "x": 76.32,
+        "x": 43.68,
         "y": 52.29,
         "size": 70.0,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Ibrahim Afellay",
         "short": "Afellay",
-        "x": 46.4,
+        "x": 73.6,
         "y": 24.76,
         "size": 61.8,
         "is_playmaker": false,
@@ -1049,7 +1086,7 @@
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
-        "x": 108.11,
+        "x": 11.89,
         "y": 40.93,
         "size": 58.0,
         "is_playmaker": false,
@@ -1062,7 +1099,7 @@
         "source": "Sergio Busquets i Burgos",
         "target": "Xavier Hernández Creus",
         "weight": 22,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
@@ -1074,31 +1111,31 @@
         "source": "Sergio Busquets i Burgos",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Gerard Piqué Bernabéu",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Sergio Busquets i Burgos",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
@@ -1116,25 +1153,25 @@
         "source": "Xavier Hernández Creus",
         "target": "Ibrahim Afellay",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Xavier Hernández Creus",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Seydou Kéita",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Sergio Busquets i Burgos",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Seydou Kéita",
@@ -1146,19 +1183,19 @@
         "source": "Seydou Kéita",
         "target": "Adriano Correia Claro",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Daniel Alves da Silva",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel Alves da Silva",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Alves da Silva",
@@ -1170,61 +1207,61 @@
         "source": "Daniel Alves da Silva",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Adriano Correia Claro",
         "target": "Javier Alejandro Mascherano",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Adriano Correia Claro",
         "target": "Sergio Busquets i Burgos",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Adriano Correia Claro",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Sergio Busquets i Burgos",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Seydou Kéita",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Víctor Valdés Arribas",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Valdés Arribas",
         "target": "Javier Alejandro Mascherano",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

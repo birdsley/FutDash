@@ -9,6 +9,11 @@
     "away_color": "#23a3ff",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.555,
     "xg_away": 1.039,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Arnaud Kalimuendo Muinga",
       "minute": 6,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.7,
@@ -513,7 +520,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 18,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.8,
@@ -525,7 +534,9 @@
       "player_full": "Vitor Machado Ferreira",
       "minute": 22,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -537,7 +548,9 @@
       "player_full": "Arnaud Kalimuendo Muinga",
       "minute": 27,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -549,7 +562,9 @@
       "player_full": "Hamari Traoré",
       "minute": 32,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.5,
@@ -561,7 +576,9 @@
       "player_full": "Amine Gouiri",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.5,
@@ -573,7 +590,9 @@
       "player_full": "Vitor Machado Ferreira",
       "minute": 40,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -585,7 +604,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 41,
       "technique": "Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.7,
@@ -597,7 +618,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -609,7 +632,9 @@
       "player_full": "Lovro Majer",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.5,
@@ -621,7 +646,9 @@
       "player_full": "Lovro Majer",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -633,7 +660,9 @@
       "player_full": "Hamari Traoré",
       "minute": 64,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -645,7 +674,9 @@
       "player_full": "Kylian Mbappé Lottin",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.2,
@@ -657,7 +688,9 @@
       "player_full": "Juan Bernat Velasco",
       "minute": 80,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.1,
@@ -669,7 +702,9 @@
       "player_full": "Fabián Ruiz Peña",
       "minute": 84,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -681,7 +716,9 @@
       "player_full": "Lorenz Assignon",
       "minute": 96,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -973,7 +1010,7 @@
       {
         "id": "Marcos Aoás Corrêa",
         "short": "Corrêa",
-        "x": 69.18,
+        "x": 50.82,
         "y": 39.37,
         "size": 143.7,
         "is_playmaker": true,
@@ -983,7 +1020,7 @@
       {
         "id": "Danilo Luís Hélio Pereira",
         "short": "Pereira",
-        "x": 70.6,
+        "x": 49.4,
         "y": 18.72,
         "size": 119.2,
         "is_playmaker": false,
@@ -993,7 +1030,7 @@
       {
         "id": "Sergio Ramos García",
         "short": "García",
-        "x": 71.6,
+        "x": 48.4,
         "y": 58.48,
         "size": 108.9,
         "is_playmaker": false,
@@ -1003,7 +1040,7 @@
       {
         "id": "Neymar da Silva Santos Junior",
         "short": "Junior",
-        "x": 54.77,
+        "x": 65.23,
         "y": 27.03,
         "size": 93.9,
         "is_playmaker": false,
@@ -1013,7 +1050,7 @@
       {
         "id": "Vitor Machado Ferreira",
         "short": "Ferreira",
-        "x": 62.66,
+        "x": 57.34,
         "y": 33.69,
         "size": 115.8,
         "is_playmaker": false,
@@ -1023,7 +1060,7 @@
       {
         "id": "Warren Zaire Emery",
         "short": "Emery",
-        "x": 59.89,
+        "x": 60.11,
         "y": 49.99,
         "size": 88.4,
         "is_playmaker": true,
@@ -1033,7 +1070,7 @@
       {
         "id": "Nordi Mukiele Mulere",
         "short": "Mulere",
-        "x": 47.38,
+        "x": 72.62,
         "y": 74.31,
         "size": 68.7,
         "is_playmaker": false,
@@ -1043,7 +1080,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 50.65,
+        "x": 69.35,
         "y": 47.67,
         "size": 91.2,
         "is_playmaker": false,
@@ -1053,7 +1090,7 @@
       {
         "id": "Juan Bernat Velasco",
         "short": "Velasco",
-        "x": 44.71,
+        "x": 75.29,
         "y": 8.93,
         "size": 59.8,
         "is_playmaker": false,
@@ -1063,7 +1100,7 @@
       {
         "id": "Gianluigi Donnarumma",
         "short": "Donnarumma",
-        "x": 106.42,
+        "x": 13.58,
         "y": 40.01,
         "size": 57.7,
         "is_playmaker": false,
@@ -1073,7 +1110,7 @@
       {
         "id": "Hugo Ekitike",
         "short": "Ekitike",
-        "x": 53.28,
+        "x": 66.72,
         "y": 43.82,
         "size": 57.7,
         "is_playmaker": false,
@@ -1098,37 +1135,37 @@
         "source": "Marcos Aoás Corrêa",
         "target": "Vitor Machado Ferreira",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcos Aoás Corrêa",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcos Aoás Corrêa",
         "target": "Neymar da Silva Santos Junior",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marcos Aoás Corrêa",
         "target": "Gianluigi Donnarumma",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Danilo Luís Hélio Pereira",
         "target": "Neymar da Silva Santos Junior",
         "weight": 20,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danilo Luís Hélio Pereira",
         "target": "Vitor Machado Ferreira",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Danilo Luís Hélio Pereira",
@@ -1140,7 +1177,7 @@
         "source": "Danilo Luís Hélio Pereira",
         "target": "Warren Zaire Emery",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Ramos García",
@@ -1152,37 +1189,37 @@
         "source": "Sergio Ramos García",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Ramos García",
         "target": "Nordi Mukiele Mulere",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Ramos García",
         "target": "Warren Zaire Emery",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Ramos García",
         "target": "Gianluigi Donnarumma",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Neymar da Silva Santos Junior",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Neymar da Silva Santos Junior",
         "target": "Danilo Luís Hélio Pereira",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vitor Machado Ferreira",
@@ -1194,25 +1231,25 @@
         "source": "Vitor Machado Ferreira",
         "target": "Marcos Aoás Corrêa",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vitor Machado Ferreira",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Vitor Machado Ferreira",
         "target": "Neymar da Silva Santos Junior",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Warren Zaire Emery",
         "target": "Marcos Aoás Corrêa",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Warren Zaire Emery",
@@ -1224,19 +1261,19 @@
         "source": "Warren Zaire Emery",
         "target": "Hugo Ekitike",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nordi Mukiele Mulere",
         "target": "Sergio Ramos García",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Vitor Machado Ferreira",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
@@ -1248,19 +1285,19 @@
         "source": "Juan Bernat Velasco",
         "target": "Danilo Luís Hélio Pereira",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Gianluigi Donnarumma",
         "target": "Marcos Aoás Corrêa",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gianluigi Donnarumma",
         "target": "Sergio Ramos García",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hugo Ekitike",
@@ -1272,7 +1309,7 @@
         "source": "Hugo Ekitike",
         "target": "Warren Zaire Emery",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

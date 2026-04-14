@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 2,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.304,
     "xg_away": 0.937,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Adryan Oliveira Tavares",
       "minute": 4,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.1,
@@ -513,7 +520,9 @@
       "player_full": "Alejandro Bedoya",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.9,
@@ -525,7 +534,9 @@
       "player_full": "Lorik Agim Cana",
       "minute": 8,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.7,
@@ -537,7 +548,9 @@
       "player_full": "Adryan Oliveira Tavares",
       "minute": 9,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.2,
@@ -549,7 +562,9 @@
       "player_full": "Guillaume Gillet",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.4,
@@ -561,7 +576,9 @@
       "player_full": "Benjamin Jeannot",
       "minute": 15,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.8,
@@ -573,7 +590,9 @@
       "player_full": "Youssouf Sabaly",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.2,
@@ -585,7 +604,9 @@
       "player_full": "Lindsay Rose",
       "minute": 21,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.6,
@@ -597,7 +618,9 @@
       "player_full": "Emiliano Sala",
       "minute": 38,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.8,
@@ -609,7 +632,9 @@
       "player_full": "Benjamin Moukandjo Bilé",
       "minute": 41,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.9,
@@ -621,7 +646,9 @@
       "player_full": "Adrien Thomasson",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.9,
@@ -633,7 +660,9 @@
       "player_full": "Alejandro Bedoya",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.1,
@@ -645,7 +674,9 @@
       "player_full": "Benjamin Moukandjo Bilé",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.5,
@@ -657,7 +688,9 @@
       "player_full": "Rémi Gomis",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -901,7 +934,7 @@
       {
         "id": "Lamine Gassama",
         "short": "Gassama",
-        "x": 65.09,
+        "x": 54.91,
         "y": 71.09,
         "size": 114.2,
         "is_playmaker": false,
@@ -911,7 +944,7 @@
       {
         "id": "Jimmy Cabot",
         "short": "Cabot",
-        "x": 54.16,
+        "x": 65.84,
         "y": 58.77,
         "size": 84.1,
         "is_playmaker": false,
@@ -921,7 +954,7 @@
       {
         "id": "Raphaël Adelino José Guerreiro",
         "short": "Guerreiro",
-        "x": 53.15,
+        "x": 66.85,
         "y": 12.48,
         "size": 96.7,
         "is_playmaker": false,
@@ -931,7 +964,7 @@
       {
         "id": "Vincent Le Goff",
         "short": "Goff",
-        "x": 58.92,
+        "x": 61.08,
         "y": 8.27,
         "size": 116.2,
         "is_playmaker": false,
@@ -941,7 +974,7 @@
       {
         "id": "Walid Mesloub",
         "short": "Mesloub",
-        "x": 60.05,
+        "x": 59.95,
         "y": 37.29,
         "size": 110.3,
         "is_playmaker": false,
@@ -951,7 +984,7 @@
       {
         "id": "Lindsay Rose",
         "short": "Rose",
-        "x": 81.7,
+        "x": 38.3,
         "y": 51.58,
         "size": 90.0,
         "is_playmaker": false,
@@ -961,7 +994,7 @@
       {
         "id": "Zargo Touré",
         "short": "Touré",
-        "x": 75.39,
+        "x": 44.61,
         "y": 24.47,
         "size": 119.1,
         "is_playmaker": true,
@@ -971,7 +1004,7 @@
       {
         "id": "Didier Ndong Ibrahim",
         "short": "Ibrahim",
-        "x": 54.89,
+        "x": 65.11,
         "y": 36.56,
         "size": 90.9,
         "is_playmaker": false,
@@ -981,7 +1014,7 @@
       {
         "id": "Benjamin Jeannot",
         "short": "Jeannot",
-        "x": 45.63,
+        "x": 74.37,
         "y": 37.76,
         "size": 62.8,
         "is_playmaker": false,
@@ -991,7 +1024,7 @@
       {
         "id": "Benjamin Moukandjo Bilé",
         "short": "Bilé",
-        "x": 46.21,
+        "x": 73.79,
         "y": 33.88,
         "size": 61.8,
         "is_playmaker": false,
@@ -1001,7 +1034,7 @@
       {
         "id": "Benjamin Lecomte",
         "short": "Lecomte",
-        "x": 104.52,
+        "x": 15.48,
         "y": 37.45,
         "size": 58.9,
         "is_playmaker": true,
@@ -1014,25 +1047,25 @@
         "source": "Lamine Gassama",
         "target": "Jimmy Cabot",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lamine Gassama",
         "target": "Lindsay Rose",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lamine Gassama",
         "target": "Benjamin Jeannot",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jimmy Cabot",
         "target": "Lamine Gassama",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jimmy Cabot",
@@ -1044,7 +1077,7 @@
         "source": "Raphaël Adelino José Guerreiro",
         "target": "Vincent Le Goff",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vincent Le Goff",
@@ -1056,19 +1089,19 @@
         "source": "Vincent Le Goff",
         "target": "Didier Ndong Ibrahim",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Vincent Le Goff",
         "target": "Zargo Touré",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vincent Le Goff",
         "target": "Raphaël Adelino José Guerreiro",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Walid Mesloub",
@@ -1080,79 +1113,79 @@
         "source": "Walid Mesloub",
         "target": "Raphaël Adelino José Guerreiro",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Walid Mesloub",
         "target": "Lamine Gassama",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Walid Mesloub",
         "target": "Benjamin Moukandjo Bilé",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Walid Mesloub",
         "target": "Zargo Touré",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lindsay Rose",
         "target": "Zargo Touré",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lindsay Rose",
         "target": "Lamine Gassama",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lindsay Rose",
         "target": "Benjamin Lecomte",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Zargo Touré",
         "target": "Walid Mesloub",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Zargo Touré",
         "target": "Lindsay Rose",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Zargo Touré",
         "target": "Vincent Le Goff",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Zargo Touré",
         "target": "Raphaël Adelino José Guerreiro",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Zargo Touré",
         "target": "Benjamin Lecomte",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Didier Ndong Ibrahim",
         "target": "Zargo Touré",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Didier Ndong Ibrahim",
@@ -1164,19 +1197,19 @@
         "source": "Didier Ndong Ibrahim",
         "target": "Lamine Gassama",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Benjamin Lecomte",
         "target": "Lindsay Rose",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Benjamin Lecomte",
         "target": "Zargo Touré",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

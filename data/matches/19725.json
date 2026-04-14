@@ -9,6 +9,11 @@
     "away_color": "#00a398",
     "score_home": 0,
     "score_away": 1,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.569,
     "xg_away": 0.404,
     "shots_home": 8,
@@ -501,7 +506,9 @@
       "player_full": "Jessica Anne Clarke",
       "minute": 3,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.0,
@@ -513,7 +520,9 @@
       "player_full": "Niamh Charles",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -525,7 +534,9 @@
       "player_full": "Kayleigh Green",
       "minute": 16,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -537,7 +548,9 @@
       "player_full": "Jessica Anne Clarke",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.0,
@@ -549,7 +562,9 @@
       "player_full": "Danielle Buet",
       "minute": 27,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.0,
@@ -561,7 +576,9 @@
       "player_full": "Christie Murray",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.0,
@@ -573,7 +590,9 @@
       "player_full": "Niamh Charles",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 85.0,
@@ -585,7 +604,9 @@
       "player_full": "Kirsty Barton",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 78.0,
@@ -597,7 +618,9 @@
       "player_full": "Christie Murray",
       "minute": 55,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.0,
@@ -609,7 +632,9 @@
       "player_full": "Kayleigh Green",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.0,
@@ -621,7 +646,9 @@
       "player_full": "Jodie Brett",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.0,
@@ -633,7 +660,9 @@
       "player_full": "Aileen Whelan",
       "minute": 66,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 104.0,
@@ -645,7 +674,9 @@
       "player_full": "Courtney Sweetman-Kirk",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.0,
@@ -657,7 +688,9 @@
       "player_full": "Rinsola Babajide",
       "minute": 84,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -669,7 +702,9 @@
       "player_full": "Kayleigh Green",
       "minute": 86,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.0,
@@ -681,7 +716,9 @@
       "player_full": "Danielle Buet",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -949,7 +986,7 @@
       {
         "id": "Leigh-Anne Robe",
         "short": "Robe",
-        "x": 71.79,
+        "x": 48.21,
         "y": 14.08,
         "size": 83.8,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "Niamh Charles",
         "short": "Charles",
-        "x": 61.12,
+        "x": 58.88,
         "y": 21.12,
         "size": 90.2,
         "is_playmaker": false,
@@ -969,7 +1006,7 @@
       {
         "id": "Satara Murray",
         "short": "Murray",
-        "x": 64.74,
+        "x": 55.26,
         "y": 72.11,
         "size": 115.8,
         "is_playmaker": true,
@@ -979,7 +1016,7 @@
       {
         "id": "Jessica Anne Clarke",
         "short": "Clarke",
-        "x": 49.92,
+        "x": 70.08,
         "y": 53.42,
         "size": 95.0,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Amy Rodgers",
         "short": "Rodgers",
-        "x": 68.3,
+        "x": 51.7,
         "y": 38.74,
         "size": 82.2,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Sophie Elizabeth Bradley-Auckland",
         "short": "Bradley-Auc",
-        "x": 84.76,
+        "x": 35.24,
         "y": 57.38,
         "size": 109.4,
         "is_playmaker": false,
@@ -1009,7 +1046,7 @@
       {
         "id": "Anke Preuß",
         "short": "Preuß",
-        "x": 110.52,
+        "x": 9.48,
         "y": 41.13,
         "size": 88.6,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "Christie Murray",
         "short": "Murray",
-        "x": 53.59,
+        "x": 66.41,
         "y": 49.77,
         "size": 114.2,
         "is_playmaker": false,
@@ -1029,7 +1066,7 @@
       {
         "id": "Jasmine Matthews",
         "short": "Matthews",
-        "x": 89.5,
+        "x": 30.5,
         "y": 27.0,
         "size": 75.8,
         "is_playmaker": false,
@@ -1039,7 +1076,7 @@
       {
         "id": "Laura Coombs",
         "short": "Coombs",
-        "x": 56.1,
+        "x": 63.9,
         "y": 32.57,
         "size": 88.6,
         "is_playmaker": true,
@@ -1049,7 +1086,7 @@
       {
         "id": "Kirsty Linnett",
         "short": "Linnett",
-        "x": 52.57,
+        "x": 67.43,
         "y": 47.29,
         "size": 61.4,
         "is_playmaker": false,
@@ -1062,7 +1099,7 @@
         "source": "Leigh-Anne Robe",
         "target": "Niamh Charles",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Leigh-Anne Robe",
@@ -1074,37 +1111,37 @@
         "source": "Niamh Charles",
         "target": "Laura Coombs",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Niamh Charles",
         "target": "Christie Murray",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Satara Murray",
         "target": "Jessica Anne Clarke",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Satara Murray",
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Satara Murray",
         "target": "Christie Murray",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Satara Murray",
         "target": "Laura Coombs",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jessica Anne Clarke",
@@ -1116,7 +1153,7 @@
         "source": "Jessica Anne Clarke",
         "target": "Satara Murray",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jessica Anne Clarke",
@@ -1128,49 +1165,49 @@
         "source": "Amy Rodgers",
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Amy Rodgers",
         "target": "Laura Coombs",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Amy Rodgers",
         "target": "Niamh Charles",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sophie Elizabeth Bradley-Auckland",
         "target": "Anke Preuß",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sophie Elizabeth Bradley-Auckland",
         "target": "Jasmine Matthews",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Anke Preuß",
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Anke Preuß",
         "target": "Christie Murray",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Christie Murray",
         "target": "Satara Murray",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christie Murray",
@@ -1188,25 +1225,25 @@
         "source": "Jasmine Matthews",
         "target": "Anke Preuß",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jasmine Matthews",
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Laura Coombs",
         "target": "Leigh-Anne Robe",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Laura Coombs",
         "target": "Jessica Anne Clarke",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kirsty Linnett",

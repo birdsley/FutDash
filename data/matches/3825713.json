@@ -9,6 +9,11 @@
     "away_color": "#ff7200",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.349,
     "xg_away": 0.533,
     "shots_home": 9,
@@ -501,7 +506,9 @@
       "player_full": "Jonathan dos Santos Ramírez",
       "minute": 2,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.3,
@@ -513,7 +520,9 @@
       "player_full": "Roberto Soldado Rillo",
       "minute": 3,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 91.4,
@@ -525,7 +534,9 @@
       "player_full": "Bruno Soriano Llido",
       "minute": 20,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.7,
@@ -537,7 +548,9 @@
       "player_full": "Bruno Soriano Llido",
       "minute": 21,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.6,
@@ -549,7 +562,9 @@
       "player_full": "Jonathan dos Santos Ramírez",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.0,
@@ -561,7 +576,9 @@
       "player_full": "Denis Suárez Fernández",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.1,
@@ -573,7 +590,9 @@
       "player_full": "André Filipe Tavares Gomes",
       "minute": 51,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.4,
@@ -585,7 +604,9 @@
       "player_full": "André Filipe Tavares Gomes",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.9,
@@ -597,7 +618,9 @@
       "player_full": "Daniel Parejo Muñoz",
       "minute": 57,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.3,
@@ -609,7 +632,9 @@
       "player_full": "Francisco Alcácer García",
       "minute": 59,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.3,
@@ -621,7 +646,9 @@
       "player_full": "Aderllan Leandro de Jesus Santos",
       "minute": 60,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.7,
@@ -633,7 +660,9 @@
       "player_full": "Bruno Soriano Llido",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 105.8,
@@ -645,7 +674,9 @@
       "player_full": "Francisco Alcácer García",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.2,
@@ -657,7 +688,9 @@
       "player_full": "Denis Suárez Fernández",
       "minute": 78,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 101.7,
@@ -669,7 +702,9 @@
       "player_full": "Denis Suárez Fernández",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Rúben Miguel Nunes Vezo",
         "short": "Vezo",
-        "x": 70.96,
+        "x": 49.04,
         "y": 66.84,
         "size": 106.7,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Aderllan Leandro de Jesus Santos",
         "short": "Santos",
-        "x": 83.27,
+        "x": 36.73,
         "y": 44.83,
         "size": 105.6,
         "is_playmaker": false,
@@ -981,7 +1016,7 @@
       {
         "id": "Jaume Doménech Sánchez",
         "short": "Sánchez",
-        "x": 108.49,
+        "x": 11.51,
         "y": 42.45,
         "size": 71.9,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Álvaro Negredo Sánchez",
         "short": "Sánchez",
-        "x": 44.21,
+        "x": 75.79,
         "y": 47.36,
         "size": 79.7,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "João Pedro Cavaco Cancelo",
         "short": "Cancelo",
-        "x": 56.95,
+        "x": 63.05,
         "y": 10.58,
         "size": 97.7,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "André Filipe Tavares Gomes",
         "short": "Gomes",
-        "x": 61.0,
+        "x": 59.0,
         "y": 34.26,
         "size": 92.1,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Daniel Parejo Muñoz",
         "short": "Muñoz",
-        "x": 58.22,
+        "x": 61.78,
         "y": 42.16,
         "size": 121.3,
         "is_playmaker": true,
@@ -1031,7 +1066,7 @@
       {
         "id": "Aymen Abdennour",
         "short": "Abdennour",
-        "x": 73.36,
+        "x": 46.64,
         "y": 17.41,
         "size": 95.4,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Antonio Barragán Fernández",
         "short": "Fernández",
-        "x": 57.65,
+        "x": 62.35,
         "y": 74.73,
         "size": 103.3,
         "is_playmaker": true,
@@ -1051,7 +1086,7 @@
       {
         "id": "Danilo Barbosa da Silva",
         "short": "Silva",
-        "x": 48.27,
+        "x": 71.73,
         "y": 43.16,
         "size": 70.7,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Francisco Alcácer García",
         "short": "García",
-        "x": 52.2,
+        "x": 67.8,
         "y": 44.41,
         "size": 60.6,
         "is_playmaker": false,
@@ -1074,67 +1109,67 @@
         "source": "Rúben Miguel Nunes Vezo",
         "target": "Aderllan Leandro de Jesus Santos",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Rúben Miguel Nunes Vezo",
         "target": "Antonio Barragán Fernández",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aderllan Leandro de Jesus Santos",
         "target": "Aymen Abdennour",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aderllan Leandro de Jesus Santos",
         "target": "Rúben Miguel Nunes Vezo",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aderllan Leandro de Jesus Santos",
         "target": "Daniel Parejo Muñoz",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaume Doménech Sánchez",
         "target": "Álvaro Negredo Sánchez",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jaume Doménech Sánchez",
         "target": "Rúben Miguel Nunes Vezo",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Álvaro Negredo Sánchez",
         "target": "Daniel Parejo Muñoz",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "João Pedro Cavaco Cancelo",
         "target": "André Filipe Tavares Gomes",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "João Pedro Cavaco Cancelo",
         "target": "Aymen Abdennour",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "André Filipe Tavares Gomes",
         "target": "João Pedro Cavaco Cancelo",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "André Filipe Tavares Gomes",
@@ -1164,55 +1199,55 @@
         "source": "Daniel Parejo Muñoz",
         "target": "Rúben Miguel Nunes Vezo",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel Parejo Muñoz",
         "target": "Danilo Barbosa da Silva",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "João Pedro Cavaco Cancelo",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Aderllan Leandro de Jesus Santos",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Aymen Abdennour",
         "target": "Daniel Parejo Muñoz",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Barragán Fernández",
         "target": "Danilo Barbosa da Silva",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Barragán Fernández",
         "target": "Álvaro Negredo Sánchez",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Antonio Barragán Fernández",
         "target": "Rúben Miguel Nunes Vezo",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Francisco Alcácer García",
         "target": "Daniel Parejo Muñoz",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

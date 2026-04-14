@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.481,
     "xg_away": 0.36,
     "shots_home": 10,
@@ -501,7 +506,9 @@
       "player_full": "Edgar Prib",
       "minute": 0,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.8,
@@ -513,7 +520,9 @@
       "player_full": "Marco Russ",
       "minute": 4,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.9,
@@ -525,7 +534,9 @@
       "player_full": "Kenan Karaman",
       "minute": 7,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.9,
@@ -537,7 +548,9 @@
       "player_full": "Stefan Reinartz",
       "minute": 8,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.0,
@@ -549,7 +562,9 @@
       "player_full": "Änis Ben-Hatira",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.9,
@@ -561,7 +576,9 @@
       "player_full": "Haris Seferović",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.5,
@@ -573,7 +590,9 @@
       "player_full": "Stefan Aigner",
       "minute": 49,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.4,
@@ -585,7 +604,9 @@
       "player_full": "Hiroshi Kiyotake",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.8,
@@ -597,7 +618,9 @@
       "player_full": "Marco Russ",
       "minute": 61,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.7,
@@ -609,7 +632,9 @@
       "player_full": "Hugo Miguel Pereira de Almeida",
       "minute": 63,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 118.4,
@@ -621,7 +646,9 @@
       "player_full": "Änis Ben-Hatira",
       "minute": 65,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.3,
@@ -633,7 +660,9 @@
       "player_full": "Marc Stendera",
       "minute": 67,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.4,
@@ -645,7 +674,9 @@
       "player_full": "Änis Ben-Hatira",
       "minute": 70,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.4,
@@ -657,7 +688,9 @@
       "player_full": "Hugo Miguel Pereira de Almeida",
       "minute": 72,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.0,
@@ -669,7 +702,9 @@
       "player_full": "Edgar Prib",
       "minute": 78,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 92.6,
@@ -681,7 +716,9 @@
       "player_full": "Tohouri Zahoui Constant Djakpa",
       "minute": 83,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.4,
@@ -693,7 +730,9 @@
       "player_full": "Allan Saint-Maximin",
       "minute": 90,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +1000,7 @@
       {
         "id": "Hotaru Yamaguchi",
         "short": "Yamaguchi",
-        "x": 70.24,
+        "x": 49.76,
         "y": 44.87,
         "size": 80.6,
         "is_playmaker": false,
@@ -971,7 +1010,7 @@
       {
         "id": "Hiroshi Kiyotake",
         "short": "Kiyotake",
-        "x": 53.87,
+        "x": 66.13,
         "y": 53.09,
         "size": 104.6,
         "is_playmaker": false,
@@ -981,7 +1020,7 @@
       {
         "id": "Hugo Miguel Pereira de Almeida",
         "short": "Almeida",
-        "x": 46.44,
+        "x": 73.56,
         "y": 37.61,
         "size": 101.4,
         "is_playmaker": false,
@@ -991,7 +1030,7 @@
       {
         "id": "Ceyhun Gülselam",
         "short": "Gülselam",
-        "x": 58.9,
+        "x": 61.1,
         "y": 49.66,
         "size": 151.0,
         "is_playmaker": true,
@@ -1001,7 +1040,7 @@
       {
         "id": "Hiroki Sakai",
         "short": "Sakai",
-        "x": 72.66,
+        "x": 47.34,
         "y": 67.32,
         "size": 99.8,
         "is_playmaker": true,
@@ -1011,7 +1050,7 @@
       {
         "id": "Ron-Robert Zieler",
         "short": "Zieler",
-        "x": 104.93,
+        "x": 15.07,
         "y": 44.47,
         "size": 74.2,
         "is_playmaker": false,
@@ -1021,7 +1060,7 @@
       {
         "id": "Kenan Karaman",
         "short": "Karaman",
-        "x": 55.87,
+        "x": 64.13,
         "y": 58.93,
         "size": 77.4,
         "is_playmaker": false,
@@ -1031,7 +1070,7 @@
       {
         "id": "Oliver Sorg",
         "short": "Sorg",
-        "x": 80.92,
+        "x": 39.08,
         "y": 9.73,
         "size": 88.6,
         "is_playmaker": false,
@@ -1041,7 +1080,7 @@
       {
         "id": "Edgar Prib",
         "short": "Prib",
-        "x": 51.15,
+        "x": 68.85,
         "y": 15.23,
         "size": 101.4,
         "is_playmaker": false,
@@ -1051,7 +1090,7 @@
       {
         "id": "Alexander Milosevic",
         "short": "Milosevic",
-        "x": 83.2,
+        "x": 36.8,
         "y": 52.0,
         "size": 64.6,
         "is_playmaker": false,
@@ -1061,7 +1100,7 @@
       {
         "id": "Christian Schulz",
         "short": "Schulz",
-        "x": 90.84,
+        "x": 29.16,
         "y": 35.75,
         "size": 61.4,
         "is_playmaker": false,
@@ -1074,43 +1113,43 @@
         "source": "Hotaru Yamaguchi",
         "target": "Hiroshi Kiyotake",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hotaru Yamaguchi",
         "target": "Hugo Miguel Pereira de Almeida",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hotaru Yamaguchi",
         "target": "Ceyhun Gülselam",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hiroshi Kiyotake",
         "target": "Ceyhun Gülselam",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hiroshi Kiyotake",
         "target": "Hiroki Sakai",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hugo Miguel Pereira de Almeida",
         "target": "Edgar Prib",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hugo Miguel Pereira de Almeida",
         "target": "Ceyhun Gülselam",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Ceyhun Gülselam",
@@ -1122,49 +1161,49 @@
         "source": "Ceyhun Gülselam",
         "target": "Hiroshi Kiyotake",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ceyhun Gülselam",
         "target": "Hugo Miguel Pereira de Almeida",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ceyhun Gülselam",
         "target": "Edgar Prib",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hiroki Sakai",
         "target": "Ron-Robert Zieler",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Hiroki Sakai",
         "target": "Hiroshi Kiyotake",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Hiroki Sakai",
         "target": "Ceyhun Gülselam",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ron-Robert Zieler",
         "target": "Hiroki Sakai",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Ron-Robert Zieler",
         "target": "Christian Schulz",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kenan Karaman",
@@ -1176,19 +1215,19 @@
         "source": "Oliver Sorg",
         "target": "Hugo Miguel Pereira de Almeida",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oliver Sorg",
         "target": "Edgar Prib",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Oliver Sorg",
         "target": "Ceyhun Gülselam",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Edgar Prib",
@@ -1200,37 +1239,37 @@
         "source": "Edgar Prib",
         "target": "Hugo Miguel Pereira de Almeida",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Edgar Prib",
         "target": "Ceyhun Gülselam",
         "weight": 4,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexander Milosevic",
         "target": "Hiroki Sakai",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexander Milosevic",
         "target": "Christian Schulz",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Schulz",
         "target": "Ron-Robert Zieler",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Schulz",
         "target": "Alexander Milosevic",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

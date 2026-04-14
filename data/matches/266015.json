@@ -9,6 +9,11 @@
     "away_color": "#a50044",
     "score_home": 1,
     "score_away": 3,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.001,
     "xg_away": 1.721,
     "shots_home": 4,
@@ -501,7 +506,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 96.8,
@@ -513,7 +520,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 10,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.0,
@@ -525,7 +534,9 @@
       "player_full": "Xavier Hernández Creus",
       "minute": 26,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.9,
@@ -537,7 +548,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 33,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 100.4,
@@ -549,7 +562,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 35,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.3,
@@ -561,7 +576,9 @@
       "player_full": "Xavier Hernández Creus",
       "minute": 42,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.5,
@@ -573,7 +590,9 @@
       "player_full": "Pedro Eliezer Rodríguez Ledesma",
       "minute": 47,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -585,7 +604,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.3,
@@ -597,7 +618,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 58,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.2,
@@ -609,7 +632,9 @@
       "player_full": "Lionel Andrés Messi Cuccittini",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.0,
@@ -621,7 +646,9 @@
       "player_full": "Javier Guerra Rodríguez",
       "minute": 78,
       "technique": "Overhead Kick",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 84.1,
@@ -633,7 +660,9 @@
       "player_full": "Víctor Pérez Alonso",
       "minute": 80,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.2,
@@ -645,7 +674,9 @@
       "player_full": "Javier Guerra Rodríguez",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 117.7,
@@ -657,7 +688,9 @@
       "player_full": "Javier Guerra Rodríguez",
       "minute": 88,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -669,7 +702,9 @@
       "player_full": "Cristian Tello Herrera",
       "minute": 93,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "Thiago Alcântara do Nascimento",
         "short": "Nascimento",
-        "x": 54.43,
+        "x": 65.57,
         "y": 37.87,
         "size": 91.1,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Xavier Hernández Creus",
         "short": "Creus",
-        "x": 54.06,
+        "x": 65.94,
         "y": 42.06,
         "size": 160.9,
         "is_playmaker": true,
@@ -981,7 +1016,7 @@
       {
         "id": "Lionel Andrés Messi Cuccittini",
         "short": "Cuccittini",
-        "x": 40.08,
+        "x": 79.92,
         "y": 52.43,
         "size": 97.8,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Daniel Alves da Silva",
         "short": "Silva",
-        "x": 54.79,
+        "x": 65.21,
         "y": 72.45,
         "size": 111.3,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
         "short": "Ledesma",
-        "x": 49.12,
+        "x": 70.88,
         "y": 54.68,
         "size": 79.8,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Sergio Busquets i Burgos",
         "short": "Burgos",
-        "x": 64.02,
+        "x": 55.98,
         "y": 38.07,
         "size": 97.8,
         "is_playmaker": false,
@@ -1021,7 +1056,7 @@
       {
         "id": "Jordi Alba Ramos",
         "short": "Ramos",
-        "x": 61.73,
+        "x": 58.27,
         "y": 11.52,
         "size": 92.2,
         "is_playmaker": true,
@@ -1031,7 +1066,7 @@
       {
         "id": "Gerard Piqué Bernabéu",
         "short": "Bernabéu",
-        "x": 76.66,
+        "x": 43.34,
         "y": 57.51,
         "size": 82.0,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
-        "x": 78.8,
+        "x": 41.2,
         "y": 30.84,
         "size": 77.5,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Víctor Valdés Arribas",
         "short": "Arribas",
-        "x": 107.13,
+        "x": 12.87,
         "y": 39.37,
         "size": 57.3,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Alexis Alejandro Sánchez Sánchez",
         "short": "Sánchez",
-        "x": 45.7,
+        "x": 74.3,
         "y": 20.2,
         "size": 57.3,
         "is_playmaker": false,
@@ -1080,25 +1115,25 @@
         "source": "Thiago Alcântara do Nascimento",
         "target": "Sergio Busquets i Burgos",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Thiago Alcântara do Nascimento",
         "target": "Alexis Alejandro Sánchez Sánchez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Sergio Busquets i Burgos",
         "weight": 16,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xavier Hernández Creus",
@@ -1110,43 +1145,43 @@
         "source": "Xavier Hernández Creus",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Jordi Alba Ramos",
         "weight": 12,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Xavier Hernández Creus",
         "target": "Gerard Piqué Bernabéu",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Xavier Hernández Creus",
         "weight": 24,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
         "target": "Daniel Alves da Silva",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Daniel Alves da Silva",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 19,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Alves da Silva",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Daniel Alves da Silva",
@@ -1158,37 +1193,37 @@
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Daniel Alves da Silva",
         "weight": 14,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Xavier Hernández Creus",
         "weight": 15,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Sergio Busquets i Burgos",
         "target": "Gerard Piqué Bernabéu",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Xavier Hernández Creus",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 13,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jordi Alba Ramos",
@@ -1200,7 +1235,7 @@
         "source": "Jordi Alba Ramos",
         "target": "Alexis Alejandro Sánchez Sánchez",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
@@ -1212,55 +1247,55 @@
         "source": "Gerard Piqué Bernabéu",
         "target": "Daniel Alves da Silva",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Jordi Alba Ramos",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Xavier Hernández Creus",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Víctor Valdés Arribas",
         "target": "Javier Alejandro Mascherano",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Víctor Valdés Arribas",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alexis Alejandro Sánchez Sánchez",
         "target": "Jordi Alba Ramos",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alexis Alejandro Sánchez Sánchez",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

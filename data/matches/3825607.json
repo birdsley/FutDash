@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.669,
     "xg_away": 0.605,
     "shots_home": 5,
@@ -501,7 +506,9 @@
       "player_full": "Manuel Trigueros Muñoz",
       "minute": 8,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 107.6,
@@ -513,7 +520,9 @@
       "player_full": "Leonardo Carrilho Baptistão",
       "minute": 13,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.8,
@@ -525,7 +534,9 @@
       "player_full": "Jackson Arley Martínez Valencia",
       "minute": 14,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.7,
@@ -537,7 +548,9 @@
       "player_full": "Roberto Soldado Rillo",
       "minute": 17,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 93.9,
@@ -549,7 +562,9 @@
       "player_full": "Saúl Ñíguez Esclapez",
       "minute": 23,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.9,
@@ -561,7 +576,9 @@
       "player_full": "Samuel Castillejo Azuaga",
       "minute": 36,
       "technique": "Diving Header",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -573,7 +590,9 @@
       "player_full": "Jackson Arley Martínez Valencia",
       "minute": 37,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 113.0,
@@ -585,7 +604,9 @@
       "player_full": "Óliver Torres Muñoz",
       "minute": 44,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.8,
@@ -597,7 +618,9 @@
       "player_full": "Antoine Griezmann",
       "minute": 45,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.7,
@@ -609,7 +632,9 @@
       "player_full": "Fernando José Torres Sanz",
       "minute": 47,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 89.9,
@@ -621,7 +646,9 @@
       "player_full": "Manuel Trigueros Muñoz",
       "minute": 48,
       "technique": "Half Volley",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.0,
@@ -633,7 +660,9 @@
       "player_full": "Óliver Torres Muñoz",
       "minute": 59,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 111.9,
@@ -645,7 +674,9 @@
       "player_full": "Ángel Martín Correa",
       "minute": 82,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.3,
@@ -657,7 +688,9 @@
       "player_full": "Luciano Vietto",
       "minute": 83,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.7,
@@ -669,7 +702,9 @@
       "player_full": "Ángel Martín Correa",
       "minute": 88,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -961,7 +996,7 @@
       {
         "id": "José María Giménez de Vargas",
         "short": "Vargas",
-        "x": 74.94,
+        "x": 45.06,
         "y": 55.28,
         "size": 102.8,
         "is_playmaker": false,
@@ -971,7 +1006,7 @@
       {
         "id": "Jesús Gámez Duarte",
         "short": "Duarte",
-        "x": 58.35,
+        "x": 61.65,
         "y": 69.41,
         "size": 115.2,
         "is_playmaker": true,
@@ -981,7 +1016,7 @@
       {
         "id": "Diego Roberto Godín Leal",
         "short": "Leal",
-        "x": 76.82,
+        "x": 43.18,
         "y": 21.22,
         "size": 86.0,
         "is_playmaker": false,
@@ -991,7 +1026,7 @@
       {
         "id": "Filipe Luís Kasmirski",
         "short": "Kasmirski",
-        "x": 55.47,
+        "x": 64.53,
         "y": 11.69,
         "size": 138.2,
         "is_playmaker": false,
@@ -1001,7 +1036,7 @@
       {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
-        "x": 45.2,
+        "x": 74.8,
         "y": 22.6,
         "size": 103.7,
         "is_playmaker": false,
@@ -1011,7 +1046,7 @@
       {
         "id": "Saúl Ñíguez Esclapez",
         "short": "Esclapez",
-        "x": 46.78,
+        "x": 73.22,
         "y": 32.56,
         "size": 106.3,
         "is_playmaker": true,
@@ -1021,7 +1056,7 @@
       {
         "id": "Tiago Cardoso Mendes",
         "short": "Mendes",
-        "x": 59.59,
+        "x": 60.41,
         "y": 36.59,
         "size": 103.7,
         "is_playmaker": false,
@@ -1031,7 +1066,7 @@
       {
         "id": "Óliver Torres Muñoz",
         "short": "Muñoz",
-        "x": 58.27,
+        "x": 61.73,
         "y": 49.11,
         "size": 62.1,
         "is_playmaker": false,
@@ -1041,7 +1076,7 @@
       {
         "id": "Gabriel Fernández Arenas",
         "short": "Arenas",
-        "x": 63.7,
+        "x": 56.3,
         "y": 51.26,
         "size": 67.4,
         "is_playmaker": false,
@@ -1051,7 +1086,7 @@
       {
         "id": "Jackson Arley Martínez Valencia",
         "short": "Valencia",
-        "x": 49.72,
+        "x": 70.28,
         "y": 56.86,
         "size": 61.2,
         "is_playmaker": false,
@@ -1061,7 +1096,7 @@
       {
         "id": "Jan Oblak",
         "short": "Oblak",
-        "x": 106.75,
+        "x": 13.25,
         "y": 42.85,
         "size": 58.5,
         "is_playmaker": false,
@@ -1074,13 +1109,13 @@
         "source": "José María Giménez de Vargas",
         "target": "Jesús Gámez Duarte",
         "weight": 17,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José María Giménez de Vargas",
         "target": "Saúl Ñíguez Esclapez",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José María Giménez de Vargas",
@@ -1092,19 +1127,19 @@
         "source": "José María Giménez de Vargas",
         "target": "Tiago Cardoso Mendes",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "José María Giménez de Vargas",
         "target": "Jan Oblak",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jesús Gámez Duarte",
         "target": "José María Giménez de Vargas",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jesús Gámez Duarte",
@@ -1116,13 +1151,13 @@
         "source": "Jesús Gámez Duarte",
         "target": "Gabriel Fernández Arenas",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jesús Gámez Duarte",
         "target": "Jackson Arley Martínez Valencia",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jesús Gámez Duarte",
@@ -1134,43 +1169,43 @@
         "source": "Diego Roberto Godín Leal",
         "target": "Filipe Luís Kasmirski",
         "weight": 16,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Diego Roberto Godín Leal",
         "target": "Jan Oblak",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Filipe Luís Kasmirski",
         "target": "Antoine Griezmann",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Filipe Luís Kasmirski",
         "target": "Saúl Ñíguez Esclapez",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Filipe Luís Kasmirski",
         "target": "Tiago Cardoso Mendes",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Filipe Luís Kasmirski",
         "target": "Diego Roberto Godín Leal",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antoine Griezmann",
         "target": "Filipe Luís Kasmirski",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Antoine Griezmann",
@@ -1182,7 +1217,7 @@
         "source": "Saúl Ñíguez Esclapez",
         "target": "Filipe Luís Kasmirski",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Saúl Ñíguez Esclapez",
@@ -1194,49 +1229,49 @@
         "source": "Saúl Ñíguez Esclapez",
         "target": "Jesús Gámez Duarte",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tiago Cardoso Mendes",
         "target": "Antoine Griezmann",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tiago Cardoso Mendes",
         "target": "Filipe Luís Kasmirski",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Tiago Cardoso Mendes",
         "target": "José María Giménez de Vargas",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tiago Cardoso Mendes",
         "target": "Saúl Ñíguez Esclapez",
         "weight": 6,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gabriel Fernández Arenas",
         "target": "Jesús Gámez Duarte",
         "weight": 7,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jan Oblak",
         "target": "José María Giménez de Vargas",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jan Oblak",
         "target": "Diego Roberto Godín Leal",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

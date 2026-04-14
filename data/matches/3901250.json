@@ -9,6 +9,11 @@
     "away_color": "#c9d1d9",
     "score_home": 2,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 1.353,
     "xg_away": 0.203,
     "shots_home": 12,
@@ -501,7 +506,9 @@
       "player_full": "Nolan Roux",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 109.4,
@@ -513,7 +520,9 @@
       "player_full": "Kévin Théophile-Catherine",
       "minute": 30,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -525,7 +534,9 @@
       "player_full": "Hatem Ben Arfa",
       "minute": 32,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.5,
@@ -537,7 +548,9 @@
       "player_full": "Alassane Pléa",
       "minute": 39,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.3,
@@ -549,7 +562,9 @@
       "player_full": "Jean Michaël Seri",
       "minute": 46,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 97.1,
@@ -561,7 +576,9 @@
       "player_full": "Hatem Ben Arfa",
       "minute": 56,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.0,
@@ -573,7 +590,9 @@
       "player_full": "Jérémy Pied",
       "minute": 62,
       "technique": "Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.9,
@@ -585,7 +604,9 @@
       "player_full": "Jean Michaël Seri",
       "minute": 63,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 94.3,
@@ -597,7 +618,9 @@
       "player_full": "Jean Michaël Seri",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.4,
@@ -609,7 +632,9 @@
       "player_full": "Valère Germain",
       "minute": 71,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 102.5,
@@ -621,7 +646,9 @@
       "player_full": "Valère Germain",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.5,
@@ -633,7 +660,9 @@
       "player_full": "Mahamane El-Hadj Traoré",
       "minute": 77,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.9,
@@ -645,7 +674,9 @@
       "player_full": "Valère Germain",
       "minute": 85,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.4,
@@ -657,7 +688,9 @@
       "player_full": "Valère Germain",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -753,16 +786,6 @@
         "eigenvector": 0.1332
       },
       {
-        "id": "Maxime Le Marchand",
-        "short": "Marchand",
-        "x": 48.32,
-        "y": 29.71,
-        "size": 60.2,
-        "is_playmaker": false,
-        "betweenness": 0.3556,
-        "eigenvector": 0.0237
-      },
-      {
         "id": "Yoan Cardinale",
         "short": "Cardinale",
         "x": 13.62,
@@ -771,6 +794,16 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0125
+      },
+      {
+        "id": "Maxime Le Marchand",
+        "short": "Marchand",
+        "x": 48.32,
+        "y": 29.71,
+        "size": 60.2,
+        "is_playmaker": false,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0237
       }
     ],
     "edges": [
@@ -788,15 +821,15 @@
       },
       {
         "source": "Paul Baysse",
-        "target": "Maxime Le Marchand",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Paul Baysse",
         "target": "Yoan Cardinale",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Paul Baysse",
+        "target": "Maxime Le Marchand",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Ricardo Domingos Barbosa Pereira",
@@ -937,24 +970,6 @@
         "direction": "backward"
       },
       {
-        "source": "Maxime Le Marchand",
-        "target": "Paul Baysse",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Maxime Le Marchand",
-        "target": "Nampalys Mendy",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Maxime Le Marchand",
-        "target": "Yoan Cardinale",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Yoan Cardinale",
         "target": "Paul Baysse",
         "weight": 1,
@@ -965,6 +980,24 @@
         "target": "Maxime Le Marchand",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Maxime Le Marchand",
+        "target": "Yoan Cardinale",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Maxime Le Marchand",
+        "target": "Paul Baysse",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Maxime Le Marchand",
+        "target": "Nampalys Mendy",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -973,7 +1006,7 @@
       {
         "id": "Fabien Lemoine",
         "short": "Lemoine",
-        "x": 75.39,
+        "x": 44.61,
         "y": 59.31,
         "size": 78.9,
         "is_playmaker": false,
@@ -983,7 +1016,7 @@
       {
         "id": "Jérémy Clément",
         "short": "Clément",
-        "x": 69.85,
+        "x": 50.15,
         "y": 41.54,
         "size": 110.0,
         "is_playmaker": true,
@@ -993,7 +1026,7 @@
       {
         "id": "Kévin Malcuit",
         "short": "Malcuit",
-        "x": 53.18,
+        "x": 66.82,
         "y": 75.48,
         "size": 99.0,
         "is_playmaker": false,
@@ -1003,7 +1036,7 @@
       {
         "id": "Benoît Assou-Ekotto",
         "short": "Assou-Ekott",
-        "x": 78.69,
+        "x": 41.31,
         "y": 17.08,
         "size": 111.9,
         "is_playmaker": true,
@@ -1013,7 +1046,7 @@
       {
         "id": "Franck Tabanou",
         "short": "Tabanou",
-        "x": 58.67,
+        "x": 61.33,
         "y": 5.65,
         "size": 95.4,
         "is_playmaker": false,
@@ -1023,7 +1056,7 @@
       {
         "id": "Vincent Pajot",
         "short": "Pajot",
-        "x": 57.16,
+        "x": 62.84,
         "y": 32.5,
         "size": 64.2,
         "is_playmaker": false,
@@ -1033,7 +1066,7 @@
       {
         "id": "Florentin Pogba",
         "short": "Pogba",
-        "x": 81.27,
+        "x": 38.73,
         "y": 37.09,
         "size": 113.7,
         "is_playmaker": false,
@@ -1043,7 +1076,7 @@
       {
         "id": "Nolan Roux",
         "short": "Roux",
-        "x": 62.07,
+        "x": 57.93,
         "y": 44.96,
         "size": 80.7,
         "is_playmaker": false,
@@ -1053,7 +1086,7 @@
       {
         "id": "Kévin Théophile-Catherine",
         "short": "Théophile-C",
-        "x": 71.48,
+        "x": 48.52,
         "y": 62.22,
         "size": 115.6,
         "is_playmaker": false,
@@ -1063,7 +1096,7 @@
       {
         "id": "Valentin Eysseric",
         "short": "Eysseric",
-        "x": 56.14,
+        "x": 63.86,
         "y": 51.86,
         "size": 73.3,
         "is_playmaker": false,
@@ -1073,7 +1106,7 @@
       {
         "id": "Stéphane Ruffier",
         "short": "Ruffier",
-        "x": 109.92,
+        "x": 10.07,
         "y": 36.47,
         "size": 62.3,
         "is_playmaker": false,
@@ -1086,25 +1119,25 @@
         "source": "Fabien Lemoine",
         "target": "Jérémy Clément",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Fabien Lemoine",
         "target": "Nolan Roux",
         "weight": 4,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérémy Clément",
         "target": "Franck Tabanou",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérémy Clément",
         "target": "Florentin Pogba",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jérémy Clément",
@@ -1116,13 +1149,13 @@
         "source": "Kévin Malcuit",
         "target": "Fabien Lemoine",
         "weight": 5,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kévin Malcuit",
         "target": "Kévin Théophile-Catherine",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kévin Malcuit",
@@ -1134,7 +1167,7 @@
         "source": "Benoît Assou-Ekotto",
         "target": "Franck Tabanou",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Benoît Assou-Ekotto",
@@ -1146,13 +1179,13 @@
         "source": "Benoît Assou-Ekotto",
         "target": "Jérémy Clément",
         "weight": 5,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Benoît Assou-Ekotto",
         "target": "Stéphane Ruffier",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Franck Tabanou",
@@ -1176,37 +1209,37 @@
         "source": "Florentin Pogba",
         "target": "Stéphane Ruffier",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Kévin Théophile-Catherine",
         "target": "Kévin Malcuit",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Kévin Théophile-Catherine",
         "target": "Florentin Pogba",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Valentin Eysseric",
         "target": "Nolan Roux",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Stéphane Ruffier",
         "target": "Florentin Pogba",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Stéphane Ruffier",
         "target": "Benoît Assou-Ekotto",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

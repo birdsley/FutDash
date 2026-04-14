@@ -9,6 +9,11 @@
     "away_color": "#00a398",
     "score_home": 1,
     "score_away": 0,
+    "penalty_home": null,
+    "penalty_away": null,
+    "has_extra_time": false,
+    "has_penalties": false,
+    "max_minute": 92,
     "xg_home": 0.887,
     "xg_away": 1.116,
     "shots_home": 6,
@@ -501,7 +506,9 @@
       "player_full": "Martin Škrtel",
       "minute": 1,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 116.9,
@@ -513,7 +520,9 @@
       "player_full": "Christian Benteke Liolo",
       "minute": 20,
       "technique": "Half Volley",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 90.8,
@@ -525,7 +534,9 @@
       "player_full": "Nathaniel Edwin Clyne",
       "minute": 30,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.4,
@@ -537,7 +548,9 @@
       "player_full": "Chancel Mbemba Mangulu",
       "minute": 43,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 88.6,
@@ -549,7 +562,9 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 44,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 99.5,
@@ -561,7 +576,9 @@
       "player_full": "Jordon Ibe",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 1,
+      "is_penalty_shootout": false
     },
     {
       "x": 103.6,
@@ -573,7 +590,9 @@
       "player_full": "Roberto Firmino Barbosa de Oliveira",
       "minute": 45,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 114.5,
@@ -585,7 +604,9 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 50,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 98.2,
@@ -597,7 +618,9 @@
       "player_full": "Joe Allen",
       "minute": 52,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 95.7,
@@ -609,7 +632,9 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 54,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 112.6,
@@ -621,7 +646,9 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 68,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 87.5,
@@ -633,7 +660,9 @@
       "player_full": "Daniel Andre Sturridge",
       "minute": 73,
       "technique": "Normal",
-      "body_part": "Left Foot"
+      "body_part": "Left Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 110.1,
@@ -645,7 +674,9 @@
       "player_full": "Daniel Andre Sturridge",
       "minute": 74,
       "technique": "Normal",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 115.5,
@@ -657,7 +688,9 @@
       "player_full": "Dejan Lovren",
       "minute": 85,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 108.8,
@@ -669,7 +702,9 @@
       "player_full": "Dejan Lovren",
       "minute": 88,
       "technique": "Normal",
-      "body_part": "Head"
+      "body_part": "Head",
+      "period": 2,
+      "is_penalty_shootout": false
     },
     {
       "x": 106.6,
@@ -681,7 +716,9 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 92,
       "technique": "Lob",
-      "body_part": "Right Foot"
+      "body_part": "Right Foot",
+      "period": 2,
+      "is_penalty_shootout": false
     }
   ],
   "network_home": {
@@ -919,7 +956,7 @@
       {
         "id": "Martin Škrtel",
         "short": "Škrtel",
-        "x": 76.0,
+        "x": 44.0,
         "y": 50.09,
         "size": 119.7,
         "is_playmaker": false,
@@ -929,7 +966,7 @@
       {
         "id": "Lucas Pezzini Leiva",
         "short": "Leiva",
-        "x": 66.01,
+        "x": 53.99,
         "y": 42.39,
         "size": 133.4,
         "is_playmaker": true,
@@ -939,7 +976,7 @@
       {
         "id": "Joe Allen",
         "short": "Allen",
-        "x": 61.29,
+        "x": 58.71,
         "y": 30.4,
         "size": 83.4,
         "is_playmaker": false,
@@ -949,7 +986,7 @@
       {
         "id": "Alberto Moreno Pérez",
         "short": "Pérez",
-        "x": 66.68,
+        "x": 53.32,
         "y": 12.93,
         "size": 87.8,
         "is_playmaker": false,
@@ -959,7 +996,7 @@
       {
         "id": "Nathaniel Edwin Clyne",
         "short": "Clyne",
-        "x": 59.82,
+        "x": 60.18,
         "y": 70.69,
         "size": 109.3,
         "is_playmaker": false,
@@ -969,7 +1006,7 @@
       {
         "id": "James Philip Milner",
         "short": "Milner",
-        "x": 47.83,
+        "x": 72.17,
         "y": 42.44,
         "size": 83.4,
         "is_playmaker": false,
@@ -979,7 +1016,7 @@
       {
         "id": "Dejan Lovren",
         "short": "Lovren",
-        "x": 80.77,
+        "x": 39.23,
         "y": 26.64,
         "size": 101.6,
         "is_playmaker": false,
@@ -989,7 +1026,7 @@
       {
         "id": "Jordon Ibe",
         "short": "Ibe",
-        "x": 38.31,
+        "x": 81.69,
         "y": 52.5,
         "size": 76.6,
         "is_playmaker": false,
@@ -999,7 +1036,7 @@
       {
         "id": "Roberto Firmino Barbosa de Oliveira",
         "short": "Oliveira",
-        "x": 45.49,
+        "x": 74.51,
         "y": 44.48,
         "size": 89.5,
         "is_playmaker": true,
@@ -1009,7 +1046,7 @@
       {
         "id": "Simon Mignolet",
         "short": "Mignolet",
-        "x": 109.64,
+        "x": 10.36,
         "y": 41.08,
         "size": 61.9,
         "is_playmaker": false,
@@ -1019,7 +1056,7 @@
       {
         "id": "Christian Benteke Liolo",
         "short": "Liolo",
-        "x": 43.75,
+        "x": 76.25,
         "y": 32.6,
         "size": 58.4,
         "is_playmaker": false,
@@ -1032,151 +1069,151 @@
         "source": "Martin Škrtel",
         "target": "Lucas Pezzini Leiva",
         "weight": 14,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martin Škrtel",
         "target": "Nathaniel Edwin Clyne",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Martin Škrtel",
         "target": "Dejan Lovren",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Pezzini Leiva",
         "target": "James Philip Milner",
         "weight": 12,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lucas Pezzini Leiva",
         "target": "Martin Škrtel",
         "weight": 11,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lucas Pezzini Leiva",
         "target": "Nathaniel Edwin Clyne",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lucas Pezzini Leiva",
         "target": "Roberto Firmino Barbosa de Oliveira",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Lucas Pezzini Leiva",
         "target": "Dejan Lovren",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joe Allen",
         "target": "Alberto Moreno Pérez",
         "weight": 13,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Joe Allen",
         "target": "Lucas Pezzini Leiva",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alberto Moreno Pérez",
         "target": "Joe Allen",
         "weight": 10,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Alberto Moreno Pérez",
         "target": "Dejan Lovren",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Alberto Moreno Pérez",
         "target": "Martin Škrtel",
         "weight": 7,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nathaniel Edwin Clyne",
         "target": "Martin Škrtel",
         "weight": 9,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Nathaniel Edwin Clyne",
         "target": "Jordon Ibe",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nathaniel Edwin Clyne",
         "target": "James Philip Milner",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Nathaniel Edwin Clyne",
         "target": "Roberto Firmino Barbosa de Oliveira",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "James Philip Milner",
         "target": "Lucas Pezzini Leiva",
         "weight": 10,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "James Philip Milner",
         "target": "Christian Benteke Liolo",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dejan Lovren",
         "target": "Martin Škrtel",
         "weight": 11,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dejan Lovren",
         "target": "Lucas Pezzini Leiva",
         "weight": 9,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Dejan Lovren",
         "target": "Simon Mignolet",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jordon Ibe",
         "target": "Roberto Firmino Barbosa de Oliveira",
         "weight": 8,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roberto Firmino Barbosa de Oliveira",
         "target": "Jordon Ibe",
         "weight": 8,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Roberto Firmino Barbosa de Oliveira",
         "target": "Nathaniel Edwin Clyne",
         "weight": 6,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Roberto Firmino Barbosa de Oliveira",
@@ -1188,7 +1225,7 @@
         "source": "Christian Benteke Liolo",
         "target": "James Philip Milner",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Christian Benteke Liolo",
