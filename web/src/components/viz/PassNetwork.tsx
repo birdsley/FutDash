@@ -120,7 +120,7 @@ export function PassNetwork({ network, teamColor, teamName }: PassNetworkProps) 
       screenX: e.clientX,
       screenY: e.clientY,
       lines: [
-        node.id,
+        node.name || node.id,
         `Betweenness: ${typeof node.betweenness === 'number' ? node.betweenness.toFixed(3) : '—'}`,
         `Influence:   ${typeof node.eigenvector === 'number' ? node.eigenvector.toFixed(3) : '—'}`,
       ],

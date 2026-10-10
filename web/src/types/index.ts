@@ -59,8 +59,9 @@ export interface OwnGoal {
 }
 
 export interface NetworkNode {
-  id: string;
+  id: string;            // StatsBomb legal name; edges reference it
   short: string;
+  name?: string;         // common name for display (absent in older exports)
   x: number;
   y: number;
   size: number;

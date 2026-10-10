@@ -319,6 +319,38 @@ def load_lineups(base_path, match_id):
     return result
 
 
+def load_common_names(base_path, match_id):
+    """Map StatsBomb legal names to common names via lineup player_nickname,
+    e.g. 'Lionel Andrés Messi Cuccittini' -> 'Lionel Messi'."""
+    ln = os.path.join(base_path, "lineups", f"{match_id}.json") if base_path else ""
+    if not ln or not os.path.exists(ln): return {}
+    with open(ln, encoding="utf-8") as f: raw = json.load(f)
+    return {p["player_name"]: p["player_nickname"]
+            for tb in raw for p in tb.get("lineup", [])
+            if p.get("player_name") and p.get("player_nickname")}
+
+
+_SURNAME_PARTICLES = {"van", "de", "der", "den", "di", "da", "do", "dos", "das",
+                      "del", "della", "le", "la", "du", "von", "ter", "ten"}
+# Never a surname on their own: 'Vinícius Júnior', 'Martin Hongla Yma II'
+_NAME_SUFFIXES = {"jr", "jr.", "júnior", "junior", "filho", "neto", "ii", "iii"}
+
+
+def short_name(name, is_nickname=False):
+    """Display surname.
+    Nicknames are 'Given Surname', so drop the given name and keep multi-word
+    surnames whole: 'Ángel Di María' -> 'Di María', 'Pedri' -> 'Pedri'.
+    Legal names may carry middle names ('Megan Anna Rapinoe'), so take the
+    last word plus any lowercase particles: 'Danielle van de Donk' -> 'van de Donk'."""
+    parts = str(name or "").split()
+    if len(parts) <= 1: return parts[0] if parts else ""
+    if parts[-1].lower() in _NAME_SUFFIXES: return " ".join(parts[-2:])
+    if is_nickname: return " ".join(parts[1:])
+    i = len(parts) - 1
+    while i > 1 and parts[i-1] in _SURNAME_PARTICLES: i -= 1
+    return " ".join(parts[i:])
+
+
 def get_combined(all_events):
     if not all_events: raise RuntimeError("No events loaded.")
     df = pd.concat(list(all_events.values()), ignore_index=True)
@@ -1154,6 +1186,11 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
         try:    return int(v)
         except: return None
 
+    _common = load_common_names(getattr(me, '_base_path', None),
+                                int(me["match_id"].iloc[0]) if "match_id" in me.columns and len(me) else match_id)
+    def _full(n):  return _common.get(n, n) if n else ""
+    def _short(n): return short_name(_full(n), is_nickname=n in _common)
+
     # ── meta ──
     # StatsBomb periods: 1=1st half, 2=2nd half, 3=ET 1st, 4=ET 2nd, 5=Penalty shootout
     sh=sa=nsh=nsa=0; xgh=xga=None; ph=50.0
@@ -1196,14 +1233,14 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
         if "period" in og_ev.columns:
             og_ev = og_ev[og_ev["period"].fillna(1).astype(int) <= 4]
         for _,r in og_ev.iterrows():
-            full = str(r.get("player.name","")) if pd.notna(r.get("player.name")) else ""
+            legal = str(r.get("player.name","")) if pd.notna(r.get("player.name")) else ""
             benefits_home = r.get("team.name","") != home
             if benefits_home: sh += 1
             else:             sa += 1
             own_goals_out.append({
                 "team": "home" if benefits_home else "away",
-                "player": full.split()[-1] if full else "",
-                "player_full": full,
+                "player": _short(legal),
+                "player_full": _full(legal),
                 "minute": _si(r.get("minute")),
                 "period": _si(r.get("period")),
             })
@@ -1286,8 +1323,8 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
                 "xg":_sf(r.get("shot.statsbomb_xg",0.05),4),
                 "goal":bool(r.get("shot.outcome.name","")=="Goal"),
                 "team":"home" if r.get("team.name","")==home else "away",
-                "player":str(r.get("player.name","")).split()[-1],
-                "player_full":str(r.get("player.name","")),
+                "player":_short(str(r.get("player.name",""))),
+                "player_full":_full(str(r.get("player.name",""))),
                 "minute":_si(r.get("minute",0)),
                 "technique":str(r.get("shot.technique.name","")),
                 "shot_type":str(r.get("shot.type.name","")),
@@ -1408,7 +1445,8 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
         nodes = [
             {
                 "id":          n,
-                "short":       n.split()[-1][:11],
+                "short":       _short(n)[:11].rstrip(),
+                "name":        _full(n),
                 "x":           mx(avg_p[n][0]),
                 "y":           round(float(avg_p[n][1]), 2),
                 "size":        round(55 + 400 * G.degree(n, weight='weight') / tdeg, 1),
@@ -1455,7 +1493,7 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
             pv=td.groupby("player.name")["vaep"].agg(["sum","count"]).reset_index()
             pv.columns=["player","total","n"]; pv=pv[pv["n"]>=5].nlargest(5,"total")
             for _,row in pv.iterrows():
-                vaep_out[flag].append({"player":row["player"],"short":row["player"].split()[-1],
+                vaep_out[flag].append({"player":_full(row["player"]),"short":_short(row["player"]),
                                        "vaep":round(float(row["total"]),4),
                                        "role":roles_map.get(row["player"],"Contributor"),
                                        "n_actions":int(row["n"])})

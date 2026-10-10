@@ -119,7 +119,7 @@ export function TacticalView({
     const p = relPos(e)
     setTooltip({
       relX: p.x, relY: p.y,
-      title: node.id,
+      title: node.name || node.id,
       color: isAway ? awayColor : homeColor,
       lines: [
         `Team: ${isAway ? away : home}`,
