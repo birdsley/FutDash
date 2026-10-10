@@ -49,3 +49,23 @@ export function formatMinute(minute: number, period: number): string {
   const end = PERIOD_END[period]
   return end && clock > end ? `${end}+${clock - end}'` : `${clock}'`
 }
+
+export interface ScorerGroup {
+  name: string
+  isOwnGoal: boolean
+  goals: Pick<Scorer, 'minute' | 'period' | 'isPen'>[]
+}
+
+/**
+ * One entry per player (own goals kept apart from that player's real goals),
+ * ordered by each player's first goal: "Miedema 14', 31', 35'".
+ */
+export function groupScorers(scorers: Scorer[]): ScorerGroup[] {
+  const groups = new Map<string, ScorerGroup>()
+  for (const s of scorers) {
+    const key = `${s.name}|${s.isOwnGoal}`
+    if (!groups.has(key)) groups.set(key, { name: s.name, isOwnGoal: s.isOwnGoal, goals: [] })
+    groups.get(key)!.goals.push({ minute: s.minute, period: s.period, isPen: s.isPen })
+  }
+  return [...groups.values()]
+}

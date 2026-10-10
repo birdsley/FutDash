@@ -1,5 +1,12 @@
 import { useMatchStore } from '../store/matchStore'
-import { getScorers, formatMinute, type Scorer } from '../lib/scorers'
+import { getScorers, groupScorers, formatMinute, type Scorer } from '../lib/scorers'
+
+// Past this many goals for one side, list each player once with all their minutes
+const GROUP_THRESHOLD = 5
+
+const MINUTE = { fontFamily: "'DM Mono', monospace", fontSize: 11, color: 'var(--muted)' } as const
+const NAME = { fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 500, color: 'var(--text)' } as const
+const TAG = { fontFamily: "'DM Mono', monospace", fontSize: 10, color: 'var(--muted)', marginLeft: '0.35em' } as const
 
 const NAME_CELL = {
   fontFamily: "'Syne', sans-serif", fontSize: '1.1rem', fontWeight: 700,
@@ -9,7 +16,9 @@ const NAME_CELL = {
   textWrap: 'balance',
 } as const
 
-function ScorerList({ scorers, side, color }: { scorers: Scorer[]; side: 'home' | 'away'; color: string }) {
+function ScorerList({ scorers, side, color, grouped }: {
+  scorers: Scorer[]; side: 'home' | 'away'; color: string; grouped: boolean
+}) {
   if (scorers.length === 0) return <div className={`sb-scorers sb-scorers-${side}`} />
   const home = side === 'home'
   return (
@@ -26,18 +35,34 @@ function ScorerList({ scorers, side, color }: { scorers: Scorer[]; side: 'home' 
         [home ? 'paddingRight' : 'paddingLeft']: '0.75rem',
       }}
     >
-      {scorers.map((s, i) => (
-        <li key={i} style={{ display: 'flex', alignItems: 'baseline', gap: '0.45rem', whiteSpace: 'nowrap', lineHeight: 1.45 }}>
-          <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: 'var(--muted)', minWidth: '3ch', textAlign: 'right' }}>
-            {formatMinute(s.minute, s.period)}
-          </span>
-          <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 500, color: 'var(--text)' }}>
-            {s.name}
-            {s.isPen && <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: 'var(--muted)', marginLeft: '0.35em' }}>(pen)</span>}
-            {s.isOwnGoal && <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: 'var(--muted)', marginLeft: '0.35em' }}>(OG)</span>}
-          </span>
-        </li>
-      ))}
+      {grouped
+        ? groupScorers(scorers).map((g, i) => (
+          <li key={i} style={{ maxWidth: '22rem', lineHeight: 1.45, textAlign: home ? 'right' : 'left' }}>
+            <span style={NAME}>{g.name}</span>
+            {g.isOwnGoal && <span style={TAG}>(OG)</span>}
+            <span style={{ ...MINUTE, marginLeft: '0.45rem' }}>
+              {g.goals.map((m, j) => (
+                <span key={j} style={{ whiteSpace: 'nowrap' }}>
+                  {formatMinute(m.minute, m.period)}
+                  {m.isPen && <span style={TAG}>(pen)</span>}
+                  {j < g.goals.length - 1 && ', '}
+                </span>
+              ))}
+            </span>
+          </li>
+        ))
+        : scorers.map((s, i) => (
+          <li key={i} style={{ display: 'flex', alignItems: 'baseline', gap: '0.45rem', whiteSpace: 'nowrap', lineHeight: 1.45 }}>
+            <span style={{ ...MINUTE, minWidth: '3ch', textAlign: 'right' }}>
+              {formatMinute(s.minute, s.period)}
+            </span>
+            <span style={NAME}>
+              {s.name}
+              {s.isPen && <span style={TAG}>(pen)</span>}
+              {s.isOwnGoal && <span style={TAG}>(OG)</span>}
+            </span>
+          </li>
+        ))}
     </ul>
   )
 }
@@ -49,13 +74,15 @@ export default function ScoreBanner() {
   const ph = meta.possession_home ?? 50
   const homeScorers = getScorers(shots, 'home', own_goals)
   const awayScorers = getScorers(shots, 'away', own_goals)
+  // Both sides switch together so the two columns read the same way
+  const grouped = Math.max(homeScorers.length, awayScorers.length) > GROUP_THRESHOLD
 
   const hasPenalties = meta.has_penalties && 
     meta.penalty_home != null && 
     meta.penalty_away != null
 
   return (
-    <div style={{
+    <div className="sb-banner" style={{
       position: 'sticky', top: 0, zIndex: 50,
       background: 'var(--surface2)', borderBottom: '1px solid var(--border)',
       padding: '1rem 2rem',
@@ -70,15 +97,15 @@ export default function ScoreBanner() {
 
       {/* Team Names + Score */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: '1rem', alignItems: 'center', marginBottom: hasPenalties ? '0.25rem' : '0.75rem' }}>
-        <div style={{ ...NAME_CELL, color: meta.home_color, textAlign: 'right' }}>
+        <div className="sb-name" style={{ ...NAME_CELL, color: meta.home_color, textAlign: 'right' }}>
           {meta.home}
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontFamily: "'Syne', sans-serif", fontSize: '2.4rem', fontWeight: 800, color: '#fff' }}>
+        <div className="sb-score" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontFamily: "'Syne', sans-serif", fontSize: '2.4rem', fontWeight: 800, color: '#fff' }}>
           <span>{meta.score_home}</span>
           <span style={{ color: 'var(--muted)', fontSize: '1.8rem', fontWeight: 300 }}>–</span>
           <span>{meta.score_away}</span>
         </div>
-        <div style={{ ...NAME_CELL, color: meta.away_color, textAlign: 'left' }}>
+        <div className="sb-name" style={{ ...NAME_CELL, color: meta.away_color, textAlign: 'left' }}>
           {meta.away}
         </div>
       </div>
@@ -108,7 +135,7 @@ export default function ScoreBanner() {
         display: 'grid', gridTemplateColumns: '1fr auto 1fr', columnGap: '1.5rem',
         alignItems: 'start', marginBottom: '0.75rem',
       }}>
-      <ScorerList scorers={homeScorers} side="home" color={meta.home_color} />
+      <ScorerList scorers={homeScorers} side="home" color={meta.home_color} grouped={grouped} />
 
       {/* Stats Grid: xG, Shots, Possession - Stacked vertically */}
       <div className="sb-stats" style={{
@@ -160,7 +187,7 @@ export default function ScoreBanner() {
         </div>
       </div>
 
-      <ScorerList scorers={awayScorers} side="away" color={meta.away_color} />
+      <ScorerList scorers={awayScorers} side="away" color={meta.away_color} grouped={grouped} />
       </div>
 
       {/* Possession Bar */}
@@ -171,6 +198,9 @@ export default function ScoreBanner() {
 
       <style>{`
         @media (max-width: 768px) {
+          .sb-banner { padding: 0.85rem 1rem !important; }
+          .sb-name { font-size: 0.95rem !important; min-width: 0; overflow-wrap: anywhere; }
+          .sb-score { font-size: 2rem !important; }
           .sb-stats-row {
             grid-template-columns: 1fr 1fr !important;
             grid-template-areas: "stats stats" "home away";
