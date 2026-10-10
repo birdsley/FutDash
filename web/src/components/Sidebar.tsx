@@ -16,6 +16,10 @@ export default function Sidebar() {
   const [selectedSeason, setSelectedSeason] = useState('')
   const [mobileOpen, setMobileOpen] = useState(false)
 
+  // A-Z, case-insensitive ("NWSL" after "North American League"). Copy, so store state isn't mutated.
+  const sortedComps = [...(matchIndex?.competitions ?? [])]
+    .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base', numeric: true }))
+
   // Get seasons available for the selected competition (or all if none selected)
   const availableSeasons = Array.from(new Set(
     (matchIndex?.competitions ?? [])
@@ -43,7 +47,7 @@ export default function Sidebar() {
     setMobileOpen(false)
   }
 
-  const filtered = (matchIndex?.competitions ?? []).filter(c =>
+  const filtered = sortedComps.filter(c =>
     !selectedComp || String(c.id) === selectedComp
   ).flatMap(c => c.seasons
     .filter(s => !selectedSeason || s.name === selectedSeason)
@@ -95,8 +99,8 @@ export default function Sidebar() {
       <div style={{ padding: '0.75rem 1.25rem 0.5rem' }}>
         <select value={selectedComp} onChange={e => handleCompChange(e.target.value)} style={{ width: '100%', marginBottom: 6 }}>
           <option value="">All Competitions</option>
-          {(matchIndex?.competitions ?? []).map(c => (
-            <option key={c.id} value={String(c.id)}>{c.flag ?? ''} {c.name}</option>
+          {sortedComps.map(c => (
+            <option key={c.id} value={String(c.id)}>{c.name}</option>
           ))}
         </select>
         <select value={selectedSeason} onChange={e => setSelectedSeason(e.target.value)} style={{ width: '100%' }}>
@@ -127,7 +131,7 @@ export default function Sidebar() {
         {filtered.map(({ comp, season }) => (
           <div key={`${comp.id}-${season.id}`}>
             <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--muted2)', padding: '0.4rem 1.25rem 0.3rem' }}>
-              {comp.flag ?? ''} {comp.name} · {season.name}
+              {comp.name} · {season.name}
             </div>
             {season.matches.map(m => {
               const isActive = currentMatch?.meta.match_id === m.match_id
