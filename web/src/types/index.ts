@@ -44,9 +44,18 @@ export interface Shot {
   player_full: string;
   minute: number | null;
   technique: string;
+  shot_type?: string;  // 'Penalty', 'Open Play', 'Free Kick', ... (absent in older exports)
   body_part: string;
   period?: number;  // 1-2=regular, 3-4=ET, 5=shootout
   is_penalty_shootout?: boolean;
+}
+
+export interface OwnGoal {
+  team: 'home' | 'away';  // side credited with the goal
+  player: string;         // player who put it into their own net
+  player_full: string;
+  minute: number | null;
+  period?: number;
 }
 
 export interface NetworkNode {
@@ -99,6 +108,7 @@ export interface MatchData {
   meta: MatchMeta;
   xg_flow: XgFlow;
   shots: Shot[];
+  own_goals?: OwnGoal[];
   network_home: Network;
   network_away: Network;
   vaep: {

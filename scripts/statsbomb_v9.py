@@ -1158,7 +1158,8 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
     # StatsBomb periods: 1=1st half, 2=2nd half, 3=ET 1st, 4=ET 2nd, 5=Penalty shootout
     sh=sa=nsh=nsa=0; xgh=xga=None; ph=50.0
     pen_h=pen_a=None; has_et=False; has_pens=False; max_minute=92
-    
+    own_goals_out=[]
+
     if "type.name" in me.columns and "team.name" in me.columns:
         all_shots=me[me["type.name"]=="Shot"].copy()
         
@@ -1188,7 +1189,25 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
         if "shot.outcome.name" in regular_shots.columns:
             sh=int((regular_shots[regular_shots["team.name"]==home]["shot.outcome.name"]=="Goal").sum())
             sa=int((regular_shots[regular_shots["team.name"]==away]["shot.outcome.name"]=="Goal").sum())
-        
+
+        # Own goals aren't shots: StatsBomb logs them as "Own Goal Against" on
+        # the conceding player's team. Credit them to the opposing side.
+        og_ev = me[me["type.name"]=="Own Goal Against"]
+        if "period" in og_ev.columns:
+            og_ev = og_ev[og_ev["period"].fillna(1).astype(int) <= 4]
+        for _,r in og_ev.iterrows():
+            full = str(r.get("player.name","")) if pd.notna(r.get("player.name")) else ""
+            benefits_home = r.get("team.name","") != home
+            if benefits_home: sh += 1
+            else:             sa += 1
+            own_goals_out.append({
+                "team": "home" if benefits_home else "away",
+                "player": full.split()[-1] if full else "",
+                "player_full": full,
+                "minute": _si(r.get("minute")),
+                "period": _si(r.get("period")),
+            })
+
         # Count penalty shootout goals separately
         if has_pens and len(pen_shots) > 0 and "shot.outcome.name" in pen_shots.columns:
             pen_h=int((pen_shots[pen_shots["team.name"]==home]["shot.outcome.name"]=="Goal").sum())
@@ -1271,6 +1290,7 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
                 "player_full":str(r.get("player.name","")),
                 "minute":_si(r.get("minute",0)),
                 "technique":str(r.get("shot.technique.name","")),
+                "shot_type":str(r.get("shot.type.name","")),
                 "body_part":str(r.get("shot.body_part.name","")),
                 "period":period,
                 "is_penalty_shootout":is_shootout,
@@ -1476,7 +1496,7 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
     elif ph<42: insights.append(f"{away} dominated possession ({100-ph:.0f}%) — {home} sat deep and defended")
     else: insights.append("Even possession — contested midfield throughout")
 
-    payload={"meta":meta,"xg_flow":xg_flow,"shots":shots_out,
+    payload={"meta":meta,"xg_flow":xg_flow,"shots":shots_out,"own_goals":own_goals_out,
              "network_home":network_home,"network_away":network_away,
              "vaep":vaep_out,"game_state":game_state_out,"insights":insights}
 
