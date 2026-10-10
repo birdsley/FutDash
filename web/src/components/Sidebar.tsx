@@ -66,26 +66,26 @@ export default function Sidebar() {
       {/* Nav */}
       <nav style={{ padding: '1rem 0', flexShrink: 0, borderBottom: '1px solid var(--border)' }}>
         {[
-          { tab: 'match' as const, icon: '⚽', label: 'Match Analysis', path: '/match' },
-          { tab: 'predict' as const, icon: '📊', label: 'Predictions', path: '/predict' },
-          { tab: 'forecast' as const, icon: '🔭', label: 'Forecast', path: '/forecast' },
-        ].map(({ tab, icon, label, path }) => (
+          { tab: 'match' as const, label: 'Match Analysis', path: '/match' },
+          { tab: 'predict' as const, label: 'Predictions', path: '/predict' },
+          { tab: 'forecast' as const, label: 'Forecast', path: '/forecast' },
+        ].map(({ tab, label, path }) => (
           <div
             key={tab}
             onClick={() => { setTab(tab); navigate(path); setMobileOpen(false) }}
             style={{
-              display: 'flex', alignItems: 'center', gap: 10,
               padding: '0.55rem 1.25rem', cursor: 'pointer',
               transition: 'background 0.15s',
               color: activeTab === tab ? 'var(--accent)' : 'var(--muted)',
               background: activeTab === tab ? 'rgba(74,222,128,0.06)' : 'transparent',
+              // Inset bar marks the active item without shifting its text
+              boxShadow: activeTab === tab ? 'inset 2px 0 0 var(--accent)' : 'none',
               fontFamily: "'DM Mono', monospace", fontSize: 11,
               textTransform: 'uppercase', letterSpacing: '0.04em',
             }}
             onMouseEnter={e => { if (activeTab !== tab) (e.currentTarget as HTMLDivElement).style.background = 'rgba(255,255,255,0.04)' }}
             onMouseLeave={e => { if (activeTab !== tab) (e.currentTarget as HTMLDivElement).style.background = 'transparent' }}
           >
-            <span style={{ fontSize: 14, width: 20, textAlign: 'center' }}>{icon}</span>
             {label}
           </div>
         ))}
