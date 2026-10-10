@@ -7,7 +7,7 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#c9d1d9",
     "away_color": "#c9d1d9",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 0,
     "penalty_home": null,
     "penalty_away": null,
@@ -506,6 +506,7 @@
       "player_full": "Ronny Rodelin",
       "minute": 18,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Hervé Bazile",
       "minute": 20,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 21,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Julien Féret",
       "minute": 31,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -558,10 +562,11 @@
       "xg": 0.0682,
       "goal": false,
       "team": "home",
-      "player": "Christensen",
-      "player_full": "Martin Braithwaite Christensen",
+      "player": "Braithwaite",
+      "player_full": "Martin Braithwaite",
       "minute": 42,
       "technique": "Backheel",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Andy Delort",
       "minute": 50,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -587,9 +593,10 @@
       "goal": false,
       "team": "home",
       "player": "Doumbia",
-      "player_full": "Tongo Hamed Doumbia",
+      "player_full": "Tongo Doumbia",
       "minute": 60,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Ronny Rodelin",
       "minute": 62,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Andy Delort",
       "minute": 62,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 74,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Alexis Blin",
       "minute": 79,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -656,10 +667,11 @@
       "xg": 0.2577,
       "goal": true,
       "team": "home",
-      "player": "Christensen",
-      "player_full": "Martin Braithwaite Christensen",
+      "player": "Braithwaite",
+      "player_full": "Martin Braithwaite",
       "minute": 84,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,9 +686,19 @@
       "player_full": "Wissam Ben Yedder",
       "minute": 89,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Rodelin",
+      "player_full": "Ronny Rodelin",
+      "minute": 29,
+      "period": 1
     }
   ],
   "network_home": {
@@ -684,6 +706,7 @@
       {
         "id": "Marcel Tisserand",
         "short": "Tisserand",
+        "name": "Marcel Tisserand",
         "x": 45.63,
         "y": 22.11,
         "size": 105.0,
@@ -694,6 +717,7 @@
       {
         "id": "Jacques François Moubandje",
         "short": "Moubandje",
+        "name": "François Moubandje",
         "x": 63.51,
         "y": 7.24,
         "size": 111.5,
@@ -704,6 +728,7 @@
       {
         "id": "Alban Lafont",
         "short": "Lafont",
+        "name": "Alban Lafont",
         "x": 14.91,
         "y": 41.61,
         "size": 77.6,
@@ -714,6 +739,7 @@
       {
         "id": "Adrien Regattin",
         "short": "Regattin",
+        "name": "Adrien Regattin",
         "x": 71.24,
         "y": 54.39,
         "size": 98.5,
@@ -724,6 +750,7 @@
       {
         "id": "Étienne Didot",
         "short": "Didot",
+        "name": "Étienne Didot",
         "x": 75.41,
         "y": 45.99,
         "size": 146.9,
@@ -734,6 +761,7 @@
       {
         "id": "Wissam Ben Yedder",
         "short": "Yedder",
+        "name": "Wissam Ben Yedder",
         "x": 66.84,
         "y": 30.41,
         "size": 103.4,
@@ -744,6 +772,7 @@
       {
         "id": "Tongo Hamed Doumbia",
         "short": "Doumbia",
+        "name": "Tongo Doumbia",
         "x": 59.53,
         "y": 37.39,
         "size": 74.4,
@@ -754,6 +783,7 @@
       {
         "id": "Issa Diop",
         "short": "Diop",
+        "name": "Issa Diop",
         "x": 37.17,
         "y": 43.96,
         "size": 61.5,
@@ -764,6 +794,7 @@
       {
         "id": "Alexis Blin",
         "short": "Blin",
+        "name": "Alexis Blin",
         "x": 55.74,
         "y": 29.47,
         "size": 77.6,
@@ -773,7 +804,8 @@
       },
       {
         "id": "Martin Braithwaite Christensen",
-        "short": "Christensen",
+        "short": "Braithwaite",
+        "name": "Martin Braithwaite",
         "x": 76.86,
         "y": 22.7,
         "size": 87.3,
@@ -784,6 +816,7 @@
       {
         "id": "Steeve Yago",
         "short": "Yago",
+        "name": "Steeve Yago",
         "x": 56.33,
         "y": 69.48,
         "size": 61.5,
@@ -956,6 +989,7 @@
       {
         "id": "Dennis Appiah",
         "short": "Appiah",
+        "name": "Dennis Appiah",
         "x": 58.09,
         "y": 75.82,
         "size": 91.2,
@@ -966,6 +1000,7 @@
       {
         "id": "Ronny Rodelin",
         "short": "Rodelin",
+        "name": "Ronny Rodelin",
         "x": 75.25,
         "y": 33.78,
         "size": 113.3,
@@ -976,6 +1011,7 @@
       {
         "id": "Jonathan Delaplace",
         "short": "Delaplace",
+        "name": "Jonathan Delaplace",
         "x": 59.16,
         "y": 46.01,
         "size": 70.7,
@@ -986,6 +1022,7 @@
       {
         "id": "Ismaël Tiémoko Diomandé",
         "short": "Diomandé",
+        "name": "Ismaël Diomandé",
         "x": 58.78,
         "y": 39.2,
         "size": 88.1,
@@ -996,6 +1033,7 @@
       {
         "id": "Julien Féret",
         "short": "Féret",
+        "name": "Julien Féret",
         "x": 70.71,
         "y": 36.18,
         "size": 111.7,
@@ -1006,6 +1044,7 @@
       {
         "id": "Alexandre Raineau",
         "short": "Raineau",
+        "name": "Alexandre Raineau",
         "x": 58.71,
         "y": 10.1,
         "size": 132.2,
@@ -1016,6 +1055,7 @@
       {
         "id": "Andy Delort",
         "short": "Delort",
+        "name": "Andy Delort",
         "x": 77.13,
         "y": 27.28,
         "size": 91.2,
@@ -1026,6 +1066,7 @@
       {
         "id": "Hervé Bazile",
         "short": "Bazile",
+        "name": "Hervé Bazile",
         "x": 62.64,
         "y": 13.29,
         "size": 75.5,
@@ -1036,6 +1077,7 @@
       {
         "id": "Alaeddine Yahia",
         "short": "Yahia",
+        "name": "Alaeddine Yahia",
         "x": 42.09,
         "y": 57.88,
         "size": 67.6,
@@ -1046,6 +1088,7 @@
       {
         "id": "Rémy Vercoutre",
         "short": "Vercoutre",
+        "name": "Rémy Vercoutre",
         "x": 14.75,
         "y": 41.44,
         "size": 91.2,
@@ -1056,6 +1099,7 @@
       {
         "id": "Damien Da Silva",
         "short": "Silva",
+        "name": "Damien Da Silva",
         "x": 37.99,
         "y": 25.81,
         "size": 72.3,
@@ -1202,15 +1246,15 @@
   "vaep": {
     "home": [
       {
-        "player": "François Pantxi Sirieix",
+        "player": "Pantxi Sirieix",
         "short": "Sirieix",
         "vaep": 0.5819,
         "role": "Contributor",
         "n_actions": 28
       },
       {
-        "player": "Martin Braithwaite Christensen",
-        "short": "Christensen",
+        "player": "Martin Braithwaite",
+        "short": "Braithwaite",
         "vaep": 0.415,
         "role": "Contributor",
         "n_actions": 130
@@ -1230,7 +1274,7 @@
         "n_actions": 165
       },
       {
-        "player": "Tongo Hamed Doumbia",
+        "player": "Tongo Doumbia",
         "short": "Doumbia",
         "vaep": 0.1688,
         "role": "Contributor",

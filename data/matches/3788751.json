@@ -7,7 +7,7 @@
     "home_color": "#3d82ff",
     "away_color_raw": "#3a3a3a",
     "away_color": "#939393",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
     "penalty_home": null,
     "penalty_away": null,
@@ -506,6 +506,7 @@
       "player_full": "Mats Hummels",
       "minute": 3,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Paul Pogba",
       "minute": 15,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -530,10 +532,11 @@
       "xg": 0.0467,
       "goal": false,
       "team": "home",
-      "player": "Lottin",
-      "player_full": "Kylian Mbappé Lottin",
+      "player": "Mbappé",
+      "player_full": "Kylian Mbappé",
       "minute": 16,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Thomas Müller",
       "minute": 21,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Toni Kroos",
       "minute": 24,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Toni Kroos",
       "minute": 26,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "İlkay Gündoğan",
       "minute": 37,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Kai Havertz",
       "minute": 41,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Adrien Rabiot",
       "minute": 51,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Serge Gnabry",
       "minute": 53,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Thomas Müller",
       "minute": 55,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Karim Benzema",
       "minute": 64,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Antonio Rüdiger",
       "minute": 69,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,16 +701,27 @@
       "player_full": "Leroy Sané",
       "minute": 87,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Hummels",
+      "player_full": "Mats Hummels",
+      "minute": 19,
+      "period": 1
     }
   ],
   "network_home": {
     "nodes": [
       {
         "id": "Lucas Hernández Pi",
-        "short": "Pi",
+        "short": "Hernandez",
+        "name": "Lucas Hernandez",
         "x": 56.81,
         "y": 8.73,
         "size": 100.5,
@@ -708,6 +732,7 @@
       {
         "id": "Presnel Kimpembe",
         "short": "Kimpembe",
+        "name": "Presnel Kimpembe",
         "x": 41.15,
         "y": 24.57,
         "size": 111.9,
@@ -718,6 +743,7 @@
       {
         "id": "Benjamin Pavard",
         "short": "Pavard",
+        "name": "Benjamin Pavard",
         "x": 57.58,
         "y": 73.36,
         "size": 112.8,
@@ -728,6 +754,7 @@
       {
         "id": "Paul Pogba",
         "short": "Pogba",
+        "name": "Paul Pogba",
         "x": 61.46,
         "y": 57.72,
         "size": 103.3,
@@ -738,6 +765,7 @@
       {
         "id": "Karim Benzema",
         "short": "Benzema",
+        "name": "Karim Benzema",
         "x": 65.99,
         "y": 35.75,
         "size": 78.7,
@@ -747,7 +775,8 @@
       },
       {
         "id": "Kylian Mbappé Lottin",
-        "short": "Lottin",
+        "short": "Mbappé",
+        "name": "Kylian Mbappé",
         "x": 76.24,
         "y": 24.33,
         "size": 74.0,
@@ -758,6 +787,7 @@
       {
         "id": "N''Golo Kanté",
         "short": "Kanté",
+        "name": "N'Golo Kanté",
         "x": 53.95,
         "y": 41.94,
         "size": 108.1,
@@ -768,6 +798,7 @@
       {
         "id": "Adrien Rabiot",
         "short": "Rabiot",
+        "name": "Adrien Rabiot",
         "x": 53.19,
         "y": 27.27,
         "size": 83.4,
@@ -778,6 +809,7 @@
       {
         "id": "Raphaël Varane",
         "short": "Varane",
+        "name": "Raphaël Varane",
         "x": 40.26,
         "y": 53.0,
         "size": 98.6,
@@ -788,6 +820,7 @@
       {
         "id": "Antoine Griezmann",
         "short": "Griezmann",
+        "name": "Antoine Griezmann",
         "x": 64.44,
         "y": 53.31,
         "size": 74.9,
@@ -798,6 +831,7 @@
       {
         "id": "Hugo Lloris",
         "short": "Lloris",
+        "name": "Hugo Lloris",
         "x": 10.89,
         "y": 41.55,
         "size": 58.8,
@@ -982,6 +1016,7 @@
       {
         "id": "Antonio Rüdiger",
         "short": "Rüdiger",
+        "name": "Antonio Rüdiger",
         "x": 50.58,
         "y": 17.44,
         "size": 126.4,
@@ -992,6 +1027,7 @@
       {
         "id": "Robin Gosens",
         "short": "Gosens",
+        "name": "Robin Gosens",
         "x": 68.44,
         "y": 7.37,
         "size": 90.7,
@@ -1002,6 +1038,7 @@
       {
         "id": "Mats Hummels",
         "short": "Hummels",
+        "name": "Mats Hummels",
         "x": 49.11,
         "y": 47.11,
         "size": 112.7,
@@ -1012,6 +1049,7 @@
       {
         "id": "Toni Kroos",
         "short": "Kroos",
+        "name": "Toni Kroos",
         "x": 61.47,
         "y": 31.79,
         "size": 140.1,
@@ -1022,6 +1060,7 @@
       {
         "id": "Joshua Kimmich",
         "short": "Kimmich",
+        "name": "Joshua Kimmich",
         "x": 74.05,
         "y": 70.12,
         "size": 94.9,
@@ -1032,6 +1071,7 @@
       {
         "id": "Matthias Ginter",
         "short": "Ginter",
+        "name": "Matthias Ginter",
         "x": 50.86,
         "y": 69.21,
         "size": 88.9,
@@ -1042,6 +1082,7 @@
       {
         "id": "İlkay Gündoğan",
         "short": "Gündoğan",
+        "name": "İlkay Gündoğan",
         "x": 65.66,
         "y": 40.47,
         "size": 104.4,
@@ -1052,6 +1093,7 @@
       {
         "id": "Kai Havertz",
         "short": "Havertz",
+        "name": "Kai Havertz",
         "x": 73.7,
         "y": 45.92,
         "size": 63.3,
@@ -1062,6 +1104,7 @@
       {
         "id": "Thomas Müller",
         "short": "Müller",
+        "name": "Thomas Müller",
         "x": 77.36,
         "y": 31.77,
         "size": 68.7,
@@ -1072,6 +1115,7 @@
       {
         "id": "Serge Gnabry",
         "short": "Gnabry",
+        "name": "Serge Gnabry",
         "x": 78.81,
         "y": 39.95,
         "size": 57.4,
@@ -1082,6 +1126,7 @@
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
+        "name": "Manuel Neuer",
         "x": 14.13,
         "y": 37.92,
         "size": 57.4,
@@ -1309,14 +1354,14 @@
         "n_actions": 150
       },
       {
-        "player": "Kylian Mbappé Lottin",
-        "short": "Lottin",
+        "player": "Kylian Mbappé",
+        "short": "Mbappé",
         "vaep": 0.2879,
         "role": "Contributor",
         "n_actions": 133
       },
       {
-        "player": "N''Golo Kanté",
+        "player": "N'Golo Kanté",
         "short": "Kanté",
         "vaep": 0.2161,
         "role": "Presser",

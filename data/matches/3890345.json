@@ -506,6 +506,7 @@
       "player_full": "Leon Andreasen",
       "minute": 8,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -516,10 +517,11 @@
       "xg": 0.0167,
       "goal": false,
       "team": "home",
-      "player": "Inola",
-      "player_full": "Miiko Martín Albornoz Inola",
+      "player": "Albornoz",
+      "player_full": "Miiko Albornoz",
       "minute": 8,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Tohouri Zahoui Constant Djakpa",
       "minute": 14,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Felix Klaus",
       "minute": 17,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Leon Andreasen",
       "minute": 18,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Felix Klaus",
       "minute": 27,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Hiroshi Kiyotake",
       "minute": 31,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Hiroshi Kiyotake",
       "minute": 46,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Felix Klaus",
       "minute": 50,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Marc Stendera",
       "minute": 56,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Stefan Aigner",
       "minute": 57,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Leon Andreasen",
       "minute": 60,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Artur Sobiech",
       "minute": 63,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Marc Stendera",
       "minute": 64,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,16 +716,19 @@
       "player_full": "Haris Seferović",
       "minute": 90,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Marcelo Antônio Guedes Filho",
-        "short": "Filho",
+        "short": "Marcelo",
+        "name": "Marcelo",
         "x": 44.17,
         "y": 54.85,
         "size": 133.6,
@@ -722,6 +739,7 @@
       {
         "id": "Salif Sané",
         "short": "Sané",
+        "name": "Salif Sané",
         "x": 55.89,
         "y": 38.22,
         "size": 159.3,
@@ -732,6 +750,7 @@
       {
         "id": "Manuel Schmiedebach",
         "short": "Schmiedebac",
+        "name": "Manuel Schmiedebach",
         "x": 60.44,
         "y": 47.04,
         "size": 117.4,
@@ -742,6 +761,7 @@
       {
         "id": "Ron-Robert Zieler",
         "short": "Zieler",
+        "name": "Ron-Robert Zieler",
         "x": 15.89,
         "y": 40.04,
         "size": 71.2,
@@ -752,6 +772,7 @@
       {
         "id": "Hiroki Sakai",
         "short": "Sakai",
+        "name": "Hiroki Sakai",
         "x": 65.36,
         "y": 71.35,
         "size": 90.9,
@@ -761,7 +782,8 @@
       },
       {
         "id": "Miiko Martín Albornoz Inola",
-        "short": "Inola",
+        "short": "Albornoz",
+        "name": "Miiko Albornoz",
         "x": 71.0,
         "y": 7.48,
         "size": 86.6,
@@ -772,6 +794,7 @@
       {
         "id": "Hiroshi Kiyotake",
         "short": "Kiyotake",
+        "name": "Hiroshi Kiyotake",
         "x": 71.34,
         "y": 40.69,
         "size": 96.9,
@@ -782,6 +805,7 @@
       {
         "id": "Leon Andreasen",
         "short": "Andreasen",
+        "name": "Leon Andreasen",
         "x": 55.88,
         "y": 54.3,
         "size": 67.0,
@@ -792,6 +816,7 @@
       {
         "id": "Artur Sobiech",
         "short": "Sobiech",
+        "name": "Artur Sobiech",
         "x": 68.35,
         "y": 43.9,
         "size": 60.1,
@@ -802,6 +827,7 @@
       {
         "id": "Felix Klaus",
         "short": "Klaus",
+        "name": "Felix Klaus",
         "x": 70.25,
         "y": 12.31,
         "size": 63.5,
@@ -812,6 +838,7 @@
       {
         "id": "Christian Schulz",
         "short": "Schulz",
+        "name": "Christian Schulz",
         "x": 42.46,
         "y": 24.18,
         "size": 58.4,
@@ -996,6 +1023,7 @@
       {
         "id": "Tohouri Zahoui Constant Djakpa",
         "short": "Djakpa",
+        "name": "Tohouri Zahoui Constant Djakpa",
         "x": 53.21,
         "y": 11.75,
         "size": 112.4,
@@ -1006,6 +1034,7 @@
       {
         "id": "Bastian Oczipka",
         "short": "Oczipka",
+        "name": "Bastian Oczipka",
         "x": 65.33,
         "y": 13.62,
         "size": 94.7,
@@ -1016,6 +1045,7 @@
       {
         "id": "Makoto Hasebe",
         "short": "Hasebe",
+        "name": "Makoto Hasebe",
         "x": 56.51,
         "y": 71.0,
         "size": 107.5,
@@ -1025,7 +1055,8 @@
       },
       {
         "id": "Carlos Augusto Zambrano Ochandarte",
-        "short": "Ochandarte",
+        "short": "Zambrano",
+        "name": "Carlos Zambrano",
         "x": 42.0,
         "y": 54.89,
         "size": 128.8,
@@ -1036,6 +1067,7 @@
       {
         "id": "Marco Russ",
         "short": "Russ",
+        "name": "Marco Russ",
         "x": 40.61,
         "y": 24.21,
         "size": 108.9,
@@ -1046,6 +1078,7 @@
       {
         "id": "Stefan Aigner",
         "short": "Aigner",
+        "name": "Stefan Aigner",
         "x": 67.8,
         "y": 67.49,
         "size": 87.6,
@@ -1056,6 +1089,7 @@
       {
         "id": "Marc Stendera",
         "short": "Stendera",
+        "name": "Marc Stendera",
         "x": 59.5,
         "y": 52.89,
         "size": 89.0,
@@ -1066,6 +1100,7 @@
       {
         "id": "Stefan Reinartz",
         "short": "Reinartz",
+        "name": "Stefan Reinartz",
         "x": 45.11,
         "y": 31.23,
         "size": 86.2,
@@ -1076,6 +1111,7 @@
       {
         "id": "Haris Seferović",
         "short": "Seferović",
+        "name": "Haris Seferović",
         "x": 69.29,
         "y": 53.37,
         "size": 69.2,
@@ -1086,6 +1122,7 @@
       {
         "id": "Lukáš Hrádecký",
         "short": "Hrádecký",
+        "name": "Lukáš Hrádecký",
         "x": 14.78,
         "y": 41.41,
         "size": 60.7,
@@ -1096,6 +1133,7 @@
       {
         "id": "Alexander Meier",
         "short": "Meier",
+        "name": "Alexander Meier",
         "x": 66.48,
         "y": 33.63,
         "size": 60.0,
@@ -1282,8 +1320,8 @@
         "n_actions": 246
       },
       {
-        "player": "Miiko Martín Albornoz Inola",
-        "short": "Inola",
+        "player": "Miiko Albornoz",
+        "short": "Albornoz",
         "vaep": 0.2094,
         "role": "Progressor",
         "n_actions": 116
@@ -1319,8 +1357,8 @@
         "n_actions": 168
       },
       {
-        "player": "Carlos Augusto Zambrano Ochandarte",
-        "short": "Ochandarte",
+        "player": "Carlos Zambrano",
+        "short": "Zambrano",
         "vaep": 0.2337,
         "role": "Presser",
         "n_actions": 235

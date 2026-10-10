@@ -506,6 +506,7 @@
       "player_full": "Louise Quinn",
       "minute": 3,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Katie McCabe",
       "minute": 10,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Kim Little",
       "minute": 13,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Vivianne Miedema",
       "minute": 27,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Chantelle Boye-Hlorkah",
       "minute": 32,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Vivianne Miedema",
       "minute": 39,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Katrine Veje",
       "minute": 44,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Leah Williamson",
       "minute": 48,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Chantelle Boye-Hlorkah",
       "minute": 60,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Katie McCabe",
       "minute": 65,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Elise Hughes",
       "minute": 67,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -656,10 +667,11 @@
       "xg": 0.0453,
       "goal": false,
       "team": "home",
-      "player": "Janssen",
-      "player_full": "Dominique Johanna Anna Petrone Janssen",
+      "player": "Bloodworth",
+      "player_full": "Dominique Bloodworth",
       "minute": 70,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Vivianne Miedema",
       "minute": 73,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -684,20 +697,23 @@
       "xg": 0.0613,
       "goal": false,
       "team": "home",
-      "player": "Donk",
+      "player": "van de Donk",
       "player_full": "Danielle van de Donk",
       "minute": 89,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Sari van Veenendaal",
-        "short": "Veenendaal",
+        "short": "van Veenend",
+        "name": "Sari van Veenendaal",
         "x": 11.96,
         "y": 42.09,
         "size": 110.4,
@@ -708,6 +724,7 @@
       {
         "id": "Leah Williamson",
         "short": "Williamson",
+        "name": "Leah Williamson",
         "x": 38.42,
         "y": 59.61,
         "size": 144.2,
@@ -718,6 +735,7 @@
       {
         "id": "Louise Quinn",
         "short": "Quinn",
+        "name": "Louise Quinn",
         "x": 36.69,
         "y": 24.62,
         "size": 141.7,
@@ -728,6 +746,7 @@
       {
         "id": "Katrine Veje",
         "short": "Veje",
+        "name": "Katrine Veje",
         "x": 54.67,
         "y": 7.79,
         "size": 91.9,
@@ -738,6 +757,7 @@
       {
         "id": "Lisa Evans",
         "short": "Evans",
+        "name": "Lisa Evans",
         "x": 66.83,
         "y": 75.71,
         "size": 89.5,
@@ -747,7 +767,8 @@
       },
       {
         "id": "Danielle van de Donk",
-        "short": "Donk",
+        "short": "van de Donk",
+        "name": "Danielle van de Donk",
         "x": 60.44,
         "y": 34.31,
         "size": 74.3,
@@ -758,6 +779,7 @@
       {
         "id": "Kim Little",
         "short": "Little",
+        "name": "Kim Little",
         "x": 67.72,
         "y": 47.87,
         "size": 96.0,
@@ -768,6 +790,7 @@
       {
         "id": "Vivianne Miedema",
         "short": "Miedema",
+        "name": "Vivianne Miedema",
         "x": 78.12,
         "y": 34.62,
         "size": 66.2,
@@ -778,6 +801,7 @@
       {
         "id": "Katie McCabe",
         "short": "McCabe",
+        "name": "Katie McCabe",
         "x": 69.1,
         "y": 40.57,
         "size": 66.2,
@@ -788,6 +812,7 @@
       {
         "id": "Bethany Mead",
         "short": "Mead",
+        "name": "Bethany Mead",
         "x": 79.27,
         "y": 25.27,
         "size": 60.6,
@@ -797,7 +822,8 @@
       },
       {
         "id": "Dominique Johanna Anna Petrone Janssen",
-        "short": "Janssen",
+        "short": "Bloodworth",
+        "name": "Dominique Bloodworth",
         "x": 52.53,
         "y": 38.73,
         "size": 63.8,
@@ -958,6 +984,7 @@
       {
         "id": "Megan Finnigan",
         "short": "Finnigan",
+        "name": "Megan Finnigan",
         "x": 37.43,
         "y": 57.69,
         "size": 128.8,
@@ -968,6 +995,7 @@
       {
         "id": "Siri Worm",
         "short": "Worm",
+        "name": "Siri Worm",
         "x": 35.66,
         "y": 24.57,
         "size": 124.5,
@@ -978,6 +1006,7 @@
       {
         "id": "Kirstie Levell",
         "short": "Levell",
+        "name": "Kirstie Levell",
         "x": 12.52,
         "y": 42.04,
         "size": 87.6,
@@ -988,6 +1017,7 @@
       {
         "id": "Abbey-Leigh Stringer",
         "short": "Stringer",
+        "name": "Abbey-Leigh Stringer",
         "x": 54.88,
         "y": 48.53,
         "size": 100.4,
@@ -998,6 +1028,7 @@
       {
         "id": "Angharad James",
         "short": "James",
+        "name": "Angharad James",
         "x": 50.39,
         "y": 29.85,
         "size": 106.1,
@@ -1008,6 +1039,7 @@
       {
         "id": "Danielle Turner",
         "short": "Turner",
+        "name": "Danielle Turner",
         "x": 48.21,
         "y": 11.94,
         "size": 94.7,
@@ -1018,6 +1050,7 @@
       {
         "id": "Taylor Hinds",
         "short": "Hinds",
+        "name": "Taylor Hinds",
         "x": 65.11,
         "y": 68.95,
         "size": 72.0,
@@ -1028,6 +1061,7 @@
       {
         "id": "Simone Magill",
         "short": "Magill",
+        "name": "Simone Magill",
         "x": 68.84,
         "y": 42.53,
         "size": 70.6,
@@ -1038,6 +1072,7 @@
       {
         "id": "Chantelle Boye-Hlorkah",
         "short": "Boye-Hlorka",
+        "name": "Chantelle Boye-Hlorkah",
         "x": 68.73,
         "y": 33.91,
         "size": 69.2,
@@ -1048,6 +1083,7 @@
       {
         "id": "Inessa Kaagman",
         "short": "Kaagman",
+        "name": "Inessa Kaagman",
         "x": 68.38,
         "y": 35.57,
         "size": 84.8,
@@ -1058,6 +1094,7 @@
       {
         "id": "Hannah Cain",
         "short": "Cain",
+        "name": "Hannah Cain",
         "x": 65.8,
         "y": 9.2,
         "size": 66.3,
@@ -1231,7 +1268,7 @@
       },
       {
         "player": "Danielle van de Donk",
-        "short": "Donk",
+        "short": "van de Donk",
         "vaep": 0.6747,
         "role": "Contributor",
         "n_actions": 156

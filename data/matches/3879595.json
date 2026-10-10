@@ -8,7 +8,7 @@
     "away_color_raw": "#4c1d6f",
     "away_color": "#a767d7",
     "score_home": 0,
-    "score_away": 1,
+    "score_away": 2,
     "penalty_home": null,
     "penalty_away": null,
     "has_extra_time": false,
@@ -506,6 +506,7 @@
       "player_full": "Giuseppe Rossi",
       "minute": 5,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Josip Iličić",
       "minute": 10,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -530,10 +532,11 @@
       "xg": 0.0065,
       "goal": false,
       "team": "away",
-      "player": "Falero",
-      "player_full": "Matías Vecino Falero",
+      "player": "Vecino",
+      "player_full": "Matías Vecino",
       "minute": 12,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Davide Astori",
       "minute": 16,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Nikola Kalinić",
       "minute": 22,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Nikola Kalinić",
       "minute": 24,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Boško Janković",
       "minute": 35,
       "technique": "Overhead Kick",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Boško Janković",
       "minute": 35,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Josip Iličić",
       "minute": 39,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Nikola Kalinić",
       "minute": 56,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -642,20 +652,31 @@
       "xg": 0.0244,
       "goal": false,
       "team": "away",
-      "player": "Iglesias",
-      "player_full": "Borja Valero Iglesias",
+      "player": "Valero",
+      "player_full": "Borja Valero",
       "minute": 68,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "away",
+      "player": "Márquez",
+      "player_full": "Rafael Márquez",
+      "minute": 24,
+      "period": 1
     }
   ],
   "network_home": {
     "nodes": [
       {
         "id": "Rafael Márquez Álvarez",
-        "short": "Álvarez",
+        "short": "Márquez",
+        "name": "Rafael Márquez",
         "x": 40.53,
         "y": 52.65,
         "size": 118.7,
@@ -666,6 +687,7 @@
       {
         "id": "Eros Pisano",
         "short": "Pisano",
+        "name": "Eros Pisano",
         "x": 52.59,
         "y": 70.57,
         "size": 113.2,
@@ -676,6 +698,7 @@
       {
         "id": "Samuel Souprayen",
         "short": "Souprayen",
+        "name": "Samuel Souprayen",
         "x": 60.81,
         "y": 8.04,
         "size": 100.1,
@@ -686,6 +709,7 @@
       {
         "id": "Leandro Greco",
         "short": "Greco",
+        "name": "Leandro Greco",
         "x": 69.41,
         "y": 22.8,
         "size": 106.6,
@@ -696,6 +720,7 @@
       {
         "id": "Vangelis Moras",
         "short": "Moras",
+        "name": "Vangelis Moras",
         "x": 37.28,
         "y": 25.56,
         "size": 113.2,
@@ -706,6 +731,7 @@
       {
         "id": "Artur Ioniţă",
         "short": "Ioniţă",
+        "name": "Artur Ioniţă",
         "x": 74.06,
         "y": 57.81,
         "size": 74.8,
@@ -715,7 +741,8 @@
       },
       {
         "id": "Matuzalém Francelino da Silva",
-        "short": "Silva",
+        "short": "Matuzalém",
+        "name": "Matuzalém",
         "x": 53.88,
         "y": 41.14,
         "size": 111.0,
@@ -726,6 +753,7 @@
       {
         "id": "Boško Janković",
         "short": "Janković",
+        "name": "Boško Janković",
         "x": 80.57,
         "y": 12.48,
         "size": 70.4,
@@ -736,6 +764,7 @@
       {
         "id": "Pierluigi Gollini",
         "short": "Gollini",
+        "name": "Pierluigi Gollini",
         "x": 10.99,
         "y": 37.88,
         "size": 68.2,
@@ -746,6 +775,7 @@
       {
         "id": "Jacopo Sala",
         "short": "Sala",
+        "name": "Jacopo Sala",
         "x": 74.78,
         "y": 63.85,
         "size": 69.3,
@@ -755,7 +785,8 @@
       },
       {
         "id": "Juan Ignacio Gómez Taleb",
-        "short": "Taleb",
+        "short": "Gómez",
+        "name": "Juan Gómez",
         "x": 78.41,
         "y": 46.6,
         "size": 59.4,
@@ -939,7 +970,8 @@
     "nodes": [
       {
         "id": "Borja Valero Iglesias",
-        "short": "Iglesias",
+        "short": "Valero",
+        "name": "Borja Valero",
         "x": 65.93,
         "y": 38.79,
         "size": 136.9,
@@ -949,7 +981,8 @@
       },
       {
         "id": "Matías Vecino Falero",
-        "short": "Falero",
+        "short": "Vecino",
+        "name": "Matías Vecino",
         "x": 58.57,
         "y": 32.48,
         "size": 130.1,
@@ -960,6 +993,7 @@
       {
         "id": "Manuel Pasqual",
         "short": "Pasqual",
+        "name": "Manuel Pasqual",
         "x": 64.21,
         "y": 8.4,
         "size": 112.3,
@@ -970,6 +1004,7 @@
       {
         "id": "Gonzalo Javier Rodríguez",
         "short": "Rodríguez",
+        "name": "Gonzalo Rodríguez",
         "x": 40.02,
         "y": 47.74,
         "size": 89.8,
@@ -980,6 +1015,7 @@
       {
         "id": "Davide Astori",
         "short": "Astori",
+        "name": "Davide Astori",
         "x": 43.89,
         "y": 20.1,
         "size": 128.7,
@@ -990,6 +1026,7 @@
       {
         "id": "Facundo Sebastián Roncaglia",
         "short": "Roncaglia",
+        "name": "Facundo Roncaglia",
         "x": 51.37,
         "y": 64.23,
         "size": 97.3,
@@ -1000,6 +1037,7 @@
       {
         "id": "Jakub Błaszczykowski",
         "short": "Błaszczykow",
+        "name": "Jakub Błaszczykowski",
         "x": 71.34,
         "y": 71.71,
         "size": 65.2,
@@ -1010,6 +1048,7 @@
       {
         "id": "Josip Iličić",
         "short": "Iličić",
+        "name": "Josip Iličić",
         "x": 69.65,
         "y": 47.68,
         "size": 65.9,
@@ -1019,7 +1058,8 @@
       },
       {
         "id": "Anton Ciprian Tătărușanu",
-        "short": "Tătărușanu",
+        "short": "Tătăruşanu",
+        "name": "Ciprian Tătăruşanu",
         "x": 10.56,
         "y": 37.43,
         "size": 59.8,
@@ -1030,6 +1070,7 @@
       {
         "id": "Nikola Kalinić",
         "short": "Kalinić",
+        "name": "Nikola Kalinić",
         "x": 72.46,
         "y": 21.22,
         "size": 61.1,
@@ -1040,6 +1081,7 @@
       {
         "id": "Giuseppe Rossi",
         "short": "Rossi",
+        "name": "Giuseppe Rossi",
         "x": 81.19,
         "y": 33.55,
         "size": 57.7,
@@ -1229,15 +1271,15 @@
         "n_actions": 128
       },
       {
-        "player": "Matuzalém Francelino da Silva",
-        "short": "Silva",
+        "player": "Matuzalém",
+        "short": "Matuzalém",
         "vaep": 0.3364,
         "role": "Presser",
         "n_actions": 148
       },
       {
-        "player": "Juan Ignacio Gómez Taleb",
-        "short": "Taleb",
+        "player": "Juan Gómez",
+        "short": "Gómez",
         "vaep": 0.2757,
         "role": "Contributor",
         "n_actions": 118
@@ -1280,7 +1322,7 @@
         "n_actions": 207
       },
       {
-        "player": "Gonzalo Javier Rodríguez",
+        "player": "Gonzalo Rodríguez",
         "short": "Rodríguez",
         "vaep": 0.3877,
         "role": "Progressor",

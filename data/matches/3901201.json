@@ -7,7 +7,7 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#009bdb",
     "away_color": "#009bdb",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 1,
     "penalty_home": null,
     "penalty_away": null,
@@ -506,6 +506,7 @@
       "player_full": "Gaël Danic",
       "minute": 15,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -517,9 +518,10 @@
       "goal": false,
       "team": "away",
       "player": "Diarra",
-      "player_full": "Lassana Diarra",
+      "player_full": "Lass Diarra",
       "minute": 20,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "François Kamano",
       "minute": 30,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Sébastien Squillaci",
       "minute": 42,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "François Kamano",
       "minute": 46,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Florian Thauvin",
       "minute": 50,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Gaël Danic",
       "minute": 55,
       "technique": "Normal",
+      "shot_type": "Penalty",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Steven Fletcher",
       "minute": 58,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -614,10 +622,11 @@
       "xg": 0.0718,
       "goal": false,
       "team": "away",
-      "player": "Mbida",
-      "player_full": "Georges-Kévin Nkoudou Mbida",
+      "player": "N'Koudou",
+      "player_full": "Georges-Kevin N'Koudou",
       "minute": 58,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Evaeverson Lemos da Silva Brandão",
       "minute": 70,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -642,10 +652,11 @@
       "xg": 0.0882,
       "goal": true,
       "team": "away",
-      "player": "Tunga",
-      "player_full": "Michy Batshuayi Tunga",
+      "player": "Batshuayi",
+      "player_full": "Michy Batshuayi",
       "minute": 76,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Romain Alessandrini",
       "minute": 77,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,9 +686,19 @@
       "player_full": "Romain Alessandrini",
       "minute": 81,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Rekik",
+      "player_full": "Karim Rekik",
+      "minute": 46,
+      "period": 2
     }
   ],
   "network_home": {
@@ -684,6 +706,7 @@
       {
         "id": "François Kamano",
         "short": "Kamano",
+        "name": "François Kamano",
         "x": 64.61,
         "y": 35.47,
         "size": 115.7,
@@ -693,7 +716,8 @@
       },
       {
         "id": "Mehdi Mostefa Sbaa",
-        "short": "Sbaa",
+        "short": "Mostefa",
+        "name": "Mehdi Mostefa",
         "x": 53.06,
         "y": 28.48,
         "size": 79.7,
@@ -704,6 +728,7 @@
       {
         "id": "Sébastien Squillaci",
         "short": "Squillaci",
+        "name": "Sébastien Squillaci",
         "x": 34.47,
         "y": 33.12,
         "size": 66.2,
@@ -714,6 +739,7 @@
       {
         "id": "Jean-Louis Leca",
         "short": "Leca",
+        "name": "Jean-Louis Leca",
         "x": 16.48,
         "y": 41.66,
         "size": 82.0,
@@ -724,6 +750,7 @@
       {
         "id": "Alexander Djiku",
         "short": "Djiku",
+        "name": "Alexander Djiku",
         "x": 49.38,
         "y": 70.88,
         "size": 102.2,
@@ -734,6 +761,7 @@
       {
         "id": "Yannick Cahuzac",
         "short": "Cahuzac",
+        "name": "Yannick Cahuzac",
         "x": 51.51,
         "y": 54.34,
         "size": 120.2,
@@ -744,6 +772,7 @@
       {
         "id": "Evaeverson Lemos da Silva Brandão",
         "short": "Brandão",
+        "name": "Evaeverson Lemos da Silva Brandão",
         "x": 82.62,
         "y": 24.98,
         "size": 91.0,
@@ -754,6 +783,7 @@
       {
         "id": "Julian Palmieri",
         "short": "Palmieri",
+        "name": "Julian Palmieri",
         "x": 59.57,
         "y": 20.97,
         "size": 106.7,
@@ -764,6 +794,7 @@
       {
         "id": "Gaël Danic",
         "short": "Danic",
+        "name": "Gaël Danic",
         "x": 71.56,
         "y": 28.63,
         "size": 113.4,
@@ -774,6 +805,7 @@
       {
         "id": "François Modesto",
         "short": "Modesto",
+        "name": "François Modesto",
         "x": 59.38,
         "y": 22.6,
         "size": 64.0,
@@ -784,6 +816,7 @@
       {
         "id": "Mathieu Peybernes",
         "short": "Peybernes",
+        "name": "Mathieu Peybernes",
         "x": 42.73,
         "y": 38.47,
         "size": 64.0,
@@ -974,6 +1007,7 @@
       {
         "id": "Brice Dja Djédjé",
         "short": "Djédjé",
+        "name": "Brice Dja Djédjé",
         "x": 53.66,
         "y": 72.93,
         "size": 99.2,
@@ -984,6 +1018,7 @@
       {
         "id": "Florian Thauvin",
         "short": "Thauvin",
+        "name": "Florian Thauvin",
         "x": 65.1,
         "y": 57.7,
         "size": 80.7,
@@ -993,7 +1028,8 @@
       },
       {
         "id": "Javier Manquillo Gaitán",
-        "short": "Gaitán",
+        "short": "Manquillo",
+        "name": "Javi Manquillo",
         "x": 47.39,
         "y": 22.29,
         "size": 100.1,
@@ -1003,7 +1039,8 @@
       },
       {
         "id": "Georges-Kévin Nkoudou Mbida",
-        "short": "Mbida",
+        "short": "N'Koudou",
+        "name": "Georges-Kevin N'Koudou",
         "x": 71.18,
         "y": 9.52,
         "size": 84.2,
@@ -1014,6 +1051,7 @@
       {
         "id": "Rémy Cabella",
         "short": "Cabella",
+        "name": "Rémy Cabella",
         "x": 62.8,
         "y": 29.05,
         "size": 119.6,
@@ -1024,6 +1062,7 @@
       {
         "id": "Karim Rekik",
         "short": "Rekik",
+        "name": "Karim Rekik",
         "x": 40.36,
         "y": 23.26,
         "size": 130.2,
@@ -1033,7 +1072,8 @@
       },
       {
         "id": "Rolando Jorge Pires da Fonseca",
-        "short": "Fonseca",
+        "short": "Rolando",
+        "name": "Rolando",
         "x": 35.7,
         "y": 54.11,
         "size": 101.0,
@@ -1044,6 +1084,7 @@
       {
         "id": "Steve Mandanda",
         "short": "Mandanda",
+        "name": "Steve Mandanda",
         "x": 13.04,
         "y": 42.31,
         "size": 77.1,
@@ -1054,6 +1095,7 @@
       {
         "id": "Lassana Diarra",
         "short": "Diarra",
+        "name": "Lass Diarra",
         "x": 43.86,
         "y": 41.05,
         "size": 83.3,
@@ -1064,6 +1106,7 @@
       {
         "id": "Steven Fletcher",
         "short": "Fletcher",
+        "name": "Steven Fletcher",
         "x": 65.99,
         "y": 39.29,
         "size": 70.9,
@@ -1074,6 +1117,7 @@
       {
         "id": "Vassiriki Abou Diaby",
         "short": "Diaby",
+        "name": "Abou Diaby",
         "x": 57.4,
         "y": 51.05,
         "size": 58.5,
@@ -1314,14 +1358,14 @@
         "n_actions": 251
       },
       {
-        "player": "Georges-Kévin Nkoudou Mbida",
-        "short": "Mbida",
+        "player": "Georges-Kevin N'Koudou",
+        "short": "N'Koudou",
         "vaep": 0.237,
         "role": "Carrier",
         "n_actions": 159
       },
       {
-        "player": "Lassana Diarra",
+        "player": "Lass Diarra",
         "short": "Diarra",
         "vaep": 0.1412,
         "role": "Carrier",

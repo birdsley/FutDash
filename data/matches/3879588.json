@@ -7,7 +7,7 @@
     "home_color": "#1e73be",
     "away_color_raw": "#87d8f7",
     "away_color": "#87d8f7",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 1,
     "penalty_home": null,
     "penalty_away": null,
@@ -503,9 +503,10 @@
       "goal": false,
       "team": "home",
       "player": "Gómez",
-      "player_full": "Alejandro Darío Gómez",
+      "player_full": "Papu Gómez",
       "minute": 3,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -517,9 +518,10 @@
       "goal": true,
       "team": "away",
       "player": "Biglia",
-      "player_full": "Lucas Rodrigo Biglia",
+      "player_full": "Lucas Biglia",
       "minute": 15,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Dušan Basta",
       "minute": 24,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -544,10 +547,11 @@
       "xg": 0.0208,
       "goal": false,
       "team": "away",
-      "player": "Gomes",
-      "player_full": "Felipe Anderson Pereira Gomes",
+      "player": "Anderson",
+      "player_full": "Felipe Anderson",
       "minute": 26,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Guglielmo Stendardo",
       "minute": 31,
       "technique": "Diving Header",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Jasmin Kurtič",
       "minute": 39,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -587,9 +593,10 @@
       "goal": false,
       "team": "away",
       "player": "Onazi",
-      "player_full": "Ogenyi Eddy Onazi",
+      "player_full": "Ogenyi Onazi",
       "minute": 42,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Antonio Candreva",
       "minute": 43,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Mauricio Ricardo Pinilla Ferreira",
       "minute": 48,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -629,9 +638,10 @@
       "goal": false,
       "team": "home",
       "player": "Moralez",
-      "player_full": "Maximiliano Nicol Moralez",
+      "player_full": "Maximiliano Moralez",
       "minute": 51,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Alessandro Matri",
       "minute": 57,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -656,10 +667,11 @@
       "xg": 0.0358,
       "goal": false,
       "team": "away",
-      "player": "Gomes",
-      "player_full": "Felipe Anderson Pereira Gomes",
+      "player": "Anderson",
+      "player_full": "Felipe Anderson",
       "minute": 58,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Mauricio Ricardo Pinilla Ferreira",
       "minute": 62,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Mauricio Ricardo Pinilla Ferreira",
       "minute": 65,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -699,12 +713,22 @@
       "goal": true,
       "team": "home",
       "player": "Gómez",
-      "player_full": "Alejandro Darío Gómez",
+      "player_full": "Papu Gómez",
       "minute": 85,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Basta",
+      "player_full": "Dušan Basta",
+      "minute": 68,
+      "period": 2
     }
   ],
   "network_home": {
@@ -712,6 +736,7 @@
       {
         "id": "Guglielmo Stendardo",
         "short": "Stendardo",
+        "name": "Guglielmo Stendardo",
         "x": 38.49,
         "y": 51.54,
         "size": 84.6,
@@ -722,6 +747,7 @@
       {
         "id": "Andrea Masiello",
         "short": "Masiello",
+        "name": "Andrea Masiello",
         "x": 54.77,
         "y": 70.78,
         "size": 148.9,
@@ -732,6 +758,7 @@
       {
         "id": "Boukary Dramé",
         "short": "Dramé",
+        "name": "Boukary Dramé",
         "x": 49.39,
         "y": 12.61,
         "size": 84.6,
@@ -742,6 +769,7 @@
       {
         "id": "Alejandro Darío Gómez",
         "short": "Gómez",
+        "name": "Papu Gómez",
         "x": 70.25,
         "y": 27.66,
         "size": 96.7,
@@ -751,7 +779,8 @@
       },
       {
         "id": "Marten de Roon",
-        "short": "Roon",
+        "short": "de Roon",
+        "name": "Marten de Roon",
         "x": 45.64,
         "y": 38.97,
         "size": 100.2,
@@ -761,7 +790,8 @@
       },
       {
         "id": "Carlos Emilio Carmona Tello",
-        "short": "Tello",
+        "short": "Carmona",
+        "name": "Carlos Carmona",
         "x": 52.26,
         "y": 52.22,
         "size": 119.3,
@@ -772,6 +802,7 @@
       {
         "id": "Maximiliano Nicol Moralez",
         "short": "Moralez",
+        "name": "Maximiliano Moralez",
         "x": 64.72,
         "y": 48.7,
         "size": 98.5,
@@ -782,6 +813,7 @@
       {
         "id": "Gabriel Alejandro Paletta",
         "short": "Paletta",
+        "name": "Gabriel Paletta",
         "x": 37.25,
         "y": 26.71,
         "size": 84.6,
@@ -792,6 +824,7 @@
       {
         "id": "Mauricio Ricardo Pinilla Ferreira",
         "short": "Ferreira",
+        "name": "Mauricio Ricardo Pinilla Ferreira",
         "x": 63.83,
         "y": 47.04,
         "size": 63.7,
@@ -800,24 +833,26 @@
         "eigenvector": 0.1614
       },
       {
-        "id": "Jasmin Kurtič",
-        "short": "Kurtič",
-        "x": 49.94,
-        "y": 29.41,
-        "size": 62.0,
-        "is_playmaker": true,
-        "betweenness": 0.4333,
-        "eigenvector": 0.0299
-      },
-      {
         "id": "Marco Sportiello",
         "short": "Sportiello",
+        "name": "Marco Sportiello",
         "x": 11.12,
         "y": 43.14,
         "size": 62.0,
         "is_playmaker": false,
         "betweenness": 0.3,
         "eigenvector": 0.0121
+      },
+      {
+        "id": "Jasmin Kurtič",
+        "short": "Kurtič",
+        "name": "Jasmin Kurtič",
+        "x": 49.94,
+        "y": 29.41,
+        "size": 62.0,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.0299
       }
     ],
     "edges": [
@@ -931,27 +966,15 @@
       },
       {
         "source": "Gabriel Alejandro Paletta",
-        "target": "Jasmin Kurtič",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gabriel Alejandro Paletta",
         "target": "Marco Sportiello",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Jasmin Kurtič",
-        "target": "Marten de Roon",
+        "source": "Gabriel Alejandro Paletta",
+        "target": "Jasmin Kurtič",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Jasmin Kurtič",
-        "target": "Gabriel Alejandro Paletta",
-        "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Marco Sportiello",
@@ -964,6 +987,18 @@
         "target": "Gabriel Alejandro Paletta",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Jasmin Kurtič",
+        "target": "Marten de Roon",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jasmin Kurtič",
+        "target": "Gabriel Alejandro Paletta",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -972,6 +1007,7 @@
       {
         "id": "Senad Lulić",
         "short": "Lulić",
+        "name": "Senad Lulić",
         "x": 60.3,
         "y": 9.0,
         "size": 114.1,
@@ -981,7 +1017,8 @@
       },
       {
         "id": "Felipe Anderson Pereira Gomes",
-        "short": "Gomes",
+        "short": "Anderson",
+        "name": "Felipe Anderson",
         "x": 76.63,
         "y": 24.05,
         "size": 94.4,
@@ -991,7 +1028,8 @@
       },
       {
         "id": "Santiago Juan Gentiletti Selak",
-        "short": "Selak",
+        "short": "Gentiletti",
+        "name": "Santiago Gentiletti",
         "x": 43.8,
         "y": 20.36,
         "size": 113.1,
@@ -1002,6 +1040,7 @@
       {
         "id": "Lucas Rodrigo Biglia",
         "short": "Biglia",
+        "name": "Lucas Biglia",
         "x": 53.9,
         "y": 31.37,
         "size": 117.1,
@@ -1012,6 +1051,7 @@
       {
         "id": "Dušan Basta",
         "short": "Basta",
+        "name": "Dušan Basta",
         "x": 60.51,
         "y": 66.3,
         "size": 85.5,
@@ -1022,6 +1062,7 @@
       {
         "id": "Antonio Candreva",
         "short": "Candreva",
+        "name": "Antonio Candreva",
         "x": 68.9,
         "y": 54.07,
         "size": 105.2,
@@ -1032,6 +1073,7 @@
       {
         "id": "Sergej Milinković-Savić",
         "short": "Milinković-",
+        "name": "Sergej Milinković-Savić",
         "x": 66.86,
         "y": 29.7,
         "size": 103.3,
@@ -1042,6 +1084,7 @@
       {
         "id": "Ogenyi Eddy Onazi",
         "short": "Onazi",
+        "name": "Ogenyi Onazi",
         "x": 60.58,
         "y": 51.46,
         "size": 63.9,
@@ -1052,6 +1095,7 @@
       {
         "id": "Wesley Hoedt",
         "short": "Hoedt",
+        "name": "Wesley Hoedt",
         "x": 44.71,
         "y": 46.14,
         "size": 88.5,
@@ -1062,6 +1106,7 @@
       {
         "id": "Federico Marchetti",
         "short": "Marchetti",
+        "name": "Federico Marchetti",
         "x": 15.51,
         "y": 37.48,
         "size": 60.9,
@@ -1072,6 +1117,7 @@
       {
         "id": "Alessandro Matri",
         "short": "Matri",
+        "name": "Alessandro Matri",
         "x": 81.81,
         "y": 37.45,
         "size": 58.9,
@@ -1254,21 +1300,21 @@
   "vaep": {
     "home": [
       {
-        "player": "Alejandro Darío Gómez",
+        "player": "Papu Gómez",
         "short": "Gómez",
         "vaep": 1.2462,
         "role": "Contributor",
         "n_actions": 140
       },
       {
-        "player": "Marco D''Alessandro",
-        "short": "D''Alessandro",
+        "player": "Marco Dalessandro",
+        "short": "Dalessandro",
         "vaep": 0.591,
         "role": "Carrier",
         "n_actions": 44
       },
       {
-        "player": "Maximiliano Nicol Moralez",
+        "player": "Maximiliano Moralez",
         "short": "Moralez",
         "vaep": 0.5713,
         "role": "Progressor",
@@ -1305,8 +1351,8 @@
         "n_actions": 158
       },
       {
-        "player": "Felipe Anderson Pereira Gomes",
-        "short": "Gomes",
+        "player": "Felipe Anderson",
+        "short": "Anderson",
         "vaep": 0.2472,
         "role": "Contributor",
         "n_actions": 183

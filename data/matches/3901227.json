@@ -8,7 +8,7 @@
     "away_color_raw": "#f0c500",
     "away_color": "#f0c500",
     "score_home": 1,
-    "score_away": 0,
+    "score_away": 1,
     "penalty_home": null,
     "penalty_away": null,
     "has_extra_time": false,
@@ -506,6 +506,7 @@
       "player_full": "Bouna Sarr",
       "minute": 17,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Adrien Thomasson",
       "minute": 19,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -530,10 +532,11 @@
       "xg": 0.1143,
       "goal": false,
       "team": "home",
-      "player": "Tunga",
-      "player_full": "Michy Batshuayi Tunga",
+      "player": "Batshuayi",
+      "player_full": "Michy Batshuayi",
       "minute": 28,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Steven Fletcher",
       "minute": 29,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -558,10 +562,11 @@
       "xg": 0.06,
       "goal": false,
       "team": "home",
-      "player": "Tunga",
-      "player_full": "Michy Batshuayi Tunga",
+      "player": "Batshuayi",
+      "player_full": "Michy Batshuayi",
       "minute": 31,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -572,10 +577,11 @@
       "xg": 0.1576,
       "goal": false,
       "team": "home",
-      "player": "Tunga",
-      "player_full": "Michy Batshuayi Tunga",
+      "player": "Batshuayi",
+      "player_full": "Michy Batshuayi",
       "minute": 42,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Florian Thauvin",
       "minute": 48,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Yacine Bammou",
       "minute": 64,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Florian Thauvin",
       "minute": 80,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Emiliano Sala",
       "minute": 83,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -642,10 +652,11 @@
       "xg": 0.0554,
       "goal": false,
       "team": "away",
-      "player": "Araújo",
-      "player_full": "Oswaldo Augusto Vizcarrondo Araújo",
+      "player": "Vizcarrondo",
+      "player_full": "Oswaldo Vizcarrondo",
       "minute": 83,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Alejandro Bedoya",
       "minute": 84,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -670,10 +682,11 @@
       "xg": 0.0272,
       "goal": false,
       "team": "away",
-      "player": "Tavares",
-      "player_full": "Adryan Oliveira Tavares",
+      "player": "Adryan",
+      "player_full": "Adryan",
       "minute": 86,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,9 +701,19 @@
       "player_full": "Emiliano Sala",
       "minute": 88,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "away",
+      "player": "N'Koulou",
+      "player_full": "Nicolas N'Koulou",
+      "minute": 30,
+      "period": 1
     }
   ],
   "network_home": {
@@ -698,6 +721,7 @@
       {
         "id": "Karim Rekik",
         "short": "Rekik",
+        "name": "Karim Rekik",
         "x": 39.48,
         "y": 23.75,
         "size": 107.2,
@@ -708,6 +732,7 @@
       {
         "id": "Benjamin Mendy",
         "short": "Mendy",
+        "name": "Benjamin Mendy",
         "x": 53.68,
         "y": 9.68,
         "size": 126.7,
@@ -717,7 +742,8 @@
       },
       {
         "id": "Nicolas Alexis Julio N'Koulou Ndoubena",
-        "short": "Ndoubena",
+        "short": "N'Koulou",
+        "name": "Nicolas N'Koulou",
         "x": 39.25,
         "y": 53.38,
         "size": 121.4,
@@ -727,7 +753,8 @@
       },
       {
         "id": "Javier Manquillo Gaitán",
-        "short": "Gaitán",
+        "short": "Manquillo",
+        "name": "Javi Manquillo",
         "x": 53.42,
         "y": 69.95,
         "size": 112.5,
@@ -738,6 +765,7 @@
       {
         "id": "Florian Thauvin",
         "short": "Thauvin",
+        "name": "Florian Thauvin",
         "x": 68.24,
         "y": 41.99,
         "size": 66.5,
@@ -748,6 +776,7 @@
       {
         "id": "Vassiriki Abou Diaby",
         "short": "Diaby",
+        "name": "Abou Diaby",
         "x": 50.88,
         "y": 32.64,
         "size": 106.3,
@@ -758,6 +787,7 @@
       {
         "id": "Bouna Sarr",
         "short": "Sarr",
+        "name": "Bouna Sarr",
         "x": 74.77,
         "y": 14.27,
         "size": 79.8,
@@ -768,6 +798,7 @@
       {
         "id": "Steve Mandanda",
         "short": "Mandanda",
+        "name": "Steve Mandanda",
         "x": 12.45,
         "y": 41.84,
         "size": 69.2,
@@ -778,6 +809,7 @@
       {
         "id": "Steven Fletcher",
         "short": "Fletcher",
+        "name": "Steven Fletcher",
         "x": 69.78,
         "y": 26.3,
         "size": 75.4,
@@ -787,7 +819,8 @@
       },
       {
         "id": "Michy Batshuayi Tunga",
-        "short": "Tunga",
+        "short": "Batshuayi",
+        "name": "Michy Batshuayi",
         "x": 73.72,
         "y": 46.39,
         "size": 68.3,
@@ -798,6 +831,7 @@
       {
         "id": "Jacques-Alaixys Romao",
         "short": "Romao",
+        "name": "Alaixys Romao",
         "x": 58.85,
         "y": 53.5,
         "size": 71.8,
@@ -958,6 +992,7 @@
       {
         "id": "Youssouf Sabaly",
         "short": "Sabaly",
+        "name": "Youssouf Sabaly",
         "x": 56.3,
         "y": 70.39,
         "size": 147.7,
@@ -968,6 +1003,7 @@
       {
         "id": "Jules Iloki",
         "short": "Iloki",
+        "name": "Jules Iloki",
         "x": 77.84,
         "y": 67.29,
         "size": 69.6,
@@ -978,6 +1014,7 @@
       {
         "id": "Guillaume Gillet",
         "short": "Gillet",
+        "name": "Guillaume Gillet",
         "x": 54.26,
         "y": 40.19,
         "size": 113.3,
@@ -988,6 +1025,7 @@
       {
         "id": "Birama Touré",
         "short": "Touré",
+        "name": "Birama Touré",
         "x": 59.5,
         "y": 39.0,
         "size": 97.4,
@@ -998,6 +1036,7 @@
       {
         "id": "Léo Dubois",
         "short": "Dubois",
+        "name": "Léo Dubois",
         "x": 58.84,
         "y": 6.93,
         "size": 110.6,
@@ -1008,6 +1047,7 @@
       {
         "id": "Lévy Koffi Djidji",
         "short": "Djidji",
+        "name": "Koffi Djidji",
         "x": 35.9,
         "y": 49.2,
         "size": 82.8,
@@ -1018,6 +1058,7 @@
       {
         "id": "Adrien Thomasson",
         "short": "Thomasson",
+        "name": "Adrien Thomasson",
         "x": 72.0,
         "y": 16.8,
         "size": 101.4,
@@ -1028,6 +1069,7 @@
       {
         "id": "Yacine Bammou",
         "short": "Bammou",
+        "name": "Yacine Bammou",
         "x": 66.72,
         "y": 31.86,
         "size": 89.4,
@@ -1038,6 +1080,7 @@
       {
         "id": "Maxime Dupé",
         "short": "Dupé",
+        "name": "Maxime Dupé",
         "x": 12.39,
         "y": 45.42,
         "size": 66.9,
@@ -1048,6 +1091,7 @@
       {
         "id": "Emiliano Sala",
         "short": "Sala",
+        "name": "Emiliano Sala",
         "x": 70.55,
         "y": 40.25,
         "size": 60.3,
@@ -1057,7 +1101,8 @@
       },
       {
         "id": "Oswaldo Augusto Vizcarrondo Araújo",
-        "short": "Araújo",
+        "short": "Vizcarrondo",
+        "name": "Oswaldo Vizcarrondo",
         "x": 42.53,
         "y": 26.37,
         "size": 65.6,
@@ -1223,8 +1268,8 @@
         "n_actions": 124
       },
       {
-        "player": "Michy Batshuayi Tunga",
-        "short": "Tunga",
+        "player": "Michy Batshuayi",
+        "short": "Batshuayi",
         "vaep": 0.6707,
         "role": "Contributor",
         "n_actions": 131
@@ -1244,7 +1289,7 @@
         "n_actions": 156
       },
       {
-        "player": "Vassiriki Abou Diaby",
+        "player": "Abou Diaby",
         "short": "Diaby",
         "vaep": 0.2217,
         "role": "Progressor",
@@ -1253,7 +1298,7 @@
     ],
     "away": [
       {
-        "player": "Lévy Koffi Djidji",
+        "player": "Koffi Djidji",
         "short": "Djidji",
         "vaep": 0.4855,
         "role": "Presser",
@@ -1267,8 +1312,8 @@
         "n_actions": 127
       },
       {
-        "player": "Oswaldo Augusto Vizcarrondo Araújo",
-        "short": "Araújo",
+        "player": "Oswaldo Vizcarrondo",
+        "short": "Vizcarrondo",
         "vaep": 0.3247,
         "role": "Presser",
         "n_actions": 75

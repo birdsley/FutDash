@@ -7,7 +7,7 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#c9d1d9",
     "away_color": "#c9d1d9",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 2,
     "penalty_home": null,
     "penalty_away": null,
@@ -506,6 +506,7 @@
       "player_full": "Mark Anthony Kaye",
       "minute": 2,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Hakim Ziyech",
       "minute": 3,
       "technique": "Lob",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Abdelhamid Sabiri",
       "minute": 8,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Sofiane Boufal",
       "minute": 9,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Tajon Buchanan",
       "minute": 14,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Hakim Ziyech",
       "minute": 15,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Youssef En-Nesyri",
       "minute": 22,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Abdelhamid Sabiri",
       "minute": 32,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Youssef En-Nesyri",
       "minute": 47,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Alphonso Davies",
       "minute": 57,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Atiba Hutchinson",
       "minute": 70,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,9 +671,19 @@
       "player_full": "Alistair Johnston",
       "minute": 70,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Aguerd",
+      "player_full": "Nayef Aguerd",
+      "minute": 39,
+      "period": 1
     }
   ],
   "network_home": {
@@ -670,6 +691,7 @@
       {
         "id": "Milan Borjan",
         "short": "Borjan",
+        "name": "Milan Borjan",
         "x": 17.04,
         "y": 43.41,
         "size": 64.7,
@@ -680,6 +702,7 @@
       {
         "id": "Kamal Miller",
         "short": "Miller",
+        "name": "Kamal Miller",
         "x": 49.7,
         "y": 19.87,
         "size": 153.0,
@@ -690,6 +713,7 @@
       {
         "id": "Alistair Johnston",
         "short": "Johnston",
+        "name": "Alistair Johnston",
         "x": 52.99,
         "y": 64.63,
         "size": 106.0,
@@ -700,6 +724,7 @@
       {
         "id": "Jonathan Osorio",
         "short": "Osorio",
+        "name": "Jonathan Osorio",
         "x": 57.55,
         "y": 50.42,
         "size": 68.0,
@@ -710,6 +735,7 @@
       {
         "id": "David Junior Hoilett",
         "short": "Hoilett",
+        "name": "Junior Hoilett",
         "x": 64.41,
         "y": 56.81,
         "size": 64.7,
@@ -720,6 +746,7 @@
       {
         "id": "Mark Anthony Kaye",
         "short": "Kaye",
+        "name": "Mark Anthony Kaye",
         "x": 57.57,
         "y": 33.7,
         "size": 127.9,
@@ -729,7 +756,8 @@
       },
       {
         "id": "Steven de Sousa Vitoria",
-        "short": "Vitoria",
+        "short": "Vitória",
+        "name": "Steven Vitória",
         "x": 48.33,
         "y": 49.78,
         "size": 136.0,
@@ -740,6 +768,7 @@
       {
         "id": "Sam Adekugbe",
         "short": "Adekugbe",
+        "name": "Sam Adekugbe",
         "x": 58.66,
         "y": 12.12,
         "size": 89.8,
@@ -750,6 +779,7 @@
       {
         "id": "Tajon Buchanan",
         "short": "Buchanan",
+        "name": "Tajon Buchanan",
         "x": 73.37,
         "y": 14.14,
         "size": 72.0,
@@ -760,6 +790,7 @@
       {
         "id": "Alphonso Davies",
         "short": "Davies",
+        "name": "Alphonso Davies",
         "x": 72.75,
         "y": 37.21,
         "size": 64.7,
@@ -770,6 +801,7 @@
       {
         "id": "Cyle Larin",
         "short": "Larin",
+        "name": "Cyle Larin",
         "x": 76.6,
         "y": 51.67,
         "size": 58.2,
@@ -954,6 +986,7 @@
       {
         "id": "Sofyan Amrabat",
         "short": "Amrabat",
+        "name": "Sofyan Amrabat",
         "x": 42.97,
         "y": 42.18,
         "size": 109.1,
@@ -964,6 +997,7 @@
       {
         "id": "Nayef Aguerd",
         "short": "Aguerd",
+        "name": "Nayef Aguerd",
         "x": 24.08,
         "y": 63.17,
         "size": 119.7,
@@ -974,6 +1008,7 @@
       {
         "id": "Romain Saïss",
         "short": "Saïss",
+        "name": "Romain Saïss",
         "x": 32.18,
         "y": 20.71,
         "size": 87.9,
@@ -983,7 +1018,8 @@
       },
       {
         "id": "Achraf Hakimi Mouh",
-        "short": "Mouh",
+        "short": "Hakimi",
+        "name": "Achraf Hakimi",
         "x": 45.8,
         "y": 71.27,
         "size": 143.2,
@@ -994,6 +1030,7 @@
       {
         "id": "Hakim Ziyech",
         "short": "Ziyech",
+        "name": "Hakim Ziyech",
         "x": 52.01,
         "y": 69.04,
         "size": 95.0,
@@ -1004,6 +1041,7 @@
       {
         "id": "Yassine Bounou",
         "short": "Bounou",
+        "name": "Yassine Bounou",
         "x": 9.57,
         "y": 39.8,
         "size": 82.1,
@@ -1014,6 +1052,7 @@
       {
         "id": "Abdelhamid Sabiri",
         "short": "Sabiri",
+        "name": "Abdelhamid Sabiri",
         "x": 60.29,
         "y": 19.18,
         "size": 76.2,
@@ -1024,6 +1063,7 @@
       {
         "id": "Sofiane Boufal",
         "short": "Boufal",
+        "name": "Sofiane Boufal",
         "x": 66.49,
         "y": 19.63,
         "size": 73.8,
@@ -1034,6 +1074,7 @@
       {
         "id": "Noussair Mazraoui",
         "short": "Mazraoui",
+        "name": "Noussair Mazraoui",
         "x": 43.87,
         "y": 9.96,
         "size": 66.8,
@@ -1044,6 +1085,7 @@
       {
         "id": "Youssef En-Nesyri",
         "short": "En-Nesyri",
+        "name": "Youssef En-Nesyri",
         "x": 59.44,
         "y": 48.98,
         "size": 67.9,
@@ -1054,6 +1096,7 @@
       {
         "id": "Azzedine Ounahi",
         "short": "Ounahi",
+        "name": "Azzedine Ounahi",
         "x": 57.72,
         "y": 54.83,
         "size": 83.2,
@@ -1213,7 +1256,7 @@
         "n_actions": 77
       },
       {
-        "player": "David Junior Hoilett",
+        "player": "Junior Hoilett",
         "short": "Hoilett",
         "vaep": 0.7601,
         "role": "Progressor",
@@ -1271,8 +1314,8 @@
         "n_actions": 138
       },
       {
-        "player": "Achraf Hakimi Mouh",
-        "short": "Mouh",
+        "player": "Achraf Hakimi",
+        "short": "Hakimi",
         "vaep": 0.2573,
         "role": "Progressor",
         "n_actions": 157

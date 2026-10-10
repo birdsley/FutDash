@@ -8,7 +8,7 @@
     "away_color_raw": "#e32221",
     "away_color": "#e32221",
     "score_home": 0,
-    "score_away": 2,
+    "score_away": 3,
     "penalty_home": null,
     "penalty_away": null,
     "has_extra_time": false,
@@ -506,6 +506,7 @@
       "player_full": "Edimilson Fernandes",
       "minute": 4,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -516,10 +517,11 @@
       "xg": 0.0463,
       "goal": false,
       "team": "away",
-      "player": "García",
-      "player_full": "Alejandro Grimaldo García",
+      "player": "Grimaldo",
+      "player_full": "Álex Grimaldo",
       "minute": 9,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Karim Onisiwo",
       "minute": 24,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Brajan Gruda",
       "minute": 29,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Dominik Kohr",
       "minute": 30,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Stefan Bell",
       "minute": 33,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Karim Onisiwo",
       "minute": 52,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Karim Onisiwo",
       "minute": 53,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -614,10 +622,11 @@
       "xg": 0.0827,
       "goal": true,
       "team": "away",
-      "player": "García",
-      "player_full": "Alejandro Grimaldo García",
+      "player": "Grimaldo",
+      "player_full": "Álex Grimaldo",
       "minute": 58,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Jonas Hofmann",
       "minute": 64,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -643,9 +653,10 @@
       "goal": false,
       "team": "away",
       "player": "Boniface",
-      "player_full": "Victor Okoh Boniface",
+      "player_full": "Victor Boniface",
       "minute": 74,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Anwar El Ghazi",
       "minute": 80,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Tom Krauß",
       "minute": 81,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Amine Adli",
       "minute": 82,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,6 +716,7 @@
       "player_full": "Jonas Hofmann",
       "minute": 82,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -716,9 +731,19 @@
       "player_full": "Aymen Barkok",
       "minute": 87,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "away",
+      "player": "van den Berg",
+      "player_full": "Sepp van den Berg",
+      "minute": 17,
+      "period": 1
     }
   ],
   "network_home": {
@@ -726,6 +751,7 @@
       {
         "id": "Stefan Bell",
         "short": "Bell",
+        "name": "Stefan Bell",
         "x": 34.93,
         "y": 53.22,
         "size": 127.3,
@@ -735,7 +761,8 @@
       },
       {
         "id": "Sepp van den Berg",
-        "short": "Berg",
+        "short": "van den Ber",
+        "name": "Sepp van den Berg",
         "x": 57.67,
         "y": 63.54,
         "size": 103.9,
@@ -746,6 +773,7 @@
       {
         "id": "Edimilson Fernandes",
         "short": "Fernandes",
+        "name": "Edimilson Fernandes",
         "x": 46.86,
         "y": 30.18,
         "size": 128.4,
@@ -756,6 +784,7 @@
       {
         "id": "Anthony Caci",
         "short": "Caci",
+        "name": "Anthony Caci",
         "x": 57.29,
         "y": 8.68,
         "size": 81.6,
@@ -766,6 +795,7 @@
       {
         "id": "Dominik Kohr",
         "short": "Kohr",
+        "name": "Dominik Kohr",
         "x": 57.75,
         "y": 48.78,
         "size": 108.2,
@@ -775,7 +805,8 @@
       },
       {
         "id": "Leandro Barreiro Martins",
-        "short": "Martins",
+        "short": "Barreiro",
+        "name": "Leandro Barreiro",
         "x": 55.51,
         "y": 51.12,
         "size": 102.9,
@@ -785,7 +816,8 @@
       },
       {
         "id": "Danny Vieira da Costa",
-        "short": "Costa",
+        "short": "da Costa",
+        "name": "Danny da Costa",
         "x": 67.2,
         "y": 71.82,
         "size": 80.5,
@@ -796,6 +828,7 @@
       {
         "id": "Brajan Gruda",
         "short": "Gruda",
+        "name": "Brajan Gruda",
         "x": 86.43,
         "y": 47.7,
         "size": 65.6,
@@ -806,6 +839,7 @@
       {
         "id": "Robin Zentner",
         "short": "Zentner",
+        "name": "Robin Zentner",
         "x": 11.52,
         "y": 40.93,
         "size": 75.2,
@@ -815,7 +849,8 @@
       },
       {
         "id": "Jae-Sung Lee",
-        "short": "Lee",
+        "short": "Jae-Sung",
+        "name": "Lee Jae-Sung",
         "x": 65.76,
         "y": 25.67,
         "size": 72.0,
@@ -826,6 +861,7 @@
       {
         "id": "Karim Onisiwo",
         "short": "Onisiwo",
+        "name": "Karim Onisiwo",
         "x": 74.29,
         "y": 42.36,
         "size": 59.3,
@@ -1010,6 +1046,7 @@
       {
         "id": "Exequiel Alejandro Palacios",
         "short": "Palacios",
+        "name": "Exequiel Palacios",
         "x": 59.21,
         "y": 46.49,
         "size": 130.7,
@@ -1020,6 +1057,7 @@
       {
         "id": "Granit Xhaka",
         "short": "Xhaka",
+        "name": "Granit Xhaka",
         "x": 60.75,
         "y": 39.32,
         "size": 143.0,
@@ -1030,6 +1068,7 @@
       {
         "id": "Edmond Fayçal Tapsoba",
         "short": "Tapsoba",
+        "name": "Edmond Fayçal Tapsoba",
         "x": 48.85,
         "y": 27.94,
         "size": 127.6,
@@ -1040,6 +1079,7 @@
       {
         "id": "Jonathan Tah",
         "short": "Tah",
+        "name": "Jonathan Tah",
         "x": 53.58,
         "y": 50.7,
         "size": 114.7,
@@ -1050,6 +1090,7 @@
       {
         "id": "Odilon Kossonou",
         "short": "Kossonou",
+        "name": "Odilon Kossonou",
         "x": 54.35,
         "y": 66.15,
         "size": 97.5,
@@ -1059,7 +1100,8 @@
       },
       {
         "id": "Alejandro Grimaldo García",
-        "short": "García",
+        "short": "Grimaldo",
+        "name": "Álex Grimaldo",
         "x": 57.39,
         "y": 14.72,
         "size": 90.1,
@@ -1070,6 +1112,7 @@
       {
         "id": "Jonas Hofmann",
         "short": "Hofmann",
+        "name": "Jonas Hofmann",
         "x": 67.57,
         "y": 29.52,
         "size": 68.5,
@@ -1080,6 +1123,7 @@
       {
         "id": "Jeremie Frimpong",
         "short": "Frimpong",
+        "name": "Jeremie Frimpong",
         "x": 75.73,
         "y": 69.17,
         "size": 60.5,
@@ -1088,18 +1132,9 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Victor Okoh Boniface",
-        "short": "Boniface",
-        "x": 64.89,
-        "y": 23.43,
-        "size": 57.5,
-        "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.0065
-      },
-      {
         "id": "Lukáš Hrádecký",
         "short": "Hrádecký",
+        "name": "Lukáš Hrádecký",
         "x": 15.44,
         "y": 42.76,
         "size": 57.5,
@@ -1110,12 +1145,24 @@
       {
         "id": "Florian Wirtz",
         "short": "Wirtz",
+        "name": "Florian Wirtz",
         "x": 74.39,
         "y": 45.38,
         "size": 57.5,
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0194
+      },
+      {
+        "id": "Victor Okoh Boniface",
+        "short": "Boniface",
+        "name": "Victor Boniface",
+        "x": 64.89,
+        "y": 23.43,
+        "size": 57.5,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0065
       }
     ],
     "edges": [
@@ -1300,18 +1347,6 @@
         "direction": "backward"
       },
       {
-        "source": "Victor Okoh Boniface",
-        "target": "Jonas Hofmann",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Victor Okoh Boniface",
-        "target": "Alejandro Grimaldo García",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Lukáš Hrádecký",
         "target": "Edmond Fayçal Tapsoba",
         "weight": 1,
@@ -1332,6 +1367,18 @@
       {
         "source": "Florian Wirtz",
         "target": "Exequiel Alejandro Palacios",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Victor Okoh Boniface",
+        "target": "Jonas Hofmann",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Victor Okoh Boniface",
+        "target": "Alejandro Grimaldo García",
         "weight": 1,
         "direction": "backward"
       }
@@ -1361,8 +1408,8 @@
         "n_actions": 128
       },
       {
-        "player": "Leandro Barreiro Martins",
-        "short": "Martins",
+        "player": "Leandro Barreiro",
+        "short": "Barreiro",
         "vaep": 0.2698,
         "role": "Presser",
         "n_actions": 162
@@ -1377,7 +1424,7 @@
     ],
     "away": [
       {
-        "player": "Victor Okoh Boniface",
+        "player": "Victor Boniface",
         "short": "Boniface",
         "vaep": 1.1148,
         "role": "Contributor",
@@ -1398,7 +1445,7 @@
         "n_actions": 145
       },
       {
-        "player": "Exequiel Alejandro Palacios",
+        "player": "Exequiel Palacios",
         "short": "Palacios",
         "vaep": 0.2164,
         "role": "Progressor",

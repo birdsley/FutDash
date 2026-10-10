@@ -506,6 +506,7 @@
       "player_full": "Wahbi Khazri",
       "minute": 17,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Billy Ketkeophomphone",
       "minute": 18,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Gilles Sunu",
       "minute": 27,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -544,10 +547,11 @@
       "xg": 0.313,
       "goal": true,
       "team": "away",
-      "player": "Silva",
-      "player_full": "Diego Alejandro Rolan Silva",
+      "player": "Rolán",
+      "player_full": "Diego Rolán",
       "minute": 39,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -559,9 +563,10 @@
       "goal": false,
       "team": "home",
       "player": "Camara",
-      "player_full": "Abdoul Razzagui Camara",
+      "player_full": "Abdoul Camara",
       "minute": 40,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Goran Karanović",
       "minute": 66,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Romain Thomas",
       "minute": 76,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Romain Thomas",
       "minute": 82,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Goran Karanović",
       "minute": 86,
       "technique": "Diving Header",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,16 +641,19 @@
       "player_full": "Gaëtan Laborde",
       "minute": 89,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Romain Thomas",
         "short": "Thomas",
+        "name": "Romain Thomas",
         "x": 39.04,
         "y": 27.41,
         "size": 117.5,
@@ -652,6 +664,7 @@
       {
         "id": "Ismaël Traoré",
         "short": "Traoré",
+        "name": "Ismaël Traoré",
         "x": 43.94,
         "y": 55.86,
         "size": 142.5,
@@ -662,6 +675,7 @@
       {
         "id": "Yoann Andreu",
         "short": "Andreu",
+        "name": "Yoann Andreu",
         "x": 47.4,
         "y": 10.77,
         "size": 105.0,
@@ -672,6 +686,7 @@
       {
         "id": "Romain Saïss",
         "short": "Saïss",
+        "name": "Romain Saïss",
         "x": 47.93,
         "y": 33.89,
         "size": 120.6,
@@ -682,6 +697,7 @@
       {
         "id": "Gaël Angoula",
         "short": "Angoula",
+        "name": "Gaël Angoula",
         "x": 54.06,
         "y": 69.91,
         "size": 97.7,
@@ -692,6 +708,7 @@
       {
         "id": "Thomas Mangani",
         "short": "Mangani",
+        "name": "Thomas Mangani",
         "x": 56.28,
         "y": 20.85,
         "size": 80.0,
@@ -701,7 +718,8 @@
       },
       {
         "id": "Cheikh N''Doye",
-        "short": "N''Doye",
+        "short": "N'Doye",
+        "name": "Cheikh N'Doye",
         "x": 58.67,
         "y": 55.87,
         "size": 64.4,
@@ -712,6 +730,7 @@
       {
         "id": "Billy Ketkeophomphone",
         "short": "Ketkeophomp",
+        "name": "Billy Ketkeophomphone",
         "x": 73.91,
         "y": 38.58,
         "size": 83.1,
@@ -722,6 +741,7 @@
       {
         "id": "Gilles Sunu",
         "short": "Sunu",
+        "name": "Gilles Sunu",
         "x": 70.06,
         "y": 42.02,
         "size": 74.8,
@@ -732,6 +752,7 @@
       {
         "id": "Ludovic Butelle",
         "short": "Butelle",
+        "name": "Ludovic Butelle",
         "x": 10.19,
         "y": 40.05,
         "size": 60.2,
@@ -742,6 +763,7 @@
       {
         "id": "Abdoul Razzagui Camara",
         "short": "Camara",
+        "name": "Abdoul Camara",
         "x": 69.12,
         "y": 51.6,
         "size": 59.2,
@@ -926,6 +948,7 @@
       {
         "id": "Nicolas Maurice-Belay",
         "short": "Maurice-Bel",
+        "name": "Nicolas Maurice-Belay",
         "x": 61.84,
         "y": 22.78,
         "size": 142.6,
@@ -936,6 +959,7 @@
       {
         "id": "Abdoulaye Traoré",
         "short": "Traoré",
+        "name": "Abdou Traoré",
         "x": 60.73,
         "y": 38.51,
         "size": 120.5,
@@ -946,6 +970,7 @@
       {
         "id": "Frédéric Guilbert",
         "short": "Guilbert",
+        "name": "Frédéric Guilbert",
         "x": 42.52,
         "y": 55.68,
         "size": 95.7,
@@ -956,6 +981,7 @@
       {
         "id": "Cédric Yambéré",
         "short": "Yambéré",
+        "name": "Cédric Yambéré",
         "x": 43.97,
         "y": 26.81,
         "size": 98.4,
@@ -966,6 +992,7 @@
       {
         "id": "André Biyogo Poko",
         "short": "Poko",
+        "name": "André Poko",
         "x": 59.18,
         "y": 73.13,
         "size": 92.2,
@@ -976,6 +1003,7 @@
       {
         "id": "Wahbi Khazri",
         "short": "Khazri",
+        "name": "Wahbi Khazri",
         "x": 73.02,
         "y": 23.37,
         "size": 78.9,
@@ -986,6 +1014,7 @@
       {
         "id": "Diego Armando Valentin Contento",
         "short": "Contento",
+        "name": "Diego Contento",
         "x": 58.28,
         "y": 7.55,
         "size": 78.9,
@@ -996,6 +1025,7 @@
       {
         "id": "Jaroslav Plašil",
         "short": "Plašil",
+        "name": "Jaroslav Plašil",
         "x": 68.85,
         "y": 47.27,
         "size": 91.3,
@@ -1005,7 +1035,8 @@
       },
       {
         "id": "Diego Alejandro Rolan Silva",
-        "short": "Silva",
+        "short": "Rolán",
+        "name": "Diego Rolán",
         "x": 66.77,
         "y": 52.68,
         "size": 76.2,
@@ -1016,6 +1047,7 @@
       {
         "id": "Enzo Crivelli",
         "short": "Crivelli",
+        "name": "Enzo Crivelli",
         "x": 75.34,
         "y": 47.14,
         "size": 69.2,
@@ -1026,6 +1058,7 @@
       {
         "id": "Cédric Carrasso",
         "short": "Carrasso",
+        "name": "Cédric Carrasso",
         "x": 15.06,
         "y": 38.04,
         "size": 61.2,
@@ -1228,15 +1261,15 @@
         "n_actions": 183
       },
       {
-        "player": "André Biyogo Poko",
+        "player": "André Poko",
         "short": "Poko",
         "vaep": 0.6222,
         "role": "Progressor",
         "n_actions": 164
       },
       {
-        "player": "Diego Alejandro Rolan Silva",
-        "short": "Silva",
+        "player": "Diego Rolán",
+        "short": "Rolán",
         "vaep": 0.5645,
         "role": "Contributor",
         "n_actions": 143

@@ -506,6 +506,7 @@
       "player_full": "Mario Vrančić",
       "minute": 9,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Pascal Groß",
       "minute": 15,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Sandro Wagner",
       "minute": 19,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Pascal Groß",
       "minute": 45,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Konstantin Rausch",
       "minute": 46,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -573,9 +578,10 @@
       "goal": false,
       "team": "away",
       "player": "Lezcano",
-      "player_full": "Dario Lezcano",
+      "player_full": "Darío Lezcano",
       "minute": 48,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Konstantin Rausch",
       "minute": 50,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Sandro Wagner",
       "minute": 54,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Max Christiansen",
       "minute": 58,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -629,9 +638,10 @@
       "goal": false,
       "team": "away",
       "player": "Lezcano",
-      "player_full": "Dario Lezcano",
+      "player_full": "Darío Lezcano",
       "minute": 64,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Mathew Leckie",
       "minute": 71,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Benjamin Hübner",
       "minute": 76,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,16 +686,19 @@
       "player_full": "Sandro Wagner",
       "minute": 84,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Christian Mathenia",
         "short": "Mathenia",
+        "name": "Christian Mathenia",
         "x": 16.15,
         "y": 33.98,
         "size": 103.4,
@@ -694,6 +709,7 @@
       {
         "id": "Sandro Wagner",
         "short": "Wagner",
+        "name": "Sandro Wagner",
         "x": 68.88,
         "y": 34.99,
         "size": 151.8,
@@ -704,6 +720,7 @@
       {
         "id": "Mario Vrančić",
         "short": "Vrančić",
+        "name": "Mario Vrančić",
         "x": 47.98,
         "y": 34.51,
         "size": 84.0,
@@ -714,6 +731,7 @@
       {
         "id": "Peter Niemeyer",
         "short": "Niemeyer",
+        "name": "Peter Niemeyer",
         "x": 63.46,
         "y": 35.72,
         "size": 64.7,
@@ -724,6 +742,7 @@
       {
         "id": "Florian Jungwirth",
         "short": "Jungwirth",
+        "name": "Florian Jungwirth",
         "x": 56.35,
         "y": 73.47,
         "size": 84.0,
@@ -734,6 +753,7 @@
       {
         "id": "Marcel Heller",
         "short": "Heller",
+        "name": "Marcel Heller",
         "x": 79.98,
         "y": 62.8,
         "size": 87.3,
@@ -744,6 +764,7 @@
       {
         "id": "Jérôme Gondorf",
         "short": "Gondorf",
+        "name": "Jérôme Gondorf",
         "x": 53.73,
         "y": 37.17,
         "size": 119.5,
@@ -754,6 +775,7 @@
       {
         "id": "Konstantin Rausch",
         "short": "Rausch",
+        "name": "Konstantin Rausch",
         "x": 79.08,
         "y": 18.06,
         "size": 67.9,
@@ -764,6 +786,7 @@
       {
         "id": "Fabian Holland",
         "short": "Holland",
+        "name": "Fabian Holland",
         "x": 49.71,
         "y": 7.34,
         "size": 100.2,
@@ -772,24 +795,26 @@
         "eigenvector": 0.2584
       },
       {
-        "id": "Aytac Sulu",
-        "short": "Sulu",
-        "x": 29.08,
-        "y": 51.62,
-        "size": 67.9,
-        "is_playmaker": false,
-        "betweenness": 0.1278,
-        "eigenvector": 0.0315
-      },
-      {
         "id": "Luca Caldirola",
         "short": "Caldirola",
+        "name": "Luca Caldirola",
         "x": 45.17,
         "y": 34.2,
         "size": 74.4,
         "is_playmaker": true,
         "betweenness": 0.3944,
         "eigenvector": 0.1511
+      },
+      {
+        "id": "Aytac Sulu",
+        "short": "Sulu",
+        "name": "Aytac Sulu",
+        "x": 29.08,
+        "y": 51.62,
+        "size": 67.9,
+        "is_playmaker": false,
+        "betweenness": 0.1278,
+        "eigenvector": 0.0315
       }
     ],
     "edges": [
@@ -884,24 +909,6 @@
         "direction": "forward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "Christian Mathenia",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aytac Sulu",
-        "target": "Luca Caldirola",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Luca Caldirola",
-        "target": "Aytac Sulu",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Luca Caldirola",
         "target": "Mario Vrančić",
         "weight": 1,
@@ -912,6 +919,24 @@
         "target": "Jérôme Gondorf",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Luca Caldirola",
+        "target": "Aytac Sulu",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Christian Mathenia",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Luca Caldirola",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -920,6 +945,7 @@
       {
         "id": "Dario Lezcano",
         "short": "Lezcano",
+        "name": "Darío Lezcano",
         "x": 79.95,
         "y": 49.84,
         "size": 78.7,
@@ -930,6 +956,7 @@
       {
         "id": "Pascal Groß",
         "short": "Groß",
+        "name": "Pascal Groß",
         "x": 69.27,
         "y": 56.86,
         "size": 182.4,
@@ -940,6 +967,7 @@
       {
         "id": "Marvin Matip",
         "short": "Matip",
+        "name": "Marvin Matip",
         "x": 46.63,
         "y": 53.29,
         "size": 103.9,
@@ -949,7 +977,8 @@
       },
       {
         "id": "Danny Vieira da Costa",
-        "short": "Costa",
+        "short": "da Costa",
+        "name": "Danny da Costa",
         "x": 72.72,
         "y": 69.12,
         "size": 129.1,
@@ -960,6 +989,7 @@
       {
         "id": "Moritz Hartmann",
         "short": "Hartmann",
+        "name": "Moritz Hartmann",
         "x": 72.85,
         "y": 33.98,
         "size": 80.2,
@@ -970,6 +1000,7 @@
       {
         "id": "Ramazan Özcan",
         "short": "Özcan",
+        "name": "Ramazan Özcan",
         "x": 18.34,
         "y": 36.72,
         "size": 69.8,
@@ -980,6 +1011,7 @@
       {
         "id": "Lukas Hinterseer",
         "short": "Hinterseer",
+        "name": "Lukas Hinterseer",
         "x": 57.26,
         "y": 66.02,
         "size": 69.8,
@@ -990,6 +1022,7 @@
       {
         "id": "Max Christiansen",
         "short": "Christianse",
+        "name": "Max Christiansen",
         "x": 69.35,
         "y": 48.99,
         "size": 100.9,
@@ -1000,6 +1033,7 @@
       {
         "id": "Benjamin Hübner",
         "short": "Hübner",
+        "name": "Benjamin Hübner",
         "x": 39.4,
         "y": 24.5,
         "size": 65.4,
@@ -1010,6 +1044,7 @@
       {
         "id": "Roger de Oliveira Bernardo",
         "short": "Bernardo",
+        "name": "Roger Bernardo",
         "x": 59.73,
         "y": 40.77,
         "size": 63.9,
@@ -1020,6 +1055,7 @@
       {
         "id": "Robert Bauer",
         "short": "Bauer",
+        "name": "Robert Bauer",
         "x": 54.39,
         "y": 17.42,
         "size": 60.9,
@@ -1221,7 +1257,7 @@
     ],
     "away": [
       {
-        "player": "Dario Lezcano",
+        "player": "Darío Lezcano",
         "short": "Lezcano",
         "vaep": 0.8818,
         "role": "Contributor",
@@ -1242,8 +1278,8 @@
         "n_actions": 65
       },
       {
-        "player": "Danny Vieira da Costa",
-        "short": "Costa",
+        "player": "Danny da Costa",
+        "short": "da Costa",
         "vaep": 0.3208,
         "role": "Progressor",
         "n_actions": 159

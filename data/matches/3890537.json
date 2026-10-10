@@ -7,7 +7,7 @@
     "home_color": "#e1000f",
     "away_color_raw": "#c3161c",
     "away_color": "#c3161c",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 1,
     "penalty_home": null,
     "penalty_away": null,
@@ -506,6 +506,7 @@
       "player_full": "Suat Serdar",
       "minute": 14,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Daniel Brosinski",
       "minute": 17,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Haris Seferović",
       "minute": 26,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Marco Russ",
       "minute": 27,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Marco Russ",
       "minute": 36,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Haris Seferović",
       "minute": 40,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Makoto Hasebe",
       "minute": 46,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Änis Ben-Hatira",
       "minute": 57,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -614,10 +622,11 @@
       "xg": 0.0153,
       "goal": false,
       "team": "away",
-      "player": "Bustara",
-      "player_full": "Jairo Samperio Bustara",
+      "player": "Samperio",
+      "player_full": "Jairo Samperio",
       "minute": 61,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Haris Seferović",
       "minute": 63,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -642,10 +652,11 @@
       "xg": 0.1357,
       "goal": false,
       "team": "away",
-      "player": "Copete",
-      "player_full": "Jhon Andrés Córdoba Copete",
+      "player": "Córdoba",
+      "player_full": "Jhon Córdoba",
       "minute": 64,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Haris Seferović",
       "minute": 66,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Stefan Bell",
       "minute": 77,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Christian Clemens",
       "minute": 79,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,6 +716,7 @@
       "player_full": "Leon Aderemi Balogun",
       "minute": 80,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -712,13 +727,23 @@
       "xg": 0.1849,
       "goal": false,
       "team": "away",
-      "player": "Bustara",
-      "player_full": "Jairo Samperio Bustara",
+      "player": "Samperio",
+      "player_full": "Jairo Samperio",
       "minute": 88,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Bell",
+      "player_full": "Stefan Bell",
+      "minute": 83,
+      "period": 2
     }
   ],
   "network_home": {
@@ -726,6 +751,7 @@
       {
         "id": "Szabolcs Huszti",
         "short": "Huszti",
+        "name": "Szabolcs Huszti",
         "x": 54.4,
         "y": 16.95,
         "size": 105.0,
@@ -736,6 +762,7 @@
       {
         "id": "Bastian Oczipka",
         "short": "Oczipka",
+        "name": "Bastian Oczipka",
         "x": 54.53,
         "y": 8.0,
         "size": 128.2,
@@ -746,6 +773,7 @@
       {
         "id": "Yanni Regäsel",
         "short": "Regäsel",
+        "name": "Yanni Regäsel",
         "x": 66.99,
         "y": 72.88,
         "size": 100.1,
@@ -756,6 +784,7 @@
       {
         "id": "David Ángel Abraham",
         "short": "Abraham",
+        "name": "David Abraham",
         "x": 36.21,
         "y": 58.33,
         "size": 117.2,
@@ -766,6 +795,7 @@
       {
         "id": "Marco Russ",
         "short": "Russ",
+        "name": "Marco Russ",
         "x": 36.67,
         "y": 26.19,
         "size": 90.4,
@@ -776,6 +806,7 @@
       {
         "id": "Lukáš Hrádecký",
         "short": "Hrádecký",
+        "name": "Lukáš Hrádecký",
         "x": 17.83,
         "y": 41.26,
         "size": 92.8,
@@ -786,6 +817,7 @@
       {
         "id": "Änis Ben-Hatira",
         "short": "Ben-Hatira",
+        "name": "Änis Ben-Hatira",
         "x": 69.75,
         "y": 16.8,
         "size": 94.0,
@@ -796,6 +828,7 @@
       {
         "id": "Mijat Gaćinović",
         "short": "Gaćinović",
+        "name": "Mijat Gaćinović",
         "x": 66.95,
         "y": 40.45,
         "size": 66.0,
@@ -806,6 +839,7 @@
       {
         "id": "Makoto Hasebe",
         "short": "Hasebe",
+        "name": "Makoto Hasebe",
         "x": 59.6,
         "y": 46.25,
         "size": 73.3,
@@ -816,6 +850,7 @@
       {
         "id": "Haris Seferović",
         "short": "Seferović",
+        "name": "Haris Seferović",
         "x": 71.0,
         "y": 33.98,
         "size": 78.2,
@@ -826,6 +861,7 @@
       {
         "id": "Stefan Aigner",
         "short": "Aigner",
+        "name": "Stefan Aigner",
         "x": 57.15,
         "y": 48.52,
         "size": 59.9,
@@ -980,6 +1016,7 @@
       {
         "id": "Giulio Donati",
         "short": "Donati",
+        "name": "Giulio Donati",
         "x": 38.2,
         "y": 10.86,
         "size": 85.8,
@@ -989,7 +1026,8 @@
       },
       {
         "id": "Jairo Samperio Bustara",
-        "short": "Bustara",
+        "short": "Samperio",
+        "name": "Jairo Samperio",
         "x": 67.54,
         "y": 22.78,
         "size": 94.6,
@@ -1000,6 +1038,7 @@
       {
         "id": "Suat Serdar",
         "short": "Serdar",
+        "name": "Suat Serdar",
         "x": 49.85,
         "y": 32.28,
         "size": 66.0,
@@ -1010,6 +1049,7 @@
       {
         "id": "Daniel Brosinski",
         "short": "Brosinski",
+        "name": "Daniel Brosinski",
         "x": 57.94,
         "y": 73.47,
         "size": 156.1,
@@ -1020,6 +1060,7 @@
       {
         "id": "Loris Karius",
         "short": "Karius",
+        "name": "Loris Karius",
         "x": 13.17,
         "y": 44.27,
         "size": 125.3,
@@ -1030,6 +1071,7 @@
       {
         "id": "Leon Aderemi Balogun",
         "short": "Balogun",
+        "name": "Leon Aderemi Balogun",
         "x": 40.86,
         "y": 24.71,
         "size": 96.8,
@@ -1040,6 +1082,7 @@
       {
         "id": "Yunus Mallı",
         "short": "Mallı",
+        "name": "Yunus Mallı",
         "x": 62.38,
         "y": 41.39,
         "size": 63.8,
@@ -1050,6 +1093,7 @@
       {
         "id": "Stefan Bell",
         "short": "Bell",
+        "name": "Stefan Bell",
         "x": 41.41,
         "y": 51.34,
         "size": 101.2,
@@ -1059,7 +1103,8 @@
       },
       {
         "id": "Pablo Ezequiel De Blasis",
-        "short": "Blasis",
+        "short": "de Blasis",
+        "name": "Pablo de Blasis",
         "x": 57.35,
         "y": 57.58,
         "size": 88.0,
@@ -1069,7 +1114,8 @@
       },
       {
         "id": "Jhon Andrés Córdoba Copete",
-        "short": "Copete",
+        "short": "Córdoba",
+        "name": "Jhon Córdoba",
         "x": 66.55,
         "y": 41.63,
         "size": 63.8,
@@ -1080,6 +1126,7 @@
       {
         "id": "Julian Baumgartlinger",
         "short": "Baumgartlin",
+        "name": "Julian Baumgartlinger",
         "x": 51.71,
         "y": 46.68,
         "size": 63.8,
@@ -1248,8 +1295,8 @@
         "n_actions": 93
       },
       {
-        "player": "Pablo Ezequiel De Blasis",
-        "short": "Blasis",
+        "player": "Pablo de Blasis",
+        "short": "de Blasis",
         "vaep": 0.4006,
         "role": "Carrier",
         "n_actions": 121

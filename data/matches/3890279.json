@@ -8,7 +8,7 @@
     "away_color_raw": "#e1000f",
     "away_color": "#e1000f",
     "score_home": 1,
-    "score_away": 3,
+    "score_away": 4,
     "penalty_home": null,
     "penalty_away": null,
     "has_extra_time": false,
@@ -506,6 +506,7 @@
       "player_full": "Marc Stendera",
       "minute": 0,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Christian Gentner",
       "minute": 24,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Daniel Ginczek",
       "minute": 26,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Daniel Didavi",
       "minute": 28,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Daniel Didavi",
       "minute": 29,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Daniel Didavi",
       "minute": 31,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Martin Harnik",
       "minute": 33,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Luc Castaignos",
       "minute": 41,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Daniel Ginczek",
       "minute": 42,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Filip Kostić",
       "minute": 42,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Haris Seferović",
       "minute": 46,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Timo Werner",
       "minute": 54,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Timo Werner",
       "minute": 55,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Daniel Didavi",
       "minute": 59,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,6 +716,7 @@
       "player_full": "Timo Baumgartl",
       "minute": 63,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -716,6 +731,7 @@
       "player_full": "Stefan Aigner",
       "minute": 64,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -730,6 +746,7 @@
       "player_full": "Haris Seferović",
       "minute": 68,
       "technique": "Normal",
+      "shot_type": "Penalty",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -744,6 +761,7 @@
       "player_full": "Christian Gentner",
       "minute": 69,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -758,6 +776,7 @@
       "player_full": "Christian Gentner",
       "minute": 84,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -772,9 +791,19 @@
       "player_full": "Luc Castaignos",
       "minute": 86,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "away",
+      "player": "Hloušek",
+      "player_full": "Adam Hloušek",
+      "minute": 10,
+      "period": 1
     }
   ],
   "network_home": {
@@ -782,6 +811,7 @@
       {
         "id": "Timo Baumgartl",
         "short": "Baumgartl",
+        "name": "Timo Baumgartl",
         "x": 42.99,
         "y": 50.9,
         "size": 139.4,
@@ -792,6 +822,7 @@
       {
         "id": "Adam Hloušek",
         "short": "Hloušek",
+        "name": "Adam Hloušek",
         "x": 44.33,
         "y": 22.43,
         "size": 112.8,
@@ -802,6 +833,7 @@
       {
         "id": "Daniel Schwaab",
         "short": "Schwaab",
+        "name": "Daniel Schwaab",
         "x": 62.48,
         "y": 72.24,
         "size": 108.1,
@@ -812,6 +844,7 @@
       {
         "id": "Christian Gentner",
         "short": "Gentner",
+        "name": "Christian Gentner",
         "x": 67.66,
         "y": 48.0,
         "size": 90.9,
@@ -822,6 +855,7 @@
       {
         "id": "Daniel Ginczek",
         "short": "Ginczek",
+        "name": "Daniel Ginczek",
         "x": 81.18,
         "y": 47.99,
         "size": 76.9,
@@ -831,7 +865,8 @@
       },
       {
         "id": "Emiliano Adrián Insúa Zapata",
-        "short": "Zapata",
+        "short": "Insúa",
+        "name": "Emiliano Insúa",
         "x": 68.78,
         "y": 8.39,
         "size": 98.8,
@@ -842,6 +877,7 @@
       {
         "id": "Filip Kostić",
         "short": "Kostić",
+        "name": "Filip Kostić",
         "x": 81.9,
         "y": 21.97,
         "size": 86.2,
@@ -852,6 +888,7 @@
       {
         "id": "Przemysław Tytoń",
         "short": "Tytoń",
+        "name": "Przemysław Tytoń",
         "x": 15.32,
         "y": 41.41,
         "size": 81.6,
@@ -861,7 +898,8 @@
       },
       {
         "id": "Sereso Geoffroy Gonzaroua Dié",
-        "short": "Dié",
+        "short": "Serey Dié",
+        "name": "Geoffroy Serey Dié",
         "x": 60.19,
         "y": 29.15,
         "size": 76.9,
@@ -872,6 +910,7 @@
       {
         "id": "Daniel Didavi",
         "short": "Didavi",
+        "name": "Daniel Didavi",
         "x": 74.41,
         "y": 40.24,
         "size": 72.2,
@@ -882,6 +921,7 @@
       {
         "id": "Martin Harnik",
         "short": "Harnik",
+        "name": "Martin Harnik",
         "x": 80.29,
         "y": 41.31,
         "size": 61.2,
@@ -1030,6 +1070,7 @@
       {
         "id": "Stefan Reinartz",
         "short": "Reinartz",
+        "name": "Stefan Reinartz",
         "x": 50.36,
         "y": 34.43,
         "size": 124.1,
@@ -1040,6 +1081,7 @@
       {
         "id": "Bastian Oczipka",
         "short": "Oczipka",
+        "name": "Bastian Oczipka",
         "x": 54.21,
         "y": 9.5,
         "size": 97.6,
@@ -1050,6 +1092,7 @@
       {
         "id": "Marc Stendera",
         "short": "Stendera",
+        "name": "Marc Stendera",
         "x": 65.06,
         "y": 17.9,
         "size": 82.9,
@@ -1060,6 +1103,7 @@
       {
         "id": "Lukáš Hrádecký",
         "short": "Hrádecký",
+        "name": "Lukáš Hrádecký",
         "x": 12.93,
         "y": 42.32,
         "size": 75.6,
@@ -1070,6 +1114,7 @@
       {
         "id": "Haris Seferović",
         "short": "Seferović",
+        "name": "Haris Seferović",
         "x": 73.53,
         "y": 50.23,
         "size": 100.6,
@@ -1080,6 +1125,7 @@
       {
         "id": "Timothy Chandler",
         "short": "Chandler",
+        "name": "Timothy Chandler",
         "x": 50.76,
         "y": 72.96,
         "size": 85.9,
@@ -1090,6 +1136,7 @@
       {
         "id": "Stefan Aigner",
         "short": "Aigner",
+        "name": "Stefan Aigner",
         "x": 73.45,
         "y": 68.39,
         "size": 106.5,
@@ -1099,7 +1146,8 @@
       },
       {
         "id": "Carlos Augusto Zambrano Ochandarte",
-        "short": "Ochandarte",
+        "short": "Zambrano",
+        "name": "Carlos Zambrano",
         "x": 42.76,
         "y": 60.11,
         "size": 96.2,
@@ -1110,6 +1158,7 @@
       {
         "id": "Makoto Hasebe",
         "short": "Hasebe",
+        "name": "Makoto Hasebe",
         "x": 56.79,
         "y": 66.43,
         "size": 110.9,
@@ -1120,6 +1169,7 @@
       {
         "id": "Luc Castaignos",
         "short": "Castaignos",
+        "name": "Luc Castaignos",
         "x": 72.95,
         "y": 48.02,
         "size": 62.4,
@@ -1130,6 +1180,7 @@
       {
         "id": "Marco Russ",
         "short": "Russ",
+        "name": "Marco Russ",
         "x": 37.7,
         "y": 30.97,
         "size": 62.4,
@@ -1302,8 +1353,8 @@
         "n_actions": 102
       },
       {
-        "player": "Sereso Geoffroy Gonzaroua Dié",
-        "short": "Dié",
+        "player": "Geoffroy Serey Dié",
+        "short": "Serey Dié",
         "vaep": 1.4072,
         "role": "Progressor",
         "n_actions": 136
@@ -1346,8 +1397,8 @@
         "n_actions": 144
       },
       {
-        "player": "Carlos Augusto Zambrano Ochandarte",
-        "short": "Ochandarte",
+        "player": "Carlos Zambrano",
+        "short": "Zambrano",
         "vaep": 0.6767,
         "role": "Presser",
         "n_actions": 137

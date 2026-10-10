@@ -506,6 +506,7 @@
       "player_full": "Maxime Gonalons",
       "minute": 3,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Rachid Ghezzal",
       "minute": 9,
       "technique": "Normal",
+      "shot_type": "Corner",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Jacques Zoua Daogari",
       "minute": 27,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "John Tshibumbu",
       "minute": 29,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -559,9 +563,10 @@
       "goal": false,
       "team": "home",
       "player": "Umtiti",
-      "player_full": "Samuel Yves Umtiti",
+      "player_full": "Samuel Umtiti",
       "minute": 30,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -573,9 +578,10 @@
       "goal": true,
       "team": "home",
       "player": "Cornet",
-      "player_full": "Gnaly Maxwell Cornet",
+      "player_full": "Maxwel Cornet",
       "minute": 39,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "John Tshibumbu",
       "minute": 46,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Grégory Pujol",
       "minute": 48,
       "technique": "Lob",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Clément Grenier",
       "minute": 74,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Alexandre Lacazette",
       "minute": 78,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Kévin Mayi",
       "minute": 88,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,16 +671,19 @@
       "player_full": "Alexandre Coeff",
       "minute": 88,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Samuel Yves Umtiti",
         "short": "Umtiti",
+        "name": "Samuel Umtiti",
         "x": 49.09,
         "y": 23.81,
         "size": 134.4,
@@ -680,6 +694,7 @@
       {
         "id": "Mapou Yanga-Mbiwa",
         "short": "Yanga-Mbiwa",
+        "name": "Mapou Yanga-Mbiwa",
         "x": 44.65,
         "y": 53.52,
         "size": 125.5,
@@ -689,7 +704,8 @@
       },
       {
         "id": "Rafael Pereira da Silva",
-        "short": "Silva",
+        "short": "Rafael",
+        "name": "Rafael",
         "x": 61.74,
         "y": 69.56,
         "size": 112.8,
@@ -699,7 +715,8 @@
       },
       {
         "id": "Henri Bedimo Nsamè",
-        "short": "Nsamè",
+        "short": "Bedimo",
+        "name": "Henri Bedimo",
         "x": 58.78,
         "y": 11.43,
         "size": 108.3,
@@ -710,6 +727,7 @@
       {
         "id": "Gnaly Maxwell Cornet",
         "short": "Cornet",
+        "name": "Maxwel Cornet",
         "x": 71.36,
         "y": 17.2,
         "size": 79.1,
@@ -720,6 +738,7 @@
       {
         "id": "Corentin Tolisso",
         "short": "Tolisso",
+        "name": "Corentin Tolisso",
         "x": 63.84,
         "y": 35.86,
         "size": 93.1,
@@ -730,6 +749,7 @@
       {
         "id": "Jordan Ferri",
         "short": "Ferri",
+        "name": "Jordan Ferri",
         "x": 64.55,
         "y": 50.24,
         "size": 81.0,
@@ -740,6 +760,7 @@
       {
         "id": "Rachid Ghezzal",
         "short": "Ghezzal",
+        "name": "Rachid Ghezzal",
         "x": 71.0,
         "y": 54.44,
         "size": 69.6,
@@ -750,6 +771,7 @@
       {
         "id": "Maxime Gonalons",
         "short": "Gonalons",
+        "name": "Maxime Gonalons",
         "x": 55.11,
         "y": 49.94,
         "size": 76.0,
@@ -760,6 +782,7 @@
       {
         "id": "Alexandre Lacazette",
         "short": "Lacazette",
+        "name": "Alexandre Lacazette",
         "x": 76.45,
         "y": 46.72,
         "size": 65.2,
@@ -770,6 +793,7 @@
       {
         "id": "Anthony Lopes",
         "short": "Lopes",
+        "name": "Anthony Lopes",
         "x": 13.82,
         "y": 41.52,
         "size": 60.1,
@@ -930,6 +954,7 @@
       {
         "id": "Jacques Zoua Daogari",
         "short": "Daogari",
+        "name": "Jacques Zoua Daogari",
         "x": 68.17,
         "y": 35.83,
         "size": 126.0,
@@ -940,6 +965,7 @@
       {
         "id": "Pablo Jean Antoine Martínez",
         "short": "Martínez",
+        "name": "Pablo Jean Antoine Martínez",
         "x": 43.13,
         "y": 32.72,
         "size": 67.9,
@@ -950,6 +976,7 @@
       {
         "id": "Issiaga Sylla",
         "short": "Sylla",
+        "name": "Issiaga Sylla",
         "x": 62.13,
         "y": 8.21,
         "size": 138.9,
@@ -960,6 +987,7 @@
       {
         "id": "Alassane Touré",
         "short": "Touré",
+        "name": "Alassane Touré",
         "x": 50.17,
         "y": 71.54,
         "size": 132.4,
@@ -970,6 +998,7 @@
       {
         "id": "Roderic Filippi",
         "short": "Filippi",
+        "name": "Rodéric Filippi",
         "x": 33.29,
         "y": 48.47,
         "size": 80.8,
@@ -980,6 +1009,7 @@
       {
         "id": "Damjan Đoković",
         "short": "Đoković",
+        "name": "Damjan Đoković",
         "x": 56.47,
         "y": 33.46,
         "size": 84.0,
@@ -990,6 +1020,7 @@
       {
         "id": "Clément Maury",
         "short": "Maury",
+        "name": "Clément Maury",
         "x": 18.39,
         "y": 39.56,
         "size": 80.8,
@@ -1000,6 +1031,7 @@
       {
         "id": "John Tshibumbu",
         "short": "Tshibumbu",
+        "name": "John Tshibumbu",
         "x": 82.22,
         "y": 11.14,
         "size": 84.0,
@@ -1008,8 +1040,20 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Louis Poggi",
+        "short": "Poggi",
+        "name": "Louis Poggi",
+        "x": 50.76,
+        "y": 64.76,
+        "size": 67.9,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0945
+      },
+      {
         "id": "Abdou Kader Mangane",
         "short": "Mangane",
+        "name": "Kader Mangane",
         "x": 58.79,
         "y": 47.38,
         "size": 74.4,
@@ -1020,22 +1064,13 @@
       {
         "id": "Mohamed Amine Chermiti",
         "short": "Chermiti",
+        "name": "Amine Chermiti",
         "x": 58.11,
         "y": 40.53,
         "size": 67.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0037
-      },
-      {
-        "id": "Louis Poggi",
-        "short": "Poggi",
-        "x": 50.76,
-        "y": 64.76,
-        "size": 67.9,
-        "is_playmaker": true,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0945
       }
     ],
     "edges": [
@@ -1118,6 +1153,24 @@
         "direction": "backward"
       },
       {
+        "source": "Louis Poggi",
+        "target": "Alassane Touré",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Louis Poggi",
+        "target": "Abdou Kader Mangane",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Abdou Kader Mangane",
+        "target": "Louis Poggi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Abdou Kader Mangane",
         "target": "Mohamed Amine Chermiti",
         "weight": 1,
@@ -1130,12 +1183,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Abdou Kader Mangane",
-        "target": "Louis Poggi",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Mohamed Amine Chermiti",
         "target": "Abdou Kader Mangane",
         "weight": 1,
@@ -1146,26 +1193,14 @@
         "target": "Damjan Đoković",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Louis Poggi",
-        "target": "Alassane Touré",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Louis Poggi",
-        "target": "Abdou Kader Mangane",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },
   "vaep": {
     "home": [
       {
-        "player": "Rafael Pereira da Silva",
-        "short": "Silva",
+        "player": "Rafael",
+        "short": "Rafael",
         "vaep": 0.3084,
         "role": "Progressor",
         "n_actions": 234
@@ -1178,7 +1213,7 @@
         "n_actions": 197
       },
       {
-        "player": "Gnaly Maxwell Cornet",
+        "player": "Maxwel Cornet",
         "short": "Cornet",
         "vaep": 0.2196,
         "role": "Contributor",
@@ -1208,7 +1243,7 @@
         "n_actions": 62
       },
       {
-        "player": "Abdou Kader Mangane",
+        "player": "Kader Mangane",
         "short": "Mangane",
         "vaep": 0.2843,
         "role": "Contributor",

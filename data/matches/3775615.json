@@ -7,7 +7,7 @@
     "home_color": "#0b59ff",
     "away_color_raw": "#670e36",
     "away_color": "#e5428b",
-    "score_home": 2,
+    "score_home": 3,
     "score_away": 1,
     "penalty_home": null,
     "penalty_away": null,
@@ -506,6 +506,7 @@
       "player_full": "Caroline Siems",
       "minute": 2,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Marisa Ewers",
       "minute": 2,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Nadine Hanssen",
       "minute": 5,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Alexandra Morgan Carrasco",
       "minute": 12,
       "technique": "Normal",
+      "shot_type": "Penalty",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Rosella Ayane",
       "minute": 21,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Nadine Hanssen",
       "minute": 23,
       "technique": "Lob",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Ria Percival",
       "minute": 35,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Emma Follis",
       "minute": 48,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Angela Addison",
       "minute": 49,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Ria Percival",
       "minute": 53,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Kerys Harrop",
       "minute": 56,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Rosella Ayane",
       "minute": 62,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Rosella Ayane",
       "minute": 69,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -685,9 +698,10 @@
       "goal": false,
       "team": "away",
       "player": "Silva",
-      "player_full": "Diana Micaela Abreu de Sousa e Silva",
+      "player_full": "Diana Silva",
       "minute": 80,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,6 +716,7 @@
       "player_full": "Caroline Siems",
       "minute": 82,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -716,6 +731,7 @@
       "player_full": "Rachel Williams",
       "minute": 82,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -730,6 +746,7 @@
       "player_full": "Jodie Hutton",
       "minute": 84,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -741,12 +758,22 @@
       "goal": false,
       "team": "away",
       "player": "Silva",
-      "player_full": "Diana Micaela Abreu de Sousa e Silva",
+      "player_full": "Diana Silva",
       "minute": 92,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Siems",
+      "player_full": "Caroline Siems",
+      "minute": 35,
+      "period": 1
     }
   ],
   "network_home": {
@@ -754,6 +781,7 @@
       {
         "id": "Kerys Harrop",
         "short": "Harrop",
+        "name": "Kerys Harrop",
         "x": 50.83,
         "y": 9.47,
         "size": 116.5,
@@ -764,6 +792,7 @@
       {
         "id": "Shelina Laura Zadorsky",
         "short": "Zadorsky",
+        "name": "Shelina Laura Zadorsky",
         "x": 36.47,
         "y": 23.04,
         "size": 137.0,
@@ -774,6 +803,7 @@
       {
         "id": "Hannah Godfrey",
         "short": "Godfrey",
+        "name": "Hannah Godfrey",
         "x": 32.69,
         "y": 55.09,
         "size": 136.1,
@@ -784,6 +814,7 @@
       {
         "id": "Ashleigh Neville",
         "short": "Neville",
+        "name": "Ashleigh Neville",
         "x": 47.21,
         "y": 69.98,
         "size": 94.3,
@@ -794,6 +825,7 @@
       {
         "id": "Rebecca Leigh Spencer",
         "short": "Spencer",
+        "name": "Rebecca Spencer",
         "x": 11.69,
         "y": 38.52,
         "size": 100.9,
@@ -804,6 +836,7 @@
       {
         "id": "Ria Percival",
         "short": "Percival",
+        "name": "Ria Percival",
         "x": 57.84,
         "y": 34.68,
         "size": 72.2,
@@ -814,6 +847,7 @@
       {
         "id": "Alanna Stephanie Kennedy",
         "short": "Kennedy",
+        "name": "Alanna Stephanie Kennedy",
         "x": 56.21,
         "y": 33.92,
         "size": 87.8,
@@ -824,6 +858,7 @@
       {
         "id": "Rosella Ayane",
         "short": "Ayane",
+        "name": "Rosella Ayane",
         "x": 71.08,
         "y": 20.32,
         "size": 68.1,
@@ -834,6 +869,7 @@
       {
         "id": "Alexandra Morgan Carrasco",
         "short": "Carrasco",
+        "name": "Alexandra Morgan Carrasco",
         "x": 81.92,
         "y": 46.12,
         "size": 72.2,
@@ -844,6 +880,7 @@
       {
         "id": "Angela Addison",
         "short": "Addison",
+        "name": "Angela Addison",
         "x": 70.17,
         "y": 54.58,
         "size": 60.7,
@@ -854,6 +891,7 @@
       {
         "id": "Kit Graham",
         "short": "Graham",
+        "name": "Kit Graham",
         "x": 73.44,
         "y": 40.21,
         "size": 59.1,
@@ -1014,6 +1052,7 @@
       {
         "id": "Elisha N''Dow",
         "short": "N''Dow",
+        "name": "Elisha N''Dow",
         "x": 34.4,
         "y": 55.92,
         "size": 122.0,
@@ -1024,6 +1063,7 @@
       {
         "id": "Asmita Ale",
         "short": "Ale",
+        "name": "Asmita Ale",
         "x": 52.26,
         "y": 71.13,
         "size": 130.5,
@@ -1034,6 +1074,7 @@
       {
         "id": "Lisa Weiß",
         "short": "Weiß",
+        "name": "Lisa Weiß",
         "x": 9.57,
         "y": 39.18,
         "size": 112.4,
@@ -1044,6 +1085,7 @@
       {
         "id": "Natalie Haigh",
         "short": "Haigh",
+        "name": "Natalie Haigh",
         "x": 28.66,
         "y": 20.37,
         "size": 109.3,
@@ -1054,6 +1096,7 @@
       {
         "id": "Marisa Ewers",
         "short": "Ewers",
+        "name": "Marisa Ewers",
         "x": 50.32,
         "y": 46.84,
         "size": 89.0,
@@ -1064,6 +1107,7 @@
       {
         "id": "Ramona Petzelberger",
         "short": "Petzelberge",
+        "name": "Ramona Petzelberger",
         "x": 59.92,
         "y": 65.44,
         "size": 98.6,
@@ -1074,6 +1118,7 @@
       {
         "id": "Caroline Siems",
         "short": "Siems",
+        "name": "Caroline Siems",
         "x": 53.57,
         "y": 13.31,
         "size": 82.7,
@@ -1084,6 +1129,7 @@
       {
         "id": "Nadine Hanssen",
         "short": "Hanssen",
+        "name": "Nadine Hanssen",
         "x": 70.88,
         "y": 42.34,
         "size": 73.1,
@@ -1094,6 +1140,7 @@
       {
         "id": "Anita Amma Ankyewah Asante",
         "short": "Asante",
+        "name": "Anita Asante",
         "x": 58.08,
         "y": 32.22,
         "size": 65.6,
@@ -1104,6 +1151,7 @@
       {
         "id": "Emma Follis",
         "short": "Follis",
+        "name": "Emma Follis",
         "x": 68.87,
         "y": 23.81,
         "size": 62.4,
@@ -1114,6 +1162,7 @@
       {
         "id": "Shania Hayles",
         "short": "Hayles",
+        "name": "Shania Hayles",
         "x": 87.67,
         "y": 25.64,
         "size": 59.3,
@@ -1340,7 +1389,7 @@
         "n_actions": 157
       },
       {
-        "player": "Diana Micaela Abreu de Sousa e Silva",
+        "player": "Diana Silva",
         "short": "Silva",
         "vaep": 0.406,
         "role": "Contributor",

@@ -502,10 +502,11 @@
       "xg": 0.7835,
       "goal": true,
       "team": "away",
-      "player": "Lastra",
-      "player_full": "Enner Remberto Valencia Lastra",
+      "player": "Valencia",
+      "player_full": "Enner Valencia",
       "minute": 15,
       "technique": "Normal",
+      "shot_type": "Penalty",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -516,10 +517,11 @@
       "xg": 0.0577,
       "goal": false,
       "team": "away",
-      "player": "Mina",
-      "player_full": "Romario Andrés Ibarra Mina",
+      "player": "Ibarra",
+      "player_full": "Romario Ibarra",
       "minute": 28,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -530,10 +532,11 @@
       "xg": 0.0888,
       "goal": true,
       "team": "away",
-      "player": "Lastra",
-      "player_full": "Enner Remberto Valencia Lastra",
+      "player": "Valencia",
+      "player_full": "Enner Valencia",
       "minute": 30,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -544,10 +547,11 @@
       "xg": 0.0062,
       "goal": false,
       "team": "home",
-      "player": "Fadlalla",
-      "player_full": "Abdelkarim Hassan Al Haj Fadlalla",
+      "player": "Hassan",
+      "player_full": "Abdelkarim Hassan",
       "minute": 32,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -558,10 +562,11 @@
       "xg": 0.2127,
       "goal": false,
       "team": "home",
-      "player": "Abdulla",
-      "player_full": "Almoez Ali Zainalabiddin Abdulla",
+      "player": "Ali",
+      "player_full": "Almoez Ali",
       "minute": 49,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -572,10 +577,11 @@
       "xg": 0.0066,
       "goal": false,
       "team": "away",
-      "player": "Quiñónez",
-      "player_full": "Angelo Smit Preciado Quiñónez",
+      "player": "Preciado",
+      "player_full": "Angelo Preciado",
       "minute": 51,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -586,10 +592,11 @@
       "xg": 0.0789,
       "goal": false,
       "team": "away",
-      "player": "Mina",
-      "player_full": "Romario Andrés Ibarra Mina",
+      "player": "Ibarra",
+      "player_full": "Romario Ibarra",
       "minute": 54,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Pedro Miguel Correia",
       "minute": 61,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -615,9 +623,10 @@
       "goal": false,
       "team": "home",
       "player": "Afif",
-      "player_full": "Akram Hassan Afif",
+      "player_full": "Akram Afif",
       "minute": 74,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Mohammed Muntari",
       "minute": 85,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,16 +656,19 @@
       "player_full": "Kevin José Rodríguez Cortez",
       "minute": 94,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Boualem Khoukhi",
         "short": "Khoukhi",
+        "name": "Boualem Khoukhi",
         "x": 34.32,
         "y": 37.05,
         "size": 146.3,
@@ -665,7 +678,8 @@
       },
       {
         "id": "Abdelkarim Hassan Al Haj Fadlalla",
-        "short": "Fadlalla",
+        "short": "Hassan",
+        "name": "Abdelkarim Hassan",
         "x": 46.02,
         "y": 14.14,
         "size": 137.6,
@@ -675,7 +689,8 @@
       },
       {
         "id": "Bassam Hisham Al Rawi",
-        "short": "Rawi",
+        "short": "Hisham",
+        "name": "Bassam Hisham",
         "x": 42.19,
         "y": 61.24,
         "size": 106.3,
@@ -686,6 +701,7 @@
       {
         "id": "Karim Boudiaf",
         "short": "Boudiaf",
+        "name": "Karim Boudiaf",
         "x": 57.14,
         "y": 44.47,
         "size": 97.6,
@@ -696,6 +712,7 @@
       {
         "id": "Pedro Miguel Correia",
         "short": "Correia",
+        "name": "Pedro Miguel Correia",
         "x": 62.64,
         "y": 72.38,
         "size": 75.9,
@@ -705,7 +722,8 @@
       },
       {
         "id": "Abdulaziz Hatem Mohammed Abdullah",
-        "short": "Abdullah",
+        "short": "Hatem",
+        "name": "Abdulaziz Hatem",
         "x": 57.74,
         "y": 30.12,
         "size": 88.9,
@@ -716,6 +734,7 @@
       {
         "id": "Akram Hassan Afif",
         "short": "Afif",
+        "name": "Akram Afif",
         "x": 61.1,
         "y": 36.04,
         "size": 96.7,
@@ -726,6 +745,7 @@
       {
         "id": "Homam Alamin Ahmed",
         "short": "Ahmed",
+        "name": "Homam Ahmed",
         "x": 58.77,
         "y": 7.9,
         "size": 69.8,
@@ -735,7 +755,8 @@
       },
       {
         "id": "Hassan Khalid Al Heidos",
-        "short": "Heidos",
+        "short": "Al Heidos",
+        "name": "Hassan Al Heidos",
         "x": 60.46,
         "y": 58.26,
         "size": 67.2,
@@ -745,7 +766,8 @@
       },
       {
         "id": "Saad Abdullah Al Sheeb",
-        "short": "Sheeb",
+        "short": "Al Sheeb",
+        "name": "Saad Al Sheeb",
         "x": 12.29,
         "y": 43.27,
         "size": 60.2,
@@ -755,7 +777,8 @@
       },
       {
         "id": "Almoez Ali Zainalabiddin Abdulla",
-        "short": "Abdulla",
+        "short": "Ali",
+        "name": "Almoez Ali",
         "x": 65.44,
         "y": 42.93,
         "size": 58.5,
@@ -939,7 +962,8 @@
     "nodes": [
       {
         "id": "Jhegson Sebastián Méndez Carabalí",
-        "short": "Carabalí",
+        "short": "Méndez",
+        "name": "Jhegson Méndez",
         "x": 42.36,
         "y": 45.09,
         "size": 140.4,
@@ -949,7 +973,8 @@
       },
       {
         "id": "Piero Martín Hincapié Reyna",
-        "short": "Reyna",
+        "short": "Hincapié",
+        "name": "Piero Hincapié",
         "x": 37.91,
         "y": 22.12,
         "size": 138.3,
@@ -959,7 +984,8 @@
       },
       {
         "id": "Pervis Josué Estupiñán Tenorio",
-        "short": "Tenorio",
+        "short": "Estupiñán",
+        "name": "Pervis Estupiñán",
         "x": 55.24,
         "y": 9.24,
         "size": 116.9,
@@ -969,7 +995,8 @@
       },
       {
         "id": "Felix Eduardo Torres Caicedo",
-        "short": "Caicedo",
+        "short": "Torres",
+        "name": "Félix Torres",
         "x": 39.35,
         "y": 60.58,
         "size": 109.8,
@@ -979,7 +1006,8 @@
       },
       {
         "id": "Angelo Smit Preciado Quiñónez",
-        "short": "Quiñónez",
+        "short": "Preciado",
+        "name": "Angelo Preciado",
         "x": 58.96,
         "y": 70.79,
         "size": 89.9,
@@ -989,7 +1017,8 @@
       },
       {
         "id": "Moisés Isaac Caicedo Corozo",
-        "short": "Corozo",
+        "short": "Caicedo",
+        "name": "Moisés Caicedo",
         "x": 58.62,
         "y": 30.06,
         "size": 90.6,
@@ -999,7 +1028,8 @@
       },
       {
         "id": "Gonzalo Jordy Plata Jiménez",
-        "short": "Jiménez",
+        "short": "Plata",
+        "name": "Gonzalo Plata",
         "x": 61.51,
         "y": 60.1,
         "size": 74.9,
@@ -1009,7 +1039,8 @@
       },
       {
         "id": "Enner Remberto Valencia Lastra",
-        "short": "Lastra",
+        "short": "Valencia",
+        "name": "Enner Valencia",
         "x": 72.32,
         "y": 25.34,
         "size": 69.2,
@@ -1019,7 +1050,8 @@
       },
       {
         "id": "Romario Andrés Ibarra Mina",
-        "short": "Mina",
+        "short": "Ibarra",
+        "name": "Romario Ibarra",
         "x": 68.2,
         "y": 11.1,
         "size": 59.3,
@@ -1028,24 +1060,26 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Hernán Ismael Galíndez",
-        "short": "Galíndez",
-        "x": 11.38,
-        "y": 41.51,
-        "size": 57.8,
-        "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.0252
-      },
-      {
         "id": "Michael Steveen Estrada Martínez",
-        "short": "Martínez",
+        "short": "Estrada",
+        "name": "Michael Estrada",
         "x": 64.18,
         "y": 35.51,
         "size": 57.8,
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0067
+      },
+      {
+        "id": "Hernán Ismael Galíndez",
+        "short": "Galíndez",
+        "name": "Hernán Galíndez",
+        "x": 11.38,
+        "y": 41.51,
+        "size": 57.8,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.0252
       }
     ],
     "edges": [
@@ -1218,18 +1252,6 @@
         "direction": "backward"
       },
       {
-        "source": "Hernán Ismael Galíndez",
-        "target": "Jhegson Sebastián Méndez Carabalí",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Hernán Ismael Galíndez",
-        "target": "Piero Martín Hincapié Reyna",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Michael Steveen Estrada Martínez",
         "target": "Moisés Isaac Caicedo Corozo",
         "weight": 1,
@@ -1240,28 +1262,40 @@
         "target": "Enner Remberto Valencia Lastra",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Hernán Ismael Galíndez",
+        "target": "Jhegson Sebastián Méndez Carabalí",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hernán Ismael Galíndez",
+        "target": "Piero Martín Hincapié Reyna",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
   "vaep": {
     "home": [
       {
-        "player": "Saad Abdullah Al Sheeb",
-        "short": "Sheeb",
+        "player": "Saad Al Sheeb",
+        "short": "Al Sheeb",
         "vaep": 0.6415,
         "role": "Presser",
         "n_actions": 45
       },
       {
-        "player": "Hassan Khalid Al Heidos",
-        "short": "Heidos",
+        "player": "Hassan Al Heidos",
+        "short": "Al Heidos",
         "vaep": 0.633,
         "role": "Contributor",
         "n_actions": 100
       },
       {
-        "player": "Almoez Ali Zainalabiddin Abdulla",
-        "short": "Abdulla",
+        "player": "Almoez Ali",
+        "short": "Ali",
         "vaep": 0.2436,
         "role": "Contributor",
         "n_actions": 53
@@ -1283,36 +1317,36 @@
     ],
     "away": [
       {
-        "player": "Enner Remberto Valencia Lastra",
-        "short": "Lastra",
+        "player": "Enner Valencia",
+        "short": "Valencia",
         "vaep": 1.7749,
         "role": "Contributor",
         "n_actions": 96
       },
       {
-        "player": "Michael Steveen Estrada Martínez",
-        "short": "Martínez",
+        "player": "Michael Estrada",
+        "short": "Estrada",
         "vaep": 0.9123,
         "role": "Progressor",
         "n_actions": 88
       },
       {
-        "player": "Gonzalo Jordy Plata Jiménez",
-        "short": "Jiménez",
+        "player": "Gonzalo Plata",
+        "short": "Plata",
         "vaep": 0.4034,
         "role": "Progressor",
         "n_actions": 144
       },
       {
-        "player": "Pervis Josué Estupiñán Tenorio",
-        "short": "Tenorio",
+        "player": "Pervis Estupiñán",
+        "short": "Estupiñán",
         "vaep": 0.2797,
         "role": "Progressor",
         "n_actions": 206
       },
       {
-        "player": "Angelo Smit Preciado Quiñónez",
-        "short": "Quiñónez",
+        "player": "Angelo Preciado",
+        "short": "Preciado",
         "vaep": 0.2531,
         "role": "Progressor",
         "n_actions": 134

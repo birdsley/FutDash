@@ -502,10 +502,11 @@
       "xg": 0.0989,
       "goal": false,
       "team": "away",
-      "player": "Castro",
-      "player_full": "César Jasib Montes Castro",
+      "player": "Montes",
+      "player_full": "César Montes",
       "minute": 9,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -517,9 +518,10 @@
       "goal": false,
       "team": "home",
       "player": "Martínez",
-      "player_full": "Lautaro Javier Martínez",
+      "player_full": "Lautaro Martínez",
       "minute": 39,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -530,10 +532,11 @@
       "xg": 0.0595,
       "goal": false,
       "team": "away",
-      "player": "Rojas",
-      "player_full": "Ernesto Alexis Vega Rojas",
+      "player": "Vega",
+      "player_full": "Alexis Vega",
       "minute": 44,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -544,10 +547,11 @@
       "xg": 0.0077,
       "goal": false,
       "team": "away",
-      "player": "Rojas",
-      "player_full": "Ernesto Alexis Vega Rojas",
+      "player": "Vega",
+      "player_full": "Alexis Vega",
       "minute": 49,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -558,10 +562,11 @@
       "xg": 0.0403,
       "goal": false,
       "team": "away",
-      "player": "Bahena",
-      "player_full": "Hirving Rodrigo Lozano Bahena",
+      "player": "Lozano",
+      "player_full": "Hirving Lozano",
       "minute": 47,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -572,10 +577,11 @@
       "xg": 0.0673,
       "goal": false,
       "team": "home",
-      "player": "Cuccittini",
-      "player_full": "Lionel Andrés Messi Cuccittini",
+      "player": "Messi",
+      "player_full": "Lionel Messi",
       "minute": 50,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -586,10 +592,11 @@
       "xg": 0.0339,
       "goal": true,
       "team": "home",
-      "player": "Cuccittini",
-      "player_full": "Lionel Andrés Messi Cuccittini",
+      "player": "Messi",
+      "player_full": "Lionel Messi",
       "minute": 63,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -600,10 +607,11 @@
       "xg": 0.0509,
       "goal": false,
       "team": "home",
-      "player": "Lucero",
-      "player_full": "Nahuel Molina Lucero",
+      "player": "Molina",
+      "player_full": "Nahuel Molina",
       "minute": 69,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,16 +626,19 @@
       "player_full": "Enzo Fernandez",
       "minute": 86,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Nicolás Hernán Otamendi",
         "short": "Otamendi",
+        "name": "Nicolás Otamendi",
         "x": 41.16,
         "y": 55.8,
         "size": 139.7,
@@ -638,6 +649,7 @@
       {
         "id": "Gonzalo Ariel Montiel",
         "short": "Montiel",
+        "name": "Gonzalo Montiel",
         "x": 55.15,
         "y": 70.65,
         "size": 103.6,
@@ -647,7 +659,8 @@
       },
       {
         "id": "Rodrigo Javier De Paul",
-        "short": "Paul",
+        "short": "De Paul",
+        "name": "Rodrigo De Paul",
         "x": 63.41,
         "y": 57.46,
         "size": 119.3,
@@ -658,6 +671,7 @@
       {
         "id": "Lisandro Martínez",
         "short": "Martínez",
+        "name": "Lisandro Martínez",
         "x": 51.37,
         "y": 20.77,
         "size": 101.3,
@@ -668,6 +682,7 @@
       {
         "id": "Guido Rodríguez",
         "short": "Rodríguez",
+        "name": "Guido Rodríguez",
         "x": 48.1,
         "y": 36.14,
         "size": 118.5,
@@ -677,7 +692,8 @@
       },
       {
         "id": "Ángel Fabián Di María Hernández",
-        "short": "Hernández",
+        "short": "Di María",
+        "name": "Ángel Di María",
         "x": 71.73,
         "y": 66.23,
         "size": 71.5,
@@ -687,7 +703,8 @@
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
-        "short": "Cuccittini",
+        "short": "Messi",
+        "name": "Lionel Messi",
         "x": 76.64,
         "y": 50.66,
         "size": 82.5,
@@ -697,7 +714,8 @@
       },
       {
         "id": "Alexis Mac Allister",
-        "short": "Allister",
+        "short": "MacAllister",
+        "name": "Alexis MacAllister",
         "x": 69.7,
         "y": 29.28,
         "size": 76.2,
@@ -708,6 +726,7 @@
       {
         "id": "Marcos Javier Acuña",
         "short": "Acuña",
+        "name": "Marcos Acuña",
         "x": 61.57,
         "y": 11.65,
         "size": 73.8,
@@ -718,6 +737,7 @@
       {
         "id": "Damián Emiliano Martínez",
         "short": "Martínez",
+        "name": "Emiliano Martínez",
         "x": 9.39,
         "y": 38.98,
         "size": 60.5,
@@ -728,6 +748,7 @@
       {
         "id": "Lautaro Javier Martínez",
         "short": "Martínez",
+        "name": "Lautaro Martínez",
         "x": 59.3,
         "y": 30.3,
         "size": 58.1,
@@ -911,7 +932,8 @@
     "nodes": [
       {
         "id": "Néstor Alejandro Araújo Razo",
-        "short": "Razo",
+        "short": "Araujo",
+        "name": "Néstor Araujo",
         "x": 57.24,
         "y": 71.27,
         "size": 139.0,
@@ -921,7 +943,8 @@
       },
       {
         "id": "César Jasib Montes Castro",
-        "short": "Castro",
+        "short": "Montes",
+        "name": "César Montes",
         "x": 41.34,
         "y": 48.55,
         "size": 146.1,
@@ -931,7 +954,8 @@
       },
       {
         "id": "Héctor Alfredo Moreno Herrera",
-        "short": "Herrera",
+        "short": "Moreno",
+        "name": "Héctor Moreno",
         "x": 41.9,
         "y": 20.68,
         "size": 111.8,
@@ -941,7 +965,8 @@
       },
       {
         "id": "Héctor Miguel Herrera López",
-        "short": "López",
+        "short": "Herrera",
+        "name": "Héctor Herrera",
         "x": 61.65,
         "y": 52.63,
         "size": 98.8,
@@ -951,7 +976,8 @@
       },
       {
         "id": "Luis Gerardo Chávez Magallón",
-        "short": "Magallón",
+        "short": "Chávez",
+        "name": "Luis Chávez",
         "x": 67.42,
         "y": 58.82,
         "size": 84.6,
@@ -961,7 +987,8 @@
       },
       {
         "id": "Francisco Guillermo Ochoa Magaña",
-        "short": "Magaña",
+        "short": "Ochoa",
+        "name": "Guillermo Ochoa",
         "x": 13.41,
         "y": 42.29,
         "size": 87.0,
@@ -971,7 +998,8 @@
       },
       {
         "id": "Jesús Daniel Gallardo Vasconcelos",
-        "short": "Vasconcelos",
+        "short": "Gallardo",
+        "name": "Jesús Gallardo",
         "x": 55.48,
         "y": 10.31,
         "size": 76.3,
@@ -981,7 +1009,8 @@
       },
       {
         "id": "Kevin Nahin Álvarez Campos",
-        "short": "Campos",
+        "short": "Álvarez",
+        "name": "Kevin Álvarez",
         "x": 80.66,
         "y": 76.63,
         "size": 77.5,
@@ -991,7 +1020,8 @@
       },
       {
         "id": "José Andrés Guardado Hernández",
-        "short": "Hernández",
+        "short": "Guardado",
+        "name": "Andrés Guardado",
         "x": 62.29,
         "y": 29.72,
         "size": 63.3,
@@ -1001,7 +1031,8 @@
       },
       {
         "id": "Ernesto Alexis Vega Rojas",
-        "short": "Rojas",
+        "short": "Vega",
+        "name": "Alexis Vega",
         "x": 75.67,
         "y": 73.7,
         "size": 60.9,
@@ -1011,7 +1042,8 @@
       },
       {
         "id": "Hirving Rodrigo Lozano Bahena",
-        "short": "Bahena",
+        "short": "Lozano",
+        "name": "Hirving Lozano",
         "x": 98.1,
         "y": 71.6,
         "size": 59.7,
@@ -1194,36 +1226,36 @@
   "vaep": {
     "home": [
       {
-        "player": "Lionel Andrés Messi Cuccittini",
-        "short": "Cuccittini",
+        "player": "Lionel Messi",
+        "short": "Messi",
         "vaep": 0.3337,
         "role": "Progressor",
         "n_actions": 174
       },
       {
-        "player": "Ángel Fabián Di María Hernández",
-        "short": "Hernández",
+        "player": "Ángel Di María",
+        "short": "Di María",
         "vaep": 0.2862,
         "role": "Progressor",
         "n_actions": 117
       },
       {
-        "player": "Lautaro Javier Martínez",
+        "player": "Lautaro Martínez",
         "short": "Martínez",
         "vaep": 0.2128,
         "role": "Contributor",
         "n_actions": 51
       },
       {
-        "player": "Marcos Javier Acuña",
+        "player": "Marcos Acuña",
         "short": "Acuña",
         "vaep": 0.1564,
         "role": "Progressor",
         "n_actions": 113
       },
       {
-        "player": "Alexis Mac Allister",
-        "short": "Allister",
+        "player": "Alexis MacAllister",
+        "short": "MacAllister",
         "vaep": 0.1042,
         "role": "Contributor",
         "n_actions": 123
@@ -1231,36 +1263,36 @@
     ],
     "away": [
       {
-        "player": "César Jasib Montes Castro",
-        "short": "Castro",
+        "player": "César Montes",
+        "short": "Montes",
         "vaep": 0.2016,
         "role": "Presser",
         "n_actions": 166
       },
       {
-        "player": "Hirving Rodrigo Lozano Bahena",
-        "short": "Bahena",
+        "player": "Hirving Lozano",
+        "short": "Lozano",
         "vaep": 0.1883,
         "role": "Contributor",
         "n_actions": 86
       },
       {
-        "player": "Érick Gabriel Gutiérrez Galaviz",
-        "short": "Galaviz",
+        "player": "Erick Gutiérrez",
+        "short": "Gutiérrez",
         "vaep": 0.078,
         "role": "Presser",
         "n_actions": 95
       },
       {
-        "player": "Luis Gerardo Chávez Magallón",
-        "short": "Magallón",
+        "player": "Luis Chávez",
+        "short": "Chávez",
         "vaep": 0.0771,
         "role": "Progressor",
         "n_actions": 105
       },
       {
-        "player": "Jesús Daniel Gallardo Vasconcelos",
-        "short": "Vasconcelos",
+        "player": "Jesús Gallardo",
+        "short": "Gallardo",
         "vaep": 0.0626,
         "role": "Contributor",
         "n_actions": 101

@@ -7,7 +7,7 @@
     "home_color": "#2e65b7",
     "away_color_raw": "#1457a8",
     "away_color": "#1457a8",
-    "score_home": 0,
+    "score_home": 1,
     "score_away": 0,
     "penalty_home": null,
     "penalty_away": null,
@@ -503,9 +503,10 @@
       "goal": false,
       "team": "home",
       "player": "Kalou",
-      "player_full": "Salomon Armand Magloire Kalou",
+      "player_full": "Salomon Kalou",
       "minute": 16,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Kevin Volland",
       "minute": 19,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Nadiem Amiri",
       "minute": 39,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -544,10 +547,11 @@
       "xg": 0.0516,
       "goal": false,
       "team": "away",
-      "player": "Kim",
-      "player_full": "Jin-Su Kim",
+      "player": "Jin-Su",
+      "player_full": "Kim Jin-Su",
       "minute": 54,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Ermin Bičakčić",
       "minute": 66,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -572,10 +577,11 @@
       "xg": 0.1366,
       "goal": false,
       "team": "away",
-      "player": "Rojas",
-      "player_full": "Eduardo Jesús Vargas Rojas",
+      "player": "Vargas",
+      "player_full": "Eduardo Vargas",
       "minute": 67,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Kevin Volland",
       "minute": 75,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -600,10 +607,11 @@
       "xg": 0.0709,
       "goal": false,
       "team": "away",
-      "player": "Rojas",
-      "player_full": "Eduardo Jesús Vargas Rojas",
+      "player": "Vargas",
+      "player_full": "Eduardo Vargas",
       "minute": 80,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,9 +626,19 @@
       "player_full": "Eugen Polanski",
       "minute": 89,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Polanski",
+      "player_full": "Eugen Polanski",
+      "minute": 29,
+      "period": 1
     }
   ],
   "network_home": {
@@ -628,6 +646,7 @@
       {
         "id": "John Anthony Brooks",
         "short": "Brooks",
+        "name": "John Brooks",
         "x": 41.28,
         "y": 25.78,
         "size": 122.0,
@@ -638,6 +657,7 @@
       {
         "id": "Sebastian Langkamp",
         "short": "Langkamp",
+        "name": "Sebastian Langkamp",
         "x": 47.07,
         "y": 59.68,
         "size": 109.9,
@@ -648,6 +668,7 @@
       {
         "id": "Marvin Plattenhardt",
         "short": "Plattenhard",
+        "name": "Marvin Plattenhardt",
         "x": 53.26,
         "y": 7.45,
         "size": 123.7,
@@ -658,6 +679,7 @@
       {
         "id": "Tolga Ciğerci",
         "short": "Ciğerci",
+        "name": "Tolga Ciğerci",
         "x": 59.35,
         "y": 13.17,
         "size": 87.6,
@@ -668,6 +690,7 @@
       {
         "id": "Vladimír Darida",
         "short": "Darida",
+        "name": "Vladimír Darida",
         "x": 72.79,
         "y": 48.57,
         "size": 109.9,
@@ -678,6 +701,7 @@
       {
         "id": "Yanni Regäsel",
         "short": "Regäsel",
+        "name": "Yanni Regäsel",
         "x": 65.39,
         "y": 72.54,
         "size": 105.6,
@@ -688,6 +712,7 @@
       {
         "id": "Genki Haraguchi",
         "short": "Haraguchi",
+        "name": "Genki Haraguchi",
         "x": 79.17,
         "y": 66.99,
         "size": 85.0,
@@ -698,6 +723,7 @@
       {
         "id": "Per Ciljan Skjelbred",
         "short": "Skjelbred",
+        "name": "Per Ciljan Skjelbred",
         "x": 59.29,
         "y": 37.9,
         "size": 82.5,
@@ -708,6 +734,7 @@
       {
         "id": "Fabian Lustenberger",
         "short": "Lustenberge",
+        "name": "Fabian Lustenberger",
         "x": 57.41,
         "y": 41.92,
         "size": 61.9,
@@ -716,24 +743,26 @@
         "eigenvector": 0.0004
       },
       {
-        "id": "Rune Almenning Jarstein",
-        "short": "Jarstein",
-        "x": 11.43,
-        "y": 38.13,
-        "size": 58.4,
-        "is_playmaker": false,
-        "betweenness": 0.2056,
-        "eigenvector": 0.0342
-      },
-      {
         "id": "Salomon Armand Magloire Kalou",
         "short": "Kalou",
+        "name": "Salomon Kalou",
         "x": 67.14,
         "y": 46.79,
         "size": 58.4,
         "is_playmaker": false,
         "betweenness": 0.1833,
         "eigenvector": 0.0107
+      },
+      {
+        "id": "Rune Almenning Jarstein",
+        "short": "Jarstein",
+        "name": "Rune Jarstein",
+        "x": 11.43,
+        "y": 38.13,
+        "size": 58.4,
+        "is_playmaker": false,
+        "betweenness": 0.2056,
+        "eigenvector": 0.0342
       }
     ],
     "edges": [
@@ -906,18 +935,6 @@
         "direction": "forward"
       },
       {
-        "source": "Rune Almenning Jarstein",
-        "target": "John Anthony Brooks",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rune Almenning Jarstein",
-        "target": "Sebastian Langkamp",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Salomon Armand Magloire Kalou",
         "target": "Vladimír Darida",
         "weight": 1,
@@ -928,6 +945,18 @@
         "target": "Fabian Lustenberger",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Rune Almenning Jarstein",
+        "target": "John Anthony Brooks",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rune Almenning Jarstein",
+        "target": "Sebastian Langkamp",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -936,6 +965,7 @@
       {
         "id": "Ermin Bičakčić",
         "short": "Bičakčić",
+        "name": "Ermin Bičakčić",
         "x": 40.78,
         "y": 25.78,
         "size": 117.1,
@@ -946,6 +976,7 @@
       {
         "id": "Niklas Süle",
         "short": "Süle",
+        "name": "Niklas Süle",
         "x": 43.95,
         "y": 59.93,
         "size": 150.5,
@@ -956,6 +987,7 @@
       {
         "id": "Tobias Strobl",
         "short": "Strobl",
+        "name": "Tobias Strobl",
         "x": 57.68,
         "y": 73.57,
         "size": 105.0,
@@ -966,6 +998,7 @@
       {
         "id": "Oliver Baumann",
         "short": "Baumann",
+        "name": "Oliver Baumann",
         "x": 19.06,
         "y": 42.48,
         "size": 83.8,
@@ -976,6 +1009,7 @@
       {
         "id": "Kevin Volland",
         "short": "Volland",
+        "name": "Kevin Volland",
         "x": 76.15,
         "y": 57.88,
         "size": 81.5,
@@ -986,6 +1020,7 @@
       {
         "id": "Eugen Polanski",
         "short": "Polanski",
+        "name": "Eugen Polanski",
         "x": 54.33,
         "y": 36.06,
         "size": 111.8,
@@ -995,7 +1030,8 @@
       },
       {
         "id": "Jin-Su Kim",
-        "short": "Kim",
+        "short": "Jin-Su",
+        "name": "Kim Jin-Su",
         "x": 59.36,
         "y": 8.57,
         "size": 85.3,
@@ -1006,6 +1042,7 @@
       {
         "id": "Sebastian Rudy",
         "short": "Rudy",
+        "name": "Sebastian Rudy",
         "x": 59.62,
         "y": 46.13,
         "size": 92.1,
@@ -1016,6 +1053,7 @@
       {
         "id": "Nadiem Amiri",
         "short": "Amiri",
+        "name": "Nadiem Amiri",
         "x": 69.31,
         "y": 40.24,
         "size": 61.8,
@@ -1024,24 +1062,26 @@
         "eigenvector": 0.0345
       },
       {
-        "id": "Mark Uth",
-        "short": "Uth",
-        "x": 65.42,
-        "y": 40.02,
-        "size": 58.0,
-        "is_playmaker": false,
-        "betweenness": 0.2667,
-        "eigenvector": 0.0101
-      },
-      {
         "id": "Jonathan Schmid",
         "short": "Schmid",
+        "name": "Jonathan Schmid",
         "x": 66.32,
         "y": 19.71,
         "size": 58.0,
         "is_playmaker": false,
         "betweenness": 0.2667,
         "eigenvector": 0.0142
+      },
+      {
+        "id": "Mark Uth",
+        "short": "Uth",
+        "name": "Mark Uth",
+        "x": 65.42,
+        "y": 40.02,
+        "size": 58.0,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.0101
       }
     ],
     "edges": [
@@ -1214,18 +1254,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Mark Uth",
-        "target": "Nadiem Amiri",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Mark Uth",
-        "target": "Sebastian Rudy",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jonathan Schmid",
         "target": "Jin-Su Kim",
         "weight": 1,
@@ -1234,6 +1262,18 @@
       {
         "source": "Jonathan Schmid",
         "target": "Eugen Polanski",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mark Uth",
+        "target": "Nadiem Amiri",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Mark Uth",
+        "target": "Sebastian Rudy",
         "weight": 1,
         "direction": "backward"
       }
@@ -1256,7 +1296,7 @@
         "n_actions": 203
       },
       {
-        "player": "Salomon Armand Magloire Kalou",
+        "player": "Salomon Kalou",
         "short": "Kalou",
         "vaep": 0.1579,
         "role": "Contributor",
@@ -1270,7 +1310,7 @@
         "n_actions": 191
       },
       {
-        "player": "John Anthony Brooks",
+        "player": "John Brooks",
         "short": "Brooks",
         "vaep": 0.0942,
         "role": "Presser",
@@ -1300,8 +1340,8 @@
         "n_actions": 179
       },
       {
-        "player": "Eduardo Jesús Vargas Rojas",
-        "short": "Rojas",
+        "player": "Eduardo Vargas",
+        "short": "Vargas",
         "vaep": 0.2183,
         "role": "Contributor",
         "n_actions": 39

@@ -7,7 +7,7 @@
     "home_color": "#847275",
     "away_color_raw": "#00a398",
     "away_color": "#00a398",
-    "score_home": 1,
+    "score_home": 2,
     "score_away": 0,
     "penalty_home": null,
     "penalty_away": null,
@@ -506,6 +506,7 @@
       "player_full": "Martin Škrtel",
       "minute": 1,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -516,10 +517,11 @@
       "xg": 0.5831,
       "goal": false,
       "team": "away",
-      "player": "Liolo",
-      "player_full": "Christian Benteke Liolo",
+      "player": "Benteke",
+      "player_full": "Christian Benteke",
       "minute": 20,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -531,9 +533,10 @@
       "goal": false,
       "team": "away",
       "player": "Clyne",
-      "player_full": "Nathaniel Edwin Clyne",
+      "player_full": "Nathaniel Clyne",
       "minute": 30,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -544,10 +547,11 @@
       "xg": 0.17,
       "goal": false,
       "team": "home",
-      "player": "Mangulu",
-      "player_full": "Chancel Mbemba Mangulu",
+      "player": "Mbemba",
+      "player_full": "Chancel Mbemba",
       "minute": 43,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 44,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Jordon Ibe",
       "minute": 45,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -586,10 +592,11 @@
       "xg": 0.0103,
       "goal": false,
       "team": "away",
-      "player": "Oliveira",
-      "player_full": "Roberto Firmino Barbosa de Oliveira",
+      "player": "Firmino",
+      "player_full": "Roberto Firmino",
       "minute": 45,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 50,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Joe Allen",
       "minute": 52,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 54,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 68,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -657,9 +668,10 @@
       "goal": false,
       "team": "away",
       "player": "Sturridge",
-      "player_full": "Daniel Andre Sturridge",
+      "player_full": "Daniel Sturridge",
       "minute": 73,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -671,9 +683,10 @@
       "goal": false,
       "team": "away",
       "player": "Sturridge",
-      "player_full": "Daniel Andre Sturridge",
+      "player_full": "Daniel Sturridge",
       "minute": 74,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Dejan Lovren",
       "minute": 85,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,6 +716,7 @@
       "player_full": "Dejan Lovren",
       "minute": 88,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -716,9 +731,19 @@
       "player_full": "Georginio Wijnaldum",
       "minute": 92,
       "technique": "Lob",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
+    }
+  ],
+  "own_goals": [
+    {
+      "team": "home",
+      "player": "Škrtel",
+      "player_full": "Martin Škrtel",
+      "minute": 68,
+      "period": 2
     }
   ],
   "network_home": {
@@ -726,6 +751,7 @@
       {
         "id": "Daryl Janmaat",
         "short": "Janmaat",
+        "name": "Daryl Janmaat",
         "x": 62.11,
         "y": 72.58,
         "size": 133.1,
@@ -735,7 +761,8 @@
       },
       {
         "id": "Chancel Mbemba Mangulu",
-        "short": "Mangulu",
+        "short": "Mbemba",
+        "name": "Chancel Mbemba",
         "x": 41.61,
         "y": 55.27,
         "size": 66.4,
@@ -746,6 +773,7 @@
       {
         "id": "Jack Colback",
         "short": "Colback",
+        "name": "Jack Colback",
         "x": 59.38,
         "y": 32.35,
         "size": 64.5,
@@ -756,6 +784,7 @@
       {
         "id": "Paul Dummett",
         "short": "Dummett",
+        "name": "Paul Dummett",
         "x": 44.18,
         "y": 18.62,
         "size": 79.8,
@@ -766,6 +795,7 @@
       {
         "id": "Georginio Wijnaldum",
         "short": "Wijnaldum",
+        "name": "Georginio Wijnaldum",
         "x": 58.31,
         "y": 34.99,
         "size": 100.7,
@@ -776,6 +806,7 @@
       {
         "id": "Moussa Sissoko",
         "short": "Sissoko",
+        "name": "Moussa Sissoko",
         "x": 76.4,
         "y": 68.27,
         "size": 129.3,
@@ -786,6 +817,7 @@
       {
         "id": "Vurnon Anita",
         "short": "Anita",
+        "name": "Vurnon Anita",
         "x": 59.12,
         "y": 47.08,
         "size": 104.5,
@@ -796,6 +828,7 @@
       {
         "id": "Papiss Demba Cissé",
         "short": "Cissé",
+        "name": "Papiss Demba Cissé",
         "x": 70.81,
         "y": 41.99,
         "size": 116.0,
@@ -806,6 +839,7 @@
       {
         "id": "Rob Elliot",
         "short": "Elliot",
+        "name": "Rob Elliot",
         "x": 19.24,
         "y": 41.93,
         "size": 79.8,
@@ -815,7 +849,8 @@
       },
       {
         "id": "Siem Stefan de Jong",
-        "short": "Jong",
+        "short": "de Jong",
+        "name": "Siem Stefan de Jong",
         "x": 61.13,
         "y": 37.27,
         "size": 68.3,
@@ -826,6 +861,7 @@
       {
         "id": "Fabricio Coloccini",
         "short": "Coloccini",
+        "name": "Fabricio Coloccini",
         "x": 31.42,
         "y": 31.19,
         "size": 62.6,
@@ -956,6 +992,7 @@
       {
         "id": "Martin Škrtel",
         "short": "Škrtel",
+        "name": "Martin Škrtel",
         "x": 44.0,
         "y": 50.09,
         "size": 119.7,
@@ -966,6 +1003,7 @@
       {
         "id": "Lucas Pezzini Leiva",
         "short": "Leiva",
+        "name": "Lucas Leiva",
         "x": 53.99,
         "y": 42.39,
         "size": 133.4,
@@ -976,6 +1014,7 @@
       {
         "id": "Joe Allen",
         "short": "Allen",
+        "name": "Joe Allen",
         "x": 58.71,
         "y": 30.4,
         "size": 83.4,
@@ -985,7 +1024,8 @@
       },
       {
         "id": "Alberto Moreno Pérez",
-        "short": "Pérez",
+        "short": "Moreno",
+        "name": "Alberto Moreno",
         "x": 53.32,
         "y": 12.93,
         "size": 87.8,
@@ -996,6 +1036,7 @@
       {
         "id": "Nathaniel Edwin Clyne",
         "short": "Clyne",
+        "name": "Nathaniel Clyne",
         "x": 60.18,
         "y": 70.69,
         "size": 109.3,
@@ -1006,6 +1047,7 @@
       {
         "id": "James Philip Milner",
         "short": "Milner",
+        "name": "James Milner",
         "x": 72.17,
         "y": 42.44,
         "size": 83.4,
@@ -1016,6 +1058,7 @@
       {
         "id": "Dejan Lovren",
         "short": "Lovren",
+        "name": "Dejan Lovren",
         "x": 39.23,
         "y": 26.64,
         "size": 101.6,
@@ -1026,6 +1069,7 @@
       {
         "id": "Jordon Ibe",
         "short": "Ibe",
+        "name": "Jordon Ibe",
         "x": 81.69,
         "y": 52.5,
         "size": 76.6,
@@ -1035,7 +1079,8 @@
       },
       {
         "id": "Roberto Firmino Barbosa de Oliveira",
-        "short": "Oliveira",
+        "short": "Firmino",
+        "name": "Roberto Firmino",
         "x": 74.51,
         "y": 44.48,
         "size": 89.5,
@@ -1046,6 +1091,7 @@
       {
         "id": "Simon Mignolet",
         "short": "Mignolet",
+        "name": "Simon Mignolet",
         "x": 10.36,
         "y": 41.08,
         "size": 61.9,
@@ -1055,7 +1101,8 @@
       },
       {
         "id": "Christian Benteke Liolo",
-        "short": "Liolo",
+        "short": "Benteke",
+        "name": "Christian Benteke",
         "x": 76.25,
         "y": 32.6,
         "size": 58.4,
@@ -1266,8 +1313,8 @@
         "n_actions": 147
       },
       {
-        "player": "Chancel Mbemba Mangulu",
-        "short": "Mangulu",
+        "player": "Chancel Mbemba",
+        "short": "Mbemba",
         "vaep": 0.3077,
         "role": "Contributor",
         "n_actions": 79
@@ -1282,21 +1329,21 @@
         "n_actions": 182
       },
       {
-        "player": "Christian Benteke Liolo",
-        "short": "Liolo",
+        "player": "Christian Benteke",
+        "short": "Benteke",
         "vaep": 0.8793,
         "role": "Contributor",
         "n_actions": 92
       },
       {
-        "player": "Alberto Moreno Pérez",
-        "short": "Pérez",
+        "player": "Alberto Moreno",
+        "short": "Moreno",
         "vaep": 0.795,
         "role": "Progressor",
         "n_actions": 167
       },
       {
-        "player": "James Philip Milner",
+        "player": "James Milner",
         "short": "Milner",
         "vaep": 0.468,
         "role": "Progressor",

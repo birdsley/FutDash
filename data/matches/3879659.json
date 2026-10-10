@@ -506,6 +506,7 @@
       "player_full": "Antonio Candreva",
       "minute": 4,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Antonio Candreva",
       "minute": 14,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Ivan Perišić",
       "minute": 22,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Sergej Milinković-Savić",
       "minute": 24,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Stevan Jovetić",
       "minute": 36,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Antonio Candreva",
       "minute": 43,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -587,9 +593,10 @@
       "goal": false,
       "team": "home",
       "player": "Biabiany",
-      "player_full": "Jonathan Ludovic Biabiany",
+      "player_full": "Jonathan Biabiany",
       "minute": 45,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -601,9 +608,10 @@
       "goal": false,
       "team": "home",
       "player": "Telles",
-      "player_full": "Alex Nicolao Telles",
+      "player_full": "Alex Telles",
       "minute": 53,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -614,10 +622,11 @@
       "xg": 0.3733,
       "goal": true,
       "team": "home",
-      "player": "Rivero",
-      "player_full": "Mauro Emanuel Icardi Rivero",
+      "player": "Icardi",
+      "player_full": "Mauro Icardi",
       "minute": 60,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Antonio Candreva",
       "minute": 70,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Ivan Perišić",
       "minute": 72,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Antonio Candreva",
       "minute": 86,
       "technique": "Normal",
+      "shot_type": "Penalty",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Antonio Candreva",
       "minute": 86,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -684,20 +697,23 @@
       "xg": 0.0463,
       "goal": false,
       "team": "home",
-      "player": "Rivero",
-      "player_full": "Mauro Emanuel Icardi Rivero",
+      "player": "Icardi",
+      "player_full": "Mauro Icardi",
       "minute": 96,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Jeison Fabián Murillo Cerón",
-        "short": "Cerón",
+        "short": "Murillo",
+        "name": "Jeison Murillo",
         "x": 40.14,
         "y": 26.42,
         "size": 114.1,
@@ -708,6 +724,7 @@
       {
         "id": "Alex Nicolao Telles",
         "short": "Telles",
+        "name": "Alex Telles",
         "x": 58.46,
         "y": 9.13,
         "size": 109.0,
@@ -717,7 +734,8 @@
       },
       {
         "id": "João Miranda de Souza Filho",
-        "short": "Filho",
+        "short": "Souza Filho",
+        "name": "João Miranda de Souza Filho",
         "x": 45.33,
         "y": 55.08,
         "size": 115.6,
@@ -727,7 +745,8 @@
       },
       {
         "id": "Martín Montoya Torralbo",
-        "short": "Torralbo",
+        "short": "Montoya",
+        "name": "Martín Montoya",
         "x": 62.68,
         "y": 70.49,
         "size": 104.6,
@@ -737,7 +756,8 @@
       },
       {
         "id": "Gary Alexis Medel Soto",
-        "short": "Soto",
+        "short": "Medel",
+        "name": "Gary Medel",
         "x": 59.16,
         "y": 43.16,
         "size": 120.0,
@@ -747,7 +767,8 @@
       },
       {
         "id": "Felipe Melo de Carvalho",
-        "short": "Carvalho",
+        "short": "Melo",
+        "name": "Felipe Melo",
         "x": 56.85,
         "y": 34.95,
         "size": 119.2,
@@ -758,6 +779,7 @@
       {
         "id": "Ivan Perišić",
         "short": "Perišić",
+        "name": "Ivan Perišić",
         "x": 73.1,
         "y": 20.78,
         "size": 76.9,
@@ -768,6 +790,7 @@
       {
         "id": "Samir Handanovič",
         "short": "Handanovič",
+        "name": "Samir Handanovič",
         "x": 11.23,
         "y": 37.83,
         "size": 61.6,
@@ -778,6 +801,7 @@
       {
         "id": "Stevan Jovetić",
         "short": "Jovetić",
+        "name": "Stevan Jovetić",
         "x": 73.29,
         "y": 28.03,
         "size": 66.7,
@@ -787,7 +811,8 @@
       },
       {
         "id": "Mauro Emanuel Icardi Rivero",
-        "short": "Rivero",
+        "short": "Icardi",
+        "name": "Mauro Icardi",
         "x": 63.98,
         "y": 40.49,
         "size": 59.4,
@@ -798,6 +823,7 @@
       {
         "id": "Jonathan Ludovic Biabiany",
         "short": "Biabiany",
+        "name": "Jonathan Biabiany",
         "x": 72.39,
         "y": 47.62,
         "size": 57.9,
@@ -1006,6 +1032,7 @@
       {
         "id": "Abdoulay Konko",
         "short": "Konko",
+        "name": "Abdoulay Konko",
         "x": 63.17,
         "y": 71.43,
         "size": 114.3,
@@ -1016,6 +1043,7 @@
       {
         "id": "Antonio Candreva",
         "short": "Candreva",
+        "name": "Antonio Candreva",
         "x": 64.37,
         "y": 70.87,
         "size": 130.9,
@@ -1026,6 +1054,7 @@
       {
         "id": "Sergej Milinković-Savić",
         "short": "Milinković-",
+        "name": "Sergej Milinković-Savić",
         "x": 59.99,
         "y": 48.29,
         "size": 100.5,
@@ -1036,6 +1065,7 @@
       {
         "id": "Lucas Rodrigo Biglia",
         "short": "Biglia",
+        "name": "Lucas Biglia",
         "x": 52.9,
         "y": 45.31,
         "size": 119.8,
@@ -1046,6 +1076,7 @@
       {
         "id": "Marco Parolo",
         "short": "Parolo",
+        "name": "Marco Parolo",
         "x": 60.3,
         "y": 33.01,
         "size": 81.2,
@@ -1055,7 +1086,8 @@
       },
       {
         "id": "Felipe Anderson Pereira Gomes",
-        "short": "Gomes",
+        "short": "Anderson",
+        "name": "Felipe Anderson",
         "x": 66.58,
         "y": 14.88,
         "size": 85.3,
@@ -1066,6 +1098,7 @@
       {
         "id": "Ştefan Daniel Radu",
         "short": "Radu",
+        "name": "Ștefan Radu",
         "x": 52.27,
         "y": 9.72,
         "size": 95.0,
@@ -1075,7 +1108,8 @@
       },
       {
         "id": "Maurício dos Santos Nascimento",
-        "short": "Nascimento",
+        "short": "Maurício",
+        "name": "Maurício",
         "x": 40.85,
         "y": 54.64,
         "size": 82.6,
@@ -1086,6 +1120,7 @@
       {
         "id": "Wesley Hoedt",
         "short": "Hoedt",
+        "name": "Wesley Hoedt",
         "x": 45.02,
         "y": 31.05,
         "size": 74.3,
@@ -1096,6 +1131,7 @@
       {
         "id": "Alessandro Matri",
         "short": "Matri",
+        "name": "Alessandro Matri",
         "x": 69.25,
         "y": 48.27,
         "size": 60.5,
@@ -1106,6 +1142,7 @@
       {
         "id": "Etrit Berisha",
         "short": "Berisha",
+        "name": "Etrit Berisha",
         "x": 23.1,
         "y": 43.46,
         "size": 60.5,
@@ -1295,29 +1332,29 @@
         "n_actions": 198
       },
       {
-        "player": "Jeison Fabián Murillo Cerón",
-        "short": "Cerón",
+        "player": "Jeison Murillo",
+        "short": "Murillo",
         "vaep": 0.8262,
         "role": "Presser",
         "n_actions": 205
       },
       {
-        "player": "Mauro Emanuel Icardi Rivero",
-        "short": "Rivero",
+        "player": "Mauro Icardi",
+        "short": "Icardi",
         "vaep": 0.5905,
         "role": "Contributor",
         "n_actions": 91
       },
       {
-        "player": "Alex Nicolao Telles",
+        "player": "Alex Telles",
         "short": "Telles",
         "vaep": 0.4278,
         "role": "Contributor",
         "n_actions": 259
       },
       {
-        "player": "Gary Alexis Medel Soto",
-        "short": "Soto",
+        "player": "Gary Medel",
+        "short": "Medel",
         "vaep": 0.3578,
         "role": "Progressor",
         "n_actions": 241
@@ -1346,8 +1383,8 @@
         "n_actions": 132
       },
       {
-        "player": "Felipe Anderson Pereira Gomes",
-        "short": "Gomes",
+        "player": "Felipe Anderson",
+        "short": "Anderson",
         "vaep": 0.3235,
         "role": "Progressor",
         "n_actions": 84

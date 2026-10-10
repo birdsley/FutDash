@@ -506,6 +506,7 @@
       "player_full": "Bouna Sarr",
       "minute": 1,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Steven Fletcher",
       "minute": 5,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Adam Ounas",
       "minute": 13,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -545,9 +548,10 @@
       "goal": false,
       "team": "away",
       "player": "Poko",
-      "player_full": "André Biyogo Poko",
+      "player_full": "André Poko",
       "minute": 17,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Rémy Cabella",
       "minute": 25,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Florian Thauvin",
       "minute": 30,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Adam Ounas",
       "minute": 35,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Adam Ounas",
       "minute": 41,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Thomas Touré",
       "minute": 53,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -629,9 +638,10 @@
       "goal": false,
       "team": "away",
       "player": "Poko",
-      "player_full": "André Biyogo Poko",
+      "player_full": "André Poko",
       "minute": 59,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Steven Fletcher",
       "minute": 63,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Cédric Yambéré",
       "minute": 66,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Thomas Touré",
       "minute": 72,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Jussiê Ferreira Vieira",
       "minute": 83,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,6 +716,7 @@
       "player_full": "Steven Fletcher",
       "minute": 84,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -716,16 +731,19 @@
       "player_full": "Steven Fletcher",
       "minute": 85,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Nicolas Alexis Julio N'Koulou Ndoubena",
-        "short": "Ndoubena",
+        "short": "N'Koulou",
+        "name": "Nicolas N'Koulou",
         "x": 44.71,
         "y": 54.03,
         "size": 119.9,
@@ -735,7 +753,8 @@
       },
       {
         "id": "Javier Manquillo Gaitán",
-        "short": "Gaitán",
+        "short": "Manquillo",
+        "name": "Javi Manquillo",
         "x": 58.89,
         "y": 69.23,
         "size": 116.9,
@@ -746,6 +765,7 @@
       {
         "id": "Bouna Sarr",
         "short": "Sarr",
+        "name": "Bouna Sarr",
         "x": 71.75,
         "y": 69.02,
         "size": 89.5,
@@ -756,6 +776,7 @@
       {
         "id": "Karim Rekik",
         "short": "Rekik",
+        "name": "Karim Rekik",
         "x": 43.62,
         "y": 23.39,
         "size": 125.8,
@@ -766,6 +787,7 @@
       {
         "id": "Benjamin Mendy",
         "short": "Mendy",
+        "name": "Benjamin Mendy",
         "x": 62.71,
         "y": 8.15,
         "size": 113.9,
@@ -776,6 +798,7 @@
       {
         "id": "Rémy Cabella",
         "short": "Cabella",
+        "name": "Rémy Cabella",
         "x": 75.94,
         "y": 33.68,
         "size": 97.9,
@@ -786,6 +809,7 @@
       {
         "id": "Florian Thauvin",
         "short": "Thauvin",
+        "name": "Florian Thauvin",
         "x": 79.81,
         "y": 18.2,
         "size": 71.1,
@@ -795,7 +819,8 @@
       },
       {
         "id": "Lucas Silva Borges",
-        "short": "Borges",
+        "short": "Silva",
+        "name": "Lucas Silva",
         "x": 53.16,
         "y": 33.02,
         "size": 91.9,
@@ -806,6 +831,7 @@
       {
         "id": "Steve Mandanda",
         "short": "Mandanda",
+        "name": "Steve Mandanda",
         "x": 13.3,
         "y": 43.63,
         "size": 60.4,
@@ -816,6 +842,7 @@
       {
         "id": "Mauricio Aníbal Isla Isla",
         "short": "Isla",
+        "name": "Mauricio Isla",
         "x": 60.61,
         "y": 49.81,
         "size": 59.2,
@@ -826,6 +853,7 @@
       {
         "id": "Steven Fletcher",
         "short": "Fletcher",
+        "name": "Steven Fletcher",
         "x": 74.5,
         "y": 50.91,
         "size": 58.6,
@@ -986,6 +1014,7 @@
       {
         "id": "Enzo Crivelli",
         "short": "Crivelli",
+        "name": "Enzo Crivelli",
         "x": 71.99,
         "y": 45.23,
         "size": 82.3,
@@ -996,6 +1025,7 @@
       {
         "id": "Jaroslav Plašil",
         "short": "Plašil",
+        "name": "Jaroslav Plašil",
         "x": 52.91,
         "y": 38.98,
         "size": 141.4,
@@ -1006,6 +1036,7 @@
       {
         "id": "Mathieu Debuchy",
         "short": "Debuchy",
+        "name": "Mathieu Debuchy",
         "x": 60.96,
         "y": 72.65,
         "size": 116.4,
@@ -1016,6 +1047,7 @@
       {
         "id": "Diego Armando Valentin Contento",
         "short": "Contento",
+        "name": "Diego Contento",
         "x": 50.21,
         "y": 5.09,
         "size": 89.1,
@@ -1026,6 +1058,7 @@
       {
         "id": "Thomas Touré",
         "short": "Touré",
+        "name": "Thomas Touré",
         "x": 54.59,
         "y": 26.96,
         "size": 114.1,
@@ -1036,6 +1069,7 @@
       {
         "id": "Adam Ounas",
         "short": "Ounas",
+        "name": "Adam Ounas",
         "x": 66.14,
         "y": 40.01,
         "size": 73.2,
@@ -1046,6 +1080,7 @@
       {
         "id": "Cédric Yambéré",
         "short": "Yambéré",
+        "name": "Cédric Yambéré",
         "x": 62.43,
         "y": 47.95,
         "size": 89.1,
@@ -1056,6 +1091,7 @@
       {
         "id": "André Biyogo Poko",
         "short": "Poko",
+        "name": "André Poko",
         "x": 63.67,
         "y": 64.45,
         "size": 100.5,
@@ -1066,6 +1102,7 @@
       {
         "id": "Jérôme Prior",
         "short": "Prior",
+        "name": "Jérôme Prior",
         "x": 11.57,
         "y": 35.57,
         "size": 70.9,
@@ -1074,20 +1111,22 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Frédéric Guilbert",
-        "short": "Guilbert",
-        "x": 33.77,
-        "y": 51.4,
+        "id": "Pablo Nascimento Castro",
+        "short": "Pablo",
+        "name": "Pablo",
+        "x": 34.05,
+        "y": 33.81,
         "size": 64.1,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0545
       },
       {
-        "id": "Pablo Nascimento Castro",
-        "short": "Castro",
-        "x": 34.05,
-        "y": 33.81,
+        "id": "Frédéric Guilbert",
+        "short": "Guilbert",
+        "name": "Frédéric Guilbert",
+        "x": 33.77,
+        "y": 51.4,
         "size": 64.1,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1127,13 +1166,13 @@
       },
       {
         "source": "Jaroslav Plašil",
-        "target": "Frédéric Guilbert",
+        "target": "Pablo Nascimento Castro",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Jaroslav Plašil",
-        "target": "Pablo Nascimento Castro",
+        "target": "Frédéric Guilbert",
         "weight": 1,
         "direction": "backward"
       },
@@ -1222,18 +1261,6 @@
         "direction": "forward"
       },
       {
-        "source": "Frédéric Guilbert",
-        "target": "Pablo Nascimento Castro",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Frédéric Guilbert",
-        "target": "Jaroslav Plašil",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Pablo Nascimento Castro",
         "target": "Frédéric Guilbert",
         "weight": 1,
@@ -1241,6 +1268,18 @@
       },
       {
         "source": "Pablo Nascimento Castro",
+        "target": "Jaroslav Plašil",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Frédéric Guilbert",
+        "target": "Pablo Nascimento Castro",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Frédéric Guilbert",
         "target": "Jaroslav Plašil",
         "weight": 1,
         "direction": "forward"
@@ -1294,7 +1333,7 @@
         "n_actions": 139
       },
       {
-        "player": "André Biyogo Poko",
+        "player": "André Poko",
         "short": "Poko",
         "vaep": 0.3044,
         "role": "Presser",

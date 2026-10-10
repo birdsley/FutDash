@@ -506,6 +506,7 @@
       "player_full": "Ömer Toprak",
       "minute": 10,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Arjen Robben",
       "minute": 20,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Javier Hernández Balcázar",
       "minute": 52,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Hakan Çalhanoğlu",
       "minute": 53,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Robert Lewandowski",
       "minute": 54,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Christoph Kramer",
       "minute": 61,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Hakan Çalhanoğlu",
       "minute": 62,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Thomas Müller",
       "minute": 63,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Thomas Müller",
       "minute": 64,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -628,10 +637,11 @@
       "xg": 0.1227,
       "goal": false,
       "team": "away",
-      "player": "Nascimento",
-      "player_full": "Thiago Alcântara do Nascimento",
+      "player": "Alcântara",
+      "player_full": "Thiago Alcântara",
       "minute": 69,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Thomas Müller",
       "minute": 71,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Robert Lewandowski",
       "minute": 82,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Holger Badstuber",
       "minute": 82,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,6 +701,7 @@
       "player_full": "Julian Brandt",
       "minute": 85,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -702,16 +716,19 @@
       "player_full": "Sebastian Rode",
       "minute": 87,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Ömer Toprak",
         "short": "Toprak",
+        "name": "Ömer Toprak",
         "x": 50.35,
         "y": 29.0,
         "size": 91.0,
@@ -722,6 +739,7 @@
       {
         "id": "Hakan Çalhanoğlu",
         "short": "Çalhanoğlu",
+        "name": "Hakan Çalhanoğlu",
         "x": 79.31,
         "y": 22.56,
         "size": 140.4,
@@ -731,7 +749,8 @@
       },
       {
         "id": "Wendell Nascimento Borges",
-        "short": "Borges",
+        "short": "Wendell",
+        "name": "Wendell",
         "x": 75.68,
         "y": 7.29,
         "size": 124.7,
@@ -742,6 +761,7 @@
       {
         "id": "Bernd Leno",
         "short": "Leno",
+        "name": "Bernd Leno",
         "x": 11.32,
         "y": 40.52,
         "size": 91.0,
@@ -752,6 +772,7 @@
       {
         "id": "Stefan Kießling",
         "short": "Kießling",
+        "name": "Stefan Kießling",
         "x": 68.86,
         "y": 40.05,
         "size": 86.5,
@@ -762,6 +783,7 @@
       {
         "id": "Karim Bellarabi",
         "short": "Bellarabi",
+        "name": "Karim Bellarabi",
         "x": 80.68,
         "y": 63.12,
         "size": 77.5,
@@ -772,6 +794,7 @@
       {
         "id": "Javier Hernández Balcázar",
         "short": "Balcázar",
+        "name": "Javier Hernández Balcázar",
         "x": 70.26,
         "y": 30.47,
         "size": 64.0,
@@ -782,6 +805,7 @@
       {
         "id": "Christoph Kramer",
         "short": "Kramer",
+        "name": "Christoph Kramer",
         "x": 70.29,
         "y": 32.81,
         "size": 93.2,
@@ -792,6 +816,7 @@
       {
         "id": "Kevin Kampl",
         "short": "Kampl",
+        "name": "Kevin Kampl",
         "x": 79.68,
         "y": 26.36,
         "size": 104.4,
@@ -802,6 +827,7 @@
       {
         "id": "Jonathan Tah",
         "short": "Tah",
+        "name": "Jonathan Tah",
         "x": 53.52,
         "y": 43.88,
         "size": 68.5,
@@ -812,6 +838,7 @@
       {
         "id": "Tin Jedvaj",
         "short": "Jedvaj",
+        "name": "Tin Jedvaj",
         "x": 65.54,
         "y": 63.68,
         "size": 64.0,
@@ -960,6 +987,7 @@
       {
         "id": "Philipp Lahm",
         "short": "Lahm",
+        "name": "Philipp Lahm",
         "x": 58.65,
         "y": 67.25,
         "size": 133.6,
@@ -970,6 +998,7 @@
       {
         "id": "Joshua Kimmich",
         "short": "Kimmich",
+        "name": "Joshua Kimmich",
         "x": 40.72,
         "y": 61.66,
         "size": 123.9,
@@ -980,6 +1009,7 @@
       {
         "id": "Holger Badstuber",
         "short": "Badstuber",
+        "name": "Holger Badstuber",
         "x": 37.77,
         "y": 28.17,
         "size": 118.1,
@@ -990,6 +1020,7 @@
       {
         "id": "Manuel Neuer",
         "short": "Neuer",
+        "name": "Manuel Neuer",
         "x": 15.03,
         "y": 43.82,
         "size": 91.9,
@@ -999,7 +1030,8 @@
       },
       {
         "id": "Xabier Alonso Olano",
-        "short": "Olano",
+        "short": "Alonso",
+        "name": "Xabi Alonso",
         "x": 60.71,
         "y": 37.35,
         "size": 106.5,
@@ -1010,6 +1042,7 @@
       {
         "id": "David Olatukunbo Alaba",
         "short": "Alaba",
+        "name": "David Alaba",
         "x": 61.37,
         "y": 11.48,
         "size": 101.6,
@@ -1019,7 +1052,8 @@
       },
       {
         "id": "Douglas Costa de Souza",
-        "short": "Souza",
+        "short": "Costa",
+        "name": "Douglas Costa",
         "x": 75.47,
         "y": 33.91,
         "size": 78.3,
@@ -1030,6 +1064,7 @@
       {
         "id": "Robert Lewandowski",
         "short": "Lewandowski",
+        "name": "Robert Lewandowski",
         "x": 68.52,
         "y": 29.03,
         "size": 67.6,
@@ -1040,6 +1075,7 @@
       {
         "id": "Kingsley Coman",
         "short": "Coman",
+        "name": "Kingsley Coman",
         "x": 74.05,
         "y": 34.12,
         "size": 65.7,
@@ -1050,6 +1086,7 @@
       {
         "id": "Arjen Robben",
         "short": "Robben",
+        "name": "Arjen Robben",
         "x": 81.2,
         "y": 63.79,
         "size": 58.9,
@@ -1059,7 +1096,8 @@
       },
       {
         "id": "Arturo Erasmo Vidal Pardo",
-        "short": "Pardo",
+        "short": "Vidal",
+        "name": "Arturo Vidal",
         "x": 55.38,
         "y": 25.49,
         "size": 58.9,
@@ -1280,8 +1318,8 @@
         "n_actions": 68
       },
       {
-        "player": "Wendell Nascimento Borges",
-        "short": "Borges",
+        "player": "Wendell",
+        "short": "Wendell",
         "vaep": 0.2928,
         "role": "Progressor",
         "n_actions": 120
@@ -1310,8 +1348,8 @@
         "n_actions": 57
       },
       {
-        "player": "Douglas Costa de Souza",
-        "short": "Souza",
+        "player": "Douglas Costa",
+        "short": "Costa",
         "vaep": 0.4966,
         "role": "Progressor",
         "n_actions": 167
@@ -1324,7 +1362,7 @@
         "n_actions": 136
       },
       {
-        "player": "David Olatukunbo Alaba",
+        "player": "David Alaba",
         "short": "Alaba",
         "vaep": 0.3079,
         "role": "Progressor",

@@ -506,6 +506,7 @@
       "player_full": "Neal Maupay",
       "minute": 11,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -520,6 +521,7 @@
       "player_full": "Thomas Mangani",
       "minute": 15,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -534,6 +536,7 @@
       "player_full": "Charles Diers",
       "minute": 16,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -548,6 +551,7 @@
       "player_full": "Moustapha Bayal Sall",
       "minute": 18,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -562,6 +566,7 @@
       "player_full": "Neal Maupay",
       "minute": 25,
       "technique": "Half Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -576,6 +581,7 @@
       "player_full": "Kévin Théophile-Catherine",
       "minute": 25,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 1,
       "is_penalty_shootout": false
@@ -590,6 +596,7 @@
       "player_full": "Thomas Mangani",
       "minute": 30,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -604,6 +611,7 @@
       "player_full": "Neal Maupay",
       "minute": 33,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Left Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -618,6 +626,7 @@
       "player_full": "Yoann Andreu",
       "minute": 36,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -632,6 +641,7 @@
       "player_full": "Vincent Manceau",
       "minute": 37,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -646,6 +656,7 @@
       "player_full": "Kévin Monnet-Paquet",
       "minute": 45,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 1,
       "is_penalty_shootout": false
@@ -660,6 +671,7 @@
       "player_full": "Romain Saïss",
       "minute": 59,
       "technique": "Normal",
+      "shot_type": "Open Play",
       "body_part": "Head",
       "period": 2,
       "is_penalty_shootout": false
@@ -674,6 +686,7 @@
       "player_full": "Neal Maupay",
       "minute": 60,
       "technique": "Volley",
+      "shot_type": "Open Play",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
@@ -688,16 +701,19 @@
       "player_full": "Billy Ketkeophomphone",
       "minute": 69,
       "technique": "Normal",
+      "shot_type": "Free Kick",
       "body_part": "Right Foot",
       "period": 2,
       "is_penalty_shootout": false
     }
   ],
+  "own_goals": [],
   "network_home": {
     "nodes": [
       {
         "id": "Yoann Andreu",
         "short": "Andreu",
+        "name": "Yoann Andreu",
         "x": 49.99,
         "y": 12.54,
         "size": 127.7,
@@ -708,6 +724,7 @@
       {
         "id": "Thomas Mangani",
         "short": "Mangani",
+        "name": "Thomas Mangani",
         "x": 64.93,
         "y": 23.68,
         "size": 139.8,
@@ -718,6 +735,7 @@
       {
         "id": "Vincent Manceau",
         "short": "Manceau",
+        "name": "Vincent Manceau",
         "x": 50.17,
         "y": 71.97,
         "size": 86.8,
@@ -728,6 +746,7 @@
       {
         "id": "Gilles Sunu",
         "short": "Sunu",
+        "name": "Gilles Sunu",
         "x": 74.44,
         "y": 56.21,
         "size": 67.1,
@@ -738,6 +757,7 @@
       {
         "id": "Billy Ketkeophomphone",
         "short": "Ketkeophomp",
+        "name": "Billy Ketkeophomphone",
         "x": 69.13,
         "y": 29.0,
         "size": 91.4,
@@ -748,6 +768,7 @@
       {
         "id": "Arnold Bouka Moutou",
         "short": "Moutou",
+        "name": "Arnold Bouka Moutou",
         "x": 76.5,
         "y": 9.49,
         "size": 76.2,
@@ -758,6 +779,7 @@
       {
         "id": "Romain Saïss",
         "short": "Saïss",
+        "name": "Romain Saïss",
         "x": 51.93,
         "y": 36.85,
         "size": 124.7,
@@ -768,6 +790,7 @@
       {
         "id": "Romain Thomas",
         "short": "Thomas",
+        "name": "Romain Thomas",
         "x": 35.24,
         "y": 21.72,
         "size": 102.0,
@@ -776,8 +799,20 @@
         "eigenvector": 0.2005
       },
       {
+        "id": "Ismaël Traoré",
+        "short": "Traoré",
+        "name": "Ismaël Traoré",
+        "x": 46.48,
+        "y": 54.48,
+        "size": 67.1,
+        "is_playmaker": true,
+        "betweenness": 0.6056,
+        "eigenvector": 0.0357
+      },
+      {
         "id": "Charles Diers",
         "short": "Diers",
+        "name": "Charles Diers",
         "x": 70.12,
         "y": 56.05,
         "size": 61.1,
@@ -788,22 +823,13 @@
       {
         "id": "Alexandre Letellier",
         "short": "Letellier",
+        "name": "Alexandre Letellier",
         "x": 12.36,
         "y": 38.76,
         "size": 61.1,
         "is_playmaker": true,
         "betweenness": 0.3278,
         "eigenvector": 0.0131
-      },
-      {
-        "id": "Ismaël Traoré",
-        "short": "Traoré",
-        "x": 46.48,
-        "y": 54.48,
-        "size": 67.1,
-        "is_playmaker": true,
-        "betweenness": 0.6056,
-        "eigenvector": 0.0357
       }
     ],
     "edges": [
@@ -958,6 +984,30 @@
         "direction": "backward"
       },
       {
+        "source": "Ismaël Traoré",
+        "target": "Vincent Manceau",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ismaël Traoré",
+        "target": "Romain Saïss",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ismaël Traoré",
+        "target": "Charles Diers",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ismaël Traoré",
+        "target": "Alexandre Letellier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Charles Diers",
         "target": "Gilles Sunu",
         "weight": 1,
@@ -980,30 +1030,6 @@
         "target": "Ismaël Traoré",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Ismaël Traoré",
-        "target": "Charles Diers",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ismaël Traoré",
-        "target": "Alexandre Letellier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ismaël Traoré",
-        "target": "Vincent Manceau",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ismaël Traoré",
-        "target": "Romain Saïss",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },
@@ -1012,6 +1038,7 @@
       {
         "id": "Kévin Théophile-Catherine",
         "short": "Théophile-C",
+        "name": "Kévin Théophile-Catherine",
         "x": 38.69,
         "y": 59.8,
         "size": 121.9,
@@ -1022,6 +1049,7 @@
       {
         "id": "Moustapha Bayal Sall",
         "short": "Sall",
+        "name": "Moustapha Bayal Sall",
         "x": 39.25,
         "y": 27.24,
         "size": 115.6,
@@ -1032,6 +1060,7 @@
       {
         "id": "Jérémy Clément",
         "short": "Clément",
+        "name": "Jérémy Clément",
         "x": 56.24,
         "y": 37.64,
         "size": 142.4,
@@ -1042,6 +1071,7 @@
       {
         "id": "Renaud Cohade",
         "short": "Cohade",
+        "name": "Renaud Cohade",
         "x": 57.59,
         "y": 35.94,
         "size": 73.1,
@@ -1052,6 +1082,7 @@
       {
         "id": "Stéphane Ruffier",
         "short": "Ruffier",
+        "name": "Stéphane Ruffier",
         "x": 13.4,
         "y": 42.18,
         "size": 73.1,
@@ -1062,6 +1093,7 @@
       {
         "id": "Franck Tabanou",
         "short": "Tabanou",
+        "name": "Franck Tabanou",
         "x": 58.37,
         "y": 7.84,
         "size": 100.7,
@@ -1072,6 +1104,7 @@
       {
         "id": "Ronaël Pierre-Gabriel",
         "short": "Pierre-Gabr",
+        "name": "Ronaël Pierre-Gabriel",
         "x": 62.71,
         "y": 73.35,
         "size": 93.6,
@@ -1082,6 +1115,7 @@
       {
         "id": "Fabien Lemoine",
         "short": "Lemoine",
+        "name": "Fabien Lemoine",
         "x": 61.59,
         "y": 47.77,
         "size": 102.2,
@@ -1092,6 +1126,7 @@
       {
         "id": "Valentin Eysseric",
         "short": "Eysseric",
+        "name": "Valentin Eysseric",
         "x": 68.77,
         "y": 20.95,
         "size": 61.3,
@@ -1102,6 +1137,7 @@
       {
         "id": "Kévin Monnet-Paquet",
         "short": "Monnet-Paqu",
+        "name": "Kévin Monnet-Paquet",
         "x": 76.24,
         "y": 60.21,
         "size": 62.9,
@@ -1112,6 +1148,7 @@
       {
         "id": "Neal Maupay",
         "short": "Maupay",
+        "name": "Neal Maupay",
         "x": 71.69,
         "y": 44.5,
         "size": 58.1,
