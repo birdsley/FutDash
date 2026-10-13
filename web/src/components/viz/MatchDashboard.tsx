@@ -237,6 +237,7 @@ export default function MatchDashboard() {
             awayColor={ac}
             home={meta.home}
             away={meta.away}
+            phases={currentMatch.phases}
           />
         </div>
       </div>

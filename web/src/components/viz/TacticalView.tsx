@@ -15,16 +15,20 @@
  *   eliminate any possibility of a lookup mismatch causing wrong positions.
  */
 
-import { useState, useRef, useCallback } from 'react'
-import type { Network, NetworkNode } from '../../types'
+import { useState, useRef, useCallback, useEffect } from 'react'
+import type { Network, NetworkNode, Phases, PhaseShape } from '../../types'
 
-interface TacticalViewProps {
+interface CombinedPitchProps {
   networkHome: Network
   networkAway: Network
   homeColor: string
   awayColor: string
   home: string
   away: string
+}
+
+interface TacticalViewProps extends CombinedPitchProps {
+  phases?: Phases
 }
 
 // ── Coordinate transforms ─────────────────────────────────────────
@@ -83,12 +87,12 @@ interface TipState {
   color: string
 }
 
-// ── Main component ────────────────────────────────────────────────
-export function TacticalView({
+// ── Combined pitch (both teams) ───────────────────────────────────
+function CombinedPitch({
   networkHome, networkAway,
   homeColor, awayColor,
   home, away,
-}: TacticalViewProps) {
+}: CombinedPitchProps) {
   const wrapperRef = useRef<HTMLDivElement>(null)
   const [tooltip, setTooltip] = useState<TipState | null>(null)
   const [highlighted, setHighlighted] = useState<string | null>(null)
@@ -332,6 +336,351 @@ export function TacticalView({
           ))}
         </div>
       )}
+    </div>
+  )
+}
+
+// ── Possession phases (StatsBomb 360 matches only) ────────────────
+type View = 'both' | 'home' | 'away'
+
+const AUTO_MS = 6000
+const FADE_MS = 400
+const mono = "'DM Mono', monospace"
+
+function usePrefersReducedMotion() {
+  const query = '(prefers-reduced-motion: reduce)'
+  const [reduced, setReduced] = useState(
+    () => typeof window !== 'undefined' && window.matchMedia(query).matches,
+  )
+  useEffect(() => {
+    const mq = window.matchMedia(query)
+    const onChange = () => setReduced(mq.matches)
+    mq.addEventListener('change', onChange)
+    return () => mq.removeEventListener('change', onChange)
+  }, [])
+  return reduced
+}
+
+/**
+ * Entry point. Without 360 phases this renders the combined pitch exactly as
+ * before; with them it adds a view switch and two possession-phase pitches.
+ */
+export function TacticalView({ phases, ...props }: TacticalViewProps) {
+  if (!phases?.available) return <CombinedPitch {...props} />
+  return <PhasedTacticalView phases={phases} {...props} />
+}
+
+function PhasedTacticalView({ phases, ...props }: CombinedPitchProps & { phases: Phases }) {
+  const { home, away, homeColor, awayColor } = props
+  const [view, setView] = useState<View>('both')
+  const [autoPlay, setAutoPlay] = useState(false)
+  const [hovered, setHovered] = useState(false)
+  const reducedMotion = usePrefersReducedMotion()
+
+  useEffect(() => {
+    if (!autoPlay || hovered || reducedMotion) return
+    const t = window.setTimeout(() => setView(v => (v === 'home' ? 'away' : 'home')), AUTO_MS)
+    return () => window.clearTimeout(t)
+  }, [autoPlay, hovered, reducedMotion, view])
+
+  const choose = (v: View) => { setAutoPlay(false); setView(v) }
+  const toggleAuto = () => {
+    if (autoPlay) { setAutoPlay(false); return }
+    if (view === 'both') setView('home')
+    setAutoPlay(true)
+  }
+
+  const options: { id: View; label: string; color: string }[] = [
+    { id: 'both', label: 'Both teams', color: 'var(--accent)' },
+    { id: 'home', label: `${home} in possession`, color: homeColor },
+    { id: 'away', label: `${away} in possession`, color: awayColor },
+  ]
+  // Layers are stacked in a fixed-size stage, so switching never shifts layout.
+  const layer = (active: boolean): React.CSSProperties => ({
+    position: 'absolute', inset: 0,
+    opacity: active ? 1 : 0,
+    visibility: active ? 'visible' : 'hidden',
+    pointerEvents: active ? 'auto' : 'none',
+    transition: reducedMotion ? 'none' : `opacity ${FADE_MS}ms ease, visibility ${FADE_MS}ms`,
+  })
+
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+      <div className="tv-phase-bar" role="group" aria-label="Tactical view">
+        {options.map(o => {
+          const active = view === o.id
+          return (
+            <button
+              key={o.id}
+              type="button"
+              aria-pressed={active}
+              onClick={() => choose(o.id)}
+              className="tv-phase-btn"
+              style={{
+                color: active ? 'var(--text)' : 'var(--muted)',
+                borderBottomColor: active ? o.color : 'transparent',
+              }}
+            >
+              {o.label}
+            </button>
+          )
+        })}
+        {!reducedMotion && (
+          <button
+            type="button"
+            aria-pressed={autoPlay}
+            onClick={toggleAuto}
+            className="tv-phase-btn tv-phase-auto"
+            style={{ color: autoPlay ? 'var(--text)' : 'var(--muted)' }}
+          >
+            {autoPlay ? 'Pause' : 'Auto-play'}
+          </button>
+        )}
+      </div>
+
+      {/* Hovering the pitch (not the controls) pauses auto-play, so the
+          click that starts it doesn't immediately pause it. */}
+      <div
+        style={{ flex: 1, minHeight: 0, position: 'relative' }}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        <div style={layer(view === 'both')} aria-hidden={view !== 'both'}>
+          <CombinedPitch {...props} />
+        </div>
+        <div style={layer(view === 'home')} aria-hidden={view !== 'home'}>
+          <PhasePitch
+            network={props.networkHome} attackColor={homeColor} attacking={home}
+            shape={phases.home_possession} defendColor={awayColor} defending={away}
+            grid={phases.grid} maxWeight={edgeMax(props)}
+          />
+        </div>
+        <div style={layer(view === 'away')} aria-hidden={view !== 'away'}>
+          <PhasePitch
+            network={props.networkAway} attackColor={awayColor} attacking={away}
+            shape={phases.away_possession} defendColor={homeColor} defending={home}
+            grid={phases.grid} maxWeight={edgeMax(props)}
+          />
+        </div>
+      </div>
+
+      <style>{`
+        .tv-phase-bar {
+          display: flex; align-items: stretch; gap: 0;
+          padding: 0 1rem; border-bottom: 1px solid var(--border);
+          overflow-x: auto; scrollbar-width: none; flex-shrink: 0;
+        }
+        .tv-phase-bar::-webkit-scrollbar { display: none; }
+        .tv-phase-btn {
+          background: none; border: 0; border-bottom: 2px solid transparent;
+          margin-bottom: -1px; padding: 0.6rem 0.9rem; cursor: pointer;
+          font-family: ${mono}; font-size: 11px; letter-spacing: 0.08em;
+          text-transform: uppercase; white-space: nowrap;
+          transition: color 0.15s, border-color 0.15s;
+        }
+        .tv-phase-btn:hover { color: var(--text) !important; }
+        .tv-phase-btn:focus-visible { outline: 1px solid var(--accent); outline-offset: -3px; }
+        .tv-phase-auto { margin-left: auto; }
+        .tv-phase-foot {
+          display: flex; align-items: center; gap: 0.5rem 1rem; flex-wrap: wrap;
+          padding: 0.55rem 1rem 0.75rem;
+        }
+        .tv-chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .tv-chip {
+          font-family: ${mono}; font-size: 11px; color: var(--muted);
+          background: var(--surface2); border: 1px solid var(--border);
+          border-radius: 3px; padding: 0.3rem 0.6rem; white-space: nowrap;
+        }
+        .tv-chip b { color: var(--text); font-weight: 500; }
+        .tv-caption {
+          font-family: ${mono}; font-size: 10px; color: var(--muted2);
+          margin: 0; line-height: 1.5; flex: 1 1 260px;
+        }
+        @media (max-width: 768px) {
+          .tv-phase-bar { padding: 0 0.25rem; }
+          .tv-phase-btn { padding: 0.6rem 0.65rem; }
+          .tv-chips { flex-direction: column; align-items: flex-start; }
+        }
+      `}</style>
+    </div>
+  )
+}
+
+// Same edge scale as the combined pitch, so line weights match between views.
+function edgeMax({ networkHome, networkAway }: CombinedPitchProps) {
+  return Math.max(...networkHome.edges.map(e => e.weight), ...networkAway.edges.map(e => e.weight), 1)
+}
+
+interface PhasePitchProps {
+  network: Network
+  attackColor: string
+  attacking: string
+  shape: PhaseShape
+  defendColor: string
+  defending: string
+  grid: { cols: number; rows: number }
+  maxWeight: number
+}
+
+/** One full pitch: possessing team attacks right, defenders' heat behind it. */
+function PhasePitch({
+  network, attackColor, attacking, shape, defendColor, defending, grid, maxWeight,
+}: PhasePitchProps) {
+  const wrapperRef = useRef<HTMLDivElement>(null)
+  const [tooltip, setTooltip] = useState<TipState | null>(null)
+  const [highlighted, setHighlighted] = useState<string | null>(null)
+
+  const rawPos: Record<string, [number, number]> = {}
+  network.nodes.forEach(n => { rawPos[n.id] = [n.x, n.y] })
+
+  const cw = 120 / grid.cols
+  const ch = 80 / grid.rows
+  const lineX = 120 - shape.line_height
+  const filterId = `tvHeatBlur-${attacking.replace(/[^a-z0-9]/gi, '')}`
+  const clipId = `${filterId}-clip`
+
+  const relPos = (e: React.MouseEvent) => {
+    const rect = wrapperRef.current?.getBoundingClientRect()
+    return rect ? { x: e.clientX - rect.left, y: e.clientY - rect.top } : { x: 0, y: 0 }
+  }
+  const showTip = (e: React.MouseEvent, node: NetworkNode) => {
+    const p = relPos(e)
+    setTooltip({
+      relX: p.x, relY: p.y,
+      title: node.name || node.id,
+      color: attackColor,
+      lines: [
+        `Team: ${attacking}`,
+        node.is_playmaker ? '★ Playmaker' : 'Player',
+        `Influence: ${typeof node.eigenvector === 'number' ? node.eigenvector.toFixed(3) : '—'}`,
+        `Betweenness: ${typeof node.betweenness === 'number' ? node.betweenness.toFixed(3) : '—'}`,
+      ],
+    })
+    setHighlighted(node.id)
+  }
+
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+      <div ref={wrapperRef} style={{ flex: 1, minHeight: 0, position: 'relative' }}>
+        <svg
+          viewBox="-4 -7 128 90"
+          style={{ width: '100%', height: '100%', display: 'block' }}
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          aria-label={`${attacking} pass network with ${defending}'s defensive shape`}
+        >
+          <defs>
+            <filter id={filterId} x="-10%" y="-10%" width="120%" height="120%">
+              <feGaussianBlur stdDeviation={4.5} />
+            </filter>
+            <clipPath id={clipId}><rect x={0} y={0} width={120} height={80} /></clipPath>
+          </defs>
+          <FullPitch />
+
+          {/* Defending team's presence: blurred 5-yard cells, low alpha */}
+          <g clipPath={`url(#${clipId})`}>
+            {/* crispEdges: anti-aliased seams between cells would survive the blur as a grid */}
+            <g filter={`url(#${filterId})`} shapeRendering="crispEdges">
+              {shape.defense_heat.map((v, i) => v < 0.02 ? null : (
+                <rect key={i}
+                  x={(i % grid.cols) * cw} y={Math.floor(i / grid.cols) * ch}
+                  width={cw} height={ch}
+                  fill={defendColor} fillOpacity={0.62 * Math.pow(v, 0.8)} />
+              ))}
+            </g>
+          </g>
+
+          {/* Defensive line */}
+          <line x1={lineX} y1={0.6} x2={lineX} y2={79.4}
+            stroke={defendColor} strokeWidth={0.45} strokeDasharray="1.6 1.2" strokeOpacity={0.9} />
+          <text x={lineX - 1} y={-1.6} textAnchor="end" fontSize={2.2}
+            fill="#8b949e" fontFamily="DM Mono, monospace">
+            {defending} line
+          </text>
+
+          <text x={120} y={-1.6} textAnchor="end" fontSize={2.2}
+            fill="#8b949e" fontFamily="DM Mono, monospace">
+            Attacking →
+          </text>
+          <text x={0} y={-1.6} fontSize={2.2} fill={attackColor} fontFamily="DM Mono, monospace">
+            {attacking} in possession
+          </text>
+
+          {/* Pass network, unchanged coordinates (attacking right) */}
+          {network.edges.map((e, i) => {
+            const src = rawPos[e.source]; const tgt = rawPos[e.target]
+            if (!src || !tgt) return null
+            const isHL = !highlighted || e.source === highlighted || e.target === highlighted
+            const w01 = e.weight / maxWeight
+            return (
+              <line key={`pe${i}`} x1={src[0]} y1={src[1]} x2={tgt[0]} y2={tgt[1]}
+                stroke={attackColor} strokeWidth={0.2 + 1.4 * w01}
+                strokeOpacity={isHL ? 0.12 + 0.65 * w01 : 0.03} strokeLinecap="round" />
+            )
+          })}
+          {network.nodes.map(n => {
+            const r = Math.max(Math.sqrt(Math.max(n.size, 55)) * 0.20, 2.2)
+            const isHL = !highlighted || highlighted === n.id
+            const fill = n.is_playmaker ? '#fbbf24' : attackColor
+            const stroke = n.is_playmaker ? '#fbbf24' : (highlighted === n.id ? '#ffffff' : 'rgba(255,255,255,0.75)')
+            const opacity = isHL ? 0.95 : 0.18
+            const label = n.short || (n.id.split(' ').pop()?.slice(0, 13) ?? '')
+            return (
+              <g key={`pn${n.id}`} style={{ cursor: 'pointer' }}
+                onMouseEnter={e => showTip(e, n)}
+                onMouseMove={e => { const p = relPos(e); setTooltip(t => t ? { ...t, relX: p.x, relY: p.y } : null) }}
+                onMouseLeave={() => { setTooltip(null); setHighlighted(null) }}
+                onClick={() => setHighlighted(prev => prev === n.id ? null : n.id)}
+              >
+                <circle cx={n.x} cy={n.y} r={r + 1.3} fill="none"
+                  stroke="rgba(255,255,255,0.13)" strokeWidth={2.2} opacity={opacity} />
+                <circle cx={n.x} cy={n.y} r={r} fill={fill} stroke={stroke}
+                  strokeWidth={n.is_playmaker ? 0.65 : 0.45} opacity={opacity} />
+                <text x={n.x} y={n.y - r - 0.8} textAnchor="middle"
+                  fontSize={2.25} fill="#e6edf3" fontFamily="DM Mono, monospace"
+                  opacity={opacity} style={{ pointerEvents: 'none', userSelect: 'none' }}>
+                  {label}
+                </text>
+              </g>
+            )
+          })}
+        </svg>
+
+        {tooltip && (
+          <div style={{
+            position: 'absolute',
+            left: Math.min(tooltip.relX + 14, (wrapperRef.current?.offsetWidth ?? 400) - 240),
+            top: Math.max(tooltip.relY - 95, 4),
+            background: 'rgba(10,13,20,0.96)',
+            border: `1px solid ${tooltip.color}50`,
+            borderLeft: `3px solid ${tooltip.color}`,
+            borderRadius: 7, padding: '8px 12px', fontSize: 11, fontFamily: mono,
+            color: '#e2e8f0', pointerEvents: 'none', zIndex: 200, lineHeight: 1.85,
+            minWidth: 185, maxWidth: 240, boxShadow: '0 6px 24px rgba(0,0,0,0.65)',
+          }}>
+            <div style={{ fontWeight: 700, color: '#fff', fontSize: 12, marginBottom: 4 }}>{tooltip.title}</div>
+            {tooltip.lines.map((line, i) => <div key={i} style={{ color: '#8b949e' }}>{line}</div>)}
+          </div>
+        )}
+      </div>
+
+      <div className="tv-phase-foot">
+        <div className="tv-chips">
+          <span className="tv-chip" style={{ borderLeft: `2px solid ${defendColor}` }}>
+            Defensive line <b>{shape.line_height.toFixed(1)}</b> yds from goal
+          </span>
+          <span className="tv-chip" style={{ borderLeft: `2px solid ${defendColor}` }}>
+            Width <b>{shape.width.toFixed(1)}</b> yds
+          </span>
+          <span className="tv-chip" style={{ borderLeft: `2px solid ${defendColor}` }}>
+            Depth <b>{shape.depth.toFixed(1)}</b> yds
+          </span>
+        </div>
+        <p className="tv-caption">
+          Defensive shape from StatsBomb 360 freeze frames: players visible to the broadcast
+          camera only, individuals not identified. Coordinates in StatsBomb yards.
+        </p>
+      </div>
     </div>
   )
 }

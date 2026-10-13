@@ -118,6 +118,27 @@ export interface MatchData {
   };
   game_state: GameState;
   insights: string[];
+  phases?: Phases;
+}
+
+// ── 360 possession phases (only on matches with StatsBomb 360 data) ──
+// Defending team's shape while the other side has the ball, in the
+// possessing team's attacking-right frame (defenders' goal at x = 120).
+export interface PhaseShape {
+  n_frames: number;
+  n_frames_shape: number;
+  defense_heat: number[];   // rows x cols, row-major, max = 1
+  line_height: number;      // yards from own goal
+  width: number;
+  depth: number;
+}
+
+export interface Phases {
+  available: boolean;
+  source: string;
+  grid: { cols: number; rows: number };
+  home_possession: PhaseShape;
+  away_possession: PhaseShape;
 }
 
 // ── Index / catalog types ─────────────────────────────────────────
