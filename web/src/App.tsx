@@ -62,6 +62,7 @@ export default function App() {
         style={{
           marginLeft: 260,
           flex: 1,
+          minWidth: 0,
           display: 'flex',
           flexDirection: 'column',
           minHeight: '100vh',
@@ -101,6 +102,8 @@ export default function App() {
       <style>{`
         @media (max-width: 768px) {
           .main-content { margin-left: 0 !important; }
+          .tab-bar { padding: 0 0.5rem !important; }
+          .tab-bar > div { padding: 0.75rem 0.75rem !important; }
         }
       `}</style>
     </div>

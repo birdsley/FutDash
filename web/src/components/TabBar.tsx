@@ -14,8 +14,8 @@ export default function TabBar() {
   const accentColor = currentMatch?.meta?.home_color ?? 'var(--accent)'
 
   return (
-    <div style={{
-      display: 'flex', padding: '0 2rem',
+    <div className="tab-bar" style={{
+      display: 'flex', padding: '0 2rem', overflowX: 'auto',
       borderBottom: '1px solid var(--border)',
       background: 'var(--surface)',
       gap: 0, flexShrink: 0,
@@ -25,7 +25,7 @@ export default function TabBar() {
           key={t.id}
           onClick={() => { setTab(t.id); navigate(`/${t.id}`) }}
           style={{
-            padding: '0.75rem 1.25rem', cursor: 'pointer',
+            padding: '0.75rem 1.25rem', cursor: 'pointer', whiteSpace: 'nowrap',
             fontFamily: "'DM Mono', monospace", fontSize: 11,
             textTransform: 'uppercase', letterSpacing: '0.08em',
             color: activeTab === t.id ? 'var(--text)' : 'var(--muted)',
