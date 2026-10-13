@@ -1150,17 +1150,6 @@
         "eigenvector": 0.06
       },
       {
-        "id": "Juan Isaac Cuenca López",
-        "short": "Cuenca",
-        "name": "Isaac Cuenca",
-        "x": 59.4,
-        "y": 8.96,
-        "size": 59.9,
-        "is_playmaker": false,
-        "betweenness": 0.163,
-        "eigenvector": 0.0167
-      },
-      {
         "id": "Adalberto Peñaranda Maestre",
         "short": "Peñaranda",
         "name": "Adalberto Peñaranda",
@@ -1170,6 +1159,17 @@
         "is_playmaker": false,
         "betweenness": 0.1333,
         "eigenvector": 0.0034
+      },
+      {
+        "id": "Juan Isaac Cuenca López",
+        "short": "Cuenca",
+        "name": "Isaac Cuenca",
+        "x": 59.4,
+        "y": 8.96,
+        "size": 59.9,
+        "is_playmaker": false,
+        "betweenness": 0.163,
+        "eigenvector": 0.0167
       }
     ],
     "edges": [
@@ -1330,8 +1330,14 @@
         "direction": "forward"
       },
       {
-        "source": "Juan Isaac Cuenca López",
-        "target": "Cristiano Biraghi",
+        "source": "Adalberto Peñaranda Maestre",
+        "target": "Youssef El-Arabi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Adalberto Peñaranda Maestre",
+        "target": "Juan Isaac Cuenca López",
         "weight": 1,
         "direction": "backward"
       },
@@ -1342,14 +1348,8 @@
         "direction": "forward"
       },
       {
-        "source": "Adalberto Peñaranda Maestre",
-        "target": "Juan Isaac Cuenca López",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Adalberto Peñaranda Maestre",
-        "target": "Youssef El-Arabi",
+        "source": "Juan Isaac Cuenca López",
+        "target": "Cristiano Biraghi",
         "weight": 1,
         "direction": "backward"
       }

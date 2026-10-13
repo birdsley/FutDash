@@ -938,17 +938,6 @@
         "eigenvector": 0.1785
       },
       {
-        "id": "Cédric Bakambu",
-        "short": "Bakambu",
-        "name": "Cédric Bakambu",
-        "x": 87.35,
-        "y": 35.15,
-        "size": 63.2,
-        "is_playmaker": false,
-        "betweenness": 0.337,
-        "eigenvector": 0.0456
-      },
-      {
         "id": "Roberto Soldado Rillo",
         "short": "Soldado",
         "name": "Roberto Soldado",
@@ -980,6 +969,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0329
+      },
+      {
+        "id": "Cédric Bakambu",
+        "short": "Bakambu",
+        "name": "Cédric Bakambu",
+        "x": 87.35,
+        "y": 35.15,
+        "size": 63.2,
+        "is_playmaker": false,
+        "betweenness": 0.337,
+        "eigenvector": 0.0456
       }
     ],
     "edges": [
@@ -1104,14 +1104,8 @@
         "direction": "backward"
       },
       {
-        "source": "Cédric Bakambu",
-        "target": "Samuel Castillejo Azuaga",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Cédric Bakambu",
-        "target": "Roberto Soldado Rillo",
+        "source": "Roberto Soldado Rillo",
+        "target": "Bruno Soriano Llido",
         "weight": 1,
         "direction": "backward"
       },
@@ -1120,12 +1114,6 @@
         "target": "Cédric Bakambu",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Roberto Soldado Rillo",
-        "target": "Bruno Soriano Llido",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Alphonse Areola",
@@ -1150,6 +1138,18 @@
         "target": "Mario Gaspar Pérez Martínez",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Cédric Bakambu",
+        "target": "Roberto Soldado Rillo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Cédric Bakambu",
+        "target": "Samuel Castillejo Azuaga",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -1255,17 +1255,6 @@
         "eigenvector": 0.3227
       },
       {
-        "id": "Javier Eraso Goñi",
-        "short": "Eraso",
-        "name": "Javi Eraso",
-        "x": 71.31,
-        "y": 46.95,
-        "size": 60.4,
-        "is_playmaker": false,
-        "betweenness": 0.0833,
-        "eigenvector": 0.0105
-      },
-      {
         "id": "Enrique Sola Clemente",
         "short": "Sola",
         "name": "Kike Sola",
@@ -1275,6 +1264,17 @@
         "is_playmaker": false,
         "betweenness": 0.0833,
         "eigenvector": 0.0131
+      },
+      {
+        "id": "Javier Eraso Goñi",
+        "short": "Eraso",
+        "name": "Javi Eraso",
+        "x": 71.31,
+        "y": 46.95,
+        "size": 60.4,
+        "is_playmaker": false,
+        "betweenness": 0.0833,
+        "eigenvector": 0.0105
       }
     ],
     "edges": [
@@ -1411,18 +1411,6 @@
         "direction": "backward"
       },
       {
-        "source": "Javier Eraso Goñi",
-        "target": "Enrique Sola Clemente",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Javier Eraso Goñi",
-        "target": "Mikel Rico Moreno",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Enrique Sola Clemente",
         "target": "Javier Eraso Goñi",
         "weight": 1,
@@ -1433,6 +1421,18 @@
         "target": "Sabin Merino Zuloaga",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Javier Eraso Goñi",
+        "target": "Enrique Sola Clemente",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Javier Eraso Goñi",
+        "target": "Mikel Rico Moreno",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

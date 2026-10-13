@@ -1184,17 +1184,6 @@
         "eigenvector": 0.0215
       },
       {
-        "id": "Aboubakar Kamara",
-        "short": "Kamara",
-        "name": "Aboubakar Kamara",
-        "x": 89.3,
-        "y": 40.83,
-        "size": 69.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0809
-      },
-      {
         "id": "Babacar Niasse",
         "short": "Niasse",
         "name": "Babacar Niasse",
@@ -1215,6 +1204,17 @@
         "is_playmaker": true,
         "betweenness": 0.1611,
         "eigenvector": 0.0835
+      },
+      {
+        "id": "Aboubakar Kamara",
+        "short": "Kamara",
+        "name": "Aboubakar Kamara",
+        "x": 89.3,
+        "y": 40.83,
+        "size": 69.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0809
       }
     ],
     "edges": [
@@ -1232,15 +1232,15 @@
       },
       {
         "source": "Aboubakary Koita",
-        "target": "Aboubakar Kamara",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Aboubakary Koita",
         "target": "Hemeya Tanjy",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Aboubakary Koita",
+        "target": "Aboubakar Kamara",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Omaré Gassama",
@@ -1297,18 +1297,6 @@
         "direction": "forward"
       },
       {
-        "source": "Aboubakar Kamara",
-        "target": "Aboubakary Koita",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aboubakar Kamara",
-        "target": "Hemeya Tanjy",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Babacar Niasse",
         "target": "Lamine Ba",
         "weight": 1,
@@ -1322,12 +1310,6 @@
       },
       {
         "source": "Hemeya Tanjy",
-        "target": "Aboubakar Kamara",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Hemeya Tanjy",
         "target": "Aboubakary Koita",
         "weight": 1,
         "direction": "forward"
@@ -1335,6 +1317,24 @@
       {
         "source": "Hemeya Tanjy",
         "target": "Guessouma Fofana",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hemeya Tanjy",
+        "target": "Aboubakar Kamara",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Aboubakar Kamara",
+        "target": "Aboubakary Koita",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aboubakar Kamara",
+        "target": "Hemeya Tanjy",
         "weight": 1,
         "direction": "backward"
       }

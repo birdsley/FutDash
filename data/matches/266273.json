@@ -1062,6 +1062,17 @@
         "eigenvector": 0.0858
       },
       {
+        "id": "Fernando Pacheco Flores",
+        "short": "Pacheco",
+        "name": "Fernando Pacheco",
+        "x": 10.57,
+        "y": 40.71,
+        "size": 63.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0119
+      },
+      {
         "id": "Alexis Ruano Delgado",
         "short": "Ruano",
         "name": "Alexis Ruano",
@@ -1082,17 +1093,6 @@
         "is_playmaker": false,
         "betweenness": 0.0667,
         "eigenvector": 0.0803
-      },
-      {
-        "id": "Fernando Pacheco Flores",
-        "short": "Pacheco",
-        "name": "Fernando Pacheco",
-        "x": 10.57,
-        "y": 40.71,
-        "size": 63.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0119
       }
     ],
     "edges": [
@@ -1224,12 +1224,30 @@
       },
       {
         "source": "Víctor Laguardia Cisneros",
-        "target": "Alexis Ruano Delgado",
+        "target": "Fernando Pacheco Flores",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Víctor Laguardia Cisneros",
+        "target": "Alexis Ruano Delgado",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Fernando Pacheco Flores",
+        "target": "Alexis Ruano Delgado",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Fernando Pacheco Flores",
+        "target": "Víctor Laguardia Cisneros",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexis Ruano Delgado",
         "target": "Fernando Pacheco Flores",
         "weight": 1,
         "direction": "backward"
@@ -1245,12 +1263,6 @@
         "target": "Daniel Alejandro Torres Rojas",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Alexis Ruano Delgado",
-        "target": "Fernando Pacheco Flores",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Nenad Krstičić",
@@ -1263,18 +1275,6 @@
         "target": "Marcos Llorente Moreno",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Fernando Pacheco Flores",
-        "target": "Alexis Ruano Delgado",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Fernando Pacheco Flores",
-        "target": "Víctor Laguardia Cisneros",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

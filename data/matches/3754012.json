@@ -1205,15 +1205,15 @@
         "eigenvector": 0.0001
       },
       {
-        "id": "Gary Cahill",
-        "short": "Cahill",
-        "name": "Gary Cahill",
-        "x": 47.03,
-        "y": 55.45,
-        "size": 59.1,
-        "is_playmaker": true,
-        "betweenness": 0.6111,
-        "eigenvector": 0.0177
+        "id": "Thibaut Courtois",
+        "short": "Courtois",
+        "name": "Thibaut Courtois",
+        "x": 10.51,
+        "y": 39.97,
+        "size": 57.7,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0004
       },
       {
         "id": "Pedro Eliezer Rodríguez Ledesma",
@@ -1227,15 +1227,15 @@
         "eigenvector": 0.0046
       },
       {
-        "id": "Thibaut Courtois",
-        "short": "Courtois",
-        "name": "Thibaut Courtois",
-        "x": 10.51,
-        "y": 39.97,
-        "size": 57.7,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0004
+        "id": "Gary Cahill",
+        "short": "Cahill",
+        "name": "Gary Cahill",
+        "x": 47.03,
+        "y": 55.45,
+        "size": 59.1,
+        "is_playmaker": true,
+        "betweenness": 0.6111,
+        "eigenvector": 0.0177
       }
     ],
     "edges": [
@@ -1355,15 +1355,15 @@
       },
       {
         "source": "John Michael Nchekwube Obinna",
-        "target": "Gary Cahill",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "John Michael Nchekwube Obinna",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "John Michael Nchekwube Obinna",
+        "target": "Gary Cahill",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Diego da Silva Costa",
@@ -1414,22 +1414,16 @@
         "direction": "forward"
       },
       {
-        "source": "Gary Cahill",
-        "target": "Francesc Fàbregas i Soler",
+        "source": "Thibaut Courtois",
+        "target": "Branislav Ivanović",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Gary Cahill",
-        "target": "John Michael Nchekwube Obinna",
+        "source": "Thibaut Courtois",
+        "target": "Gary Cahill",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Gary Cahill",
-        "target": "Thibaut Courtois",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Pedro Eliezer Rodríguez Ledesma",
@@ -1444,14 +1438,20 @@
         "direction": "backward"
       },
       {
-        "source": "Thibaut Courtois",
-        "target": "Branislav Ivanović",
+        "source": "Gary Cahill",
+        "target": "Thibaut Courtois",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary Cahill",
+        "target": "Francesc Fàbregas i Soler",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Thibaut Courtois",
-        "target": "Gary Cahill",
+        "source": "Gary Cahill",
+        "target": "John Michael Nchekwube Obinna",
         "weight": 1,
         "direction": "forward"
       }

@@ -915,17 +915,6 @@
         "eigenvector": 0.1209
       },
       {
-        "id": "Gabriel Alejandro Paletta",
-        "short": "Paletta",
-        "name": "Gabriel Paletta",
-        "x": 33.42,
-        "y": 23.62,
-        "size": 59.7,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.0055
-      },
-      {
         "id": "Marco Sportiello",
         "short": "Sportiello",
         "name": "Marco Sportiello",
@@ -935,6 +924,17 @@
         "is_playmaker": false,
         "betweenness": 0.2778,
         "eigenvector": 0.0043
+      },
+      {
+        "id": "Gabriel Alejandro Paletta",
+        "short": "Paletta",
+        "name": "Gabriel Paletta",
+        "x": 33.42,
+        "y": 23.62,
+        "size": 59.7,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0055
       }
     ],
     "edges": [
@@ -1095,8 +1095,14 @@
         "direction": "backward"
       },
       {
-        "source": "Gabriel Alejandro Paletta",
-        "target": "Marten de Roon",
+        "source": "Marco Sportiello",
+        "target": "Gabriel Alejandro Paletta",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marco Sportiello",
+        "target": "Rafael Tolói",
         "weight": 1,
         "direction": "forward"
       },
@@ -1107,14 +1113,8 @@
         "direction": "backward"
       },
       {
-        "source": "Marco Sportiello",
-        "target": "Gabriel Alejandro Paletta",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marco Sportiello",
-        "target": "Rafael Tolói",
+        "source": "Gabriel Alejandro Paletta",
+        "target": "Marten de Roon",
         "weight": 1,
         "direction": "forward"
       }
@@ -1222,17 +1222,6 @@
         "eigenvector": 0.0691
       },
       {
-        "id": "Albano Benjamín Bizzarri",
-        "short": "Bizzarri",
-        "name": "Albano Bizzarri",
-        "x": 16.79,
-        "y": 42.81,
-        "size": 59.0,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0035
-      },
-      {
         "id": "Nicolás Federico Spolli",
         "short": "Spolli",
         "name": "Nicolás Spolli",
@@ -1242,6 +1231,17 @@
         "is_playmaker": true,
         "betweenness": 0.3222,
         "eigenvector": 0.0333
+      },
+      {
+        "id": "Albano Benjamín Bizzarri",
+        "short": "Bizzarri",
+        "name": "Albano Bizzarri",
+        "x": 16.79,
+        "y": 42.81,
+        "size": 59.0,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0035
       }
     ],
     "edges": [
@@ -1402,14 +1402,14 @@
         "direction": "backward"
       },
       {
-        "source": "Albano Benjamín Bizzarri",
-        "target": "Nicolás Federico Spolli",
+        "source": "Nicolás Federico Spolli",
+        "target": "Perparim Hetemaj",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Albano Benjamín Bizzarri",
-        "target": "Alessandro Gamberini",
+        "source": "Nicolás Federico Spolli",
+        "target": "Ivan Radovanović",
         "weight": 1,
         "direction": "forward"
       },
@@ -1420,14 +1420,14 @@
         "direction": "backward"
       },
       {
-        "source": "Nicolás Federico Spolli",
-        "target": "Perparim Hetemaj",
+        "source": "Albano Benjamín Bizzarri",
+        "target": "Nicolás Federico Spolli",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Nicolás Federico Spolli",
-        "target": "Ivan Radovanović",
+        "source": "Albano Benjamín Bizzarri",
+        "target": "Alessandro Gamberini",
         "weight": 1,
         "direction": "forward"
       }

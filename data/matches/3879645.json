@@ -994,6 +994,17 @@
         "eigenvector": 0.1096
       },
       {
+        "id": "Antonio Mirante",
+        "short": "Mirante",
+        "name": "Antonio Mirante",
+        "x": 11.84,
+        "y": 40.6,
+        "size": 66.4,
+        "is_playmaker": false,
+        "betweenness": 0.4111,
+        "eigenvector": 0.0164
+      },
+      {
         "id": "Daniele Gastaldello",
         "short": "Gastaldello",
         "name": "Daniele Gastaldello",
@@ -1014,17 +1025,6 @@
         "is_playmaker": true,
         "betweenness": 0.4667,
         "eigenvector": 0.091
-      },
-      {
-        "id": "Antonio Mirante",
-        "short": "Mirante",
-        "name": "Antonio Mirante",
-        "x": 11.84,
-        "y": 40.6,
-        "size": 66.4,
-        "is_playmaker": false,
-        "betweenness": 0.4111,
-        "eigenvector": 0.0164
       }
     ],
     "edges": [
@@ -1125,6 +1125,24 @@
         "direction": "backward"
       },
       {
+        "source": "Antonio Mirante",
+        "target": "Marios Oikonomou",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Antonio Mirante",
+        "target": "Daniele Gastaldello",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniele Gastaldello",
+        "target": "Antonio Mirante",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Daniele Gastaldello",
         "target": "Franco Brienza",
         "weight": 1,
@@ -1137,7 +1155,7 @@
         "direction": "forward"
       },
       {
-        "source": "Daniele Gastaldello",
+        "source": "Marios Oikonomou",
         "target": "Antonio Mirante",
         "weight": 1,
         "direction": "backward"
@@ -1151,24 +1169,6 @@
       {
         "source": "Marios Oikonomou",
         "target": "Amadou Diawara",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marios Oikonomou",
-        "target": "Antonio Mirante",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Antonio Mirante",
-        "target": "Marios Oikonomou",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Antonio Mirante",
-        "target": "Daniele Gastaldello",
         "weight": 1,
         "direction": "forward"
       }

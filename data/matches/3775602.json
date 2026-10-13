@@ -904,6 +904,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Alisha Lehmann",
+        "short": "Lehmann",
+        "name": "Alisha Lehmann",
+        "x": 64.54,
+        "y": 51.39,
+        "size": 62.1,
+        "is_playmaker": true,
+        "betweenness": 0.2389,
+        "eigenvector": 0.1022
+      },
+      {
         "id": "Kate Longhurst",
         "short": "Longhurst",
         "name": "Kate Longhurst",
@@ -924,17 +935,6 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0498
-      },
-      {
-        "id": "Alisha Lehmann",
-        "short": "Lehmann",
-        "name": "Alisha Lehmann",
-        "x": 64.54,
-        "y": 51.39,
-        "size": 62.1,
-        "is_playmaker": true,
-        "betweenness": 0.2389,
-        "eigenvector": 0.1022
       }
     ],
     "edges": [
@@ -1006,6 +1006,12 @@
       },
       {
         "source": "Kenza Dali",
+        "target": "Alisha Lehmann",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kenza Dali",
         "target": "Kate Longhurst",
         "weight": 1,
         "direction": "backward"
@@ -1015,12 +1021,6 @@
         "target": "Adriana Kristina Leon",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Kenza Dali",
-        "target": "Alisha Lehmann",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Rachel Daly",
@@ -1065,6 +1065,18 @@
         "direction": "forward"
       },
       {
+        "source": "Alisha Lehmann",
+        "target": "Kenza Dali",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alisha Lehmann",
+        "target": "Rachel Daly",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Kate Longhurst",
         "target": "Emily Louise van Egmond",
         "weight": 1,
@@ -1093,18 +1105,6 @@
         "target": "Kenza Dali",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Alisha Lehmann",
-        "target": "Kenza Dali",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Alisha Lehmann",
-        "target": "Rachel Daly",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

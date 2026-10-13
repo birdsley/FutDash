@@ -990,17 +990,6 @@
         "eigenvector": 0.0006
       },
       {
-        "id": "Carl Jenkinson",
-        "short": "Jenkinson",
-        "name": "Carl Jenkinson",
-        "x": 35.4,
-        "y": 74.5,
-        "size": 60.3,
-        "is_playmaker": false,
-        "betweenness": 0.1667,
-        "eigenvector": 0.0006
-      },
-      {
         "id": "Michail Antonio",
         "short": "Antonio",
         "name": "Michail Antonio",
@@ -1010,6 +999,17 @@
         "is_playmaker": true,
         "betweenness": 0.4222,
         "eigenvector": 0.0156
+      },
+      {
+        "id": "Carl Jenkinson",
+        "short": "Jenkinson",
+        "name": "Carl Jenkinson",
+        "x": 35.4,
+        "y": 74.5,
+        "size": 60.3,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.0006
       }
     ],
     "edges": [
@@ -1146,24 +1146,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Carl Jenkinson",
-        "target": "James Collins",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Carl Jenkinson",
-        "target": "Michail Antonio",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Michail Antonio",
-        "target": "Carl Jenkinson",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Michail Antonio",
         "target": "Mark Noble",
         "weight": 1,
@@ -1174,6 +1156,24 @@
         "target": "Enner Remberto Valencia Lastra",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Michail Antonio",
+        "target": "Carl Jenkinson",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Carl Jenkinson",
+        "target": "James Collins",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Carl Jenkinson",
+        "target": "Michail Antonio",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

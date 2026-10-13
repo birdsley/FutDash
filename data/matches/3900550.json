@@ -1418,17 +1418,6 @@
         "eigenvector": 0.0033
       },
       {
-        "id": "Dennis Appiah",
-        "short": "Appiah",
-        "name": "Dennis Appiah",
-        "x": 63.34,
-        "y": 71.76,
-        "size": 65.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0402
-      },
-      {
         "id": "Jonathan Delaplace",
         "short": "Delaplace",
         "name": "Jonathan Delaplace",
@@ -1449,6 +1438,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0369
+      },
+      {
+        "id": "Dennis Appiah",
+        "short": "Appiah",
+        "name": "Dennis Appiah",
+        "x": 63.34,
+        "y": 71.76,
+        "size": 65.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0402
       }
     ],
     "edges": [
@@ -1466,12 +1466,6 @@
       },
       {
         "source": "Ronny Rodelin",
-        "target": "Dennis Appiah",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ronny Rodelin",
         "target": "Jonathan Delaplace",
         "weight": 1,
         "direction": "forward"
@@ -1481,6 +1475,12 @@
         "target": "Syam Ben Youssef",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Ronny Rodelin",
+        "target": "Dennis Appiah",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Julien Féret",
@@ -1555,26 +1555,14 @@
         "direction": "forward"
       },
       {
-        "source": "Dennis Appiah",
-        "target": "Ronny Rodelin",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Dennis Appiah",
-        "target": "Jonathan Delaplace",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Jonathan Delaplace",
-        "target": "Dennis Appiah",
+        "target": "Ronny Rodelin",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Jonathan Delaplace",
-        "target": "Ronny Rodelin",
+        "target": "Dennis Appiah",
         "weight": 1,
         "direction": "backward"
       },
@@ -1589,6 +1577,18 @@
         "target": "Ronny Rodelin",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Dennis Appiah",
+        "target": "Jonathan Delaplace",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Dennis Appiah",
+        "target": "Ronny Rodelin",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

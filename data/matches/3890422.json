@@ -1120,17 +1120,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Benjamin Hübner",
-        "short": "Hübner",
-        "name": "Benjamin Hübner",
-        "x": 46.88,
-        "y": 24.42,
-        "size": 73.2,
-        "is_playmaker": true,
-        "betweenness": 0.1,
-        "eigenvector": 0.1105
-      },
-      {
         "id": "Marvin Matip",
         "short": "Matip",
         "name": "Marvin Matip",
@@ -1139,6 +1128,17 @@
         "size": 73.2,
         "is_playmaker": true,
         "betweenness": 0.0889,
+        "eigenvector": 0.1105
+      },
+      {
+        "id": "Benjamin Hübner",
+        "short": "Hübner",
+        "name": "Benjamin Hübner",
+        "x": 46.88,
+        "y": 24.42,
+        "size": 73.2,
+        "is_playmaker": true,
+        "betweenness": 0.1,
         "eigenvector": 0.1105
       }
     ],
@@ -1204,16 +1204,10 @@
         "direction": "forward"
       },
       {
-        "source": "Benjamin Hübner",
-        "target": "Robert Bauer",
+        "source": "Marvin Matip",
+        "target": "Roger de Oliveira Bernardo",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Benjamin Hübner",
-        "target": "Marvin Matip",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Marvin Matip",
@@ -1222,8 +1216,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Marvin Matip",
-        "target": "Roger de Oliveira Bernardo",
+        "source": "Benjamin Hübner",
+        "target": "Marvin Matip",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Benjamin Hübner",
+        "target": "Robert Bauer",
         "weight": 1,
         "direction": "forward"
       }

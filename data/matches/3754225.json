@@ -964,17 +964,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Benik Afobe",
-        "short": "Afobe",
-        "name": "Benik Afobe",
-        "x": 77.76,
-        "y": 38.96,
-        "size": 59.0,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0038
-      },
-      {
         "id": "Max-Alain Gradel",
         "short": "Gradel",
         "name": "Max Gradel",
@@ -984,6 +973,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0001
+      },
+      {
+        "id": "Benik Afobe",
+        "short": "Afobe",
+        "name": "Benik Afobe",
+        "x": 77.76,
+        "y": 38.96,
+        "size": 59.0,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0038
       },
       {
         "id": "Lewis Grabban",
@@ -1149,6 +1149,24 @@
         "direction": "forward"
       },
       {
+        "source": "Max-Alain Gradel",
+        "target": "Lewis Grabban",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Max-Alain Gradel",
+        "target": "Benik Afobe",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Benik Afobe",
+        "target": "Max-Alain Gradel",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Benik Afobe",
         "target": "Lewis Grabban",
         "weight": 1,
@@ -1161,34 +1179,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Benik Afobe",
+        "source": "Lewis Grabban",
         "target": "Max-Alain Gradel",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Max-Alain Gradel",
-        "target": "Lewis Grabban",
-        "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Max-Alain Gradel",
-        "target": "Benik Afobe",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Lewis Grabban",
         "target": "Benik Afobe",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Lewis Grabban",
-        "target": "Max-Alain Gradel",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

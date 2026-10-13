@@ -889,17 +889,6 @@
         "eigenvector": 0.0851
       },
       {
-        "id": "Ryan Bennett",
-        "short": "Bennett",
-        "name": "Ryan Bennett",
-        "x": 41.09,
-        "y": 56.71,
-        "size": 64.7,
-        "is_playmaker": true,
-        "betweenness": 0.3981,
-        "eigenvector": 0.0298
-      },
-      {
         "id": "Timm Klose",
         "short": "Klose",
         "name": "Timm Klose",
@@ -920,6 +909,17 @@
         "is_playmaker": false,
         "betweenness": 0.0907,
         "eigenvector": 0.0026
+      },
+      {
+        "id": "Ryan Bennett",
+        "short": "Bennett",
+        "name": "Ryan Bennett",
+        "x": 41.09,
+        "y": 56.71,
+        "size": 64.7,
+        "is_playmaker": true,
+        "betweenness": 0.3981,
+        "eigenvector": 0.0298
       }
     ],
     "edges": [
@@ -1045,31 +1045,13 @@
       },
       {
         "source": "Matt Jarvis",
-        "target": "Ryan Bennett",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Matt Jarvis",
         "target": "Timm Klose",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Ryan Bennett",
-        "target": "Gary O''Neil",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ryan Bennett",
-        "target": "Matt Jarvis",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ryan Bennett",
-        "target": "John Ruddy",
+        "source": "Matt Jarvis",
+        "target": "Ryan Bennett",
         "weight": 1,
         "direction": "backward"
       },
@@ -1100,6 +1082,24 @@
       {
         "source": "John Ruddy",
         "target": "Timm Klose",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "John Ruddy",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "Gary O''Neil",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ryan Bennett",
+        "target": "Matt Jarvis",
         "weight": 1,
         "direction": "forward"
       }

@@ -1276,17 +1276,6 @@
         "eigenvector": 0.1789
       },
       {
-        "id": "Francesca Kirby",
-        "short": "Kirby",
-        "name": "Francesca Kirby",
-        "x": 86.16,
-        "y": 46.21,
-        "size": 59.9,
-        "is_playmaker": true,
-        "betweenness": 0.3556,
-        "eigenvector": 0.0195
-      },
-      {
         "id": "Bethany England",
         "short": "England",
         "name": "Bethany England",
@@ -1296,6 +1285,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0064
+      },
+      {
+        "id": "Francesca Kirby",
+        "short": "Kirby",
+        "name": "Francesca Kirby",
+        "x": 86.16,
+        "y": 46.21,
+        "size": 59.9,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0195
       }
     ],
     "edges": [
@@ -1451,12 +1451,30 @@
       },
       {
         "source": "Guro Reiten",
+        "target": "Bethany England",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Guro Reiten",
         "target": "Francesca Kirby",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Guro Reiten",
+        "source": "Bethany England",
+        "target": "Francesca Kirby",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Bethany England",
+        "target": "Guro Reiten",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Francesca Kirby",
         "target": "Bethany England",
         "weight": 1,
         "direction": "forward"
@@ -1470,24 +1488,6 @@
       {
         "source": "Francesca Kirby",
         "target": "Erin Cuthbert",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Francesca Kirby",
-        "target": "Bethany England",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Bethany England",
-        "target": "Francesca Kirby",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Bethany England",
-        "target": "Guro Reiten",
         "weight": 1,
         "direction": "backward"
       }

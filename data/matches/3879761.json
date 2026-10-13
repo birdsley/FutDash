@@ -923,6 +923,28 @@
         "eigenvector": 0.807
       },
       {
+        "id": "Lorenzo Lollo",
+        "short": "Lollo",
+        "name": "Lorenzo Lollo",
+        "x": 69.56,
+        "y": 52.47,
+        "size": 74.4,
+        "is_playmaker": false,
+        "betweenness": 0.2833,
+        "eigenvector": 0.221
+      },
+      {
+        "id": "Vid Belec",
+        "short": "Belec",
+        "name": "Vid Belec",
+        "x": 10.23,
+        "y": 41.06,
+        "size": 67.9,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.0987
+      },
+      {
         "id": "Raphael Martinho Alves de Lima",
         "short": "Martinho",
         "name": "Raphael Martinho",
@@ -943,28 +965,6 @@
         "is_playmaker": false,
         "betweenness": 0.1556,
         "eigenvector": 0.2972
-      },
-      {
-        "id": "Vid Belec",
-        "short": "Belec",
-        "name": "Vid Belec",
-        "x": 10.23,
-        "y": 41.06,
-        "size": 67.9,
-        "is_playmaker": true,
-        "betweenness": 0.4,
-        "eigenvector": 0.0987
-      },
-      {
-        "id": "Lorenzo Lollo",
-        "short": "Lollo",
-        "name": "Lorenzo Lollo",
-        "x": 69.56,
-        "y": 52.47,
-        "size": 74.4,
-        "is_playmaker": false,
-        "betweenness": 0.2833,
-        "eigenvector": 0.221
       }
     ],
     "edges": [
@@ -1036,7 +1036,7 @@
       },
       {
         "source": "Gaetano Letizia",
-        "target": "Raphael Martinho Alves de Lima",
+        "target": "Lorenzo Lollo",
         "weight": 1,
         "direction": "forward"
       },
@@ -1048,7 +1048,7 @@
       },
       {
         "source": "Gaetano Letizia",
-        "target": "Lorenzo Lollo",
+        "target": "Raphael Martinho Alves de Lima",
         "weight": 1,
         "direction": "forward"
       },
@@ -1057,6 +1057,36 @@
         "target": "Kevin Lasagna",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Lorenzo Lollo",
+        "target": "Raphael Martinho Alves de Lima",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lorenzo Lollo",
+        "target": "Gaetano Letizia",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lorenzo Lollo",
+        "target": "Kevin Lasagna",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vid Belec",
+        "target": "Simone Romagnoli",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vid Belec",
+        "target": "Gaetano Letizia",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Raphael Martinho Alves de Lima",
@@ -1079,36 +1109,6 @@
       {
         "source": "Kevin Lasagna",
         "target": "Lorenzo Lollo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Vid Belec",
-        "target": "Simone Romagnoli",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Vid Belec",
-        "target": "Gaetano Letizia",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lorenzo Lollo",
-        "target": "Raphael Martinho Alves de Lima",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lorenzo Lollo",
-        "target": "Kevin Lasagna",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lorenzo Lollo",
-        "target": "Gaetano Letizia",
         "weight": 1,
         "direction": "backward"
       }
@@ -1205,17 +1205,6 @@
         "eigenvector": 0.0513
       },
       {
-        "id": "Gabriel Alejandro Paletta",
-        "short": "Paletta",
-        "name": "Gabriel Paletta",
-        "x": 33.5,
-        "y": 27.48,
-        "size": 60.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0003
-      },
-      {
         "id": "Marco Sportiello",
         "short": "Sportiello",
         "name": "Marco Sportiello",
@@ -1236,6 +1225,17 @@
         "is_playmaker": false,
         "betweenness": 0.3556,
         "eigenvector": 0.0061
+      },
+      {
+        "id": "Gabriel Alejandro Paletta",
+        "short": "Paletta",
+        "name": "Gabriel Paletta",
+        "x": 33.5,
+        "y": 27.48,
+        "size": 60.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0003
       }
     ],
     "edges": [
@@ -1390,18 +1390,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Gabriel Alejandro Paletta",
-        "target": "Andrea Masiello",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gabriel Alejandro Paletta",
-        "target": "Marco Sportiello",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Marco Sportiello",
         "target": "Gabriel Alejandro Paletta",
         "weight": 1,
@@ -1412,12 +1400,6 @@
         "target": "Andrea Masiello",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Andrea Masiello",
-        "target": "Gabriel Alejandro Paletta",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Andrea Masiello",
@@ -1430,6 +1412,24 @@
         "target": "Marten de Roon",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Andrea Masiello",
+        "target": "Gabriel Alejandro Paletta",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gabriel Alejandro Paletta",
+        "target": "Marco Sportiello",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gabriel Alejandro Paletta",
+        "target": "Andrea Masiello",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

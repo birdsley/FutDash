@@ -930,17 +930,6 @@
         "eigenvector": 0.1389
       },
       {
-        "id": "Glyn Oliver Myhill",
-        "short": "Myhill",
-        "name": "Boaz Myhill",
-        "x": 11.09,
-        "y": 38.57,
-        "size": 61.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0112
-      },
-      {
         "id": "Jonas Olsson",
         "short": "Olsson",
         "name": "Jonas Olsson",
@@ -950,6 +939,17 @@
         "is_playmaker": true,
         "betweenness": 0.2444,
         "eigenvector": 0.0282
+      },
+      {
+        "id": "Glyn Oliver Myhill",
+        "short": "Myhill",
+        "name": "Boaz Myhill",
+        "x": 11.09,
+        "y": 38.57,
+        "size": 61.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0112
       }
     ],
     "edges": [
@@ -1039,15 +1039,15 @@
       },
       {
         "source": "Jonathan Grant Evans",
-        "target": "Glyn Oliver Myhill",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Jonathan Grant Evans",
         "target": "Jonas Olsson",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Jonathan Grant Evans",
+        "target": "Glyn Oliver Myhill",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Claudio Ariel Yacob",
@@ -1074,14 +1074,14 @@
         "direction": "forward"
       },
       {
-        "source": "Glyn Oliver Myhill",
+        "source": "Jonas Olsson",
         "target": "Jonathan Grant Evans",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Glyn Oliver Myhill",
-        "target": "Jonas Olsson",
+        "source": "Jonas Olsson",
+        "target": "Chris Brunt",
         "weight": 1,
         "direction": "forward"
       },
@@ -1092,14 +1092,14 @@
         "direction": "backward"
       },
       {
-        "source": "Jonas Olsson",
+        "source": "Glyn Oliver Myhill",
         "target": "Jonathan Grant Evans",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Jonas Olsson",
-        "target": "Chris Brunt",
+        "source": "Glyn Oliver Myhill",
+        "target": "Jonas Olsson",
         "weight": 1,
         "direction": "forward"
       }

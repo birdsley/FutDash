@@ -975,17 +975,6 @@
         "eigenvector": 0.1768
       },
       {
-        "id": "Mauro Emanuel Icardi Rivero",
-        "short": "Icardi",
-        "name": "Mauro Icardi",
-        "x": 71.58,
-        "y": 43.89,
-        "size": 57.8,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.018
-      },
-      {
         "id": "Samir Handanovič",
         "short": "Handanovič",
         "name": "Samir Handanovič",
@@ -995,6 +984,17 @@
         "is_playmaker": true,
         "betweenness": 0.3333,
         "eigenvector": 0.0128
+      },
+      {
+        "id": "Mauro Emanuel Icardi Rivero",
+        "short": "Icardi",
+        "name": "Mauro Icardi",
+        "x": 71.58,
+        "y": 43.89,
+        "size": 57.8,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.018
       }
     ],
     "edges": [
@@ -1012,15 +1012,15 @@
       },
       {
         "source": "Gary Alexis Medel Soto",
-        "target": "Mauro Emanuel Icardi Rivero",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gary Alexis Medel Soto",
         "target": "Samir Handanovič",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gary Alexis Medel Soto",
+        "target": "Mauro Emanuel Icardi Rivero",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Marcelo Brozović",
@@ -1167,18 +1167,6 @@
         "direction": "backward"
       },
       {
-        "source": "Mauro Emanuel Icardi Rivero",
-        "target": "Rodrigo Sebastián Palacio",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mauro Emanuel Icardi Rivero",
-        "target": "Gary Alexis Medel Soto",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Samir Handanovič",
         "target": "Juan Guilherme Nunes Jesus",
         "weight": 1,
@@ -1189,6 +1177,18 @@
         "target": "Gary Alexis Medel Soto",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Rodrigo Sebastián Palacio",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Gary Alexis Medel Soto",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

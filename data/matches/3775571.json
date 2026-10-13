@@ -1095,17 +1095,6 @@
         "eigenvector": 0.106
       },
       {
-        "id": "Lisa Weiß",
-        "short": "Weiß",
-        "name": "Lisa Weiß",
-        "x": 10.21,
-        "y": 41.64,
-        "size": 66.1,
-        "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.0155
-      },
-      {
         "id": "Natalie Haigh",
         "short": "Haigh",
         "name": "Natalie Haigh",
@@ -1115,6 +1104,17 @@
         "is_playmaker": true,
         "betweenness": 0.2222,
         "eigenvector": 0.1079
+      },
+      {
+        "id": "Lisa Weiß",
+        "short": "Weiß",
+        "name": "Lisa Weiß",
+        "x": 10.21,
+        "y": 41.64,
+        "size": 66.1,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0155
       }
     ],
     "edges": [
@@ -1215,20 +1215,14 @@
         "direction": "backward"
       },
       {
-        "source": "Lisa Weiß",
-        "target": "Natalie Haigh",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lisa Weiß",
-        "target": "Elisha N''Dow",
+        "source": "Natalie Haigh",
+        "target": "Emily Syme",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Natalie Haigh",
-        "target": "Emily Syme",
+        "target": "Mana Iwabuchi",
         "weight": 1,
         "direction": "forward"
       },
@@ -1239,8 +1233,14 @@
         "direction": "backward"
       },
       {
-        "source": "Natalie Haigh",
-        "target": "Mana Iwabuchi",
+        "source": "Lisa Weiß",
+        "target": "Natalie Haigh",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lisa Weiß",
+        "target": "Elisha N''Dow",
         "weight": 1,
         "direction": "forward"
       }

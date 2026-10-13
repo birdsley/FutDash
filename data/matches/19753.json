@@ -1186,17 +1186,6 @@
         "eigenvector": 0.1436
       },
       {
-        "id": "Frankie Brown",
-        "short": "Brown",
-        "name": "Frankie Brown",
-        "x": 39.0,
-        "y": 44.33,
-        "size": 61.5,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.045
-      },
-      {
         "id": "Poppy Pattinson",
         "short": "Pattinson",
         "name": "Poppy Pattinson",
@@ -1206,6 +1195,17 @@
         "is_playmaker": false,
         "betweenness": 0.1778,
         "eigenvector": 0.0443
+      },
+      {
+        "id": "Frankie Brown",
+        "short": "Brown",
+        "name": "Frankie Brown",
+        "x": 39.0,
+        "y": 44.33,
+        "size": 61.5,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.045
       }
     ],
     "edges": [
@@ -1277,15 +1277,15 @@
       },
       {
         "source": "Julie Biesmans",
-        "target": "Frankie Brown",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Julie Biesmans",
         "target": "Poppy Pattinson",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Julie Biesmans",
+        "target": "Frankie Brown",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Carla Humphrey",
@@ -1372,18 +1372,6 @@
         "direction": "backward"
       },
       {
-        "source": "Frankie Brown",
-        "target": "Carla Humphrey",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Julie Biesmans",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Poppy Pattinson",
         "target": "Gemma Evans",
         "weight": 1,
@@ -1394,6 +1382,18 @@
         "target": "Julie Biesmans",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Carla Humphrey",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Julie Biesmans",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

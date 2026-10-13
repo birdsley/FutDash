@@ -987,15 +987,15 @@
         "eigenvector": 0.1009
       },
       {
-        "id": "René Adler",
-        "short": "Adler",
-        "name": "René Adler",
-        "x": 9.9,
-        "y": 35.5,
-        "size": 72.0,
-        "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.0838
+        "id": "Johan Danon Djourou-Gbadjere",
+        "short": "Djourou",
+        "name": "Johan Djourou",
+        "x": 43.61,
+        "y": 50.6,
+        "size": 89.0,
+        "is_playmaker": true,
+        "betweenness": 0.5333,
+        "eigenvector": 0.1722
       },
       {
         "id": "Gojko Kačar",
@@ -1009,15 +1009,15 @@
         "eigenvector": 0.2243
       },
       {
-        "id": "Johan Danon Djourou-Gbadjere",
-        "short": "Djourou",
-        "name": "Johan Djourou",
-        "x": 43.61,
-        "y": 50.6,
-        "size": 89.0,
-        "is_playmaker": true,
-        "betweenness": 0.5333,
-        "eigenvector": 0.1722
+        "id": "René Adler",
+        "short": "Adler",
+        "name": "René Adler",
+        "x": 9.9,
+        "y": 35.5,
+        "size": 72.0,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.0838
       }
     ],
     "edges": [
@@ -1106,16 +1106,34 @@
         "direction": "backward"
       },
       {
-        "source": "René Adler",
-        "target": "Cleber Janderson Pereira Reis",
+        "source": "Johan Danon Djourou-Gbadjere",
+        "target": "Dennis Diekmeier",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "René Adler",
-        "target": "Johan Danon Djourou-Gbadjere",
+        "source": "Johan Danon Djourou-Gbadjere",
+        "target": "Gojko Kačar",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Johan Danon Djourou-Gbadjere",
+        "target": "Nicolai Müller",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Johan Danon Djourou-Gbadjere",
+        "target": "René Adler",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gojko Kačar",
+        "target": "Johan Danon Djourou-Gbadjere",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Gojko Kačar",
@@ -1130,32 +1148,14 @@
         "direction": "forward"
       },
       {
-        "source": "Gojko Kačar",
+        "source": "René Adler",
+        "target": "Cleber Janderson Pereira Reis",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "René Adler",
         "target": "Johan Danon Djourou-Gbadjere",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Johan Danon Djourou-Gbadjere",
-        "target": "Dennis Diekmeier",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Johan Danon Djourou-Gbadjere",
-        "target": "René Adler",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Johan Danon Djourou-Gbadjere",
-        "target": "Gojko Kačar",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Johan Danon Djourou-Gbadjere",
-        "target": "Nicolai Müller",
         "weight": 1,
         "direction": "forward"
       }

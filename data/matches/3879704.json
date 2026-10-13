@@ -1039,17 +1039,6 @@
         "eigenvector": 0.1909
       },
       {
-        "id": "Mauro Emanuel Icardi Rivero",
-        "short": "Icardi",
-        "name": "Mauro Icardi",
-        "x": 84.34,
-        "y": 34.02,
-        "size": 57.7,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0177
-      },
-      {
         "id": "Rodrigo Sebastián Palacio",
         "short": "Palacio",
         "name": "Rodrigo Palacio",
@@ -1070,6 +1059,17 @@
         "is_playmaker": false,
         "betweenness": 0.1722,
         "eigenvector": 0.0023
+      },
+      {
+        "id": "Mauro Emanuel Icardi Rivero",
+        "short": "Icardi",
+        "name": "Mauro Icardi",
+        "x": 84.34,
+        "y": 34.02,
+        "size": 57.7,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0177
       }
     ],
     "edges": [
@@ -1123,15 +1123,15 @@
       },
       {
         "source": "Adem Ljajić",
-        "target": "Mauro Emanuel Icardi Rivero",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Adem Ljajić",
         "target": "Rodrigo Sebastián Palacio",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Adem Ljajić",
+        "target": "Mauro Emanuel Icardi Rivero",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Martín Montoya Torralbo",
@@ -1254,18 +1254,6 @@
         "direction": "forward"
       },
       {
-        "source": "Mauro Emanuel Icardi Rivero",
-        "target": "Adem Ljajić",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Mauro Emanuel Icardi Rivero",
-        "target": "Ivan Perišić",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Rodrigo Sebastián Palacio",
         "target": "Adem Ljajić",
         "weight": 1,
@@ -1288,6 +1276,18 @@
         "target": "Juan Guilherme Nunes Jesus",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Adem Ljajić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mauro Emanuel Icardi Rivero",
+        "target": "Ivan Perišić",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1393,17 +1393,6 @@
         "eigenvector": 0.0737
       },
       {
-        "id": "Vid Belec",
-        "short": "Belec",
-        "name": "Vid Belec",
-        "x": 15.94,
-        "y": 49.7,
-        "size": 62.9,
-        "is_playmaker": false,
-        "betweenness": 0.1833,
-        "eigenvector": 0.0305
-      },
-      {
         "id": "Emanuele Suagher",
         "short": "Suagher",
         "name": "Emanuele Suagher",
@@ -1413,6 +1402,17 @@
         "is_playmaker": false,
         "betweenness": 0.1944,
         "eigenvector": 0.0239
+      },
+      {
+        "id": "Vid Belec",
+        "short": "Belec",
+        "name": "Vid Belec",
+        "x": 15.94,
+        "y": 49.7,
+        "size": 62.9,
+        "is_playmaker": false,
+        "betweenness": 0.1833,
+        "eigenvector": 0.0305
       }
     ],
     "edges": [
@@ -1567,18 +1567,6 @@
         "direction": "backward"
       },
       {
-        "source": "Vid Belec",
-        "target": "Simone Romagnoli",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Vid Belec",
-        "target": "Cristian Zaccardo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Emanuele Suagher",
         "target": "Gaetano Letizia",
         "weight": 1,
@@ -1587,6 +1575,18 @@
       {
         "source": "Emanuele Suagher",
         "target": "Raffaele Bianco",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vid Belec",
+        "target": "Simone Romagnoli",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vid Belec",
+        "target": "Cristian Zaccardo",
         "weight": 1,
         "direction": "forward"
       }

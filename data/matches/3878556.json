@@ -859,17 +859,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Marco Benassi",
-        "short": "Benassi",
-        "name": "Marco Benassi",
-        "x": 60.14,
-        "y": 52.79,
-        "size": 64.4,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.016
-      },
-      {
         "id": "Josef Alexander Martínez Mencia",
         "short": "Martínez",
         "name": "Josef Martínez",
@@ -879,6 +868,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0009
+      },
+      {
+        "id": "Marco Benassi",
+        "short": "Benassi",
+        "name": "Marco Benassi",
+        "x": 60.14,
+        "y": 52.79,
+        "size": 64.4,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.016
       },
       {
         "id": "Fabio Quagliarella",
@@ -996,6 +996,24 @@
         "direction": "forward"
       },
       {
+        "source": "Josef Alexander Martínez Mencia",
+        "target": "Fabio Quagliarella",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Josef Alexander Martínez Mencia",
+        "target": "Marco Benassi",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Marco Benassi",
+        "target": "Josef Alexander Martínez Mencia",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Marco Benassi",
         "target": "Fabio Quagliarella",
         "weight": 1,
@@ -1008,34 +1026,16 @@
         "direction": "backward"
       },
       {
-        "source": "Marco Benassi",
+        "source": "Fabio Quagliarella",
         "target": "Josef Alexander Martínez Mencia",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Josef Alexander Martínez Mencia",
-        "target": "Fabio Quagliarella",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Josef Alexander Martínez Mencia",
-        "target": "Marco Benassi",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Fabio Quagliarella",
         "target": "Marco Benassi",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Fabio Quagliarella",
-        "target": "Josef Alexander Martínez Mencia",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

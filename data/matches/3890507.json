@@ -1065,17 +1065,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Pierre-Emerick Aubameyang",
-        "short": "Aubameyang",
-        "name": "Pierre-Emerick Aubameyang",
-        "x": 84.39,
-        "y": 40.91,
-        "size": 57.1,
-        "is_playmaker": false,
-        "betweenness": 0.2778,
-        "eigenvector": 0.0016
-      },
-      {
         "id": "Marco Reus",
         "short": "Reus",
         "name": "Marco Reus",
@@ -1085,6 +1074,17 @@
         "is_playmaker": true,
         "betweenness": 0.3444,
         "eigenvector": 0.0059
+      },
+      {
+        "id": "Pierre-Emerick Aubameyang",
+        "short": "Aubameyang",
+        "name": "Pierre-Emerick Aubameyang",
+        "x": 84.39,
+        "y": 40.91,
+        "size": 57.1,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.0016
       }
     ],
     "edges": [
@@ -1245,14 +1245,8 @@
         "direction": "forward"
       },
       {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Henrikh Mkhitaryan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Marco Reus",
+        "source": "Marco Reus",
+        "target": "Gonzalo Castro Randon",
         "weight": 1,
         "direction": "backward"
       },
@@ -1263,8 +1257,14 @@
         "direction": "forward"
       },
       {
-        "source": "Marco Reus",
-        "target": "Gonzalo Castro Randon",
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Marco Reus",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Henrikh Mkhitaryan",
         "weight": 1,
         "direction": "backward"
       }

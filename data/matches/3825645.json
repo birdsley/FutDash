@@ -882,28 +882,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Damián Nicolás Suárez Suárez",
-        "short": "Suárez",
-        "name": "Damián Suárez",
-        "x": 52.89,
-        "y": 70.18,
-        "size": 73.6,
-        "is_playmaker": false,
-        "betweenness": 0.05,
-        "eigenvector": 0.0248
-      },
-      {
-        "id": "Pablo Sarabia García",
-        "short": "Sarabia",
-        "name": "Pablo Sarabia",
-        "x": 66.77,
-        "y": 40.23,
-        "size": 73.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1237
-      },
-      {
         "id": "Juan Antonio Rodríguez Villamuela",
         "short": "Rodríguez",
         "name": "Juan Rodríguez",
@@ -926,6 +904,17 @@
         "eigenvector": 0.0088
       },
       {
+        "id": "Damián Nicolás Suárez Suárez",
+        "short": "Suárez",
+        "name": "Damián Suárez",
+        "x": 52.89,
+        "y": 70.18,
+        "size": 73.6,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.0248
+      },
+      {
         "id": "Santiago Vergini",
         "short": "Vergini",
         "name": "Santiago Vergini",
@@ -935,6 +924,17 @@
         "is_playmaker": false,
         "betweenness": 0.05,
         "eigenvector": 0.0248
+      },
+      {
+        "id": "Pablo Sarabia García",
+        "short": "Sarabia",
+        "name": "Pablo Sarabia",
+        "x": 66.77,
+        "y": 40.23,
+        "size": 73.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1237
       }
     ],
     "edges": [
@@ -964,15 +964,15 @@
       },
       {
         "source": "Stefan Šćepović",
-        "target": "Pablo Sarabia García",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Stefan Šćepović",
         "target": "Juan Antonio Rodríguez Villamuela",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Stefan Šćepović",
+        "target": "Pablo Sarabia García",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Vicente Guaita Panadero",
@@ -981,34 +981,10 @@
         "direction": "forward"
       },
       {
-        "source": "Damián Nicolás Suárez Suárez",
-        "target": "Pedro León Sánchez Gil",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Damián Nicolás Suárez Suárez",
-        "target": "Juan Antonio Rodríguez Villamuela",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Pablo Sarabia García",
+        "source": "Juan Antonio Rodríguez Villamuela",
         "target": "Stefan Šćepović",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Pablo Sarabia García",
-        "target": "Juan Antonio Rodríguez Villamuela",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Juan Antonio Rodríguez Villamuela",
-        "target": "Damián Nicolás Suárez Suárez",
-        "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Juan Antonio Rodríguez Villamuela",
@@ -1018,9 +994,9 @@
       },
       {
         "source": "Juan Antonio Rodríguez Villamuela",
-        "target": "Stefan Šćepović",
+        "target": "Damián Nicolás Suárez Suárez",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Juan Antonio Rodríguez Villamuela",
@@ -1041,6 +1017,18 @@
         "direction": "backward"
       },
       {
+        "source": "Damián Nicolás Suárez Suárez",
+        "target": "Pedro León Sánchez Gil",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Damián Nicolás Suárez Suárez",
+        "target": "Juan Antonio Rodríguez Villamuela",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Santiago Vergini",
         "target": "Pedro León Sánchez Gil",
         "weight": 1,
@@ -1051,6 +1039,18 @@
         "target": "Juan Antonio Rodríguez Villamuela",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Pablo Sarabia García",
+        "target": "Juan Antonio Rodríguez Villamuela",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pablo Sarabia García",
+        "target": "Stefan Šćepović",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -1156,17 +1156,6 @@
         "eigenvector": 0.0433
       },
       {
-        "id": "Luis Alberto Suárez Díaz",
-        "short": "Suárez",
-        "name": "Luis Suárez",
-        "x": 90.27,
-        "y": 30.78,
-        "size": 57.4,
-        "is_playmaker": false,
-        "betweenness": 0.0778,
-        "eigenvector": 0.0246
-      },
-      {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Bravo",
         "name": "Claudio Bravo",
@@ -1176,6 +1165,17 @@
         "is_playmaker": false,
         "betweenness": 0.2667,
         "eigenvector": 0.0125
+      },
+      {
+        "id": "Luis Alberto Suárez Díaz",
+        "short": "Suárez",
+        "name": "Luis Suárez",
+        "x": 90.27,
+        "y": 30.78,
+        "size": 57.4,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0246
       }
     ],
     "edges": [
@@ -1348,18 +1348,6 @@
         "direction": "forward"
       },
       {
-        "source": "Luis Alberto Suárez Díaz",
-        "target": "Neymar da Silva Santos Junior",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Luis Alberto Suárez Díaz",
-        "target": "Sergi Roberto Carnicer",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
@@ -1370,6 +1358,18 @@
         "target": "Jérémy Mathieu",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Neymar da Silva Santos Junior",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Sergi Roberto Carnicer",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

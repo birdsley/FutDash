@@ -1005,17 +1005,6 @@
         "eigenvector": 0.0636
       },
       {
-        "id": "Claudio Marchisio",
-        "short": "Marchisio",
-        "name": "Claudio Marchisio",
-        "x": 56.66,
-        "y": 43.08,
-        "size": 58.2,
-        "is_playmaker": false,
-        "betweenness": 0.3667,
-        "eigenvector": 0.0174
-      },
-      {
         "id": "Mario Mandžukić",
         "short": "Mandžukić",
         "name": "Mario Mandžukić",
@@ -1025,6 +1014,17 @@
         "is_playmaker": true,
         "betweenness": 0.3722,
         "eigenvector": 0.0127
+      },
+      {
+        "id": "Claudio Marchisio",
+        "short": "Marchisio",
+        "name": "Claudio Marchisio",
+        "x": 56.66,
+        "y": 43.08,
+        "size": 58.2,
+        "is_playmaker": false,
+        "betweenness": 0.3667,
+        "eigenvector": 0.0174
       }
     ],
     "edges": [
@@ -1168,27 +1168,15 @@
       },
       {
         "source": "Paulo Bruno Exequiel Dybala",
-        "target": "Claudio Marchisio",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Paulo Bruno Exequiel Dybala",
         "target": "Mario Mandžukić",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Claudio Marchisio",
-        "target": "Leonardo Bonucci",
+        "source": "Paulo Bruno Exequiel Dybala",
+        "target": "Claudio Marchisio",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Claudio Marchisio",
-        "target": "Paulo Bruno Exequiel Dybala",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Mario Mandžukić",
@@ -1201,6 +1189,18 @@
         "target": "Paul Pogba",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Claudio Marchisio",
+        "target": "Leonardo Bonucci",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Claudio Marchisio",
+        "target": "Paulo Bruno Exequiel Dybala",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

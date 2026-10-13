@@ -1405,17 +1405,6 @@
         "eigenvector": 0.0511
       },
       {
-        "id": "Gianluigi Donnarumma",
-        "short": "Donnarumma",
-        "name": "Gianluigi Donnarumma",
-        "x": 10.12,
-        "y": 38.07,
-        "size": 57.2,
-        "is_playmaker": true,
-        "betweenness": 0.4222,
-        "eigenvector": 0.0147
-      },
-      {
         "id": "Renato Júnior Luz Sanches",
         "short": "Sanches",
         "name": "Renato Sanches",
@@ -1425,6 +1414,17 @@
         "is_playmaker": false,
         "betweenness": 0.3222,
         "eigenvector": 0.0143
+      },
+      {
+        "id": "Gianluigi Donnarumma",
+        "short": "Donnarumma",
+        "name": "Gianluigi Donnarumma",
+        "x": 10.12,
+        "y": 38.07,
+        "size": 57.2,
+        "is_playmaker": true,
+        "betweenness": 0.4222,
+        "eigenvector": 0.0147
       }
     ],
     "edges": [
@@ -1466,15 +1466,15 @@
       },
       {
         "source": "Sergio Ramos García",
-        "target": "Gianluigi Donnarumma",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sergio Ramos García",
         "target": "Renato Júnior Luz Sanches",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Sergio Ramos García",
+        "target": "Gianluigi Donnarumma",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Danilo Luís Hélio Pereira",
@@ -1597,18 +1597,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Gianluigi Donnarumma",
-        "target": "Sergio Ramos García",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gianluigi Donnarumma",
-        "target": "Danilo Luís Hélio Pereira",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Renato Júnior Luz Sanches",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
@@ -1619,6 +1607,18 @@
         "target": "Sergio Ramos García",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gianluigi Donnarumma",
+        "target": "Sergio Ramos García",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gianluigi Donnarumma",
+        "target": "Danilo Luís Hélio Pereira",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

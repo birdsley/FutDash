@@ -1058,17 +1058,6 @@
         "eigenvector": 0.0728
       },
       {
-        "id": "Francesca Kirby",
-        "short": "Kirby",
-        "name": "Francesca Kirby",
-        "x": 81.43,
-        "y": 61.39,
-        "size": 57.5,
-        "is_playmaker": true,
-        "betweenness": 0.3889,
-        "eigenvector": 0.0022
-      },
-      {
         "id": "Samantha May Kerr",
         "short": "Kerr",
         "name": "Samantha May Kerr",
@@ -1078,6 +1067,17 @@
         "is_playmaker": false,
         "betweenness": 0.3778,
         "eigenvector": 0.0037
+      },
+      {
+        "id": "Francesca Kirby",
+        "short": "Kirby",
+        "name": "Francesca Kirby",
+        "x": 81.43,
+        "y": 61.39,
+        "size": 57.5,
+        "is_playmaker": true,
+        "betweenness": 0.3889,
+        "eigenvector": 0.0022
       }
     ],
     "edges": [
@@ -1244,24 +1244,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Francesca Kirby",
-        "target": "Maren Nævdal Mjelde",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Francesca Kirby",
-        "target": "Samantha May Kerr",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Samantha May Kerr",
-        "target": "Francesca Kirby",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Samantha May Kerr",
         "target": "Pernille Mosegaard Harder",
         "weight": 1,
@@ -1272,6 +1254,24 @@
         "target": "Guro Reiten",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Samantha May Kerr",
+        "target": "Francesca Kirby",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Francesca Kirby",
+        "target": "Maren Nævdal Mjelde",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Francesca Kirby",
+        "target": "Samantha May Kerr",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

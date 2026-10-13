@@ -975,17 +975,6 @@
         "eigenvector": 0.2366
       },
       {
-        "id": "Stefano Sorrentino",
-        "short": "Sorrentino",
-        "name": "Stefano Sorrentino",
-        "x": 9.62,
-        "y": 42.62,
-        "size": 60.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0198
-      },
-      {
         "id": "Enrique Álvarez San Juan",
         "short": "Álvarez",
         "name": "Quique Álvarez",
@@ -995,6 +984,17 @@
         "is_playmaker": true,
         "betweenness": 0.4278,
         "eigenvector": 0.0606
+      },
+      {
+        "id": "Stefano Sorrentino",
+        "short": "Sorrentino",
+        "name": "Stefano Sorrentino",
+        "x": 9.62,
+        "y": 42.62,
+        "size": 60.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0198
       }
     ],
     "edges": [
@@ -1150,30 +1150,12 @@
       },
       {
         "source": "Roberto Luis Gaspar de Deus Severo",
-        "target": "Stefano Sorrentino",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Roberto Luis Gaspar de Deus Severo",
         "target": "Enrique Álvarez San Juan",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Stefano Sorrentino",
-        "target": "Enrique Álvarez San Juan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Stefano Sorrentino",
-        "target": "Roberto Luis Gaspar de Deus Severo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Enrique Álvarez San Juan",
+        "source": "Roberto Luis Gaspar de Deus Severo",
         "target": "Stefano Sorrentino",
         "weight": 1,
         "direction": "backward"
@@ -1189,6 +1171,24 @@
         "target": "Roberto Luis Gaspar de Deus Severo",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Enrique Álvarez San Juan",
+        "target": "Stefano Sorrentino",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefano Sorrentino",
+        "target": "Enrique Álvarez San Juan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Stefano Sorrentino",
+        "target": "Roberto Luis Gaspar de Deus Severo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

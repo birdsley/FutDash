@@ -1210,17 +1210,6 @@
         "eigenvector": 0.2547
       },
       {
-        "id": "Diego Roberto Godín Leal",
-        "short": "Godín",
-        "name": "Diego Godín",
-        "x": 3.7,
-        "y": 10.2,
-        "size": 60.1,
-        "is_playmaker": false,
-        "betweenness": 0.1278,
-        "eigenvector": 0.0119
-      },
-      {
         "id": "Stefan Savić",
         "short": "Savić",
         "name": "Stefan Savić",
@@ -1230,6 +1219,17 @@
         "is_playmaker": true,
         "betweenness": 0.3444,
         "eigenvector": 0.0121
+      },
+      {
+        "id": "Diego Roberto Godín Leal",
+        "short": "Godín",
+        "name": "Diego Godín",
+        "x": 3.7,
+        "y": 10.2,
+        "size": 60.1,
+        "is_playmaker": false,
+        "betweenness": 0.1278,
+        "eigenvector": 0.0119
       }
     ],
     "edges": [
@@ -1355,15 +1355,15 @@
       },
       {
         "source": "Jan Oblak",
-        "target": "Diego Roberto Godín Leal",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Jan Oblak",
         "target": "Stefan Savić",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Jan Oblak",
+        "target": "Diego Roberto Godín Leal",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Augusto Matías Fernández",
@@ -1402,18 +1402,6 @@
         "direction": "backward"
       },
       {
-        "source": "Diego Roberto Godín Leal",
-        "target": "Jan Oblak",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Diego Roberto Godín Leal",
-        "target": "Filipe Luís Kasmirski",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Stefan Savić",
         "target": "Augusto Matías Fernández",
         "weight": 1,
@@ -1424,6 +1412,18 @@
         "target": "Jan Oblak",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
+        "target": "Jan Oblak",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
+        "target": "Filipe Luís Kasmirski",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

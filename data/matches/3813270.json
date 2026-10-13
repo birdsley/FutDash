@@ -1162,17 +1162,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Airam López Cabrera",
-        "short": "Cabrera",
-        "name": "Airam Cabrera",
-        "x": 68.17,
-        "y": 35.55,
-        "size": 59.1,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0208
-      },
-      {
         "id": "Saviour Gama",
         "short": "Gama",
         "name": "Saviour Gama",
@@ -1182,6 +1171,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0203
+      },
+      {
+        "id": "Airam López Cabrera",
+        "short": "Cabrera",
+        "name": "Airam Cabrera",
+        "x": 68.17,
+        "y": 35.55,
+        "size": 59.1,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0208
       }
     ],
     "edges": [
@@ -1337,32 +1337,20 @@
       },
       {
         "source": "Glan Martins",
-        "target": "Airam López Cabrera",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Glan Martins",
         "target": "Saviour Gama",
         "weight": 1,
         "direction": "lateral"
       },
       {
+        "source": "Glan Martins",
+        "target": "Airam López Cabrera",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Alexander Romario Jesuraj",
         "target": "Eduardo Bedia Peláez",
         "weight": 5,
-        "direction": "backward"
-      },
-      {
-        "source": "Airam López Cabrera",
-        "target": "Alberto Noguera Ripoll",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Airam López Cabrera",
-        "target": "Glan Martins",
-        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1376,6 +1364,18 @@
         "target": "Glan Martins",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Airam López Cabrera",
+        "target": "Alberto Noguera Ripoll",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Airam López Cabrera",
+        "target": "Glan Martins",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

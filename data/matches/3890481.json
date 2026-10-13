@@ -1315,17 +1315,6 @@
         "eigenvector": 0.0377
       },
       {
-        "id": "Douglas Costa de Souza",
-        "short": "Costa",
-        "name": "Douglas Costa",
-        "x": 91.22,
-        "y": 20.36,
-        "size": 57.2,
-        "is_playmaker": true,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0023
-      },
-      {
         "id": "Robert Lewandowski",
         "short": "Lewandowski",
         "name": "Robert Lewandowski",
@@ -1335,6 +1324,17 @@
         "is_playmaker": true,
         "betweenness": 0.4111,
         "eigenvector": 0.008
+      },
+      {
+        "id": "Douglas Costa de Souza",
+        "short": "Costa",
+        "name": "Douglas Costa",
+        "x": 91.22,
+        "y": 20.36,
+        "size": 57.2,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0023
       }
     ],
     "edges": [
@@ -1501,24 +1501,6 @@
         "direction": "forward"
       },
       {
-        "source": "Douglas Costa de Souza",
-        "target": "Robert Lewandowski",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Douglas Costa de Souza",
-        "target": "Juan Bernat Velasco",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Robert Lewandowski",
-        "target": "Douglas Costa de Souza",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Robert Lewandowski",
         "target": "Thomas Müller",
         "weight": 1,
@@ -1529,6 +1511,24 @@
         "target": "Arjen Robben",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Douglas Costa de Souza",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Douglas Costa de Souza",
+        "target": "Robert Lewandowski",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Douglas Costa de Souza",
+        "target": "Juan Bernat Velasco",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

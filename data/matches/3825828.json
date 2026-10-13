@@ -1231,17 +1231,6 @@
         "eigenvector": 0.123
       },
       {
-        "id": "Lucas Hernández Pi",
-        "short": "Hernandez",
-        "name": "Lucas Hernandez",
-        "x": 31.62,
-        "y": 21.62,
-        "size": 59.6,
-        "is_playmaker": true,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0153
-      },
-      {
         "id": "Jan Oblak",
         "short": "Oblak",
         "name": "Jan Oblak",
@@ -1251,6 +1240,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.005
+      },
+      {
+        "id": "Lucas Hernández Pi",
+        "short": "Hernandez",
+        "name": "Lucas Hernandez",
+        "x": 31.62,
+        "y": 21.62,
+        "size": 59.6,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0153
       }
     ],
     "edges": [
@@ -1411,18 +1411,6 @@
         "direction": "backward"
       },
       {
-        "source": "Lucas Hernández Pi",
-        "target": "Jan Oblak",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lucas Hernández Pi",
-        "target": "Augusto Matías Fernández",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Jan Oblak",
         "target": "Lucas Hernández Pi",
         "weight": 1,
@@ -1431,6 +1419,18 @@
       {
         "source": "Jan Oblak",
         "target": "Diego Roberto Godín Leal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lucas Hernández Pi",
+        "target": "Jan Oblak",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lucas Hernández Pi",
+        "target": "Augusto Matías Fernández",
         "weight": 1,
         "direction": "forward"
       }

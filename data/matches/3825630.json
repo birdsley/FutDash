@@ -960,17 +960,6 @@
         "eigenvector": 0.0924
       },
       {
-        "id": "Lucas Pérez Martínez",
-        "short": "Pérez",
-        "name": "Lucas Pérez",
-        "x": 85.36,
-        "y": 52.71,
-        "size": 58.7,
-        "is_playmaker": false,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0116
-      },
-      {
         "id": "Juan Domínguez Lamas",
         "short": "Domínguez",
         "name": "Juan Domínguez",
@@ -980,6 +969,17 @@
         "is_playmaker": true,
         "betweenness": 0.4,
         "eigenvector": 0.0218
+      },
+      {
+        "id": "Lucas Pérez Martínez",
+        "short": "Pérez",
+        "name": "Lucas Pérez",
+        "x": 85.36,
+        "y": 52.71,
+        "size": 58.7,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0116
       }
     ],
     "edges": [
@@ -1135,33 +1135,21 @@
       },
       {
         "source": "Rubén Gracia Calmache",
-        "target": "Lucas Pérez Martínez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rubén Gracia Calmache",
         "target": "Juan Domínguez Lamas",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Rubén Gracia Calmache",
+        "target": "Lucas Pérez Martínez",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Luis Alberto Romero Alconchel",
         "target": "Lucas Pérez Martínez",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Lucas Pérez Martínez",
-        "target": "Rubén Gracia Calmache",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lucas Pérez Martínez",
-        "target": "Luis Alberto Romero Alconchel",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Juan Domínguez Lamas",
@@ -1172,6 +1160,18 @@
       {
         "source": "Juan Domínguez Lamas",
         "target": "Pedro Mosquera Parada",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lucas Pérez Martínez",
+        "target": "Rubén Gracia Calmache",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lucas Pérez Martínez",
+        "target": "Luis Alberto Romero Alconchel",
         "weight": 1,
         "direction": "backward"
       }

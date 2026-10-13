@@ -994,17 +994,6 @@
         "eigenvector": 0.0025
       },
       {
-        "id": "Aytac Sulu",
-        "short": "Sulu",
-        "name": "Aytac Sulu",
-        "x": 45.72,
-        "y": 47.57,
-        "size": 65.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0025
-      },
-      {
         "id": "Peter Niemeyer",
         "short": "Niemeyer",
         "name": "Peter Niemeyer",
@@ -1025,6 +1014,17 @@
         "is_playmaker": false,
         "betweenness": 0.3167,
         "eigenvector": 0.1305
+      },
+      {
+        "id": "Aytac Sulu",
+        "short": "Sulu",
+        "name": "Aytac Sulu",
+        "x": 45.72,
+        "y": 47.57,
+        "size": 65.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0025
       }
     ],
     "edges": [
@@ -1131,26 +1131,8 @@
         "direction": "forward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "Luca Caldirola",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aytac Sulu",
-        "target": "Peter Niemeyer",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Peter Niemeyer",
         "target": "Luca Caldirola",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Peter Niemeyer",
-        "target": "Aytac Sulu",
         "weight": 1,
         "direction": "backward"
       },
@@ -1159,6 +1141,12 @@
         "target": "Jérôme Gondorf",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Peter Niemeyer",
+        "target": "Aytac Sulu",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Jan Rosenthal",
@@ -1171,6 +1159,18 @@
         "target": "Sandro Wagner",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Luca Caldirola",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Peter Niemeyer",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

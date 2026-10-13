@@ -904,17 +904,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Valdés",
-        "name": "Víctor Valdés",
-        "x": 10.62,
-        "y": 41.26,
-        "size": 57.2,
-        "is_playmaker": false,
-        "betweenness": 0.2667,
-        "eigenvector": 0.0003
-      },
-      {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
         "name": "Javier Mascherano",
@@ -935,6 +924,17 @@
         "is_playmaker": false,
         "betweenness": 0.1278,
         "eigenvector": 0.0183
+      },
+      {
+        "id": "Víctor Valdés Arribas",
+        "short": "Valdés",
+        "name": "Víctor Valdés",
+        "x": 10.62,
+        "y": 41.26,
+        "size": 57.2,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.0003
       }
     ],
     "edges": [
@@ -1113,24 +1113,6 @@
         "direction": "backward"
       },
       {
-        "source": "Víctor Valdés Arribas",
-        "target": "Javier Alejandro Mascherano",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Javier Alejandro Mascherano",
-        "target": "Víctor Valdés Arribas",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Javier Alejandro Mascherano",
         "target": "Sergio Busquets i Burgos",
         "weight": 1,
@@ -1143,6 +1125,12 @@
         "direction": "forward"
       },
       {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "David Villa Sánchez",
         "target": "Andrés Iniesta Luján",
         "weight": 1,
@@ -1153,6 +1141,18 @@
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1247,17 +1247,6 @@
         "eigenvector": 0.2778
       },
       {
-        "id": "Idriss Carlos Kameni",
-        "short": "Kameni",
-        "name": "Carlos Kameni",
-        "x": 11.05,
-        "y": 42.75,
-        "size": 67.3,
-        "is_playmaker": false,
-        "betweenness": 0.0778,
-        "eigenvector": 0.0384
-      },
-      {
         "id": "José María Callejón Bueno",
         "short": "Callejón",
         "name": "José Callejón",
@@ -1278,6 +1267,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0363
+      },
+      {
+        "id": "Idriss Carlos Kameni",
+        "short": "Kameni",
+        "name": "Carlos Kameni",
+        "x": 11.05,
+        "y": 42.75,
+        "size": 67.3,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0384
       }
     ],
     "edges": [
@@ -1360,18 +1360,6 @@
         "direction": "backward"
       },
       {
-        "source": "Idriss Carlos Kameni",
-        "target": "Raúl Rodríguez Navarro",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Idriss Carlos Kameni",
-        "target": "Jordi Amat Maas",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "José María Callejón Bueno",
         "target": "Pablo Daniel Osvaldo",
         "weight": 1,
@@ -1392,6 +1380,18 @@
       {
         "source": "Iván Daniel Alonso Vallejo",
         "target": "Pablo Daniel Osvaldo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Idriss Carlos Kameni",
+        "target": "Raúl Rodríguez Navarro",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Idriss Carlos Kameni",
+        "target": "Jordi Amat Maas",
         "weight": 1,
         "direction": "forward"
       }

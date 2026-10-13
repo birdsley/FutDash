@@ -945,17 +945,6 @@
         "eigenvector": 0.0861
       },
       {
-        "id": "Scott Sinclair",
-        "short": "Sinclair",
-        "name": "Scott Sinclair",
-        "x": 85.47,
-        "y": 46.6,
-        "size": 58.9,
-        "is_playmaker": false,
-        "betweenness": 0.3,
-        "eigenvector": 0.0189
-      },
-      {
         "id": "Gabriel Imuetinyan Agbonlahor",
         "short": "Agbonlahor",
         "name": "Gabriel Agbonlahor",
@@ -965,6 +954,17 @@
         "is_playmaker": true,
         "betweenness": 0.3333,
         "eigenvector": 0.0148
+      },
+      {
+        "id": "Scott Sinclair",
+        "short": "Sinclair",
+        "name": "Scott Sinclair",
+        "x": 85.47,
+        "y": 46.6,
+        "size": 58.9,
+        "is_playmaker": false,
+        "betweenness": 0.3,
+        "eigenvector": 0.0189
       }
     ],
     "edges": [
@@ -1125,16 +1125,10 @@
         "direction": "forward"
       },
       {
-        "source": "Scott Sinclair",
-        "target": "Carles Gil de Pareja Vicent",
+        "source": "Gabriel Imuetinyan Agbonlahor",
+        "target": "Jack Grealish",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Scott Sinclair",
-        "target": "Gabriel Imuetinyan Agbonlahor",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Gabriel Imuetinyan Agbonlahor",
@@ -1143,8 +1137,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Gabriel Imuetinyan Agbonlahor",
-        "target": "Jack Grealish",
+        "source": "Scott Sinclair",
+        "target": "Gabriel Imuetinyan Agbonlahor",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Scott Sinclair",
+        "target": "Carles Gil de Pareja Vicent",
         "weight": 1,
         "direction": "backward"
       }

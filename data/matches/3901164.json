@@ -799,17 +799,6 @@
         "eigenvector": 0.2005
       },
       {
-        "id": "Ismaël Traoré",
-        "short": "Traoré",
-        "name": "Ismaël Traoré",
-        "x": 46.48,
-        "y": 54.48,
-        "size": 67.1,
-        "is_playmaker": true,
-        "betweenness": 0.6056,
-        "eigenvector": 0.0357
-      },
-      {
         "id": "Charles Diers",
         "short": "Diers",
         "name": "Charles Diers",
@@ -819,6 +808,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0045
+      },
+      {
+        "id": "Ismaël Traoré",
+        "short": "Traoré",
+        "name": "Ismaël Traoré",
+        "x": 46.48,
+        "y": 54.48,
+        "size": 67.1,
+        "is_playmaker": true,
+        "betweenness": 0.6056,
+        "eigenvector": 0.0357
       },
       {
         "id": "Alexandre Letellier",
@@ -984,6 +984,24 @@
         "direction": "backward"
       },
       {
+        "source": "Charles Diers",
+        "target": "Gilles Sunu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Charles Diers",
+        "target": "Ismaël Traoré",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ismaël Traoré",
+        "target": "Charles Diers",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Ismaël Traoré",
         "target": "Vincent Manceau",
         "weight": 1,
@@ -997,25 +1015,7 @@
       },
       {
         "source": "Ismaël Traoré",
-        "target": "Charles Diers",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ismaël Traoré",
         "target": "Alexandre Letellier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Charles Diers",
-        "target": "Gilles Sunu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Charles Diers",
-        "target": "Ismaël Traoré",
         "weight": 1,
         "direction": "backward"
       },

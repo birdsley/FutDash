@@ -803,17 +803,6 @@
         "eigenvector": 0.3646
       },
       {
-        "id": "François Modesto",
-        "short": "Modesto",
-        "name": "François Modesto",
-        "x": 59.38,
-        "y": 22.6,
-        "size": 64.0,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0286
-      },
-      {
         "id": "Mathieu Peybernes",
         "short": "Peybernes",
         "name": "Mathieu Peybernes",
@@ -823,6 +812,17 @@
         "is_playmaker": false,
         "betweenness": 0.2556,
         "eigenvector": 0.0174
+      },
+      {
+        "id": "François Modesto",
+        "short": "Modesto",
+        "name": "François Modesto",
+        "x": 59.38,
+        "y": 22.6,
+        "size": 64.0,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0286
       }
     ],
     "edges": [
@@ -852,15 +852,15 @@
       },
       {
         "source": "Mehdi Mostefa Sbaa",
-        "target": "François Modesto",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mehdi Mostefa Sbaa",
         "target": "Mathieu Peybernes",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Mehdi Mostefa Sbaa",
+        "target": "François Modesto",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Sébastien Squillaci",
@@ -977,18 +977,6 @@
         "direction": "backward"
       },
       {
-        "source": "François Modesto",
-        "target": "Julian Palmieri",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "François Modesto",
-        "target": "Mehdi Mostefa Sbaa",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Mathieu Peybernes",
         "target": "Sébastien Squillaci",
         "weight": 1,
@@ -999,6 +987,18 @@
         "target": "Mehdi Mostefa Sbaa",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "François Modesto",
+        "target": "Julian Palmieri",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "François Modesto",
+        "target": "Mehdi Mostefa Sbaa",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

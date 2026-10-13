@@ -945,17 +945,6 @@
         "eigenvector": 0.0579
       },
       {
-        "id": "Yoshinori Muto",
-        "short": "Muto",
-        "name": "Yoshinori Muto",
-        "x": 64.05,
-        "y": 34.62,
-        "size": 63.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.039
-      },
-      {
         "id": "Yunus Mallı",
         "short": "Mallı",
         "name": "Yunus Mallı",
@@ -965,6 +954,17 @@
         "is_playmaker": true,
         "betweenness": 0.3667,
         "eigenvector": 0.0871
+      },
+      {
+        "id": "Yoshinori Muto",
+        "short": "Muto",
+        "name": "Yoshinori Muto",
+        "x": 64.05,
+        "y": 34.62,
+        "size": 63.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.039
       }
     ],
     "edges": [
@@ -1078,30 +1078,12 @@
       },
       {
         "source": "Danny Latza",
-        "target": "Yoshinori Muto",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Danny Latza",
         "target": "Yunus Mallı",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Yoshinori Muto",
-        "target": "Danny Latza",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Yoshinori Muto",
-        "target": "Yunus Mallı",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Yunus Mallı",
+        "source": "Danny Latza",
         "target": "Yoshinori Muto",
         "weight": 1,
         "direction": "forward"
@@ -1117,6 +1099,24 @@
         "target": "Danny Latza",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Yunus Mallı",
+        "target": "Yoshinori Muto",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Yoshinori Muto",
+        "target": "Danny Latza",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Yoshinori Muto",
+        "target": "Yunus Mallı",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

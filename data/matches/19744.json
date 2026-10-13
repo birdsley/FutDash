@@ -1024,6 +1024,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Juliette Kemppi",
+        "short": "Kemppi",
+        "name": "Juliette Kemppi",
+        "x": 63.43,
+        "y": 46.86,
+        "size": 65.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Ella Rutherford",
         "short": "Rutherford",
         "name": "Ella Rutherford",
@@ -1044,17 +1055,6 @@
         "is_playmaker": false,
         "betweenness": 0.0389,
         "eigenvector": 0.0
-      },
-      {
-        "id": "Juliette Kemppi",
-        "short": "Kemppi",
-        "name": "Juliette Kemppi",
-        "x": 63.43,
-        "y": 46.86,
-        "size": 65.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
       }
     ],
     "edges": [
@@ -1063,6 +1063,12 @@
         "target": "Danique Kerkdijk",
         "weight": 5,
         "direction": "backward"
+      },
+      {
+        "source": "Carla Humphrey",
+        "target": "Juliette Kemppi",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Carla Humphrey",
@@ -1075,12 +1081,6 @@
         "target": "Frankie Brown",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Carla Humphrey",
-        "target": "Juliette Kemppi",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Danique Kerkdijk",
@@ -1161,36 +1161,6 @@
         "direction": "backward"
       },
       {
-        "source": "Ella Rutherford",
-        "target": "Carla Humphrey",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ella Rutherford",
-        "target": "Julie Biesmans",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ella Rutherford",
-        "target": "Juliette Kemppi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Carla Humphrey",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Julie Biesmans",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Juliette Kemppi",
         "target": "Ella Rutherford",
         "weight": 1,
@@ -1201,6 +1171,36 @@
         "target": "Carla Humphrey",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Ella Rutherford",
+        "target": "Juliette Kemppi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ella Rutherford",
+        "target": "Carla Humphrey",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ella Rutherford",
+        "target": "Julie Biesmans",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Carla Humphrey",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Julie Biesmans",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

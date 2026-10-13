@@ -1289,17 +1289,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Xavier Torres Buigues",
-        "short": "Torres",
-        "name": "Xavi Torres",
-        "x": 45.65,
-        "y": 44.46,
-        "size": 70.1,
-        "is_playmaker": true,
-        "betweenness": 0.1667,
-        "eigenvector": 0.0913
-      },
-      {
         "id": "Iván Cuéllar Sacristán",
         "short": "Pichu",
         "name": "Pichu",
@@ -1309,6 +1298,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0663
+      },
+      {
+        "id": "Xavier Torres Buigues",
+        "short": "Torres",
+        "name": "Xavi Torres",
+        "x": 45.65,
+        "y": 44.46,
+        "size": 70.1,
+        "is_playmaker": true,
+        "betweenness": 0.1667,
+        "eigenvector": 0.0913
       },
       {
         "id": "Juan Rodríguez Martínez",
@@ -1396,18 +1396,6 @@
         "direction": "backward"
       },
       {
-        "source": "Xavier Torres Buigues",
-        "target": "Juan Rodríguez Martínez",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Xavier Torres Buigues",
-        "target": "Ignacio Cases Mora",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Iván Cuéllar Sacristán",
         "target": "Jean-Sylvain Claude Babin",
         "weight": 1,
@@ -1420,8 +1408,14 @@
         "direction": "forward"
       },
       {
-        "source": "Juan Rodríguez Martínez",
-        "target": "Xavier Torres Buigues",
+        "source": "Xavier Torres Buigues",
+        "target": "Juan Rodríguez Martínez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Xavier Torres Buigues",
+        "target": "Ignacio Cases Mora",
         "weight": 1,
         "direction": "forward"
       },
@@ -1430,6 +1424,12 @@
         "target": "Iván Cuéllar Sacristán",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Juan Rodríguez Martínez",
+        "target": "Xavier Torres Buigues",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Juan Rodríguez Martínez",

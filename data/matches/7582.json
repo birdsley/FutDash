@@ -1387,15 +1387,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Diego da Silva Costa",
-        "short": "Costa",
-        "name": "Diego Costa",
-        "x": 71.14,
-        "y": 29.86,
-        "size": 57.0,
-        "is_playmaker": true,
-        "betweenness": 0.4722,
-        "eigenvector": 0.0069
+        "id": "David de Gea Quintana",
+        "short": "de Gea",
+        "name": "David de Gea",
+        "x": 12.64,
+        "y": 38.36,
+        "size": 56.4,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.008
       },
       {
         "id": "David Josué Jiménez Silva",
@@ -1409,15 +1409,15 @@
         "eigenvector": 0.0001
       },
       {
-        "id": "David de Gea Quintana",
-        "short": "de Gea",
-        "name": "David de Gea",
-        "x": 12.64,
-        "y": 38.36,
-        "size": 56.4,
-        "is_playmaker": false,
-        "betweenness": 0.15,
-        "eigenvector": 0.008
+        "id": "Diego da Silva Costa",
+        "short": "Costa",
+        "name": "Diego Costa",
+        "x": 71.14,
+        "y": 29.86,
+        "size": 57.0,
+        "is_playmaker": true,
+        "betweenness": 0.4722,
+        "eigenvector": 0.0069
       }
     ],
     "edges": [
@@ -1596,22 +1596,16 @@
         "direction": "backward"
       },
       {
-        "source": "Diego da Silva Costa",
-        "target": "Francisco Román Alarcón Suárez",
+        "source": "David de Gea Quintana",
+        "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Diego da Silva Costa",
-        "target": "Sergio Busquets i Burgos",
+        "source": "David de Gea Quintana",
+        "target": "Sergio Ramos García",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Diego da Silva Costa",
-        "target": "David Josué Jiménez Silva",
-        "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "David Josué Jiménez Silva",
@@ -1626,16 +1620,22 @@
         "direction": "forward"
       },
       {
-        "source": "David de Gea Quintana",
-        "target": "Gerard Piqué Bernabéu",
+        "source": "Diego da Silva Costa",
+        "target": "David Josué Jiménez Silva",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Diego da Silva Costa",
+        "target": "Francisco Román Alarcón Suárez",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "David de Gea Quintana",
-        "target": "Sergio Ramos García",
+        "source": "Diego da Silva Costa",
+        "target": "Sergio Busquets i Burgos",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

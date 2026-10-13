@@ -1050,17 +1050,6 @@
         "eigenvector": 0.0001
       },
       {
-        "id": "Robert Lewandowski",
-        "short": "Lewandowski",
-        "name": "Robert Lewandowski",
-        "x": 83.51,
-        "y": 48.57,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0051
-      },
-      {
         "id": "Manuel Neuer",
         "short": "Neuer",
         "name": "Manuel Neuer",
@@ -1070,6 +1059,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0047
+      },
+      {
+        "id": "Robert Lewandowski",
+        "short": "Lewandowski",
+        "name": "Robert Lewandowski",
+        "x": 83.51,
+        "y": 48.57,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0051
       }
     ],
     "edges": [
@@ -1242,18 +1242,6 @@
         "direction": "backward"
       },
       {
-        "source": "Robert Lewandowski",
-        "target": "Kingsley Coman",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Robert Lewandowski",
-        "target": "Thomas Müller",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Manuel Neuer",
         "target": "Jérôme Boateng",
         "weight": 1,
@@ -1262,6 +1250,18 @@
       {
         "source": "Manuel Neuer",
         "target": "Márcio Rafael Ferreira de Souza",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Kingsley Coman",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Thomas Müller",
         "weight": 1,
         "direction": "forward"
       }

@@ -1210,17 +1210,6 @@
         "eigenvector": 0.0725
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Valdés",
-        "name": "Víctor Valdés",
-        "x": 11.35,
-        "y": 44.27,
-        "size": 56.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0008
-      },
-      {
         "id": "Gerard Piqué Bernabéu",
         "short": "Piqué",
         "name": "Gerard Piqué",
@@ -1230,6 +1219,17 @@
         "is_playmaker": true,
         "betweenness": 0.3167,
         "eigenvector": 0.0042
+      },
+      {
+        "id": "Víctor Valdés Arribas",
+        "short": "Valdés",
+        "name": "Víctor Valdés",
+        "x": 11.35,
+        "y": 44.27,
+        "size": 56.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0008
       }
     ],
     "edges": [
@@ -1385,30 +1385,12 @@
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
-        "target": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Eric-Sylvain Bilal Abidal",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Eric-Sylvain Bilal Abidal",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gerard Piqué Bernabéu",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
         "direction": "backward"
@@ -1421,6 +1403,24 @@
       },
       {
         "source": "Gerard Piqué Bernabéu",
+        "target": "Eric-Sylvain Bilal Abidal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
         "target": "Eric-Sylvain Bilal Abidal",
         "weight": 1,
         "direction": "forward"

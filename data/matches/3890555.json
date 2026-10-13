@@ -1260,17 +1260,6 @@
         "eigenvector": 0.0001
       },
       {
-        "id": "Mario Vrančić",
-        "short": "Vrančić",
-        "name": "Mario Vrančić",
-        "x": 66.38,
-        "y": 36.7,
-        "size": 69.3,
-        "is_playmaker": false,
-        "betweenness": 0.213,
-        "eigenvector": 0.0886
-      },
-      {
         "id": "Luca Caldirola",
         "short": "Caldirola",
         "name": "Luca Caldirola",
@@ -1282,15 +1271,15 @@
         "eigenvector": 0.0631
       },
       {
-        "id": "Aytac Sulu",
-        "short": "Sulu",
-        "name": "Aytac Sulu",
-        "x": 48.44,
-        "y": 54.34,
+        "id": "Mario Vrančić",
+        "short": "Vrančić",
+        "name": "Mario Vrančić",
+        "x": 66.38,
+        "y": 36.7,
         "size": 69.3,
-        "is_playmaker": true,
-        "betweenness": 0.2926,
-        "eigenvector": 0.0046
+        "is_playmaker": false,
+        "betweenness": 0.213,
+        "eigenvector": 0.0886
       },
       {
         "id": "Marcel Heller",
@@ -1302,6 +1291,17 @@
         "is_playmaker": false,
         "betweenness": 0.1944,
         "eigenvector": 0.0008
+      },
+      {
+        "id": "Aytac Sulu",
+        "short": "Sulu",
+        "name": "Aytac Sulu",
+        "x": 48.44,
+        "y": 54.34,
+        "size": 69.3,
+        "is_playmaker": true,
+        "betweenness": 0.2926,
+        "eigenvector": 0.0046
       }
     ],
     "edges": [
@@ -1367,15 +1367,15 @@
       },
       {
         "source": "Peter Niemeyer",
-        "target": "Mario Vrančić",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Peter Niemeyer",
         "target": "Luca Caldirola",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Peter Niemeyer",
+        "target": "Mario Vrančić",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Peter Niemeyer",
@@ -1402,18 +1402,6 @@
         "direction": "forward"
       },
       {
-        "source": "Mario Vrančić",
-        "target": "Sandro Wagner",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mario Vrančić",
-        "target": "Peter Niemeyer",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Luca Caldirola",
         "target": "Fabian Holland",
         "weight": 1,
@@ -1426,14 +1414,20 @@
         "direction": "forward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "Peter Niemeyer",
+        "source": "Mario Vrančić",
+        "target": "Sandro Wagner",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "Marcel Heller",
+        "source": "Mario Vrančić",
+        "target": "Peter Niemeyer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcel Heller",
+        "target": "György Garics",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1444,10 +1438,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Marcel Heller",
-        "target": "György Garics",
+        "source": "Aytac Sulu",
+        "target": "Marcel Heller",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Peter Niemeyer",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

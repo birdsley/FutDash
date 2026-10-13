@@ -1216,17 +1216,6 @@
         "eigenvector": 0.0809
       },
       {
-        "id": "Oussama Tannane",
-        "short": "Tannane",
-        "name": "Oussama Tannane",
-        "x": 68.49,
-        "y": 50.46,
-        "size": 57.8,
-        "is_playmaker": true,
-        "betweenness": 0.3667,
-        "eigenvector": 0.0136
-      },
-      {
         "id": "Benjamin Corgnet",
         "short": "Corgnet",
         "name": "Benjamin Corgnet",
@@ -1236,6 +1225,17 @@
         "is_playmaker": false,
         "betweenness": 0.2556,
         "eigenvector": 0.0121
+      },
+      {
+        "id": "Oussama Tannane",
+        "short": "Tannane",
+        "name": "Oussama Tannane",
+        "x": 68.49,
+        "y": 50.46,
+        "size": 57.8,
+        "is_playmaker": true,
+        "betweenness": 0.3667,
+        "eigenvector": 0.0136
       }
     ],
     "edges": [
@@ -1397,27 +1397,15 @@
       },
       {
         "source": "Neal Maupay",
-        "target": "Oussama Tannane",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Neal Maupay",
         "target": "Benjamin Corgnet",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Oussama Tannane",
-        "target": "Vincent Pajot",
+        "source": "Neal Maupay",
+        "target": "Oussama Tannane",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Oussama Tannane",
-        "target": "Neal Maupay",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Benjamin Corgnet",
@@ -1427,6 +1415,18 @@
       },
       {
         "source": "Benjamin Corgnet",
+        "target": "Neal Maupay",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Oussama Tannane",
+        "target": "Vincent Pajot",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Oussama Tannane",
         "target": "Neal Maupay",
         "weight": 1,
         "direction": "forward"

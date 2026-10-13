@@ -991,17 +991,6 @@
         "eigenvector": 0.2255
       },
       {
-        "id": "Robert Lewandowski",
-        "short": "Lewandowski",
-        "name": "Robert Lewandowski",
-        "x": 83.24,
-        "y": 45.74,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.1722,
-        "eigenvector": 0.0059
-      },
-      {
         "id": "Manuel Neuer",
         "short": "Neuer",
         "name": "Manuel Neuer",
@@ -1011,6 +1000,17 @@
         "is_playmaker": false,
         "betweenness": 0.2889,
         "eigenvector": 0.0158
+      },
+      {
+        "id": "Robert Lewandowski",
+        "short": "Lewandowski",
+        "name": "Robert Lewandowski",
+        "x": 83.24,
+        "y": 45.74,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0059
       }
     ],
     "edges": [
@@ -1183,18 +1183,6 @@
         "direction": "forward"
       },
       {
-        "source": "Robert Lewandowski",
-        "target": "Sebastian Rode",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Robert Lewandowski",
-        "target": "Kingsley Coman",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Manuel Neuer",
         "target": "Joshua Kimmich",
         "weight": 1,
@@ -1205,6 +1193,18 @@
         "target": "David Olatukunbo Alaba",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Sebastian Rode",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Kingsley Coman",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

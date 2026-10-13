@@ -1171,17 +1171,6 @@
         "eigenvector": 0.7343
       },
       {
-        "id": "Ajara Nchout",
-        "short": "Nchout",
-        "name": "Ajara Nchout",
-        "x": 62.74,
-        "y": 48.66,
-        "size": 74.5,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.2126
-      },
-      {
         "id": "Christine Manie",
         "short": "Manie",
         "name": "Christine Manie",
@@ -1191,6 +1180,17 @@
         "is_playmaker": true,
         "betweenness": 0.2,
         "eigenvector": 0.3459
+      },
+      {
+        "id": "Ajara Nchout",
+        "short": "Nchout",
+        "name": "Ajara Nchout",
+        "x": 62.74,
+        "y": 48.66,
+        "size": 74.5,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.2126
       }
     ],
     "edges": [
@@ -1267,14 +1267,8 @@
         "direction": "forward"
       },
       {
-        "source": "Ajara Nchout",
-        "target": "Marlyse Bernadette Ngo Ndoumbouk",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ajara Nchout",
-        "target": "Christine Manie",
+        "source": "Christine Manie",
+        "target": "Jeannette Yango",
         "weight": 1,
         "direction": "backward"
       },
@@ -1285,8 +1279,14 @@
         "direction": "forward"
       },
       {
-        "source": "Christine Manie",
-        "target": "Jeannette Yango",
+        "source": "Ajara Nchout",
+        "target": "Christine Manie",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ajara Nchout",
+        "target": "Marlyse Bernadette Ngo Ndoumbouk",
         "weight": 1,
         "direction": "backward"
       }

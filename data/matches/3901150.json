@@ -1216,17 +1216,6 @@
         "eigenvector": 0.0744
       },
       {
-        "id": "Oussama Tannane",
-        "short": "Tannane",
-        "name": "Oussama Tannane",
-        "x": 51.4,
-        "y": 62.24,
-        "size": 59.4,
-        "is_playmaker": false,
-        "betweenness": 0.2444,
-        "eigenvector": 0.0328
-      },
-      {
         "id": "Stéphane Ruffier",
         "short": "Ruffier",
         "name": "Stéphane Ruffier",
@@ -1236,6 +1225,17 @@
         "is_playmaker": false,
         "betweenness": 0.4056,
         "eigenvector": 0.0329
+      },
+      {
+        "id": "Oussama Tannane",
+        "short": "Tannane",
+        "name": "Oussama Tannane",
+        "x": 51.4,
+        "y": 62.24,
+        "size": 59.4,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.0328
       }
     ],
     "edges": [
@@ -1319,15 +1319,15 @@
       },
       {
         "source": "Moustapha Bayal Sall",
-        "target": "Oussama Tannane",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Moustapha Bayal Sall",
         "target": "Stéphane Ruffier",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Moustapha Bayal Sall",
+        "target": "Oussama Tannane",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Florentin Pogba",
@@ -1408,18 +1408,6 @@
         "direction": "backward"
       },
       {
-        "source": "Oussama Tannane",
-        "target": "Moustapha Bayal Sall",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Oussama Tannane",
-        "target": "Kévin Théophile-Catherine",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Stéphane Ruffier",
         "target": "Moustapha Bayal Sall",
         "weight": 1,
@@ -1428,6 +1416,18 @@
       {
         "source": "Stéphane Ruffier",
         "target": "Florentin Pogba",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Oussama Tannane",
+        "target": "Moustapha Bayal Sall",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Oussama Tannane",
+        "target": "Kévin Théophile-Catherine",
         "weight": 1,
         "direction": "forward"
       }

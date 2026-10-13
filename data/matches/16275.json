@@ -908,15 +908,15 @@
         "eigenvector": 0.1488
       },
       {
-        "id": "Diego Alejandro Rolan Silva",
-        "short": "Rolán",
-        "name": "Diego Rolán",
-        "x": 59.8,
-        "y": 57.2,
+        "id": "Borja González Tomás",
+        "short": "Bastón",
+        "name": "Borja Bastón",
+        "x": 69.7,
+        "y": 39.8,
         "size": 67.9,
         "is_playmaker": false,
-        "betweenness": 0.2556,
-        "eigenvector": 0.0917
+        "betweenness": 0.2444,
+        "eigenvector": 0.1757
       },
       {
         "id": "Joaquín Navarro Jiménez",
@@ -930,6 +930,17 @@
         "eigenvector": 0.0699
       },
       {
+        "id": "Diego Alejandro Rolan Silva",
+        "short": "Rolán",
+        "name": "Diego Rolán",
+        "x": 59.8,
+        "y": 57.2,
+        "size": 67.9,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0917
+      },
+      {
         "id": "Rodrigo Ely",
         "short": "Ely",
         "name": "Rodrigo Ely",
@@ -939,17 +950,6 @@
         "is_playmaker": true,
         "betweenness": 0.4444,
         "eigenvector": 0.1169
-      },
-      {
-        "id": "Borja González Tomás",
-        "short": "Bastón",
-        "name": "Borja Bastón",
-        "x": 69.7,
-        "y": 39.8,
-        "size": 67.9,
-        "is_playmaker": false,
-        "betweenness": 0.2444,
-        "eigenvector": 0.1757
       }
     ],
     "edges": [
@@ -1021,6 +1021,12 @@
       },
       {
         "source": "Mubarak Wakaso",
+        "target": "Borja González Tomás",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mubarak Wakaso",
         "target": "Joaquín Navarro Jiménez",
         "weight": 1,
         "direction": "backward"
@@ -1032,12 +1038,6 @@
         "direction": "backward"
       },
       {
-        "source": "Mubarak Wakaso",
-        "target": "Borja González Tomás",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Carlos Martín Vigaray",
         "target": "Víctor Laguardia Cisneros",
         "weight": 4,
@@ -1046,6 +1046,30 @@
       {
         "source": "Carlos Martín Vigaray",
         "target": "Diego Alejandro Rolan Silva",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Borja González Tomás",
+        "target": "Jonathan Rodríguez Menéndez",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Borja González Tomás",
+        "target": "Mubarak Wakaso",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Joaquín Navarro Jiménez",
+        "target": "Rodrigo Ely",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Joaquín Navarro Jiménez",
+        "target": "Mubarak Wakaso",
         "weight": 1,
         "direction": "forward"
       },
@@ -1062,18 +1086,6 @@
         "direction": "backward"
       },
       {
-        "source": "Joaquín Navarro Jiménez",
-        "target": "Rodrigo Ely",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Joaquín Navarro Jiménez",
-        "target": "Mubarak Wakaso",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Rodrigo Ely",
         "target": "Joaquín Navarro Jiménez",
         "weight": 1,
@@ -1090,18 +1102,6 @@
         "target": "Mubarak Wakaso",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Borja González Tomás",
-        "target": "Jonathan Rodríguez Menéndez",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Borja González Tomás",
-        "target": "Mubarak Wakaso",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

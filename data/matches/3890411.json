@@ -1075,17 +1075,6 @@
         "eigenvector": 0.0965
       },
       {
-        "id": "Yoshinori Muto",
-        "short": "Muto",
-        "name": "Yoshinori Muto",
-        "x": 60.14,
-        "y": 37.86,
-        "size": 61.5,
-        "is_playmaker": true,
-        "betweenness": 0.3444,
-        "eigenvector": 0.0149
-      },
-      {
         "id": "Christian Clemens",
         "short": "Clemens",
         "name": "Christian Clemens",
@@ -1095,6 +1084,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0072
+      },
+      {
+        "id": "Yoshinori Muto",
+        "short": "Muto",
+        "name": "Yoshinori Muto",
+        "x": 60.14,
+        "y": 37.86,
+        "size": 61.5,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.0149
       }
     ],
     "edges": [
@@ -1244,13 +1244,13 @@
       },
       {
         "source": "Julian Baumgartlinger",
-        "target": "Yoshinori Muto",
+        "target": "Christian Clemens",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Julian Baumgartlinger",
-        "target": "Christian Clemens",
+        "target": "Yoshinori Muto",
         "weight": 1,
         "direction": "forward"
       },
@@ -1261,13 +1261,13 @@
         "direction": "backward"
       },
       {
-        "source": "Yoshinori Muto",
-        "target": "Yunus Mallı",
+        "source": "Christian Clemens",
+        "target": "Yoshinori Muto",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Yoshinori Muto",
+        "source": "Christian Clemens",
         "target": "Julian Baumgartlinger",
         "weight": 1,
         "direction": "backward"
@@ -1279,13 +1279,13 @@
         "direction": "forward"
       },
       {
-        "source": "Christian Clemens",
-        "target": "Yoshinori Muto",
+        "source": "Yoshinori Muto",
+        "target": "Yunus Mallı",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
-        "source": "Christian Clemens",
+        "source": "Yoshinori Muto",
         "target": "Julian Baumgartlinger",
         "weight": 1,
         "direction": "backward"

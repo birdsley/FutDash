@@ -1201,17 +1201,6 @@
         "eigenvector": 0.0244
       },
       {
-        "id": "Rodolfo Bodipo Díaz",
-        "short": "Bodipo",
-        "name": "Rodolfo Bodipo",
-        "x": 77.45,
-        "y": 32.39,
-        "size": 61.5,
-        "is_playmaker": false,
-        "betweenness": 0.2093,
-        "eigenvector": 0.0467
-      },
-      {
         "id": "José Andrés Guardado Hernández",
         "short": "Guardado",
         "name": "Andrés Guardado",
@@ -1221,6 +1210,17 @@
         "is_playmaker": false,
         "betweenness": 0.3,
         "eigenvector": 0.0395
+      },
+      {
+        "id": "Rodolfo Bodipo Díaz",
+        "short": "Bodipo",
+        "name": "Rodolfo Bodipo",
+        "x": 77.45,
+        "y": 32.39,
+        "size": 61.5,
+        "is_playmaker": false,
+        "betweenness": 0.2093,
+        "eigenvector": 0.0467
       }
     ],
     "edges": [
@@ -1292,15 +1292,15 @@
       },
       {
         "source": "Juan Antonio Rodríguez Villamuela",
-        "target": "Rodolfo Bodipo Díaz",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Juan Antonio Rodríguez Villamuela",
         "target": "José Andrés Guardado Hernández",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Juan Antonio Rodríguez Villamuela",
+        "target": "Rodolfo Bodipo Díaz",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Joan Verdú Fernández",
@@ -1363,18 +1363,6 @@
         "direction": "forward"
       },
       {
-        "source": "Rodolfo Bodipo Díaz",
-        "target": "Joan Verdú Fernández",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rodolfo Bodipo Díaz",
-        "target": "Juan Antonio Rodríguez Villamuela",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "José Andrés Guardado Hernández",
         "target": "Filipe Luís Kasmirski",
         "weight": 1,
@@ -1385,6 +1373,18 @@
         "target": "Juan Antonio Rodríguez Villamuela",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Rodolfo Bodipo Díaz",
+        "target": "Joan Verdú Fernández",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Rodolfo Bodipo Díaz",
+        "target": "Juan Antonio Rodríguez Villamuela",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

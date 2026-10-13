@@ -1353,17 +1353,6 @@
         "eigenvector": 0.219
       },
       {
-        "id": "Costel Fane Pantilimon",
-        "short": "Pantilimon",
-        "name": "Costel Pantilimon",
-        "x": 8.94,
-        "y": 42.49,
-        "size": 65.1,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0057
-      },
-      {
         "id": "Jermain Defoe",
         "short": "Defoe",
         "name": "Jermain Defoe",
@@ -1375,15 +1364,15 @@
         "eigenvector": 0.0295
       },
       {
-        "id": "Sebastián Coates Nión",
-        "short": "Coates",
-        "name": "Sebastián Coates",
-        "x": 42.04,
-        "y": 55.27,
-        "size": 70.2,
-        "is_playmaker": true,
-        "betweenness": 0.45,
-        "eigenvector": 0.0775
+        "id": "Costel Fane Pantilimon",
+        "short": "Pantilimon",
+        "name": "Costel Pantilimon",
+        "x": 8.94,
+        "y": 42.49,
+        "size": 65.1,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0057
       },
       {
         "id": "John O''Shea",
@@ -1395,6 +1384,17 @@
         "is_playmaker": false,
         "betweenness": 0.4,
         "eigenvector": 0.0476
+      },
+      {
+        "id": "Sebastián Coates Nión",
+        "short": "Coates",
+        "name": "Sebastián Coates",
+        "x": 42.04,
+        "y": 55.27,
+        "size": 70.2,
+        "is_playmaker": true,
+        "betweenness": 0.45,
+        "eigenvector": 0.0775
       }
     ],
     "edges": [
@@ -1424,13 +1424,13 @@
       },
       {
         "source": "Yann Gérard M''Vila",
-        "target": "Sebastián Coates Nión",
+        "target": "John O''Shea",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Yann Gérard M''Vila",
-        "target": "John O''Shea",
+        "target": "Sebastián Coates Nión",
         "weight": 1,
         "direction": "backward"
       },
@@ -1507,6 +1507,18 @@
         "direction": "backward"
       },
       {
+        "source": "Jermain Defoe",
+        "target": "Steven Fletcher",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jermain Defoe",
+        "target": "Lee Cattermole",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Costel Fane Pantilimon",
         "target": "Younes Kaboul",
         "weight": 1,
@@ -1519,16 +1531,16 @@
         "direction": "forward"
       },
       {
-        "source": "Jermain Defoe",
-        "target": "Steven Fletcher",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Jermain Defoe",
+        "source": "John O''Shea",
         "target": "Lee Cattermole",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "John O''Shea",
+        "target": "Yann Gérard M''Vila",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Sebastián Coates Nión",
@@ -1544,18 +1556,6 @@
       },
       {
         "source": "Sebastián Coates Nión",
-        "target": "Yann Gérard M''Vila",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "John O''Shea",
-        "target": "Lee Cattermole",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "John O''Shea",
         "target": "Yann Gérard M''Vila",
         "weight": 1,
         "direction": "forward"

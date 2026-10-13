@@ -825,17 +825,6 @@
         "eigenvector": 0.444
       },
       {
-        "id": "Sandra Paños García-Villamil",
-        "short": "Paños",
-        "name": "Sandra Paños",
-        "x": 13.23,
-        "y": 41.52,
-        "size": 60.9,
-        "is_playmaker": false,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0235
-      },
-      {
         "id": "María Victoria Losada Gómez",
         "short": "Losada",
         "name": "Vicky Losada",
@@ -845,6 +834,17 @@
         "is_playmaker": false,
         "betweenness": 0.25,
         "eigenvector": 0.0319
+      },
+      {
+        "id": "Sandra Paños García-Villamil",
+        "short": "Paños",
+        "name": "Sandra Paños",
+        "x": 13.23,
+        "y": 41.52,
+        "size": 60.9,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0235
       }
     ],
     "edges": [
@@ -898,15 +898,15 @@
       },
       {
         "source": "Irene Paredes Hernandez",
-        "target": "Sandra Paños García-Villamil",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Irene Paredes Hernandez",
         "target": "María Victoria Losada Gómez",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Irene Paredes Hernandez",
+        "target": "Sandra Paños García-Villamil",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Virginia Torrecilla Reyes",
@@ -1017,18 +1017,6 @@
         "direction": "forward"
       },
       {
-        "source": "Sandra Paños García-Villamil",
-        "target": "Irene Paredes Hernandez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sandra Paños García-Villamil",
-        "target": "María Pilar León Cebrián",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "María Victoria Losada Gómez",
         "target": "Virginia Torrecilla Reyes",
         "weight": 1,
@@ -1039,6 +1027,18 @@
         "target": "Irene Paredes Hernandez",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Sandra Paños García-Villamil",
+        "target": "Irene Paredes Hernandez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sandra Paños García-Villamil",
+        "target": "María Pilar León Cebrián",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

@@ -893,14 +893,14 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Alan Henrique Costa",
-        "short": "Costa",
-        "name": "Alan Costa",
-        "x": 44.76,
-        "y": 25.38,
+        "id": "Bruno Edgar Silva Almeida",
+        "short": "Ramires",
+        "name": "Bruno Ramires",
+        "x": 57.43,
+        "y": 39.05,
         "size": 77.2,
         "is_playmaker": false,
-        "betweenness": 0.0556,
+        "betweenness": 0.1056,
         "eigenvector": 0.5299
       },
       {
@@ -915,6 +915,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Alan Henrique Costa",
+        "short": "Costa",
+        "name": "Alan Costa",
+        "x": 44.76,
+        "y": 25.38,
+        "size": 77.2,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.5299
+      },
+      {
         "id": "Gurpreet Singh Sandhu",
         "short": "Sandhu",
         "name": "Gurpreet Singh Sandhu",
@@ -924,17 +935,6 @@
         "is_playmaker": false,
         "betweenness": 0.0278,
         "eigenvector": 0.3577
-      },
-      {
-        "id": "Bruno Edgar Silva Almeida",
-        "short": "Ramires",
-        "name": "Bruno Ramires",
-        "x": 57.43,
-        "y": 39.05,
-        "size": 77.2,
-        "is_playmaker": false,
-        "betweenness": 0.1056,
-        "eigenvector": 0.5299
       }
     ],
     "edges": [
@@ -952,13 +952,13 @@
       },
       {
         "source": "Jayesh Dilip Rane",
-        "target": "Alan Henrique Costa",
+        "target": "Bruno Edgar Silva Almeida",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Jayesh Dilip Rane",
-        "target": "Bruno Edgar Silva Almeida",
+        "target": "Alan Henrique Costa",
         "weight": 1,
         "direction": "backward"
       },
@@ -1000,15 +1000,15 @@
       },
       {
         "source": "Pratik Prabhakar Chaudhari",
-        "target": "Gurpreet Singh Sandhu",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Pratik Prabhakar Chaudhari",
         "target": "Bruno Edgar Silva Almeida",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Pratik Prabhakar Chaudhari",
+        "target": "Gurpreet Singh Sandhu",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Suresh Singh Wangjam",
@@ -1017,20 +1017,20 @@
         "direction": "forward"
       },
       {
-        "source": "Alan Henrique Costa",
-        "target": "Bruno Edgar Silva Almeida",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alan Henrique Costa",
+        "source": "Bruno Edgar Silva Almeida",
         "target": "Jayesh Dilip Rane",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Alan Henrique Costa",
-        "target": "Gurpreet Singh Sandhu",
+        "source": "Bruno Edgar Silva Almeida",
+        "target": "Pratik Prabhakar Chaudhari",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Bruno Edgar Silva Almeida",
+        "target": "Alan Henrique Costa",
         "weight": 1,
         "direction": "backward"
       },
@@ -1047,34 +1047,34 @@
         "direction": "backward"
       },
       {
-        "source": "Gurpreet Singh Sandhu",
-        "target": "Alan Henrique Costa",
+        "source": "Alan Henrique Costa",
+        "target": "Bruno Edgar Silva Almeida",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Gurpreet Singh Sandhu",
-        "target": "Pratik Prabhakar Chaudhari",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Bruno Edgar Silva Almeida",
-        "target": "Alan Henrique Costa",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Bruno Edgar Silva Almeida",
+        "source": "Alan Henrique Costa",
         "target": "Jayesh Dilip Rane",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Bruno Edgar Silva Almeida",
-        "target": "Pratik Prabhakar Chaudhari",
+        "source": "Alan Henrique Costa",
+        "target": "Gurpreet Singh Sandhu",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gurpreet Singh Sandhu",
+        "target": "Alan Henrique Costa",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gurpreet Singh Sandhu",
+        "target": "Pratik Prabhakar Chaudhari",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

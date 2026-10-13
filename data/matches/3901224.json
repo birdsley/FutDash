@@ -904,17 +904,6 @@
         "eigenvector": 0.126
       },
       {
-        "id": "Valère Germain",
-        "short": "Germain",
-        "name": "Valère Germain",
-        "x": 73.45,
-        "y": 48.1,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0025
-      },
-      {
         "id": "Alassane Pléa",
         "short": "Pléa",
         "name": "Alassane Pléa",
@@ -935,6 +924,17 @@
         "is_playmaker": false,
         "betweenness": 0.2389,
         "eigenvector": 0.0139
+      },
+      {
+        "id": "Valère Germain",
+        "short": "Germain",
+        "name": "Valère Germain",
+        "x": 73.45,
+        "y": 48.1,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0025
       }
     ],
     "edges": [
@@ -1096,30 +1096,12 @@
       },
       {
         "source": "Hatem Ben Arfa",
-        "target": "Valère Germain",
+        "target": "Alassane Pléa",
         "weight": 1,
         "direction": "lateral"
       },
       {
         "source": "Hatem Ben Arfa",
-        "target": "Alassane Pléa",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Valère Germain",
-        "target": "Hatem Ben Arfa",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Valère Germain",
-        "target": "Alassane Pléa",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Alassane Pléa",
         "target": "Valère Germain",
         "weight": 1,
         "direction": "lateral"
@@ -1127,6 +1109,12 @@
       {
         "source": "Alassane Pléa",
         "target": "Hatem Ben Arfa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alassane Pléa",
+        "target": "Valère Germain",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1141,6 +1129,18 @@
         "target": "Maxime Le Marchand",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Alassane Pléa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Hatem Ben Arfa",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

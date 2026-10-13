@@ -1043,28 +1043,6 @@
         "eigenvector": 0.1821
       },
       {
-        "id": "Cheikhou Kouyaté",
-        "short": "Kouyaté",
-        "name": "Cheikhou Kouyaté",
-        "x": 69.88,
-        "y": 24.63,
-        "size": 57.1,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0178
-      },
-      {
-        "id": "Adrián San Miguel del Castillo",
-        "short": "Adrián",
-        "name": "Adrián",
-        "x": 14.26,
-        "y": 36.85,
-        "size": 57.1,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0058
-      },
-      {
         "id": "Enner Remberto Valencia Lastra",
         "short": "Valencia",
         "name": "Enner Valencia",
@@ -1085,6 +1063,28 @@
         "is_playmaker": false,
         "betweenness": 0.0889,
         "eigenvector": 0.0094
+      },
+      {
+        "id": "Cheikhou Kouyaté",
+        "short": "Kouyaté",
+        "name": "Cheikhou Kouyaté",
+        "x": 69.88,
+        "y": 24.63,
+        "size": 57.1,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0178
+      },
+      {
+        "id": "Adrián San Miguel del Castillo",
+        "short": "Adrián",
+        "name": "Adrián",
+        "x": 14.26,
+        "y": 36.85,
+        "size": 57.1,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0058
       }
     ],
     "edges": [
@@ -1162,15 +1162,15 @@
       },
       {
         "source": "Mark Noble",
-        "target": "Cheikhou Kouyaté",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Mark Noble",
         "target": "Michail Antonio",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Mark Noble",
+        "target": "Cheikhou Kouyaté",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Dimitri Payet",
@@ -1192,15 +1192,15 @@
       },
       {
         "source": "Dimitri Payet",
-        "target": "Cheikhou Kouyaté",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Dimitri Payet",
         "target": "Enner Remberto Valencia Lastra",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Dimitri Payet",
+        "target": "Cheikhou Kouyaté",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "James Collins",
@@ -1269,30 +1269,6 @@
         "direction": "backward"
       },
       {
-        "source": "Cheikhou Kouyaté",
-        "target": "Dimitri Payet",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Cheikhou Kouyaté",
-        "target": "Mark Noble",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Adrián San Miguel del Castillo",
-        "target": "Winston Reid",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Adrián San Miguel del Castillo",
-        "target": "James Collins",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Enner Remberto Valencia Lastra",
         "target": "Dimitri Payet",
         "weight": 1,
@@ -1315,6 +1291,30 @@
         "target": "Mark Noble",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Cheikhou Kouyaté",
+        "target": "Dimitri Payet",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Cheikhou Kouyaté",
+        "target": "Mark Noble",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Adrián San Miguel del Castillo",
+        "target": "Winston Reid",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Adrián San Miguel del Castillo",
+        "target": "James Collins",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

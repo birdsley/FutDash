@@ -1544,15 +1544,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Hannah Short",
-        "short": "Short",
-        "name": "Hannah Short",
-        "x": 35.0,
-        "y": 46.1,
-        "size": 71.4,
-        "is_playmaker": true,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0451
+        "id": "Olivia Fergusson",
+        "short": "Fergusson",
+        "name": "Olivia Fergusson",
+        "x": 79.5,
+        "y": 31.0,
+        "size": 66.0,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0799
       },
       {
         "id": "Amy Goddard",
@@ -1566,15 +1566,15 @@
         "eigenvector": 0.0052
       },
       {
-        "id": "Olivia Fergusson",
-        "short": "Fergusson",
-        "name": "Olivia Fergusson",
-        "x": 79.5,
-        "y": 31.0,
-        "size": 66.0,
-        "is_playmaker": false,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0799
+        "id": "Hannah Short",
+        "short": "Short",
+        "name": "Hannah Short",
+        "x": 35.0,
+        "y": 46.1,
+        "size": 71.4,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0451
       }
     ],
     "edges": [
@@ -1586,13 +1586,13 @@
       },
       {
         "source": "Anne-Marie Heatherson",
-        "target": "Hannah Short",
+        "target": "Amy Goddard",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Anne-Marie Heatherson",
-        "target": "Amy Goddard",
+        "target": "Hannah Short",
         "weight": 1,
         "direction": "backward"
       },
@@ -1681,22 +1681,16 @@
         "direction": "forward"
       },
       {
-        "source": "Hannah Short",
-        "target": "Anne-Marie Heatherson",
+        "source": "Olivia Fergusson",
+        "target": "Georgia Evans",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Hannah Short",
-        "target": "Ellie Mason",
+        "source": "Olivia Fergusson",
+        "target": "Amber Gaylor",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Hannah Short",
-        "target": "Amy Goddard",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Amy Goddard",
@@ -1711,16 +1705,22 @@
         "direction": "forward"
       },
       {
-        "source": "Olivia Fergusson",
-        "target": "Georgia Evans",
+        "source": "Hannah Short",
+        "target": "Amy Goddard",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Olivia Fergusson",
-        "target": "Amber Gaylor",
+        "source": "Hannah Short",
+        "target": "Anne-Marie Heatherson",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "Hannah Short",
+        "target": "Ellie Mason",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

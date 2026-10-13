@@ -1246,17 +1246,6 @@
         "eigenvector": 0.1687
       },
       {
-        "id": "Rubén Iván Martínez Andrade",
-        "short": "Martínez",
-        "name": "Rubén Martínez",
-        "x": 9.04,
-        "y": 40.93,
-        "size": 61.2,
-        "is_playmaker": false,
-        "betweenness": 0.15,
-        "eigenvector": 0.0205
-      },
-      {
         "id": "Ángel Trujillo Canorea",
         "short": "Trujillo",
         "name": "Ángel Trujillo",
@@ -1266,6 +1255,17 @@
         "is_playmaker": false,
         "betweenness": 0.2352,
         "eigenvector": 0.0336
+      },
+      {
+        "id": "Rubén Iván Martínez Andrade",
+        "short": "Martínez",
+        "name": "Rubén Martínez",
+        "x": 9.04,
+        "y": 40.93,
+        "size": 61.2,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.0205
       }
     ],
     "edges": [
@@ -1421,13 +1421,25 @@
       },
       {
         "source": "Simão Mate",
+        "target": "Ángel Trujillo Canorea",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Simão Mate",
         "target": "Rubén Iván Martínez Andrade",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Simão Mate",
-        "target": "Ángel Trujillo Canorea",
+        "source": "Ángel Trujillo Canorea",
+        "target": "Simão Mate",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ángel Trujillo Canorea",
+        "target": "Víctor Camarasa Ferrando",
         "weight": 1,
         "direction": "forward"
       },
@@ -1440,18 +1452,6 @@
       {
         "source": "Rubén Iván Martínez Andrade",
         "target": "Simão Mate",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ángel Trujillo Canorea",
-        "target": "Simão Mate",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ángel Trujillo Canorea",
-        "target": "Víctor Camarasa Ferrando",
         "weight": 1,
         "direction": "forward"
       }

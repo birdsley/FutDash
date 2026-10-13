@@ -1075,28 +1075,6 @@
         "eigenvector": 0.0442
       },
       {
-        "id": "Carla Humphrey",
-        "short": "Humphrey",
-        "name": "Carla Humphrey",
-        "x": 56.0,
-        "y": 60.0,
-        "size": 87.4,
-        "is_playmaker": false,
-        "betweenness": 0.0648,
-        "eigenvector": 0.4541
-      },
-      {
-        "id": "Julie Biesmans",
-        "short": "Biesmans",
-        "name": "Julie Biesmans",
-        "x": 63.0,
-        "y": 43.62,
-        "size": 76.6,
-        "is_playmaker": false,
-        "betweenness": 0.1704,
-        "eigenvector": 0.2935
-      },
-      {
         "id": "Lucy Hope",
         "short": "Hope",
         "name": "Lucy Hope",
@@ -1108,15 +1086,15 @@
         "eigenvector": 0.0493
       },
       {
-        "id": "Sophie Baggaley",
-        "short": "Baggaley",
-        "name": "Sophie Baggaley",
-        "x": 14.6,
-        "y": 44.6,
-        "size": 76.6,
-        "is_playmaker": true,
-        "betweenness": 0.4611,
-        "eigenvector": 0.1708
+        "id": "Carla Humphrey",
+        "short": "Humphrey",
+        "name": "Carla Humphrey",
+        "x": 56.0,
+        "y": 60.0,
+        "size": 87.4,
+        "is_playmaker": false,
+        "betweenness": 0.0648,
+        "eigenvector": 0.4541
       },
       {
         "id": "Loren Dykes",
@@ -1130,6 +1108,17 @@
         "eigenvector": 0.3476
       },
       {
+        "id": "Sophie Baggaley",
+        "short": "Baggaley",
+        "name": "Sophie Baggaley",
+        "x": 14.6,
+        "y": 44.6,
+        "size": 76.6,
+        "is_playmaker": true,
+        "betweenness": 0.4611,
+        "eigenvector": 0.1708
+      },
+      {
         "id": "Danique Kerkdijk",
         "short": "Kerkdijk",
         "name": "Danique Kerkdijk",
@@ -1141,15 +1130,15 @@
         "eigenvector": 0.4079
       },
       {
-        "id": "Gemma Evans",
-        "short": "Evans",
-        "name": "Gemma Evans",
-        "x": 27.4,
-        "y": 28.4,
+        "id": "Julie Biesmans",
+        "short": "Biesmans",
+        "name": "Julie Biesmans",
+        "x": 63.0,
+        "y": 43.62,
         "size": 76.6,
         "is_playmaker": false,
-        "betweenness": 0.4,
-        "eigenvector": 0.0759
+        "betweenness": 0.1704,
+        "eigenvector": 0.2935
       },
       {
         "id": "Frankie Brown",
@@ -1161,6 +1150,17 @@
         "is_playmaker": false,
         "betweenness": 0.3611,
         "eigenvector": 0.5306
+      },
+      {
+        "id": "Gemma Evans",
+        "short": "Evans",
+        "name": "Gemma Evans",
+        "x": 27.4,
+        "y": 28.4,
+        "size": 76.6,
+        "is_playmaker": false,
+        "betweenness": 0.4,
+        "eigenvector": 0.0759
       }
     ],
     "edges": [
@@ -1207,6 +1207,18 @@
         "direction": "backward"
       },
       {
+        "source": "Lucy Hope",
+        "target": "Poppy Pattinson",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lucy Hope",
+        "target": "Ella Rutherford",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Carla Humphrey",
         "target": "Loren Dykes",
         "weight": 1,
@@ -1225,28 +1237,16 @@
         "direction": "backward"
       },
       {
-        "source": "Julie Biesmans",
+        "source": "Loren Dykes",
+        "target": "Carla Humphrey",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Loren Dykes",
         "target": "Frankie Brown",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Julie Biesmans",
-        "target": "Rosella Ayane",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lucy Hope",
-        "target": "Poppy Pattinson",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lucy Hope",
-        "target": "Ella Rutherford",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Sophie Baggaley",
@@ -1261,18 +1261,6 @@
         "direction": "forward"
       },
       {
-        "source": "Loren Dykes",
-        "target": "Carla Humphrey",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Loren Dykes",
-        "target": "Frankie Brown",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Danique Kerkdijk",
         "target": "Sophie Baggaley",
         "weight": 1,
@@ -1287,6 +1275,42 @@
       {
         "source": "Danique Kerkdijk",
         "target": "Carla Humphrey",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Julie Biesmans",
+        "target": "Frankie Brown",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Julie Biesmans",
+        "target": "Rosella Ayane",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Carla Humphrey",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Loren Dykes",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Danique Kerkdijk",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Julie Biesmans",
         "weight": 1,
         "direction": "forward"
       },
@@ -1301,30 +1325,6 @@
         "target": "Poppy Pattinson",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Carla Humphrey",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Julie Biesmans",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Loren Dykes",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Danique Kerkdijk",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

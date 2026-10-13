@@ -1285,17 +1285,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Terem Igobor Moffi",
-        "short": "Moffi",
-        "name": "Terem Moffi",
-        "x": 67.22,
-        "y": 38.39,
-        "size": 61.5,
-        "is_playmaker": false,
-        "betweenness": 0.1259,
-        "eigenvector": 0.0287
-      },
-      {
         "id": "Ibrahima Koné",
         "short": "Koné",
         "name": "Ibrahima Koné",
@@ -1305,6 +1294,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0159
+      },
+      {
+        "id": "Terem Igobor Moffi",
+        "short": "Moffi",
+        "name": "Terem Moffi",
+        "x": 67.22,
+        "y": 38.39,
+        "size": 61.5,
+        "is_playmaker": false,
+        "betweenness": 0.1259,
+        "eigenvector": 0.0287
       }
     ],
     "edges": [
@@ -1382,15 +1382,15 @@
       },
       {
         "source": "Enzo Le Fée",
-        "target": "Terem Igobor Moffi",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Enzo Le Fée",
         "target": "Ibrahima Koné",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Enzo Le Fée",
+        "target": "Terem Igobor Moffi",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Houboulang Mendes",
@@ -1471,14 +1471,14 @@
         "direction": "forward"
       },
       {
-        "source": "Terem Igobor Moffi",
+        "source": "Ibrahima Koné",
         "target": "Enzo Le Fée",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Terem Igobor Moffi",
-        "target": "Thomas Monconduit",
+        "source": "Ibrahima Koné",
+        "target": "Terem Igobor Moffi",
         "weight": 1,
         "direction": "backward"
       },
@@ -1489,14 +1489,14 @@
         "direction": "forward"
       },
       {
-        "source": "Ibrahima Koné",
+        "source": "Terem Igobor Moffi",
         "target": "Enzo Le Fée",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
-        "source": "Ibrahima Koné",
-        "target": "Terem Igobor Moffi",
+        "source": "Terem Igobor Moffi",
+        "target": "Thomas Monconduit",
         "weight": 1,
         "direction": "backward"
       }

@@ -1364,15 +1364,15 @@
         "eigenvector": 0.0773
       },
       {
-        "id": "Noko Matlou",
-        "short": "Matlou",
-        "name": "Noko Matlou",
-        "x": 45.38,
-        "y": 32.95,
+        "id": "Janine van Wyk",
+        "short": "van Wyk",
+        "name": "Janine van Wyk",
+        "x": 27.6,
+        "y": 58.9,
         "size": 71.7,
-        "is_playmaker": false,
-        "betweenness": 0.0389,
-        "eigenvector": 0.2065
+        "is_playmaker": true,
+        "betweenness": 0.3463,
+        "eigenvector": 0.1289
       },
       {
         "id": "Linda Maserame Motlhalo",
@@ -1386,15 +1386,15 @@
         "eigenvector": 0.2369
       },
       {
-        "id": "Janine van Wyk",
-        "short": "van Wyk",
-        "name": "Janine van Wyk",
-        "x": 27.6,
-        "y": 58.9,
+        "id": "Noko Matlou",
+        "short": "Matlou",
+        "name": "Noko Matlou",
+        "x": 45.38,
+        "y": 32.95,
         "size": 71.7,
-        "is_playmaker": true,
-        "betweenness": 0.3463,
-        "eigenvector": 0.1289
+        "is_playmaker": false,
+        "betweenness": 0.0389,
+        "eigenvector": 0.2065
       }
     ],
     "edges": [
@@ -1406,15 +1406,15 @@
       },
       {
         "source": "Kholosa Biyana",
-        "target": "Noko Matlou",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Kholosa Biyana",
         "target": "Linda Maserame Motlhalo",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Kholosa Biyana",
+        "target": "Noko Matlou",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Refiloe Jane",
@@ -1436,15 +1436,15 @@
       },
       {
         "source": "Refiloe Jane",
-        "target": "Noko Matlou",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Refiloe Jane",
         "target": "Linda Maserame Motlhalo",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Refiloe Jane",
+        "target": "Noko Matlou",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Nothando Vilakazi",
@@ -1507,36 +1507,6 @@
         "direction": "backward"
       },
       {
-        "source": "Noko Matlou",
-        "target": "Refiloe Jane",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Noko Matlou",
-        "target": "Kholosa Biyana",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Linda Maserame Motlhalo",
-        "target": "Kholosa Biyana",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Linda Maserame Motlhalo",
-        "target": "Refiloe Jane",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Linda Maserame Motlhalo",
-        "target": "Janine van Wyk",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Janine van Wyk",
         "target": "Lebogang Ramalepe",
         "weight": 1,
@@ -1545,6 +1515,36 @@
       {
         "source": "Janine van Wyk",
         "target": "Linda Maserame Motlhalo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Linda Maserame Motlhalo",
+        "target": "Janine van Wyk",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Linda Maserame Motlhalo",
+        "target": "Kholosa Biyana",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Linda Maserame Motlhalo",
+        "target": "Refiloe Jane",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Noko Matlou",
+        "target": "Refiloe Jane",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Noko Matlou",
+        "target": "Kholosa Biyana",
         "weight": 1,
         "direction": "forward"
       }

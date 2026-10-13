@@ -1039,17 +1039,6 @@
         "eigenvector": 0.0029
       },
       {
-        "id": "Camila Alejandra Saez Oyaneder",
-        "short": "Oyaneder",
-        "name": "Camila Alejandra Saez Oyaneder",
-        "x": 29.64,
-        "y": 32.25,
-        "size": 73.2,
-        "is_playmaker": true,
-        "betweenness": 0.5722,
-        "eigenvector": 0.0167
-      },
-      {
         "id": "Rosario Balmaceda",
         "short": "Balmaceda",
         "name": "Rosario Balmaceda",
@@ -1070,6 +1059,17 @@
         "is_playmaker": true,
         "betweenness": 0.4389,
         "eigenvector": 0.0909
+      },
+      {
+        "id": "Camila Alejandra Saez Oyaneder",
+        "short": "Oyaneder",
+        "name": "Camila Alejandra Saez Oyaneder",
+        "x": 29.64,
+        "y": 32.25,
+        "size": 73.2,
+        "is_playmaker": true,
+        "betweenness": 0.5722,
+        "eigenvector": 0.0167
       }
     ],
     "edges": [
@@ -1164,30 +1164,6 @@
         "direction": "forward"
       },
       {
-        "source": "Camila Alejandra Saez Oyaneder",
-        "target": "Rosario Balmaceda",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Camila Alejandra Saez Oyaneder",
-        "target": "Claudia Christiane Endler Mutinelli",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Camila Alejandra Saez Oyaneder",
-        "target": "Carla Valentina Guerrero Puelle",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rosario Balmaceda",
-        "target": "Camila Alejandra Saez Oyaneder",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Rosario Balmaceda",
         "target": "Francisca Alejandra Lara Lara",
         "weight": 1,
@@ -1200,6 +1176,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Rosario Balmaceda",
+        "target": "Camila Alejandra Saez Oyaneder",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Carla Valentina Guerrero Puelle",
         "target": "Karen Araya",
         "weight": 1,
@@ -1208,6 +1190,24 @@
       {
         "source": "Carla Valentina Guerrero Puelle",
         "target": "Camila Alejandra Saez Oyaneder",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Camila Alejandra Saez Oyaneder",
+        "target": "Carla Valentina Guerrero Puelle",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Camila Alejandra Saez Oyaneder",
+        "target": "Rosario Balmaceda",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Camila Alejandra Saez Oyaneder",
+        "target": "Claudia Christiane Endler Mutinelli",
         "weight": 1,
         "direction": "backward"
       }

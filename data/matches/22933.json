@@ -1203,15 +1203,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Sara Gama",
-        "short": "Gama",
-        "name": "Sara Gama",
-        "x": 36.43,
-        "y": 57.47,
+        "id": "Aurora Galli",
+        "short": "Galli",
+        "name": "Aurora Galli",
+        "x": 31.62,
+        "y": 25.18,
         "size": 66.6,
         "is_playmaker": false,
-        "betweenness": 0.1944,
-        "eigenvector": 0.1413
+        "betweenness": 0.1611,
+        "eigenvector": 0.0831
       },
       {
         "id": "Valentina Bergamaschi",
@@ -1225,17 +1225,6 @@
         "eigenvector": 0.0781
       },
       {
-        "id": "Aurora Galli",
-        "short": "Galli",
-        "name": "Aurora Galli",
-        "x": 31.62,
-        "y": 25.18,
-        "size": 66.6,
-        "is_playmaker": false,
-        "betweenness": 0.1611,
-        "eigenvector": 0.0831
-      },
-      {
         "id": "Ilaria Mauro",
         "short": "Mauro",
         "name": "Ilaria Mauro",
@@ -1245,6 +1234,17 @@
         "is_playmaker": false,
         "betweenness": 0.0778,
         "eigenvector": 0.0781
+      },
+      {
+        "id": "Sara Gama",
+        "short": "Gama",
+        "name": "Sara Gama",
+        "x": 36.43,
+        "y": 57.47,
+        "size": 66.6,
+        "is_playmaker": false,
+        "betweenness": 0.1944,
+        "eigenvector": 0.1413
       }
     ],
     "edges": [
@@ -1322,13 +1322,13 @@
       },
       {
         "source": "Alia Guagni",
-        "target": "Sara Gama",
+        "target": "Aurora Galli",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Alia Guagni",
-        "target": "Aurora Galli",
+        "target": "Sara Gama",
         "weight": 1,
         "direction": "backward"
       },
@@ -1357,30 +1357,6 @@
         "direction": "forward"
       },
       {
-        "source": "Sara Gama",
-        "target": "Manuela Giugliano",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sara Gama",
-        "target": "Alia Guagni",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Valentina Bergamaschi",
-        "target": "Cristiana Girelli",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Valentina Bergamaschi",
-        "target": "Valentina Cernoia",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Aurora Galli",
         "target": "Elena Linari",
         "weight": 1,
@@ -1393,6 +1369,18 @@
         "direction": "forward"
       },
       {
+        "source": "Valentina Bergamaschi",
+        "target": "Cristiana Girelli",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Valentina Bergamaschi",
+        "target": "Valentina Cernoia",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ilaria Mauro",
         "target": "Valentina Cernoia",
         "weight": 1,
@@ -1403,6 +1391,18 @@
         "target": "Cristiana Girelli",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Sara Gama",
+        "target": "Manuela Giugliano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sara Gama",
+        "target": "Alia Guagni",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

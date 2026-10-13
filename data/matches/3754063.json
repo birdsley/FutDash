@@ -979,17 +979,6 @@
         "eigenvector": 0.0001
       },
       {
-        "id": "Troy Deeney",
-        "short": "Deeney",
-        "name": "Troy Deeney",
-        "x": 76.08,
-        "y": 40.14,
-        "size": 58.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0098
-      },
-      {
         "id": "Odion Jude Ighalo",
         "short": "Ighalo",
         "name": "Odion Ighalo",
@@ -1010,6 +999,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0037
+      },
+      {
+        "id": "Troy Deeney",
+        "short": "Deeney",
+        "name": "Troy Deeney",
+        "x": 76.08,
+        "y": 40.14,
+        "size": 58.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0098
       }
     ],
     "edges": [
@@ -1129,13 +1129,13 @@
       },
       {
         "source": "Mario Suárez Mata",
-        "target": "Troy Deeney",
+        "target": "Odion Jude Ighalo",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Mario Suárez Mata",
-        "target": "Odion Jude Ighalo",
+        "target": "Troy Deeney",
         "weight": 1,
         "direction": "forward"
       },
@@ -1182,18 +1182,6 @@
         "direction": "backward"
       },
       {
-        "source": "Troy Deeney",
-        "target": "Mario Suárez Mata",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Troy Deeney",
-        "target": "Odion Jude Ighalo",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Odion Jude Ighalo",
         "target": "Troy Deeney",
         "weight": 1,
@@ -1216,6 +1204,18 @@
         "target": "Craig Cathcart",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Troy Deeney",
+        "target": "Odion Jude Ighalo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Troy Deeney",
+        "target": "Mario Suárez Mata",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1321,17 +1321,6 @@
         "eigenvector": 0.1907
       },
       {
-        "id": "Joleon Lescott",
-        "short": "Lescott",
-        "name": "Joleon Lescott",
-        "x": 29.26,
-        "y": 53.39,
-        "size": 59.8,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0016
-      },
-      {
         "id": "Ciaran Clark",
         "short": "Clark",
         "name": "Ciaran Clark",
@@ -1341,6 +1330,17 @@
         "is_playmaker": true,
         "betweenness": 0.5889,
         "eigenvector": 0.0315
+      },
+      {
+        "id": "Joleon Lescott",
+        "short": "Lescott",
+        "name": "Joleon Lescott",
+        "x": 29.26,
+        "y": 53.39,
+        "size": 59.8,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0016
       }
     ],
     "edges": [
@@ -1507,24 +1507,6 @@
         "direction": "backward"
       },
       {
-        "source": "Joleon Lescott",
-        "target": "Ciaran Clark",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Joleon Lescott",
-        "target": "Mark Bunn",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ciaran Clark",
-        "target": "Joleon Lescott",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Ciaran Clark",
         "target": "Ashley Westwood",
         "weight": 1,
@@ -1535,6 +1517,24 @@
         "target": "Leandro Bacuna",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Ciaran Clark",
+        "target": "Joleon Lescott",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Joleon Lescott",
+        "target": "Ciaran Clark",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joleon Lescott",
+        "target": "Mark Bunn",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

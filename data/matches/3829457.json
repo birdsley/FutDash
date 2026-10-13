@@ -1024,6 +1024,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Kévin Bérigaud",
+        "short": "Bérigaud",
+        "name": "Kévin Bérigaud",
+        "x": 72.14,
+        "y": 24.18,
+        "size": 62.1,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.0052
+      },
+      {
         "id": "Jonathan Ligali",
         "short": "Ligali",
         "name": "Jonathan Ligali",
@@ -1044,17 +1055,6 @@
         "is_playmaker": true,
         "betweenness": 0.2056,
         "eigenvector": 0.0343
-      },
-      {
-        "id": "Kévin Bérigaud",
-        "short": "Bérigaud",
-        "name": "Kévin Bérigaud",
-        "x": 72.14,
-        "y": 24.18,
-        "size": 62.1,
-        "is_playmaker": false,
-        "betweenness": 0.15,
-        "eigenvector": 0.0052
       }
     ],
     "edges": [
@@ -1173,6 +1173,18 @@
         "direction": "backward"
       },
       {
+        "source": "Kévin Bérigaud",
+        "target": "Quentin Cornette",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kévin Bérigaud",
+        "target": "Djamel Bakar",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Jonathan Ligali",
         "target": "Vitorino Hilton da Silva",
         "weight": 1,
@@ -1186,27 +1198,15 @@
       },
       {
         "source": "Quentin Cornette",
-        "target": "Ryad Boudebouz",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Quentin Cornette",
         "target": "Kévin Bérigaud",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Kévin Bérigaud",
-        "target": "Quentin Cornette",
+        "source": "Quentin Cornette",
+        "target": "Ryad Boudebouz",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kévin Bérigaud",
-        "target": "Djamel Bakar",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       }
     ]
   },

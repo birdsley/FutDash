@@ -1218,17 +1218,6 @@
         "eigenvector": 0.3646
       },
       {
-        "id": "Julie Biesmans",
-        "short": "Biesmans",
-        "name": "Julie Biesmans",
-        "x": 58.04,
-        "y": 46.17,
-        "size": 70.1,
-        "is_playmaker": true,
-        "betweenness": 0.4444,
-        "eigenvector": 0.0442
-      },
-      {
         "id": "Sophie Baggaley",
         "short": "Baggaley",
         "name": "Sophie Baggaley",
@@ -1251,15 +1240,15 @@
         "eigenvector": 0.0012
       },
       {
-        "id": "Gemma Evans",
-        "short": "Evans",
-        "name": "Gemma Evans",
-        "x": 39.62,
-        "y": 23.62,
+        "id": "Julie Biesmans",
+        "short": "Biesmans",
+        "name": "Julie Biesmans",
+        "x": 58.04,
+        "y": 46.17,
         "size": 70.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0011
+        "is_playmaker": true,
+        "betweenness": 0.4444,
+        "eigenvector": 0.0442
       },
       {
         "id": "Frankie Brown",
@@ -1271,6 +1260,17 @@
         "is_playmaker": false,
         "betweenness": 0.4111,
         "eigenvector": 0.0066
+      },
+      {
+        "id": "Gemma Evans",
+        "short": "Evans",
+        "name": "Gemma Evans",
+        "x": 39.62,
+        "y": 23.62,
+        "size": 70.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0011
       }
     ],
     "edges": [
@@ -1323,6 +1323,36 @@
         "direction": "forward"
       },
       {
+        "source": "Sophie Baggaley",
+        "target": "Danique Kerkdijk",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sophie Baggaley",
+        "target": "Frankie Brown",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Danique Kerkdijk",
+        "target": "Sophie Baggaley",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Danique Kerkdijk",
+        "target": "Frankie Brown",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Danique Kerkdijk",
+        "target": "Gemma Evans",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Julie Biesmans",
         "target": "Carla Humphrey",
         "weight": 1,
@@ -1335,46 +1365,16 @@
         "direction": "backward"
       },
       {
-        "source": "Sophie Baggaley",
-        "target": "Danique Kerkdijk",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sophie Baggaley",
-        "target": "Frankie Brown",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Danique Kerkdijk",
+        "source": "Frankie Brown",
         "target": "Sophie Baggaley",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Danique Kerkdijk",
-        "target": "Frankie Brown",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Danique Kerkdijk",
-        "target": "Gemma Evans",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gemma Evans",
+        "source": "Frankie Brown",
         "target": "Danique Kerkdijk",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gemma Evans",
-        "target": "Frankie Brown",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Frankie Brown",
@@ -1384,21 +1384,21 @@
       },
       {
         "source": "Frankie Brown",
-        "target": "Sophie Baggaley",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Danique Kerkdijk",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Frankie Brown",
         "target": "Gemma Evans",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gemma Evans",
+        "target": "Danique Kerkdijk",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gemma Evans",
+        "target": "Frankie Brown",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

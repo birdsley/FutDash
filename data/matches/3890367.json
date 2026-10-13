@@ -1311,17 +1311,6 @@
         "eigenvector": 0.1651
       },
       {
-        "id": "Pierre-Emerick Aubameyang",
-        "short": "Aubameyang",
-        "name": "Pierre-Emerick Aubameyang",
-        "x": 79.6,
-        "y": 41.29,
-        "size": 57.6,
-        "is_playmaker": false,
-        "betweenness": 0.2889,
-        "eigenvector": 0.0046
-      },
-      {
         "id": "Shinji Kagawa",
         "short": "Kagawa",
         "name": "Shinji Kagawa",
@@ -1331,6 +1320,17 @@
         "is_playmaker": true,
         "betweenness": 0.3111,
         "eigenvector": 0.0075
+      },
+      {
+        "id": "Pierre-Emerick Aubameyang",
+        "short": "Aubameyang",
+        "name": "Pierre-Emerick Aubameyang",
+        "x": 79.6,
+        "y": 41.29,
+        "size": 57.6,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.0046
       }
     ],
     "edges": [
@@ -1486,33 +1486,21 @@
       },
       {
         "source": "Marco Reus",
-        "target": "Pierre-Emerick Aubameyang",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Marco Reus",
         "target": "Shinji Kagawa",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Marco Reus",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Matthias Ginter",
         "target": "İlkay Gündoğan",
         "weight": 7,
         "direction": "backward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Henrikh Mkhitaryan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Marco Reus",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Shinji Kagawa",
@@ -1525,6 +1513,18 @@
         "target": "Marco Reus",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Henrikh Mkhitaryan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Marco Reus",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

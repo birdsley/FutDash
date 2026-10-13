@@ -1118,6 +1118,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Stefan Savić",
+        "short": "Savić",
+        "name": "Stefan Savić",
+        "x": 39.79,
+        "y": 57.79,
+        "size": 59.2,
+        "is_playmaker": true,
+        "betweenness": 0.5111,
+        "eigenvector": 0.0133
+      },
+      {
         "id": "Jan Oblak",
         "short": "Oblak",
         "name": "Jan Oblak",
@@ -1138,17 +1149,6 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0264
-      },
-      {
-        "id": "Stefan Savić",
-        "short": "Savić",
-        "name": "Stefan Savić",
-        "x": 39.79,
-        "y": 57.79,
-        "size": 59.2,
-        "is_playmaker": true,
-        "betweenness": 0.5111,
-        "eigenvector": 0.0133
       }
     ],
     "edges": [
@@ -1327,6 +1327,24 @@
         "direction": "backward"
       },
       {
+        "source": "Stefan Savić",
+        "target": "Tiago Cardoso Mendes",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Stefan Savić",
+        "target": "Gabriel Fernández Arenas",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Stefan Savić",
+        "target": "Jan Oblak",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Jan Oblak",
         "target": "Stefan Savić",
         "weight": 1,
@@ -1349,24 +1367,6 @@
         "target": "Yannick Ferreira Carrasco",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Stefan Savić",
-        "target": "Jan Oblak",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Stefan Savić",
-        "target": "Tiago Cardoso Mendes",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Stefan Savić",
-        "target": "Gabriel Fernández Arenas",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

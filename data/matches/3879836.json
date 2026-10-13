@@ -975,17 +975,6 @@
         "eigenvector": 0.229
       },
       {
-        "id": "Carlos Arturo Bacca Ahumada",
-        "short": "Bacca",
-        "name": "Carlos Bacca",
-        "x": 85.58,
-        "y": 39.74,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0106
-      },
-      {
         "id": "Gianluigi Donnarumma",
         "short": "Donnarumma",
         "name": "Gianluigi Donnarumma",
@@ -995,6 +984,17 @@
         "is_playmaker": false,
         "betweenness": 0.3444,
         "eigenvector": 0.0131
+      },
+      {
+        "id": "Carlos Arturo Bacca Ahumada",
+        "short": "Bacca",
+        "name": "Carlos Bacca",
+        "x": 85.58,
+        "y": 39.74,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0106
       }
     ],
     "edges": [
@@ -1167,18 +1167,6 @@
         "direction": "forward"
       },
       {
-        "source": "Carlos Arturo Bacca Ahumada",
-        "target": "Mario Barwuah Balotelli",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Carlos Arturo Bacca Ahumada",
-        "target": "Kevin-Prince Boateng",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Gianluigi Donnarumma",
         "target": "Alex Rodrigo Dias da Costa",
         "weight": 1,
@@ -1189,6 +1177,18 @@
         "target": "Alessio Romagnoli",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Carlos Arturo Bacca Ahumada",
+        "target": "Mario Barwuah Balotelli",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Carlos Arturo Bacca Ahumada",
+        "target": "Kevin-Prince Boateng",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1294,17 +1294,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Simone Romagnoli",
-        "short": "Romagnoli",
-        "name": "Simone Romagnoli",
-        "x": 36.89,
-        "y": 40.42,
-        "size": 74.7,
-        "is_playmaker": false,
-        "betweenness": 0.0444,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Vid Belec",
         "short": "Belec",
         "name": "Vid Belec",
@@ -1313,6 +1302,17 @@
         "size": 68.1,
         "is_playmaker": false,
         "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Simone Romagnoli",
+        "short": "Romagnoli",
+        "name": "Simone Romagnoli",
+        "x": 36.89,
+        "y": 40.42,
+        "size": 74.7,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
         "eigenvector": 0.0
       }
     ],
@@ -1414,14 +1414,20 @@
         "direction": "backward"
       },
       {
-        "source": "Simone Romagnoli",
+        "source": "Vid Belec",
+        "target": "Simone Romagnoli",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vid Belec",
         "target": "Cristian Zaccardo",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Simone Romagnoli",
-        "target": "Isaac Cofie",
+        "target": "Cristian Zaccardo",
         "weight": 1,
         "direction": "forward"
       },
@@ -1432,14 +1438,8 @@
         "direction": "backward"
       },
       {
-        "source": "Vid Belec",
-        "target": "Simone Romagnoli",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Vid Belec",
-        "target": "Cristian Zaccardo",
+        "source": "Simone Romagnoli",
+        "target": "Isaac Cofie",
         "weight": 1,
         "direction": "forward"
       }

@@ -964,6 +964,17 @@
         "eigenvector": 0.4484
       },
       {
+        "id": "Eric Bertrand Bailly",
+        "short": "Bailly",
+        "name": "Eric Bailly",
+        "x": 38.17,
+        "y": 51.31,
+        "size": 66.7,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.024
+      },
+      {
         "id": "Alphonse Areola",
         "short": "Areola",
         "name": "Alphonse Areola",
@@ -984,17 +995,6 @@
         "is_playmaker": false,
         "betweenness": 0.2111,
         "eigenvector": 0.0333
-      },
-      {
-        "id": "Eric Bertrand Bailly",
-        "short": "Bailly",
-        "name": "Eric Bailly",
-        "x": 38.17,
-        "y": 51.31,
-        "size": 66.7,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.024
       }
     ],
     "edges": [
@@ -1024,13 +1024,13 @@
       },
       {
         "source": "Víctor Ruíz Torre",
-        "target": "Alphonse Areola",
+        "target": "Eric Bertrand Bailly",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Víctor Ruíz Torre",
-        "target": "Eric Bertrand Bailly",
+        "target": "Alphonse Areola",
         "weight": 1,
         "direction": "backward"
       },
@@ -1060,15 +1060,15 @@
       },
       {
         "source": "Tomás Pina Isla",
-        "target": "Matías Nahuel Leiva Esquivel",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Tomás Pina Isla",
         "target": "Eric Bertrand Bailly",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Tomás Pina Isla",
+        "target": "Matías Nahuel Leiva Esquivel",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Manuel Trigueros Muñoz",
@@ -1143,6 +1143,24 @@
         "direction": "forward"
       },
       {
+        "source": "Eric Bertrand Bailly",
+        "target": "Víctor Ruíz Torre",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Eric Bertrand Bailly",
+        "target": "Tomás Pina Isla",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Eric Bertrand Bailly",
+        "target": "Alphonse Areola",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Alphonse Areola",
         "target": "Eric Bertrand Bailly",
         "weight": 1,
@@ -1165,24 +1183,6 @@
         "target": "Tomás Pina Isla",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Eric Bertrand Bailly",
-        "target": "Alphonse Areola",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Eric Bertrand Bailly",
-        "target": "Víctor Ruíz Torre",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Eric Bertrand Bailly",
-        "target": "Tomás Pina Isla",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

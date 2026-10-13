@@ -983,28 +983,6 @@
         "eigenvector": 0.1926
       },
       {
-        "id": "Matthieu Dreyer",
-        "short": "Dreyer",
-        "name": "Matthieu Dreyer",
-        "x": 11.04,
-        "y": 40.18,
-        "size": 58.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Johan Martial",
-        "short": "Martial",
-        "name": "Johan Martial",
-        "x": 33.22,
-        "y": 48.56,
-        "size": 60.8,
-        "is_playmaker": true,
-        "betweenness": 0.3556,
-        "eigenvector": 0.0007
-      },
-      {
         "id": "Thiago Xavier Rodrigues Corrêa",
         "short": "Xavier",
         "name": "Thiago Xavier",
@@ -1025,6 +1003,28 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
+      },
+      {
+        "id": "Matthieu Dreyer",
+        "short": "Dreyer",
+        "name": "Matthieu Dreyer",
+        "x": 11.04,
+        "y": 40.18,
+        "size": 58.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Johan Martial",
+        "short": "Martial",
+        "name": "Johan Martial",
+        "x": 33.22,
+        "y": 48.56,
+        "size": 60.8,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0007
       }
     ],
     "edges": [
@@ -1185,42 +1185,6 @@
         "direction": "forward"
       },
       {
-        "source": "Matthieu Dreyer",
-        "target": "Matthieu Saunier",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Matthieu Dreyer",
-        "target": "Johan Martial",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Johan Martial",
-        "target": "Matthieu Dreyer",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Johan Martial",
-        "target": "Matthieu Saunier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Johan Martial",
-        "target": "Thiago Xavier Rodrigues Corrêa",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Thiago Xavier Rodrigues Corrêa",
-        "target": "Johan Martial",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Thiago Xavier Rodrigues Corrêa",
         "target": "Jessy Pi",
         "weight": 1,
@@ -1233,14 +1197,50 @@
         "direction": "forward"
       },
       {
-        "source": "Matthieu Saunier",
-        "target": "Matthieu Dreyer",
+        "source": "Thiago Xavier Rodrigues Corrêa",
+        "target": "Johan Martial",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Matthieu Saunier",
         "target": "Johan Martial",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Matthieu Saunier",
+        "target": "Matthieu Dreyer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Matthieu Dreyer",
+        "target": "Matthieu Saunier",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Matthieu Dreyer",
+        "target": "Johan Martial",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Johan Martial",
+        "target": "Matthieu Saunier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Johan Martial",
+        "target": "Matthieu Dreyer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Johan Martial",
+        "target": "Thiago Xavier Rodrigues Corrêa",
         "weight": 1,
         "direction": "forward"
       }

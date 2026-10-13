@@ -1020,17 +1020,6 @@
         "eigenvector": 0.2164
       },
       {
-        "id": "Víctor Guillermo Álvarez Delgado",
-        "short": "Álvarez",
-        "name": "Víctor Álvarez",
-        "x": 58.57,
-        "y": 6.59,
-        "size": 62.9,
-        "is_playmaker": false,
-        "betweenness": 0.2778,
-        "eigenvector": 0.0377
-      },
-      {
         "id": "Pau López Sabata",
         "short": "López",
         "name": "Pau López",
@@ -1040,6 +1029,17 @@
         "is_playmaker": true,
         "betweenness": 0.3222,
         "eigenvector": 0.07
+      },
+      {
+        "id": "Víctor Guillermo Álvarez Delgado",
+        "short": "Álvarez",
+        "name": "Víctor Álvarez",
+        "x": 58.57,
+        "y": 6.59,
+        "size": 62.9,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.0377
       }
     ],
     "edges": [
@@ -1111,15 +1111,15 @@
       },
       {
         "source": "Óscar Esau Duarte Gaitán",
-        "target": "Víctor Guillermo Álvarez Delgado",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Óscar Esau Duarte Gaitán",
         "target": "Pau López Sabata",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Óscar Esau Duarte Gaitán",
+        "target": "Víctor Guillermo Álvarez Delgado",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Álvaro González Soberón",
@@ -1152,18 +1152,6 @@
         "direction": "backward"
       },
       {
-        "source": "Víctor Guillermo Álvarez Delgado",
-        "target": "Gerard Moreno Balaguero",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Víctor Guillermo Álvarez Delgado",
-        "target": "Óscar Esau Duarte Gaitán",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Pau López Sabata",
         "target": "Óscar Esau Duarte Gaitán",
         "weight": 1,
@@ -1174,6 +1162,18 @@
         "target": "Álvaro González Soberón",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Víctor Guillermo Álvarez Delgado",
+        "target": "Gerard Moreno Balaguero",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Guillermo Álvarez Delgado",
+        "target": "Óscar Esau Duarte Gaitán",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

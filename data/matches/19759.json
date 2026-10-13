@@ -1006,17 +1006,6 @@
         "eigenvector": 0.3543
       },
       {
-        "id": "Georgia Brougham",
-        "short": "Brougham",
-        "name": "Georgia Brougham",
-        "x": 32.2,
-        "y": 48.9,
-        "size": 70.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0625
-      },
-      {
         "id": "Chantelle Boye-Hlorkah",
         "short": "Boye-Hlorka",
         "name": "Chantelle Boye-Hlorkah",
@@ -1026,28 +1015,6 @@
         "is_playmaker": true,
         "betweenness": 0.5444,
         "eigenvector": 0.099
-      },
-      {
-        "id": "Inessa Kaagman",
-        "short": "Kaagman",
-        "name": "Inessa Kaagman",
-        "x": 62.86,
-        "y": 18.0,
-        "size": 78.1,
-        "is_playmaker": false,
-        "betweenness": 0.5,
-        "eigenvector": 0.0757
-      },
-      {
-        "id": "Simone Magill",
-        "short": "Magill",
-        "name": "Simone Magill",
-        "x": 75.75,
-        "y": 42.0,
-        "size": 70.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0614
       },
       {
         "id": "Faye Bryson",
@@ -1061,6 +1028,17 @@
         "eigenvector": 0.0625
       },
       {
+        "id": "Simone Magill",
+        "short": "Magill",
+        "name": "Simone Magill",
+        "x": 75.75,
+        "y": 42.0,
+        "size": 70.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0614
+      },
+      {
         "id": "Hannah Cain",
         "short": "Cain",
         "name": "Hannah Cain",
@@ -1070,6 +1048,28 @@
         "is_playmaker": false,
         "betweenness": 0.0833,
         "eigenvector": 0.071
+      },
+      {
+        "id": "Inessa Kaagman",
+        "short": "Kaagman",
+        "name": "Inessa Kaagman",
+        "x": 62.86,
+        "y": 18.0,
+        "size": 78.1,
+        "is_playmaker": false,
+        "betweenness": 0.5,
+        "eigenvector": 0.0757
+      },
+      {
+        "id": "Georgia Brougham",
+        "short": "Brougham",
+        "name": "Georgia Brougham",
+        "x": 32.2,
+        "y": 48.9,
+        "size": 70.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0625
       }
     ],
     "edges": [
@@ -1087,13 +1087,13 @@
       },
       {
         "source": "Angharad James",
-        "target": "Georgia Brougham",
+        "target": "Faye Bryson",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Angharad James",
-        "target": "Faye Bryson",
+        "target": "Georgia Brougham",
         "weight": 1,
         "direction": "backward"
       },
@@ -1129,12 +1129,6 @@
       },
       {
         "source": "Chloe Kelly",
-        "target": "Inessa Kaagman",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Chloe Kelly",
         "target": "Simone Magill",
         "weight": 1,
         "direction": "forward"
@@ -1146,16 +1140,10 @@
         "direction": "forward"
       },
       {
-        "source": "Georgia Brougham",
-        "target": "Faye Bryson",
+        "source": "Chloe Kelly",
+        "target": "Inessa Kaagman",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Georgia Brougham",
-        "target": "Angharad James",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Chantelle Boye-Hlorkah",
@@ -1168,6 +1156,48 @@
         "target": "Gabrielle George",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Faye Bryson",
+        "target": "Georgia Brougham",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Faye Bryson",
+        "target": "Angharad James",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Simone Magill",
+        "target": "Hannah Cain",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Simone Magill",
+        "target": "Chloe Kelly",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hannah Cain",
+        "target": "Simone Magill",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hannah Cain",
+        "target": "Chloe Kelly",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hannah Cain",
+        "target": "Inessa Kaagman",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Inessa Kaagman",
@@ -1188,46 +1218,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Simone Magill",
-        "target": "Hannah Cain",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Simone Magill",
-        "target": "Chloe Kelly",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Faye Bryson",
-        "target": "Georgia Brougham",
+        "source": "Georgia Brougham",
+        "target": "Faye Bryson",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Faye Bryson",
+        "source": "Georgia Brougham",
         "target": "Angharad James",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Hannah Cain",
-        "target": "Inessa Kaagman",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Hannah Cain",
-        "target": "Simone Magill",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Hannah Cain",
-        "target": "Chloe Kelly",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

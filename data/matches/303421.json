@@ -945,17 +945,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Lucas Pérez Martínez",
-        "short": "Pérez",
-        "name": "Lucas Pérez",
-        "x": 73.22,
-        "y": 47.64,
-        "size": 68.0,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.1089
-      },
-      {
         "id": "Oliver Burke",
         "short": "Burke",
         "name": "Oliver Burke",
@@ -965,6 +954,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0604
+      },
+      {
+        "id": "Lucas Pérez Martínez",
+        "short": "Pérez",
+        "name": "Lucas Pérez",
+        "x": 73.22,
+        "y": 47.64,
+        "size": 68.0,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.1089
       }
     ],
     "edges": [
@@ -982,13 +982,13 @@
       },
       {
         "source": "José Luis Sanmartín Mato",
-        "target": "Lucas Pérez Martínez",
+        "target": "Oliver Burke",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "José Luis Sanmartín Mato",
-        "target": "Oliver Burke",
+        "target": "Lucas Pérez Martínez",
         "weight": 1,
         "direction": "forward"
       },
@@ -1077,24 +1077,6 @@
         "direction": "forward"
       },
       {
-        "source": "Lucas Pérez Martínez",
-        "target": "Edgar Antonio Méndez Ortega",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Lucas Pérez Martínez",
-        "target": "José Luis Sanmartín Mato",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lucas Pérez Martínez",
-        "target": "Oliver Burke",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Oliver Burke",
         "target": "José Luis Sanmartín Mato",
         "weight": 1,
@@ -1105,6 +1087,24 @@
         "target": "Lucas Pérez Martínez",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Lucas Pérez Martínez",
+        "target": "Oliver Burke",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lucas Pérez Martínez",
+        "target": "Edgar Antonio Méndez Ortega",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lucas Pérez Martínez",
+        "target": "José Luis Sanmartín Mato",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1210,17 +1210,6 @@
         "eigenvector": 0.0698
       },
       {
-        "id": "Norberto Murara Neto",
-        "short": "Neto",
-        "name": "Neto",
-        "x": 11.9,
-        "y": 38.45,
-        "size": 57.4,
-        "is_playmaker": false,
-        "betweenness": 0.2778,
-        "eigenvector": 0.0144
-      },
-      {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Suárez",
         "name": "Luis Suárez",
@@ -1230,6 +1219,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0215
+      },
+      {
+        "id": "Norberto Murara Neto",
+        "short": "Neto",
+        "name": "Neto",
+        "x": 11.9,
+        "y": 38.45,
+        "size": 57.4,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.0144
       }
     ],
     "edges": [
@@ -1402,18 +1402,6 @@
         "direction": "forward"
       },
       {
-        "source": "Norberto Murara Neto",
-        "target": "Arturo Erasmo Vidal Pardo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Norberto Murara Neto",
-        "target": "Ronald Federico Araújo da Silva",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Luis Alberto Suárez Díaz",
         "target": "Ricard Puig Martí",
         "weight": 1,
@@ -1424,6 +1412,18 @@
         "target": "Anssumane Fati",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Norberto Murara Neto",
+        "target": "Arturo Erasmo Vidal Pardo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Norberto Murara Neto",
+        "target": "Ronald Federico Araújo da Silva",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

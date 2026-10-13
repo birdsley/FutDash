@@ -1039,15 +1039,15 @@
         "eigenvector": 0.3746
       },
       {
-        "id": "Steve Cook",
-        "short": "Cook",
-        "name": "Steve Cook",
-        "x": 37.84,
-        "y": 59.74,
-        "size": 59.8,
-        "is_playmaker": true,
-        "betweenness": 0.3778,
-        "eigenvector": 0.0279
+        "id": "Joshua King",
+        "short": "King",
+        "name": "Joshua King",
+        "x": 75.61,
+        "y": 42.27,
+        "size": 58.2,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.017
       },
       {
         "id": "Adam Federici",
@@ -1061,15 +1061,15 @@
         "eigenvector": 0.0052
       },
       {
-        "id": "Joshua King",
-        "short": "King",
-        "name": "Joshua King",
-        "x": 75.61,
-        "y": 42.27,
-        "size": 58.2,
-        "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.017
+        "id": "Steve Cook",
+        "short": "Cook",
+        "name": "Steve Cook",
+        "x": 37.84,
+        "y": 59.74,
+        "size": 59.8,
+        "is_playmaker": true,
+        "betweenness": 0.3778,
+        "eigenvector": 0.0279
       }
     ],
     "edges": [
@@ -1248,20 +1248,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Steve Cook",
-        "target": "Simon Francis",
+        "source": "Joshua King",
+        "target": "Dan Gosling",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Steve Cook",
-        "target": "Andrew Surman",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Steve Cook",
-        "target": "Adam Federici",
+        "source": "Joshua King",
+        "target": "Matt Ritchie",
         "weight": 1,
         "direction": "backward"
       },
@@ -1278,16 +1272,22 @@
         "direction": "forward"
       },
       {
-        "source": "Joshua King",
-        "target": "Dan Gosling",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Joshua King",
-        "target": "Matt Ritchie",
+        "source": "Steve Cook",
+        "target": "Adam Federici",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Steve Cook",
+        "target": "Simon Francis",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Steve Cook",
+        "target": "Andrew Surman",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

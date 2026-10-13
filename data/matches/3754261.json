@@ -1375,17 +1375,6 @@
         "eigenvector": 0.2555
       },
       {
-        "id": "Wes Morgan",
-        "short": "Morgan",
-        "name": "Wes Morgan",
-        "x": 48.0,
-        "y": 56.7,
-        "size": 65.5,
-        "is_playmaker": true,
-        "betweenness": 0.2444,
-        "eigenvector": 0.0611
-      },
-      {
         "id": "Robert Huth",
         "short": "Huth",
         "name": "Robert Huth",
@@ -1395,6 +1384,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0358
+      },
+      {
+        "id": "Wes Morgan",
+        "short": "Morgan",
+        "name": "Wes Morgan",
+        "x": 48.0,
+        "y": 56.7,
+        "size": 65.5,
+        "is_playmaker": true,
+        "betweenness": 0.2444,
+        "eigenvector": 0.0611
       }
     ],
     "edges": [
@@ -1430,13 +1430,13 @@
       },
       {
         "source": "N''Golo Kanté",
-        "target": "Wes Morgan",
+        "target": "Robert Huth",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "N''Golo Kanté",
-        "target": "Robert Huth",
+        "target": "Wes Morgan",
         "weight": 1,
         "direction": "backward"
       },
@@ -1549,14 +1549,14 @@
         "direction": "backward"
       },
       {
-        "source": "Wes Morgan",
-        "target": "Danny Drinkwater",
+        "source": "Robert Huth",
+        "target": "N''Golo Kanté",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Wes Morgan",
-        "target": "N''Golo Kanté",
+        "source": "Robert Huth",
+        "target": "Wes Morgan",
         "weight": 1,
         "direction": "forward"
       },
@@ -1567,14 +1567,14 @@
         "direction": "backward"
       },
       {
-        "source": "Robert Huth",
-        "target": "N''Golo Kanté",
+        "source": "Wes Morgan",
+        "target": "Danny Drinkwater",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Robert Huth",
-        "target": "Wes Morgan",
+        "source": "Wes Morgan",
+        "target": "N''Golo Kanté",
         "weight": 1,
         "direction": "forward"
       }

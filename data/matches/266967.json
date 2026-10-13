@@ -945,17 +945,6 @@
         "eigenvector": 0.0004
       },
       {
-        "id": "Jon Errasti Zabalete",
-        "short": "Errasti",
-        "name": "Jon Errasti",
-        "x": 65.95,
-        "y": 45.27,
-        "size": 64.6,
-        "is_playmaker": false,
-        "betweenness": 0.1722,
-        "eigenvector": 0.0328
-      },
-      {
         "id": "Borja Ekiza Imaz",
         "short": "Ekiza",
         "name": "Borja Ekiza",
@@ -965,6 +954,17 @@
         "is_playmaker": true,
         "betweenness": 0.2444,
         "eigenvector": 0.0045
+      },
+      {
+        "id": "Jon Errasti Zabalete",
+        "short": "Errasti",
+        "name": "Jon Errasti",
+        "x": 65.95,
+        "y": 45.27,
+        "size": 64.6,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0328
       }
     ],
     "edges": [
@@ -1048,15 +1048,15 @@
       },
       {
         "source": "Borja Fernández Fernández",
-        "target": "Jon Errasti Zabalete",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Borja Fernández Fernández",
         "target": "Borja Ekiza Imaz",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Borja Fernández Fernández",
+        "target": "Jon Errasti Zabalete",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Eneko Bóveda Altube",
@@ -1083,18 +1083,6 @@
         "direction": "forward"
       },
       {
-        "source": "Jon Errasti Zabalete",
-        "target": "Eneko Bóveda Altube",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jon Errasti Zabalete",
-        "target": "Borja Fernández Fernández",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Borja Ekiza Imaz",
         "target": "Raúl Rodríguez Navas",
         "weight": 1,
@@ -1105,6 +1093,18 @@
         "target": "Borja Fernández Fernández",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Jon Errasti Zabalete",
+        "target": "Eneko Bóveda Altube",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jon Errasti Zabalete",
+        "target": "Borja Fernández Fernández",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1210,17 +1210,6 @@
         "eigenvector": 0.104
       },
       {
-        "id": "Luis Alberto Suárez Díaz",
-        "short": "Suárez",
-        "name": "Luis Suárez",
-        "x": 84.88,
-        "y": 44.97,
-        "size": 57.6,
-        "is_playmaker": false,
-        "betweenness": 0.1852,
-        "eigenvector": 0.0227
-      },
-      {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Bravo",
         "name": "Claudio Bravo",
@@ -1230,6 +1219,17 @@
         "is_playmaker": false,
         "betweenness": 0.1333,
         "eigenvector": 0.013
+      },
+      {
+        "id": "Luis Alberto Suárez Díaz",
+        "short": "Suárez",
+        "name": "Luis Suárez",
+        "x": 84.88,
+        "y": 44.97,
+        "size": 57.6,
+        "is_playmaker": false,
+        "betweenness": 0.1852,
+        "eigenvector": 0.0227
       }
     ],
     "edges": [
@@ -1402,18 +1402,6 @@
         "direction": "forward"
       },
       {
-        "source": "Luis Alberto Suárez Díaz",
-        "target": "Lionel Andrés Messi Cuccittini",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Luis Alberto Suárez Díaz",
-        "target": "Ivan Rakitić",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
@@ -1424,6 +1412,18 @@
         "target": "Marc Bartra Aregall",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Ivan Rakitić",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

@@ -1005,17 +1005,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Arouna Koné",
-        "short": "Koné",
-        "name": "Arouna Koné",
-        "x": 64.59,
-        "y": 29.77,
-        "size": 57.8,
-        "is_playmaker": false,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0156
-      },
-      {
         "id": "Romelu Lukaku Menama",
         "short": "Lukaku",
         "name": "Romelu Lukaku",
@@ -1025,6 +1014,17 @@
         "is_playmaker": false,
         "betweenness": 0.2333,
         "eigenvector": 0.008
+      },
+      {
+        "id": "Arouna Koné",
+        "short": "Koné",
+        "name": "Arouna Koné",
+        "x": 64.59,
+        "y": 29.77,
+        "size": 57.8,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0156
       }
     ],
     "edges": [
@@ -1150,15 +1150,15 @@
       },
       {
         "source": "Ross Barkley",
-        "target": "Arouna Koné",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ross Barkley",
         "target": "Romelu Lukaku Menama",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Ross Barkley",
+        "target": "Arouna Koné",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Séamus Coleman",
@@ -1197,18 +1197,6 @@
         "direction": "forward"
       },
       {
-        "source": "Arouna Koné",
-        "target": "Ross Barkley",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Arouna Koné",
-        "target": "Gareth Barry",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Romelu Lukaku Menama",
         "target": "Ross Barkley",
         "weight": 1,
@@ -1219,6 +1207,18 @@
         "target": "Gerard Deulofeu Lázaro",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Arouna Koné",
+        "target": "Ross Barkley",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Arouna Koné",
+        "target": "Gareth Barry",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

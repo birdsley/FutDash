@@ -1156,17 +1156,6 @@
         "eigenvector": 0.3939
       },
       {
-        "id": "Darren Anderton",
-        "short": "Anderton",
-        "name": "Darren Anderton",
-        "x": 67.22,
-        "y": 47.87,
-        "size": 70.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.2626
-      },
-      {
         "id": "Dean Richards",
         "short": "Richards",
         "name": "Dean Richards",
@@ -1176,6 +1165,17 @@
         "is_playmaker": true,
         "betweenness": 0.0889,
         "eigenvector": 0.5252
+      },
+      {
+        "id": "Darren Anderton",
+        "short": "Anderton",
+        "name": "Darren Anderton",
+        "x": 67.22,
+        "y": 47.87,
+        "size": 70.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.2626
       }
     ],
     "edges": [
@@ -1217,15 +1217,15 @@
       },
       {
         "source": "Ledley King",
-        "target": "Darren Anderton",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ledley King",
         "target": "Dean Richards",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Ledley King",
+        "target": "Darren Anderton",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Anthony Gardner",
@@ -1258,28 +1258,10 @@
         "direction": "forward"
       },
       {
-        "source": "Darren Anderton",
-        "target": "Dean Richards",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Darren Anderton",
-        "target": "Ledley King",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Dean Richards",
         "target": "Kasey Keller",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Dean Richards",
-        "target": "Darren Anderton",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Dean Richards",
@@ -1292,6 +1274,24 @@
         "target": "Ledley King",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Dean Richards",
+        "target": "Darren Anderton",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Darren Anderton",
+        "target": "Dean Richards",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Darren Anderton",
+        "target": "Ledley King",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

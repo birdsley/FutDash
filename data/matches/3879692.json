@@ -1313,17 +1313,6 @@
         "eigenvector": 0.0556
       },
       {
-        "id": "Manuel Pucciarelli",
-        "short": "Pucciarelli",
-        "name": "Manuel Pucciarelli",
-        "x": 76.03,
-        "y": 46.16,
-        "size": 59.0,
-        "is_playmaker": true,
-        "betweenness": 0.3722,
-        "eigenvector": 0.0114
-      },
-      {
         "id": "Rade Krunić",
         "short": "Krunić",
         "name": "Rade Krunić",
@@ -1333,6 +1322,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0112
+      },
+      {
+        "id": "Manuel Pucciarelli",
+        "short": "Pucciarelli",
+        "name": "Manuel Pucciarelli",
+        "x": 76.03,
+        "y": 46.16,
+        "size": 59.0,
+        "is_playmaker": true,
+        "betweenness": 0.3722,
+        "eigenvector": 0.0114
       },
       {
         "id": "Massimo Maccarone",
@@ -1475,13 +1475,13 @@
       },
       {
         "source": "Leandro Daniel Paredes",
-        "target": "Manuel Pucciarelli",
+        "target": "Rade Krunić",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Leandro Daniel Paredes",
-        "target": "Rade Krunić",
+        "target": "Manuel Pucciarelli",
         "weight": 1,
         "direction": "forward"
       },
@@ -1510,6 +1510,18 @@
         "direction": "forward"
       },
       {
+        "source": "Rade Krunić",
+        "target": "Manuel Pucciarelli",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rade Krunić",
+        "target": "Leandro Daniel Paredes",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Manuel Pucciarelli",
         "target": "Rade Krunić",
         "weight": 1,
@@ -1526,18 +1538,6 @@
         "target": "Massimo Maccarone",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Rade Krunić",
-        "target": "Manuel Pucciarelli",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Rade Krunić",
-        "target": "Leandro Daniel Paredes",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Massimo Maccarone",

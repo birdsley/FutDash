@@ -960,17 +960,6 @@
         "eigenvector": 0.1013
       },
       {
-        "id": "José María Callejón Bueno",
-        "short": "Callejón",
-        "name": "José Callejón",
-        "x": 68.28,
-        "y": 64.52,
-        "size": 57.1,
-        "is_playmaker": false,
-        "betweenness": 0.2167,
-        "eigenvector": 0.0015
-      },
-      {
         "id": "Gonzalo Gerardo Higuaín",
         "short": "Higuaín",
         "name": "Gonzalo Higuaín",
@@ -980,6 +969,17 @@
         "is_playmaker": false,
         "betweenness": 0.3944,
         "eigenvector": 0.009
+      },
+      {
+        "id": "José María Callejón Bueno",
+        "short": "Callejón",
+        "name": "José Callejón",
+        "x": 68.28,
+        "y": 64.52,
+        "size": 57.1,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.0015
       }
     ],
     "edges": [
@@ -1111,15 +1111,15 @@
       },
       {
         "source": "Allan Marques Loureiro",
-        "target": "José María Callejón Bueno",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Allan Marques Loureiro",
         "target": "Gonzalo Gerardo Higuaín",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Allan Marques Loureiro",
+        "target": "José María Callejón Bueno",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Elseid Hysaj",
@@ -1152,18 +1152,6 @@
         "direction": "forward"
       },
       {
-        "source": "José María Callejón Bueno",
-        "target": "Allan Marques Loureiro",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "José María Callejón Bueno",
-        "target": "Elseid Hysaj",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Gonzalo Gerardo Higuaín",
         "target": "Jorge Luiz Frello Filho",
         "weight": 1,
@@ -1172,6 +1160,18 @@
       {
         "source": "Gonzalo Gerardo Higuaín",
         "target": "Allan Marques Loureiro",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José María Callejón Bueno",
+        "target": "Allan Marques Loureiro",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José María Callejón Bueno",
+        "target": "Elseid Hysaj",
         "weight": 1,
         "direction": "backward"
       }

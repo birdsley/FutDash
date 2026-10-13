@@ -1230,17 +1230,6 @@
         "eigenvector": 0.1611
       },
       {
-        "id": "Gianluigi Donnarumma",
-        "short": "Donnarumma",
-        "name": "Gianluigi Donnarumma",
-        "x": 9.25,
-        "y": 39.88,
-        "size": 58.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.006
-      },
-      {
         "id": "Danilo Luís Hélio Pereira",
         "short": "Pereira",
         "name": "Danilo Pereira",
@@ -1250,6 +1239,17 @@
         "is_playmaker": false,
         "betweenness": 0.3111,
         "eigenvector": 0.0153
+      },
+      {
+        "id": "Gianluigi Donnarumma",
+        "short": "Donnarumma",
+        "name": "Gianluigi Donnarumma",
+        "x": 9.25,
+        "y": 39.88,
+        "size": 58.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.006
       }
     ],
     "edges": [
@@ -1405,30 +1405,12 @@
       },
       {
         "source": "Marcos Aoás Corrêa",
-        "target": "Gianluigi Donnarumma",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Marcos Aoás Corrêa",
         "target": "Danilo Luís Hélio Pereira",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Gianluigi Donnarumma",
-        "target": "Marcos Aoás Corrêa",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gianluigi Donnarumma",
-        "target": "Danilo Luís Hélio Pereira",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Danilo Luís Hélio Pereira",
+        "source": "Marcos Aoás Corrêa",
         "target": "Gianluigi Donnarumma",
         "weight": 1,
         "direction": "backward"
@@ -1442,6 +1424,24 @@
       {
         "source": "Danilo Luís Hélio Pereira",
         "target": "Juan Bernat Velasco",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Danilo Luís Hélio Pereira",
+        "target": "Gianluigi Donnarumma",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gianluigi Donnarumma",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gianluigi Donnarumma",
+        "target": "Danilo Luís Hélio Pereira",
         "weight": 1,
         "direction": "forward"
       }

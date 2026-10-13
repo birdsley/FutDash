@@ -1035,26 +1035,26 @@
         "eigenvector": 0.0011
       },
       {
-        "id": "Benjamin Hübner",
-        "short": "Hübner",
-        "name": "Benjamin Hübner",
-        "x": 43.3,
-        "y": 26.98,
-        "size": 62.7,
-        "is_playmaker": true,
-        "betweenness": 0.3389,
-        "eigenvector": 0.012
-      },
-      {
         "id": "Almog Cohen",
         "short": "Cohen",
         "name": "Almog Cohen",
         "x": 66.16,
         "y": 37.45,
         "size": 62.7,
-        "is_playmaker": false,
+        "is_playmaker": true,
         "betweenness": 0.3389,
         "eigenvector": 0.0048
+      },
+      {
+        "id": "Benjamin Hübner",
+        "short": "Hübner",
+        "name": "Benjamin Hübner",
+        "x": 43.3,
+        "y": 26.98,
+        "size": 62.7,
+        "is_playmaker": false,
+        "betweenness": 0.3389,
+        "eigenvector": 0.012
       }
     ],
     "edges": [
@@ -1162,13 +1162,25 @@
       },
       {
         "source": "Roger de Oliveira Bernardo",
+        "target": "Almog Cohen",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Roger de Oliveira Bernardo",
         "target": "Benjamin Hübner",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Roger de Oliveira Bernardo",
-        "target": "Almog Cohen",
+        "source": "Almog Cohen",
+        "target": "Roger de Oliveira Bernardo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Almog Cohen",
+        "target": "Moritz Hartmann",
         "weight": 1,
         "direction": "forward"
       },
@@ -1181,18 +1193,6 @@
       {
         "source": "Benjamin Hübner",
         "target": "Markus Suttner",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Almog Cohen",
-        "target": "Roger de Oliveira Bernardo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Almog Cohen",
-        "target": "Moritz Hartmann",
         "weight": 1,
         "direction": "forward"
       }

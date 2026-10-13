@@ -1020,17 +1020,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Bethany England",
-        "short": "England",
-        "name": "Bethany England",
-        "x": 76.57,
-        "y": 44.71,
-        "size": 59.7,
-        "is_playmaker": true,
-        "betweenness": 0.1963,
-        "eigenvector": 0.0207
-      },
-      {
         "id": "Guro Reiten",
         "short": "Reiten",
         "name": "Guro Reiten",
@@ -1040,6 +1029,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.011
+      },
+      {
+        "id": "Bethany England",
+        "short": "England",
+        "name": "Bethany England",
+        "x": 76.57,
+        "y": 44.71,
+        "size": 59.7,
+        "is_playmaker": true,
+        "betweenness": 0.1963,
+        "eigenvector": 0.0207
       }
     ],
     "edges": [
@@ -1171,15 +1171,15 @@
       },
       {
         "source": "So-Yun Ji",
-        "target": "Bethany England",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "So-Yun Ji",
         "target": "Guro Reiten",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Bethany England",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Drew Spence",
@@ -1206,14 +1206,14 @@
         "direction": "backward"
       },
       {
-        "source": "Bethany England",
+        "source": "Guro Reiten",
         "target": "So-Yun Ji",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Bethany England",
-        "target": "Drew Spence",
+        "source": "Guro Reiten",
+        "target": "Bethany England",
         "weight": 1,
         "direction": "backward"
       },
@@ -1224,14 +1224,14 @@
         "direction": "forward"
       },
       {
-        "source": "Guro Reiten",
+        "source": "Bethany England",
         "target": "So-Yun Ji",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
-        "source": "Guro Reiten",
-        "target": "Bethany England",
+        "source": "Bethany England",
+        "target": "Drew Spence",
         "weight": 1,
         "direction": "backward"
       }
@@ -1317,17 +1317,6 @@
         "eigenvector": 0.1681
       },
       {
-        "id": "Ria Percival",
-        "short": "Percival",
-        "name": "Ria Percival",
-        "x": 41.11,
-        "y": 45.97,
-        "size": 61.2,
-        "is_playmaker": true,
-        "betweenness": 0.5222,
-        "eigenvector": 0.0351
-      },
-      {
         "id": "Kit Graham",
         "short": "Graham",
         "name": "Kit Graham",
@@ -1348,6 +1337,17 @@
         "is_playmaker": true,
         "betweenness": 0.6389,
         "eigenvector": 0.0112
+      },
+      {
+        "id": "Ria Percival",
+        "short": "Percival",
+        "name": "Ria Percival",
+        "x": 41.11,
+        "y": 45.97,
+        "size": 61.2,
+        "is_playmaker": true,
+        "betweenness": 0.5222,
+        "eigenvector": 0.0351
       },
       {
         "id": "Lucy Quinn",
@@ -1465,18 +1465,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Ria Percival",
-        "target": "Hannah Godfrey",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ria Percival",
-        "target": "Coral-Jade Haines",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Kit Graham",
         "target": "Lucy Quinn",
         "weight": 1,
@@ -1490,12 +1478,6 @@
       },
       {
         "source": "Coral-Jade Haines",
-        "target": "Ria Percival",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Coral-Jade Haines",
         "target": "Rachel Furness",
         "weight": 1,
         "direction": "forward"
@@ -1503,6 +1485,24 @@
       {
         "source": "Coral-Jade Haines",
         "target": "Lucy Quinn",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Coral-Jade Haines",
+        "target": "Ria Percival",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ria Percival",
+        "target": "Hannah Godfrey",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ria Percival",
+        "target": "Coral-Jade Haines",
         "weight": 1,
         "direction": "forward"
       },

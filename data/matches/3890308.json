@@ -1080,17 +1080,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Patrick Herrmann",
-        "short": "Herrmann",
-        "name": "Patrick Herrmann",
-        "x": 73.95,
-        "y": 47.23,
-        "size": 58.7,
-        "is_playmaker": true,
-        "betweenness": 0.2222,
-        "eigenvector": 0.0121
-      },
-      {
         "id": "Julian Korb",
         "short": "Korb",
         "name": "Julian Korb",
@@ -1100,6 +1089,17 @@
         "is_playmaker": true,
         "betweenness": 0.2222,
         "eigenvector": 0.0118
+      },
+      {
+        "id": "Patrick Herrmann",
+        "short": "Herrmann",
+        "name": "Patrick Herrmann",
+        "x": 73.95,
+        "y": 47.23,
+        "size": 58.7,
+        "is_playmaker": true,
+        "betweenness": 0.2222,
+        "eigenvector": 0.0121
       }
     ],
     "edges": [
@@ -1260,18 +1260,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Patrick Herrmann",
-        "target": "Lars Edi Stindl",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Patrick Herrmann",
-        "target": "Julian Korb",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Julian Korb",
         "target": "Patrick Herrmann",
         "weight": 1,
@@ -1282,6 +1270,18 @@
         "target": "Andreas Christensen",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Patrick Herrmann",
+        "target": "Julian Korb",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Patrick Herrmann",
+        "target": "Lars Edi Stindl",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

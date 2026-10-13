@@ -1345,17 +1345,6 @@
         "eigenvector": 0.0843
       },
       {
-        "id": "Harry Kane",
-        "short": "Kane",
-        "name": "Harry Kane",
-        "x": 81.74,
-        "y": 30.43,
-        "size": 57.9,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0046
-      },
-      {
         "id": "Hugo Lloris",
         "short": "Lloris",
         "name": "Hugo Lloris",
@@ -1365,6 +1354,17 @@
         "is_playmaker": false,
         "betweenness": 0.1611,
         "eigenvector": 0.0257
+      },
+      {
+        "id": "Harry Kane",
+        "short": "Kane",
+        "name": "Harry Kane",
+        "x": 81.74,
+        "y": 30.43,
+        "size": 57.9,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0046
       }
     ],
     "edges": [
@@ -1537,18 +1537,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Harry Kane",
-        "target": "Erik Lamela",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Harry Kane",
-        "target": "Nacer Chadli",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Hugo Lloris",
         "target": "Jan Vertonghen",
         "weight": 1,
@@ -1559,6 +1547,18 @@
         "target": "Toby Alderweireld",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Erik Lamela",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Nacer Chadli",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

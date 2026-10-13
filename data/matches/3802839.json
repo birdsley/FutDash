@@ -1035,17 +1035,6 @@
         "eigenvector": 0.3073
       },
       {
-        "id": "Alban Lafont",
-        "short": "Lafont",
-        "name": "Alban Lafont",
-        "x": 8.97,
-        "y": 37.0,
-        "size": 61.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0099
-      },
-      {
         "id": "Dennis Appiah",
         "short": "Appiah",
         "name": "Dennis Appiah",
@@ -1055,6 +1044,17 @@
         "is_playmaker": false,
         "betweenness": 0.1333,
         "eigenvector": 0.0254
+      },
+      {
+        "id": "Alban Lafont",
+        "short": "Lafont",
+        "name": "Alban Lafont",
+        "x": 8.97,
+        "y": 37.0,
+        "size": 61.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0099
       }
     ],
     "edges": [
@@ -1162,15 +1162,15 @@
       },
       {
         "source": "Nicolas Pallois",
-        "target": "Alban Lafont",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Nicolas Pallois",
         "target": "Dennis Appiah",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Nicolas Pallois",
+        "target": "Alban Lafont",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Jean-Charles Castelletto",
@@ -1197,24 +1197,6 @@
         "direction": "backward"
       },
       {
-        "source": "Alban Lafont",
-        "target": "Dennis Appiah",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alban Lafont",
-        "target": "Nicolas Pallois",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Dennis Appiah",
-        "target": "Alban Lafont",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Dennis Appiah",
         "target": "Andrei Girotto",
         "weight": 1,
@@ -1225,6 +1207,24 @@
         "target": "Nicolas Pallois",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Dennis Appiah",
+        "target": "Alban Lafont",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Alban Lafont",
+        "target": "Dennis Appiah",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alban Lafont",
+        "target": "Nicolas Pallois",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

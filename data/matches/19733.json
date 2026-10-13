@@ -987,17 +987,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Lucy Staniforth",
-        "short": "Staniforth",
-        "name": "Lucy Staniforth",
-        "x": 60.79,
-        "y": 38.07,
-        "size": 62.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Sarah Emma Mayling",
         "short": "Mayling",
         "name": "Sarah Mayling",
@@ -1014,6 +1003,17 @@
         "name": "Emma Follis",
         "x": 79.88,
         "y": 46.88,
+        "size": 62.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Lucy Staniforth",
+        "short": "Staniforth",
+        "name": "Lucy Staniforth",
+        "x": 60.79,
+        "y": 38.07,
         "size": 62.0,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1089,12 +1089,6 @@
       },
       {
         "source": "Chloe Arthur",
-        "target": "Lucy Staniforth",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Chloe Arthur",
         "target": "Sarah Emma Mayling",
         "weight": 1,
         "direction": "lateral"
@@ -1104,6 +1098,12 @@
         "target": "Emma Follis",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Chloe Arthur",
+        "target": "Lucy Staniforth",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Marisa Ewers",
@@ -1130,13 +1130,7 @@
         "direction": "lateral"
       },
       {
-        "source": "Lucy Staniforth",
-        "target": "Sarah Emma Mayling",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lucy Staniforth",
+        "source": "Sarah Emma Mayling",
         "target": "Chloe Arthur",
         "weight": 1,
         "direction": "lateral"
@@ -1146,12 +1140,6 @@
         "target": "Lucy Staniforth",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Sarah Emma Mayling",
-        "target": "Chloe Arthur",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Sarah Emma Mayling",
@@ -1170,6 +1158,18 @@
         "target": "Chloe Arthur",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Lucy Staniforth",
+        "target": "Sarah Emma Mayling",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lucy Staniforth",
+        "target": "Chloe Arthur",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

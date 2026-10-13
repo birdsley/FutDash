@@ -1243,17 +1243,6 @@
         "eigenvector": 0.4739
       },
       {
-        "id": "Adrián San Miguel del Castillo",
-        "short": "Adrián",
-        "name": "Adrián",
-        "x": 16.18,
-        "y": 47.54,
-        "size": 61.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0197
-      },
-      {
         "id": "Pedro Mba Obiang Avomo",
         "short": "Obiang",
         "name": "Pedro Obiang",
@@ -1263,6 +1252,17 @@
         "is_playmaker": false,
         "betweenness": 0.3667,
         "eigenvector": 0.0543
+      },
+      {
+        "id": "Adrián San Miguel del Castillo",
+        "short": "Adrián",
+        "name": "Adrián",
+        "x": 16.18,
+        "y": 47.54,
+        "size": 61.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0197
       }
     ],
     "edges": [
@@ -1340,15 +1340,15 @@
       },
       {
         "source": "Winston Reid",
-        "target": "Adrián San Miguel del Castillo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Winston Reid",
         "target": "Pedro Mba Obiang Avomo",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Winston Reid",
+        "target": "Adrián San Miguel del Castillo",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Victor Moses",
@@ -1399,24 +1399,6 @@
         "direction": "backward"
       },
       {
-        "source": "Adrián San Miguel del Castillo",
-        "target": "Winston Reid",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Adrián San Miguel del Castillo",
-        "target": "Pedro Mba Obiang Avomo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Pedro Mba Obiang Avomo",
-        "target": "Adrián San Miguel del Castillo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Pedro Mba Obiang Avomo",
         "target": "Mark Noble",
         "weight": 1,
@@ -1427,6 +1409,24 @@
         "target": "Winston Reid",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Pedro Mba Obiang Avomo",
+        "target": "Adrián San Miguel del Castillo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Adrián San Miguel del Castillo",
+        "target": "Winston Reid",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Adrián San Miguel del Castillo",
+        "target": "Pedro Mba Obiang Avomo",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

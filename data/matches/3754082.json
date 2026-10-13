@@ -1088,17 +1088,6 @@
         "eigenvector": 0.0692
       },
       {
-        "id": "Bryan Oviedo",
-        "short": "Oviedo",
-        "name": "Bryan Oviedo",
-        "x": 60.55,
-        "y": 8.0,
-        "size": 57.7,
-        "is_playmaker": false,
-        "betweenness": 0.4333,
-        "eigenvector": 0.0159
-      },
-      {
         "id": "Tim Howard",
         "short": "Howard",
         "name": "Tim Howard",
@@ -1108,6 +1097,17 @@
         "is_playmaker": false,
         "betweenness": 0.3,
         "eigenvector": 0.0035
+      },
+      {
+        "id": "Bryan Oviedo",
+        "short": "Oviedo",
+        "name": "Bryan Oviedo",
+        "x": 60.55,
+        "y": 8.0,
+        "size": 57.7,
+        "is_playmaker": false,
+        "betweenness": 0.4333,
+        "eigenvector": 0.0159
       }
     ],
     "edges": [
@@ -1257,15 +1257,15 @@
       },
       {
         "source": "José Ramiro Funes Mori",
-        "target": "Bryan Oviedo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Ramiro Funes Mori",
         "target": "Tim Howard",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José Ramiro Funes Mori",
+        "target": "Bryan Oviedo",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "John Stones",
@@ -1280,18 +1280,6 @@
         "direction": "backward"
       },
       {
-        "source": "Bryan Oviedo",
-        "target": "José Ramiro Funes Mori",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Bryan Oviedo",
-        "target": "Ross Barkley",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Tim Howard",
         "target": "John Stones",
         "weight": 1,
@@ -1300,6 +1288,18 @@
       {
         "source": "Tim Howard",
         "target": "José Ramiro Funes Mori",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Bryan Oviedo",
+        "target": "José Ramiro Funes Mori",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Bryan Oviedo",
+        "target": "Ross Barkley",
         "weight": 1,
         "direction": "forward"
       }
@@ -1407,17 +1407,6 @@
         "eigenvector": 0.1773
       },
       {
-        "id": "Lee Cattermole",
-        "short": "Cattermole",
-        "name": "Lee Cattermole",
-        "x": 65.05,
-        "y": 44.88,
-        "size": 61.3,
-        "is_playmaker": false,
-        "betweenness": 0.2556,
-        "eigenvector": 0.0254
-      },
-      {
         "id": "Wes Brown",
         "short": "Brown",
         "name": "Wes Brown",
@@ -1427,6 +1416,17 @@
         "is_playmaker": false,
         "betweenness": 0.25,
         "eigenvector": 0.0263
+      },
+      {
+        "id": "Lee Cattermole",
+        "short": "Cattermole",
+        "name": "Lee Cattermole",
+        "x": 65.05,
+        "y": 44.88,
+        "size": 61.3,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0254
       }
     ],
     "edges": [
@@ -1552,27 +1552,15 @@
       },
       {
         "source": "Yann Gérard M''Vila",
-        "target": "Lee Cattermole",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Yann Gérard M''Vila",
         "target": "Wes Brown",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Lee Cattermole",
-        "target": "Steven Fletcher",
+        "source": "Yann Gérard M''Vila",
+        "target": "Lee Cattermole",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Lee Cattermole",
-        "target": "Yann Gérard M''Vila",
-        "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Wes Brown",
@@ -1585,6 +1573,18 @@
         "target": "Yann Gérard M''Vila",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Lee Cattermole",
+        "target": "Steven Fletcher",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lee Cattermole",
+        "target": "Yann Gérard M''Vila",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

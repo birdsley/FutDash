@@ -900,17 +900,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Ben Foster",
-        "short": "Foster",
-        "name": "Ben Foster",
-        "x": 16.44,
-        "y": 44.69,
-        "size": 64.8,
-        "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Jonas Olsson",
         "short": "Olsson",
         "name": "Jonas Olsson",
@@ -919,6 +908,17 @@
         "size": 69.6,
         "is_playmaker": true,
         "betweenness": 0.3444,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Ben Foster",
+        "short": "Foster",
+        "name": "Ben Foster",
+        "x": 16.44,
+        "y": 44.69,
+        "size": 64.8,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
         "eigenvector": 0.0
       }
     ],
@@ -1026,14 +1026,14 @@
         "direction": "backward"
       },
       {
-        "source": "Ben Foster",
-        "target": "Gareth McAuley",
+        "source": "Jonas Olsson",
+        "target": "Claudio Ariel Yacob",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Ben Foster",
-        "target": "Jonas Olsson",
+        "source": "Jonas Olsson",
+        "target": "Jonathan Grant Evans",
         "weight": 1,
         "direction": "forward"
       },
@@ -1044,14 +1044,14 @@
         "direction": "backward"
       },
       {
-        "source": "Jonas Olsson",
-        "target": "Claudio Ariel Yacob",
+        "source": "Ben Foster",
+        "target": "Gareth McAuley",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Jonas Olsson",
-        "target": "Jonathan Grant Evans",
+        "source": "Ben Foster",
+        "target": "Jonas Olsson",
         "weight": 1,
         "direction": "forward"
       }
@@ -1159,17 +1159,6 @@
         "eigenvector": 0.0002
       },
       {
-        "id": "Joe Allen",
-        "short": "Allen",
-        "name": "Joe Allen",
-        "x": 67.23,
-        "y": 29.77,
-        "size": 59.0,
-        "is_playmaker": true,
-        "betweenness": 0.3333,
-        "eigenvector": 0.01
-      },
-      {
         "id": "Christian Benteke Liolo",
         "short": "Benteke",
         "name": "Christian Benteke",
@@ -1179,6 +1168,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0002
+      },
+      {
+        "id": "Joe Allen",
+        "short": "Allen",
+        "name": "Joe Allen",
+        "x": 67.23,
+        "y": 29.77,
+        "size": 59.0,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.01
       }
     ],
     "edges": [
@@ -1345,24 +1345,6 @@
         "direction": "backward"
       },
       {
-        "source": "Joe Allen",
-        "target": "Oluwaseyi Babajide Ojo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Joe Allen",
-        "target": "Kevin Linford Stewart",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Joe Allen",
-        "target": "Christian Benteke Liolo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Christian Benteke Liolo",
         "target": "Oluwaseyi Babajide Ojo",
         "weight": 1,
@@ -1371,6 +1353,24 @@
       {
         "source": "Christian Benteke Liolo",
         "target": "Joe Allen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Joe Allen",
+        "target": "Oluwaseyi Babajide Ojo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joe Allen",
+        "target": "Christian Benteke Liolo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joe Allen",
+        "target": "Kevin Linford Stewart",
         "weight": 1,
         "direction": "backward"
       }

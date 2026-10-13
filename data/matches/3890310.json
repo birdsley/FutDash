@@ -1219,17 +1219,6 @@
         "eigenvector": 0.0533
       },
       {
-        "id": "Pierre-Emerick Aubameyang",
-        "short": "Aubameyang",
-        "name": "Pierre-Emerick Aubameyang",
-        "x": 62.31,
-        "y": 44.04,
-        "size": 57.6,
-        "is_playmaker": false,
-        "betweenness": 0.3056,
-        "eigenvector": 0.0147
-      },
-      {
         "id": "Jonas Hofmann",
         "short": "Hofmann",
         "name": "Jonas Hofmann",
@@ -1239,6 +1228,17 @@
         "is_playmaker": false,
         "betweenness": 0.3,
         "eigenvector": 0.0052
+      },
+      {
+        "id": "Pierre-Emerick Aubameyang",
+        "short": "Aubameyang",
+        "name": "Pierre-Emerick Aubameyang",
+        "x": 62.31,
+        "y": 44.04,
+        "size": 57.6,
+        "is_playmaker": false,
+        "betweenness": 0.3056,
+        "eigenvector": 0.0147
       }
     ],
     "edges": [
@@ -1370,15 +1370,15 @@
       },
       {
         "source": "Gonzalo Castro Randon",
-        "target": "Pierre-Emerick Aubameyang",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gonzalo Castro Randon",
         "target": "Jonas Hofmann",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Gonzalo Castro Randon",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Matthias Ginter",
@@ -1411,18 +1411,6 @@
         "direction": "forward"
       },
       {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Julian Weigl",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Gonzalo Castro Randon",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Jonas Hofmann",
         "target": "Gonzalo Castro Randon",
         "weight": 1,
@@ -1433,6 +1421,18 @@
         "target": "Marco Reus",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Julian Weigl",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Gonzalo Castro Randon",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

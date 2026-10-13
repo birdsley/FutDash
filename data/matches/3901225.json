@@ -904,17 +904,6 @@
         "eigenvector": 0.0386
       },
       {
-        "id": "Alban Lafont",
-        "short": "Lafont",
-        "name": "Alban Lafont",
-        "x": 11.45,
-        "y": 42.22,
-        "size": 69.5,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.1095
-      },
-      {
         "id": "Étienne Didot",
         "short": "Didot",
         "name": "Étienne Didot",
@@ -924,6 +913,17 @@
         "is_playmaker": false,
         "betweenness": 0.1667,
         "eigenvector": 0.1732
+      },
+      {
+        "id": "Alban Lafont",
+        "short": "Lafont",
+        "name": "Alban Lafont",
+        "x": 11.45,
+        "y": 42.22,
+        "size": 69.5,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.1095
       },
       {
         "id": "Issa Diop",
@@ -1006,27 +1006,15 @@
       },
       {
         "source": "Marcel Tisserand",
-        "target": "Alban Lafont",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Marcel Tisserand",
         "target": "Étienne Didot",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Alban Lafont",
-        "target": "Issa Diop",
+        "source": "Marcel Tisserand",
+        "target": "Alban Lafont",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alban Lafont",
-        "target": "Marcel Tisserand",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Étienne Didot",
@@ -1039,6 +1027,18 @@
         "target": "Marcel Tisserand",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Alban Lafont",
+        "target": "Issa Diop",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alban Lafont",
+        "target": "Marcel Tisserand",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Issa Diop",

@@ -938,17 +938,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Pierre-Emerick Aubameyang",
-        "short": "Aubameyang",
-        "name": "Pierre-Emerick Aubameyang",
-        "x": 63.96,
-        "y": 40.7,
-        "size": 58.5,
-        "is_playmaker": true,
-        "betweenness": 0.3722,
-        "eigenvector": 0.0155
-      },
-      {
         "id": "Marco Reus",
         "short": "Reus",
         "name": "Marco Reus",
@@ -958,6 +947,17 @@
         "is_playmaker": false,
         "betweenness": 0.2056,
         "eigenvector": 0.0059
+      },
+      {
+        "id": "Pierre-Emerick Aubameyang",
+        "short": "Aubameyang",
+        "name": "Pierre-Emerick Aubameyang",
+        "x": 63.96,
+        "y": 40.7,
+        "size": 58.5,
+        "is_playmaker": true,
+        "betweenness": 0.3722,
+        "eigenvector": 0.0155
       }
     ],
     "edges": [
@@ -1124,24 +1124,6 @@
         "direction": "forward"
       },
       {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "İlkay Gündoğan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Gonzalo Castro Randon",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Marco Reus",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Marco Reus",
         "target": "Pierre-Emerick Aubameyang",
         "weight": 1,
@@ -1152,6 +1134,24 @@
         "target": "Shinji Kagawa",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Marco Reus",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "İlkay Gündoğan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Gonzalo Castro Randon",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -1246,17 +1246,6 @@
         "eigenvector": 0.0074
       },
       {
-        "id": "Timo Baumgartl",
-        "short": "Baumgartl",
-        "name": "Timo Baumgartl",
-        "x": 39.69,
-        "y": 43.33,
-        "size": 68.2,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0016
-      },
-      {
         "id": "Przemysław Tytoń",
         "short": "Tytoń",
         "name": "Przemysław Tytoń",
@@ -1266,6 +1255,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0006
+      },
+      {
+        "id": "Timo Baumgartl",
+        "short": "Baumgartl",
+        "name": "Timo Baumgartl",
+        "x": 39.69,
+        "y": 43.33,
+        "size": 68.2,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0016
       },
       {
         "id": "Georg Niedermeier",
@@ -1366,13 +1366,13 @@
       },
       {
         "source": "Lukas Rupp",
-        "target": "Timo Baumgartl",
+        "target": "Przemysław Tytoń",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Lukas Rupp",
-        "target": "Przemysław Tytoń",
+        "target": "Timo Baumgartl",
         "weight": 1,
         "direction": "backward"
       },
@@ -1395,14 +1395,14 @@
         "direction": "forward"
       },
       {
-        "source": "Timo Baumgartl",
-        "target": "Lukas Rupp",
+        "source": "Przemysław Tytoń",
+        "target": "Timo Baumgartl",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Timo Baumgartl",
-        "target": "Christian Gentner",
+        "source": "Przemysław Tytoń",
+        "target": "Lukas Rupp",
         "weight": 1,
         "direction": "forward"
       },
@@ -1413,14 +1413,14 @@
         "direction": "backward"
       },
       {
-        "source": "Przemysław Tytoń",
-        "target": "Timo Baumgartl",
+        "source": "Timo Baumgartl",
+        "target": "Lukas Rupp",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Przemysław Tytoń",
-        "target": "Lukas Rupp",
+        "source": "Timo Baumgartl",
+        "target": "Christian Gentner",
         "weight": 1,
         "direction": "forward"
       },

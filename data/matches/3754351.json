@@ -1325,6 +1325,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Scott Dann",
+        "short": "Dann",
+        "name": "Scott Dann",
+        "x": 40.19,
+        "y": 52.95,
+        "size": 71.0,
+        "is_playmaker": true,
+        "betweenness": 0.5333,
+        "eigenvector": 0.0384
+      },
+      {
         "id": "Wayne Hennessey",
         "short": "Hennessey",
         "name": "Wayne Hennessey",
@@ -1345,17 +1356,6 @@
         "is_playmaker": true,
         "betweenness": 0.2167,
         "eigenvector": 0.0177
-      },
-      {
-        "id": "Scott Dann",
-        "short": "Dann",
-        "name": "Scott Dann",
-        "x": 40.19,
-        "y": 52.95,
-        "size": 71.0,
-        "is_playmaker": true,
-        "betweenness": 0.5333,
-        "eigenvector": 0.0384
       }
     ],
     "edges": [
@@ -1492,6 +1492,30 @@
         "direction": "lateral"
       },
       {
+        "source": "Scott Dann",
+        "target": "Yohan Cabaye",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "James McArthur",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "Wayne Hennessey",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "Martin Kelly",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Wayne Hennessey",
         "target": "Damien Delaney",
         "weight": 1,
@@ -1514,30 +1538,6 @@
         "target": "Scott Dann",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Scott Dann",
-        "target": "Wayne Hennessey",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Scott Dann",
-        "target": "Martin Kelly",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Scott Dann",
-        "target": "Yohan Cabaye",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Scott Dann",
-        "target": "James McArthur",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

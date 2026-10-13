@@ -833,17 +833,6 @@
         "eigenvector": 0.1614
       },
       {
-        "id": "Marco Sportiello",
-        "short": "Sportiello",
-        "name": "Marco Sportiello",
-        "x": 11.12,
-        "y": 43.14,
-        "size": 62.0,
-        "is_playmaker": false,
-        "betweenness": 0.3,
-        "eigenvector": 0.0121
-      },
-      {
         "id": "Jasmin Kurtič",
         "short": "Kurtič",
         "name": "Jasmin Kurtič",
@@ -853,6 +842,17 @@
         "is_playmaker": true,
         "betweenness": 0.4333,
         "eigenvector": 0.0299
+      },
+      {
+        "id": "Marco Sportiello",
+        "short": "Sportiello",
+        "name": "Marco Sportiello",
+        "x": 11.12,
+        "y": 43.14,
+        "size": 62.0,
+        "is_playmaker": false,
+        "betweenness": 0.3,
+        "eigenvector": 0.0121
       }
     ],
     "edges": [
@@ -966,27 +966,15 @@
       },
       {
         "source": "Gabriel Alejandro Paletta",
-        "target": "Marco Sportiello",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Gabriel Alejandro Paletta",
         "target": "Jasmin Kurtič",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Marco Sportiello",
-        "target": "Guglielmo Stendardo",
+        "source": "Gabriel Alejandro Paletta",
+        "target": "Marco Sportiello",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marco Sportiello",
-        "target": "Gabriel Alejandro Paletta",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jasmin Kurtič",
@@ -999,6 +987,18 @@
         "target": "Gabriel Alejandro Paletta",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Marco Sportiello",
+        "target": "Guglielmo Stendardo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marco Sportiello",
+        "target": "Gabriel Alejandro Paletta",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

@@ -949,6 +949,17 @@
         "eigenvector": 0.0454
       },
       {
+        "id": "Zlatan Ibrahimović",
+        "short": "Ibrahimović",
+        "name": "Zlatan Ibrahimović",
+        "x": 73.02,
+        "y": 29.27,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0029
+      },
+      {
         "id": "Bojan Krkíc Pérez",
         "short": "Bojan",
         "name": "Bojan",
@@ -969,17 +980,6 @@
         "is_playmaker": false,
         "betweenness": 0.1944,
         "eigenvector": 0.0053
-      },
-      {
-        "id": "Zlatan Ibrahimović",
-        "short": "Ibrahimović",
-        "name": "Zlatan Ibrahimović",
-        "x": 73.02,
-        "y": 29.27,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0029
       }
     ],
     "edges": [
@@ -1129,13 +1129,13 @@
       },
       {
         "source": "Seydou Kéita",
-        "target": "Bojan Krkíc Pérez",
+        "target": "Zlatan Ibrahimović",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Seydou Kéita",
-        "target": "Zlatan Ibrahimović",
+        "target": "Bojan Krkíc Pérez",
         "weight": 1,
         "direction": "forward"
       },
@@ -1148,6 +1148,18 @@
       {
         "source": "Gerard Piqué Bernabéu",
         "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Zlatan Ibrahimović",
+        "target": "Bojan Krkíc Pérez",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Zlatan Ibrahimović",
+        "target": "Seydou Kéita",
         "weight": 1,
         "direction": "backward"
       },
@@ -1174,18 +1186,6 @@
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Zlatan Ibrahimović",
-        "target": "Bojan Krkíc Pérez",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Zlatan Ibrahimović",
-        "target": "Seydou Kéita",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

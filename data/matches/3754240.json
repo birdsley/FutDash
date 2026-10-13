@@ -1504,17 +1504,6 @@
         "eigenvector": 0.3031
       },
       {
-        "id": "Jack Butland",
-        "short": "Butland",
-        "name": "Jack Butland",
-        "x": 12.99,
-        "y": 36.78,
-        "size": 64.5,
-        "is_playmaker": true,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0742
-      },
-      {
         "id": "Mame Biram Diouf",
         "short": "Diouf",
         "name": "Mame Diouf",
@@ -1524,6 +1513,17 @@
         "is_playmaker": false,
         "betweenness": 0.2111,
         "eigenvector": 0.1103
+      },
+      {
+        "id": "Jack Butland",
+        "short": "Butland",
+        "name": "Jack Butland",
+        "x": 12.99,
+        "y": 36.78,
+        "size": 64.5,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0742
       }
     ],
     "edges": [
@@ -1625,15 +1625,15 @@
       },
       {
         "source": "Geoff Cameron",
-        "target": "Jack Butland",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Geoff Cameron",
         "target": "Mame Biram Diouf",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Geoff Cameron",
+        "target": "Jack Butland",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Phil Bardsley",
@@ -1654,18 +1654,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Jack Butland",
-        "target": "Marc Muniesa Martínez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jack Butland",
-        "target": "Geoff Cameron",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Mame Biram Diouf",
         "target": "Geoff Cameron",
         "weight": 1,
@@ -1676,6 +1664,18 @@
         "target": "Phil Bardsley",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Jack Butland",
+        "target": "Marc Muniesa Martínez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jack Butland",
+        "target": "Geoff Cameron",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

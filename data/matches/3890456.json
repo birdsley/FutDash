@@ -825,17 +825,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Karim Bellarabi",
-        "short": "Bellarabi",
-        "name": "Karim Bellarabi",
-        "x": 78.4,
-        "y": 36.33,
-        "size": 64.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Stefan Kießling",
         "short": "Kießling",
         "name": "Stefan Kießling",
@@ -844,6 +833,17 @@
         "size": 74.8,
         "is_playmaker": true,
         "betweenness": 0.1667,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Karim Bellarabi",
+        "short": "Bellarabi",
+        "name": "Karim Bellarabi",
+        "x": 78.4,
+        "y": 36.33,
+        "size": 64.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       }
     ],
@@ -933,28 +933,10 @@
         "direction": "forward"
       },
       {
-        "source": "Karim Bellarabi",
-        "target": "Javier Hernández Balcázar",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Karim Bellarabi",
-        "target": "Stefan Kießling",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Stefan Kießling",
         "target": "Javier Hernández Balcázar",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Stefan Kießling",
-        "target": "Karim Bellarabi",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Stefan Kießling",
@@ -965,6 +947,24 @@
       {
         "source": "Stefan Kießling",
         "target": "Christoph Kramer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Stefan Kießling",
+        "target": "Karim Bellarabi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Karim Bellarabi",
+        "target": "Javier Hernández Balcázar",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Karim Bellarabi",
+        "target": "Stefan Kießling",
         "weight": 1,
         "direction": "backward"
       }

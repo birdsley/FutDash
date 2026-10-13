@@ -1050,17 +1050,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Raheem Sterling",
-        "short": "Sterling",
-        "name": "Raheem Sterling",
-        "x": 69.17,
-        "y": 10.2,
-        "size": 58.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0127
-      },
-      {
         "id": "Eliaquim Mangala",
         "short": "Mangala",
         "name": "Eliaquim Mangala",
@@ -1070,6 +1059,17 @@
         "is_playmaker": true,
         "betweenness": 0.15,
         "eigenvector": 0.0193
+      },
+      {
+        "id": "Raheem Sterling",
+        "short": "Sterling",
+        "name": "Raheem Sterling",
+        "x": 69.17,
+        "y": 10.2,
+        "size": 58.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0127
       }
     ],
     "edges": [
@@ -1153,15 +1153,15 @@
       },
       {
         "source": "Gaël Clichy",
-        "target": "Raheem Sterling",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gaël Clichy",
         "target": "Eliaquim Mangala",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gaël Clichy",
+        "target": "Raheem Sterling",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Sergio Leonel Agüero del Castillo",
@@ -1236,24 +1236,6 @@
         "direction": "backward"
       },
       {
-        "source": "Raheem Sterling",
-        "target": "Gaël Clichy",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Raheem Sterling",
-        "target": "Eliaquim Mangala",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Eliaquim Mangala",
-        "target": "Raheem Sterling",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Eliaquim Mangala",
         "target": "Gaël Clichy",
         "weight": 1,
@@ -1264,6 +1246,24 @@
         "target": "Fernando Luiz Rosa",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Eliaquim Mangala",
+        "target": "Raheem Sterling",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Raheem Sterling",
+        "target": "Gaël Clichy",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Raheem Sterling",
+        "target": "Eliaquim Mangala",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

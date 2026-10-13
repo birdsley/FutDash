@@ -1005,17 +1005,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Pierre-Emerick Aubameyang",
-        "short": "Aubameyang",
-        "name": "Pierre-Emerick Aubameyang",
-        "x": 90.61,
-        "y": 31.97,
-        "size": 56.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0022
-      },
-      {
         "id": "Marco Reus",
         "short": "Reus",
         "name": "Marco Reus",
@@ -1025,6 +1014,17 @@
         "is_playmaker": false,
         "betweenness": 0.3167,
         "eigenvector": 0.0037
+      },
+      {
+        "id": "Pierre-Emerick Aubameyang",
+        "short": "Aubameyang",
+        "name": "Pierre-Emerick Aubameyang",
+        "x": 90.61,
+        "y": 31.97,
+        "size": 56.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0022
       }
     ],
     "edges": [
@@ -1156,15 +1156,15 @@
       },
       {
         "source": "Gonzalo Castro Randon",
-        "target": "Pierre-Emerick Aubameyang",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gonzalo Castro Randon",
         "target": "Marco Reus",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Gonzalo Castro Randon",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Mats Hummels",
@@ -1191,24 +1191,6 @@
         "direction": "forward"
       },
       {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Gonzalo Castro Randon",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Marco Reus",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Marco Reus",
-        "target": "Pierre-Emerick Aubameyang",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Marco Reus",
         "target": "Gonzalo Castro Randon",
         "weight": 1,
@@ -1219,6 +1201,24 @@
         "target": "Marcel Schmelzer",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Marco Reus",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Gonzalo Castro Randon",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Marco Reus",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

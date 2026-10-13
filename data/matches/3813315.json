@@ -1259,6 +1259,17 @@
         "eigenvector": 0.0756
       },
       {
+        "id": "Peter Hartley",
+        "short": "Hartley",
+        "name": "Peter Hartley",
+        "x": 51.71,
+        "y": 29.39,
+        "size": 75.5,
+        "is_playmaker": true,
+        "betweenness": 0.0556,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Narender Gahlot",
         "short": "Gahlot",
         "name": "Narender Gahlot",
@@ -1278,17 +1289,6 @@
         "size": 75.5,
         "is_playmaker": true,
         "betweenness": 0.0667,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Peter Hartley",
-        "short": "Hartley",
-        "name": "Peter Hartley",
-        "x": 51.71,
-        "y": 29.39,
-        "size": 75.5,
-        "is_playmaker": true,
-        "betweenness": 0.0556,
         "eigenvector": 0.0
       }
     ],
@@ -1366,6 +1366,18 @@
         "direction": "backward"
       },
       {
+        "source": "Peter Hartley",
+        "target": "Alexandre Monteiro de Lima",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Peter Hartley",
+        "target": "Komal Thatal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Narender Gahlot",
         "target": "Laldinliana Renthlei",
         "weight": 1,
@@ -1379,27 +1391,15 @@
       },
       {
         "source": "Komal Thatal",
-        "target": "Ricky Lallawmawma",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Komal Thatal",
         "target": "Peter Hartley",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Peter Hartley",
-        "target": "Komal Thatal",
+        "source": "Komal Thatal",
+        "target": "Ricky Lallawmawma",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Peter Hartley",
-        "target": "Alexandre Monteiro de Lima",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       }
     ]
   },

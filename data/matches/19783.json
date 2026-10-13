@@ -1080,17 +1080,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Drew Spence",
-        "short": "Spence",
-        "name": "Drew Spence",
-        "x": 63.32,
-        "y": 40.53,
-        "size": 59.3,
-        "is_playmaker": false,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0113
-      },
-      {
         "id": "Erin Cuthbert",
         "short": "Cuthbert",
         "name": "Erin Cuthbert",
@@ -1100,6 +1089,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0073
+      },
+      {
+        "id": "Drew Spence",
+        "short": "Spence",
+        "name": "Drew Spence",
+        "x": 63.32,
+        "y": 40.53,
+        "size": 59.3,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0113
       }
     ],
     "edges": [
@@ -1237,15 +1237,15 @@
       },
       {
         "source": "So-Yun Ji",
-        "target": "Drew Spence",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "So-Yun Ji",
         "target": "Erin Cuthbert",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Drew Spence",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Jonna Ann-Charlotte Andersson",
@@ -1266,14 +1266,14 @@
         "direction": "backward"
       },
       {
-        "source": "Drew Spence",
+        "source": "Erin Cuthbert",
         "target": "So-Yun Ji",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Drew Spence",
-        "target": "Sophie Louise Ingle",
+        "source": "Erin Cuthbert",
+        "target": "Drew Spence",
         "weight": 1,
         "direction": "backward"
       },
@@ -1284,14 +1284,14 @@
         "direction": "forward"
       },
       {
-        "source": "Erin Cuthbert",
+        "source": "Drew Spence",
         "target": "So-Yun Ji",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Erin Cuthbert",
-        "target": "Drew Spence",
+        "source": "Drew Spence",
+        "target": "Sophie Louise Ingle",
         "weight": 1,
         "direction": "backward"
       }

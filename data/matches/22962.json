@@ -1180,17 +1180,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Agustina Barroso Basualdo",
-        "short": "Basualdo",
-        "name": "Agustina Barroso Basualdo",
-        "x": 37.77,
-        "y": 40.3,
-        "size": 68.1,
-        "is_playmaker": false,
-        "betweenness": 0.2167,
-        "eigenvector": 0.0806
-      },
-      {
         "id": "Miriam Anahí Mayorga",
         "short": "Mayorga",
         "name": "Miriam Anahí Mayorga",
@@ -1200,6 +1189,17 @@
         "is_playmaker": true,
         "betweenness": 0.2556,
         "eigenvector": 0.0807
+      },
+      {
+        "id": "Agustina Barroso Basualdo",
+        "short": "Basualdo",
+        "name": "Agustina Barroso Basualdo",
+        "x": 37.77,
+        "y": 40.3,
+        "size": 68.1,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.0806
       }
     ],
     "edges": [
@@ -1306,6 +1306,18 @@
         "direction": "forward"
       },
       {
+        "source": "Miriam Anahí Mayorga",
+        "target": "Florencia Soledad Jaimes",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Miriam Anahí Mayorga",
+        "target": "Agustina Barroso Basualdo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Agustina Barroso Basualdo",
         "target": "Miriam Anahí Mayorga",
         "weight": 1,
@@ -1316,18 +1328,6 @@
         "target": "María Florencia Bonsegundo",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Miriam Anahí Mayorga",
-        "target": "Agustina Barroso Basualdo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Miriam Anahí Mayorga",
-        "target": "Florencia Soledad Jaimes",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

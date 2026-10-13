@@ -1183,6 +1183,17 @@
         "eigenvector": 0.5602
       },
       {
+        "id": "Christian Gentner",
+        "short": "Gentner",
+        "name": "Christian Gentner",
+        "x": 59.4,
+        "y": 45.86,
+        "size": 66.4,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0422
+      },
+      {
         "id": "Timo Werner",
         "short": "Werner",
         "name": "Timo Werner",
@@ -1203,17 +1214,6 @@
         "is_playmaker": false,
         "betweenness": 0.2111,
         "eigenvector": 0.0179
-      },
-      {
-        "id": "Christian Gentner",
-        "short": "Gentner",
-        "name": "Christian Gentner",
-        "x": 59.4,
-        "y": 45.86,
-        "size": 66.4,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.0422
       }
     ],
     "edges": [
@@ -1279,15 +1279,15 @@
       },
       {
         "source": "Daniel Didavi",
-        "target": "Timo Werner",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Daniel Didavi",
         "target": "Christian Gentner",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Daniel Didavi",
+        "target": "Timo Werner",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Kevin Großkreutz",
@@ -1314,26 +1314,8 @@
         "direction": "lateral"
       },
       {
-        "source": "Timo Werner",
+        "source": "Christian Gentner",
         "target": "Daniel Didavi",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Timo Werner",
-        "target": "Christian Gentner",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sereso Geoffroy Gonzaroua Dié",
-        "target": "Georg Niedermeier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sereso Geoffroy Gonzaroua Dié",
-        "target": "Christian Gentner",
         "weight": 1,
         "direction": "forward"
       },
@@ -1350,8 +1332,26 @@
         "direction": "backward"
       },
       {
-        "source": "Christian Gentner",
+        "source": "Timo Werner",
+        "target": "Christian Gentner",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Timo Werner",
         "target": "Daniel Didavi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Georg Niedermeier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sereso Geoffroy Gonzaroua Dié",
+        "target": "Christian Gentner",
         "weight": 1,
         "direction": "forward"
       }

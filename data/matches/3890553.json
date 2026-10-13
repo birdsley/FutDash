@@ -1174,17 +1174,6 @@
         "eigenvector": 0.1105
       },
       {
-        "id": "Gustavo Adrián Ramos Vásquez",
-        "short": "Ramos",
-        "name": "Adrián Ramos",
-        "x": 69.21,
-        "y": 45.73,
-        "size": 58.3,
-        "is_playmaker": true,
-        "betweenness": 0.4222,
-        "eigenvector": 0.0104
-      },
-      {
         "id": "Pierre-Emerick Aubameyang",
         "short": "Aubameyang",
         "name": "Pierre-Emerick Aubameyang",
@@ -1194,6 +1183,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0023
+      },
+      {
+        "id": "Gustavo Adrián Ramos Vásquez",
+        "short": "Ramos",
+        "name": "Adrián Ramos",
+        "x": 69.21,
+        "y": 45.73,
+        "size": 58.3,
+        "is_playmaker": true,
+        "betweenness": 0.4222,
+        "eigenvector": 0.0104
       }
     ],
     "edges": [
@@ -1343,13 +1343,13 @@
       },
       {
         "source": "Henrikh Mkhitaryan",
-        "target": "Gustavo Adrián Ramos Vásquez",
+        "target": "Pierre-Emerick Aubameyang",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Henrikh Mkhitaryan",
-        "target": "Pierre-Emerick Aubameyang",
+        "target": "Gustavo Adrián Ramos Vásquez",
         "weight": 1,
         "direction": "backward"
       },
@@ -1357,6 +1357,24 @@
         "source": "Roman Bürki",
         "target": "Mats Hummels",
         "weight": 8,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Henrikh Mkhitaryan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierre-Emerick Aubameyang",
+        "target": "Gustavo Adrián Ramos Vásquez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gustavo Adrián Ramos Vásquez",
+        "target": "Pierre-Emerick Aubameyang",
+        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1370,24 +1388,6 @@
         "target": "Henrikh Mkhitaryan",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Gustavo Adrián Ramos Vásquez",
-        "target": "Pierre-Emerick Aubameyang",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Henrikh Mkhitaryan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Pierre-Emerick Aubameyang",
-        "target": "Gustavo Adrián Ramos Vásquez",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

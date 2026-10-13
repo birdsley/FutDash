@@ -1005,17 +1005,6 @@
         "eigenvector": 0.0007
       },
       {
-        "id": "Ben Foster",
-        "short": "Foster",
-        "name": "Ben Foster",
-        "x": 8.46,
-        "y": 42.49,
-        "size": 60.2,
-        "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.0121
-      },
-      {
         "id": "Jonas Olsson",
         "short": "Olsson",
         "name": "Jonas Olsson",
@@ -1025,6 +1014,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0167
+      },
+      {
+        "id": "Ben Foster",
+        "short": "Foster",
+        "name": "Ben Foster",
+        "x": 8.46,
+        "y": 42.49,
+        "size": 60.2,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.0121
       }
     ],
     "edges": [
@@ -1144,13 +1144,13 @@
       },
       {
         "source": "Claudio Ariel Yacob",
-        "target": "Ben Foster",
+        "target": "Jonas Olsson",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Claudio Ariel Yacob",
-        "target": "Jonas Olsson",
+        "target": "Ben Foster",
         "weight": 1,
         "direction": "backward"
       },
@@ -1197,18 +1197,6 @@
         "direction": "backward"
       },
       {
-        "source": "Ben Foster",
-        "target": "Gareth McAuley",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ben Foster",
-        "target": "Claudio Ariel Yacob",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Jonas Olsson",
         "target": "Claudio Ariel Yacob",
         "weight": 1,
@@ -1217,6 +1205,18 @@
       {
         "source": "Jonas Olsson",
         "target": "Chris Brunt",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ben Foster",
+        "target": "Gareth McAuley",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ben Foster",
+        "target": "Claudio Ariel Yacob",
         "weight": 1,
         "direction": "forward"
       }

@@ -1028,28 +1028,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Danijel Subašić",
-        "short": "Subašić",
-        "name": "Danijel Subašić",
-        "x": 8.36,
-        "y": 39.28,
-        "size": 60.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0011
-      },
-      {
-        "id": "Wallace Fortuna dos Santos",
-        "short": "Wallace",
-        "name": "Wallace",
-        "x": 47.79,
-        "y": 55.1,
-        "size": 66.9,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0213
-      },
-      {
         "id": "Jérémy Toulalan",
         "short": "Toulalan",
         "name": "Jérémy Toulalan",
@@ -1070,6 +1048,28 @@
         "is_playmaker": true,
         "betweenness": 0.45,
         "eigenvector": 0.0455
+      },
+      {
+        "id": "Danijel Subašić",
+        "short": "Subašić",
+        "name": "Danijel Subašić",
+        "x": 8.36,
+        "y": 39.28,
+        "size": 60.9,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0011
+      },
+      {
+        "id": "Wallace Fortuna dos Santos",
+        "short": "Wallace",
+        "name": "Wallace",
+        "x": 47.79,
+        "y": 55.1,
+        "size": 66.9,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0213
       }
     ],
     "edges": [
@@ -1183,15 +1183,15 @@
       },
       {
         "source": "João Filipe Iria Santos Moutinho",
-        "target": "Wallace Fortuna dos Santos",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "João Filipe Iria Santos Moutinho",
         "target": "Lacina Traoré",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "João Filipe Iria Santos Moutinho",
+        "target": "Wallace Fortuna dos Santos",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Elderson Uwa Echiejile",
@@ -1200,42 +1200,6 @@
         "direction": "forward"
       },
       {
-        "source": "Danijel Subašić",
-        "target": "Jérémy Toulalan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Danijel Subašić",
-        "target": "Wallace Fortuna dos Santos",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wallace Fortuna dos Santos",
-        "target": "Danijel Subašić",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Wallace Fortuna dos Santos",
-        "target": "Lacina Traoré",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wallace Fortuna dos Santos",
-        "target": "João Filipe Iria Santos Moutinho",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wallace Fortuna dos Santos",
-        "target": "Jérémy Toulalan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jérémy Toulalan",
         "target": "Danijel Subašić",
         "weight": 1,
@@ -1246,12 +1210,6 @@
         "target": "Wallace Fortuna dos Santos",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Lacina Traoré",
-        "target": "Wallace Fortuna dos Santos",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Lacina Traoré",
@@ -1264,6 +1222,48 @@
         "target": "João Filipe Iria Santos Moutinho",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Lacina Traoré",
+        "target": "Wallace Fortuna dos Santos",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Danijel Subašić",
+        "target": "Jérémy Toulalan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Danijel Subašić",
+        "target": "Wallace Fortuna dos Santos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wallace Fortuna dos Santos",
+        "target": "Jérémy Toulalan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Wallace Fortuna dos Santos",
+        "target": "Danijel Subašić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Wallace Fortuna dos Santos",
+        "target": "Lacina Traoré",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wallace Fortuna dos Santos",
+        "target": "João Filipe Iria Santos Moutinho",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

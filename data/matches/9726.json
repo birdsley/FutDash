@@ -1390,17 +1390,6 @@
         "eigenvector": 0.038
       },
       {
-        "id": "Sidnei Rechel da Silva Júnior",
-        "short": "Sidnei",
-        "name": "Sidnei",
-        "x": 40.02,
-        "y": 40.35,
-        "size": 62.9,
-        "is_playmaker": false,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0063
-      },
-      {
         "id": "Rubén Iván Martínez Andrade",
         "short": "Martínez",
         "name": "Rubén Martínez",
@@ -1410,6 +1399,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0024
+      },
+      {
+        "id": "Sidnei Rechel da Silva Júnior",
+        "short": "Sidnei",
+        "name": "Sidnei",
+        "x": 40.02,
+        "y": 40.35,
+        "size": 62.9,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0063
       }
     ],
     "edges": [
@@ -1565,12 +1565,30 @@
       },
       {
         "source": "Fabian Lukas Schär",
+        "target": "Rubén Iván Martínez Andrade",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Fabian Lukas Schär",
         "target": "Sidnei Rechel da Silva Júnior",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Fabian Lukas Schär",
+        "source": "Rubén Iván Martínez Andrade",
+        "target": "Sidnei Rechel da Silva Júnior",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rubén Iván Martínez Andrade",
+        "target": "Fabian Lukas Schär",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sidnei Rechel da Silva Júnior",
         "target": "Rubén Iván Martínez Andrade",
         "weight": 1,
         "direction": "backward"
@@ -1586,24 +1604,6 @@
         "target": "Fabian Lukas Schär",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Sidnei Rechel da Silva Júnior",
-        "target": "Rubén Iván Martínez Andrade",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rubén Iván Martínez Andrade",
-        "target": "Sidnei Rechel da Silva Júnior",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rubén Iván Martínez Andrade",
-        "target": "Fabian Lukas Schär",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

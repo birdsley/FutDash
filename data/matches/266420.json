@@ -893,26 +893,15 @@
         "eigenvector": 0.5206
       },
       {
-        "id": "Christian Fernández Salas",
-        "short": "Bolaño",
-        "name": "Bolaño",
-        "x": 47.33,
-        "y": 18.09,
+        "id": "Aleix Vidal Parreu",
+        "short": "Vidal",
+        "name": "Aleix Vidal",
+        "x": 49.24,
+        "y": 15.55,
         "size": 64.3,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0068
-      },
-      {
-        "id": "Rodrigo Ríos Lozano",
-        "short": "Rodri",
-        "name": "Rodri",
-        "x": 78.58,
-        "y": 51.49,
-        "size": 64.3,
-        "is_playmaker": false,
-        "betweenness": 0.2444,
-        "eigenvector": 0.0676
       },
       {
         "id": "Ángel Trujillo Canorea",
@@ -926,11 +915,22 @@
         "eigenvector": 0.0673
       },
       {
-        "id": "Aleix Vidal Parreu",
-        "short": "Vidal",
-        "name": "Aleix Vidal",
-        "x": 49.24,
-        "y": 15.55,
+        "id": "Rodrigo Ríos Lozano",
+        "short": "Rodri",
+        "name": "Rodri",
+        "x": 78.58,
+        "y": 51.49,
+        "size": 64.3,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.0676
+      },
+      {
+        "id": "Christian Fernández Salas",
+        "short": "Bolaño",
+        "name": "Bolaño",
+        "x": 47.33,
+        "y": 18.09,
         "size": 64.3,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1029,32 +1029,20 @@
         "direction": "backward"
       },
       {
-        "source": "Christian Fernández Salas",
-        "target": "Aleix Vidal Parreu",
+        "source": "Aleix Vidal Parreu",
+        "target": "Christian Fernández Salas",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Christian Fernández Salas",
+        "source": "Aleix Vidal Parreu",
         "target": "Ángel Trujillo Canorea",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Rodrigo Ríos Lozano",
-        "target": "Fernando Soriano Marco",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rodrigo Ríos Lozano",
-        "target": "Jesús Joaquín Fernández Sáez de la Torre",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Ángel Trujillo Canorea",
-        "target": "Christian Fernández Salas",
+        "target": "Aleix Vidal Parreu",
         "weight": 1,
         "direction": "forward"
       },
@@ -1072,18 +1060,30 @@
       },
       {
         "source": "Ángel Trujillo Canorea",
-        "target": "Aleix Vidal Parreu",
+        "target": "Christian Fernández Salas",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Aleix Vidal Parreu",
-        "target": "Christian Fernández Salas",
+        "source": "Rodrigo Ríos Lozano",
+        "target": "Fernando Soriano Marco",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Rodrigo Ríos Lozano",
+        "target": "Jesús Joaquín Fernández Sáez de la Torre",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Christian Fernández Salas",
+        "target": "Aleix Vidal Parreu",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Aleix Vidal Parreu",
+        "source": "Christian Fernández Salas",
         "target": "Ángel Trujillo Canorea",
         "weight": 1,
         "direction": "backward"
@@ -1181,15 +1181,15 @@
         "eigenvector": 0.0822
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Valdés",
-        "name": "Víctor Valdés",
-        "x": 12.44,
-        "y": 42.83,
+        "id": "Pedro Eliezer Rodríguez Ledesma",
+        "short": "Pedro",
+        "name": "Pedro",
+        "x": 67.98,
+        "y": 27.45,
         "size": 57.6,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0225
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0179
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
@@ -1203,15 +1203,15 @@
         "eigenvector": 0.0121
       },
       {
-        "id": "Pedro Eliezer Rodríguez Ledesma",
-        "short": "Pedro",
-        "name": "Pedro",
-        "x": 67.98,
-        "y": 27.45,
+        "id": "Víctor Valdés Arribas",
+        "short": "Valdés",
+        "name": "Víctor Valdés",
+        "x": 12.44,
+        "y": 42.83,
         "size": 57.6,
-        "is_playmaker": true,
-        "betweenness": 0.3222,
-        "eigenvector": 0.0179
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0225
       }
     ],
     "edges": [
@@ -1379,15 +1379,15 @@
       },
       {
         "source": "Francesc Fàbregas i Soler",
-        "target": "Lionel Andrés Messi Cuccittini",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Francesc Fàbregas i Soler",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Francesc Fàbregas i Soler",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Alexis Alejandro Sánchez Sánchez",
@@ -1396,16 +1396,16 @@
         "direction": "forward"
       },
       {
-        "source": "Víctor Valdés Arribas",
-        "target": "Gerard Piqué Bernabéu",
+        "source": "Pedro Eliezer Rodríguez Ledesma",
+        "target": "Andrés Iniesta Luján",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Víctor Valdés Arribas",
-        "target": "Marc Bartra Aregall",
+        "source": "Pedro Eliezer Rodríguez Ledesma",
+        "target": "Francesc Fàbregas i Soler",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
@@ -1420,16 +1420,16 @@
         "direction": "backward"
       },
       {
-        "source": "Pedro Eliezer Rodríguez Ledesma",
-        "target": "Andrés Iniesta Luján",
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Pedro Eliezer Rodríguez Ledesma",
-        "target": "Francesc Fàbregas i Soler",
+        "source": "Víctor Valdés Arribas",
+        "target": "Marc Bartra Aregall",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       }
     ]
   },

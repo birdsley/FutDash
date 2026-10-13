@@ -1201,17 +1201,6 @@
         "eigenvector": 0.0147
       },
       {
-        "id": "Timo Werner",
-        "short": "Werner",
-        "name": "Timo Werner",
-        "x": 65.48,
-        "y": 53.27,
-        "size": 60.4,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0226
-      },
-      {
         "id": "Florian Klein",
         "short": "Klein",
         "name": "Florian Klein",
@@ -1221,6 +1210,17 @@
         "is_playmaker": false,
         "betweenness": 0.2167,
         "eigenvector": 0.0102
+      },
+      {
+        "id": "Timo Werner",
+        "short": "Werner",
+        "name": "Timo Werner",
+        "x": 65.48,
+        "y": 53.27,
+        "size": 60.4,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0226
       }
     ],
     "edges": [
@@ -1381,6 +1381,18 @@
         "direction": "backward"
       },
       {
+        "source": "Florian Klein",
+        "target": "Daniel Schwaab",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Florian Klein",
+        "target": "Timo Werner",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Timo Werner",
         "target": "Florian Klein",
         "weight": 1,
@@ -1391,18 +1403,6 @@
         "target": "Daniel Didavi",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Florian Klein",
-        "target": "Timo Werner",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Florian Klein",
-        "target": "Daniel Schwaab",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

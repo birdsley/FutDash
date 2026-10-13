@@ -1020,17 +1020,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Winston Reid",
-        "short": "Reid",
-        "name": "Winston Reid",
-        "x": 35.49,
-        "y": 44.17,
-        "size": 62.8,
-        "is_playmaker": true,
-        "betweenness": 0.1778,
-        "eigenvector": 0.01
-      },
-      {
         "id": "Angelo Obinze Ogbonna",
         "short": "Ogbonna",
         "name": "Angelo Ogbonna",
@@ -1040,6 +1029,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0073
+      },
+      {
+        "id": "Winston Reid",
+        "short": "Reid",
+        "name": "Winston Reid",
+        "x": 35.49,
+        "y": 44.17,
+        "size": 62.8,
+        "is_playmaker": true,
+        "betweenness": 0.1778,
+        "eigenvector": 0.01
       }
     ],
     "edges": [
@@ -1129,13 +1129,13 @@
       },
       {
         "source": "Cheikhou Kouyaté",
-        "target": "Winston Reid",
+        "target": "Angelo Obinze Ogbonna",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Cheikhou Kouyaté",
-        "target": "Angelo Obinze Ogbonna",
+        "target": "Winston Reid",
         "weight": 1,
         "direction": "backward"
       },
@@ -1182,13 +1182,13 @@
         "direction": "forward"
       },
       {
-        "source": "Winston Reid",
-        "target": "James Tomkins",
+        "source": "Angelo Obinze Ogbonna",
+        "target": "Winston Reid",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Winston Reid",
+        "source": "Angelo Obinze Ogbonna",
         "target": "Cheikhou Kouyaté",
         "weight": 1,
         "direction": "forward"
@@ -1200,13 +1200,13 @@
         "direction": "lateral"
       },
       {
-        "source": "Angelo Obinze Ogbonna",
-        "target": "Winston Reid",
+        "source": "Winston Reid",
+        "target": "James Tomkins",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Angelo Obinze Ogbonna",
+        "source": "Winston Reid",
         "target": "Cheikhou Kouyaté",
         "weight": 1,
         "direction": "forward"

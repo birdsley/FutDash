@@ -975,17 +975,6 @@
         "eigenvector": 0.3108
       },
       {
-        "id": "Diego Roberto Godín Leal",
-        "short": "Godín",
-        "name": "Diego Godín",
-        "x": 37.59,
-        "y": 25.99,
-        "size": 63.8,
-        "is_playmaker": true,
-        "betweenness": 0.3556,
-        "eigenvector": 0.0297
-      },
-      {
         "id": "Jan Oblak",
         "short": "Oblak",
         "name": "Jan Oblak",
@@ -995,6 +984,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0123
+      },
+      {
+        "id": "Diego Roberto Godín Leal",
+        "short": "Godín",
+        "name": "Diego Godín",
+        "x": 37.59,
+        "y": 25.99,
+        "size": 63.8,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0297
       }
     ],
     "edges": [
@@ -1114,15 +1114,15 @@
       },
       {
         "source": "José María Giménez de Vargas",
-        "target": "Diego Roberto Godín Leal",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "José María Giménez de Vargas",
         "target": "Jan Oblak",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José María Giménez de Vargas",
+        "target": "Diego Roberto Godín Leal",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Tiago Cardoso Mendes",
@@ -1149,14 +1149,14 @@
         "direction": "backward"
       },
       {
-        "source": "Diego Roberto Godín Leal",
-        "target": "José María Giménez de Vargas",
+        "source": "Jan Oblak",
+        "target": "Diego Roberto Godín Leal",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Diego Roberto Godín Leal",
-        "target": "Tiago Cardoso Mendes",
+        "source": "Jan Oblak",
+        "target": "José María Giménez de Vargas",
         "weight": 1,
         "direction": "forward"
       },
@@ -1167,14 +1167,14 @@
         "direction": "backward"
       },
       {
-        "source": "Jan Oblak",
-        "target": "Diego Roberto Godín Leal",
+        "source": "Diego Roberto Godín Leal",
+        "target": "José María Giménez de Vargas",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Jan Oblak",
-        "target": "José María Giménez de Vargas",
+        "source": "Diego Roberto Godín Leal",
+        "target": "Tiago Cardoso Mendes",
         "weight": 1,
         "direction": "forward"
       }

@@ -1315,17 +1315,6 @@
         "eigenvector": 0.0002
       },
       {
-        "id": "Mousa Sidi Yaya Dembélé",
-        "short": "Dembélé",
-        "name": "Mousa Dembélé",
-        "x": 60.96,
-        "y": 31.12,
-        "size": 57.4,
-        "is_playmaker": true,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0096
-      },
-      {
         "id": "Thibaut Courtois",
         "short": "Courtois",
         "name": "Thibaut Courtois",
@@ -1335,6 +1324,17 @@
         "is_playmaker": false,
         "betweenness": 0.2278,
         "eigenvector": 0.0197
+      },
+      {
+        "id": "Mousa Sidi Yaya Dembélé",
+        "short": "Dembélé",
+        "name": "Mousa Dembélé",
+        "x": 60.96,
+        "y": 31.12,
+        "size": 57.4,
+        "is_playmaker": true,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0096
       }
     ],
     "edges": [
@@ -1388,15 +1388,15 @@
       },
       {
         "source": "Vincent Kompany",
-        "target": "Mousa Sidi Yaya Dembélé",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Vincent Kompany",
         "target": "Thibaut Courtois",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Vincent Kompany",
+        "target": "Mousa Sidi Yaya Dembélé",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Nacer Chadli",
@@ -1507,18 +1507,6 @@
         "direction": "backward"
       },
       {
-        "source": "Mousa Sidi Yaya Dembélé",
-        "target": "Vincent Kompany",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Mousa Sidi Yaya Dembélé",
-        "target": "Marouane Fellaini-Bakkioui",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Thibaut Courtois",
         "target": "Vincent Kompany",
         "weight": 1,
@@ -1527,6 +1515,18 @@
       {
         "source": "Thibaut Courtois",
         "target": "Toby Alderweireld",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mousa Sidi Yaya Dembélé",
+        "target": "Vincent Kompany",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mousa Sidi Yaya Dembélé",
+        "target": "Marouane Fellaini-Bakkioui",
         "weight": 1,
         "direction": "forward"
       }

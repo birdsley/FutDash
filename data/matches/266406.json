@@ -1080,17 +1080,6 @@
         "eigenvector": 0.0501
       },
       {
-        "id": "Sergio Asenjo Andrés",
-        "short": "Asenjo",
-        "name": "Sergio Asenjo",
-        "x": 8.36,
-        "y": 39.63,
-        "size": 66.3,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0876
-      },
-      {
         "id": "Víctor Ruíz Torre",
         "short": "Ruíz",
         "name": "Víctor Ruíz",
@@ -1100,6 +1089,17 @@
         "is_playmaker": true,
         "betweenness": 0.4222,
         "eigenvector": 0.1476
+      },
+      {
+        "id": "Sergio Asenjo Andrés",
+        "short": "Asenjo",
+        "name": "Sergio Asenjo",
+        "x": 8.36,
+        "y": 39.63,
+        "size": 66.3,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0876
       }
     ],
     "edges": [
@@ -1200,14 +1200,14 @@
         "direction": "backward"
       },
       {
-        "source": "Sergio Asenjo Andrés",
-        "target": "Víctor Ruíz Torre",
+        "source": "Víctor Ruíz Torre",
+        "target": "Bruno Soriano Llido",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Sergio Asenjo Andrés",
-        "target": "Mateo Pablo Musacchio",
+        "source": "Víctor Ruíz Torre",
+        "target": "Manuel Trigueros Muñoz",
         "weight": 1,
         "direction": "forward"
       },
@@ -1218,14 +1218,14 @@
         "direction": "backward"
       },
       {
-        "source": "Víctor Ruíz Torre",
-        "target": "Bruno Soriano Llido",
+        "source": "Sergio Asenjo Andrés",
+        "target": "Víctor Ruíz Torre",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Víctor Ruíz Torre",
-        "target": "Manuel Trigueros Muñoz",
+        "source": "Sergio Asenjo Andrés",
+        "target": "Mateo Pablo Musacchio",
         "weight": 1,
         "direction": "forward"
       }
@@ -1333,17 +1333,6 @@
         "eigenvector": 0.2818
       },
       {
-        "id": "Munir El Haddadi Mohamed",
-        "short": "El Haddadi",
-        "name": "Munir El Haddadi",
-        "x": 87.69,
-        "y": 42.92,
-        "size": 57.2,
-        "is_playmaker": false,
-        "betweenness": 0.1722,
-        "eigenvector": 0.0114
-      },
-      {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Bravo",
         "name": "Claudio Bravo",
@@ -1353,6 +1342,17 @@
         "is_playmaker": false,
         "betweenness": 0.1713,
         "eigenvector": 0.0064
+      },
+      {
+        "id": "Munir El Haddadi Mohamed",
+        "short": "El Haddadi",
+        "name": "Munir El Haddadi",
+        "x": 87.69,
+        "y": 42.92,
+        "size": 57.2,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0114
       }
     ],
     "edges": [
@@ -1525,18 +1525,6 @@
         "direction": "backward"
       },
       {
-        "source": "Munir El Haddadi Mohamed",
-        "target": "Pedro Eliezer Rodríguez Ledesma",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Munir El Haddadi Mohamed",
-        "target": "Lionel Andrés Messi Cuccittini",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
@@ -1547,6 +1535,18 @@
         "target": "Jérémy Mathieu",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Munir El Haddadi Mohamed",
+        "target": "Pedro Eliezer Rodríguez Ledesma",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Munir El Haddadi Mohamed",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

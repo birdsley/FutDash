@@ -900,17 +900,6 @@
         "eigenvector": 0.0877
       },
       {
-        "id": "Esmee de Graaf",
-        "short": "de Graaf",
-        "name": "Esmee de Graaf",
-        "x": 65.91,
-        "y": 13.36,
-        "size": 58.9,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0041
-      },
-      {
         "id": "Brianna Visalli",
         "short": "Visalli",
         "name": "Brianna Visalli",
@@ -920,6 +909,17 @@
         "is_playmaker": true,
         "betweenness": 0.4444,
         "eigenvector": 0.0211
+      },
+      {
+        "id": "Esmee de Graaf",
+        "short": "de Graaf",
+        "name": "Esmee de Graaf",
+        "x": 65.91,
+        "y": 13.36,
+        "size": 58.9,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0041
       }
     ],
     "edges": [
@@ -1086,24 +1086,6 @@
         "direction": "forward"
       },
       {
-        "source": "Esmee de Graaf",
-        "target": "Erin Simon",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Esmee de Graaf",
-        "target": "Brianna Visalli",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Brianna Visalli",
-        "target": "Esmee de Graaf",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Brianna Visalli",
         "target": "Alisha Lehmann",
         "weight": 1,
@@ -1114,6 +1096,24 @@
         "target": "Kate Longhurst",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Brianna Visalli",
+        "target": "Esmee de Graaf",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Esmee de Graaf",
+        "target": "Erin Simon",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Esmee de Graaf",
+        "target": "Brianna Visalli",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -1219,17 +1219,6 @@
         "eigenvector": 0.4041
       },
       {
-        "id": "Rhiannon Roberts",
-        "short": "Roberts",
-        "name": "Rhiannon Roberts",
-        "x": 61.0,
-        "y": 47.75,
-        "size": 69.8,
-        "is_playmaker": true,
-        "betweenness": 0.2222,
-        "eigenvector": 0.2326
-      },
-      {
         "id": "Frances Kitching",
         "short": "Kitching",
         "name": "Frances Kitching",
@@ -1239,6 +1228,17 @@
         "is_playmaker": false,
         "betweenness": 0.0889,
         "eigenvector": 0.2084
+      },
+      {
+        "id": "Rhiannon Roberts",
+        "short": "Roberts",
+        "name": "Rhiannon Roberts",
+        "x": 61.0,
+        "y": 47.75,
+        "size": 69.8,
+        "is_playmaker": true,
+        "betweenness": 0.2222,
+        "eigenvector": 0.2326
       }
     ],
     "edges": [
@@ -1327,18 +1327,6 @@
         "direction": "backward"
       },
       {
-        "source": "Rhiannon Roberts",
-        "target": "Laura Coombs",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rhiannon Roberts",
-        "target": "Christie Murray",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Frances Kitching",
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 1,
@@ -1347,6 +1335,18 @@
       {
         "source": "Frances Kitching",
         "target": "Jasmine Matthews",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rhiannon Roberts",
+        "target": "Laura Coombs",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rhiannon Roberts",
+        "target": "Christie Murray",
         "weight": 1,
         "direction": "forward"
       }

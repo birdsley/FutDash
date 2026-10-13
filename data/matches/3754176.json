@@ -1323,28 +1323,6 @@
         "eigenvector": 0.4428
       },
       {
-        "id": "Wayne Hennessey",
-        "short": "Hennessey",
-        "name": "Wayne Hennessey",
-        "x": 17.19,
-        "y": 39.74,
-        "size": 65.7,
-        "is_playmaker": false,
-        "betweenness": 0.1,
-        "eigenvector": 0.0055
-      },
-      {
-        "id": "Joe Ledley",
-        "short": "Ledley",
-        "name": "Joe Ledley",
-        "x": 64.27,
-        "y": 21.37,
-        "size": 71.0,
-        "is_playmaker": true,
-        "betweenness": 0.3611,
-        "eigenvector": 0.1991
-      },
-      {
         "id": "Damien Delaney",
         "short": "Delaney",
         "name": "Damien Delaney",
@@ -1365,6 +1343,28 @@
         "is_playmaker": false,
         "betweenness": 0.1722,
         "eigenvector": 0.0018
+      },
+      {
+        "id": "Joe Ledley",
+        "short": "Ledley",
+        "name": "Joe Ledley",
+        "x": 64.27,
+        "y": 21.37,
+        "size": 71.0,
+        "is_playmaker": true,
+        "betweenness": 0.3611,
+        "eigenvector": 0.1991
+      },
+      {
+        "id": "Wayne Hennessey",
+        "short": "Hennessey",
+        "name": "Wayne Hennessey",
+        "x": 17.19,
+        "y": 39.74,
+        "size": 65.7,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0055
       }
     ],
     "edges": [
@@ -1471,16 +1471,46 @@
         "direction": "backward"
       },
       {
-        "source": "Wayne Hennessey",
-        "target": "Damien Delaney",
+        "source": "Damien Delaney",
+        "target": "Mile Jedinak",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Wayne Hennessey",
-        "target": "Scott Dann",
+        "source": "Damien Delaney",
+        "target": "Joe Ledley",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Damien Delaney",
+        "target": "Wayne Hennessey",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "Mile Jedinak",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "Jason Puncheon",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Scott Dann",
+        "target": "Wayne Hennessey",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Joe Ledley",
+        "target": "Damien Delaney",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Joe Ledley",
@@ -1495,44 +1525,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Joe Ledley",
+        "source": "Wayne Hennessey",
         "target": "Damien Delaney",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Damien Delaney",
-        "target": "Wayne Hennessey",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Damien Delaney",
-        "target": "Mile Jedinak",
-        "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Damien Delaney",
-        "target": "Joe Ledley",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Scott Dann",
-        "target": "Wayne Hennessey",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Scott Dann",
-        "target": "Mile Jedinak",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Scott Dann",
-        "target": "Jason Puncheon",
+        "source": "Wayne Hennessey",
+        "target": "Scott Dann",
         "weight": 1,
         "direction": "forward"
       }

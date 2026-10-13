@@ -1253,17 +1253,6 @@
         "eigenvector": 0.0073
       },
       {
-        "id": "Vincent Bessat",
-        "short": "Bessat",
-        "name": "Vincent Bessat",
-        "x": 64.89,
-        "y": 24.83,
-        "size": 68.3,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.0926
-      },
-      {
         "id": "Nicolas Seube",
         "short": "Seube",
         "name": "Nicolas Seube",
@@ -1284,6 +1273,17 @@
         "is_playmaker": false,
         "betweenness": 0.1,
         "eigenvector": 0.0009
+      },
+      {
+        "id": "Vincent Bessat",
+        "short": "Bessat",
+        "name": "Vincent Bessat",
+        "x": 64.89,
+        "y": 24.83,
+        "size": 68.3,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0926
       }
     ],
     "edges": [
@@ -1307,13 +1307,13 @@
       },
       {
         "source": "Julien Féret",
-        "target": "Vincent Bessat",
+        "target": "Nicolas Seube",
         "weight": 1,
         "direction": "lateral"
       },
       {
         "source": "Julien Féret",
-        "target": "Nicolas Seube",
+        "target": "Vincent Bessat",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1378,18 +1378,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Vincent Bessat",
-        "target": "Julien Féret",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Vincent Bessat",
-        "target": "Dennis Appiah",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Nicolas Seube",
         "target": "Jordan Adéoti",
         "weight": 1,
@@ -1412,6 +1400,18 @@
         "target": "Alaeddine Yahia",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Vincent Bessat",
+        "target": "Julien Féret",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Vincent Bessat",
+        "target": "Dennis Appiah",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

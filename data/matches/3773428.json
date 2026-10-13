@@ -1032,6 +1032,17 @@
         "eigenvector": 0.0003
       },
       {
+        "id": "Rafael Jiménez Jarque",
+        "short": "Jiménez",
+        "name": "Fali Jiménez",
+        "x": 5.8,
+        "y": 23.05,
+        "size": 66.4,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.0038
+      },
+      {
         "id": "Isaac Carcelén Valencia",
         "short": "Carcelén",
         "name": "Isaac Carcelén",
@@ -1052,17 +1063,6 @@
         "is_playmaker": true,
         "betweenness": 0.5667,
         "eigenvector": 0.0441
-      },
-      {
-        "id": "Rafael Jiménez Jarque",
-        "short": "Jiménez",
-        "name": "Fali Jiménez",
-        "x": 5.8,
-        "y": 23.05,
-        "size": 66.4,
-        "is_playmaker": false,
-        "betweenness": 0.1667,
-        "eigenvector": 0.0038
       }
     ],
     "edges": [
@@ -1169,6 +1169,18 @@
         "direction": "backward"
       },
       {
+        "source": "Rafael Jiménez Jarque",
+        "target": "Jeremías Ledesma",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rafael Jiménez Jarque",
+        "target": "Marcos Mauro López Gutiérrez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Isaac Carcelén Valencia",
         "target": "Jens Jønsson",
         "weight": 1,
@@ -1179,6 +1191,12 @@
         "target": "Marcos Mauro López Gutiérrez",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Marcos Mauro López Gutiérrez",
+        "target": "Rafael Jiménez Jarque",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Marcos Mauro López Gutiérrez",
@@ -1195,24 +1213,6 @@
       {
         "source": "Marcos Mauro López Gutiérrez",
         "target": "Jens Jønsson",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marcos Mauro López Gutiérrez",
-        "target": "Rafael Jiménez Jarque",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rafael Jiménez Jarque",
-        "target": "Jeremías Ledesma",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rafael Jiménez Jarque",
-        "target": "Marcos Mauro López Gutiérrez",
         "weight": 1,
         "direction": "forward"
       }
@@ -1320,17 +1320,6 @@
         "eigenvector": 0.0813
       },
       {
-        "id": "Marc-André ter Stegen",
-        "short": "ter Stegen",
-        "name": "Marc-André ter Stegen",
-        "x": 14.19,
-        "y": 39.39,
-        "size": 57.2,
-        "is_playmaker": false,
-        "betweenness": 0.1648,
-        "eigenvector": 0.0097
-      },
-      {
         "id": "Martin Braithwaite Christensen",
         "short": "Braithwaite",
         "name": "Martin Braithwaite",
@@ -1340,6 +1329,17 @@
         "is_playmaker": false,
         "betweenness": 0.1315,
         "eigenvector": 0.01
+      },
+      {
+        "id": "Marc-André ter Stegen",
+        "short": "ter Stegen",
+        "name": "Marc-André ter Stegen",
+        "x": 14.19,
+        "y": 39.39,
+        "size": 57.2,
+        "is_playmaker": false,
+        "betweenness": 0.1648,
+        "eigenvector": 0.0097
       }
     ],
     "edges": [
@@ -1512,18 +1512,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Marc-André ter Stegen",
-        "target": "Clément Lenglet",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marc-André ter Stegen",
-        "target": "Óscar Mingueza García",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Martin Braithwaite Christensen",
         "target": "Antoine Griezmann",
         "weight": 1,
@@ -1532,6 +1520,18 @@
       {
         "source": "Martin Braithwaite Christensen",
         "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Clément Lenglet",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Óscar Mingueza García",
         "weight": 1,
         "direction": "forward"
       }

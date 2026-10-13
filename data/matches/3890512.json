@@ -1126,17 +1126,6 @@
         "eigenvector": 0.3012
       },
       {
-        "id": "Philipp Ochs",
-        "short": "Ochs",
-        "name": "Philipp Ochs",
-        "x": 48.39,
-        "y": 40.05,
-        "size": 61.5,
-        "is_playmaker": false,
-        "betweenness": 0.3722,
-        "eigenvector": 0.0286
-      },
-      {
         "id": "Andrej Kramarić",
         "short": "Kramarić",
         "name": "Andrej Kramarić",
@@ -1146,6 +1135,17 @@
         "is_playmaker": false,
         "betweenness": 0.2611,
         "eigenvector": 0.0206
+      },
+      {
+        "id": "Philipp Ochs",
+        "short": "Ochs",
+        "name": "Philipp Ochs",
+        "x": 48.39,
+        "y": 40.05,
+        "size": 61.5,
+        "is_playmaker": false,
+        "betweenness": 0.3722,
+        "eigenvector": 0.0286
       }
     ],
     "edges": [
@@ -1271,27 +1271,15 @@
       },
       {
         "source": "Sebastian Rudy",
-        "target": "Philipp Ochs",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sebastian Rudy",
         "target": "Andrej Kramarić",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Philipp Ochs",
-        "target": "Tobias Strobl",
+        "source": "Sebastian Rudy",
+        "target": "Philipp Ochs",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Philipp Ochs",
-        "target": "Sebastian Rudy",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Andrej Kramarić",
@@ -1304,6 +1292,18 @@
         "target": "Sebastian Rudy",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Philipp Ochs",
+        "target": "Tobias Strobl",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Philipp Ochs",
+        "target": "Sebastian Rudy",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

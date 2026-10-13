@@ -855,17 +855,6 @@
         "eigenvector": 0.0011
       },
       {
-        "id": "Wes Morgan",
-        "short": "Morgan",
-        "name": "Wes Morgan",
-        "x": 46.6,
-        "y": 45.32,
-        "size": 62.5,
-        "is_playmaker": true,
-        "betweenness": 0.3222,
-        "eigenvector": 0.0241
-      },
-      {
         "id": "Kasper Schmeichel",
         "short": "Schmeichel",
         "name": "Kasper Schmeichel",
@@ -875,6 +864,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0011
+      },
+      {
+        "id": "Wes Morgan",
+        "short": "Morgan",
+        "name": "Wes Morgan",
+        "x": 46.6,
+        "y": 45.32,
+        "size": 62.5,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0241
       }
     ],
     "edges": [
@@ -1030,12 +1030,30 @@
       },
       {
         "source": "Robert Huth",
+        "target": "Kasper Schmeichel",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Huth",
         "target": "Wes Morgan",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Robert Huth",
+        "source": "Kasper Schmeichel",
+        "target": "Robert Huth",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kasper Schmeichel",
+        "target": "Wes Morgan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wes Morgan",
         "target": "Kasper Schmeichel",
         "weight": 1,
         "direction": "backward"
@@ -1051,24 +1069,6 @@
         "target": "Robert Huth",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Wes Morgan",
-        "target": "Kasper Schmeichel",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Kasper Schmeichel",
-        "target": "Robert Huth",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kasper Schmeichel",
-        "target": "Wes Morgan",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

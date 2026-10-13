@@ -829,6 +829,17 @@
         "eigenvector": 0.1758
       },
       {
+        "id": "Pau López Sabata",
+        "short": "López",
+        "name": "Pau López",
+        "x": 11.02,
+        "y": 36.92,
+        "size": 64.6,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0229
+      },
+      {
         "id": "Papa Kouly Diop",
         "short": "Diop",
         "name": "Pape Diop",
@@ -849,17 +860,6 @@
         "is_playmaker": true,
         "betweenness": 0.4111,
         "eigenvector": 0.0585
-      },
-      {
-        "id": "Pau López Sabata",
-        "short": "López",
-        "name": "Pau López",
-        "x": 11.02,
-        "y": 36.92,
-        "size": 64.6,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0229
       }
     ],
     "edges": [
@@ -978,6 +978,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Pau López Sabata",
+        "target": "Óscar Esau Duarte Gaitán",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Pau López Sabata",
+        "target": "Álvaro González Soberón",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Papa Kouly Diop",
         "target": "Abraham González Casanova",
         "weight": 1,
@@ -991,6 +1003,12 @@
       },
       {
         "source": "Óscar Esau Duarte Gaitán",
+        "target": "Pau López Sabata",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Óscar Esau Duarte Gaitán",
         "target": "Abraham González Casanova",
         "weight": 1,
         "direction": "forward"
@@ -998,24 +1016,6 @@
       {
         "source": "Óscar Esau Duarte Gaitán",
         "target": "Rubén Duarte Sánchez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Óscar Esau Duarte Gaitán",
-        "target": "Pau López Sabata",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Pau López Sabata",
-        "target": "Óscar Esau Duarte Gaitán",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Pau López Sabata",
-        "target": "Álvaro González Soberón",
         "weight": 1,
         "direction": "forward"
       }

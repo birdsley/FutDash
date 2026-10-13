@@ -1165,26 +1165,26 @@
         "eigenvector": 0.4588
       },
       {
-        "id": "Felipe Salvador Caicedo Corozo",
-        "short": "Caicedo",
-        "name": "Felipe Caicedo",
-        "x": 56.69,
-        "y": 44.94,
-        "size": 63.3,
-        "is_playmaker": true,
-        "betweenness": 0.0778,
-        "eigenvector": 0.0454
-      },
-      {
         "id": "Rubén Duarte Sánchez",
         "short": "Duarte",
         "name": "Rubén Duarte",
         "x": 33.78,
         "y": 26.9,
         "size": 63.3,
-        "is_playmaker": false,
+        "is_playmaker": true,
         "betweenness": 0.0778,
         "eigenvector": 0.0664
+      },
+      {
+        "id": "Felipe Salvador Caicedo Corozo",
+        "short": "Caicedo",
+        "name": "Felipe Caicedo",
+        "x": 56.69,
+        "y": 44.94,
+        "size": 63.3,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0454
       }
     ],
     "edges": [
@@ -1262,15 +1262,15 @@
       },
       {
         "source": "José Alberto Cañas Ruiz Herrera",
-        "target": "Felipe Salvador Caicedo Corozo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Alberto Cañas Ruiz Herrera",
         "target": "Rubén Duarte Sánchez",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José Alberto Cañas Ruiz Herrera",
+        "target": "Felipe Salvador Caicedo Corozo",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Marco Asensio Willemsen",
@@ -1303,18 +1303,6 @@
         "direction": "backward"
       },
       {
-        "source": "Felipe Salvador Caicedo Corozo",
-        "target": "Víctor Sánchez Mata",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Felipe Salvador Caicedo Corozo",
-        "target": "José Alberto Cañas Ruiz Herrera",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Rubén Duarte Sánchez",
         "target": "Víctor Guillermo Álvarez Delgado",
         "weight": 1,
@@ -1325,6 +1313,18 @@
         "target": "José Alberto Cañas Ruiz Herrera",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Felipe Salvador Caicedo Corozo",
+        "target": "Víctor Sánchez Mata",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Felipe Salvador Caicedo Corozo",
+        "target": "José Alberto Cañas Ruiz Herrera",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

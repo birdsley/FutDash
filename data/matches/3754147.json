@@ -960,17 +960,6 @@
         "eigenvector": 0.324
       },
       {
-        "id": "Joe Hart",
-        "short": "Hart",
-        "name": "Joe Hart",
-        "x": 11.2,
-        "y": 39.64,
-        "size": 59.1,
-        "is_playmaker": false,
-        "betweenness": 0.0556,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Fernando Francisco Reges",
         "short": "Reges",
         "name": "Fernando Reges",
@@ -980,6 +969,17 @@
         "is_playmaker": false,
         "betweenness": 0.0833,
         "eigenvector": 0.0366
+      },
+      {
+        "id": "Joe Hart",
+        "short": "Hart",
+        "name": "Joe Hart",
+        "x": 11.2,
+        "y": 39.64,
+        "size": 59.1,
+        "is_playmaker": false,
+        "betweenness": 0.0556,
+        "eigenvector": 0.0
       }
     ],
     "edges": [
@@ -1152,18 +1152,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Joe Hart",
-        "target": "Vincent Kompany",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Joe Hart",
-        "target": "Nicolás Hernán Otamendi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Fernando Francisco Reges",
         "target": "Fernando Luiz Rosa",
         "weight": 1,
@@ -1172,6 +1160,18 @@
       {
         "source": "Fernando Francisco Reges",
         "target": "Gnégnéri Yaya Touré",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joe Hart",
+        "target": "Vincent Kompany",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joe Hart",
+        "target": "Nicolás Hernán Otamendi",
         "weight": 1,
         "direction": "forward"
       }
@@ -1279,17 +1279,6 @@
         "eigenvector": 0.1105
       },
       {
-        "id": "Kyle Walker",
-        "short": "Walker",
-        "name": "Kyle Walker",
-        "x": 70.17,
-        "y": 70.48,
-        "size": 58.5,
-        "is_playmaker": true,
-        "betweenness": 0.2611,
-        "eigenvector": 0.0132
-      },
-      {
         "id": "Heung-Min Son",
         "short": "Heung-Min",
         "name": "Son Heung-Min",
@@ -1299,6 +1288,17 @@
         "is_playmaker": true,
         "betweenness": 0.3889,
         "eigenvector": 0.0154
+      },
+      {
+        "id": "Kyle Walker",
+        "short": "Walker",
+        "name": "Kyle Walker",
+        "x": 70.17,
+        "y": 70.48,
+        "size": 58.5,
+        "is_playmaker": true,
+        "betweenness": 0.2611,
+        "eigenvector": 0.0132
       }
     ],
     "edges": [
@@ -1465,14 +1465,14 @@
         "direction": "forward"
       },
       {
-        "source": "Kyle Walker",
-        "target": "Heung-Min Son",
+        "source": "Heung-Min Son",
+        "target": "Bamidele Alli",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Kyle Walker",
-        "target": "Toby Alderweireld",
+        "source": "Heung-Min Son",
+        "target": "Eric Dier",
         "weight": 1,
         "direction": "backward"
       },
@@ -1483,14 +1483,14 @@
         "direction": "backward"
       },
       {
-        "source": "Heung-Min Son",
-        "target": "Bamidele Alli",
+        "source": "Kyle Walker",
+        "target": "Heung-Min Son",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Heung-Min Son",
-        "target": "Eric Dier",
+        "source": "Kyle Walker",
+        "target": "Toby Alderweireld",
         "weight": 1,
         "direction": "backward"
       }

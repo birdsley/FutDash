@@ -987,6 +987,17 @@
         "eigenvector": 0.1602
       },
       {
+        "id": "Vladimir Smicer",
+        "short": "Smicer",
+        "name": "Vladimir Smicer",
+        "x": 79.91,
+        "y": 29.93,
+        "size": 59.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0216
+      },
+      {
         "id": "Jerzy Dudek",
         "short": "Dudek",
         "name": "Jerzy Dudek",
@@ -1003,17 +1014,6 @@
         "name": "Michael Owen",
         "x": 75.43,
         "y": 28.83,
-        "size": 59.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0216
-      },
-      {
-        "id": "Vladimir Smicer",
-        "short": "Smicer",
-        "name": "Vladimir Smicer",
-        "x": 79.91,
-        "y": 29.93,
         "size": 59.0,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1143,15 +1143,15 @@
       },
       {
         "source": "Harry Kewell",
-        "target": "Michael Owen",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Harry Kewell",
         "target": "Vladimir Smicer",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Harry Kewell",
+        "target": "Michael Owen",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Igor Bišćan",
@@ -1190,6 +1190,18 @@
         "direction": "backward"
       },
       {
+        "source": "Vladimir Smicer",
+        "target": "Michael Owen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Vladimir Smicer",
+        "target": "Harry Kewell",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Jerzy Dudek",
         "target": "Sami Hyypiä",
         "weight": 1,
@@ -1212,18 +1224,6 @@
         "target": "Harry Kewell",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Vladimir Smicer",
-        "target": "Michael Owen",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Vladimir Smicer",
-        "target": "Harry Kewell",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },
@@ -1329,17 +1329,6 @@
         "eigenvector": 0.0437
       },
       {
-        "id": "Jérémie Aliadière",
-        "short": "Aliadière",
-        "name": "Jérémie Aliadière",
-        "x": 82.03,
-        "y": 17.72,
-        "size": 58.7,
-        "is_playmaker": false,
-        "betweenness": 0.2278,
-        "eigenvector": 0.0211
-      },
-      {
         "id": "Jens Lehmann",
         "short": "Lehmann",
         "name": "Jens Lehmann",
@@ -1349,6 +1338,17 @@
         "is_playmaker": false,
         "betweenness": 0.1667,
         "eigenvector": 0.0104
+      },
+      {
+        "id": "Jérémie Aliadière",
+        "short": "Aliadière",
+        "name": "Jérémie Aliadière",
+        "x": 82.03,
+        "y": 17.72,
+        "size": 58.7,
+        "is_playmaker": false,
+        "betweenness": 0.2278,
+        "eigenvector": 0.0211
       }
     ],
     "edges": [
@@ -1521,18 +1521,6 @@
         "direction": "backward"
       },
       {
-        "source": "Jérémie Aliadière",
-        "target": "Robert Pirès",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Jérémie Aliadière",
-        "target": "Thierry Henry",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jens Lehmann",
         "target": "Sulzeer Jeremiah ''Sol' Campbell",
         "weight": 1,
@@ -1543,6 +1531,18 @@
         "target": "Kolo Habib Touré",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Jérémie Aliadière",
+        "target": "Robert Pirès",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jérémie Aliadière",
+        "target": "Thierry Henry",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

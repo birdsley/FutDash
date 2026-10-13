@@ -1002,15 +1002,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Aytac Sulu",
-        "short": "Sulu",
-        "name": "Aytac Sulu",
-        "x": 37.71,
-        "y": 48.21,
+        "id": "Peter Niemeyer",
+        "short": "Niemeyer",
+        "name": "Peter Niemeyer",
+        "x": 61.57,
+        "y": 39.97,
         "size": 71.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1616
+        "is_playmaker": true,
+        "betweenness": 0.1833,
+        "eigenvector": 0.3845
       },
       {
         "id": "Slobodan Rajković",
@@ -1024,15 +1024,15 @@
         "eigenvector": 0.1616
       },
       {
-        "id": "Peter Niemeyer",
-        "short": "Niemeyer",
-        "name": "Peter Niemeyer",
-        "x": 61.57,
-        "y": 39.97,
+        "id": "Aytac Sulu",
+        "short": "Sulu",
+        "name": "Aytac Sulu",
+        "x": 37.71,
+        "y": 48.21,
         "size": 71.0,
-        "is_playmaker": true,
-        "betweenness": 0.1833,
-        "eigenvector": 0.3845
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1616
       }
     ],
     "edges": [
@@ -1074,9 +1074,9 @@
       },
       {
         "source": "Jérôme Gondorf",
-        "target": "Aytac Sulu",
+        "target": "Peter Niemeyer",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Jérôme Gondorf",
@@ -1086,9 +1086,9 @@
       },
       {
         "source": "Jérôme Gondorf",
-        "target": "Peter Niemeyer",
+        "target": "Aytac Sulu",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Tobias Kempe",
@@ -1115,14 +1115,14 @@
         "direction": "forward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "Slobodan Rajković",
+        "source": "Peter Niemeyer",
+        "target": "Jérôme Gondorf",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "Jérôme Gondorf",
+        "source": "Peter Niemeyer",
+        "target": "Sandro Wagner",
         "weight": 1,
         "direction": "forward"
       },
@@ -1139,14 +1139,14 @@
         "direction": "forward"
       },
       {
-        "source": "Peter Niemeyer",
-        "target": "Jérôme Gondorf",
+        "source": "Aytac Sulu",
+        "target": "Slobodan Rajković",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
-        "source": "Peter Niemeyer",
-        "target": "Sandro Wagner",
+        "source": "Aytac Sulu",
+        "target": "Jérôme Gondorf",
         "weight": 1,
         "direction": "forward"
       }

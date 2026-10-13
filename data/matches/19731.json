@@ -1035,17 +1035,6 @@
         "eigenvector": 0.0949
       },
       {
-        "id": "Esmee de Graaf",
-        "short": "de Graaf",
-        "name": "Esmee de Graaf",
-        "x": 92.61,
-        "y": 20.72,
-        "size": 58.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0094
-      },
-      {
         "id": "Brianna Visalli",
         "short": "Visalli",
         "name": "Brianna Visalli",
@@ -1055,6 +1044,17 @@
         "is_playmaker": false,
         "betweenness": 0.3611,
         "eigenvector": 0.0199
+      },
+      {
+        "id": "Esmee de Graaf",
+        "short": "de Graaf",
+        "name": "Esmee de Graaf",
+        "x": 92.61,
+        "y": 20.72,
+        "size": 58.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0094
       }
     ],
     "edges": [
@@ -1156,15 +1156,15 @@
       },
       {
         "source": "Jane Ross",
-        "target": "Esmee de Graaf",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jane Ross",
         "target": "Brianna Visalli",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jane Ross",
+        "target": "Esmee de Graaf",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Kate Longhurst",
@@ -1221,14 +1221,14 @@
         "direction": "backward"
       },
       {
-        "source": "Esmee de Graaf",
-        "target": "Brianna Visalli",
+        "source": "Brianna Visalli",
+        "target": "Jane Ross",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Esmee de Graaf",
-        "target": "Jane Ross",
+        "source": "Brianna Visalli",
+        "target": "Kate Longhurst",
         "weight": 1,
         "direction": "backward"
       },
@@ -1239,14 +1239,14 @@
         "direction": "forward"
       },
       {
-        "source": "Brianna Visalli",
-        "target": "Jane Ross",
+        "source": "Esmee de Graaf",
+        "target": "Brianna Visalli",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Brianna Visalli",
-        "target": "Kate Longhurst",
+        "source": "Esmee de Graaf",
+        "target": "Jane Ross",
         "weight": 1,
         "direction": "backward"
       }

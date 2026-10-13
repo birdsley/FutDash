@@ -1099,17 +1099,6 @@
         "eigenvector": 0.0003
       },
       {
-        "id": "Reinier Johannes Maria Rijnders",
-        "short": "Rijnders",
-        "name": "Nico Rijnders",
-        "x": 49.88,
-        "y": 42.44,
-        "size": 62.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Sjaak Swart",
         "short": "Swart",
         "name": "Sjaak Swart",
@@ -1126,6 +1115,17 @@
         "name": "Barry Hulshoff",
         "x": 41.59,
         "y": 46.82,
+        "size": 62.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Reinier Johannes Maria Rijnders",
+        "short": "Rijnders",
+        "name": "Nico Rijnders",
+        "x": 49.88,
+        "y": 42.44,
         "size": 62.0,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1249,27 +1249,15 @@
       },
       {
         "source": "Velibor Vasović",
-        "target": "Reinier Johannes Maria Rijnders",
+        "target": "Barry Hulshoff",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
         "source": "Velibor Vasović",
-        "target": "Barry Hulshoff",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Reinier Johannes Maria Rijnders",
-        "target": "Velibor Vasović",
+        "target": "Reinier Johannes Maria Rijnders",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Reinier Johannes Maria Rijnders",
-        "target": "Barry Hulshoff",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Sjaak Swart",
@@ -1285,15 +1273,27 @@
       },
       {
         "source": "Barry Hulshoff",
-        "target": "Reinier Johannes Maria Rijnders",
+        "target": "Velibor Vasović",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Barry Hulshoff",
-        "target": "Velibor Vasović",
+        "target": "Reinier Johannes Maria Rijnders",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Reinier Johannes Maria Rijnders",
+        "target": "Barry Hulshoff",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Reinier Johannes Maria Rijnders",
+        "target": "Velibor Vasović",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

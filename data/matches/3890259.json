@@ -994,17 +994,6 @@
         "eigenvector": 0.0777
       },
       {
-        "id": "Robert Lewandowski",
-        "short": "Lewandowski",
-        "name": "Robert Lewandowski",
-        "x": 71.92,
-        "y": 44.24,
-        "size": 57.4,
-        "is_playmaker": true,
-        "betweenness": 0.3222,
-        "eigenvector": 0.0077
-      },
-      {
         "id": "Manuel Neuer",
         "short": "Neuer",
         "name": "Manuel Neuer",
@@ -1014,6 +1003,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0173
+      },
+      {
+        "id": "Robert Lewandowski",
+        "short": "Lewandowski",
+        "name": "Robert Lewandowski",
+        "x": 71.92,
+        "y": 44.24,
+        "size": 57.4,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0077
       },
       {
         "id": "Thomas Müller",
@@ -1197,18 +1197,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Robert Lewandowski",
-        "target": "Xabier Alonso Olano",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Robert Lewandowski",
-        "target": "Thomas Müller",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Manuel Neuer",
         "target": "Medhi Amine El Mouttaqi Benatia",
         "weight": 1,
@@ -1217,6 +1205,18 @@
       {
         "source": "Manuel Neuer",
         "target": "Jérôme Boateng",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Xabier Alonso Olano",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Thomas Müller",
         "weight": 1,
         "direction": "forward"
       },
@@ -1336,17 +1336,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Ivo Iličević",
-        "short": "Iličević",
-        "name": "Ivo Iličević",
-        "x": 49.15,
-        "y": 17.86,
-        "size": 73.6,
-        "is_playmaker": true,
-        "betweenness": 0.0333,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Albin Ekdal",
         "short": "Ekdal",
         "name": "Albin Ekdal",
@@ -1355,6 +1344,17 @@
         "size": 73.6,
         "is_playmaker": false,
         "betweenness": 0.0222,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Ivo Iličević",
+        "short": "Iličević",
+        "name": "Ivo Iličević",
+        "x": 49.15,
+        "y": 17.86,
+        "size": 73.6,
+        "is_playmaker": true,
+        "betweenness": 0.0333,
         "eigenvector": 0.0
       }
     ],
@@ -1426,18 +1426,6 @@
         "direction": "forward"
       },
       {
-        "source": "Ivo Iličević",
-        "target": "Lewis Harry Holtby",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ivo Iličević",
-        "target": "Matthias Ostrzolek",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Albin Ekdal",
         "target": "Michael Gregoritsch",
         "weight": 1,
@@ -1448,6 +1436,18 @@
         "target": "Dennis Diekmeier",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Ivo Iličević",
+        "target": "Lewis Harry Holtby",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ivo Iličević",
+        "target": "Matthias Ostrzolek",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

@@ -1126,17 +1126,6 @@
         "eigenvector": 0.0001
       },
       {
-        "id": "Diego Antonio Reyes Rosales",
-        "short": "Reyes",
-        "name": "Diego Reyes",
-        "x": 50.21,
-        "y": 49.71,
-        "size": 66.1,
-        "is_playmaker": false,
-        "betweenness": 0.2944,
-        "eigenvector": 0.0356
-      },
-      {
         "id": "Gerónimo Rulli",
         "short": "Rulli",
         "name": "Gero Rulli",
@@ -1146,6 +1135,17 @@
         "is_playmaker": true,
         "betweenness": 0.3,
         "eigenvector": 0.0005
+      },
+      {
+        "id": "Diego Antonio Reyes Rosales",
+        "short": "Reyes",
+        "name": "Diego Reyes",
+        "x": 50.21,
+        "y": 49.71,
+        "size": 66.1,
+        "is_playmaker": false,
+        "betweenness": 0.2944,
+        "eigenvector": 0.0356
       }
     ],
     "edges": [
@@ -1193,15 +1193,15 @@
       },
       {
         "source": "Mikel González de Martín Martínez",
-        "target": "Diego Antonio Reyes Rosales",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mikel González de Martín Martínez",
         "target": "Gerónimo Rulli",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Mikel González de Martín Martínez",
+        "target": "Diego Antonio Reyes Rosales",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Héctor Hernández Ortega",
@@ -1252,18 +1252,6 @@
         "direction": "backward"
       },
       {
-        "source": "Diego Antonio Reyes Rosales",
-        "target": "Mikel González de Martín Martínez",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Diego Antonio Reyes Rosales",
-        "target": "Carlos Alberto Vela Garrido",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Gerónimo Rulli",
         "target": "Íñigo Martínez Berridi",
         "weight": 1,
@@ -1272,6 +1260,18 @@
       {
         "source": "Gerónimo Rulli",
         "target": "Mikel González de Martín Martínez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Diego Antonio Reyes Rosales",
+        "target": "Mikel González de Martín Martínez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Antonio Reyes Rosales",
+        "target": "Carlos Alberto Vela Garrido",
         "weight": 1,
         "direction": "forward"
       }

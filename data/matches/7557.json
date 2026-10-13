@@ -949,17 +949,6 @@
         "eigenvector": 0.2933
       },
       {
-        "id": "Ehsan Hajsafi",
-        "short": "Hajsafi",
-        "name": "Ehsan Hajsafi",
-        "x": 51.2,
-        "y": 11.4,
-        "size": 73.6,
-        "is_playmaker": true,
-        "betweenness": 0.3222,
-        "eigenvector": 0.2083
-      },
-      {
         "id": "Alireza Safar Beiranvand",
         "short": "Beiranvand",
         "name": "Alireza Beiranvand",
@@ -969,6 +958,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.1625
+      },
+      {
+        "id": "Ehsan Hajsafi",
+        "short": "Hajsafi",
+        "name": "Ehsan Hajsafi",
+        "x": 51.2,
+        "y": 11.4,
+        "size": 73.6,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.2083
       },
       {
         "id": "Saeid Ezatolahi Afagh",
@@ -1051,27 +1051,15 @@
       },
       {
         "source": "Seyed Majid Hosseini",
-        "target": "Ehsan Hajsafi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Seyed Majid Hosseini",
         "target": "Alireza Safar Beiranvand",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Ehsan Hajsafi",
-        "target": "Vahid Amiri",
+        "source": "Seyed Majid Hosseini",
+        "target": "Ehsan Hajsafi",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Ehsan Hajsafi",
-        "target": "Seyed Majid Hosseini",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Alireza Safar Beiranvand",
@@ -1084,6 +1072,18 @@
         "target": "Seyed Majid Hosseini",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Ehsan Hajsafi",
+        "target": "Vahid Amiri",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ehsan Hajsafi",
+        "target": "Seyed Majid Hosseini",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Saeid Ezatolahi Afagh",
@@ -1190,13 +1190,24 @@
         "eigenvector": 0.3604
       },
       {
+        "id": "Cristiano Ronaldo dos Santos Aveiro",
+        "short": "Ronaldo",
+        "name": "Cristiano Ronaldo",
+        "x": 78.95,
+        "y": 29.36,
+        "size": 57.8,
+        "is_playmaker": true,
+        "betweenness": 0.2667,
+        "eigenvector": 0.0089
+      },
+      {
         "id": "André Miguel Valente Silva",
         "short": "Silva",
         "name": "André Silva",
         "x": 76.53,
         "y": 35.21,
         "size": 57.8,
-        "is_playmaker": true,
+        "is_playmaker": false,
         "betweenness": 0.2667,
         "eigenvector": 0.0136
       },
@@ -1210,17 +1221,6 @@
         "is_playmaker": false,
         "betweenness": 0.1222,
         "eigenvector": 0.0143
-      },
-      {
-        "id": "Cristiano Ronaldo dos Santos Aveiro",
-        "short": "Ronaldo",
-        "name": "Cristiano Ronaldo",
-        "x": 78.95,
-        "y": 29.36,
-        "size": 57.8,
-        "is_playmaker": false,
-        "betweenness": 0.2667,
-        "eigenvector": 0.0089
       }
     ],
     "edges": [
@@ -1393,6 +1393,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Cristiano Ronaldo dos Santos Aveiro",
+        "target": "André Miguel Valente Silva",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Cristiano Ronaldo dos Santos Aveiro",
+        "target": "João Mário Naval da Costa Eduardo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "André Miguel Valente Silva",
         "target": "Cristiano Ronaldo dos Santos Aveiro",
         "weight": 1,
@@ -1415,18 +1427,6 @@
         "target": "José Miguel da Rocha Fonte",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Cristiano Ronaldo dos Santos Aveiro",
-        "target": "André Miguel Valente Silva",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Cristiano Ronaldo dos Santos Aveiro",
-        "target": "João Mário Naval da Costa Eduardo",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

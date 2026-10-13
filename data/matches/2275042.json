@@ -1185,17 +1185,6 @@
         "eigenvector": 0.0705
       },
       {
-        "id": "Demi Stokes",
-        "short": "Stokes",
-        "name": "Demi Stokes",
-        "x": 55.15,
-        "y": 11.95,
-        "size": 59.5,
-        "is_playmaker": true,
-        "betweenness": 0.2889,
-        "eigenvector": 0.0345
-      },
-      {
         "id": "Ellen White",
         "short": "White",
         "name": "Ellen White",
@@ -1205,6 +1194,17 @@
         "is_playmaker": false,
         "betweenness": 0.2667,
         "eigenvector": 0.0199
+      },
+      {
+        "id": "Demi Stokes",
+        "short": "Stokes",
+        "name": "Demi Stokes",
+        "x": 55.15,
+        "y": 11.95,
+        "size": 59.5,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.0345
       }
     ],
     "edges": [
@@ -1234,15 +1234,15 @@
       },
       {
         "source": "Caroline Weir",
-        "target": "Demi Stokes",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Caroline Weir",
         "target": "Ellen White",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Caroline Weir",
+        "target": "Demi Stokes",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Jill Scott",
@@ -1365,18 +1365,6 @@
         "direction": "forward"
       },
       {
-        "source": "Demi Stokes",
-        "target": "Gemma Bonner",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Demi Stokes",
-        "target": "Caroline Weir",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Ellen White",
         "target": "Tessa Wullaert",
         "weight": 1,
@@ -1387,6 +1375,18 @@
         "target": "Caroline Weir",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Demi Stokes",
+        "target": "Gemma Bonner",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Demi Stokes",
+        "target": "Caroline Weir",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

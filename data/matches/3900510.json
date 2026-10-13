@@ -1317,17 +1317,6 @@
         "eigenvector": 0.0193
       },
       {
-        "id": "Claudio Beauvue",
-        "short": "Beauvue",
-        "name": "Claudio Beauvue",
-        "x": 79.02,
-        "y": 53.09,
-        "size": 58.1,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0158
-      },
-      {
         "id": "Alexandre Lacazette",
         "short": "Lacazette",
         "name": "Alexandre Lacazette",
@@ -1337,6 +1326,17 @@
         "is_playmaker": false,
         "betweenness": 0.2222,
         "eigenvector": 0.0071
+      },
+      {
+        "id": "Claudio Beauvue",
+        "short": "Beauvue",
+        "name": "Claudio Beauvue",
+        "x": 79.02,
+        "y": 53.09,
+        "size": 58.1,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0158
       }
     ],
     "edges": [
@@ -1521,16 +1521,10 @@
         "direction": "forward"
       },
       {
-        "source": "Claudio Beauvue",
-        "target": "Jordan Ferri",
+        "source": "Alexandre Lacazette",
+        "target": "Mathieu Valbuena",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Claudio Beauvue",
-        "target": "Alexandre Lacazette",
-        "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Alexandre Lacazette",
@@ -1539,10 +1533,16 @@
         "direction": "forward"
       },
       {
-        "source": "Alexandre Lacazette",
-        "target": "Mathieu Valbuena",
+        "source": "Claudio Beauvue",
+        "target": "Alexandre Lacazette",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
+      },
+      {
+        "source": "Claudio Beauvue",
+        "target": "Jordan Ferri",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

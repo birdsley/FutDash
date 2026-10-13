@@ -1231,17 +1231,6 @@
         "eigenvector": 0.364
       },
       {
-        "id": "Wes Morgan",
-        "short": "Morgan",
-        "name": "Wes Morgan",
-        "x": 34.86,
-        "y": 31.9,
-        "size": 67.9,
-        "is_playmaker": true,
-        "betweenness": 0.4278,
-        "eigenvector": 0.0711
-      },
-      {
         "id": "Kasper Schmeichel",
         "short": "Schmeichel",
         "name": "Kasper Schmeichel",
@@ -1251,6 +1240,17 @@
         "is_playmaker": false,
         "betweenness": 0.1833,
         "eigenvector": 0.022
+      },
+      {
+        "id": "Wes Morgan",
+        "short": "Morgan",
+        "name": "Wes Morgan",
+        "x": 34.86,
+        "y": 31.9,
+        "size": 67.9,
+        "is_playmaker": true,
+        "betweenness": 0.4278,
+        "eigenvector": 0.0711
       }
     ],
     "edges": [
@@ -1369,14 +1369,14 @@
         "direction": "backward"
       },
       {
-        "source": "Wes Morgan",
-        "target": "Andrew Philip King",
+        "source": "Kasper Schmeichel",
+        "target": "Wes Morgan",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Wes Morgan",
-        "target": "Shinji Okazaki",
+        "source": "Kasper Schmeichel",
+        "target": "Marcin Ryszard Wasilewski",
         "weight": 1,
         "direction": "forward"
       },
@@ -1387,14 +1387,14 @@
         "direction": "backward"
       },
       {
-        "source": "Kasper Schmeichel",
-        "target": "Wes Morgan",
+        "source": "Wes Morgan",
+        "target": "Andrew Philip King",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Kasper Schmeichel",
-        "target": "Marcin Ryszard Wasilewski",
+        "source": "Wes Morgan",
+        "target": "Shinji Okazaki",
         "weight": 1,
         "direction": "forward"
       }

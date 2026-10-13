@@ -1441,6 +1441,17 @@
         "eigenvector": 0.1956
       },
       {
+        "id": "Stéphane Ruffier",
+        "short": "Ruffier",
+        "name": "Stéphane Ruffier",
+        "x": 9.73,
+        "y": 40.09,
+        "size": 60.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0124
+      },
+      {
         "id": "Valentin Eysseric",
         "short": "Eysseric",
         "name": "Valentin Eysseric",
@@ -1461,17 +1472,6 @@
         "is_playmaker": false,
         "betweenness": 0.2611,
         "eigenvector": 0.0373
-      },
-      {
-        "id": "Stéphane Ruffier",
-        "short": "Ruffier",
-        "name": "Stéphane Ruffier",
-        "x": 9.73,
-        "y": 40.09,
-        "size": 60.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0124
       }
     ],
     "edges": [
@@ -1639,15 +1639,27 @@
       },
       {
         "source": "Loïc Perrin",
+        "target": "Stéphane Ruffier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Loïc Perrin",
         "target": "Moustapha Bayal Sall",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Loïc Perrin",
-        "target": "Stéphane Ruffier",
+        "source": "Stéphane Ruffier",
+        "target": "Moustapha Bayal Sall",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "Stéphane Ruffier",
+        "target": "Loïc Perrin",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Valentin Eysseric",
@@ -1663,6 +1675,12 @@
       },
       {
         "source": "Moustapha Bayal Sall",
+        "target": "Stéphane Ruffier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Moustapha Bayal Sall",
         "target": "Loïc Perrin",
         "weight": 1,
         "direction": "lateral"
@@ -1670,24 +1688,6 @@
       {
         "source": "Moustapha Bayal Sall",
         "target": "Fabien Lemoine",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Moustapha Bayal Sall",
-        "target": "Stéphane Ruffier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Stéphane Ruffier",
-        "target": "Moustapha Bayal Sall",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Stéphane Ruffier",
-        "target": "Loïc Perrin",
         "weight": 1,
         "direction": "forward"
       }

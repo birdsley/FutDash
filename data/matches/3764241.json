@@ -930,22 +930,22 @@
         "eigenvector": 0.1614
       },
       {
-        "id": "Chloe Kelly",
-        "short": "Kelly",
-        "name": "Chloe Kelly",
-        "x": 87.92,
-        "y": 48.33,
+        "id": "Ellen White",
+        "short": "White",
+        "name": "Ellen White",
+        "x": 85.45,
+        "y": 50.86,
         "size": 57.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0046
       },
       {
-        "id": "Ellen White",
-        "short": "White",
-        "name": "Ellen White",
-        "x": 85.45,
-        "y": 50.86,
+        "id": "Chloe Kelly",
+        "short": "Kelly",
+        "name": "Chloe Kelly",
+        "x": 87.92,
+        "y": 48.33,
         "size": 57.7,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1099,27 +1099,15 @@
       },
       {
         "source": "Georgia Stanway",
-        "target": "Chloe Kelly",
+        "target": "Ellen White",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Georgia Stanway",
-        "target": "Ellen White",
+        "target": "Chloe Kelly",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Chloe Kelly",
-        "target": "Ellen White",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Chloe Kelly",
-        "target": "Georgia Stanway",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Ellen White",
@@ -1129,6 +1117,18 @@
       },
       {
         "source": "Ellen White",
+        "target": "Georgia Stanway",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Chloe Kelly",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Chloe Kelly",
         "target": "Georgia Stanway",
         "weight": 1,
         "direction": "backward"
@@ -1237,17 +1237,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Megan Connolly",
-        "short": "Connolly",
-        "name": "Megan Connolly",
-        "x": 55.89,
-        "y": 38.08,
-        "size": 70.6,
-        "is_playmaker": true,
-        "betweenness": 0.2,
-        "eigenvector": 0.1059
-      },
-      {
         "id": "Inessa Kaagman",
         "short": "Kaagman",
         "name": "Inessa Kaagman",
@@ -1257,6 +1246,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0866
+      },
+      {
+        "id": "Megan Connolly",
+        "short": "Connolly",
+        "name": "Megan Connolly",
+        "x": 55.89,
+        "y": 38.08,
+        "size": 70.6,
+        "is_playmaker": true,
+        "betweenness": 0.2,
+        "eigenvector": 0.1059
       }
     ],
     "edges": [
@@ -1334,15 +1334,15 @@
       },
       {
         "source": "Rianna Jarrett",
-        "target": "Megan Connolly",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rianna Jarrett",
         "target": "Inessa Kaagman",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Rianna Jarrett",
+        "target": "Megan Connolly",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Rebekah Ashley Stott",
@@ -1363,24 +1363,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Megan Connolly",
-        "target": "Danielle Buet",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Megan Connolly",
-        "target": "Rianna Jarrett",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Megan Connolly",
-        "target": "Inessa Kaagman",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Inessa Kaagman",
         "target": "Rianna Jarrett",
         "weight": 1,
@@ -1391,6 +1373,24 @@
         "target": "Megan Connolly",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Megan Connolly",
+        "target": "Inessa Kaagman",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Megan Connolly",
+        "target": "Danielle Buet",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Megan Connolly",
+        "target": "Rianna Jarrett",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

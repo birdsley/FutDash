@@ -859,17 +859,6 @@
         "eigenvector": 0.1077
       },
       {
-        "id": "Seydou Kéita",
-        "short": "Kéita",
-        "name": "Seydou Kéita",
-        "x": 81.67,
-        "y": 14.27,
-        "size": 58.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0007
-      },
-      {
         "id": "Eric-Sylvain Bilal Abidal",
         "short": "Abidal",
         "name": "Éric Abidal",
@@ -890,6 +879,17 @@
         "is_playmaker": true,
         "betweenness": 0.4944,
         "eigenvector": 0.023
+      },
+      {
+        "id": "Seydou Kéita",
+        "short": "Kéita",
+        "name": "Seydou Kéita",
+        "x": 81.67,
+        "y": 14.27,
+        "size": 58.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0007
       }
     ],
     "edges": [
@@ -1050,18 +1050,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Seydou Kéita",
-        "target": "Eric-Sylvain Bilal Abidal",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Seydou Kéita",
-        "target": "Thierry Henry",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Eric-Sylvain Bilal Abidal",
         "target": "Seydou Kéita",
         "weight": 1,
@@ -1072,12 +1060,6 @@
         "target": "Thierry Henry",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Thierry Henry",
-        "target": "Seydou Kéita",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Thierry Henry",
@@ -1096,6 +1078,24 @@
         "target": "Xavier Hernández Creus",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Thierry Henry",
+        "target": "Seydou Kéita",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Seydou Kéita",
+        "target": "Eric-Sylvain Bilal Abidal",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Seydou Kéita",
+        "target": "Thierry Henry",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1201,17 +1201,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Idriss Carlos Kameni",
-        "short": "Kameni",
-        "name": "Carlos Kameni",
-        "x": 12.13,
-        "y": 46.32,
-        "size": 63.3,
-        "is_playmaker": false,
-        "betweenness": 0.1444,
-        "eigenvector": 0.0021
-      },
-      {
         "id": "Ángel Martínez Cervera",
         "short": "Martínez",
         "name": "Ángel Martínez",
@@ -1221,6 +1210,17 @@
         "is_playmaker": true,
         "betweenness": 0.3222,
         "eigenvector": 0.0191
+      },
+      {
+        "id": "Idriss Carlos Kameni",
+        "short": "Kameni",
+        "name": "Carlos Kameni",
+        "x": 12.13,
+        "y": 46.32,
+        "size": 63.3,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.0021
       }
     ],
     "edges": [
@@ -1345,14 +1345,14 @@
         "direction": "forward"
       },
       {
-        "source": "Idriss Carlos Kameni",
-        "target": "Ángel Martínez Cervera",
+        "source": "Ángel Martínez Cervera",
+        "target": "Sergio Sánchez Ortega",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Idriss Carlos Kameni",
-        "target": "Daniel Jarque Gonzalez",
+        "source": "Ángel Martínez Cervera",
+        "target": "Moisés Hurtado Pérez",
         "weight": 1,
         "direction": "forward"
       },
@@ -1363,14 +1363,14 @@
         "direction": "backward"
       },
       {
-        "source": "Ángel Martínez Cervera",
-        "target": "Sergio Sánchez Ortega",
+        "source": "Idriss Carlos Kameni",
+        "target": "Ángel Martínez Cervera",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Ángel Martínez Cervera",
-        "target": "Moisés Hurtado Pérez",
+        "source": "Idriss Carlos Kameni",
+        "target": "Daniel Jarque Gonzalez",
         "weight": 1,
         "direction": "forward"
       }

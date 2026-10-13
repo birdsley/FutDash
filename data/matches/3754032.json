@@ -938,17 +938,6 @@
         "eigenvector": 0.0165
       },
       {
-        "id": "José Luis Sanmartín Mato",
-        "short": "Joselu",
-        "name": "Joselu",
-        "x": 73.49,
-        "y": 40.43,
-        "size": 57.8,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0051
-      },
-      {
         "id": "Jonathan Walters",
         "short": "Walters",
         "name": "Jonathan Walters",
@@ -958,6 +947,17 @@
         "is_playmaker": true,
         "betweenness": 0.3056,
         "eigenvector": 0.0116
+      },
+      {
+        "id": "José Luis Sanmartín Mato",
+        "short": "Joselu",
+        "name": "Joselu",
+        "x": 73.49,
+        "y": 40.43,
+        "size": 57.8,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0051
       }
     ],
     "edges": [
@@ -1142,14 +1142,8 @@
         "direction": "forward"
       },
       {
-        "source": "José Luis Sanmartín Mato",
-        "target": "Bojan Krkíc Pérez",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "José Luis Sanmartín Mato",
-        "target": "Jonathan Walters",
+        "source": "Jonathan Walters",
+        "target": "Glenn Whelan",
         "weight": 1,
         "direction": "backward"
       },
@@ -1160,10 +1154,16 @@
         "direction": "forward"
       },
       {
-        "source": "Jonathan Walters",
-        "target": "Glenn Whelan",
+        "source": "José Luis Sanmartín Mato",
+        "target": "Jonathan Walters",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José Luis Sanmartín Mato",
+        "target": "Bojan Krkíc Pérez",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

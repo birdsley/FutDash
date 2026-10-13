@@ -1035,17 +1035,6 @@
         "eigenvector": 0.1364
       },
       {
-        "id": "James McClean",
-        "short": "McClean",
-        "name": "James McClean",
-        "x": 63.75,
-        "y": 11.96,
-        "size": 61.8,
-        "is_playmaker": false,
-        "betweenness": 0.4333,
-        "eigenvector": 0.0639
-      },
-      {
         "id": "Craig Dawson",
         "short": "Dawson",
         "name": "Craig Dawson",
@@ -1055,6 +1044,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0527
+      },
+      {
+        "id": "James McClean",
+        "short": "McClean",
+        "name": "James McClean",
+        "x": 63.75,
+        "y": 11.96,
+        "size": 61.8,
+        "is_playmaker": false,
+        "betweenness": 0.4333,
+        "eigenvector": 0.0639
       }
     ],
     "edges": [
@@ -1132,15 +1132,15 @@
       },
       {
         "source": "Darren Fletcher",
-        "target": "James McClean",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Darren Fletcher",
         "target": "Craig Dawson",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Darren Fletcher",
+        "target": "James McClean",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "James Morrison",
@@ -1179,18 +1179,6 @@
         "direction": "backward"
       },
       {
-        "source": "James McClean",
-        "target": "Chris Brunt",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "James McClean",
-        "target": "Darren Fletcher",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Craig Dawson",
         "target": "Joleon Lescott",
         "weight": 1,
@@ -1201,6 +1189,18 @@
         "target": "Darren Fletcher",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "James McClean",
+        "target": "Chris Brunt",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "James McClean",
+        "target": "Darren Fletcher",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

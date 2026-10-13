@@ -1050,17 +1050,6 @@
         "eigenvector": 0.2938
       },
       {
-        "id": "Marina Hegering",
-        "short": "Hegering",
-        "name": "Marina Hegering",
-        "x": 42.26,
-        "y": 36.86,
-        "size": 67.3,
-        "is_playmaker": false,
-        "betweenness": 0.15,
-        "eigenvector": 0.1001
-      },
-      {
         "id": "Sara Däbritz",
         "short": "Däbritz",
         "name": "Sara Däbritz",
@@ -1070,6 +1059,17 @@
         "is_playmaker": true,
         "betweenness": 0.1778,
         "eigenvector": 0.1753
+      },
+      {
+        "id": "Marina Hegering",
+        "short": "Hegering",
+        "name": "Marina Hegering",
+        "x": 42.26,
+        "y": 36.86,
+        "size": 67.3,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.1001
       }
     ],
     "edges": [
@@ -1135,15 +1135,15 @@
       },
       {
         "source": "Lena Goeßling",
-        "target": "Marina Hegering",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lena Goeßling",
         "target": "Sara Däbritz",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Lena Goeßling",
+        "target": "Marina Hegering",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Alexandra Popp",
@@ -1176,18 +1176,6 @@
         "direction": "backward"
       },
       {
-        "source": "Marina Hegering",
-        "target": "Alexandra Popp",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marina Hegering",
-        "target": "Lena Goeßling",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Sara Däbritz",
         "target": "Svenja Huth",
         "weight": 1,
@@ -1198,6 +1186,18 @@
         "target": "Lena Goeßling",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Marina Hegering",
+        "target": "Alexandra Popp",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marina Hegering",
+        "target": "Lena Goeßling",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

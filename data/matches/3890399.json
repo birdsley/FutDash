@@ -1194,17 +1194,6 @@
         "eigenvector": 0.271
       },
       {
-        "id": "Roger de Oliveira Bernardo",
-        "short": "Bernardo",
-        "name": "Roger Bernardo",
-        "x": 60.65,
-        "y": 35.58,
-        "size": 69.1,
-        "is_playmaker": false,
-        "betweenness": 0.05,
-        "eigenvector": 0.0091
-      },
-      {
         "id": "Marvin Matip",
         "short": "Matip",
         "name": "Marvin Matip",
@@ -1216,17 +1205,6 @@
         "eigenvector": 0.0013
       },
       {
-        "id": "Stefan Lex",
-        "short": "Lex",
-        "name": "Stefan Lex",
-        "x": 84.34,
-        "y": 57.47,
-        "size": 64.4,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0922
-      },
-      {
         "id": "Almog Cohen",
         "short": "Cohen",
         "name": "Almog Cohen",
@@ -1236,6 +1214,28 @@
         "is_playmaker": false,
         "betweenness": 0.05,
         "eigenvector": 0.0091
+      },
+      {
+        "id": "Roger de Oliveira Bernardo",
+        "short": "Bernardo",
+        "name": "Roger Bernardo",
+        "x": 60.65,
+        "y": 35.58,
+        "size": 69.1,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.0091
+      },
+      {
+        "id": "Stefan Lex",
+        "short": "Lex",
+        "name": "Stefan Lex",
+        "x": 84.34,
+        "y": 57.47,
+        "size": 64.4,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0922
       }
     ],
     "edges": [
@@ -1301,13 +1301,13 @@
       },
       {
         "source": "Mathew Leckie",
-        "target": "Roger de Oliveira Bernardo",
+        "target": "Almog Cohen",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Mathew Leckie",
-        "target": "Almog Cohen",
+        "target": "Roger de Oliveira Bernardo",
         "weight": 1,
         "direction": "backward"
       },
@@ -1324,13 +1324,31 @@
         "direction": "forward"
       },
       {
-        "source": "Roger de Oliveira Bernardo",
+        "source": "Marvin Matip",
+        "target": "Roger de Oliveira Bernardo",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marvin Matip",
         "target": "Almog Cohen",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Almog Cohen",
+        "target": "Marvin Matip",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Almog Cohen",
+        "target": "Roger de Oliveira Bernardo",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Roger de Oliveira Bernardo",
+        "source": "Almog Cohen",
         "target": "Mathew Leckie",
         "weight": 1,
         "direction": "forward"
@@ -1342,14 +1360,14 @@
         "direction": "backward"
       },
       {
-        "source": "Marvin Matip",
-        "target": "Roger de Oliveira Bernardo",
+        "source": "Roger de Oliveira Bernardo",
+        "target": "Almog Cohen",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Marvin Matip",
-        "target": "Almog Cohen",
+        "source": "Roger de Oliveira Bernardo",
+        "target": "Mathew Leckie",
         "weight": 1,
         "direction": "forward"
       },
@@ -1364,24 +1382,6 @@
         "target": "Tobias Levels",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Almog Cohen",
-        "target": "Roger de Oliveira Bernardo",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Almog Cohen",
-        "target": "Marvin Matip",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Almog Cohen",
-        "target": "Mathew Leckie",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

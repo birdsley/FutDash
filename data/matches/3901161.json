@@ -1384,17 +1384,6 @@
         "eigenvector": 0.0017
       },
       {
-        "id": "Alaeddine Yahia",
-        "short": "Yahia",
-        "name": "Alaeddine Yahia",
-        "x": 35.29,
-        "y": 61.89,
-        "size": 63.3,
-        "is_playmaker": true,
-        "betweenness": 0.3722,
-        "eigenvector": 0.0095
-      },
-      {
         "id": "Rémy Vercoutre",
         "short": "Vercoutre",
         "name": "Rémy Vercoutre",
@@ -1404,6 +1393,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0006
+      },
+      {
+        "id": "Alaeddine Yahia",
+        "short": "Yahia",
+        "name": "Alaeddine Yahia",
+        "x": 35.29,
+        "y": 61.89,
+        "size": 63.3,
+        "is_playmaker": true,
+        "betweenness": 0.3722,
+        "eigenvector": 0.0095
       }
     ],
     "edges": [
@@ -1535,12 +1535,30 @@
       },
       {
         "source": "Jordan Adéoti",
-        "target": "Alaeddine Yahia",
+        "target": "Rémy Vercoutre",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Jordan Adéoti",
+        "target": "Alaeddine Yahia",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Rémy Vercoutre",
+        "target": "Jordan Adéoti",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rémy Vercoutre",
+        "target": "Alaeddine Yahia",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alaeddine Yahia",
         "target": "Rémy Vercoutre",
         "weight": 1,
         "direction": "backward"
@@ -1554,24 +1572,6 @@
       {
         "source": "Alaeddine Yahia",
         "target": "Jordan Leborgne",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alaeddine Yahia",
-        "target": "Rémy Vercoutre",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rémy Vercoutre",
-        "target": "Jordan Adéoti",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rémy Vercoutre",
-        "target": "Alaeddine Yahia",
         "weight": 1,
         "direction": "forward"
       }

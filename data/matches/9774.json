@@ -1237,6 +1237,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Guillermo Alfonso Maripán Loaysa",
+        "short": "Maripán",
+        "name": "Guillermo Maripán",
+        "x": 38.87,
+        "y": 21.97,
+        "size": 76.1,
+        "is_playmaker": true,
+        "betweenness": 0.3593,
+        "eigenvector": 0.0483
+      },
+      {
         "id": "Víctor Laguardia Cisneros",
         "short": "Laguardia",
         "name": "Víctor Laguardia",
@@ -1246,6 +1257,17 @@
         "is_playmaker": true,
         "betweenness": 0.4093,
         "eigenvector": 0.0848
+      },
+      {
+        "id": "Fernando Pacheco Flores",
+        "short": "Pacheco",
+        "name": "Fernando Pacheco",
+        "x": 14.0,
+        "y": 41.43,
+        "size": 69.0,
+        "is_playmaker": false,
+        "betweenness": 0.1519,
+        "eigenvector": 0.0163
       },
       {
         "id": "Alexis Ruano Delgado",
@@ -1268,28 +1290,6 @@
         "is_playmaker": false,
         "betweenness": 0.1278,
         "eigenvector": 0.0886
-      },
-      {
-        "id": "Guillermo Alfonso Maripán Loaysa",
-        "short": "Maripán",
-        "name": "Guillermo Maripán",
-        "x": 38.87,
-        "y": 21.97,
-        "size": 76.1,
-        "is_playmaker": true,
-        "betweenness": 0.3593,
-        "eigenvector": 0.0483
-      },
-      {
-        "id": "Fernando Pacheco Flores",
-        "short": "Pacheco",
-        "name": "Fernando Pacheco",
-        "x": 14.0,
-        "y": 41.43,
-        "size": 69.0,
-        "is_playmaker": false,
-        "betweenness": 0.1519,
-        "eigenvector": 0.0163
       }
     ],
     "edges": [
@@ -1325,13 +1325,13 @@
       },
       {
         "source": "Álvaro Medrán Just",
-        "target": "Víctor Laguardia Cisneros",
+        "target": "Guillermo Alfonso Maripán Loaysa",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Álvaro Medrán Just",
-        "target": "Guillermo Alfonso Maripán Loaysa",
+        "target": "Víctor Laguardia Cisneros",
         "weight": 1,
         "direction": "backward"
       },
@@ -1343,15 +1343,15 @@
       },
       {
         "source": "Mubarak Wakaso",
-        "target": "Rubén Duarte Sánchez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mubarak Wakaso",
         "target": "Guillermo Alfonso Maripán Loaysa",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Mubarak Wakaso",
+        "target": "Rubén Duarte Sánchez",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "John Guidetti",
@@ -1384,6 +1384,24 @@
         "direction": "backward"
       },
       {
+        "source": "Guillermo Alfonso Maripán Loaysa",
+        "target": "Mubarak Wakaso",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Guillermo Alfonso Maripán Loaysa",
+        "target": "Álvaro Medrán Just",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Guillermo Alfonso Maripán Loaysa",
+        "target": "Fernando Pacheco Flores",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Víctor Laguardia Cisneros",
         "target": "Álvaro Medrán Just",
         "weight": 1,
@@ -1397,15 +1415,27 @@
       },
       {
         "source": "Víctor Laguardia Cisneros",
+        "target": "Fernando Pacheco Flores",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Laguardia Cisneros",
         "target": "Alexis Ruano Delgado",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Víctor Laguardia Cisneros",
-        "target": "Fernando Pacheco Flores",
+        "source": "Fernando Pacheco Flores",
+        "target": "Víctor Laguardia Cisneros",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
+      },
+      {
+        "source": "Fernando Pacheco Flores",
+        "target": "Guillermo Alfonso Maripán Loaysa",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Alexis Ruano Delgado",
@@ -1430,36 +1460,6 @@
         "target": "Ibai Gómez Pérez",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Guillermo Alfonso Maripán Loaysa",
-        "target": "Mubarak Wakaso",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Guillermo Alfonso Maripán Loaysa",
-        "target": "Álvaro Medrán Just",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Guillermo Alfonso Maripán Loaysa",
-        "target": "Fernando Pacheco Flores",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Fernando Pacheco Flores",
-        "target": "Víctor Laguardia Cisneros",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Fernando Pacheco Flores",
-        "target": "Guillermo Alfonso Maripán Loaysa",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

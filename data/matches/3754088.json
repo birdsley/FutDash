@@ -990,17 +990,6 @@
         "eigenvector": 0.0851
       },
       {
-        "id": "Ayoze Pérez Gutiérrez",
-        "short": "Pérez",
-        "name": "Ayoze Pérez",
-        "x": 59.87,
-        "y": 23.11,
-        "size": 58.1,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.017
-      },
-      {
         "id": "Rob Elliot",
         "short": "Elliot",
         "name": "Rob Elliot",
@@ -1010,6 +999,17 @@
         "is_playmaker": false,
         "betweenness": 0.3667,
         "eigenvector": 0.0245
+      },
+      {
+        "id": "Ayoze Pérez Gutiérrez",
+        "short": "Pérez",
+        "name": "Ayoze Pérez",
+        "x": 59.87,
+        "y": 23.11,
+        "size": 58.1,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.017
       }
     ],
     "edges": [
@@ -1081,15 +1081,15 @@
       },
       {
         "source": "Fabricio Coloccini",
-        "target": "Ayoze Pérez Gutiérrez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Fabricio Coloccini",
         "target": "Rob Elliot",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Fabricio Coloccini",
+        "target": "Ayoze Pérez Gutiérrez",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Jack Colback",
@@ -1182,18 +1182,6 @@
         "direction": "backward"
       },
       {
-        "source": "Ayoze Pérez Gutiérrez",
-        "target": "Paul Dummett",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ayoze Pérez Gutiérrez",
-        "target": "Fabricio Coloccini",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Rob Elliot",
         "target": "Fabricio Coloccini",
         "weight": 1,
@@ -1204,6 +1192,18 @@
         "target": "Cheik Ismaël Tioté",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Ayoze Pérez Gutiérrez",
+        "target": "Paul Dummett",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ayoze Pérez Gutiérrez",
+        "target": "Fabricio Coloccini",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

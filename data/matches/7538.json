@@ -904,15 +904,15 @@
         "eigenvector": 0.016
       },
       {
-        "id": "Robin Olsen",
-        "short": "Olsen",
-        "name": "Robin Olsen",
-        "x": 16.6,
-        "y": 41.3,
+        "id": "Ola Toivonen",
+        "short": "Toivonen",
+        "name": "Ola Toivonen",
+        "x": 88.44,
+        "y": 34.56,
         "size": 58.3,
         "is_playmaker": false,
-        "betweenness": 0.1056,
-        "eigenvector": 0.0216
+        "betweenness": 0.2222,
+        "eigenvector": 0.0011
       },
       {
         "id": "Marcus Berg",
@@ -926,15 +926,15 @@
         "eigenvector": 0.0244
       },
       {
-        "id": "Ola Toivonen",
-        "short": "Toivonen",
-        "name": "Ola Toivonen",
-        "x": 88.44,
-        "y": 34.56,
+        "id": "Robin Olsen",
+        "short": "Olsen",
+        "name": "Robin Olsen",
+        "x": 16.6,
+        "y": 41.3,
         "size": 58.3,
         "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.0011
+        "betweenness": 0.1056,
+        "eigenvector": 0.0216
       }
     ],
     "edges": [
@@ -1113,14 +1113,20 @@
         "direction": "forward"
       },
       {
-        "source": "Robin Olsen",
-        "target": "Pontus Jansson",
+        "source": "Ola Toivonen",
+        "target": "Marcus Berg",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Robin Olsen",
-        "target": "Andreas Granqvist",
+        "source": "Ola Toivonen",
+        "target": "Viktor Claesson",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcus Berg",
+        "target": "Ola Toivonen",
         "weight": 1,
         "direction": "forward"
       },
@@ -1137,22 +1143,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Marcus Berg",
-        "target": "Ola Toivonen",
+        "source": "Robin Olsen",
+        "target": "Pontus Jansson",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Ola Toivonen",
-        "target": "Marcus Berg",
+        "source": "Robin Olsen",
+        "target": "Andreas Granqvist",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ola Toivonen",
-        "target": "Viktor Claesson",
-        "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },
@@ -1258,17 +1258,6 @@
         "eigenvector": 0.1212
       },
       {
-        "id": "Joo-Ho Park",
-        "short": "Joo-Ho",
-        "name": "Park Joo-Ho",
-        "x": 85.14,
-        "y": 6.43,
-        "size": 61.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0074
-      },
-      {
         "id": "Ja-Cheol Koo",
         "short": "Ja-Cheol",
         "name": "Koo Ja-Cheol",
@@ -1278,6 +1267,17 @@
         "is_playmaker": false,
         "betweenness": 0.1167,
         "eigenvector": 0.0095
+      },
+      {
+        "id": "Joo-Ho Park",
+        "short": "Joo-Ho",
+        "name": "Park Joo-Ho",
+        "x": 85.14,
+        "y": 6.43,
+        "size": 61.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0074
       }
     ],
     "edges": [
@@ -1397,30 +1397,12 @@
       },
       {
         "source": "Hee-Chan Hwang",
-        "target": "Joo-Ho Park",
+        "target": "Ja-Cheol Koo",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Hee-Chan Hwang",
-        "target": "Ja-Cheol Koo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Joo-Ho Park",
-        "target": "Ja-Cheol Koo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Joo-Ho Park",
-        "target": "Hee-Chan Hwang",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ja-Cheol Koo",
         "target": "Joo-Ho Park",
         "weight": 1,
         "direction": "forward"
@@ -1436,6 +1418,24 @@
         "target": "Shin-Wook Kim",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Ja-Cheol Koo",
+        "target": "Joo-Ho Park",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joo-Ho Park",
+        "target": "Ja-Cheol Koo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Joo-Ho Park",
+        "target": "Hee-Chan Hwang",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

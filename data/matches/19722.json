@@ -1010,39 +1010,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Anne-Marie Heatherson",
-        "short": "Heatherson",
-        "name": "Anne-Marie Heatherson",
-        "x": 49.88,
-        "y": 47.88,
-        "size": 74.0,
-        "is_playmaker": true,
-        "betweenness": 0.3778,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Hannah Short",
-        "short": "Short",
-        "name": "Hannah Short",
-        "x": 29.0,
-        "y": 42.62,
-        "size": 83.6,
-        "is_playmaker": false,
-        "betweenness": 0.2667,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Megan Walsh",
-        "short": "Walsh",
-        "name": "Megan Walsh",
-        "x": 11.75,
-        "y": 39.5,
-        "size": 74.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Monique Fischer",
         "short": "Fischer",
         "name": "Monique Fischer",
@@ -1063,6 +1030,39 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
+      },
+      {
+        "id": "Megan Walsh",
+        "short": "Walsh",
+        "name": "Megan Walsh",
+        "x": 11.75,
+        "y": 39.5,
+        "size": 74.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Hannah Short",
+        "short": "Short",
+        "name": "Hannah Short",
+        "x": 29.0,
+        "y": 42.62,
+        "size": 83.6,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Anne-Marie Heatherson",
+        "short": "Heatherson",
+        "name": "Anne-Marie Heatherson",
+        "x": 49.88,
+        "y": 47.88,
+        "size": 74.0,
+        "is_playmaker": true,
+        "betweenness": 0.3778,
+        "eigenvector": 0.0
       }
     ],
     "edges": [
@@ -1071,12 +1071,6 @@
         "target": "Nicola Cousins",
         "weight": 4,
         "direction": "backward"
-      },
-      {
-        "source": "Bonnie Horwood",
-        "target": "Anne-Marie Heatherson",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Bonnie Horwood",
@@ -1091,8 +1085,8 @@
         "direction": "forward"
       },
       {
-        "source": "Nicola Cousins",
-        "target": "Hannah Short",
+        "source": "Bonnie Horwood",
+        "target": "Anne-Marie Heatherson",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1101,6 +1095,12 @@
         "target": "Megan Walsh",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Nicola Cousins",
+        "target": "Hannah Short",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Megan Alexander",
@@ -1122,62 +1122,20 @@
       },
       {
         "source": "Georgia Evans",
+        "target": "Hannah Short",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Georgia Evans",
         "target": "Anne-Marie Heatherson",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Georgia Evans",
-        "target": "Hannah Short",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Amy Goddard",
         "target": "Bonnie Horwood",
         "weight": 5,
-        "direction": "forward"
-      },
-      {
-        "source": "Anne-Marie Heatherson",
-        "target": "Bonnie Horwood",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Anne-Marie Heatherson",
-        "target": "Georgia Evans",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Hannah Short",
-        "target": "Georgia Evans",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Hannah Short",
-        "target": "Nicola Cousins",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Hannah Short",
-        "target": "Megan Walsh",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Megan Walsh",
-        "target": "Nicola Cousins",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Megan Walsh",
-        "target": "Hannah Short",
-        "weight": 1,
         "direction": "forward"
       },
       {
@@ -1201,6 +1159,48 @@
       {
         "source": "Olivia Fergusson",
         "target": "Bonnie Horwood",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Megan Walsh",
+        "target": "Nicola Cousins",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Megan Walsh",
+        "target": "Hannah Short",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hannah Short",
+        "target": "Megan Walsh",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Hannah Short",
+        "target": "Georgia Evans",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Hannah Short",
+        "target": "Nicola Cousins",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Anne-Marie Heatherson",
+        "target": "Bonnie Horwood",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Anne-Marie Heatherson",
+        "target": "Georgia Evans",
         "weight": 1,
         "direction": "backward"
       }

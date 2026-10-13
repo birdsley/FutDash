@@ -1050,17 +1050,6 @@
         "eigenvector": 0.1264
       },
       {
-        "id": "Nolan Roux",
-        "short": "Roux",
-        "name": "Nolan Roux",
-        "x": 85.84,
-        "y": 50.63,
-        "size": 58.1,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0198
-      },
-      {
         "id": "Jean-Christophe Bahebeck",
         "short": "Bahebeck",
         "name": "Jean-Christophe Bahebeck",
@@ -1070,6 +1059,17 @@
         "is_playmaker": true,
         "betweenness": 0.2833,
         "eigenvector": 0.0322
+      },
+      {
+        "id": "Nolan Roux",
+        "short": "Roux",
+        "name": "Nolan Roux",
+        "x": 85.84,
+        "y": 50.63,
+        "size": 58.1,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0198
       }
     ],
     "edges": [
@@ -1141,13 +1141,13 @@
       },
       {
         "source": "Fabien Lemoine",
-        "target": "Nolan Roux",
+        "target": "Jean-Christophe Bahebeck",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Fabien Lemoine",
-        "target": "Jean-Christophe Bahebeck",
+        "target": "Nolan Roux",
         "weight": 1,
         "direction": "forward"
       },
@@ -1242,18 +1242,6 @@
         "direction": "forward"
       },
       {
-        "source": "Nolan Roux",
-        "target": "Romain Hamouma",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Nolan Roux",
-        "target": "Fabien Lemoine",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jean-Christophe Bahebeck",
         "target": "Valentin Eysseric",
         "weight": 1,
@@ -1261,6 +1249,18 @@
       },
       {
         "source": "Jean-Christophe Bahebeck",
+        "target": "Fabien Lemoine",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Nolan Roux",
+        "target": "Romain Hamouma",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Nolan Roux",
         "target": "Fabien Lemoine",
         "weight": 1,
         "direction": "backward"
@@ -1369,17 +1369,6 @@
         "eigenvector": 0.2615
       },
       {
-        "id": "Sébastien Squillaci",
-        "short": "Squillaci",
-        "name": "Sébastien Squillaci",
-        "x": 33.16,
-        "y": 55.41,
-        "size": 63.4,
-        "is_playmaker": false,
-        "betweenness": 0.2556,
-        "eigenvector": 0.0019
-      },
-      {
         "id": "Alexander Djiku",
         "short": "Djiku",
         "name": "Alexander Djiku",
@@ -1389,6 +1378,17 @@
         "is_playmaker": false,
         "betweenness": 0.2333,
         "eigenvector": 0.0224
+      },
+      {
+        "id": "Sébastien Squillaci",
+        "short": "Squillaci",
+        "name": "Sébastien Squillaci",
+        "x": 33.16,
+        "y": 55.41,
+        "size": 63.4,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0019
       }
     ],
     "edges": [
@@ -1507,14 +1507,8 @@
         "direction": "forward"
       },
       {
-        "source": "Sébastien Squillaci",
-        "target": "Yannick Cahuzac",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sébastien Squillaci",
-        "target": "Alexander Djiku",
+        "source": "Alexander Djiku",
+        "target": "Jesper Hansen",
         "weight": 1,
         "direction": "backward"
       },
@@ -1525,10 +1519,16 @@
         "direction": "forward"
       },
       {
-        "source": "Alexander Djiku",
-        "target": "Jesper Hansen",
+        "source": "Sébastien Squillaci",
+        "target": "Alexander Djiku",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Sébastien Squillaci",
+        "target": "Yannick Cahuzac",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

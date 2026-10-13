@@ -889,17 +889,6 @@
         "eigenvector": 0.5103
       },
       {
-        "id": "Wes Morgan",
-        "short": "Morgan",
-        "name": "Wes Morgan",
-        "x": 35.77,
-        "y": 52.29,
-        "size": 62.0,
-        "is_playmaker": false,
-        "betweenness": 0.1833,
-        "eigenvector": 0.0033
-      },
-      {
         "id": "Robert Huth",
         "short": "Huth",
         "name": "Robert Huth",
@@ -920,6 +909,17 @@
         "is_playmaker": false,
         "betweenness": 0.1833,
         "eigenvector": 0.047
+      },
+      {
+        "id": "Wes Morgan",
+        "short": "Morgan",
+        "name": "Wes Morgan",
+        "x": 35.77,
+        "y": 52.29,
+        "size": 62.0,
+        "is_playmaker": false,
+        "betweenness": 0.1833,
+        "eigenvector": 0.0033
       }
     ],
     "edges": [
@@ -1086,18 +1086,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Wes Morgan",
-        "target": "Kasper Schmeichel",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Wes Morgan",
-        "target": "Robert Huth",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Robert Huth",
         "target": "Wes Morgan",
         "weight": 1,
@@ -1120,6 +1108,18 @@
         "target": "N''Golo Kanté",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Wes Morgan",
+        "target": "Robert Huth",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wes Morgan",
+        "target": "Kasper Schmeichel",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1225,17 +1225,6 @@
         "eigenvector": 0.2229
       },
       {
-        "id": "Eden Hazard",
-        "short": "Hazard",
-        "name": "Eden Hazard",
-        "x": 80.04,
-        "y": 24.06,
-        "size": 59.1,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0153
-      },
-      {
         "id": "Thibaut Courtois",
         "short": "Courtois",
         "name": "Thibaut Courtois",
@@ -1245,6 +1234,17 @@
         "is_playmaker": false,
         "betweenness": 0.1167,
         "eigenvector": 0.0187
+      },
+      {
+        "id": "Eden Hazard",
+        "short": "Hazard",
+        "name": "Eden Hazard",
+        "x": 80.04,
+        "y": 24.06,
+        "size": 59.1,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0153
       }
     ],
     "edges": [
@@ -1417,18 +1417,6 @@
         "direction": "forward"
       },
       {
-        "source": "Eden Hazard",
-        "target": "Diego da Silva Costa",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Eden Hazard",
-        "target": "Oscar dos Santos Emboaba Júnior",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Thibaut Courtois",
         "target": "Kurt Happy Zouma",
         "weight": 1,
@@ -1439,6 +1427,18 @@
         "target": "John Terry",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Eden Hazard",
+        "target": "Diego da Silva Costa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Eden Hazard",
+        "target": "Oscar dos Santos Emboaba Júnior",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

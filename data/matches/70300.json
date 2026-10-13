@@ -885,17 +885,6 @@
         "eigenvector": 0.2003
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Valdés",
-        "name": "Víctor Valdés",
-        "x": 10.54,
-        "y": 41.09,
-        "size": 57.5,
-        "is_playmaker": true,
-        "betweenness": 0.3222,
-        "eigenvector": 0.0135
-      },
-      {
         "id": "Daniel Alves da Silva",
         "short": "Alves",
         "name": "Dani Alves",
@@ -905,6 +894,17 @@
         "is_playmaker": false,
         "betweenness": 0.1778,
         "eigenvector": 0.0093
+      },
+      {
+        "id": "Víctor Valdés Arribas",
+        "short": "Valdés",
+        "name": "Víctor Valdés",
+        "x": 10.54,
+        "y": 41.09,
+        "size": 57.5,
+        "is_playmaker": true,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0135
       }
     ],
     "edges": [
@@ -1030,15 +1030,15 @@
       },
       {
         "source": "Javier Alejandro Mascherano",
-        "target": "Víctor Valdés Arribas",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Javier Alejandro Mascherano",
         "target": "Daniel Alves da Silva",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Sergio Busquets i Burgos",
@@ -1077,18 +1077,6 @@
         "direction": "backward"
       },
       {
-        "source": "Víctor Valdés Arribas",
-        "target": "Javier Alejandro Mascherano",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Adriano Correia Claro",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Daniel Alves da Silva",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 1,
@@ -1099,6 +1087,18 @@
         "target": "Javier Alejandro Mascherano",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Adriano Correia Claro",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

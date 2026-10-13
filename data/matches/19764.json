@@ -1290,17 +1290,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Ellie Mason",
-        "short": "Mason",
-        "name": "Ellie Mason",
-        "x": 31.0,
-        "y": 25.83,
-        "size": 68.6,
-        "is_playmaker": false,
-        "betweenness": 0.1111,
-        "eigenvector": 0.0653
-      },
-      {
         "id": "Olivia Fergusson",
         "short": "Fergusson",
         "name": "Olivia Fergusson",
@@ -1310,6 +1299,17 @@
         "is_playmaker": false,
         "betweenness": 0.1,
         "eigenvector": 0.1256
+      },
+      {
+        "id": "Ellie Mason",
+        "short": "Mason",
+        "name": "Ellie Mason",
+        "x": 31.0,
+        "y": 25.83,
+        "size": 68.6,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
+        "eigenvector": 0.0653
       }
     ],
     "edges": [
@@ -1398,18 +1398,6 @@
         "direction": "forward"
       },
       {
-        "source": "Ellie Mason",
-        "target": "Megan Alexander",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ellie Mason",
-        "target": "Hannah Short",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Olivia Fergusson",
         "target": "Emily Syme",
         "weight": 1,
@@ -1420,6 +1408,18 @@
         "target": "Bonnie Horwood",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Ellie Mason",
+        "target": "Megan Alexander",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ellie Mason",
+        "target": "Hannah Short",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

@@ -885,17 +885,6 @@
         "eigenvector": 0.2232
       },
       {
-        "id": "Callum Davidson",
-        "short": "Davidson",
-        "name": "Callum Davidson",
-        "x": 58.87,
-        "y": 33.87,
-        "size": 64.2,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0166
-      },
-      {
         "id": "Steve Howey",
         "short": "Howey",
         "name": "Steve Howey",
@@ -905,6 +894,17 @@
         "is_playmaker": true,
         "betweenness": 0.2556,
         "eigenvector": 0.054
+      },
+      {
+        "id": "Callum Davidson",
+        "short": "Davidson",
+        "name": "Callum Davidson",
+        "x": 58.87,
+        "y": 33.87,
+        "size": 64.2,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0166
       }
     ],
     "edges": [
@@ -946,15 +946,15 @@
       },
       {
         "source": "Billy McKinlay",
-        "target": "Callum Davidson",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Billy McKinlay",
         "target": "Steve Howey",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Billy McKinlay",
+        "target": "Callum Davidson",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "James Scowcroft",
@@ -1011,18 +1011,6 @@
         "direction": "forward"
       },
       {
-        "source": "Callum Davidson",
-        "target": "Riccardo Scimeca",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Callum Davidson",
-        "target": "Billy McKinlay",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Steve Howey",
         "target": "Andy Impey",
         "weight": 1,
@@ -1033,6 +1021,18 @@
         "target": "Billy McKinlay",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Callum Davidson",
+        "target": "Riccardo Scimeca",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Callum Davidson",
+        "target": "Billy McKinlay",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

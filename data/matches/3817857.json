@@ -983,17 +983,6 @@
         "eigenvector": 0.1788
       },
       {
-        "id": "Mohammad Yasir",
-        "short": "Yasir",
-        "name": "Mohammad Yasir",
-        "x": 73.13,
-        "y": 55.36,
-        "size": 65.0,
-        "is_playmaker": false,
-        "betweenness": 0.2444,
-        "eigenvector": 0.0288
-      },
-      {
         "id": "Abdul Rabeeh",
         "short": "Rabeeh",
         "name": "Abdul Rabeeh",
@@ -1003,6 +992,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0127
+      },
+      {
+        "id": "Mohammad Yasir",
+        "short": "Yasir",
+        "name": "Mohammad Yasir",
+        "x": 73.13,
+        "y": 55.36,
+        "size": 65.0,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.0288
       }
     ],
     "edges": [
@@ -1134,12 +1134,30 @@
       },
       {
         "source": "Javier Siverio Toro",
+        "target": "Abdul Rabeeh",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Siverio Toro",
         "target": "Mohammad Yasir",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Javier Siverio Toro",
+        "source": "Abdul Rabeeh",
+        "target": "Mohammad Yasir",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Abdul Rabeeh",
+        "target": "Javier Siverio Toro",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mohammad Yasir",
         "target": "Abdul Rabeeh",
         "weight": 1,
         "direction": "forward"
@@ -1153,24 +1171,6 @@
       {
         "source": "Mohammad Yasir",
         "target": "Joel Joseph Chianese",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Mohammad Yasir",
-        "target": "Abdul Rabeeh",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Abdul Rabeeh",
-        "target": "Mohammad Yasir",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Abdul Rabeeh",
-        "target": "Javier Siverio Toro",
         "weight": 1,
         "direction": "backward"
       }

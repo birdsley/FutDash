@@ -1237,17 +1237,6 @@
         "eigenvector": 0.0723
       },
       {
-        "id": "Bethany England",
-        "short": "England",
-        "name": "Bethany England",
-        "x": 89.7,
-        "y": 39.97,
-        "size": 57.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0014
-      },
-      {
         "id": "Guro Reiten",
         "short": "Reiten",
         "name": "Guro Reiten",
@@ -1257,6 +1246,17 @@
         "is_playmaker": true,
         "betweenness": 0.3556,
         "eigenvector": 0.0056
+      },
+      {
+        "id": "Bethany England",
+        "short": "England",
+        "name": "Bethany England",
+        "x": 89.7,
+        "y": 39.97,
+        "size": 57.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0014
       }
     ],
     "edges": [
@@ -1412,30 +1412,12 @@
       },
       {
         "source": "Erin Cuthbert",
-        "target": "Bethany England",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Erin Cuthbert",
         "target": "Guro Reiten",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Bethany England",
-        "target": "Erin Cuthbert",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Bethany England",
-        "target": "Guro Reiten",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Guro Reiten",
+        "source": "Erin Cuthbert",
         "target": "Bethany England",
         "weight": 1,
         "direction": "forward"
@@ -1451,6 +1433,24 @@
         "target": "Erin Cuthbert",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Guro Reiten",
+        "target": "Bethany England",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Bethany England",
+        "target": "Erin Cuthbert",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Bethany England",
+        "target": "Guro Reiten",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

@@ -1154,17 +1154,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Ignacio Camacho Barnola",
-        "short": "Camacho",
-        "name": "Ignacio Camacho",
-        "x": 52.93,
-        "y": 51.16,
-        "size": 68.8,
-        "is_playmaker": true,
-        "betweenness": 0.3241,
-        "eigenvector": 0.0744
-      },
-      {
         "id": "Egor Filipenko",
         "short": "Filipenko",
         "name": "Egor Filipenko",
@@ -1185,6 +1174,17 @@
         "is_playmaker": false,
         "betweenness": 0.0722,
         "eigenvector": 0.0147
+      },
+      {
+        "id": "Ignacio Camacho Barnola",
+        "short": "Camacho",
+        "name": "Ignacio Camacho",
+        "x": 52.93,
+        "y": 51.16,
+        "size": 68.8,
+        "is_playmaker": true,
+        "betweenness": 0.3241,
+        "eigenvector": 0.0744
       }
     ],
     "edges": [
@@ -1250,15 +1250,15 @@
       },
       {
         "source": "José Luis García del Pozo",
-        "target": "Ignacio Camacho Barnola",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "José Luis García del Pozo",
         "target": "Egor Filipenko",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José Luis García del Pozo",
+        "target": "Ignacio Camacho Barnola",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Charles Días Barbosa de Oliveira",
@@ -1309,24 +1309,6 @@
         "direction": "forward"
       },
       {
-        "source": "Ignacio Camacho Barnola",
-        "target": "Juan Pablo Añor Acosta",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ignacio Camacho Barnola",
-        "target": "José Luis García del Pozo",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ignacio Camacho Barnola",
-        "target": "Raúl Albentosa Redal",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Egor Filipenko",
         "target": "Miguel Torres Gómez",
         "weight": 1,
@@ -1353,6 +1335,24 @@
       {
         "source": "Raúl Albentosa Redal",
         "target": "Egor Filipenko",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ignacio Camacho Barnola",
+        "target": "Raúl Albentosa Redal",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ignacio Camacho Barnola",
+        "target": "Juan Pablo Añor Acosta",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ignacio Camacho Barnola",
+        "target": "José Luis García del Pozo",
         "weight": 1,
         "direction": "lateral"
       }

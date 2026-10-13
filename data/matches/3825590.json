@@ -1069,15 +1069,15 @@
         "eigenvector": 0.4977
       },
       {
-        "id": "Keylor Navas Gamboa",
-        "short": "Navas",
-        "name": "Keylor Navas",
-        "x": 8.88,
-        "y": 41.23,
+        "id": "Cristiano Ronaldo dos Santos Aveiro",
+        "short": "Ronaldo",
+        "name": "Cristiano Ronaldo",
+        "x": 80.83,
+        "y": 27.05,
         "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.2056,
-        "eigenvector": 0.0202
+        "betweenness": 0.0,
+        "eigenvector": 0.0071
       },
       {
         "id": "Karim Benzema",
@@ -1091,15 +1091,15 @@
         "eigenvector": 0.0071
       },
       {
-        "id": "Cristiano Ronaldo dos Santos Aveiro",
-        "short": "Ronaldo",
-        "name": "Cristiano Ronaldo",
-        "x": 80.83,
-        "y": 27.05,
+        "id": "Keylor Navas Gamboa",
+        "short": "Navas",
+        "name": "Keylor Navas",
+        "x": 8.88,
+        "y": 41.23,
         "size": 57.7,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0071
+        "betweenness": 0.2056,
+        "eigenvector": 0.0202
       }
     ],
     "edges": [
@@ -1135,13 +1135,13 @@
       },
       {
         "source": "Francisco Román Alarcón Suárez",
-        "target": "Karim Benzema",
+        "target": "Cristiano Ronaldo dos Santos Aveiro",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Francisco Román Alarcón Suárez",
-        "target": "Cristiano Ronaldo dos Santos Aveiro",
+        "target": "Karim Benzema",
         "weight": 1,
         "direction": "forward"
       },
@@ -1272,6 +1272,30 @@
         "direction": "forward"
       },
       {
+        "source": "Cristiano Ronaldo dos Santos Aveiro",
+        "target": "Francisco Román Alarcón Suárez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Cristiano Ronaldo dos Santos Aveiro",
+        "target": "Karim Benzema",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Karim Benzema",
+        "target": "Cristiano Ronaldo dos Santos Aveiro",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Karim Benzema",
+        "target": "Francisco Román Alarcón Suárez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Keylor Navas Gamboa",
         "target": "Raphaël Varane",
         "weight": 1,
@@ -1282,30 +1306,6 @@
         "target": "Kléper Laveran Lima Ferreira",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Karim Benzema",
-        "target": "Francisco Román Alarcón Suárez",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Karim Benzema",
-        "target": "Cristiano Ronaldo dos Santos Aveiro",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Cristiano Ronaldo dos Santos Aveiro",
-        "target": "Karim Benzema",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Cristiano Ronaldo dos Santos Aveiro",
-        "target": "Francisco Román Alarcón Suárez",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

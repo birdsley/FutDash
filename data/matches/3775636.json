@@ -1147,17 +1147,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Mollie Green",
-        "short": "Green",
-        "name": "Mollie Green",
-        "x": 73.49,
-        "y": 49.81,
-        "size": 59.2,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0078
-      },
-      {
         "id": "Connie Scofield",
         "short": "Scofield",
         "name": "Connie Scofield",
@@ -1167,6 +1156,17 @@
         "is_playmaker": true,
         "betweenness": 0.2333,
         "eigenvector": 0.0108
+      },
+      {
+        "id": "Mollie Green",
+        "short": "Green",
+        "name": "Mollie Green",
+        "x": 73.49,
+        "y": 49.81,
+        "size": 59.2,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0078
       }
     ],
     "edges": [
@@ -1315,8 +1315,14 @@
         "direction": "backward"
       },
       {
-        "source": "Mollie Green",
-        "target": "Claudia Walker",
+        "source": "Connie Scofield",
+        "target": "Christie Murray",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Connie Scofield",
+        "target": "Mollie Green",
         "weight": 1,
         "direction": "forward"
       },
@@ -1327,16 +1333,10 @@
         "direction": "backward"
       },
       {
-        "source": "Connie Scofield",
-        "target": "Mollie Green",
+        "source": "Mollie Green",
+        "target": "Claudia Walker",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Connie Scofield",
-        "target": "Christie Murray",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

@@ -1375,17 +1375,6 @@
         "eigenvector": 0.0643
       },
       {
-        "id": "Wes Morgan",
-        "short": "Morgan",
-        "name": "Wes Morgan",
-        "x": 46.99,
-        "y": 40.28,
-        "size": 68.3,
-        "is_playmaker": false,
-        "betweenness": 0.2889,
-        "eigenvector": 0.0625
-      },
-      {
         "id": "Kasper Schmeichel",
         "short": "Schmeichel",
         "name": "Kasper Schmeichel",
@@ -1395,6 +1384,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0168
+      },
+      {
+        "id": "Wes Morgan",
+        "short": "Morgan",
+        "name": "Wes Morgan",
+        "x": 46.99,
+        "y": 40.28,
+        "size": 68.3,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.0625
       }
     ],
     "edges": [
@@ -1502,12 +1502,30 @@
       },
       {
         "source": "Robert Huth",
+        "target": "Kasper Schmeichel",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Huth",
         "target": "Wes Morgan",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Robert Huth",
+        "source": "Kasper Schmeichel",
+        "target": "Wes Morgan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kasper Schmeichel",
+        "target": "Robert Huth",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wes Morgan",
         "target": "Kasper Schmeichel",
         "weight": 1,
         "direction": "backward"
@@ -1521,24 +1539,6 @@
       {
         "source": "Wes Morgan",
         "target": "Marc Albrighton",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wes Morgan",
-        "target": "Kasper Schmeichel",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Kasper Schmeichel",
-        "target": "Wes Morgan",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kasper Schmeichel",
-        "target": "Robert Huth",
         "weight": 1,
         "direction": "forward"
       }

@@ -990,17 +990,6 @@
         "eigenvector": 0.1457
       },
       {
-        "id": "Junichi Inamoto",
-        "short": "Inamoto",
-        "name": "Junichi Inamoto",
-        "x": 72.24,
-        "y": 46.12,
-        "size": 60.1,
-        "is_playmaker": true,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0361
-      },
-      {
         "id": "Ian Pearce",
         "short": "Pearce",
         "name": "Ian Pearce",
@@ -1010,6 +999,17 @@
         "is_playmaker": false,
         "betweenness": 0.1722,
         "eigenvector": 0.036
+      },
+      {
+        "id": "Junichi Inamoto",
+        "short": "Inamoto",
+        "name": "Junichi Inamoto",
+        "x": 72.24,
+        "y": 46.12,
+        "size": 60.1,
+        "is_playmaker": true,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0361
       }
     ],
     "edges": [
@@ -1063,15 +1063,15 @@
       },
       {
         "source": "Sylvain Legwinski",
-        "target": "Junichi Inamoto",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sylvain Legwinski",
         "target": "Ian Pearce",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Sylvain Legwinski",
+        "target": "Junichi Inamoto",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Steed Malbranque",
@@ -1182,18 +1182,6 @@
         "direction": "backward"
       },
       {
-        "source": "Junichi Inamoto",
-        "target": "Sylvain Legwinski",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Junichi Inamoto",
-        "target": "Sean Davis",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Ian Pearce",
         "target": "Sylvain Legwinski",
         "weight": 1,
@@ -1204,6 +1192,18 @@
         "target": "Martin Djetou",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Junichi Inamoto",
+        "target": "Sylvain Legwinski",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Junichi Inamoto",
+        "target": "Sean Davis",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

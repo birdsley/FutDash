@@ -975,17 +975,6 @@
         "eigenvector": 0.1097
       },
       {
-        "id": "Chloe Kelly",
-        "short": "Kelly",
-        "name": "Chloe Kelly",
-        "x": 87.55,
-        "y": 56.58,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.002
-      },
-      {
         "id": "Ellen White",
         "short": "White",
         "name": "Ellen White",
@@ -995,6 +984,17 @@
         "is_playmaker": true,
         "betweenness": 0.35,
         "eigenvector": 0.0068
+      },
+      {
+        "id": "Chloe Kelly",
+        "short": "Kelly",
+        "name": "Chloe Kelly",
+        "x": 87.55,
+        "y": 56.58,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.002
       }
     ],
     "edges": [
@@ -1144,38 +1144,20 @@
       },
       {
         "source": "Georgia Stanway",
-        "target": "Chloe Kelly",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Georgia Stanway",
         "target": "Ellen White",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Ellie Roebuck",
-        "target": "Stephanie Houghton",
-        "weight": 12,
+        "source": "Georgia Stanway",
+        "target": "Chloe Kelly",
+        "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Chloe Kelly",
-        "target": "Georgia Stanway",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Chloe Kelly",
-        "target": "Ellen White",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ellen White",
-        "target": "Chloe Kelly",
-        "weight": 1,
+        "source": "Ellie Roebuck",
+        "target": "Stephanie Houghton",
+        "weight": 12,
         "direction": "forward"
       },
       {
@@ -1189,6 +1171,24 @@
         "target": "Georgia Stanway",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Chloe Kelly",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Chloe Kelly",
+        "target": "Georgia Stanway",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Chloe Kelly",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1294,17 +1294,6 @@
         "eigenvector": 0.0027
       },
       {
-        "id": "Gilly Louise Scarlett Flaherty",
-        "short": "Flaherty",
-        "name": "Gilly Flaherty",
-        "x": 35.57,
-        "y": 51.53,
-        "size": 64.0,
-        "is_playmaker": false,
-        "betweenness": 0.3556,
-        "eigenvector": 0.011
-      },
-      {
         "id": "Lois Joel",
         "short": "Joel",
         "name": "Lois Joel",
@@ -1314,6 +1303,17 @@
         "is_playmaker": false,
         "betweenness": 0.2889,
         "eigenvector": 0.0193
+      },
+      {
+        "id": "Gilly Louise Scarlett Flaherty",
+        "short": "Flaherty",
+        "name": "Gilly Flaherty",
+        "x": 35.57,
+        "y": 51.53,
+        "size": 64.0,
+        "is_playmaker": false,
+        "betweenness": 0.3556,
+        "eigenvector": 0.011
       }
     ],
     "edges": [
@@ -1427,27 +1427,15 @@
       },
       {
         "source": "Katerina Svitková",
-        "target": "Gilly Louise Scarlett Flaherty",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Katerina Svitková",
         "target": "Lois Joel",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Gilly Louise Scarlett Flaherty",
-        "target": "Grace Fisk",
+        "source": "Katerina Svitková",
+        "target": "Gilly Louise Scarlett Flaherty",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gilly Louise Scarlett Flaherty",
-        "target": "Katerina Svitková",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Lois Joel",
@@ -1460,6 +1448,18 @@
         "target": "Katerina Svitková",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Grace Fisk",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Katerina Svitková",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

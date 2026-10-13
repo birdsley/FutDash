@@ -960,17 +960,6 @@
         "eigenvector": 0.0698
       },
       {
-        "id": "Sergio Leonel Agüero del Castillo",
-        "short": "Agüero",
-        "name": "Sergio Agüero",
-        "x": 81.0,
-        "y": 30.75,
-        "size": 58.6,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.0031
-      },
-      {
         "id": "Eduardo Antonio Salvio",
         "short": "Salvio",
         "name": "Eduardo Salvio",
@@ -980,6 +969,17 @@
         "is_playmaker": false,
         "betweenness": 0.2556,
         "eigenvector": 0.0109
+      },
+      {
+        "id": "Sergio Leonel Agüero del Castillo",
+        "short": "Agüero",
+        "name": "Sergio Agüero",
+        "x": 81.0,
+        "y": 30.75,
+        "size": 58.6,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0031
       }
     ],
     "edges": [
@@ -1141,25 +1141,13 @@
       },
       {
         "source": "Lionel Andrés Messi Cuccittini",
-        "target": "Sergio Leonel Agüero del Castillo",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Lionel Andrés Messi Cuccittini",
         "target": "Eduardo Antonio Salvio",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Sergio Leonel Agüero del Castillo",
-        "target": "Maximiliano Eduardo Meza",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sergio Leonel Agüero del Castillo",
-        "target": "Lionel Andrés Messi Cuccittini",
+        "source": "Lionel Andrés Messi Cuccittini",
+        "target": "Sergio Leonel Agüero del Castillo",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1174,6 +1162,18 @@
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Sergio Leonel Agüero del Castillo",
+        "target": "Maximiliano Eduardo Meza",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Leonel Agüero del Castillo",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

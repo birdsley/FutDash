@@ -960,22 +960,22 @@
         "eigenvector": 0.2367
       },
       {
-        "id": "Nolan Roux",
-        "short": "Roux",
-        "name": "Nolan Roux",
-        "x": 70.37,
-        "y": 48.79,
+        "id": "Neal Maupay",
+        "short": "Maupay",
+        "name": "Neal Maupay",
+        "x": 79.75,
+        "y": 45.22,
         "size": 58.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0097
       },
       {
-        "id": "Neal Maupay",
-        "short": "Maupay",
-        "name": "Neal Maupay",
-        "x": 79.75,
-        "y": 45.22,
+        "id": "Nolan Roux",
+        "short": "Roux",
+        "name": "Nolan Roux",
+        "x": 70.37,
+        "y": 48.79,
         "size": 58.7,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1129,12 +1129,30 @@
       },
       {
         "source": "Renaud Cohade",
-        "target": "Nolan Roux",
+        "target": "Neal Maupay",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
         "source": "Renaud Cohade",
+        "target": "Nolan Roux",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Neal Maupay",
+        "target": "Renaud Cohade",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Neal Maupay",
+        "target": "Nolan Roux",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Nolan Roux",
         "target": "Neal Maupay",
         "weight": 1,
         "direction": "forward"
@@ -1144,24 +1162,6 @@
         "target": "Renaud Cohade",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Nolan Roux",
-        "target": "Neal Maupay",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Neal Maupay",
-        "target": "Nolan Roux",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Neal Maupay",
-        "target": "Renaud Cohade",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

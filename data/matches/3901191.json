@@ -930,17 +930,6 @@
         "eigenvector": 0.1895
       },
       {
-        "id": "Valère Germain",
-        "short": "Germain",
-        "name": "Valère Germain",
-        "x": 73.43,
-        "y": 43.69,
-        "size": 57.6,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0088
-      },
-      {
         "id": "Alassane Pléa",
         "short": "Pléa",
         "name": "Alassane Pléa",
@@ -950,6 +939,17 @@
         "is_playmaker": true,
         "betweenness": 0.3667,
         "eigenvector": 0.0169
+      },
+      {
+        "id": "Valère Germain",
+        "short": "Germain",
+        "name": "Valère Germain",
+        "x": 73.43,
+        "y": 43.69,
+        "size": 57.6,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0088
       }
     ],
     "edges": [
@@ -1075,13 +1075,13 @@
       },
       {
         "source": "Rémi Walter",
-        "target": "Valère Germain",
+        "target": "Alassane Pléa",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Rémi Walter",
-        "target": "Alassane Pléa",
+        "target": "Valère Germain",
         "weight": 1,
         "direction": "forward"
       },
@@ -1122,18 +1122,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Valère Germain",
-        "target": "Hatem Ben Arfa",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Valère Germain",
-        "target": "Rémi Walter",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Alassane Pléa",
         "target": "Jean Michaël Seri",
         "weight": 1,
@@ -1141,6 +1129,18 @@
       },
       {
         "source": "Alassane Pléa",
+        "target": "Rémi Walter",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Hatem Ben Arfa",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Valère Germain",
         "target": "Rémi Walter",
         "weight": 1,
         "direction": "backward"
@@ -1249,17 +1249,6 @@
         "eigenvector": 0.214
       },
       {
-        "id": "Khalid Boutaïb",
-        "short": "Boutaïb",
-        "name": "Khalid Boutaïb",
-        "x": 72.86,
-        "y": 31.96,
-        "size": 61.6,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0388
-      },
-      {
         "id": "Clément Maury",
         "short": "Maury",
         "name": "Clément Maury",
@@ -1269,6 +1258,17 @@
         "is_playmaker": false,
         "betweenness": 0.1556,
         "eigenvector": 0.0555
+      },
+      {
+        "id": "Khalid Boutaïb",
+        "short": "Boutaïb",
+        "name": "Khalid Boutaïb",
+        "x": 72.86,
+        "y": 31.96,
+        "size": 61.6,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0388
       }
     ],
     "edges": [
@@ -1393,18 +1393,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Khalid Boutaïb",
-        "target": "Mohamed Larbi",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Khalid Boutaïb",
-        "target": "Jacques Zoua Daogari",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Clément Maury",
         "target": "Jérémie Bréchet",
         "weight": 1,
@@ -1415,6 +1403,18 @@
         "target": "Abdou Kader Mangane",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Khalid Boutaïb",
+        "target": "Mohamed Larbi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Khalid Boutaïb",
+        "target": "Jacques Zoua Daogari",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

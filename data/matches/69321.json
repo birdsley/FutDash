@@ -1175,17 +1175,6 @@
         "eigenvector": 0.2925
       },
       {
-        "id": "Vivianne Miedema",
-        "short": "Miedema",
-        "name": "Vivianne Miedema",
-        "x": 60.54,
-        "y": 38.06,
-        "size": 61.8,
-        "is_playmaker": false,
-        "betweenness": 0.2611,
-        "eigenvector": 0.0228
-      },
-      {
         "id": "Lineth Beerensteyn",
         "short": "Beerensteyn",
         "name": "Lineth Beerensteyn",
@@ -1195,6 +1184,17 @@
         "is_playmaker": false,
         "betweenness": 0.2111,
         "eigenvector": 0.0256
+      },
+      {
+        "id": "Vivianne Miedema",
+        "short": "Miedema",
+        "name": "Vivianne Miedema",
+        "x": 60.54,
+        "y": 38.06,
+        "size": 61.8,
+        "is_playmaker": false,
+        "betweenness": 0.2611,
+        "eigenvector": 0.0228
       },
       {
         "id": "Sari van Veenendaal",
@@ -1324,8 +1324,14 @@
         "direction": "forward"
       },
       {
-        "source": "Vivianne Miedema",
-        "target": "Sherida Spitse",
+        "source": "Lineth Beerensteyn",
+        "target": "Vivianne Miedema",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lineth Beerensteyn",
+        "target": "Jackie Groenen",
         "weight": 1,
         "direction": "backward"
       },
@@ -1336,14 +1342,8 @@
         "direction": "forward"
       },
       {
-        "source": "Lineth Beerensteyn",
-        "target": "Vivianne Miedema",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lineth Beerensteyn",
-        "target": "Jackie Groenen",
+        "source": "Vivianne Miedema",
+        "target": "Sherida Spitse",
         "weight": 1,
         "direction": "backward"
       },

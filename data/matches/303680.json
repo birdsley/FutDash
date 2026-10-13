@@ -945,17 +945,6 @@
         "eigenvector": 0.0028
       },
       {
-        "id": "Raúl García Carnero",
-        "short": "García",
-        "name": "Raúl García",
-        "x": 49.2,
-        "y": 8.63,
-        "size": 63.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0028
-      },
-      {
         "id": "Rubén Alcaraz Jiménez",
         "short": "Alcaraz",
         "name": "Rubén Alcaraz",
@@ -965,6 +954,17 @@
         "is_playmaker": true,
         "betweenness": 0.3944,
         "eigenvector": 0.042
+      },
+      {
+        "id": "Raúl García Carnero",
+        "short": "García",
+        "name": "Raúl García",
+        "x": 49.2,
+        "y": 8.63,
+        "size": 63.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0028
       }
     ],
     "edges": [
@@ -1089,28 +1089,10 @@
         "direction": "backward"
       },
       {
-        "source": "Raúl García Carnero",
-        "target": "Óscar Plano Pedreño",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Raúl García Carnero",
-        "target": "Rubén Alcaraz Jiménez",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Rubén Alcaraz Jiménez",
         "target": "Óscar Plano Pedreño",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Rubén Alcaraz Jiménez",
-        "target": "Raúl García Carnero",
-        "weight": 1,
-        "direction": "lateral"
       },
       {
         "source": "Rubén Alcaraz Jiménez",
@@ -1121,6 +1103,24 @@
       {
         "source": "Rubén Alcaraz Jiménez",
         "target": "Enrique Pérez Muñoz",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Rubén Alcaraz Jiménez",
+        "target": "Raúl García Carnero",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Raúl García Carnero",
+        "target": "Óscar Plano Pedreño",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Raúl García Carnero",
+        "target": "Rubén Alcaraz Jiménez",
         "weight": 1,
         "direction": "lateral"
       }

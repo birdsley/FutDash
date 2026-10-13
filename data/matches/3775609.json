@@ -1201,17 +1201,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Kate Longhurst",
-        "short": "Longhurst",
-        "name": "Kate Longhurst",
-        "x": 71.22,
-        "y": 44.32,
-        "size": 66.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.336
-      },
-      {
         "id": "Laura Vetterlein",
         "short": "Vetterlein",
         "name": "Laura Vetterlein",
@@ -1221,6 +1210,17 @@
         "is_playmaker": true,
         "betweenness": 0.1944,
         "eigenvector": 0.3597
+      },
+      {
+        "id": "Kate Longhurst",
+        "short": "Longhurst",
+        "name": "Kate Longhurst",
+        "x": 71.22,
+        "y": 44.32,
+        "size": 66.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.336
       }
     ],
     "edges": [
@@ -1286,15 +1286,15 @@
       },
       {
         "source": "Kenza Dali",
-        "target": "Kate Longhurst",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Kenza Dali",
         "target": "Laura Vetterlein",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Kenza Dali",
+        "target": "Kate Longhurst",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Cecilie Redisch Kvamme",
@@ -1315,24 +1315,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Kate Longhurst",
-        "target": "Kenza Dali",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Kate Longhurst",
-        "target": "Laura Vetterlein",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Laura Vetterlein",
-        "target": "Kate Longhurst",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Laura Vetterlein",
         "target": "Emily Louise van Egmond",
         "weight": 1,
@@ -1343,6 +1325,24 @@
         "target": "Kenza Dali",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Laura Vetterlein",
+        "target": "Kate Longhurst",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Kenza Dali",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kate Longhurst",
+        "target": "Laura Vetterlein",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

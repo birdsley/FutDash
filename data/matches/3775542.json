@@ -990,17 +990,6 @@
         "eigenvector": 0.0698
       },
       {
-        "id": "Simone Magill",
-        "short": "Magill",
-        "name": "Simone Magill",
-        "x": 85.93,
-        "y": 35.26,
-        "size": 58.1,
-        "is_playmaker": false,
-        "betweenness": 0.1852,
-        "eigenvector": 0.0115
-      },
-      {
         "id": "Maéva Clemaron",
         "short": "Clemaron",
         "name": "Maéva Clemaron",
@@ -1009,6 +998,17 @@
         "size": 58.1,
         "is_playmaker": false,
         "betweenness": 0.263,
+        "eigenvector": 0.0115
+      },
+      {
+        "id": "Simone Magill",
+        "short": "Magill",
+        "name": "Simone Magill",
+        "x": 85.93,
+        "y": 35.26,
+        "size": 58.1,
+        "is_playmaker": false,
+        "betweenness": 0.1852,
         "eigenvector": 0.0115
       }
     ],
@@ -1087,15 +1087,15 @@
       },
       {
         "source": "Nicoline Sørensen",
-        "target": "Simone Magill",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Nicoline Sørensen",
         "target": "Maéva Clemaron",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Nicoline Sørensen",
+        "target": "Simone Magill",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Ingrid Moe Wold",
@@ -1182,18 +1182,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Simone Magill",
-        "target": "Nicoline Sørensen",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Simone Magill",
-        "target": "Lucy Hope",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Maéva Clemaron",
         "target": "Abbey-Leigh Stringer",
         "weight": 1,
@@ -1204,6 +1192,18 @@
         "target": "Nicoline Sørensen",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Simone Magill",
+        "target": "Nicoline Sørensen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Simone Magill",
+        "target": "Lucy Hope",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

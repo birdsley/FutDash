@@ -852,17 +852,6 @@
         "eigenvector": 0.4806
       },
       {
-        "id": "Youssef El-Arabi",
-        "short": "El-Arabi",
-        "name": "Youssef El-Arabi",
-        "x": 74.43,
-        "y": 40.42,
-        "size": 62.9,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0376
-      },
-      {
         "id": "Jean-Sylvain Claude Babin",
         "short": "Babin",
         "name": "Jean-Sylvain Babin",
@@ -872,6 +861,17 @@
         "is_playmaker": true,
         "betweenness": 0.437,
         "eigenvector": 0.0598
+      },
+      {
+        "id": "Andrés Eduardo Fernández Moreno",
+        "short": "Fernández",
+        "name": "Andrés Fernández",
+        "x": 12.84,
+        "y": 41.64,
+        "size": 62.9,
+        "is_playmaker": true,
+        "betweenness": 0.3481,
+        "eigenvector": 0.0069
       },
       {
         "id": "Rubén Rochina Naixes",
@@ -896,15 +896,15 @@
         "eigenvector": 0.0354
       },
       {
-        "id": "Andrés Eduardo Fernández Moreno",
-        "short": "Fernández",
-        "name": "Andrés Fernández",
-        "x": 12.84,
-        "y": 41.64,
+        "id": "Youssef El-Arabi",
+        "short": "El-Arabi",
+        "name": "Youssef El-Arabi",
+        "x": 74.43,
+        "y": 40.42,
         "size": 62.9,
-        "is_playmaker": true,
-        "betweenness": 0.3481,
-        "eigenvector": 0.0069
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0376
       }
     ],
     "edges": [
@@ -928,15 +928,15 @@
       },
       {
         "source": "Adalberto Peñaranda Maestre",
-        "target": "Youssef El-Arabi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Adalberto Peñaranda Maestre",
         "target": "Rubén Rochina Naixes",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Adalberto Peñaranda Maestre",
+        "target": "Youssef El-Arabi",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Abdoulaye Doucouré",
@@ -1029,18 +1029,6 @@
         "direction": "backward"
       },
       {
-        "source": "Youssef El-Arabi",
-        "target": "Adalberto Peñaranda Maestre",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Youssef El-Arabi",
-        "target": "Rubén Rochina Naixes",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jean-Sylvain Claude Babin",
         "target": "Hugo Miguel Almeida Costa Lopes",
         "weight": 1,
@@ -1059,8 +1047,14 @@
         "direction": "backward"
       },
       {
-        "source": "Rubén Rochina Naixes",
-        "target": "Youssef El-Arabi",
+        "source": "Andrés Eduardo Fernández Moreno",
+        "target": "Ricardo Miguel Moreira da Costa",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Andrés Eduardo Fernández Moreno",
+        "target": "Jean-Sylvain Claude Babin",
         "weight": 1,
         "direction": "forward"
       },
@@ -1077,6 +1071,18 @@
         "direction": "backward"
       },
       {
+        "source": "Rubén Rochina Naixes",
+        "target": "Youssef El-Arabi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ricardo Miguel Moreira da Costa",
+        "target": "Andrés Eduardo Fernández Moreno",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ricardo Miguel Moreira da Costa",
         "target": "David Rodríguez Lombán",
         "weight": 1,
@@ -1089,22 +1095,16 @@
         "direction": "forward"
       },
       {
-        "source": "Ricardo Miguel Moreira da Costa",
-        "target": "Andrés Eduardo Fernández Moreno",
+        "source": "Youssef El-Arabi",
+        "target": "Adalberto Peñaranda Maestre",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Andrés Eduardo Fernández Moreno",
-        "target": "Ricardo Miguel Moreira da Costa",
+        "source": "Youssef El-Arabi",
+        "target": "Rubén Rochina Naixes",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Andrés Eduardo Fernández Moreno",
-        "target": "Jean-Sylvain Claude Babin",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

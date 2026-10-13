@@ -945,17 +945,6 @@
         "eigenvector": 0.1812
       },
       {
-        "id": "Marc-André ter Stegen",
-        "short": "ter Stegen",
-        "name": "Marc-André ter Stegen",
-        "x": 12.73,
-        "y": 40.5,
-        "size": 57.1,
-        "is_playmaker": true,
-        "betweenness": 0.2556,
-        "eigenvector": 0.0163
-      },
-      {
         "id": "Luis Alberto Suárez Díaz",
         "short": "Suárez",
         "name": "Luis Suárez",
@@ -965,6 +954,17 @@
         "is_playmaker": false,
         "betweenness": 0.1778,
         "eigenvector": 0.0123
+      },
+      {
+        "id": "Marc-André ter Stegen",
+        "short": "ter Stegen",
+        "name": "Marc-André ter Stegen",
+        "x": 12.73,
+        "y": 40.5,
+        "size": 57.1,
+        "is_playmaker": true,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0163
       }
     ],
     "edges": [
@@ -1137,18 +1137,6 @@
         "direction": "forward"
       },
       {
-        "source": "Marc-André ter Stegen",
-        "target": "Thomas Vermaelen",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marc-André ter Stegen",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Luis Alberto Suárez Díaz",
         "target": "Philippe Coutinho Correia",
         "weight": 1,
@@ -1159,6 +1147,18 @@
         "target": "André Filipe Tavares Gomes",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Thomas Vermaelen",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1264,17 +1264,6 @@
         "eigenvector": 0.0002
       },
       {
-        "id": "Unai Bustinza Martínez",
-        "short": "Bustinza",
-        "name": "Unai Bustinza",
-        "x": 33.78,
-        "y": 57.06,
-        "size": 65.3,
-        "is_playmaker": true,
-        "betweenness": 0.5222,
-        "eigenvector": 0.0334
-      },
-      {
         "id": "Iván Cuéllar Sacristán",
         "short": "Pichu",
         "name": "Pichu",
@@ -1284,6 +1273,17 @@
         "is_playmaker": false,
         "betweenness": 0.2667,
         "eigenvector": 0.0023
+      },
+      {
+        "id": "Unai Bustinza Martínez",
+        "short": "Bustinza",
+        "name": "Unai Bustinza",
+        "x": 33.78,
+        "y": 57.06,
+        "size": 65.3,
+        "is_playmaker": true,
+        "betweenness": 0.5222,
+        "eigenvector": 0.0334
       }
     ],
     "edges": [
@@ -1420,14 +1420,14 @@
         "direction": "backward"
       },
       {
-        "source": "Unai Bustinza Martínez",
-        "target": "Rubén Salvador Pérez Del Mármol",
+        "source": "Iván Cuéllar Sacristán",
+        "target": "Dimitrios Siovas",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Unai Bustinza Martínez",
-        "target": "Nabil El Zhar",
+        "source": "Iván Cuéllar Sacristán",
+        "target": "Unai Bustinza Martínez",
         "weight": 1,
         "direction": "forward"
       },
@@ -1438,14 +1438,14 @@
         "direction": "backward"
       },
       {
-        "source": "Iván Cuéllar Sacristán",
-        "target": "Dimitrios Siovas",
+        "source": "Unai Bustinza Martínez",
+        "target": "Rubén Salvador Pérez Del Mármol",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Iván Cuéllar Sacristán",
-        "target": "Unai Bustinza Martínez",
+        "source": "Unai Bustinza Martínez",
+        "target": "Nabil El Zhar",
         "weight": 1,
         "direction": "forward"
       }

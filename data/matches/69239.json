@@ -975,17 +975,6 @@
         "eigenvector": 0.363
       },
       {
-        "id": "Diego Ángel Capel Trinidad",
-        "short": "Capel",
-        "name": "Diego Capel",
-        "x": 60.52,
-        "y": 18.26,
-        "size": 64.4,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0375
-      },
-      {
         "id": "Federico Julián Fazio",
         "short": "Fazio",
         "name": "Federico Fazio",
@@ -995,6 +984,17 @@
         "is_playmaker": false,
         "betweenness": 0.2222,
         "eigenvector": 0.0562
+      },
+      {
+        "id": "Diego Ángel Capel Trinidad",
+        "short": "Capel",
+        "name": "Diego Capel",
+        "x": 60.52,
+        "y": 18.26,
+        "size": 64.4,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0375
       }
     ],
     "edges": [
@@ -1042,15 +1042,15 @@
       },
       {
         "source": "Alain Didier Zokora-Déguy",
-        "target": "Diego Ángel Capel Trinidad",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alain Didier Zokora-Déguy",
         "target": "Federico Julián Fazio",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Alain Didier Zokora-Déguy",
+        "target": "Diego Ángel Capel Trinidad",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Julien Escudé",
@@ -1107,18 +1107,6 @@
         "direction": "forward"
       },
       {
-        "source": "Diego Ángel Capel Trinidad",
-        "target": "Adriano Correia Claro",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Diego Ángel Capel Trinidad",
-        "target": "Alain Didier Zokora-Déguy",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Federico Julián Fazio",
         "target": "Alain Didier Zokora-Déguy",
         "weight": 1,
@@ -1129,6 +1117,18 @@
         "target": "Renato Dirnei Florencio",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Diego Ángel Capel Trinidad",
+        "target": "Adriano Correia Claro",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Ángel Capel Trinidad",
+        "target": "Alain Didier Zokora-Déguy",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

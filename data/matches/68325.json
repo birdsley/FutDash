@@ -855,17 +855,6 @@
         "eigenvector": 0.0819
       },
       {
-        "id": "José Carlos de Araújo Nunes",
-        "short": "Nunes",
-        "name": "José Nunes",
-        "x": 37.31,
-        "y": 35.17,
-        "size": 62.5,
-        "is_playmaker": false,
-        "betweenness": 0.2389,
-        "eigenvector": 0.0199
-      },
-      {
         "id": "Miguel Ángel Moyà Rumbo",
         "short": "Ángel Moyá",
         "name": "Miguel Ángel Moyá",
@@ -875,6 +864,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0055
+      },
+      {
+        "id": "José Carlos de Araújo Nunes",
+        "short": "Nunes",
+        "name": "José Nunes",
+        "x": 37.31,
+        "y": 35.17,
+        "size": 62.5,
+        "is_playmaker": false,
+        "betweenness": 0.2389,
+        "eigenvector": 0.0199
       }
     ],
     "edges": [
@@ -1030,12 +1030,30 @@
       },
       {
         "source": "Eduardo Nicolás Tuzzio",
-        "target": "José Carlos de Araújo Nunes",
+        "target": "Miguel Ángel Moyà Rumbo",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Eduardo Nicolás Tuzzio",
+        "target": "José Carlos de Araújo Nunes",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Miguel Ángel Moyà Rumbo",
+        "target": "José Carlos de Araújo Nunes",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Miguel Ángel Moyà Rumbo",
+        "target": "Eduardo Nicolás Tuzzio",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Carlos de Araújo Nunes",
         "target": "Miguel Ángel Moyà Rumbo",
         "weight": 1,
         "direction": "backward"
@@ -1049,24 +1067,6 @@
       {
         "source": "José Carlos de Araújo Nunes",
         "target": "Francisco Javier Farinós Zapata",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Carlos de Araújo Nunes",
-        "target": "Miguel Ángel Moyà Rumbo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Miguel Ángel Moyà Rumbo",
-        "target": "José Carlos de Araújo Nunes",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Miguel Ángel Moyà Rumbo",
-        "target": "Eduardo Nicolás Tuzzio",
         "weight": 1,
         "direction": "forward"
       }

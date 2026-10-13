@@ -855,17 +855,6 @@
         "eigenvector": 0.1709
       },
       {
-        "id": "Amy Rodgers",
-        "short": "Rodgers",
-        "name": "Amy Rodgers",
-        "x": 32.5,
-        "y": 32.25,
-        "size": 65.8,
-        "is_playmaker": false,
-        "betweenness": 0.2444,
-        "eigenvector": 0.0445
-      },
-      {
         "id": "Anke Preuß",
         "short": "Preuß",
         "name": "Anke Preuß",
@@ -875,6 +864,17 @@
         "is_playmaker": false,
         "betweenness": 0.15,
         "eigenvector": 0.0063
+      },
+      {
+        "id": "Amy Rodgers",
+        "short": "Rodgers",
+        "name": "Amy Rodgers",
+        "x": 32.5,
+        "y": 32.25,
+        "size": 65.8,
+        "is_playmaker": false,
+        "betweenness": 0.2444,
+        "eigenvector": 0.0445
       }
     ],
     "edges": [
@@ -981,8 +981,14 @@
         "direction": "forward"
       },
       {
-        "source": "Amy Rodgers",
-        "target": "Laura Coombs",
+        "source": "Anke Preuß",
+        "target": "Amy Rodgers",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Anke Preuß",
+        "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 1,
         "direction": "forward"
       },
@@ -993,14 +999,8 @@
         "direction": "backward"
       },
       {
-        "source": "Anke Preuß",
-        "target": "Amy Rodgers",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Anke Preuß",
-        "target": "Sophie Elizabeth Bradley-Auckland",
+        "source": "Amy Rodgers",
+        "target": "Laura Coombs",
         "weight": 1,
         "direction": "forward"
       }

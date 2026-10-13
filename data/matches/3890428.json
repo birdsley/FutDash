@@ -1420,17 +1420,6 @@
         "eigenvector": 0.3116
       },
       {
-        "id": "Ermin Bičakčić",
-        "short": "Bičakčić",
-        "name": "Ermin Bičakčić",
-        "x": 34.26,
-        "y": 56.82,
-        "size": 66.1,
-        "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.0513
-      },
-      {
         "id": "Jiloan Hamad",
         "short": "Hamad",
         "name": "Jiloan Hamad",
@@ -1440,6 +1429,17 @@
         "is_playmaker": false,
         "betweenness": 0.1778,
         "eigenvector": 0.0944
+      },
+      {
+        "id": "Ermin Bičakčić",
+        "short": "Bičakčić",
+        "name": "Ermin Bičakčić",
+        "x": 34.26,
+        "y": 56.82,
+        "size": 66.1,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0513
       }
     ],
     "edges": [
@@ -1529,13 +1529,25 @@
       },
       {
         "source": "Jonathan Schmid",
+        "target": "Jiloan Hamad",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jonathan Schmid",
         "target": "Ermin Bičakčić",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Jonathan Schmid",
-        "target": "Jiloan Hamad",
+        "source": "Jiloan Hamad",
+        "target": "Eduardo Jesús Vargas Rojas",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jiloan Hamad",
+        "target": "Jonathan Schmid",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1550,18 +1562,6 @@
         "target": "Jonathan Schmid",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Jiloan Hamad",
-        "target": "Eduardo Jesús Vargas Rojas",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Jiloan Hamad",
-        "target": "Jonathan Schmid",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

@@ -1456,17 +1456,6 @@
         "eigenvector": 0.0064
       },
       {
-        "id": "Pablo Hernández Domínguez",
-        "short": "Hernández",
-        "name": "Pablo Hernández",
-        "x": 66.95,
-        "y": 36.23,
-        "size": 60.1,
-        "is_playmaker": false,
-        "betweenness": 0.3222,
-        "eigenvector": 0.007
-      },
-      {
         "id": "José Raúl Baena Urdiales",
         "short": "Baena",
         "name": "Raúl Baena",
@@ -1476,6 +1465,17 @@
         "is_playmaker": true,
         "betweenness": 0.3889,
         "eigenvector": 0.0212
+      },
+      {
+        "id": "Pablo Hernández Domínguez",
+        "short": "Hernández",
+        "name": "Pablo Hernández",
+        "x": 66.95,
+        "y": 36.23,
+        "size": 60.1,
+        "is_playmaker": false,
+        "betweenness": 0.3222,
+        "eigenvector": 0.007
       }
     ],
     "edges": [
@@ -1607,13 +1607,13 @@
       },
       {
         "source": "Javier Guerra Rodríguez",
-        "target": "Pablo Hernández Domínguez",
+        "target": "José Raúl Baena Urdiales",
         "weight": 1,
         "direction": "lateral"
       },
       {
         "source": "Javier Guerra Rodríguez",
-        "target": "José Raúl Baena Urdiales",
+        "target": "Pablo Hernández Domínguez",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1660,6 +1660,24 @@
         "direction": "backward"
       },
       {
+        "source": "José Raúl Baena Urdiales",
+        "target": "Roberto Trashorras Gayoso",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Raúl Baena Urdiales",
+        "target": "Javier Guerra Rodríguez",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José Raúl Baena Urdiales",
+        "target": "Pablo Hernández Domínguez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Pablo Hernández Domínguez",
         "target": "Roberto Román Triguero",
         "weight": 1,
@@ -1676,24 +1694,6 @@
         "target": "José Raúl Baena Urdiales",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "José Raúl Baena Urdiales",
-        "target": "Pablo Hernández Domínguez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Raúl Baena Urdiales",
-        "target": "Roberto Trashorras Gayoso",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "José Raúl Baena Urdiales",
-        "target": "Javier Guerra Rodríguez",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

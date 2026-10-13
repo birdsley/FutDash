@@ -1174,15 +1174,15 @@
         "eigenvector": 0.3783
       },
       {
-        "id": "Brooke Hendrix",
-        "short": "Hendrix",
-        "name": "Brooke Hendrix",
-        "x": 55.59,
-        "y": 71.22,
-        "size": 61.5,
-        "is_playmaker": false,
-        "betweenness": 0.4,
-        "eigenvector": 0.0091
+        "id": "Alisha Lehmann",
+        "short": "Lehmann",
+        "name": "Alisha Lehmann",
+        "x": 70.08,
+        "y": 40.56,
+        "size": 64.8,
+        "is_playmaker": true,
+        "betweenness": 0.5444,
+        "eigenvector": 0.0085
       },
       {
         "id": "Jacinta Galabadaarachchi",
@@ -1196,15 +1196,15 @@
         "eigenvector": 0.0364
       },
       {
-        "id": "Alisha Lehmann",
-        "short": "Lehmann",
-        "name": "Alisha Lehmann",
-        "x": 70.08,
-        "y": 40.56,
-        "size": 64.8,
-        "is_playmaker": true,
-        "betweenness": 0.5444,
-        "eigenvector": 0.0085
+        "id": "Brooke Hendrix",
+        "short": "Hendrix",
+        "name": "Brooke Hendrix",
+        "x": 55.59,
+        "y": 71.22,
+        "size": 61.5,
+        "is_playmaker": false,
+        "betweenness": 0.4,
+        "eigenvector": 0.0091
       }
     ],
     "edges": [
@@ -1312,13 +1312,13 @@
       },
       {
         "source": "Martha Thomas",
-        "target": "Jacinta Galabadaarachchi",
+        "target": "Alisha Lehmann",
         "weight": 1,
         "direction": "lateral"
       },
       {
         "source": "Martha Thomas",
-        "target": "Alisha Lehmann",
+        "target": "Jacinta Galabadaarachchi",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1329,16 +1329,22 @@
         "direction": "backward"
       },
       {
-        "source": "Brooke Hendrix",
-        "target": "Gilly Louise Scarlett Flaherty",
+        "source": "Alisha Lehmann",
+        "target": "Martha Thomas",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Alisha Lehmann",
+        "target": "Tessel Middag",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Brooke Hendrix",
-        "target": "Alisha Lehmann",
+        "source": "Alisha Lehmann",
+        "target": "Brooke Hendrix",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jacinta Galabadaarachchi",
@@ -1353,22 +1359,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Alisha Lehmann",
-        "target": "Brooke Hendrix",
+        "source": "Brooke Hendrix",
+        "target": "Gilly Louise Scarlett Flaherty",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Alisha Lehmann",
-        "target": "Martha Thomas",
+        "source": "Brooke Hendrix",
+        "target": "Alisha Lehmann",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Alisha Lehmann",
-        "target": "Tessel Middag",
-        "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

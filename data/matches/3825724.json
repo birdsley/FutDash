@@ -1215,17 +1215,6 @@
         "eigenvector": 0.0504
       },
       {
-        "id": "Keylor Navas Gamboa",
-        "short": "Navas",
-        "name": "Keylor Navas",
-        "x": 9.57,
-        "y": 38.89,
-        "size": 58.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0062
-      },
-      {
         "id": "Sergio Ramos García",
         "short": "Ramos",
         "name": "Sergio Ramos",
@@ -1235,6 +1224,17 @@
         "is_playmaker": true,
         "betweenness": 0.3093,
         "eigenvector": 0.0177
+      },
+      {
+        "id": "Keylor Navas Gamboa",
+        "short": "Navas",
+        "name": "Keylor Navas",
+        "x": 9.57,
+        "y": 38.89,
+        "size": 58.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0062
       }
     ],
     "edges": [
@@ -1384,38 +1384,20 @@
       },
       {
         "source": "Kléper Laveran Lima Ferreira",
-        "target": "Keylor Navas Gamboa",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Kléper Laveran Lima Ferreira",
         "target": "Sergio Ramos García",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Cristiano Ronaldo dos Santos Aveiro",
-        "target": "Francisco Román Alarcón Suárez",
-        "weight": 7,
+        "source": "Kléper Laveran Lima Ferreira",
+        "target": "Keylor Navas Gamboa",
+        "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Keylor Navas Gamboa",
-        "target": "Kléper Laveran Lima Ferreira",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Keylor Navas Gamboa",
-        "target": "Sergio Ramos García",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sergio Ramos García",
-        "target": "Keylor Navas Gamboa",
-        "weight": 1,
+        "source": "Cristiano Ronaldo dos Santos Aveiro",
+        "target": "Francisco Román Alarcón Suárez",
+        "weight": 7,
         "direction": "backward"
       },
       {
@@ -1429,6 +1411,24 @@
         "target": "Kléper Laveran Lima Ferreira",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Sergio Ramos García",
+        "target": "Keylor Navas Gamboa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Kléper Laveran Lima Ferreira",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Keylor Navas Gamboa",
+        "target": "Sergio Ramos García",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

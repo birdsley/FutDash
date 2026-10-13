@@ -1280,15 +1280,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Saúl Ñíguez Esclapez",
-        "short": "Ñíguez",
-        "name": "Saúl Ñíguez",
-        "x": 63.51,
-        "y": 41.63,
-        "size": 60.4,
-        "is_playmaker": false,
-        "betweenness": 0.2833,
-        "eigenvector": 0.0357
+        "id": "Stefan Savić",
+        "short": "Savić",
+        "name": "Stefan Savić",
+        "x": 42.27,
+        "y": 60.0,
+        "size": 63.2,
+        "is_playmaker": true,
+        "betweenness": 0.4111,
+        "eigenvector": 0.017
       },
       {
         "id": "Jan Oblak",
@@ -1302,15 +1302,15 @@
         "eigenvector": 0.0053
       },
       {
-        "id": "Stefan Savić",
-        "short": "Savić",
-        "name": "Stefan Savić",
-        "x": 42.27,
-        "y": 60.0,
-        "size": 63.2,
-        "is_playmaker": true,
-        "betweenness": 0.4111,
-        "eigenvector": 0.017
+        "id": "Saúl Ñíguez Esclapez",
+        "short": "Ñíguez",
+        "name": "Saúl Ñíguez",
+        "x": 63.51,
+        "y": 41.63,
+        "size": 60.4,
+        "is_playmaker": false,
+        "betweenness": 0.2833,
+        "eigenvector": 0.0357
       }
     ],
     "edges": [
@@ -1400,15 +1400,15 @@
       },
       {
         "source": "Gabriel Fernández Arenas",
-        "target": "Saúl Ñíguez Esclapez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gabriel Fernández Arenas",
         "target": "Stefan Savić",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gabriel Fernández Arenas",
+        "target": "Saúl Ñíguez Esclapez",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Juan Francisco Torres Belén",
@@ -1471,14 +1471,20 @@
         "direction": "backward"
       },
       {
-        "source": "Saúl Ñíguez Esclapez",
-        "target": "Antoine Griezmann",
+        "source": "Stefan Savić",
+        "target": "Gabriel Fernández Arenas",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Saúl Ñíguez Esclapez",
-        "target": "Gabriel Fernández Arenas",
+        "source": "Stefan Savić",
+        "target": "Juan Francisco Torres Belén",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Stefan Savić",
+        "target": "Jan Oblak",
         "weight": 1,
         "direction": "backward"
       },
@@ -1495,22 +1501,16 @@
         "direction": "forward"
       },
       {
-        "source": "Stefan Savić",
-        "target": "Jan Oblak",
+        "source": "Saúl Ñíguez Esclapez",
+        "target": "Antoine Griezmann",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
-        "source": "Stefan Savić",
+        "source": "Saúl Ñíguez Esclapez",
         "target": "Gabriel Fernández Arenas",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Stefan Savić",
-        "target": "Juan Francisco Torres Belén",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

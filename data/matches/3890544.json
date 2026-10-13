@@ -1240,17 +1240,6 @@
         "eigenvector": 0.0003
       },
       {
-        "id": "Roger de Oliveira Bernardo",
-        "short": "Bernardo",
-        "name": "Roger Bernardo",
-        "x": 50.88,
-        "y": 40.28,
-        "size": 65.3,
-        "is_playmaker": false,
-        "betweenness": 0.15,
-        "eigenvector": 0.0035
-      },
-      {
         "id": "Alfredo Morales",
         "short": "Morales",
         "name": "Alfredo Morales",
@@ -1260,6 +1249,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0363
+      },
+      {
+        "id": "Roger de Oliveira Bernardo",
+        "short": "Bernardo",
+        "name": "Roger Bernardo",
+        "x": 50.88,
+        "y": 40.28,
+        "size": 65.3,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.0035
       }
     ],
     "edges": [
@@ -1348,6 +1348,18 @@
         "direction": "forward"
       },
       {
+        "source": "Alfredo Morales",
+        "target": "Stefan Lex",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alfredo Morales",
+        "target": "Roger de Oliveira Bernardo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Roger de Oliveira Bernardo",
         "target": "Alfredo Morales",
         "weight": 1,
@@ -1358,18 +1370,6 @@
         "target": "Benjamin Hübner",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Alfredo Morales",
-        "target": "Roger de Oliveira Bernardo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Alfredo Morales",
-        "target": "Stefan Lex",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

@@ -810,17 +810,6 @@
         "eigenvector": 0.619
       },
       {
-        "id": "Sophie Elizabeth Bradley-Auckland",
-        "short": "Bradley-Auc",
-        "name": "Sophie Bradley-Auckland",
-        "x": 31.34,
-        "y": 48.16,
-        "size": 69.0,
-        "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.0947
-      },
-      {
         "id": "Anke Preuß",
         "short": "Preuß",
         "name": "Anke Preuß",
@@ -830,6 +819,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0919
+      },
+      {
+        "id": "Sophie Elizabeth Bradley-Auckland",
+        "short": "Bradley-Auc",
+        "name": "Sophie Bradley-Auckland",
+        "x": 31.34,
+        "y": 48.16,
+        "size": 69.0,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0947
       }
     ],
     "edges": [
@@ -883,15 +883,15 @@
       },
       {
         "source": "Niamh Fahey",
-        "target": "Sophie Elizabeth Bradley-Auckland",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Niamh Fahey",
         "target": "Anke Preuß",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Niamh Fahey",
+        "target": "Sophie Elizabeth Bradley-Auckland",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Leigh-Anne Robe",
@@ -942,24 +942,6 @@
         "direction": "backward"
       },
       {
-        "source": "Sophie Elizabeth Bradley-Auckland",
-        "target": "Jade Bailey",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sophie Elizabeth Bradley-Auckland",
-        "target": "Niamh Fahey",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Sophie Elizabeth Bradley-Auckland",
-        "target": "Anke Preuß",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Anke Preuß",
         "target": "Sophie Elizabeth Bradley-Auckland",
         "weight": 1,
@@ -970,6 +952,24 @@
         "target": "Niamh Fahey",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Anke Preuß",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Jade Bailey",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sophie Elizabeth Bradley-Auckland",
+        "target": "Niamh Fahey",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

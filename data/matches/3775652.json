@@ -1409,17 +1409,6 @@
         "eigenvector": 0.6667
       },
       {
-        "id": "Megan Connolly",
-        "short": "Connolly",
-        "name": "Megan Connolly",
-        "x": 58.34,
-        "y": 35.4,
-        "size": 80.5,
-        "is_playmaker": true,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Emily Simpkins",
         "short": "Simpkins",
         "name": "Emily Simpkins",
@@ -1439,6 +1428,17 @@
         "size": 72.0,
         "is_playmaker": false,
         "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Megan Connolly",
+        "short": "Connolly",
+        "name": "Megan Connolly",
+        "x": 58.34,
+        "y": 35.4,
+        "size": 80.5,
+        "is_playmaker": true,
+        "betweenness": 0.1556,
         "eigenvector": 0.0
       }
     ],
@@ -1498,46 +1498,46 @@
         "direction": "forward"
       },
       {
+        "source": "Emily Simpkins",
+        "target": "Aileen Whelan",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Emily Simpkins",
+        "target": "Megan Connolly",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Emily Simpkins",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Aileen Whelan",
+        "target": "Megan Connolly",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Megan Connolly",
+        "target": "Emily Simpkins",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Megan Connolly",
+        "target": "Aileen Whelan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Megan Connolly",
         "target": "Geum-Min Lee",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Megan Connolly",
-        "target": "Aileen Whelan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Megan Connolly",
-        "target": "Emily Simpkins",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Emily Simpkins",
-        "target": "Aileen Whelan",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Emily Simpkins",
-        "target": "Megan Connolly",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Aileen Whelan",
-        "target": "Megan Connolly",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Aileen Whelan",
-        "target": "Emily Simpkins",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

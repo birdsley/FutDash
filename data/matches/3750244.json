@@ -945,17 +945,6 @@
         "eigenvector": 0.0848
       },
       {
-        "id": "Ciro Ferrara",
-        "short": "Ferrara",
-        "name": "Ciro Ferrara",
-        "x": 40.42,
-        "y": 31.2,
-        "size": 61.6,
-        "is_playmaker": false,
-        "betweenness": 0.4111,
-        "eigenvector": 0.0412
-      },
-      {
         "id": "Giancarlo Corradini",
         "short": "Corradini",
         "name": "Giancarlo Corradini",
@@ -965,6 +954,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0171
+      },
+      {
+        "id": "Ciro Ferrara",
+        "short": "Ferrara",
+        "name": "Ciro Ferrara",
+        "x": 40.42,
+        "y": 31.2,
+        "size": 61.6,
+        "is_playmaker": false,
+        "betweenness": 0.4111,
+        "eigenvector": 0.0412
       }
     ],
     "edges": [
@@ -1036,13 +1036,13 @@
       },
       {
         "source": "Alessandro Renica",
-        "target": "Ciro Ferrara",
+        "target": "Giancarlo Corradini",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Alessandro Renica",
-        "target": "Giancarlo Corradini",
+        "target": "Ciro Ferrara",
         "weight": 1,
         "direction": "forward"
       },
@@ -1113,18 +1113,6 @@
         "direction": "forward"
       },
       {
-        "source": "Ciro Ferrara",
-        "target": "Alessandro Renica",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ciro Ferrara",
-        "target": "Ricardo Rogério de Brito",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Giancarlo Corradini",
         "target": "Luca Fusi",
         "weight": 1,
@@ -1135,6 +1123,18 @@
         "target": "Alessandro Renica",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Ciro Ferrara",
+        "target": "Alessandro Renica",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ciro Ferrara",
+        "target": "Ricardo Rogério de Brito",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

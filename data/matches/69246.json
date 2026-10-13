@@ -841,17 +841,6 @@
         "eigenvector": 0.0138
       },
       {
-        "id": "Daniel Estrada Agirrezablaga",
-        "short": "Estrada",
-        "name": "Dani Estrada",
-        "x": 53.18,
-        "y": 7.61,
-        "size": 72.0,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0003
-      },
-      {
         "id": "Vadim Demidov",
         "short": "Demidov",
         "name": "Vadim Demidov",
@@ -861,28 +850,6 @@
         "is_playmaker": true,
         "betweenness": 0.3889,
         "eigenvector": 0.002
-      },
-      {
-        "id": "Diego Rivas Gutiérrez",
-        "short": "Rivas",
-        "name": "Diego Rivas",
-        "x": 65.29,
-        "y": 45.76,
-        "size": 80.5,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0021
-      },
-      {
-        "id": "Mikel González de Martín Martínez",
-        "short": "González",
-        "name": "Mikel González",
-        "x": 44.28,
-        "y": 58.0,
-        "size": 80.5,
-        "is_playmaker": true,
-        "betweenness": 0.4,
-        "eigenvector": 0.1041
       },
       {
         "id": "Claudio Andrés Bravo Muñoz",
@@ -896,6 +863,17 @@
         "eigenvector": 0.0135
       },
       {
+        "id": "Diego Rivas Gutiérrez",
+        "short": "Rivas",
+        "name": "Diego Rivas",
+        "x": 65.29,
+        "y": 45.76,
+        "size": 80.5,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0021
+      },
+      {
         "id": "Markel Bergara Larrañaga",
         "short": "Bergara",
         "name": "Markel Bergara",
@@ -905,6 +883,28 @@
         "is_playmaker": false,
         "betweenness": 0.2111,
         "eigenvector": 0.0023
+      },
+      {
+        "id": "Daniel Estrada Agirrezablaga",
+        "short": "Estrada",
+        "name": "Dani Estrada",
+        "x": 53.18,
+        "y": 7.61,
+        "size": 72.0,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0003
+      },
+      {
+        "id": "Mikel González de Martín Martínez",
+        "short": "González",
+        "name": "Mikel González",
+        "x": 44.28,
+        "y": 58.0,
+        "size": 80.5,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.1041
       }
     ],
     "edges": [
@@ -958,27 +958,15 @@
       },
       {
         "source": "Mikel Aranburu Eizagirre",
-        "target": "Mikel González de Martín Martínez",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Mikel Aranburu Eizagirre",
         "target": "Markel Bergara Larrañaga",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Daniel Estrada Agirrezablaga",
-        "target": "Vadim Demidov",
+        "source": "Mikel Aranburu Eizagirre",
+        "target": "Mikel González de Martín Martínez",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Daniel Estrada Agirrezablaga",
-        "target": "Antoine Griezmann",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Vadim Demidov",
@@ -999,6 +987,18 @@
         "direction": "backward"
       },
       {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Mikel González de Martín Martínez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Claudio Andrés Bravo Muñoz",
+        "target": "Vadim Demidov",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Diego Rivas Gutiérrez",
         "target": "Mikel Aranburu Eizagirre",
         "weight": 1,
@@ -1017,36 +1017,6 @@
         "direction": "backward"
       },
       {
-        "source": "Mikel González de Martín Martínez",
-        "target": "Xabier Prieto Argarate",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mikel González de Martín Martínez",
-        "target": "Mikel Aranburu Eizagirre",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mikel González de Martín Martínez",
-        "target": "Claudio Andrés Bravo Muñoz",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Claudio Andrés Bravo Muñoz",
-        "target": "Mikel González de Martín Martínez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Claudio Andrés Bravo Muñoz",
-        "target": "Vadim Demidov",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Markel Bergara Larrañaga",
         "target": "Vadim Demidov",
         "weight": 1,
@@ -1061,6 +1031,36 @@
       {
         "source": "Markel Bergara Larrañaga",
         "target": "Diego Rivas Gutiérrez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Estrada Agirrezablaga",
+        "target": "Vadim Demidov",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Daniel Estrada Agirrezablaga",
+        "target": "Antoine Griezmann",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mikel González de Martín Martínez",
+        "target": "Claudio Andrés Bravo Muñoz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mikel González de Martín Martínez",
+        "target": "Xabier Prieto Argarate",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mikel González de Martín Martínez",
+        "target": "Mikel Aranburu Eizagirre",
         "weight": 1,
         "direction": "forward"
       }

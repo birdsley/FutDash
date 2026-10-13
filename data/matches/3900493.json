@@ -1148,28 +1148,6 @@
         "eigenvector": 0.4995
       },
       {
-        "id": "Calvin Anele Ngcongca",
-        "short": "Ngcongca",
-        "name": "Calvin Anele Ngcongca",
-        "x": 29.75,
-        "y": 55.86,
-        "size": 68.8,
-        "is_playmaker": false,
-        "betweenness": 0.3611,
-        "eigenvector": 0.0204
-      },
-      {
-        "id": "Corentin Jean",
-        "short": "Jean",
-        "name": "Corentin Jean",
-        "x": 71.24,
-        "y": 48.62,
-        "size": 64.2,
-        "is_playmaker": false,
-        "betweenness": 0.2556,
-        "eigenvector": 0.09
-      },
-      {
         "id": "Chris Mavinga",
         "short": "Mavinga",
         "name": "Chris Mavinga",
@@ -1181,6 +1159,17 @@
         "eigenvector": 0.0272
       },
       {
+        "id": "Calvin Anele Ngcongca",
+        "short": "Ngcongca",
+        "name": "Calvin Anele Ngcongca",
+        "x": 29.75,
+        "y": 55.86,
+        "size": 68.8,
+        "is_playmaker": false,
+        "betweenness": 0.3611,
+        "eigenvector": 0.0204
+      },
+      {
         "id": "Paul Bernardoni",
         "short": "Bernardoni",
         "name": "Paul Bernardoni",
@@ -1190,6 +1179,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0042
+      },
+      {
+        "id": "Corentin Jean",
+        "short": "Jean",
+        "name": "Corentin Jean",
+        "x": 71.24,
+        "y": 48.62,
+        "size": 64.2,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.09
       }
     ],
     "edges": [
@@ -1302,10 +1302,22 @@
         "direction": "forward"
       },
       {
-        "source": "Calvin Anele Ngcongca",
-        "target": "Jonathan Martins-Pereira",
+        "source": "Chris Mavinga",
+        "target": "Jessy Pi",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Chris Mavinga",
+        "target": "Calvin Anele Ngcongca",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Chris Mavinga",
+        "target": "Paul Bernardoni",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Calvin Anele Ngcongca",
@@ -1315,9 +1327,27 @@
       },
       {
         "source": "Calvin Anele Ngcongca",
+        "target": "Jonathan Martins-Pereira",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Calvin Anele Ngcongca",
         "target": "Paul Bernardoni",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Paul Bernardoni",
+        "target": "Calvin Anele Ngcongca",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Paul Bernardoni",
+        "target": "Chris Mavinga",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Corentin Jean",
@@ -1330,36 +1360,6 @@
         "target": "Stéphane Darbion",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Chris Mavinga",
-        "target": "Calvin Anele Ngcongca",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Chris Mavinga",
-        "target": "Jessy Pi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Chris Mavinga",
-        "target": "Paul Bernardoni",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Paul Bernardoni",
-        "target": "Calvin Anele Ngcongca",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Paul Bernardoni",
-        "target": "Chris Mavinga",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

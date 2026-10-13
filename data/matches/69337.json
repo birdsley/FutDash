@@ -915,17 +915,6 @@
         "eigenvector": 0.1384
       },
       {
-        "id": "João Miranda de Souza Filho",
-        "short": "Souza Filho",
-        "name": "João Miranda de Souza Filho",
-        "x": 35.81,
-        "y": 50.27,
-        "size": 69.5,
-        "is_playmaker": false,
-        "betweenness": 0.1111,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Thibaut Courtois",
         "short": "Courtois",
         "name": "Thibaut Courtois",
@@ -934,6 +923,17 @@
         "size": 64.6,
         "is_playmaker": false,
         "betweenness": 0.0,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "João Miranda de Souza Filho",
+        "short": "Souza Filho",
+        "name": "João Miranda de Souza Filho",
+        "x": 35.81,
+        "y": 50.27,
+        "size": 69.5,
+        "is_playmaker": false,
+        "betweenness": 0.1111,
         "eigenvector": 0.0
       }
     ],
@@ -1042,12 +1042,30 @@
       },
       {
         "source": "Diego Roberto Godín Leal",
+        "target": "Thibaut Courtois",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
         "target": "João Miranda de Souza Filho",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Diego Roberto Godín Leal",
+        "source": "Thibaut Courtois",
+        "target": "João Miranda de Souza Filho",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Thibaut Courtois",
+        "target": "Diego Roberto Godín Leal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "João Miranda de Souza Filho",
         "target": "Thibaut Courtois",
         "weight": 1,
         "direction": "backward"
@@ -1063,24 +1081,6 @@
         "target": "Diego Roberto Godín Leal",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "João Miranda de Souza Filho",
-        "target": "Thibaut Courtois",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Thibaut Courtois",
-        "target": "João Miranda de Souza Filho",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Thibaut Courtois",
-        "target": "Diego Roberto Godín Leal",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

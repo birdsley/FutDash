@@ -1218,15 +1218,15 @@
         "eigenvector": 0.4464
       },
       {
-        "id": "Ismaël Traoré",
-        "short": "Traoré",
-        "name": "Ismaël Traoré",
-        "x": 45.69,
-        "y": 60.01,
+        "id": "Romain Thomas",
+        "short": "Thomas",
+        "name": "Romain Thomas",
+        "x": 36.16,
+        "y": 24.39,
         "size": 68.2,
-        "is_playmaker": false,
-        "betweenness": 0.213,
-        "eigenvector": 0.0548
+        "is_playmaker": true,
+        "betweenness": 0.3315,
+        "eigenvector": 0.0667
       },
       {
         "id": "Pierrick Capelle",
@@ -1240,6 +1240,17 @@
         "eigenvector": 0.0367
       },
       {
+        "id": "Ismaël Traoré",
+        "short": "Traoré",
+        "name": "Ismaël Traoré",
+        "x": 45.69,
+        "y": 60.01,
+        "size": 68.2,
+        "is_playmaker": false,
+        "betweenness": 0.213,
+        "eigenvector": 0.0548
+      },
+      {
         "id": "Alexandre Letellier",
         "short": "Letellier",
         "name": "Alexandre Letellier",
@@ -1249,17 +1260,6 @@
         "is_playmaker": false,
         "betweenness": 0.0667,
         "eigenvector": 0.0113
-      },
-      {
-        "id": "Romain Thomas",
-        "short": "Thomas",
-        "name": "Romain Thomas",
-        "x": 36.16,
-        "y": 24.39,
-        "size": 68.2,
-        "is_playmaker": true,
-        "betweenness": 0.3315,
-        "eigenvector": 0.0667
       }
     ],
     "edges": [
@@ -1319,7 +1319,7 @@
       },
       {
         "source": "Romain Saïss",
-        "target": "Ismaël Traoré",
+        "target": "Romain Thomas",
         "weight": 1,
         "direction": "backward"
       },
@@ -1331,7 +1331,7 @@
       },
       {
         "source": "Romain Saïss",
-        "target": "Romain Thomas",
+        "target": "Ismaël Traoré",
         "weight": 1,
         "direction": "backward"
       },
@@ -1372,6 +1372,36 @@
         "direction": "forward"
       },
       {
+        "source": "Romain Thomas",
+        "target": "Romain Saïss",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Romain Thomas",
+        "target": "Yoann Andreu",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Romain Thomas",
+        "target": "Alexandre Letellier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierrick Capelle",
+        "target": "Cheikh N''Doye",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Pierrick Capelle",
+        "target": "Romain Saïss",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ismaël Traoré",
         "target": "Vincent Manceau",
         "weight": 1,
@@ -1390,18 +1420,6 @@
         "direction": "backward"
       },
       {
-        "source": "Pierrick Capelle",
-        "target": "Cheikh N''Doye",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Pierrick Capelle",
-        "target": "Romain Saïss",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Alexandre Letellier",
         "target": "Romain Thomas",
         "weight": 1,
@@ -1410,24 +1428,6 @@
       {
         "source": "Alexandre Letellier",
         "target": "Ismaël Traoré",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Romain Thomas",
-        "target": "Alexandre Letellier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Romain Thomas",
-        "target": "Romain Saïss",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Romain Thomas",
-        "target": "Yoann Andreu",
         "weight": 1,
         "direction": "forward"
       }

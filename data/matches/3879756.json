@@ -994,17 +994,6 @@
         "eigenvector": 0.1132
       },
       {
-        "id": "José María Callejón Bueno",
-        "short": "Callejón",
-        "name": "José Callejón",
-        "x": 74.36,
-        "y": 59.14,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.1833,
-        "eigenvector": 0.0011
-      },
-      {
         "id": "José Manuel Reina Páez",
         "short": "Reina",
         "name": "Pepe Reina",
@@ -1025,6 +1014,17 @@
         "is_playmaker": false,
         "betweenness": 0.35,
         "eigenvector": 0.0107
+      },
+      {
+        "id": "José María Callejón Bueno",
+        "short": "Callejón",
+        "name": "José Callejón",
+        "x": 74.36,
+        "y": 59.14,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.1833,
+        "eigenvector": 0.0011
       }
     ],
     "edges": [
@@ -1168,15 +1168,15 @@
       },
       {
         "source": "Allan Marques Loureiro",
-        "target": "José María Callejón Bueno",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Allan Marques Loureiro",
         "target": "Gonzalo Gerardo Higuaín",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Allan Marques Loureiro",
+        "target": "José María Callejón Bueno",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Elseid Hysaj",
@@ -1209,18 +1209,6 @@
         "direction": "backward"
       },
       {
-        "source": "José María Callejón Bueno",
-        "target": "Allan Marques Loureiro",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "José María Callejón Bueno",
-        "target": "Elseid Hysaj",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "José Manuel Reina Páez",
         "target": "Kalidou Koulibaly",
         "weight": 1,
@@ -1243,6 +1231,18 @@
         "target": "Allan Marques Loureiro",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José María Callejón Bueno",
+        "target": "Allan Marques Loureiro",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "José María Callejón Bueno",
+        "target": "Elseid Hysaj",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

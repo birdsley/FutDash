@@ -1270,17 +1270,6 @@
         "eigenvector": 0.1011
       },
       {
-        "id": "Jack Butland",
-        "short": "Butland",
-        "name": "Jack Butland",
-        "x": 10.36,
-        "y": 41.16,
-        "size": 58.4,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0044
-      },
-      {
         "id": "Ryan Shawcross",
         "short": "Shawcross",
         "name": "Ryan Shawcross",
@@ -1290,6 +1279,17 @@
         "is_playmaker": true,
         "betweenness": 0.3778,
         "eigenvector": 0.0184
+      },
+      {
+        "id": "Jack Butland",
+        "short": "Butland",
+        "name": "Jack Butland",
+        "x": 10.36,
+        "y": 41.16,
+        "size": 58.4,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0044
       }
     ],
     "edges": [
@@ -1439,15 +1439,15 @@
       },
       {
         "source": "Philipp Wollscheid",
-        "target": "Jack Butland",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Philipp Wollscheid",
         "target": "Ryan Shawcross",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Philipp Wollscheid",
+        "target": "Jack Butland",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Bojan Krkíc Pérez",
@@ -1456,14 +1456,14 @@
         "direction": "backward"
       },
       {
-        "source": "Jack Butland",
+        "source": "Ryan Shawcross",
         "target": "Philipp Wollscheid",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Jack Butland",
-        "target": "Ryan Shawcross",
+        "source": "Ryan Shawcross",
+        "target": "Glenn Whelan",
         "weight": 1,
         "direction": "forward"
       },
@@ -1474,14 +1474,14 @@
         "direction": "backward"
       },
       {
-        "source": "Ryan Shawcross",
+        "source": "Jack Butland",
         "target": "Philipp Wollscheid",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Ryan Shawcross",
-        "target": "Glenn Whelan",
+        "source": "Jack Butland",
+        "target": "Ryan Shawcross",
         "weight": 1,
         "direction": "forward"
       }

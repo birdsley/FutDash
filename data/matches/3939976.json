@@ -1225,17 +1225,6 @@
         "eigenvector": 0.0908
       },
       {
-        "id": "Manfred Ugalde",
-        "short": "Ugalde",
-        "name": "Manfred Ugalde",
-        "x": 66.23,
-        "y": 57.93,
-        "size": 65.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.013
-      },
-      {
         "id": "Orlando Moisés Galo Calderón",
         "short": "Calderón",
         "name": "Orlando Moisés Galo Calderón",
@@ -1245,6 +1234,17 @@
         "is_playmaker": false,
         "betweenness": 0.2778,
         "eigenvector": 0.0471
+      },
+      {
+        "id": "Manfred Ugalde",
+        "short": "Ugalde",
+        "name": "Manfred Ugalde",
+        "x": 66.23,
+        "y": 57.93,
+        "size": 65.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.013
       }
     ],
     "edges": [
@@ -1334,30 +1334,12 @@
       },
       {
         "source": "Álvaro José Zamora Mata",
-        "target": "Manfred Ugalde",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Álvaro José Zamora Mata",
         "target": "Orlando Moisés Galo Calderón",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Manfred Ugalde",
-        "target": "Orlando Moisés Galo Calderón",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Manfred Ugalde",
-        "target": "Álvaro José Zamora Mata",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Orlando Moisés Galo Calderón",
+        "source": "Álvaro José Zamora Mata",
         "target": "Manfred Ugalde",
         "weight": 1,
         "direction": "forward"
@@ -1373,6 +1355,24 @@
         "target": "Álvaro José Zamora Mata",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Orlando Moisés Galo Calderón",
+        "target": "Manfred Ugalde",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Manfred Ugalde",
+        "target": "Orlando Moisés Galo Calderón",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Manfred Ugalde",
+        "target": "Álvaro José Zamora Mata",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

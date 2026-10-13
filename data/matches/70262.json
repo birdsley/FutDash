@@ -1039,15 +1039,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Alejandro Arribas Garrido",
-        "short": "Arribas",
-        "name": "Alejandro Arribas",
-        "x": 46.08,
-        "y": 51.74,
-        "size": 68.1,
-        "is_playmaker": false,
-        "betweenness": 0.0222,
-        "eigenvector": 0.0052
+        "id": "Francisco Puñal Martínez",
+        "short": "Puñal",
+        "name": "Patxi Puñal",
+        "x": 60.95,
+        "y": 45.51,
+        "size": 74.7,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.102
       },
       {
         "id": "Marc Bertrán Vilanova",
@@ -1061,15 +1061,15 @@
         "eigenvector": 0.0166
       },
       {
-        "id": "Francisco Puñal Martínez",
-        "short": "Puñal",
-        "name": "Patxi Puñal",
-        "x": 60.95,
-        "y": 45.51,
-        "size": 74.7,
-        "is_playmaker": true,
-        "betweenness": 0.3444,
-        "eigenvector": 0.102
+        "id": "Alejandro Arribas Garrido",
+        "short": "Arribas",
+        "name": "Alejandro Arribas",
+        "x": 46.08,
+        "y": 51.74,
+        "size": 68.1,
+        "is_playmaker": false,
+        "betweenness": 0.0222,
+        "eigenvector": 0.0052
       }
     ],
     "edges": [
@@ -1099,15 +1099,15 @@
       },
       {
         "source": "Raoul Cédric Loé",
-        "target": "Alejandro Arribas Garrido",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Raoul Cédric Loé",
         "target": "Francisco Puñal Martínez",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Raoul Cédric Loé",
+        "target": "Alejandro Arribas Garrido",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Miguel Flaño Bezunartea",
@@ -1146,16 +1146,22 @@
         "direction": "forward"
       },
       {
-        "source": "Alejandro Arribas Garrido",
+        "source": "Francisco Puñal Martínez",
+        "target": "Raoul Cédric Loé",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Francisco Puñal Martínez",
+        "target": "Sisinio González Martínez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Francisco Puñal Martínez",
         "target": "Marc Bertrán Vilanova",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Alejandro Arribas Garrido",
-        "target": "Raoul Cédric Loé",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Marc Bertrán Vilanova",
@@ -1170,20 +1176,14 @@
         "direction": "forward"
       },
       {
-        "source": "Francisco Puñal Martínez",
+        "source": "Alejandro Arribas Garrido",
         "target": "Marc Bertrán Vilanova",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Francisco Puñal Martínez",
+        "source": "Alejandro Arribas Garrido",
         "target": "Raoul Cédric Loé",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Francisco Puñal Martínez",
-        "target": "Sisinio González Martínez",
         "weight": 1,
         "direction": "forward"
       }

@@ -1300,17 +1300,6 @@
         "eigenvector": 0.047
       },
       {
-        "id": "Asier Riesgo Unamuno",
-        "short": "Riesgo",
-        "name": "Asier Riesgo",
-        "x": 11.1,
-        "y": 36.92,
-        "size": 60.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0035
-      },
-      {
         "id": "Mauro Javier Dos Santos",
         "short": "dos Santos",
         "name": "Mauro dos Santos",
@@ -1320,6 +1309,17 @@
         "is_playmaker": true,
         "betweenness": 0.3222,
         "eigenvector": 0.0144
+      },
+      {
+        "id": "Asier Riesgo Unamuno",
+        "short": "Riesgo",
+        "name": "Asier Riesgo",
+        "x": 11.1,
+        "y": 36.92,
+        "size": 60.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0035
       }
     ],
     "edges": [
@@ -1475,30 +1475,12 @@
       },
       {
         "source": "Aleksandar Pantić",
-        "target": "Asier Riesgo Unamuno",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aleksandar Pantić",
         "target": "Mauro Javier Dos Santos",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Asier Riesgo Unamuno",
-        "target": "Mauro Javier Dos Santos",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Asier Riesgo Unamuno",
-        "target": "Aleksandar Pantić",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mauro Javier Dos Santos",
+        "source": "Aleksandar Pantić",
         "target": "Asier Riesgo Unamuno",
         "weight": 1,
         "direction": "backward"
@@ -1514,6 +1496,24 @@
         "target": "Aleksandar Pantić",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Mauro Javier Dos Santos",
+        "target": "Asier Riesgo Unamuno",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Asier Riesgo Unamuno",
+        "target": "Mauro Javier Dos Santos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Asier Riesgo Unamuno",
+        "target": "Aleksandar Pantić",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

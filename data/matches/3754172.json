@@ -1289,6 +1289,17 @@
         "eigenvector": 0.0
       },
       {
+        "id": "Lamine Koné",
+        "short": "Koné",
+        "name": "Lamine Koné",
+        "x": 23.12,
+        "y": 66.98,
+        "size": 63.9,
+        "is_playmaker": true,
+        "betweenness": 0.3444,
+        "eigenvector": 0.034
+      },
+      {
         "id": "Younes Kaboul",
         "short": "Kaboul",
         "name": "Younès Kaboul",
@@ -1309,17 +1320,6 @@
         "is_playmaker": false,
         "betweenness": 0.3056,
         "eigenvector": 0.0037
-      },
-      {
-        "id": "Lamine Koné",
-        "short": "Koné",
-        "name": "Lamine Koné",
-        "x": 23.12,
-        "y": 66.98,
-        "size": 63.9,
-        "is_playmaker": true,
-        "betweenness": 0.3444,
-        "eigenvector": 0.034
       }
     ],
     "edges": [
@@ -1444,6 +1444,18 @@
         "direction": "forward"
       },
       {
+        "source": "Lamine Koné",
+        "target": "DeAndre Yedlin",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lamine Koné",
+        "target": "Vito Mannone",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Younes Kaboul",
         "target": "Vito Mannone",
         "weight": 1,
@@ -1457,25 +1469,13 @@
       },
       {
         "source": "Vito Mannone",
-        "target": "Younes Kaboul",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Vito Mannone",
         "target": "Lamine Koné",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Lamine Koné",
-        "target": "Vito Mannone",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lamine Koné",
-        "target": "DeAndre Yedlin",
+        "source": "Vito Mannone",
+        "target": "Younes Kaboul",
         "weight": 1,
         "direction": "forward"
       }

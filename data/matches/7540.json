@@ -1002,6 +1002,17 @@
         "eigenvector": 0.4378
       },
       {
+        "id": "Sergei Ignashevich",
+        "short": "Ignashevich",
+        "name": "Sergei Ignashevich",
+        "x": 36.38,
+        "y": 35.56,
+        "size": 62.3,
+        "is_playmaker": false,
+        "betweenness": 0.3,
+        "eigenvector": 0.0141
+      },
+      {
         "id": "Igor Akinfeev",
         "short": "Akinfeev",
         "name": "Igor Akinfeev",
@@ -1022,17 +1033,6 @@
         "is_playmaker": false,
         "betweenness": 0.3111,
         "eigenvector": 0.0219
-      },
-      {
-        "id": "Sergei Ignashevich",
-        "short": "Ignashevich",
-        "name": "Sergei Ignashevich",
-        "x": 36.38,
-        "y": 35.56,
-        "size": 62.3,
-        "is_playmaker": false,
-        "betweenness": 0.3,
-        "eigenvector": 0.0141
       }
     ],
     "edges": [
@@ -1193,42 +1193,6 @@
         "direction": "backward"
       },
       {
-        "source": "Igor Akinfeev",
-        "target": "Sergei Ignashevich",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Igor Akinfeev",
-        "target": "Ilya Kutepov",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ilya Kutepov",
-        "target": "Igor Akinfeev",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ilya Kutepov",
-        "target": "Sergei Ignashevich",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ilya Kutepov",
-        "target": "Yury Gazinskiy",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sergei Ignashevich",
-        "target": "Igor Akinfeev",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Sergei Ignashevich",
         "target": "Ilya Kutepov",
         "weight": 1,
@@ -1237,6 +1201,42 @@
       {
         "source": "Sergei Ignashevich",
         "target": "Roman Zobnin",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergei Ignashevich",
+        "target": "Igor Akinfeev",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Igor Akinfeev",
+        "target": "Sergei Ignashevich",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Igor Akinfeev",
+        "target": "Ilya Kutepov",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ilya Kutepov",
+        "target": "Sergei Ignashevich",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ilya Kutepov",
+        "target": "Igor Akinfeev",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ilya Kutepov",
+        "target": "Yury Gazinskiy",
         "weight": 1,
         "direction": "forward"
       }

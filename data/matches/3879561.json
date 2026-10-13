@@ -1405,17 +1405,6 @@
         "eigenvector": 0.0499
       },
       {
-        "id": "Gabriel Alejandro Paletta",
-        "short": "Paletta",
-        "name": "Gabriel Paletta",
-        "x": 36.7,
-        "y": 13.4,
-        "size": 60.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0287
-      },
-      {
         "id": "Jasmin Kurtič",
         "short": "Kurtič",
         "name": "Jasmin Kurtič",
@@ -1425,6 +1414,17 @@
         "is_playmaker": false,
         "betweenness": 0.3352,
         "eigenvector": 0.0604
+      },
+      {
+        "id": "Gabriel Alejandro Paletta",
+        "short": "Paletta",
+        "name": "Gabriel Paletta",
+        "x": 36.7,
+        "y": 13.4,
+        "size": 60.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0287
       }
     ],
     "edges": [
@@ -1544,15 +1544,15 @@
       },
       {
         "source": "Boukary Dramé",
-        "target": "Gabriel Alejandro Paletta",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Boukary Dramé",
         "target": "Jasmin Kurtič",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Boukary Dramé",
+        "target": "Gabriel Alejandro Paletta",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Rafael Tolói",
@@ -1591,24 +1591,6 @@
         "direction": "forward"
       },
       {
-        "source": "Gabriel Alejandro Paletta",
-        "target": "Boukary Dramé",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gabriel Alejandro Paletta",
-        "target": "Jasmin Kurtič",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jasmin Kurtič",
-        "target": "Gabriel Alejandro Paletta",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jasmin Kurtič",
         "target": "Boukary Dramé",
         "weight": 1,
@@ -1619,6 +1601,24 @@
         "target": "Marten de Roon",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jasmin Kurtič",
+        "target": "Gabriel Alejandro Paletta",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gabriel Alejandro Paletta",
+        "target": "Boukary Dramé",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gabriel Alejandro Paletta",
+        "target": "Jasmin Kurtič",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

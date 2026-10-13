@@ -1095,17 +1095,6 @@
         "eigenvector": 0.089
       },
       {
-        "id": "Jordan Nobbs",
-        "short": "Nobbs",
-        "name": "Jordan Nobbs",
-        "x": 71.67,
-        "y": 48.87,
-        "size": 58.6,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0157
-      },
-      {
         "id": "Katie McCabe",
         "short": "McCabe",
         "name": "Katie McCabe",
@@ -1115,6 +1104,17 @@
         "is_playmaker": true,
         "betweenness": 0.2389,
         "eigenvector": 0.0094
+      },
+      {
+        "id": "Jordan Nobbs",
+        "short": "Nobbs",
+        "name": "Jordan Nobbs",
+        "x": 71.67,
+        "y": 48.87,
+        "size": 58.6,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0157
       }
     ],
     "edges": [
@@ -1222,15 +1222,15 @@
       },
       {
         "source": "Danielle van de Donk",
-        "target": "Jordan Nobbs",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Danielle van de Donk",
         "target": "Katie McCabe",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Danielle van de Donk",
+        "target": "Jordan Nobbs",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Lia Wälti",
@@ -1287,18 +1287,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Jordan Nobbs",
-        "target": "Kim Little",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Jordan Nobbs",
-        "target": "Danielle van de Donk",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Katie McCabe",
         "target": "Vivianne Miedema",
         "weight": 1,
@@ -1309,6 +1297,18 @@
         "target": "Danielle van de Donk",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jordan Nobbs",
+        "target": "Kim Little",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jordan Nobbs",
+        "target": "Danielle van de Donk",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

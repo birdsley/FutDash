@@ -1336,17 +1336,6 @@
         "eigenvector": 0.0054
       },
       {
-        "id": "Drew Spence",
-        "short": "Spence",
-        "name": "Drew Spence",
-        "x": 67.05,
-        "y": 40.95,
-        "size": 59.9,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.0221
-      },
-      {
         "id": "Erin Cuthbert",
         "short": "Cuthbert",
         "name": "Erin Cuthbert",
@@ -1356,6 +1345,17 @@
         "is_playmaker": true,
         "betweenness": 0.3111,
         "eigenvector": 0.0122
+      },
+      {
+        "id": "Drew Spence",
+        "short": "Spence",
+        "name": "Drew Spence",
+        "x": 67.05,
+        "y": 40.95,
+        "size": 59.9,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0221
       }
     ],
     "edges": [
@@ -1487,15 +1487,15 @@
       },
       {
         "source": "So-Yun Ji",
-        "target": "Drew Spence",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "So-Yun Ji",
         "target": "Erin Cuthbert",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "So-Yun Ji",
+        "target": "Drew Spence",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Sophie Louise Ingle",
@@ -1540,24 +1540,6 @@
         "direction": "forward"
       },
       {
-        "source": "Drew Spence",
-        "target": "So-Yun Ji",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Drew Spence",
-        "target": "Sophie Louise Ingle",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Drew Spence",
-        "target": "Erin Cuthbert",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Erin Cuthbert",
         "target": "Ramona Bachmann",
         "weight": 1,
@@ -1572,6 +1554,24 @@
       {
         "source": "Erin Cuthbert",
         "target": "So-Yun Ji",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Drew Spence",
+        "target": "Erin Cuthbert",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Drew Spence",
+        "target": "So-Yun Ji",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Drew Spence",
+        "target": "Sophie Louise Ingle",
         "weight": 1,
         "direction": "backward"
       }

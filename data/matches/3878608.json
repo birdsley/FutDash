@@ -1333,17 +1333,6 @@
         "eigenvector": 0.1936
       },
       {
-        "id": "Samuele Longo",
-        "short": "Longo",
-        "name": "Samuele Longo",
-        "x": 77.57,
-        "y": 27.55,
-        "size": 59.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0083
-      },
-      {
         "id": "Aleksandar Tonev",
         "short": "Tonev",
         "name": "Aleksandar Tonev",
@@ -1353,6 +1342,17 @@
         "is_playmaker": true,
         "betweenness": 0.2778,
         "eigenvector": 0.0142
+      },
+      {
+        "id": "Samuele Longo",
+        "short": "Longo",
+        "name": "Samuele Longo",
+        "x": 77.57,
+        "y": 27.55,
+        "size": 59.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0083
       }
     ],
     "edges": [
@@ -1508,30 +1508,12 @@
       },
       {
         "source": "Luca Paganini",
-        "target": "Samuele Longo",
+        "target": "Aleksandar Tonev",
         "weight": 1,
         "direction": "lateral"
       },
       {
         "source": "Luca Paganini",
-        "target": "Aleksandar Tonev",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Samuele Longo",
-        "target": "Luca Paganini",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Samuele Longo",
-        "target": "Aleksandar Tonev",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Aleksandar Tonev",
         "target": "Samuele Longo",
         "weight": 1,
         "direction": "lateral"
@@ -1545,6 +1527,24 @@
       {
         "source": "Aleksandar Tonev",
         "target": "Luca Paganini",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Aleksandar Tonev",
+        "target": "Samuele Longo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Samuele Longo",
+        "target": "Luca Paganini",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Samuele Longo",
+        "target": "Aleksandar Tonev",
         "weight": 1,
         "direction": "lateral"
       }

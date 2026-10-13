@@ -1186,17 +1186,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Gary Cahill",
-        "short": "Cahill",
-        "name": "Gary Cahill",
-        "x": 36.94,
-        "y": 47.53,
-        "size": 59.3,
-        "is_playmaker": true,
-        "betweenness": 0.3315,
-        "eigenvector": 0.0106
-      },
-      {
         "id": "Thibaut Courtois",
         "short": "Courtois",
         "name": "Thibaut Courtois",
@@ -1206,6 +1195,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0003
+      },
+      {
+        "id": "Gary Cahill",
+        "short": "Cahill",
+        "name": "Gary Cahill",
+        "x": 36.94,
+        "y": 47.53,
+        "size": 59.3,
+        "is_playmaker": true,
+        "betweenness": 0.3315,
+        "eigenvector": 0.0106
       }
     ],
     "edges": [
@@ -1319,15 +1319,15 @@
       },
       {
         "source": "John Terry",
-        "target": "Gary Cahill",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "John Terry",
         "target": "Thibaut Courtois",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "John Terry",
+        "target": "Gary Cahill",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "César Azpilicueta Tanco",
@@ -1372,24 +1372,6 @@
         "direction": "forward"
       },
       {
-        "source": "Gary Cahill",
-        "target": "John Michael Nchekwube Obinna",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gary Cahill",
-        "target": "John Terry",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gary Cahill",
-        "target": "Thibaut Courtois",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Thibaut Courtois",
         "target": "John Terry",
         "weight": 1,
@@ -1400,6 +1382,24 @@
         "target": "Gary Cahill",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Gary Cahill",
+        "target": "Thibaut Courtois",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gary Cahill",
+        "target": "John Michael Nchekwube Obinna",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gary Cahill",
+        "target": "John Terry",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

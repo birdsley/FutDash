@@ -810,17 +810,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Heiko Westermann",
-        "short": "Westermann",
-        "name": "Heiko Westermann",
-        "x": 24.2,
-        "y": 24.85,
-        "size": 64.6,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0014
-      },
-      {
         "id": "Antonio Adán Garrido",
         "short": "Adán",
         "name": "Antonio Adán",
@@ -830,6 +819,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0135
+      },
+      {
+        "id": "Heiko Westermann",
+        "short": "Westermann",
+        "name": "Heiko Westermann",
+        "x": 24.2,
+        "y": 24.85,
+        "size": 64.6,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0014
       }
     ],
     "edges": [
@@ -942,18 +942,6 @@
         "direction": "forward"
       },
       {
-        "source": "Heiko Westermann",
-        "target": "Antonio Adán Garrido",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Heiko Westermann",
-        "target": "Martín Montoya Torralbo",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Antonio Adán Garrido",
         "target": "Heiko Westermann",
         "weight": 1,
@@ -962,6 +950,18 @@
       {
         "source": "Antonio Adán Garrido",
         "target": "Germán Alejandro Pezzella",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Heiko Westermann",
+        "target": "Antonio Adán Garrido",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Heiko Westermann",
+        "target": "Martín Montoya Torralbo",
         "weight": 1,
         "direction": "forward"
       }
@@ -1069,17 +1069,6 @@
         "eigenvector": 0.0264
       },
       {
-        "id": "Luis Alberto Suárez Díaz",
-        "short": "Suárez",
-        "name": "Luis Suárez",
-        "x": 90.67,
-        "y": 41.94,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.006
-      },
-      {
         "id": "Claudio Andrés Bravo Muñoz",
         "short": "Bravo",
         "name": "Claudio Bravo",
@@ -1089,6 +1078,17 @@
         "is_playmaker": true,
         "betweenness": 0.3778,
         "eigenvector": 0.0148
+      },
+      {
+        "id": "Luis Alberto Suárez Díaz",
+        "short": "Suárez",
+        "name": "Luis Suárez",
+        "x": 90.67,
+        "y": 41.94,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.006
       }
     ],
     "edges": [
@@ -1261,18 +1261,6 @@
         "direction": "forward"
       },
       {
-        "source": "Luis Alberto Suárez Díaz",
-        "target": "Lionel Andrés Messi Cuccittini",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Luis Alberto Suárez Díaz",
-        "target": "Ivan Rakitić",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Claudio Andrés Bravo Muñoz",
         "target": "Javier Alejandro Mascherano",
         "weight": 1,
@@ -1283,6 +1271,18 @@
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Lionel Andrés Messi Cuccittini",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Alberto Suárez Díaz",
+        "target": "Ivan Rakitić",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

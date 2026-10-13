@@ -1009,17 +1009,6 @@
         "eigenvector": 0.0648
       },
       {
-        "id": "Marc-André ter Stegen",
-        "short": "ter Stegen",
-        "name": "Marc-André ter Stegen",
-        "x": 11.67,
-        "y": 42.24,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0079
-      },
-      {
         "id": "Clément Lenglet",
         "short": "Lenglet",
         "name": "Clément Lenglet",
@@ -1040,6 +1029,17 @@
         "is_playmaker": false,
         "betweenness": 0.1778,
         "eigenvector": 0.0065
+      },
+      {
+        "id": "Marc-André ter Stegen",
+        "short": "ter Stegen",
+        "name": "Marc-André ter Stegen",
+        "x": 11.67,
+        "y": 42.24,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0079
       }
     ],
     "edges": [
@@ -1218,24 +1218,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Marc-André ter Stegen",
-        "target": "Clément Lenglet",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marc-André ter Stegen",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Clément Lenglet",
-        "target": "Marc-André ter Stegen",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Clément Lenglet",
         "target": "Jordi Alba Ramos",
         "weight": 1,
@@ -1248,6 +1230,12 @@
         "direction": "forward"
       },
       {
+        "source": "Clément Lenglet",
+        "target": "Marc-André ter Stegen",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ousmane Dembélé",
         "target": "Luis Alberto Suárez Díaz",
         "weight": 1,
@@ -1258,6 +1246,18 @@
         "target": "Arthur Henrique Ramos de Oliveira Melo",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Clément Lenglet",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Marc-André ter Stegen",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

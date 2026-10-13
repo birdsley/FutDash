@@ -1080,17 +1080,6 @@
         "eigenvector": 0.0088
       },
       {
-        "id": "Aniket Anil Jadhav",
-        "short": "Jadhav",
-        "name": "Aniket Anil Jadhav",
-        "x": 80.9,
-        "y": 11.4,
-        "size": 62.1,
-        "is_playmaker": false,
-        "betweenness": 0.2167,
-        "eigenvector": 0.027
-      },
-      {
         "id": "Souvik Chakrabarti",
         "short": "Chakrabarti",
         "name": "Souvik Chakrabarti",
@@ -1100,6 +1089,17 @@
         "is_playmaker": false,
         "betweenness": 0.3278,
         "eigenvector": 0.0101
+      },
+      {
+        "id": "Aniket Anil Jadhav",
+        "short": "Jadhav",
+        "name": "Aniket Anil Jadhav",
+        "x": 80.9,
+        "y": 11.4,
+        "size": 62.1,
+        "is_playmaker": false,
+        "betweenness": 0.2167,
+        "eigenvector": 0.027
       }
     ],
     "edges": [
@@ -1159,15 +1159,15 @@
       },
       {
         "source": "Bartholomew Owogbalor Ogbeche",
-        "target": "Aniket Anil Jadhav",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Bartholomew Owogbalor Ogbeche",
         "target": "Souvik Chakrabarti",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Bartholomew Owogbalor Ogbeche",
+        "target": "Aniket Anil Jadhav",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "João Victor de Albuquerque Bruno",
@@ -1212,18 +1212,6 @@
         "direction": "forward"
       },
       {
-        "source": "Aniket Anil Jadhav",
-        "target": "Akash Mishra",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Aniket Anil Jadhav",
-        "target": "Bartholomew Owogbalor Ogbeche",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Souvik Chakrabarti",
         "target": "Bartholomew Owogbalor Ogbeche",
         "weight": 1,
@@ -1232,6 +1220,18 @@
       {
         "source": "Souvik Chakrabarti",
         "target": "João Victor de Albuquerque Bruno",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aniket Anil Jadhav",
+        "target": "Akash Mishra",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aniket Anil Jadhav",
+        "target": "Bartholomew Owogbalor Ogbeche",
         "weight": 1,
         "direction": "backward"
       }

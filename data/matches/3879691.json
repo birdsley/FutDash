@@ -1243,15 +1243,15 @@
         "eigenvector": 0.4261
       },
       {
-        "id": "Matteo Bianchetti",
-        "short": "Bianchetti",
-        "name": "Matteo Bianchetti",
-        "x": 46.18,
-        "y": 61.15,
-        "size": 64.8,
+        "id": "Filip Helander",
+        "short": "Helander",
+        "name": "Filip Helander",
+        "x": 39.08,
+        "y": 28.97,
+        "size": 69.6,
         "is_playmaker": false,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0326
+        "betweenness": 0.05,
+        "eigenvector": 0.0114
       },
       {
         "id": "Vangelis Moras",
@@ -1265,17 +1265,6 @@
         "eigenvector": 0.0138
       },
       {
-        "id": "Pierluigi Gollini",
-        "short": "Gollini",
-        "name": "Pierluigi Gollini",
-        "x": 15.0,
-        "y": 44.47,
-        "size": 64.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.002
-      },
-      {
         "id": "Urby Emanuelson",
         "short": "Emanuelson",
         "name": "Urby Emanuelson",
@@ -1287,15 +1276,26 @@
         "eigenvector": 0.0338
       },
       {
-        "id": "Filip Helander",
-        "short": "Helander",
-        "name": "Filip Helander",
-        "x": 39.08,
-        "y": 28.97,
-        "size": 69.6,
+        "id": "Matteo Bianchetti",
+        "short": "Bianchetti",
+        "name": "Matteo Bianchetti",
+        "x": 46.18,
+        "y": 61.15,
+        "size": 64.8,
         "is_playmaker": false,
-        "betweenness": 0.05,
-        "eigenvector": 0.0114
+        "betweenness": 0.2333,
+        "eigenvector": 0.0326
+      },
+      {
+        "id": "Pierluigi Gollini",
+        "short": "Gollini",
+        "name": "Pierluigi Gollini",
+        "x": 15.0,
+        "y": 44.47,
+        "size": 64.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.002
       }
     ],
     "edges": [
@@ -1349,13 +1349,13 @@
       },
       {
         "source": "Artur Ioniţă",
-        "target": "Vangelis Moras",
+        "target": "Filip Helander",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Artur Ioniţă",
-        "target": "Filip Helander",
+        "target": "Vangelis Moras",
         "weight": 1,
         "direction": "backward"
       },
@@ -1390,16 +1390,28 @@
         "direction": "lateral"
       },
       {
-        "source": "Matteo Bianchetti",
+        "source": "Filip Helander",
         "target": "Vangelis Moras",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Filip Helander",
+        "target": "Artur Ioniţă",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Filip Helander",
+        "target": "Pierluigi Gollini",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Matteo Bianchetti",
-        "target": "Leandro Greco",
+        "source": "Vangelis Moras",
+        "target": "Filip Helander",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
         "source": "Vangelis Moras",
@@ -1420,24 +1432,6 @@
         "direction": "backward"
       },
       {
-        "source": "Vangelis Moras",
-        "target": "Filip Helander",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Pierluigi Gollini",
-        "target": "Vangelis Moras",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Pierluigi Gollini",
-        "target": "Filip Helander",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Urby Emanuelson",
         "target": "Ante Rebić",
         "weight": 1,
@@ -1450,20 +1444,26 @@
         "direction": "lateral"
       },
       {
-        "source": "Filip Helander",
-        "target": "Pierluigi Gollini",
+        "source": "Matteo Bianchetti",
+        "target": "Vangelis Moras",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Filip Helander",
-        "target": "Vangelis Moras",
+        "source": "Matteo Bianchetti",
+        "target": "Leandro Greco",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Filip Helander",
-        "target": "Artur Ioniţă",
+        "source": "Pierluigi Gollini",
+        "target": "Vangelis Moras",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Pierluigi Gollini",
+        "target": "Filip Helander",
         "weight": 1,
         "direction": "forward"
       }

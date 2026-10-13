@@ -1355,15 +1355,15 @@
         "eigenvector": 0.3562
       },
       {
-        "id": "Rebecca Leigh Spencer",
-        "short": "Spencer",
-        "name": "Rebecca Spencer",
-        "x": 8.64,
-        "y": 43.03,
-        "size": 66.4,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0699
+        "id": "Anna Filbey",
+        "short": "Filbey",
+        "name": "Anna Filbey",
+        "x": 41.96,
+        "y": 27.36,
+        "size": 72.1,
+        "is_playmaker": true,
+        "betweenness": 0.4333,
+        "eigenvector": 0.0815
       },
       {
         "id": "Rianna Dean",
@@ -1377,15 +1377,15 @@
         "eigenvector": 0.1234
       },
       {
-        "id": "Anna Filbey",
-        "short": "Filbey",
-        "name": "Anna Filbey",
-        "x": 41.96,
-        "y": 27.36,
-        "size": 72.1,
-        "is_playmaker": true,
-        "betweenness": 0.4333,
-        "eigenvector": 0.0815
+        "id": "Rebecca Leigh Spencer",
+        "short": "Spencer",
+        "name": "Rebecca Spencer",
+        "x": 8.64,
+        "y": 43.03,
+        "size": 66.4,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0699
       }
     ],
     "edges": [
@@ -1421,15 +1421,15 @@
       },
       {
         "source": "Josie Green",
-        "target": "Rianna Dean",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Josie Green",
         "target": "Anna Filbey",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Josie Green",
+        "target": "Rianna Dean",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Chloe Peplow",
@@ -1480,16 +1480,22 @@
         "direction": "forward"
       },
       {
-        "source": "Rebecca Leigh Spencer",
-        "target": "Hannah Godfrey",
+        "source": "Anna Filbey",
+        "target": "Siri Worm",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Rebecca Leigh Spencer",
-        "target": "Anna Filbey",
+        "source": "Anna Filbey",
+        "target": "Josie Green",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Anna Filbey",
+        "target": "Rebecca Leigh Spencer",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Rianna Dean",
@@ -1504,20 +1510,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Anna Filbey",
-        "target": "Rebecca Leigh Spencer",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Anna Filbey",
-        "target": "Siri Worm",
+        "source": "Rebecca Leigh Spencer",
+        "target": "Hannah Godfrey",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Anna Filbey",
-        "target": "Josie Green",
+        "source": "Rebecca Leigh Spencer",
+        "target": "Anna Filbey",
         "weight": 1,
         "direction": "forward"
       }

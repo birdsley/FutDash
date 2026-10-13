@@ -1230,17 +1230,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Wes Morgan",
-        "short": "Morgan",
-        "name": "Wes Morgan",
-        "x": 49.11,
-        "y": 24.75,
-        "size": 62.8,
-        "is_playmaker": true,
-        "betweenness": 0.3574,
-        "eigenvector": 0.0344
-      },
-      {
         "id": "Marcin Ryszard Wasilewski",
         "short": "Wasilewski",
         "name": "Marcin Wasilewski",
@@ -1250,6 +1239,17 @@
         "is_playmaker": false,
         "betweenness": 0.1741,
         "eigenvector": 0.0062
+      },
+      {
+        "id": "Wes Morgan",
+        "short": "Morgan",
+        "name": "Wes Morgan",
+        "x": 49.11,
+        "y": 24.75,
+        "size": 62.8,
+        "is_playmaker": true,
+        "betweenness": 0.3574,
+        "eigenvector": 0.0344
       }
     ],
     "edges": [
@@ -1416,14 +1416,14 @@
         "direction": "forward"
       },
       {
-        "source": "Wes Morgan",
-        "target": "Shinji Okazaki",
+        "source": "Marcin Ryszard Wasilewski",
+        "target": "Danny Simpson",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Wes Morgan",
-        "target": "Christian Fuchs",
+        "source": "Marcin Ryszard Wasilewski",
+        "target": "Wes Morgan",
         "weight": 1,
         "direction": "forward"
       },
@@ -1434,14 +1434,14 @@
         "direction": "backward"
       },
       {
-        "source": "Marcin Ryszard Wasilewski",
-        "target": "Danny Simpson",
+        "source": "Wes Morgan",
+        "target": "Shinji Okazaki",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Marcin Ryszard Wasilewski",
-        "target": "Wes Morgan",
+        "source": "Wes Morgan",
+        "target": "Christian Fuchs",
         "weight": 1,
         "direction": "forward"
       }

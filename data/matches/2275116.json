@@ -990,17 +990,6 @@
         "eigenvector": 0.0892
       },
       {
-        "id": "Ellen White",
-        "short": "White",
-        "name": "Ellen White",
-        "x": 82.51,
-        "y": 38.21,
-        "size": 57.5,
-        "is_playmaker": false,
-        "betweenness": 0.1704,
-        "eigenvector": 0.0075
-      },
-      {
         "id": "Laura Coombs",
         "short": "Coombs",
         "name": "Laura Coombs",
@@ -1010,6 +999,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0142
+      },
+      {
+        "id": "Ellen White",
+        "short": "White",
+        "name": "Ellen White",
+        "x": 82.51,
+        "y": 38.21,
+        "size": 57.5,
+        "is_playmaker": false,
+        "betweenness": 0.1704,
+        "eigenvector": 0.0075
       }
     ],
     "edges": [
@@ -1165,31 +1165,19 @@
       },
       {
         "source": "Keira Walsh",
-        "target": "Ellen White",
+        "target": "Laura Coombs",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Keira Walsh",
-        "target": "Laura Coombs",
+        "target": "Ellen White",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Tessa Wullaert",
         "target": "Ellen White",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ellen White",
-        "target": "Tessa Wullaert",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ellen White",
-        "target": "Keira Walsh",
         "weight": 1,
         "direction": "backward"
       },
@@ -1201,6 +1189,18 @@
       },
       {
         "source": "Laura Coombs",
+        "target": "Keira Walsh",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Tessa Wullaert",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ellen White",
         "target": "Keira Walsh",
         "weight": 1,
         "direction": "backward"

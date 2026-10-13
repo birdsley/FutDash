@@ -904,15 +904,15 @@
         "eigenvector": 0.2182
       },
       {
-        "id": "Dorian Caddy",
-        "short": "Caddy",
-        "name": "Dorian Caddy",
-        "x": 75.29,
-        "y": 31.26,
+        "id": "Yoan Cardinale",
+        "short": "Cardinale",
+        "name": "Yoan Cardinale",
+        "x": 10.54,
+        "y": 44.25,
         "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.4,
-        "eigenvector": 0.0128
+        "betweenness": 0.1611,
+        "eigenvector": 0.0098
       },
       {
         "id": "Valère Germain",
@@ -926,15 +926,15 @@
         "eigenvector": 0.0129
       },
       {
-        "id": "Yoan Cardinale",
-        "short": "Cardinale",
-        "name": "Yoan Cardinale",
-        "x": 10.54,
-        "y": 44.25,
+        "id": "Dorian Caddy",
+        "short": "Caddy",
+        "name": "Dorian Caddy",
+        "x": 75.29,
+        "y": 31.26,
         "size": 57.5,
         "is_playmaker": false,
-        "betweenness": 0.1611,
-        "eigenvector": 0.0098
+        "betweenness": 0.4,
+        "eigenvector": 0.0128
       }
     ],
     "edges": [
@@ -1113,20 +1113,14 @@
         "direction": "backward"
       },
       {
-        "source": "Dorian Caddy",
-        "target": "Jean Michaël Seri",
+        "source": "Yoan Cardinale",
+        "target": "Maxime Le Marchand",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Dorian Caddy",
-        "target": "Valère Germain",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Valère Germain",
-        "target": "Dorian Caddy",
+        "source": "Yoan Cardinale",
+        "target": "Paul Baysse",
         "weight": 1,
         "direction": "forward"
       },
@@ -1143,16 +1137,22 @@
         "direction": "backward"
       },
       {
-        "source": "Yoan Cardinale",
-        "target": "Maxime Le Marchand",
+        "source": "Valère Germain",
+        "target": "Dorian Caddy",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Yoan Cardinale",
-        "target": "Paul Baysse",
+        "source": "Dorian Caddy",
+        "target": "Jean Michaël Seri",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
+      },
+      {
+        "source": "Dorian Caddy",
+        "target": "Valère Germain",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

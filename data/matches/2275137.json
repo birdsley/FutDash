@@ -1328,17 +1328,6 @@
         "eigenvector": 0.3177
       },
       {
-        "id": "Rianna Dean",
-        "short": "Dean",
-        "name": "Rianna Dean",
-        "x": 57.63,
-        "y": 43.91,
-        "size": 66.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Angela Addison",
         "short": "Addison",
         "name": "Angela Addison",
@@ -1347,6 +1336,17 @@
         "size": 71.4,
         "is_playmaker": false,
         "betweenness": 0.0444,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Rianna Dean",
+        "short": "Dean",
+        "name": "Rianna Dean",
+        "x": 57.63,
+        "y": 43.91,
+        "size": 66.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       },
       {
@@ -1447,24 +1447,6 @@
         "direction": "forward"
       },
       {
-        "source": "Rianna Dean",
-        "target": "Lucy Quinn",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rianna Dean",
-        "target": "Angela Addison",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Angela Addison",
-        "target": "Rianna Dean",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Angela Addison",
         "target": "Ria Percival",
         "weight": 1,
@@ -1477,16 +1459,34 @@
         "direction": "lateral"
       },
       {
-        "source": "Lucy Quinn",
+        "source": "Angela Addison",
         "target": "Rianna Dean",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Rianna Dean",
+        "target": "Lucy Quinn",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Rianna Dean",
+        "target": "Angela Addison",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Lucy Quinn",
         "target": "Angela Addison",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Lucy Quinn",
+        "target": "Rianna Dean",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Lucy Quinn",

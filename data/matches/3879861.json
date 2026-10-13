@@ -1174,17 +1174,6 @@
         "eigenvector": 0.1329
       },
       {
-        "id": "Vasyl Pryyma",
-        "short": "Pryyma",
-        "name": "Vasyl Pryyma",
-        "x": 39.41,
-        "y": 31.4,
-        "size": 70.6,
-        "is_playmaker": false,
-        "betweenness": 0.3111,
-        "eigenvector": 0.043
-      },
-      {
         "id": "Daniel Ciofani",
         "short": "Ciofani",
         "name": "Daniel Ciofani",
@@ -1194,6 +1183,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0855
+      },
+      {
+        "id": "Vasyl Pryyma",
+        "short": "Pryyma",
+        "name": "Vasyl Pryyma",
+        "x": 39.41,
+        "y": 31.4,
+        "size": 70.6,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.043
       },
       {
         "id": "Francesco Bardi",
@@ -1311,6 +1311,18 @@
         "direction": "backward"
       },
       {
+        "source": "Daniel Ciofani",
+        "target": "Federico Dionisi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Daniel Ciofani",
+        "target": "Robert Gucher",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Vasyl Pryyma",
         "target": "Paolo Sammarco",
         "weight": 1,
@@ -1325,18 +1337,6 @@
       {
         "source": "Vasyl Pryyma",
         "target": "Francesco Bardi",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Daniel Ciofani",
-        "target": "Federico Dionisi",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Daniel Ciofani",
-        "target": "Robert Gucher",
         "weight": 1,
         "direction": "backward"
       },

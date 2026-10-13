@@ -901,28 +901,6 @@
         "eigenvector": 0.3065
       },
       {
-        "id": "Antonio Di Gaudio",
-        "short": "Gaudio",
-        "name": "Antonio Di Gaudio",
-        "x": 51.89,
-        "y": 23.7,
-        "size": 64.2,
-        "is_playmaker": false,
-        "betweenness": 0.2944,
-        "eigenvector": 0.0258
-      },
-      {
-        "id": "Vid Belec",
-        "short": "Belec",
-        "name": "Vid Belec",
-        "x": 15.32,
-        "y": 51.3,
-        "size": 64.2,
-        "is_playmaker": false,
-        "betweenness": 0.2056,
-        "eigenvector": 0.0314
-      },
-      {
         "id": "Marco Borriello",
         "short": "Borriello",
         "name": "Marco Borriello",
@@ -934,6 +912,17 @@
         "eigenvector": 0.0003
       },
       {
+        "id": "Antonio Di Gaudio",
+        "short": "Gaudio",
+        "name": "Antonio Di Gaudio",
+        "x": 51.89,
+        "y": 23.7,
+        "size": 64.2,
+        "is_playmaker": false,
+        "betweenness": 0.2944,
+        "eigenvector": 0.0258
+      },
+      {
         "id": "Lorenzo Lollo",
         "short": "Lollo",
         "name": "Lorenzo Lollo",
@@ -943,6 +932,17 @@
         "is_playmaker": false,
         "betweenness": 0.3278,
         "eigenvector": 0.0024
+      },
+      {
+        "id": "Vid Belec",
+        "short": "Belec",
+        "name": "Vid Belec",
+        "x": 15.32,
+        "y": 51.3,
+        "size": 64.2,
+        "is_playmaker": false,
+        "betweenness": 0.2056,
+        "eigenvector": 0.0314
       }
     ],
     "edges": [
@@ -1037,6 +1037,18 @@
         "direction": "backward"
       },
       {
+        "source": "Marco Borriello",
+        "target": "Lorenzo Lollo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Marco Borriello",
+        "target": "Luca Marrone",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Antonio Di Gaudio",
         "target": "Riccardo Gagliolo",
         "weight": 1,
@@ -1049,6 +1061,24 @@
         "direction": "forward"
       },
       {
+        "source": "Lorenzo Lollo",
+        "target": "Marco Borriello",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Lorenzo Lollo",
+        "target": "Antonio Di Gaudio",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lorenzo Lollo",
+        "target": "Luca Marrone",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Vid Belec",
         "target": "Simone Romagnoli",
         "weight": 1,
@@ -1059,36 +1089,6 @@
         "target": "Isaac Cofie",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Marco Borriello",
-        "target": "Lorenzo Lollo",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Marco Borriello",
-        "target": "Luca Marrone",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lorenzo Lollo",
-        "target": "Antonio Di Gaudio",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lorenzo Lollo",
-        "target": "Marco Borriello",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lorenzo Lollo",
-        "target": "Luca Marrone",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

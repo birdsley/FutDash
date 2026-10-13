@@ -1213,15 +1213,15 @@
         "eigenvector": 0.0307
       },
       {
-        "id": "Michael Oakes",
-        "short": "Oakes",
-        "name": "Michael Oakes",
-        "x": 13.74,
-        "y": 38.82,
-        "size": 61.6,
+        "id": "Paul Butler",
+        "short": "Butler",
+        "name": "Paul Butler",
+        "x": 43.18,
+        "y": 32.02,
+        "size": 64.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0026
+        "betweenness": 0.3389,
+        "eigenvector": 0.0098
       },
       {
         "id": "Jody Craddock",
@@ -1235,15 +1235,15 @@
         "eigenvector": 0.0325
       },
       {
-        "id": "Paul Butler",
-        "short": "Butler",
-        "name": "Paul Butler",
-        "x": 43.18,
-        "y": 32.02,
-        "size": 64.8,
+        "id": "Michael Oakes",
+        "short": "Oakes",
+        "name": "Michael Oakes",
+        "x": 13.74,
+        "y": 38.82,
+        "size": 61.6,
         "is_playmaker": false,
-        "betweenness": 0.3389,
-        "eigenvector": 0.0098
+        "betweenness": 0.0,
+        "eigenvector": 0.0026
       }
     ],
     "edges": [
@@ -1362,19 +1362,19 @@
         "direction": "backward"
       },
       {
-        "source": "Michael Oakes",
+        "source": "Paul Butler",
+        "target": "Colin Cameron",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Paul Butler",
         "target": "Jody Craddock",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Michael Oakes",
-        "target": "Paul Butler",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jody Craddock",
+        "source": "Paul Butler",
         "target": "Michael Oakes",
         "weight": 1,
         "direction": "backward"
@@ -1392,20 +1392,20 @@
         "direction": "forward"
       },
       {
-        "source": "Paul Butler",
+        "source": "Jody Craddock",
         "target": "Michael Oakes",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Paul Butler",
+        "source": "Michael Oakes",
         "target": "Jody Craddock",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Paul Butler",
-        "target": "Colin Cameron",
+        "source": "Michael Oakes",
+        "target": "Paul Butler",
         "weight": 1,
         "direction": "forward"
       }

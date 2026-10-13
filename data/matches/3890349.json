@@ -855,17 +855,6 @@
         "eigenvector": 0.0222
       },
       {
-        "id": "Carlos Augusto Zambrano Ochandarte",
-        "short": "Zambrano",
-        "name": "Carlos Zambrano",
-        "x": 29.45,
-        "y": 54.21,
-        "size": 64.4,
-        "is_playmaker": false,
-        "betweenness": 0.2722,
-        "eigenvector": 0.0535
-      },
-      {
         "id": "David Ángel Abraham",
         "short": "Abraham",
         "name": "David Abraham",
@@ -875,6 +864,17 @@
         "is_playmaker": true,
         "betweenness": 0.3167,
         "eigenvector": 0.0025
+      },
+      {
+        "id": "Carlos Augusto Zambrano Ochandarte",
+        "short": "Zambrano",
+        "name": "Carlos Zambrano",
+        "x": 29.45,
+        "y": 54.21,
+        "size": 64.4,
+        "is_playmaker": false,
+        "betweenness": 0.2722,
+        "eigenvector": 0.0535
       }
     ],
     "edges": [
@@ -946,13 +946,13 @@
       },
       {
         "source": "Lukáš Hrádecký",
-        "target": "Carlos Augusto Zambrano Ochandarte",
+        "target": "David Ángel Abraham",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Lukáš Hrádecký",
-        "target": "David Ángel Abraham",
+        "target": "Carlos Augusto Zambrano Ochandarte",
         "weight": 1,
         "direction": "forward"
       },
@@ -987,18 +987,6 @@
         "direction": "backward"
       },
       {
-        "source": "Carlos Augusto Zambrano Ochandarte",
-        "target": "Lukáš Hrádecký",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Carlos Augusto Zambrano Ochandarte",
-        "target": "Aleksandar Ignjovski",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "David Ángel Abraham",
         "target": "Slobodan Medojević",
         "weight": 1,
@@ -1009,6 +997,18 @@
         "target": "Lukáš Hrádecký",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Carlos Augusto Zambrano Ochandarte",
+        "target": "Lukáš Hrádecký",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Carlos Augusto Zambrano Ochandarte",
+        "target": "Aleksandar Ignjovski",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1114,17 +1114,6 @@
         "eigenvector": 0.0511
       },
       {
-        "id": "Robert Lewandowski",
-        "short": "Lewandowski",
-        "name": "Robert Lewandowski",
-        "x": 69.75,
-        "y": 39.16,
-        "size": 57.3,
-        "is_playmaker": true,
-        "betweenness": 0.2,
-        "eigenvector": 0.0166
-      },
-      {
         "id": "Manuel Neuer",
         "short": "Neuer",
         "name": "Manuel Neuer",
@@ -1134,6 +1123,17 @@
         "is_playmaker": false,
         "betweenness": 0.1722,
         "eigenvector": 0.0165
+      },
+      {
+        "id": "Robert Lewandowski",
+        "short": "Lewandowski",
+        "name": "Robert Lewandowski",
+        "x": 69.75,
+        "y": 39.16,
+        "size": 57.3,
+        "is_playmaker": true,
+        "betweenness": 0.2,
+        "eigenvector": 0.0166
       }
     ],
     "edges": [
@@ -1211,15 +1211,15 @@
       },
       {
         "source": "Jérôme Boateng",
-        "target": "Robert Lewandowski",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jérôme Boateng",
         "target": "Manuel Neuer",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jérôme Boateng",
+        "target": "Robert Lewandowski",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Javier Martínez Aginaga",
@@ -1306,18 +1306,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Robert Lewandowski",
-        "target": "Jérôme Boateng",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Robert Lewandowski",
-        "target": "Philipp Lahm",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Manuel Neuer",
         "target": "Javier Martínez Aginaga",
         "weight": 1,
@@ -1328,6 +1316,18 @@
         "target": "Jérôme Boateng",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Jérôme Boateng",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Robert Lewandowski",
+        "target": "Philipp Lahm",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

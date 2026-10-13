@@ -1318,17 +1318,6 @@
         "eigenvector": 0.3864
       },
       {
-        "id": "Gregory Leigh",
-        "short": "Leigh",
-        "name": "Greg Leigh",
-        "x": 61.34,
-        "y": 20.72,
-        "size": 61.8,
-        "is_playmaker": true,
-        "betweenness": 0.4,
-        "eigenvector": 0.025
-      },
-      {
         "id": "Shamar Nicholson",
         "short": "Nicholson",
         "name": "Shamar Nicholson",
@@ -1349,6 +1338,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0033
+      },
+      {
+        "id": "Gregory Leigh",
+        "short": "Leigh",
+        "name": "Greg Leigh",
+        "x": 61.34,
+        "y": 20.72,
+        "size": 61.8,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.025
       }
     ],
     "edges": [
@@ -1438,12 +1438,6 @@
       },
       {
         "source": "Michail Antonio",
-        "target": "Gregory Leigh",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Michail Antonio",
         "target": "Shamar Nicholson",
         "weight": 1,
         "direction": "forward"
@@ -1453,6 +1447,12 @@
         "target": "Damion Lowe",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Michail Antonio",
+        "target": "Gregory Leigh",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Dexter Lembikisa",
@@ -1479,18 +1479,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Gregory Leigh",
-        "target": "Bobby Armani De Cordova-Reid",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Gregory Leigh",
-        "target": "Michail Antonio",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Shamar Nicholson",
         "target": "Damion Lowe",
         "weight": 1,
@@ -1513,6 +1501,18 @@
         "target": "Michail Antonio",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gregory Leigh",
+        "target": "Bobby Armani De Cordova-Reid",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Gregory Leigh",
+        "target": "Michail Antonio",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

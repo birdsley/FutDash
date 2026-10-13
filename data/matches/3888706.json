@@ -1219,17 +1219,6 @@
         "eigenvector": 0.0019
       },
       {
-        "id": "Heinz Stuy",
-        "short": "Stuy",
-        "name": "Heinz Stuy",
-        "x": 8.85,
-        "y": 38.89,
-        "size": 61.2,
-        "is_playmaker": false,
-        "betweenness": 0.1722,
-        "eigenvector": 0.0144
-      },
-      {
         "id": "Johnny Rep",
         "short": "Rep",
         "name": "Johnny Rep",
@@ -1250,6 +1239,17 @@
         "is_playmaker": true,
         "betweenness": 0.6,
         "eigenvector": 0.0244
+      },
+      {
+        "id": "Heinz Stuy",
+        "short": "Stuy",
+        "name": "Heinz Stuy",
+        "x": 8.85,
+        "y": 38.89,
+        "size": 61.2,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0144
       }
     ],
     "edges": [
@@ -1380,18 +1380,6 @@
         "direction": "backward"
       },
       {
-        "source": "Heinz Stuy",
-        "target": "Barry Hulshoff",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Heinz Stuy",
-        "target": "Horst Blankenburg",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Johnny Rep",
         "target": "Johan Neeskens",
         "weight": 1,
@@ -1405,12 +1393,6 @@
       },
       {
         "source": "Barry Hulshoff",
-        "target": "Heinz Stuy",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Barry Hulshoff",
         "target": "Wim Suurbier",
         "weight": 1,
         "direction": "forward"
@@ -1418,6 +1400,24 @@
       {
         "source": "Barry Hulshoff",
         "target": "Arie Haan",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Barry Hulshoff",
+        "target": "Heinz Stuy",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Heinz Stuy",
+        "target": "Barry Hulshoff",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Heinz Stuy",
+        "target": "Horst Blankenburg",
         "weight": 1,
         "direction": "forward"
       }

@@ -870,17 +870,6 @@
         "eigenvector": 0.0732
       },
       {
-        "id": "Benjamin Hübner",
-        "short": "Hübner",
-        "name": "Benjamin Hübner",
-        "x": 46.73,
-        "y": 17.93,
-        "size": 60.1,
-        "is_playmaker": false,
-        "betweenness": 0.1722,
-        "eigenvector": 0.0014
-      },
-      {
         "id": "Roger de Oliveira Bernardo",
         "short": "Bernardo",
         "name": "Roger Bernardo",
@@ -890,6 +879,17 @@
         "is_playmaker": true,
         "betweenness": 0.5333,
         "eigenvector": 0.0103
+      },
+      {
+        "id": "Benjamin Hübner",
+        "short": "Hübner",
+        "name": "Benjamin Hübner",
+        "x": 46.73,
+        "y": 17.93,
+        "size": 60.1,
+        "is_playmaker": false,
+        "betweenness": 0.1722,
+        "eigenvector": 0.0014
       }
     ],
     "edges": [
@@ -1032,14 +1032,14 @@
         "direction": "forward"
       },
       {
-        "source": "Benjamin Hübner",
-        "target": "Robert Bauer",
+        "source": "Roger de Oliveira Bernardo",
+        "target": "Marvin Matip",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Benjamin Hübner",
-        "target": "Roger de Oliveira Bernardo",
+        "source": "Roger de Oliveira Bernardo",
+        "target": "Max Christiansen",
         "weight": 1,
         "direction": "forward"
       },
@@ -1050,14 +1050,14 @@
         "direction": "backward"
       },
       {
-        "source": "Roger de Oliveira Bernardo",
-        "target": "Marvin Matip",
+        "source": "Benjamin Hübner",
+        "target": "Robert Bauer",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Roger de Oliveira Bernardo",
-        "target": "Max Christiansen",
+        "source": "Benjamin Hübner",
+        "target": "Roger de Oliveira Bernardo",
         "weight": 1,
         "direction": "forward"
       }

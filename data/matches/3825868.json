@@ -1020,17 +1020,6 @@
         "eigenvector": 0.2597
       },
       {
-        "id": "John Guidetti",
-        "short": "Guidetti",
-        "name": "John Guidetti",
-        "x": 69.26,
-        "y": 52.99,
-        "size": 58.3,
-        "is_playmaker": false,
-        "betweenness": 0.1667,
-        "eigenvector": 0.0204
-      },
-      {
         "id": "Rubén Blanco Veiga",
         "short": "Blanco",
         "name": "Rubén Blanco",
@@ -1040,6 +1029,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0287
+      },
+      {
+        "id": "John Guidetti",
+        "short": "Guidetti",
+        "name": "John Guidetti",
+        "x": 69.26,
+        "y": 52.99,
+        "size": 58.3,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.0204
       }
     ],
     "edges": [
@@ -1212,18 +1212,6 @@
         "direction": "forward"
       },
       {
-        "source": "John Guidetti",
-        "target": "Iago Aspas Juncal",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "John Guidetti",
-        "target": "Fabián Ariel Orellana Valenzuela",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Rubén Blanco Veiga",
         "target": "Gustavo Daniel Cabral Cáceres",
         "weight": 1,
@@ -1234,6 +1222,18 @@
         "target": "Sergi Gómez Solà",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "John Guidetti",
+        "target": "Iago Aspas Juncal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "John Guidetti",
+        "target": "Fabián Ariel Orellana Valenzuela",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },
@@ -1339,17 +1339,6 @@
         "eigenvector": 0.2652
       },
       {
-        "id": "Jean-Sylvain Claude Babin",
-        "short": "Babin",
-        "name": "Jean-Sylvain Babin",
-        "x": 46.9,
-        "y": 25.43,
-        "size": 63.5,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0387
-      },
-      {
         "id": "Rene Krhin",
         "short": "Krhin",
         "name": "Rene Krhin",
@@ -1359,6 +1348,17 @@
         "is_playmaker": true,
         "betweenness": 0.3,
         "eigenvector": 0.0773
+      },
+      {
+        "id": "Jean-Sylvain Claude Babin",
+        "short": "Babin",
+        "name": "Jean-Sylvain Babin",
+        "x": 46.9,
+        "y": 25.43,
+        "size": 63.5,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0387
       }
     ],
     "edges": [
@@ -1400,15 +1400,15 @@
       },
       {
         "source": "Abdoulaye Doucouré",
-        "target": "Jean-Sylvain Claude Babin",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Abdoulaye Doucouré",
         "target": "Rene Krhin",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Abdoulaye Doucouré",
+        "target": "Jean-Sylvain Claude Babin",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Juan Isaac Cuenca López",
@@ -1471,14 +1471,14 @@
         "direction": "backward"
       },
       {
-        "source": "Jean-Sylvain Claude Babin",
+        "source": "Rene Krhin",
         "target": "Abdoulaye Doucouré",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Jean-Sylvain Claude Babin",
-        "target": "Rene Krhin",
+        "source": "Rene Krhin",
+        "target": "Youssef El-Arabi",
         "weight": 1,
         "direction": "forward"
       },
@@ -1489,14 +1489,14 @@
         "direction": "backward"
       },
       {
-        "source": "Rene Krhin",
+        "source": "Jean-Sylvain Claude Babin",
         "target": "Abdoulaye Doucouré",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Rene Krhin",
-        "target": "Youssef El-Arabi",
+        "source": "Jean-Sylvain Claude Babin",
+        "target": "Rene Krhin",
         "weight": 1,
         "direction": "forward"
       }

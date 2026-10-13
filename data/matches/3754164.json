@@ -1300,17 +1300,6 @@
         "eigenvector": 0.1877
       },
       {
-        "id": "Younes Kaboul",
-        "short": "Kaboul",
-        "name": "Younès Kaboul",
-        "x": 42.16,
-        "y": 21.32,
-        "size": 71.7,
-        "is_playmaker": true,
-        "betweenness": 0.2333,
-        "eigenvector": 0.0503
-      },
-      {
         "id": "Lamine Koné",
         "short": "Koné",
         "name": "Lamine Koné",
@@ -1320,6 +1309,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.01
+      },
+      {
+        "id": "Younes Kaboul",
+        "short": "Kaboul",
+        "name": "Younès Kaboul",
+        "x": 42.16,
+        "y": 21.32,
+        "size": 71.7,
+        "is_playmaker": true,
+        "betweenness": 0.2333,
+        "eigenvector": 0.0503
       }
     ],
     "edges": [
@@ -1361,13 +1361,13 @@
       },
       {
         "source": "Jan Kirchhoff",
-        "target": "Younes Kaboul",
+        "target": "Lamine Koné",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Jan Kirchhoff",
-        "target": "Lamine Koné",
+        "target": "Younes Kaboul",
         "weight": 1,
         "direction": "backward"
       },
@@ -1420,24 +1420,6 @@
         "direction": "forward"
       },
       {
-        "source": "Younes Kaboul",
-        "target": "Patrick van Aanholt",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Younes Kaboul",
-        "target": "Jan Kirchhoff",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Younes Kaboul",
-        "target": "Lamine Koné",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Lamine Koné",
         "target": "Jan Kirchhoff",
         "weight": 1,
@@ -1448,6 +1430,24 @@
         "target": "Younes Kaboul",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Younes Kaboul",
+        "target": "Lamine Koné",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Younes Kaboul",
+        "target": "Patrick van Aanholt",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Younes Kaboul",
+        "target": "Jan Kirchhoff",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

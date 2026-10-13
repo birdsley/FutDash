@@ -1099,6 +1099,17 @@
         "eigenvector": 0.0754
       },
       {
+        "id": "Renato Júnior Luz Sanches",
+        "short": "Sanches",
+        "name": "Renato Sanches",
+        "x": 62.17,
+        "y": 48.01,
+        "size": 58.0,
+        "is_playmaker": false,
+        "betweenness": 0.0611,
+        "eigenvector": 0.0162
+      },
+      {
         "id": "Gianluigi Donnarumma",
         "short": "Donnarumma",
         "name": "Gianluigi Donnarumma",
@@ -1119,17 +1130,6 @@
         "is_playmaker": false,
         "betweenness": 0.1333,
         "eigenvector": 0.014
-      },
-      {
-        "id": "Renato Júnior Luz Sanches",
-        "short": "Sanches",
-        "name": "Renato Sanches",
-        "x": 62.17,
-        "y": 48.01,
-        "size": 58.0,
-        "is_playmaker": false,
-        "betweenness": 0.0611,
-        "eigenvector": 0.0162
       }
     ],
     "edges": [
@@ -1207,15 +1207,15 @@
       },
       {
         "source": "Marcos Aoás Corrêa",
-        "target": "Gianluigi Donnarumma",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Marcos Aoás Corrêa",
         "target": "Renato Júnior Luz Sanches",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Marcos Aoás Corrêa",
+        "target": "Gianluigi Donnarumma",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Danilo Luís Hélio Pereira",
@@ -1237,15 +1237,15 @@
       },
       {
         "source": "Danilo Luís Hélio Pereira",
-        "target": "Gianluigi Donnarumma",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Danilo Luís Hélio Pereira",
         "target": "Renato Júnior Luz Sanches",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Danilo Luís Hélio Pereira",
+        "target": "Gianluigi Donnarumma",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Fabián Ruiz Peña",
@@ -1314,6 +1314,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Renato Júnior Luz Sanches",
+        "target": "Danilo Luís Hélio Pereira",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Renato Júnior Luz Sanches",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Gianluigi Donnarumma",
         "target": "Marcos Aoás Corrêa",
         "weight": 1,
@@ -1336,18 +1348,6 @@
         "target": "Vitor Machado Ferreira",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Renato Júnior Luz Sanches",
-        "target": "Danilo Luís Hélio Pereira",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Renato Júnior Luz Sanches",
-        "target": "Marcos Aoás Corrêa",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

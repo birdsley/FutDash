@@ -1065,17 +1065,6 @@
         "eigenvector": 0.2877
       },
       {
-        "id": "Harry Kane",
-        "short": "Kane",
-        "name": "Harry Kane",
-        "x": 84.22,
-        "y": 31.88,
-        "size": 58.7,
-        "is_playmaker": false,
-        "betweenness": 0.1444,
-        "eigenvector": 0.0405
-      },
-      {
         "id": "Hugo Lloris",
         "short": "Lloris",
         "name": "Hugo Lloris",
@@ -1085,6 +1074,17 @@
         "is_playmaker": true,
         "betweenness": 0.4444,
         "eigenvector": 0.0286
+      },
+      {
+        "id": "Harry Kane",
+        "short": "Kane",
+        "name": "Harry Kane",
+        "x": 84.22,
+        "y": 31.88,
+        "size": 58.7,
+        "is_playmaker": false,
+        "betweenness": 0.1444,
+        "eigenvector": 0.0405
       }
     ],
     "edges": [
@@ -1257,18 +1257,6 @@
         "direction": "forward"
       },
       {
-        "source": "Harry Kane",
-        "target": "Erik Lamela",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Harry Kane",
-        "target": "Christian Dannemann Eriksen",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Hugo Lloris",
         "target": "Jan Vertonghen",
         "weight": 1,
@@ -1279,6 +1267,18 @@
         "target": "Toby Alderweireld",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Erik Lamela",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Harry Kane",
+        "target": "Christian Dannemann Eriksen",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1384,17 +1384,6 @@
         "eigenvector": 0.5081
       },
       {
-        "id": "Wes Morgan",
-        "short": "Morgan",
-        "name": "Wes Morgan",
-        "x": 40.4,
-        "y": 56.05,
-        "size": 65.7,
-        "is_playmaker": false,
-        "betweenness": 0.1222,
-        "eigenvector": 0.0089
-      },
-      {
         "id": "Jamie Vardy",
         "short": "Vardy",
         "name": "Jamie Vardy",
@@ -1404,6 +1393,17 @@
         "is_playmaker": true,
         "betweenness": 0.4222,
         "eigenvector": 0.068
+      },
+      {
+        "id": "Wes Morgan",
+        "short": "Morgan",
+        "name": "Wes Morgan",
+        "x": 40.4,
+        "y": 56.05,
+        "size": 65.7,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.0089
       }
     ],
     "edges": [
@@ -1510,24 +1510,6 @@
         "direction": "backward"
       },
       {
-        "source": "Wes Morgan",
-        "target": "Danny Simpson",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wes Morgan",
-        "target": "Jamie Vardy",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jamie Vardy",
-        "target": "Wes Morgan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jamie Vardy",
         "target": "N''Golo Kanté",
         "weight": 1,
@@ -1538,6 +1520,24 @@
         "target": "Robert Huth",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jamie Vardy",
+        "target": "Wes Morgan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Wes Morgan",
+        "target": "Danny Simpson",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wes Morgan",
+        "target": "Jamie Vardy",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

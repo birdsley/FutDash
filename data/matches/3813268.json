@@ -1219,17 +1219,6 @@
         "eigenvector": 0.0004
       },
       {
-        "id": "Amrinder Singh",
-        "short": "Singh",
-        "name": "Amrinder Singh",
-        "x": 9.74,
-        "y": 45.34,
-        "size": 60.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0004
-      },
-      {
         "id": "Sumit Rathi",
         "short": "Rathi",
         "name": "Sumit Rathi",
@@ -1239,6 +1228,17 @@
         "is_playmaker": true,
         "betweenness": 0.2778,
         "eigenvector": 0.0074
+      },
+      {
+        "id": "Amrinder Singh",
+        "short": "Singh",
+        "name": "Amrinder Singh",
+        "x": 9.74,
+        "y": 45.34,
+        "size": 60.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0004
       }
     ],
     "edges": [
@@ -1394,30 +1394,12 @@
       },
       {
         "source": "Pritam Kotal",
-        "target": "Amrinder Singh",
+        "target": "Sumit Rathi",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Pritam Kotal",
-        "target": "Sumit Rathi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Amrinder Singh",
-        "target": "Pritam Kotal",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Amrinder Singh",
-        "target": "Sumit Rathi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sumit Rathi",
         "target": "Amrinder Singh",
         "weight": 1,
         "direction": "backward"
@@ -1433,6 +1415,24 @@
         "target": "Pritam Kotal",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Sumit Rathi",
+        "target": "Amrinder Singh",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Amrinder Singh",
+        "target": "Pritam Kotal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Amrinder Singh",
+        "target": "Sumit Rathi",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

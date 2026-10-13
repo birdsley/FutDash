@@ -1313,15 +1313,15 @@
         "eigenvector": 0.0995
       },
       {
-        "id": "Matteo Fedele",
-        "short": "Fedele",
-        "name": "Matteo Fedele",
-        "x": 71.6,
-        "y": 48.69,
-        "size": 63.3,
+        "id": "Vid Belec",
+        "short": "Belec",
+        "name": "Vid Belec",
+        "x": 11.09,
+        "y": 41.98,
+        "size": 60.6,
         "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.0321
+        "betweenness": 0.15,
+        "eigenvector": 0.0257
       },
       {
         "id": "Gaetano Letizia",
@@ -1335,15 +1335,15 @@
         "eigenvector": 0.0194
       },
       {
-        "id": "Vid Belec",
-        "short": "Belec",
-        "name": "Vid Belec",
-        "x": 11.09,
-        "y": 41.98,
-        "size": 60.6,
+        "id": "Matteo Fedele",
+        "short": "Fedele",
+        "name": "Matteo Fedele",
+        "x": 71.6,
+        "y": 48.69,
+        "size": 63.3,
         "is_playmaker": false,
-        "betweenness": 0.15,
-        "eigenvector": 0.0257
+        "betweenness": 0.1333,
+        "eigenvector": 0.0321
       }
     ],
     "edges": [
@@ -1355,15 +1355,15 @@
       },
       {
         "source": "Marco Borriello",
-        "target": "Matteo Fedele",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marco Borriello",
         "target": "Gaetano Letizia",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Marco Borriello",
+        "target": "Matteo Fedele",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Ryder Matos Santos",
@@ -1498,22 +1498,16 @@
         "direction": "backward"
       },
       {
-        "source": "Matteo Fedele",
-        "target": "Marco Borriello",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Matteo Fedele",
-        "target": "Ryder Matos Santos",
+        "source": "Vid Belec",
+        "target": "Cristian Zaccardo",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Matteo Fedele",
-        "target": "Gaetano Letizia",
+        "source": "Vid Belec",
+        "target": "Igor Bubnjić",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Gaetano Letizia",
@@ -1528,14 +1522,20 @@
         "direction": "lateral"
       },
       {
-        "source": "Vid Belec",
-        "target": "Cristian Zaccardo",
+        "source": "Matteo Fedele",
+        "target": "Gaetano Letizia",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Vid Belec",
-        "target": "Igor Bubnjić",
+        "source": "Matteo Fedele",
+        "target": "Marco Borriello",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Matteo Fedele",
+        "target": "Ryder Matos Santos",
         "weight": 1,
         "direction": "forward"
       }

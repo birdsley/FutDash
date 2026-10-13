@@ -1321,17 +1321,6 @@
         "eigenvector": 0.1023
       },
       {
-        "id": "Sébastien Aymar Bassong Nguena",
-        "short": "Bassong",
-        "name": "Sébastien Bassong",
-        "x": 54.23,
-        "y": 25.75,
-        "size": 66.2,
-        "is_playmaker": false,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0237
-      },
-      {
         "id": "Matt Jarvis",
         "short": "Jarvis",
         "name": "Matt Jarvis",
@@ -1341,6 +1330,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.008
+      },
+      {
+        "id": "Sébastien Aymar Bassong Nguena",
+        "short": "Bassong",
+        "name": "Sébastien Bassong",
+        "x": 54.23,
+        "y": 25.75,
+        "size": 66.2,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0237
       }
     ],
     "edges": [
@@ -1448,12 +1448,30 @@
       },
       {
         "source": "Martin Olsson",
+        "target": "Matt Jarvis",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Martin Olsson",
         "target": "Sébastien Aymar Bassong Nguena",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Martin Olsson",
+        "source": "Matt Jarvis",
+        "target": "Martin Olsson",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Matt Jarvis",
+        "target": "Sébastien Aymar Bassong Nguena",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sébastien Aymar Bassong Nguena",
         "target": "Matt Jarvis",
         "weight": 1,
         "direction": "forward"
@@ -1469,24 +1487,6 @@
         "target": "Martin Olsson",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Sébastien Aymar Bassong Nguena",
-        "target": "Matt Jarvis",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Matt Jarvis",
-        "target": "Martin Olsson",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Matt Jarvis",
-        "target": "Sébastien Aymar Bassong Nguena",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

@@ -897,6 +897,17 @@
         "eigenvector": 0.0435
       },
       {
+        "id": "Julia Simic",
+        "short": "Simic",
+        "name": "Julia Simic",
+        "x": 64.25,
+        "y": 41.62,
+        "size": 88.3,
+        "is_playmaker": true,
+        "betweenness": 0.5,
+        "eigenvector": 0.1882
+      },
+      {
         "id": "Brooke Hendrix",
         "short": "Hendrix",
         "name": "Brooke Hendrix",
@@ -919,15 +930,15 @@
         "eigenvector": 0.0435
       },
       {
-        "id": "Julia Simic",
-        "short": "Simic",
-        "name": "Julia Simic",
-        "x": 64.25,
-        "y": 41.62,
-        "size": 88.3,
-        "is_playmaker": true,
-        "betweenness": 0.5,
-        "eigenvector": 0.1882
+        "id": "Rebecca Leigh Spencer",
+        "short": "Spencer",
+        "name": "Rebecca Spencer",
+        "x": 14.8,
+        "y": 42.3,
+        "size": 71.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0669
       },
       {
         "id": "Gilly Louise Scarlett Flaherty",
@@ -939,17 +950,6 @@
         "is_playmaker": true,
         "betweenness": 0.3778,
         "eigenvector": 0.193
-      },
-      {
-        "id": "Rebecca Leigh Spencer",
-        "short": "Spencer",
-        "name": "Rebecca Spencer",
-        "x": 14.8,
-        "y": 42.3,
-        "size": 71.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0669
       }
     ],
     "edges": [
@@ -1003,48 +1003,12 @@
       },
       {
         "source": "Jane Ross",
-        "target": "Esmee de Graaf",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jane Ross",
         "target": "Julia Simic",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Brooke Hendrix",
-        "target": "Lucienne Reichardt",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Brooke Hendrix",
-        "target": "Gilly Louise Scarlett Flaherty",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Brooke Hendrix",
-        "target": "Rebecca Leigh Spencer",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Esmee de Graaf",
-        "target": "Jane Ross",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Esmee de Graaf",
-        "target": "Julia Simic",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Julia Simic",
+        "source": "Jane Ross",
         "target": "Esmee de Graaf",
         "weight": 1,
         "direction": "forward"
@@ -1063,13 +1027,67 @@
       },
       {
         "source": "Julia Simic",
+        "target": "Esmee de Graaf",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Julia Simic",
         "target": "Gilly Louise Scarlett Flaherty",
         "weight": 1,
         "direction": "backward"
       },
       {
+        "source": "Brooke Hendrix",
+        "target": "Lucienne Reichardt",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Brooke Hendrix",
+        "target": "Gilly Louise Scarlett Flaherty",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Brooke Hendrix",
+        "target": "Rebecca Leigh Spencer",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Esmee de Graaf",
+        "target": "Jane Ross",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Esmee de Graaf",
+        "target": "Julia Simic",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Rebecca Leigh Spencer",
+        "target": "Brooke Hendrix",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rebecca Leigh Spencer",
+        "target": "Gilly Louise Scarlett Flaherty",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Gilly Louise Scarlett Flaherty",
         "target": "Brooke Hendrix",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gilly Louise Scarlett Flaherty",
+        "target": "Rebecca Leigh Spencer",
         "weight": 1,
         "direction": "backward"
       },
@@ -1082,24 +1100,6 @@
       {
         "source": "Gilly Louise Scarlett Flaherty",
         "target": "Julia Simic",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gilly Louise Scarlett Flaherty",
-        "target": "Rebecca Leigh Spencer",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Rebecca Leigh Spencer",
-        "target": "Brooke Hendrix",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rebecca Leigh Spencer",
-        "target": "Gilly Louise Scarlett Flaherty",
         "weight": 1,
         "direction": "forward"
       }

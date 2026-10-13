@@ -1315,17 +1315,6 @@
         "eigenvector": 0.2653
       },
       {
-        "id": "Konstantinos Manolas",
-        "short": "Manolas",
-        "name": "Konstantinos Manolas",
-        "x": 27.91,
-        "y": 48.33,
-        "size": 62.1,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0258
-      },
-      {
         "id": "Daniele De Rossi",
         "short": "Rossi",
         "name": "Daniele De Rossi",
@@ -1335,6 +1324,17 @@
         "is_playmaker": true,
         "betweenness": 0.4333,
         "eigenvector": 0.0452
+      },
+      {
+        "id": "Konstantinos Manolas",
+        "short": "Manolas",
+        "name": "Konstantinos Manolas",
+        "x": 27.91,
+        "y": 48.33,
+        "size": 62.1,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0258
       }
     ],
     "edges": [
@@ -1465,24 +1465,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Konstantinos Manolas",
-        "target": "Wojciech Szczęsny",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Konstantinos Manolas",
-        "target": "Daniele De Rossi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Daniele De Rossi",
-        "target": "Konstantinos Manolas",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Daniele De Rossi",
         "target": "Miralem Pjanić",
         "weight": 1,
@@ -1493,6 +1475,24 @@
         "target": "Antonio Rüdiger",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Daniele De Rossi",
+        "target": "Konstantinos Manolas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Konstantinos Manolas",
+        "target": "Wojciech Szczęsny",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Konstantinos Manolas",
+        "target": "Daniele De Rossi",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

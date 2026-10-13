@@ -900,22 +900,22 @@
         "eigenvector": 0.0878
       },
       {
-        "id": "Alexis Mac Allister",
-        "short": "MacAllister",
-        "name": "Alexis MacAllister",
-        "x": 56.9,
-        "y": 28.01,
+        "id": "Julián Álvarez",
+        "short": "Álvarez",
+        "name": "Julián Álvarez",
+        "x": 67.47,
+        "y": 22.53,
         "size": 57.9,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0049
       },
       {
-        "id": "Julián Álvarez",
-        "short": "Álvarez",
-        "name": "Julián Álvarez",
-        "x": 67.47,
-        "y": 22.53,
+        "id": "Alexis Mac Allister",
+        "short": "MacAllister",
+        "name": "Alexis MacAllister",
+        "x": 56.9,
+        "y": 28.01,
         "size": 57.9,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -997,13 +997,13 @@
       },
       {
         "source": "Nicolás Alejandro Tagliafico",
-        "target": "Alexis Mac Allister",
+        "target": "Julián Álvarez",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Nicolás Alejandro Tagliafico",
-        "target": "Julián Álvarez",
+        "target": "Alexis Mac Allister",
         "weight": 1,
         "direction": "forward"
       },
@@ -1080,18 +1080,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Alexis Mac Allister",
-        "target": "Julián Álvarez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alexis Mac Allister",
-        "target": "Nicolás Alejandro Tagliafico",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Julián Álvarez",
         "target": "Alexis Mac Allister",
         "weight": 1,
@@ -1099,6 +1087,18 @@
       },
       {
         "source": "Julián Álvarez",
+        "target": "Nicolás Alejandro Tagliafico",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Alexis Mac Allister",
+        "target": "Julián Álvarez",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexis Mac Allister",
         "target": "Nicolás Alejandro Tagliafico",
         "weight": 1,
         "direction": "backward"
@@ -1207,17 +1207,6 @@
         "eigenvector": 0.0316
       },
       {
-        "id": "Jacob Shaffelburg",
-        "short": "Shaffelburg",
-        "name": "Jacob Shaffelburg",
-        "x": 80.88,
-        "y": 25.48,
-        "size": 59.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0014
-      },
-      {
         "id": "Richie Laryea",
         "short": "Laryea",
         "name": "Richie Laryea",
@@ -1227,6 +1216,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0074
+      },
+      {
+        "id": "Jacob Shaffelburg",
+        "short": "Shaffelburg",
+        "name": "Jacob Shaffelburg",
+        "x": 80.88,
+        "y": 25.48,
+        "size": 59.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0014
       }
     ],
     "edges": [
@@ -1382,30 +1382,12 @@
       },
       {
         "source": "Cyle Larin",
-        "target": "Jacob Shaffelburg",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Cyle Larin",
         "target": "Richie Laryea",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Jacob Shaffelburg",
-        "target": "Cyle Larin",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Jacob Shaffelburg",
-        "target": "Richie Laryea",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Richie Laryea",
+        "source": "Cyle Larin",
         "target": "Jacob Shaffelburg",
         "weight": 1,
         "direction": "forward"
@@ -1419,6 +1401,24 @@
       {
         "source": "Richie Laryea",
         "target": "Jonathan David",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Richie Laryea",
+        "target": "Jacob Shaffelburg",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jacob Shaffelburg",
+        "target": "Cyle Larin",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jacob Shaffelburg",
+        "target": "Richie Laryea",
         "weight": 1,
         "direction": "backward"
       }

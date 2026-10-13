@@ -1020,17 +1020,6 @@
         "eigenvector": 0.0181
       },
       {
-        "id": "Nicola Leali",
-        "short": "Leali",
-        "name": "Nicola Leali",
-        "x": 13.58,
-        "y": 40.12,
-        "size": 65.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0418
-      },
-      {
         "id": "Yussif Raman Chibsah",
         "short": "Chibsah",
         "name": "Raman Chibsah",
@@ -1040,6 +1029,17 @@
         "is_playmaker": true,
         "betweenness": 0.2667,
         "eigenvector": 0.0449
+      },
+      {
+        "id": "Nicola Leali",
+        "short": "Leali",
+        "name": "Nicola Leali",
+        "x": 13.58,
+        "y": 40.12,
+        "size": 65.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0418
       }
     ],
     "edges": [
@@ -1111,15 +1111,15 @@
       },
       {
         "source": "Modibo Diakité",
-        "target": "Nicola Leali",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Modibo Diakité",
         "target": "Yussif Raman Chibsah",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Modibo Diakité",
+        "target": "Nicola Leali",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Roberto Crivello",
@@ -1146,14 +1146,14 @@
         "direction": "backward"
       },
       {
-        "source": "Nicola Leali",
+        "source": "Yussif Raman Chibsah",
         "target": "Modibo Diakité",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Nicola Leali",
-        "target": "Yussif Raman Chibsah",
+        "source": "Yussif Raman Chibsah",
+        "target": "Aleandro Rosi",
         "weight": 1,
         "direction": "forward"
       },
@@ -1164,14 +1164,14 @@
         "direction": "backward"
       },
       {
-        "source": "Yussif Raman Chibsah",
+        "source": "Nicola Leali",
         "target": "Modibo Diakité",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       },
       {
-        "source": "Yussif Raman Chibsah",
-        "target": "Aleandro Rosi",
+        "source": "Nicola Leali",
+        "target": "Yussif Raman Chibsah",
         "weight": 1,
         "direction": "forward"
       }

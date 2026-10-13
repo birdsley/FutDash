@@ -1113,17 +1113,6 @@
         "eigenvector": 0.0013
       },
       {
-        "id": "Aleksandar Pantić",
-        "short": "Pantić",
-        "name": "Aleksandar Pantić",
-        "x": 47.26,
-        "y": 20.77,
-        "size": 64.0,
-        "is_playmaker": false,
-        "betweenness": 0.1833,
-        "eigenvector": 0.0452
-      },
-      {
         "id": "Ander Capa Rodríguez",
         "short": "Capa",
         "name": "Ander Capa",
@@ -1135,17 +1124,6 @@
         "eigenvector": 0.0023
       },
       {
-        "id": "Sergio Gontán Gallardo",
-        "short": "Keko",
-        "name": "Keko",
-        "x": 74.02,
-        "y": 67.68,
-        "size": 64.0,
-        "is_playmaker": false,
-        "betweenness": 0.3444,
-        "eigenvector": 0.0264
-      },
-      {
         "id": "Mauro Javier Dos Santos",
         "short": "dos Santos",
         "name": "Mauro dos Santos",
@@ -1155,6 +1133,28 @@
         "is_playmaker": true,
         "betweenness": 0.4556,
         "eigenvector": 0.0003
+      },
+      {
+        "id": "Aleksandar Pantić",
+        "short": "Pantić",
+        "name": "Aleksandar Pantić",
+        "x": 47.26,
+        "y": 20.77,
+        "size": 64.0,
+        "is_playmaker": false,
+        "betweenness": 0.1833,
+        "eigenvector": 0.0452
+      },
+      {
+        "id": "Sergio Gontán Gallardo",
+        "short": "Keko",
+        "name": "Keko",
+        "x": 74.02,
+        "y": 67.68,
+        "size": 64.0,
+        "is_playmaker": false,
+        "betweenness": 0.3444,
+        "eigenvector": 0.0264
       }
     ],
     "edges": [
@@ -1256,13 +1256,13 @@
       },
       {
         "source": "Adrián González Morales",
-        "target": "Aleksandar Pantić",
+        "target": "Mauro Javier Dos Santos",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Adrián González Morales",
-        "target": "Mauro Javier Dos Santos",
+        "target": "Aleksandar Pantić",
         "weight": 1,
         "direction": "backward"
       },
@@ -1279,18 +1279,6 @@
         "direction": "forward"
       },
       {
-        "source": "Aleksandar Pantić",
-        "target": "Adrián González Morales",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Aleksandar Pantić",
-        "target": "David Juncà Reñé",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Ander Capa Rodríguez",
         "target": "Sergio Gontán Gallardo",
         "weight": 1,
@@ -1303,18 +1291,6 @@
         "direction": "backward"
       },
       {
-        "source": "Sergio Gontán Gallardo",
-        "target": "Ander Capa Rodríguez",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sergio Gontán Gallardo",
-        "target": "Sergio Enrich Ametller",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Mauro Javier Dos Santos",
         "target": "Daniel García Carrillo",
         "weight": 1,
@@ -1325,6 +1301,30 @@
         "target": "Adrián González Morales",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Aleksandar Pantić",
+        "target": "Adrián González Morales",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Aleksandar Pantić",
+        "target": "David Juncà Reñé",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Gontán Gallardo",
+        "target": "Ander Capa Rodríguez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Gontán Gallardo",
+        "target": "Sergio Enrich Ametller",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

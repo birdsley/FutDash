@@ -1132,17 +1132,6 @@
         "eigenvector": 0.1022
       },
       {
-        "id": "Chloe Kelly",
-        "short": "Kelly",
-        "name": "Chloe Kelly",
-        "x": 84.23,
-        "y": 44.64,
-        "size": 57.3,
-        "is_playmaker": false,
-        "betweenness": 0.3278,
-        "eigenvector": 0.002
-      },
-      {
         "id": "Samantha June Mewis",
         "short": "Mewis",
         "name": "Samantha June Mewis",
@@ -1163,6 +1152,17 @@
         "is_playmaker": false,
         "betweenness": 0.4,
         "eigenvector": 0.0002
+      },
+      {
+        "id": "Chloe Kelly",
+        "short": "Kelly",
+        "name": "Chloe Kelly",
+        "x": 84.23,
+        "y": 44.64,
+        "size": 57.3,
+        "is_playmaker": false,
+        "betweenness": 0.3278,
+        "eigenvector": 0.002
       }
     ],
     "edges": [
@@ -1323,18 +1323,6 @@
         "direction": "forward"
       },
       {
-        "source": "Chloe Kelly",
-        "target": "Ellen White",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Chloe Kelly",
-        "target": "Janine Elizabeth Beckie",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Samantha June Mewis",
         "target": "Ellen White",
         "weight": 1,
@@ -1348,13 +1336,25 @@
       },
       {
         "source": "Ellen White",
+        "target": "Samantha June Mewis",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Ellen White",
         "target": "Chloe Kelly",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Ellen White",
-        "target": "Samantha June Mewis",
+        "source": "Chloe Kelly",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Chloe Kelly",
+        "target": "Janine Elizabeth Beckie",
         "weight": 1,
         "direction": "backward"
       }

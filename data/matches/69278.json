@@ -840,17 +840,6 @@
         "eigenvector": 0.1429
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Valdés",
-        "name": "Víctor Valdés",
-        "x": 13.69,
-        "y": 42.44,
-        "size": 57.2,
-        "is_playmaker": false,
-        "betweenness": 0.2278,
-        "eigenvector": 0.0044
-      },
-      {
         "id": "Daniel Alves da Silva",
         "short": "Alves",
         "name": "Dani Alves",
@@ -860,6 +849,17 @@
         "is_playmaker": true,
         "betweenness": 0.2611,
         "eigenvector": 0.0039
+      },
+      {
+        "id": "Víctor Valdés Arribas",
+        "short": "Valdés",
+        "name": "Víctor Valdés",
+        "x": 13.69,
+        "y": 42.44,
+        "size": 57.2,
+        "is_playmaker": false,
+        "betweenness": 0.2278,
+        "eigenvector": 0.0044
       }
     ],
     "edges": [
@@ -1015,19 +1015,31 @@
       },
       {
         "source": "Gerard Piqué Bernabéu",
-        "target": "Víctor Valdés Arribas",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Gerard Piqué Bernabéu",
         "target": "Daniel Alves da Silva",
         "weight": 1,
         "direction": "forward"
       },
       {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Pedro Eliezer Rodríguez Ledesma",
         "target": "Daniel Alves da Silva",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Daniel Alves da Silva",
+        "target": "Pedro Eliezer Rodríguez Ledesma",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Alves da Silva",
+        "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "backward"
       },
@@ -1042,18 +1054,6 @@
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Daniel Alves da Silva",
-        "target": "Pedro Eliezer Rodríguez Ledesma",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Daniel Alves da Silva",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

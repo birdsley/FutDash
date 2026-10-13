@@ -1209,17 +1209,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Igor Bubnjić",
-        "short": "Bubnjić",
-        "name": "Igor Bubnjić",
-        "x": 42.53,
-        "y": 32.38,
-        "size": 63.9,
-        "is_playmaker": false,
-        "betweenness": 0.2556,
-        "eigenvector": 0.0037
-      },
-      {
         "id": "Raffaele Bianco",
         "short": "Bianco",
         "name": "Raffaele Bianco",
@@ -1229,6 +1218,17 @@
         "is_playmaker": true,
         "betweenness": 0.3667,
         "eigenvector": 0.0436
+      },
+      {
+        "id": "Igor Bubnjić",
+        "short": "Bubnjić",
+        "name": "Igor Bubnjić",
+        "x": 42.53,
+        "y": 32.38,
+        "size": 63.9,
+        "is_playmaker": false,
+        "betweenness": 0.2556,
+        "eigenvector": 0.0037
       }
     ],
     "edges": [
@@ -1329,14 +1329,8 @@
         "direction": "forward"
       },
       {
-        "source": "Igor Bubnjić",
-        "target": "Raffaele Bianco",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Igor Bubnjić",
-        "target": "Riccardo Gagliolo",
+        "source": "Raffaele Bianco",
+        "target": "Matteo Fedele",
         "weight": 1,
         "direction": "forward"
       },
@@ -1347,8 +1341,14 @@
         "direction": "backward"
       },
       {
-        "source": "Raffaele Bianco",
-        "target": "Matteo Fedele",
+        "source": "Igor Bubnjić",
+        "target": "Raffaele Bianco",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Igor Bubnjić",
+        "target": "Riccardo Gagliolo",
         "weight": 1,
         "direction": "forward"
       }

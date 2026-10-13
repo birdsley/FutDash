@@ -1201,17 +1201,6 @@
         "eigenvector": 0.254
       },
       {
-        "id": "Wallace Fortuna dos Santos",
-        "short": "Wallace",
-        "name": "Wallace",
-        "x": 36.47,
-        "y": 54.41,
-        "size": 67.4,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0695
-      },
-      {
         "id": "Andrea Raggi",
         "short": "Raggi",
         "name": "Andrea Raggi",
@@ -1221,6 +1210,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0414
+      },
+      {
+        "id": "Wallace Fortuna dos Santos",
+        "short": "Wallace",
+        "name": "Wallace",
+        "x": 36.47,
+        "y": 54.41,
+        "size": 67.4,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0695
       }
     ],
     "edges": [
@@ -1310,13 +1310,13 @@
       },
       {
         "source": "Tiemoué Bakayoko",
-        "target": "Wallace Fortuna dos Santos",
+        "target": "Andrea Raggi",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Tiemoué Bakayoko",
-        "target": "Andrea Raggi",
+        "target": "Wallace Fortuna dos Santos",
         "weight": 1,
         "direction": "backward"
       },
@@ -1339,24 +1339,6 @@
         "direction": "backward"
       },
       {
-        "source": "Wallace Fortuna dos Santos",
-        "target": "Fábio Henrique Tavares",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wallace Fortuna dos Santos",
-        "target": "Tiemoué Bakayoko",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Wallace Fortuna dos Santos",
-        "target": "Andrea Raggi",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Andrea Raggi",
         "target": "Tiemoué Bakayoko",
         "weight": 1,
@@ -1367,6 +1349,24 @@
         "target": "Wallace Fortuna dos Santos",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Wallace Fortuna dos Santos",
+        "target": "Andrea Raggi",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Wallace Fortuna dos Santos",
+        "target": "Fábio Henrique Tavares",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Wallace Fortuna dos Santos",
+        "target": "Tiemoué Bakayoko",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

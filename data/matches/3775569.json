@@ -1058,15 +1058,15 @@
         "eigenvector": 0.2645
       },
       {
-        "id": "Kiera Skeels",
-        "short": "Skeels",
-        "name": "Kiera Skeels",
-        "x": 36.0,
-        "y": 62.27,
+        "id": "Aimee Palmer",
+        "short": "Palmer",
+        "name": "Aimee Palmer",
+        "x": 49.8,
+        "y": 44.85,
         "size": 67.9,
         "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0001
+        "betweenness": 0.0,
+        "eigenvector": 0.0009
       },
       {
         "id": "Charlie Wellings",
@@ -1080,15 +1080,15 @@
         "eigenvector": 0.0009
       },
       {
-        "id": "Aimee Palmer",
-        "short": "Palmer",
-        "name": "Aimee Palmer",
-        "x": 49.8,
-        "y": 44.85,
+        "id": "Kiera Skeels",
+        "short": "Skeels",
+        "name": "Kiera Skeels",
+        "x": 36.0,
+        "y": 62.27,
         "size": 67.9,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0009
+        "betweenness": 0.1556,
+        "eigenvector": 0.0001
       },
       {
         "id": "Abigail Harrison",
@@ -1147,13 +1147,13 @@
       },
       {
         "source": "Carla Humphrey",
-        "target": "Charlie Wellings",
+        "target": "Aimee Palmer",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Carla Humphrey",
-        "target": "Aimee Palmer",
+        "target": "Charlie Wellings",
         "weight": 1,
         "direction": "backward"
       },
@@ -1176,22 +1176,16 @@
         "direction": "forward"
       },
       {
-        "source": "Kiera Skeels",
-        "target": "Faye Bryson",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kiera Skeels",
+        "source": "Aimee Palmer",
         "target": "Charlie Wellings",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       },
       {
-        "source": "Charlie Wellings",
-        "target": "Kiera Skeels",
+        "source": "Aimee Palmer",
+        "target": "Carla Humphrey",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Charlie Wellings",
@@ -1206,14 +1200,20 @@
         "direction": "forward"
       },
       {
-        "source": "Aimee Palmer",
-        "target": "Charlie Wellings",
+        "source": "Charlie Wellings",
+        "target": "Kiera Skeels",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Aimee Palmer",
-        "target": "Carla Humphrey",
+        "source": "Kiera Skeels",
+        "target": "Faye Bryson",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kiera Skeels",
+        "target": "Charlie Wellings",
         "weight": 1,
         "direction": "forward"
       },

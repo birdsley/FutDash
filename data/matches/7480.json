@@ -900,17 +900,6 @@
         "eigenvector": 0.1003
       },
       {
-        "id": "Adriana Kristina Leon",
-        "short": "Leon",
-        "name": "Adriana Kristina Leon",
-        "x": 62.33,
-        "y": 67.11,
-        "size": 59.6,
-        "is_playmaker": false,
-        "betweenness": 0.3556,
-        "eigenvector": 0.0203
-      },
-      {
         "id": "Jodie Taylor",
         "short": "Taylor",
         "name": "Jodie Taylor",
@@ -920,6 +909,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0056
+      },
+      {
+        "id": "Adriana Kristina Leon",
+        "short": "Leon",
+        "name": "Adriana Kristina Leon",
+        "x": 62.33,
+        "y": 67.11,
+        "size": 59.6,
+        "is_playmaker": false,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0203
       }
     ],
     "edges": [
@@ -1080,8 +1080,14 @@
         "direction": "lateral"
       },
       {
-        "source": "Adriana Kristina Leon",
-        "target": "Theresa Nielsen",
+        "source": "Jodie Taylor",
+        "target": "Beverly Yanez",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jodie Taylor",
+        "target": "Adriana Kristina Leon",
         "weight": 1,
         "direction": "backward"
       },
@@ -1092,16 +1098,10 @@
         "direction": "forward"
       },
       {
-        "source": "Jodie Taylor",
-        "target": "Adriana Kristina Leon",
+        "source": "Adriana Kristina Leon",
+        "target": "Theresa Nielsen",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Jodie Taylor",
-        "target": "Beverly Yanez",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

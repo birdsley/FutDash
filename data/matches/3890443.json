@@ -1252,17 +1252,6 @@
         "eigenvector": 0.1419
       },
       {
-        "id": "Andrej Kramarić",
-        "short": "Kramarić",
-        "name": "Andrej Kramarić",
-        "x": 75.1,
-        "y": 38.19,
-        "size": 60.1,
-        "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.0101
-      },
-      {
         "id": "Nadiem Amiri",
         "short": "Amiri",
         "name": "Nadiem Amiri",
@@ -1272,6 +1261,17 @@
         "is_playmaker": true,
         "betweenness": 0.2778,
         "eigenvector": 0.0184
+      },
+      {
+        "id": "Andrej Kramarić",
+        "short": "Kramarić",
+        "name": "Andrej Kramarić",
+        "x": 75.1,
+        "y": 38.19,
+        "size": 60.1,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.0101
       }
     ],
     "edges": [
@@ -1391,15 +1391,15 @@
       },
       {
         "source": "Sebastian Rudy",
-        "target": "Andrej Kramarić",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sebastian Rudy",
         "target": "Nadiem Amiri",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Sebastian Rudy",
+        "target": "Andrej Kramarić",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Kevin Volland",
@@ -1426,18 +1426,6 @@
         "direction": "backward"
       },
       {
-        "source": "Andrej Kramarić",
-        "target": "Sebastian Rudy",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Andrej Kramarić",
-        "target": "Eduardo Jesús Vargas Rojas",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Nadiem Amiri",
         "target": "Tobias Strobl",
         "weight": 1,
@@ -1446,6 +1434,18 @@
       {
         "source": "Nadiem Amiri",
         "target": "Sebastian Rudy",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Andrej Kramarić",
+        "target": "Sebastian Rudy",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Andrej Kramarić",
+        "target": "Eduardo Jesús Vargas Rojas",
         "weight": 1,
         "direction": "forward"
       }

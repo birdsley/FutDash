@@ -1354,17 +1354,6 @@
         "eigenvector": 0.0501
       },
       {
-        "id": "Jesse Lingard",
-        "short": "Lingard",
-        "name": "Jesse Lingard",
-        "x": 74.76,
-        "y": 47.56,
-        "size": 60.2,
-        "is_playmaker": false,
-        "betweenness": 0.3389,
-        "eigenvector": 0.0225
-      },
-      {
         "id": "David de Gea Quintana",
         "short": "de Gea",
         "name": "David de Gea",
@@ -1385,6 +1374,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0073
+      },
+      {
+        "id": "Jesse Lingard",
+        "short": "Lingard",
+        "name": "Jesse Lingard",
+        "x": 74.76,
+        "y": 47.56,
+        "size": 60.2,
+        "is_playmaker": false,
+        "betweenness": 0.3389,
+        "eigenvector": 0.0225
       }
     ],
     "edges": [
@@ -1402,13 +1402,13 @@
       },
       {
         "source": "Morgan Schneiderlin",
-        "target": "Jesse Lingard",
+        "target": "Matteo Darmian",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Morgan Schneiderlin",
-        "target": "Matteo Darmian",
+        "target": "Jesse Lingard",
         "weight": 1,
         "direction": "forward"
       },
@@ -1563,24 +1563,6 @@
         "direction": "backward"
       },
       {
-        "source": "Jesse Lingard",
-        "target": "Juan Manuel Mata García",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Jesse Lingard",
-        "target": "Morgan Schneiderlin",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Jesse Lingard",
-        "target": "Matteo Darmian",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "David de Gea Quintana",
         "target": "Chris Smalling",
         "weight": 1,
@@ -1600,6 +1582,24 @@
       },
       {
         "source": "Matteo Darmian",
+        "target": "Morgan Schneiderlin",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jesse Lingard",
+        "target": "Matteo Darmian",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jesse Lingard",
+        "target": "Juan Manuel Mata García",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Jesse Lingard",
         "target": "Morgan Schneiderlin",
         "weight": 1,
         "direction": "backward"

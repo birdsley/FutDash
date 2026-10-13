@@ -964,15 +964,15 @@
         "eigenvector": 0.2605
       },
       {
-        "id": "Matheus Soares Thuler",
-        "short": "Thuler",
-        "name": "Thuler",
-        "x": 37.92,
-        "y": 54.94,
+        "id": "Stephy Alvaro Mavididi",
+        "short": "Mavididi",
+        "name": "Stephy Mavididi",
+        "x": 82.67,
+        "y": 48.7,
         "size": 60.7,
         "is_playmaker": false,
-        "betweenness": 0.3556,
-        "eigenvector": 0.0186
+        "betweenness": 0.2111,
+        "eigenvector": 0.0146
       },
       {
         "id": "Sacha Delaye",
@@ -986,15 +986,15 @@
         "eigenvector": 0.0385
       },
       {
-        "id": "Stephy Alvaro Mavididi",
-        "short": "Mavididi",
-        "name": "Stephy Mavididi",
-        "x": 82.67,
-        "y": 48.7,
+        "id": "Matheus Soares Thuler",
+        "short": "Thuler",
+        "name": "Thuler",
+        "x": 37.92,
+        "y": 54.94,
         "size": 60.7,
         "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0146
+        "betweenness": 0.3556,
+        "eigenvector": 0.0186
       }
     ],
     "edges": [
@@ -1132,25 +1132,31 @@
       },
       {
         "source": "Joris Chotard",
-        "target": "Matheus Soares Thuler",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Joris Chotard",
         "target": "Sacha Delaye",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Matheus Soares Thuler",
-        "target": "Nicolas Louis Marcel Cozza",
+        "source": "Joris Chotard",
+        "target": "Matheus Soares Thuler",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Matheus Soares Thuler",
-        "target": "Joris Chotard",
+        "source": "Stephy Alvaro Mavididi",
+        "target": "Florent Mollet",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Stephy Alvaro Mavididi",
+        "target": "Sacha Delaye",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sacha Delaye",
+        "target": "Stephy Alvaro Mavididi",
         "weight": 1,
         "direction": "forward"
       },
@@ -1167,22 +1173,16 @@
         "direction": "lateral"
       },
       {
-        "source": "Sacha Delaye",
-        "target": "Stephy Alvaro Mavididi",
+        "source": "Matheus Soares Thuler",
+        "target": "Nicolas Louis Marcel Cozza",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Matheus Soares Thuler",
+        "target": "Joris Chotard",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Stephy Alvaro Mavididi",
-        "target": "Florent Mollet",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Stephy Alvaro Mavididi",
-        "target": "Sacha Delaye",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

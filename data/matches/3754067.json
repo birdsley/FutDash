@@ -1035,17 +1035,6 @@
         "eigenvector": 0.2711
       },
       {
-        "id": "Dwight Gayle",
-        "short": "Gayle",
-        "name": "Dwight Gayle",
-        "x": 90.44,
-        "y": 42.44,
-        "size": 61.0,
-        "is_playmaker": false,
-        "betweenness": 0.1222,
-        "eigenvector": 0.0819
-      },
-      {
         "id": "Wilfried Zaha",
         "short": "Zaha",
         "name": "Wilfried Zaha",
@@ -1055,6 +1044,17 @@
         "is_playmaker": true,
         "betweenness": 0.2685,
         "eigenvector": 0.0489
+      },
+      {
+        "id": "Dwight Gayle",
+        "short": "Gayle",
+        "name": "Dwight Gayle",
+        "x": 90.44,
+        "y": 42.44,
+        "size": 61.0,
+        "is_playmaker": false,
+        "betweenness": 0.1222,
+        "eigenvector": 0.0819
       }
     ],
     "edges": [
@@ -1102,15 +1102,15 @@
       },
       {
         "source": "Jason Puncheon",
-        "target": "Dwight Gayle",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jason Puncheon",
         "target": "Wilfried Zaha",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jason Puncheon",
+        "target": "Dwight Gayle",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Pape N''Diaye Souaré",
@@ -1227,18 +1227,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Dwight Gayle",
-        "target": "Yannick Bolasie Yala",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Dwight Gayle",
-        "target": "Jason Puncheon",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Wilfried Zaha",
         "target": "Yohan Cabaye",
         "weight": 1,
@@ -1249,6 +1237,18 @@
         "target": "Jason Puncheon",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Dwight Gayle",
+        "target": "Yannick Bolasie Yala",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Dwight Gayle",
+        "target": "Jason Puncheon",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

@@ -1058,6 +1058,17 @@
         "eigenvector": 0.5547
       },
       {
+        "id": "Jesús Lázaro Owono Ngua Akeng",
+        "short": "Owono",
+        "name": "Jesús Owono",
+        "x": 9.48,
+        "y": 40.67,
+        "size": 73.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.1111
+      },
+      {
         "id": "Esteban Obiang Obono",
         "short": "Obiang",
         "name": "Esteban Obiang",
@@ -1089,17 +1100,6 @@
         "is_playmaker": false,
         "betweenness": 0.2333,
         "eigenvector": 0.1301
-      },
-      {
-        "id": "Jesús Lázaro Owono Ngua Akeng",
-        "short": "Owono",
-        "name": "Jesús Owono",
-        "x": 9.48,
-        "y": 40.67,
-        "size": 73.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.1111
       }
     ],
     "edges": [
@@ -1176,6 +1176,24 @@
         "direction": "forward"
       },
       {
+        "source": "Jesús Lázaro Owono Ngua Akeng",
+        "target": "Saúl Basilio Coco-Bassey Oubiña",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jesús Lázaro Owono Ngua Akeng",
+        "target": "Esteban Obiang Obono",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Esteban Obiang Obono",
+        "target": "Jesús Lázaro Owono Ngua Akeng",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Esteban Obiang Obono",
         "target": "Pablo Ganet Cómitre",
         "weight": 1,
@@ -1194,7 +1212,7 @@
         "direction": "backward"
       },
       {
-        "source": "Esteban Obiang Obono",
+        "source": "Saúl Basilio Coco-Bassey Oubiña",
         "target": "Jesús Lázaro Owono Ngua Akeng",
         "weight": 1,
         "direction": "backward"
@@ -1212,12 +1230,6 @@
         "direction": "forward"
       },
       {
-        "source": "Saúl Basilio Coco-Bassey Oubiña",
-        "target": "Jesús Lázaro Owono Ngua Akeng",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Emilio Nsue López",
         "target": "Ibán Salvador Edu",
         "weight": 1,
@@ -1228,18 +1240,6 @@
         "target": "José Ndong Machín Dicombo",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Jesús Lázaro Owono Ngua Akeng",
-        "target": "Saúl Basilio Coco-Bassey Oubiña",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jesús Lázaro Owono Ngua Akeng",
-        "target": "Esteban Obiang Obono",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

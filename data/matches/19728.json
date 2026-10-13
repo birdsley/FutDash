@@ -1525,17 +1525,6 @@
         "eigenvector": 0.1799
       },
       {
-        "id": "Frankie Brown",
-        "short": "Brown",
-        "name": "Frankie Brown",
-        "x": 28.8,
-        "y": 34.6,
-        "size": 71.7,
-        "is_playmaker": false,
-        "betweenness": 0.1889,
-        "eigenvector": 0.0033
-      },
-      {
         "id": "Juliette Kemppi",
         "short": "Kemppi",
         "name": "Juliette Kemppi",
@@ -1545,6 +1534,17 @@
         "is_playmaker": false,
         "betweenness": 0.2556,
         "eigenvector": 0.0631
+      },
+      {
+        "id": "Frankie Brown",
+        "short": "Brown",
+        "name": "Frankie Brown",
+        "x": 28.8,
+        "y": 34.6,
+        "size": 71.7,
+        "is_playmaker": false,
+        "betweenness": 0.1889,
+        "eigenvector": 0.0033
       }
     ],
     "edges": [
@@ -1634,27 +1634,15 @@
       },
       {
         "source": "Julie Biesmans",
-        "target": "Frankie Brown",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Julie Biesmans",
         "target": "Juliette Kemppi",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Frankie Brown",
-        "target": "Gemma Evans",
+        "source": "Julie Biesmans",
+        "target": "Frankie Brown",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Frankie Brown",
-        "target": "Julie Biesmans",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Juliette Kemppi",
@@ -1667,6 +1655,18 @@
         "target": "Lucy Hope",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Gemma Evans",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Frankie Brown",
+        "target": "Julie Biesmans",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

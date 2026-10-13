@@ -874,6 +874,17 @@
         "eigenvector": 0.0511
       },
       {
+        "id": "Joshua King",
+        "short": "King",
+        "name": "Joshua King",
+        "x": 80.43,
+        "y": 49.14,
+        "size": 57.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0089
+      },
+      {
         "id": "Artur Boruc",
         "short": "Boruc",
         "name": "Artur Boruc",
@@ -890,17 +901,6 @@
         "name": "Callum Wilson",
         "x": 93.93,
         "y": 48.07,
-        "size": 57.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0089
-      },
-      {
-        "id": "Joshua King",
-        "short": "King",
-        "name": "Joshua King",
-        "x": 80.43,
-        "y": 49.14,
         "size": 57.8,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -982,15 +982,15 @@
       },
       {
         "source": "Matt Ritchie",
-        "target": "Callum Wilson",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Matt Ritchie",
         "target": "Joshua King",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Matt Ritchie",
+        "target": "Callum Wilson",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Tommy Elphick",
@@ -1077,6 +1077,18 @@
         "direction": "lateral"
       },
       {
+        "source": "Joshua King",
+        "target": "Callum Wilson",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Joshua King",
+        "target": "Matt Ritchie",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Artur Boruc",
         "target": "Tommy Elphick",
         "weight": 1,
@@ -1099,18 +1111,6 @@
         "target": "Matt Ritchie",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Joshua King",
-        "target": "Callum Wilson",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Joshua King",
-        "target": "Matt Ritchie",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

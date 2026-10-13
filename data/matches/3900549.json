@@ -885,17 +885,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Nolan Roux",
-        "short": "Roux",
-        "name": "Nolan Roux",
-        "x": 80.43,
-        "y": 36.44,
-        "size": 58.7,
-        "is_playmaker": false,
-        "betweenness": 0.1944,
-        "eigenvector": 0.0087
-      },
-      {
         "id": "Romain Hamouma",
         "short": "Hamouma",
         "name": "Romain Hamouma",
@@ -905,6 +894,17 @@
         "is_playmaker": true,
         "betweenness": 0.3333,
         "eigenvector": 0.0179
+      },
+      {
+        "id": "Nolan Roux",
+        "short": "Roux",
+        "name": "Nolan Roux",
+        "x": 80.43,
+        "y": 36.44,
+        "size": 58.7,
+        "is_playmaker": false,
+        "betweenness": 0.1944,
+        "eigenvector": 0.0087
       }
     ],
     "edges": [
@@ -1036,15 +1036,15 @@
       },
       {
         "source": "Renaud Cohade",
-        "target": "Nolan Roux",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Renaud Cohade",
         "target": "Romain Hamouma",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Renaud Cohade",
+        "target": "Nolan Roux",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Moustapha Bayal Sall",
@@ -1077,18 +1077,6 @@
         "direction": "forward"
       },
       {
-        "source": "Nolan Roux",
-        "target": "Renaud Cohade",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Nolan Roux",
-        "target": "Kévin Monnet-Paquet",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Romain Hamouma",
         "target": "Kévin Malcuit",
         "weight": 1,
@@ -1097,6 +1085,18 @@
       {
         "source": "Romain Hamouma",
         "target": "Renaud Cohade",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Nolan Roux",
+        "target": "Renaud Cohade",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nolan Roux",
+        "target": "Kévin Monnet-Paquet",
         "weight": 1,
         "direction": "forward"
       }

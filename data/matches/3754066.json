@@ -1330,17 +1330,6 @@
         "eigenvector": 0.0973
       },
       {
-        "id": "Asmir Begović",
-        "short": "Begović",
-        "name": "Asmir Begović",
-        "x": 8.72,
-        "y": 46.44,
-        "size": 58.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0036
-      },
-      {
         "id": "John Terry",
         "short": "Terry",
         "name": "John Terry",
@@ -1350,6 +1339,17 @@
         "is_playmaker": false,
         "betweenness": 0.2815,
         "eigenvector": 0.0146
+      },
+      {
+        "id": "Asmir Begović",
+        "short": "Begović",
+        "name": "Asmir Begović",
+        "x": 8.72,
+        "y": 46.44,
+        "size": 58.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0036
       }
     ],
     "edges": [
@@ -1493,15 +1493,15 @@
       },
       {
         "source": "Gary Cahill",
-        "target": "Asmir Begović",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Gary Cahill",
         "target": "John Terry",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Gary Cahill",
+        "target": "Asmir Begović",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Branislav Ivanović",
@@ -1516,24 +1516,6 @@
         "direction": "forward"
       },
       {
-        "source": "Asmir Begović",
-        "target": "Gary Cahill",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Asmir Begović",
-        "target": "John Terry",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "John Terry",
-        "target": "Asmir Begović",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "John Terry",
         "target": "Nemanja Matić",
         "weight": 1,
@@ -1544,6 +1526,24 @@
         "target": "Gary Cahill",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "John Terry",
+        "target": "Asmir Begović",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Asmir Begović",
+        "target": "Gary Cahill",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Asmir Begović",
+        "target": "John Terry",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

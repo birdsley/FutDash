@@ -949,17 +949,6 @@
         "eigenvector": 0.4579
       },
       {
-        "id": "Yana Daniëls",
-        "short": "Daniëls",
-        "name": "Yana Daniëls",
-        "x": 54.4,
-        "y": 18.96,
-        "size": 66.6,
-        "is_playmaker": false,
-        "betweenness": 0.0778,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Katie Robinson",
         "short": "Robinson",
         "name": "Katie Robinson",
@@ -969,6 +958,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0211
+      },
+      {
+        "id": "Yana Daniëls",
+        "short": "Daniëls",
+        "name": "Yana Daniëls",
+        "x": 54.4,
+        "y": 18.96,
+        "size": 66.6,
+        "is_playmaker": false,
+        "betweenness": 0.0778,
+        "eigenvector": 0.0
       },
       {
         "id": "Frankie Brown",
@@ -1086,18 +1086,6 @@
         "direction": "backward"
       },
       {
-        "source": "Yana Daniëls",
-        "target": "Florence Allen",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Yana Daniëls",
-        "target": "Olivia Chance",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Katie Robinson",
         "target": "Carla Humphrey",
         "weight": 1,
@@ -1106,6 +1094,18 @@
       {
         "source": "Katie Robinson",
         "target": "Frankie Brown",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Yana Daniëls",
+        "target": "Florence Allen",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Yana Daniëls",
+        "target": "Olivia Chance",
         "weight": 1,
         "direction": "backward"
       },
@@ -1220,17 +1220,6 @@
         "eigenvector": 0.1858
       },
       {
-        "id": "Tessa Wullaert",
-        "short": "Wullaert",
-        "name": "Tessa Wullaert",
-        "x": 86.35,
-        "y": 40.11,
-        "size": 57.2,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0037
-      },
-      {
         "id": "Ellen White",
         "short": "White",
         "name": "Ellen White",
@@ -1240,6 +1229,17 @@
         "is_playmaker": false,
         "betweenness": 0.2722,
         "eigenvector": 0.0112
+      },
+      {
+        "id": "Tessa Wullaert",
+        "short": "Wullaert",
+        "name": "Tessa Wullaert",
+        "x": 86.35,
+        "y": 40.11,
+        "size": 57.2,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0037
       },
       {
         "id": "Lauren Hemp",
@@ -1418,30 +1418,12 @@
       },
       {
         "source": "Jill Scott",
-        "target": "Tessa Wullaert",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jill Scott",
         "target": "Ellen White",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Tessa Wullaert",
-        "target": "Ellen White",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Tessa Wullaert",
-        "target": "Jill Scott",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Ellen White",
+        "source": "Jill Scott",
         "target": "Tessa Wullaert",
         "weight": 1,
         "direction": "forward"
@@ -1457,6 +1439,24 @@
         "target": "Jill Scott",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Ellen White",
+        "target": "Tessa Wullaert",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Tessa Wullaert",
+        "target": "Ellen White",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Tessa Wullaert",
+        "target": "Jill Scott",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Lauren Hemp",

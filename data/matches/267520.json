@@ -1095,17 +1095,6 @@
         "eigenvector": 0.0973
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Valdés",
-        "name": "Víctor Valdés",
-        "x": 11.86,
-        "y": 39.58,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.002
-      },
-      {
         "id": "Javier Alejandro Mascherano",
         "short": "Mascherano",
         "name": "Javier Mascherano",
@@ -1115,6 +1104,17 @@
         "is_playmaker": true,
         "betweenness": 0.2704,
         "eigenvector": 0.0066
+      },
+      {
+        "id": "Víctor Valdés Arribas",
+        "short": "Valdés",
+        "name": "Víctor Valdés",
+        "x": 11.86,
+        "y": 39.58,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.002
       }
     ],
     "edges": [
@@ -1270,30 +1270,12 @@
       },
       {
         "source": "Gerard Piqué Bernabéu",
-        "target": "Víctor Valdés Arribas",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Gerard Piqué Bernabéu",
         "target": "Javier Alejandro Mascherano",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Víctor Valdés Arribas",
-        "target": "Javier Alejandro Mascherano",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Javier Alejandro Mascherano",
+        "source": "Gerard Piqué Bernabéu",
         "target": "Víctor Valdés Arribas",
         "weight": 1,
         "direction": "backward"
@@ -1307,6 +1289,24 @@
       {
         "source": "Javier Alejandro Mascherano",
         "target": "Sergio Busquets i Burgos",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Javier Alejandro Mascherano",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Javier Alejandro Mascherano",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "forward"
       }

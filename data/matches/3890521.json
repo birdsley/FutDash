@@ -1201,17 +1201,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Stefan Aigner",
-        "short": "Aigner",
-        "name": "Stefan Aigner",
-        "x": 78.59,
-        "y": 54.38,
-        "size": 64.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Marc Stendera",
         "short": "Stendera",
         "name": "Marc Stendera",
@@ -1220,6 +1209,17 @@
         "size": 69.6,
         "is_playmaker": false,
         "betweenness": 0.1556,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Stefan Aigner",
+        "short": "Aigner",
+        "name": "Stefan Aigner",
+        "x": 78.59,
+        "y": 54.38,
+        "size": 64.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       }
     ],
@@ -1292,15 +1292,15 @@
       },
       {
         "source": "Timothy Chandler",
-        "target": "Stefan Aigner",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Timothy Chandler",
         "target": "Marc Stendera",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Timothy Chandler",
+        "target": "Stefan Aigner",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Marco Russ",
@@ -1321,14 +1321,14 @@
         "direction": "forward"
       },
       {
-        "source": "Stefan Aigner",
+        "source": "Marc Stendera",
         "target": "Timothy Chandler",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
-        "source": "Stefan Aigner",
-        "target": "Marc Stendera",
+        "source": "Marc Stendera",
+        "target": "David Ángel Abraham",
         "weight": 1,
         "direction": "backward"
       },
@@ -1339,14 +1339,14 @@
         "direction": "forward"
       },
       {
-        "source": "Marc Stendera",
+        "source": "Stefan Aigner",
         "target": "Timothy Chandler",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
-        "source": "Marc Stendera",
-        "target": "David Ángel Abraham",
+        "source": "Stefan Aigner",
+        "target": "Marc Stendera",
         "weight": 1,
         "direction": "backward"
       }

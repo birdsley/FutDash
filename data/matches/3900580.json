@@ -889,17 +889,6 @@
         "eigenvector": 0.1696
       },
       {
-        "id": "Valère Germain",
-        "short": "Germain",
-        "name": "Valère Germain",
-        "x": 67.86,
-        "y": 43.89,
-        "size": 58.3,
-        "is_playmaker": true,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0138
-      },
-      {
         "id": "Yoan Cardinale",
         "short": "Cardinale",
         "name": "Yoan Cardinale",
@@ -920,6 +909,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0038
+      },
+      {
+        "id": "Valère Germain",
+        "short": "Germain",
+        "name": "Valère Germain",
+        "x": 67.86,
+        "y": 43.89,
+        "size": 58.3,
+        "is_playmaker": true,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0138
       }
     ],
     "edges": [
@@ -1087,33 +1087,15 @@
       },
       {
         "source": "Hatem Ben Arfa",
-        "target": "Valère Germain",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Hatem Ben Arfa",
         "target": "Alexandre Mendy",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Valère Germain",
-        "target": "Hatem Ben Arfa",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Valère Germain",
-        "target": "Nampalys Mendy",
+        "source": "Hatem Ben Arfa",
+        "target": "Valère Germain",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Valère Germain",
-        "target": "Alexandre Mendy",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Yoan Cardinale",
@@ -1136,6 +1118,24 @@
       {
         "source": "Alexandre Mendy",
         "target": "Valère Germain",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Alexandre Mendy",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Hatem Ben Arfa",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Valère Germain",
+        "target": "Nampalys Mendy",
         "weight": 1,
         "direction": "backward"
       }

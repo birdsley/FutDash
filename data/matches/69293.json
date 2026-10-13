@@ -904,17 +904,6 @@
         "eigenvector": 0.1275
       },
       {
-        "id": "Víctor Valdés Arribas",
-        "short": "Valdés",
-        "name": "Víctor Valdés",
-        "x": 15.24,
-        "y": 37.26,
-        "size": 56.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0046
-      },
-      {
         "id": "Gerard Piqué Bernabéu",
         "short": "Piqué",
         "name": "Gerard Piqué",
@@ -935,6 +924,17 @@
         "is_playmaker": false,
         "betweenness": 0.2056,
         "eigenvector": 0.0075
+      },
+      {
+        "id": "Víctor Valdés Arribas",
+        "short": "Valdés",
+        "name": "Víctor Valdés",
+        "x": 15.24,
+        "y": 37.26,
+        "size": 56.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0046
       }
     ],
     "edges": [
@@ -1090,15 +1090,15 @@
       },
       {
         "source": "Carles Puyol i Saforcada",
-        "target": "Víctor Valdés Arribas",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Carles Puyol i Saforcada",
         "target": "Gerard Piqué Bernabéu",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Carles Puyol i Saforcada",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Maxwell Scherrer Cabelino Andrade",
@@ -1110,24 +1110,6 @@
         "source": "Maxwell Scherrer Cabelino Andrade",
         "target": "Thiago Alcântara do Nascimento",
         "weight": 11,
-        "direction": "backward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Carles Puyol i Saforcada",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Víctor Valdés Arribas",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gerard Piqué Bernabéu",
-        "target": "Víctor Valdés Arribas",
-        "weight": 1,
         "direction": "backward"
       },
       {
@@ -1143,6 +1125,12 @@
         "direction": "forward"
       },
       {
+        "source": "Gerard Piqué Bernabéu",
+        "target": "Víctor Valdés Arribas",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "David Villa Sánchez",
         "target": "Pedro Eliezer Rodríguez Ledesma",
         "weight": 1,
@@ -1153,6 +1141,18 @@
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Carles Puyol i Saforcada",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Víctor Valdés Arribas",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

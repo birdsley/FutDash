@@ -1174,6 +1174,17 @@
         "eigenvector": 0.0693
       },
       {
+        "id": "Guglielmo Stendardo",
+        "short": "Stendardo",
+        "name": "Guglielmo Stendardo",
+        "x": 39.08,
+        "y": 54.6,
+        "size": 58.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0024
+      },
+      {
         "id": "Mauricio Ricardo Pinilla Ferreira",
         "short": "Ferreira",
         "name": "Mauricio Ricardo Pinilla Ferreira",
@@ -1190,17 +1201,6 @@
         "name": "Marco Sportiello",
         "x": 15.54,
         "y": 42.0,
-        "size": 58.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0024
-      },
-      {
-        "id": "Guglielmo Stendardo",
-        "short": "Stendardo",
-        "name": "Guglielmo Stendardo",
-        "x": 39.08,
-        "y": 54.6,
         "size": 58.7,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1366,13 +1366,25 @@
       },
       {
         "source": "Nicolò Cherubin",
+        "target": "Guglielmo Stendardo",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Nicolò Cherubin",
         "target": "Marco Sportiello",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Nicolò Cherubin",
-        "target": "Guglielmo Stendardo",
+        "source": "Guglielmo Stendardo",
+        "target": "Marco Sportiello",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Guglielmo Stendardo",
+        "target": "Nicolò Cherubin",
         "weight": 1,
         "direction": "lateral"
       },
@@ -1390,27 +1402,15 @@
       },
       {
         "source": "Marco Sportiello",
-        "target": "Nicolò Cherubin",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marco Sportiello",
         "target": "Guglielmo Stendardo",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Guglielmo Stendardo",
-        "target": "Marco Sportiello",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Guglielmo Stendardo",
+        "source": "Marco Sportiello",
         "target": "Nicolò Cherubin",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
       }
     ]
   },

@@ -1009,6 +1009,17 @@
         "eigenvector": 0.0003
       },
       {
+        "id": "José Ignacio Peleteiro Ramallo",
+        "short": "Peleteiro",
+        "name": "Jota Peleteiro",
+        "x": 75.25,
+        "y": 42.44,
+        "size": 59.4,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0107
+      },
+      {
         "id": "Josip Radošević",
         "short": "Radošević",
         "name": "Josip Radošević",
@@ -1029,17 +1040,6 @@
         "is_playmaker": false,
         "betweenness": 0.1333,
         "eigenvector": 0.0205
-      },
-      {
-        "id": "José Ignacio Peleteiro Ramallo",
-        "short": "Peleteiro",
-        "name": "Jota Peleteiro",
-        "x": 75.25,
-        "y": 42.44,
-        "size": 59.4,
-        "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0107
       }
     ],
     "edges": [
@@ -1195,15 +1195,15 @@
       },
       {
         "source": "Daniel García Carrillo",
-        "target": "Josip Radošević",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Daniel García Carrillo",
         "target": "José Ignacio Peleteiro Ramallo",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Daniel García Carrillo",
+        "target": "Josip Radošević",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Borja González Tomás",
@@ -1214,6 +1214,24 @@
       {
         "source": "Borja González Tomás",
         "target": "José Ignacio Peleteiro Ramallo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Ignacio Peleteiro Ramallo",
+        "target": "Borja González Tomás",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Ignacio Peleteiro Ramallo",
+        "target": "Daniel García Carrillo",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Ignacio Peleteiro Ramallo",
+        "target": "Josip Radošević",
         "weight": 1,
         "direction": "backward"
       },
@@ -1240,24 +1258,6 @@
         "target": "Iván Ramis Barrios",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "José Ignacio Peleteiro Ramallo",
-        "target": "Josip Radošević",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "José Ignacio Peleteiro Ramallo",
-        "target": "Borja González Tomás",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Ignacio Peleteiro Ramallo",
-        "target": "Daniel García Carrillo",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

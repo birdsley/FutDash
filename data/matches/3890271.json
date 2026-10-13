@@ -1313,15 +1313,15 @@
         "eigenvector": 0.4412
       },
       {
-        "id": "Mario Vrančić",
-        "short": "Vrančić",
-        "name": "Mario Vrančić",
-        "x": 52.38,
-        "y": 31.78,
+        "id": "Peter Niemeyer",
+        "short": "Niemeyer",
+        "name": "Peter Niemeyer",
+        "x": 53.47,
+        "y": 42.61,
         "size": 92.5,
-        "is_playmaker": false,
-        "betweenness": 0.2667,
-        "eigenvector": 0.4079
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.4331
       },
       {
         "id": "Luca Caldirola",
@@ -1335,15 +1335,15 @@
         "eigenvector": 0.2038
       },
       {
-        "id": "Aytac Sulu",
-        "short": "Sulu",
-        "name": "Aytac Sulu",
-        "x": 50.64,
-        "y": 60.3,
-        "size": 80.0,
-        "is_playmaker": true,
-        "betweenness": 0.3333,
-        "eigenvector": 0.2899
+        "id": "Mario Vrančić",
+        "short": "Vrančić",
+        "name": "Mario Vrančić",
+        "x": 52.38,
+        "y": 31.78,
+        "size": 92.5,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.4079
       },
       {
         "id": "György Garics",
@@ -1357,15 +1357,15 @@
         "eigenvector": 0.2671
       },
       {
-        "id": "Peter Niemeyer",
-        "short": "Niemeyer",
-        "name": "Peter Niemeyer",
-        "x": 53.47,
-        "y": 42.61,
-        "size": 92.5,
+        "id": "Aytac Sulu",
+        "short": "Sulu",
+        "name": "Aytac Sulu",
+        "x": 50.64,
+        "y": 60.3,
+        "size": 80.0,
         "is_playmaker": true,
-        "betweenness": 0.3556,
-        "eigenvector": 0.4331
+        "betweenness": 0.3333,
+        "eigenvector": 0.2899
       },
       {
         "id": "Jérôme Gondorf",
@@ -1417,22 +1417,22 @@
         "direction": "backward"
       },
       {
-        "source": "Mario Vrančić",
+        "source": "Peter Niemeyer",
+        "target": "Mario Vrančić",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Peter Niemeyer",
         "target": "Jérôme Gondorf",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Mario Vrančić",
-        "target": "Peter Niemeyer",
+        "source": "Peter Niemeyer",
+        "target": "Aytac Sulu",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Mario Vrančić",
-        "target": "Luca Caldirola",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Luca Caldirola",
@@ -1447,16 +1447,22 @@
         "direction": "backward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "György Garics",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Aytac Sulu",
+        "source": "Mario Vrančić",
         "target": "Peter Niemeyer",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Mario Vrančić",
+        "target": "Luca Caldirola",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mario Vrančić",
+        "target": "Jérôme Gondorf",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "György Garics",
@@ -1471,32 +1477,26 @@
         "direction": "forward"
       },
       {
-        "source": "Peter Niemeyer",
-        "target": "Mario Vrančić",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Peter Niemeyer",
-        "target": "Aytac Sulu",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Peter Niemeyer",
-        "target": "Jérôme Gondorf",
+        "source": "Aytac Sulu",
+        "target": "György Garics",
         "weight": 1,
         "direction": "forward"
       },
       {
+        "source": "Aytac Sulu",
+        "target": "Peter Niemeyer",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
         "source": "Jérôme Gondorf",
-        "target": "Mario Vrančić",
+        "target": "Peter Niemeyer",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Jérôme Gondorf",
-        "target": "Peter Niemeyer",
+        "target": "Mario Vrančić",
         "weight": 1,
         "direction": "backward"
       }

@@ -1259,15 +1259,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Gemma Evans",
-        "short": "Evans",
-        "name": "Gemma Evans",
-        "x": 55.61,
-        "y": 7.76,
-        "size": 72.4,
-        "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.0
+        "id": "Georgia Wilson",
+        "short": "Wilson",
+        "name": "Georgia Wilson",
+        "x": 56.82,
+        "y": 52.02,
+        "size": 81.1,
+        "is_playmaker": true,
+        "betweenness": 0.1222,
+        "eigenvector": 0.5271
       },
       {
         "id": "Ebony Salmon",
@@ -1281,15 +1281,15 @@
         "eigenvector": 0.3297
       },
       {
-        "id": "Georgia Wilson",
-        "short": "Wilson",
-        "name": "Georgia Wilson",
-        "x": 56.82,
-        "y": 52.02,
-        "size": 81.1,
-        "is_playmaker": true,
-        "betweenness": 0.1222,
-        "eigenvector": 0.5271
+        "id": "Gemma Evans",
+        "short": "Evans",
+        "name": "Gemma Evans",
+        "x": 55.61,
+        "y": 7.76,
+        "size": 72.4,
+        "is_playmaker": false,
+        "betweenness": 0.0667,
+        "eigenvector": 0.0
       }
     ],
     "edges": [
@@ -1319,15 +1319,15 @@
       },
       {
         "source": "Carla Humphrey",
-        "target": "Ebony Salmon",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Carla Humphrey",
         "target": "Georgia Wilson",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Carla Humphrey",
+        "target": "Ebony Salmon",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Charlie Wellings",
@@ -1360,16 +1360,22 @@
         "direction": "backward"
       },
       {
-        "source": "Gemma Evans",
-        "target": "Yana Daniëls",
+        "source": "Georgia Wilson",
+        "target": "Carla Humphrey",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Gemma Evans",
-        "target": "Frankie Brown",
+        "source": "Georgia Wilson",
+        "target": "Charlie Wellings",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "forward"
+      },
+      {
+        "source": "Georgia Wilson",
+        "target": "Ebony Salmon",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Ebony Salmon",
@@ -1384,22 +1390,16 @@
         "direction": "backward"
       },
       {
-        "source": "Georgia Wilson",
-        "target": "Ebony Salmon",
+        "source": "Gemma Evans",
+        "target": "Yana Daniëls",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Georgia Wilson",
-        "target": "Carla Humphrey",
+        "source": "Gemma Evans",
+        "target": "Frankie Brown",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Georgia Wilson",
-        "target": "Charlie Wellings",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
       }
     ]
   },

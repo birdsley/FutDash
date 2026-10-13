@@ -1169,6 +1169,17 @@
         "eigenvector": 0.0793
       },
       {
+        "id": "Yannick Ferreira Carrasco",
+        "short": "Carrasco",
+        "name": "Yannick Carrasco",
+        "x": 75.21,
+        "y": 32.16,
+        "size": 57.6,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0103
+      },
+      {
         "id": "Jan Oblak",
         "short": "Oblak",
         "name": "Jan Oblak",
@@ -1189,17 +1200,6 @@
         "is_playmaker": true,
         "betweenness": 0.3667,
         "eigenvector": 0.0117
-      },
-      {
-        "id": "Yannick Ferreira Carrasco",
-        "short": "Carrasco",
-        "name": "Yannick Carrasco",
-        "x": 75.21,
-        "y": 32.16,
-        "size": 57.6,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0103
       }
     ],
     "edges": [
@@ -1373,15 +1373,27 @@
       },
       {
         "source": "Antoine Griezmann",
+        "target": "Yannick Ferreira Carrasco",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Antoine Griezmann",
         "target": "Jackson Arley Martínez Valencia",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Antoine Griezmann",
-        "target": "Yannick Ferreira Carrasco",
+        "source": "Yannick Ferreira Carrasco",
+        "target": "Jorge Resurrección Merodio",
         "weight": 1,
-        "direction": "forward"
+        "direction": "lateral"
+      },
+      {
+        "source": "Yannick Ferreira Carrasco",
+        "target": "Antoine Griezmann",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Jan Oblak",
@@ -1406,18 +1418,6 @@
         "target": "Antoine Griezmann",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Yannick Ferreira Carrasco",
-        "target": "Jorge Resurrección Merodio",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Yannick Ferreira Carrasco",
-        "target": "Antoine Griezmann",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

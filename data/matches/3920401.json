@@ -945,17 +945,6 @@
         "eigenvector": 0.0685
       },
       {
-        "id": "Sekou Oumar Sylla",
-        "short": "Sylla",
-        "name": "Sekou Oumar Sylla",
-        "x": 81.88,
-        "y": 18.43,
-        "size": 58.5,
-        "is_playmaker": true,
-        "betweenness": 0.3556,
-        "eigenvector": 0.0075
-      },
-      {
         "id": "Mohamed Bayo",
         "short": "Bayo",
         "name": "Mohamed Bayo",
@@ -965,6 +954,17 @@
         "is_playmaker": false,
         "betweenness": 0.2444,
         "eigenvector": 0.0049
+      },
+      {
+        "id": "Sekou Oumar Sylla",
+        "short": "Sylla",
+        "name": "Sekou Oumar Sylla",
+        "x": 81.88,
+        "y": 18.43,
+        "size": 58.5,
+        "is_playmaker": true,
+        "betweenness": 0.3556,
+        "eigenvector": 0.0075
       }
     ],
     "edges": [
@@ -1126,27 +1126,15 @@
       },
       {
         "source": "Aguibou Camara",
-        "target": "Sekou Oumar Sylla",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Aguibou Camara",
         "target": "Mohamed Bayo",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Sekou Oumar Sylla",
-        "target": "Aguibou Camara",
+        "source": "Aguibou Camara",
+        "target": "Sekou Oumar Sylla",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Sekou Oumar Sylla",
-        "target": "Moriba Kourouma Kourouma",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Mohamed Bayo",
@@ -1157,6 +1145,18 @@
       {
         "source": "Mohamed Bayo",
         "target": "Aguibou Camara",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sekou Oumar Sylla",
+        "target": "Aguibou Camara",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Sekou Oumar Sylla",
+        "target": "Moriba Kourouma Kourouma",
         "weight": 1,
         "direction": "backward"
       }

@@ -975,26 +975,26 @@
         "eigenvector": 0.2621
       },
       {
-        "id": "Luc Castaignos",
-        "short": "Castaignos",
-        "name": "Luc Castaignos",
-        "x": 72.55,
-        "y": 54.45,
-        "size": 63.1,
-        "is_playmaker": true,
-        "betweenness": 0.2889,
-        "eigenvector": 0.043
-      },
-      {
         "id": "Aleksandar Ignjovski",
         "short": "Ignjovski",
         "name": "Aleksandar Ignjovski",
         "x": 72.2,
         "y": 26.73,
         "size": 63.1,
-        "is_playmaker": false,
+        "is_playmaker": true,
         "betweenness": 0.2889,
         "eigenvector": 0.0568
+      },
+      {
+        "id": "Luc Castaignos",
+        "short": "Castaignos",
+        "name": "Luc Castaignos",
+        "x": 72.55,
+        "y": 54.45,
+        "size": 63.1,
+        "is_playmaker": false,
+        "betweenness": 0.2889,
+        "eigenvector": 0.043
       }
     ],
     "edges": [
@@ -1036,13 +1036,13 @@
       },
       {
         "source": "Alexander Meier",
-        "target": "Luc Castaignos",
+        "target": "Aleksandar Ignjovski",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Alexander Meier",
-        "target": "Aleksandar Ignjovski",
+        "target": "Luc Castaignos",
         "weight": 1,
         "direction": "forward"
       },
@@ -1125,18 +1125,6 @@
         "direction": "forward"
       },
       {
-        "source": "Luc Castaignos",
-        "target": "Makoto Hasebe",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Luc Castaignos",
-        "target": "Alexander Meier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Aleksandar Ignjovski",
         "target": "Marc Stendera",
         "weight": 1,
@@ -1144,6 +1132,18 @@
       },
       {
         "source": "Aleksandar Ignjovski",
+        "target": "Alexander Meier",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luc Castaignos",
+        "target": "Makoto Hasebe",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luc Castaignos",
         "target": "Alexander Meier",
         "weight": 1,
         "direction": "backward"

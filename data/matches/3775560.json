@@ -1210,17 +1210,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Amy West",
-        "short": "West",
-        "name": "Amy West",
-        "x": 39.33,
-        "y": 24.77,
-        "size": 75.0,
-        "is_playmaker": true,
-        "betweenness": 0.0667,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Anita Amma Ankyewah Asante",
         "short": "Asante",
         "name": "Anita Asante",
@@ -1229,6 +1218,17 @@
         "size": 75.0,
         "is_playmaker": true,
         "betweenness": 0.0556,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Amy West",
+        "short": "West",
+        "name": "Amy West",
+        "x": 39.33,
+        "y": 24.77,
+        "size": 75.0,
+        "is_playmaker": true,
+        "betweenness": 0.0667,
         "eigenvector": 0.0
       }
     ],
@@ -1300,18 +1300,6 @@
         "direction": "forward"
       },
       {
-        "source": "Amy West",
-        "target": "Anita Amma Ankyewah Asante",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Amy West",
-        "target": "Olivia McLoughlin",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Anita Amma Ankyewah Asante",
         "target": "Amy West",
         "weight": 1,
@@ -1322,6 +1310,18 @@
         "target": "Natalie Haigh",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Amy West",
+        "target": "Anita Amma Ankyewah Asante",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Amy West",
+        "target": "Olivia McLoughlin",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

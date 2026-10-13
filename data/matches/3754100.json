@@ -1325,6 +1325,17 @@
         "eigenvector": 0.1389
       },
       {
+        "id": "Lamine Koné",
+        "short": "Koné",
+        "name": "Lamine Koné",
+        "x": 39.04,
+        "y": 58.25,
+        "size": 68.0,
+        "is_playmaker": false,
+        "betweenness": 0.05,
+        "eigenvector": 0.0
+      },
+      {
         "id": "Younes Kaboul",
         "short": "Kaboul",
         "name": "Younès Kaboul",
@@ -1344,17 +1355,6 @@
         "size": 63.7,
         "is_playmaker": false,
         "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
-        "id": "Lamine Koné",
-        "short": "Koné",
-        "name": "Lamine Koné",
-        "x": 39.04,
-        "y": 58.25,
-        "size": 68.0,
-        "is_playmaker": false,
-        "betweenness": 0.05,
         "eigenvector": 0.0
       }
     ],
@@ -1445,13 +1445,13 @@
       },
       {
         "source": "Jan Kirchhoff",
-        "target": "Younes Kaboul",
+        "target": "Lamine Koné",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Jan Kirchhoff",
-        "target": "Lamine Koné",
+        "target": "Younes Kaboul",
         "weight": 1,
         "direction": "backward"
       },
@@ -1468,16 +1468,34 @@
         "direction": "forward"
       },
       {
-        "source": "Younes Kaboul",
+        "source": "Lamine Koné",
+        "target": "Younes Kaboul",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Lamine Koné",
         "target": "Jan Kirchhoff",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Lamine Koné",
+        "target": "Vito Mannone",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Younes Kaboul",
         "target": "Lamine Koné",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Younes Kaboul",
+        "target": "Jan Kirchhoff",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Younes Kaboul",
@@ -1494,24 +1512,6 @@
       {
         "source": "Vito Mannone",
         "target": "Lamine Koné",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lamine Koné",
-        "target": "Younes Kaboul",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Lamine Koné",
-        "target": "Vito Mannone",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lamine Koné",
-        "target": "Jan Kirchhoff",
         "weight": 1,
         "direction": "forward"
       }

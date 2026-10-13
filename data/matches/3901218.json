@@ -915,17 +915,6 @@
         "eigenvector": 0.1956
       },
       {
-        "id": "Jérôme Prior",
-        "short": "Prior",
-        "name": "Jérôme Prior",
-        "x": 16.46,
-        "y": 39.74,
-        "size": 57.9,
-        "is_playmaker": false,
-        "betweenness": 0.1333,
-        "eigenvector": 0.0209
-      },
-      {
         "id": "Isaac Kiese Thelin",
         "short": "Thelin",
         "name": "Isaac Kiese Thelin",
@@ -935,6 +924,17 @@
         "is_playmaker": false,
         "betweenness": 0.2833,
         "eigenvector": 0.0224
+      },
+      {
+        "id": "Jérôme Prior",
+        "short": "Prior",
+        "name": "Jérôme Prior",
+        "x": 16.46,
+        "y": 39.74,
+        "size": 57.9,
+        "is_playmaker": false,
+        "betweenness": 0.1333,
+        "eigenvector": 0.0209
       }
     ],
     "edges": [
@@ -1107,18 +1107,6 @@
         "direction": "backward"
       },
       {
-        "source": "Jérôme Prior",
-        "target": "Pablo Nascimento Castro",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jérôme Prior",
-        "target": "Frédéric Guilbert",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Isaac Kiese Thelin",
         "target": "Jaroslav Plašil",
         "weight": 1,
@@ -1129,6 +1117,18 @@
         "target": "Cédric Yambéré",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jérôme Prior",
+        "target": "Pablo Nascimento Castro",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jérôme Prior",
+        "target": "Frédéric Guilbert",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1234,17 +1234,6 @@
         "eigenvector": 0.0031
       },
       {
-        "id": "Pierrick Capelle",
-        "short": "Capelle",
-        "name": "Pierrick Capelle",
-        "x": 75.43,
-        "y": 28.33,
-        "size": 62.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0431
-      },
-      {
         "id": "Billy Ketkeophomphone",
         "short": "Ketkeophomp",
         "name": "Billy Ketkeophomphone",
@@ -1254,6 +1243,17 @@
         "is_playmaker": false,
         "betweenness": 0.1944,
         "eigenvector": 0.0433
+      },
+      {
+        "id": "Pierrick Capelle",
+        "short": "Capelle",
+        "name": "Pierrick Capelle",
+        "x": 75.43,
+        "y": 28.33,
+        "size": 62.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0431
       }
     ],
     "edges": [
@@ -1355,15 +1355,15 @@
       },
       {
         "source": "Thomas Mangani",
-        "target": "Pierrick Capelle",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Thomas Mangani",
         "target": "Billy Ketkeophomphone",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Thomas Mangani",
+        "target": "Pierrick Capelle",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Gilles Sunu",
@@ -1384,14 +1384,14 @@
         "direction": "forward"
       },
       {
-        "source": "Pierrick Capelle",
-        "target": "Billy Ketkeophomphone",
+        "source": "Billy Ketkeophomphone",
+        "target": "Thomas Mangani",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
-        "source": "Pierrick Capelle",
-        "target": "Thomas Mangani",
+        "source": "Billy Ketkeophomphone",
+        "target": "Cheikh N''Doye",
         "weight": 1,
         "direction": "backward"
       },
@@ -1402,14 +1402,14 @@
         "direction": "forward"
       },
       {
-        "source": "Billy Ketkeophomphone",
-        "target": "Thomas Mangani",
+        "source": "Pierrick Capelle",
+        "target": "Billy Ketkeophomphone",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Billy Ketkeophomphone",
-        "target": "Cheikh N''Doye",
+        "source": "Pierrick Capelle",
+        "target": "Thomas Mangani",
         "weight": 1,
         "direction": "backward"
       }

@@ -1309,17 +1309,6 @@
         "eigenvector": 0.4413
       },
       {
-        "id": "Floyd Ayité",
-        "short": "Ayité",
-        "name": "Floyd Ayité",
-        "x": 69.57,
-        "y": 46.56,
-        "size": 62.3,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Lassana Coulibaly",
         "short": "Coulibaly",
         "name": "Lassana Coulibaly",
@@ -1328,6 +1317,17 @@
         "size": 66.0,
         "is_playmaker": false,
         "betweenness": 0.1111,
+        "eigenvector": 0.0
+      },
+      {
+        "id": "Floyd Ayité",
+        "short": "Ayité",
+        "name": "Floyd Ayité",
+        "x": 69.57,
+        "y": 46.56,
+        "size": 62.3,
+        "is_playmaker": false,
+        "betweenness": 0.0,
         "eigenvector": 0.0
       }
     ],
@@ -1424,39 +1424,21 @@
       },
       {
         "source": "Gaël Danic",
-        "target": "Floyd Ayité",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gaël Danic",
         "target": "Lassana Coulibaly",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gaël Danic",
+        "target": "Floyd Ayité",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "François Kamano",
         "target": "Seko Fofana",
         "weight": 5,
         "direction": "backward"
-      },
-      {
-        "source": "Floyd Ayité",
-        "target": "Gaël Danic",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Floyd Ayité",
-        "target": "Lassana Coulibaly",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Lassana Coulibaly",
-        "target": "Floyd Ayité",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Lassana Coulibaly",
@@ -1467,6 +1449,24 @@
       {
         "source": "Lassana Coulibaly",
         "target": "Mehdi Mostefa Sbaa",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Lassana Coulibaly",
+        "target": "Floyd Ayité",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Floyd Ayité",
+        "target": "Gaël Danic",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Floyd Ayité",
+        "target": "Lassana Coulibaly",
         "weight": 1,
         "direction": "backward"
       }

@@ -1207,26 +1207,15 @@
         "eigenvector": 0.6866
       },
       {
-        "id": "Bruno N\"Gotty",
-        "short": "N'Gotty",
-        "name": "Bruno N'Gotty",
-        "x": 39.49,
-        "y": 41.91,
-        "size": 70.2,
+        "id": "Kevin Nolan",
+        "short": "Nolan",
+        "name": "Kevin Nolan",
+        "x": 58.22,
+        "y": 54.25,
+        "size": 65.1,
         "is_playmaker": false,
-        "betweenness": 0.2,
-        "eigenvector": 0.0622
-      },
-      {
-        "id": "Henrik Pedersen",
-        "short": "Pedersen",
-        "name": "Henrik Pedersen",
-        "x": 76.84,
-        "y": 33.51,
-        "size": 70.2,
-        "is_playmaker": false,
-        "betweenness": 0.25,
-        "eigenvector": 0.1429
+        "betweenness": 0.0667,
+        "eigenvector": 0.061
       },
       {
         "id": "Jussi Jääskeläinen",
@@ -1240,15 +1229,26 @@
         "eigenvector": 0.0093
       },
       {
-        "id": "Kevin Nolan",
-        "short": "Nolan",
-        "name": "Kevin Nolan",
-        "x": 58.22,
-        "y": 54.25,
-        "size": 65.1,
+        "id": "Henrik Pedersen",
+        "short": "Pedersen",
+        "name": "Henrik Pedersen",
+        "x": 76.84,
+        "y": 33.51,
+        "size": 70.2,
         "is_playmaker": false,
-        "betweenness": 0.0667,
-        "eigenvector": 0.061
+        "betweenness": 0.25,
+        "eigenvector": 0.1429
+      },
+      {
+        "id": "Bruno N\"Gotty",
+        "short": "N'Gotty",
+        "name": "Bruno N'Gotty",
+        "x": 39.49,
+        "y": 41.91,
+        "size": 70.2,
+        "is_playmaker": false,
+        "betweenness": 0.2,
+        "eigenvector": 0.0622
       },
       {
         "id": "Simon Charlton",
@@ -1271,9 +1271,9 @@
       },
       {
         "source": "Émerson Augusto Thome",
-        "target": "Bruno N\"Gotty",
+        "target": "Kevin Nolan",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       },
       {
         "source": "Émerson Augusto Thome",
@@ -1283,9 +1283,9 @@
       },
       {
         "source": "Émerson Augusto Thome",
-        "target": "Kevin Nolan",
+        "target": "Bruno N\"Gotty",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Iván Campo Ramos",
@@ -1295,15 +1295,15 @@
       },
       {
         "source": "Iván Campo Ramos",
-        "target": "Bruno N\"Gotty",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Iván Campo Ramos",
         "target": "Kevin Nolan",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Iván Campo Ramos",
+        "target": "Bruno N\"Gotty",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Augustine Azuka \"Jay-Jay\" Okocha",
@@ -1360,22 +1360,28 @@
         "direction": "backward"
       },
       {
-        "source": "Bruno N\"Gotty",
+        "source": "Kevin Nolan",
+        "target": "Iván Campo Ramos",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Kevin Nolan",
+        "target": "Émerson Augusto Thome",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Jussi Jääskeläinen",
+        "target": "Bruno N\"Gotty",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Jussi Jääskeläinen",
         "target": "Émerson Augusto Thome",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Bruno N\"Gotty",
-        "target": "Iván Campo Ramos",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Bruno N\"Gotty",
-        "target": "Jussi Jääskeläinen",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Henrik Pedersen",
@@ -1396,28 +1402,22 @@
         "direction": "backward"
       },
       {
-        "source": "Jussi Jääskeläinen",
-        "target": "Bruno N\"Gotty",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jussi Jääskeläinen",
-        "target": "Émerson Augusto Thome",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kevin Nolan",
-        "target": "Iván Campo Ramos",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Kevin Nolan",
-        "target": "Émerson Augusto Thome",
+        "source": "Bruno N\"Gotty",
+        "target": "Jussi Jääskeläinen",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Bruno N\"Gotty",
+        "target": "Émerson Augusto Thome",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Bruno N\"Gotty",
+        "target": "Iván Campo Ramos",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Simon Charlton",

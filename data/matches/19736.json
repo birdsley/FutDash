@@ -1240,17 +1240,6 @@
         "eigenvector": 0.0089
       },
       {
-        "id": "Kim Little",
-        "short": "Little",
-        "name": "Kim Little",
-        "x": 52.89,
-        "y": 42.37,
-        "size": 65.1,
-        "is_playmaker": false,
-        "betweenness": 0.2667,
-        "eigenvector": 0.066
-      },
-      {
         "id": "Leah Williamson",
         "short": "Williamson",
         "name": "Leah Williamson",
@@ -1259,6 +1248,17 @@
         "size": 65.1,
         "is_playmaker": true,
         "betweenness": 0.2889,
+        "eigenvector": 0.066
+      },
+      {
+        "id": "Kim Little",
+        "short": "Little",
+        "name": "Kim Little",
+        "x": 52.89,
+        "y": 42.37,
+        "size": 65.1,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
         "eigenvector": 0.066
       }
     ],
@@ -1337,15 +1337,15 @@
       },
       {
         "source": "Lia Wälti",
-        "target": "Kim Little",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lia Wälti",
         "target": "Leah Williamson",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Lia Wälti",
+        "target": "Kim Little",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Dominique Johanna Anna Petrone Janssen",
@@ -1360,18 +1360,6 @@
         "direction": "backward"
       },
       {
-        "source": "Kim Little",
-        "target": "Jordan Nobbs",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Kim Little",
-        "target": "Lia Wälti",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Leah Williamson",
         "target": "Lia Wälti",
         "weight": 1,
@@ -1382,6 +1370,18 @@
         "target": "Dominique Johanna Anna Petrone Janssen",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Kim Little",
+        "target": "Jordan Nobbs",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kim Little",
+        "target": "Lia Wälti",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

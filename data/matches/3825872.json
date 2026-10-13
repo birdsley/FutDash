@@ -1270,17 +1270,6 @@
         "eigenvector": 0.1412
       },
       {
-        "id": "Fabián Ruiz Peña",
-        "short": "Ruiz",
-        "name": "Fabián Ruiz",
-        "x": 64.56,
-        "y": 37.85,
-        "size": 62.3,
-        "is_playmaker": true,
-        "betweenness": 0.3278,
-        "eigenvector": 0.0341
-      },
-      {
         "id": "Charly Musonda Junior",
         "short": "Musonda",
         "name": "Charly Musonda",
@@ -1290,6 +1279,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0089
+      },
+      {
+        "id": "Fabián Ruiz Peña",
+        "short": "Ruiz",
+        "name": "Fabián Ruiz",
+        "x": 64.56,
+        "y": 37.85,
+        "size": 62.3,
+        "is_playmaker": true,
+        "betweenness": 0.3278,
+        "eigenvector": 0.0341
       }
     ],
     "edges": [
@@ -1421,15 +1421,33 @@
       },
       {
         "source": "Rubén Castro Martín",
-        "target": "Fabián Ruiz Peña",
+        "target": "Charly Musonda Junior",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Rubén Castro Martín",
-        "target": "Charly Musonda Junior",
+        "target": "Fabián Ruiz Peña",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Charly Musonda Junior",
+        "target": "Rubén Castro Martín",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Charly Musonda Junior",
+        "target": "Fabián Ruiz Peña",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Fabián Ruiz Peña",
+        "target": "Charly Musonda Junior",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Fabián Ruiz Peña",
@@ -1442,24 +1460,6 @@
         "target": "Rubén Castro Martín",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Fabián Ruiz Peña",
-        "target": "Charly Musonda Junior",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Charly Musonda Junior",
-        "target": "Rubén Castro Martín",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Charly Musonda Junior",
-        "target": "Fabián Ruiz Peña",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

@@ -1319,17 +1319,6 @@
         "eigenvector": 0.0967
       },
       {
-        "id": "Max Kruse",
-        "short": "Kruse",
-        "name": "Max Kruse",
-        "x": 75.98,
-        "y": 33.02,
-        "size": 57.1,
-        "is_playmaker": true,
-        "betweenness": 0.3778,
-        "eigenvector": 0.0104
-      },
-      {
         "id": "André Schürrle",
         "short": "Schürrle",
         "name": "André Schürrle",
@@ -1339,6 +1328,17 @@
         "is_playmaker": false,
         "betweenness": 0.3333,
         "eigenvector": 0.0052
+      },
+      {
+        "id": "Max Kruse",
+        "short": "Kruse",
+        "name": "Max Kruse",
+        "x": 75.98,
+        "y": 33.02,
+        "size": 57.1,
+        "is_playmaker": true,
+        "betweenness": 0.3778,
+        "eigenvector": 0.0104
       },
       {
         "id": "Koen Casteels",
@@ -1523,27 +1523,15 @@
       },
       {
         "source": "Julian Draxler",
-        "target": "Max Kruse",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Julian Draxler",
         "target": "André Schürrle",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Max Kruse",
-        "target": "Julian Draxler",
+        "source": "Julian Draxler",
+        "target": "Max Kruse",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Max Kruse",
-        "target": "Maximilian Arnold",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "André Schürrle",
@@ -1554,6 +1542,18 @@
       {
         "source": "André Schürrle",
         "target": "Josuha Guilavogui",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Max Kruse",
+        "target": "Julian Draxler",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Max Kruse",
+        "target": "Maximilian Arnold",
         "weight": 1,
         "direction": "backward"
       },

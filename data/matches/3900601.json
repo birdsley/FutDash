@@ -1255,17 +1255,6 @@
         "eigenvector": 0.0169
       },
       {
-        "id": "Laurent Pionnier",
-        "short": "Pionnier",
-        "name": "Laurent Pionnier",
-        "x": 8.39,
-        "y": 44.01,
-        "size": 62.0,
-        "is_playmaker": false,
-        "betweenness": 0.1,
-        "eigenvector": 0.0033
-      },
-      {
         "id": "Daniel Congré",
         "short": "Congré",
         "name": "Daniel Congré",
@@ -1275,6 +1264,17 @@
         "is_playmaker": true,
         "betweenness": 0.3519,
         "eigenvector": 0.0318
+      },
+      {
+        "id": "Laurent Pionnier",
+        "short": "Pionnier",
+        "name": "Laurent Pionnier",
+        "x": 8.39,
+        "y": 44.01,
+        "size": 62.0,
+        "is_playmaker": false,
+        "betweenness": 0.1,
+        "eigenvector": 0.0033
       }
     ],
     "edges": [
@@ -1435,14 +1435,14 @@
         "direction": "backward"
       },
       {
-        "source": "Laurent Pionnier",
-        "target": "Daniel Congré",
+        "source": "Daniel Congré",
+        "target": "William Jean Rémy",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Laurent Pionnier",
-        "target": "Vitorino Hilton da Silva",
+        "source": "Daniel Congré",
+        "target": "Jonas Martin",
         "weight": 1,
         "direction": "forward"
       },
@@ -1453,14 +1453,14 @@
         "direction": "backward"
       },
       {
-        "source": "Daniel Congré",
-        "target": "William Jean Rémy",
+        "source": "Laurent Pionnier",
+        "target": "Daniel Congré",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Daniel Congré",
-        "target": "Jonas Martin",
+        "source": "Laurent Pionnier",
+        "target": "Vitorino Hilton da Silva",
         "weight": 1,
         "direction": "forward"
       }

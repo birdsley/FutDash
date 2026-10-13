@@ -945,17 +945,6 @@
         "eigenvector": 0.1451
       },
       {
-        "id": "Mathieu Bodmer",
-        "short": "Bodmer",
-        "name": "Mathieu Bodmer",
-        "x": 26.52,
-        "y": 54.45,
-        "size": 60.7,
-        "is_playmaker": false,
-        "betweenness": 0.2667,
-        "eigenvector": 0.0179
-      },
-      {
         "id": "Simon Pouplin",
         "short": "Pouplin",
         "name": "Simon Pouplin",
@@ -965,6 +954,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0228
+      },
+      {
+        "id": "Mathieu Bodmer",
+        "short": "Bodmer",
+        "name": "Mathieu Bodmer",
+        "x": 26.52,
+        "y": 54.45,
+        "size": 60.7,
+        "is_playmaker": false,
+        "betweenness": 0.2667,
+        "eigenvector": 0.0179
       }
     ],
     "edges": [
@@ -1113,18 +1113,6 @@
         "direction": "forward"
       },
       {
-        "source": "Mathieu Bodmer",
-        "target": "Simon Pouplin",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Mathieu Bodmer",
-        "target": "Nampalys Mendy",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Simon Pouplin",
         "target": "Mathieu Bodmer",
         "weight": 1,
@@ -1133,6 +1121,18 @@
       {
         "source": "Simon Pouplin",
         "target": "Maxime Le Marchand",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mathieu Bodmer",
+        "target": "Simon Pouplin",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Mathieu Bodmer",
+        "target": "Nampalys Mendy",
         "weight": 1,
         "direction": "forward"
       }
@@ -1240,17 +1240,6 @@
         "eigenvector": 0.0534
       },
       {
-        "id": "Danijel Subašić",
-        "short": "Subašić",
-        "name": "Danijel Subašić",
-        "x": 15.33,
-        "y": 41.88,
-        "size": 59.3,
-        "is_playmaker": false,
-        "betweenness": 0.1667,
-        "eigenvector": 0.0175
-      },
-      {
         "id": "Nabil Dirar",
         "short": "Dirar",
         "name": "Nabil Dirar",
@@ -1260,6 +1249,17 @@
         "is_playmaker": false,
         "betweenness": 0.1944,
         "eigenvector": 0.033
+      },
+      {
+        "id": "Danijel Subašić",
+        "short": "Subašić",
+        "name": "Danijel Subašić",
+        "x": 15.33,
+        "y": 41.88,
+        "size": 59.3,
+        "is_playmaker": false,
+        "betweenness": 0.1667,
+        "eigenvector": 0.0175
       }
     ],
     "edges": [
@@ -1432,18 +1432,6 @@
         "direction": "forward"
       },
       {
-        "source": "Danijel Subašić",
-        "target": "Andrea Raggi",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Danijel Subašić",
-        "target": "Ricardo Alberto Silveira de Carvalho",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Nabil Dirar",
         "target": "Fábio Henrique Tavares",
         "weight": 1,
@@ -1454,6 +1442,18 @@
         "target": "João Filipe Iria Santos Moutinho",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Danijel Subašić",
+        "target": "Andrea Raggi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Danijel Subašić",
+        "target": "Ricardo Alberto Silveira de Carvalho",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

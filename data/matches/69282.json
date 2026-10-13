@@ -975,17 +975,6 @@
         "eigenvector": 0.0121
       },
       {
-        "id": "José Manuel Pinto Colorado",
-        "short": "Manuel Pint",
-        "name": "José Manuel Pinto",
-        "x": 10.92,
-        "y": 42.41,
-        "size": 57.0,
-        "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.001
-      },
-      {
         "id": "David Villa Sánchez",
         "short": "Villa",
         "name": "David Villa",
@@ -995,6 +984,17 @@
         "is_playmaker": false,
         "betweenness": 0.3333,
         "eigenvector": 0.018
+      },
+      {
+        "id": "José Manuel Pinto Colorado",
+        "short": "Manuel Pint",
+        "name": "José Manuel Pinto",
+        "x": 10.92,
+        "y": 42.41,
+        "size": 57.0,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.001
       }
     ],
     "edges": [
@@ -1191,18 +1191,6 @@
         "direction": "backward"
       },
       {
-        "source": "José Manuel Pinto Colorado",
-        "target": "Eric-Sylvain Bilal Abidal",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Manuel Pinto Colorado",
-        "target": "Gerard Piqué Bernabéu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "David Villa Sánchez",
         "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
@@ -1213,6 +1201,18 @@
         "target": "Xavier Hernández Creus",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José Manuel Pinto Colorado",
+        "target": "Eric-Sylvain Bilal Abidal",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Manuel Pinto Colorado",
+        "target": "Gerard Piqué Bernabéu",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1307,15 +1307,15 @@
         "eigenvector": 0.2308
       },
       {
-        "id": "Carlos Gurpegi Nausia",
-        "short": "Gurpegi",
-        "name": "Carlos Gurpegi",
-        "x": 54.51,
-        "y": 49.46,
-        "size": 76.6,
+        "id": "Borja Ekiza Imaz",
+        "short": "Ekiza",
+        "name": "Borja Ekiza",
+        "x": 35.43,
+        "y": 43.51,
+        "size": 71.2,
         "is_playmaker": false,
-        "betweenness": 0.2278,
-        "eigenvector": 0.1045
+        "betweenness": 0.0722,
+        "eigenvector": 0.0741
       },
       {
         "id": "Andoni Iraola Sagarna",
@@ -1329,15 +1329,15 @@
         "eigenvector": 0.0204
       },
       {
-        "id": "Borja Ekiza Imaz",
-        "short": "Ekiza",
-        "name": "Borja Ekiza",
-        "x": 35.43,
-        "y": 43.51,
-        "size": 71.2,
+        "id": "Carlos Gurpegi Nausia",
+        "short": "Gurpegi",
+        "name": "Carlos Gurpegi",
+        "x": 54.51,
+        "y": 49.46,
+        "size": 76.6,
         "is_playmaker": false,
-        "betweenness": 0.0722,
-        "eigenvector": 0.0741
+        "betweenness": 0.2278,
+        "eigenvector": 0.1045
       }
     ],
     "edges": [
@@ -1397,15 +1397,15 @@
       },
       {
         "source": "Javier Martínez Aginaga",
-        "target": "Carlos Gurpegi Nausia",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Javier Martínez Aginaga",
         "target": "Borja Ekiza Imaz",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Javier Martínez Aginaga",
+        "target": "Carlos Gurpegi Nausia",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Markel Susaeta Laskurain",
@@ -1432,6 +1432,48 @@
         "direction": "backward"
       },
       {
+        "source": "Borja Ekiza Imaz",
+        "target": "Javier Martínez Aginaga",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Borja Ekiza Imaz",
+        "target": "Carlos Gurpegi Nausia",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Borja Ekiza Imaz",
+        "target": "Andoni Iraola Sagarna",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Andoni Iraola Sagarna",
+        "target": "Borja Ekiza Imaz",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Andoni Iraola Sagarna",
+        "target": "Carlos Gurpegi Nausia",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Carlos Gurpegi Nausia",
+        "target": "Borja Ekiza Imaz",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Carlos Gurpegi Nausia",
+        "target": "Andoni Iraola Sagarna",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Carlos Gurpegi Nausia",
         "target": "Markel Susaeta Laskurain",
         "weight": 1,
@@ -1442,48 +1484,6 @@
         "target": "Javier Martínez Aginaga",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Carlos Gurpegi Nausia",
-        "target": "Andoni Iraola Sagarna",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Carlos Gurpegi Nausia",
-        "target": "Borja Ekiza Imaz",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Andoni Iraola Sagarna",
-        "target": "Borja Ekiza Imaz",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Andoni Iraola Sagarna",
-        "target": "Carlos Gurpegi Nausia",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Borja Ekiza Imaz",
-        "target": "Andoni Iraola Sagarna",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Borja Ekiza Imaz",
-        "target": "Javier Martínez Aginaga",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Borja Ekiza Imaz",
-        "target": "Carlos Gurpegi Nausia",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

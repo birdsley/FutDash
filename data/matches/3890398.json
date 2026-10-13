@@ -863,22 +863,11 @@
         "eigenvector": 0.5573
       },
       {
-        "id": "Aytac Sulu",
-        "short": "Sulu",
-        "name": "Aytac Sulu",
-        "x": 42.59,
-        "y": 38.4,
-        "size": 76.6,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.4352
-      },
-      {
-        "id": "Marcel Heller",
-        "short": "Heller",
-        "name": "Marcel Heller",
-        "x": 81.15,
-        "y": 51.69,
+        "id": "Jan Rosenthal",
+        "short": "Rosenthal",
+        "name": "Jan Rosenthal",
+        "x": 71.6,
+        "y": 53.7,
         "size": 76.6,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -896,15 +885,26 @@
         "eigenvector": 0.4352
       },
       {
-        "id": "Jan Rosenthal",
-        "short": "Rosenthal",
-        "name": "Jan Rosenthal",
-        "x": 71.6,
-        "y": 53.7,
+        "id": "Marcel Heller",
+        "short": "Heller",
+        "name": "Marcel Heller",
+        "x": 81.15,
+        "y": 51.69,
         "size": 76.6,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0
+      },
+      {
+        "id": "Aytac Sulu",
+        "short": "Sulu",
+        "name": "Aytac Sulu",
+        "x": 42.59,
+        "y": 38.4,
+        "size": 76.6,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.4352
       }
     ],
     "edges": [
@@ -922,15 +922,15 @@
       },
       {
         "source": "Sandro Wagner",
-        "target": "Aytac Sulu",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Sandro Wagner",
         "target": "Florian Jungwirth",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Sandro Wagner",
+        "target": "Aytac Sulu",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "György Garics",
@@ -952,13 +952,13 @@
       },
       {
         "source": "Jérôme Gondorf",
-        "target": "Marcel Heller",
+        "target": "Jan Rosenthal",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Jérôme Gondorf",
-        "target": "Jan Rosenthal",
+        "target": "Marcel Heller",
         "weight": 1,
         "direction": "forward"
       },
@@ -981,28 +981,16 @@
         "direction": "forward"
       },
       {
-        "source": "Aytac Sulu",
-        "target": "Luca Caldirola",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Aytac Sulu",
-        "target": "Sandro Wagner",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Marcel Heller",
-        "target": "Jan Rosenthal",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Marcel Heller",
+        "source": "Jan Rosenthal",
         "target": "Jérôme Gondorf",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Jan Rosenthal",
+        "target": "Marcel Heller",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Florian Jungwirth",
@@ -1017,16 +1005,28 @@
         "direction": "backward"
       },
       {
-        "source": "Jan Rosenthal",
-        "target": "Marcel Heller",
+        "source": "Marcel Heller",
+        "target": "Jan Rosenthal",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Marcel Heller",
+        "target": "Jérôme Gondorf",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Aytac Sulu",
+        "target": "Luca Caldirola",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Jan Rosenthal",
-        "target": "Jérôme Gondorf",
+        "source": "Aytac Sulu",
+        "target": "Sandro Wagner",
         "weight": 1,
-        "direction": "backward"
+        "direction": "forward"
       }
     ]
   },

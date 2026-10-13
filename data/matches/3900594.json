@@ -863,17 +863,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Adryan Oliveira Tavares",
-        "short": "Adryan",
-        "name": "Adryan",
-        "x": 78.78,
-        "y": 12.78,
-        "size": 66.9,
-        "is_playmaker": false,
-        "betweenness": 0.3111,
-        "eigenvector": 0.0003
-      },
-      {
         "id": "Oswaldo Augusto Vizcarrondo Araújo",
         "short": "Vizcarrondo",
         "name": "Oswaldo Vizcarrondo",
@@ -883,6 +872,17 @@
         "is_playmaker": true,
         "betweenness": 0.3778,
         "eigenvector": 0.026
+      },
+      {
+        "id": "Adryan Oliveira Tavares",
+        "short": "Adryan",
+        "name": "Adryan",
+        "x": 78.78,
+        "y": 12.78,
+        "size": 66.9,
+        "is_playmaker": false,
+        "betweenness": 0.3111,
+        "eigenvector": 0.0003
       }
     ],
     "edges": [
@@ -930,15 +930,15 @@
       },
       {
         "source": "Ermir Lenjani",
-        "target": "Adryan Oliveira Tavares",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Ermir Lenjani",
         "target": "Oswaldo Augusto Vizcarrondo Araújo",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Ermir Lenjani",
+        "target": "Adryan Oliveira Tavares",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Lévy Koffi Djidji",
@@ -977,18 +977,6 @@
         "direction": "forward"
       },
       {
-        "source": "Adryan Oliveira Tavares",
-        "target": "Ermir Lenjani",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Adryan Oliveira Tavares",
-        "target": "Alejandro Bedoya",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Oswaldo Augusto Vizcarrondo Araújo",
         "target": "Ermir Lenjani",
         "weight": 1,
@@ -999,6 +987,18 @@
         "target": "Birama Touré",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Adryan Oliveira Tavares",
+        "target": "Ermir Lenjani",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Adryan Oliveira Tavares",
+        "target": "Alejandro Bedoya",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

@@ -934,17 +934,6 @@
         "eigenvector": 0.2929
       },
       {
-        "id": "Theo Walcott",
-        "short": "Walcott",
-        "name": "Theo Walcott",
-        "x": 66.53,
-        "y": 32.37,
-        "size": 58.1,
-        "is_playmaker": false,
-        "betweenness": 0.2778,
-        "eigenvector": 0.0156
-      },
-      {
         "id": "Olivier Giroud",
         "short": "Giroud",
         "name": "Olivier Giroud",
@@ -954,6 +943,17 @@
         "is_playmaker": true,
         "betweenness": 0.4111,
         "eigenvector": 0.0142
+      },
+      {
+        "id": "Theo Walcott",
+        "short": "Walcott",
+        "name": "Theo Walcott",
+        "x": 66.53,
+        "y": 32.37,
+        "size": 58.1,
+        "is_playmaker": false,
+        "betweenness": 0.2778,
+        "eigenvector": 0.0156
       },
       {
         "id": "Petr Čech",
@@ -1143,24 +1143,6 @@
         "direction": "forward"
       },
       {
-        "source": "Theo Walcott",
-        "target": "Aaron Ramsey",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Theo Walcott",
-        "target": "Olivier Giroud",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Olivier Giroud",
-        "target": "Theo Walcott",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Olivier Giroud",
         "target": "Alex Oxlade-Chamberlain",
         "weight": 1,
@@ -1171,6 +1153,24 @@
         "target": "Calum Chambers",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Olivier Giroud",
+        "target": "Theo Walcott",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Theo Walcott",
+        "target": "Aaron Ramsey",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Theo Walcott",
+        "target": "Olivier Giroud",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Petr Čech",
@@ -1288,17 +1288,6 @@
         "eigenvector": 0.0619
       },
       {
-        "id": "Dan Gosling",
-        "short": "Gosling",
-        "name": "Dan Gosling",
-        "x": 59.57,
-        "y": 55.13,
-        "size": 58.0,
-        "is_playmaker": true,
-        "betweenness": 0.25,
-        "eigenvector": 0.0175
-      },
-      {
         "id": "Joshua King",
         "short": "King",
         "name": "Joshua King",
@@ -1308,6 +1297,17 @@
         "is_playmaker": false,
         "betweenness": 0.2278,
         "eigenvector": 0.0207
+      },
+      {
+        "id": "Dan Gosling",
+        "short": "Gosling",
+        "name": "Dan Gosling",
+        "x": 59.57,
+        "y": 55.13,
+        "size": 58.0,
+        "is_playmaker": true,
+        "betweenness": 0.25,
+        "eigenvector": 0.0175
       }
     ],
     "edges": [
@@ -1463,33 +1463,21 @@
       },
       {
         "source": "Andrew Surman",
-        "target": "Dan Gosling",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Andrew Surman",
         "target": "Joshua King",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Andrew Surman",
+        "target": "Dan Gosling",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Artur Boruc",
         "target": "Steve Cook",
         "weight": 6,
         "direction": "forward"
-      },
-      {
-        "source": "Dan Gosling",
-        "target": "Andrew Surman",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Dan Gosling",
-        "target": "Simon Francis",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Joshua King",
@@ -1500,6 +1488,18 @@
       {
         "source": "Joshua King",
         "target": "Harry Arter",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Dan Gosling",
+        "target": "Andrew Surman",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Dan Gosling",
+        "target": "Simon Francis",
         "weight": 1,
         "direction": "backward"
       }

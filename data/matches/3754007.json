@@ -1319,15 +1319,15 @@
         "eigenvector": 0.0422
       },
       {
-        "id": "Claudio Ariel Yacob",
-        "short": "Yacob",
-        "name": "Claudio Yacob",
-        "x": 50.14,
-        "y": 41.73,
+        "id": "José Salomón Rondón Giménez",
+        "short": "Rondón",
+        "name": "Salomón Rondón",
+        "x": 80.7,
+        "y": 29.49,
         "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.1611,
-        "eigenvector": 0.025
+        "betweenness": 0.0,
+        "eigenvector": 0.0073
       },
       {
         "id": "Craig Gardner",
@@ -1341,15 +1341,15 @@
         "eigenvector": 0.0073
       },
       {
-        "id": "José Salomón Rondón Giménez",
-        "short": "Rondón",
-        "name": "Salomón Rondón",
-        "x": 80.7,
-        "y": 29.49,
+        "id": "Claudio Ariel Yacob",
+        "short": "Yacob",
+        "name": "Claudio Yacob",
+        "x": 50.14,
+        "y": 41.73,
         "size": 58.8,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0073
+        "betweenness": 0.1611,
+        "eigenvector": 0.025
       }
     ],
     "edges": [
@@ -1511,15 +1511,39 @@
       },
       {
         "source": "James McClean",
-        "target": "Craig Gardner",
+        "target": "José Salomón Rondón Giménez",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "James McClean",
-        "target": "José Salomón Rondón Giménez",
+        "target": "Craig Gardner",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "José Salomón Rondón Giménez",
+        "target": "James McClean",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "José Salomón Rondón Giménez",
+        "target": "Craig Gardner",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Craig Gardner",
+        "target": "José Salomón Rondón Giménez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Craig Gardner",
+        "target": "James McClean",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Claudio Ariel Yacob",
@@ -1532,30 +1556,6 @@
         "target": "Jonas Olsson",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Craig Gardner",
-        "target": "José Salomón Rondón Giménez",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Craig Gardner",
-        "target": "James McClean",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "José Salomón Rondón Giménez",
-        "target": "Craig Gardner",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Salomón Rondón Giménez",
-        "target": "James McClean",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },

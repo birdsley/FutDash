@@ -1199,15 +1199,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Matteo Mancosu",
-        "short": "Mancosu",
-        "name": "Matteo Mancosu",
-        "x": 74.02,
-        "y": 27.97,
+        "id": "Emanuele Suagher",
+        "short": "Suagher",
+        "name": "Emanuele Suagher",
+        "x": 45.22,
+        "y": 42.97,
         "size": 67.3,
         "is_playmaker": false,
-        "betweenness": 0.2778,
-        "eigenvector": 0.1004
+        "betweenness": 0.2444,
+        "eigenvector": 0.0132
       },
       {
         "id": "Isaac Cofie",
@@ -1221,15 +1221,15 @@
         "eigenvector": 0.1074
       },
       {
-        "id": "Emanuele Suagher",
-        "short": "Suagher",
-        "name": "Emanuele Suagher",
-        "x": 45.22,
-        "y": 42.97,
+        "id": "Matteo Mancosu",
+        "short": "Mancosu",
+        "name": "Matteo Mancosu",
+        "x": 74.02,
+        "y": 27.97,
         "size": 67.3,
         "is_playmaker": false,
-        "betweenness": 0.2444,
-        "eigenvector": 0.0132
+        "betweenness": 0.2778,
+        "eigenvector": 0.1004
       }
     ],
     "edges": [
@@ -1295,15 +1295,15 @@
       },
       {
         "source": "Lorenzo Lollo",
-        "target": "Matteo Mancosu",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Lorenzo Lollo",
         "target": "Isaac Cofie",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Lorenzo Lollo",
+        "target": "Matteo Mancosu",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Fabrizio Poli",
@@ -1324,14 +1324,20 @@
         "direction": "forward"
       },
       {
-        "source": "Matteo Mancosu",
-        "target": "Jerry Uche Mbakogu",
+        "source": "Emanuele Suagher",
+        "target": "Fabrizio Poli",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Matteo Mancosu",
-        "target": "Lorenzo Lollo",
+        "source": "Emanuele Suagher",
+        "target": "Isaac Cofie",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Isaac Cofie",
+        "target": "Emanuele Suagher",
         "weight": 1,
         "direction": "backward"
       },
@@ -1348,22 +1354,16 @@
         "direction": "backward"
       },
       {
-        "source": "Isaac Cofie",
-        "target": "Emanuele Suagher",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Emanuele Suagher",
-        "target": "Fabrizio Poli",
+        "source": "Matteo Mancosu",
+        "target": "Jerry Uche Mbakogu",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Emanuele Suagher",
-        "target": "Isaac Cofie",
+        "source": "Matteo Mancosu",
+        "target": "Lorenzo Lollo",
         "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       }
     ]
   },

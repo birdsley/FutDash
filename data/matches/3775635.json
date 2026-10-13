@@ -960,17 +960,6 @@
         "eigenvector": 0.0551
       },
       {
-        "id": "Grace Fisk",
-        "short": "Fisk",
-        "name": "Grace Fisk",
-        "x": 35.55,
-        "y": 47.3,
-        "size": 64.5,
-        "is_playmaker": true,
-        "betweenness": 0.3,
-        "eigenvector": 0.0055
-      },
-      {
         "id": "Courtney Brosnan",
         "short": "Brosnan",
         "name": "Courtney Brosnan",
@@ -980,6 +969,17 @@
         "is_playmaker": false,
         "betweenness": 0.2111,
         "eigenvector": 0.0045
+      },
+      {
+        "id": "Grace Fisk",
+        "short": "Fisk",
+        "name": "Grace Fisk",
+        "x": 35.55,
+        "y": 47.3,
+        "size": 64.5,
+        "is_playmaker": true,
+        "betweenness": 0.3,
+        "eigenvector": 0.0055
       }
     ],
     "edges": [
@@ -1110,18 +1110,6 @@
         "direction": "backward"
       },
       {
-        "source": "Grace Fisk",
-        "target": "Courtney Brosnan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Grace Fisk",
-        "target": "Cecilie Redisch Kvamme",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Courtney Brosnan",
         "target": "Grace Fisk",
         "weight": 1,
@@ -1130,6 +1118,18 @@
       {
         "source": "Courtney Brosnan",
         "target": "Hawa Cissoko",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Grace Fisk",
+        "target": "Courtney Brosnan",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Grace Fisk",
+        "target": "Cecilie Redisch Kvamme",
         "weight": 1,
         "direction": "forward"
       }

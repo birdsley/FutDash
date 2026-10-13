@@ -1080,17 +1080,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Heidi Kollanen",
-        "short": "Kollanen",
-        "name": "Heidi Kollanen",
-        "x": 53.67,
-        "y": 21.97,
-        "size": 70.8,
-        "is_playmaker": true,
-        "betweenness": 0.4,
-        "eigenvector": 0.0543
-      },
-      {
         "id": "Juliette Kemppi",
         "short": "Kemppi",
         "name": "Juliette Kemppi",
@@ -1100,6 +1089,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0046
+      },
+      {
+        "id": "Heidi Kollanen",
+        "short": "Kollanen",
+        "name": "Heidi Kollanen",
+        "x": 53.67,
+        "y": 21.97,
+        "size": 70.8,
+        "is_playmaker": true,
+        "betweenness": 0.4,
+        "eigenvector": 0.0543
       }
     ],
     "edges": [
@@ -1206,14 +1206,14 @@
         "direction": "backward"
       },
       {
-        "source": "Heidi Kollanen",
-        "target": "Emma Wilhelmina Koivisto",
+        "source": "Juliette Kemppi",
+        "target": "Linda Sällström",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "Heidi Kollanen",
-        "target": "Natalia Kuikka",
+        "source": "Juliette Kemppi",
+        "target": "Heidi Kollanen",
         "weight": 1,
         "direction": "backward"
       },
@@ -1224,14 +1224,14 @@
         "direction": "forward"
       },
       {
-        "source": "Juliette Kemppi",
-        "target": "Linda Sällström",
+        "source": "Heidi Kollanen",
+        "target": "Emma Wilhelmina Koivisto",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
-        "source": "Juliette Kemppi",
-        "target": "Heidi Kollanen",
+        "source": "Heidi Kollanen",
+        "target": "Natalia Kuikka",
         "weight": 1,
         "direction": "backward"
       }

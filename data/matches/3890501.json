@@ -900,17 +900,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Daniel Baier",
-        "short": "Baier",
-        "name": "Daniel Baier",
-        "x": 64.16,
-        "y": 20.2,
-        "size": 62.9,
-        "is_playmaker": false,
-        "betweenness": 0.2111,
-        "eigenvector": 0.0
-      },
-      {
         "id": "Jeong-Ho Hong",
         "short": "Jeong-Ho",
         "name": "Hong Jeong-Ho",
@@ -920,6 +909,17 @@
         "is_playmaker": false,
         "betweenness": 0.1111,
         "eigenvector": 0.0701
+      },
+      {
+        "id": "Daniel Baier",
+        "short": "Baier",
+        "name": "Daniel Baier",
+        "x": 64.16,
+        "y": 20.2,
+        "size": 62.9,
+        "is_playmaker": false,
+        "betweenness": 0.2111,
+        "eigenvector": 0.0
       }
     ],
     "edges": [
@@ -1044,18 +1044,6 @@
         "direction": "forward"
       },
       {
-        "source": "Daniel Baier",
-        "target": "Caiuby Francisco da Silva",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Daniel Baier",
-        "target": "Philipp Max",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jeong-Ho Hong",
         "target": "Dominik Kohr",
         "weight": 1,
@@ -1066,6 +1054,18 @@
         "target": "Jeffrey Gouweleeuw",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Daniel Baier",
+        "target": "Caiuby Francisco da Silva",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Daniel Baier",
+        "target": "Philipp Max",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },
@@ -1171,22 +1171,22 @@
         "eigenvector": 0.0723
       },
       {
-        "id": "Gustavo Adrián Ramos Vásquez",
-        "short": "Ramos",
-        "name": "Adrián Ramos",
-        "x": 82.37,
-        "y": 23.89,
+        "id": "Marco Reus",
+        "short": "Reus",
+        "name": "Marco Reus",
+        "x": 78.33,
+        "y": 30.0,
         "size": 56.7,
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.002
       },
       {
-        "id": "Marco Reus",
-        "short": "Reus",
-        "name": "Marco Reus",
-        "x": 78.33,
-        "y": 30.0,
+        "id": "Gustavo Adrián Ramos Vásquez",
+        "short": "Ramos",
+        "name": "Adrián Ramos",
+        "x": 82.37,
+        "y": 23.89,
         "size": 56.7,
         "is_playmaker": false,
         "betweenness": 0.0,
@@ -1322,15 +1322,15 @@
       },
       {
         "source": "Henrikh Mkhitaryan",
-        "target": "Gustavo Adrián Ramos Vásquez",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Henrikh Mkhitaryan",
         "target": "Marco Reus",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Henrikh Mkhitaryan",
+        "target": "Gustavo Adrián Ramos Vásquez",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Nuri Şahin",
@@ -1351,18 +1351,6 @@
         "direction": "backward"
       },
       {
-        "source": "Gustavo Adrián Ramos Vásquez",
-        "target": "Marco Reus",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Gustavo Adrián Ramos Vásquez",
-        "target": "Henrikh Mkhitaryan",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Marco Reus",
         "target": "Gustavo Adrián Ramos Vásquez",
         "weight": 1,
@@ -1373,6 +1361,18 @@
         "target": "Henrikh Mkhitaryan",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Gustavo Adrián Ramos Vásquez",
+        "target": "Marco Reus",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Gustavo Adrián Ramos Vásquez",
+        "target": "Henrikh Mkhitaryan",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

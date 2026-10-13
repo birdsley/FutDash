@@ -1230,17 +1230,6 @@
         "eigenvector": 0.0212
       },
       {
-        "id": "Kalidou Koulibaly",
-        "short": "Koulibaly",
-        "name": "Kalidou Koulibaly",
-        "x": 50.83,
-        "y": 28.75,
-        "size": 57.9,
-        "is_playmaker": true,
-        "betweenness": 0.2889,
-        "eigenvector": 0.0083
-      },
-      {
         "id": "José Manuel Reina Páez",
         "short": "Reina",
         "name": "Pepe Reina",
@@ -1250,6 +1239,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0006
+      },
+      {
+        "id": "Kalidou Koulibaly",
+        "short": "Koulibaly",
+        "name": "Kalidou Koulibaly",
+        "x": 50.83,
+        "y": 28.75,
+        "size": 57.9,
+        "is_playmaker": true,
+        "betweenness": 0.2889,
+        "eigenvector": 0.0083
       }
     ],
     "edges": [
@@ -1405,12 +1405,30 @@
       },
       {
         "source": "Vlad Iulian Chiricheș",
+        "target": "José Manuel Reina Páez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Vlad Iulian Chiricheș",
         "target": "Kalidou Koulibaly",
         "weight": 1,
         "direction": "forward"
       },
       {
-        "source": "Vlad Iulian Chiricheș",
+        "source": "José Manuel Reina Páez",
+        "target": "Vlad Iulian Chiricheș",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Manuel Reina Páez",
+        "target": "Kalidou Koulibaly",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Kalidou Koulibaly",
         "target": "José Manuel Reina Páez",
         "weight": 1,
         "direction": "backward"
@@ -1426,24 +1444,6 @@
         "target": "Vlad Iulian Chiricheș",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Kalidou Koulibaly",
-        "target": "José Manuel Reina Páez",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "José Manuel Reina Páez",
-        "target": "Vlad Iulian Chiricheș",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "José Manuel Reina Páez",
-        "target": "Kalidou Koulibaly",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

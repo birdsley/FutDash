@@ -855,17 +855,6 @@
         "eigenvector": 0.4143
       },
       {
-        "id": "Vicente Iborra De La Fuente",
-        "short": "Iborra",
-        "name": "Vicente Iborra",
-        "x": 70.26,
-        "y": 44.91,
-        "size": 59.9,
-        "is_playmaker": true,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0307
-      },
-      {
         "id": "Fernando Llorente Torres",
         "short": "Llorente",
         "name": "Fernando Llorente",
@@ -875,6 +864,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0141
+      },
+      {
+        "id": "Vicente Iborra De La Fuente",
+        "short": "Iborra",
+        "name": "Vicente Iborra",
+        "x": 70.26,
+        "y": 44.91,
+        "size": 59.9,
+        "is_playmaker": true,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0307
       }
     ],
     "edges": [
@@ -1030,12 +1030,30 @@
       },
       {
         "source": "José Antonio Reyes Calderón",
+        "target": "Fernando Llorente Torres",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "José Antonio Reyes Calderón",
         "target": "Vicente Iborra De La Fuente",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "José Antonio Reyes Calderón",
+        "source": "Fernando Llorente Torres",
+        "target": "José Antonio Reyes Calderón",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Fernando Llorente Torres",
+        "target": "Vicente Iborra De La Fuente",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Vicente Iborra De La Fuente",
         "target": "Fernando Llorente Torres",
         "weight": 1,
         "direction": "forward"
@@ -1051,24 +1069,6 @@
         "target": "José Antonio Reyes Calderón",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Vicente Iborra De La Fuente",
-        "target": "Fernando Llorente Torres",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Fernando Llorente Torres",
-        "target": "José Antonio Reyes Calderón",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Fernando Llorente Torres",
-        "target": "Vicente Iborra De La Fuente",
-        "weight": 1,
-        "direction": "backward"
       }
     ]
   },
@@ -1174,17 +1174,6 @@
         "eigenvector": 0.0381
       },
       {
-        "id": "Luis Alberto Romero Alconchel",
-        "short": "Alberto",
-        "name": "Luis Alberto",
-        "x": 75.3,
-        "y": 50.7,
-        "size": 60.0,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0191
-      },
-      {
         "id": "Luis Carlos Correia Pinto",
         "short": "Luisinho",
         "name": "Luisinho",
@@ -1194,6 +1183,17 @@
         "is_playmaker": false,
         "betweenness": 0.1611,
         "eigenvector": 0.0212
+      },
+      {
+        "id": "Luis Alberto Romero Alconchel",
+        "short": "Alberto",
+        "name": "Luis Alberto",
+        "x": 75.3,
+        "y": 50.7,
+        "size": 60.0,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0191
       }
     ],
     "edges": [
@@ -1390,18 +1390,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Luis Alberto Romero Alconchel",
-        "target": "Lucas Pérez Martínez",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Luis Alberto Romero Alconchel",
-        "target": "Celso Borges Mora",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Luis Carlos Correia Pinto",
         "target": "Fernando Navarro i Corbacho",
         "weight": 1,
@@ -1410,6 +1398,18 @@
       {
         "source": "Luis Carlos Correia Pinto",
         "target": "Sidnei Rechel da Silva Júnior",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Luis Alberto Romero Alconchel",
+        "target": "Lucas Pérez Martínez",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Luis Alberto Romero Alconchel",
+        "target": "Celso Borges Mora",
         "weight": 1,
         "direction": "backward"
       }

@@ -1204,17 +1204,6 @@
         "eigenvector": 0.1081
       },
       {
-        "id": "Alexandre Letellier",
-        "short": "Letellier",
-        "name": "Alexandre Letellier",
-        "x": 11.37,
-        "y": 41.91,
-        "size": 59.9,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0136
-      },
-      {
         "id": "Grégory Bourillon",
         "short": "Bourillon",
         "name": "Grégory Bourillon",
@@ -1224,6 +1213,17 @@
         "is_playmaker": true,
         "betweenness": 0.4444,
         "eigenvector": 0.0294
+      },
+      {
+        "id": "Alexandre Letellier",
+        "short": "Letellier",
+        "name": "Alexandre Letellier",
+        "x": 11.37,
+        "y": 41.91,
+        "size": 59.9,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0136
       }
     ],
     "edges": [
@@ -1367,15 +1367,15 @@
       },
       {
         "source": "Romain Thomas",
-        "target": "Alexandre Letellier",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Romain Thomas",
         "target": "Grégory Bourillon",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Romain Thomas",
+        "target": "Alexandre Letellier",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Ismaël Traoré",
@@ -1396,18 +1396,6 @@
         "direction": "backward"
       },
       {
-        "source": "Alexandre Letellier",
-        "target": "Ismaël Traoré",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alexandre Letellier",
-        "target": "Romain Thomas",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Grégory Bourillon",
         "target": "Thomas Mangani",
         "weight": 1,
@@ -1418,6 +1406,18 @@
         "target": "Romain Thomas",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Alexandre Letellier",
+        "target": "Ismaël Traoré",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alexandre Letellier",
+        "target": "Romain Thomas",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

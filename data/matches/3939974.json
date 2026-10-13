@@ -1285,17 +1285,6 @@
         "eigenvector": 0.1102
       },
       {
-        "id": "Diego Daniel Medina Roman",
-        "short": "Roman",
-        "name": "Diego Daniel Medina Roman",
-        "x": 46.27,
-        "y": 71.86,
-        "size": 60.6,
-        "is_playmaker": false,
-        "betweenness": 0.1778,
-        "eigenvector": 0.0235
-      },
-      {
         "id": "César Alejandro Menacho Claros",
         "short": "Claros",
         "name": "César Alejandro Menacho Claros",
@@ -1305,6 +1294,17 @@
         "is_playmaker": true,
         "betweenness": 0.2389,
         "eigenvector": 0.0192
+      },
+      {
+        "id": "Diego Daniel Medina Roman",
+        "short": "Roman",
+        "name": "Diego Daniel Medina Roman",
+        "x": 46.27,
+        "y": 71.86,
+        "size": 60.6,
+        "is_playmaker": false,
+        "betweenness": 0.1778,
+        "eigenvector": 0.0235
       }
     ],
     "edges": [
@@ -1406,15 +1406,15 @@
       },
       {
         "source": "Fernando Javier Saucedo Pereyra",
-        "target": "Diego Daniel Medina Roman",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Fernando Javier Saucedo Pereyra",
         "target": "César Alejandro Menacho Claros",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Fernando Javier Saucedo Pereyra",
+        "target": "Diego Daniel Medina Roman",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Gabriel Alejandro Villamíl Cortéz",
@@ -1465,18 +1465,6 @@
         "direction": "forward"
       },
       {
-        "source": "Diego Daniel Medina Roman",
-        "target": "Jesús Manuel Sagredo Chávez",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Diego Daniel Medina Roman",
-        "target": "Fernando Javier Saucedo Pereyra",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "César Alejandro Menacho Claros",
         "target": "Fernando Javier Saucedo Pereyra",
         "weight": 1,
@@ -1487,6 +1475,18 @@
         "target": "Leonel Justiniano Arauz",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Diego Daniel Medina Roman",
+        "target": "Jesús Manuel Sagredo Chávez",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Diego Daniel Medina Roman",
+        "target": "Fernando Javier Saucedo Pereyra",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

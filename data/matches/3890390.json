@@ -1126,17 +1126,6 @@
         "eigenvector": 0.0773
       },
       {
-        "id": "Julian Brandt",
-        "short": "Brandt",
-        "name": "Julian Brandt",
-        "x": 72.28,
-        "y": 46.25,
-        "size": 60.2,
-        "is_playmaker": false,
-        "betweenness": 0.1556,
-        "eigenvector": 0.0134
-      },
-      {
         "id": "Sebastian Boenisch",
         "short": "Boenisch",
         "name": "Sebastian Boenisch",
@@ -1146,6 +1135,17 @@
         "is_playmaker": false,
         "betweenness": 0.2889,
         "eigenvector": 0.0323
+      },
+      {
+        "id": "Julian Brandt",
+        "short": "Brandt",
+        "name": "Julian Brandt",
+        "x": 72.28,
+        "y": 46.25,
+        "size": 60.2,
+        "is_playmaker": false,
+        "betweenness": 0.1556,
+        "eigenvector": 0.0134
       }
     ],
     "edges": [
@@ -1283,15 +1283,15 @@
       },
       {
         "source": "Admir Mehmedi",
-        "target": "Julian Brandt",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Admir Mehmedi",
         "target": "Sebastian Boenisch",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Admir Mehmedi",
+        "target": "Julian Brandt",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Javier Hernández Balcázar",
@@ -1318,18 +1318,6 @@
         "direction": "forward"
       },
       {
-        "source": "Julian Brandt",
-        "target": "Javier Hernández Balcázar",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Julian Brandt",
-        "target": "Admir Mehmedi",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
         "source": "Sebastian Boenisch",
         "target": "Kevin Kampl",
         "weight": 1,
@@ -1340,6 +1328,18 @@
         "target": "Admir Mehmedi",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Julian Brandt",
+        "target": "Javier Hernández Balcázar",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Julian Brandt",
+        "target": "Admir Mehmedi",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

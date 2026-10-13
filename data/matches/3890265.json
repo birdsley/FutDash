@@ -1065,17 +1065,6 @@
         "eigenvector": 0.0673
       },
       {
-        "id": "Raúl Marcelo Bobadilla",
-        "short": "Bobadilla",
-        "name": "Raúl Bobadilla",
-        "x": 96.45,
-        "y": 51.35,
-        "size": 58.8,
-        "is_playmaker": false,
-        "betweenness": 0.2685,
-        "eigenvector": 0.0123
-      },
-      {
         "id": "Tobias Werner",
         "short": "Werner",
         "name": "Tobias Werner",
@@ -1085,6 +1074,17 @@
         "is_playmaker": false,
         "betweenness": 0.2185,
         "eigenvector": 0.0027
+      },
+      {
+        "id": "Raúl Marcelo Bobadilla",
+        "short": "Bobadilla",
+        "name": "Raúl Bobadilla",
+        "x": 96.45,
+        "y": 51.35,
+        "size": 58.8,
+        "is_playmaker": false,
+        "betweenness": 0.2685,
+        "eigenvector": 0.0123
       }
     ],
     "edges": [
@@ -1245,16 +1245,10 @@
         "direction": "lateral"
       },
       {
-        "source": "Raúl Marcelo Bobadilla",
-        "target": "Alexander Esswein",
+        "source": "Tobias Werner",
+        "target": "Halil Altıntop",
         "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Raúl Marcelo Bobadilla",
-        "target": "Tobias Werner",
-        "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
       },
       {
         "source": "Tobias Werner",
@@ -1263,10 +1257,16 @@
         "direction": "forward"
       },
       {
-        "source": "Tobias Werner",
-        "target": "Halil Altıntop",
+        "source": "Raúl Marcelo Bobadilla",
+        "target": "Tobias Werner",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
+      },
+      {
+        "source": "Raúl Marcelo Bobadilla",
+        "target": "Alexander Esswein",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

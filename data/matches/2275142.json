@@ -1319,6 +1319,17 @@
         "eigenvector": 0.3815
       },
       {
+        "id": "Georgia Wilson",
+        "short": "Wilson",
+        "name": "Georgia Wilson",
+        "x": 53.5,
+        "y": 42.1,
+        "size": 70.0,
+        "is_playmaker": true,
+        "betweenness": 0.4722,
+        "eigenvector": 0.0297
+      },
+      {
         "id": "Loren Dykes",
         "short": "Dykes",
         "name": "Loren Dykes",
@@ -1339,17 +1350,6 @@
         "is_playmaker": false,
         "betweenness": 0.3944,
         "eigenvector": 0.0379
-      },
-      {
-        "id": "Georgia Wilson",
-        "short": "Wilson",
-        "name": "Georgia Wilson",
-        "x": 53.5,
-        "y": 42.1,
-        "size": 70.0,
-        "is_playmaker": true,
-        "betweenness": 0.4722,
-        "eigenvector": 0.0297
       }
     ],
     "edges": [
@@ -1474,6 +1474,24 @@
         "direction": "backward"
       },
       {
+        "source": "Georgia Wilson",
+        "target": "Olivia Chance",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Georgia Wilson",
+        "target": "Jasmine Matthews",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Georgia Wilson",
+        "target": "Ebony Salmon",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Loren Dykes",
         "target": "Charlie Wellings",
         "weight": 1,
@@ -1496,24 +1514,6 @@
         "target": "Georgia Wilson",
         "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Georgia Wilson",
-        "target": "Ebony Salmon",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Georgia Wilson",
-        "target": "Olivia Chance",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Georgia Wilson",
-        "target": "Jasmine Matthews",
-        "weight": 1,
-        "direction": "lateral"
       }
     ]
   },

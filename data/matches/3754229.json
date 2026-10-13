@@ -1155,17 +1155,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Branislav Ivanović",
-        "short": "Ivanović",
-        "name": "Branislav Ivanović",
-        "x": 38.45,
-        "y": 25.82,
-        "size": 58.3,
-        "is_playmaker": false,
-        "betweenness": 0.15,
-        "eigenvector": 0.0186
-      },
-      {
         "id": "Bertrand Isidore Traoré",
         "short": "Traoré",
         "name": "Bertrand Traoré",
@@ -1175,6 +1164,17 @@
         "is_playmaker": true,
         "betweenness": 0.3611,
         "eigenvector": 0.0211
+      },
+      {
+        "id": "Branislav Ivanović",
+        "short": "Ivanović",
+        "name": "Branislav Ivanović",
+        "x": 38.45,
+        "y": 25.82,
+        "size": 58.3,
+        "is_playmaker": false,
+        "betweenness": 0.15,
+        "eigenvector": 0.0186
       }
     ],
     "edges": [
@@ -1306,15 +1306,15 @@
       },
       {
         "source": "Nemanja Matić",
-        "target": "Branislav Ivanović",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Nemanja Matić",
         "target": "Bertrand Isidore Traoré",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Nemanja Matić",
+        "target": "Branislav Ivanović",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Pedro Eliezer Rodríguez Ledesma",
@@ -1347,18 +1347,6 @@
         "direction": "forward"
       },
       {
-        "source": "Branislav Ivanović",
-        "target": "Nemanja Matić",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Branislav Ivanović",
-        "target": "Abdul Rahman Baba",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Bertrand Isidore Traoré",
         "target": "Francesc Fàbregas i Soler",
         "weight": 1,
@@ -1369,6 +1357,18 @@
         "target": "Nemanja Matić",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Branislav Ivanović",
+        "target": "Nemanja Matić",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Branislav Ivanović",
+        "target": "Abdul Rahman Baba",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

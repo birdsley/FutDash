@@ -874,17 +874,6 @@
         "eigenvector": 0.0066
       },
       {
-        "id": "Sergio Asenjo Andrés",
-        "short": "Asenjo",
-        "name": "Sergio Asenjo",
-        "x": 13.12,
-        "y": 39.77,
-        "size": 66.1,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0066
-      },
-      {
         "id": "Jonathan Sesma González",
         "short": "Sesma",
         "name": "Jonathan Sesma",
@@ -905,6 +894,17 @@
         "is_playmaker": true,
         "betweenness": 0.1722,
         "eigenvector": 0.0431
+      },
+      {
+        "id": "Sergio Asenjo Andrés",
+        "short": "Asenjo",
+        "name": "Sergio Asenjo",
+        "x": 13.12,
+        "y": 39.77,
+        "size": 66.1,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0066
       }
     ],
     "edges": [
@@ -994,27 +994,15 @@
       },
       {
         "source": "Iñaki Bea Jauregi",
-        "target": "Sergio Asenjo Andrés",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Iñaki Bea Jauregi",
         "target": "Luis Prieto Zalbidegoitia",
         "weight": 1,
         "direction": "lateral"
       },
       {
-        "source": "Sergio Asenjo Andrés",
-        "target": "Iñaki Bea Jauregi",
+        "source": "Iñaki Bea Jauregi",
+        "target": "Sergio Asenjo Andrés",
         "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sergio Asenjo Andrés",
-        "target": "Luis Prieto Zalbidegoitia",
-        "weight": 1,
-        "direction": "forward"
+        "direction": "backward"
       },
       {
         "source": "Jonathan Sesma González",
@@ -1030,12 +1018,6 @@
       },
       {
         "source": "Luis Prieto Zalbidegoitia",
-        "target": "Sergio Asenjo Andrés",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Luis Prieto Zalbidegoitia",
         "target": "Álvaro Rubio Robles",
         "weight": 1,
         "direction": "forward"
@@ -1045,6 +1027,24 @@
         "target": "Iñaki Bea Jauregi",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Luis Prieto Zalbidegoitia",
+        "target": "Sergio Asenjo Andrés",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Sergio Asenjo Andrés",
+        "target": "Iñaki Bea Jauregi",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Asenjo Andrés",
+        "target": "Luis Prieto Zalbidegoitia",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

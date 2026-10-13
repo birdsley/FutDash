@@ -1005,17 +1005,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Denis Petrić",
-        "short": "Petrić",
-        "name": "Denis Petrić",
-        "x": 12.4,
-        "y": 37.8,
-        "size": 59.7,
-        "is_playmaker": false,
-        "betweenness": 0.163,
-        "eigenvector": 0.0283
-      },
-      {
         "id": "Yoann Court",
         "short": "Court",
         "name": "Yoann Court",
@@ -1025,6 +1014,17 @@
         "is_playmaker": false,
         "betweenness": 0.2667,
         "eigenvector": 0.0271
+      },
+      {
+        "id": "Denis Petrić",
+        "short": "Petrić",
+        "name": "Denis Petrić",
+        "x": 12.4,
+        "y": 37.8,
+        "size": 59.7,
+        "is_playmaker": false,
+        "betweenness": 0.163,
+        "eigenvector": 0.0283
       }
     ],
     "edges": [
@@ -1197,18 +1197,6 @@
         "direction": "forward"
       },
       {
-        "source": "Denis Petrić",
-        "target": "Matthieu Saunier",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Denis Petrić",
-        "target": "Mory Koné",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Yoann Court",
         "target": "Lossémy Karaboué",
         "weight": 1,
@@ -1219,6 +1207,18 @@
         "target": "Corentin Jean",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Denis Petrić",
+        "target": "Matthieu Saunier",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Denis Petrić",
+        "target": "Mory Koné",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1324,17 +1324,6 @@
         "eigenvector": 0.1248
       },
       {
-        "id": "Mahamane El-Hadj Traoré",
-        "short": "Traoré",
-        "name": "Mahamane El-Hadj Traoré",
-        "x": 55.25,
-        "y": 71.96,
-        "size": 58.0,
-        "is_playmaker": true,
-        "betweenness": 0.3889,
-        "eigenvector": 0.0127
-      },
-      {
         "id": "Mouez Hassen",
         "short": "Hassen",
         "name": "Mouez Hassen",
@@ -1344,6 +1333,17 @@
         "is_playmaker": false,
         "betweenness": 0.3333,
         "eigenvector": 0.0077
+      },
+      {
+        "id": "Mahamane El-Hadj Traoré",
+        "short": "Traoré",
+        "name": "Mahamane El-Hadj Traoré",
+        "x": 55.25,
+        "y": 71.96,
+        "size": 58.0,
+        "is_playmaker": true,
+        "betweenness": 0.3889,
+        "eigenvector": 0.0127
       }
     ],
     "edges": [
@@ -1493,15 +1493,15 @@
       },
       {
         "source": "Paul Baysse",
-        "target": "Mahamane El-Hadj Traoré",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Paul Baysse",
         "target": "Mouez Hassen",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Paul Baysse",
+        "target": "Mahamane El-Hadj Traoré",
+        "weight": 1,
+        "direction": "forward"
       },
       {
         "source": "Valère Germain",
@@ -1516,18 +1516,6 @@
         "direction": "backward"
       },
       {
-        "source": "Mahamane El-Hadj Traoré",
-        "target": "Vincent Koziello",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Mahamane El-Hadj Traoré",
-        "target": "Paul Baysse",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Mouez Hassen",
         "target": "Maxime Le Marchand",
         "weight": 1,
@@ -1538,6 +1526,18 @@
         "target": "Paul Baysse",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Mahamane El-Hadj Traoré",
+        "target": "Vincent Koziello",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Mahamane El-Hadj Traoré",
+        "target": "Paul Baysse",
+        "weight": 1,
+        "direction": "backward"
       }
     ]
   },

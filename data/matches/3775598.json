@@ -945,17 +945,6 @@
         "eigenvector": 0.1165
       },
       {
-        "id": "Emma Harries",
-        "short": "Harries",
-        "name": "Emma Harries",
-        "x": 82.14,
-        "y": 30.9,
-        "size": 58.7,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.008
-      },
-      {
         "id": "Amalie Vevle Eikeland",
         "short": "Eikeland",
         "name": "Amalie Vevle Eikeland",
@@ -965,6 +954,17 @@
         "is_playmaker": true,
         "betweenness": 0.3444,
         "eigenvector": 0.0161
+      },
+      {
+        "id": "Emma Harries",
+        "short": "Harries",
+        "name": "Emma Harries",
+        "x": 82.14,
+        "y": 30.9,
+        "size": 58.7,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.008
       }
     ],
     "edges": [
@@ -976,13 +976,13 @@
       },
       {
         "source": "Jessica Fishlock",
-        "target": "Emma Harries",
+        "target": "Amalie Vevle Eikeland",
         "weight": 1,
         "direction": "forward"
       },
       {
         "source": "Jessica Fishlock",
-        "target": "Amalie Vevle Eikeland",
+        "target": "Emma Harries",
         "weight": 1,
         "direction": "forward"
       },
@@ -1131,18 +1131,6 @@
         "direction": "backward"
       },
       {
-        "source": "Emma Harries",
-        "target": "Angharad James",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Emma Harries",
-        "target": "Jessica Fishlock",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Amalie Vevle Eikeland",
         "target": "Natasha Harding",
         "weight": 1,
@@ -1150,6 +1138,18 @@
       },
       {
         "source": "Amalie Vevle Eikeland",
+        "target": "Jessica Fishlock",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Emma Harries",
+        "target": "Angharad James",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Emma Harries",
         "target": "Jessica Fishlock",
         "weight": 1,
         "direction": "backward"
@@ -1236,15 +1236,15 @@
         "eigenvector": 0.0086
       },
       {
-        "id": "Ria Percival",
-        "short": "Percival",
-        "name": "Ria Percival",
-        "x": 66.41,
-        "y": 45.11,
-        "size": 71.2,
+        "id": "Angela Addison",
+        "short": "Addison",
+        "name": "Angela Addison",
+        "x": 83.15,
+        "y": 24.75,
+        "size": 65.8,
         "is_playmaker": false,
-        "betweenness": 0.0778,
-        "eigenvector": 0.0086
+        "betweenness": 0.0,
+        "eigenvector": 0.0018
       },
       {
         "id": "Shelina Laura Zadorsky",
@@ -1258,15 +1258,15 @@
         "eigenvector": 0.0697
       },
       {
-        "id": "Angela Addison",
-        "short": "Addison",
-        "name": "Angela Addison",
-        "x": 83.15,
-        "y": 24.75,
-        "size": 65.8,
+        "id": "Ria Percival",
+        "short": "Percival",
+        "name": "Ria Percival",
+        "x": 66.41,
+        "y": 45.11,
+        "size": 71.2,
         "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0018
+        "betweenness": 0.0778,
+        "eigenvector": 0.0086
       },
       {
         "id": "Josie Green",
@@ -1355,39 +1355,33 @@
       },
       {
         "source": "Rosella Ayane",
+        "target": "Angela Addison",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Rosella Ayane",
         "target": "Ria Percival",
         "weight": 1,
         "direction": "lateral"
       },
       {
         "source": "Rosella Ayane",
-        "target": "Angela Addison",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Rosella Ayane",
         "target": "Josie Green",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Ria Percival",
+        "source": "Angela Addison",
+        "target": "Ria Percival",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Angela Addison",
         "target": "Rosella Ayane",
         "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Ria Percival",
-        "target": "Josie Green",
-        "weight": 1,
         "direction": "backward"
-      },
-      {
-        "source": "Ria Percival",
-        "target": "Angela Addison",
-        "weight": 1,
-        "direction": "forward"
       },
       {
         "source": "Shelina Laura Zadorsky",
@@ -1402,14 +1396,26 @@
         "direction": "forward"
       },
       {
-        "source": "Angela Addison",
-        "target": "Ria Percival",
+        "source": "Ria Percival",
+        "target": "Angela Addison",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Ria Percival",
+        "target": "Rosella Ayane",
+        "weight": 1,
+        "direction": "lateral"
+      },
+      {
+        "source": "Ria Percival",
+        "target": "Josie Green",
         "weight": 1,
         "direction": "backward"
       },
       {
-        "source": "Angela Addison",
-        "target": "Rosella Ayane",
+        "source": "Josie Green",
+        "target": "Shelina Laura Zadorsky",
         "weight": 1,
         "direction": "backward"
       },
@@ -1418,12 +1424,6 @@
         "target": "Ria Percival",
         "weight": 1,
         "direction": "forward"
-      },
-      {
-        "source": "Josie Green",
-        "target": "Shelina Laura Zadorsky",
-        "weight": 1,
-        "direction": "backward"
       },
       {
         "source": "Josie Green",

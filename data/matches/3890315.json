@@ -975,17 +975,6 @@
         "eigenvector": 0.0
       },
       {
-        "id": "Assani Lukimya-Mulongoti",
-        "short": "Lukimya",
-        "name": "Assani Lukimya",
-        "x": 40.58,
-        "y": 56.62,
-        "size": 69.8,
-        "is_playmaker": true,
-        "betweenness": 0.0889,
-        "eigenvector": 0.3618
-      },
-      {
         "id": "Clemens Fritz",
         "short": "Fritz",
         "name": "Clemens Fritz",
@@ -995,6 +984,17 @@
         "is_playmaker": false,
         "betweenness": 0.0667,
         "eigenvector": 0.5186
+      },
+      {
+        "id": "Assani Lukimya-Mulongoti",
+        "short": "Lukimya",
+        "name": "Assani Lukimya",
+        "x": 40.58,
+        "y": 56.62,
+        "size": 69.8,
+        "is_playmaker": true,
+        "betweenness": 0.0889,
+        "eigenvector": 0.3618
       }
     ],
     "edges": [
@@ -1071,14 +1071,8 @@
         "direction": "forward"
       },
       {
-        "source": "Assani Lukimya-Mulongoti",
-        "target": "Clemens Fritz",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Assani Lukimya-Mulongoti",
-        "target": "Theodor Gebre Selassie",
+        "source": "Clemens Fritz",
+        "target": "Felix Kroos",
         "weight": 1,
         "direction": "forward"
       },
@@ -1089,8 +1083,14 @@
         "direction": "backward"
       },
       {
-        "source": "Clemens Fritz",
-        "target": "Felix Kroos",
+        "source": "Assani Lukimya-Mulongoti",
+        "target": "Clemens Fritz",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Assani Lukimya-Mulongoti",
+        "target": "Theodor Gebre Selassie",
         "weight": 1,
         "direction": "forward"
       }

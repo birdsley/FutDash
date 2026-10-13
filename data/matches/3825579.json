@@ -1230,17 +1230,6 @@
         "eigenvector": 0.109
       },
       {
-        "id": "Vicente Iborra De La Fuente",
-        "short": "Iborra",
-        "name": "Vicente Iborra",
-        "x": 57.86,
-        "y": 51.65,
-        "size": 58.8,
-        "is_playmaker": true,
-        "betweenness": 0.35,
-        "eigenvector": 0.0301
-      },
-      {
         "id": "Fernando Llorente Torres",
         "short": "Llorente",
         "name": "Fernando Llorente",
@@ -1250,6 +1239,17 @@
         "is_playmaker": false,
         "betweenness": 0.1444,
         "eigenvector": 0.0144
+      },
+      {
+        "id": "Vicente Iborra De La Fuente",
+        "short": "Iborra",
+        "name": "Vicente Iborra",
+        "x": 57.86,
+        "y": 51.65,
+        "size": 58.8,
+        "is_playmaker": true,
+        "betweenness": 0.35,
+        "eigenvector": 0.0301
       }
     ],
     "edges": [
@@ -1422,18 +1422,6 @@
         "direction": "backward"
       },
       {
-        "source": "Vicente Iborra De La Fuente",
-        "target": "Adil Rami",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Vicente Iborra De La Fuente",
-        "target": "Éver Maximiliano David Banega",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Fernando Llorente Torres",
         "target": "Víctor Machín Pérez",
         "weight": 1,
@@ -1442,6 +1430,18 @@
       {
         "source": "Fernando Llorente Torres",
         "target": "José Antonio Reyes Calderón",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Vicente Iborra De La Fuente",
+        "target": "Adil Rami",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Vicente Iborra De La Fuente",
+        "target": "Éver Maximiliano David Banega",
         "weight": 1,
         "direction": "forward"
       }
@@ -1549,17 +1549,6 @@
         "eigenvector": 0.0154
       },
       {
-        "id": "Diego Roberto Godín Leal",
-        "short": "Godín",
-        "name": "Diego Godín",
-        "x": 44.07,
-        "y": 36.35,
-        "size": 65.8,
-        "is_playmaker": false,
-        "betweenness": 0.3222,
-        "eigenvector": 0.0189
-      },
-      {
         "id": "Jan Oblak",
         "short": "Oblak",
         "name": "Jan Oblak",
@@ -1569,6 +1558,17 @@
         "is_playmaker": false,
         "betweenness": 0.0,
         "eigenvector": 0.0153
+      },
+      {
+        "id": "Diego Roberto Godín Leal",
+        "short": "Godín",
+        "name": "Diego Godín",
+        "x": 44.07,
+        "y": 36.35,
+        "size": 65.8,
+        "is_playmaker": false,
+        "betweenness": 0.3222,
+        "eigenvector": 0.0189
       }
     ],
     "edges": [
@@ -1664,15 +1664,15 @@
       },
       {
         "source": "José María Giménez de Vargas",
-        "target": "Diego Roberto Godín Leal",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "José María Giménez de Vargas",
         "target": "Jan Oblak",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "José María Giménez de Vargas",
+        "target": "Diego Roberto Godín Leal",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Tiago Cardoso Mendes",
@@ -1711,24 +1711,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Diego Roberto Godín Leal",
-        "target": "Tiago Cardoso Mendes",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Diego Roberto Godín Leal",
-        "target": "José María Giménez de Vargas",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Diego Roberto Godín Leal",
-        "target": "Jan Oblak",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jan Oblak",
         "target": "Diego Roberto Godín Leal",
         "weight": 1,
@@ -1739,6 +1721,24 @@
         "target": "José María Giménez de Vargas",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
+        "target": "Jan Oblak",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
+        "target": "Tiago Cardoso Mendes",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Diego Roberto Godín Leal",
+        "target": "José María Giménez de Vargas",
+        "weight": 1,
+        "direction": "lateral"
       }
     ]
   },

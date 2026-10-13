@@ -960,17 +960,6 @@
         "eigenvector": 0.0171
       },
       {
-        "id": "Michael Gregoritsch",
-        "short": "Gregoritsch",
-        "name": "Michael Gregoritsch",
-        "x": 63.12,
-        "y": 38.16,
-        "size": 60.6,
-        "is_playmaker": true,
-        "betweenness": 0.4278,
-        "eigenvector": 0.0147
-      },
-      {
         "id": "Pierre-Michel Lasogga",
         "short": "Lasogga",
         "name": "Pierre-Michel Lasogga",
@@ -980,6 +969,17 @@
         "is_playmaker": false,
         "betweenness": 0.1778,
         "eigenvector": 0.0102
+      },
+      {
+        "id": "Michael Gregoritsch",
+        "short": "Gregoritsch",
+        "name": "Michael Gregoritsch",
+        "x": 63.12,
+        "y": 38.16,
+        "size": 60.6,
+        "is_playmaker": true,
+        "betweenness": 0.4278,
+        "eigenvector": 0.0147
       }
     ],
     "edges": [
@@ -1158,6 +1158,18 @@
         "direction": "backward"
       },
       {
+        "source": "Pierre-Michel Lasogga",
+        "target": "Michael Gregoritsch",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Pierre-Michel Lasogga",
+        "target": "Aaron Hunt",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
         "source": "Michael Gregoritsch",
         "target": "Lewis Harry Holtby",
         "weight": 1,
@@ -1174,18 +1186,6 @@
         "target": "Albin Ekdal",
         "weight": 1,
         "direction": "lateral"
-      },
-      {
-        "source": "Pierre-Michel Lasogga",
-        "target": "Michael Gregoritsch",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Pierre-Michel Lasogga",
-        "target": "Aaron Hunt",
-        "weight": 1,
-        "direction": "forward"
       }
     ]
   },

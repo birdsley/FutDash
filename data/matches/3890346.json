@@ -1349,17 +1349,6 @@
         "eigenvector": 0.2926
       },
       {
-        "id": "Timo Baumgartl",
-        "short": "Baumgartl",
-        "name": "Timo Baumgartl",
-        "x": 41.34,
-        "y": 27.41,
-        "size": 66.0,
-        "is_playmaker": false,
-        "betweenness": 0.2222,
-        "eigenvector": 0.0079
-      },
-      {
         "id": "Daniel Schwaab",
         "short": "Schwaab",
         "name": "Daniel Schwaab",
@@ -1380,6 +1369,17 @@
         "is_playmaker": false,
         "betweenness": 0.2,
         "eigenvector": 0.0437
+      },
+      {
+        "id": "Timo Baumgartl",
+        "short": "Baumgartl",
+        "name": "Timo Baumgartl",
+        "x": 41.34,
+        "y": 27.41,
+        "size": 66.0,
+        "is_playmaker": false,
+        "betweenness": 0.2222,
+        "eigenvector": 0.0079
       }
     ],
     "edges": [
@@ -1480,24 +1480,6 @@
         "direction": "backward"
       },
       {
-        "source": "Timo Baumgartl",
-        "target": "Toni Šunjić",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Timo Baumgartl",
-        "target": "Daniel Schwaab",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Daniel Schwaab",
-        "target": "Timo Baumgartl",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Daniel Schwaab",
         "target": "Carlos Armando Gruezo Arboleda",
         "weight": 1,
@@ -1510,6 +1492,12 @@
         "direction": "forward"
       },
       {
+        "source": "Daniel Schwaab",
+        "target": "Timo Baumgartl",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Carlos Armando Gruezo Arboleda",
         "target": "Daniel Schwaab",
         "weight": 1,
@@ -1518,6 +1506,18 @@
       {
         "source": "Carlos Armando Gruezo Arboleda",
         "target": "Martin Harnik",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Timo Baumgartl",
+        "target": "Toni Šunjić",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Timo Baumgartl",
+        "target": "Daniel Schwaab",
         "weight": 1,
         "direction": "forward"
       }

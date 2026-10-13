@@ -964,15 +964,15 @@
         "eigenvector": 0.0
       },
       {
-        "id": "José Edmílson Gomes de Moraes",
-        "short": "Edmilson",
-        "name": "Edmilson",
-        "x": 57.58,
-        "y": 36.24,
-        "size": 58.0,
-        "is_playmaker": false,
-        "betweenness": 0.0444,
-        "eigenvector": 0.0217
+        "id": "Eiður Smári Guðjohnsen",
+        "short": "Guðjohnsen",
+        "name": "Eiður Guðjohnsen",
+        "x": 71.73,
+        "y": 37.68,
+        "size": 59.6,
+        "is_playmaker": true,
+        "betweenness": 0.3963,
+        "eigenvector": 0.0218
       },
       {
         "id": "Lionel Andrés Messi Cuccittini",
@@ -986,15 +986,15 @@
         "eigenvector": 0.0067
       },
       {
-        "id": "Eiður Smári Guðjohnsen",
-        "short": "Guðjohnsen",
-        "name": "Eiður Guðjohnsen",
-        "x": 71.73,
-        "y": 37.68,
-        "size": 59.6,
-        "is_playmaker": true,
-        "betweenness": 0.3963,
-        "eigenvector": 0.0218
+        "id": "José Edmílson Gomes de Moraes",
+        "short": "Edmilson",
+        "name": "Edmilson",
+        "x": 57.58,
+        "y": 36.24,
+        "size": 58.0,
+        "is_playmaker": false,
+        "betweenness": 0.0444,
+        "eigenvector": 0.0217
       }
     ],
     "edges": [
@@ -1120,15 +1120,15 @@
       },
       {
         "source": "Anderson Luís de Souza",
-        "target": "José Edmílson Gomes de Moraes",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Anderson Luís de Souza",
         "target": "Eiður Smári Guðjohnsen",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Anderson Luís de Souza",
+        "target": "José Edmílson Gomes de Moraes",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Andrés Iniesta Luján",
@@ -1150,15 +1150,15 @@
       },
       {
         "source": "Andrés Iniesta Luján",
-        "target": "José Edmílson Gomes de Moraes",
-        "weight": 1,
-        "direction": "lateral"
-      },
-      {
-        "source": "Andrés Iniesta Luján",
         "target": "Eiður Smári Guðjohnsen",
         "weight": 1,
         "direction": "forward"
+      },
+      {
+        "source": "Andrés Iniesta Luján",
+        "target": "José Edmílson Gomes de Moraes",
+        "weight": 1,
+        "direction": "lateral"
       },
       {
         "source": "Víctor Valdés Arribas",
@@ -1173,14 +1173,20 @@
         "direction": "forward"
       },
       {
-        "source": "José Edmílson Gomes de Moraes",
-        "target": "Andrés Iniesta Luján",
+        "source": "Eiður Smári Guðjohnsen",
+        "target": "Anderson Luís de Souza",
         "weight": 1,
-        "direction": "lateral"
+        "direction": "backward"
       },
       {
-        "source": "José Edmílson Gomes de Moraes",
-        "target": "Anderson Luís de Souza",
+        "source": "Eiður Smári Guðjohnsen",
+        "target": "Andrés Iniesta Luján",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Eiður Smári Guðjohnsen",
+        "target": "Lionel Andrés Messi Cuccittini",
         "weight": 1,
         "direction": "forward"
       },
@@ -1197,22 +1203,16 @@
         "direction": "backward"
       },
       {
-        "source": "Eiður Smári Guðjohnsen",
-        "target": "Lionel Andrés Messi Cuccittini",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Eiður Smári Guðjohnsen",
-        "target": "Anderson Luís de Souza",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Eiður Smári Guðjohnsen",
+        "source": "José Edmílson Gomes de Moraes",
         "target": "Andrés Iniesta Luján",
         "weight": 1,
-        "direction": "backward"
+        "direction": "lateral"
+      },
+      {
+        "source": "José Edmílson Gomes de Moraes",
+        "target": "Anderson Luís de Souza",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1307,17 +1307,6 @@
         "eigenvector": 0.001
       },
       {
-        "id": "César Sánchez Domínguez",
-        "short": "Sánchez",
-        "name": "César Sánchez",
-        "x": 12.03,
-        "y": 40.13,
-        "size": 63.8,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.001
-      },
-      {
         "id": "Sergio Fernández González",
         "short": "Sergio",
         "name": "Sergio",
@@ -1327,6 +1316,17 @@
         "is_playmaker": false,
         "betweenness": 0.3333,
         "eigenvector": 0.0096
+      },
+      {
+        "id": "César Sánchez Domínguez",
+        "short": "Sánchez",
+        "name": "César Sánchez",
+        "x": 12.03,
+        "y": 40.13,
+        "size": 63.8,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.001
       },
       {
         "id": "Albert Celades López",
@@ -1451,30 +1451,12 @@
       },
       {
         "source": "Gabriel Alejandro Milito",
-        "target": "César Sánchez Domínguez",
+        "target": "Sergio Fernández González",
         "weight": 1,
         "direction": "backward"
       },
       {
         "source": "Gabriel Alejandro Milito",
-        "target": "Sergio Fernández González",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "César Sánchez Domínguez",
-        "target": "Sergio Fernández González",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "César Sánchez Domínguez",
-        "target": "Gabriel Alejandro Milito",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Sergio Fernández González",
         "target": "César Sánchez Domínguez",
         "weight": 1,
         "direction": "backward"
@@ -1487,6 +1469,24 @@
       },
       {
         "source": "Sergio Fernández González",
+        "target": "Gabriel Alejandro Milito",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Sergio Fernández González",
+        "target": "César Sánchez Domínguez",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "César Sánchez Domínguez",
+        "target": "Sergio Fernández González",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "César Sánchez Domínguez",
         "target": "Gabriel Alejandro Milito",
         "weight": 1,
         "direction": "forward"

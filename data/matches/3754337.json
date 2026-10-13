@@ -1330,17 +1330,6 @@
         "eigenvector": 0.251
       },
       {
-        "id": "Steven Whittaker",
-        "short": "Whittaker",
-        "name": "Steven Whittaker",
-        "x": 69.08,
-        "y": 68.99,
-        "size": 61.6,
-        "is_playmaker": false,
-        "betweenness": 0.3333,
-        "eigenvector": 0.0893
-      },
-      {
         "id": "Wes Hoolahan",
         "short": "Hoolahan",
         "name": "Wes Hoolahan",
@@ -1350,6 +1339,17 @@
         "is_playmaker": false,
         "betweenness": 0.1667,
         "eigenvector": 0.0512
+      },
+      {
+        "id": "Steven Whittaker",
+        "short": "Whittaker",
+        "name": "Steven Whittaker",
+        "x": 69.08,
+        "y": 68.99,
+        "size": 61.6,
+        "is_playmaker": false,
+        "betweenness": 0.3333,
+        "eigenvector": 0.0893
       }
     ],
     "edges": [
@@ -1463,15 +1463,15 @@
       },
       {
         "source": "Nathan Redmond",
-        "target": "Steven Whittaker",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Nathan Redmond",
         "target": "Wes Hoolahan",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Nathan Redmond",
+        "target": "Steven Whittaker",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Russell Martin",
@@ -1498,18 +1498,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Steven Whittaker",
-        "target": "Graham Dorrans",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Steven Whittaker",
-        "target": "Nathan Redmond",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Wes Hoolahan",
         "target": "Cameron Jerome",
         "weight": 1,
@@ -1520,6 +1508,18 @@
         "target": "Nathan Redmond",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Steven Whittaker",
+        "target": "Graham Dorrans",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
+        "source": "Steven Whittaker",
+        "target": "Nathan Redmond",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },

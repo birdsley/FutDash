@@ -983,17 +983,6 @@
         "eigenvector": 0.375
       },
       {
-        "id": "Gianluigi Donnarumma",
-        "short": "Donnarumma",
-        "name": "Gianluigi Donnarumma",
-        "x": 15.54,
-        "y": 44.3,
-        "size": 57.2,
-        "is_playmaker": false,
-        "betweenness": 0.1815,
-        "eigenvector": 0.0154
-      },
-      {
         "id": "Nordi Mukiele Mulere",
         "short": "Mukiele",
         "name": "Nordi Mukiele",
@@ -1003,6 +992,17 @@
         "is_playmaker": false,
         "betweenness": 0.1889,
         "eigenvector": 0.0101
+      },
+      {
+        "id": "Gianluigi Donnarumma",
+        "short": "Donnarumma",
+        "name": "Gianluigi Donnarumma",
+        "x": 15.54,
+        "y": 44.3,
+        "size": 57.2,
+        "is_playmaker": false,
+        "betweenness": 0.1815,
+        "eigenvector": 0.0154
       }
     ],
     "edges": [
@@ -1175,18 +1175,6 @@
         "direction": "backward"
       },
       {
-        "source": "Gianluigi Donnarumma",
-        "target": "Sergio Ramos García",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Gianluigi Donnarumma",
-        "target": "Marcos Aoás Corrêa",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
         "source": "Nordi Mukiele Mulere",
         "target": "Danilo Luís Hélio Pereira",
         "weight": 1,
@@ -1197,6 +1185,18 @@
         "target": "Vitor Machado Ferreira",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Gianluigi Donnarumma",
+        "target": "Sergio Ramos García",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Gianluigi Donnarumma",
+        "target": "Marcos Aoás Corrêa",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
@@ -1291,17 +1291,6 @@
         "eigenvector": 0.3122
       },
       {
-        "id": "Alban Lafont",
-        "short": "Lafont",
-        "name": "Alban Lafont",
-        "x": 12.79,
-        "y": 48.65,
-        "size": 60.7,
-        "is_playmaker": false,
-        "betweenness": 0.0,
-        "eigenvector": 0.0193
-      },
-      {
         "id": "Jean-Charles Castelletto",
         "short": "Castelletto",
         "name": "Jean-Charles Castelletto",
@@ -1322,6 +1311,17 @@
         "is_playmaker": false,
         "betweenness": 0.1111,
         "eigenvector": 0.0278
+      },
+      {
+        "id": "Alban Lafont",
+        "short": "Lafont",
+        "name": "Alban Lafont",
+        "x": 12.79,
+        "y": 48.65,
+        "size": 60.7,
+        "is_playmaker": false,
+        "betweenness": 0.0,
+        "eigenvector": 0.0193
       }
     ],
     "edges": [
@@ -1345,15 +1345,15 @@
       },
       {
         "source": "Andrei Girotto",
-        "target": "Alban Lafont",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
-        "source": "Andrei Girotto",
         "target": "Jean-Charles Castelletto",
         "weight": 1,
         "direction": "lateral"
+      },
+      {
+        "source": "Andrei Girotto",
+        "target": "Alban Lafont",
+        "weight": 1,
+        "direction": "backward"
       },
       {
         "source": "Nicolas Pallois",
@@ -1470,24 +1470,6 @@
         "direction": "lateral"
       },
       {
-        "source": "Alban Lafont",
-        "target": "Andrei Girotto",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Alban Lafont",
-        "target": "Jean-Charles Castelletto",
-        "weight": 1,
-        "direction": "forward"
-      },
-      {
-        "source": "Jean-Charles Castelletto",
-        "target": "Alban Lafont",
-        "weight": 1,
-        "direction": "backward"
-      },
-      {
         "source": "Jean-Charles Castelletto",
         "target": "Fabien Centonze",
         "weight": 1,
@@ -1500,6 +1482,12 @@
         "direction": "lateral"
       },
       {
+        "source": "Jean-Charles Castelletto",
+        "target": "Alban Lafont",
+        "weight": 1,
+        "direction": "backward"
+      },
+      {
         "source": "Ignatius Kpene Ganago",
         "target": "Ludovic Blas",
         "weight": 1,
@@ -1510,6 +1498,18 @@
         "target": "Florent Mollet",
         "weight": 1,
         "direction": "backward"
+      },
+      {
+        "source": "Alban Lafont",
+        "target": "Andrei Girotto",
+        "weight": 1,
+        "direction": "forward"
+      },
+      {
+        "source": "Alban Lafont",
+        "target": "Jean-Charles Castelletto",
+        "weight": 1,
+        "direction": "forward"
       }
     ]
   },
