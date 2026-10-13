@@ -340,7 +340,7 @@ export default function MatchDashboard() {
               { label: 'Goals',      h: meta.score_home,                  a: meta.score_away },
               { label: 'xG',         h: (meta.xg_home ?? 0).toFixed(2),  a: (meta.xg_away ?? 0).toFixed(2) },
               { label: 'Shots',      h: meta.shots_home,                  a: meta.shots_away },
-              { label: 'Possession', h: `${meta.possession_home}%`,       a: `${100 - meta.possession_home}%` },
+              { label: 'Possession', h: `${meta.possession_home}%`,       a: `${+(100 - meta.possession_home).toFixed(1)}%` },
             ] as const).map(({ label, h, a }) => (
               <div key={label}
                 style={{ display: 'grid', gridTemplateColumns: '1fr 80px 1fr', alignItems: 'center', gap: 8 }}>
