@@ -1163,6 +1163,108 @@ def plot_game_state(ax,me,home,away):
 
 
 # ─────────────────────────────────────────────────────────────────
+# 360 POSSESSION PHASES
+# ─────────────────────────────────────────────────────────────────
+_PHASE_SKIP_TYPES = {"Half Start", "Half End", "Substitution", "Starting XI", "Tactical Shift"}
+_PHASE_COLS, _PHASE_ROWS = 24, 16          # 5-yard cells over 120 x 80
+_PHASE_MIN_FRAMES = 50
+_PHASE_MIN_DEFENDERS = 7
+
+
+def compute_possession_phases(me, home, away, base_path, match_id):
+    """
+    Defensive shape of each team while the other has the ball, from StatsBomb
+    360 freeze frames. Returns None when the match has no 360 file or the
+    frames fail the sanity checks, so the caller can omit the key entirely.
+
+    Freeze-frame coordinates are in the event team's attacking-right frame and
+    `teammate` is relative to the event team. Each frame is re-expressed in the
+    possessing team P's frame (P attacks right, defenders' goal at x = 120).
+    """
+    if not base_path:
+        return None
+    path = os.path.join(base_path, "three-sixty", f"{match_id}.json")
+    if not os.path.exists(path):
+        return None
+    need = {"id", "type.name", "team.name", "possession_team.name", "period", "location"}
+    if not need.issubset(me.columns):
+        print(f"  ⚠  360 phases skipped for {match_id}: events missing {sorted(need - set(me.columns))}")
+        return None
+
+    try:
+        with open(path, encoding="utf-8") as f:
+            frames = {fr["event_uuid"]: fr.get("freeze_frame") or [] for fr in json.load(f)}
+    except (ValueError, KeyError, TypeError) as e:
+        # A broken 360 file must not cost the match its whole export.
+        print(f"  ⚠  360 phases skipped for {match_id}: unreadable 360 file ({e})")
+        return None
+
+    ev = me[me["period"].isin([1, 2, 3, 4])
+            & ~me["type.name"].isin(_PHASE_SKIP_TYPES)
+            & me["id"].isin(frames.keys())]
+
+    # Sanity check: the actor's frame position should be the event location.
+    dists = []
+    for eid, loc in zip(ev["id"], ev["location"]):
+        if not isinstance(loc, list) or len(loc) < 2:
+            continue
+        actor = next((p for p in frames[eid] if p.get("actor")), None)
+        if actor:
+            ax_, ay_ = actor["location"][:2]
+            dists.append(float(np.hypot(ax_ - loc[0], ay_ - loc[1])))
+    if not dists or float(np.median(dists)) >= 1.0:
+        med = f"{np.median(dists):.2f}" if dists else "n/a"
+        print(f"  ⚠  360 phases skipped for {match_id}: actor/event median distance {med} yds")
+        return None
+
+    out = {"available": True, "source": "statsbomb-360",
+           "grid": {"cols": _PHASE_COLS, "rows": _PHASE_ROWS}}
+    for key, P in (("home_possession", home), ("away_possession", away)):
+        heat = np.zeros((_PHASE_ROWS, _PHASE_COLS))
+        lines, widths, depths = [], [], []
+        n_frames = 0
+        sub = ev[ev["possession_team.name"] == P]
+        for eid, eteam in zip(sub["id"], sub["team.name"]):
+            own = eteam == P
+            defenders = []
+            for p in frames[eid]:
+                if p.get("keeper"):
+                    continue
+                belongs_p = p.get("teammate") if own else not p.get("teammate")
+                if belongs_p:
+                    continue
+                x, y = p["location"][:2]
+                if not own:                       # defender's orientation -> P's frame
+                    x, y = 120.0 - x, 80.0 - y
+                defenders.append((x, y))
+            if not defenders:
+                continue
+            n_frames += 1
+            for x, y in defenders:
+                c = min(max(int(x // 5), 0), _PHASE_COLS - 1)
+                r = min(max(int(y // 5), 0), _PHASE_ROWS - 1)
+                heat[r, c] += 1
+            if len(defenders) >= _PHASE_MIN_DEFENDERS:
+                xs = np.array([d[0] for d in defenders]); ys = np.array([d[1] for d in defenders])
+                lines.append(120.0 - float(np.sort(xs)[-4:].mean()))
+                widths.append(float(ys.max() - ys.min()))
+                depths.append(float(xs.max() - xs.min()))
+        if n_frames < _PHASE_MIN_FRAMES or not lines:
+            print(f"  ⚠  360 phases skipped for {match_id}: only {n_frames} usable frames for {P}")
+            return None
+        peak = heat.max()
+        out[key] = {
+            "n_frames": n_frames,
+            "n_frames_shape": len(lines),
+            "defense_heat": [round(float(v), 3) for v in (heat / peak).ravel()],
+            "line_height": round(float(np.median(lines)), 1),
+            "width": round(float(np.median(widths)), 1),
+            "depth": round(float(np.median(depths)), 1),
+        }
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────
 # v9 NEW: JSON SIDECAR EXPORT
 # ─────────────────────────────────────────────────────────────────
 def export_match_json(me, match_id, home, away, vaep_df, output_dir,
@@ -1537,6 +1639,9 @@ def export_match_json(me, match_id, home, away, vaep_df, output_dir,
     payload={"meta":meta,"xg_flow":xg_flow,"shots":shots_out,"own_goals":own_goals_out,
              "network_home":network_home,"network_away":network_away,
              "vaep":vaep_out,"game_state":game_state_out,"insights":insights}
+    phases = compute_possession_phases(me, home, away, _base_path, _used_mid)
+    if phases is not None:
+        payload["phases"] = phases
 
     with open(out_path,"w",encoding="utf-8") as f:
         json.dump(payload,f,ensure_ascii=False,indent=2)
